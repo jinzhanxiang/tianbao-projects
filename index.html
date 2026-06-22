@@ -4,47 +4,74 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>天保控股项目报告中心 · TianBao Investment Hub</title>
+
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif;color:#1a202c;background:linear-gradient(180deg,#f7fafc 0%,#edf2f7 100%);line-height:1.8;font-size:16px;min-height:100vh}
-.hero{background:linear-gradient(135deg,#0f1e3d 0%,#1a365d 50%,#2d3748 100%);color:#fff;padding:64px 20px 56px;text-align:center;position:relative;overflow:hidden}
+.hero{background:linear-gradient(135deg,#0f1e3d 0%,#1a365d 50%,#2d3748 100%);color:#fff;padding:56px 20px 48px;text-align:center;position:relative;overflow:hidden}
 .hero::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(circle at 30% 50%,rgba(56,161,105,.15),transparent 50%),radial-gradient(circle at 70% 50%,rgba(49,130,206,.15),transparent 50%)}
 .hero-content{position:relative;z-index:1;max-width:900px;margin:0 auto}
-.hero-badge{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#cbd5e0;font-size:13px;padding:4px 14px;border-radius:20px;margin-bottom:16px;letter-spacing:1px}
-.hero h1{font-size:36px;margin-bottom:14px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:600}
-.hero p{color:rgba(255,255,255,.7);font-size:15px;margin-top:8px}
-.hero-meta{display:flex;justify-content:center;gap:32px;margin-top:24px;flex-wrap:wrap}
+.hero-badge{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#cbd5e0;font-size:12px;padding:4px 14px;border-radius:20px;margin-bottom:14px;letter-spacing:1px}
+.hero h1{font-size:34px;margin-bottom:12px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:600}
+.hero p{color:rgba(255,255,255,.7);font-size:15px;margin-top:6px}
+.hero-meta{display:flex;justify-content:center;gap:28px;margin-top:20px;flex-wrap:wrap}
 .hero-meta .meta-item{color:rgba(255,255,255,.85);font-size:14px}
-.hero-meta .meta-item strong{color:#fff;font-size:18px;display:block;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
-.container{max-width:1100px;margin:0 auto;padding:40px 20px 60px}
-.section{margin-bottom:48px}
-.section-title{font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-size:13px;font-weight:600;color:#4a5568;text-transform:uppercase;letter-spacing:2px;margin-bottom:20px;padding-left:14px;border-left:4px solid #1a365d}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
-.card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.06);padding:24px 26px;transition:all .25s;cursor:pointer;text-decoration:none;color:inherit;display:block;border:1px solid transparent}
+.hero-meta .meta-item strong{color:#fff;font-size:17px;display:block;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+.container{max-width:1100px;margin:0 auto;padding:36px 20px 60px}
+.search-bar{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.06);padding:20px 24px;margin-bottom:24px;display:flex;flex-direction:column;gap:14px}
+.search-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.search-input-wrap{flex:1;min-width:200px;position:relative}
+.search-input-wrap input{width:100%;padding:10px 16px 10px 40px;border:1px solid #e2e8f0;border-radius:8px;font-size:15px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;color:#1a202c;background:#f7fafc;transition:border-color .2s;box-sizing:border-box}
+.search-input-wrap input:focus{outline:none;border-color:#3182ce;background:#fff;box-shadow:0 0 0 3px rgba(49,130,206,.1)}
+.search-input-wrap::before{content:"🔍";position:absolute;left:12px;top:50%;transform:translateY(-50%);font-size:14px}
+.search-input-wrap .clear-btn{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;color:#a0aec0;cursor:pointer;font-size:16px;display:none;padding:4px;line-height:1}
+.search-input-wrap .clear-btn.visible{display:block}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filter-label{font-size:13px;color:#718096;white-space:nowrap;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+.filter-btn{padding:5px 14px;border-radius:20px;border:1px solid #e2e8f0;background:#fff;color:#4a5568;font-size:13px;cursor:pointer;transition:all .15s;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+.filter-btn:hover{background:#edf2f7;border-color:#cbd5e0}
+.filter-btn.active{background:#1a365d;color:#fff;border-color:#1a365d}
+.filter-btn .cat-count{background:rgba(255,255,255,.2);border-radius:10px;padding:0 5px;font-size:11px;margin-left:4px}
+.filter-btn:not(.active) .cat-count{background:#edf2f7;color:#4a5568}
+.tag-btn{font-size:12px;padding:4px 10px;background:#f7fafc}
+.tag-btn.active{background:#553c9a;color:#fff;border-color:#553c9a}
+.result-bar{font-size:13px;color:#a0aec0;padding:0 4px}
+.result-bar .kw{color:#1a365d;font-weight:600}
+.section{margin-bottom:40px}
+.section-title{font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-size:12px;font-weight:600;color:#4a5568;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px;padding-left:12px;border-left:4px solid #1a365d;display:flex;justify-content:space-between;align-items:center}
+.section-title .sec-count{background:#edf2f7;color:#4a5568;border-radius:10px;padding:1px 8px;font-size:11px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}
+.card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.06);padding:22px 24px;transition:all .25s;cursor:pointer;text-decoration:none;color:inherit;display:block;border:1px solid transparent}
 .card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(26,54,93,.12);border-color:#cbd5e0}
-.card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}
-.card h3{font-size:19px;color:#1a365d;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:600;flex:1;line-height:1.4}
-.status-badge{display:inline-block;font-size:11px;padding:3px 9px;border-radius:10px;color:#fff;white-space:nowrap;font-weight:500;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
-.tag{display:inline-block;background:#edf2f7;color:#4a5568;font-size:12px;padding:2px 10px;border-radius:10px;margin-right:6px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
-.card-desc{color:#4a5568;font-size:14px;line-height:1.7;margin:10px 0 14px;min-height:60px}
-.card-footer{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#a0aec0;padding-top:12px;border-top:1px solid #f1f5f9}
+.card.hidden{display:none}
+.card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px}
+.card h3{font-size:18px;color:#1a365d;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:600;flex:1;line-height:1.4}
+.status-badge{display:inline-block;font-size:11px;padding:3px 9px;border-radius:10px;color:#fff;white-space:nowrap;font-weight:500;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;flex-shrink:0}
+.tag{display:inline-block;background:#edf2f7;color:#4a5568;font-size:12px;padding:2px 9px;border-radius:10px;margin-right:5px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+.card-desc{color:#4a5568;font-size:14px;line-height:1.65;margin:8px 0 12px;min-height:52px}
+.card-footer{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#a0aec0;padding-top:10px;border-top:1px solid #f1f5f9}
 .card-footer .arrow{color:#3182ce;font-size:14px;font-weight:600}
-.toolbar{display:flex;gap:12px;justify-content:center;margin:24px 0 40px;flex-wrap:wrap}
-.btn{padding:10px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;transition:all .2s;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;display:inline-flex;align-items:center;gap:6px}
+.no-result{text-align:center;padding:60px 20px;color:#a0aec0;font-size:16px;display:none}
+.no-result.visible{display:block}
+.no-result .emoji{font-size:48px;margin-bottom:16px}
+.toolbar{display:flex;gap:10px;justify-content:center;margin:32px 0 0;flex-wrap:wrap}
+.btn{padding:9px 20px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;transition:all .2s;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;display:inline-flex;align-items:center;gap:6px}
 .btn-primary{background:#1a365d;color:#fff}
 .btn-primary:hover{background:#2d3748}
 .btn-secondary{background:#fff;color:#1a365d;border:1px solid #cbd5e0}
 .btn-secondary:hover{background:#edf2f7}
-.footer{text-align:center;color:#a0aec0;font-size:13px;margin-top:48px;padding:24px 20px;border-top:1px solid #e2e8f0}
+.footer{text-align:center;color:#a0aec0;font-size:13px;margin-top:44px;padding:20px 20px;border-top:1px solid #e2e8f0}
 .footer p{margin:4px 0}
-@media (max-width:600px){
-  .hero{padding:48px 16px 40px}
+@media(max-width:600px){
+  .hero{padding:44px 16px 36px}
   .hero h1{font-size:26px}
-  .hero-meta{gap:20px}
+  .hero-meta{gap:18px}
   .grid{grid-template-columns:1fr}
-  .card{padding:20px 22px}
+  .search-row{flex-direction:column}
+  .search-input-wrap{min-width:unset;width:100%}
 }
 </style>
+
 </head>
 <body>
 <div class="hero">
@@ -54,112 +81,255 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
     <p>并购大项目 · 行业研究 · 内部工具 · 一站式访问入口</p>
     <div class="hero-meta">
       <div class="meta-item"><strong>5</strong>个项目</div>
-      <div class="meta-item"><strong>10</strong>份在线文档</div>
-      <div class="meta-item"><strong>2026-06-22</strong>更新</div>
+      <div class="meta-item"><strong>10</strong>份文档</div>
+      <div class="meta-item"><strong>2026-06-22 14:18</strong>更新</div>
     </div>
   </div>
 </div>
 
 <div class="container">
+  <div class="search-bar">
+    <div class="search-row">
+      <div class="search-input-wrap">
+        <input type="text" id="searchInput" placeholder="搜索项目名称、标签或描述..." autocomplete="off">
+        <button class="clear-btn" id="clearBtn" onclick="clearSearch()">×</button>
+      </div>
+      <span class="result-bar" id="resultBar"></span>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">分类：</span>
+      <button class="filter-btn active" data-cat="all" onclick="toggleCat('all', this)">全部</button>
+          <button class="filter-btn" data-cat="deal" onclick="toggleCat('deal', this)">并购大项目 <span class="cat-count">2</span></button>
+          <button class="filter-btn" data-cat="viz" onclick="toggleCat('viz', this)">知识图谱与可视化 <span class="cat-count">2</span></button>
+          <button class="filter-btn" data-cat="internal" onclick="toggleCat('internal', this)">内部工具与文档 <span class="cat-count">1</span></button>
+          
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">标签：</span>
+          <button class="filter-btn tag-btn" data-tag="AI 光互联" onclick="toggleTag('AI 光互联', this)">AI 光互联</button>
+          <button class="filter-btn tag-btn" data-tag="Micro-LED" onclick="toggleTag('Micro-LED', this)">Micro-LED</button>
+          <button class="filter-btn tag-btn" data-tag="动力电池" onclick="toggleTag('动力电池', this)">动力电池</button>
+          <button class="filter-btn tag-btn" data-tag="新能源" onclick="toggleTag('新能源', this)">新能源</button>
+          <button class="filter-btn tag-btn" data-tag="3D" onclick="toggleTag('3D', this)">3D</button>
+          <button class="filter-btn tag-btn" data-tag="Three.js" onclick="toggleTag('Three.js', this)">Three.js</button>
+          <button class="filter-btn tag-btn" data-tag="环形" onclick="toggleTag('环形', this)">环形</button>
+          <button class="filter-btn tag-btn" data-tag="渐进加载" onclick="toggleTag('渐进加载', this)">渐进加载</button>
+          <button class="filter-btn tag-btn" data-tag="内部" onclick="toggleTag('内部', this)">内部</button>
+          <button class="filter-btn tag-btn" data-tag="需求" onclick="toggleTag('需求', this)">需求</button>
+          
+    </div>
+  </div>
 
 
-  <div class="section">
-    <div class="section-title">并购大项目 · 2 项</div>
-    <div class="grid">
-        <a class="card" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank" rel="noopener">
+    <div class="section" id="sec-deal" data-cat="deal">
+      <div class="section-title">并购大项目 · <span class="sec-count">2</span> 项</div>
+      <div class="grid">
+        <a class="card" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank" rel="noopener"
+           data-cat="deal" data-name="元旭半导体（Innoshine）" data-tag="AI 光互联 · Micro-LED" data-desc="Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，今日拜访。">
           <div class="card-header">
             <h3>元旭半导体（Innoshine）</h3>
             <span class="status-badge" style="background:#38a169">拜访进行中</span>
           </div>
-          <div>
-            <span class="tag">AI 光互联 · Micro-LED</span>
-          </div>
-          <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。已收到本轮融资 BP（2亿元），今日拜访。</div>
+          <div><span class="tag">AI 光互联 · Micro-LED</span></div>
+          <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，今日拜访。</div>
           <div class="card-footer">
             <span>📅 更新于 2026-06-22</span>
             <span class="arrow">访问 →</span>
           </div>
         </a>
-        <a class="card" href="https://jinzhanxiang.github.io/xingheng-report/" target="_blank" rel="noopener">
+        <a class="card" href="https://jinzhanxiang.github.io/xingheng-report/" target="_blank" rel="noopener"
+           data-cat="deal" data-name="星恒电源" data-tag="动力电池 · 新能源" data-desc="锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。">
           <div class="card-header">
             <h3>星恒电源</h3>
             <span class="status-badge" style="background:#3182ce">尽调完成</span>
           </div>
-          <div>
-            <span class="tag">动力电池 · 新能源</span>
-          </div>
+          <div><span class="tag">动力电池 · 新能源</span></div>
           <div class="card-desc">锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。</div>
           <div class="card-footer">
             <span>📅 更新于 2026-05-30</span>
             <span class="arrow">访问 →</span>
           </div>
         </a>
+      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="section-title">知识图谱与可视化 · 2 项</div>
-    <div class="grid">
-        <a class="card" href="https://jinzhanxiang.github.io/kg-viz-3d/" target="_blank" rel="noopener">
+    <div class="section" id="sec-viz" data-cat="viz">
+      <div class="section-title">知识图谱与可视化 · <span class="sec-count">2</span> 项</div>
+      <div class="grid">
+        <a class="card" href="https://jinzhanxiang.github.io/kg-viz-3d/" target="_blank" rel="noopener"
+           data-cat="viz" data-name="知识图谱 3D 星云可视化" data-tag="3D · Three.js" data-desc="实体关系图谱的 3D 立体呈现，支持交互式探索、星云布局、深度缩放。">
           <div class="card-header">
             <h3>知识图谱 3D 星云可视化</h3>
             <span class="status-badge" style="background:#38a169">已部署</span>
           </div>
-          <div>
-            <span class="tag">3D · Three.js</span>
-          </div>
+          <div><span class="tag">3D · Three.js</span></div>
           <div class="card-desc">实体关系图谱的 3D 立体呈现，支持交互式探索、星云布局、深度缩放。</div>
           <div class="card-footer">
             <span>📅 更新于 2026-06-21</span>
             <span class="arrow">访问 →</span>
           </div>
         </a>
-        <a class="card" href="https://jinzhanxiang.github.io/kg-viz/" target="_blank" rel="noopener">
+        <a class="card" href="https://jinzhanxiang.github.io/kg-viz/" target="_blank" rel="noopener"
+           data-cat="viz" data-name="知识图谱分层可视化系统 v3" data-tag="环形 · 渐进加载" data-desc="环形行业全景图，分层展示 + 实体详情联动，支持大数据量渐进渲染。">
           <div class="card-header">
             <h3>知识图谱分层可视化系统 v3</h3>
             <span class="status-badge" style="background:#38a169">已部署</span>
           </div>
-          <div>
-            <span class="tag">环形 · 渐进加载</span>
-          </div>
+          <div><span class="tag">环形 · 渐进加载</span></div>
           <div class="card-desc">环形行业全景图，分层展示 + 实体详情联动，支持大数据量渐进渲染。</div>
           <div class="card-footer">
             <span>📅 更新于 2026-06-21</span>
             <span class="arrow">访问 →</span>
           </div>
         </a>
+      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="section-title">内部工具与文档 · 1 项</div>
-    <div class="grid">
-        <a class="card" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank" rel="noopener">
+    <div class="section" id="sec-internal" data-cat="internal">
+      <div class="section-title">内部工具与文档 · <span class="sec-count">1</span> 项</div>
+      <div class="grid">
+        <a class="card" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank" rel="noopener"
+           data-cat="internal" data-name="OA 系统需求文档" data-tag="内部 · 需求" data-desc="天保控股 OA 系统升级需求梳理。">
           <div class="card-header">
             <h3>OA 系统需求文档</h3>
             <span class="status-badge" style="background:#38a169">已部署</span>
           </div>
-          <div>
-            <span class="tag">内部 · 需求</span>
-          </div>
+          <div><span class="tag">内部 · 需求</span></div>
           <div class="card-desc">天保控股 OA 系统升级需求梳理。</div>
           <div class="card-footer">
             <span>📅 更新于 2026-06-05</span>
             <span class="arrow">访问 →</span>
           </div>
         </a>
+      </div>
     </div>
+
+  <div class="no-result" id="noResult">
+    <div class="emoji">🔍</div>
+    <div>未找到匹配的项目</div>
+    <div style="font-size:14px;margin-top:8px">尝试调整关键词或筛选条件</div>
   </div>
 
   <div class="toolbar">
     <a class="btn btn-primary" href="https://github.com/jinzhanxiang" target="_blank" rel="noopener">⭐ GitHub 主页</a>
-    <a class="btn btn-secondary" href="javascript:window.location.reload()">🔄 刷新目录</a>
+    <a class="btn btn-secondary" href="javascript:window.location.reload()">🔄 重置筛选</a>
   </div>
-
 </div>
 
 <div class="footer">
   <p><strong>天保控股集团有限公司 · 投资管理部</strong></p>
-  <p>Project Investment Management Hub · 部署于 GitHub Pages（永久免费托管）</p>
-  <p>最后更新：2026-06-22 14:03</p>
+  <p>Project Investment Management Hub · GitHub Pages 永久托管</p>
+  <p>最后更新：2026-06-22 14:18</p>
 </div>
+
+
+<script>
+// ========== 搜索 + 筛选 ==========
+const TOTAL = 5;
+const searchInput = document.getElementById('searchInput');
+const clearBtn = document.getElementById('clearBtn');
+const resultBar = document.getElementById('resultBar');
+const noResult = document.getElementById('noResult');
+const allCards = document.querySelectorAll('.card');
+
+let activeCats = new Set(['all']);
+let activeTags = new Set();
+let searchKw = '';
+
+searchInput.addEventListener('input', function() {
+  searchKw = this.value.trim().toLowerCase();
+  clearBtn.classList.toggle('visible', searchKw.length > 0);
+  applyFilters();
+});
+
+function clearSearch() {
+  searchInput.value = '';
+  searchKw = '';
+  clearBtn.classList.remove('visible');
+  applyFilters();
+}
+
+function toggleCat(cat, btn) {
+  if (cat === 'all') {
+    activeCats.clear();
+    activeCats.add('all');
+    document.querySelectorAll('.filter-btn[data-cat]').forEach(function(b){b.classList.remove('active')});
+    btn.classList.add('active');
+  } else {
+    if (activeCats.has('all')) {
+      activeCats.delete('all');
+      document.querySelector('.filter-btn[data-cat="all"]').classList.remove('active');
+    }
+    if (activeCats.has(cat)) {
+      activeCats.delete(cat);
+      btn.classList.remove('active');
+      if (activeCats.size === 0) {
+        activeCats.add('all');
+        document.querySelector('.filter-btn[data-cat="all"]').classList.add('active');
+      }
+    } else {
+      activeCats.add(cat);
+      btn.classList.add('active');
+    }
+  }
+  applyFilters();
+}
+
+function toggleTag(tag, btn) {
+  if (activeTags.has(tag)) {
+    activeTags.delete(tag);
+    btn.classList.remove('active');
+  } else {
+    activeTags.add(tag);
+    btn.classList.add('active');
+  }
+  applyFilters();
+}
+
+function applyFilters() {
+  var visibleCount = 0;
+
+  allCards.forEach(function(card) {
+    var cardCats = card.getAttribute('data-cat');
+    var cardName = card.getAttribute('data-name').toLowerCase();
+    var cardTag = card.getAttribute('data-tag').toLowerCase();
+    var cardDesc = card.getAttribute('data-desc').toLowerCase();
+
+    var catMatch = activeCats.has('all') || activeCats.has(cardCats);
+    var tagMatch = activeTags.size === 0 || Array.from(activeTags).every(function(t){
+      return cardTag.indexOf(t) !== -1 || cardName.indexOf(t) !== -1;
+    });
+    var kwMatch = !searchKw ||
+      cardName.indexOf(searchKw) !== -1 ||
+      cardTag.indexOf(searchKw) !== -1 ||
+      cardDesc.indexOf(searchKw) !== -1;
+
+    var show = catMatch && tagMatch && kwMatch;
+    if (show) { card.classList.remove('hidden'); visibleCount++; }
+    else { card.classList.add('hidden'); }
+  });
+
+  document.querySelectorAll('.section').forEach(function(sec) {
+    var cat = sec.getAttribute('data-cat');
+    var catMatch = activeCats.has('all') || activeCats.has(cat);
+    sec.style.display = catMatch ? '' : 'none';
+    if (catMatch) {
+      var secCount = sec.querySelector('.sec-count');
+      if (secCount) secCount.textContent = sec.querySelectorAll('.card:not(.hidden)').length;
+    }
+  });
+
+  noResult.classList.toggle('visible', visibleCount === 0);
+
+  if (searchKw || activeTags.size > 0 || !activeCats.has('all')) {
+    resultBar.innerHTML = '找到 <span class="kw">' + visibleCount + '</span> / ' + TOTAL + ' 个项目';
+  } else {
+    resultBar.innerHTML = '';
+  }
+}
+
+searchInput.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') clearSearch();
+});
+</script>
+
 </body>
 </html>
