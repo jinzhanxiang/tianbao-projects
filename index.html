@@ -3,7 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#1a365d">
+<script>
+// 自动跳转到移动版（如果是移动设备）
+(function(){
+  var ua = navigator.userAgent;
+  var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua);
+  // 主公主公 iPad 视为桌面（注释掉这条限制就全跳）
+  // if (/iPad/i.test(ua)) isMobile = false;
+  if (isMobile && !window.location.pathname.endsWith('/m.html') && window.location.search.indexOf('desktop=1') === -1) {
+    // 用 location.replace 避免后退按钮
+    window.location.replace('./m.html' + window.location.search);
+  }
+})();
+</script>
 <title>天保控股项目报告中心 · TianBao Investment Hub</title>
 
 <style>
