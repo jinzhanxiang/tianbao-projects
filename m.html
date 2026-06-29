@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#1a365d">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>天保控股项目报告中心</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+  --c-bg:#f7fafc;
+  --c-text:#1a202c;
+  --c-text2:#4a5568;
+  --c-muted:#718096;
+  --c-accent:#1a365d;
+  --c-warning:#d69e2e;
+  --c-blue:#3182ce;
+  --c-success:#38a169;
+  --c-border:#e2e8f0;
+}
+html{font-size:17px;-webkit-text-size-adjust:100%}
+body{
+  font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+  color:var(--c-text);background:var(--c-bg);
+  line-height:1.6;font-size:15px;
+  padding-bottom:env(safe-area-inset-bottom,0);
+  margin:0;
+}
+
+/* ========== Header ========== */
+.header{
+  background:linear-gradient(135deg,#0f1e3d 0%,#1a365d 100%);
+  color:#fff;
+  padding:20px 16px 24px;
+  padding-top:calc(20px + env(safe-area-inset-top, 0px));
+}
+.header-badge{
+  display:inline-block;
+  background:rgba(255,255,255,.15);
+  border:1px solid rgba(255,255,255,.25);
+  color:#cbd5e0;
+  font-size:10px;
+  padding:3px 10px;
+  border-radius:10px;
+  letter-spacing:.5px;
+  margin-bottom:10px;
+}
+.header h1{
+  font-size:22px;
+  font-weight:600;
+  margin-bottom:6px;
+  line-height:1.3;
+}
+.header p{
+  color:rgba(255,255,255,.75);
+  font-size:13px;
+  margin-bottom:14px;
+}
+.header-stats{
+  display:flex;
+  gap:20px;
+  font-size:11px;
+  color:rgba(255,255,255,.7);
+}
+.header-stats strong{
+  display:block;
+  font-size:16px;
+  color:#fff;
+  margin-bottom:1px;
+}
+
+/* ========== Search ========== */
+.search-section{
+  background:#fff;
+  padding:14px 14px 12px;
+  border-bottom:1px solid var(--c-border);
+  position:sticky;
+  top:0;
+  z-index:10;
+  box-shadow:0 2px 8px rgba(0,0,0,.04);
+}
+.search-input-wrap{
+  position:relative;
+  margin-bottom:12px;
+}
+.search-input-wrap::before{
+  content:"🔍";
+  position:absolute;
+  left:12px;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:14px;
+  z-index:1;
+}
+.search-input-wrap input{
+  width:100%;
+  padding:13px 40px 13px 40px;
+  border:1px solid var(--c-border);
+  border-radius:10px;
+  font-size:16px;
+  background:#f7fafc;
+  color:var(--c-text);
+  outline:none;
+  -webkit-appearance:none;
+}
+.search-input-wrap input:focus{
+  border-color:var(--c-blue);
+  background:#fff;
+  box-shadow:0 0 0 3px rgba(49,130,206,.1);
+}
+.search-input-wrap .clear-btn{
+  position:absolute;
+  right:8px;
+  top:50%;
+  transform:translateY(-50%);
+  background:#e2e8f0;
+  border:none;
+  color:var(--c-text2);
+  width:24px;
+  height:24px;
+  border-radius:12px;
+  font-size:14px;
+  line-height:1;
+  display:none;
+  align-items:center;
+  justify-content:center;
+}
+.search-input-wrap .clear-btn.visible{display:flex}
+
+/* ========== Filter Pills (横向滑动) ========== */
+.filter-section{
+  background:#fff;
+  padding:0 14px 14px;
+  border-bottom:1px solid var(--c-border);
+}
+.cat-row, .tag-row{
+  display:flex;
+  gap:6px;
+  overflow-x:auto;
+  padding:0 0 4px 0;
+  margin:8px 0 0;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.cat-row::-webkit-scrollbar, .tag-row::-webkit-scrollbar{display:none}
+.pill{
+  flex-shrink:0;
+  padding:6px 12px;
+  border-radius:14px;
+  border:1px solid var(--c-border);
+  background:#fff;
+  color:var(--c-text2);
+  font-size:12px;
+  font-weight:500;
+  cursor:pointer;
+  white-space:nowrap;
+}
+.pill.active{background:var(--c-accent);color:#fff;border-color:var(--c-accent)}
+.pill.tag-pill{font-size:11px;padding:5px 10px;color:var(--c-text2)}
+.pill.tag-pill.active{background:#553c9a;color:#fff;border-color:#553c9a}
+.pill .count{
+  background:rgba(255,255,255,.2);
+  border-radius:8px;
+  padding:0 5px;
+  font-size:10px;
+  margin-left:3px;
+}
+.pill:not(.active) .count{background:#edf2f7}
+.row-label{
+  font-size:11px;
+  color:var(--c-muted);
+  margin-bottom:6px;
+  display:block;
+  margin-top:6px;
+}
+
+/* ========== Sections ========== */
+.section{padding:14px 14px 6px}
+.section-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:10px;
+  padding:0 4px;
+}
+.section-title{
+  font-size:11px;
+  font-weight:700;
+  color:var(--c-text2);
+  text-transform:uppercase;
+  letter-spacing:1px;
+  border-left:3px solid var(--c-accent);
+  padding-left:8px;
+  flex:1;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.section-title.reserve{border-left-color:var(--c-warning);color:#7b341e}
+.section-title .count{
+  background:#edf2f7;
+  color:var(--c-text2);
+  border-radius:8px;
+  padding:1px 7px;
+  font-size:10px;
+  margin-left:6px;
+  font-weight:600;
+}
+.section-title.reserve .count{background:#fef5e7;color:#7b341e}
+
+/* ========== Card ========== */
+.card{
+  background:#fff;
+  border-radius:12px;
+  padding:14px 14px;
+  margin-bottom:10px;
+  box-shadow:0 1px 4px rgba(0,0,0,.04);
+  border:1px solid var(--c-border);
+  text-decoration:none;
+  color:inherit;
+  display:block;
+  transition:transform .15s, box-shadow .15s;
+}
+.card:active{transform:scale(.98);background:#f7fafc}
+.card.hidden{display:none}
+.card.featured{
+  border:2px solid var(--c-warning);
+  background:linear-gradient(135deg,#fff7ed,#fef5e7);
+  position:relative;
+  overflow:hidden;
+}
+.card.featured::before{
+  content:"⭐";
+  position:absolute;
+  top:-8px;
+  right:-8px;
+  font-size:50px;
+  opacity:.18;
+  transform:rotate(12deg);
+}
+.card-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  margin-bottom:8px;
+  gap:8px;
+}
+.card-title{
+  font-size:16px;
+  font-weight:600;
+  color:var(--c-accent);
+  line-height:1.4;
+  flex:1;
+}
+.card.featured .card-title{color:#7b341e;font-size:17px}
+.status{
+  display:inline-block;
+  font-size:10px;
+  padding:2px 8px;
+  border-radius:8px;
+  color:#fff;
+  white-space:nowrap;
+  font-weight:500;
+  flex-shrink:0;
+}
+.status.total{background:var(--c-warning)}
+.status.done{background:var(--c-blue)}
+.status.deployed{background:var(--c-success)}
+.card-tags{
+  margin-bottom:8px;
+}
+.tag{
+  display:inline-block;
+  background:#edf2f7;
+  color:var(--c-text2);
+  font-size:10px;
+  padding:2px 7px;
+  border-radius:7px;
+  margin-right:4px;
+  margin-bottom:3px;
+}
+.card-desc{
+  font-size:13px;
+  color:var(--c-text2);
+  line-height:1.55;
+  margin-bottom:10px;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.card-footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:11px;
+  color:var(--c-muted);
+  padding-top:8px;
+  border-top:1px solid #f1f5f9;
+}
+.card-arrow{
+  color:var(--c-blue);
+  font-weight:600;
+  font-size:14px;
+}
+
+/* ========== Section End Marker ========== */
+.section-end{
+  font-size:10px;
+  color:var(--c-muted);
+  text-align:center;
+  padding:8px 0 14px;
+  border-bottom:1px solid var(--c-border);
+  margin-bottom:14px;
+}
+.section-end.hidden{border-bottom:none;padding:0}
+
+/* ========== Empty ========== */
+.no-result{
+  text-align:center;
+  padding:60px 20px;
+  color:var(--c-muted);
+  font-size:14px;
+  display:none;
+}
+.no-result.visible{display:block}
+.no-result .emoji{font-size:42px;margin-bottom:14px}
+
+/* ========== Footer ========== */
+.footer{
+  text-align:center;
+  color:var(--c-muted);
+  font-size:11px;
+  padding:24px 16px calc(24px + env(safe-area-inset-bottom, 0px));
+}
+.footer p{margin:4px 0}
+.footer-actions{
+  display:flex;
+  gap:8px;
+  justify-content:center;
+  margin:14px 0;
+}
+.footer-btn{
+  display:inline-block;
+  padding:8px 16px;
+  background:var(--c-accent);
+  color:#fff;
+  border-radius:8px;
+  text-decoration:none;
+  font-size:12px;
+  font-weight:500;
+  border:none;
+  cursor:pointer;
+}
+.footer-btn.warning{background:var(--c-warning)}
+
+/* ========== Result Bar (filters) ========== */
+.result-bar{
+  font-size:11px;
+  color:var(--c-muted);
+  padding:10px 14px 4px;
+  background:#f7fafc;
+  display:none;
+}
+.result-bar.visible{display:block}
+.result-bar .kw{color:var(--c-accent);font-weight:600}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <span class="header-badge">📱 移动版</span>
+  <h1>天保控股项目报告中心</h1>
+  <p>并购大项目 · 储备项目 · 一站式访问</p>
+  <div class="header-stats">
+    <div><strong id="hdrProj">5</strong>个项目</div>
+    <div><strong id="hdrCat">3</strong>个分类</div>
+    <div><strong>06-29</strong>更新</div>
+  </div>
+</div>
+
+<div class="search-section">
+  <div class="search-input-wrap">
+    <input type="text" id="searchInput" placeholder="🔍 搜索项目名称..." autocomplete="off">
+    <button class="clear-btn" id="clearBtn" onclick="clearSearch()">×</button>
+  </div>
+  <span class="row-label">分类</span>
+  <div class="cat-row">
+    <button class="pill active" data-cat="all">全部 <span class="count" id="cntAll">5</span></button>
+    <button class="pill" data-cat="reserve">📊 储备项目 <span class="count" id="cntReserve">2</span></button>
+    <button class="pill" data-cat="deal">并购大项目 <span class="count" id="cntDeal">1</span></button>
+    <button class="pill" data-cat="viz">知识图谱 <span class="count" id="cntViz">2</span></button>
+    <button class="pill" data-cat="internal">内部工具 <span class="count" id="cntInternal">1</span></button>
+  </div>
+</div>
+
+<div class="result-bar" id="resultBar"></div>
+
+<div class="section" data-cat="reserve" id="sec-reserve">
+  <div class="section-header">
+    <div class="section-title reserve">📊 储备项目 <span class="count" id="secCntReserve">2</span></div>
+  </div>
+
+  <a class="card featured" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank" rel="noopener"
+     data-cat="reserve" data-name="储备项目投资分析统一库" data-tag="总入口 7项目" data-desc="7个 Pre-IPO/REITs 储备项目（晶能/柯渡/中复/宏远/联通云IDC/信鸿/迅巢）的统一入口，含8维度横向对比汇总。">
+    <div class="card-header">
+      <div class="card-title">📊 储备项目投资分析统一库</div>
+      <span class="status total">⭐ 总入口</span>
+    </div>
+    <div class="card-tags">
+      <span class="tag">总入口</span><span class="tag">8维度对比</span><span class="tag">Pre-IPO/REITs</span>
+    </div>
+    <div class="card-desc">7个 Pre-IPO/REITs 储备项目（晶能/柯渡/中复/宏远/联通云IDC/信鸿/迅巢）的统一入口，含8维度横向对比汇总。</div>
+    <div class="card-footer">
+      <span>📅 06-29</span>
+      <span class="card-arrow">访问统一库 →</span>
+    </div>
+  </a>
+
+  <a class="card" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank" rel="noopener"
+     data-cat="reserve" data-name="元旭半导体 Innoshine" data-tag="高端制造 Micro-LED" data-desc="Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。">
+    <div class="card-header">
+      <div class="card-title">元旭半导体（Innoshine）</div>
+      <span class="status done">尽调完成</span>
+    </div>
+    <div class="card-tags">
+      <span class="tag">高端制造</span><span class="tag">Micro-LED</span><span class="tag">AI 光互联</span>
+    </div>
+    <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。</div>
+    <div class="card-footer">
+      <span>📅 06-29</span>
+      <span class="card-arrow">访问 →</span>
+    </div>
+  </a>
+</div>
+
+<div class="section" data-cat="deal" id="sec-deal">
+  <div class="section-header">
+    <div class="section-title">并购大项目 <span class="count" id="secCntDeal">1</span></div>
+  </div>
+
+  <a class="card" href="https://jinzhanxiang.github.io/xingheng-report/" target="_blank" rel="noopener"
+     data-cat="deal" data-name="星恒电源" data-tag="动力电池 新能源" data-desc="锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。">
+    <div class="card-header">
+      <div class="card-title">星恒电源</div>
+      <span class="status done">尽调完成</span>
+    </div>
+    <div class="card-tags">
+      <span class="tag">动力电池</span><span class="tag">新能源</span>
+    </div>
+    <div class="card-desc">锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。</div>
+    <div class="card-footer">
+      <span>📅 05-30</span>
+      <span class="card-arrow">访问 →</span>
+    </div>
+  </a>
+</div>
+
+<div class="section" data-cat="viz" id="sec-viz">
+  <div class="section-header">
+    <div class="section-title">知识图谱与可视化 <span class="count" id="secCntViz">2</span></div>
+  </div>
+
+  <a class="card" href="https://jinzhanxiang.github.io/kg-viz-3d/" target="_blank" rel="noopener"
+     data-cat="viz" data-name="知识图谱 3D 星云" data-tag="3D Three.js" data-desc="实体关系图谱的 3D 立体呈现，支持交互式探索、星云布局、深度缩放。">
+    <div class="card-header">
+      <div class="card-title">知识图谱 3D 星云</div>
+      <span class="status deployed">已部署</span>
+    </div>
+    <div class="card-tags">
+      <span class="tag">3D</span><span class="tag">Three.js</span>
+    </div>
+    <div class="card-desc">实体关系图谱的 3D 立体呈现，支持交互式探索、星云布局、深度缩放。</div>
+    <div class="card-footer">
+      <span>📅 06-21</span>
+      <span class="card-arrow">访问 →</span>
+    </div>
+  </a>
+
+  <a class="card" href="https://jinzhanxiang.github.io/kg-viz/" target="_blank" rel="noopener"
+     data-cat="viz" data-name="知识图谱分层 v3" data-tag="环形 渐进加载" data-desc="环形行业全景图，分层展示 + 实体详情联动，支持大数据量渐进渲染。">
+    <div class="card-header">
+      <div class="card-title">知识图谱分层 v3</div>
+      <span class="status deployed">已部署</span>
+    </div>
+    <div class="card-tags">
+      <span class="tag">环形</span><span class="tag">渐进加载</span>
+    </div>
+    <div class="card-desc">环形行业全景图，分层展示 + 实体详情联动，支持大数据量渐进渲染。</div>
+    <div class="card-footer">
+      <span>📅 06-21</span>
+      <span class="card-arrow">访问 →</span>
+    </div>
+  </a>
+</div>
+
+<div class="section" data-cat="internal" id="sec-internal">
+  <div class="section-header">
+    <div class="section-title">内部工具与文档 <span class="count" id="secCntInternal">1</span></div>
+  </div>
+
+  <a class="card" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank" rel="noopener"
+     data-cat="internal" data-name="OA 系统需求" data-tag="内部 需求" data-desc="天保控股 OA 系统升级需求梳理。">
+    <div class="card-header">
+      <div class="card-title">OA 系统需求文档</div>
+      <span class="status deployed">已部署</span>
+    </div>
+    <div class="card-tags">
+      <span class="tag">内部</span><span class="tag">需求</span>
+    </div>
+    <div class="card-desc">天保控股 OA 系统升级需求梳理。</div>
+    <div class="card-footer">
+      <span>📅 06-05</span>
+      <span class="card-arrow">访问 →</span>
+    </div>
+  </a>
+</div>
+
+<div class="no-result" id="noResult">
+  <div class="emoji">🔍</div>
+  <div>未找到匹配的项目</div>
+</div>
+
+<div class="footer">
+  <p style="font-weight:600;color:var(--c-text2)">天保控股投资管理部</p>
+  <p>Project Hub · GitHub Pages</p>
+  <p>维护：project 代理 + research 代理</p>
+  <div class="footer-actions">
+    <a class="footer-btn warning" href="https://jinzhanxiang.github.io/7projects-summary/">📊 储备项目</a>
+    <a class="footer-btn" href="https://github.com/jinzhanxiang" target="_blank">⭐ GitHub</a>
+  </div>
+  <p style="margin-top:10px;font-size:10px">最后更新 2026-06-29 13:45</p>
+  <p style="font-size:10px">
+    <a href="./index.html" style="color:var(--c-blue);text-decoration:none">← 切换桌面版</a>
+  </p>
+</div>
+
+<script>
+const TOTAL = 5;
+const allCards = document.querySelectorAll('.card');
+const allSections = document.querySelectorAll('.section');
+const searchInput = document.getElementById('searchInput');
+const clearBtn = document.getElementById('clearBtn');
+const resultBar = document.getElementById('resultBar');
+const noResult = document.getElementById('noResult');
+
+let activeCat = 'all';
+let searchKw = '';
+
+const pills = document.querySelectorAll('.pill[data-cat]');
+pills.forEach(p => p.addEventListener('click', function() {
+  pills.forEach(x => x.classList.remove('active'));
+  this.classList.add('active');
+  activeCat = this.getAttribute('data-cat');
+  applyFilters();
+}));
+
+searchInput.addEventListener('input', function() {
+  searchKw = this.value.trim().toLowerCase();
+  clearBtn.classList.toggle('visible', searchKw.length > 0);
+  applyFilters();
+});
+
+function clearSearch() {
+  searchInput.value = '';
+  searchKw = '';
+  clearBtn.classList.remove('visible');
+  applyFilters();
+}
+
+searchInput.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') clearSearch();
+});
+
+function applyFilters() {
+  var visibleCount = 0;
+  allCards.forEach(function(card) {
+    var cat = card.getAttribute('data-cat');
+    var name = card.getAttribute('data-name').toLowerCase();
+    var tag = card.getAttribute('data-tag').toLowerCase();
+    var desc = card.getAttribute('data-desc').toLowerCase();
+
+    var catMatch = activeCat === 'all' || activeCat === cat;
+    var kwMatch = !searchKw || name.indexOf(searchKw) !== -1 || tag.indexOf(searchKw) !== -1 || desc.indexOf(searchKw) !== -1;
+
+    var show = catMatch && kwMatch;
+    if (show) { card.classList.remove('hidden'); visibleCount++; }
+    else { card.classList.add('hidden'); }
+  });
+
+  allSections.forEach(function(sec) {
+    var secCat = sec.getAttribute('data-cat');
+    var secMatch = activeCat === 'all' || activeCat === secCat;
+    sec.style.display = secMatch ? '' : 'none';
+    if (secMatch) {
+      var idMap = {
+        'reserve':'secCntReserve',
+        'deal':'secCntDeal',
+        'viz':'secCntViz',
+        'internal':'secCntInternal'
+      };
+      var id = idMap[secCat];
+      if (id) {
+        document.getElementById(id).textContent = sec.querySelectorAll('.card:not(.hidden)').length;
+      }
+    }
+  });
+
+  noResult.classList.toggle('visible', visibleCount === 0);
+  resultBar.classList.toggle('visible', searchKw.length > 0 || activeCat !== 'all');
+  if (resultBar.classList.contains('visible')) {
+    resultBar.innerHTML = '找到 <span class="kw">' + visibleCount + '</span> / ' + TOTAL + ' 个项目';
+  }
+}
+</script>
+</body>
+</html>
