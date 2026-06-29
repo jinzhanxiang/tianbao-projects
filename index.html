@@ -40,6 +40,8 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 .section{margin-bottom:40px}
 .section-title{font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-size:12px;font-weight:600;color:#4a5568;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px;padding-left:12px;border-left:4px solid #1a365d;display:flex;justify-content:space-between;align-items:center}
 .section-title .sec-count{background:#edf2f7;color:#4a5568;border-radius:10px;padding:1px 8px;font-size:11px}
+.section-title.reserve{border-left-color:#d69e2e}
+.section-title.reserve .sec-count{background:#fef5e7;color:#7b341e}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}
 .card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.06);padding:22px 24px;transition:all .25s;cursor:pointer;text-decoration:none;color:inherit;display:block;border:1px solid transparent}
 .card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(26,54,93,.12);border-color:#cbd5e0}
@@ -60,6 +62,8 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 .btn-primary:hover{background:#2d3748}
 .btn-secondary{background:#fff;color:#1a365d;border:1px solid #cbd5e0}
 .btn-secondary:hover{background:#edf2f7}
+.btn-warning{background:#d69e2e;color:#fff}
+.btn-warning:hover{background:#b7791f}
 .footer{text-align:center;color:#a0aec0;font-size:13px;margin-top:44px;padding:20px 20px;border-top:1px solid #e2e8f0}
 .footer p{margin:4px 0}
 @media(max-width:600px){
@@ -78,11 +82,11 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
   <div class="hero-content">
     <div class="hero-badge">TIANBAO INVESTMENT HUB</div>
     <h1>天保控股项目报告中心</h1>
-    <p>并购大项目 · 行业研究 · 内部工具 · 一站式访问入口</p>
+    <p>并购大项目 · 储备项目 · 行业研究 · 内部工具 · 一站式访问入口</p>
     <div class="hero-meta">
-      <div class="meta-item"><strong>5</strong>个项目</div>
-      <div class="meta-item"><strong>10</strong>份文档</div>
-      <div class="meta-item"><strong>2026-06-22 14:18</strong>更新</div>
+      <div class="meta-item"><strong>3</strong>个分类</div>
+      <div class="meta-item"><strong>12</strong>个项目</div>
+      <div class="meta-item"><strong>2026-06-29</strong>更新</div>
     </div>
   </div>
 </div>
@@ -99,15 +103,23 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
     <div class="filter-row">
       <span class="filter-label">分类：</span>
       <button class="filter-btn active" data-cat="all" onclick="toggleCat('all', this)">全部</button>
-          <button class="filter-btn" data-cat="deal" onclick="toggleCat('deal', this)">并购大项目 <span class="cat-count">2</span></button>
+          <button class="filter-btn" data-cat="reserve" onclick="toggleCat('reserve', this)">储备项目 <span class="cat-count">8</span></button>
+          <button class="filter-btn" data-cat="deal" onclick="toggleCat('deal', this)">并购大项目 <span class="cat-count">1</span></button>
           <button class="filter-btn" data-cat="viz" onclick="toggleCat('viz', this)">知识图谱与可视化 <span class="cat-count">2</span></button>
           <button class="filter-btn" data-cat="internal" onclick="toggleCat('internal', this)">内部工具与文档 <span class="cat-count">1</span></button>
           
     </div>
     <div class="filter-row">
       <span class="filter-label">标签：</span>
-          <button class="filter-btn tag-btn" data-tag="AI 光互联" onclick="toggleTag('AI 光互联', this)">AI 光互联</button>
+          <button class="filter-btn tag-btn" data-tag="储备项目总入口" onclick="toggleTag('储备项目总入口', this)">储备项目总入口</button>
+          <button class="filter-btn tag-btn" data-tag="高端制造" onclick="toggleTag('高端制造', this)">高端制造</button>
           <button class="filter-btn tag-btn" data-tag="Micro-LED" onclick="toggleTag('Micro-LED', this)">Micro-LED</button>
+          <button class="filter-btn tag-btn" data-tag="医疗服务" onclick="toggleTag('医疗服务', this)">医疗服务</button>
+          <button class="filter-btn tag-btn" data-tag="新材料" onclick="toggleTag('新材料', this)">新材料</button>
+          <button class="filter-btn tag-btn" data-tag="综合能源" onclick="toggleTag('综合能源', this)">综合能源</button>
+          <button class="filter-btn tag-btn" data-tag="IDC REITs" onclick="toggleTag('IDC REITs', this)">IDC REITs</button>
+          <button class="filter-btn tag-btn" data-tag="IVD 流通" onclick="toggleTag('IVD 流通', this)">IVD 流通</button>
+          <button class="filter-btn tag-btn" data-tag="换电运营" onclick="toggleTag('换电运营', this)">换电运营</button>
           <button class="filter-btn tag-btn" data-tag="动力电池" onclick="toggleTag('动力电池', this)">动力电池</button>
           <button class="filter-btn tag-btn" data-tag="新能源" onclick="toggleTag('新能源', this)">新能源</button>
           <button class="filter-btn tag-btn" data-tag="3D" onclick="toggleTag('3D', this)">3D</button>
@@ -121,22 +133,132 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
   </div>
 
 
-    <div class="section" id="sec-deal" data-cat="deal">
-      <div class="section-title">并购大项目 · <span class="sec-count">2</span> 项</div>
+    <div class="section" id="sec-reserve" data-cat="reserve">
+      <div class="section-title reserve">📊 储备项目（Pre-IPO/REITs 深度尽调） · <span class="sec-count">8</span> 项 <span style="font-size:11px;color:#a0aec0;font-weight:400;margin-left:auto;text-transform:none;letter-spacing:0">由 Research 代理 2026-06-29 部署 · 单一来源维护</span></div>
       <div class="grid">
+        <a class="card" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="储备项目投资分析统一库" data-tag="储备项目总入口" data-desc="7个Pre-IPO/REITs储备项目的统一入口，含8维度横向对比汇总。点击访问完整项目库。">
+          <div class="card-header">
+            <h3>📊 储备项目投资分析统一库</h3>
+            <span class="status-badge" style="background:#d69e2e">总入口</span>
+          </div>
+          <div><span class="tag">储备项目总入口 · 7个项目</span></div>
+          <div class="card-desc">7个Pre-IPO/REITs储备项目的统一入口，含8维度横向对比汇总（行业/估值/退出/财务/风险等）。点击访问完整项目库 →</div>
+          <div class="card-footer">
+            <span>📅 更新于 2026-06-29</span>
+            <span class="arrow">访问统一库 →</span>
+          </div>
+        </a>
         <a class="card" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank" rel="noopener"
-           data-cat="deal" data-name="元旭半导体（Innoshine）" data-tag="AI 光互联 · Micro-LED" data-desc="Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，今日拜访。">
+           data-cat="reserve" data-name="元旭半导体（Innoshine）" data-tag="高端制造 · Micro-LED" data-desc="Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。">
           <div class="card-header">
             <h3>元旭半导体（Innoshine）</h3>
-            <span class="status-badge" style="background:#38a169">拜访进行中</span>
+            <span class="status-badge" style="background:#3182ce">尽调完成</span>
           </div>
-          <div><span class="tag">AI 光互联 · Micro-LED</span></div>
-          <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，今日拜访。</div>
+          <div><span class="tag">高端制造 · Micro-LED · AI 光互联</span></div>
+          <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。</div>
           <div class="card-footer">
-            <span>📅 更新于 2026-06-22</span>
+            <span>📅 更新于 2026-06-29</span>
             <span class="arrow">访问 →</span>
           </div>
         </a>
+        <a class="card" href="https://jinzhanxiang.github.io/jngd-report/report_main.html" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="晶能光电" data-tag="高端制造" data-desc="中国硅衬底LED芯片技术开拓者。净利率断层式领先（20%+ vs 同行2%），拟科创板IPO。">
+          <div class="card-header">
+            <h3>晶能光电（江西）</h3>
+            <span class="status-badge" style="background:#38a169">已部署</span>
+          </div>
+          <div><span class="tag">高端制造 · 拟科创板IPO</span></div>
+          <div class="card-desc">中国硅衬底LED芯片技术开拓者。净利率断层式领先（20%+ vs 同行2%），拟科创板IPO。</div>
+          <div class="card-footer">
+            <span>📅 更新于 2026-06-29</span>
+            <span class="arrow">访问 →</span>
+          </div>
+        </a>
+        <a class="card" href="https://jinzhanxiang.github.io/kedu-report/report_main.html" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="柯渡医学" data-tag="医疗服务" data-desc="医疗设备第三方维保双寡头之一。未上市，财务待审计。">
+          <div class="card-header">
+            <h3>上海柯渡医学</h3>
+            <span class="status-badge" style="background:#38a169">已部署</span>
+          </div>
+          <div><span class="tag">医疗服务 · 第三方维保</span></div>
+          <div class="card-desc">医疗设备第三方维保双寡头之一。未上市，财务待审计。</div>
+          <div class="card-footer">
+            <span>📅 更新于 2026-06-29</span>
+            <span class="arrow">访问 →</span>
+          </div>
+        </a>
+        <a class="card" href="https://jinzhanxiang.github.io/zhongfu-report/report_main.html" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="中复碳芯" data-tag="新材料" data-desc="中国建材集团旗下碳纤维复合材料平台，未上市，财务待审计。">
+          <div class="card-header">
+            <h3>中复碳芯</h3>
+            <span class="status-badge" style="background:#38a169">已部署</span>
+          </div>
+          <div><span class="tag">新材料 · 碳纤维芯电缆</span></div>
+          <div class="card-desc">中国建材集团旗下碳纤维复合材料平台，未上市，财务待审计。</div>
+          <div class="card-footer">
+            <span>📅 更新于 2026-06-29</span>
+            <span class="arrow">访问 →</span>
+          </div>
+        </a>
+        <a class="card" href="https://jinzhanxiang.github.io/hongyuan-report/report_main.html" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="宏远创信" data-tag="综合能源" data-desc="100%民营售电龙头（孙鹏69.6%控股）。财务透明（审计级），未上市。">
+          <div class="card-header">
+            <h3>北京宏远创信能源</h3>
+            <span class="status-badge" style="background:#38a169">已部署</span>
+          </div>
+          <div><span class="tag">综合能源 · 100%民营</span></div>
+          <div class="card-desc">100%民营售电龙头（孙鹏69.6%控股）。财务透明（审计级），未上市。</div>
+          <div class="card-footer">
+            <span>📅 更新于 2026-06-29</span>
+            <span class="arrow">访问 →</span>
+          </div>
+        </a>
+        <a class="card" href="https://jinzhanxiang.github.io/unicom-idc-report/report_main.html" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="联通云IDC" data-tag="IDC REITs" data-desc="山西太原1,400机柜高品质IDC资产（业主山西伽峰通信，民营）。整体出售退出。">
+          <div class="card-header">
+            <h3>联通云数据中心（IDC REIT）</h3>
+            <span class="status-badge" style="background:#3182ce">退出路径明确</span>
+          </div>
+          <div><span class="tag">IDC REITs · 整体出售</span></div>
+          <div class="card-desc">山西太原1,400机柜高品质IDC资产（业主山西伽峰通信，民营）。整体出售退出。</div>
+          <div class="card-footer">
+            <span>📅 更新于 2026-06-29</span>
+            <span class="arrow">访问 →</span>
+          </div>
+        </a>
+        <a class="card" href="https://jinzhanxiang.github.io/xinhong-report/report_main.html" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="信鸿医疗" data-tag="IVD 流通" data-desc="天津IVD综合服务+医疗产业孵化。新三板创新层，财务透明。">
+          <div class="card-header">
+            <h3>天津信鸿医疗</h3>
+            <span class="status-badge" style="background:#38a169">已部署</span>
+          </div>
+          <div><span class="tag">IVD 流通 · 新三板创新层</span></div>
+          <div class="card-desc">天津IVD综合服务+医疗产业孵化。新三板创新层，财务透明。</div>
+          <div class="card-footer">
+            <span>📅 更新于 2026-06-29</span>
+            <span class="arrow">访问 →</span>
+          </div>
+        </a>
+        <a class="card" href="https://jinzhanxiang.github.io/xunchao-report/report_main.html" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="迅巢科技" data-tag="换电运营" data-desc="物流快递换电场景头部（市占率90%+）。未上市，财务待审计。">
+          <div class="card-header">
+            <h3>迅巢科技（XCHS Energon）</h3>
+            <span class="status-badge" style="background:#38a169">已部署</span>
+          </div>
+          <div><span class="tag">换电运营 · 市占率90%+</span></div>
+          <div class="card-desc">物流快递换电场景头部（市占率90%+）。未上市，财务待审计。</div>
+          <div class="card-footer">
+            <span>📅 更新于 2026-06-29</span>
+            <span class="arrow">访问 →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="section" id="sec-deal" data-cat="deal">
+      <div class="section-title">并购大项目 · <span class="sec-count">1</span> 项</div>
+      <div class="grid">
         <a class="card" href="https://jinzhanxiang.github.io/xingheng-report/" target="_blank" rel="noopener"
            data-cat="deal" data-name="星恒电源" data-tag="动力电池 · 新能源" data-desc="锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。">
           <div class="card-header">
@@ -210,6 +332,7 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 
   <div class="toolbar">
     <a class="btn btn-primary" href="https://github.com/jinzhanxiang" target="_blank" rel="noopener">⭐ GitHub 主页</a>
+    <a class="btn btn-warning" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank" rel="noopener">📊 储备项目统一库</a>
     <a class="btn btn-secondary" href="javascript:window.location.reload()">🔄 重置筛选</a>
   </div>
 </div>
@@ -217,13 +340,14 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 <div class="footer">
   <p><strong>天保控股集团有限公司 · 投资管理部</strong></p>
   <p>Project Investment Management Hub · GitHub Pages 永久托管</p>
-  <p>最后更新：2026-06-22 14:18</p>
+  <p>维护分工：tianbao-projects（project 代理） · 7projects-summary（research 代理） · 元旭半导体由 project 代理维护入口</p>
+  <p>最后更新：2026-06-29 11:55</p>
 </div>
 
 
 <script>
 // ========== 搜索 + 筛选 ==========
-const TOTAL = 5;
+const TOTAL = 12;
 const searchInput = document.getElementById('searchInput');
 const clearBtn = document.getElementById('clearBtn');
 const resultBar = document.getElementById('resultBar');
