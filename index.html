@@ -2,77 +2,186 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1a365d">
 <title>天保控股项目报告中心 · TianBao Investment Hub</title>
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif;color:#1a202c;background:linear-gradient(180deg,#f7fafc 0%,#edf2f7 100%);line-height:1.8;font-size:16px;min-height:100vh}
+:root{
+  --c-bg:#f7fafc;
+  --c-bg2:#edf2f7;
+  --c-text:#1a202c;
+  --c-text2:#4a5568;
+  --c-muted:#718096;
+  --c-accent:#1a365d;
+  --c-accent2:#2d3748;
+  --c-warning:#d69e2e;
+  --c-warning2:#b7791f;
+  --c-success:#38a169;
+  --c-blue:#3182ce;
+  --c-border:#e2e8f0;
+  --c-card-shadow:0 2px 12px rgba(0,0,0,.06);
+  --c-card-shadow-hover:0 8px 24px rgba(26,54,93,.12);
+}
+body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif;color:var(--c-text);background:linear-gradient(180deg,#f7fafc 0%,#edf2f7 100%);line-height:1.8;font-size:16px;min-height:100vh;-webkit-text-size-adjust:100%}
+
+/* ========== Hero ========== */
 .hero{background:linear-gradient(135deg,#0f1e3d 0%,#1a365d 50%,#2d3748 100%);color:#fff;padding:56px 20px 48px;text-align:center;position:relative;overflow:hidden}
 .hero::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(circle at 30% 50%,rgba(56,161,105,.15),transparent 50%),radial-gradient(circle at 70% 50%,rgba(49,130,206,.15),transparent 50%)}
 .hero-content{position:relative;z-index:1;max-width:900px;margin:0 auto}
 .hero-badge{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#cbd5e0;font-size:12px;padding:4px 14px;border-radius:20px;margin-bottom:14px;letter-spacing:1px}
-.hero h1{font-size:34px;margin-bottom:12px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:600}
+.hero h1{font-size:34px;margin-bottom:12px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:600;line-height:1.3}
 .hero p{color:rgba(255,255,255,.7);font-size:15px;margin-top:6px}
 .hero-meta{display:flex;justify-content:center;gap:28px;margin-top:20px;flex-wrap:wrap}
 .hero-meta .meta-item{color:rgba(255,255,255,.85);font-size:14px}
 .hero-meta .meta-item strong{color:#fff;font-size:17px;display:block;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+
+/* ========== Container ========== */
 .container{max-width:1100px;margin:0 auto;padding:36px 20px 60px}
-.search-bar{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.06);padding:20px 24px;margin-bottom:24px;display:flex;flex-direction:column;gap:14px}
+
+/* ========== View Toggle (移动端切换) ========== */
+.view-toggle{display:none;justify-content:center;gap:8px;margin-bottom:14px;background:#fff;border-radius:8px;padding:6px;box-shadow:var(--c-card-shadow);width:fit-content;margin-left:auto;margin-right:auto}
+.view-toggle button{padding:6px 14px;border-radius:6px;border:none;background:transparent;color:var(--c-text2);font-size:13px;cursor:pointer;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:500}
+.view-toggle button.active{background:var(--c-accent);color:#fff}
+
+/* ========== Search Bar ========== */
+.search-bar{background:#fff;border-radius:12px;box-shadow:var(--c-card-shadow);padding:20px 24px;margin-bottom:24px;display:flex;flex-direction:column;gap:14px}
 .search-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 .search-input-wrap{flex:1;min-width:200px;position:relative}
-.search-input-wrap input{width:100%;padding:10px 16px 10px 40px;border:1px solid #e2e8f0;border-radius:8px;font-size:15px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;color:#1a202c;background:#f7fafc;transition:border-color .2s;box-sizing:border-box}
-.search-input-wrap input:focus{outline:none;border-color:#3182ce;background:#fff;box-shadow:0 0 0 3px rgba(49,130,206,.1)}
+.search-input-wrap input{width:100%;padding:10px 16px 10px 40px;border:1px solid var(--c-border);border-radius:8px;font-size:15px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;color:var(--c-text);background:#f7fafc;transition:border-color .2s;box-sizing:border-box}
+.search-input-wrap input:focus{outline:none;border-color:var(--c-blue);background:#fff;box-shadow:0 0 0 3px rgba(49,130,206,.1)}
 .search-input-wrap::before{content:"🔍";position:absolute;left:12px;top:50%;transform:translateY(-50%);font-size:14px}
-.search-input-wrap .clear-btn{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;color:#a0aec0;cursor:pointer;font-size:16px;display:none;padding:4px;line-height:1}
+.search-input-wrap .clear-btn{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--c-muted);cursor:pointer;font-size:18px;display:none;padding:4px 8px;line-height:1}
 .search-input-wrap .clear-btn.visible{display:block}
 .filter-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.filter-label{font-size:13px;color:#718096;white-space:nowrap;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
-.filter-btn{padding:5px 14px;border-radius:20px;border:1px solid #e2e8f0;background:#fff;color:#4a5568;font-size:13px;cursor:pointer;transition:all .15s;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+.filter-label{font-size:13px;color:var(--c-muted);white-space:nowrap;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.filter-btn{padding:5px 14px;border-radius:20px;border:1px solid var(--c-border);background:#fff;color:var(--c-text2);font-size:13px;cursor:pointer;transition:all .15s;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;white-space:nowrap}
 .filter-btn:hover{background:#edf2f7;border-color:#cbd5e0}
-.filter-btn.active{background:#1a365d;color:#fff;border-color:#1a365d}
+.filter-btn.active{background:var(--c-accent);color:#fff;border-color:var(--c-accent)}
 .filter-btn .cat-count{background:rgba(255,255,255,.2);border-radius:10px;padding:0 5px;font-size:11px;margin-left:4px}
-.filter-btn:not(.active) .cat-count{background:#edf2f7;color:#4a5568}
+.filter-btn:not(.active) .cat-count{background:#edf2f7;color:var(--c-text2)}
 .tag-btn{font-size:12px;padding:4px 10px;background:#f7fafc}
 .tag-btn.active{background:#553c9a;color:#fff;border-color:#553c9a}
-.result-bar{font-size:13px;color:#a0aec0;padding:0 4px}
-.result-bar .kw{color:#1a365d;font-weight:600}
+.result-bar{font-size:13px;color:var(--c-muted);padding:0 4px}
+.result-bar .kw{color:var(--c-accent);font-weight:600}
+
+/* ========== Section ========== */
 .section{margin-bottom:40px}
-.section-title{font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-size:12px;font-weight:600;color:#4a5568;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px;padding-left:12px;border-left:4px solid #1a365d;display:flex;justify-content:space-between;align-items:center}
-.section-title .sec-count{background:#edf2f7;color:#4a5568;border-radius:10px;padding:1px 8px;font-size:11px}
-.section-title.reserve{border-left-color:#d69e2e}
+.section-title{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:12px;font-weight:600;color:var(--c-text2);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px;padding-left:12px;border-left:4px solid var(--c-accent);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.section-title .sec-count{background:#edf2f7;color:var(--c-text2);border-radius:10px;padding:1px 8px;font-size:11px}
+.section-title .sec-note{font-size:11px;color:var(--c-muted);font-weight:400;text-transform:none;letter-spacing:0;margin-left:auto}
+.section-title.reserve{border-left-color:var(--c-warning)}
 .section-title.reserve .sec-count{background:#fef5e7;color:#7b341e}
+
+/* ========== Grid / List View ========== */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}
-.card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.06);padding:22px 24px;transition:all .25s;cursor:pointer;text-decoration:none;color:inherit;display:block;border:1px solid transparent}
-.card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(26,54,93,.12);border-color:#cbd5e0}
+.list-view .grid{grid-template-columns:1fr;gap:10px}
+
+/* ========== Card ========== */
+.card{background:#fff;border-radius:12px;box-shadow:var(--c-card-shadow);padding:22px 24px;transition:all .25s;cursor:pointer;text-decoration:none;color:inherit;display:block;border:1px solid transparent}
+.card:hover{transform:translateY(-3px);box-shadow:var(--c-card-shadow-hover);border-color:#cbd5e0}
+.list-view .card{padding:14px 18px;display:flex;align-items:center;gap:14px}
+.list-view .card:hover{transform:translateX(4px)}
 .card.hidden{display:none}
 .card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px}
-.card h3{font-size:18px;color:#1a365d;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:600;flex:1;line-height:1.4}
-.status-badge{display:inline-block;font-size:11px;padding:3px 9px;border-radius:10px;color:#fff;white-space:nowrap;font-weight:500;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;flex-shrink:0}
-.tag{display:inline-block;background:#edf2f7;color:#4a5568;font-size:12px;padding:2px 9px;border-radius:10px;margin-right:5px;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
-.card-desc{color:#4a5568;font-size:14px;line-height:1.65;margin:8px 0 12px;min-height:52px}
-.card-footer{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#a0aec0;padding-top:10px;border-top:1px solid #f1f5f9}
-.card-footer .arrow{color:#3182ce;font-size:14px;font-weight:600}
-.no-result{text-align:center;padding:60px 20px;color:#a0aec0;font-size:16px;display:none}
+.list-view .card-header{margin-bottom:0;flex:0 0 auto;flex-direction:column;align-items:flex-start;gap:4px}
+.card h3{font-size:18px;color:var(--c-accent);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:600;flex:1;line-height:1.4}
+.list-view .card h3{font-size:16px}
+.card-body{flex:1;min-width:0}
+.list-view .card-body{display:flex;flex-direction:column;gap:4px;flex:1;min-width:0}
+.status-badge{display:inline-block;font-size:11px;padding:3px 9px;border-radius:10px;color:#fff;white-space:nowrap;font-weight:500;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;flex-shrink:0}
+.tag{display:inline-block;background:#edf2f7;color:var(--c-text2);font-size:12px;padding:2px 9px;border-radius:10px;margin-right:5px;margin-bottom:3px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.list-view .tag{font-size:11px;padding:1px 7px}
+.card-desc{color:var(--c-text2);font-size:14px;line-height:1.65;margin:8px 0 12px;min-height:52px}
+.list-view .card-desc{margin:0;font-size:13px;min-height:0;color:var(--c-muted);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.card-footer{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--c-muted);padding-top:10px;border-top:1px solid #f1f5f9;gap:8px}
+.list-view .card-footer{border-top:none;padding-top:0;flex:0 0 auto;flex-direction:column;align-items:flex-end;gap:2px}
+.card-footer .arrow{color:var(--c-blue);font-size:14px;font-weight:600}
+
+/* ========== Featured Card (总入口) ========== */
+.card.featured{background:linear-gradient(135deg,#fff7ed 0%,#fef5e7 100%);border:2px solid var(--c-warning);position:relative;overflow:hidden}
+.card.featured::before{content:"⭐";position:absolute;top:-10px;right:-10px;font-size:60px;opacity:.15;transform:rotate(15deg)}
+.card.featured:hover{box-shadow:0 12px 28px rgba(214,158,46,.25);border-color:var(--c-warning2)}
+.card.featured h3{color:#7b341e}
+.list-view .card.featured{padding:16px 20px}
+
+/* ========== Divider (分类内分组) ========== */
+.section-divider{font-size:12px;color:var(--c-muted);text-align:center;margin:20px 0 14px;position:relative;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.section-divider::before,.section-divider::after{content:"";position:absolute;top:50%;width:calc(50% - 80px);height:1px;background:var(--c-border)}
+.section-divider::before{left:0}
+.section-divider::after{right:0}
+.section-divider span{background:linear-gradient(180deg,#f7fafc 0%,#edf2f7 100%);padding:0 14px;position:relative;z-index:1}
+
+/* ========== Empty ========== */
+.no-result{text-align:center;padding:60px 20px;color:var(--c-muted);font-size:16px;display:none}
 .no-result.visible{display:block}
 .no-result .emoji{font-size:48px;margin-bottom:16px}
+
+/* ========== Toolbar ========== */
 .toolbar{display:flex;gap:10px;justify-content:center;margin:32px 0 0;flex-wrap:wrap}
-.btn{padding:9px 20px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;transition:all .2s;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;display:inline-flex;align-items:center;gap:6px}
-.btn-primary{background:#1a365d;color:#fff}
-.btn-primary:hover{background:#2d3748}
-.btn-secondary{background:#fff;color:#1a365d;border:1px solid #cbd5e0}
+.btn{padding:9px 20px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;transition:all .2s;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;display:inline-flex;align-items:center;gap:6px}
+.btn-primary{background:var(--c-accent);color:#fff}
+.btn-primary:hover{background:var(--c-accent2)}
+.btn-secondary{background:#fff;color:var(--c-accent);border:1px solid #cbd5e0}
 .btn-secondary:hover{background:#edf2f7}
-.btn-warning{background:#d69e2e;color:#fff}
-.btn-warning:hover{background:#b7791f}
-.footer{text-align:center;color:#a0aec0;font-size:13px;margin-top:44px;padding:20px 20px;border-top:1px solid #e2e8f0}
+.btn-warning{background:var(--c-warning);color:#fff}
+.btn-warning:hover{background:var(--c-warning2)}
+
+/* ========== Footer ========== */
+.footer{text-align:center;color:var(--c-muted);font-size:13px;margin-top:44px;padding:20px;border-top:1px solid var(--c-border)}
 .footer p{margin:4px 0}
-@media(max-width:600px){
-  .hero{padding:44px 16px 36px}
-  .hero h1{font-size:26px}
-  .hero-meta{gap:18px}
-  .grid{grid-template-columns:1fr}
-  .search-row{flex-direction:column}
+
+/* ========== Mobile (≤768px) ========== */
+@media(max-width:768px){
+  body{font-size:15px}
+  .hero{padding:36px 16px 28px}
+  .hero h1{font-size:24px;margin-bottom:8px}
+  .hero p{font-size:13px}
+  .hero-meta{gap:14px;margin-top:14px}
+  .hero-meta .meta-item{font-size:12px}
+  .hero-meta .meta-item strong{font-size:15px}
+  .container{padding:20px 14px 40px}
+  .search-bar{padding:16px}
+  .search-row{flex-direction:column;align-items:stretch}
   .search-input-wrap{min-width:unset;width:100%}
+  .search-input-wrap input{font-size:16px;padding:12px 16px 12px 40px}
+  .filter-row{overflow-x:auto;flex-wrap:nowrap;padding-bottom:6px;margin:0 -14px;padding-left:14px;padding-right:14px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .filter-row::-webkit-scrollbar{display:none}
+  .filter-label{flex-shrink:0}
+  .filter-btn{flex-shrink:0;font-size:13px;padding:6px 12px}
+  .tag-btn{font-size:11px;padding:4px 9px}
+  .view-toggle{display:flex}
+  .grid{grid-template-columns:1fr;gap:12px}
+  .list-view .grid{gap:8px}
+  .card{padding:16px 18px;min-height:auto}
+  .card:active{transform:scale(.98)}
+  .card h3{font-size:16px}
+  .list-view .card{padding:12px 14px;gap:12px}
+  .list-view .card h3{font-size:15px}
+  .card-desc{font-size:13px;min-height:0;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}
+  .list-view .card-desc{-webkit-line-clamp:1;font-size:12px}
+  .tag{font-size:11px;padding:2px 7px;margin-bottom:2px}
+  .section-title{font-size:11px;letter-spacing:1px;padding-left:10px;margin-bottom:12px}
+  .section-title .sec-note{width:100%;margin-left:0;margin-top:2px}
+  .section-divider{font-size:11px;margin:14px 0 10px}
+  .section-divider::before,.section-divider::after{width:calc(50% - 60px)}
+  .toolbar{gap:8px}
+  .btn{padding:10px 16px;font-size:13px}
+  .footer{margin-top:30px;padding:16px 14px;font-size:12px}
+}
+
+/* ========== Tablet (769-1024px) ========== */
+@media(min-width:769px) and (max-width:1024px){
+  .grid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+  .container{padding:30px 18px 50px}
+}
+
+/* ========== Print ========== */
+@media print{
+  .hero,.search-bar,.view-toggle,.toolbar,.footer{display:none}
+  .card{break-inside:avoid;box-shadow:none;border:1px solid #ccc}
+  body{background:#fff}
 }
 </style>
 
@@ -85,13 +194,19 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
     <p>并购大项目 · 储备项目 · 行业研究 · 内部工具 · 一站式访问入口</p>
     <div class="hero-meta">
       <div class="meta-item"><strong>3</strong>个分类</div>
-      <div class="meta-item"><strong>12</strong>个项目</div>
+      <div class="meta-item"><strong>5</strong>个项目</div>
       <div class="meta-item"><strong>2026-06-29</strong>更新</div>
     </div>
   </div>
 </div>
 
 <div class="container">
+
+  <div class="view-toggle">
+    <button id="viewCard" class="active" onclick="toggleView('card')">▦ 卡片</button>
+    <button id="viewList" onclick="toggleView('list')">☰ 列表</button>
+  </div>
+
   <div class="search-bar">
     <div class="search-row">
       <div class="search-input-wrap">
@@ -103,7 +218,7 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
     <div class="filter-row">
       <span class="filter-label">分类：</span>
       <button class="filter-btn active" data-cat="all" onclick="toggleCat('all', this)">全部</button>
-          <button class="filter-btn" data-cat="reserve" onclick="toggleCat('reserve', this)">储备项目 <span class="cat-count">8</span></button>
+          <button class="filter-btn" data-cat="reserve" onclick="toggleCat('reserve', this)">📊 储备项目 <span class="cat-count">2</span></button>
           <button class="filter-btn" data-cat="deal" onclick="toggleCat('deal', this)">并购大项目 <span class="cat-count">1</span></button>
           <button class="filter-btn" data-cat="viz" onclick="toggleCat('viz', this)">知识图谱与可视化 <span class="cat-count">2</span></button>
           <button class="filter-btn" data-cat="internal" onclick="toggleCat('internal', this)">内部工具与文档 <span class="cat-count">1</span></button>
@@ -114,12 +229,6 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
           <button class="filter-btn tag-btn" data-tag="储备项目总入口" onclick="toggleTag('储备项目总入口', this)">储备项目总入口</button>
           <button class="filter-btn tag-btn" data-tag="高端制造" onclick="toggleTag('高端制造', this)">高端制造</button>
           <button class="filter-btn tag-btn" data-tag="Micro-LED" onclick="toggleTag('Micro-LED', this)">Micro-LED</button>
-          <button class="filter-btn tag-btn" data-tag="医疗服务" onclick="toggleTag('医疗服务', this)">医疗服务</button>
-          <button class="filter-btn tag-btn" data-tag="新材料" onclick="toggleTag('新材料', this)">新材料</button>
-          <button class="filter-btn tag-btn" data-tag="综合能源" onclick="toggleTag('综合能源', this)">综合能源</button>
-          <button class="filter-btn tag-btn" data-tag="IDC REITs" onclick="toggleTag('IDC REITs', this)">IDC REITs</button>
-          <button class="filter-btn tag-btn" data-tag="IVD 流通" onclick="toggleTag('IVD 流通', this)">IVD 流通</button>
-          <button class="filter-btn tag-btn" data-tag="换电运营" onclick="toggleTag('换电运营', this)">换电运营</button>
           <button class="filter-btn tag-btn" data-tag="动力电池" onclick="toggleTag('动力电池', this)">动力电池</button>
           <button class="filter-btn tag-btn" data-tag="新能源" onclick="toggleTag('新能源', this)">新能源</button>
           <button class="filter-btn tag-btn" data-tag="3D" onclick="toggleTag('3D', this)">3D</button>
@@ -134,123 +243,36 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 
 
     <div class="section" id="sec-reserve" data-cat="reserve">
-      <div class="section-title reserve">📊 储备项目（Pre-IPO/REITs 深度尽调） · <span class="sec-count">8</span> 项 <span style="font-size:11px;color:#a0aec0;font-weight:400;margin-left:auto;text-transform:none;letter-spacing:0">由 Research 代理 2026-06-29 部署 · 单一来源维护</span></div>
+      <div class="section-title reserve">📊 储备项目（Pre-IPO/REITs 深度尽调） · <span class="sec-count">2</span> 项 <span class="sec-note">由 Research 代理维护 · 单一来源</span></div>
       <div class="grid">
-        <a class="card" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="储备项目投资分析统一库" data-tag="储备项目总入口" data-desc="7个Pre-IPO/REITs储备项目的统一入口，含8维度横向对比汇总。点击访问完整项目库。">
+        <a class="card featured" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank" rel="noopener"
+           data-cat="reserve" data-name="储备项目投资分析统一库 7projects" data-tag="储备项目总入口" data-desc="7个 Pre-IPO/REITs 储备项目（晶能/柯渡/中复/宏远/联通云IDC/信鸿/迅巢）的统一入口，含8维度横向对比汇总。点击访问完整项目库。">
           <div class="card-header">
             <h3>📊 储备项目投资分析统一库</h3>
-            <span class="status-badge" style="background:#d69e2e">总入口</span>
+            <span class="status-badge" style="background:#d69e2e">⭐ 总入口</span>
           </div>
-          <div><span class="tag">储备项目总入口 · 7个项目</span></div>
-          <div class="card-desc">7个Pre-IPO/REITs储备项目的统一入口，含8维度横向对比汇总（行业/估值/退出/财务/风险等）。点击访问完整项目库 →</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问统一库 →</span>
+          <div class="card-body">
+            <div><span class="tag">储备项目总入口 · 7个项目</span><span class="tag">8维度对比</span><span class="tag">Pre-IPO/REITs</span></div>
+            <div class="card-desc">7个 Pre-IPO/REITs 储备项目（晶能/柯渡/中复/宏远/联通云IDC/信鸿/迅巢）的统一入口，含8维度横向对比汇总。点击访问完整项目库 →</div>
+            <div class="card-footer">
+              <span>📅 更新于 2026-06-29</span>
+              <span class="arrow">访问统一库 →</span>
+            </div>
           </div>
         </a>
         <a class="card" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="元旭半导体（Innoshine）" data-tag="高端制造 · Micro-LED" data-desc="Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。">
+           data-cat="reserve" data-name="元旭半导体 Innoshine" data-tag="高端制造 · Micro-LED" data-desc="Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。">
           <div class="card-header">
             <h3>元旭半导体（Innoshine）</h3>
             <span class="status-badge" style="background:#3182ce">尽调完成</span>
           </div>
-          <div><span class="tag">高端制造 · Micro-LED · AI 光互联</span></div>
-          <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问 →</span>
-          </div>
-        </a>
-        <a class="card" href="https://jinzhanxiang.github.io/jngd-report/report_main.html" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="晶能光电" data-tag="高端制造" data-desc="中国硅衬底LED芯片技术开拓者。净利率断层式领先（20%+ vs 同行2%），拟科创板IPO。">
-          <div class="card-header">
-            <h3>晶能光电（江西）</h3>
-            <span class="status-badge" style="background:#38a169">已部署</span>
-          </div>
-          <div><span class="tag">高端制造 · 拟科创板IPO</span></div>
-          <div class="card-desc">中国硅衬底LED芯片技术开拓者。净利率断层式领先（20%+ vs 同行2%），拟科创板IPO。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问 →</span>
-          </div>
-        </a>
-        <a class="card" href="https://jinzhanxiang.github.io/kedu-report/report_main.html" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="柯渡医学" data-tag="医疗服务" data-desc="医疗设备第三方维保双寡头之一。未上市，财务待审计。">
-          <div class="card-header">
-            <h3>上海柯渡医学</h3>
-            <span class="status-badge" style="background:#38a169">已部署</span>
-          </div>
-          <div><span class="tag">医疗服务 · 第三方维保</span></div>
-          <div class="card-desc">医疗设备第三方维保双寡头之一。未上市，财务待审计。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问 →</span>
-          </div>
-        </a>
-        <a class="card" href="https://jinzhanxiang.github.io/zhongfu-report/report_main.html" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="中复碳芯" data-tag="新材料" data-desc="中国建材集团旗下碳纤维复合材料平台，未上市，财务待审计。">
-          <div class="card-header">
-            <h3>中复碳芯</h3>
-            <span class="status-badge" style="background:#38a169">已部署</span>
-          </div>
-          <div><span class="tag">新材料 · 碳纤维芯电缆</span></div>
-          <div class="card-desc">中国建材集团旗下碳纤维复合材料平台，未上市，财务待审计。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问 →</span>
-          </div>
-        </a>
-        <a class="card" href="https://jinzhanxiang.github.io/hongyuan-report/report_main.html" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="宏远创信" data-tag="综合能源" data-desc="100%民营售电龙头（孙鹏69.6%控股）。财务透明（审计级），未上市。">
-          <div class="card-header">
-            <h3>北京宏远创信能源</h3>
-            <span class="status-badge" style="background:#38a169">已部署</span>
-          </div>
-          <div><span class="tag">综合能源 · 100%民营</span></div>
-          <div class="card-desc">100%民营售电龙头（孙鹏69.6%控股）。财务透明（审计级），未上市。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问 →</span>
-          </div>
-        </a>
-        <a class="card" href="https://jinzhanxiang.github.io/unicom-idc-report/report_main.html" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="联通云IDC" data-tag="IDC REITs" data-desc="山西太原1,400机柜高品质IDC资产（业主山西伽峰通信，民营）。整体出售退出。">
-          <div class="card-header">
-            <h3>联通云数据中心（IDC REIT）</h3>
-            <span class="status-badge" style="background:#3182ce">退出路径明确</span>
-          </div>
-          <div><span class="tag">IDC REITs · 整体出售</span></div>
-          <div class="card-desc">山西太原1,400机柜高品质IDC资产（业主山西伽峰通信，民营）。整体出售退出。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问 →</span>
-          </div>
-        </a>
-        <a class="card" href="https://jinzhanxiang.github.io/xinhong-report/report_main.html" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="信鸿医疗" data-tag="IVD 流通" data-desc="天津IVD综合服务+医疗产业孵化。新三板创新层，财务透明。">
-          <div class="card-header">
-            <h3>天津信鸿医疗</h3>
-            <span class="status-badge" style="background:#38a169">已部署</span>
-          </div>
-          <div><span class="tag">IVD 流通 · 新三板创新层</span></div>
-          <div class="card-desc">天津IVD综合服务+医疗产业孵化。新三板创新层，财务透明。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问 →</span>
-          </div>
-        </a>
-        <a class="card" href="https://jinzhanxiang.github.io/xunchao-report/report_main.html" target="_blank" rel="noopener"
-           data-cat="reserve" data-name="迅巢科技" data-tag="换电运营" data-desc="物流快递换电场景头部（市占率90%+）。未上市，财务待审计。">
-          <div class="card-header">
-            <h3>迅巢科技（XCHS Energon）</h3>
-            <span class="status-badge" style="background:#38a169">已部署</span>
-          </div>
-          <div><span class="tag">换电运营 · 市占率90%+</span></div>
-          <div class="card-desc">物流快递换电场景头部（市占率90%+）。未上市，财务待审计。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-29</span>
-            <span class="arrow">访问 →</span>
+          <div class="card-body">
+            <div><span class="tag">高端制造</span><span class="tag">Micro-LED</span><span class="tag">AI 光互联</span></div>
+            <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。</div>
+            <div class="card-footer">
+              <span>📅 更新于 2026-06-29</span>
+              <span class="arrow">访问 →</span>
+            </div>
           </div>
         </a>
       </div>
@@ -265,11 +287,13 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
             <h3>星恒电源</h3>
             <span class="status-badge" style="background:#3182ce">尽调完成</span>
           </div>
-          <div><span class="tag">动力电池 · 新能源</span></div>
-          <div class="card-desc">锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-05-30</span>
-            <span class="arrow">访问 →</span>
+          <div class="card-body">
+            <div><span class="tag">动力电池</span><span class="tag">新能源</span></div>
+            <div class="card-desc">锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。</div>
+            <div class="card-footer">
+              <span>📅 更新于 2026-05-30</span>
+              <span class="arrow">访问 →</span>
+            </div>
           </div>
         </a>
       </div>
@@ -283,11 +307,13 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
             <h3>知识图谱 3D 星云可视化</h3>
             <span class="status-badge" style="background:#38a169">已部署</span>
           </div>
-          <div><span class="tag">3D · Three.js</span></div>
-          <div class="card-desc">实体关系图谱的 3D 立体呈现，支持交互式探索、星云布局、深度缩放。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-21</span>
-            <span class="arrow">访问 →</span>
+          <div class="card-body">
+            <div><span class="tag">3D</span><span class="tag">Three.js</span></div>
+            <div class="card-desc">实体关系图谱的 3D 立体呈现，支持交互式探索、星云布局、深度缩放。</div>
+            <div class="card-footer">
+              <span>📅 更新于 2026-06-21</span>
+              <span class="arrow">访问 →</span>
+            </div>
           </div>
         </a>
         <a class="card" href="https://jinzhanxiang.github.io/kg-viz/" target="_blank" rel="noopener"
@@ -296,11 +322,13 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
             <h3>知识图谱分层可视化系统 v3</h3>
             <span class="status-badge" style="background:#38a169">已部署</span>
           </div>
-          <div><span class="tag">环形 · 渐进加载</span></div>
-          <div class="card-desc">环形行业全景图，分层展示 + 实体详情联动，支持大数据量渐进渲染。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-21</span>
-            <span class="arrow">访问 →</span>
+          <div class="card-body">
+            <div><span class="tag">环形</span><span class="tag">渐进加载</span></div>
+            <div class="card-desc">环形行业全景图，分层展示 + 实体详情联动，支持大数据量渐进渲染。</div>
+            <div class="card-footer">
+              <span>📅 更新于 2026-06-21</span>
+              <span class="arrow">访问 →</span>
+            </div>
           </div>
         </a>
       </div>
@@ -314,11 +342,13 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
             <h3>OA 系统需求文档</h3>
             <span class="status-badge" style="background:#38a169">已部署</span>
           </div>
-          <div><span class="tag">内部 · 需求</span></div>
-          <div class="card-desc">天保控股 OA 系统升级需求梳理。</div>
-          <div class="card-footer">
-            <span>📅 更新于 2026-06-05</span>
-            <span class="arrow">访问 →</span>
+          <div class="card-body">
+            <div><span class="tag">内部</span><span class="tag">需求</span></div>
+            <div class="card-desc">天保控股 OA 系统升级需求梳理。</div>
+            <div class="card-footer">
+              <span>📅 更新于 2026-06-05</span>
+              <span class="arrow">访问 →</span>
+            </div>
           </div>
         </a>
       </div>
@@ -340,14 +370,35 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 <div class="footer">
   <p><strong>天保控股集团有限公司 · 投资管理部</strong></p>
   <p>Project Investment Management Hub · GitHub Pages 永久托管</p>
-  <p>维护分工：tianbao-projects（project 代理） · 7projects-summary（research 代理） · 元旭半导体由 project 代理维护入口</p>
-  <p>最后更新：2026-06-29 11:55</p>
+  <p>维护分工：tianbao-projects（project 代理） · 7projects-summary（research 代理） · 单项目报告仓库（research 代理）</p>
+  <p>最后更新：2026-06-29 13:35</p>
 </div>
 
 
 <script>
+// ========== View Toggle ==========
+function toggleView(mode) {
+  var container = document.querySelector('.container');
+  if (mode === 'list') {
+    container.classList.add('list-view');
+    document.getElementById('viewList').classList.add('active');
+    document.getElementById('viewCard').classList.remove('active');
+  } else {
+    container.classList.remove('list-view');
+    document.getElementById('viewCard').classList.add('active');
+    document.getElementById('viewList').classList.remove('active');
+  }
+  try { localStorage.setItem('tb_view', mode); } catch(e) {}
+}
+
+// 恢复用户偏好视图
+try {
+  var savedView = localStorage.getItem('tb_view');
+  if (savedView === 'list') toggleView('list');
+} catch(e) {}
+
 // ========== 搜索 + 筛选 ==========
-const TOTAL = 12;
+const TOTAL = 5;
 const searchInput = document.getElementById('searchInput');
 const clearBtn = document.getElementById('clearBtn');
 const resultBar = document.getElementById('resultBar');
