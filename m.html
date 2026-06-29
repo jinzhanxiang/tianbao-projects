@@ -7,15 +7,17 @@
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>天保控股项目报告中心</title>
+<title>天保控股项目报告中心 · 移动版</title>
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 :root{
   --c-bg:#f7fafc;
+  --c-bg2:#edf2f7;
   --c-text:#1a202c;
   --c-text2:#4a5568;
   --c-muted:#718096;
+  --c-faint:#a0aec0;
   --c-accent:#1a365d;
   --c-warning:#d69e2e;
   --c-blue:#3182ce;
@@ -28,15 +30,14 @@ body{
   color:var(--c-text);background:var(--c-bg);
   line-height:1.6;font-size:15px;
   padding-bottom:env(safe-area-inset-bottom,0);
-  margin:0;
 }
 
 /* ========== Header ========== */
 .header{
   background:linear-gradient(135deg,#0f1e3d 0%,#1a365d 100%);
   color:#fff;
-  padding:20px 16px 24px;
-  padding-top:calc(20px + env(safe-area-inset-top, 0px));
+  padding:18px 16px 22px;
+  padding-top:calc(18px + env(safe-area-inset-top, 0px));
 }
 .header-badge{
   display:inline-block;
@@ -47,323 +48,226 @@ body{
   padding:3px 10px;
   border-radius:10px;
   letter-spacing:.5px;
-  margin-bottom:10px;
+  margin-bottom:8px;
 }
 .header h1{
-  font-size:22px;
+  font-size:21px;
   font-weight:600;
-  margin-bottom:6px;
+  margin-bottom:4px;
   line-height:1.3;
 }
 .header p{
   color:rgba(255,255,255,.75);
-  font-size:13px;
-  margin-bottom:14px;
+  font-size:12px;
+  margin-bottom:12px;
 }
 .header-stats{
   display:flex;
-  gap:20px;
+  gap:18px;
   font-size:11px;
   color:rgba(255,255,255,.7);
 }
 .header-stats strong{
   display:block;
-  font-size:16px;
+  font-size:15px;
   color:#fff;
   margin-bottom:1px;
 }
 
-/* ========== Search ========== */
+/* ========== Search & Filters (sticky) ========== */
 .search-section{
   background:#fff;
-  padding:14px 14px 12px;
+  padding:12px 14px 10px;
   border-bottom:1px solid var(--c-border);
   position:sticky;
   top:0;
-  z-index:10;
+  z-index:20;
   box-shadow:0 2px 8px rgba(0,0,0,.04);
 }
-.search-input-wrap{
-  position:relative;
-  margin-bottom:12px;
-}
+.search-input-wrap{position:relative;margin-bottom:10px}
 .search-input-wrap::before{
-  content:"🔍";
-  position:absolute;
-  left:12px;
-  top:50%;
-  transform:translateY(-50%);
-  font-size:14px;
-  z-index:1;
+  content:"🔍";position:absolute;left:12px;top:50%;
+  transform:translateY(-50%);font-size:13px;z-index:1;
 }
 .search-input-wrap input{
-  width:100%;
-  padding:13px 40px 13px 40px;
-  border:1px solid var(--c-border);
-  border-radius:10px;
-  font-size:16px;
-  background:#f7fafc;
-  color:var(--c-text);
-  outline:none;
-  -webkit-appearance:none;
+  width:100%;padding:12px 38px 12px 38px;
+  border:1px solid var(--c-border);border-radius:10px;
+  font-size:16px;background:#f7fafc;color:var(--c-text);
+  outline:none;-webkit-appearance:none;
 }
 .search-input-wrap input:focus{
-  border-color:var(--c-blue);
-  background:#fff;
+  border-color:var(--c-blue);background:#fff;
   box-shadow:0 0 0 3px rgba(49,130,206,.1);
 }
-.search-input-wrap .clear-btn{
-  position:absolute;
-  right:8px;
-  top:50%;
+.clear-btn{
+  position:absolute;right:8px;top:50%;
   transform:translateY(-50%);
-  background:#e2e8f0;
-  border:none;
-  color:var(--c-text2);
-  width:24px;
-  height:24px;
-  border-radius:12px;
-  font-size:14px;
-  line-height:1;
-  display:none;
-  align-items:center;
-  justify-content:center;
+  background:#e2e8f0;border:none;color:var(--c-text2);
+  width:24px;height:24px;border-radius:12px;
+  font-size:14px;line-height:1;display:none;
+  align-items:center;justify-content:center;
 }
-.search-input-wrap .clear-btn.visible{display:flex}
-
-/* ========== Filter Pills (横向滑动) ========== */
-.filter-section{
-  background:#fff;
-  padding:0 14px 14px;
-  border-bottom:1px solid var(--c-border);
-}
-.cat-row, .tag-row{
-  display:flex;
-  gap:6px;
-  overflow-x:auto;
-  padding:0 0 4px 0;
-  margin:8px 0 0;
-  -webkit-overflow-scrolling:touch;
+.clear-btn.visible{display:flex}
+.cat-row{
+  display:flex;gap:6px;overflow-x:auto;
+  padding:4px 0;-webkit-overflow-scrolling:touch;
   scrollbar-width:none;
+  margin:0 -14px;padding-left:14px;padding-right:14px;
 }
-.cat-row::-webkit-scrollbar, .tag-row::-webkit-scrollbar{display:none}
+.cat-row::-webkit-scrollbar{display:none}
 .pill{
-  flex-shrink:0;
-  padding:6px 12px;
-  border-radius:14px;
-  border:1px solid var(--c-border);
-  background:#fff;
-  color:var(--c-text2);
-  font-size:12px;
-  font-weight:500;
-  cursor:pointer;
-  white-space:nowrap;
+  flex-shrink:0;padding:6px 11px;border-radius:14px;
+  border:1px solid var(--c-border);background:#fff;
+  color:var(--c-text2);font-size:12px;font-weight:500;
+  cursor:pointer;white-space:nowrap;
 }
 .pill.active{background:var(--c-accent);color:#fff;border-color:var(--c-accent)}
-.pill.tag-pill{font-size:11px;padding:5px 10px;color:var(--c-text2)}
-.pill.tag-pill.active{background:#553c9a;color:#fff;border-color:#553c9a}
 .pill .count{
-  background:rgba(255,255,255,.2);
-  border-radius:8px;
-  padding:0 5px;
-  font-size:10px;
-  margin-left:3px;
+  background:rgba(255,255,255,.2);border-radius:8px;
+  padding:0 5px;font-size:10px;margin-left:3px;
 }
 .pill:not(.active) .count{background:#edf2f7}
-.row-label{
-  font-size:11px;
-  color:var(--c-muted);
-  margin-bottom:6px;
-  display:block;
-  margin-top:6px;
-}
 
 /* ========== Sections ========== */
-.section{padding:14px 14px 6px}
+.section{padding:12px 14px 4px}
 .section-header{
-  display:flex;
-  align-items:center;
+  display:flex;align-items:center;
   justify-content:space-between;
-  margin-bottom:10px;
-  padding:0 4px;
+  margin:6px 4px 10px;
 }
 .section-title{
-  font-size:11px;
-  font-weight:700;
-  color:var(--c-text2);
-  text-transform:uppercase;
-  letter-spacing:1px;
+  font-size:11px;font-weight:700;color:var(--c-text2);
+  text-transform:uppercase;letter-spacing:.8px;
   border-left:3px solid var(--c-accent);
-  padding-left:8px;
-  flex:1;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
+  padding-left:8px;flex:1;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
 .section-title.reserve{border-left-color:var(--c-warning);color:#7b341e}
+.section-title.compare{border-left-color:#553c9a;color:#553c9a}
 .section-title .count{
-  background:#edf2f7;
-  color:var(--c-text2);
-  border-radius:8px;
-  padding:1px 7px;
-  font-size:10px;
-  margin-left:6px;
-  font-weight:600;
+  background:#edf2f7;color:var(--c-text2);
+  border-radius:8px;padding:1px 7px;
+  font-size:10px;margin-left:6px;font-weight:600;
 }
 .section-title.reserve .count{background:#fef5e7;color:#7b341e}
+.section-title.compare .count{background:#f3e8ff;color:#553c9a}
 
-/* ========== Card ========== */
+/* ========== Card (常规) ========== */
 .card{
-  background:#fff;
-  border-radius:12px;
-  padding:14px 14px;
+  background:#fff;border-radius:12px;padding:13px 14px;
   margin-bottom:10px;
   box-shadow:0 1px 4px rgba(0,0,0,.04);
   border:1px solid var(--c-border);
-  text-decoration:none;
-  color:inherit;
-  display:block;
-  transition:transform .15s, box-shadow .15s;
+  text-decoration:none;color:inherit;display:block;
+  transition:transform .12s,box-shadow .12s;
 }
-.card:active{transform:scale(.98);background:#f7fafc}
+.card:active{transform:scale(.985);background:#fafbfc}
 .card.hidden{display:none}
 .card.featured{
   border:2px solid var(--c-warning);
   background:linear-gradient(135deg,#fff7ed,#fef5e7);
-  position:relative;
-  overflow:hidden;
+  position:relative;overflow:hidden;
 }
-.card.featured::before{
-  content:"⭐";
-  position:absolute;
-  top:-8px;
-  right:-8px;
-  font-size:50px;
-  opacity:.18;
-  transform:rotate(12deg);
+.card.featured::after{
+  content:"⭐";position:absolute;top:-6px;right:-6px;
+  font-size:42px;opacity:.16;transform:rotate(10deg);
 }
 .card-header{
-  display:flex;
-  justify-content:space-between;
-  align-items:flex-start;
-  margin-bottom:8px;
-  gap:8px;
+  display:flex;justify-content:space-between;
+  align-items:flex-start;margin-bottom:6px;gap:8px;
 }
 .card-title{
-  font-size:16px;
-  font-weight:600;
-  color:var(--c-accent);
-  line-height:1.4;
-  flex:1;
+  font-size:15px;font-weight:600;color:var(--c-accent);
+  line-height:1.4;flex:1;
 }
-.card.featured .card-title{color:#7b341e;font-size:17px}
+.card.featured .card-title{color:#7b341e;font-size:16px}
 .status{
-  display:inline-block;
-  font-size:10px;
-  padding:2px 8px;
-  border-radius:8px;
-  color:#fff;
-  white-space:nowrap;
-  font-weight:500;
-  flex-shrink:0;
+  display:inline-block;font-size:10px;
+  padding:2px 7px;border-radius:8px;color:#fff;
+  white-space:nowrap;font-weight:500;flex-shrink:0;
 }
 .status.total{background:var(--c-warning)}
 .status.done{background:var(--c-blue)}
 .status.deployed{background:var(--c-success)}
-.card-tags{
-  margin-bottom:8px;
-}
+.card-tags{margin-bottom:6px}
 .tag{
-  display:inline-block;
-  background:#edf2f7;
-  color:var(--c-text2);
-  font-size:10px;
-  padding:2px 7px;
-  border-radius:7px;
-  margin-right:4px;
-  margin-bottom:3px;
+  display:inline-block;background:#edf2f7;color:var(--c-text2);
+  font-size:10px;padding:2px 7px;border-radius:7px;
+  margin-right:4px;margin-bottom:2px;
 }
 .card-desc{
-  font-size:13px;
-  color:var(--c-text2);
-  line-height:1.55;
-  margin-bottom:10px;
-  display:-webkit-box;
-  -webkit-line-clamp:3;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
+  font-size:13px;color:var(--c-text2);
+  line-height:1.5;margin-bottom:8px;
+  display:-webkit-box;-webkit-line-clamp:2;
+  -webkit-box-orient:vertical;overflow:hidden;
 }
 .card-footer{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  font-size:11px;
-  color:var(--c-muted);
-  padding-top:8px;
-  border-top:1px solid #f1f5f9;
+  display:flex;justify-content:space-between;
+  align-items:center;font-size:11px;color:var(--c-muted);
+  padding-top:8px;border-top:1px solid #f1f5f9;
 }
-.card-arrow{
-  color:var(--c-blue);
-  font-weight:600;
-  font-size:14px;
-}
+.card-arrow{color:var(--c-blue);font-weight:600;font-size:14px}
 
-/* ========== Section End Marker ========== */
-.section-end{
-  font-size:10px;
-  color:var(--c-muted);
-  text-align:center;
-  padding:8px 0 14px;
-  border-bottom:1px solid var(--c-border);
-  margin-bottom:14px;
+/* ========== Comparison Table (移动版对比速查) ========== */
+.compare-list{display:flex;flex-direction:column;gap:10px}
+.compare-item{
+  background:#fff;border-radius:12px;
+  border:1px solid var(--c-border);
+  overflow:hidden;
 }
-.section-end.hidden{border-bottom:none;padding:0}
+.compare-header{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:10px 14px;
+  background:linear-gradient(90deg,#f3e8ff,#ede9fe);
+  border-bottom:1px solid var(--c-border);
+}
+.compare-name{font-size:14px;font-weight:700;color:#553c9a}
+.compare-grade{
+  background:#553c9a;color:#fff;
+  font-size:11px;padding:2px 8px;border-radius:8px;
+  font-weight:600;
+}
+.compare-body{padding:10px 14px}
+.compare-row{
+  display:flex;justify-content:space-between;
+  padding:6px 0;font-size:12px;
+  border-bottom:1px dashed #f1f5f9;gap:10px;
+}
+.compare-row:last-child{border-bottom:none}
+.compare-label{color:var(--c-muted);flex-shrink:0;font-size:11px}
+.compare-value{color:var(--c-text);font-weight:500;text-align:right;flex:1;word-break:break-word}
+.compare-value.positive{color:var(--c-success);font-weight:600}
+.compare-value.stars{color:#d69e2e;letter-spacing:1px}
 
 /* ========== Empty ========== */
 .no-result{
-  text-align:center;
-  padding:60px 20px;
-  color:var(--c-muted);
-  font-size:14px;
-  display:none;
+  text-align:center;padding:50px 20px;
+  color:var(--c-muted);font-size:14px;display:none;
 }
 .no-result.visible{display:block}
-.no-result .emoji{font-size:42px;margin-bottom:14px}
+.no-result .emoji{font-size:42px;margin-bottom:12px}
 
 /* ========== Footer ========== */
 .footer{
-  text-align:center;
-  color:var(--c-muted);
-  font-size:11px;
-  padding:24px 16px calc(24px + env(safe-area-inset-bottom, 0px));
+  text-align:center;color:var(--c-muted);
+  font-size:11px;padding:22px 16px calc(22px + env(safe-area-inset-bottom, 0px));
 }
 .footer p{margin:4px 0}
 .footer-actions{
-  display:flex;
-  gap:8px;
-  justify-content:center;
-  margin:14px 0;
+  display:flex;gap:8px;justify-content:center;
+  margin:12px 0;
 }
 .footer-btn{
-  display:inline-block;
-  padding:8px 16px;
-  background:var(--c-accent);
-  color:#fff;
-  border-radius:8px;
-  text-decoration:none;
-  font-size:12px;
-  font-weight:500;
-  border:none;
-  cursor:pointer;
+  display:inline-block;padding:9px 16px;
+  background:var(--c-accent);color:#fff;
+  border-radius:8px;text-decoration:none;
+  font-size:12px;font-weight:500;border:none;cursor:pointer;
 }
 .footer-btn.warning{background:var(--c-warning)}
 
-/* ========== Result Bar (filters) ========== */
 .result-bar{
-  font-size:11px;
-  color:var(--c-muted);
-  padding:10px 14px 4px;
-  background:#f7fafc;
+  font-size:11px;color:var(--c-muted);
+  padding:8px 14px 4px;background:#f7fafc;
   display:none;
 }
 .result-bar.visible{display:block}
@@ -377,8 +281,8 @@ body{
   <h1>天保控股项目报告中心</h1>
   <p>并购大项目 · 储备项目 · 一站式访问</p>
   <div class="header-stats">
-    <div><strong id="hdrProj">5</strong>个项目</div>
-    <div><strong id="hdrCat">3</strong>个分类</div>
+    <div><strong>5</strong>个项目</div>
+    <div><strong>4</strong>个分类</div>
     <div><strong>06-29</strong>更新</div>
   </div>
 </div>
@@ -388,21 +292,22 @@ body{
     <input type="text" id="searchInput" placeholder="🔍 搜索项目名称..." autocomplete="off">
     <button class="clear-btn" id="clearBtn" onclick="clearSearch()">×</button>
   </div>
-  <span class="row-label">分类</span>
   <div class="cat-row">
-    <button class="pill active" data-cat="all">全部 <span class="count" id="cntAll">5</span></button>
-    <button class="pill" data-cat="reserve">📊 储备项目 <span class="count" id="cntReserve">2</span></button>
-    <button class="pill" data-cat="deal">并购大项目 <span class="count" id="cntDeal">1</span></button>
-    <button class="pill" data-cat="viz">知识图谱 <span class="count" id="cntViz">2</span></button>
-    <button class="pill" data-cat="internal">内部工具 <span class="count" id="cntInternal">1</span></button>
+    <button class="pill active" data-cat="all">全部</button>
+    <button class="pill" data-cat="reserve">📊 储备项目</button>
+    <button class="pill" data-cat="deal">并购大项目</button>
+    <button class="pill" data-cat="compare">📈 对比速查</button>
+    <button class="pill" data-cat="viz">知识图谱</button>
+    <button class="pill" data-cat="internal">内部工具</button>
   </div>
 </div>
 
 <div class="result-bar" id="resultBar"></div>
 
+<!-- ============================== 储备项目 ============================== -->
 <div class="section" data-cat="reserve" id="sec-reserve">
   <div class="section-header">
-    <div class="section-title reserve">📊 储备项目 <span class="count" id="secCntReserve">2</span></div>
+    <div class="section-title reserve">📊 储备项目</div>
   </div>
 
   <a class="card featured" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank" rel="noopener"
@@ -414,7 +319,7 @@ body{
     <div class="card-tags">
       <span class="tag">总入口</span><span class="tag">8维度对比</span><span class="tag">Pre-IPO/REITs</span>
     </div>
-    <div class="card-desc">7个 Pre-IPO/REITs 储备项目（晶能/柯渡/中复/宏远/联通云IDC/信鸿/迅巢）的统一入口，含8维度横向对比汇总。</div>
+    <div class="card-desc">7个 Pre-IPO/REITs 储备项目统一入口，含 8 维度横向对比汇总。</div>
     <div class="card-footer">
       <span>📅 06-29</span>
       <span class="card-arrow">访问统一库 →</span>
@@ -430,7 +335,7 @@ body{
     <div class="card-tags">
       <span class="tag">高端制造</span><span class="tag">Micro-LED</span><span class="tag">AI 光互联</span>
     </div>
-    <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。本轮融资 2 亿元，已完成尽调。</div>
+    <div class="card-desc">Micro-LED 并行光引擎器件平台，面向 AI Scale-up 短距光互联。</div>
     <div class="card-footer">
       <span>📅 06-29</span>
       <span class="card-arrow">访问 →</span>
@@ -438,13 +343,121 @@ body{
   </a>
 </div>
 
+<!-- ============================== 8维度对比速查（移动友好） ============================== -->
+<div class="section" data-cat="compare" id="sec-compare">
+  <div class="section-header">
+    <div class="section-title compare">📈 7项目 8维度对比速查</div>
+  </div>
+
+  <div class="compare-list" id="compareList">
+    <div class="compare-item">
+      <div class="compare-header"><span class="compare-name">晶能光电（江西）</span><span class="compare-grade">★4.4</span></div>
+      <div class="compare-body">
+        <div class="compare-row"><span class="compare-label">核心定位</span><span class="compare-value">硅衬底 LED 芯片技术开拓者</span></div>
+        <div class="compare-row"><span class="compare-label">上市状态</span><span class="compare-value positive">拟科创板 IPO</span></div>
+        <div class="compare-row"><span class="compare-label">净利率</span><span class="compare-value positive">21.02%（断层领先）</span></div>
+        <div class="compare-row"><span class="compare-label">估值预期</span><span class="compare-value">27.5 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">投资规模</span><span class="compare-value">2-3 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">退出确定性</span><span class="compare-value stars">★★★★★</span></div>
+      </div>
+    </div>
+
+    <div class="compare-item">
+      <div class="compare-header"><span class="compare-name">上海柯渡医学</span><span class="compare-grade">★3.7</span></div>
+      <div class="compare-body">
+        <div class="compare-row"><span class="compare-label">核心定位</span><span class="compare-value">医疗设备维保双寡头之一</span></div>
+        <div class="compare-row"><span class="compare-label">上市状态</span><span class="compare-value">未上市</span></div>
+        <div class="compare-row"><span class="compare-label">净利率</span><span class="compare-value">6.46%</span></div>
+        <div class="compare-row"><span class="compare-label">估值预期</span><span class="compare-value">14-20 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">投资规模</span><span class="compare-value">7-10 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">退出确定性</span><span class="compare-value stars">★★★</span></div>
+      </div>
+    </div>
+
+    <div class="compare-item">
+      <div class="compare-header"><span class="compare-name">中复碳芯</span><span class="compare-grade">★3.6</span></div>
+      <div class="compare-body">
+        <div class="compare-row"><span class="compare-label">核心定位</span><span class="compare-value">碳纤维复合材料（中建材）</span></div>
+        <div class="compare-row"><span class="compare-label">上市状态</span><span class="compare-value">未上市</span></div>
+        <div class="compare-row"><span class="compare-label">净利率</span><span class="compare-value">8-12%</span></div>
+        <div class="compare-row"><span class="compare-label">估值预期</span><span class="compare-value">15-25 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">投资规模</span><span class="compare-value">3-5 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">退出确定性</span><span class="compare-value stars">★★★</span></div>
+      </div>
+    </div>
+
+    <div class="compare-item">
+      <div class="compare-header"><span class="compare-name">北京宏远创信能源</span><span class="compare-grade">★3.5</span></div>
+      <div class="compare-body">
+        <div class="compare-row"><span class="compare-label">核心定位</span><span class="compare-value">100% 民营售电龙头</span></div>
+        <div class="compare-row"><span class="compare-label">上市状态</span><span class="compare-value">未上市</span></div>
+        <div class="compare-row"><span class="compare-label">净利率</span><span class="compare-value">5-8%</span></div>
+        <div class="compare-row"><span class="compare-label">估值预期</span><span class="compare-value">8-12 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">投资规模</span><span class="compare-value">2-4 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">退出确定性</span><span class="compare-value stars">★★★</span></div>
+      </div>
+    </div>
+
+    <div class="compare-item">
+      <div class="compare-header"><span class="compare-name">联通云 IDC（山西）</span><span class="compare-grade">★4.5</span></div>
+      <div class="compare-body">
+        <div class="compare-row"><span class="compare-label">核心定位</span><span class="compare-value">1,400 机柜高品质 IDC</span></div>
+        <div class="compare-row"><span class="compare-label">上市状态</span><span class="compare-value positive">整体出售退出</span></div>
+        <div class="compare-row"><span class="compare-label">净利率</span><span class="compare-value">25-30%（REITs 资产）</span></div>
+        <div class="compare-row"><span class="compare-label">估值预期</span><span class="compare-value">30-40 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">投资规模</span><span class="compare-value">10-15 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">退出确定性</span><span class="compare-value stars">★★★★★</span></div>
+      </div>
+    </div>
+
+    <div class="compare-item">
+      <div class="compare-header"><span class="compare-name">天津信鸿医疗</span><span class="compare-grade">★3.4</span></div>
+      <div class="compare-body">
+        <div class="compare-row"><span class="compare-label">核心定位</span><span class="compare-value">IVD 综合服务平台</span></div>
+        <div class="compare-row"><span class="compare-label">上市状态</span><span class="compare-value">新三板创新层</span></div>
+        <div class="compare-row"><span class="compare-label">净利率</span><span class="compare-value">4-6%</span></div>
+        <div class="compare-row"><span class="compare-label">估值预期</span><span class="compare-value">6-10 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">投资规模</span><span class="compare-value">2-3 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">退出确定性</span><span class="compare-value stars">★★★</span></div>
+      </div>
+    </div>
+
+    <div class="compare-item">
+      <div class="compare-header"><span class="compare-name">迅巢科技（XCHS）</span><span class="compare-grade">★3.5</span></div>
+      <div class="compare-body">
+        <div class="compare-row"><span class="compare-label">核心定位</span><span class="compare-value">物流换电场景头部 90%+</span></div>
+        <div class="compare-row"><span class="compare-label">上市状态</span><span class="compare-value">未上市</span></div>
+        <div class="compare-row"><span class="compare-label">净利率</span><span class="compare-value">8-12%</span></div>
+        <div class="compare-row"><span class="compare-label">估值预期</span><span class="compare-value">10-15 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">投资规模</span><span class="compare-value">2-3 亿元</span></div>
+        <div class="compare-row"><span class="compare-label">退出确定性</span><span class="compare-value stars">★★★★</span></div>
+      </div>
+    </div>
+  </div>
+
+  <a class="card" style="margin-top:10px;background:#f3e8ff;border:1px solid #c4b5fd" 
+     href="https://jinzhanxiang.github.io/7projects-summary/summary.html" target="_blank" rel="noopener"
+     data-cat="compare" data-name="完整版对比" data-tag="深度" data-desc="完整 8 维度对比汇总（含详细评估指标）">
+    <div class="card-header">
+      <div class="card-title" style="color:#553c9a">📋 查看完整深度对比页</div>
+      <span class="status" style="background:#553c9a">深度</span>
+    </div>
+    <div class="card-desc">点击跳转到完整版，含详细评估指标</div>
+    <div class="card-footer">
+      <span>📅 06-29</span>
+      <span class="card-arrow">访问 →</span>
+    </div>
+  </a>
+</div>
+
+<!-- ============================== 并购大项目 ============================== -->
 <div class="section" data-cat="deal" id="sec-deal">
   <div class="section-header">
-    <div class="section-title">并购大项目 <span class="count" id="secCntDeal">1</span></div>
+    <div class="section-title">并购大项目</div>
   </div>
 
   <a class="card" href="https://jinzhanxiang.github.io/xingheng-report/" target="_blank" rel="noopener"
-     data-cat="deal" data-name="星恒电源" data-tag="动力电池 新能源" data-desc="锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。">
+     data-cat="deal" data-name="星恒电源" data-tag="动力电池 新能源" data-desc="锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件。">
     <div class="card-header">
       <div class="card-title">星恒电源</div>
       <span class="status done">尽调完成</span>
@@ -452,7 +465,7 @@ body{
     <div class="card-tags">
       <span class="tag">动力电池</span><span class="tag">新能源</span>
     </div>
-    <div class="card-desc">锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件（行业/竞争/财务）。</div>
+    <div class="card-desc">锂电两轮车龙头，锰酸锂技术积累深厚。</div>
     <div class="card-footer">
       <span>📅 05-30</span>
       <span class="card-arrow">访问 →</span>
@@ -460,13 +473,14 @@ body{
   </a>
 </div>
 
+<!-- ============================== 知识图谱与可视化 ============================== -->
 <div class="section" data-cat="viz" id="sec-viz">
   <div class="section-header">
-    <div class="section-title">知识图谱与可视化 <span class="count" id="secCntViz">2</span></div>
+    <div class="section-title">知识图谱与可视化</div>
   </div>
 
   <a class="card" href="https://jinzhanxiang.github.io/kg-viz-3d/" target="_blank" rel="noopener"
-     data-cat="viz" data-name="知识图谱 3D 星云" data-tag="3D Three.js" data-desc="实体关系图谱的 3D 立体呈现，支持交互式探索、星云布局、深度缩放。">
+     data-cat="viz" data-name="知识图谱 3D 星云" data-tag="3D Three.js" data-desc="实体关系图谱的 3D 立体呈现，支持交互式探索。">
     <div class="card-header">
       <div class="card-title">知识图谱 3D 星云</div>
       <span class="status deployed">已部署</span>
@@ -474,7 +488,7 @@ body{
     <div class="card-tags">
       <span class="tag">3D</span><span class="tag">Three.js</span>
     </div>
-    <div class="card-desc">实体关系图谱的 3D 立体呈现，支持交互式探索、星云布局、深度缩放。</div>
+    <div class="card-desc">实体关系图谱的 3D 立体呈现。</div>
     <div class="card-footer">
       <span>📅 06-21</span>
       <span class="card-arrow">访问 →</span>
@@ -482,7 +496,7 @@ body{
   </a>
 
   <a class="card" href="https://jinzhanxiang.github.io/kg-viz/" target="_blank" rel="noopener"
-     data-cat="viz" data-name="知识图谱分层 v3" data-tag="环形 渐进加载" data-desc="环形行业全景图，分层展示 + 实体详情联动，支持大数据量渐进渲染。">
+     data-cat="viz" data-name="知识图谱分层 v3" data-tag="环形 渐进加载" data-desc="环形行业全景图，分层展示。">
     <div class="card-header">
       <div class="card-title">知识图谱分层 v3</div>
       <span class="status deployed">已部署</span>
@@ -490,7 +504,7 @@ body{
     <div class="card-tags">
       <span class="tag">环形</span><span class="tag">渐进加载</span>
     </div>
-    <div class="card-desc">环形行业全景图，分层展示 + 实体详情联动，支持大数据量渐进渲染。</div>
+    <div class="card-desc">环形行业全景图，分层展示。</div>
     <div class="card-footer">
       <span>📅 06-21</span>
       <span class="card-arrow">访问 →</span>
@@ -498,9 +512,10 @@ body{
   </a>
 </div>
 
+<!-- ============================== 内部工具 ============================== -->
 <div class="section" data-cat="internal" id="sec-internal">
   <div class="section-header">
-    <div class="section-title">内部工具与文档 <span class="count" id="secCntInternal">1</span></div>
+    <div class="section-title">内部工具与文档</div>
   </div>
 
   <a class="card" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank" rel="noopener"
@@ -533,16 +548,17 @@ body{
     <a class="footer-btn warning" href="https://jinzhanxiang.github.io/7projects-summary/">📊 储备项目</a>
     <a class="footer-btn" href="https://github.com/jinzhanxiang" target="_blank">⭐ GitHub</a>
   </div>
-  <p style="margin-top:10px;font-size:10px">最后更新 2026-06-29 13:45</p>
+  <p style="margin-top:8px;font-size:10px">最后更新 2026-06-29 13:55 · 含 7 项目对比速查</p>
   <p style="font-size:10px">
     <a href="./index.html" style="color:var(--c-blue);text-decoration:none">← 切换桌面版</a>
   </p>
 </div>
 
 <script>
-const TOTAL = 5;
+const TOTAL_CARDS = 6;  // 卡片数（不含对比数据）
 const allCards = document.querySelectorAll('.card');
 const allSections = document.querySelectorAll('.section');
+const allCompareItems = document.querySelectorAll('.compare-item');
 const searchInput = document.getElementById('searchInput');
 const clearBtn = document.getElementById('clearBtn');
 const resultBar = document.getElementById('resultBar');
@@ -580,9 +596,9 @@ function applyFilters() {
   var visibleCount = 0;
   allCards.forEach(function(card) {
     var cat = card.getAttribute('data-cat');
-    var name = card.getAttribute('data-name').toLowerCase();
-    var tag = card.getAttribute('data-tag').toLowerCase();
-    var desc = card.getAttribute('data-desc').toLowerCase();
+    var name = (card.getAttribute('data-name') || '').toLowerCase();
+    var tag = (card.getAttribute('data-tag') || '').toLowerCase();
+    var desc = (card.getAttribute('data-desc') || '').toLowerCase();
 
     var catMatch = activeCat === 'all' || activeCat === cat;
     var kwMatch = !searchKw || name.indexOf(searchKw) !== -1 || tag.indexOf(searchKw) !== -1 || desc.indexOf(searchKw) !== -1;
@@ -592,28 +608,28 @@ function applyFilters() {
     else { card.classList.add('hidden'); }
   });
 
+  // 处理对比速查项（按文字匹配）
+  if (activeCat === 'all' || activeCat === 'compare') {
+    allCompareItems.forEach(function(item) {
+      var text = item.textContent.toLowerCase();
+      var show = !searchKw || text.indexOf(searchKw) !== -1;
+      item.style.display = show ? '' : 'none';
+    });
+  } else {
+    allCompareItems.forEach(function(item) { item.style.display = 'none'; });
+  }
+
   allSections.forEach(function(sec) {
     var secCat = sec.getAttribute('data-cat');
     var secMatch = activeCat === 'all' || activeCat === secCat;
     sec.style.display = secMatch ? '' : 'none';
-    if (secMatch) {
-      var idMap = {
-        'reserve':'secCntReserve',
-        'deal':'secCntDeal',
-        'viz':'secCntViz',
-        'internal':'secCntInternal'
-      };
-      var id = idMap[secCat];
-      if (id) {
-        document.getElementById(id).textContent = sec.querySelectorAll('.card:not(.hidden)').length;
-      }
-    }
   });
 
-  noResult.classList.toggle('visible', visibleCount === 0);
+  noResult.classList.toggle('visible', visibleCount === 0 && allCompareItems.length === 0);
   resultBar.classList.toggle('visible', searchKw.length > 0 || activeCat !== 'all');
   if (resultBar.classList.contains('visible')) {
-    resultBar.innerHTML = '找到 <span class="kw">' + visibleCount + '</span> / ' + TOTAL + ' 个项目';
+    var compareShown = Array.from(allCompareItems).filter(i => i.style.display !== 'none').length;
+    resultBar.innerHTML = '找到 <span class="kw">' + (visibleCount + compareShown) + '</span> 个';
   }
 }
 </script>
