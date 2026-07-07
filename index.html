@@ -22,7 +22,7 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 .header::after{content:"";position:absolute;bottom:-30%;left:-5%;width:200px;height:200px;background:rgba(255,255,255,0.03);border-radius:50%}
 .header h1{font-size:32px;font-weight:700;margin-bottom:8px;letter-spacing:2px;position:relative}
 .header p{font-size:15px;opacity:0.9;position:relative}
-.header-stats{display:flex;gap:24px;margin-top:24px;position:relative}
+.header-stats{display:flex;gap:24px;margin-top:24px;position:relative;flex-wrap:wrap;justify-content:center}
 .stat-item{background:rgba(255,255,255,0.15);padding:8px 18px;border-radius:25px;font-size:14px}
 .stat-item strong{font-size:18px}
 
@@ -102,7 +102,7 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 <p>并购大项目 · 储备项目 · 行业研究 · 内部工具</p>
 <div class="header-stats">
 <span class="stat-item">📂 <strong>3</strong> 个分类</span>
-<span class="stat-item">📋 <strong>5</strong> 个项目</span>
+<span class="stat-item">📋 <strong>12</strong> 个项目</span>
 <span class="stat-item">🕐 <strong>2026-07-07</strong> 更新</span>
 </div>
 </div>
@@ -117,24 +117,84 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 <div class="section-header">
 <span class="section-icon">📊</span>
 <h2 class="section-title">项目储备库</h2>
-<span class="section-count">4</span>
+<span class="section-count">10</span>
 <span class="section-note">暂未立项</span>
 </div>
 
 <!-- 未上市标的 -->
 <div class="subsection">
 <span class="subsection-icon">💼</span>
-<span class="subsection-title">未上市标的</span>
+<span class="subsection-title">未上市标的（8个Pre-IPO/REITs）</span>
 </div>
 <div class="grid">
-<a class="card" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank">
+<a class="card" href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank">
 <div class="card-header">
-<div class="card-title"><span class="card-title-icon">📋</span>储备项目统一库</div>
-<span class="card-status status-yellow">8项目</span>
+<div class="card-title"><span class="card-title-icon">💡</span>晶能光电</div>
+<span class="card-status status-yellow">Pre-IPO</span>
 </div>
-<div class="card-tags"><span class="tag">Pre-IPO</span><span class="tag">REITs</span></div>
-<div class="card-desc">8个 Pre-IPO/REITs 未上市标的统一入口</div>
-<div class="card-footer"><span>📅 8个项目</span><span class="card-arrow">访问 →</span></div>
+<div class="card-tags"><span class="tag">LED</span><span class="tag">硅衬底</span></div>
+<div class="card-desc">中国硅衬底LED芯片技术开拓者，综合评分⭐⭐⭐⭐⭐</div>
+<div class="card-footer"><span>📅 科创板IPO</span><span class="card-arrow">访问 →</span></div>
+</a>
+
+<a class="card" href="https://jinzhanxiang.github.io/7projects-summary/projects/kedu.html" target="_blank">
+<div class="card-header">
+<div class="card-title"><span class="card-title-icon">💡</span>柯渡医学</div>
+<span class="card-status status-yellow">Pre-IPO</span>
+</div>
+<div class="card-tags"><span class="tag">医疗</span><span class="tag">设备维保</span></div>
+<div class="card-desc">医疗设备第三方维保双寡头之一，综合评分⭐⭐⭐⭐</div>
+<div class="card-footer"><span>📅 未上市</span><span class="card-arrow">访问 →</span></div>
+</a>
+
+<a class="card" href="https://jinzhanxiang.github.io/7projects-summary/projects/zhongfu.html" target="_blank">
+<div class="card-header">
+<div class="card-title"><span class="card-title-icon">💡</span>中复碳芯</div>
+<span class="card-status status-yellow">Pre-IPO</span>
+</div>
+<div class="card-tags"><span class="tag">碳纤维</span><span class="tag">复合材料</span></div>
+<div class="card-desc">中国建材集团旗下碳纤维复合材料平台</div>
+<div class="card-footer"><span>📅 央企</span><span class="card-arrow">访问 →</span></div>
+</a>
+
+<a class="card" href="https://jinzhanxiang.github.io/7projects-summary/projects/hongyuan.html" target="_blank">
+<div class="card-header">
+<div class="card-title"><span class="card-title-icon">💡</span>宏远创信</div>
+<span class="card-status status-yellow">Pre-IPO</span>
+</div>
+<div class="card-tags"><span class="tag">新材料</span><span class="tag">创投</span></div>
+<div class="card-desc">专注于新材料领域的投资机构</div>
+<div class="card-footer"><span>📅 未上市</span><span class="card-arrow">访问 →</span></div>
+</a>
+
+<a class="card" href="https://jinzhanxiang.github.io/7projects-summary/projects/unicom-idc.html" target="_blank">
+<div class="card-header">
+<div class="card-title"><span class="card-title-icon">💡</span>联通云IDC</div>
+<span class="card-status status-yellow">REITs</span>
+</div>
+<div class="card-tags"><span class="tag">IDC</span><span class="tag">数据中心</span></div>
+<div class="card-desc">联通云IDC数据中心REITs项目</div>
+<div class="card-footer"><span>📅 REITs</span><span class="card-arrow">访问 →</span></div>
+</a>
+
+<a class="card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xinhong.html" target="_blank">
+<div class="card-header">
+<div class="card-title"><span class="card-title-icon">💡</span>信鸿医疗</div>
+<span class="card-status status-yellow">Pre-IPO</span>
+</div>
+<div class="card-tags"><span class="tag">医疗</span><span class="tag">供应链</span></div>
+<div class="card-desc">医疗器械供应链服务商</div>
+<div class="card-footer"><span>📅 未上市</span><span class="card-arrow">访问 →</span></div>
+</a>
+
+<a class="card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xunchao.html" target="_blank">
+<div class="card-header">
+<div class="card-title"><span class="card-title-icon">💡</span>迅巢科技</div>
+<span class="card-status status-yellow">Pre-IPO</span>
+</div>
+<div class="card-tags"><span class="tag">科技</span><span class="tag">创新</span></div>
+<div class="card-desc">科技创新型企业</div>
+<div class="card-footer"><span>📅 未上市</span><span class="card-arrow">访问 →</span></div>
 </a>
 
 <a class="card" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank">
