@@ -17,7 +17,6 @@
 })();
 </script>
 <title>天保控股项目报告中心 · TianBao Investment Hub</title>
-
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -37,7 +36,6 @@
   --c-card-shadow-hover:0 8px 24px rgba(26,54,93,.12);
 }
 body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif;color:var(--c-text);background:linear-gradient(180deg,#f7fafc 0%,#edf2f7 100%);line-height:1.8;font-size:16px;min-height:100vh;-webkit-text-size-adjust:100%}
-
 /* ========== Hero ========== */
 .hero{background:linear-gradient(135deg,#0f1e3d 0%,#1a365d 50%,#2d3748 100%);color:#fff;padding:56px 20px 48px;text-align:center;position:relative;overflow:hidden}
 .hero::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(circle at 30% 50%,rgba(56,161,105,.15),transparent 50%),radial-gradient(circle at 70% 50%,rgba(49,130,206,.15),transparent 50%)}
@@ -48,15 +46,12 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 .hero-meta{display:flex;justify-content:center;gap:28px;margin-top:20px;flex-wrap:wrap}
 .hero-meta .meta-item{color:rgba(255,255,255,.85);font-size:14px}
 .hero-meta .meta-item strong{color:#fff;font-size:17px;display:block;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
-
 /* ========== Container ========== */
 .container{max-width:1100px;margin:0 auto;padding:36px 20px 60px}
-
 /* ========== View Toggle (移动端切换) ========== */
 .view-toggle{display:none;justify-content:center;gap:8px;margin-bottom:14px;background:#fff;border-radius:8px;padding:6px;box-shadow:var(--c-card-shadow);width:fit-content;margin-left:auto;margin-right:auto}
 .view-toggle button{padding:6px 14px;border-radius:6px;border:none;background:transparent;color:var(--c-text2);font-size:13px;cursor:pointer;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:500}
 .view-toggle button.active{background:var(--c-accent);color:#fff}
-
 /* ========== Search Bar ========== */
 .search-bar{background:#fff;border-radius:12px;box-shadow:var(--c-card-shadow);padding:20px 24px;margin-bottom:24px;display:flex;flex-direction:column;gap:14px}
 .search-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
@@ -77,7 +72,6 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 .tag-btn.active{background:#553c9a;color:#fff;border-color:#553c9a}
 .result-bar{font-size:13px;color:var(--c-muted);padding:0 4px}
 .result-bar .kw{color:var(--c-accent);font-weight:600}
-
 /* ========== Section ========== */
 .section{margin-bottom:40px}
 .section-title{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:12px;font-weight:600;color:var(--c-text2);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px;padding-left:12px;border-left:4px solid var(--c-accent);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
@@ -85,11 +79,9 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 .section-title .sec-note{font-size:11px;color:var(--c-muted);font-weight:400;text-transform:none;letter-spacing:0;margin-left:auto}
 .section-title.reserve{border-left-color:var(--c-warning)}
 .section-title.reserve .sec-count{background:#fef5e7;color:#7b341e}
-
 /* ========== Grid / List View ========== */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
 .list-view .grid{grid-template-columns:1fr;gap:10px}
-
 /* ========== Card ========== */
 .card{background:#fff;border-radius:12px;box-shadow:var(--c-card-shadow);padding:22px 24px;transition:all .25s;cursor:pointer;text-decoration:none;color:inherit;display:block;border:1px solid transparent}
 .card:hover{transform:translateY(-3px);box-shadow:var(--c-card-shadow-hover);border-color:#cbd5e0}
@@ -110,26 +102,22 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 .card-footer{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--c-muted);padding-top:10px;border-top:1px solid #f1f5f9;gap:8px}
 .list-view .card-footer{border-top:none;padding-top:0;flex:0 0 auto;flex-direction:column;align-items:flex-end;gap:2px}
 .card-footer .arrow{color:var(--c-blue);font-size:14px;font-weight:600}
-
 /* ========== Featured Card (总入口) ========== */
 .card.featured{background:linear-gradient(135deg,#fff7ed 0%,#fef5e7 100%);border:2px solid var(--c-warning);position:relative;overflow:hidden}
 .card.featured::before{content:"⭐";position:absolute;top:-10px;right:-10px;font-size:60px;opacity:.15;transform:rotate(15deg)}
 .card.featured:hover{box-shadow:0 12px 28px rgba(214,158,46,.25);border-color:var(--c-warning2)}
 .card.featured h3{color:#7b341e}
 .list-view .card.featured{padding:16px 20px}
-
 /* ========== Divider (分类内分组) ========== */
 .section-divider{font-size:12px;color:var(--c-muted);text-align:center;margin:20px 0 14px;position:relative;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
 .section-divider::before,.section-divider::after{content:"";position:absolute;top:50%;width:calc(50% - 80px);height:1px;background:var(--c-border)}
 .section-divider::before{left:0}
 .section-divider::after{right:0}
 .section-divider span{background:linear-gradient(180deg,#f7fafc 0%,#edf2f7 100%);padding:0 14px;position:relative;z-index:1}
-
 /* ========== Empty ========== */
 .no-result{text-align:center;padding:60px 20px;color:var(--c-muted);font-size:16px;display:none}
 .no-result.visible{display:block}
 .no-result .emoji{font-size:48px;margin-bottom:16px}
-
 /* ========== Toolbar ========== */
 .toolbar{display:flex;gap:10px;justify-content:center;margin:32px 0 0;flex-wrap:wrap}
 .btn{padding:9px 20px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;transition:all .2s;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;display:inline-flex;align-items:center;gap:6px}
@@ -139,11 +127,9 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
 .btn-secondary:hover{background:#edf2f7}
 .btn-warning{background:var(--c-warning);color:#fff}
 .btn-warning:hover{background:var(--c-warning2)}
-
 /* ========== Footer ========== */
 .footer{text-align:center;color:var(--c-muted);font-size:13px;margin-top:44px;padding:20px;border-top:1px solid var(--c-border)}
 .footer p{margin:4px 0}
-
 /* ========== Mobile (≤768px) ========== */
 @media(max-width:768px){
   body{font-size:15px}
@@ -182,24 +168,20 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
   .btn{padding:10px 16px;font-size:13px}
   .footer{margin-top:30px;padding:16px 14px;font-size:12px}
 }
-
 /* ========== Tablet (769-1024px) ========== */
 @media(min-width:769px) and (max-width:1024px){
   .grid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
   .container{padding:30px 18px 50px}
 }
-
 /* ========== Print ========== */
 @media print{
   .hero,.search-bar,.view-toggle,.toolbar,.footer{display:none}
   .card{break-inside:avoid;box-shadow:none;border:1px solid #ccc}
   body{background:#fff}
 }
-
 .subsection{margin-bottom:24px}
 .subsection-title{font-size:14px;font-weight:600;color:var(--c-text2);margin:20px 0 12px;padding-left:8px;border-left:3px solid var(--c-muted);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
 </style>
-
 </head>
 <body>
 <div class="hero">
@@ -214,14 +196,11 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
     </div>
   </div>
 </div>
-
 <div class="container">
-
   <div class="view-toggle">
     <button id="viewCard" class="active" onclick="toggleView('card')">▦ 卡片</button>
     <button id="viewList" onclick="toggleView('list')">☰ 列表</button>
   </div>
-
   <div class="search-bar">
     <div class="search-row">
       <div class="search-input-wrap">
@@ -238,7 +217,6 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
           <button class="filter-btn" data-cat="briefing" onclick="toggleCat('briefing', this)">📋 公司汇报稿 <span class="cat-count">1</span></button>
           <button class="filter-btn" data-cat="viz" onclick="toggleCat('viz', this)">知识图谱与可视化 <span class="cat-count">2</span></button>
           <button class="filter-btn" data-cat="internal" onclick="toggleCat('internal', this)">内部工具与文档 <span class="cat-count">1</span></button>
-          
     </div>
     <div class="filter-row">
       <span class="filter-label">标签：</span>
@@ -253,14 +231,8 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
           <button class="filter-btn tag-btn" data-tag="渐进加载" onclick="toggleTag('渐进加载', this)">渐进加载</button>
           <button class="filter-btn tag-btn" data-tag="内部" onclick="toggleTag('内部', this)">内部</button>
           <button class="filter-btn tag-btn" data-tag="需求" onclick="toggleTag('需求', this)">需求</button>
-          
     </div>
   </div>
-
-
-    
-    
-    
     <div class="section" id="sec-reserve" data-cat="reserve">
       <div class="section-title reserve">📊 未上市标的项目储备库 · <span class="sec-count">2</span> 项</div>
       <div class="grid">
@@ -294,10 +266,8 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
             </div>
           </div>
         </a>
-        
       </div>
     </div>
-
     <div class="section" id="sec-listed" data-cat="listed">
       <div class="section-title" style="border-left-color:#805ad5">🏢 已上市公司/壳标的项目储备库 · <span class="sec-count">2</span> 项</div>
       <div class="grid">
@@ -348,7 +318,6 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
         </a>
       </div>
     </div>
-
     <div class="section" id="sec-deal" data-cat="deal">
       <div class="section-title">🔄 并购大项目 · <span class="sec-count">1</span> 项 <span class="sec-note">已立项的并购项目</span></div>
       <div class="grid">
@@ -385,7 +354,6 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
       </div>
     </div>
 <div class="section" id="sec-viz" data-cat="viz">
-
       <div class="section-title">🧠 知识图谱与可视化 · <span class="sec-count">2</span> 项</div>
       <div class="grid">
         <a class="card" href="https://jinzhanxiang.github.io/kg-viz-3d/" target="_blank" rel="noopener"
@@ -418,7 +386,6 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
             </div>
           </div>
         </a>
-
         <div class="section" id="sec-internal" data-cat="internal">
       <div class="section-title">内部工具与文档 · <span class="sec-count">1</span> 项</div>
       <div class="grid">
@@ -439,28 +406,23 @@ body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","N
         </a>
       </div>
     </div>
-
   <div class="no-result" id="noResult">
     <div class="emoji">🔍</div>
     <div>未找到匹配的项目</div>
     <div style="font-size:14px;margin-top:8px">尝试调整关键词或筛选条件</div>
   </div>
-
   <div class="toolbar">
     <a class="btn btn-primary" href="https://github.com/jinzhanxiang" target="_blank" rel="noopener">⭐ GitHub 主页</a>
     <a class="btn btn-warning" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank" rel="noopener">📊 储备项目统一库</a>
     <a class="btn btn-secondary" href="javascript:window.location.reload()">🔄 重置筛选</a>
   </div>
 </div>
-
 <div class="footer">
   <p><strong>天保控股集团有限公司 · 投资管理部</strong></p>
   <p>Project Investment Management Hub · GitHub Pages 永久托管</p>
   <p>维护分工：tianbao-projects（project 代理） · 7projects-summary（research 代理） · 单项目报告仓库（research 代理）</p>
   <p>最后更新：2026-06-29 13:35</p>
 </div>
-
-
 <script>
 // ========== View Toggle ==========
 function toggleView(mode) {
@@ -476,13 +438,11 @@ function toggleView(mode) {
   }
   try { localStorage.setItem('tb_view', mode); } catch(e) {}
 }
-
 // 恢复用户偏好视图
 try {
   var savedView = localStorage.getItem('tb_view');
   if (savedView === 'list') toggleView('list');
 } catch(e) {}
-
 // ========== 搜索 + 筛选 ==========
 const TOTAL = 5;
 const searchInput = document.getElementById('searchInput');
@@ -490,24 +450,20 @@ const clearBtn = document.getElementById('clearBtn');
 const resultBar = document.getElementById('resultBar');
 const noResult = document.getElementById('noResult');
 const allCards = document.querySelectorAll('.card');
-
 let activeCats = new Set(['all']);
 let activeTags = new Set();
 let searchKw = '';
-
 searchInput.addEventListener('input', function() {
   searchKw = this.value.trim().toLowerCase();
   clearBtn.classList.toggle('visible', searchKw.length > 0);
   applyFilters();
 });
-
 function clearSearch() {
   searchInput.value = '';
   searchKw = '';
   clearBtn.classList.remove('visible');
   applyFilters();
 }
-
 function toggleCat(cat, btn) {
   if (cat === 'all') {
     activeCats.clear();
@@ -533,7 +489,6 @@ function toggleCat(cat, btn) {
   }
   applyFilters();
 }
-
 function toggleTag(tag, btn) {
   if (activeTags.has(tag)) {
     activeTags.delete(tag);
@@ -544,16 +499,13 @@ function toggleTag(tag, btn) {
   }
   applyFilters();
 }
-
 function applyFilters() {
   var visibleCount = 0;
-
   allCards.forEach(function(card) {
     var cardCats = card.getAttribute('data-cat');
     var cardName = card.getAttribute('data-name').toLowerCase();
     var cardTag = card.getAttribute('data-tag').toLowerCase();
     var cardDesc = card.getAttribute('data-desc').toLowerCase();
-
     var catMatch = activeCats.has('all') || activeCats.has(cardCats);
     var tagMatch = activeTags.size === 0 || Array.from(activeTags).every(function(t){
       return cardTag.indexOf(t) !== -1 || cardName.indexOf(t) !== -1;
@@ -562,12 +514,10 @@ function applyFilters() {
       cardName.indexOf(searchKw) !== -1 ||
       cardTag.indexOf(searchKw) !== -1 ||
       cardDesc.indexOf(searchKw) !== -1;
-
     var show = catMatch && tagMatch && kwMatch;
     if (show) { card.classList.remove('hidden'); visibleCount++; }
     else { card.classList.add('hidden'); }
   });
-
   document.querySelectorAll('.section').forEach(function(sec) {
     var cat = sec.getAttribute('data-cat');
     var catMatch = activeCats.has('all') || activeCats.has(cat);
@@ -577,20 +527,16 @@ function applyFilters() {
       if (secCount) secCount.textContent = sec.querySelectorAll('.card:not(.hidden)').length;
     }
   });
-
   noResult.classList.toggle('visible', visibleCount === 0);
-
   if (searchKw || activeTags.size > 0 || !activeCats.has('all')) {
     resultBar.innerHTML = '找到 <span class="kw">' + visibleCount + '</span> / ' + TOTAL + ' 个项目';
   } else {
     resultBar.innerHTML = '';
   }
 }
-
 searchInput.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') clearSearch();
 });
 </script>
-
 </body>
 </html>
