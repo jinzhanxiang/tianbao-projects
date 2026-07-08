@@ -233,6 +233,38 @@ input{font-family:inherit}
   .filter-bar{padding:14px}
   .section-title{font-size:18px}
 }
+
+/* ===== detail.html v3 增强 ===== */
+.search-box input{transition:box-shadow .3s,border-color .3s}
+.search-box input:focus{box-shadow:0 0 0 4px rgba(37,99,235,.12);border-color:#2563eb}
+.pill{transition:all .25s;user-select:none;cursor:pointer}
+.pill:hover{transform:translateY(-2px);box-shadow:0 6px 14px rgba(13,31,92,.1)}
+.pill.active{box-shadow:0 4px 12px rgba(37,99,235,.35)}
+.d-card{position:relative;overflow:hidden}
+.d-card::after{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);transition:left .8s;pointer-events:none}
+.d-card:hover::after{left:100%}
+.d-card-emoji{transition:transform .4s}
+.d-card:hover .d-card-emoji{transform:scale(1.15) rotate(6deg)}
+.d-card-tags .d-tag{transition:.25s}
+.d-card:hover .d-tag{transform:translateY(-1px)}
+.empty-state{grid-column:1/-1;text-align:center;padding:80px 20px;color:#94a3b8}
+.empty-state .em{font-size:48px;margin-bottom:12px;opacity:.5}
+.filter-info{font-size:13px;color:#64748b;margin:16px 0 12px;display:flex;justify-content:space-between;align-items:center}
+.filter-info b{color:#2563eb;font-weight:700}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.d-card{animation:fadeUp .4s ease backwards}
+.d-card:nth-child(2){animation-delay:.05s}
+.d-card:nth-child(3){animation-delay:.1s}
+.d-card:nth-child(4){animation-delay:.15s}
+.d-card:nth-child(5){animation-delay:.2s}
+.d-card:nth-child(6){animation-delay:.25s}
+.d-card:nth-child(7){animation-delay:.3s}
+.d-card:nth-child(8){animation-delay:.35s}
+.d-card:nth-child(9){animation-delay:.4s}
+.kpi{animation:fadeUp .5s ease backwards}
+.kpi:nth-child(2){animation-delay:.1s}
+.kpi:nth-child(3){animation-delay:.2s}
+.kpi:nth-child(4){animation-delay:.3s}
 </style>
 </head>
 <body>
@@ -325,6 +357,7 @@ input{font-family:inherit}
 </section>
 
 <section class="wrap section" style="padding-top:32px">
+  <div class="filter-info" id="flt-info"><span>当前可见 <b>12</b> / 12 项目</span><span>分类：全部</span></div>
   <div class="d-grid">
     <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank" data-cat="reserve" data-name="晶能光电" data-tags="LED,硅衬底,科创板">
       <div class="d-card-top">
@@ -459,6 +492,11 @@ input{font-family:inherit}
       <div class="d-card-foot"><span>📅 2026-06</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
   </div>
+  <div class="empty-state" id="empty-state" style="display:none">
+    <div class="em">🔍</div>
+    <div style="font-size:16px;font-weight:600;color:#64748b">未找到匹配项目</div>
+    <div style="font-size:13px;margin-top:6px">试试其他关键词或清除筛选条件</div>
+  </div>
 </section>
 
 <footer class="footer">
@@ -474,7 +512,7 @@ input{font-family:inherit}
 <script>
 var curCat='all';
 function setCat(c){curCat=c;document.querySelectorAll(".pill").forEach(function(p){p.classList.remove("active")});event.target.classList.add("active");filterAll();}
-function filterAll(){var q=document.getElementById("srch").value.trim().toLowerCase();document.querySelectorAll(".d-card").forEach(function(c){var show=(curCat=='all'||c.getAttribute("data-cat")==curCat)&&(q==''||c.getAttribute("data-name").toLowerCase().indexOf(q)!==-1||c.getAttribute("data-tags").toLowerCase().indexOf(q)!==-1);c.style.display=show?"block":"none";});}
+function filterAll(){var q=document.getElementById("srch").value.trim().toLowerCase();var visible=0;var total=0;document.querySelectorAll(".d-card").forEach(function(c){total++;var show=(curCat=='all'||c.getAttribute("data-cat")==curCat)&&(q==''||c.getAttribute("data-name").toLowerCase().indexOf(q)!==-1||c.getAttribute("data-tags").toLowerCase().indexOf(q)!==-1);c.style.display=show?"":"none";if(show)visible++;});var info=document.getElementById("flt-info");if(info){info.innerHTML='<span>当前可见 <b>'+visible+'</b> / '+total+' 项目</span><span>分类：'+(curCat==='all'?'全部':(curCat==='reserve'?'储备项目':(curCat==='deal'?'并购大项目':'内部工具')))+(q?' · 搜索：“'+q+'”':'')+'</span>';}var empty=document.getElementById("empty-state");if(empty){empty.style.display=visible===0?"block":"none";}}
 function updateClock(){var now=new Date(),h=String(now.getHours()).padStart(2,'0'),m=String(now.getMinutes()).padStart(2,'0'),s=String(now.getSeconds()).padStart(2,'0');document.getElementById('d-clock').textContent=h+':'+m+':'+s;}
 updateClock();setInterval(updateClock,1000);
 </script>
