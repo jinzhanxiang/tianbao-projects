@@ -163,6 +163,18 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 .card.featured .card-footer{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.2);color:rgba(255,255,255,0.78)}
 .card.featured .card-arrow{color:#fff}
 
+/* ====== DATA ENTRY CTA (第一页 · 第二页入口) ====== */
+.data-cta{display:flex;align-items:center;gap:18px;background:linear-gradient(135deg,#0f2c5a 0%,#1e3a8a 60%,#3b82f6 100%);color:#fff;padding:22px 28px;border-radius:16px;text-decoration:none;box-shadow:0 14px 36px rgba(15,44,90,0.22);transition:all .3s;border:1px solid rgba(255,255,255,0.12);position:relative;overflow:hidden}
+.data-cta::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,#f59e0b,#ec4899,#8b5cf6,#3b82f6);transform:scaleX(0);transform-origin:left;transition:transform .35s}
+.data-cta:hover{transform:translateY(-3px);box-shadow:0 22px 50px rgba(15,44,90,0.32);gap:22px}
+.data-cta:hover::before{transform:scaleX(1)}
+.data-cta-icon{width:54px;height:54px;border-radius:14px;background:rgba(255,255,255,0.16);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0;border:1px solid rgba(255,255,255,0.2)}
+.data-cta-text{flex:1;min-width:0}
+.data-cta-title{font-size:var(--fs-h2);font-weight:800;margin-bottom:4px;letter-spacing:.3px;line-height:1.3}
+.data-cta-desc{font-size:var(--fs-small);opacity:0.85;font-weight:500;line-height:1.45}
+.data-cta-arrow{font-size:var(--fs-body);font-weight:700;white-space:nowrap;letter-spacing:.2px;padding:8px 18px;background:rgba(255,255,255,0.18);border-radius:10px;border:1px solid rgba(255,255,255,0.25);transition:all .25s}
+.data-cta:hover .data-cta-arrow{background:#fff;color:var(--primary)}
+
 /* ====== DATA TABLE ====== */
 .table-wrap{background:#fff;border-radius:16px;box-shadow:var(--shadow-xs);border:1px solid var(--n7);overflow:hidden;margin-bottom:20px}
 .data-table{width:100%;border-collapse:collapse;font-size:var(--fs-xs)}
@@ -293,7 +305,7 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 <div class="hero">
 <div class="hero-content">
 <div>
-<div class="hero-badge">⭐ 投资管理部 · 项目报告中心</div>
+<div class="hero-badge">⭐ 投资管理部 · 天保控股项目报告中心</div>
 <h1>项目报告中心</h1>
 <p class="subtitle">并购大项目 · 储备项目 · 内部工具 · 一站式访问入口</p>
 <div class="hero-meta">
@@ -466,42 +478,21 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 </div>
 </div>
 
-<!-- ============ DATA TABLE ============ -->
+<!-- DATA TABLE 已迁至第二页 (m.html) · 此处仅留入口 -->
 <div class="section">
 <div class="section-header">
-<div class="section-icon icon-table">📊</div>
-<h2 class="section-title">项目数据看板<span class="section-count">12 项</span></h2>
-<span class="section-note">紧凑视图 · 一目了然</span>
+<div class="section-icon icon-table">📋</div>
+<h2 class="section-title">项目实际情况<span class="section-count">12 项</span></h2>
+<span class="section-note">完整信息请进入第二页</span>
 </div>
-<div class="table-wrap">
-<table class="data-table">
-<thead>
-<tr>
-<th style="width:30%">项目</th>
-<th>分类</th>
-<th>状态</th>
-<th>综合评分</th>
-<th>进度</th>
-<th>更新时间</th>
-<th>链接</th>
-</tr>
-</thead>
-<tbody>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">💎</span>晶能光电</div></td><td>LED芯片</td><td><span class="card-status status-yellow">Pre-IPO</span></td><td><span class="tbl-score">4.4</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:88%;--bar-color:#f59e0b"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:90%;--bar-color:#f59e0b"></span></span>90%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">☁️</span>联通云 IDC</div></td><td>REITs</td><td><span class="card-status status-purple">REITs</span></td><td><span class="tbl-score">4.5</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:90%;--bar-color:#8b5cf6"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:95%;--bar-color:#8b5cf6"></span></span>95%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/7projects-summary/projects/unicom-idc.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">⭐</span>星恒电源</div></td><td>并购大项目</td><td><span class="card-status status-green">已立项</span></td><td><span class="tbl-score">4.0</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:80%;--bar-color:#3b82f6"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:80%;--bar-color:#3b82f6"></span></span>80%</td><td>2026-05</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/xingheng-report/timeline.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">🏥</span>柯渡医学</div></td><td>医疗维保</td><td><span class="card-status status-yellow">Pre-IPO</span></td><td><span class="tbl-score">3.7</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:74%;--bar-color:#f59e0b"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:65%;--bar-color:#f59e0b"></span></span>65%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/7projects-summary/projects/kedu.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">⚡</span>中复碳芯</div></td><td>碳纤维</td><td><span class="card-status status-yellow">Pre-IPO</span></td><td><span class="tbl-score">3.6</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:72%;--bar-color:#f59e0b"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:60%;--bar-color:#f59e0b"></span></span>60%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/7projects-summary/projects/zhongfu.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">💡</span>元旭半导体</div></td><td>Micro-LED</td><td><span class="card-status status-green">尽调完成</span></td><td><span class="tbl-score">3.8</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:76%;--bar-color:#10b981"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:85%;--bar-color:#10b981"></span></span>85%</td><td>2026-05</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">🚀</span>迅巢科技</div></td><td>科技创新</td><td><span class="card-status status-yellow">Pre-IPO</span></td><td><span class="tbl-score">3.5</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:70%;--bar-color:#f59e0b"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:55%;--bar-color:#f59e0b"></span></span>55%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/7projects-summary/projects/xunchao.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">🧪</span>宏远创信</div></td><td>新材料</td><td><span class="card-status status-yellow">Pre-IPO</span></td><td><span class="tbl-score">3.5</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:70%;--bar-color:#f59e0b"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:55%;--bar-color:#f59e0b"></span></span>55%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">💊</span>信鸿医疗</div></td><td>医疗器械</td><td><span class="card-status status-yellow">Pre-IPO</span></td><td><span class="tbl-score">3.4</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:68%;--bar-color:#f59e0b"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:50%;--bar-color:#f59e0b"></span></span>50%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/7projects-summary/projects/xinhong.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">🏛️</span>收购上市公司研究</div></td><td>并购</td><td><span class="card-status status-purple">3家</span></td><td><span class="tbl-score">3.0</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:60%;--bar-color:#8b5cf6"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:70%;--bar-color:#8b5cf6"></span></span>70%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">🛰️</span>航天宏图</div></td><td>卫星遥感</td><td><span class="card-status status-purple">初步分析</span></td><td><span class="tbl-score">3.0</span> <span class="tbl-bar"><span class="tbl-bar-fill" style="width:60%;--bar-color:#8b5cf6"></span></span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:45%;--bar-color:#8b5cf6"></span></span>45%</td><td>2026-07</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank">访问 →</a></td></tr>
-<tr><td><div class="tbl-name"><span class="tbl-emoji">📄</span>OA 系统需求</div></td><td>内部工具</td><td><span class="card-status status-green">已部署</span></td><td><span class="tbl-score">-</span></td><td><span class="tbl-bar" style="width:100px"><span class="tbl-bar-fill" style="width:100%;--bar-color:#10b981"></span></span>100%</td><td>2026-06-05</td><td><a class="tbl-link" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank">访问 →</a></td></tr>
-</tbody>
-</table>
-</div>
+<a class="data-cta" href="m.html">
+  <div class="data-cta-icon">📋</div>
+  <div class="data-cta-text">
+    <div class="data-cta-title">查看完整项目数据看板</div>
+    <div class="data-cta-desc">12 项活跃项目 · 综合评分 · 进度 · 链接一站式浏览</div>
+  </div>
+  <div class="data-cta-arrow">进入第二页 →</div>
+</a>
 </div>
 
 </div>
@@ -514,7 +505,8 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 <a class="nav-item" href="#reserve" style="--nav-bg:#fef3c7"><span class="nav-ico">📊</span><span>项目储备库</span><span class="nav-num">10</span></a>
 <a class="nav-item" href="#deal" style="--nav-bg:#dbeafe"><span class="nav-ico">🔄</span><span>并购大项目</span><span class="nav-num">1</span></a>
 <a class="nav-item" href="#internal" style="--nav-bg:#d1fae5"><span class="nav-ico">📦</span><span>内部工具</span><span class="nav-num">1</span></a>
-<a class="nav-item" href="m.html" style="--nav-bg:#fce7f3"><span class="nav-ico">📱</span><span>移动版</span><span class="nav-num">→</span></a>
+<a class="nav-item" href="m.html" style="--nav-bg:#fce7f3"><span class="nav-ico">📋</span><span>项目实际情况</span><span class="nav-num">12</span></a>
+<a class="nav-item" href="m.html" style="--nav-bg:#dbeafe"><span class="nav-ico">📱</span><span>移动版</span><span class="nav-num">→</span></a>
 </div>
 
 <div class="side-card">
@@ -586,6 +578,7 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 <p>维护分工：tianbao-projects（project 代理） · 7projects-summary（research 代理）</p>
 <div class="footer-meta">
 <a href="https://github.com/jinzhanxiang" class="footer-link">⭐ GitHub 主页</a>
+<a href="m.html" class="footer-link">📋 项目实际情况</a>
 <a href="m.html" class="footer-link">📱 移动版</a>
 <a href="https://jinzhanxiang.github.io/tianbao-projects/" class="footer-link">🔄 重置页面</a>
 </div>
