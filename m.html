@@ -3,293 +3,399 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
-<meta name="theme-color" content="#1a365d">
+<meta name="theme-color" content="#0f1e3d">
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>天保控股项目报告中心 · 移动版</title>
 
 <style>
+/* ==================== Reset & Base ==================== */
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 :root{
-  --c-bg:#f7fafc;
-  --c-bg2:#edf2f7;
-  --c-text:#1a202c;
-  --c-text2:#4a5568;
-  --c-muted:#718096;
-  --c-faint:#a0aec0;
-  --c-accent:#1a365d;
-  --c-warning:#d69e2e;
-  --c-blue:#3182ce;
-  --c-success:#38a169;
+  /* —— 品牌色（饱和度统一收敛） —— */
+  --c-brand:#1a365d;        /* 主色：深蓝 */
+  --c-brand-2:#2c5282;      /* 次蓝 */
+  --c-accent:#3182ce;       /* 蓝点缀 */
+  --c-warm:#c05621;         /* 暖橙棕（替换纯橙） */
+  --c-warm-2:#dd6b20;       /* 暖橙亮 */
+  --c-purple:#553c9a;       /* 紫色 */
+  --c-purple-2:#6b46c1;     /* 紫亮 */
+  --c-green:#2f855a;        /* 绿（成功率） */
+  --c-green-2:#38a169;      /* 亮绿 */
+  --c-rose:#9b2c2c;         /* 红（替换纯红） */
+  --c-amber-50:#fffaf0;     /* 极浅色卡 */
+  --c-purple-50:#faf5ff;    /* 紫极浅 */
+  --c-green-50:#f0fff4;     /* 绿极浅 */
+  --c-rose-50:#fff5f5;      /* 红极浅 */
+
+  /* —— 中性灰阶（柔和） —— */
+  --c-bg:#f7f8fa;
+  --c-bg-2:#eef1f6;
+  --c-text:#1a202c;         /* 标题最深 */
+  --c-text-2:#2d3748;       /* 副标 */
+  --c-text-3:#4a5568;       /* 正文 */
+  --c-text-4:#718096;       /* 弱化 */
+  --c-text-5:#a0aec0;       /* 极弱 */
   --c-border:#e2e8f0;
+  --c-border-2:#edf2f7;
+
+  /* —— 字号系统（顺滑 1.18-1.25 比例，无跳变） —— */
+  --fs-h1:22px;    /* 页面标题 */
+  --fs-h2:16px;    /* 区块大标题 */
+  --fs-h3:15px;    /* 卡片标题 / 重要文字 */
+  --fs-body:13px;  /* 正文 */
+  --fs-small:12px; /* 副文 */
+  --fs-xs:11px;    /* 标签 */
+  --fs-2xs:10px;   /* 极小辅助 */
+
+  /* —— 圆角 / 阴影 / 渐变 —— */
+  --r-sm:8px;--r-md:12px;--r-lg:16px;--r-xl:20px;
+  --shadow-xs:0 1px 2px rgba(15,23,42,.04);
+  --shadow-sm:0 2px 8px rgba(15,23,42,.05);
+  --shadow:0 6px 20px rgba(15,23,42,.08);
+  --shadow-lg:0 16px 40px rgba(15,23,42,.12);
+  --shadow-glow:0 8px 24px rgba(49,130,206,.18);
+
+  /* —— 渐变（柔和收敛，呼应品牌） —— */
+  --grad-hero:linear-gradient(135deg,#0a1428 0%,#0f1e3d 35%,#1a365d 70%,#2c5282 100%);
+  --grad-amber:linear-gradient(135deg,#fff7ed 0%,#fef3c7 100%);
+  --grad-purple:linear-gradient(135deg,#faf5ff 0%,#ede9fe 100%);
+  --grad-green:linear-gradient(135deg,#f0fff4 0%,#dcfce7 100%);
+  --grad-blue:linear-gradient(135deg,#ebf8ff 0%,#dbeafe 100%);
+
+  /* —— 玻璃 —— */
+  --glass-bg:rgba(255,255,255,.14);
+  --glass-border:rgba(255,255,255,.22);
 }
 html{font-size:17px;-webkit-text-size-adjust:100%}
 body{
   font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
-  color:var(--c-text);background:var(--c-bg);
-  line-height:1.6;font-size:15px;
+  color:var(--c-text-3);background:var(--c-bg);
+  line-height:1.55;font-size:var(--fs-body);
   padding-bottom:env(safe-area-inset-bottom,0);
+  -webkit-font-smoothing:antialiased;
 }
 
-/* ========== Header ========== */
+/* ==================== Hero ==================== */
 .header{
-  background:linear-gradient(135deg,#0f1e3d 0%,#1a365d 100%);
+  background:var(--grad-hero);
   color:#fff;
-  padding:18px 16px 22px;
+  padding:18px 16px 20px;
   padding-top:calc(18px + env(safe-area-inset-top, 0px));
+  position:relative;overflow:hidden;
+  border-radius:0 0 24px 24px;
+  box-shadow:0 12px 32px rgba(15,30,61,.32);
 }
+.header::before{
+  content:"";position:absolute;top:-60%;right:-30%;
+  width:300px;height:300px;
+  background:radial-gradient(circle,rgba(49,130,206,.28) 0%,transparent 70%);
+  border-radius:50%;pointer-events:none;
+}
+.header::after{
+  content:"";position:absolute;bottom:-50%;left:-20%;
+  width:260px;height:260px;
+  background:radial-gradient(circle,rgba(139,92,246,.18) 0%,transparent 70%);
+  border-radius:50%;pointer-events:none;
+}
+.header-inner{position:relative;z-index:1}
 .header-badge{
-  display:inline-block;
-  background:rgba(255,255,255,.15);
-  border:1px solid rgba(255,255,255,.25);
+  display:inline-flex;align-items:center;gap:4px;
+  background:var(--glass-bg);
+  border:1px solid var(--glass-border);
   color:#cbd5e0;
-  font-size:10px;
-  padding:3px 10px;
-  border-radius:10px;
-  letter-spacing:.5px;
-  margin-bottom:8px;
+  font-size:var(--fs-2xs);font-weight:500;
+  padding:3px 10px;border-radius:10px;
+  letter-spacing:.8px;margin-bottom:10px;
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
 }
 .header h1{
-  font-size:21px;
-  font-weight:600;
-  margin-bottom:4px;
-  line-height:1.3;
+  font-size:var(--fs-h1);font-weight:700;
+  margin-bottom:4px;line-height:1.3;
+  letter-spacing:.5px;
+  background:linear-gradient(180deg,#ffffff 0%,#cbd5e0 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
 }
 .header p{
-  color:rgba(255,255,255,.75);
-  font-size:12px;
-  margin-bottom:12px;
+  color:rgba(255,255,255,.7);
+  font-size:var(--fs-small);
+  margin-bottom:14px;font-weight:400;letter-spacing:.3px;
 }
 .header-stats{
-  display:flex;
-  gap:18px;
-  font-size:11px;
-  color:rgba(255,255,255,.7);
+  display:flex;gap:0;
+  background:var(--glass-bg);
+  border:1px solid var(--glass-border);
+  border-radius:14px;
+  padding:10px 0;
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
 }
+.header-stats>div{
+  flex:1;text-align:center;
+  font-size:var(--fs-2xs);color:rgba(255,255,255,.7);
+  border-right:1px solid rgba(255,255,255,.12);
+  font-weight:400;letter-spacing:.5px;
+}
+.header-stats>div:last-child{border-right:none}
 .header-stats strong{
-  display:block;
-  font-size:15px;
-  color:#fff;
-  margin-bottom:1px;
+  display:block;font-size:var(--fs-h3);
+  color:#fff;font-weight:700;margin-bottom:1px;
 }
 
-/* ========== Search & Filters (sticky) ========== */
+/* ==================== Search & Filters (sticky) ==================== */
 .search-section{
-  background:#fff;
-  padding:12px 14px 10px;
+  background:rgba(255,255,255,.85);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  padding:11px 14px 9px;
   border-bottom:1px solid var(--c-border);
-  position:sticky;
-  top:0;
-  z-index:20;
-  box-shadow:0 2px 8px rgba(0,0,0,.04);
+  position:sticky;top:0;z-index:20;
+  box-shadow:0 2px 10px rgba(15,23,42,.04);
 }
-.search-input-wrap{position:relative;margin-bottom:10px}
+.search-input-wrap{position:relative;margin-bottom:9px}
 .search-input-wrap::before{
-  content:"🔍";position:absolute;left:12px;top:50%;
-  transform:translateY(-50%);font-size:13px;z-index:1;
+  content:"🔍";position:absolute;left:11px;top:50%;
+  transform:translateY(-50%);font-size:12px;z-index:1;opacity:.55;
 }
 .search-input-wrap input{
-  width:100%;padding:12px 38px 12px 38px;
+  width:100%;padding:10px 36px 10px 35px;
   border:1px solid var(--c-border);border-radius:10px;
-  font-size:16px;background:#f7fafc;color:var(--c-text);
-  outline:none;-webkit-appearance:none;
+  font-size:var(--fs-body);background:rgba(247,248,250,.7);
+  color:var(--c-text);outline:none;-webkit-appearance:none;
+  transition:all .2s;
 }
 .search-input-wrap input:focus{
-  border-color:var(--c-blue);background:#fff;
+  border-color:var(--c-accent);background:#fff;
   box-shadow:0 0 0 3px rgba(49,130,206,.1);
 }
 .clear-btn{
-  position:absolute;right:8px;top:50%;
+  position:absolute;right:7px;top:50%;
   transform:translateY(-50%);
-  background:#e2e8f0;border:none;color:var(--c-text2);
-  width:24px;height:24px;border-radius:12px;
-  font-size:14px;line-height:1;display:none;
+  background:var(--c-border-2);border:none;color:var(--c-text-3);
+  width:22px;height:22px;border-radius:11px;
+  font-size:13px;line-height:1;display:none;
   align-items:center;justify-content:center;
+  font-weight:600;cursor:pointer;
 }
 .clear-btn.visible{display:flex}
 .cat-row{
-  display:flex;gap:6px;overflow-x:auto;
-  padding:4px 0;-webkit-overflow-scrolling:touch;
+  display:flex;gap:5px;overflow-x:auto;
+  padding:2px 0;-webkit-overflow-scrolling:touch;
   scrollbar-width:none;
   margin:0 -14px;padding-left:14px;padding-right:14px;
 }
 .cat-row::-webkit-scrollbar{display:none}
 .pill{
-  flex-shrink:0;padding:6px 11px;border-radius:14px;
+  flex-shrink:0;padding:5px 10px;border-radius:13px;
   border:1px solid var(--c-border);background:#fff;
-  color:var(--c-text2);font-size:12px;font-weight:500;
-  cursor:pointer;white-space:nowrap;
+  color:var(--c-text-3);font-size:var(--fs-xs);
+  font-weight:500;cursor:pointer;white-space:nowrap;
+  transition:all .2s;letter-spacing:.2px;
 }
-.pill.active{background:var(--c-accent);color:#fff;border-color:var(--c-accent)}
+.pill.active{background:var(--c-brand);color:#fff;border-color:var(--c-brand);box-shadow:var(--shadow-glow)}
 .pill .count{
-  background:rgba(255,255,255,.2);border-radius:8px;
-  padding:0 5px;font-size:10px;margin-left:3px;
+  background:rgba(255,255,255,.22);border-radius:7px;
+  padding:0 4px;font-size:var(--fs-2xs);margin-left:3px;font-weight:600;
 }
-.pill:not(.active) .count{background:#edf2f7}
+.pill:not(.active) .count{background:var(--c-border-2);color:var(--c-text-4)}
 
-/* ========== Sections ========== */
-.section{padding:12px 14px 4px}
+/* ==================== Sections ==================== */
+.section{padding:14px 14px 4px}
 .section-header{
-  display:flex;align-items:center;
-  justify-content:space-between;
-  margin:6px 4px 10px;
+  display:flex;align-items:center;justify-content:space-between;
+  margin:8px 2px 11px;gap:8px;
 }
 .section-title{
-  font-size:11px;font-weight:700;color:var(--c-text2);
-  text-transform:uppercase;letter-spacing:.8px;
-  border-left:3px solid var(--c-accent);
-  padding-left:8px;flex:1;
+  font-size:var(--fs-h2);font-weight:700;color:var(--c-text);
+  display:flex;align-items:center;gap:7px;
+  letter-spacing:.3px;line-height:1.25;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
-.section-title.reserve{border-left-color:var(--c-warning);color:#7b341e}
-.section-title.compare{border-left-color:#553c9a;color:#553c9a}
-.section-title .count{
-  background:#edf2f7;color:var(--c-text2);
-  border-radius:8px;padding:1px 7px;
-  font-size:10px;margin-left:6px;font-weight:600;
+.section-title .ico{
+  width:22px;height:22px;border-radius:7px;
+  display:inline-flex;align-items:center;justify-content:center;
+  font-size:12px;flex-shrink:0;
 }
-.section-title.reserve .count{background:#fef5e7;color:#7b341e}
-.section-title.compare .count{background:#f3e8ff;color:#553c9a}
+.section-title.reserve .ico{background:var(--grad-amber);color:var(--c-warm)}
+.section-title.compare .ico{background:var(--grad-purple);color:var(--c-purple)}
+.section-title.deal .ico{background:var(--grad-blue);color:var(--c-brand-2)}
+.section-title.briefing .ico{background:var(--grad-green);color:var(--c-green)}
+.section-title.viz .ico{background:var(--grad-purple);color:var(--c-purple-2)}
+.section-title.internal .ico{background:var(--grad-blue);color:var(--c-accent)}
+.section-title .count{
+  background:var(--c-border-2);color:var(--c-text-3);
+  border-radius:8px;padding:1px 7px;
+  font-size:var(--fs-2xs);font-weight:600;
+}
 
-/* ========== Card (常规) ========== */
+/* ==================== Card ==================== */
 .card{
-  background:#fff;border-radius:12px;padding:13px 14px;
-  margin-bottom:10px;
-  box-shadow:0 1px 4px rgba(0,0,0,.04);
-  border:1px solid var(--c-border);
+  background:#fff;border-radius:var(--r-md);
+  padding:12px 14px;margin-bottom:9px;
+  box-shadow:var(--shadow-xs);
+  border:1px solid var(--c-border-2);
   text-decoration:none;color:inherit;display:block;
   transition:transform .12s,box-shadow .12s;
-}
-.card:active{transform:scale(.985);background:#fafbfc}
-.card.hidden{display:none}
-.card.featured{
-  border:2px solid var(--c-warning);
-  background:linear-gradient(135deg,#fff7ed,#fef5e7);
   position:relative;overflow:hidden;
 }
+.card:active{transform:scale(.985);box-shadow:var(--shadow)}
+.card.hidden{display:none}
+.card.featured{
+  border:1.5px solid #fbd38d;
+  background:var(--grad-amber);
+  position:relative;
+}
 .card.featured::after{
-  content:"⭐";position:absolute;top:-6px;right:-6px;
-  font-size:42px;opacity:.16;transform:rotate(10deg);
+  content:"⭐";position:absolute;top:-8px;right:-8px;
+  font-size:36px;opacity:.18;transform:rotate(12deg);
+}
+.card.briefing{
+  background:var(--grad-green);
+  border:1px solid #9ae6b4;
+}
+.card.compare-entry{
+  background:var(--grad-purple);
+  border:1px solid #d6bcfa;
 }
 .card-header{
   display:flex;justify-content:space-between;
-  align-items:flex-start;margin-bottom:6px;gap:8px;
+  align-items:flex-start;margin-bottom:5px;gap:8px;
 }
 .card-title{
-  font-size:15px;font-weight:600;color:var(--c-accent);
-  line-height:1.4;flex:1;
+  font-size:var(--fs-h3);font-weight:600;color:var(--c-brand);
+  line-height:1.35;flex:1;letter-spacing:.2px;
 }
-.card.featured .card-title{color:#7b341e;font-size:16px}
+.card.featured .card-title{color:var(--c-warm)}
+.card.briefing .card-title{color:var(--c-green)}
+.card.compare-entry .card-title{color:var(--c-purple)}
 .status{
-  display:inline-block;font-size:10px;
-  padding:2px 7px;border-radius:8px;color:#fff;
-  white-space:nowrap;font-weight:500;flex-shrink:0;
+  display:inline-flex;align-items:center;gap:3px;
+  font-size:var(--fs-2xs);
+  padding:2px 7px;border-radius:7px;color:#fff;
+  white-space:nowrap;font-weight:600;flex-shrink:0;
+  letter-spacing:.3px;
 }
-.status.total{background:var(--c-warning)}
-.status.done{background:var(--c-blue)}
-.status.deployed{background:var(--c-success)}
-.card-tags{margin-bottom:6px}
+.status.total{background:linear-gradient(135deg,#dd6b20,#c05621)}
+.status.done{background:linear-gradient(135deg,#3182ce,#2c5282)}
+.status.deployed{background:linear-gradient(135deg,#38a169,#2f855a)}
+.card-tags{margin-bottom:6px;display:flex;flex-wrap:wrap;gap:3px}
 .tag{
-  display:inline-block;background:#edf2f7;color:var(--c-text2);
-  font-size:10px;padding:2px 7px;border-radius:7px;
-  margin-right:4px;margin-bottom:2px;
+  display:inline-block;background:var(--c-border-2);color:var(--c-text-3);
+  font-size:var(--fs-2xs);padding:2px 7px;border-radius:6px;
+  margin:0;font-weight:500;letter-spacing:.2px;
 }
 .card-desc{
-  font-size:13px;color:var(--c-text2);
-  line-height:1.5;margin-bottom:8px;
+  font-size:var(--fs-small);color:var(--c-text-3);
+  line-height:1.5;margin-bottom:7px;
   display:-webkit-box;-webkit-line-clamp:2;
   -webkit-box-orient:vertical;overflow:hidden;
 }
 .card-footer{
   display:flex;justify-content:space-between;
-  align-items:center;font-size:11px;color:var(--c-muted);
-  padding-top:8px;border-top:1px solid #f1f5f9;
+  align-items:center;font-size:var(--fs-xs);color:var(--c-text-4);
+  padding-top:7px;border-top:1px solid var(--c-border-2);
 }
-.card-arrow{color:var(--c-blue);font-weight:600;font-size:14px}
+.card-arrow{color:var(--c-accent);font-weight:600;font-size:var(--fs-small)}
 
-/* ========== Comparison Table (移动版对比速查) ========== */
-.compare-list{display:flex;flex-direction:column;gap:10px}
+/* ==================== Comparison Cards ==================== */
+.compare-list{display:flex;flex-direction:column;gap:8px}
 .compare-item{
-  background:#fff;border-radius:12px;
-  border:1px solid var(--c-border);
+  background:#fff;border-radius:var(--r-md);
+  border:1px solid var(--c-border-2);
   overflow:hidden;
+  box-shadow:var(--shadow-xs);
 }
 .compare-header{
   display:flex;justify-content:space-between;align-items:center;
-  padding:10px 14px;
-  background:linear-gradient(90deg,#f3e8ff,#ede9fe);
-  border-bottom:1px solid var(--c-border);
+  padding:9px 14px;
+  background:var(--grad-purple);
+  border-bottom:1px solid var(--c-border-2);
 }
-.compare-name{font-size:14px;font-weight:700;color:#553c9a}
+.compare-name{
+  font-size:var(--fs-h3);font-weight:700;color:var(--c-purple);
+  letter-spacing:.2px;line-height:1.3;
+}
 .compare-grade{
-  background:#553c9a;color:#fff;
-  font-size:11px;padding:2px 8px;border-radius:8px;
-  font-weight:600;
+  background:linear-gradient(135deg,#6b46c1,#553c9a);
+  color:#fff;font-size:var(--fs-xs);
+  padding:2px 9px;border-radius:8px;font-weight:700;
+  letter-spacing:.3px;box-shadow:0 2px 6px rgba(85,60,154,.25);
 }
-.compare-body{padding:10px 14px}
+.compare-body{padding:8px 14px}
 .compare-row{
   display:flex;justify-content:space-between;
-  padding:6px 0;font-size:12px;
-  border-bottom:1px dashed #f1f5f9;gap:10px;
+  padding:5px 0;font-size:var(--fs-small);
+  border-bottom:1px dashed var(--c-border-2);
+  gap:10px;line-height:1.45;
 }
 .compare-row:last-child{border-bottom:none}
-.compare-label{color:var(--c-muted);flex-shrink:0;font-size:11px}
-.compare-value{color:var(--c-text);font-weight:500;text-align:right;flex:1;word-break:break-word}
-.compare-value.positive{color:var(--c-success);font-weight:600}
-.compare-value.stars{color:#d69e2e;letter-spacing:1px}
+.compare-label{color:var(--c-text-4);flex-shrink:0;font-size:var(--fs-xs);font-weight:500}
+.compare-value{
+  color:var(--c-text);font-weight:600;text-align:right;flex:1;
+  word-break:break-word;letter-spacing:.1px;
+}
+.compare-value.positive{color:var(--c-green);font-weight:700}
+.compare-value.stars{color:#d69e2e;letter-spacing:1.5px;font-size:var(--fs-small)}
 
-/* ========== Empty ========== */
+/* ==================== Empty / Result Bar ==================== */
 .no-result{
   text-align:center;padding:50px 20px;
-  color:var(--c-muted);font-size:14px;display:none;
+  color:var(--c-text-4);font-size:var(--fs-body);display:none;
 }
 .no-result.visible{display:block}
-.no-result .emoji{font-size:42px;margin-bottom:12px}
-
-/* ========== Footer ========== */
-.footer{
-  text-align:center;color:var(--c-muted);
-  font-size:11px;padding:22px 16px calc(22px + env(safe-area-inset-bottom, 0px));
-}
-.footer p{margin:4px 0}
-.footer-actions{
-  display:flex;gap:8px;justify-content:center;
-  margin:12px 0;
-}
-.footer-btn{
-  display:inline-block;padding:9px 16px;
-  background:var(--c-accent);color:#fff;
-  border-radius:8px;text-decoration:none;
-  font-size:12px;font-weight:500;border:none;cursor:pointer;
-}
-.footer-btn.warning{background:var(--c-warning)}
-
+.no-result .emoji{font-size:38px;margin-bottom:10px;opacity:.6}
 .result-bar{
-  font-size:11px;color:var(--c-muted);
-  padding:8px 14px 4px;background:#f7fafc;
-  display:none;
+  font-size:var(--fs-xs);color:var(--c-text-4);
+  padding:8px 14px;background:rgba(247,248,250,.7);
+  display:none;border-bottom:1px solid var(--c-border-2);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
 }
 .result-bar.visible{display:block}
-.result-bar .kw{color:var(--c-accent);font-weight:600}
+.result-bar .kw{color:var(--c-brand);font-weight:700}
+
+/* ==================== Footer ==================== */
+.footer{
+  text-align:center;color:var(--c-text-4);
+  font-size:var(--fs-xs);padding:22px 16px calc(22px + env(safe-area-inset-bottom, 0px));
+  line-height:1.7;
+}
+.footer p{margin:3px 0}
+.footer-brand{font-weight:700;color:var(--c-text-2);font-size:var(--fs-small);letter-spacing:.5px}
+.footer-actions{
+  display:flex;gap:7px;justify-content:center;
+  margin:12px 0 6px;
+}
+.footer-btn{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:8px 14px;
+  background:var(--c-brand);color:#fff;
+  border-radius:9px;text-decoration:none;
+  font-size:var(--fs-xs);font-weight:600;border:none;cursor:pointer;
+  letter-spacing:.3px;transition:all .2s;
+  box-shadow:0 2px 8px rgba(26,54,93,.18);
+}
+.footer-btn:active{transform:scale(.96)}
+.footer-btn.warning{background:linear-gradient(135deg,#dd6b20,#c05621);box-shadow:0 2px 8px rgba(221,107,32,.25)}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <span class="header-badge">📱 移动版</span>
-  <h1>天保控股项目报告中心</h1>
-  <p>并购大项目 · 储备项目 · 一站式访问</p>
-  <div class="header-stats">
-    <div><strong>5</strong>个项目</div>
-    <div><strong>4</strong>个分类</div>
-    <div><strong>06-29</strong>更新</div>
+  <div class="header-inner">
+    <span class="header-badge">📱 移动版</span>
+    <h1>天保控股项目报告中心</h1>
+    <p>并购大项目 · 储备项目 · 一站式访问</p>
+    <div class="header-stats">
+      <div><strong>5</strong>个项目</div>
+      <div><strong>4</strong>个分类</div>
+      <div><strong>06-29</strong>更新</div>
+    </div>
   </div>
 </div>
 
 <div class="search-section">
   <div class="search-input-wrap">
-    <input type="text" id="searchInput" placeholder="🔍 搜索项目名称..." autocomplete="off">
+    <input type="text" id="searchInput" placeholder="搜索项目名称..." autocomplete="off">
     <button class="clear-btn" id="clearBtn" onclick="clearSearch()">×</button>
   </div>
   <div class="cat-row">
@@ -308,7 +414,7 @@ body{
 <!-- ============================== 储备项目 ============================== -->
 <div class="section" data-cat="reserve" id="sec-reserve">
   <div class="section-header">
-    <div class="section-title reserve">📊 储备项目</div>
+    <div class="section-title reserve"><span class="ico">📊</span>储备项目</div>
   </div>
 
   <a class="card featured" href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank" rel="noopener"
@@ -344,10 +450,10 @@ body{
   </a>
 </div>
 
-<!-- ============================== 8维度对比速查（移动友好） ============================== -->
+<!-- ============================== 8维度对比速查 ============================== -->
 <div class="section" data-cat="compare" id="sec-compare">
   <div class="section-header">
-    <div class="section-title compare">📈 8项目 8维度对比速查</div>
+    <div class="section-title compare"><span class="ico">📈</span>8项目 8维度对比速查</div>
   </div>
 
   <div class="compare-list" id="compareList">
@@ -436,17 +542,17 @@ body{
     </div>
   </div>
 
-  <a class="card" style="margin-top:10px;background:#f3e8ff;border:1px solid #c4b5fd" 
+  <a class="card compare-entry" style="margin-top:10px"
      href="https://jinzhanxiang.github.io/7projects-summary/summary.html" target="_blank" rel="noopener"
      data-cat="compare" data-name="完整版对比" data-tag="深度" data-desc="完整 8 维度对比汇总（含详细评估指标）">
     <div class="card-header">
-      <div class="card-title" style="color:#553c9a">📋 查看完整深度对比页</div>
-      <span class="status" style="background:#553c9a">深度</span>
+      <div class="card-title">📋 查看完整深度对比页</div>
+      <span class="status" style="background:linear-gradient(135deg,#6b46c1,#553c9a)">深度</span>
     </div>
     <div class="card-desc">点击跳转到完整版，含详细评估指标</div>
     <div class="card-footer">
       <span>📅 06-29</span>
-      <span class="card-arrow">访问 →</span>
+      <span class="card-arrow" style="color:#553c9a">访问 →</span>
     </div>
   </a>
 </div>
@@ -454,7 +560,7 @@ body{
 <!-- ============================== 并购大项目 ============================== -->
 <div class="section" data-cat="deal" id="sec-deal">
   <div class="section-header">
-    <div class="section-title">并购大项目</div>
+    <div class="section-title deal"><span class="ico">💼</span>并购大项目</div>
   </div>
 
   <a class="card" href="https://jinzhanxiang.github.io/xingheng-report/timeline.html" target="_blank" rel="noopener"
@@ -477,11 +583,10 @@ body{
 <!-- ============================== 公司汇报稿 ============================== -->
 <div class="section" data-cat="briefing" id="sec-briefing">
   <div class="section-header">
-    <div class="section-title">📋 公司汇报稿</div>
+    <div class="section-title briefing"><span class="ico">📋</span>公司汇报稿</div>
   </div>
 
-  <a class="card" style="background:linear-gradient(135deg,#f0fdf4,#dcfce7);border:1px solid #86efac"
-     href="https://jinzhanxiang.github.io/7projects-summary/briefing_report.html" target="_blank" rel="noopener"
+  <a class="card briefing" href="https://jinzhanxiang.github.io/7projects-summary/briefing_report.html" target="_blank" rel="noopener"
      data-cat="briefing" data-name="公司汇报稿 投资部项目储备库与上市公司标的汇报" data-tag="公司汇报稿 8项目 P1P2P3 可被并购" data-desc="公司层面汇报稿（含上市公司研究/储备项目分析/未来其他汇报），不是研究文档。8 储备项目（按 P1/P2/P3 排序，含晶能 3 年 IPO 禁令）+ 3 可被并购标的（科华/绿田/爱朋）。决策标签 P1/P2/P3（取代旧三档：建议投/谨慎评估/暂缓）。预留未来汇报位。">
     <div class="card-header">
       <div class="card-title">公司汇报稿 V1.3（口径重大调整）</div>
@@ -493,7 +598,7 @@ body{
     <div class="card-desc"><b>储备 P1(4)</b>：晶能（3年禁令仅剩被并购通道）/ 联通 / 柯渡 / 中复 · <b>P2(3)</b>：信鸿 / 迅巢 / 宏远 · <b>P3(1)</b>：元旭（信息待补）· <b>上市公司标的（可被并购的 3 家）</b>：爱朋🟢 > 绿田🟢 > 科华🟡。</div>
     <div class="card-footer">
       <span>📅 06-30 V1.3</span>
-      <span class="card-arrow">访问 →</span>
+      <span class="card-arrow" style="color:#2f855a">访问 →</span>
     </div>
   </a>
 </div>
@@ -501,7 +606,7 @@ body{
 <!-- ============================== 知识图谱与可视化 ============================== -->
 <div class="section" data-cat="viz" id="sec-viz">
   <div class="section-header">
-    <div class="section-title">知识图谱与可视化</div>
+    <div class="section-title viz"><span class="ico">🌐</span>知识图谱与可视化</div>
   </div>
 
   <a class="card" href="https://jinzhanxiang.github.io/kg-viz-3d/" target="_blank" rel="noopener"
@@ -540,7 +645,7 @@ body{
 <!-- ============================== 内部工具 ============================== -->
 <div class="section" data-cat="internal" id="sec-internal">
   <div class="section-header">
-    <div class="section-title">内部工具与文档</div>
+    <div class="section-title internal"><span class="ico">🔧</span>内部工具与文档</div>
   </div>
 
   <a class="card" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank" rel="noopener"
@@ -566,21 +671,20 @@ body{
 </div>
 
 <div class="footer">
-  <p style="font-weight:600;color:var(--c-text2)">天保控股投资管理部</p>
+  <p class="footer-brand">天保控股投资管理部</p>
   <p>Project Hub · GitHub Pages</p>
   <p>维护：project 代理 + research 代理</p>
   <div class="footer-actions">
     <a class="footer-btn warning" href="https://jinzhanxiang.github.io/7projects-summary/">📊 储备项目</a>
     <a class="footer-btn" href="https://github.com/jinzhanxiang" target="_blank">⭐ GitHub</a>
   </div>
-  <p style="margin-top:8px;font-size:10px">最后更新 2026-06-29 13:55 · 含 7 项目对比速查</p>
-  <p style="font-size:10px">
-    <a href="./index.html" style="color:var(--c-blue);text-decoration:none">← 切换桌面版</a>
+  <p style="margin-top:8px;font-size:var(--fs-2xs);opacity:.8">最后更新 2026-06-29 13:55 · 含 7 项目对比速查</p>
+  <p style="font-size:var(--fs-2xs)">
+    <a href="./index.html" style="color:var(--c-accent);text-decoration:none;font-weight:600">← 切换桌面版</a>
   </p>
 </div>
 
 <script>
-const TOTAL_CARDS = 6;  // 卡片数（不含对比数据）
 const allCards = document.querySelectorAll('.card');
 const allSections = document.querySelectorAll('.section');
 const allCompareItems = document.querySelectorAll('.compare-item');
@@ -633,7 +737,6 @@ function applyFilters() {
     else { card.classList.add('hidden'); }
   });
 
-  // 处理对比速查项（按文字匹配）
   if (activeCat === 'all' || activeCat === 'compare') {
     allCompareItems.forEach(function(item) {
       var text = item.textContent.toLowerCase();
