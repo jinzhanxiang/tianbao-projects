@@ -265,6 +265,25 @@ input{font-family:inherit}
 .kpi:nth-child(2){animation-delay:.1s}
 .kpi:nth-child(3){animation-delay:.2s}
 .kpi:nth-child(4){animation-delay:.3s}
+
+/* v4: 4 大分类块 */
+.cat-block{margin-bottom:40px;scroll-margin-top:80px}
+.cat-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:16px 22px;background:linear-gradient(135deg,#f8fafc 0%,#ffffff 100%);border-radius:14px;margin-bottom:16px;border:1px solid #e8edf5;box-shadow:0 2px 8px rgba(13,31,92,.04)}
+.cat-head-left{display:flex;align-items:center;gap:12px}
+.cat-dot{width:11px;height:11px;border-radius:50%;flex-shrink:0;box-shadow:0 0 0 4px rgba(255,255,255,1),0 0 0 5px rgba(0,0,0,.06)}
+.cat-title{font-size:16px;font-weight:700;color:#06113a;margin-bottom:2px}
+.cat-sub{font-size:11px;color:#64748b}
+.cat-stats{display:flex;gap:6px;flex-wrap:wrap}
+.cs-pill{background:#f1f5f9;color:#475569;padding:4px 10px;border-radius:999px;font-size:11px;font-weight:600;display:inline-flex;align-items:center;gap:3px}
+.cs-pill b{color:#0d1f5c;font-weight:800}
+.cs-pill.cs-green{background:#d1fae5;color:#065f46}
+.cs-pill.cs-green b{color:#047857}
+.cs-pill.cs-purple{background:#ede9fe;color:#5b21b6}
+.cs-pill.cs-purple b{color:#6d28d9}
+.cs-pill.cs-blue{background:#dbeafe;color:#1e40af}
+.cs-pill.cs-blue b{color:#1d4ed8}
+.cs-pill.cs-pink{background:#fce7f3;color:#9d174d}
+.cs-pill.cs-pink b{color:#be185d}
 </style>
 </head>
 <body>
@@ -320,9 +339,10 @@ input{font-family:inherit}
     </div>
     <div class="pills">
       <span class="pill active" onclick="setCat('all')">全部 (12)</span>
-      <span class="pill" onclick="setCat('reserve')">储备项目 (10)</span>
-      <span class="pill" onclick="setCat('deal')">并购大项目 (1)</span>
-      <span class="pill" onclick="setCat('internal')">内部工具 (1)</span>
+      <span class="pill" onclick="setCat('np')">储备·非上市 (7)</span>
+      <span class="pill" onclick="setCat('p')">储备·上市 (2)</span>
+      <span class="pill" onclick="setCat('deal')">重大并购 (2)</span>
+      <span class="pill" onclick="setCat('kg')">知识图谱 (1)</span>
     </div>
   </div>
 </section>
@@ -358,8 +378,19 @@ input{font-family:inherit}
 
 <section class="wrap section" style="padding-top:32px">
   <div class="filter-info" id="flt-info"><span>当前可见 <b>12</b> / 12 项目</span><span>分类：全部</span></div>
-  <div class="d-grid">
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank" data-cat="reserve" data-name="晶能光电" data-tags="LED,硅衬底,科创板">
+    <div class="cat-block" id="cat-np">
+    <div class="cat-head">
+      <div class="cat-head-left">
+        <span class="cat-dot" style="background:#3b82f6"></span>
+        <div>
+          <div class="cat-title">储备项目 · 非上市公司</div>
+          <div class="cat-sub">Pre-IPO 储备池 · 7 项 · 持续跟进</div>
+        </div>
+      </div>
+      <div class="cat-stats"><span class="cs-pill">Pre-IPO <b>6</b></span><span class="cs-pill cs-green">尽调完成 <b>1</b></span></div>
+    </div>
+    <div class="d-grid">
+    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank" data-cat="np" data-name="晶能光电" data-tags="LED,硅衬底,科创板">
       <div class="d-card-top">
         <div class="d-card-emoji">💎</div>
         <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -370,7 +401,7 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">LED</span><span class="d-tag">硅衬底</span><span class="d-tag">科创板</span></div>
       <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/kedu.html" target="_blank" data-cat="reserve" data-name="柯渡医学" data-tags="医疗,设备维保">
+    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/kedu.html" target="_blank" data-cat="np" data-name="柯渡医学" data-tags="医疗,设备维保">
       <div class="d-card-top">
         <div class="d-card-emoji">🏥</div>
         <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -381,7 +412,7 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">设备维保</span></div>
       <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/zhongfu.html" target="_blank" data-cat="reserve" data-name="中复碳芯" data-tags="碳纤维,央企">
+    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/zhongfu.html" target="_blank" data-cat="np" data-name="中复碳芯" data-tags="碳纤维,央企">
       <div class="d-card-top">
         <div class="d-card-emoji">⚡</div>
         <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -392,7 +423,7 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">碳纤维</span><span class="d-tag">央企</span></div>
       <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank" data-cat="reserve" data-name="宏远创信" data-tags="新材料,创投">
+    <a class="d-card" href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank" data-cat="np" data-name="宏远创信" data-tags="新材料,创投">
       <div class="d-card-top">
         <div class="d-card-emoji">🧪</div>
         <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -403,18 +434,7 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">新材料</span><span class="d-tag">创投</span></div>
       <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/unicom-idc.html" target="_blank" data-cat="reserve" data-name="联通云 IDC" data-tags="IDC,数据中心">
-      <div class="d-card-top">
-        <div class="d-card-emoji">☁️</div>
-        <span class="d-card-status s-purple">REITs</span>
-      </div>
-      <div class="d-card-name">联通云 IDC</div>
-      <div class="d-card-sub">数据中心 · REITs</div>
-      <div class="d-card-desc">联通云 IDC 数据中心 REITs 项目</div>
-      <div class="d-card-tags"><span class="d-tag">IDC</span><span class="d-tag">数据中心</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xinhong.html" target="_blank" data-cat="reserve" data-name="信鸿医疗" data-tags="医疗,供应链">
+    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xinhong.html" target="_blank" data-cat="np" data-name="信鸿医疗" data-tags="医疗,供应链">
       <div class="d-card-top">
         <div class="d-card-emoji">💊</div>
         <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -425,7 +445,7 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">供应链</span></div>
       <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xunchao.html" target="_blank" data-cat="reserve" data-name="迅巢科技" data-tags="科技,创新">
+    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xunchao.html" target="_blank" data-cat="np" data-name="迅巢科技" data-tags="科技,创新">
       <div class="d-card-top">
         <div class="d-card-emoji">🚀</div>
         <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -436,7 +456,7 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">科技</span><span class="d-tag">创新</span></div>
       <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank" data-cat="reserve" data-name="元旭半导体" data-tags="Micro-LED,高端制造">
+    <a class="d-card" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank" data-cat="np" data-name="元旭半导体" data-tags="Micro-LED,高端制造">
       <div class="d-card-top">
         <div class="d-card-emoji">💡</div>
         <span class="d-card-status s-green">尽调完成</span>
@@ -447,18 +467,33 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">Micro-LED</span><span class="d-tag">高端制造</span></div>
       <div class="d-card-foot"><span>📅 2026-05</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html" target="_blank" data-cat="reserve" data-name="收购上市公司标的研究" data-tags="收购,上市公司">
-      <div class="d-card-top">
-        <div class="d-card-emoji">🏛️</div>
-        <span class="d-card-status s-purple">3家</span>
+    </div>
+  </div>
+
+  <div class="cat-block" id="cat-p">
+    <div class="cat-head">
+      <div class="cat-head-left">
+        <span class="cat-dot" style="background:#7c3aed"></span>
+        <div>
+          <div class="cat-title">储备项目 · 上市公司</div>
+          <div class="cat-sub">A 股 / 港股已上市标的 · 2 项</div>
+        </div>
       </div>
-      <div class="d-card-name">收购上市公司标的研究</div>
-      <div class="d-card-sub">3家上市公司对比</div>
-      <div class="d-card-desc">科华/绿田/爱朋 8维度分析 + 收购优先级</div>
-      <div class="d-card-tags"><span class="d-tag">收购</span><span class="d-tag">上市公司</span></div>
+      <div class="cat-stats"><span class="cs-pill cs-purple">REITs <b>1</b></span><span class="cs-pill cs-blue">初步分析 <b>1</b></span></div>
+    </div>
+    <div class="d-grid">
+    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/unicom-idc.html" target="_blank" data-cat="p" data-name="联通云 IDC" data-tags="IDC,数据中心">
+      <div class="d-card-top">
+        <div class="d-card-emoji">☁️</div>
+        <span class="d-card-status s-purple">REITs</span>
+      </div>
+      <div class="d-card-name">联通云 IDC</div>
+      <div class="d-card-sub">数据中心 · REITs</div>
+      <div class="d-card-desc">联通云 IDC 数据中心 REITs 项目</div>
+      <div class="d-card-tags"><span class="d-tag">IDC</span><span class="d-tag">数据中心</span></div>
       <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank" data-cat="reserve" data-name="航天宏图" data-tags="卫星遥感,应急管理">
+    <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank" data-cat="p" data-name="航天宏图" data-tags="卫星遥感,应急管理">
       <div class="d-card-top">
         <div class="d-card-emoji">🛰️</div>
         <span class="d-card-status s-blue">初步分析</span>
@@ -469,6 +504,21 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">卫星遥感</span><span class="d-tag">应急管理</span></div>
       <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
+    </div>
+  </div>
+
+  <div class="cat-block" id="cat-deal">
+    <div class="cat-head">
+      <div class="cat-head-left">
+        <span class="cat-dot" style="background:#ec4899"></span>
+        <div>
+          <div class="cat-title">重大并购项目</div>
+          <div class="cat-sub">重点跟进 · 收购类 · 2 项</div>
+        </div>
+      </div>
+      <div class="cat-stats"><span class="cs-pill cs-pink">已立项 <b>1</b></span><span class="cs-pill cs-purple">研究 <b>1</b></span></div>
+    </div>
+    <div class="d-grid">
     <a class="d-card featured" href="https://jinzhanxiang.github.io/xingheng-report/timeline.html" target="_blank" data-cat="deal" data-name="星恒电源" data-tags="动力电池,新能源,3份附件">
       <div class="d-card-top">
         <div class="d-card-emoji">⭐</div>
@@ -480,7 +530,33 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">动力电池</span><span class="d-tag">新能源</span><span class="d-tag">3份附件</span></div>
       <div class="d-card-foot"><span>📅 2026-05</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank" data-cat="internal" data-name="OA 系统需求文档" data-tags="内部,需求">
+    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html" target="_blank" data-cat="deal" data-name="收购上市公司标的研究" data-tags="收购,上市公司">
+      <div class="d-card-top">
+        <div class="d-card-emoji">🏛️</div>
+        <span class="d-card-status s-purple">3家</span>
+      </div>
+      <div class="d-card-name">收购上市公司标的研究</div>
+      <div class="d-card-sub">3家上市公司对比</div>
+      <div class="d-card-desc">科华/绿田/爱朋 8维度分析 + 收购优先级</div>
+      <div class="d-card-tags"><span class="d-tag">收购</span><span class="d-tag">上市公司</span></div>
+      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
+    </a>
+    </div>
+  </div>
+
+  <div class="cat-block" id="cat-kg">
+    <div class="cat-head">
+      <div class="cat-head-left">
+        <span class="cat-dot" style="background:#10b981"></span>
+        <div>
+          <div class="cat-title">知识图谱</div>
+          <div class="cat-sub">内部研究资产 · 1 项</div>
+        </div>
+      </div>
+      <div class="cat-stats"><span class="cs-pill cs-green">已部署 <b>1</b></span></div>
+    </div>
+    <div class="d-grid">
+    <a class="d-card" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank" data-cat="kg" data-name="OA 系统需求文档" data-tags="内部,需求">
       <div class="d-card-top">
         <div class="d-card-emoji">📄</div>
         <span class="d-card-status s-green">已部署</span>
@@ -491,7 +567,9 @@ input{font-family:inherit}
       <div class="d-card-tags"><span class="d-tag">内部</span><span class="d-tag">需求</span></div>
       <div class="d-card-foot"><span>📅 2026-06</span><span class="d-card-arrow">查看详情 →</span></div>
     </a>
+    </div>
   </div>
+</div>
   <div class="empty-state" id="empty-state" style="display:none">
     <div class="em">🔍</div>
     <div style="font-size:16px;font-weight:600;color:#64748b">未找到匹配项目</div>
@@ -512,7 +590,7 @@ input{font-family:inherit}
 <script>
 var curCat='all';
 function setCat(c){curCat=c;document.querySelectorAll(".pill").forEach(function(p){p.classList.remove("active")});event.target.classList.add("active");filterAll();}
-function filterAll(){var q=document.getElementById("srch").value.trim().toLowerCase();var visible=0;var total=0;document.querySelectorAll(".d-card").forEach(function(c){total++;var show=(curCat=='all'||c.getAttribute("data-cat")==curCat)&&(q==''||c.getAttribute("data-name").toLowerCase().indexOf(q)!==-1||c.getAttribute("data-tags").toLowerCase().indexOf(q)!==-1);c.style.display=show?"":"none";if(show)visible++;});var info=document.getElementById("flt-info");if(info){info.innerHTML='<span>当前可见 <b>'+visible+'</b> / '+total+' 项目</span><span>分类：'+(curCat==='all'?'全部':(curCat==='reserve'?'储备项目':(curCat==='deal'?'并购大项目':'内部工具')))+(q?' · 搜索：“'+q+'”':'')+'</span>';}var empty=document.getElementById("empty-state");if(empty){empty.style.display=visible===0?"block":"none";}}
+function filterAll(){var q=document.getElementById("srch").value.trim().toLowerCase();var visible=0;var total=0;document.querySelectorAll(".d-card").forEach(function(c){total++;var show=(curCat=='all'||c.getAttribute("data-cat")==curCat)&&(q==''||c.getAttribute("data-name").toLowerCase().indexOf(q)!==-1||c.getAttribute("data-tags").toLowerCase().indexOf(q)!==-1);c.style.display=show?"":"none";if(show)visible++;});var info=document.getElementById("flt-info");if(info){var catNames={all:'全部',np:'储备·非上市',p:'储备·上市',deal:'重大并购',kg:'知识图谱'};info.innerHTML='<span>当前可见 <b>'+visible+'</b> / '+total+' 项目</span><span>分类：'+(catNames[curCat]||curCat)+(q?' · 搜索：“'+q+'”':'')+'</span>';}var empty=document.getElementById("empty-state");if(empty){empty.style.display=visible===0?"block":"none";}}
 function updateClock(){var now=new Date(),h=String(now.getHours()).padStart(2,'0'),m=String(now.getMinutes()).padStart(2,'0'),s=String(now.getSeconds()).padStart(2,'0');document.getElementById('d-clock').textContent=h+':'+m+':'+s;}
 updateClock();setInterval(updateClock,1000);
 </script>
