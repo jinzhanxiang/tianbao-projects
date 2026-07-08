@@ -228,6 +228,28 @@ body{
   font-size:var(--fs-2xs);font-weight:600;
 }
 
+/* ====== 项目实际情况表 (第二页核心表) ====== */
+.overview-card{background:#fff;border-radius:14px;box-shadow:0 2px 10px rgba(15,23,42,.06);border:1px solid var(--c-border);overflow:hidden;margin-bottom:6px}
+.ov-row{display:grid;grid-template-columns:1.4fr 0.85fr 0.7fr 0.6fr 1.1fr 0.6fr 0.6fr;align-items:center;padding:11px 12px;border-bottom:1px solid var(--c-border-2);text-decoration:none;color:var(--c-text-2);font-size:var(--fs-small);transition:all .2s;gap:6px}
+.ov-row:last-child{border-bottom:none}
+.ov-head{background:linear-gradient(135deg,#f7f8fa,#eef1f6);font-size:var(--fs-2xs);color:var(--c-text-3);font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:9px 12px}
+.ov-row:not(.ov-head):active{background:var(--c-amber-50);transform:scale(.99)}
+.ov-c1{display:flex;align-items:center;gap:6px;font-weight:700;color:var(--c-text);font-size:var(--fs-body);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ov-c2,.ov-c6{font-size:var(--fs-xs);color:var(--c-text-3);font-weight:500}
+.ov-c3{display:flex}
+.ov-c4{font-size:var(--fs-xs);color:var(--c-text-2);font-weight:700}
+.ov-c5{display:flex;align-items:center;gap:5px;font-size:var(--fs-2xs);color:var(--c-text-3);font-weight:600;font-variant-numeric:tabular-nums}
+.ov-c7{text-align:right}
+.ov-emoji{width:24px;height:24px;border-radius:6px;background:var(--c-border-2);display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0}
+.ov-status{padding:2px 7px;border-radius:6px;font-size:var(--fs-2xs);font-weight:700;letter-spacing:.2px;white-space:nowrap}
+.st-yellow{background:#fffaf0;color:#c05621;border:1px solid #fbd38d}
+.st-green{background:#f0fff4;color:#2f855a;border:1px solid #9ae6b4}
+.st-purple{background:#faf5ff;color:#553c9a;border:1px solid #d6bcfa}
+.st-blue{background:#ebf8ff;color:#2c5282;border:1px solid #90cdf4}
+.ov-bar{height:5px;width:60px;background:var(--c-border-2);border-radius:3px;overflow:hidden;display:inline-block;flex-shrink:0}
+.ov-bar-fill{height:100%;background:var(--c,var(--c-accent));border-radius:3px;transition:width .8s ease}
+.ov-link{color:var(--c-accent);font-weight:700;font-size:var(--fs-xs)}
+
 /* ==================== Card ==================== */
 .card{
   background:#fff;border-radius:var(--r-md);
@@ -382,13 +404,13 @@ body{
 
 <div class="header">
   <div class="header-inner">
-    <span class="header-badge">📱 移动版</span>
-    <h1>天保控股项目报告中心</h1>
-    <p>并购大项目 · 储备项目 · 一站式访问</p>
+    <span class="header-badge">📋 第二页 · 项目实际情况</span>
+    <h1>项目实际情况</h1>
+    <p>12 项活跃项目 · 综合评分 · 进度 · 一站式总览</p>
     <div class="header-stats">
-      <div><strong>5</strong>个项目</div>
+      <div><strong>12</strong>个项目</div>
       <div><strong>4</strong>个分类</div>
-      <div><strong>06-29</strong>更新</div>
+      <div><strong>07-08</strong>更新</div>
     </div>
   </div>
 </div>
@@ -409,6 +431,55 @@ body{
 </div>
 
 <div class="result-bar" id="resultBar"></div>
+
+<!-- ============================== 项目实际情况表 ============================== -->
+<div class="section" data-cat="all" id="sec-overview">
+  <div class="section-header">
+    <div class="section-title briefing"><span class="ico">📋</span>项目实际情况</div>
+    <span style="margin-left:auto;font-size:var(--fs-2xs);color:var(--c-text-4);font-weight:600">12 项 · 紧凑视图</span>
+  </div>
+  <div class="overview-card">
+    <div class="ov-row ov-head">
+      <div class="ov-c1">项目</div><div class="ov-c2">分类</div><div class="ov-c3">状态</div><div class="ov-c4">评分</div><div class="ov-c5">进度</div><div class="ov-c6">更新</div><div class="ov-c7">访问</div>
+    </div>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">💎</span>晶能光电</div><div class="ov-c2">LED芯片</div><div class="ov-c3"><span class="ov-status st-yellow">Pre-IPO</span></div><div class="ov-c4">⭐4.4</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:90%;--c:#f59e0b"></div></div>90%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/7projects-summary/projects/unicom-idc.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">☁️</span>联通云 IDC</div><div class="ov-c2">REITs</div><div class="ov-c3"><span class="ov-status st-purple">REITs</span></div><div class="ov-c4">⭐4.5</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:95%;--c:#8b5cf6"></div></div>95%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/xingheng-report/timeline.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">⭐</span>星恒电源</div><div class="ov-c2">并购大项目</div><div class="ov-c3"><span class="ov-status st-green">已立项</span></div><div class="ov-c4">⭐4.0</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:80%;--c:#3b82f6"></div></div>80%</div><div class="ov-c6">2026-05</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/7projects-summary/projects/kedu.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">🏥</span>柯渡医学</div><div class="ov-c2">医疗维保</div><div class="ov-c3"><span class="ov-status st-yellow">Pre-IPO</span></div><div class="ov-c4">⭐3.7</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:65%;--c:#f59e0b"></div></div>65%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/7projects-summary/projects/zhongfu.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">⚡</span>中复碳芯</div><div class="ov-c2">碳纤维</div><div class="ov-c3"><span class="ov-status st-yellow">Pre-IPO</span></div><div class="ov-c4">⭐3.6</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:60%;--c:#f59e0b"></div></div>60%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">💡</span>元旭半导体</div><div class="ov-c2">Micro-LED</div><div class="ov-c3"><span class="ov-status st-green">尽调完成</span></div><div class="ov-c4">⭐3.8</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:85%;--c:#10b981"></div></div>85%</div><div class="ov-c6">2026-05</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/7projects-summary/projects/xunchao.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">🚀</span>迅巢科技</div><div class="ov-c2">科技创新</div><div class="ov-c3"><span class="ov-status st-yellow">Pre-IPO</span></div><div class="ov-c4">⭐3.5</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:55%;--c:#f59e0b"></div></div>55%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">🧪</span>宏远创信</div><div class="ov-c2">新材料</div><div class="ov-c3"><span class="ov-status st-yellow">Pre-IPO</span></div><div class="ov-c4">⭐3.5</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:55%;--c:#f59e0b"></div></div>55%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/7projects-summary/projects/xinhong.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">💊</span>信鸿医疗</div><div class="ov-c2">医疗器械</div><div class="ov-c3"><span class="ov-status st-yellow">Pre-IPO</span></div><div class="ov-c4">⭐3.4</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:50%;--c:#f59e0b"></div></div>50%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">🏛️</span>收购上市公司研究</div><div class="ov-c2">并购</div><div class="ov-c3"><span class="ov-status st-purple">3家</span></div><div class="ov-c4">⭐3.0</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:70%;--c:#8b5cf6"></div></div>70%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">🛰️</span>航天宏图</div><div class="ov-c2">卫星遥感</div><div class="ov-c3"><span class="ov-status st-purple">初步分析</span></div><div class="ov-c4">⭐3.0</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:45%;--c:#8b5cf6"></div></div>45%</div><div class="ov-c6">2026-07</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+    <a class="ov-row" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank">
+      <div class="ov-c1"><span class="ov-emoji">📄</span>OA 系统需求</div><div class="ov-c2">内部工具</div><div class="ov-c3"><span class="ov-status st-green">已部署</span></div><div class="ov-c4">-</div><div class="ov-c5"><div class="ov-bar"><div class="ov-bar-fill" style="width:100%;--c:#10b981"></div></div>100%</div><div class="ov-c6">2026-06-05</div><div class="ov-c7"><span class="ov-link">访问 →</span></div>
+    </a>
+  </div>
+</div>
 
 <!-- ============================== 储备项目 ============================== -->
 <div class="section" data-cat="reserve" id="sec-reserve">
