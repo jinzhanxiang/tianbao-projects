@@ -303,6 +303,31 @@ input{font-family:inherit}
 @media (max-width:1100px){.entry-grid{grid-template-columns:1fr 1fr}.entry-grid>:last-child{grid-column:1/-1}.viz-row{grid-template-columns:1fr}}
 @media (max-width:900px){.entry-grid{grid-template-columns:1fr}.entry-grid>:last-child{grid-column:auto}.focus-card{padding:24px}.focus-progress{flex-wrap:wrap;gap:12px}}
 @media (max-width:600px){.viz-row{grid-template-columns:1fr}.timeline::before{left:60px}.tl-date{width:48px;font-size:12px}.focus-title{font-size:18px}}
+
+/* v5: 项目详情中心入口卡（重做样式） */
+.entry-card-v5{display:grid;grid-template-columns:1.6fr 1fr;gap:0;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 50%,#1e3a8a 100%);border-radius:28px;overflow:hidden;margin-top:32px;box-shadow:0 24px 60px -20px rgba(6,17,58,.30);position:relative;color:#fff;min-height:280px}
+.entry-card-v5::before{content:"";position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(124,58,237,.35) 0%,transparent 70%);top:-120px;right:-100px;filter:blur(50px);animation:gb 10s ease-in-out infinite;z-index:0}
+.entry-card-v5::after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(16,185,129,.25) 0%,transparent 70%);bottom:-100px;left:-80px;filter:blur(40px);z-index:0}
+.entry-v5-left{position:relative;z-index:2;padding:36px 40px;display:flex;flex-direction:column;gap:14px}
+.entry-v5-left h2{font-size:26px;font-weight:800;letter-spacing:-.01em;line-height:1.3;margin:0}
+.entry-v5-left p{font-size:14px;line-height:1.7;opacity:.85;margin:0;max-width:520px}
+.entry-v5-badge{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:5px 12px;border-radius:999px;font-size:12px;font-weight:600;backdrop-filter:blur(10px);width:fit-content}
+.entry-v5-cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.ec-pill{padding:5px 11px;border-radius:8px;font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:4px}
+.ec-pill b{font-weight:800}
+.entry-v5-cta{margin-top:auto;display:inline-block;background:linear-gradient(135deg,#f59e0b,#ec4899);color:#fff;padding:11px 22px;border-radius:12px;font-weight:700;font-size:14px;width:fit-content;box-shadow:0 8px 20px rgba(245,158,11,.4);transition:.25s}
+.entry-card-v5:hover .entry-v5-cta{transform:translateX(4px);box-shadow:0 12px 28px rgba(245,158,11,.5)}
+.entry-v5-right{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;padding:20px}
+.entry-v5-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;width:100%;max-width:280px;padding:14px;background:rgba(255,255,255,.06);border-radius:18px;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.08)}
+.entry-v5-grid div{aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:24px;background:rgba(255,255,255,.08);border-radius:10px;transition:.25s;cursor:default}
+.entry-v5-grid div:hover{background:rgba(255,255,255,.18);transform:scale(1.1) rotate(5deg)}
+@media(max-width:768px){
+  .entry-card-v5{grid-template-columns:1fr;min-height:auto}
+  .entry-v5-left{padding:24px}
+  .entry-v5-left h2{font-size:20px}
+  .entry-v5-right{padding:0 24px 24px}
+  .entry-v5-grid{max-width:100%}
+}
 </style>
 </head>
 <body>
@@ -356,26 +381,26 @@ input{font-family:inherit}
     <div class="kpi">
       <div class="kpi-icon">📂</div>
       <div class="kpi-label">项目总数</div>
-      <div class="kpi-value">12</div>
+      <div class="kpi-value">13</div>
       <div class="kpi-trend">▲ 本月新增 9 项</div>
     </div>
     <div class="kpi">
       <div class="kpi-icon">🗂️</div>
       <div class="kpi-label">储备项目</div>
       <div class="kpi-value">10</div>
-      <div class="kpi-trend">▲ Pre-IPO 池</div>
+      <div class="kpi-trend">▲ 非上市 8 + 上市 2</div>
     </div>
     <div class="kpi">
-      <div class="kpi-icon">✅</div>
-      <div class="kpi-label">尽调完成</div>
-      <div class="kpi-value">3</div>
-      <div class="kpi-trend">▲ 进入立项阶段</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-icon">🚀</div>
-      <div class="kpi-label">已部署</div>
+      <div class="kpi-icon">⭐</div>
+      <div class="kpi-label">重大并购</div>
       <div class="kpi-value">1</div>
-      <div class="kpi-trend">▲ 内部工具已上线</div>
+      <div class="kpi-trend">▲ 星恒电源·已立项</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-icon">🌐</div>
+      <div class="kpi-label">知识图谱</div>
+      <div class="kpi-value">2</div>
+      <div class="kpi-trend">▲ 3D + 环形分层</div>
     </div>
   </div>
 </section>
@@ -397,72 +422,37 @@ input{font-family:inherit}
 </section>
 
 <section class="wrap" style="padding-top:0">
-  <a class="entry-card" href="detail.html" style="text-decoration:none">
-    <div class="entry-left">
-      <span class="badge">🔍 项目详情中心</span>
-      <h2>进入项目详情中心</h2>
-      <p>支持分类筛选、关键词搜索，按储备/并购/内部三大维度查看全部 12 个项目。每个项目可一键跳转至独立报告页。</p>
-      <ul>
-        <li>按分类快速筛选</li>
-        <li>关键词实时搜索</li>
-        <li>状态标签一目了然</li>
-        <li>重点跟进项目置顶</li>
-        <li>12个项目独立报告</li>
-        <li>外部链接直接打开</li>
-      </ul>
-      <span class="entry-cta">查看完整项目库 →</span>
+  <section class="wrap" style="padding-top:0">
+  <a class="entry-card-v5" href="detail.html" style="text-decoration:none">
+    <div class="entry-v5-left">
+      <div class="entry-v5-badge">🔍 项目详情中心</div>
+      <h2>全部 13 个项目 · 一站式查看</h2>
+      <p>按 4 大新分类（储备·非上市 / 储备·上市 / 重大并购 / 知识图谱）组织，所有项目独立报告直接跳转。</p>
+      <div class="entry-v5-cats">
+        <span class="ec-pill" style="background:#dbeafe;color:#1d4ed8">🗂️ 储备·非上市 <b>8</b></span>
+        <span class="ec-pill" style="background:#ede9fe;color:#6d28d9">📈 储备·上市 <b>2</b></span>
+        <span class="ec-pill" style="background:#fce7f3;color:#be185d">⭐ 重大并购 <b>1</b></span>
+        <span class="ec-pill" style="background:#d1fae5;color:#047857">🌐 知识图谱 <b>2</b></span>
+      </div>
+      <span class="entry-v5-cta">进入项目详情中心 →</span>
     </div>
-    <div class="entry-right">
-      <div class="entry-illust">
-        <div class="entry-illust-grid">
-          <div>💎</div><div>🏥</div><div>⚡</div>
-          <div>🧪</div><div>☁️</div><div>💊</div>
-          <div>🚀</div><div>💡</div><div>🏛️</div>
-        </div>
+    <div class="entry-v5-right">
+      <div class="entry-v5-grid">
+        <div>💎</div><div>🏥</div><div>⚡</div>
+        <div>🧪</div><div>💊</div><div>🚀</div>
+        <div>💡</div><div>☁️</div><div>🛰️</div>
+        <div>⭐</div><div>🌐</div><div>🎯</div>
+        <div>🏛️</div>
       </div>
     </div>
   </a>
 </section>
 
-<section class="wrap section" id="sec-reserve" data-cat="reserve">
-  <div class="main-layout">
-    <div>
-      <div class="section-head">
-        <div>
-          <div class="section-title">储备项目</div>
-          <div class="section-sub">Pre-IPO 储备池 · 持续跟进</div>
-        </div>
-        <div class="section-meta">共 10 项</div>
-      </div>
-      <!-- 3 个分类入口卡片：替代原具体项目卡片（避免与 detail.html 重复） -->
-      <div class="entry-grid">
-        <a class="entry-card entry-reserve" href="detail.html#sec-reserve">
-          <div class="entry-icon">🗂️</div>
-          <div class="entry-title">储备项目池</div>
-          <div class="entry-sub">Pre-IPO · 持续跟进 · 10 项</div>
-          <div class="entry-bar"><span style="width:100%"></span></div>
-          <div class="entry-stat"><b>10</b><span>活跃储备</span></div>
-          <div class="entry-arrow">查看详情 →</div>
-        </a>
-        <a class="entry-card entry-deal" href="detail.html#sec-deal">
-          <div class="entry-icon">⭐</div>
-          <div class="entry-title">并购大项目</div>
-          <div class="entry-sub">重点跟进 · 收购类 · 1 项</div>
-          <div class="entry-bar"><span style="width:100%;background:linear-gradient(90deg,#f59e0b,#ec4899)"></span></div>
-          <div class="entry-stat"><b>1</b><span>重点立项</span></div>
-          <div class="entry-arrow">查看详情 →</div>
-        </a>
-        <a class="entry-card entry-internal" href="detail.html#sec-internal">
-          <div class="entry-icon">📄</div>
-          <div class="entry-title">内部工具</div>
-          <div class="entry-sub">需求文档 · 系统支持 · 1 项</div>
-          <div class="entry-bar"><span style="width:100%;background:linear-gradient(90deg,#10b981,#34d399)"></span></div>
-          <div class="entry-stat"><b>1</b><span>已部署</span></div>
-          <div class="entry-arrow">查看详情 →</div>
-        </a>
-      </div>
 
-      <!-- 数据可视化 -->
+      <!-- detail.html 锚点占位 -->
+      <div id="sec-deal" data-cat="deal" style="position:absolute;margin-top:-100px"></div>
+      <div id="sec-internal" data-cat="internal" style="position:absolute;margin-top:-100px"></div>
+<!-- 数据可视化 -->
       <div class="viz-section">
         <div class="viz-head">
           <div>
@@ -473,75 +463,60 @@ input{font-family:inherit}
         <div class="viz-row">
           <!-- 状态分布（圆环） -->
           <div class="viz-card">
-            <div class="viz-label">状态分布</div>
+            <div class="viz-label">状态分布 · 13 项目</div>
             <svg class="donut" viewBox="0 0 120 120">
               <circle cx="60" cy="60" r="48" fill="none" stroke="#f1f5f9" stroke-width="18"/>
-              <!-- Pre-IPO 7/12 = 58.33% : stroke-dasharray 175.93 301.59 -->
+              <!-- Pre-IPO 6/13 = 46.15% : stroke-dasharray 138.95 301.59 -->
               <circle cx="60" cy="60" r="48" fill="none" stroke="#f59e0b" stroke-width="18"
-                stroke-dasharray="175.93 301.59" stroke-dashoffset="0" transform="rotate(-90 60 60)"/>
-              <!-- REITs 1/12 = 8.33% (after 175.93) : 25.13 -->
-              <circle cx="60" cy="60" r="48" fill="none" stroke="#7c3aed" stroke-width="18"
-                stroke-dasharray="25.13 301.59" stroke-dashoffset="-175.93" transform="rotate(-90 60 60)"/>
-              <!-- 尽调完成 1/12 : 25.13 (offset -201.06) -->
+                stroke-dasharray="138.95 301.59" stroke-dashoffset="0" transform="rotate(-90 60 60)"/>
+              <!-- 尽调完成 1/13 : 23.20 (offset -138.95) -->
               <circle cx="60" cy="60" r="48" fill="none" stroke="#10b981" stroke-width="18"
-                stroke-dasharray="25.13 301.59" stroke-dashoffset="-201.06" transform="rotate(-90 60 60)"/>
-              <!-- 初步分析 1/12 : 25.13 (offset -226.19) -->
+                stroke-dasharray="23.20 301.59" stroke-dashoffset="-138.95" transform="rotate(-90 60 60)"/>
+              <!-- REITs 1/13 : 23.20 (offset -162.15) -->
+              <circle cx="60" cy="60" r="48" fill="none" stroke="#7c3aed" stroke-width="18"
+                stroke-dasharray="23.20 301.59" stroke-dashoffset="-162.15" transform="rotate(-90 60 60)"/>
+              <!-- 初步分析 1/13 : 23.20 (offset -185.35) -->
               <circle cx="60" cy="60" r="48" fill="none" stroke="#3b82f6" stroke-width="18"
-                stroke-dasharray="25.13 301.59" stroke-dashoffset="-226.19" transform="rotate(-90 60 60)"/>
-              <!-- 已立项 1/12 : 25.13 (offset -251.32) -->
+                stroke-dasharray="23.20 301.59" stroke-dashoffset="-185.35" transform="rotate(-90 60 60)"/>
+              <!-- 研究阶段 1/13 : 23.20 (offset -208.55) -->
+              <circle cx="60" cy="60" r="48" fill="none" stroke="#06b6d4" stroke-width="18"
+                stroke-dasharray="23.20 301.59" stroke-dashoffset="-208.55" transform="rotate(-90 60 60)"/>
+              <!-- 已立项 1/13 : 23.20 (offset -231.75) -->
               <circle cx="60" cy="60" r="48" fill="none" stroke="#ec4899" stroke-width="18"
-                stroke-dasharray="25.13 301.59" stroke-dashoffset="-251.32" transform="rotate(-90 60 60)"/>
-              <!-- 已部署 1/12 : 25.13 (offset -276.45) -->
+                stroke-dasharray="23.20 301.59" stroke-dashoffset="-231.75" transform="rotate(-90 60 60)"/>
+              <!-- 已部署 2/13 : 46.39 (offset -254.95) -->
               <circle cx="60" cy="60" r="48" fill="none" stroke="#94a3b8" stroke-width="18"
-                stroke-dasharray="25.13 301.59" stroke-dashoffset="-276.45" transform="rotate(-90 60 60)"/>
-              <text x="60" y="58" text-anchor="middle" font-size="20" font-weight="700" fill="#06113a">12</text>
+                stroke-dasharray="46.39 301.59" stroke-dashoffset="-254.95" transform="rotate(-90 60 60)"/>
+              <text x="60" y="58" text-anchor="middle" font-size="22" font-weight="800" fill="#06113a">13</text>
               <text x="60" y="74" text-anchor="middle" font-size="8" fill="#64748b">项目</text>
             </svg>
             <ul class="donut-legend">
-              <li><span class="lg-dot" style="background:#f59e0b"></span>Pre-IPO<b>7</b></li>
-              <li><span class="lg-dot" style="background:#7c3aed"></span>REITs<b>1</b></li>
+              <li><span class="lg-dot" style="background:#f59e0b"></span>Pre-IPO<b>6</b></li>
               <li><span class="lg-dot" style="background:#10b981"></span>尽调完成<b>1</b></li>
+              <li><span class="lg-dot" style="background:#7c3aed"></span>REITs<b>1</b></li>
               <li><span class="lg-dot" style="background:#3b82f6"></span>初步分析<b>1</b></li>
+              <li><span class="lg-dot" style="background:#06b6d4"></span>研究阶段<b>1</b></li>
               <li><span class="lg-dot" style="background:#ec4899"></span>已立项<b>1</b></li>
-              <li><span class="lg-dot" style="background:#94a3b8"></span>已部署<b>1</b></li>
+              <li><span class="lg-dot" style="background:#94a3b8"></span>已部署<b>2</b></li>
             </ul>
           </div>
 
           <!-- 行业分布（横向条） -->
           <div class="viz-card">
-            <div class="viz-label">行业分布</div>
+            <div class="viz-label">行业分布 · 13 项目</div>
             <ul class="hbar">
-              <li><span class="hb-name">硬科技</span><span class="hb-track"><span style="width:75%;background:linear-gradient(90deg,#3b82f6,#60a5fa)"></span></span><span class="hb-num">3</span></li>
-              <li><span class="hb-name">医疗健康</span><span class="hb-track"><span style="width:50%;background:linear-gradient(90deg,#ec4899,#f472b6)"></span></span><span class="hb-num">2</span></li>
-              <li><span class="hb-name">新基建</span><span class="hb-track"><span style="width:50%;background:linear-gradient(90deg,#7c3aed,#a78bfa)"></span></span><span class="hb-num">2</span></li>
-              <li><span class="hb-name">金融服务</span><span class="hb-track"><span style="width:50%;background:linear-gradient(90deg,#f59e0b,#fbbf24)"></span></span><span class="hb-num">2</span></li>
-              <li><span class="hb-name">新材料</span><span class="hb-track"><span style="width:25%;background:linear-gradient(90deg,#10b981,#34d399)"></span></span><span class="hb-num">1</span></li>
-              <li><span class="hb-name">新能源</span><span class="hb-track"><span style="width:25%;background:linear-gradient(90deg,#06b6d4,#22d3ee)"></span></span><span class="hb-num">1</span></li>
-              <li><span class="hb-name">内部工具</span><span class="hb-track"><span style="width:25%;background:linear-gradient(90deg,#94a3b8,#cbd5e1)"></span></span><span class="hb-num">1</span></li>
+              <li><span class="hb-name">硬科技·新材料</span><span class="hb-track"><span style="width:100%;background:linear-gradient(90deg,#3b82f6,#60a5fa)"></span></span><span class="hb-num">5</span></li>
+              <li><span class="hb-name">医疗健康</span><span class="hb-track"><span style="width:40%;background:linear-gradient(90deg,#ec4899,#f472b6)"></span></span><span class="hb-num">2</span></li>
+              <li><span class="hb-name">数据·云</span><span class="hb-track"><span style="width:20%;background:linear-gradient(90deg,#7c3aed,#a78bfa)"></span></span><span class="hb-num">1</span></li>
+              <li><span class="hb-name">航天遥感</span><span class="hb-track"><span style="width:20%;background:linear-gradient(90deg,#06b6d4,#22d3ee)"></span></span><span class="hb-num">1</span></li>
+              <li><span class="hb-name">动力电池·新能源</span><span class="hb-track"><span style="width:20%;background:linear-gradient(90deg,#f59e0b,#fbbf24)"></span></span><span class="hb-num">1</span></li>
+              <li><span class="hb-name">收购研究·上市公司</span><span class="hb-track"><span style="width:20%;background:linear-gradient(90deg,#ef4444,#f87171)"></span></span><span class="hb-num">1</span></li>
+              <li><span class="hb-name">知识图谱·可视化</span><span class="hb-track"><span style="width:40%;background:linear-gradient(90deg,#10b981,#34d399)"></span></span><span class="hb-num">2</span></li>
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- 星恒电源专项追踪 -->
-      <div class="focus-card">
-        <div class="focus-head">
-          <div class="focus-badge">⭐ 重点跟进</div>
-          <div class="focus-title">星恒电源 · 立项推进</div>
-        </div>
-        <div class="focus-meta">动力电池 · 新能源 · 锂电两轮车龙头 · 锰酸锂技术</div>
-        <div class="focus-progress">
-          <div class="fp-step done"><div class="fp-dot">✓</div><div class="fp-name">立项</div></div>
-          <div class="fp-step done"><div class="fp-dot">✓</div><div class="fp-name">尽调</div></div>
-          <div class="fp-step done"><div class="fp-dot">✓</div><div class="fp-name">商业分析</div></div>
-          <div class="fp-step on"><div class="fp-dot">●</div><div class="fp-name">上会</div></div>
-          <div class="fp-step"><div class="fp-dot">○</div><div class="fp-name">签约</div></div>
-          <div class="fp-step"><div class="fp-dot">○</div><div class="fp-name">交割</div></div>
-        </div>
-        <div class="focus-foot">
-          <span>3 份附件</span><span>·</span><span>2026-05 完成商业分析</span><span>·</span>
-          <a href="detail.html#sec-deal">查看完整进度 →</a>
-        </div>
       </div>
 
       <!-- id 占位（detail.html 锚点跳转需要） -->
@@ -562,7 +537,7 @@ input{font-family:inherit}
             <div class="tl-dot" style="background:#3b82f6"></div>
             <div class="tl-card">
               <div class="tl-title">储备项目集中分析</div>
-              <div class="tl-desc">完成 10 项 Pre-IPO 储备项目初步分析，覆盖硬科技、医疗、新材料、新基建、金融服务 5 大行业。</div>
+              <div class="tl-desc">完成 10 项储备项目初步分析：8 项非上市 + 2 项上市（航天宏图/收购研究）</div>
             </div>
           </li>
           <li class="tl-item">
@@ -585,16 +560,16 @@ input{font-family:inherit}
             <div class="tl-date">2026-06</div>
             <div class="tl-dot" style="background:#10b981"></div>
             <div class="tl-card">
-              <div class="tl-title">OA 系统升级需求部署</div>
-              <div class="tl-desc">天保控股 OA 系统升级需求梳理完成，已上线。</div>
+              <div class="tl-title">知识图谱 3D + 环形 分层 部署</div>
+              <div class="tl-desc">实体关系图谱 3D 星云 + 环形分层 v3 已上线。</div>
             </div>
           </li>
           <li class="tl-item">
             <div class="tl-date">2026-05</div>
             <div class="tl-dot" style="background:#f59e0b"></div>
             <div class="tl-card">
-              <div class="tl-title">星恒电源立项完成</div>
-              <div class="tl-desc">完成商业分析报告 + 3 份附件，进入立项阶段。</div>
+              <div class="tl-title">重大并购项目立项</div>
+              <div class="tl-desc">星恒电源完成商业分析报告 + 3 份附件，进入立项阶段。</div>
             </div>
           </li>
         </ol>
@@ -605,9 +580,10 @@ input{font-family:inherit}
       <div class="side-card">
         <div class="side-title">分类导航</div>
         <ul class="cat-list">
-          <li><a href="detail.html">储备项目 <b>10</b></a></li>
-          <li><a href="detail.html">并购大项目 <b>1</b></a></li>
-          <li><a href="detail.html">内部工具 <b>1</b></a></li>
+          <li><a href="detail.html#cat-np"><span class="cat-dot" style="background:#3b82f6"></span>储备·非上市 <b>8</b></a></li>
+          <li><a href="detail.html#cat-p"><span class="cat-dot" style="background:#7c3aed"></span>储备·上市 <b>2</b></a></li>
+          <li><a href="detail.html#cat-deal"><span class="cat-dot" style="background:#ec4899"></span>重大并购 <b>1</b></a></li>
+          <li><a href="detail.html#cat-kg"><span class="cat-dot" style="background:#10b981"></span>知识图谱 <b>2</b></a></li>
           <li><a href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank">7项目汇总 <b>↗</b></a></li>
         </ul>
       </div>
@@ -617,8 +593,8 @@ input{font-family:inherit}
           <li><a href="https://jinzhanxiang.github.io/xingheng-report/timeline.html" target="_blank"><span class="qa-emoji">⭐</span>星恒电源</a></li>
           <li><a href="https://jinzhanxiang.github.io/innoshine-report/" target="_blank"><span class="qa-emoji">💡</span>元旭半导体</a></li>
           <li><a href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank"><span class="qa-emoji">🛰️</span>航天宏图</a></li>
-          <li><a href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank"><span class="qa-emoji">🧪</span>宏远创信</a></li>
-          <li><a href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank"><span class="qa-emoji">📄</span>OA需求</a></li>
+          <li><a href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank"><span class="qa-emoji">💎</span>晶能光电</a></li>
+          <li><a href="https://jinzhanxiang.github.io/kg-viz-3d/" target="_blank"><span class="qa-emoji">🌐</span>知识图谱 3D</a></li>
         </ul>
       </div>
     </aside>
