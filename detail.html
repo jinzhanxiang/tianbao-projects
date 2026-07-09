@@ -2,198 +2,148 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>天保控股项目报告中心</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>项目详情中心 · 天保控股</title>
 <style>
+/* === 主题变量（亮色/暗色） === */
 :root{
-  --navy:#06113a;
-  --navy-2:#0d1f5c;
-  --blue:#2563eb;
-  --blue-2:#3b82f6;
-  --amber:#f59e0b;
-  --emerald:#10b981;
-  --purple:#7c3aed;
-  --red:#ef4444;
-  --bg:#e8edf5;
-  --card:#ffffff;
-  --text:#0f172a;
-  --text-2:#475569;
-  --text-3:#94a3b8;
-  --border:rgba(15,23,42,.08);
-  --shadow:0 10px 30px -10px rgba(6,17,58,.18);
-  --shadow-lg:0 24px 60px -20px rgba(6,17,58,.30);
-  --r:16px;
-  --r-lg:24px;
-  --r-xl:28px;
+  --navy:#06113a; --navy-2:#0d1f5c; --blue:#2563eb; --blue-2:#3b82f6;
+  --amber:#f59e0b; --emerald:#10b981; --purple:#7c3aed; --red:#ef4444;
+  --bg:#e8edf5; --card:#ffffff; --text:#0f172a; --text-2:#475569; --text-3:#94a3b8;
+  --border:rgba(15,23,42,.08); --shadow:0 4px 20px -4px rgba(15,23,42,.06),0 2px 8px -2px rgba(15,23,42,.04);
+  --shadow-lg:0 20px 40px -8px rgba(15,23,42,.10),0 8px 16px -4px rgba(15,23,42,.06);
+  --r:16px; --r-lg:24px; --r-xl:28px;
+  --chip-bg:rgba(37,99,235,.10);
+}
+[data-theme="dark"]{
+  --bg:#0a0f1e; --card:#131a2e; --text:#e8eaf3; --text-2:#a3aac0; --text-3:#6c7595;
+  --border:rgba(255,255,255,.08);
+  --shadow:0 4px 20px -4px rgba(0,0,0,.4),0 2px 8px -2px rgba(0,0,0,.2);
+  --shadow-lg:0 20px 40px -8px rgba(0,0,0,.5),0 8px 16px -4px rgba(0,0,0,.3);
+  --chip-bg:rgba(59,130,246,.18);
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;line-height:1.55}
-a{text-decoration:none;color:inherit}
-img{max-width:100%;display:block}
-button{font-family:inherit;cursor:pointer;border:none;background:none}
-input{font-family:inherit}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+a{color:inherit;text-decoration:none}
 
-.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
-
-/* === NAV === */
-.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.72);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid var(--border)}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 24px;max-width:1280px;margin:0 auto}
-.logo{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--navy)}
-.logo-mark{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);color:#fff;display:grid;place-items:center;font-size:18px;font-weight:800;box-shadow:0 6px 16px -4px rgba(6,17,58,.4)}
-.logo-text{font-size:16px;letter-spacing:.3px}
-.logo-text small{display:block;font-size:11px;color:var(--text-3);font-weight:500;letter-spacing:1px}
-.nav-links{display:flex;gap:6px;align-items:center}
-.nav-links a{padding:8px 14px;border-radius:10px;color:var(--text-2);font-size:14px;font-weight:500;transition:.2s}
-.nav-links a:hover{background:rgba(37,99,235,.08);color:var(--blue)}
-.nav-links a.active{background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff}
+/* === 顶栏 === */
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--border)}
+[data-theme="dark"] .nav{background:rgba(13,18,40,.85)}
+.nav-inner{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px}
+.nav-brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:15px;color:var(--navy)}
+[data-theme="dark"] .nav-brand{color:#fff}
+.nav-logo{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--navy),var(--blue));display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px}
+.nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav-links a{padding:8px 14px;border-radius:10px;font-size:13px;font-weight:600;color:var(--text-2);transition:.2s}
+.nav-links a:hover{background:var(--chip-bg);color:var(--blue)}
+.nav-links a.active{background:var(--blue);color:#fff}
+.theme-toggle{margin-left:8px;background:var(--chip-bg);border:none;width:36px;height:36px;border-radius:10px;cursor:pointer;font-size:16px;display:grid;place-items:center;color:var(--text)}
+.theme-toggle:hover{background:var(--blue);color:#fff}
 
 /* === HERO === */
-.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 60%,#1e3a8a 100%);color:#fff;padding:60px 0 80px}
-.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(80px);opacity:.55;pointer-events:none}
-.hero::before{width:520px;height:520px;background:radial-gradient(circle,#3b82f6 0%,transparent 70%);top:-180px;left:-120px;animation:gb 8s ease-in-out infinite}
-.hero::after{width:480px;height:480px;background:radial-gradient(circle,#7c3aed 0%,transparent 70%);bottom:-180px;right:-100px;animation:gb 10s ease-in-out infinite reverse}
-@keyframes gb{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(40px,-30px) scale(1.12)}}
-.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center}
-.hero-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);font-size:12px;font-weight:500;letter-spacing:.5px;margin-bottom:20px}
-.hero-badge .dot{width:8px;height:8px;border-radius:50%;background:var(--emerald);box-shadow:0 0 0 0 rgba(16,185,129,.7);animation:blink 2s infinite}
-@keyframes blink{0%{box-shadow:0 0 0 0 rgba(16,185,129,.7)}70%{box-shadow:0 0 0 10px rgba(16,185,129,0)}100%{box-shadow:0 0 0 0 rgba(16,185,129,0)}}
-.hero h1{font-size:46px;font-weight:800;line-height:1.15;letter-spacing:-.5px;margin-bottom:16px;background:linear-gradient(120deg,#fff 0%,#c7d2fe 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero p.lead{font-size:17px;color:rgba(255,255,255,.78);max-width:560px;margin-bottom:28px}
-.hero-stats{display:flex;gap:24px;margin-top:8px}
-.hero-stat{display:flex;flex-direction:column}
-.hero-stat b{font-size:28px;font-weight:800;color:#fff}
-.hero-stat span{font-size:12px;color:rgba(255,255,255,.65);letter-spacing:.5px}
+.hero{padding:48px 0 40px;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(37,99,235,.12),transparent 60%)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+.hero-grid{display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center}
+.hero h1{font-size:34px;font-weight:900;letter-spacing:-.8px;color:var(--navy);margin-bottom:8px}
+[data-theme="dark"] .hero h1{color:#fff}
+.hero p{color:var(--text-2);font-size:14px}
+.hero-stats{display:flex;gap:24px;margin-top:20px}
+.hero-stat{padding:10px 16px;background:var(--card);border-radius:14px;border:1px solid var(--border);min-width:90px}
+.hero-stat b{display:block;font-size:24px;font-weight:900;color:var(--blue);letter-spacing:-.5px}
+.hero-stat span{font-size:11px;color:var(--text-3);font-weight:600}
+.clock-card{padding:18px 24px;background:var(--card);border-radius:18px;border:1px solid var(--border);text-align:right;min-width:160px}
+.clock-card #d-clock{font-size:30px;font-weight:900;color:var(--navy);letter-spacing:-1px}
+[data-theme="dark"] .clock-card #d-clock{color:#fff}
+.clock-card small{font-size:11px;color:var(--text-3);display:block;margin-top:4px}
 
-/* glass clock */
-.glass{background:rgba(255,255,255,.08);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border:1px solid rgba(255,255,255,.18);border-radius:var(--r-xl);padding:28px;box-shadow:0 24px 60px -20px rgba(0,0,0,.4)}
-.clock{text-align:center;color:#fff}
-.clock-label{font-size:11px;letter-spacing:2px;color:rgba(255,255,255,.55);margin-bottom:8px;text-transform:uppercase}
-#clock,#d-clock{font-size:56px;font-weight:800;letter-spacing:2px;font-variant-numeric:tabular-nums;background:linear-gradient(120deg,#fff 0%,#a5b4fc 100%);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1}
-.clock-date{margin-top:10px;font-size:14px;color:rgba(255,255,255,.7)}
-.clock-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12)}
-.clock-grid div{text-align:center}
-.clock-grid b{display:block;font-size:18px;font-weight:700;color:#fff}
-.clock-grid span{font-size:10px;color:rgba(255,255,255,.55);letter-spacing:1px;text-transform:uppercase}
+/* === KPI 区 === */
+.kpi-section{padding:24px 0 12px}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kpi{background:var(--card);border-radius:18px;padding:22px;border:1px solid var(--border);box-shadow:var(--shadow);position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--purple))}
+.kpi.k-amber::before{background:linear-gradient(90deg,var(--amber),#f97316)}
+.kpi.k-green::before{background:linear-gradient(90deg,var(--emerald),#059669)}
+.kpi.k-purple::before{background:linear-gradient(90deg,var(--purple),#a855f7)}
+.kpi-icon{font-size:22px;margin-bottom:8px;display:block}
+.kpi b{font-size:30px;font-weight:900;color:var(--text);letter-spacing:-1px;display:block;line-height:1.1}
+.kpi-label{font-size:12px;color:var(--text-3);font-weight:600;margin-top:4px}
+.kpi-sub{font-size:11px;color:var(--emerald);font-weight:700;margin-top:6px}
 
-/* === SECTIONS === */
-.section{padding:60px 0}
-.section-head{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:28px;gap:16px;flex-wrap:wrap}
-.section-title{font-size:24px;font-weight:800;color:var(--navy);letter-spacing:-.3px;display:flex;align-items:center;gap:10px}
-.section-title::before{content:"";width:6px;height:22px;border-radius:3px;background:linear-gradient(180deg,var(--blue),var(--purple))}
-.section-sub{font-size:13px;color:var(--text-3);margin-top:4px}
-.section-meta{font-size:13px;color:var(--text-2)}
+/* === 分类筛选 Pill === */
+.filter-section{padding:20px 0}
+.filter-pills{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.fp{padding:8px 16px;border-radius:999px;background:var(--card);border:1px solid var(--border);font-size:13px;font-weight:600;color:var(--text-2);cursor:pointer;transition:.2s;display:flex;align-items:center;gap:6px}
+.fp:hover{border-color:var(--blue);color:var(--blue)}
+.fp.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.fp .cnt{background:rgba(255,255,255,.25);padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700}
+.fp:not(.active) .cnt{background:var(--chip-bg);color:var(--blue)}
+.filter-info{margin-bottom:12px;font-size:13px;color:var(--text-3);font-weight:500}
+.filter-info b{color:var(--text)}
 
-/* === KPI === */
-.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:-40px;position:relative;z-index:5}
-.kpi{background:#fff;border-radius:var(--r-lg);padding:24px;box-shadow:var(--shadow);position:relative;overflow:hidden;transition:.3s;border:1px solid var(--border)}
-.kpi::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue),var(--purple))}
-.kpi::after{content:"";position:absolute;right:-30px;bottom:-30px;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,235,.08) 0%,transparent 70%)}
-.kpi:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
-.kpi-label{font-size:12px;color:var(--text-3);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;font-weight:600}
-.kpi-value{font-size:34px;font-weight:800;color:var(--navy);font-variant-numeric:tabular-nums;line-height:1;position:relative;z-index:2}
-.kpi-trend{margin-top:10px;font-size:12px;color:var(--emerald);font-weight:600;display:inline-flex;align-items:center;gap:4px;position:relative;z-index:2}
-.kpi-trend.down{color:var(--red)}
-.kpi-icon{position:absolute;top:20px;right:20px;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-size:20px;background:linear-gradient(135deg,rgba(37,99,235,.10),rgba(124,58,237,.10));color:var(--blue)}
+/* === 分类区块 === */
+.section-title{font-size:22px;font-weight:800;color:var(--navy);margin:32px 0 16px;display:flex;align-items:center;gap:12px;letter-spacing:-.4px}
+[data-theme="dark"] .section-title{color:#fff}
+.section-title .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.section-title small{font-size:13px;color:var(--text-3);font-weight:500;margin-left:auto}
+.cat-block{margin-bottom:40px}
+.cat-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;padding:14px 18px;background:var(--card);border-radius:14px;border:1px solid var(--border)}
+.cat-head-left{display:flex;align-items:center;gap:12px}
+.cat-dot{width:12px;height:12px;border-radius:50%}
+.cat-title{font-size:16px;font-weight:800;color:var(--text)}
+.cat-sub{font-size:12px;color:var(--text-3);font-weight:500}
+.cat-stats .cs-pill{font-size:11px;padding:5px 12px;border-radius:999px;font-weight:700}
 
-/* === PIPELINE === */
-.pipe-card{background:#fff;border-radius:var(--r-lg);padding:32px;box-shadow:var(--shadow);border:1px solid var(--border);margin-top:28px;position:relative;overflow:hidden}
-.pipe-card::before{content:"";position:absolute;top:0;right:0;width:200px;height:200px;background:radial-gradient(circle,rgba(37,99,235,.06) 0%,transparent 70%);border-radius:50%}
-.pipe-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;position:relative;z-index:2}
-.pipe-head h3{font-size:16px;font-weight:700;color:var(--navy)}
-.pipe-head small{font-size:12px;color:var(--text-3)}
-.pipe-track{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2;gap:8px}
-.pipe-track::before{content:"";position:absolute;top:18px;left:5%;right:5%;height:3px;background:linear-gradient(90deg,var(--emerald) 0%,var(--emerald) 50%,rgba(15,23,42,.08) 50%,rgba(15,23,42,.08) 100%);z-index:0;border-radius:2px}
-.pipe-step{flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;position:relative;z-index:2}
-.pipe-circle{width:38px;height:38px;border-radius:50%;background:#fff;border:3px solid rgba(15,23,42,.08);display:grid;place-items:center;font-weight:700;font-size:13px;color:var(--text-3);margin-bottom:10px;transition:.3s}
-.pipe-step.done .pipe-circle{background:var(--emerald);border-color:var(--emerald);color:#fff;box-shadow:0 6px 14px -4px rgba(16,185,129,.4)}
-.pipe-step.on .pipe-circle{background:linear-gradient(135deg,var(--blue),var(--purple));border-color:var(--blue);color:#fff;box-shadow:0 6px 14px -4px rgba(37,99,235,.5);animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
-.pipe-step span{font-size:12px;color:var(--text-2);font-weight:600}
-.pipe-step.on span{color:var(--blue);font-weight:700}
-
-/* === ENTRY === */
-.entry-card{display:grid;grid-template-columns:1.5fr 1fr;gap:0;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 50%,#1e3a8a 100%);border-radius:var(--r-xl);overflow:hidden;margin-top:28px;box-shadow:var(--shadow-lg);position:relative;color:#fff}
-.entry-card::before{content:"";position:absolute;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(124,58,237,.4) 0%,transparent 70%);top:-100px;right:-100px;filter:blur(40px);animation:gb 10s ease-in-out infinite}
-.entry-left{padding:40px 44px;position:relative;z-index:2}
-.entry-left .badge{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);font-size:11px;font-weight:600;letter-spacing:.5px;margin-bottom:14px}
-.entry-left h2{font-size:30px;font-weight:800;line-height:1.2;margin-bottom:10px;background:linear-gradient(120deg,#fff 0%,#c7d2fe 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.entry-left p{font-size:14px;color:rgba(255,255,255,.78);margin-bottom:20px;max-width:520px}
-.entry-left ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:24px}
-.entry-left li{display:flex;align-items:center;gap:8px;font-size:13px;color:rgba(255,255,255,.85)}
-.entry-left li::before{content:"✓";width:18px;height:18px;border-radius:50%;background:rgba(16,185,129,.25);color:var(--emerald);display:grid;place-items:center;font-size:11px;font-weight:800;flex-shrink:0}
-.entry-cta{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;background:#fff;color:var(--navy);border-radius:12px;font-weight:700;font-size:14px;transition:.2s;box-shadow:0 8px 20px -6px rgba(0,0,0,.3)}
-.entry-cta:hover{transform:translateY(-2px);box-shadow:0 12px 28px -6px rgba(0,0,0,.4)}
-.entry-right{padding:40px;position:relative;z-index:2;display:grid;place-items:center;background:rgba(0,0,0,.15);border-left:1px solid rgba(255,255,255,.10)}
-.entry-illust{position:relative;width:100%;max-width:280px;aspect-ratio:1;border-radius:24px;background:linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.18);display:grid;place-items:center;overflow:hidden}
-.entry-illust::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,rgba(245,158,11,.4),transparent 50%),radial-gradient(circle at 70% 80%,rgba(124,58,237,.4),transparent 50%)}
-.entry-illust-grid{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:18px}
-.entry-illust-grid div{width:42px;height:42px;border-radius:10px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.15);display:grid;place-items:center;font-size:18px;backdrop-filter:blur(8px)}
-
-/* === CARD GRID (index) === */
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:#fff;border-radius:var(--r-lg);padding:24px;box-shadow:var(--shadow);border:1px solid var(--border);transition:.25s;display:flex;flex-direction:column;position:relative;overflow:hidden}
-.card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);border-color:rgba(37,99,235,.25)}
-.card.featured{background:linear-gradient(135deg,#fff7ed 0%,#fef3c7 100%);border:2px solid #f59e0b;position:relative}
-.card.featured::before{content:"★ 重点跟进";position:absolute;top:14px;right:14px;background:linear-gradient(135deg,#f59e0b,#f97316);color:#fff;font-size:10px;font-weight:800;padding:4px 10px;border-radius:999px;letter-spacing:.5px;box-shadow:0 4px 10px -2px rgba(245,158,11,.4);z-index:2}
-.card-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px}
-.card-emoji{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,rgba(37,99,235,.10),rgba(124,58,237,.10));display:grid;place-items:center;font-size:24px;flex-shrink:0}
-.card-status{font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;letter-spacing:.3px;color:#fff}
-.s-yellow{background:linear-gradient(135deg,#f59e0b,#f97316)}
-.s-green{background:linear-gradient(135deg,#10b981,#059669)}
-.s-purple{background:linear-gradient(135deg,#7c3aed,#6d28d9)}
-.s-blue{background:linear-gradient(135deg,#3b82f6,#2563eb)}
-.card-name{font-size:18px;font-weight:800;color:var(--navy);margin-bottom:4px;letter-spacing:-.2px}
-.card-sub{font-size:12px;color:var(--text-3);margin-bottom:10px;font-weight:500}
-.card-desc{font-size:13px;color:var(--text-2);line-height:1.6;margin-bottom:14px;flex:1}
-.card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
-.tag{font-size:11px;padding:3px 10px;border-radius:999px;background:rgba(37,99,235,.08);color:var(--blue);font-weight:600;border:1px solid rgba(37,99,235,.15)}
-.card-foot{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px dashed var(--border);font-size:12px;color:var(--text-3)}
-.card-arrow{color:var(--blue);font-weight:700}
-
-/* === LAYOUT with SIDEBAR === */
-.main-layout{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:start}
-.sidebar{position:sticky;top:88px;display:flex;flex-direction:column;gap:18px}
-.side-card{background:#fff;border-radius:var(--r-lg);padding:20px;box-shadow:var(--shadow);border:1px solid var(--border)}
-.side-title{font-size:12px;font-weight:700;color:var(--text-3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:8px}
-.side-title::before{content:"";width:3px;height:14px;border-radius:2px;background:linear-gradient(180deg,var(--blue),var(--purple))}
-.cat-list{list-style:none;display:flex;flex-direction:column;gap:6px}
-.cat-list a{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border-radius:10px;font-size:13px;color:var(--text-2);font-weight:500;transition:.2s}
-.cat-list a:hover{background:rgba(37,99,235,.08);color:var(--blue)}
-.cat-list a b{background:rgba(37,99,235,.10);color:var(--blue);font-size:11px;padding:2px 8px;border-radius:6px;font-weight:700}
-.qa-list{list-style:none;display:flex;flex-direction:column;gap:6px}
-.qa-list a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;font-size:13px;color:var(--text-2);font-weight:500;transition:.2s}
-.qa-list a:hover{background:rgba(37,99,235,.08);color:var(--blue)}
-.qa-list a .qa-emoji{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,rgba(37,99,235,.10),rgba(124,58,237,.10));display:grid;place-items:center;font-size:14px;flex-shrink:0}
-
-/* === DETAIL PAGE === */
-.filter-bar{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:#fff;padding:18px 22px;border-radius:var(--r-lg);box-shadow:var(--shadow);border:1px solid var(--border);margin-top:-40px;position:relative;z-index:5}
-.search-box{flex:1;min-width:240px;position:relative}
-.search-box input{width:100%;padding:11px 14px 11px 40px;border:1.5px solid var(--border);border-radius:12px;font-size:14px;background:#f8fafc;transition:.2s;color:var(--text)}
-.search-box input:focus{outline:none;border-color:var(--blue);background:#fff;box-shadow:0 0 0 4px rgba(37,99,235,.10)}
-.search-box::before{content:"🔍";position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:14px;pointer-events:none}
-.pills{display:flex;gap:6px;flex-wrap:wrap}
-.pill{padding:9px 16px;border-radius:999px;font-size:13px;font-weight:600;color:var(--text-2);background:rgba(15,23,42,.04);border:1.5px solid transparent;transition:.2s;cursor:pointer}
-.pill:hover{background:rgba(37,99,235,.08);color:var(--blue)}
-.pill.active{background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;border-color:var(--navy)}
-
-.d-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.d-card{background:#fff;border-radius:var(--r-lg);padding:24px;box-shadow:var(--shadow);border:1px solid var(--border);transition:.25s;display:flex;flex-direction:column;position:relative;overflow:hidden}
+/* === d-card 升级版 === */
+.d-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.d-card{background:var(--card);border-radius:var(--r-lg);padding:22px;box-shadow:var(--shadow);border:1px solid var(--border);transition:.25s;display:flex;flex-direction:column;position:relative;overflow:hidden}
 .d-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);border-color:rgba(37,99,235,.25)}
-.d-card.featured{background:linear-gradient(135deg,#fff7ed 0%,#fef3c7 100%);border:2px solid #f59e0b}
-.d-card.featured::before{content:"★ 重点跟进";position:absolute;top:14px;right:14px;background:linear-gradient(135deg,#f59e0b,#f97316);color:#fff;font-size:10px;font-weight:800;padding:4px 10px;border-radius:999px;letter-spacing:.5px;box-shadow:0 4px 10px -2px rgba(245,158,11,.4);z-index:2}
+.d-card.featured{background:linear-gradient(135deg,#fff7ed 0%,#fef3c7 100%);border:2px solid var(--amber)}
+[data-theme="dark"] .d-card.featured{background:linear-gradient(135deg,#3a2710,#2a1c0a);border-color:var(--amber)}
+.d-card.featured::before{content:"★ 重点跟进";position:absolute;top:14px;right:14px;background:linear-gradient(135deg,var(--amber),#f97316);color:#fff;font-size:10px;font-weight:800;padding:4px 10px;border-radius:999px;letter-spacing:.5px;box-shadow:0 4px 10px -2px rgba(245,158,11,.4);z-index:2}
 .d-card-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px}
 .d-card-emoji{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,rgba(37,99,235,.10),rgba(124,58,237,.10));display:grid;place-items:center;font-size:24px;flex-shrink:0}
-.d-card-status{font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;letter-spacing:.3px;color:#fff}
-.d-card-name{font-size:18px;font-weight:800;color:var(--navy);margin-bottom:4px;letter-spacing:-.2px}
-.d-card-sub{font-size:12px;color:var(--text-3);margin-bottom:10px;font-weight:500}
-.d-card-desc{font-size:13px;color:var(--text-2);line-height:1.6;margin-bottom:14px;flex:1}
-.d-card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
-.d-tag{font-size:11px;padding:3px 10px;border-radius:999px;background:rgba(37,99,235,.08);color:var(--blue);font-weight:600;border:1px solid rgba(37,99,235,.15)}
-.d-card-foot{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px dashed var(--border);font-size:12px;color:var(--text-3)}
+.d-card-status{font-size:10px;font-weight:700;padding:4px 10px;border-radius:999px;letter-spacing:.3px;color:#fff;white-space:nowrap}
+.s-yellow{background:linear-gradient(135deg,var(--amber),#f97316)}
+.s-green{background:linear-gradient(135deg,var(--emerald),#059669)}
+.s-purple{background:linear-gradient(135deg,var(--purple),#6d28d9)}
+.s-blue{background:linear-gradient(135deg,var(--blue),#1e40af)}
+.s-red{background:linear-gradient(135deg,var(--red),#dc2626)}
+.s-navy{background:linear-gradient(135deg,var(--navy),#0d1f5c)}
+.s-gray{background:linear-gradient(135deg,#6b7280,#4b5563)}
+.d-card-name{font-size:17px;font-weight:800;color:var(--navy);margin-bottom:3px;letter-spacing:-.2px}
+[data-theme="dark"] .d-card-name{color:#fff}
+.d-card-sub{font-size:11px;color:var(--text-3);margin-bottom:10px;font-weight:500}
+.d-card-desc{font-size:13px;color:var(--text-2);line-height:1.55;margin-bottom:12px;flex:1}
+
+/* === 新增：指标条 === */
+.metric-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px 0;border-top:1px dashed var(--border);border-bottom:1px dashed var(--border);margin-bottom:12px}
+.metric{text-align:center}
+.metric b{display:block;font-size:16px;font-weight:800;color:var(--blue);letter-spacing:-.3px}
+.metric .ml{font-size:10px;color:var(--text-3);font-weight:600;margin-top:2px}
+.metric.b b{color:var(--emerald)}
+.metric.a b{color:var(--amber)}
+
+/* === 进度环 === */
+.donut-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.donut-svg{width:38px;height:38px;flex-shrink:0}
+.donut-info{flex:1;font-size:11px}
+.donut-info b{display:block;font-size:14px;color:var(--text);font-weight:800}
+.donut-info span{color:var(--text-3);font-size:10px}
+
+/* === 任务动态 === */
+.task-list{font-size:11px;color:var(--text-2);background:rgba(37,99,235,.04);border-radius:8px;padding:8px 10px;margin-bottom:10px;line-height:1.5}
+[data-theme="dark"] .task-list{background:rgba(59,130,246,.10)}
+.task-list b{color:var(--blue);font-size:10px;display:block;margin-bottom:3px;letter-spacing:.3px}
+
+.d-card-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.d-tag{font-size:10px;padding:3px 9px;border-radius:999px;background:var(--chip-bg);color:var(--blue);font-weight:600;border:1px solid rgba(37,99,235,.15)}
+.d-card-foot{display:flex;justify-content:space-between;align-items:center;padding-top:10px;font-size:11px;color:var(--text-3)}
 .d-card-arrow{color:var(--blue);font-weight:700}
+.d-card.disabled{opacity:.5;pointer-events:none}
 
 /* === FOOTER === */
-.footer{background:linear-gradient(180deg,#0d1f5c 0%,#06113a 100%);color:rgba(255,255,255,.7);padding:48px 0 24px;margin-top:60px}
+.footer{background:linear-gradient(180deg,var(--navy-2) 0%,var(--navy) 100%);color:rgba(255,255,255,.7);padding:48px 0 24px;margin-top:60px}
 .footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:36px;margin-bottom:32px}
 .footer h4{color:#fff;font-size:14px;font-weight:700;margin-bottom:14px;letter-spacing:.5px}
 .footer p,.footer a{font-size:13px;color:rgba(255,255,255,.6);line-height:1.8}
@@ -203,416 +153,629 @@ input{font-family:inherit}
 
 /* === RESPONSIVE === */
 @media (max-width:1100px){
-  .grid,.d-grid{grid-template-columns:repeat(2,1fr)}
+  .d-grid{grid-template-columns:repeat(2,1fr)}
   .kpi-grid{grid-template-columns:repeat(2,1fr)}
-  .pipe-track{flex-wrap:wrap;gap:14px}
-  .pipe-track::before{display:none}
-  .pipe-step{flex:0 0 calc(33% - 14px)}
-  .main-layout{grid-template-columns:1fr}
-  .sidebar{position:static}
 }
-@media (max-width:900px){
+@media (max-width:700px){
   .hero-grid{grid-template-columns:1fr}
-  .entry-card{grid-template-columns:1fr}
-  .entry-right{border-left:none;border-top:1px solid rgba(255,255,255,.10)}
-  .hero h1{font-size:36px}
-  .footer-grid{grid-template-columns:1fr;gap:24px}
-  .nav-links a span{display:none}
-}
-@media (max-width:600px){
-  .grid,.d-grid{grid-template-columns:1fr}
+  .d-grid{grid-template-columns:1fr}
   .kpi-grid{grid-template-columns:1fr 1fr}
-  .hero{padding:40px 0 60px}
+  .nav-links a span{display:none}
   .hero h1{font-size:28px}
-  #clock,#d-clock{font-size:40px}
-  .hero-stats{flex-wrap:wrap;gap:14px}
-  .hero-stat b{font-size:22px}
-  .entry-left{padding:28px 24px}
-  .entry-left h2{font-size:22px}
-  .entry-left ul{grid-template-columns:1fr}
-  .filter-bar{padding:14px}
-  .section-title{font-size:18px}
-}
-
-/* ===== detail.html v3 增强 ===== */
-.search-box input{transition:box-shadow .3s,border-color .3s}
-.search-box input:focus{box-shadow:0 0 0 4px rgba(37,99,235,.12);border-color:#2563eb}
-.pill{transition:all .25s;user-select:none;cursor:pointer}
-.pill:hover{transform:translateY(-2px);box-shadow:0 6px 14px rgba(13,31,92,.1)}
-.pill.active{box-shadow:0 4px 12px rgba(37,99,235,.35)}
-.d-card{position:relative;overflow:hidden}
-.d-card::after{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);transition:left .8s;pointer-events:none}
-.d-card:hover::after{left:100%}
-.d-card-emoji{transition:transform .4s}
-.d-card:hover .d-card-emoji{transform:scale(1.15) rotate(6deg)}
-.d-card-tags .d-tag{transition:.25s}
-.d-card:hover .d-tag{transform:translateY(-1px)}
-.empty-state{grid-column:1/-1;text-align:center;padding:80px 20px;color:#94a3b8}
-.empty-state .em{font-size:48px;margin-bottom:12px;opacity:.5}
-.filter-info{font-size:13px;color:#64748b;margin:16px 0 12px;display:flex;justify-content:space-between;align-items:center}
-.filter-info b{color:#2563eb;font-weight:700}
-@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-.d-card{animation:fadeUp .4s ease backwards}
-.d-card:nth-child(2){animation-delay:.05s}
-.d-card:nth-child(3){animation-delay:.1s}
-.d-card:nth-child(4){animation-delay:.15s}
-.d-card:nth-child(5){animation-delay:.2s}
-.d-card:nth-child(6){animation-delay:.25s}
-.d-card:nth-child(7){animation-delay:.3s}
-.d-card:nth-child(8){animation-delay:.35s}
-.d-card:nth-child(9){animation-delay:.4s}
-.kpi{animation:fadeUp .5s ease backwards}
-.kpi:nth-child(2){animation-delay:.1s}
-.kpi:nth-child(3){animation-delay:.2s}
-.kpi:nth-child(4){animation-delay:.3s}
-
-/* v5: 4 大分类块 */
-.cat-block{margin-bottom:36px;scroll-margin-top:80px;animation:fadeUp .5s ease backwards}
-.cat-block:nth-child(1){animation-delay:.05s}
-.cat-block:nth-child(2){animation-delay:.1s}
-.cat-block:nth-child(3){animation-delay:.15s}
-.cat-block:nth-child(4){animation-delay:.2s}
-.cat-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:18px 24px;background:linear-gradient(135deg,#f8fafc 0%,#ffffff 100%);border-radius:16px;margin-bottom:18px;border:1px solid #e8edf5;box-shadow:0 2px 10px rgba(13,31,92,.05);position:relative;overflow:hidden}
-.cat-head::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--cat-color,var(--blue))}
-.cat-head-left{display:flex;align-items:center;gap:14px;flex:1;min-width:0}
-.cat-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0;box-shadow:0 0 0 4px #fff,0 0 0 5px rgba(0,0,0,.06)}
-.cat-title{font-size:18px;font-weight:800;color:#06113a;letter-spacing:-.01em;margin-bottom:3px}
-.cat-sub{font-size:12px;color:#64748b;font-weight:500}
-.cat-stats{display:flex;gap:8px;flex-wrap:wrap}
-.cs-pill{padding:5px 12px;border-radius:999px;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:4px}
-.cs-pill b{font-weight:900}
-@media(max-width:768px){
-  .cat-head{padding:14px 16px;flex-direction:column;align-items:flex-start}
-  .cat-title{font-size:16px}
+  .footer-grid{grid-template-columns:1fr;gap:24px}
 }
 </style>
 </head>
 <body>
 
+<!-- 顶栏 -->
 <nav class="nav">
   <div class="nav-inner">
-    <a class="logo" href="index.html">
-      <div class="logo-mark">保</div>
-      <div class="logo-text">天保项目<small>TIANBAO · PROJECTS</small></div>
-    </a>
-    <div class="nav-links">
-      <a href="index.html" class="active"><span>📊</span> 仪表盘</a>
-      <a href="detail.html"><span>📋</span> 项目详情</a>
-      <a href="https://jinzhanxiang.github.io/7projects-summary/" target="_blank"><span>📚</span> 7项目</a>
-      <a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank"><span>⭐</span> 星恒</a>
+    <div class="nav-brand">
+      <div class="nav-logo">保</div>
+      <span>天保控股 · 项目详情中心</span>
     </div>
+    <div class="nav-links">
+      <a href="index.html"><span>📊</span>仪表盘</a>
+      <a href="detail.html" class="active"><span>📋</span>项目详情</a>
+      <a href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank"><span>📚</span>7项目汇总</a>
+      <a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank"><span>⭐</span>星恒</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" title="切换暗色模式">🌙</button>
   </div>
 </nav>
 
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>项目详情中心</h1>
+      <p>13 个项目 · 4 大分类 · 全部项目进度 / 投资金额 / 阶段停留 一站式管理</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>13</b><span>项目总数</span></div>
+        <div class="hero-stat"><b>10</b><span>储备项目</span></div>
+        <div class="hero-stat"><b>3</b><span>尽调完成</span></div>
+        <div class="hero-stat"><b>1</b><span>已立项</span></div>
+      </div>
+    </div>
+    <div class="clock-card">
+      <div id="d-clock">14:16:00</div>
+      <small id="d-date">2026年7月9日 · 周四</small>
+    </div>
+  </div>
+</section>
 
-<section class="hero" style="padding:50px 0 70px">
+<!-- KPI -->
+<section class="kpi-section">
   <div class="wrap">
-    <div class="hero-grid">
-      <div>
-        <span class="hero-badge"><span class="dot"></span> 12 个项目 · 4 大分类</span>
-        <h1>项目详情中心</h1>
-        <p class="lead">支持分类筛选 + 关键词搜索 · 一键跳转至独立报告 · 重点项目置顶</p>
-        <div class="hero-stats">
-          <div class="hero-stat"><b>12</b><span>项目总数</span></div>
-          <div class="hero-stat"><b>10</b><span>储备</span></div>
-          <div class="hero-stat"><b>3</b><span>尽调完成</span></div>
-          <div class="hero-stat"><b>1</b><span>已立项</span></div>
-        </div>
+    <div class="kpi-grid">
+      <div class="kpi">
+        <span class="kpi-icon">📂</span>
+        <b>13</b>
+        <div class="kpi-label">项目总数</div>
+        <div class="kpi-sub">▲ 本月新增 9 项</div>
       </div>
-      <div class="glass clock">
-        <div class="clock-label">SYSTEM TIME</div>
-        <div id="d-clock">14:06:00</div>
-        <div class="clock-date">2026年7月8日 · 周三</div>
-        <div class="clock-grid">
-          <div><b>10</b><span>储备</span></div>
-          <div><b>1</b><span>并购</span></div>
-          <div><b>1</b><span>内部</span></div>
-        </div>
+      <div class="kpi k-amber">
+        <span class="kpi-icon">🗂️</span>
+        <b>10</b>
+        <div class="kpi-label">储备项目</div>
+        <div class="kpi-sub">▲ 非上市 8 + 上市 2</div>
+      </div>
+      <div class="kpi k-green">
+        <span class="kpi-icon">⭐</span>
+        <b>1</b>
+        <div class="kpi-label">重大并购</div>
+        <div class="kpi-sub">▲ 星恒电源·已立项</div>
+      </div>
+      <div class="kpi k-purple">
+        <span class="kpi-icon">🌐</span>
+        <b>2</b>
+        <div class="kpi-label">知识图谱</div>
+        <div class="kpi-sub">▲ Wiki + 关系图</div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="wrap">
-  <div class="filter-bar">
-    <div class="search-box">
-      <input id="srch" type="text" placeholder="搜索项目名称或标签…" oninput="filterAll()">
+<!-- 分类筛选 -->
+<section class="filter-section">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="dot" style="background:var(--blue)"></span>项目分类导航
+      <small>点击筛选 ↓</small>
     </div>
-    <div class="pills">
-      <span class="pill active" onclick="setCat('all')">全部 (13)</span>
-      <span class="pill" onclick="setCat('np')">储备·非上市 (8)</span>
-      <span class="pill" onclick="setCat('p')">储备·上市 (2)</span>
-      <span class="pill" onclick="setCat('deal')">重大并购 (1)</span>
-      <span class="pill" onclick="setCat('kg')">知识图谱 (2)</span>
-    </div>
-  </div>
-</section>
-
-<section class="wrap" style="padding-top:32px">
-  <div class="kpi-grid" style="margin-top:0">
-    <div class="kpi">
-      <div class="kpi-icon">📂</div>
-      <div class="kpi-label">项目总数</div>
-      <div class="kpi-value">12</div>
-      <div class="kpi-trend">▲ 全部分类</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-icon">🗂️</div>
-      <div class="kpi-label">储备项目</div>
-      <div class="kpi-value">10</div>
-      <div class="kpi-trend">▲ Pre-IPO 池</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-icon">✅</div>
-      <div class="kpi-label">尽调完成</div>
-      <div class="kpi-value">3</div>
-      <div class="kpi-trend">▲ 待上会</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-icon">🚀</div>
-      <div class="kpi-label">已立项</div>
-      <div class="kpi-value">1</div>
-      <div class="kpi-trend">▲ 重点跟进</div>
+    <div class="filter-info" id="flt-info"><span>当前可见 <b id="flt-count">13</b> / 13 项目</span><span>分类：<b id="flt-cat">全部</b></span></div>
+    <div class="filter-pills">
+      <div class="fp active" data-cat="all"><span>全部</span><span class="cnt" id="cnt-all">13</span></div>
+      <div class="fp" data-cat="np"><span>🗂️ 储备·非上市</span><span class="cnt" id="cnt-np">8</span></div>
+      <div class="fp" data-cat="p"><span>📈 储备·上市</span><span class="cnt" id="cnt-p">2</span></div>
+      <div class="fp" data-cat="deal"><span>⭐ 重大并购</span><span class="cnt" id="cnt-deal">1</span></div>
+      <div class="fp" data-cat="kg"><span>🌐 知识图谱</span><span class="cnt" id="cnt-kg">2</span></div>
     </div>
   </div>
 </section>
 
-<section class="wrap section" style="padding-top:32px">
-  <div class="filter-info" id="flt-info"><span>当前可见 <b>12</b> / 12 项目</span><span>分类：全部</span></div>
-    <section class="cat-block" id="cat-np">
+<!-- 分类区块 -->
+<section class="wrap" style="padding-top:24px">
+
+  <!-- 储备·非上市 -->
+  <section class="cat-block" id="cat-np">
     <div class="cat-head">
       <div class="cat-head-left">
-        <span class="cat-dot" style="background:#3b82f6"></span>
+        <span class="cat-dot" style="background:var(--blue)"></span>
         <div>
           <div class="cat-title">储备项目 · 非上市公司</div>
           <div class="cat-sub">Pre-IPO 储备池 · 8 项</div>
         </div>
       </div>
       <div class="cat-stats">
-        <span class="cs-pill" style="background:#3b82f615;color:#3b82f6"><b>8</b> 个项目</span>
+        <span class="cs-pill" style="background:#3b82f615;color:var(--blue)"><b>8</b> 个项目</span>
       </div>
     </div>
     <div class="d-grid">
-    <a class="d-card" href="https://jinzhanxiang.github.io/jngd-report/dashboard.html" target="_blank" data-cat="np" data-name="晶能光电" data-tags="LED,硅衬底,科创板,3份报告">
-      <div class="d-card-top">
-        <div class="d-card-emoji">💎</div>
-        <span class="d-card-status s-yellow">Pre-IPO</span>
-      </div>
-      <div class="d-card-name">晶能光电</div>
-      <div class="d-card-sub">LED芯片 · 硅衬底技术</div>
-      <div class="d-card-desc">中国硅衬底 LED 芯片技术开拓者，综合评分 ⭐⭐⭐⭐⭐</div>
-      <div class="d-card-tags"><span class="d-tag">LED</span><span class="d-tag">硅衬底</span><span class="d-tag">科创板</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">时间线+报告总览 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/kedu.html" target="_blank" data-cat="np" data-name="柯渡医学" data-tags="医疗,设备维保">
-      <div class="d-card-top">
-        <div class="d-card-emoji">🏥</div>
-        <span class="d-card-status s-yellow">Pre-IPO</span>
-      </div>
-      <div class="d-card-name">柯渡医学</div>
-      <div class="d-card-sub">医疗设备 · 第三方维保</div>
-      <div class="d-card-desc">医疗设备第三方维保双寡头之一</div>
-      <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">设备维保</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/zhongfu.html" target="_blank" data-cat="np" data-name="中复碳芯" data-tags="碳纤维,央企">
-      <div class="d-card-top">
-        <div class="d-card-emoji">⚡</div>
-        <span class="d-card-status s-yellow">Pre-IPO</span>
-      </div>
-      <div class="d-card-name">中复碳芯</div>
-      <div class="d-card-sub">碳纤维 · 复合材料</div>
-      <div class="d-card-desc">中国建材集团旗下碳纤维复合材料平台</div>
-      <div class="d-card-tags"><span class="d-tag">碳纤维</span><span class="d-tag">央企</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank" data-cat="np" data-name="宏远创信" data-tags="新材料,创投">
-      <div class="d-card-top">
-        <div class="d-card-emoji">🧪</div>
-        <span class="d-card-status s-yellow">Pre-IPO</span>
-      </div>
-      <div class="d-card-name">宏远创信</div>
-      <div class="d-card-sub">新材料 · 创投机构</div>
-      <div class="d-card-desc">专注于新材料领域的投资机构</div>
-      <div class="d-card-tags"><span class="d-tag">新材料</span><span class="d-tag">创投</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xinhong.html" target="_blank" data-cat="np" data-name="信鸿医疗" data-tags="医疗,供应链">
-      <div class="d-card-top">
-        <div class="d-card-emoji">💊</div>
-        <span class="d-card-status s-yellow">Pre-IPO</span>
-      </div>
-      <div class="d-card-name">信鸿医疗</div>
-      <div class="d-card-sub">医疗器械 · 供应链</div>
-      <div class="d-card-desc">医疗器械供应链服务商</div>
-      <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">供应链</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xunchao.html" target="_blank" data-cat="np" data-name="迅巢科技" data-tags="科技,创新">
-      <div class="d-card-top">
-        <div class="d-card-emoji">🚀</div>
-        <span class="d-card-status s-yellow">Pre-IPO</span>
-      </div>
-      <div class="d-card-name">迅巢科技</div>
-      <div class="d-card-sub">科技创新企业</div>
-      <div class="d-card-desc">科技创新型企业</div>
-      <div class="d-card-tags"><span class="d-tag">科技</span><span class="d-tag">创新</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/innoshine-report/dashboard.html" target="_blank" data-cat="np" data-name="元旭半导体" data-tags="Micro-LED,高端制造,2份报告">
-      <div class="d-card-top">
-        <div class="d-card-emoji">💡</div>
-        <span class="d-card-status s-green">尽调完成</span>
-      </div>
-      <div class="d-card-name">元旭半导体</div>
-      <div class="d-card-sub">Micro-LED · 高端制造</div>
-      <div class="d-card-desc">Micro-LED 并行光引擎器件平台</div>
-      <div class="d-card-tags"><span class="d-tag">Micro-LED</span><span class="d-tag">高端制造</span></div>
-      <div class="d-card-foot"><span>📅 2026-05</span><span class="d-card-arrow">时间线+报告总览 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/unicom-idc.html" target="_blank" data-cat="np" data-name="联通云 IDC" data-tags="IDC,数据中心">
-      <div class="d-card-top">
-        <div class="d-card-emoji">☁️</div>
-        <span class="d-card-status s-purple">REITs</span>
-      </div>
-      <div class="d-card-name">联通云 IDC</div>
-      <div class="d-card-sub">数据中心 · REITs</div>
-      <div class="d-card-desc">联通云 IDC 数据中心 REITs 项目</div>
-      <div class="d-card-tags"><span class="d-tag">IDC</span><span class="d-tag">数据中心</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
+
+      <a class="d-card featured" href="https://jinzhanxiang.github.io/jngd-report/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">💎</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">晶能光电</div>
+        <div class="d-card-sub">LED芯片 · 硅衬底技术</div>
+        <div class="d-card-desc">中国硅衬底 LED 芯片技术开拓者，综合评分 ⭐⭐⭐⭐⭐；JNGD 财务尽调报告 + 法律尽调 + 并购 LX 半导体方案</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>75d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="100,100" stroke-dashoffset="0"/>
+          </svg>
+          <div class="donut-info"><b>100%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-09 Documents 旧文件夹已清理 → Desktop/晶能光电/</div>
+        <div class="d-card-tags"><span class="d-tag">LED</span><span class="d-tag">硅衬底</span><span class="d-tag">科创板</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-09</span><span class="d-card-arrow">时间线+报告 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🏥</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">柯渡医学</div>
+        <div class="d-card-sub">医疗设备 · 第三方维保</div>
+        <div class="d-card-desc">医疗设备第三方维保双寡头之一，覆盖 CT/MR/超声全产品线；2026-05-22 立项汇报</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>35%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>48d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="35,100"/>
+          </svg>
+          <div class="donut-info"><b>35%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-05-22 完成立项汇报 PPT（110MB）</div>
+        <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">设备维保</span></div>
+        <div class="d-card-foot"><span>📅 2026-05-22</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">⚡</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">中复碳芯</div>
+        <div class="d-card-sub">碳纤维 · 复合材料</div>
+        <div class="d-card-desc">中国建材集团旗下碳纤维复合材料平台；2026-03 企业介绍材料</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>25%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>127d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="25,100"/>
+          </svg>
+          <div class="donut-info"><b>25%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-03 企业介绍材料已入库（86M）</div>
+        <div class="d-card-tags"><span class="d-tag">碳纤维</span><span class="d-tag">央企</span></div>
+        <div class="d-card-foot"><span>📅 2026-03</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🧪</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">宏远创信</div>
+        <div class="d-card-sub">新材料 · 综合智慧能源</div>
+        <div class="d-card-desc">北京宏远创信能源科技（新材料+综合智慧能源）；2026-07-06 会谈纪要，2025 审计报告</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>40%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>3d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="40,100"/>
+          </svg>
+          <div class="donut-info"><b>40%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-06 会谈纪要 + 2025 审计报告入库</div>
+        <div class="d-card-tags"><span class="d-tag">新材料</span><span class="d-tag">智慧能源</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-06</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">💊</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">信鸿医疗</div>
+        <div class="d-card-sub">医疗器械 · 供应链</div>
+        <div class="d-card-desc">天津信鸿医疗（医疗器械供应链）；2025-12 合并财务报表 + 2026-01-30 介绍材料</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>30%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>161d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="30,100"/>
+          </svg>
+          <div class="donut-info"><b>30%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-01-30 公司介绍 PPT 入库</div>
+        <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">供应链</span></div>
+        <div class="d-card-foot"><span>📅 2026-01-30</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🚀</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">迅巢科技</div>
+        <div class="d-card-sub">换电科技 · XCHS Energon</div>
+        <div class="d-card-desc">迅巢换电（XCHS Energon）— 换电科技 / 创新型企业</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>20%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>81d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="20,100"/>
+          </svg>
+          <div class="donut-info"><b>20%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-04-19 PDF 入库（17MB）</div>
+        <div class="d-card-tags"><span class="d-tag">换电</span><span class="d-tag">科技</span></div>
+        <div class="d-card-foot"><span>📅 2026-04-19</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/innoshine-report/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">💡</div>
+          <span class="d-card-status s-green">尽调完成</span>
+        </div>
+        <div class="d-card-name">元旭半导体</div>
+        <div class="d-card-sub">Micro-LED · 高端制造</div>
+        <div class="d-card-desc">Micro-LED 并行光引擎器件平台；尽调报告 + 谈判简报 = 2 份报告；dashboard.html 已部署</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>5d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>100%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-04 dashboard.html 双视图部署</div>
+        <div class="d-card-tags"><span class="d-tag">Micro-LED</span><span class="d-tag">高端制造</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-04</span><span class="d-card-arrow">时间线+报告 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">☁️</div>
+          <span class="d-card-status s-purple">REITs</span>
+        </div>
+        <div class="d-card-name">联通云 IDC</div>
+        <div class="d-card-sub">数据中心 · REITs</div>
+        <div class="d-card-desc">联通云 IDC 数据中心 REITs 项目；汇天网络科技合作机会汇总（5.9M / 7 文件）</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric b"><b>85%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>32d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="85,100"/>
+          </svg>
+          <div class="donut-info"><b>85%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-07 中信建投持有型不动产 ABS 合作方案入库</div>
+        <div class="d-card-tags"><span class="d-tag">IDC</span><span class="d-tag">REITs</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-07</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
     </div>
   </section>
 
+  <!-- 储备·上市 -->
   <section class="cat-block" id="cat-p">
     <div class="cat-head">
       <div class="cat-head-left">
-        <span class="cat-dot" style="background:#7c3aed"></span>
+        <span class="cat-dot" style="background:var(--purple)"></span>
         <div>
           <div class="cat-title">储备项目 · 上市公司</div>
-          <div class="cat-sub">A 股 / 港股已上市标的 · 2 项</div>
+          <div class="cat-sub">上市公司交付/研究 · 2 项</div>
         </div>
       </div>
       <div class="cat-stats">
-        <span class="cs-pill" style="background:#7c3aed15;color:#7c3aed"><b>2</b> 个项目</span>
+        <span class="cs-pill" style="background:#7c3aed15;color:var(--purple)"><b>2</b> 个项目</span>
       </div>
     </div>
     <div class="d-grid">
-    <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank" data-cat="p" data-name="航天宏图" data-tags="卫星遥感,应急管理">
-      <div class="d-card-top">
-        <div class="d-card-emoji">🛰️</div>
-        <span class="d-card-status s-blue">初步分析</span>
-      </div>
-      <div class="d-card-name">航天宏图</div>
-      <div class="d-card-sub">卫星遥感 · 应急管理</div>
-      <div class="d-card-desc">北斗+遥感应用龙头。风险化解方案已出具</div>
-      <div class="d-card-tags"><span class="d-tag">卫星遥感</span><span class="d-tag">应急管理</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html" target="_blank" data-cat="p" data-name="收购上市公司标的研究" data-tags="收购,上市公司">
-      <div class="d-card-top">
-        <div class="d-card-emoji">🏛️</div>
-        <span class="d-card-status s-purple">研究阶段</span>
-      </div>
-      <div class="d-card-name">收购上市公司标的研究</div>
-      <div class="d-card-sub">3家上市公司对比 · 收购优先级</div>
-      <div class="d-card-desc">科华/绿田/爱朋 8 维度分析 + 收购优先级</div>
-      <div class="d-card-tags"><span class="d-tag">收购</span><span class="d-tag">上市公司</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
+
+      <a class="d-card featured" href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank" data-cat="p">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🛰️</div>
+          <span class="d-card-status s-blue">已部署</span>
+        </div>
+        <div class="d-card-name">航天宏图</div>
+        <div class="d-card-sub">HTCO IRE · 航天遥感</div>
+        <div class="d-card-desc">上市公司对口交付方案 v4（口令保护）；针对应收账款减值、客户集中度高等问题出具化解方案</div>
+        <div class="metric-row">
+          <div class="metric a"><b>已交付</b><div class="ml">交付状态</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">方案完成</div></div>
+          <div class="metric"><b>57d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--blue)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>已部署 v4</b><span>交付版本</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-05-12 风险化解方案 v4 部署上线</div>
+        <div class="d-card-tags"><span class="d-tag">航天遥感</span><span class="d-tag">对口交付</span></div>
+        <div class="d-card-foot"><span>📅 2026-05-12</span><span class="d-card-arrow">查看方案 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html" target="_blank" data-cat="p">
+        <div class="d-card-top">
+          <div class="d-card-emoji">📊</div>
+          <span class="d-card-status s-blue">研究阶段</span>
+        </div>
+        <div class="d-card-name">收购上市公司研究</div>
+        <div class="d-card-sub">3 家上市公司 8 维度对比</div>
+        <div class="d-card-desc">科华 / 绿田 / 爱朋 3 家上市公司 8 维度对比 + 收购优先级排序；研究阶段，待立项</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>60%</b><div class="ml">研究完成</div></div>
+          <div class="metric"><b>9d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--purple)" stroke-width="3" stroke-dasharray="60,100"/>
+          </svg>
+          <div class="donut-info"><b>60%</b><span>研究完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07 完成 3 家上市公司 8 维度对比仪表盘</div>
+        <div class="d-card-tags"><span class="d-tag">上市公司</span><span class="d-tag">收购研究</span></div>
+        <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
     </div>
   </section>
 
+  <!-- 重大并购 -->
   <section class="cat-block" id="cat-deal">
     <div class="cat-head">
       <div class="cat-head-left">
-        <span class="cat-dot" style="background:#ec4899"></span>
+        <span class="cat-dot" style="background:var(--amber)"></span>
         <div>
-          <div class="cat-title">重大并购项目</div>
-          <div class="cat-sub">重点跟进 · 收购类 · 1 项</div>
+          <div class="cat-title">重大并购</div>
+          <div class="cat-sub">立项阶段 · 1 项</div>
         </div>
       </div>
       <div class="cat-stats">
-        <span class="cs-pill" style="background:#ec489915;color:#ec4899"><b>1</b> 个项目</span>
+        <span class="cs-pill" style="background:#f59e0b15;color:var(--amber)"><b>1</b> 个项目</span>
       </div>
     </div>
     <div class="d-grid">
-    <a class="d-card featured" href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank" data-cat="deal" data-name="星恒电源" data-tags="动力电池,新能源,16份报告">
-      <div class="d-card-top">
-        <div class="d-card-emoji">⭐</div>
-        <span class="d-card-status s-green">已立项</span>
-      </div>
-      <div class="d-card-name">星恒电源</div>
-      <div class="d-card-sub">动力电池 · 新能源 · 重点跟进</div>
-      <div class="d-card-desc">锂电两轮车龙头，锰酸锂技术积累深厚。16 份尽调报告，涵盖商业/法律/财务/估值等维度。</div>
-      <div class="d-card-tags"><span class="d-tag">动力电池</span><span class="d-tag">新能源</span><span class="d-tag">16份报告</span></div>
-      <div class="d-card-foot"><span>📅 2026-05</span><span class="d-card-arrow">时间线+报告总览 →</span></div>
-    </a>
+
+      <a class="d-card featured" href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank" data-cat="deal">
+        <div class="d-card-top">
+          <div class="d-card-emoji">⭐</div>
+          <span class="d-card-status s-amber" style="background:linear-gradient(135deg,#f59e0b,#d97706)">已立项</span>
+        </div>
+        <div class="d-card-name">星恒电源</div>
+        <div class="d-card-sub">锂电两轮车龙头 · 启源纳川</div>
+        <div class="d-card-desc">锂电两轮车龙头，启源纳川并购标的；16 份报告 + 双视图 dashboard；天保重点推进项目</div>
+        <div class="metric-row">
+          <div class="metric a"><b>18.64亿</b><div class="ml">并购金额</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>54d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>100%</b><span>立项准备</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-09 双视图 dashboard 部署；陈志江纳川股份关联分析完成</div>
+        <div class="d-card-tags"><span class="d-tag">动力电池</span><span class="d-tag">新能源</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-09</span><span class="d-card-arrow">时间线+报告 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank" data-cat="deal">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🔋</div>
+          <span class="d-card-status s-amber" style="background:linear-gradient(135deg,#f59e0b,#d97706)">并购进行中</span>
+        </div>
+        <div class="d-card-name">启源芯动力</div>
+        <div class="d-card-sub">电驱系统 · 新能源汽车</div>
+        <div class="d-card-desc">启源芯动力科技（电驱系统）；1.7G 本地源；3 阶段：入股→合资→并购；2025-09 入股 25,000 万 / 36%</div>
+        <div class="metric-row">
+          <div class="metric a"><b>25,000万</b><div class="ml">入股金额</div></div>
+          <div class="metric"><b>75%</b><div class="ml">并购进度</div></div>
+          <div class="metric"><b>298d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="75,100"/>
+          </svg>
+          <div class="donut-info"><b>75%</b><span>并购进度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-08 两份尽调报告财务数据差异对比完成</div>
+        <div class="d-card-tags"><span class="d-tag">电驱</span><span class="d-tag">新能源</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-08</span><span class="d-card-arrow">查看对比 →</span></div>
+      </a>
+
     </div>
   </section>
 
+  <!-- 知识图谱 -->
   <section class="cat-block" id="cat-kg">
     <div class="cat-head">
       <div class="cat-head-left">
-        <span class="cat-dot" style="background:#10b981"></span>
+        <span class="cat-dot" style="background:var(--emerald)"></span>
         <div>
           <div class="cat-title">知识图谱</div>
-          <div class="cat-sub">内部研究资产 · 2 项</div>
+          <div class="cat-sub">Wiki 系统 · 实体网络 · 2 项</div>
         </div>
       </div>
       <div class="cat-stats">
-        <span class="cs-pill" style="background:#10b98115;color:#10b981"><b>2</b> 个项目</span>
+        <span class="cs-pill" style="background:#10b98115;color:var(--emerald)"><b>2</b> 个系统</span>
       </div>
     </div>
     <div class="d-grid">
-    <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html" target="_blank" data-cat="kg" data-name="知识图谱·数据全景" data-tags="Wiki,1055实体,LLM">
-      <div class="d-card-top">
-        <div class="d-card-emoji">📊</div>
-        <span class="d-card-status s-green">已部署</span>
-      </div>
-      <div class="d-card-name">知识图谱·数据全景</div>
-      <div class="d-card-sub">LLM Wiki · 1055 实体页面</div>
-      <div class="d-card-desc">主公 Wiki 索引：1,055 个实体页面 + 框架索引 + 实体浏览</div>
-      <div class="d-card-tags"><span class="d-tag">Wiki</span><span class="d-tag">1055 实体</span><span class="d-tag">LLM</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
-    <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html" target="_blank" data-cat="kg" data-name="实体关系图谱" data-tags="关系网络,交互式">
-      <div class="d-card-top">
-        <div class="d-card-emoji">🔗</div>
-        <span class="d-card-status s-green">已部署</span>
-      </div>
-      <div class="d-card-name">实体关系图谱</div>
-      <div class="d-card-sub">交互式关系网络图</div>
-      <div class="d-card-desc">实体间关系可视化网络，支持节点拖拽、连线追踪、深度筛选</div>
-      <div class="d-card-tags"><span class="d-tag">关系网络</span><span class="d-tag">交互式</span></div>
-      <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-    </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html" target="_blank" data-cat="kg">
+        <div class="d-card-top">
+          <div class="d-card-emoji">📚</div>
+          <span class="d-card-status s-green">已部署</span>
+        </div>
+        <div class="d-card-name">知识图谱 · 数据全景</div>
+        <div class="d-card-sub">LLM Wiki · 1055 实体</div>
+        <div class="d-card-desc">主公主 Wiki 入口，1055 个实体页面（tianbao-projects 子文件）</div>
+        <div class="metric-row">
+          <div class="metric b"><b>1055</b><div class="ml">实体数</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">完成度</div></div>
+          <div class="metric"><b>9d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>数据全景</b><span>Wiki 入口</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07 Wiki 系统替代 kg-viz-3d / kg-viz 旧版</div>
+        <div class="d-card-tags"><span class="d-tag">LLM Wiki</span><span class="d-tag">实体页面</span></div>
+        <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">进入 Wiki →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html" target="_blank" data-cat="kg">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🔗</div>
+          <span class="d-card-status s-green">已部署</span>
+        </div>
+        <div class="d-card-name">实体关系图谱</div>
+        <div class="d-card-sub">交互式关系网络</div>
+        <div class="d-card-desc">实体关系图谱（529KB 交互网络）— 主公主用 Wiki 的关系视图</div>
+        <div class="metric-row">
+          <div class="metric b"><b>529KB</b><div class="ml">文件大小</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">完成度</div></div>
+          <div class="metric"><b>9d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>关系图谱</b><span>交互网络</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07 实体网络部署上线</div>
+        <div class="d-card-tags"><span class="d-tag">关系图</span><span class="d-tag">可视化</span></div>
+        <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看图谱 →</span></div>
+      </a>
+
     </div>
   </section>
 
-  <div class="empty-state" id="empty-state" style="display:none">
-    <div class="em">🔍</div>
-    <div style="font-size:16px;font-weight:600;color:#64748b">未找到匹配项目</div>
-    <div style="font-size:13px;margin-top:6px">试试其他关键词或清除筛选条件</div>
-  </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="wrap">
-    <div class="footer-bottom" style="border:none;text-align:center;padding:0">
-      <a href="index.html" style="color:rgba(255,255,255,.85);font-weight:600">← 返回仪表盘</a>
-      <span style="margin:0 16px;color:rgba(255,255,255,.3)">·</span>
-      <span>© 2026 TIANBAO PROJECTS · 项目详情中心</span>
+    <div class="footer-grid">
+      <div>
+        <h4>天保项目 · TIANBAO PROJECTS</h4>
+        <p>天保控股投资项目全生命周期管理平台<br>覆盖立项、尽调、决策、投后、退出五大阶段</p>
+      </div>
+      <div>
+        <h4>快速访问</h4>
+        <ul>
+          <li><a href="index.html">仪表盘</a></li>
+          <li><a href="detail.html">项目详情</a></li>
+          <li><a href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank">7项目汇总</a></li>
+          <li><a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank">星恒电源</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系与说明</h4>
+        <ul>
+          <li>📅 报告更新：2026-07-09</li>
+          <li>🏢 天保控股 · 投资部</li>
+          <li>🔒 仅供内部使用</li>
+        </ul>
+      </div>
     </div>
+    <div class="footer-bottom">© 2026 TIANBAO PROJECTS · v6.0 d-card 升级版 · Generated for Investment Committee Review</div>
   </div>
 </footer>
 
 <script>
-var curCat='all';
-function setCat(c){curCat=c;document.querySelectorAll(".pill").forEach(function(p){p.classList.remove("active")});event.target.classList.add("active");filterAll();}
-function filterAll(){var q=document.getElementById("srch").value.trim().toLowerCase();var visible=0;var total=0;document.querySelectorAll(".d-card").forEach(function(c){total++;var show=(curCat=='all'||c.getAttribute("data-cat")==curCat)&&(q==''||c.getAttribute("data-name").toLowerCase().indexOf(q)!==-1||c.getAttribute("data-tags").toLowerCase().indexOf(q)!==-1);c.style.display=show?"":"none";if(show)visible++;});var info=document.getElementById("flt-info");if(info){var catNames={all:'全部',np:'储备·非上市',p:'储备·上市',deal:'重大并购',kg:'知识图谱'};info.innerHTML='<span>当前可见 <b>'+visible+'</b> / '+total+' 项目</span><span>分类：'+(catNames[curCat]||curCat)+(q?' · 搜索：“'+q+'”':'')+'</span>';}var empty=document.getElementById("empty-state");if(empty){empty.style.display=visible===0?"block":"none";}}
-function updateClock(){var now=new Date(),h=String(now.getHours()).padStart(2,'0'),m=String(now.getMinutes()).padStart(2,'0'),s=String(now.getSeconds()).padStart(2,'0');document.getElementById('d-clock').textContent=h+':'+m+':'+s;}
-updateClock();setInterval(updateClock,1000);
+// === 时钟 ===
+function tickClock(){
+  const now=new Date();
+  const pad=n=>String(n).padStart(2,'0');
+  const h=pad(now.getHours()),m=pad(now.getMinutes()),s=pad(now.getSeconds());
+  document.getElementById('d-clock').textContent=`${h}:${m}:${s}`;
+  const days=['周日','周一','周二','周三','周四','周五','周六'];
+  document.getElementById('d-date').textContent=`${now.getFullYear()}年${now.getMonth()+1}月${now.getDate()}日 · ${days[now.getDay()]}`;
+}
+tickClock();setInterval(tickClock,1000);
+
+// === 暗色模式 ===
+const themeBtn=document.getElementById('themeToggle');
+const savedTheme=localStorage.getItem('tb-theme')||'light';
+if(savedTheme==='dark'){document.documentElement.setAttribute('data-theme','dark');themeBtn.textContent='☀️';}
+themeBtn.addEventListener('click',()=>{
+  const cur=document.documentElement.getAttribute('data-theme');
+  if(cur==='dark'){document.documentElement.removeAttribute('data-theme');localStorage.setItem('tb-theme','light');themeBtn.textContent='🌙';}
+  else{document.documentElement.setAttribute('data-theme','dark');localStorage.setItem('tb-theme','dark');themeBtn.textContent='☀️';}
+});
+
+// === 分类筛选 ===
+const pills=document.querySelectorAll('.fp');
+const cards=document.querySelectorAll('.d-card');
+const cntEls={all:0,np:0,p:0,deal:0,kg:0};
+cards.forEach(c=>{
+  const cat=c.dataset.cat;
+  if(cntEls[cat]!==undefined)cntEls[cat]++;
+  cntEls.all++;
+});
+Object.keys(cntEls).forEach(k=>{const el=document.getElementById('cnt-'+k);if(el)el.textContent=cntEls[k];});
+document.getElementById('flt-count').textContent='13';
+
+pills.forEach(p=>{
+  p.addEventListener('click',()=>{
+    pills.forEach(x=>x.classList.remove('active'));
+    p.classList.add('active');
+    const cat=p.dataset.cat;
+    const catLabel=p.textContent.trim().replace(/\s+\d+$/,'');
+    document.getElementById('flt-cat').textContent=catLabel;
+    let visible=0;
+    cards.forEach(c=>{
+      const match=(cat==='all')||c.dataset.cat===cat;
+      c.style.display=match?'':'none';
+      if(match)visible++;
+    });
+    document.getElementById('flt-count').textContent=visible;
+  });
+});
+
+// === 锚点滚动锚定 ===
+document.querySelectorAll('a[href^="#cat-"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    e.preventDefault();
+    const target=document.querySelector(a.getAttribute('href'));
+    if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+});
 </script>
+
 </body>
 </html>
