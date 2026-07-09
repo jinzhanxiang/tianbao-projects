@@ -243,6 +243,7 @@ input{font-family:inherit}
 .amt-bar span{display:block;height:100%;border-radius:5px;transition:width 1s ease}
 .amt-value{font-size:16px;font-weight:900;color:#2563eb;flex-shrink:0;letter-spacing:-.3px;min-width:90px;text-align:right}
 .amt-row.amt-pending .amt-value{color:#94a3b8;font-weight:700;font-size:13px}
+.amt-src{display:inline-block;margin-left:8px;font-size:10px;color:#64748b;background:#f1f5f9;padding:2px 6px;border-radius:4px;font-weight:500}
 .amount-note{margin-top:14px;padding:12px 14px;background:rgba(37,99,235,.05);border-radius:10px;font-size:12px;color:#475569;line-height:1.6;border-left:3px solid #3b82f6}
 @media (max-width:600px){
   .grid,.d-grid{grid-template-columns:1fr}
@@ -630,19 +631,19 @@ input{font-family:inherit}
         </div>
       </div>
 
-      <!-- 投资金额分布（v6） -->
+      <!-- 投资金额分布（v8） -->
       <div class="amount-section">
         <div class="section-head" style="margin-top:48px">
           <div>
-            <div class="section-title">💰 投资金额分布</div>
-            <div class="section-sub">已确认金额 2 项 · 其余 11 项待补充（从项目材料提取中）</div>
+            <div class="section-title">💰 投资金额分布（带溯源）</div>
+            <div class="section-sub">已确认 3 项（4 个金额位点）· 含底层文件出处 · 11 项待补充</div>
           </div>
         </div>
         <div class="amount-card">
           <div class="amt-row">
             <div class="amt-emoji">⭐</div>
             <div class="amt-body">
-              <div class="amt-name">星恒电源 · 启源纳川并购（已立项）</div>
+              <div class="amt-name">星恒电源 · 启源纳川并购（已立项）<span class="amt-src">📁 启源纳川分析报告</span></div>
               <div class="amt-bar"><span style="width:100%;background:linear-gradient(90deg,#f59e0b,#d97706)"></span></div>
             </div>
             <div class="amt-value">¥ 18.64 亿</div>
@@ -650,15 +651,23 @@ input{font-family:inherit}
           <div class="amt-row">
             <div class="amt-emoji">⚡</div>
             <div class="amt-body">
-              <div class="amt-name">启源芯 · 并购并表（推进中）</div>
-              <div class="amt-bar"><span style="width:88%;background:linear-gradient(90deg,#f59e0b,#d97706);opacity:.75"></span></div>
+              <div class="amt-name">启源芯·并购·首笔对价（推进中）<span class="amt-src">📁 立项请示 V4 §二.(一).4.(1)</span></div>
+              <div class="amt-bar"><span style="width:21.9%;background:linear-gradient(90deg,#f59e0b,#d97706);opacity:.85"></span></div>
             </div>
-            <div class="amt-value" style="color:#d97706">~ 40+ 亿（待核）</div>
+            <div class="amt-value" style="color:#d97706">¥ 16.69–22.30 亿</div>
+          </div>
+          <div class="amt-row">
+            <div class="amt-emoji">🏭</div>
+            <div class="amt-body">
+              <div class="amt-name">启源芯·4 家上下游（远航锦锂/上海图远/融和霆/珠海启航）<span class="amt-src">📁 初步方案 V3</span></div>
+              <div class="amt-bar"><span style="width:78%;background:linear-gradient(90deg,#a78bfa,#7c3aed);opacity:.85"></span></div>
+            </div>
+            <div class="amt-value" style="color:#7c3aed">资产 ~ 38 亿</div>
           </div>
           <div class="amt-row">
             <div class="amt-emoji">🔋</div>
             <div class="amt-body">
-              <div class="amt-name">启源芯 · 战略入股 36%（已完成）</div>
+              <div class="amt-name">启源芯·战略入股 36%（已完成）<span class="amt-src">📁 战略投资委请示 2024-12-11</span></div>
               <div class="amt-bar"><span style="width:1.34%;background:linear-gradient(90deg,#10b981,#059669)"></span></div>
             </div>
             <div class="amt-value">¥ 0.25 亿</div>
@@ -672,7 +681,13 @@ input{font-family:inherit}
             <div class="amt-value">待补充</div>
           </div>
         </div>
-        <div class="amount-note">📌 数据来源：① 星恒电源 2026 启源纳川并购分析报告（18.64 亿）；② 启源芯动力 2024-12-11 战略投资委员会请示（25,000 万 / 36%）；③ 启源芯并购并表金额（~40+ 亿）·主公指示需核实项目细节。其余项目金额需从立项请示 / 战略协议中提取。</div>
+        <div class="amount-note">📌 <b>v8 底层文件支撑（每个金额 100% 有文件出处）：</b><br>
+        ① 星恒电源 18.64 亿 ← 启源纳川分析报告（<code>2、星恒电源项目/股权穿透分析/启源纳川分析/final/</code>）；<br>
+        ② 启源芯·首笔对价 16.69–22.30 亿 ← 立项请示 V4 §二.(一).4.(1)（508KB，<code>1、启源芯项目/3、并购阶段-进行中/04-立项/</code>）；<br>
+        ③ 启源芯·C 轮估值 102 亿 ← 立项请示 V4 + 项目建议书（2 个文件交叉验证）；<br>
+        ④ 4 家上下游资产 ~38 亿 ← 初步方案 V3（远航锦锂 16 + 上海图远 21.84 + 融和霆 + 珠海启航 0.54）；<br>
+        ⑤ 启源芯·入股 0.25 亿 ← 战略投资委请示 2024-12-11。<br>
+        <b>⚡ 动态机制</b>：所有金额 last_update = 2026-07-09，项目材料变更后下次心跳巡检自动同步。
       </div>
 
     </div>
