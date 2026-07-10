@@ -328,9 +328,133 @@ input{font-family:inherit}
   .entry-v5-right{padding:0 24px 24px}
   .entry-v5-grid{max-width:100%}
 }
+
+/* === v8.0 科幻数字化大屏增强（结构不动，只加皮肤） === */
+
+/* 全屏粒子背景 */
+.particle-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.6}
+
+/* 网格覆盖 */
+body::before{content:"";position:fixed;inset:0;background-image:
+  linear-gradient(rgba(59,130,246,.04) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(59,130,246,.04) 1px,transparent 1px);
+  background-size:48px 48px;
+  pointer-events:none;z-index:1}
+
+/* 顶部扫描线 */
+body::after{content:"";position:fixed;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent 0%,#3b82f6 50%,transparent 100%);
+  box-shadow:0 0 24px 4px #3b82f6;
+  animation:scan-down 6s linear infinite;z-index:9999;pointer-events:none}
+@keyframes scan-down{0%{top:-2px}100%{top:100vh}}
+
+/* 数字辉光脉冲 */
+@keyframes num-pulse{
+  0%,100%{text-shadow:0 0 12px rgba(59,130,246,.35),0 0 24px rgba(59,130,246,.15)}
+  50%{text-shadow:0 0 20px rgba(59,130,246,.55),0 0 40px rgba(59,130,246,.30)}
+}
+.kpi-value{animation:num-pulse 3s ease-in-out infinite}
+
+/* KPI 卡扫描边框 */
+.kpi{position:relative;overflow:hidden}
+.kpi::after{content:"";position:absolute;left:0;right:0;top:0;height:2px;
+  background:linear-gradient(90deg,transparent 0%,#3b82f6 50%,transparent 100%);
+  background-size:200% 100%;
+  animation:kpi-scan 4s linear infinite}
+@keyframes kpi-scan{0%{background-position:-100% 0}100%{background-position:200% 0}}
+
+/* Hero 增加装饰角落 */
+.hero-inner-deco{position:absolute;top:24px;right:24px;display:flex;gap:6px;z-index:3}
+.hero-inner-deco span{width:8px;height:8px;border-radius:50%;background:#ef4444;box-shadow:0 0 8px #ef4444}
+.hero-inner-deco span:nth-child(2){background:#f59e0b;box-shadow:0 0 8px #f59e0b;animation:blink 1.5s infinite}
+.hero-inner-deco span:nth-child(3){background:#10b981;box-shadow:0 0 8px #10b981}
+
+/* Pipeline 进度条能量流 */
+.pipe-track::before{background:linear-gradient(90deg,
+  rgba(16,185,129,.6) 0%,rgba(16,185,129,.6) 50%,rgba(15,23,42,.08) 50%,rgba(15,23,42,.08) 100%);
+  position:relative}
+.pipe-track::after{content:"";position:absolute;top:18px;left:5%;width:30%;height:3px;
+  background:linear-gradient(90deg,transparent 0%,#fff 50%,transparent 100%);
+  background-size:200% 100%;
+  animation:energy-flow 2.5s linear infinite;z-index:1;border-radius:2px}
+@keyframes energy-flow{0%{transform:translateX(0);background-position:-100% 0}100%{transform:translateX(330%);background-position:200% 0}}
+
+/* 当前阶段呼吸光环 */
+.pipe-step.on .pipe-circle{position:relative}
+.pipe-step.on .pipe-circle::after{content:"";position:absolute;inset:-8px;border-radius:50%;
+  border:2px solid rgba(59,130,246,.5);
+  animation:ring-pulse 2s ease-out infinite}
+@keyframes ring-pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.5);opacity:0}}
+
+/* 入口大卡边框动画 */
+.entry-card{position:relative}
+.entry-card::after{content:"";position:absolute;inset:0;border-radius:var(--r-xl);
+  background:linear-gradient(135deg,transparent 0%,rgba(59,130,246,.4) 50%,transparent 100%);
+  background-size:300% 300%;
+  animation:border-shine 5s ease infinite;
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+  mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+  padding:2px;pointer-events:none}
+@keyframes border-shine{0%{background-position:0% 0%}50%{background-position:100% 100%}100%{background-position:0% 0%}}
+
+/* KPI 卡 hover 触发数字闪烁 */
+.kpi:hover .kpi-value{animation:num-pulse .8s ease-in-out infinite}
+
+/* 减少动效偏好 */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
 </style>
 </head>
 <body>
+
+<canvas class="particle-canvas" id="particles"></canvas>
+<script>
+// 轻量粒子背景
+(function(){
+  var c=document.getElementById('particles');
+  if(!c)return;
+  var ctx=c.getContext('2d');
+  var w,h,parts=[];
+  function resize(){w=c.width=c.offsetWidth;h=c.height=c.offsetHeight}
+  resize();window.addEventListener('resize',resize);
+  for(var i=0;i<48;i++){
+    parts.push({x:Math.random()*w,y:Math.random()*h,
+      vx:(Math.random()-.5)*.4,vy:(Math.random()-.5)*.4,
+      r:Math.random()*1.6+.4,a:Math.random()*.5+.2});
+  }
+  function draw(){
+    ctx.clearRect(0,0,w,h);
+    for(var i=0;i<parts.length;i++){
+      var p=parts[i];
+      p.x+=p.vx;p.y+=p.vy;
+      if(p.x<0||p.x>w)p.vx*=-1;
+      if(p.y<0||p.y>h)p.vy*=-1;
+      ctx.beginPath();
+      ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      ctx.fillStyle='rgba(59,130,246,'+p.a+')';
+      ctx.fill();
+    }
+    // 连线
+    for(var i=0;i<parts.length;i++){
+      for(var j=i+1;j<parts.length;j++){
+        var dx=parts[i].x-parts[j].x,dy=parts[i].y-parts[j].y;
+        var d=Math.sqrt(dx*dx+dy*dy);
+        if(d<140){
+          ctx.beginPath();
+          ctx.moveTo(parts[i].x,parts[i].y);
+          ctx.lineTo(parts[j].x,parts[j].y);
+          ctx.strokeStyle='rgba(59,130,246,'+(.15*(1-d/140))+')';
+          ctx.lineWidth=.6;ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+</script>
 
 <nav class="nav">
   <div class="nav-inner">
@@ -349,6 +473,7 @@ input{font-family:inherit}
 
 
 <section class="hero">
+  <div class="hero-inner-deco"><span></span><span></span><span></span></div>
   <div class="wrap">
     <div class="hero-grid">
       <div>
