@@ -683,6 +683,155 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
 ::-webkit-scrollbar-thumb{background:var(--border-hud-bright);border-radius:5px}
 ::-webkit-scrollbar-thumb:hover{background:var(--hud-cyan)}
 
+/* ============ v9.1 项目分布大屏升级 ============ */
+.viz-card{
+  background:linear-gradient(180deg,rgba(13,26,61,.85) 0%,rgba(10,20,48,.85) 100%)!important;
+  border:1px solid var(--border-hud-bright)!important;border-radius:14px;
+  padding:22px!important;position:relative;overflow:hidden;
+  box-shadow:0 12px 32px -8px rgba(0,240,255,.12),inset 0 1px 0 rgba(0,240,255,.1);
+  backdrop-filter:blur(8px);
+}
+.viz-card::before{
+  content:"";position:absolute;top:0;left:0;width:14px;height:14px;
+  border-top:2px solid var(--hud-cyan);border-left:2px solid var(--hud-cyan);
+}
+.viz-card::after{
+  content:"";position:absolute;bottom:0;right:0;width:14px;height:14px;
+  border-bottom:2px solid var(--hud-cyan);border-right:2px solid var(--hud-cyan);
+}
+.viz-label{
+  color:var(--hud-cyan)!important;font-family:'SF Mono',monospace!important;
+  letter-spacing:2px!important;font-size:12px!important;text-transform:uppercase;
+  padding-bottom:12px;border-bottom:1px dashed var(--border-hud-bright);
+  margin-bottom:16px;display:flex;justify-content:space-between;align-items:center;
+}
+.viz-label::before{content:"●";color:var(--hud-emerald);margin-right:8px;animation:blink-soft 2s infinite}
+.viz-label .badge{
+  background:rgba(0,240,255,.1);border:1px solid var(--hud-cyan);
+  color:var(--hud-cyan);font-size:10px;padding:2px 8px;border-radius:3px;
+}
+
+/* 多仪表盘布局 */
+.viz-row{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}
+
+/* 状态分布 大尺寸中心仪表 */
+.donut{filter:drop-shadow(0 0 12px rgba(0,240,255,.2));}
+.donut circle{transition:all .3s}
+.donut:hover circle[stroke]:not([stroke="#f1f5f9"]){stroke-width:22;filter:brightness(1.2)}
+.donut-legend li{
+  font-size:11px!important;color:rgba(224,231,255,.7)!important;
+  padding:4px 0;border-bottom:1px dashed rgba(59,130,246,.15);
+}
+.donut-legend li:last-child{border-bottom:none}
+.donut-legend b{color:#fff!important;font-family:'SF Mono',monospace;font-size:13px}
+.donut-legend .lg-dot{box-shadow:0 0 6px currentColor}
+
+/* 行业分布 进度条大屏风 */
+.hbar li{
+  padding:10px 0!important;border-bottom:1px dashed rgba(59,130,246,.2)!important;
+}
+.hb-name{color:rgba(224,231,255,.85)!important;font-family:'SF Mono',monospace;font-size:12px}
+.hb-track{background:rgba(0,240,255,.08)!important;border:1px solid rgba(59,130,246,.2);position:relative;overflow:hidden}
+.hb-track span{
+  animation:hbarGrow 1.2s cubic-bezier(.4,0,.2,1)!important;
+  position:relative;overflow:hidden;
+}
+.hb-track span::after{
+  content:"";position:absolute;top:0;left:0;right:0;bottom:0;
+  background:linear-gradient(90deg,transparent 30%,rgba(255,255,255,.4) 50%,transparent 70%);
+  animation:hbarShine 3s linear infinite;
+}
+@keyframes hbarShine{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.hb-num{color:#fff!important;font-family:'SF Mono',monospace;font-weight:700!important;font-size:14px;text-shadow:0 0 8px var(--hud-cyan)}
+
+/* 月度动态 终端日志流 */
+.timeline-section{
+  background:linear-gradient(180deg,rgba(5,10,26,.6) 0%,rgba(10,20,48,.6) 100%);
+  border:1px solid var(--border-hud-bright);border-radius:14px;padding:30px;
+  position:relative;overflow:hidden;
+}
+.timeline-section::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--hud-cyan),var(--hud-purple),transparent);
+}
+.timeline{
+  list-style:none;padding:0;margin:0;
+  font-family:'SF Mono','JetBrains Mono',monospace;
+}
+.tl-item{
+  display:grid;grid-template-columns:90px 32px 1fr;gap:14px;align-items:start;
+  padding:14px 0;border-bottom:1px dashed rgba(59,130,246,.2);
+  position:relative;
+}
+.tl-item:last-child{border-bottom:none}
+.tl-date{
+  color:var(--hud-cyan);font-size:13px;font-weight:700;
+  padding-top:8px;text-align:right;text-shadow:0 0 8px var(--hud-cyan);
+  border-right:1px solid var(--border-hud-bright);padding-right:14px;
+}
+.tl-date::before{content:"[";margin-right:2px;color:rgba(0,240,255,.4)}
+.tl-date::after{content:"]";margin-left:2px;color:rgba(0,240,255,.4)}
+.tl-dot{
+  width:14px!important;height:14px!important;border-radius:50%!important;
+  margin-top:12px!important;position:relative;
+  box-shadow:0 0 12px currentColor;animation:pulse-scale 2.5s ease-in-out infinite;
+}
+.tl-dot::before{
+  content:"";position:absolute;inset:-8px;border:1px dashed currentColor;
+  border-radius:50%;opacity:.5;animation:ring-spin 8s linear infinite;
+}
+.tl-dot::after{
+  content:"";position:absolute;inset:-18px;border:1px solid currentColor;
+  border-radius:50%;opacity:.2;
+}
+@keyframes ring-spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+.tl-card{
+  background:rgba(13,26,61,.6)!important;border:1px solid rgba(59,130,246,.25)!important;
+  border-radius:10px;padding:12px 16px;position:relative;
+  transition:all .3s;
+}
+.tl-card:hover{
+  border-color:var(--hud-cyan)!important;
+  box-shadow:0 0 16px rgba(0,240,255,.2);
+  transform:translateX(4px);
+}
+.tl-card::before{
+  content:"";position:absolute;top:0;left:0;width:3px;height:100%;
+  background:linear-gradient(180deg,var(--hud-cyan),transparent);
+  border-radius:10px 0 0 10px;
+}
+.tl-title{
+  color:#fff!important;font-weight:700;font-size:14px;
+  display:flex;align-items:center;gap:8px;
+}
+.tl-title::before{
+  content:">";color:var(--hud-cyan);font-family:'SF Mono',monospace;
+  font-weight:400;
+}
+.tl-desc{
+  color:rgba(224,231,255,.7);font-size:12px;line-height:1.7;margin-top:6px;
+  padding-left:18px;border-left:1px solid var(--border-hud);
+  margin-left:6px;
+}
+
+/* 月度动态顶部状态条 */
+.tl-status-bar{
+  display:flex;gap:14px;padding-bottom:14px;margin-bottom:8px;
+  border-bottom:1px solid var(--border-hud-bright);
+  font-family:'SF Mono',monospace;font-size:11px;color:var(--text-hud-dim);
+}
+.tl-status-bar .pill{
+  background:rgba(0,240,255,.08);padding:4px 10px;border-radius:3px;
+  border:1px solid var(--border-hud);
+}
+.tl-status-bar .pill b{color:var(--hud-cyan);margin-left:6px}
+
+/* 响应式 */
+@media (max-width:980px){
+  .viz-row{grid-template-columns:1fr}
+  .tl-item{grid-template-columns:80px 24px 1fr;gap:10px}
+}
+
 </style>
 </head>
 <body>
@@ -860,8 +1009,15 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
         <div class="viz-head">
           <div>
             <div class="section-title">项目分布</div>
-            <div class="section-sub">状态 × 行业 双维度透视</div>
+            <div class="section-sub">状态 × 行业 · 双维度数据面板</div>
           </div>
+        </div>
+        <div class="tl-status-bar" style="margin-bottom:14px">
+          <span class="pill">DIM<b>2</b></span>
+          <span class="pill">STATUS<b>7 类</b></span>
+          <span class="pill">INDUSTRY<b>7 类</b></span>
+          <span class="pill">SOURCE<b>本地台账</b></span>
+          <span class="pill">SYNC<b>实时</b></span>
         </div>
         <div class="viz-row">
           <!-- 状态分布（圆环） -->
@@ -934,6 +1090,12 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
             <div class="section-sub">项目报告中心 · 近期推进</div>
           </div>
         </div>
+        <div class="tl-status-bar">
+          <span class="pill">STATUS<b>● 推进中</b></span>
+          <span class="pill">TOTAL<b>5 节点</b></span>
+          <span class="pill">RANGE<b>2026-05 → 2026-07</b></span>
+          <span class="pill">REFRESH<b>实时</b></span>
+        </div>
         <ol class="timeline">
           <li class="tl-item">
             <div class="tl-date">2026-07</div>
@@ -990,17 +1152,6 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
           <li><a href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank">7项目汇总 <b>↗</b></a></li>
         </ul>
       </div>
-      <div class="side-card">
-        <div class="side-title">快速访问</div>
-        <ul class="qa-list">
-          <li><a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank"><span class="qa-emoji">⭐</span>星恒电源</a></li>
-          <li><a href="https://jinzhanxiang.github.io/innoshine-report/dashboard.html" target="_blank"><span class="qa-emoji">💡</span>元旭半导体</a></li>
-          <li><a href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank"><span class="qa-emoji">🛰️</span>航天宏图</a></li>
-          <li><a href="https://jinzhanxiang.github.io/jngd-report/dashboard.html" target="_blank"><span class="qa-emoji">💎</span>晶能光电</a></li>
-          <li><a href="https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html" target="_blank"><span class="qa-emoji">📊</span>知识图谱·数据全景</a></li>
-          <li><a href="https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html" target="_blank"><span class="qa-emoji">🔗</span>实体关系图谱</a></li>
-        </ul>
-      </div>
     </aside>
   </div>
 </section>
@@ -1014,18 +1165,9 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
         <p>天保控股投资项目全生命周期管理平台<br/>覆盖立项、尽调、决策、投后、退出五大阶段</p>
       </div>
       <div>
-        <h4>快速访问</h4>
-        <ul>
-          <li><a href="index.html">仪表盘</a></li>
-          <li><a href="detail.html">项目详情</a></li>
-          <li><a href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank">7项目汇总</a></li>
-          <li><a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank">星恒电源</a></li>
-        </ul>
-      </div>
-      <div>
         <h4>联系与说明</h4>
         <ul>
-          <li>📅 报告更新：2026-07-08</li>
+          <li>📅 报告更新：2026-07-10</li>
           <li>🏢 天保控股 · 投资部</li>
           <li>🔒 仅供内部使用</li>
         </ul>
