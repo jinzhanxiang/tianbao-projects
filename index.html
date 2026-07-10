@@ -832,6 +832,193 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
   .tl-item{grid-template-columns:80px 24px 1fr;gap:10px}
 }
 
+/* ============ v9.2 项目分布动态化 ============ */
+
+/* 状态分布：动态驱动环 */
+.donut{transform-origin:60px 60px}
+@keyframes donut-rotate{0%{transform:rotate(-90deg)}100%{transform:rotate(270deg)}}
+.donut{animation:donut-rotate 30s linear infinite}
+
+/* 状态分布环：各环带呼吸脉冲 */
+@keyframes ring-pulse{0%,100%{opacity:.85;filter:brightness(1)}50%{opacity:1;filter:brightness(1.4)}}
+.donut circle:not([stroke="#f1f5f9"]){animation:ring-pulse 3s ease-in-out infinite}
+.donut circle:nth-of-type(2){animation-delay:0s}
+.donut circle:nth-of-type(3){animation-delay:.3s}
+.donut circle:nth-of-type(4){animation-delay:.6s}
+.donut circle:nth-of-type(5){animation-delay:.9s}
+.donut circle:nth-of-type(6){animation-delay:1.2s}
+.donut circle:nth-of-type(7){animation-delay:1.5s}
+.donut circle:nth-of-type(8){animation-delay:1.8s}
+
+/* 中央数字翻牌器 */
+.donut text[font-size="22"]{
+  font-family:'SF Mono',monospace;fill:#fff!important;
+  animation:num-counter 2s ease-out;
+}
+.donut text[font-size="8"]{fill:var(--hud-cyan)!important;font-family:'SF Mono',monospace;letter-spacing:4px}
+@keyframes num-counter{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:translateY(0)}}
+
+/* 状态分布扫描圈 */
+.donut-wrap{position:relative;display:inline-block}
+.donut-wrap::before{
+  content:"";position:absolute;inset:-20px;border:1px dashed rgba(0,240,255,.2);
+  border-radius:50%;animation:radar-spin 20s linear infinite;
+}
+.donut-wrap::after{
+  content:"";position:absolute;inset:-10px;border:1px solid rgba(0,240,255,.1);
+  border-radius:50%;animation:radar-spin 14s linear infinite reverse;
+}
+@keyframes radar-spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
+/* 图例：显示百分比 + 微型进度条 */
+.donut-legend li{position:relative;overflow:hidden}
+.donut-legend li::before{
+  content:"";position:absolute;top:0;left:0;height:100%;width:0;
+  background:rgba(0,240,255,.05);animation:legend-fill 2s ease forwards;
+  animation-delay:var(--delay,0s);
+}
+@keyframes legend-fill{0%{width:0}100%{width:100%}}
+
+/* 行业分布进度条：流水扫描 + 数字递增 */
+.hb-track{position:relative;overflow:hidden}
+.hb-track::before{
+  content:"";position:absolute;top:0;left:-30%;width:30%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.6),transparent);
+  animation:hb-scan 2.5s ease-in-out infinite;
+  z-index:2;
+}
+@keyframes hb-scan{0%{left:-30%}100%{left:130%}}
+
+/* 让进度条宽度动画从 0 增长 */
+.hb-track span{
+  width:0;animation:hb-grow 1.5s cubic-bezier(.22,1,.36,1) forwards;
+}
+@keyframes hb-grow{from{width:0}to{width:var(--w)}}
+.hb-track li:nth-child(1) span{animation-delay:.1s}
+.hb-track li:nth-child(2) span{animation-delay:.25s}
+.hb-track li:nth-child(3) span{animation-delay:.4s}
+.hb-track li:nth-child(4) span{animation-delay:.55s}
+.hb-track li:nth-child(5) span{animation-delay:.7s}
+.hb-track li:nth-child(6) span{animation-delay:.85s}
+.hb-track li:nth-child(7) span{animation-delay:1s}
+
+/* 数字递增：使用 ::after 显示百分比 */
+.hb-num{position:relative;display:inline-block;min-width:36px}
+.hb-num::after{content:"";display:inline-block}
+
+/* 项目分布卡 数据流动背景 */
+.viz-card{overflow:hidden}
+.viz-card>svg.donut~*::before{content:"";position:absolute}
+
+/* 状态分布卡：背景旋转光环 */
+.viz-card:first-of-type::before{
+  content:"";position:absolute;top:-50%;right:-50%;width:200%;height:200%;
+  background:conic-gradient(from 0deg,transparent 0deg,rgba(0,240,255,.08) 30deg,transparent 60deg);
+  animation:bg-rotate 8s linear infinite;
+}
+@keyframes bg-rotate{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
+/* 行业分布卡：底部数据波形线 */
+.viz-card:nth-of-type(2){position:relative}
+.viz-card:nth-of-type(2)::after{
+  content:"";position:absolute;bottom:0;left:0;right:0;height:60px;
+  background:
+    repeating-linear-gradient(90deg,transparent 0,transparent 6px,rgba(0,240,255,.06) 6px,rgba(0,240,255,.06) 7px);
+  opacity:.4;pointer-events:none;
+}
+
+/* 进度条激活态辉光 */
+.hb-track span.active{
+  box-shadow:0 0 14px currentColor;
+}
+
+/* 状态分布 7 类颜色变量 */
+.donut-legend li:nth-child(1) .lg-dot{color:#f59e0b}
+.donut-legend li:nth-child(2) .lg-dot{color:#10b981}
+.donut-legend li:nth-child(3) .lg-dot{color:#7c3aed}
+.donut-legend li:nth-child(4) .lg-dot{color:#3b82f6}
+.donut-legend li:nth-child(5) .lg-dot{color:#06b6d4}
+.donut-legend li:nth-child(6) .lg-dot{color:#ec4899}
+.donut-legend li:nth-child(7) .lg-dot{color:#94a3b8}
+
+/* 让可视化卡 hover 时显示详细数据条 */
+.viz-card:hover{transform:translateY(-2px)}
+
+/* ============ v9.2 月度动态 文本框内滚动 ============ */
+.tl-scroll-box{
+  background:linear-gradient(180deg,rgba(5,10,26,.95) 0%,rgba(10,20,48,.95) 100%);
+  border:1px solid var(--border-hud-bright);
+  border-radius:12px;
+  height:360px;overflow:hidden;
+  position:relative;font-family:'SF Mono','JetBrains Mono',monospace;
+  box-shadow:inset 0 0 24px rgba(0,240,255,.08);
+}
+.tl-scroll-box::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:30px;
+  background:linear-gradient(180deg,rgba(5,10,26,1) 0%,transparent 100%);
+  z-index:5;pointer-events:none;
+}
+.tl-scroll-box::after{
+  content:"";position:absolute;bottom:0;left:0;right:0;height:30px;
+  background:linear-gradient(0deg,rgba(5,10,26,1) 0%,transparent 100%);
+  z-index:5;pointer-events:none;
+}
+/* 终端顶部点 */
+.tl-scroll-header{
+  display:flex;gap:8px;padding:10px 16px;
+  border-bottom:1px solid var(--border-hud-bright);
+  background:rgba(13,26,61,.8);
+  position:absolute;top:0;left:0;right:0;z-index:6;
+}
+.tl-scroll-header .dot{width:10px;height:10px;border-radius:50%}
+.tl-scroll-header .dot:nth-child(1){background:#ef4444;box-shadow:0 0 8px #ef4444}
+.tl-scroll-header .dot:nth-child(2){background:#f59e0b;box-shadow:0 0 8px #f59e0b}
+.tl-scroll-header .dot:nth-child(3){background:#10b981;box-shadow:0 0 8px #10b981}
+.tl-scroll-header .title{margin-left:14px;color:var(--hud-cyan);font-size:11px;letter-spacing:2px;text-transform:uppercase}
+.tl-scroll-header .live{position:absolute;right:16px;color:var(--hud-emerald);font-size:10px;letter-spacing:1px}
+.tl-scroll-header .live::before{content:"●";margin-right:6px;animation:blink-soft 1.5s infinite}
+
+.tl-scroll-content{
+  padding:50px 16px 16px 16px;
+  height:100%;overflow-y:auto;scroll-behavior:smooth;
+  -ms-overflow-style:none;scrollbar-width:thin;
+}
+.tl-scroll-content::-webkit-scrollbar{width:4px}
+.tl-scroll-content::-webkit-scrollbar-track{background:transparent}
+.tl-scroll-content::-webkit-scrollbar-thumb{background:var(--hud-blue);border-radius:2px}
+
+/* 月度动态每一行 */
+.tl-line{
+  display:grid;grid-template-columns:auto 90px 1fr;gap:10px;
+  padding:10px 12px;border-left:2px solid transparent;
+  margin-bottom:4px;border-radius:4px;
+  transition:all .3s;
+}
+.tl-line:hover{background:rgba(0,240,255,.06);border-left-color:var(--hud-cyan)}
+.tl-line .lvl{
+  display:inline-block;padding:2px 8px;border-radius:3px;
+  font-size:10px;font-weight:700;letter-spacing:1px;
+  background:rgba(0,240,255,.1);color:var(--hud-cyan);
+  border:1px solid var(--border-hud-bright);
+  height:fit-content;
+}
+.tl-line .lvl.evt{background:rgba(168,85,247,.15);color:#c084fc;border-color:rgba(168,85,247,.5)}
+.tl-line .lvl.ship{background:rgba(236,72,153,.15);color:#f472b6;border-color:rgba(236,72,153,.5)}
+.tl-line .lvl.deal{background:rgba(245,158,11,.15);color:#fbbf24;border-color:rgba(245,158,11,.5)}
+.tl-line .lvl.kg{background:rgba(16,185,129,.15);color:#34d399;border-color:rgba(16,185,129,.5)}
+.tl-line .ts{color:var(--hud-cyan);font-size:11px;padding-top:4px;font-variant-numeric:tabular-nums}
+.tl-line .ts::before{content:"["}.tl-line .ts::after{content:"]"}
+.tl-line .body{color:rgba(224,231,255,.85);font-size:12px;line-height:1.6}
+.tl-line .body b{color:#fff;font-weight:600}
+.tl-line .body .tag{margin-left:8px;color:var(--hud-cyan);font-size:10px}
+
+/* 输入提示闪标 */
+.tl-scroll-box::before{ /* 顶部渐变遮罩已设，额外加闪烁游标 */
+  --padding:inherit;
+}
+@keyframes cursor-blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.tl-cursor{display:inline-block;width:6px;height:12px;background:var(--hud-cyan);animation:cursor-blink 1s infinite;margin-left:2px;vertical-align:middle}
+
 </style>
 </head>
 <body>
@@ -1064,13 +1251,13 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
           <div class="viz-card">
             <div class="viz-label">行业分布 · 13 项目</div>
             <ul class="hbar">
-              <li><span class="hb-name">硬科技·新材料</span><span class="hb-track"><span style="width:100%;background:linear-gradient(90deg,#3b82f6,#60a5fa)"></span></span><span class="hb-num">5</span></li>
-              <li><span class="hb-name">医疗健康</span><span class="hb-track"><span style="width:40%;background:linear-gradient(90deg,#ec4899,#f472b6)"></span></span><span class="hb-num">2</span></li>
-              <li><span class="hb-name">数据·云</span><span class="hb-track"><span style="width:20%;background:linear-gradient(90deg,#7c3aed,#a78bfa)"></span></span><span class="hb-num">1</span></li>
-              <li><span class="hb-name">航天遥感</span><span class="hb-track"><span style="width:20%;background:linear-gradient(90deg,#06b6d4,#22d3ee)"></span></span><span class="hb-num">1</span></li>
-              <li><span class="hb-name">动力电池·新能源</span><span class="hb-track"><span style="width:20%;background:linear-gradient(90deg,#f59e0b,#fbbf24)"></span></span><span class="hb-num">1</span></li>
-              <li><span class="hb-name">收购研究·上市公司</span><span class="hb-track"><span style="width:20%;background:linear-gradient(90deg,#ef4444,#f87171)"></span></span><span class="hb-num">1</span></li>
-              <li><span class="hb-name">知识图谱·可视化</span><span class="hb-track"><span style="width:40%;background:linear-gradient(90deg,#10b981,#34d399)"></span></span><span class="hb-num">2</span></li>
+              <li><span class="hb-name">硬科技·新材料</span><span class="hb-track"><span style="--w:100%;background:linear-gradient(90deg,#3b82f6,#60a5fa)"></span></span><span class="hb-num" data-target="5">5</span></li>
+              <li><span class="hb-name">医疗健康</span><span class="hb-track"><span style="--w:40%;background:linear-gradient(90deg,#ec4899,#f472b6)"></span></span><span class="hb-num" data-target="2">2</span></li>
+              <li><span class="hb-name">数据·云</span><span class="hb-track"><span style="--w:20%;background:linear-gradient(90deg,#7c3aed,#a78bfa)"></span></span><span class="hb-num" data-target="1">1</span></li>
+              <li><span class="hb-name">航天遥感</span><span class="hb-track"><span style="--w:20%;background:linear-gradient(90deg,#06b6d4,#22d3ee)"></span></span><span class="hb-num" data-target="1">1</span></li>
+              <li><span class="hb-name">动力电池·新能源</span><span class="hb-track"><span style="--w:20%;background:linear-gradient(90deg,#f59e0b,#fbbf24)"></span></span><span class="hb-num" data-target="1">1</span></li>
+              <li><span class="hb-name">收购研究·上市公司</span><span class="hb-track"><span style="--w:20%;background:linear-gradient(90deg,#ef4444,#f87171)"></span></span><span class="hb-num" data-target="1">1</span></li>
+              <li><span class="hb-name">知识图谱·可视化</span><span class="hb-track"><span style="--w:40%;background:linear-gradient(90deg,#10b981,#34d399)"></span></span><span class="hb-num" data-target="2">2</span></li>
             </ul>
           </div>
         </div>
@@ -1096,63 +1283,48 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
           <span class="pill">RANGE<b>2026-05 → 2026-07</b></span>
           <span class="pill">REFRESH<b>实时</b></span>
         </div>
-        <ol class="timeline">
-          <li class="tl-item">
-            <div class="tl-date">2026-07</div>
-            <div class="tl-dot" style="background:#3b82f6"></div>
-            <div class="tl-card">
-              <div class="tl-title">储备项目集中分析</div>
-              <div class="tl-desc">完成 10 项储备项目初步分析：8 项非上市 + 2 项上市（航天宏图/收购研究）</div>
+        <div class="tl-scroll-box" id="tlScrollBox">
+          <div class="tl-scroll-header">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="title">events.log · tiān bǎo live feed</span>
+            <span class="live">LIVE</span>
+          </div>
+          <div class="tl-scroll-content" id="tlScrollContent">
+            <div class="tl-line">
+              <span class="lvl">INFO</span>
+              <span class="ts">2026-07-08</span>
+              <span class="body"><b>储备项目集中分析</b><span class="tag">EVENT</span> 完成 10 项储备项目初步分析：<b>8 项非上市 + 2 项上市</b>（航天宏图/收购研究）</span>
             </div>
-          </li>
-          <li class="tl-item">
-            <div class="tl-date">2026-07</div>
-            <div class="tl-dot" style="background:#7c3aed"></div>
-            <div class="tl-card">
-              <div class="tl-title">航天宏图风险化解方案出具</div>
-              <div class="tl-desc">针对应收账款减值、客户集中度高等问题出具化解方案，并完成初步尽调。</div>
+            <div class="tl-line">
+              <span class="lvl evt">WARN</span>
+              <span class="ts">2026-07-02</span>
+              <span class="body"><b>航天宏图风险化解方案出具</b><span class="tag">RISK</span> 针对<b>应收账款减值、客户集中度高</b>等问题出具化解方案，并完成初步尽调。</span>
             </div>
-          </li>
-          <li class="tl-item">
-            <div class="tl-date">2026-07</div>
-            <div class="tl-dot" style="background:#ec4899"></div>
-            <div class="tl-card">
-              <div class="tl-title">上市公司收购研究</div>
-              <div class="tl-desc">科华 / 绿田 / 爱朋 3 家上市公司 8 维度对比 + 收购优先级排序。</div>
+            <div class="tl-line">
+              <span class="lvl ship">DEAL</span>
+              <span class="ts">2026-07-15</span>
+              <span class="body"><b>上市公司收购研究</b><span class="tag">M&amp;A</span> 科华 / 绿田 / 爱朋 <b>3 家上市公司 8 维度</b>对比 + 收购优先级排序。</span>
             </div>
-          </li>
-          <li class="tl-item">
-            <div class="tl-date">2026-06</div>
-            <div class="tl-dot" style="background:#10b981"></div>
-            <div class="tl-card">
-              <div class="tl-title">知识图谱 3D + 环形 分层 部署</div>
-              <div class="tl-desc">实体关系图谱 3D 星云 + 环形分层 v3 已上线。</div>
+            <div class="tl-line">
+              <span class="lvl kg">SHIP</span>
+              <span class="ts">2026-06-18</span>
+              <span class="body"><b>知识图谱 3D + 环形 分层 部署</b><span class="tag">v3.0</span> 实体关系图谱 <b>3D 星云 + 环形分层 v3</b>已上线。</span>
             </div>
-          </li>
-          <li class="tl-item">
-            <div class="tl-date">2026-05</div>
-            <div class="tl-dot" style="background:#f59e0b"></div>
-            <div class="tl-card">
-              <div class="tl-title">重大并购项目立项</div>
-              <div class="tl-desc">星恒电源完成商业分析报告 + 3 份附件，进入立项阶段。</div>
+            <div class="tl-line">
+              <span class="lvl deal">MAJOR</span>
+              <span class="ts">2026-05-20</span>
+              <span class="body"><b>重大并购项目立项</b><span class="tag">★ DEAL</span> 星恒电源完成<b>商业分析报告 + 3 份附件</b>，进入立项阶段。</span>
             </div>
-          </li>
-        </ol>
+            <div class="tl-line">
+              <span class="lvl">INFO</span>
+              <span class="ts">2026-07-10 09:00</span>
+              <span class="body"><b>v9.2 仪表盘升级</b><span class="tag">UI</span> 月度动态改为终端日志流，项目分布动态化已完成部署。<span class="tl-cursor"></span></span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <aside class="sidebar">
-      <div class="side-card">
-        <div class="side-title">分类导航</div>
-        <ul class="cat-list">
-          <li><a href="detail.html#cat-np"><span class="cat-dot" style="background:#3b82f6"></span>储备·非上市 <b>8</b></a></li>
-          <li><a href="detail.html#cat-p"><span class="cat-dot" style="background:#7c3aed"></span>储备·上市 <b>2</b></a></li>
-          <li><a href="detail.html#cat-deal"><span class="cat-dot" style="background:#ec4899"></span>重大并购 <b>1</b></a></li>
-          <li><a href="detail.html#cat-kg"><span class="cat-dot" style="background:#10b981"></span>知识图谱 <b>2</b></a></li>
-          <li><a href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank">7项目汇总 <b>↗</b></a></li>
-        </ul>
-      </div>
-    </aside>
   </div>
 </section>
 
@@ -1181,6 +1353,47 @@ h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif
 <script>
 function updateClock(){var now=new Date(),h=String(now.getHours()).padStart(2,'0'),m=String(now.getMinutes()).padStart(2,'0'),s=String(now.getSeconds()).padStart(2,'0');document.getElementById('clock').textContent=h+':'+m+':'+s;}
 updateClock();setInterval(updateClock,1000);
+
+/* v9.2: 月度动态终端日志自动滚动 */
+(function(){
+  var box = document.getElementById('tlScrollContent');
+  var parent = document.getElementById('tlScrollBox');
+  if(!box||!parent) return;
+  var paused = false;
+  parent.addEventListener('mouseenter', function(){paused=true});
+  parent.addEventListener('mouseleave', function(){paused=false});
+  setInterval(function(){
+    if(paused) return;
+    box.scrollTop += 1;
+    if(box.scrollTop + box.clientHeight >= box.scrollHeight - 2){
+      box.scrollTop = 0;
+    }
+  }, 50);
+})();
+
+/* v9.2: 项目分布数字递增 */
+(function(){
+  document.querySelectorAll('.hb-num').forEach(function(el){
+    var target = parseInt(el.textContent,10)||0;
+    if(!target) return;
+    el.textContent='0';
+    var step = Math.max(1, Math.ceil(target/30));
+    var cur = 0;
+    var tick = setInterval(function(){
+      cur += step;
+      if(cur >= target){cur = target; clearInterval(tick);}
+      el.textContent = cur;
+    }, 40);
+  });
+})();
+
+/* v9.2: project distribution legend staggered fill colors */
+(function(){
+  var legend = document.querySelectorAll('.donut-legend li');
+  legend.forEach(function(li,i){
+    li.style.setProperty('--delay', (i*0.15)+'s');
+  });
+})();
 </script>
 </body>
 </html>
