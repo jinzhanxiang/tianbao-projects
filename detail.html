@@ -209,6 +209,11 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .d-card:hover{border-color:var(--border-strong);transform:translateY(-3px);box-shadow:var(--shadow-lg)}
 .d-card:hover::before{opacity:1}
 .d-card.featured{border-color:rgba(255,184,0,0.4);background:linear-gradient(135deg,rgba(255,184,0,0.08),var(--bg-2))}
+.d-card.no-link{cursor:not-allowed;opacity:.55;filter:grayscale(.4)}
+.d-card.no-link:hover{transform:none;box-shadow:var(--shadow)}
+.d-card.no-link .d-card-foot .d-card-arrow{color:var(--text-3);font-weight:600}
+.d-card.no-link .d-card-foot .d-card-arrow::before{content:"ⓘ ";font-weight:700}
+.d-card.no-link .d-card-arrow{font-size:11px}
 .d-card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}
 .d-card-emoji{font-size:28px;filter:drop-shadow(0 0 6px rgba(0,240,255,0.4))}
 .d-card-status{font-size:11px;padding:3px 8px;border-radius:10px;letter-spacing:1px}
@@ -390,7 +395,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="d-card-foot"><span>📅 2026-07-09</span><span class="d-card-arrow">时间线+报告 →</span></div>
       </a>
 
-      <a class="d-card" href="#" target="_blank" data-cat="np">
+      <div class="d-card no-link" data-cat="np">
         <div class="d-card-top">
           <div class="d-card-emoji">🏥</div>
           <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -413,9 +418,9 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="task-list"><b>📋 最近任务</b>2026-05-22 完成立项汇报 PPT（110MB）</div>
         <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">设备维保</span></div>
         <div class="d-card-foot"><span>📅 2026-05-22</span><span class="d-card-arrow">查看详情 →</span></div>
-      </a>
+      </div>
 
-      <a class="d-card" href="#" target="_blank" data-cat="np">
+      <div class="d-card no-link" data-cat="np">
         <div class="d-card-top">
           <div class="d-card-emoji">⚡</div>
           <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -438,7 +443,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="task-list"><b>📋 最近任务</b>2026-03 企业介绍材料已入库（86M）</div>
         <div class="d-card-tags"><span class="d-tag">碳纤维</span><span class="d-tag">央企</span></div>
         <div class="d-card-foot"><span>📅 2026-03</span><span class="d-card-arrow">查看详情 →</span></div>
-      </a>
+    </div>a>
 
       <a class="d-card" href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank" data-cat="np">
         <div class="d-card-top">
@@ -465,7 +470,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="d-card-foot"><span>📅 2026-07-06</span><span class="d-card-arrow">查看详情 →</span></div>
       </a>
 
-      <a class="d-card" href="#" target="_blank" data-cat="np">
+      <div class="d-card no-link" data-cat="np">
         <div class="d-card-top">
           <div class="d-card-emoji">💊</div>
           <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -488,9 +493,9 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="task-list"><b>📋 最近任务</b>2026-01-30 公司介绍 PPT 入库</div>
         <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">供应链</span></div>
         <div class="d-card-foot"><span>📅 2026-01-30</span><span class="d-card-arrow">查看详情 →</span></div>
-      </a>
+  </div></a>
 
-      <a class="d-card" href="#" target="_blank" data-cat="np">
+      <div class="d-card no-link" data-cat="np">
         <div class="d-card-top">
           <div class="d-card-emoji">🚀</div>
           <span class="d-card-status s-yellow">Pre-IPO</span>
@@ -513,7 +518,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="task-list"><b>📋 最近任务</b>2026-04-19 PDF 入库（17MB）</div>
         <div class="d-card-tags"><span class="d-tag">换电</span><span class="d-tag">科技</span></div>
         <div class="d-card-foot"><span>📅 2026-04-19</span><span class="d-card-arrow">查看详情 →</span></div>
-      </a>
+</div>  </a>
 
       <a class="d-card" href="https://jinzhanxiang.github.io/innoshine-report/dashboard.html" target="_blank" data-cat="np">
         <div class="d-card-top">
@@ -540,7 +545,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="d-card-foot"><span>📅 2026-07-04</span><span class="d-card-arrow">时间线+报告 →</span></div>
       </a>
 
-      <a class="d-card" href="#" target="_blank" data-cat="np">
+      <div class="d-card no-link" data-cat="np">
         <div class="d-card-top">
           <div class="d-card-emoji">☁️</div>
           <span class="d-card-status s-purple">REITs</span>
@@ -562,8 +567,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         </div>
         <div class="task-list"><b>📋 最近任务</b>2026-07-07 中信建投持有型不动产 ABS 合作方案入库</div>
         <div class="d-card-tags"><span class="d-tag">IDC</span><span class="d-tag">REITs</span></div>
-        <div class="d-card-foot"><span>📅 2026-07-07</span><span class="d-card-arrow">查看详情 →</span></div>
-      </a>
+        <div class="d-card-foot"><span>📅 2026-07-07</span><span class="d-card-arrow">查看详情 →</span></div</div>    </a>
 
       <a class="d-card" href="https://jinzhanxiang.github.io/huitian-network-report/dashboard.html" target="_blank" data-cat="np">
         <div class="d-card-top">
@@ -634,7 +638,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="d-card-foot"><span>📅 2026-05-12</span><span class="d-card-arrow">查看方案 →</span></div>
       </a>
 
-      <a class="d-card" href="#" target="_blank" data-cat="p">
+      <div class="d-card no-link" data-cat="p">
         <div class="d-card-top">
           <div class="d-card-emoji">📊</div>
           <span class="d-card-status s-blue">研究阶段</span>
@@ -656,8 +660,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         </div>
         <div class="task-list"><b>📋 最近任务</b>2026-07 完成 3 家上市公司 8 维度对比仪表盘</div>
         <div class="d-card-tags"><span class="d-tag">上市公司</span><span class="d-tag">收购研究</span></div>
-        <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
-      </a>
+        <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div></div>      </a>
 
     </div>
   </section>
@@ -793,7 +796,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <ul>
           <li><a href="index.html">仪表盘</a></li>
           <li><a href="detail.html">项目详情</a></li>
-          <li><a href="#" target="_blank">7项目汇总</a></li>
+          <li><a href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank">7项目汇总</a></li>
           <li><a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank">星恒电源</a></li>
         </ul>
       </div>
