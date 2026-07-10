@@ -405,6 +405,284 @@ body::after{content:"";position:fixed;left:0;right:0;height:2px;
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* === v9.0 深度科幻大屏改造（原版结构完全保留，仅重构视觉样式） === */
+
+:root{
+  /* 主色：深色全息风 */
+  --bg-deep:#050a1a;
+  --bg-mid:#0a1430;
+  --bg-card:#0d1a3d;
+  --bg-card-2:#13234d;
+  --border-hud:rgba(59,130,246,.25);
+  --border-hud-bright:rgba(59,130,246,.5);
+  --hud-cyan:#00f0ff;
+  --hud-blue:#3b82f6;
+  --hud-purple:#a855f7;
+  --hud-amber:#fbbf24;
+  --hud-emerald:#10b981;
+  --hud-red:#ef4444;
+  --hud-pink:#ec4899;
+  --text-hud:#e0e7ff;
+  --text-hud-dim:#94a3b8;
+}
+
+/* 页面深色全息底 */
+html,body{background:var(--bg-deep)!important;color:var(--text-hud)!important}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px;position:relative;z-index:2}
+
+/* 多层背景网格 */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(ellipse at top,rgba(59,130,246,.18) 0%,transparent 50%),
+    radial-gradient(ellipse at bottom,rgba(168,85,247,.12) 0%,transparent 50%),
+    linear-gradient(180deg,var(--bg-deep) 0%,var(--bg-mid) 100%);
+}
+body::after{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:1;
+  background-image:
+    linear-gradient(rgba(59,130,246,.06) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(59,130,246,.06) 1px,transparent 1px);
+  background-size:64px 64px;
+  mask-image:radial-gradient(ellipse at center,#000 30%,transparent 100%);
+}
+
+/* 顶部 HUD 边框装饰 */
+.wrap{position:relative;z-index:2}
+
+/* ============ Hero 全息深色 ============ */
+.hero{background:linear-gradient(135deg,#06113a 0%,#0d1f5c 50%,#1e3a8a 100%)!important;border-bottom:2px solid var(--border-hud-bright);position:relative;overflow:hidden}
+.hero::before{background:radial-gradient(circle,#3b82f6 0%,transparent 70%)!important;opacity:.5!important}
+.hero::after{background:radial-gradient(circle,#a855f7 0%,transparent 70%)!important;opacity:.45!important}
+/* Hero 加 4 角 L 屏装饰 */
+.hero .wrap::before,.hero .wrap::after,.hero-grid::before,.hero-grid::after{
+  content:"";position:absolute;width:40px;height:40px;border:2px solid var(--hud-cyan);
+  box-shadow:0 0 12px var(--hud-cyan);pointer-events:none;z-index:5;
+}
+.hero .wrap::before{top:60px;left:0;border-right:none;border-bottom:none}
+.hero .wrap::after{top:60px;right:0;border-left:none;border-bottom:none}
+.hero-grid::before{bottom:0;left:0;border-right:none;border-top:none}
+.hero-grid::after{bottom:0;right:0;border-left:none;border-top:none}
+
+/* Hero 标题加数据终端样式 */
+.hero h1{
+  background:linear-gradient(120deg,#fff 0%,#00f0ff 50%,#a855f7 100%)!important;
+  -webkit-background-clip:text!important;background-clip:text!important;color:transparent!important;
+  text-shadow:0 0 40px rgba(0,240,255,.3);letter-spacing:-1px;
+}
+.hero p.lead{color:rgba(224,231,255,.85)!important;font-family:'SF Mono','JetBrains Mono',monospace}
+
+/* hero-badge 改为终端框 */
+.hero-badge{
+  background:rgba(0,240,255,.08)!important;border:1px solid var(--hud-cyan)!important;
+  color:var(--hud-cyan)!important;font-family:'SF Mono','JetBrains Mono',monospace;
+  text-shadow:0 0 8px var(--hud-cyan);
+}
+.hero-badge .dot{background:var(--hud-emerald)!important;box-shadow:0 0 12px var(--hud-emerald)!important}
+
+/* hero-stats 翻牌器 */
+.hero-stat{
+  background:rgba(13,26,61,.6)!important;border:1px solid var(--border-hud)!important;
+  border-radius:12px!important;padding:14px 18px!important;position:relative;overflow:hidden;
+  backdrop-filter:blur(8px);
+}
+.hero-stat b{
+  font-family:'SF Mono','JetBrains Mono',monospace;font-variant-numeric:tabular-nums;
+  background:linear-gradient(180deg,#fff 0%,#00f0ff 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  text-shadow:0 0 20px rgba(0,240,255,.4);
+}
+.hero-stat::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--hud-cyan),transparent);animation:scan 3s linear infinite}
+@keyframes scan{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+
+/* 时钟玻璃卡 */
+.clock{
+  background:rgba(13,26,61,.55)!important;border:1px solid var(--border-hud-bright)!important;
+  backdrop-filter:blur(12px)!important;box-shadow:0 8px 32px rgba(0,240,255,.15)!important;
+}
+#clock{color:var(--hud-cyan)!important;text-shadow:0 0 20px rgba(0,240,255,.6)!important;font-family:'SF Mono',monospace!important}
+.clock-label{color:var(--hud-cyan)!important;letter-spacing:4px!important}
+.clock-date{color:var(--text-hud-dim)!important}
+
+/* ============ KPI 卡 FUI 仪表盘 ============ */
+.kpi-grid{gap:20px!important;margin-top:-40px!important}
+.kpi{
+  background:linear-gradient(180deg,rgba(13,26,61,.85) 0%,rgba(10,20,48,.85) 100%)!important;
+  border:1px solid var(--border-hud-bright)!important;border-radius:14px!important;
+  box-shadow:0 12px 32px -8px rgba(0,240,255,.15),inset 0 1px 0 rgba(0,240,255,.15)!important;
+  color:var(--text-hud)!important;padding:22px!important;backdrop-filter:blur(10px);
+  position:relative;overflow:hidden;
+}
+/* 四角装饰 */
+.kpi::before{
+  content:"";position:absolute;top:0;left:0;width:14px;height:14px;
+  border-top:2px solid var(--hud-cyan);border-left:2px solid var(--hud-cyan);pointer-events:none;
+}
+.kpi::after{
+  content:""!important;position:absolute;bottom:0;right:0;width:14px;height:14px;
+  border-bottom:2px solid var(--hud-cyan);border-right:2px solid var(--hud-cyan);pointer-events:none;
+  background:transparent!important;height:14px!important;
+}
+/* KPI 卡扫描线动画 */
+.kpi{animation:kpi-scan-anim 4s linear infinite;background-size:200% 100%!important}
+@keyframes kpi-scan-anim{0%{background-position:-100% 0}100%{background-position:200% 0}}
+
+/* KPI 数字 大翻牌器 */
+.kpi-value{
+  font-family:'SF Mono','JetBrains Mono',monospace!important;font-size:42px!important;
+  background:linear-gradient(180deg,#fff 0%,#00f0ff 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  text-shadow:0 0 24px rgba(0,240,255,.5);animation:none!important;
+}
+.kpi-label{color:var(--hud-cyan)!important;letter-spacing:2px;font-size:11px!important}
+.kpi-trend{color:var(--hud-emerald)!important;font-family:'SF Mono',monospace;font-size:12px}
+.kpi-trend.down{color:var(--hud-red)!important}
+.kpi-icon{
+  background:rgba(0,240,255,.12)!important;color:var(--hud-cyan)!important;
+  box-shadow:inset 0 0 12px rgba(0,240,255,.25);
+}
+
+/* KPI 卡 hover 高亮 */
+.kpi:hover{
+  border-color:var(--hud-cyan)!important;
+  box-shadow:0 16px 40px -8px rgba(0,240,255,.35),0 0 24px rgba(0,240,255,.2)!important;
+  transform:translateY(-3px);
+}
+
+/* ============ Pipeline 5 节点全息风 ============ */
+.pipe-card{
+  background:linear-gradient(180deg,rgba(13,26,61,.85) 0%,rgba(10,20,48,.85) 100%)!important;
+  border:1px solid var(--border-hud-bright)!important;border-radius:18px!important;
+  box-shadow:0 16px 40px -8px rgba(0,240,255,.12),inset 0 1px 0 rgba(0,240,255,.12)!important;
+  color:var(--text-hud)!important;position:relative;overflow:hidden;
+}
+.pipe-card::before{background:radial-gradient(circle,rgba(0,240,255,.08) 0%,transparent 70%)!important}
+.pipe-head h3{color:var(--hud-cyan)!important;font-family:'SF Mono',monospace;letter-spacing:1px}
+.pipe-head small{color:var(--text-hud-dim)!important}
+.pipe-circle{
+  background:var(--bg-card-2)!important;border:2px solid rgba(59,130,246,.3)!important;
+  color:var(--text-hud-dim)!important;font-family:'SF Mono',monospace!important;
+}
+.pipe-step.done .pipe-circle{
+  background:linear-gradient(135deg,#10b981,#059669)!important;
+  border-color:var(--hud-emerald)!important;color:#fff!important;
+  box-shadow:0 0 20px rgba(16,185,129,.5)!important;
+}
+.pipe-step.on .pipe-circle{
+  background:linear-gradient(135deg,#3b82f6,#a855f7)!important;
+  border-color:var(--hud-cyan)!important;color:#fff!important;
+  box-shadow:0 0 28px rgba(0,240,255,.6)!important;
+  animation:pulse-scale 2s ease-in-out infinite;
+}
+@keyframes pulse-scale{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+.pipe-step span{color:var(--text-hud-dim)!important;font-size:12px}
+.pipe-step.on span{color:var(--hud-cyan)!important;text-shadow:0 0 8px var(--hud-cyan)}
+.pipe-track::before{
+  background:linear-gradient(90deg,
+    rgba(16,185,129,.6) 0%,rgba(16,185,129,.6) 50%,rgba(0,240,255,.15) 50%,rgba(0,240,255,.15) 100%)!important;
+}
+
+/* ============ Section / 项目分布区 ============ */
+.section{padding:60px 0;position:relative}
+.section-title{
+  color:var(--hud-cyan)!important;font-family:'SF Mono',monospace!important;
+  letter-spacing:2px;position:relative;padding-left:14px;
+}
+.section-title::before{
+  content:"";position:absolute;left:0;top:6px;bottom:6px;width:3px;
+  background:linear-gradient(180deg,var(--hud-cyan),var(--hud-purple));
+  box-shadow:0 0 8px var(--hud-cyan);
+}
+.section-title small{color:var(--text-hud-dim)!important}
+.section-sub{color:var(--text-hud-dim)!important;font-family:'SF Mono',monospace;font-size:12px}
+
+/* 状态/行业分布区域背景透明继承 */
+.timeline-section,.viz-section{margin-top:48px;position:relative}
+
+/* ============ Entry Card 仓储入口 HUD 风格 ============ */
+.entry-card{
+  background:linear-gradient(135deg,#06113a 0%,#0d1f5c 50%,#1e3a8a 100%)!important;
+  border:1px solid var(--border-hud-bright)!important;
+  box-shadow:0 24px 60px -20px rgba(0,240,255,.25)!important;
+  position:relative;overflow:hidden;
+}
+/* Entry Card 加雷达扫描线 */
+.entry-card::before{background:radial-gradient(circle,rgba(168,85,247,.4) 0%,transparent 70%)!important}
+/* 入口卡加 4 角装饰 */
+.entry-card{position:relative}
+.entry-card .wrap-inner,.entry-card>div:first-child{position:relative;z-index:2}
+
+/* entry-grid 标签 */
+.entry-v5-tag,.pill-tag{
+  background:rgba(0,240,255,.12)!important;border:1px solid var(--hud-cyan)!important;
+  color:var(--hud-cyan)!important;font-family:'SF Mono',monospace;
+  backdrop-filter:blur(8px);
+}
+.entry-v5-tag b,.pill-tag b{
+  color:#fff;font-size:18px;font-family:'SF Mono',monospace;
+  text-shadow:0 0 12px var(--hud-cyan);
+}
+
+/* ============ Footer 深色 ============ */
+.footer{
+  background:linear-gradient(180deg,#06113a 0%,#050a1a 100%)!important;
+  border-top:1px solid var(--border-hud-bright);
+}
+.footer h4{color:var(--hud-cyan)!important}
+.footer a,.footer p{color:rgba(224,231,255,.6)!important}
+
+/* ============ Sidebar 状态面板 ============ */
+.sidebar{
+  display:grid;gap:20px;align-content:start;
+}
+.side-card{
+  background:linear-gradient(180deg,rgba(13,26,61,.85) 0%,rgba(10,20,48,.85) 100%)!important;
+  border:1px solid var(--border-hud-bright)!important;border-radius:14px;
+  padding:20px!important;position:relative;overflow:hidden;
+  backdrop-filter:blur(8px);
+  box-shadow:0 12px 32px -8px rgba(0,240,255,.1),inset 0 1px 0 rgba(0,240,255,.1);
+}
+.side-card::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--hud-cyan),transparent);
+}
+.side-title{
+  color:var(--hud-cyan)!important;font-family:'SF Mono',monospace;
+  letter-spacing:2px;font-size:12px!important;text-transform:uppercase;
+  padding-bottom:10px;border-bottom:1px dashed var(--border-hud-bright);
+}
+
+/* 状态指示灯 */
+.status-light{
+  display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:8px;
+  background:var(--hud-emerald);box-shadow:0 0 8px var(--hud-emerald);
+  animation:blink-soft 2s ease-in-out infinite;
+}
+@keyframes blink-soft{0%,100%{opacity:1}50%{opacity:.5}}
+
+/* ============ Nav 顶部导航深色 ============ */
+.nav{
+  background:rgba(5,10,26,.85)!important;backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border-hud-bright);
+  box-shadow:0 4px 20px rgba(0,240,255,.08)!important;
+}
+.nav a{color:var(--text-hud-dim)!important;font-family:'SF Mono',monospace}
+.nav a:hover,.nav a.active{color:var(--hud-cyan)!important;text-shadow:0 0 8px var(--hud-cyan)}
+.nav-brand{color:#fff!important}
+
+/* 标题文字类 */
+h1,h2,h3,h4{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif}
+.kpi-value,.hero-stat b,#clock,.pipe-circle,.section-title,.hero h1,.entry-v5-tag b{
+  font-family:'SF Mono','JetBrains Mono','Courier New',monospace;
+}
+
+/* 全局滚动条 */
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--bg-deep)}
+::-webkit-scrollbar-thumb{background:var(--border-hud-bright);border-radius:5px}
+::-webkit-scrollbar-thumb:hover{background:var(--hud-cyan)}
+
 </style>
 </head>
 <body>
