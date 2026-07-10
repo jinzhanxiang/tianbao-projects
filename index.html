@@ -516,6 +516,45 @@ canvas#particle{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:0.
   pointer-events:none;
 }
 
+/* === 原版项目卡样式 .card（保留结构） + v7.0 全息覆写 === */
+.card{background:var(--panel);border-radius:14px;padding:0;box-shadow:var(--shadow);transition:all .3s cubic-bezier(0.34,1.56,0.64,1);text-decoration:none;color:inherit;display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--border);position:relative;backdrop-filter:blur(10px)}
+.card::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--cyan),var(--purple),var(--amber));transform:scaleX(0);transform-origin:left;transition:transform .35s;z-index:2}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--border-strong)}
+.card:hover::before{transform:scaleX(1)}
+.card-header{padding:16px 18px 10px;display:flex;align-items:flex-start;gap:11px;position:relative}
+.card-emoji{width:42px;height:42px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0;background:linear-gradient(135deg,rgba(0,240,255,0.12),var(--bg-2));box-shadow:inset 0 1px 2px rgba(0,240,255,0.15),0 0 10px rgba(0,240,255,0.1)}
+.card-title{flex:1;min-width:0;text-align:left}
+.card-title h3{font-size:17px;font-weight:700;color:var(--text);margin-bottom:3px;line-height:1.35;letter-spacing:.15px}
+.card-title .subtitle{font-size:12px;color:var(--text-3);font-weight:500;letter-spacing:.15px}
+.card-status{position:absolute;top:16px;right:16px;padding:3px 9px;border-radius:7px;font-size:11px;font-weight:700;white-space:nowrap;letter-spacing:.2px}
+.status-yellow{background:rgba(255,184,0,0.15);color:var(--amber);border:1px solid rgba(255,184,0,0.3)}
+.status-green{background:rgba(0,255,163,0.15);color:var(--green);border:1px solid rgba(0,255,163,0.3)}
+.status-blue{background:rgba(59,130,246,0.15);color:var(--blue);border:1px solid rgba(59,130,246,0.3)}
+.status-purple{background:rgba(177,78,255,0.15);color:var(--purple);border:1px solid rgba(177,78,255,0.3)}
+.status-red{background:rgba(255,56,96,0.15);color:var(--red);border:1px solid rgba(255,56,96,0.3)}
+.card-body{padding:0 18px 12px;flex:1;text-align:left}
+.card-desc{color:var(--text-2);font-size:13px;line-height:1.55;margin-bottom:10px;font-weight:400;letter-spacing:.05px}
+.card-tags{display:flex;flex-wrap:wrap;gap:5px}
+.card-tags .tag{background:rgba(0,240,255,0.08);color:var(--cyan);border:1px solid var(--border);padding:2px 8px;border-radius:8px;font-size:11px}
+.card-footer{padding:10px 18px;background:rgba(0,0,0,0.2);border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--text-3);font-weight:500}
+.card-arrow{display:flex;align-items:center;gap:4px;color:var(--cyan);font-weight:700;font-size:12px;transition:gap .25s}
+.card:hover .card-arrow{gap:8px}
+.card.featured{background:linear-gradient(135deg,rgba(255,184,0,0.12),rgba(177,78,255,0.08));color:var(--text);border:1px solid rgba(255,184,0,0.4);box-shadow:0 0 24px rgba(255,184,0,0.15)}
+.card.featured::before{background:linear-gradient(90deg,var(--amber),var(--red),var(--amber))}
+.card.featured .card-emoji{background:rgba(255,184,0,0.18);box-shadow:0 0 14px rgba(255,184,0,0.3);font-size:26px;width:48px;height:48px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.section-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.icon-reserve{background:rgba(0,240,255,0.12);color:var(--cyan);box-shadow:0 0 10px rgba(0,240,255,0.2)}
+.icon-deal{background:rgba(255,184,0,0.12);color:var(--amber);box-shadow:0 0 10px rgba(255,184,0,0.2)}
+.icon-tool{background:rgba(0,255,163,0.12);color:var(--green);box-shadow:0 0 10px rgba(0,255,163,0.2)}
+.section-header{display:flex;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid var(--border)}
+.section-title{font-size:18px;font-weight:700;color:var(--text);display:flex;align-items:center;gap:8px;flex:1}
+.section-title .section-count{font-size:12px;color:var(--cyan);background:rgba(0,240,255,0.1);border:1px solid var(--border);padding:2px 8px;border-radius:10px;margin-left:6px}
+.section-note{font-size:12px;color:var(--text-3);display:flex;align-items:center;gap:6px}
+.section-note .dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:pulse-glow 2s infinite}
+.section{background:var(--panel);border:1px solid var(--border);border-radius:var(--r-lg);backdrop-filter:blur(20px);overflow:hidden;margin-bottom:20px}
+.section .grid{padding:20px;border:none;border-radius:0}
+
 /* 响应式 === */
 @media (max-width:1200px){
   .hero-grid{grid-template-columns:1fr;gap:32px}
@@ -657,212 +696,91 @@ canvas#particle{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:0.
       </div>
     </section>
 
-    <!-- ============ PROJ GRID 项目矩阵 ============ -->
-    <section class="section">
+
+    <!-- ============ 项目储备库（原版 RESERVE 9 项）============ -->
+    <section class="section holo-panel">
       <div class="sec-head">
-        <div class="sec-title"><span class="num">03</span><span class="t">项目矩阵</span><small class="en">PROJECT MATRIX</small></div>
-        <div class="sec-meta"><span class="live">●</span> 11 个在管项目 · 5 大类资产 · 实时更新</div>
+        <div class="sec-title"><span class="num">03</span><span class="t">项目储备库</span><small class="en">RESERVE · 9 项</small></div>
+        <div class="sec-meta"><span class="live">●</span> 暂未立项 · Pre-IPO 池</div>
       </div>
-      <div class="proj-grid">
-        <a class="proj-card featured" href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">⚡</div>
-          <div class="pc-body">
-            <div class="pc-name">星恒电源</div>
-            <div class="pc-sub">动力电池 · 重大并购</div>
-            <div class="pc-metric"><span class="pm-lbl">出资</span><span class="pm-val">17.0 亿</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">100%</span></div>
-            <div class="pc-tags"><span class="t1">已立项</span><span class="t2">并购</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-07-09 · 党委扩大会通过</div>
+      <div class="grid">
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">💎</div><div class="card-title"><h3>晶能光电</h3><div class="subtitle">LED芯片 · 硅衬底技术</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">中国硅衬底LED芯片技术开拓者，综合评分⭐⭐⭐⭐⭐</div><div class="card-tags"><span class="tag">LED</span><span class="tag">硅衬底</span><span class="tag">科创板</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
-        <a class="proj-card" href="https://jinzhanxiang.github.io/huitian-network-report/dashboard.html" target="_blank">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">🌐</div>
-          <div class="pc-body">
-            <div class="pc-name">汇天网络</div>
-            <div class="pc-sub">控制并表 · Pre-IPO</div>
-            <div class="pc-metric"><span class="pm-lbl">估值</span><span class="pm-val">9.6 亿</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">85%</span></div>
-            <div class="pc-tags"><span class="t3">尽调中</span><span class="t2">并表</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-07-08 · V2 方案提交</div>
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/7projects-summary/projects/kedu.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">🏥</div><div class="card-title"><h3>柯渡医学</h3><div class="subtitle">医疗设备 · 第三方维保</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">医疗设备第三方维保双寡头之一</div><div class="card-tags"><span class="tag">医疗</span><span class="tag">设备维保</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
-        <a class="proj-card" href="https://jinzhanxiang.github.io/jngd-report/dashboard.html" target="_blank">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">💎</div>
-          <div class="pc-body">
-            <div class="pc-name">晶能光电</div>
-            <div class="pc-sub">LED 芯片 · 硅衬底</div>
-            <div class="pc-metric"><span class="pm-lbl">估值</span><span class="pm-val">待补充</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">100%</span></div>
-            <div class="pc-tags"><span class="t1">尽调完成</span><span class="t4">高端制造</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-07-04 · 尽调报告 v11</div>
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/7projects-summary/projects/zhongfu.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">⚡</div><div class="card-title"><h3>中复碳芯</h3><div class="subtitle">碳纤维 · 高端制造</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">碳纤维预浸料及复合材料制品领军企业</div><div class="card-tags"><span class="tag">碳纤维</span><span class="tag">新材料</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
-        <a class="proj-card" href="#">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">🛰</div>
-          <div class="pc-body">
-            <div class="pc-name">启源芯动力</div>
-            <div class="pc-sub">重卡换电 · 重大并购</div>
-            <div class="pc-metric"><span class="pm-lbl">对价</span><span class="pm-val">16.7 亿</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">70%</span></div>
-            <div class="pc-tags"><span class="t3">尽调中</span><span class="t5">新能源</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-07-07 · 立项请示 V4</div>
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/7projects-summary/projects/hongyuan.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">🖊️</div><div class="card-title"><h3>宏远创信</h3><div class="subtitle">化工新材料 · 控股权</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">化工新材料细分龙头，控股权转让机会</div><div class="card-tags"><span class="tag">化工</span><span class="tag">新材料</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
-        <a class="proj-card" href="#">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">🏭</div>
-          <div class="pc-body">
-            <div class="pc-name">宏远投资</div>
-            <div class="pc-sub">化工 · 控股并购</div>
-            <div class="pc-metric"><span class="pm-lbl">对价</span><span class="pm-val">8.2 亿</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">60%</span></div>
-            <div class="pc-tags"><span class="t3">尽调中</span><span class="t6">化工</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-07-05 · 法务尽调进行中</div>
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/7projects-summary/projects/xinhong.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">💉</div><div class="card-title"><h3>信鸿医疗</h3><div class="subtitle">体外诊断 · IVD</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">化学发光免疫诊断试剂研发与生产</div><div class="card-tags"><span class="tag">IVD</span><span class="tag">医疗</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
-        <a class="proj-card" href="#">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">☁️</div>
-          <div class="pc-body">
-            <div class="pc-name">联通云 IDC</div>
-            <div class="pc-sub">REITs · 持有型不动产</div>
-            <div class="pc-metric"><span class="pm-lbl">金额</span><span class="pm-val">待补充</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">85%</span></div>
-            <div class="pc-tags"><span class="t3">方案入库</span><span class="t7">REITs</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-07-07 · 中信建投方案</div>
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/7projects-summary/projects/xunchao.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">🚀</div><div class="card-title"><h3>迅巢科技</h3><div class="subtitle">智能制造 · 工业软件</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">工业软件及智能制造解决方案商</div><div class="card-tags"><span class="tag">工业软件</span><span class="tag">智能制造</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
-        <a class="proj-card" href="#">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">🌱</div>
-          <div class="pc-body">
-            <div class="pc-name">元旭半导体</div>
-            <div class="pc-sub">Micro-LED · 战略入股</div>
-            <div class="pc-metric"><span class="pm-lbl">金额</span><span class="pm-val">2.0 亿</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">45%</span></div>
-            <div class="pc-tags"><span class="t3">立项中</span><span class="t4">半导体</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-06-28 · 立项评估</div>
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/7projects-summary/projects/innoshine.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">💡</div><div class="card-title"><h3>元旭半导体</h3><div class="subtitle">Micro-LED · 显示芯片</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">新一代 Micro-LED 显示技术先驱</div><div class="card-tags"><span class="tag">Micro-LED</span><span class="tag">半导体</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
-        <a class="proj-card" href="#">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">🚢</div>
-          <div class="pc-body">
-            <div class="pc-name">航天宏图</div>
-            <div class="pc-sub">卫星 · 科创板</div>
-            <div class="pc-metric"><span class="pm-lbl">金额</span><span class="pm-val">5.5 亿</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">90%</span></div>
-            <div class="pc-tags"><span class="t1">决策中</span><span class="t4">航天</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-07-03 · 投决会筹备</div>
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/7projects-summary/projects/unicom-idc.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">☁️</div><div class="card-title"><h3>联通云 IDC</h3><div class="subtitle">持有型不动产 · REITs</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">通信运营商持有型不动产 REITs 资产</div><div class="card-tags"><span class="tag">REITs</span><span class="tag">IDC</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
-        <a class="proj-card" href="#">
-          <div class="pc-corner pc-tl"></div><div class="pc-corner pc-tr"></div>
-          <div class="pc-corner pc-bl"></div><div class="pc-corner pc-br"></div>
-          <div class="pc-emoji">🧪</div>
-          <div class="pc-body">
-            <div class="pc-name">科德教育</div>
-            <div class="pc-sub">职业教培 · 控股权</div>
-            <div class="pc-metric"><span class="pm-lbl">金额</span><span class="pm-val">3.8 亿</span></div>
-            <div class="pc-metric"><span class="pm-lbl">进度</span><span class="pm-val">55%</span></div>
-            <div class="pc-tags"><span class="t3">尽调中</span><span class="t6">教培</span></div>
-          </div>
-          <div class="pc-foot">📅 2026-06-30 · 财务尽调</div>
+        <a class="card v7" data-cat="reserve" href="https://jinzhanxiang.github.io/huitian-network-report/dashboard.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">🌐</div><div class="card-title"><h3>汇天网络科技</h3><div class="subtitle">网络运营 · Pre-IPO</div></div><span class="card-status status-yellow">Pre-IPO</span></div>
+          <div class="card-body"><div class="card-desc">网络运营服务，控制并表方案 v2</div><div class="card-tags"><span class="tag">网络</span><span class="tag">并表</span></div></div>
+          <div class="card-footer"><span>📅 2026-07</span><span class="card-arrow">查看报告 →</span></div>
         </a>
       </div>
     </section>
 
-    <!-- ============ MAIN LAYOUT: 实时流 + 雷达图 ============ -->
-    <section class="main-layout">
-      <div class="stream-panel holo-panel">
-        <div class="sec-head">
-          <div class="sec-title"><span class="num">04</span><span class="t">项目动态</span><small class="en">LIVE ACTIVITY</small></div>
-          <div class="sec-meta"><span class="live">●</span> 实时同步</div>
-        </div>
-        <div class="pulse-stream">
-          <div class="stream-list">
-            <div class="stream-item s-cyan">
-              <div class="stream-dot"></div>
-              <div class="stream-time">14:32</div>
-              <div class="stream-body"><b>星恒电源</b> · 党委扩大会通过 · 17.0 亿出资</div>
-            </div>
-            <div class="stream-item s-purple">
-              <div class="stream-dot"></div>
-              <div class="stream-time">13:18</div>
-              <div class="stream-body"><b>汇天网络</b> · V2 控制并表方案提交 · 9.6 亿</div>
-            </div>
-            <div class="stream-item s-amber">
-              <div class="stream-dot"></div>
-              <div class="stream-time">11:55</div>
-              <div class="stream-body"><b>联通云 IDC</b> · 中信建投 ABS 方案入库</div>
-            </div>
-            <div class="stream-item s-green">
-              <div class="stream-dot"></div>
-              <div class="stream-time">10:40</div>
-              <div class="stream-body"><b>晶能光电</b> · 尽调报告 v11 部署 · Wiki 入库</div>
-            </div>
-            <div class="stream-item s-cyan">
-              <div class="stream-dot"></div>
-              <div class="stream-time">09:22</div>
-              <div class="stream-body"><b>启源芯动力</b> · 立项请示 V4 提交</div>
-            </div>
-            <div class="stream-item s-red">
-              <div class="stream-dot"></div>
-              <div class="stream-time">08:05</div>
-              <div class="stream-body"><b>宏远投资</b> · 法务尽调反馈风险 3 项</div>
-            </div>
-            <div class="stream-item s-purple">
-              <div class="stream-dot"></div>
-              <div class="stream-time">昨日</div>
-              <div class="stream-body"><b>元旭半导体</b> · 战略入股协议定稿</div>
-            </div>
-            <div class="stream-item s-amber">
-              <div class="stream-dot"></div>
-              <div class="stream-time">昨日</div>
-              <div class="stream-body"><b>航天宏图</b> · 投决会材料准备完成</div>
-            </div>
-          </div>
-        </div>
+    <!-- ============ 并购大项目（原版 DEAL 1 项）============ -->
+    <section class="section holo-panel">
+      <div class="sec-head">
+        <div class="sec-title"><span class="num">04</span><span class="t">并购大项目</span><small class="en">MAJOR DEAL · 1 项</small></div>
+        <div class="sec-meta"><span class="live">●</span> 已立项 · 重点跟进</div>
       </div>
-      <div class="radar-panel holo-panel">
-        <div class="sec-head">
-          <div class="sec-title"><span class="num">05</span><span class="t">资产雷达</span><small class="en">ASSET RADAR</small></div>
-          <div class="sec-meta">6 维度</div>
-        </div>
-        <div class="radar-wrap">
-          <svg class="radar" viewBox="0 0 200 200">
-            <polygon class="r-grid" points="100,20 170,60 170,140 100,180 30,140 30,60" fill="none" stroke="rgba(0,240,255,.15)" />
-            <polygon class="r-grid" points="100,40 150,70 150,130 100,160 50,130 50,70" fill="none" stroke="rgba(0,240,255,.10)" />
-            <polygon class="r-data" points="100,30 160,65 155,135 100,170 40,135 45,70" fill="rgba(0,240,255,.18)" stroke="#00F0FF" stroke-width="1.5" />
-          </svg>
-          <div class="radar-labels">
-            <span class="rl rl-t">规模</span>
-            <span class="rl rl-tr">回报</span>
-            <span class="rl rl-br">风险</span>
-            <span class="rl rl-b">流动性</span>
-            <span class="rl rl-bl">周期</span>
-            <span class="rl rl-tl">战略</span>
-          </div>
-        </div>
-        <div class="radar-foot">
-          <div class="rf-row"><span>综合得分</span><b>8.4</b><div class="energy-bar"><div class="energy-fill" style="width:84%"></div></div></div>
-          <div class="rf-row"><span>行业分散度</span><b>0.72</b><div class="energy-bar"><div class="energy-fill" style="width:72%"></div></div></div>
-        </div>
+      <div class="grid">
+        <a class="card v7 featured" data-cat="deal" href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank">
+          <div class="card-header"><div class="card-emoji">⭐</div><div class="card-title"><h3>星恒电源</h3><div class="subtitle">动力电池 · 新能源 · 重点跟进</div></div><span class="card-status status-green">已立项</span></div>
+          <div class="card-body"><div class="card-desc">锂电两轮车龙头，锰酸锂技术积累深厚。已完成商业分析报告及 3 份附件，进入立项阶段。</div><div class="card-tags"><span class="tag">动力电池</span><span class="tag">新能源</span><span class="tag">项目时间线</span><span class="tag">3份附件</span></div></div>
+          <div class="card-footer"><span>📅 2026-05-30</span><span class="card-arrow">查看项目时间线 →</span></div>
+        </a>
       </div>
     </section>
 
+    <!-- ============ 内部工具与文档（原版 INTERNAL 1 项）============ -->
+    <section class="section holo-panel">
+      <div class="sec-head">
+        <div class="sec-title"><span class="num">05</span><span class="t">内部工具与文档</span><small class="en">INTERNAL · 1 项</small></div>
+        <div class="sec-meta"><span class="live">●</span> 已部署</div>
+      </div>
+      <div class="grid">
+        <a class="card v7" data-cat="internal" href="https://jinzhanxiang.github.io/oa-requirements/" target="_blank">
+          <div class="card-header"><div class="card-emoji">📄</div><div class="card-title"><h3>OA 系统需求文档</h3><div class="subtitle">内部需求梳理</div></div><span class="card-status status-green">已部署</span></div>
+          <div class="card-body"><div class="card-desc">天保控股 OA 系统升级需求梳理</div><div class="card-tags"><span class="tag">内部</span><span class="tag">需求</span></div></div>
+          <div class="card-footer"><span>📅 2026-06-05</span><span class="card-arrow">查看 →</span></div>
+        </a>
+      </div>
+    </section>
     <!-- ============ FOOTER ============ -->
     <footer class="foot">
       <div class="foot-l">
