@@ -1,0 +1,242 @@
+/* ================================================================
+   charts.css — V11j 报告图表样式（5A 收尾）
+   配套 auto_chart.py，覆盖 6 种基础图 + 5B 扩展预留
+   部署：jinzhanxiang.github.io/tianbao-projects/assets/charts.css
+   ================================================================ */
+
+/* ---------- 通用 figure 容器 ---------- */
+.chart-figure {
+  margin: 1.5em 0;
+  padding: 16px 18px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  color: #2d3748;
+}
+.chart-figure .ch-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 4px;
+  border-left: 4px solid #d69e2e;
+  padding-left: 10px;
+}
+.chart-figure .ch-sub {
+  font-size: 12px;
+  color: #718096;
+  margin-bottom: 10px;
+}
+.chart-figure .ch-note {
+  font-size: 11px;
+  color: #718096;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* ---------- 1. 横向条形图 ---------- */
+.hbar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 0;
+}
+.hbar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hbar-label {
+  flex: 0 0 110px;
+  font-size: 13px;
+  color: #2d3748;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hbar-track {
+  flex: 1;
+  height: 24px;
+  background: #f7fafc;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+.hbar-fill {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+  border-radius: 3px;
+  transition: width .4s ease;
+  min-width: 24px;
+}
+.hbar-num {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+/* ---------- 2. 纵向柱状图 ---------- */
+.vbar-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 240px;
+  padding: 8px 12px 0;
+  border-bottom: 1px solid #cbd5e0;
+  gap: 8px;
+}
+.vbar-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+  min-width: 32px;
+}
+.vbar-num {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 2px;
+}
+.vbar-bar {
+  width: 100%;
+  max-width: 60px;
+  min-height: 4px;
+  border-radius: 3px 3px 0 0;
+  transition: height .4s ease;
+}
+.vbar-label {
+  font-size: 11px;
+  color: #4a5568;
+  margin-top: 6px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80px;
+}
+
+/* ---------- 3. 折线图 + 4. 面积图（共用 SVG）---------- */
+.line-svg {
+  width: 100%;
+  height: 280px;
+  display: block;
+}
+.line-svg text {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.line-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: #4a5568;
+}
+.lg-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* ---------- 5. 饼图 + 6. 环形图 ---------- */
+.pie-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.pie-svg, .donut-svg {
+  flex: 0 0 220px;
+  width: 220px;
+  height: 220px;
+  max-width: 100%;
+}
+.pie-legend {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: #2d3748;
+}
+.pie-legend span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pie-legend small {
+  color: #718096;
+  font-size: 11px;
+  margin-left: 4px;
+}
+.chart-donut {
+  text-align: center;
+}
+.chart-donut .donut-svg {
+  margin: 0 auto;
+}
+.chart-donut .donut-label {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #4a5568;
+}
+
+/* ---------- 5B 预留（radar/scatter/bubble/waterfall/funnel） ---------- */
+.radar-svg, .scatter-svg, .bubble-svg, .waterfall-svg, .funnel-svg {
+  width: 100%;
+  height: 280px;
+  display: block;
+}
+.funnel-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px 0;
+}
+.funnel-bar {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 3px;
+  transition: width .4s ease;
+}
+.waterfall-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.waterfall-table th, .waterfall-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: right;
+}
+.waterfall-table th:first-child, .waterfall-table td:first-child {
+  text-align: left;
+  color: #2d3748;
+}
+.waterfall-pos { color: #2f855a; font-weight: 700; }
+.waterfall-neg { color: #9b2c2c; font-weight: 700; }
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 640px) {
+  .hbar-label { flex: 0 0 80px; font-size: 12px; }
+  .pie-flex { flex-direction: column; }
+  .pie-svg, .donut-svg { flex: 0 0 auto; width: 180px; height: 180px; }
+  .vbar-container { height: 200px; }
+  .line-svg { height: 220px; }
+}
