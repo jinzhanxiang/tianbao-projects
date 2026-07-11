@@ -23,13 +23,19 @@
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 
 body{
-  font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif;
-  font-size:17px;
-  line-height:1.85;
-  color:var(--text);
-  background:var(--bg);
+  font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif !important;
+  font-size:17px !important;
+  line-height:1.85 !important;
+  color:var(--text) !important;
+  background:var(--bg) !important;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
+}
+
+/* 覆盖 dpl inject 时可能注入的内联 background/color */
+body[style]{
+  background:var(--bg) !important;
+  color:var(--text) !important;
 }
 
 /* ========== 顶部导航栏 ========== */
