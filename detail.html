@@ -164,105 +164,87 @@ document.querySelectorAll('a[href^="#cat-"]').forEach(a=>{
 <script>
 // ============ 项目数据（13 个）============
 const PROJECTS = [
-  // 储备·非上市
-  {id:'PRJ-001',emoji:'💎',name:'晶能光电',en:'JNGD · LED',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/jngd-report/dashboard.html',status:'Pre-IPO',statCls:'st-yellow',age:75,estInv:'待补充',dd:100,pending:'否',
-   desc:'中国硅衬底 LED 芯片技术开拓者，综合评分 ⭐⭐⭐⭐⭐；JNGD 财务尽调报告 + 法律尽调 + 并购 LX 半导体方案。当前阶段：在并购方案修订。',
+  {id:'PRJ-011',emoji:'⭐',name:'星恒电源',en:'星恒电源 · 锂电两轮车龙头',cat:'deal',dashboardUrl:'https://jinzhanxiang.github.io/xingheng-report/dashboard.html',status:'已立项',statCls:'st-amber',age:57,estInv:'详见方案',dd:50,pending:'否',desc:'动力电池·新能源 · 已立项 · 16份报告。重大并购项目，已部署 dashboard.html 双视图版',
    timeline:[
-     {date:'2026-03-15',text:'立项登记 · 信息建档',done:true},
-     {date:'2026-04-22',text:'财务尽调第一轮访谈',done:true},
-     {date:'2026-05-15',text:'竞品对标初稿',done:true},
-     {date:'2026-06-23',text:'法律尽调专项完成 V2',done:true},
-     {date:'2026-07-09',text:'并购 LX 半导体方案落定',done:true},
-     {date:'2026-07-15',text:'三会汇报 PPT',urgent:true,tag:'待办'},
-     {date:'2026-07-25',text:'立项决议上会',urgent:true,tag:'待办'}
+     {date:'2026-06-02',text:'中介选聘 · 商务部等5部门办公厅（室）关于做好2025年度电动自行车以旧换新工作的通知.pd',done:true},
+     {date:'2026-06-04',text:'中介选聘 · 附件1：投控集团合格法律服务供应商名录-2024年8月版.doc',done:true},
+     {date:'2026-06-05',text:'尽调启动 · 法律尽职调查报告初稿-星恒电源-20260607.docx',done:true},
+     {date:'2026-06-10',text:'管理层核查 · 星恒电源股权穿透与变动追踪分析报告_v1.md',done:true},
+     {date:'2026-06-11',text:'立项汇报 · 【会后微调】20260514总办会请示材料-关于星恒项目立项事宜的请示.docx',done:true},
+     {date:'2026-06-15',text:'尽调启动 · 法律尽职调查报告初稿-星恒电源-20260615.docx',done:true},
+     {date:'2026-06-16',text:'工作汇报 · 专题会汇报材料_星恒电源收购项目_20260608.md',done:true},
+     {date:'2026-06-21',text:'估值 · 附件H_估值分析专项_多方法交叉验证.md',done:true},
+     {date:'2026-06-25',text:'尽调启动 · 附件3-允公律所—法律尽职调查报告-星恒电源及下属公司-20260623.doc',done:true},
+     {date:'2026-07-01',text:'文档 · 附件1-储备项目信息汇总.docx',done:true},
+     {date:'2026-07-02',text:'工作汇报 · 专题会会议纪要-关于收购星恒电源股权项目.docx',done:true},
+     {date:'2026-07-11',text:'部署 · deploy.py',done:true}
    ]},
-  {id:'PRJ-002',emoji:'🏥',name:'柯渡医学',en:'KEDU · MED',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/kedu-report/dashboard.html',status:'Pre-IPO',statCls:'st-yellow',age:48,estInv:'¥3-5亿',dd:35,
-   desc:'医疗设备第三方维保双寡头之一，覆盖 CT/MR/超声全产品线；2026-05-22 立项汇报完成，待补充产业链横向对标。',
+  {id:'PRJ-007',emoji:'⭐',name:'元旭半导体',en:'元旭半导体 · Innoshine',cat:'deal',dashboardUrl:'https://jinzhanxiang.github.io/innoshine-report/dashboard.html',status:'已立项',statCls:'st-amber',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'硬科技·芯片 · 已立项 · 2份报告。尽调报告 + 谈判简报 = 2份报告；dashboard.html 已部署；子目录:尽调分析/尽调报告/谈判准备/部署脚',
    timeline:[
-     {date:'2026-05-22',text:'立项汇报 V1 完成',done:true},
-     {date:'2026-06-15',text:'首次管理层访谈',done:true},
-     {date:'2026-07-05',text:'横向对标启动',done:true},
-     {date:'2026-07-20',text:'横向对标分析报告',urgent:true,tag:'待办'},
-     {date:'2026-08-15',text:'财务尽调第一轮',urgent:true,tag:'待办'}
+     {date:'2026-07-09',text:'尽调报告 · 元旭半导体_纵横分析法尽调报告_v2.md',done:true},
+     {date:'2026-06-22',text:'访谈 · 元旭半导体拜访谈参_20260622.md',done:true},
+     {date:'2026-06-18',text:'文件归档 · 元旭半导体背景调查报告.md',done:true}
    ]},
-  {id:'PRJ-003',emoji:'🧪',name:'中复碳芯',en:'CCRT · CARBON',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/zhongfu-report/dashboard.html',status:'Pre-IPO',statCls:'st-yellow',age:55,estInv:'¥2-4亿',dd:25,
-   desc:'碳纤维及复合材料供应商，应用于风电叶片 / 航空航天。当前阶段：尽调启动。',
+  {id:'PRJ-001',emoji:'💎',name:'晶能光电',en:'晶能光电 · 江西有限公司',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/jngd-report/dashboard.html',status:'尽调完成',statCls:'st-green',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'硬科技·新材料 · 尽调完成 · 3份报告。3 份报告 + 2个过程 md；dashboard.html 已部署；Documents 旧文件夹待清理',
    timeline:[
-     {date:'2026-05-08',text:'产业研究 V1 完成',done:true},
-     {date:'2026-06-12',text:'管理层访谈',done:true},
-     {date:'2026-07-15',text:'财务尽调启动',urgent:true,tag:'待办'}
+     {date:'2026-07-09',text:'部署 · 部署日志.md',done:true},
+     {date:'2026-07-09',text:'报告出品 · 晶能光电_纵横分析法深度研究报告_主报告_v1.md',done:true},
+     {date:'2026-07-03',text:'文档 · 国信证券-关于并购LX半导体的初步方案V2.docx',done:true},
+     {date:'2026-06-29',text:'文档 · md_to_docx.py',done:true},
+     {date:'2026-06-26',text:'文件归档 · 微信图片_20260623114227_3_1195.png',done:true},
+     {date:'2026-06-23',text:'报告 · 附件一：晶能光电项目报告.pdf',done:true},
+     {date:'2026-06-23',text:'尽调报告 · JNGD晶能光电财务尽调报告终稿-【万融资本】- 23.05.30-sent.p',done:true},
+     {date:'2026-06-23',text:'尽调启动 · 关于晶能光电（江西）有限公司之初步法律尽职调查报告（拟定稿）-JY-0210.p',done:true}
    ]},
-  {id:'PRJ-004',emoji:'💊',name:'信鸿医疗',en:'XINHONG · MED',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/xinhong-report/dashboard.html',status:'Pre-IPO',statCls:'st-yellow',age:42,estInv:'¥1.5-3亿',dd:30,
-   desc:'医疗器械供应链服务商，下游医院渠道资源深厚。',
+  {id:'PRJ-002',emoji:'💎',name:'柯渡医学',en:'上海柯渡医学',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/kedu-report/',status:'初步分析',statCls:'st-blue',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'医疗健康 · 初步分析 · 1份报告。单报告项目，源在桌面根（110MB PPTX）',
    timeline:[
-     {date:'2026-05-29',text:'立项汇报 V1 完成',done:true},
-     {date:'2026-07-08',text:'首轮财务访谈',done:true},
-     {date:'2026-07-22',text:'横向对标',urgent:true,tag:'待办'}
+     
    ]},
-  {id:'PRJ-005',emoji:'🚀',name:'宏远创信',en:'HYCX · ENERGY',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/hongyuan-report/dashboard.html',status:'Pre-IPO',statCls:'st-yellow',age:40,estInv:'¥1.8-3.2亿',dd:40,
-   desc:'新材料+综合智慧能源，行业研究中心首发入库。',
+  {id:'PRJ-003',emoji:'💎',name:'中复碳芯',en:'中复神鹰碳纤维芯电缆项目',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/zhongfu-report/',status:'初步分析',statCls:'st-blue',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'硬科技·新材料 · 初步分析 · 1份报告。单报告项目，源在桌面（86M / 3文件：1 pptx + 2 img）',
    timeline:[
-     {date:'2026-06-12',text:'产业研究 V1',done:true},
-     {date:'2026-07-10',text:'管理层首次访谈',done:true},
-     {date:'2026-07-30',text:'横向对标',urgent:true,tag:'待办'}
+     {date:'2026-06-26',text:'汇报 · 中复碳芯企业介绍-202603.pptx',done:true},
+     {date:'2026-06-26',text:'文件归档 · efcfb20889089957ddce445a9408b6b0.png',done:true}
    ]},
-  {id:'PRJ-006',emoji:'💡',name:'迅巢科技',en:'XCHS · BATTERY',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/xunchao-report/dashboard.html',status:'Pre-IPO',statCls:'st-yellow',age:38,estInv:'¥2-3亿',dd:20,
-   desc:'换电科技服务商 XCHS Energon，两轮车换电运营。',
+  {id:'PRJ-004',emoji:'💎',name:'信鸿医疗',en:'天津信鸿医疗科技股份有限公司',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/xinhong-report/',status:'初步分析',statCls:'st-blue',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'医疗健康 · 初步分析 · 1份报告。单报告项目，源在桌面（40M / 3文件：1 xlsx + 2 docx）',
    timeline:[
-     {date:'2026-06-15',text:'产业研究 V1',done:true},
-     {date:'2026-07-05',text:'场景验证访谈',done:true},
-     {date:'2026-07-25',text:'财务模型搭建',urgent:true,tag:'待办'}
+     {date:'2026-06-29',text:'表格 · 信鸿医疗2025年12月合并财务报表.xlsx',done:true},
+     {date:'2026-06-29',text:'汇报 · 信鸿医疗介绍-20260130(1).pptx',done:true},
+     {date:'2026-06-29',text:'文档 · 信鸿医疗简介202510.docx',done:true}
    ]},
-  {id:'PRJ-007',emoji:'⚡',name:'元旭半导体',en:'YUANXU · LED',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/innoshine-report/dashboard.html',status:'尽调完成',statCls:'st-green',age:63,estInv:'¥15-22亿',dd:100,
-   desc:'第三代半导体（GaN/SiC）外延片供应商，专注 Micro-LED 微显示方向，应用于 AR 眼镜、车载 HUD 等场景。已有产线良率行业领先，2024 年获国家级基金首轮融资，本周完成首次 50 分钟高管访谈。',
+  {id:'PRJ-005',emoji:'💎',name:'宏远创信',en:'宏远创信 · 综合智慧能源',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/hongyuan-report/',status:'初步分析',statCls:'st-blue',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'硬科技·新材料 · 初步分析 · 1份报告。单报告项目，源在桌面（11M / 4文件：3 PDF + 1 docx）',
    timeline:[
-     {date:'2026-04-02',text:'立项登记 · 信息建档',done:true},
-     {date:'2026-05-15',text:'首版产业研究报告 V1.0',done:true},
-     {date:'2026-06-08',text:'首次高管访谈（50min）',done:true},
-     {date:'2026-07-02',text:'横向对标分析 V1',done:true},
-     {date:'2026-07-15',text:'产业链深度研究报告',urgent:true,tag:'待办'},
-     {date:'2026-08-01',text:'初步立项建议书',urgent:true,tag:'待办'}
+     {date:'2026-07-07',text:'访谈 · 宏远创信会谈纪要-7.6.docx',done:true},
+     {date:'2026-06-26',text:'报告 · 鼎立会【2026】A01-1-北京宏远创信能源科技有限公司-2025年审计报告.',done:true}
    ]},
-  {id:'PRJ-008',emoji:'☁️',name:'联通云 IDC',en:'CUIID · IDC',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/unicom-idc-report/dashboard.html',status:'REITs',statCls:'st-purple',age:90,estInv:'¥30-45亿',dd:85,
-   desc:'数据中心 REITs 项目，联通云参与。',
+  {id:'PRJ-006',emoji:'💎',name:'迅巢科技',en:'迅巢换电 · XCHS Energon',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/xunchao-report/',status:'初步分析',statCls:'st-blue',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'硬科技·新能源 · 初步分析 · 1份报告。单报告项目，源在桌面根（16MB PDF）',
    timeline:[
-     {date:'2026-04-15',text:'REITs 框架沟通',done:true},
-     {date:'2026-06-20',text:'REITs 方案 V1',done:true},
-     {date:'2026-07-25',text:'法律意见书',urgent:true,tag:'待办'}
+     
    ]},
-  // 储备·上市
-  {id:'PRJ-009',emoji:'🛰️',name:'航天宏图',en:'HTCO · SAT',cat:'p',status:'已部署',statCls:'st-blue',age:120,estInv:'已交付',dd:100,
-   desc:'航天宏图（HTCO IRE）航天遥感上市公司分析与交付。',
+  {id:'PRJ-008',emoji:'💎',name:'联通云 IDC',en:'联通云数据中心 IDC REIT 项目',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/unicom-idc-report/',status:'REITs',statCls:'st-purple',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'数据·云 · REITs · 1份报告。REITs 项目，源在桌面（5.9M / 7文件）',
    timeline:[
-     {date:'2026-03-01',text:'项目交付',done:true},
-     {date:'2026-05-15',text:'商业分析 V4',done:true}
+     {date:'2026-07-10',text:'访谈 · 2026-07-10 调研访谈对话记录.docx',done:true},
+     {date:'2026-07-10',text:'报告 · 中信建投-汇信数据中心持有型不动产资产支持专项计划合作方案-v3.pdf',done:true},
+     {date:'2026-07-08',text:'访谈 · 7.10会谈要点准备-汇天网络合作机会汇总报告.docx',done:true},
+     {date:'2026-07-07',text:'文档 · 2026.7.7-中信建投-汇信数据中心持有型不动产资产支持专项计划合作方案.d',done:true},
+     {date:'2026-07-01',text:'文件归档 · 微信图片_20260701082817_152_922.jpg',done:true},
+     {date:'2026-07-01',text:'报告 · ABS受理通知书 (1).pdf',done:true}
    ]},
-  {id:'PRJ-010',emoji:'💎',name:'收购上市公司研究',en:'ACQ · CMP',cat:'p',dashboardUrl:'https://jinzhanxiang.github.io/7projects-summary/dashboard.html',status:'研究阶段',statCls:'st-blue',age:60,estInv:'研究类',dd:60,
-   desc:'3 家上市公司 8 维度横向对比研究。',
+  {id:'PRJ-009',emoji:'🛰️',name:'航天宏图',en:'航天宏图 · HTCO IRE',cat:'p',dashboardUrl:'https://jinzhanxiang.github.io/htco-ire-delivery-plan/',status:'已部署',statCls:'st-green',age:0,estInv:'已交付',dd:50,pending:'否',desc:'航天遥感 · 已部署 · 1份报告。上市公司对口交付方案 v4（口令保护），源在桌面（2.4M / 1 PDF）',
    timeline:[
-     {date:'2026-05-30',text:'研究启动',done:true},
-     {date:'2026-06-30',text:'对比报告 V1',done:true}
+     {date:'2026-07-03',text:'报告 · 航天宏图风险化解方案-0512.pdf',done:true}
    ]},
-  // 重大并购
-  {id:'PRJ-011',emoji:'⭐',name:'星恒电源',en:'XINGHENG · BATTERY',cat:'deal',dashboardUrl:'https://jinzhanxiang.github.io/xingheng-report/dashboard.html',status:'已立项',statCls:'st-amber',age:200,estInv:'¥102亿',dd:100,
-   desc:'锂电两轮车龙头 · 启源纳川，已立项。16 份报告，含商业分析、技术尽调、法律尽调。',
+  {id:'PRJ-010',emoji:'🛰️',name:'收购上市公司研究',en:'收购上市公司标的研究',cat:'p',dashboardUrl:'https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html',status:'研究阶段',statCls:'st-blue',age:0,estInv:'详见方案',dd:50,pending:'否',desc:'收购研究·上市公司 · 研究阶段 · 1份报告。在 7projects-summary/projects/ 下，无独立仓库；源在桌面（504K / 3文件）',
    timeline:[
-     {date:'2026-01-10',text:'立项 · 战略协议',done:true},
-     {date:'2026-03-05',text:'商业分析 V1',done:true},
-     {date:'2026-05-15',text:'法律尽调专项 V2',done:true},
-     {date:'2026-07-09',text:'商业分析主报告 V8',done:true}
+     {date:'2026-07-01',text:'报告出品 · 拟收购上市公司标的筛选分析报告.md',done:true},
+     {date:'2026-06-29',text:'报告 · 科华控股要素表.pdf',done:true}
    ]},
-  // 知识图谱
-  {id:'PRJ-012',emoji:'📊',name:'知识图谱 · 数据全景',en:'KG · WIKI',cat:'kg',dashboardUrl:'https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html',status:'已部署',statCls:'st-green',age:365,estInv:'常驻',dd:100,
-   desc:'LLM Wiki · 1055 实体 / 48KB 摘要，已部署为 Wiki 系统。',
+  {id:'PRJ-012',emoji:'📊',name:'知识图谱·数据全景（主公 Wiki）',en:'LLM Wiki · 1055 实体页面',cat:'kg',dashboardUrl:'https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html',status:'已部署',statCls:'st-green',age:0,estInv:'已交付',dd:50,pending:'否',desc:'知识图谱·可视化 · 已部署 · 1份报告。主公主 Wiki 入口，1055 个实体页面（tianbao-projects 子文件）',
    timeline:[
-     {date:'2026-01-01',text:'Wiki 系统上线',done:true},
-     {date:'2026-07-09',text:'最新索引同步',done:true}
+     
    ]},
-  {id:'PRJ-013',emoji:'🔗',name:'实体关系图谱',en:'KG · GRAPH',cat:'kg',dashboardUrl:'https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html',status:'已部署',statCls:'st-green',age:300,estInv:'常驻',dd:100,
-   desc:'交互式关系网络图谱，529KB 交互式。',
+  {id:'PRJ-013',emoji:'📊',name:'实体关系图谱',en:'交互式关系网络图',cat:'kg',dashboardUrl:'https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html',status:'已部署',statCls:'st-green',age:0,estInv:'已交付',dd:50,pending:'否',desc:'知识图谱·可视化 · 已部署 · 1份报告。实体关系图谱（529KB 交互网络），是主公主用 Wiki 的关系视图',
    timeline:[
-     {date:'2026-06-25',text:'实体关系图谱上线',done:true}
+     
    ]}
 ];
 const REPORTS_CACHE = {
