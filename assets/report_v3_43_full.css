@@ -1,0 +1,624 @@
+/* ============================================================
+ * v3_43_full.css — 晶能光电 V3.43.1 深度模式完整版样式
+ * 
+ * 来源：jngd-report/report_v3_43_0_deep.html（2026-07-11 部署版）
+ * 提取：2026-07-12 09:54 助手 4B-1/6A
+ * 大小：36280 字节（未压缩）
+ * 
+ * 包含组件（24 项）：
+ *   1. .hero 深色渐变封面
+ *   2. :root CSS 变量系统（10+ 渐变）
+ *   3. body.theme-v3431.dark-mode 暗色主题（94 处）
+ *   4. .kpi-card + .kpi-value HUD 数字渐变
+ *   5. .timeline + .timeline-item 时间线
+ *   6. .data-card + .stat-card 数据卡
+ *   7. .callout 4 种（info/success/warning/danger）
+ *   8. .toc-sidebar 浮动目录
+ *   9. .key-conclusion 浮动关键结论
+ *   10. .chip 6 种 badge
+ *   11. #progress-bar 顶部金色滚动条
+ *   12. #back-to-top 右下浮动按钮
+ *   13. #dark-mode-toggle 月亮按钮
+ *   14. #fullscreen-toggle 全屏按钮
+ *   15. #section-indicator 章节进度
+ *   16. .link-animated 链接动画
+ *   17. .tech-code 深色代码块
+ *   18. .amount-highlight 金额高亮
+ *   19. 卡片 hover 微动效
+ *   20. @media print 打印样式
+ *   21. @media 1400/768 响应式
+ *   22. @media (prefers-color-scheme: dark) 系统感知
+ * 
+ * ⚠️ 注意：本 CSS 默认 body 浅色（:root --bg-primary:#fafaf9）。
+ *   启用 v3.43.1 深色 hero 模式：给 body 加 class="theme-v3431" + 加 link 引用本文件。
+ *   通过类名隔离，避免污染其他浅色报告（星恒/启源芯等）。
+ * ============================================================ */
+
+
+body.theme-v3431 * {margin:0;padding:0;box-sizing:border-box}
+body.theme-v3431 {font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:#1a202c;background:#fafaf9;line-height:1.9;font-size:19px;max-width:1200px;margin:0 auto;padding:24px}
+body.theme-v3431 h1 {font-size:30px;color:#1a365d;margin:28px 0 16px;border-bottom:3px solid #d69e2e;padding-bottom:12px;font-weight:700}
+body.theme-v3431 h2 {font-size:24px;color:#1a365d;margin:30px 0 14px;font-weight:700}
+body.theme-v3431 h3 {font-size:20px;color:#2d3748;margin:22px 0 10px;font-weight:600}
+body.theme-v3431 h4 {font-size:18px;color:#2d3748;margin:18px 0 8px;font-weight:600}
+body.theme-v3431 p {margin-bottom:14px;font-size:18px;letter-spacing:0.2px}
+body.theme-v3431 strong {color:#1a365d}
+body.theme-v3431 table {width:100%;border-collapse:collapse;margin:18px 0;font-size:16px;table-layout:fixed;word-break:keep-all}
+body.theme-v3431 th {background:linear-gradient(135deg,#1a365d,#2c5282);color:#fff;padding:11px 14px;text-align:left;font-size:15px;font-weight:600;word-break:keep-all;white-space:nowrap}
+body.theme-v3431 td {padding:10px 14px;border-bottom:1px solid #e2e8f0;font-size:15px;word-break:keep-all;vertical-align:middle}
+body.theme-v3431 table td:first-child, body.theme-v3431 table th:first-child {white-space:nowrap;font-weight:600;min-width:120px}
+body.theme-v3431 table td:nth-child(n) {overflow-wrap:break-word}
+body.theme-v3431 tr:hover td {background:#fef5e7}
+body.theme-v3431 table.card-table {background:#fafaf9;border-radius:10px;overflow:hidden}
+body.theme-v3431 blockquote {background:linear-gradient(135deg,#fffbeb,#fef3c7);border-left:4px solid #d69e2e;padding:14px 18px;margin:18px 0;border-radius:0 8px 8px 0;color:#744210;font-size:17px}
+body.theme-v3431 .nav {background:linear-gradient(135deg,#1a365d,#2c5282);padding:14px 20px;margin:-24px -24px 28px;border-radius:0 0 12px 12px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+body.theme-v3431 .nav a {color:rgba(255,255,255,0.85);text-decoration:none;font-size:14px;margin-right:14px;padding:4px 10px;border-radius:6px;transition:all 0.2s}
+body.theme-v3431 .nav a:hover {color:#fff;background:rgba(255,255,255,0.15);text-decoration:none}
+body.theme-v3431 ul, body.theme-v3431 ol {margin:14px 0 14px 28px}
+body.theme-v3431 li {margin-bottom:8px;font-size:18px}
+body.theme-v3431 code {background:#f7fafc;padding:3px 8px;border-radius:4px;font-size:15px;color:#c53030}
+body.theme-v3431 pre {background:#1a202c;color:#e2e8f0;padding:18px;border-radius:8px;margin:18px 0;overflow-x:auto}
+body.theme-v3431 pre code {background:none;color:inherit;font-size:15px}
+body.theme-v3431 a {color:#3182ce;text-decoration:none}
+body.theme-v3431 a:hover {color:#1a365d;text-decoration:underline}
+body.theme-v3431 hr {border:none;border-top:1px solid #e2e8f0;margin:32px 0}
+/* ===== V3.42.3 增强 1: 阅读进度条 ===== */
+body.theme-v3431 #progress-bar {position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#d69e2e,#1a365d);z-index:9999;transition:width 0.1s ease-out}
+
+/* ===== V3.42.3 增强 2: 浮动 TOC 侧边栏 ===== */
+body.theme-v3431 .toc-sidebar {position:fixed;left:0;top:120px;width:220px;max-height:70vh;overflow-y:auto;background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:14px;font-size:13px;z-index:100;box-shadow:0 4px 12px rgba(0,0,0,0.04);transform:translateX(calc(-100% - 30px));transition:transform 0.3s ease}
+body.theme-v3431 .toc-sidebar.open {transform:translateX(20px)}
+body.theme-v3431 .toc-sidebar-toggle {position:fixed;left:20px;top:160px;z-index:99;background:#1a365d;color:#fff;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600;box-shadow:0 2px 8px rgba(26,54,93,0.3)}
+body.theme-v3431 .toc-sidebar h4 {font-size:14px;color:#1a365d;margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #d69e2e;font-weight:700}
+body.theme-v3431 .toc-sidebar ul {list-style:none;margin:0;padding:0}
+body.theme-v3431 .toc-sidebar li {margin:4px 0;font-size:13px}
+body.theme-v3431 .toc-sidebar li.lv-2 {padding-left:0}
+body.theme-v3431 .toc-sidebar li.lv-3 {padding-left:12px}
+body.theme-v3431 .toc-sidebar a {color:#4a5568;text-decoration:none;display:block;padding:4px 6px;border-radius:4px;transition:all 0.15s}
+body.theme-v3431 .toc-sidebar a:hover {color:#1a365d;background:#fef5e7}
+body.theme-v3431 .toc-sidebar a.active {color:#1a365d;background:#fef5e7;font-weight:600;border-left:2px solid #d69e2e;padding-left:4px}
+
+/* ===== V3.42.3 增强 3: 浮动"关键结论"卡片 ===== */
+body.theme-v3431 .key-conclusion {position:fixed;right:0;top:120px;width:240px;max-height:70vh;overflow-y:auto;background:linear-gradient(135deg,#fffbeb,#fef3c7);border:2px solid #d69e2e;border-radius:10px;padding:14px;font-size:13px;z-index:100;box-shadow:0 4px 12px rgba(214,158,46,0.15);transform:translateX(calc(100% + 30px));transition:transform 0.3s ease}
+body.theme-v3431 .key-conclusion.open {transform:translateX(-20px)}
+body.theme-v3431 .key-conclusion-toggle {position:fixed;right:20px;top:160px;z-index:99;background:linear-gradient(135deg,#fef3c7,#fde68a);border:2px solid #d69e2e;color:#744210;padding:10px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600;box-shadow:0 2px 8px rgba(214,158,46,0.3)}
+body.theme-v3431 .key-conclusion h4 {font-size:14px;color:#744210;margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid #d69e2e;font-weight:700}
+body.theme-v3431 .key-conclusion ul {list-style:none;margin:0;padding:0}
+body.theme-v3431 .key-conclusion li {margin:6px 0;font-size:13px;color:#744210;padding:4px 0;border-bottom:1px dashed #d69e2e}
+body.theme-v3431 .key-conclusion li:last-child {border-bottom:none}
+
+/* ===== V3.42.3 增强 4: 回到顶部按钮 ===== */
+body.theme-v3431 #back-to-top {position:fixed;right:24px;bottom:24px;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#1a365d,#2c5282);color:#fff;border:none;font-size:22px;cursor:pointer;display:none;z-index:99;box-shadow:0 4px 12px rgba(26,54,93,0.3);transition:all 0.2s}
+body.theme-v3431 #back-to-top:hover {transform:translateY(-3px);box-shadow:0 6px 16px rgba(26,54,93,0.4)}
+body.theme-v3431 #back-to-top.visible {display:flex;align-items:center;justify-content:center}
+
+/* ===== V3.42.3 增强 5: H2 之间翻页导航 ===== */
+body.theme-v3431 .h-nav {display:flex;justify-content:space-between;margin:24px 0;padding:14px 0;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;font-size:14px}
+body.theme-v3431 .h-nav a {flex:1;padding:8px 14px;border-radius:6px;transition:all 0.2s;text-decoration:none}
+body.theme-v3431 .h-nav a.prev {color:#4a5568;text-align:left}
+body.theme-v3431 .h-nav a.next {color:#4a5568;text-align:right}
+body.theme-v3431 .h-nav a:hover {background:#fef5e7;color:#1a365d}
+body.theme-v3431 .h-nav a.disabled {color:#cbd5e0;pointer-events:none}
+body.theme-v3431 .h-nav .label {display:block;font-size:11px;color:#a0aec0;margin-bottom:2px;text-transform:uppercase;letter-spacing:0.5px}
+
+/* ===== V3.42.3 增强 6: 表格斑马纹 ===== */
+body.theme-v3431 tbody tr:nth-child(even) td {background:#fafaf9}
+body.theme-v3431 tbody tr:nth-child(even):hover td {background:#fef5e7}
+body.theme-v3431 table caption {caption-side:top;text-align:left;font-size:14px;color:#1a365d;font-weight:600;padding:8px 0;letter-spacing:0.3px}
+
+/* ===== V3.42.3 增强 7: 报告封面 hero ===== */
+body.theme-v3431 .hero {background:linear-gradient(135deg,#1a365d 0%,#2c5282 60%,#d69e2e 100%);color:#fff;padding:48px 36px;margin:-24px -24px 32px;border-radius:0 0 16px 16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);position:relative;overflow:hidden}
+body.theme-v3431 .hero::before {content:'';position:absolute;top:-50%;right:-10%;width:300px;height:300px;background:rgba(255,255,255,0.05);border-radius:50%}
+body.theme-v3431 .hero::after {content:'';position:absolute;bottom:-30%;left:-5%;width:200px;height:200px;background:rgba(255,255,255,0.03);border-radius:50%}
+body.theme-v3431 .hero-content {position:relative;z-index:1}
+body.theme-v3431 .hero h1 {border:none;color:#fff;margin:0 0 12px;font-size:36px;text-shadow:0 2px 8px rgba(0,0,0,0.15)}
+body.theme-v3431 .hero .meta {display:flex;gap:24px;flex-wrap:wrap;margin-top:16px;font-size:14px;color:rgba(255,255,255,0.85)}
+body.theme-v3431 .hero .meta-item {display:flex;align-items:center;gap:6px}
+body.theme-v3431 .hero .meta-label {opacity:0.7;font-size:12px;text-transform:uppercase;letter-spacing:0.5px}
+body.theme-v3431 .hero .meta-value {font-weight:600}
+
+/* ===== V3.42.3 增强 8: 字体 letter-spacing ===== */
+body.theme-v3431 h1, body.theme-v3431 h2, body.theme-v3431 h3, body.theme-v3431 h4 {letter-spacing:0.5px}
+
+/* ===== V3.42.3 增强 9: 深色模式 ===== */
+body.theme-v3431.dark-mode{background:#1a202c;color:#e2e8f0}
+body.theme-v3431.dark-mode .hero{box-shadow:0 4px 16px rgba(0,0,0,0.3)}
+body.theme-v3431.dark-mode .toc-sidebar, body.theme-v3431.dark-mode .key-conclusion{background:#2d3748;border-color:#4a5568;color:#e2e8f0}
+body.theme-v3431.dark-mode .toc-sidebar a{color:#cbd5e0}
+body.theme-v3431.dark-mode .toc-sidebar a.active, body.theme-v3431.dark-mode .toc-sidebar a:hover{background:#4a5568;color:#fff}
+body.theme-v3431.dark-mode table{background:#2d3748}
+body.theme-v3431.dark-mode th{background:linear-gradient(135deg,#2c5282,#1a365d)}
+body.theme-v3431.dark-mode td{border-bottom-color:#4a5568;color:#e2e8f0}
+body.theme-v3431.dark-mode tbody tr:nth-child(even) td{background:#2d3748}
+body.theme-v3431.dark-mode tr:hover td, body.theme-v3431.dark-mode tbody tr:nth-child(even):hover td{background:#4a5568}
+body.theme-v3431.dark-mode blockquote{background:linear-gradient(135deg,#2d3748,#1a202c);color:#d69e2e}
+body.theme-v3431.dark-mode code{background:#2d3748;color:#fc8181}
+body.theme-v3431.dark-mode .h-nav a{color:#cbd5e0}
+body.theme-v3431.dark-mode .h-nav a:hover{background:#4a5568;color:#fff}
+body.theme-v3431 #dark-mode-toggle {position:fixed;right:24px;bottom:84px;width:48px;height:48px;border-radius:50%;background:#fff;color:#1a365d;border:1px solid #d0d7de;font-size:20px;cursor:pointer;z-index:99;box-shadow:0 2px 8px rgba(0,0,0,0.08);transition:all 0.2s}
+body.theme-v3431 #dark-mode-toggle:hover {transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,0.12)}
+body.theme-v3431.dark-mode #dark-mode-toggle{background:#2d3748;color:#d69e2e;border-color:#4a5568}
+
+/* ===== V3.42.3 增强 10: 打印样式 ===== */
+@media print{
+  /* V3.42.5 P0 #3: @page 纸张规则 */
+  @page{size:A4 portrait;margin:18mm 14mm 20mm 14mm}
+  @page :first{margin-top:0}
+  
+  body.theme-v3431 {background:#fff;max-width:100%;padding:0;font-size:11pt;line-height:1.6;color:#000}
+  body.theme-v3431 .hero {background:#1a365d !important;color:#fff !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;padding:24px;break-after:page}
+  body.theme-v3431 .hero h1 {color:#fff !important;font-size:24pt}
+  body.theme-v3431 .hero p {color:#e2e8f0 !important}
+  
+  body.theme-v3431 .nav, body.theme-v3431 .toc-sidebar, body.theme-v3431 .key-conclusion, body.theme-v3431 #back-to-top, body.theme-v3431 #dark-mode-toggle, body.theme-v3431 #progress-bar {display:none !important}
+  body.theme-v3431 .h-nav {display:none}
+  
+  /* V3.42.5: 避免孤行/寡行 */
+  body.theme-v3431 h1 {break-before:page;break-after:avoid;font-size:18pt}
+  body.theme-v3431 h2 {break-before:auto;break-after:avoid;font-size:14pt;color:#1a365d}
+  body.theme-v3431 h3, body.theme-v3431 h4 {break-after:avoid;font-size:12pt}
+  body.theme-v3431 p {orphans:3;widows:3}
+  
+  /* V3.42.5: 表格/卡片不被切断 */
+  body.theme-v3431 table, body.theme-v3431 blockquote, body.theme-v3431 .callout, body.theme-v3431 .data-card, body.theme-v3431 .stat-card, body.theme-v3431 .timeline {break-inside:avoid;box-shadow:none !important;border:1px solid #e2e8f0}
+  body.theme-v3431 img {break-inside:avoid;max-width:100%}
+  body.theme-v3431 pre {break-inside:avoid;white-space:pre-wrap;background:#f7fafc !important;color:#000;border:1px solid #ccc;font-size:9pt}
+  body.theme-v3431 code {background:#f7fafc;color:#c7254e}
+  
+  /* V3.42.5: 链接展示 URL */
+  body.theme-v3431 a {color:#000;text-decoration:underline}
+  body.theme-v3431 a[href^="http"]:after {content:" (" attr(href) ")";font-size:9pt;color:#666}
+  
+  /* V3.42.5: 关键结论保留 */
+  body.theme-v3431 .key-conclusion {background:#fef5e7 !important;border-left:4px solid #d69e2e;color:#000 !important;break-inside:avoid}
+}
+/* ===== V3.42.4 学术研究类设计模式 ===== */
+
+/* === CSS 变量体系（来自 eliahuhorwitz）=== */
+body.theme-v3431{
+  --primary: #1a365d;
+  --primary-hover: #2c5282;
+  --secondary: #4a5568;
+  --accent: #d69e2e;
+  --accent-hover: #b7791f;
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+  --text-light: #718096;
+  --bg-primary: #fafaf9;
+  --bg-card: #ffffff;
+  --bg-accent: #f7fafc;
+  --border: #e2e8f0;
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.10), 0 8px 10px -6px rgba(0,0,0,0.04);
+  --gradient-primary: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  --gradient-accent: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%);
+  --gradient-subtle: linear-gradient(135deg, #fef5e7 0%, #fffbeb 100%);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --radius: 12px;
+  --radius-lg: 16px;
+  
+  /* V3.42.5 P2 新增: 数据渐变（科技风专用）*/
+  --gradient-positive: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --gradient-negative: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+  --gradient-warning: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  --gradient-info: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --gradient-hud: linear-gradient(135deg, #00d4ff 0%, #0066ff 50%, #00aaff 100%);
+  --gradient-aurora: linear-gradient(135deg, #00ff87 0%, #60efff 50%, #a78bfa 100%);
+}
+
+/* ===== V3.42.5 P1 演讲优化: KPI 数字大字号冲击 + 滚动动画 ===== */
+body.theme-v3431 .kpi-row {display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:24px 0}
+body.theme-v3431 .kpi-card {
+  background: var(--bg-card);
+  border:1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding:24px;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+body.theme-v3431 .kpi-card:hover {transform:translateY(-4px);box-shadow: var(--shadow-lg);}
+body.theme-v3431 .kpi-card:before {
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background: var(--gradient-primary);
+  transform:scaleX(0);transform-origin:left;transition:transform 0.4s ease;
+}
+body.theme-v3431 .kpi-card:hover:before {transform:scaleX(1);}
+body.theme-v3431 .kpi-value {
+  font-size:42px;
+  font-weight:700;
+  background: var(--gradient-hud);
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  color:transparent;
+  line-height:1.1;
+  margin-bottom:8px;
+  letter-spacing:-0.02em;
+  font-feature-settings:"tnum";
+}
+/* V3.42.6 KPI 业务语义分色: 4 类指标不同视觉 */
+body.theme-v3431 .kpi-card.kpi-revenue {
+  border-left:4px solid #4facfe !important;
+  padding-left:20px;
+  background: linear-gradient(90deg, rgba(79,172,254,0.08), transparent 40%) !important;
+}
+body.theme-v3431 .kpi-card.kpi-profit {
+  border-left:4px solid #38ef7d !important;
+  padding-left:20px;
+  background: linear-gradient(90deg, rgba(56,239,125,0.08), transparent 40%) !important;
+}
+body.theme-v3431 .kpi-card.kpi-market-share {
+  border-left:4px solid #d69e2e !important;
+  padding-left:20px;
+  background: linear-gradient(90deg, rgba(247,151,30,0.08), transparent 40%) !important;
+}
+body.theme-v3431 .kpi-card.kpi-valuation {
+  border-left:4px solid #f45c43 !important;
+  padding-left:20px;
+  background: linear-gradient(90deg, rgba(245,92,67,0.08), transparent 40%) !important;
+}
+body.theme-v3431 .kpi-card.kpi-revenue .kpi-value {background:linear-gradient(135deg,#4facfe 0%,#00f2fe 100%) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;color:transparent !important;}
+body.theme-v3431 .kpi-card.kpi-profit .kpi-value {background:linear-gradient(135deg,#11998e 0%,#38ef7d 100%) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;color:transparent !important;}
+body.theme-v3431 .kpi-card.kpi-market-share .kpi-value {background:linear-gradient(135deg,#f7971e 0%,#ffd200 100%) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;color:transparent !important;}
+body.theme-v3431 .kpi-card.kpi-valuation .kpi-value {background:linear-gradient(135deg,#eb3349 0%,#f45c43 100%) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;color:transparent !important;}
+/* V3.42.6 关键修复: 修正第547行旧 .kpi-value{} 默认 color 干扰 */
+body.theme-v3431 .kpi-card .kpi-value {color:transparent !important;-webkit-text-fill-color:transparent !important;}
+/* dark mode 加亮 */
+body.theme-v3431.dark-mode .kpi-card.kpi-revenue .kpi-value{filter:brightness(1.2);}
+body.theme-v3431.dark-mode .kpi-card.kpi-profit .kpi-value{filter:brightness(1.2);}
+body.theme-v3431.dark-mode .kpi-card.kpi-market-share .kpi-value{filter:brightness(1.15);}
+body.theme-v3431.dark-mode .kpi-card.kpi-valuation .kpi-value{filter:brightness(1.2);}
+body.theme-v3431.dark-mode .kpi-card.kpi-revenue{border-left-color:#7dd3fc !important;}
+body.theme-v3431.dark-mode .kpi-card.kpi-profit{border-left-color:#86efac !important;}
+body.theme-v3431.dark-mode .kpi-card.kpi-market-share{border-left-color:#fcd34d !important;}
+body.theme-v3431.dark-mode .kpi-card.kpi-valuation{border-left-color:#fca5a5 !important;}
+/* V3.42.5 颜色修复: dark mode 下 KPI 改用更亮的渐变避免被压暗 */
+body.theme-v3431.dark-mode .kpi-value{
+  background: var(--gradient-aurora) !important;
+  -webkit-background-clip:text !important;
+  background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  color:transparent !important;
+  filter:brightness(1.15);
+}
+body.theme-v3431 .kpi-label {font-size:13px;color: var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em;font-weight:600;}
+body.theme-v3431 .kpi-trend {font-size:12px;margin-top:6px;font-weight:500;}
+body.theme-v3431 .kpi-trend.up {color:#38a169;}
+body.theme-v3431 .kpi-trend.down {color:#e53e3e;}
+body.theme-v3431.dark-mode .kpi-trend.up{color: #68d391 !important;}
+body.theme-v3431.dark-mode .kpi-trend.down{color: #fc8181 !important;}
+/* V3.42.5 颜色修复: timeline-item 强数字加亮 */
+body.theme-v3431.dark-mode .timeline-item strong{color: var(--accent) !important;font-weight:700;}
+body.theme-v3431 .timeline-item strong {color: var(--primary);}
+body.theme-v3431 .timeline strong {color: #b7791f;}
+/* V3.42.6 Timeline 圆点差异化: nth-child 交替色 + milestone 放大 */
+body.theme-v3431 .timeline-item.tl-odd::before, body.theme-v3431 .timeline-item.tl-odd.tl-odd::before {content:'●' !important;font-size:32px !important;color:#4fd1c5 !important;text-shadow:0 0 8px rgba(79,209,197,0.7),0 0 16px rgba(79,209,197,0.5) !important;}
+body.theme-v3431 .timeline-item.tl-even::before, body.theme-v3431 .timeline-item.tl-even.tl-even::before {content:'◆' !important;font-size:24px !important;color:#d69e2e !important;text-shadow:0 0 8px rgba(214,158,46,0.7),0 0 16px rgba(214,158,46,0.5) !important;}
+body.theme-v3431 .timeline-item.tl-first::before, body.theme-v3431 .timeline-item.tl-first.tl-first::before {color:#319795 !important;font-size:36px !important;text-shadow:0 0 10px rgba(49,151,149,0.9),0 0 18px rgba(49,151,149,0.7) !important;}
+body.theme-v3431 .timeline-item.tl-last::before, body.theme-v3431 .timeline-item.tl-last.tl-last::before {content:'★' !important;font-size:34px !important;color:#ffd200 !important;text-shadow:0 0 10px rgba(255,210,0,0.9),0 0 20px rgba(255,210,0,0.7) !important;}
+/* 关键里程碑：金色脉冲徽章 */
+body.theme-v3431 .timeline-item.tl-milestone {padding-left:80px !important;padding-top:18px;}
+body.theme-v3431 .timeline-item.tl-milestone::before, body.theme-v3431 .timeline-item.tl-milestone.tl-milestone::before {content:'★' !important;color:#ffd200 !important;font-size:36px !important;text-shadow:0 0 12px rgba(255,210,0,0.9),0 0 22px rgba(255,210,0,0.7) !important;animation:milestonePulse 2s ease-in-out infinite;}
+body.theme-v3431 .timeline-item.tl-milestone::after {content:"⭐ 里程碑";position:absolute;left:14px;top:-10px;font-size:11px;padding:3px 8px;background:linear-gradient(135deg,#ffd200,#eb3349);color:#1a365d;border-radius:10px;font-weight:700;letter-spacing:0.5px;z-index:10;box-shadow:0 3px 12px rgba(255,210,0,0.5);}
+@keyframes milestonePulse{
+  body.theme-v3431 0%, body.theme-v3431 100% {box-shadow:0 0 0 5px rgba(255,210,0,0.4),0 0 22px rgba(255,210,0,0.8);}
+  body.theme-v3431 50% {box-shadow:0 0 0 8px rgba(255,210,0,0.2),0 0 30px rgba(255,210,0,1);}
+}
+
+/* ===== V3.42.5 P2 科技风: HUD 风格元素 ===== */
+body.theme-v3431 .hud-element {
+  background: var(--bg-card);
+  border:1px solid var(--primary);
+  border-radius:4px;
+  padding:16px;
+  position:relative;
+  font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Monaco, 'Cascadia Code', monospace;
+}
+body.theme-v3431 .hud-element:before, body.theme-v3431 .hud-element:after {
+  content:'';position:absolute;width:12px;height:12px;border:2px solid var(--accent);
+}
+body.theme-v3431 .hud-element:before {top:-2px;left:-2px;border-right:none;border-bottom:none;}
+body.theme-v3431 .hud-element:after {bottom:-2px;right:-2px;border-left:none;border-top:none;}
+body.theme-v3431 .hud-title {font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:0.15em;margin-bottom:8px;}
+body.theme-v3431 .hud-value {font-size:24px;color:var(--primary);font-weight:700;font-variant-numeric:tabular-nums;}
+body.theme-v3431.dark-mode .hud-title{color: #4fd1c5 !important;}
+body.theme-v3431.dark-mode .hud-value{color: #76e4f7 !important;}
+
+/* ===== V3.42.5 P2 科技风: 数据点 pulse 动效 ===== */
+@keyframes dataPulse{
+  body.theme-v3431 0%, body.theme-v3431 100% {opacity:1;transform:scale(1);}
+  body.theme-v3431 50% {opacity:0.7;transform:scale(1.05);}
+}
+body.theme-v3431 .pulse {animation:dataPulse 2s ease-in-out infinite;}
+body.theme-v3431 .pulse-fast {animation:dataPulse 1s ease-in-out infinite;}
+
+/* ===== V3.42.5 P2 科技风: 玻璃拟态卡片 ===== */
+body.theme-v3431 .glass-card {
+  background:rgba(255,255,255,0.7);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,0.3);
+  border-radius: var(--radius-lg);
+  padding:24px;
+  box-shadow:0 8px 32px rgba(31,38,135,0.15);
+}
+body.theme-v3431.dark-mode .glass-card{
+  background:rgba(15,20,25,0.7);
+  border:1px solid rgba(99,179,237,0.2);
+}
+
+/* ===== V3.42.5 P2 科技风: 代码块（深色+行号+语法感） ===== */
+body.theme-v3431 .tech-code {
+  background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+  color:#e6edf3;
+  border:1px solid #30363d;
+  border-radius: var(--radius);
+  padding:20px;
+  font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Monaco, 'Cascadia Code', monospace;
+  font-size:13px;
+  line-height:1.6;
+  overflow-x:auto;
+  position:relative;
+  box-shadow: var(--shadow-lg);
+}
+body.theme-v3431 .tech-code:before {
+  content:'● ● ●';position:absolute;top:8px;left:16px;
+  color:#ff5f56;font-size:10px;letter-spacing:4px;
+}
+body.theme-v3431 .tech-code .comment {color:#8b949e;font-style:italic;}
+body.theme-v3431 .tech-code .keyword {color:#ff9d4d;font-weight:700;}
+body.theme-v3431 .tech-code .string {color:#a5d6ff;}
+body.theme-v3431 .tech-code .number {color:#79c0ff;font-weight:600;}
+body.theme-v3431 .tech-code .function {color:#d2a8ff;font-weight:600;}
+body.theme-v3431.dark-mode .tech-code .comment{color:#a5b1c2;}
+body.theme-v3431.dark-mode .tech-code .keyword{color:#FF9D4D;font-weight:700;}
+body.theme-v3431.dark-mode .tech-code .function{color:#B5A8FF;}
+body.theme-v3431.dark-mode .tech-code .number{color:#FFD66B;font-weight:600;}
+
+/* ===== V3.42.5 P1 演讲优化: 全屏按钮 ===== */
+body.theme-v3431 #fullscreen-toggle {
+  position:fixed;right:24px;bottom:140px;width:48px;height:48px;border-radius:50%;
+  background:#fff;color:#1a365d;border:1px solid #d0d7de;font-size:20px;cursor:pointer;z-index:99;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);transition:all 0.2s;
+}
+body.theme-v3431 #fullscreen-toggle:hover {transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,0.12);}
+body.theme-v3431.dark-mode #fullscreen-toggle{background:#2d3748;color:#d69e2e;border-color:#4a5568;}
+@media print{#fullscreen-toggle{display:none !important}}
+
+/* ===== V3.42.5 P1 演讲优化: 章节进度指示器 ===== */
+body.theme-v3431 #section-indicator {
+  position:fixed;top:80px;right:24px;
+  background: var(--bg-card);
+  border:1px solid var(--border);
+  border-radius: var(--radius);
+  padding:8px 16px;
+  font-size:12px;
+  color: var(--text-secondary);
+  box-shadow: var(--shadow-sm);
+  z-index:50;
+  transition: var(--transition);
+}
+body.theme-v3431 #section-indicator .section-count {color: var(--primary);font-weight:600;}
+
+/* ===== V3.42.5 P3 体验优化: 表格列悬停 ===== */
+body.theme-v3431 table tbody tr {transition: background 0.2s;}
+body.theme-v3431 table tbody tr:hover {background: rgba(26,54,93,0.04);}
+body.theme-v3431.dark-mode table tbody tr:hover{background: rgba(99,179,237,0.08);}
+
+/* ===== V3.42.5 P3 体验优化: 链接 hover 提示 ===== */
+body.theme-v3431 a[data-tooltip] {position:relative;}
+body.theme-v3431 a[data-tooltip]:hover:after {
+  content:attr(data-tooltip);position:absolute;bottom:100%;left:50%;
+  transform:translateX(-50%);background:#1a202c;color:#fff;padding:6px 12px;border-radius:4px;
+  font-size:12px;white-space:nowrap;margin-bottom:6px;z-index:100;box-shadow: var(--shadow-lg);
+}
+
+/* ===== V3.42.5 P0 #1 修复: 系统级暗色偏好 ===== */
+@media (prefers-color-scheme: dark){
+  body.theme-v3431 body:not(.light-mode) {
+    --bg-primary: #0f1419;
+    --bg-card: #1a202c;
+    --bg-accent: #2d3748;
+    --text-primary: #e2e8f0;
+    --text-secondary: #a0aec0;
+    --text-light: #718096;
+    --border: #2d3748;
+    --primary: #63b3ed;
+    --accent: #f6ad55;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.5);
+    --shadow-lg: 0 10px 15px rgba(0,0,0,0.6);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+  }
+  body.theme-v3431 body:not(.light-mode) .hero {background: linear-gradient(135deg, #1a202c 0%, #2d3748 50%, #1a365d 100%) !important;}
+}
+
+/* ===== V3.42.5 P0 #2 修复: 手动切换暗色（高优先级）===== */
+body.theme-v3431.dark-mode{
+  --bg-primary: #0f1419 !important;
+  --bg-card: #1a202c !important;
+  --bg-accent: #2d3748 !important;
+  --text-primary: #e2e8f0 !important;
+  --text-secondary: #a0aec0 !important;
+  --text-light: #718096 !important;
+  --border: #2d3748 !important;
+  --primary: #63b3ed !important;
+  --accent: #f6ad55 !important;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4) !important;
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.5) !important;
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.6) !important;
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+body.theme-v3431.dark-mode .hero{background: linear-gradient(135deg, #1a202c 0%, #2d3748 50%, #1a365d 100%) !important;}
+body.theme-v3431.dark-mode .data-card, body.theme-v3431.dark-mode .stat-card, body.theme-v3431.dark-mode .callout{background: var(--bg-card) !important;color: var(--text-primary) !important;border-color: var(--border) !important;}
+body.theme-v3431.dark-mode .callout strong{color: var(--accent) !important;}
+body.theme-v3431.dark-mode strong{color: var(--accent) !important;font-weight:700;}
+/* V3.42.5 颜色修复: 关键战略数字特殊加亮 */
+body.theme-v3431 .amount-highlight {color: #b7791f;font-weight:700;font-size:1.1em;padding:2px 8px;background:linear-gradient(135deg,#fffbeb,#fef5e7);border-radius:4px;display:inline-block;}
+body.theme-v3431.dark-mode .amount-highlight{color: #fbd38d !important;background:rgba(251,211,141,0.12);font-weight:700;}
+
+body.theme-v3431.dark-mode .hero strong{color:#fbd38d !important;}
+body.theme-v3431.dark-mode h1, body.theme-v3431.dark-mode h2, body.theme-v3431.dark-mode h3, body.theme-v3431.dark-mode h4{color: var(--text-primary) !important;}
+body.theme-v3431.dark-mode a{color: var(--primary) !important;}
+body.theme-v3431.dark-mode table{background: var(--bg-card) !important;color: var(--text-primary) !important;}
+body.theme-v3431.dark-mode tbody tr:nth-child(even) td{background: rgba(255,255,255,0.03) !important;}
+body.theme-v3431.dark-mode tbody tr:nth-child(even):hover td{background: var(--bg-accent) !important;}
+body.theme-v3431.dark-mode th{background: var(--bg-accent) !important;color: var(--text-primary) !important;}
+body.theme-v3431.dark-mode td{border-color: var(--border) !important;}
+body.theme-v3431.dark-mode blockquote{background: var(--bg-accent) !important;border-left-color: var(--accent) !important;}
+body.theme-v3431.dark-mode pre{background: #0d1117 !important;color: #e6edf3 !important;}
+body.theme-v3431.dark-mode code{background: #161b22 !important;color: #f6ad55 !important;}
+body.theme-v3431.dark-mode .key-conclusion{background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%) !important;border-left-color: var(--accent) !important;color: var(--text-primary) !important;}
+body.theme-v3431.dark-mode .timeline-item{background: var(--bg-card) !important;color: var(--text-primary) !important;}
+body.theme-v3431.dark-mode .timeline-item:before{border-color: #63b3ed !important;background: var(--bg-accent) !important;box-shadow:0 0 0 3px rgba(99,179,237,0.2) !important;}
+body.theme-v3431.dark-mode .timeline-item:nth-child(1):before{background: #4fd1c5 !important;border-color: #4fd1c5 !important;}
+body.theme-v3431.dark-mode .timeline-item:nth-child(2):before{background: #d69e2e !important;border-color: #d69e2e !important;}
+body.theme-v3431.dark-mode .timeline-item:nth-child(3):before{background: #4fd1c5 !important;border-color: #4fd1c5 !important;}
+body.theme-v3431.dark-mode .timeline-item:nth-child(4):before{background: #d69e2e !important;border-color: #d69e2e !important;}
+body.theme-v3431.dark-mode .timeline-item:nth-child(5):before{background: #4fd1c5 !important;border-color: #4fd1c5 !important;}
+body.theme-v3431.dark-mode .toc-sidebar{background: var(--bg-card) !important;border-color: var(--border) !important;}
+body.theme-v3431.dark-mode .toc-sidebar a{color: var(--text-secondary) !important;}
+body.theme-v3431.dark-mode .toc-sidebar a.active, body.theme-v3431.dark-mode .toc-sidebar a:hover{background: var(--bg-accent) !important;color: var(--accent) !important;}
+body.theme-v3431.dark-mode .chip{background: rgba(99,179,237,0.15) !important;color: var(--text-primary) !important;border-color: rgba(99,179,237,0.4) !important;}
+body.theme-v3431.dark-mode .chip.chip-success{background: rgba(56,239,125,0.15) !important;color: #6ee7a3 !important;border-color: rgba(56,239,125,0.4) !important;}
+body.theme-v3431.dark-mode .chip.chip-warning{background: rgba(246,173,85,0.15) !important;color: #fbd38d !important;border-color: rgba(246,173,85,0.4) !important;}
+body.theme-v3431.dark-mode .chip.chip-danger{background: rgba(245,101,101,0.15) !important;color: #fc8181 !important;border-color: rgba(245,101,101,0.4) !important;}
+body.theme-v3431.dark-mode .chip.chip-info{background: rgba(99,179,237,0.15) !important;color: #90cdf4 !important;border-color: rgba(99,179,237,0.4) !important;}
+body.theme-v3431.dark-mode .chip.chip-venue{background: rgba(160,174,192,0.15) !important;color: var(--text-secondary) !important;border-color: rgba(160,174,192,0.3) !important;}
+
+/* === 1. Chip 徽章（来自 publication-venue）=== */
+body.theme-v3431 .chip {display:inline-flex;align-items:center;gap:4px;padding:5px 12px;border-radius:var(--radius);font-size:13px;font-weight:600;background:var(--bg-accent);color:var(--text-secondary);margin:0 6px 6px 0;transition:var(--transition);border:1px solid var(--border)}
+body.theme-v3431 .chip:hover {transform:translateY(-1px);box-shadow:var(--shadow-sm)}
+body.theme-v3431 .chip.chip-venue {color:var(--text-secondary);background:var(--bg-accent);font-weight:600}
+body.theme-v3431 .chip.chip-date {color:var(--primary);background:linear-gradient(135deg,#fffbeb,#fef5e7);border-color:var(--accent)}
+body.theme-v3431 .chip.chip-category {color:#fff;background:var(--gradient-primary);border:none}
+body.theme-v3431 .chip.chip-success {color:#22543d;background:#dafbe1;border-color:#1a7f37}
+body.theme-v3431 .chip.chip-warning {color:#744210;background:#fff8c5;border-color:#9a6700}
+body.theme-v3431 .chip.chip-danger {color:#742a2a;background:#ffebe9;border-color:#cf222e}
+body.theme-v3431 .chip.chip-info {color:#2c5282;background:#bee3f8;border-color:#3182ce}
+
+/* === 2. 链接下划线动画（来自 publication-authors）=== */
+body.theme-v3431 .link-animated {position:relative;text-decoration:none;color:var(--primary);font-weight:500;transition:color 0.2s}
+body.theme-v3431 .link-animated::after {content:'';position:absolute;width:0;height:2px;bottom:-2px;left:0;background:var(--accent);transition:width 0.3s cubic-bezier(0.4,0,0.2,1)}
+body.theme-v3431 .link-animated:hover {color:var(--primary-hover);text-decoration:none}
+body.theme-v3431 .link-animated:hover::after {width:100%}
+
+/* === 3. 图片/卡片 hover 微动效 === */
+body.theme-v3431 img {border-radius:var(--radius);transition:var(--transition)}
+body.theme-v3431 img:hover {box-shadow:var(--shadow-lg)}
+body.theme-v3431 p > img, body.theme-v3431 td > img {margin:8px 0;max-width:100%}
+
+/* === 4. Stat 统计数字块（核心可视化元素）=== */
+body.theme-v3431 .stat-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin:24px 0}
+body.theme-v3431 .stat-card {background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:var(--transition);position:relative;overflow:hidden}
+body.theme-v3431 .stat-card:hover {transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--accent)}
+body.theme-v3431 .stat-card::before {content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:var(--gradient-primary)}
+body.theme-v3431 .stat-card.accent::before {background:var(--gradient-accent)}
+body.theme-v3431 .stat-label {font-size:12px;color:var(--text-light);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:8px;font-weight:600}
+body.theme-v3431 .stat-value {font-size:32px;font-weight:800;color:var(--primary);line-height:1.1;margin-bottom:6px;letter-spacing:-0.5px}
+body.theme-v3431 .stat-card.accent .stat-value {color:var(--accent)}
+body.theme-v3431 .stat-trend {font-size:13px;color:var(--text-secondary);margin-top:4px}
+body.theme-v3431 .stat-trend.up {color:#1a7f37}
+body.theme-v3431 .stat-trend.down {color:#cf222e}
+
+/* === 5. Data-Card 数据卡（行级数据展示）=== */
+body.theme-v3431 .data-card {background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:var(--radius);padding:16px 20px;margin:14px 0;transition:var(--transition)}
+body.theme-v3431 .data-card:hover {box-shadow:var(--shadow-md);border-left-color:var(--accent)}
+body.theme-v3431 .data-card.accent {border-left-color:var(--accent)}
+body.theme-v3431 .data-card.success {border-left-color:#1a7f37;background:linear-gradient(135deg,#fff,#f0fff4)}
+body.theme-v3431 .data-card.warning {border-left-color:#9a6700;background:linear-gradient(135deg,#fff,#fffff0)}
+body.theme-v3431 .data-card.danger {border-left-color:#cf222e;background:linear-gradient(135deg,#fff,#fff5f5)}
+body.theme-v3431 .data-card-title {font-size:16px;font-weight:700;color:var(--primary);margin-bottom:6px}
+body.theme-v3431 .data-card.accent .data-card-title {color:var(--accent)}
+body.theme-v3431 .data-card-body {font-size:15px;color:var(--text-secondary);line-height:1.7}
+body.theme-v3431 .data-card-body strong {color:var(--primary)}
+
+/* === 6. Timeline 时间线（项目里程碑）=== */
+body.theme-v3431 .timeline {position:relative;margin:24px 0;padding-left:32px}
+body.theme-v3431 .timeline::before {content:'';position:absolute;left:8px;top:8px;bottom:8px;width:2px;background:linear-gradient(180deg,var(--primary),var(--accent))}
+body.theme-v3431 .timeline-item {position:relative;margin-bottom:20px;padding:12px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);transition:var(--transition)}
+body.theme-v3431 .timeline-item:hover {box-shadow:var(--shadow-md);transform:translateX(4px)}
+body.theme-v3431 .timeline-item {position:relative;padding-left:54px !important;min-height:36px;}
+body.theme-v3431 .timeline-item::before {position:absolute !important;left:14px !important;top:6px !important;font-family:Inter,system-ui,sans-serif !important;line-height:1 !important;background:transparent !important;border:0 !important;width:auto !important;height:auto !important;border-radius:0 !important;box-shadow:none !important;text-align:center;}
+body.theme-v3431 .timeline-item.accent::before {border-color:var(--accent)}
+body.theme-v3431 .timeline-date {font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px}
+body.theme-v3431 .timeline-title {font-size:16px;font-weight:700;color:var(--primary);margin-bottom:4px}
+body.theme-v3431 .timeline-body {font-size:14px;color:var(--text-secondary);line-height:1.6}
+
+/* === 7. KPI 大数字块（报告封面用）=== */
+body.theme-v3431 .kpi-row {display:flex;flex-wrap:wrap;gap:14px;margin:20px 0}
+body.theme-v3431 .kpi {flex:1;min-width:140px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:14px 18px;text-align:center;transition:var(--transition)}
+body.theme-v3431 .kpi:hover {transform:translateY(-2px);box-shadow:var(--shadow-md)}
+body.theme-v3431 .kpi-value {display:block;font-size:24px;font-weight:800;color:var(--primary);line-height:1.2;letter-spacing:-0.3px}
+body.theme-v3431 .kpi-label {display:block;font-size:12px;color:var(--text-light);margin-top:4px;text-transform:uppercase;letter-spacing:0.5px;font-weight:600}
+
+/* === 8. 渐变文字（强调用）=== */
+body.theme-v3431 .text-gradient {background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:700}
+body.theme-v3431 .text-accent {color:var(--accent)}
+body.theme-v3431 .text-primary-color {color:var(--primary)}
+
+/* === 9. Callout 信息框（不同类型）=== */
+body.theme-v3431 .callout {padding:14px 18px;margin:18px 0;border-radius:var(--radius);border-left:4px solid;font-size:15px;line-height:1.7}
+body.theme-v3431 .callout-info {background:#ebf8ff;border-color:#3182ce;color:#2c5282}
+body.theme-v3431 .callout-success {background:#f0fff4;border-color:#1a7f37;color:#22543d}
+body.theme-v3431 .callout-warning {background:#fffff0;border-color:#9a6700;color:#744210}
+body.theme-v3431 .callout-danger {background:#fff5f5;border-color:#cf222e;color:#742a2a}
+body.theme-v3431 .callout-title {font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+
+/* === 10. 深色模式扩展 === */
+body.theme-v3431.dark-mode .stat-card, body.theme-v3431.dark-mode .data-card, body.theme-v3431.dark-mode .kpi,
+body.theme-v3431.dark-mode .timeline-item{background:var(--bg-card);border-color:var(--border)}
+body.theme-v3431.dark-mode .stat-value, body.theme-v3431.dark-mode .data-card-title, body.theme-v3431.dark-mode .kpi-value,
+body.theme-v3431.dark-mode .timeline-title{color:var(--primary)}
+body.theme-v3431.dark-mode .callout{background:rgba(0,0,0,0.2)}
+body.theme-v3431.dark-mode .data-card.success{background:rgba(34,84,61,0.2)}
+body.theme-v3431.dark-mode .data-card.warning{background:rgba(116,66,16,0.2)}
+body.theme-v3431.dark-mode .data-card.danger{background:rgba(116,42,42,0.2)}
+body.theme-v3431.dark-mode .chip{background:var(--bg-accent);border-color:var(--border)}
+body.theme-v3431.dark-mode .chip.chip-date, body.theme-v3431.dark-mode .chip.chip-category{color:var(--primary);background:var(--bg-accent)}
+
+/* 移动端适配：隐藏侧边栏 */
+@media (max-width: 1400px){
+  body.theme-v3431 .toc-sidebar, body.theme-v3431 .key-conclusion {display:none}
+  body.theme-v3431 .stat-grid {grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width: 768px){
+  body.theme-v3431 .stat-grid {grid-template-columns:1fr}
+  body.theme-v3431 .kpi-row {flex-direction:column}
+  body.theme-v3431 .timeline {padding-left:24px}
+}
+
+
+/* ===== inject_toc_collapse: 浮动侧边栏默认收起（V3.43.3 升级） ===== */
+body.theme-v3431 .toc-sidebar:not(.open) {transform:translateX(calc(-100% - 30px)) !important}
+body.theme-v3431 .toc-sidebar.open {transform:translateX(20px) !important}
+body.theme-v3431 .key-conclusion:not(.open) {transform:translateX(calc(100% + 30px)) !important}
+body.theme-v3431 .key-conclusion.open {transform:translateX(-20px) !important}
+body.theme-v3431 .toc-sidebar, body.theme-v3431 .key-conclusion {transition:transform 0.3s ease;max-height:75vh;overflow-y:auto}
+body.theme-v3431 .toc-sidebar-toggle, body.theme-v3431 .key-conclusion-toggle {
+  position:fixed;z-index:99;padding:10px 14px;border-radius:8px;
+  cursor:pointer;font-size:13px;font-weight:600;border:none;
+  box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+body.theme-v3431 .toc-sidebar-toggle {top:120px;left:20px;background:#1a365d;color:#fff}
+body.theme-v3431 .key-conclusion-toggle {top:120px;right:20px;background:linear-gradient(135deg,#fef3c7,#fde68a);border:2px solid #d69e2e;color:#744210}
+/* 移动端防遮挡 */
+@media (max-width:768px){
+  body.theme-v3431 .toc-sidebar {width:160px !important;max-width:60vw !important;font-size:12px !important;padding:10px !important}
+  body.theme-v3431 .key-conclusion {width:180px !important;max-width:65vw !important;font-size:12px !important;padding:10px !important}
+  body.theme-v3431 .toc-sidebar-toggle, body.theme-v3431 .key-conclusion-toggle {padding:8px 10px !important;font-size:12px !important}
+}
+
+
+/* V3.43.4: 侧栏展开时 body padding 避让（CSS :has() 兜底） */
+body.theme-v3431 body:has(.toc-sidebar.open) {padding-left:260px !important;transition:padding 0.3s}
+body.theme-v3431 body:has(.key-conclusion.open) {padding-right:280px !important;transition:padding 0.3s}
+body.theme-v3431 body:has(.toc-sidebar.open):has(.key-conclusion.open) {padding-left:260px !important;padding-right:280px !important}
+body.theme-v3431 body:not(:has(.toc-sidebar.open):not(:has(.key-conclusion.open))) {transition:padding 0.3s}
