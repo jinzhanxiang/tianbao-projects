@@ -206,8 +206,15 @@ table.data-table-compact{font-size:14px !important;max-width:760px !important;ma
 
 /* ============================================================
    图表容器（htco 规范三件套）
+   ============================================================
+   ⚠️ V15.2.5 主公 2026-07-12 22:48 反馈「图表重复两个」修复
+   根因：jngd 源文件结构为
+     <div class="chart-figure">            ← 外层 div（markdown wrapper）
+       <figure class="chart-figure ...">   ← 内层 figure（auto_chart 输出）
+   原 .chart-figure{} 同时匹配两层 → 两层都画边框/背景 → 视觉重复两张卡片
+   修复：改为 figure.chart-figure，仅内层 <figure> 生效
    ============================================================ */
-.chart-figure{
+figure.chart-figure{
   margin:36px auto !important;
   padding:20px !important;
   background:#fafaf9 !important;
@@ -367,11 +374,11 @@ body.dark-mode a{color:#63b3ed !important;border-bottom-color:#63b3ed !important
 body.dark-mode a:hover{color:var(--accent) !important}
 body.dark-mode hr{border-top-color:#2d3748 !important}
 /* 图表暗色 */
-body.dark-mode .chart-figure{
+body.dark-mode figure.chart-figure{
   background:#1a202c !important;border-color:#4a5568 !important;
   border-top-color:var(--brand) !important;border-bottom-color:var(--accent) !important;
 }
-body.dark-mode .chart-figure figcaption{color:var(--accent) !important;border-top-color:var(--accent) !important}
+body.dark-mode figure.chart-figure figcaption{color:var(--accent) !important;border-top-color:var(--accent) !important}
 body.dark-mode .chart-data-table{border-top-color:#4a5568 !important}
 body.dark-mode .chart-figure-svg .chart-svg-container.chart-light{display:none !important}
 body.dark-mode .chart-figure-svg .chart-svg-container.chart-dark{display:block !important}
@@ -424,12 +431,12 @@ body.dark-mode .chain-insight strong{color:#fbd38d !important}
   p{font-size:16px !important}
   table{font-size:14px !important}
   th,td{padding:9px 12px !important;font-size:14px !important}
-  .chart-figure{margin:24px auto !important;padding:14px !important}
-  .chart-figure figcaption{font-size:15px !important}
+  figure.chart-figure{margin:24px auto !important;padding:14px !important}
+  figure.chart-figure figcaption{font-size:15px !important}
 }
 @media (max-width:780px){
-  .chart-figure{margin:24px auto !important;padding:14px !important}
-  .chart-figure figcaption{font-size:15px !important}
+  figure.chart-figure{margin:24px auto !important;padding:14px !important}
+  figure.chart-figure figcaption{font-size:15px !important}
 }
 
 /* ============================================================
@@ -445,7 +452,7 @@ body.dark-mode .chain-insight strong{color:#fbd38d !important}
   a{color:#000 !important;text-decoration:underline !important}
   a[href]:after{content:" (" attr(href) ")" !important;font-size:9pt !important;color:#666 !important}
   .dark-toggle{display:none !important}
-  .chart-figure{page-break-inside:avoid !important;box-shadow:none !important}
+  figure.chart-figure{page-break-inside:avoid !important;box-shadow:none !important}
   blockquote{background:#fff !important;border-left:3px solid #000 !important}
 }/* ================================================================
    charts.css — V11j 报告图表样式（5A 收尾）
