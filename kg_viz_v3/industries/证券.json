@@ -1,0 +1,3274 @@
+{
+ "name": "证券",
+ "entities": [
+  {
+   "id": "ent_2c86bfcafb6e",
+   "name": "万得微盘股指数",
+   "type": "PRODUCT",
+   "industry": "证券",
+   "desc": "衡量微盘股表现的核心基准指数。截至2025年Q2，公募基金全部持仓持有该指数成分股市值约为114亿元，占其流通市值比例为1.59%，较2024年Q4上升66bp。该指数成分股的前十大股东中，有公募基金持股的流通市值约为34.55亿元，占该指数总流通市值的0.48%，历史最低为0.07%。",
+   "attrs": "{\"industry\": \"\\u8bc1\\u5238\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_0de787eb9a3d",
+   "name": "微盘股",
+   "type": "INDUSTRY",
+   "industry": "证券",
+   "desc": "市值较小的股票集合，2025年Q2基金规模显著增加但未超2024年Q1。近3个月相关性最高的50支基金2025年Q2规模为225.85亿元，季度可比规模上升69.71亿元。公募基金持仓占流通市值比例在2025年Q2为1.59%，较2024年Q4上升66bp，显示机构仍在缓慢加仓。",
+   "attrs": "{\"industry\": \"\\u8bc1\\u5238\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_7fd7baefb5f1",
+   "name": "扩散指数择时模型",
+   "type": "TECH",
+   "industry": "证券",
+   "desc": "用于判断微盘股交易时机的量化模型。截至2025年8月29日，该模型下的首次阈值法、延迟阈值法和双均线法均给出空仓信号，提示投资者注意流动性风险和市场调整压力。",
+   "attrs": "{\"industry\": \"\\u8bc1\\u5238\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_16ce802b731a",
+   "name": "肖承志",
+   "type": "PERSON",
+   "industry": "证券",
+   "desc": "中信证券研究部的分析师，SAC登记编号为S1340524090001，负责撰写微盘股指数周报及基金中报点评。在2025年9月1日发布的报告中，他分析了微盘股相关基金规模在2025年Q2显著增加但仍未超过2024年Q1规模的现象，并指出微盘股扩散指数择时模型均触发空仓信号。",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_166e81072002",
+   "name": "诺安多策略",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，它是持有该指数成分股市值排名前五的基金之一，同时也是含“微”量（微盘股持仓比例）排名前五的基金之一，显示出其在微盘股策略上的高参与度。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_82dc409749a6",
+   "name": "汇安多策略",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，该基金在微盘股持仓比例上位居前列，反映了其投资策略对微盘股资产的偏好。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_9434024d5a36",
+   "name": "新华中小市值优选",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，该基金在微盘股持仓比例上位居前列，专注于中小市值及微盘股的优选策略。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_f85338e975c6",
+   "name": "国金量化多因子",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，它是持有该指数成分股市值排名前五的基金之一，体现了量化策略基金在微盘股领域的活跃度和持仓集中度。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_ea066222286e",
+   "name": "民生加银专精特新智选",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，该基金在微盘股持仓比例上位居前列，结合其名称可能侧重于专精特新领域的微盘股投资。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_b2eb813f542e",
+   "name": "华夏磐泰混合",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，它是持有该指数成分股市值排名前五的基金之一，反映了该基金在2025年二季度对微盘股资产的配置倾向。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_b26b5ed225a3",
+   "name": "国联鑫起点",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，该基金在微盘股持仓比例上位居前列，是机构缓慢加仓微盘股趋势中的代表性产品之一。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_13d4d26b8873",
+   "name": "中信保诚多策略",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，它是持有该指数成分股市值排名前五的基金之一，表明其投资组合中微盘股占比较高，是机构缓慢加仓微盘股的典型代表。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_4cbdb54c0787",
+   "name": "金元顺安元启",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "截至2025年Q2，它是持有该指数成分股市值排名前五的基金之一，显示出其在微盘股细分领域的投资布局。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_aa33a0275ba4",
+   "name": "量化新规",
+   "type": "POLICY",
+   "industry": "证券",
+   "desc": "影响微盘股交易范式的监管政策。研报提及“量化新规”或将平稳落地，并指出现阶段主要矛盾是交易范式之争，该政策背景影响了微盘股的流动性和机构持仓策略。",
+   "attrs": "{\"industry\": \"\\u8bc1\\u5238\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_d48e5190d6cc",
+   "name": "东方证券",
+   "type": "ORG",
+   "industry": "证券",
+   "desc": "发布机构，地址上海市中山南路318号东方国际金融广场26楼，电话021-63325888。2025年12月22日发布《从电池巨头加码高压实铁锂布局看草酸景气向上机遇》深度报告，行业评级看好（维持），推荐华鲁恒升（买入）、万凯新材（买入）等标的。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u8bc1\\u5238\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  }
+ ],
+ "relations": [
+  {
+   "from": "ent_166e81072002",
+   "to": "ent_13d4d26b8873",
+   "type": "竞争",
+   "from_name": "诺安多策略",
+   "to_name": "中信保诚多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b2eb813f542e",
+   "to": "ent_4cbdb54c0787",
+   "type": "竞争",
+   "from_name": "华夏磐泰混合",
+   "to_name": "金元顺安元启",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b26b5ed225a3",
+   "to": "ent_82dc409749a6",
+   "type": "对比",
+   "from_name": "国联鑫起点",
+   "to_name": "汇安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ea066222286e",
+   "to": "ent_9434024d5a36",
+   "type": "对比",
+   "from_name": "民生加银专精特新智选",
+   "to_name": "新华中小市值优选",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_16ce802b731a",
+   "to": "ent_7fd7baefb5f1",
+   "type": "监管",
+   "from_name": "肖承志",
+   "to_name": "扩散指数择时模型",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PERSON",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_aa33a0275ba4",
+   "to": "ent_4cbdb54c0787",
+   "type": "监管",
+   "from_name": "量化新规",
+   "to_name": "金元顺安元启",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "POLICY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_166e81072002",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "诺安多策略",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_13d4d26b8873",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "中信保诚多策略",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b2eb813f542e",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "华夏磐泰混合",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f85338e975c6",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "国金量化多因子",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4cbdb54c0787",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "金元顺安元启",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b26b5ed225a3",
+   "to": "ent_0de787eb9a3d",
+   "type": "客户",
+   "from_name": "国联鑫起点",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_166e81072002",
+   "to": "ent_0de787eb9a3d",
+   "type": "客户",
+   "from_name": "诺安多策略",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_82dc409749a6",
+   "to": "ent_0de787eb9a3d",
+   "type": "客户",
+   "from_name": "汇安多策略",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ea066222286e",
+   "to": "ent_0de787eb9a3d",
+   "type": "客户",
+   "from_name": "民生加银专精特新智选",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9434024d5a36",
+   "to": "ent_0de787eb9a3d",
+   "type": "客户",
+   "from_name": "新华中小市值优选",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_166e81072002",
+   "to": "ent_82dc409749a6",
+   "type": "竞争",
+   "from_name": "诺安多策略",
+   "to_name": "汇安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b26b5ed225a3",
+   "to": "ent_82dc409749a6",
+   "type": "竞争",
+   "from_name": "国联鑫起点",
+   "to_name": "汇安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7fd7baefb5f1",
+   "to": "ent_2c86bfcafb6e",
+   "type": "技术链",
+   "from_name": "扩散指数择时模型",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "TECH",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_16ce802b731a",
+   "to": "ent_2c86bfcafb6e",
+   "type": "合作伙伴",
+   "from_name": "肖承志",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PERSON",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_16ce802b731a",
+   "to": "ent_7fd7baefb5f1",
+   "type": "技术链",
+   "from_name": "肖承志",
+   "to_name": "扩散指数择时模型",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PERSON",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_82dc409749a6",
+   "to": "ent_13d4d26b8873",
+   "type": "竞争",
+   "from_name": "汇安多策略",
+   "to_name": "中信保诚多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b2eb813f542e",
+   "to": "ent_f85338e975c6",
+   "type": "竞争",
+   "from_name": "华夏磐泰混合",
+   "to_name": "国金量化多因子",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ea066222286e",
+   "to": "ent_9434024d5a36",
+   "type": "竞争",
+   "from_name": "民生加银专精特新智选",
+   "to_name": "新华中小市值优选",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4cbdb54c0787",
+   "to": "ent_f85338e975c6",
+   "type": "竞争",
+   "from_name": "金元顺安元启",
+   "to_name": "国金量化多因子",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7fd7baefb5f1",
+   "to": "ent_aa33a0275ba4",
+   "type": "监管",
+   "from_name": "扩散指数择时模型",
+   "to_name": "量化新规",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "TECH",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0de787eb9a3d",
+   "to": "ent_2c86bfcafb6e",
+   "type": "上下游",
+   "from_name": "微盘股",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_166e81072002",
+   "to": "ent_b2eb813f542e",
+   "type": "竞争",
+   "from_name": "诺安多策略",
+   "to_name": "华夏磐泰混合",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_166e81072002",
+   "to": "ent_f85338e975c6",
+   "type": "竞争",
+   "from_name": "诺安多策略",
+   "to_name": "国金量化多因子",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_166e81072002",
+   "to": "ent_4cbdb54c0787",
+   "type": "竞争",
+   "from_name": "诺安多策略",
+   "to_name": "金元顺安元启",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b26b5ed225a3",
+   "to": "ent_166e81072002",
+   "type": "竞争",
+   "from_name": "国联鑫起点",
+   "to_name": "诺安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_82dc409749a6",
+   "to": "ent_166e81072002",
+   "type": "竞争",
+   "from_name": "汇安多策略",
+   "to_name": "诺安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9434024d5a36",
+   "to": "ent_166e81072002",
+   "type": "竞争",
+   "from_name": "新华中小市值优选",
+   "to_name": "诺安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_aa33a0275ba4",
+   "to": "ent_7fd7baefb5f1",
+   "type": "监管",
+   "from_name": "量化新规",
+   "to_name": "扩散指数择时模型",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "POLICY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_16ce802b731a",
+   "to": "ent_7fd7baefb5f1",
+   "type": "合作",
+   "from_name": "肖承志",
+   "to_name": "扩散指数择时模型",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PERSON",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2c86bfcafb6e",
+   "to": "ent_f85338e975c6",
+   "type": "供应",
+   "from_name": "万得微盘股指数",
+   "to_name": "国金量化多因子",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2c86bfcafb6e",
+   "to": "ent_166e81072002",
+   "type": "供应",
+   "from_name": "万得微盘股指数",
+   "to_name": "诺安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2c86bfcafb6e",
+   "to": "ent_b2eb813f542e",
+   "type": "市场化",
+   "from_name": "万得微盘股指数",
+   "to_name": "华夏磐泰混合",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_82dc409749a6",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "汇安多策略",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9434024d5a36",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "新华中小市值优选",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b26b5ed225a3",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "国联鑫起点",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ea066222286e",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "民生加银专精特新智选",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_82dc409749a6",
+   "to": "ent_ea066222286e",
+   "type": "竞争",
+   "from_name": "汇安多策略",
+   "to_name": "民生加银专精特新智选",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_82dc409749a6",
+   "to": "ent_9434024d5a36",
+   "type": "竞争",
+   "from_name": "汇安多策略",
+   "to_name": "新华中小市值优选",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9434024d5a36",
+   "to": "ent_b26b5ed225a3",
+   "type": "竞争",
+   "from_name": "新华中小市值优选",
+   "to_name": "国联鑫起点",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7fd7baefb5f1",
+   "to": "ent_0de787eb9a3d",
+   "type": "技术链",
+   "from_name": "扩散指数择时模型",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "TECH",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2c86bfcafb6e",
+   "to": "ent_0de787eb9a3d",
+   "type": "上下游",
+   "from_name": "万得微盘股指数",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PRODUCT",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_82dc409749a6",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "汇安多策略",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9434024d5a36",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "新华中小市值优选",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ea066222286e",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "民生加银专精特新智选",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b26b5ed225a3",
+   "to": "ent_2c86bfcafb6e",
+   "type": "客户",
+   "from_name": "国联鑫起点",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7fd7baefb5f1",
+   "to": "ent_16ce802b731a",
+   "type": "合作伙伴",
+   "from_name": "扩散指数择时模型",
+   "to_name": "肖承志",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "TECH",
+   "to_type": "PERSON",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_13d4d26b8873",
+   "to": "ent_82dc409749a6",
+   "type": "竞争",
+   "from_name": "中信保诚多策略",
+   "to_name": "汇安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f85338e975c6",
+   "to": "ent_b2eb813f542e",
+   "type": "竞争",
+   "from_name": "国金量化多因子",
+   "to_name": "华夏磐泰混合",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b26b5ed225a3",
+   "to": "ent_ea066222286e",
+   "type": "竞争",
+   "from_name": "国联鑫起点",
+   "to_name": "民生加银专精特新智选",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_13d4d26b8873",
+   "to": "ent_f85338e975c6",
+   "type": "竞争",
+   "from_name": "中信保诚多策略",
+   "to_name": "国金量化多因子",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_13d4d26b8873",
+   "to": "ent_b2eb813f542e",
+   "type": "竞争",
+   "from_name": "中信保诚多策略",
+   "to_name": "华夏磐泰混合",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9434024d5a36",
+   "to": "ent_ea066222286e",
+   "type": "竞争",
+   "from_name": "新华中小市值优选",
+   "to_name": "民生加银专精特新智选",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f85338e975c6",
+   "to": "ent_4cbdb54c0787",
+   "type": "竞争",
+   "from_name": "国金量化多因子",
+   "to_name": "金元顺安元启",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b2eb813f542e",
+   "to": "ent_13d4d26b8873",
+   "type": "竞争",
+   "from_name": "华夏磐泰混合",
+   "to_name": "中信保诚多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ea066222286e",
+   "to": "ent_9434024d5a36",
+   "type": "合作",
+   "from_name": "民生加银专精特新智选",
+   "to_name": "新华中小市值优选",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_16ce802b731a",
+   "to": "ent_0de787eb9a3d",
+   "type": "投资",
+   "from_name": "肖承志",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "PERSON",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_166e81072002",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "诺安多策略",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_13d4d26b8873",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "中信保诚多策略",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b2eb813f542e",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "华夏磐泰混合",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f85338e975c6",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "国金量化多因子",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4cbdb54c0787",
+   "to": "ent_2c86bfcafb6e",
+   "type": "投资",
+   "from_name": "金元顺安元启",
+   "to_name": "万得微盘股指数",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b26b5ed225a3",
+   "to": "ent_0de787eb9a3d",
+   "type": "投资",
+   "from_name": "国联鑫起点",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_82dc409749a6",
+   "to": "ent_0de787eb9a3d",
+   "type": "投资",
+   "from_name": "汇安多策略",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ea066222286e",
+   "to": "ent_0de787eb9a3d",
+   "type": "投资",
+   "from_name": "民生加银专精特新智选",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9434024d5a36",
+   "to": "ent_0de787eb9a3d",
+   "type": "投资",
+   "from_name": "新华中小市值优选",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7fd7baefb5f1",
+   "to": "ent_0de787eb9a3d",
+   "type": "监管",
+   "from_name": "扩散指数择时模型",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "TECH",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_aa33a0275ba4",
+   "to": "ent_0de787eb9a3d",
+   "type": "监管",
+   "from_name": "量化新规",
+   "to_name": "微盘股",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_aa33a0275ba4",
+   "to": "ent_f85338e975c6",
+   "type": "监管",
+   "from_name": "量化新规",
+   "to_name": "国金量化多因子",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "POLICY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7fd7baefb5f1",
+   "to": "ent_166e81072002",
+   "type": "监管",
+   "from_name": "扩散指数择时模型",
+   "to_name": "诺安多策略",
+   "from_ind": "证券",
+   "to_ind": "证券",
+   "from_type": "TECH",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  }
+ ],
+ "frameworks": [
+  {
+   "id": "fw_fw_cfa188e9db13",
+   "name": "微盘股基金持仓结构分析框架",
+   "type": "methodology",
+   "category": "公司分析",
+   "industry": "证券",
+   "steps": "[\"\\u7edf\\u8ba1\\u5fae\\u76d8\\u80a1\\u76f8\\u5173\\u57fa\\u91d1\\u89c4\\u6a21\\u53d8\\u5316\\u53ca\\u5b63\\u5ea6\\u73af\\u6bd4\\u589e\\u957f\", \"\\u8ba1\\u7b97\\u516c\\u52df\\u57fa\\u91d1\\u6301\\u6709\\u5fae\\u76d8\\u80a1\\u6307\\u6570\\u6210\\u5206\\u80a1\\u7684\\u5e02\\u503c\\u53ca\\u5360\\u6d41\\u901a\\u5e02\\u503c\\u6bd4\\u4f8b\", \"\\u5206\\u6790\\u524d\\u5341\\u5927\\u80a1\\u4e1c\\u4e2d\\u516c\\u52df\\u57fa\\u91d1\\u548c\\u91d1\\u878d\\u673a\\u6784\\u7684\\u6301\\u80a1\\u5360\\u6bd4\\u53ca\\u5386\\u53f2\\u5bf9\\u6bd4\", \"\\u7efc\\u5408\\u5224\\u65ad\\u673a\\u6784\\u52a0\\u4ed3\\u8d8b\\u52bf\\u548c\\u672a\\u6765\\u7a7a\\u95f4\"]",
+   "confidence": 0.8,
+   "content": "框架名称：微盘股基金持仓结构分析框架\n描述：通过统计近3个月和近一年相关性最高的50支基金规模变化，以及公募基金持有万得微盘股指数成分股的市值和占比，分析机构加仓趋势。同时考察前十大股东中公募基金和金融机构的持股情况，判断持仓拥挤度和未来加仓空间。\n适用场景：评估公募基金在微盘股领域的配置策略和拥挤度，用于投资决策参考\n核心维度：基金规模, 持仓占比, 股东结构\n步骤：统计微盘股相关基金规模变化及季度环比增长, 计算公募基金持有微盘股指数成分股的市值及占流通市值比例, 分析前十大股东中公募基金和金融机构的持股占比及历史对比, 综合判断机构加仓趋势和未来空间",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_8dd7df3ca00d",
+   "name": "微盘股扩散指数择时模型",
+   "type": "methodology",
+   "category": "风险分析",
+   "industry": "证券",
+   "steps": "[\"\\u5e94\\u7528\\u9996\\u6b21\\u9608\\u503c\\u6cd5\\u8ba1\\u7b97\\u5fae\\u76d8\\u80a1\\u6269\\u6563\\u6307\\u6570\", \"\\u5e94\\u7528\\u5ef6\\u8fdf\\u9608\\u503c\\u6cd5\\u9a8c\\u8bc1\\u4fe1\\u53f7\\u7a33\\u5b9a\\u6027\", \"\\u5e94\\u7528\\u53cc\\u5747\\u7ebf\\u6cd5\\u5224\\u65ad\\u8d8b\\u52bf\\u65b9\\u5411\", \"\\u7efc\\u5408\\u8f93\\u51fa\\u7a7a\\u4ed3\\u6216\\u6301\\u4ed3\\u4fe1\\u53f7\"]",
+   "confidence": 0.8,
+   "content": "框架名称：微盘股扩散指数择时模型\n描述：运用首次阈值法、延迟阈值法和双均线法等量化模型，对微盘股市场进行择时分析。截至2025年8月29日，这些模型均给出空仓信号，提示投资者注意市场风险和流动性问题。\n适用场景：利用量化择时模型判断微盘股交易信号，用于风险控制\n核心维度：阈值法, 均线法, 扩散指数\n步骤：应用首次阈值法计算微盘股扩散指数, 应用延迟阈值法验证信号稳定性, 应用双均线法判断趋势方向, 综合输出空仓或持仓信号",
+   "is_core": true,
+   "node_type": "framework"
+  }
+ ],
+ "logics": [
+  {
+   "id": "log_0a7f09595f4d0fad",
+   "logic_id": "0a7f09595f4d0fad",
+   "type": "因果",
+   "premise": "近3个月相关性最高的50支基金2025年Q2规模为225.85亿元，季度可比规模上升69.71亿元；公募基金持有万得微盘股指数成分股占流通市值比例为1.59%，较2024年Q4上升66bp。",
+   "conclusion": "机构仍在缓慢加仓微盘股，且未来仍有一定的加仓空间，因为前十大股东持股占比仍处于历史中部水平。",
+   "text": "基于近3个月相关性最高的50支基金2025年Q2规模为225.8,推导出机构仍在缓慢加仓微盘股，且未来仍有一定的加仓空间，因为前十大",
+   "dimension": "3",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_e527b0a982cb5a0f",
+   "logic_id": "e527b0a982cb5a0f",
+   "type": "趋势",
+   "premise": "公募基金持有100亿以下市值成分股占流通市值比例为2.91%，较2024年Q4上升82bp。",
+   "conclusion": "微盘股市场拥挤度在2025年Q2显著增加，需警惕流动性风险。",
+   "text": "从公募基金持有100亿以下市值成分股占流通市值比例为2.91%的趋势分析,判断微盘股市场拥挤度在2025年Q2显著增加，需警惕流动性风险。",
+   "dimension": "2",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_75fa0e33f7abc614",
+   "logic_id": "75fa0e33f7abc614",
+   "type": "因果",
+   "premise": "截至2025年8月29日，首次阈值法、延迟阈值法和双均线法均给出空仓信号。",
+   "conclusion": "微盘股面临流动性风险，投资者应执行空仓策略以规避风险。",
+   "text": "基于截至2025年8月29日，首次阈值法、延迟阈值法和双均线法均,推导出微盘股面临流动性风险，投资者应执行空仓策略以规避风险。",
+   "dimension": "4",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_4e6f1959f780487b",
+   "logic_id": "4e6f1959f780487b",
+   "type": "对比",
+   "premise": "微盘股相关基金规模在2025年Q2得到进一步显著增加，但基金规模仍未超过2024年Q1规模。",
+   "conclusion": "尽管2025年Q2基金规模显著增加，但仍未超过2024年Q1的规模水平。",
+   "text": "通过对比微盘股相关基金规模在2025年Q2得到进一步显著增加，但基金,得出尽管2025年Q2基金规模显著增加，但仍未超过2024年Q1",
+   "dimension": "3",
+   "confidence": 0.8,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_f227f49cbfda80d0",
+   "logic_id": "f227f49cbfda80d0",
+   "type": "因果",
+   "premise": "万得微盘股指数成分股的前十大股东中，公募基金持股占比0.48%（历史最低0.07%），金融机构持股占比1.52%（历史最低0.88%）。",
+   "conclusion": "前十大股东持股拥挤度处于历史中部水平，未来仍有一定的加仓空间。",
+   "text": "基于万得微盘股指数成分股的前十大股东中，公募基金持股占比0.48,推导出前十大股东持股拥挤度处于历史中部水平，未来仍有一定的加仓空间",
+   "dimension": "3",
+   "confidence": 0.8,
+   "is_core": true,
+   "node_type": "logic"
+  }
+ ],
+ "indicators": [
+  {
+   "id": "ind_ind_1d58112438d6",
+   "indicator_id": "ind_1d58112438d6",
+   "name": "万凯新材市值",
+   "type": "估值",
+   "unit": "亿元",
+   "value": "99",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_eb11e3b34686",
+   "indicator_id": "ind_eb11e3b34686",
+   "name": "万凯新材权益未来产能",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_136db7571c62",
+   "indicator_id": "ind_136db7571c62",
+   "name": "万得微盘股指数前十大股东中公募基金持股占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "0.48",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a6064cf93f20",
+   "indicator_id": "ind_a6064cf93f20",
+   "name": "万得微盘股指数前十大股东中公募基金持股历史最低占比",
+   "type": "基准",
+   "unit": "%",
+   "value": "0.07",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c41ceb39fe5a",
+   "indicator_id": "ind_c41ceb39fe5a",
+   "name": "万得微盘股指数前十大股东中公募基金持股流通市值",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "34.55",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_502fb32838a5",
+   "indicator_id": "ind_502fb32838a5",
+   "name": "万得微盘股指数前十大股东中金融机构持股占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "1.52",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9c00b337d3a3",
+   "indicator_id": "ind_9c00b337d3a3",
+   "name": "万得微盘股指数前十大股东中金融机构持股历史最低占比",
+   "type": "基准",
+   "unit": "%",
+   "value": "0.88",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2eb0f1bd0b5e",
+   "indicator_id": "ind_2eb0f1bd0b5e",
+   "name": "万得微盘股指数前十大股东中金融机构持股流通市值",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "108",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1d613443050b",
+   "indicator_id": "ind_1d613443050b",
+   "name": "丰元股份市值",
+   "type": "估值",
+   "unit": "亿元",
+   "value": "46",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_363b6726f474",
+   "indicator_id": "ind_363b6726f474",
+   "name": "丰元股份权益未来产能",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_7360e4815e97",
+   "indicator_id": "ind_7360e4815e97",
+   "name": "公募基金持有万得微盘股指数成分股占比环比上升",
+   "type": "增长率",
+   "unit": "bp",
+   "value": "66",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6defdb56a221",
+   "indicator_id": "ind_6defdb56a221",
+   "name": "公募基金持有万得微盘股指数成分股占流通市值比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "1.59",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_947f84a4664e",
+   "indicator_id": "ind_947f84a4664e",
+   "name": "公募基金持有万得微盘股指数成分股市值",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "114",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_eb5d86e459b2",
+   "indicator_id": "ind_eb5d86e459b2",
+   "name": "华鲁恒升市值",
+   "type": "估值",
+   "unit": "亿元",
+   "value": "634",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2291b75159d8",
+   "indicator_id": "ind_2291b75159d8",
+   "name": "华鲁恒升新增产能",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "100",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_137db3a474f4",
+   "indicator_id": "ind_137db3a474f4",
+   "name": "华鲁恒升现有产能",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "70",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e7ee6a5d2c91",
+   "indicator_id": "ind_e7ee6a5d2c91",
+   "name": "宁德时代对江西升华持股比例（2025年9月）",
+   "type": "份额",
+   "unit": "%",
+   "value": "51",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e99e5ccacf4b",
+   "indicator_id": "ind_e99e5ccacf4b",
+   "name": "微盘股基金规模对比基准",
+   "type": "基准",
+   "unit": "时期",
+   "value": "2024年Q1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_670639bbed13",
+   "indicator_id": "ind_670639bbed13",
+   "name": "微盘股扩散指数择时信号",
+   "type": "其他",
+   "unit": "信号",
+   "value": "空仓",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ac9ffe4cfb8f",
+   "indicator_id": "ind_ac9ffe4cfb8f",
+   "name": "微盘股流动性风险等级",
+   "type": "风险",
+   "unit": "定性",
+   "value": "高",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e7c3ccd5cdcf",
+   "indicator_id": "ind_e7c3ccd5cdcf",
+   "name": "新疆天业市值",
+   "type": "估值",
+   "unit": "亿元",
+   "value": "81",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_46a4a040e826",
+   "indicator_id": "ind_46a4a040e826",
+   "name": "新疆天业权益未来产能",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_236df7c0bb89",
+   "indicator_id": "ind_236df7c0bb89",
+   "name": "新能源领域草酸需求占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "30",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_904391f01e45",
+   "indicator_id": "ind_904391f01e45",
+   "name": "江西升华总投资",
+   "type": "成本",
+   "unit": "亿元",
+   "value": "40",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b9eb1dacaeb8",
+   "indicator_id": "ind_b9eb1dacaeb8",
+   "name": "江西升华规划产能",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "35",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b3b259aab87d",
+   "indicator_id": "ind_b3b259aab87d",
+   "name": "磷酸铁法产能折损率",
+   "type": "营运",
+   "unit": "%",
+   "value": "35",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_44ef6c6d0f96",
+   "indicator_id": "ind_44ef6c6d0f96",
+   "name": "磷酸铁法烧结周期",
+   "type": "营运",
+   "unit": "小时",
+   "value": "22.5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f7bb35b3bee7",
+   "indicator_id": "ind_f7bb35b3bee7",
+   "name": "稀土开采总量控制指标",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "27",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_aa987fde19c4",
+   "indicator_id": "ind_aa987fde19c4",
+   "name": "第四代高压密产品出货占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "30",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_da4691412dec",
+   "indicator_id": "ind_da4691412dec",
+   "name": "第四代高压密产品出货占比（2026年预期）",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f13ea9dc8a5c",
+   "indicator_id": "ind_f13ea9dc8a5c",
+   "name": "草酸亚铁法产能折损率",
+   "type": "营运",
+   "unit": "%",
+   "value": "0",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_11ccdcb67e4f",
+   "indicator_id": "ind_11ccdcb67e4f",
+   "name": "草酸亚铁法烧结周期",
+   "type": "营运",
+   "unit": "小时",
+   "value": "13.5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3889795077ac",
+   "indicator_id": "ind_3889795077ac",
+   "name": "草酸亚铁法磷酸铁锂产量",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_023c306753e3",
+   "indicator_id": "ind_023c306753e3",
+   "name": "草酸产能",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "119",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8aff0014e0a1",
+   "indicator_id": "ind_8aff0014e0a1",
+   "name": "草酸价格回升幅度",
+   "type": "增长率",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d27bf1c37aac",
+   "indicator_id": "ind_d27bf1c37aac",
+   "name": "草酸供需缺口",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9fe502d6e0cf",
+   "indicator_id": "ind_9fe502d6e0cf",
+   "name": "草酸新增供给（2025年）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "13",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4f641b695001",
+   "indicator_id": "ind_4f641b695001",
+   "name": "草酸新增供给（2026年）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "45",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3a32dd9fe5a4",
+   "indicator_id": "ind_3a32dd9fe5a4",
+   "name": "草酸新增供给（万凯新材）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_40102270ae20",
+   "indicator_id": "ind_40102270ae20",
+   "name": "草酸新增供给（天业汇合）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "3",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_62989c8f166d",
+   "indicator_id": "ind_62989c8f166d",
+   "name": "草酸新增供给（广西华谊）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "22",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2fa29fe57412",
+   "indicator_id": "ind_2fa29fe57412",
+   "name": "草酸新增供给（通辽金煤）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4aa331a3c4c5",
+   "indicator_id": "ind_4aa331a3c4c5",
+   "name": "草酸新增需求",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "18",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6feb4a654720",
+   "indicator_id": "ind_6feb4a654720",
+   "name": "草酸新增需求（2025年）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "18",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_03f3552ea3ec",
+   "indicator_id": "ind_03f3552ea3ec",
+   "name": "草酸行业开工率",
+   "type": "营运",
+   "unit": "%",
+   "value": "70",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3f558870d84b",
+   "indicator_id": "ind_3f558870d84b",
+   "name": "草酸行业开工率（2025年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "70",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d8b5df6043a2",
+   "indicator_id": "ind_d8b5df6043a2",
+   "name": "草酸表观消费量",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "40",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c9718d35dc50",
+   "indicator_id": "ind_c9718d35dc50",
+   "name": "草酸表观消费量同比增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "60",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e736d89471dc",
+   "indicator_id": "ind_e736d89471dc",
+   "name": "近3个月相关性最高的50支基金2025年Q2规模",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "225.85",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0a3e237d9fa2",
+   "indicator_id": "ind_0a3e237d9fa2",
+   "name": "近3个月相关性最高的50支基金季度可比规模上升额",
+   "type": "增长率",
+   "unit": "亿元",
+   "value": "69.71",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_22fdafd2c076",
+   "indicator_id": "ind_22fdafd2c076",
+   "name": "近一年相关性最高的50支基金2025年Q2规模",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "286.78",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b5fc562de39f",
+   "indicator_id": "ind_b5fc562de39f",
+   "name": "近一年相关性最高的50支基金季度可比规模上升额",
+   "type": "增长率",
+   "unit": "亿元",
+   "value": "61.65",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d0c42e0ab4fe",
+   "indicator_id": "ind_d0c42e0ab4fe",
+   "name": "金煤科技市值",
+   "type": "估值",
+   "unit": "亿元",
+   "value": "27",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_cbbd8469575b",
+   "indicator_id": "ind_cbbd8469575b",
+   "name": "金煤科技权益未来产能",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "15",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f891930c0bc1",
+   "indicator_id": "ind_f891930c0bc1",
+   "name": "公募基金持有100亿以下市值成分股占比环比上升",
+   "type": "增长率",
+   "unit": "bp",
+   "value": "82",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b0afedc6dd28",
+   "indicator_id": "ind_b0afedc6dd28",
+   "name": "公募基金持有100亿以下市值成分股占流通市值比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "2.91",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d0b0a603f52c",
+   "indicator_id": "ind_d0b0a603f52c",
+   "name": "公募基金持有100亿以下市值成分股市值",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "4038",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a7bd0ce85421",
+   "indicator_id": "ind_a7bd0ce85421",
+   "name": "公募基金持有50亿以下市值成分股占比环比上升",
+   "type": "增长率",
+   "unit": "bp",
+   "value": "19",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d8c9c1b6612b",
+   "indicator_id": "ind_d8c9c1b6612b",
+   "name": "公募基金持有50亿以下市值成分股占流通市值比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "1.74",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fc19656153f1",
+   "indicator_id": "ind_fc19656153f1",
+   "name": "公募基金持有50亿以下市值成分股市值",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "979",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3f86c00cf6e5",
+   "indicator_id": "ind_3f86c00cf6e5",
+   "name": "土霉素市场规模CAGR",
+   "type": "增长率",
+   "unit": "%",
+   "value": "5",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ff07f49e9c23",
+   "indicator_id": "ind_ff07f49e9c23",
+   "name": "宁德时代对江西升华持股比例（2021年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "2.96",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4c2ba632e5cd",
+   "indicator_id": "ind_4c2ba632e5cd",
+   "name": "微盘股交易范式争议程度",
+   "type": "其他",
+   "unit": "定性",
+   "value": "主要矛盾",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f2f419fc2692",
+   "indicator_id": "ind_f2f419fc2692",
+   "name": "微盘股前十大股东持股拥挤度历史水平",
+   "type": "其他",
+   "unit": "定性",
+   "value": "中部",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_953d02d23715",
+   "indicator_id": "ind_953d02d23715",
+   "name": "微盘股基金规模增长状态",
+   "type": "其他",
+   "unit": "定性",
+   "value": "显著增加",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d163440bf0b7",
+   "indicator_id": "ind_d163440bf0b7",
+   "name": "微盘股政策风险等级",
+   "type": "风险",
+   "unit": "定性",
+   "value": "存在",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6f1d093f7032",
+   "indicator_id": "ind_6f1d093f7032",
+   "name": "微盘股短期上涨动能",
+   "type": "其他",
+   "unit": "定性",
+   "value": "枯竭",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_534e010e9567",
+   "indicator_id": "ind_534e010e9567",
+   "name": "微盘股舆情风险等级",
+   "type": "风险",
+   "unit": "定性",
+   "value": "存在",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_7666bcbc4c90",
+   "indicator_id": "ind_7666bcbc4c90",
+   "name": "微盘股调整充分性",
+   "type": "其他",
+   "unit": "定性",
+   "value": "不充分",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6fbb2fe04151",
+   "indicator_id": "ind_6fbb2fe04151",
+   "name": "未来加仓空间评估",
+   "type": "其他",
+   "unit": "定性",
+   "value": "有一定空间",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b3775986db18",
+   "indicator_id": "ind_b3775986db18",
+   "name": "机构加仓微盘股趋势",
+   "type": "其他",
+   "unit": "定性",
+   "value": "缓慢加仓",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c056edecaa17",
+   "indicator_id": "ind_c056edecaa17",
+   "name": "稀土开采总量控制指标（2020年）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "14",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_210db7c3d110",
+   "indicator_id": "ind_210db7c3d110",
+   "name": "草酸亚铁法磷酸铁锂产量（2022年）",
+   "type": "规模",
+   "unit": "万吨",
+   "value": "5",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3dba40fb53f9",
+   "indicator_id": "ind_3dba40fb53f9",
+   "name": "草酸行业开工率（2012年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "5",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f2a75e539221",
+   "indicator_id": "ind_f2a75e539221",
+   "name": "草酸行业开工率（2013年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "10",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_99a22b40bbf9",
+   "indicator_id": "ind_99a22b40bbf9",
+   "name": "草酸行业开工率（2014年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "15",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_95a8295fbf0b",
+   "indicator_id": "ind_95a8295fbf0b",
+   "name": "草酸行业开工率（2015年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "20",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3b92d4fc9eb9",
+   "indicator_id": "ind_3b92d4fc9eb9",
+   "name": "草酸行业开工率（2016年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "25",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_565db9f7f68b",
+   "indicator_id": "ind_565db9f7f68b",
+   "name": "草酸行业开工率（2017年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "30",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_922169151b5d",
+   "indicator_id": "ind_922169151b5d",
+   "name": "草酸行业开工率（2018年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "35",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_363542462ee8",
+   "indicator_id": "ind_363542462ee8",
+   "name": "草酸行业开工率（2019年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "40",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b0d43479ce0a",
+   "indicator_id": "ind_b0d43479ce0a",
+   "name": "草酸行业开工率（2020年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "45",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_742416ac2bab",
+   "indicator_id": "ind_742416ac2bab",
+   "name": "草酸行业开工率（2021年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "50",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_bb13f27ce295",
+   "indicator_id": "ind_bb13f27ce295",
+   "name": "草酸行业开工率（2022年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "55",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6e3a8fe373ed",
+   "indicator_id": "ind_6e3a8fe373ed",
+   "name": "草酸行业开工率（2023年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "60",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_78d2a41b4ae3",
+   "indicator_id": "ind_78d2a41b4ae3",
+   "name": "草酸行业开工率（2024年）",
+   "type": "营运",
+   "unit": "%",
+   "value": "65",
+   "is_core": false,
+   "node_type": "indicator"
+  }
+ ],
+ "framework_entity_edges": [],
+ "logic_entity_edges": [
+  {
+   "from": "log_0a7f09595f4d0fad",
+   "to": "ent_0de787eb9a3d",
+   "type": "逻辑关联",
+   "from_name": "log_0a7f09595f4d0fad",
+   "to_name": "微盘股",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_0a7f09595f4d0fad",
+   "to": "ent_2c86bfcafb6e",
+   "type": "逻辑关联",
+   "from_name": "log_0a7f09595f4d0fad",
+   "to_name": "万得微盘股指数",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_e527b0a982cb5a0f",
+   "to": "ent_0de787eb9a3d",
+   "type": "逻辑关联",
+   "from_name": "log_e527b0a982cb5a0f",
+   "to_name": "微盘股",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_75fa0e33f7abc614",
+   "to": "ent_0de787eb9a3d",
+   "type": "逻辑关联",
+   "from_name": "log_75fa0e33f7abc614",
+   "to_name": "微盘股",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_4e6f1959f780487b",
+   "to": "ent_0de787eb9a3d",
+   "type": "逻辑关联",
+   "from_name": "log_4e6f1959f780487b",
+   "to_name": "微盘股",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f227f49cbfda80d0",
+   "to": "ent_2c86bfcafb6e",
+   "type": "逻辑关联",
+   "from_name": "log_f227f49cbfda80d0",
+   "to_name": "万得微盘股指数",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f227f49cbfda80d0",
+   "to": "ent_0de787eb9a3d",
+   "type": "逻辑关联",
+   "from_name": "log_f227f49cbfda80d0",
+   "to_name": "微盘股",
+   "edge_type": "logic_entity"
+  }
+ ],
+ "indicator_entity_edges": [
+  {
+   "from": "ind_ind_1d58112438d6",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d58112438d6",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb11e3b34686",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb11e3b34686",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_136db7571c62",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_136db7571c62",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_136db7571c62",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_136db7571c62",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_136db7571c62",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_136db7571c62",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a6064cf93f20",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_a6064cf93f20",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a6064cf93f20",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_a6064cf93f20",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a6064cf93f20",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_a6064cf93f20",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c41ceb39fe5a",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_c41ceb39fe5a",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c41ceb39fe5a",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_c41ceb39fe5a",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c41ceb39fe5a",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_c41ceb39fe5a",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_502fb32838a5",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_502fb32838a5",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_502fb32838a5",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_502fb32838a5",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_502fb32838a5",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_502fb32838a5",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9c00b337d3a3",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_9c00b337d3a3",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9c00b337d3a3",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_9c00b337d3a3",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9c00b337d3a3",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_9c00b337d3a3",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2eb0f1bd0b5e",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_2eb0f1bd0b5e",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2eb0f1bd0b5e",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_2eb0f1bd0b5e",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2eb0f1bd0b5e",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_2eb0f1bd0b5e",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d613443050b",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d613443050b",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_363b6726f474",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_363b6726f474",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7360e4815e97",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_7360e4815e97",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7360e4815e97",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_7360e4815e97",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7360e4815e97",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_7360e4815e97",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6defdb56a221",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_6defdb56a221",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6defdb56a221",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_6defdb56a221",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6defdb56a221",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_6defdb56a221",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_947f84a4664e",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_947f84a4664e",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_947f84a4664e",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_947f84a4664e",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_947f84a4664e",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_947f84a4664e",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb5d86e459b2",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb5d86e459b2",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2291b75159d8",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_2291b75159d8",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_137db3a474f4",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_137db3a474f4",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e7ee6a5d2c91",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e7ee6a5d2c91",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e99e5ccacf4b",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_e99e5ccacf4b",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e99e5ccacf4b",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_e99e5ccacf4b",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e99e5ccacf4b",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_e99e5ccacf4b",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_670639bbed13",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_670639bbed13",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_670639bbed13",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_670639bbed13",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_670639bbed13",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_670639bbed13",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ac9ffe4cfb8f",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_ac9ffe4cfb8f",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ac9ffe4cfb8f",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_ac9ffe4cfb8f",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ac9ffe4cfb8f",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_ac9ffe4cfb8f",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e7c3ccd5cdcf",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e7c3ccd5cdcf",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_46a4a040e826",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_46a4a040e826",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_236df7c0bb89",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_236df7c0bb89",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_904391f01e45",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_904391f01e45",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b9eb1dacaeb8",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_b9eb1dacaeb8",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b3b259aab87d",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_b3b259aab87d",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_44ef6c6d0f96",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_44ef6c6d0f96",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f7bb35b3bee7",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f7bb35b3bee7",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_aa987fde19c4",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_aa987fde19c4",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_da4691412dec",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_da4691412dec",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f13ea9dc8a5c",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f13ea9dc8a5c",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_11ccdcb67e4f",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_11ccdcb67e4f",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3889795077ac",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_3889795077ac",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_023c306753e3",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_023c306753e3",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8aff0014e0a1",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_8aff0014e0a1",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d27bf1c37aac",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_d27bf1c37aac",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9fe502d6e0cf",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_9fe502d6e0cf",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4f641b695001",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_4f641b695001",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3a32dd9fe5a4",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_3a32dd9fe5a4",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_40102270ae20",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_40102270ae20",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_62989c8f166d",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_62989c8f166d",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2fa29fe57412",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_2fa29fe57412",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4aa331a3c4c5",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_4aa331a3c4c5",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6feb4a654720",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_6feb4a654720",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_03f3552ea3ec",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_03f3552ea3ec",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3f558870d84b",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_3f558870d84b",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d8b5df6043a2",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_d8b5df6043a2",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c9718d35dc50",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_c9718d35dc50",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e736d89471dc",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_e736d89471dc",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e736d89471dc",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_e736d89471dc",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e736d89471dc",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_e736d89471dc",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0a3e237d9fa2",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_0a3e237d9fa2",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0a3e237d9fa2",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_0a3e237d9fa2",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0a3e237d9fa2",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_0a3e237d9fa2",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_22fdafd2c076",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_22fdafd2c076",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_22fdafd2c076",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_22fdafd2c076",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_22fdafd2c076",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_22fdafd2c076",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b5fc562de39f",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_b5fc562de39f",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b5fc562de39f",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_b5fc562de39f",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b5fc562de39f",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_b5fc562de39f",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d0c42e0ab4fe",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_d0c42e0ab4fe",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cbbd8469575b",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_cbbd8469575b",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f891930c0bc1",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_f891930c0bc1",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f891930c0bc1",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_f891930c0bc1",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f891930c0bc1",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_f891930c0bc1",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b0afedc6dd28",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_b0afedc6dd28",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b0afedc6dd28",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_b0afedc6dd28",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b0afedc6dd28",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_b0afedc6dd28",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d0b0a603f52c",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_d0b0a603f52c",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d0b0a603f52c",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_d0b0a603f52c",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d0b0a603f52c",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_d0b0a603f52c",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a7bd0ce85421",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_a7bd0ce85421",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a7bd0ce85421",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_a7bd0ce85421",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a7bd0ce85421",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_a7bd0ce85421",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d8c9c1b6612b",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_d8c9c1b6612b",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d8c9c1b6612b",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_d8c9c1b6612b",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d8c9c1b6612b",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_d8c9c1b6612b",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc19656153f1",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc19656153f1",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc19656153f1",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc19656153f1",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc19656153f1",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc19656153f1",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3f86c00cf6e5",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_3f86c00cf6e5",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ff07f49e9c23",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ff07f49e9c23",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c2ba632e5cd",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c2ba632e5cd",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c2ba632e5cd",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c2ba632e5cd",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c2ba632e5cd",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c2ba632e5cd",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f2f419fc2692",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_f2f419fc2692",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f2f419fc2692",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_f2f419fc2692",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f2f419fc2692",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_f2f419fc2692",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_953d02d23715",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_953d02d23715",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_953d02d23715",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_953d02d23715",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_953d02d23715",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_953d02d23715",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d163440bf0b7",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_d163440bf0b7",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d163440bf0b7",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_d163440bf0b7",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d163440bf0b7",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_d163440bf0b7",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6f1d093f7032",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_6f1d093f7032",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6f1d093f7032",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_6f1d093f7032",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6f1d093f7032",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_6f1d093f7032",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_534e010e9567",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_534e010e9567",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_534e010e9567",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_534e010e9567",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_534e010e9567",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_534e010e9567",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7666bcbc4c90",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_7666bcbc4c90",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7666bcbc4c90",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_7666bcbc4c90",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7666bcbc4c90",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_7666bcbc4c90",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6fbb2fe04151",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_6fbb2fe04151",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6fbb2fe04151",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_6fbb2fe04151",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6fbb2fe04151",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_6fbb2fe04151",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b3775986db18",
+   "to": "ent_16ce802b731a",
+   "type": "指标关联",
+   "from_name": "ind_ind_b3775986db18",
+   "to_name": "肖承志",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b3775986db18",
+   "to": "ent_0de787eb9a3d",
+   "type": "指标关联",
+   "from_name": "ind_ind_b3775986db18",
+   "to_name": "微盘股",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b3775986db18",
+   "to": "ent_aa33a0275ba4",
+   "type": "指标关联",
+   "from_name": "ind_ind_b3775986db18",
+   "to_name": "量化新规",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c056edecaa17",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_c056edecaa17",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_210db7c3d110",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_210db7c3d110",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3dba40fb53f9",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_3dba40fb53f9",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f2a75e539221",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f2a75e539221",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_99a22b40bbf9",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_99a22b40bbf9",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_95a8295fbf0b",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_95a8295fbf0b",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3b92d4fc9eb9",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_3b92d4fc9eb9",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_565db9f7f68b",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_565db9f7f68b",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_922169151b5d",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_922169151b5d",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_363542462ee8",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_363542462ee8",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b0d43479ce0a",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_b0d43479ce0a",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_742416ac2bab",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_742416ac2bab",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bb13f27ce295",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_bb13f27ce295",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6e3a8fe373ed",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_6e3a8fe373ed",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_78d2a41b4ae3",
+   "to": "ent_d48e5190d6cc",
+   "type": "指标关联",
+   "from_name": "ind_ind_78d2a41b4ae3",
+   "to_name": "东方证券",
+   "edge_type": "indicator_entity"
+  }
+ ],
+ "counts": {
+  "entity_count": 15,
+  "relation_count": 75,
+  "framework_count": 2,
+  "logic_count": 5,
+  "indicator_count": 86
+ }
+}

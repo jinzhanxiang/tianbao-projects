@@ -1,0 +1,3099 @@
+{
+ "name": "电力",
+ "entities": [
+  {
+   "id": "ent_4d5e1b062c45",
+   "name": "单轴跟踪系统",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "光伏跟踪系统关键设备，飓风海伦娜摧毁北卡罗来纳州500英里跟踪系统。系统需满足25m/s风速阈值防护，冰雹防御需调整收纳角度。2024年飓风米尔顿损坏归因于设计不良的单轴跟踪系统，行业采用VDE America抗冰优化设计。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_f398096c2d01",
+   "name": "IEC 61215-2标准",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "光伏组件弹道冲击测试需承受11次25毫米冰球终端速度冲击，但未区分产品设计脆弱性。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_4b68c4f9e7aa",
+   "name": "以色列内盖夫沙漠",
+   "type": "PLACE",
+   "industry": "电力",
+   "desc": "2020年5月热浪期间光伏组件Pmpp降低9.8%，Isc降低5.7%，Voc降低3.2%，温度系数TC为-0.39%。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_7ac3c92414d8",
+   "name": "单轴跟踪器",
+   "type": "PRODUCT",
+   "industry": "电力",
+   "desc": "单轴跟踪器在热带气旋中易受扭转应力影响，若紧固件不足可能导致模块脱落，需通过防损跟踪记录验证积载算法。其设计需符合ASCE 7-22等抗风荷载标准，以确保结构稳定性。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_66e5a724e5a0",
+   "name": "卡塔尔",
+   "type": "PLACE",
+   "industry": "电力",
+   "desc": "2015年4月沙尘暴导致光伏系统能量产出下降超50%，PM10浓度达339 µg/m³，积污损失增长20倍。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_a53b02ff19ec",
+   "name": "钢化玻璃",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "根据kwh分析2023年数据，钢化玻璃制成的光伏模块对冰雹的弹性约为热强化玻璃的2倍，显著提升抗冰雹能力。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_c7ed2af1bd18",
+   "name": "GCube Insurance",
+   "type": "ORG",
+   "industry": "电力",
+   "desc": "研究显示野火造成的光伏系统保险索赔数量重大，经济损失与飓风、洪水相当，但远低于冰雹损坏。2019-2020年新南威尔士州野火导致175±35 GWh能量损失，经济损失19±4百万美元。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_8ff0f9464d65",
+   "name": "加利福尼亚州",
+   "type": "PLACE",
+   "industry": "电力",
+   "desc": "2020年野火高发季节太阳能发电量平均下降近30%，烟雾导致峰值时段能源生产损失15%。野火烟雾影响范围覆盖美国东部大部分地区，大气颗粒物持续数月。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_8a6d55dd0146",
+   "name": "德克萨斯州",
+   "type": "PLACE",
+   "industry": "电力",
+   "desc": "2024年德克萨斯州冰雹风暴预计造成7000万至8000万美元太阳能损失，凸显极端天气对光伏电站的经济影响。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_2f9120d3e62e",
+   "name": "气溶胶光学厚度(AOD)",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "用于监测沙尘暴事件，DOD更适合DSS监测，哥白尼2024年启动气溶胶警报服务。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_bc74e38435a3",
+   "name": "IEA-PVPS",
+   "type": "ORG",
+   "industry": "电力",
+   "desc": "国际能源署光伏计划（IEA PVPS）成立于1973年，由28个成员国组成，包括澳大利亚、中国、德国等。该计划通过技术合作推动光伏系统可靠性研究，2025年发布任务13报告《极端天气对光伏电站运营和经济影响》，覆盖热带气旋、冰雹等7类灾害。报告引用IPCC数据指出全球光伏装机将从2024年2TW增至2030年8TW，并分析冰雹导致54.2%保险索赔价值占比。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_922dd2ea21f7",
+   "name": "IP67防护标准",
+   "type": "POLICY",
+   "industry": "电力",
+   "desc": "光伏组件接线盒和逆变器具备IP67或更高级别防护，可抵御48小时水浸。研究显示IP67级接线盒在1-3英尺深水中浸泡48小时后无进水迹象，而IP65级接线盒出现烧痕和熔化。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_23270eb2ea05",
+   "name": "NEDO",
+   "type": "ORG",
+   "industry": "电力",
+   "desc": "日本新能源产业技术开发组织（NEDO）于2023年发布多项光伏系统设计与施工指南，包括浮动式太阳能、农业光伏系统及倾斜地面安装指南，覆盖极端天气应对方案。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u65b0\\u80fd\\u6e90\\u7535\\u6c60\\u884c\\u4e1a\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_492447747ba9",
+   "name": "弗劳恩霍夫ISE监测站",
+   "type": "ORG",
+   "industry": "电力",
+   "desc": "位于以色列内盖夫沙漠（30.8°纬度），年平均辐照量2276 kWh/m²，环境温度20.4°C，有效组件温度35.4°C。2020年5月热浪期间记录到Pmpp降低12.5W（9.8%），Isc降低0.3A（5.7%），Voc降低1.1V（3.2%），温度系数TC为-0.39%。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_25c33530954e",
+   "name": "新南威尔士州",
+   "type": "PLACE",
+   "industry": "电力",
+   "desc": "2019-2020年森林大火导致170个分布式屋顶光伏系统总能量损失175±35 GWh，经济损失19±4百万美元。PM2.5浓度每增加100 μg/m³，光伏发电功率降低13±2%。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_0cbd68caaa36",
+   "name": "日本国立技术评价机构",
+   "type": "ORG",
+   "industry": "电力",
+   "desc": "日本国立技术评价机构（NITE）在2018-2021年监测到东北和北海道地区43个光伏系统因重雪受损，总容量约30MW，主要损伤为组件框架变形。2021-2023年研究覆盖65个阵列，建议通过监控摄像头快速检测积雪并定期清除。该机构发布的两份研究报告详细记录了不同规模系统（50kW-2MW及>2MW）的雪灾损失数据，为寒冷地区光伏设计提供实证依据。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_c3319fcae8eb",
+   "name": "日本国立技术评价机构(NITE)",
+   "type": "ORG",
+   "industry": "电力",
+   "desc": "2018-2021年记录东北和北海道43个光伏系统因重雪受损，总容量约30MW，最常见损伤为组件框架变形。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_443df95fd460",
+   "name": "热带气旋",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "热带气旋包括飓风、台风和季风，风速通常超过33 m/s，暴雨可能导致洪水。研究显示飓风期间光伏系统电力损失约50%，性能比率降至12.6%，且紧固件故障可能导致模块脱落，需通过防损跟踪记录验证单轴跟踪器积载算法。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_b6c5d85031b1",
+   "name": "紧固件",
+   "type": "PRODUCT",
+   "industry": "电力",
+   "desc": "紧固件其质量直接影响系统抗风能力，需符合IEC 62446等标准。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_5ce3216f9508",
+   "name": "182毫米M10电池",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "182毫米M10电池占2025年市场总量31%，其快速普及引发可靠性问题。当前组件尺寸达2.3米×1.3米（30公斤），但未针对重雪载荷加固。Burnham团队正在对比不同电池尺寸组件的冬季鲁棒性，研究结果将于2026年发表，重点评估风雪载荷与低温对电池开裂的影响。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_336983ab9f19",
+   "name": "EL成像技术",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "用于检测冰雹导致的隐形细胞裂纹，瑞士案例中6000块组件检测发现57%存在裂纹，需在黑暗环境中执行。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_d9633e3af7ce",
+   "name": "IEC 61215-2",
+   "type": "POLICY",
+   "industry": "电力",
+   "desc": "国际电工委员会发布的《地面光伏组件设计合格与型式批准》标准（IEC 61215-2）于2021年更新，规定了光伏组件在极端天气下的测试程序，包括冰雹冲击和雪荷载测试。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_e8b3373a5e0d",
+   "name": "IPCC",
+   "type": "ORG",
+   "industry": "电力",
+   "desc": "政府间气候变化专门委员会（IPCC）将极端天气定义为在特定时间和地点年份中较为罕见的事件，通常指概率分布的第10或90百分位数。其报告指出人为气候变化导致大多数极端天气类别的强度和频率增加，超出自然气候变异范围，并预测全球温度升高将直接影响光伏系统效率。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_f8f0dc67367e",
+   "name": "NREL",
+   "type": "ORG",
+   "industry": "电力",
+   "desc": "美国国家可再生能源实验室（NREL）在2024年飓风海伦娜事件中记录了超过500英里的内陆破坏，并提供了光伏系统抗风暴加固操作规程，强调紧固件扭矩审核的重要性，建议对至少1%的紧固件进行抽检，若10%不合格需重新安装。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_1cc24894ca56",
+   "name": "冰雹",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "冰雹事件中，直径4-5厘米的冰雹对光伏组件造成最严重损坏，2016年荷兰冰雹事件导致4厘米以上冰雹造成显著保险损失，且冰雹频率在南欧37年间显著增加，需采用前玻璃较厚的组件设计以应对风险。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_cebfe5a268b0",
+   "name": "劳里·伯恩哈姆",
+   "type": "PERSON",
+   "industry": "电力",
+   "desc": "美国桑迪亚国家实验室主要作者，负责极端天气对光伏电站影响的研究报告，提出单轴跟踪器收纳策略可显著减少冰雹损害，并参与开发基于气象警报的自动化防御系统。",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_5fbcfd803a09",
+   "name": "德克萨斯州佩科斯县",
+   "type": "PLACE",
+   "industry": "电力",
+   "desc": "2019年5月冰雹损坏182兆瓦电站超40万块组件，保险损失7000-8000万美元，冰雹直径达9厘米。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_fcff1cbbdd88",
+   "name": "电致发光成像",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "电致发光（EL）成像可检测光伏组件内部裂纹，但过程耗时且昂贵，通常仅对部分模块进行采样，用于评估风暴后的隐性损坏。电致发光成像需与外观检查记录和I-V测量结合，以全面诊断系统性能。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_0ad4a06c21c7",
+   "name": "红外成像技术",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "红外（IR）成像技术用于检测光伏组件内部损坏，如连接器过热或电气故障，但成本较高，通常仅在怀疑细胞损伤时采样使用。红外成像技术可辅助评估风暴后的系统安全性，需结合天气数据进行时间序列分析。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_31386541fd67",
+   "name": "Aarseth",
+   "type": "PERSON",
+   "industry": "电力",
+   "desc": "挪威奥斯陆的Aarseth团队通过向1兆瓦屋顶阵列施加10安培电流（45伏特前向偏置）实现除雪，证明偏置加热有效性。其研究指出能源回收期受天气条件和电价影响，但长期经济性和对模块老化的影响尚未明确，工业规模测试仍待验证。",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_961f25bc1c54",
+   "name": "异质结技术",
+   "type": "TECH",
+   "industry": "电力",
+   "desc": "低温系数光伏技术，在高温环境下保持较高发电效率。研究显示其温度系数TC为-0.33%，优于传统组件的-0.39%。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_ab5d03d4befd",
+   "name": "Lenny Tinker",
+   "type": "PERSON",
+   "industry": "电力",
+   "desc": "美国能源部太阳能技术办公室专家，担任IEA-PVPS任务13报告审阅专家。参与制定光伏电站抗风设计指南，推动美国能源部发布38268/38535/52773号奖励计划，支持极端天气下光伏系统可靠性研究。",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_5aa1ce2474c2",
+   "name": "ASCE 7-22",
+   "type": "POLICY",
+   "industry": "电力",
+   "desc": "美国抗风设计标准，2021年发布，规定光伏系统需承受33m/s以上风速。与SEAOC PV2-2017共同构成美国光伏抗风规范体系，紧固件扭矩审核覆盖1%以上样本，10%不合格需全面返工。",
+   "attrs": "{\"industry\": \"\\u7535\\u529b/\\u98ce\\u7535/\\u5149\\u4f0f\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  }
+ ],
+ "relations": [
+  {
+   "from": "ent_bc74e38435a3",
+   "to": "ent_f8f0dc67367e",
+   "type": "合作",
+   "from_name": "IEA-PVPS",
+   "to_name": "NREL",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7ac3c92414d8",
+   "to": "ent_b6c5d85031b1",
+   "type": "上下游",
+   "from_name": "单轴跟踪器",
+   "to_name": "紧固件",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PRODUCT",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e8b3373a5e0d",
+   "to": "ent_443df95fd460",
+   "type": "监管",
+   "from_name": "IPCC",
+   "to_name": "热带气旋",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ab5d03d4befd",
+   "to": "ent_bc74e38435a3",
+   "type": "合作",
+   "from_name": "Lenny Tinker",
+   "to_name": "IEA-PVPS",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PERSON",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_443df95fd460",
+   "to": "ent_1cc24894ca56",
+   "type": "对比",
+   "from_name": "热带气旋",
+   "to_name": "冰雹",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "TECH",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0ad4a06c21c7",
+   "to": "ent_fcff1cbbdd88",
+   "type": "对比",
+   "from_name": "红外成像技术",
+   "to_name": "电致发光成像",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "TECH",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b6c5d85031b1",
+   "to": "ent_4d5e1b062c45",
+   "type": "对比",
+   "from_name": "紧固件",
+   "to_name": "单轴跟踪系统",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PRODUCT",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f398096c2d01",
+   "to": "ent_a53b02ff19ec",
+   "type": "监管",
+   "from_name": "IEC 61215-2标准",
+   "to_name": "钢化玻璃",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "TECH",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_5fbcfd803a09",
+   "to": "ent_8a6d55dd0146",
+   "type": "上下游",
+   "from_name": "德克萨斯州佩科斯县",
+   "to_name": "德克萨斯州",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7ac3c92414d8",
+   "to": "ent_4d5e1b062c45",
+   "type": "供应",
+   "from_name": "单轴跟踪器",
+   "to_name": "单轴跟踪系统",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PRODUCT",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_66e5a724e5a0",
+   "to": "ent_4b68c4f9e7aa",
+   "type": "对比",
+   "from_name": "卡塔尔",
+   "to_name": "以色列内盖夫沙漠",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2f9120d3e62e",
+   "to": "ent_66e5a724e5a0",
+   "type": "监管",
+   "from_name": "气溶胶光学厚度(AOD)",
+   "to_name": "卡塔尔",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "TECH",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c3319fcae8eb",
+   "to": "ent_23270eb2ea05",
+   "type": "合作",
+   "from_name": "日本国立技术评价机构(NITE)",
+   "to_name": "NEDO",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a53b02ff19ec",
+   "to": "ent_4d5e1b062c45",
+   "type": "上下游",
+   "from_name": "钢化玻璃",
+   "to_name": "单轴跟踪系统",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "TECH",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d9633e3af7ce",
+   "to": "ent_7ac3c92414d8",
+   "type": "监管",
+   "from_name": "IEC 61215-2",
+   "to_name": "单轴跟踪器",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "POLICY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8a6d55dd0146",
+   "to": "ent_66e5a724e5a0",
+   "type": "对比",
+   "from_name": "德克萨斯州",
+   "to_name": "卡塔尔",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4d5e1b062c45",
+   "to": "ent_a53b02ff19ec",
+   "type": "对比",
+   "from_name": "单轴跟踪系统",
+   "to_name": "钢化玻璃",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "TECH",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4b68c4f9e7aa",
+   "to": "ent_2f9120d3e62e",
+   "type": "监管",
+   "from_name": "以色列内盖夫沙漠",
+   "to_name": "气溶胶光学厚度(AOD)",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_23270eb2ea05",
+   "to": "ent_c3319fcae8eb",
+   "type": "监管",
+   "from_name": "NEDO",
+   "to_name": "日本国立技术评价机构(NITE)",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7ac3c92414d8",
+   "to": "ent_f398096c2d01",
+   "type": "对比",
+   "from_name": "单轴跟踪器",
+   "to_name": "IEC 61215-2标准",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PRODUCT",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_66e5a724e5a0",
+   "to": "ent_a53b02ff19ec",
+   "type": "监管",
+   "from_name": "卡塔尔",
+   "to_name": "钢化玻璃",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8a6d55dd0146",
+   "to": "ent_4d5e1b062c45",
+   "type": "上下游",
+   "from_name": "德克萨斯州",
+   "to_name": "单轴跟踪系统",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_336983ab9f19",
+   "to": "ent_2f9120d3e62e",
+   "type": "对比",
+   "from_name": "EL成像技术",
+   "to_name": "气溶胶光学厚度(AOD)",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "TECH",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f398096c2d01",
+   "to": "ent_5ce3216f9508",
+   "type": "对比",
+   "from_name": "IEC 61215-2标准",
+   "to_name": "182毫米M10电池",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "TECH",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0cbd68caaa36",
+   "to": "ent_31386541fd67",
+   "type": "对比",
+   "from_name": "日本国立技术评价机构",
+   "to_name": "Aarseth",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "PERSON",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_31386541fd67",
+   "to": "ent_f398096c2d01",
+   "type": "对比",
+   "from_name": "Aarseth",
+   "to_name": "IEC 61215-2标准",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PERSON",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_cebfe5a268b0",
+   "to": "ent_0cbd68caaa36",
+   "type": "对比",
+   "from_name": "劳里·伯恩哈姆",
+   "to_name": "日本国立技术评价机构",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PERSON",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_492447747ba9",
+   "to": "ent_4b68c4f9e7aa",
+   "type": "监管",
+   "from_name": "弗劳恩霍夫ISE监测站",
+   "to_name": "以色列内盖夫沙漠",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8ff0f9464d65",
+   "to": "ent_25c33530954e",
+   "type": "对比",
+   "from_name": "加利福尼亚州",
+   "to_name": "新南威尔士州",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c7ed2af1bd18",
+   "to": "ent_8ff0f9464d65",
+   "type": "客户",
+   "from_name": "GCube Insurance",
+   "to_name": "加利福尼亚州",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4b68c4f9e7aa",
+   "to": "ent_961f25bc1c54",
+   "type": "对比",
+   "from_name": "以色列内盖夫沙漠",
+   "to_name": "异质结技术",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_25c33530954e",
+   "to": "ent_961f25bc1c54",
+   "type": "对比",
+   "from_name": "新南威尔士州",
+   "to_name": "异质结技术",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c7ed2af1bd18",
+   "to": "ent_922dd2ea21f7",
+   "type": "客户",
+   "from_name": "GCube Insurance",
+   "to_name": "IP67防护标准",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8ff0f9464d65",
+   "to": "ent_922dd2ea21f7",
+   "type": "上下游",
+   "from_name": "加利福尼亚州",
+   "to_name": "IP67防护标准",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "PLACE",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_492447747ba9",
+   "to": "ent_c7ed2af1bd18",
+   "type": "合作",
+   "from_name": "弗劳恩霍夫ISE监测站",
+   "to_name": "GCube Insurance",
+   "from_ind": "电力",
+   "to_ind": "电力",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  }
+ ],
+ "frameworks": [],
+ "logics": [
+  {
+   "id": "log_1f172d019f0b3576",
+   "logic_id": "1f172d019f0b3576",
+   "type": "因果",
+   "premise": "以色列内盖夫沙漠2020年5月热浪期间环境温度达40-43°C，相对湿度13%",
+   "conclusion": "环境温度升高导致组件工作温度上升，进而引发功率衰减和效率下降",
+   "text": "基于以色列内盖夫沙漠2020年5月热浪期间环境温度达40-43°,推导出环境温度升高导致组件工作温度上升，进而引发功率衰减和效率下降",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_fd138a2bf5e6ad14",
+   "logic_id": "fd138a2bf5e6ad14",
+   "type": "因果",
+   "premise": "GCube 2018-2023年数据显示冰雹占索赔价值54.2%，德克萨斯州2022年冰雹损失达3亿美元。",
+   "conclusion": "冰雹风险已成为光伏行业主要财务威胁，需优先纳入保险定价模型。",
+   "text": "基于GCube 2018-2023年数据显示冰雹占索赔价值54.,推导出冰雹风险已成为光伏行业主要财务威胁，需优先纳入保险定价模型。",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_c9f4b3c1ac2b5f5c",
+   "logic_id": "c9f4b3c1ac2b5f5c",
+   "type": "目的",
+   "premise": "日本经济产业省发布《蓄电池产业战略》目标2030年实现全固态电池商业化，韩国2021年7月公布K-Battery战略提供研发设备20%和研发50%的税收抵免，美国能源部2021年宣布资助2.09亿美元",
+   "conclusion": "各国政府通过政策目标设定、税收优惠和直接研发资助三种方式，形成了推动固态电池产业化的政策合力，有效降低了企业研发风险，加速了全球固态电池商业化进程",
+   "text": "日本NEDO从2007年到2021年持续投入累计超过200亿日元，培养了丰田、本田等一批掌握核心技术的龙头企业；韩国2021年K-Battery战略的税收抵免比例(研发50%为全球最高水平)直接降低了企业研发成本；美国Battery500计划5年5000万美元的持续投入支撑了QuantumScape等初创企业的技术突破。三国政策工具的差异性(日本侧重联合研发、韩国侧重税收激励、美国侧重能源部直接资",
+   "dimension": "5",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_f9543f743634bf34",
+   "logic_id": "f9543f743634bf34",
+   "type": "因果",
+   "premise": "2018-2023年GCube数据显示冰雹索赔价值占比54.2%，德州案例中保费上涨400%",
+   "conclusion": "冰雹风险需纳入光伏电站全生命周期成本模型",
+   "text": "基于2018-2023年GCube数据显示冰雹索赔价值占比54.,推导出冰雹风险需纳入光伏电站全生命周期成本模型",
+   "dimension": "2",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_a782c9ac1cb820ad",
+   "logic_id": "a782c9ac1cb820ad",
+   "type": "因果",
+   "premise": "慕尼黑再保险公司数据显示50%以上太阳能设施损失索赔由冰雹导致，kwh分析指出钢化玻璃弹性优势。",
+   "conclusion": "冰雹冲击导致光伏组件玻璃破裂，进而引发电池片微裂纹，最终降低发电效率。",
+   "text": "基于慕尼黑再保险公司数据显示50%以上太阳能设施损失索赔由冰雹导,推导出冰雹冲击导致光伏组件玻璃破裂，进而引发电池片微裂纹，最终降低",
+   "dimension": "4",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_34dd448cc177838a",
+   "logic_id": "34dd448cc177838a",
+   "type": "趋势",
+   "premise": "IPCC预测全球野火活动2030年增14%，南欧火灾风险增十倍，美国2021-2050年火灾面积翻倍。",
+   "conclusion": "分析全球极端天气事件频率变化趋势，预测未来光伏电站面临的风险升级。",
+   "text": "从IPCC预测全球野火活动2030年增14%，南欧火灾风险增十的趋势分析,判断分析全球极端天气事件频率变化趋势，预测未来光伏电站面临的风险",
+   "dimension": "1",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_d9ddbc8e8a5947a5",
+   "logic_id": "d9ddbc8e8a5947a5",
+   "type": "因果",
+   "premise": "IPCC预测极端天气频率增加，研究显示飓风期间发电量损失50%，年产量损失中位数1%，且保险赔付增长3.7倍。",
+   "conclusion": "极端天气将导致光伏系统LCOE上升，需优化设计以降低长期运营成本。",
+   "text": "基于IPCC预测极端天气频率增加，研究显示飓风期间发电量损失50,推导出极端天气将导致光伏系统LCOE上升，需优化设计以降低长期运营",
+   "dimension": "2",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_6d391a36ad933e98",
+   "logic_id": "6d391a36ad933e98",
+   "type": "因果",
+   "premise": "IPCC预测全球变暖使热带气旋平均降水率增加，萨菲尔-辛普森等级提议扩展至6级（风速≥86m/s）",
+   "conclusion": "光伏电站需采用抗风设计标准ASCE 7-22，紧固件扭矩审核覆盖1%以上样本",
+   "text": "基于IPCC预测全球变暖使热带气旋平均降水率增加，萨菲尔-辛普森,推导出光伏电站需采用抗风设计标准ASCE 7-22，紧固件扭矩审核",
+   "dimension": "2",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_11362cbe8a989e00",
+   "logic_id": "11362cbe8a989e00",
+   "type": "对比",
+   "premise": "日本2007年NEDO启动固态电池项目并设定2030年500Wh/kg目标，比亚迪等中国企业2013年启动研发并计划2027年量产，三星SDI 2024年8月已交付首批固态电池给车企测试，Quantu",
+   "conclusion": "日本在固态电池早期技术研发方面积累深厚，中国凭借全球最大新能源汽车市场和完整产业链有望率先实现规模化商业应用，美韩凭借各自优势在全球固态电池竞争中占据重要地位",
+   "text": "日本NEDO在2007年设定的500Wh/kg 2030年目标至今仍具有前瞻性，反映了日本在基础研究方面的长期投入；中国2013年至今已形成从材料研发到整车应用的完整闭环；三星SDI的Super-Gap技术将能量密度提升40%至900Wh/L是当前全球公开的最高体积能量密度指标之一；QuantumScape的氧化物LLZO路线和Solid Power的硫化物路线代表了美国初创企业的两条差异化技术路",
+   "dimension": "2",
+   "confidence": 0.88,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_2c6d65ffaba6e514",
+   "logic_id": "2c6d65ffaba6e514",
+   "type": "对比",
+   "premise": "瑞士2021年事件显示>5cm冰雹导致57%组件裂纹，德克萨斯州2019年损失7000-8000万美元",
+   "conclusion": "冰雹高风险区应选用钢化玻璃组件（抗冰雹弹性为热强化玻璃2倍）",
+   "text": "通过对比瑞士2021年事件显示>5cm冰雹导致57%组件裂纹，德克萨,得出冰雹高风险区应选用钢化玻璃组件（抗冰雹弹性为热强化玻璃2倍）",
+   "dimension": "4",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_f5c175c14c2d2774",
+   "logic_id": "f5c175c14c2d2774",
+   "type": "对比",
+   "premise": "瑞士2021年冰雹事件中，未收纳组件57%存在裂纹，而采用收纳策略的电站损害减少60%。",
+   "conclusion": "对比不同跟踪器收纳策略在冰雹事件中的防护效果，验证智能收纳系统的优越性。",
+   "text": "通过对比瑞士2021年冰雹事件中，未收纳组件57%存在裂纹，而采用收,得出对比不同跟踪器收纳策略在冰雹事件中的防护效果，验证智能收纳系",
+   "dimension": "4",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_cd73330b0efad0da",
+   "logic_id": "cd73330b0efad0da",
+   "type": "趋势",
+   "premise": "PV Magazine报道极端天气导致太阳能保险费率上涨，慕尼黑再保险公司指出冰雹风险被低估。",
+   "conclusion": "需通过技术改进（如防护存放）降低保险成本。",
+   "text": "从PV Magazine报道极端天气导致太阳能保险费率上涨，慕的趋势分析,判断需通过技术改进（如防护存放）降低保险成本。",
+   "dimension": "2",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_0ea5aee0d1c2e60d",
+   "logic_id": "0ea5aee0d1c2e60d",
+   "type": "趋势",
+   "premise": "IPCC AR4报告指出人为气候变化加剧极端天气，慕尼黑再保险研究显示南欧冰雹事件增加",
+   "conclusion": "光伏电站设计需适应未来更频繁的极端天气",
+   "text": "从IPCC AR4报告指出人为气候变化加剧极端天气，慕尼黑再保的趋势分析,判断光伏电站设计需适应未来更频繁的极端天气",
+   "dimension": "1",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_bb2eb1701bdded9b",
+   "logic_id": "bb2eb1701bdded9b",
+   "type": "递进",
+   "premise": "当前半固态电池能量密度在380-450Wh/kg区间(辉能380Wh/kg、恩力动力300-450Wh/kg、Factorial超450Wh/kg)，全固态电池目标能量密度500-700Wh/kg(N",
+   "conclusion": "能量密度的阶梯式提升对应着从半固态到全固态、从液态电解质到固态电解质的材料体系根本性变革，各阶段技术突破将带来续航里程的显著提升(从500km到1000km再到1500km以上)",
+   "text": "辉能科技2025年1月发布的380Wh/kg产品代表半固态电池的当前水平，恩力动力520Wh/kg锂金属固态电池代表了下一代技术的突破方向，两者差距约140Wh/kg反映了正极从三元向锂金属负极升级的潜力空间。三星SDI Super-Gap的900Wh/L体积能量密度指标进一步验证了通过材料创新实现能量密度大幅提升的可行性。",
+   "dimension": "4",
+   "confidence": 0.82,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_8af46d7abdbd7767",
+   "logic_id": "8af46d7abdbd7767",
+   "type": "对比",
+   "premise": "日本2007年启动研发，丰田2012年试制全固态电池，Kanno教授2011年发现硫化物电解质并持续优化电导率；中国在锂电技术方面全球领先，全固态电池产业创新联盟2023年成立；韩国三星SDI、LG、",
+   "conclusion": "全球固态电池竞争格局呈现日本研发领先、中国产业化加速、美韩企业跟进的态势，技术路线以硫化物为主。",
+   "text": "日本优势体现在研发积累深厚，NEDO持续投入1510亿日元，官-产-学联盟模式有效整合资源。中国优势体现在全球领先的锂电产业基础，完整的产业链配套，全固态电池产业创新联盟整合产学研资源。美国初创企业获得传统车企支持，QuantumScape获大众3亿美元投资，Solid Power与宝马深度合作。韩国三星SDI的Super-Gap技术计划2027年量产。",
+   "dimension": "2",
+   "confidence": 0.8,
+   "is_core": false,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_578f76ad95eb4465",
+   "logic_id": "578f76ad95eb4465",
+   "type": "趋势",
+   "premise": "日本2007年启动固态电池研发，设定2030年商业化目标；中国一汽2014年开始研发，比亚迪2013年启动，宁德时代2023年推出凝聚态电池；各企业产业化时间节点规划集中在2026-2030年；GGI",
+   "conclusion": "在政策支持和产业链各方发力推进下，固态电池产业化时点集中在2027-2030年，届时将实现从半固态到全固态的规模化应用。",
+   "text": "日本NEDO投入1510亿日元推动研发，中国全固态电池产业创新联盟2023年成立。宁德时代、比亚迪、一汽等均规划2027年小批量生产，亿纬锂能规划2026年实现生产工艺突破、2028年推出高比能产品。三星SDI计划2027年大规模生产，LG推迟至2030年。GGII预测2024年出货7GWh，2030年超65GWh，2035年超300GWh，产业化节奏明确。",
+   "dimension": "2",
+   "confidence": 0.8,
+   "is_core": true,
+   "node_type": "logic"
+  }
+ ],
+ "indicators": [
+  {
+   "id": "ind_ind_eccc01793eab",
+   "indicator_id": "ind_eccc01793eab",
+   "name": "2030年全球光伏装机容量预测",
+   "type": "规模",
+   "unit": "太瓦",
+   "value": "8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0680888fe755",
+   "indicator_id": "ind_0680888fe755",
+   "name": "2030年预测装机容量",
+   "type": "规模",
+   "unit": "太瓦",
+   "value": "8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4d3fae2ec357",
+   "indicator_id": "ind_4d3fae2ec357",
+   "name": "2030年预计装机容量",
+   "type": "增长率",
+   "unit": "TW",
+   "value": "8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_5237b881c8ce",
+   "indicator_id": "ind_5237b881c8ce",
+   "name": "IEC 61215-2更新年份",
+   "type": "政策",
+   "unit": "年",
+   "value": "2021",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d8221de41465",
+   "indicator_id": "ind_d8221de41465",
+   "name": "Isc降幅",
+   "type": "性能",
+   "unit": "A",
+   "value": "0.3",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4d8a357b8221",
+   "indicator_id": "ind_4d8a357b8221",
+   "name": "NEDO指南发布年份",
+   "type": "政策",
+   "unit": "年",
+   "value": "2023",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1e71d9d27d74",
+   "indicator_id": "ind_1e71d9d27d74",
+   "name": "PM2.5浓度影响",
+   "type": "性能",
+   "unit": "%/100μg/m³",
+   "value": "13",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f33288db1450",
+   "indicator_id": "ind_f33288db1450",
+   "name": "Pmpp降幅",
+   "type": "性能",
+   "unit": "W",
+   "value": "12.5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2fa4065856f9",
+   "indicator_id": "ind_2fa4065856f9",
+   "name": "Voc降幅",
+   "type": "性能",
+   "unit": "V",
+   "value": "1.1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e086773c7856",
+   "indicator_id": "ind_e086773c7856",
+   "name": "保险赔付增长",
+   "type": "增长率",
+   "unit": "倍",
+   "value": "3.7",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8c909a778c2d",
+   "indicator_id": "ind_8c909a778c2d",
+   "name": "保险赔付增长倍数",
+   "type": "增长率",
+   "unit": "倍",
+   "value": "3.7",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1d3818737a8b",
+   "indicator_id": "ind_1d3818737a8b",
+   "name": "倾角设计",
+   "type": "设计",
+   "unit": "度",
+   "value": "6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9e5b014a9fb8",
+   "indicator_id": "ind_9e5b014a9fb8",
+   "name": "光伏保险费率变化",
+   "type": "财务",
+   "unit": "定性",
+   "value": "飙升",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_246a399fe93f",
+   "indicator_id": "ind_246a399fe93f",
+   "name": "光伏组件测试标准",
+   "type": "技术",
+   "unit": "标准号",
+   "value": "IEC TS 63348",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1d14dd005e3f",
+   "indicator_id": "ind_1d14dd005e3f",
+   "name": "全球光伏装机容量",
+   "type": "规模",
+   "unit": "TW",
+   "value": "2",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9d093b3c4824",
+   "indicator_id": "ind_9d093b3c4824",
+   "name": "冰雹保险损失",
+   "type": "财务",
+   "unit": "亿美元",
+   "value": "3",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a50433b7b338",
+   "indicator_id": "ind_a50433b7b338",
+   "name": "冰雹保险损失占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "54",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_30f4fdf6bbf5",
+   "indicator_id": "ind_30f4fdf6bbf5",
+   "name": "冰雹损坏直径范围",
+   "type": "尺寸",
+   "unit": "厘米",
+   "value": "4-5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_5ee753e28df1",
+   "indicator_id": "ind_5ee753e28df1",
+   "name": "冰雹损失占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "54.2",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_02849394cf2c",
+   "indicator_id": "ind_02849394cf2c",
+   "name": "冰雹损失索赔占比",
+   "type": "其他",
+   "unit": "%",
+   "value": "50%",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_98a21c14aa98",
+   "indicator_id": "ind_98a21c14aa98",
+   "name": "冰雹直径",
+   "type": "尺寸",
+   "unit": "厘米",
+   "value": "4-5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_26bb364ffd04",
+   "indicator_id": "ind_26bb364ffd04",
+   "name": "冰雹直径范围",
+   "type": "尺寸",
+   "unit": "厘米",
+   "value": "4-5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d6f483c5cdfa",
+   "indicator_id": "ind_d6f483c5cdfa",
+   "name": "冰雹直径阈值",
+   "type": "基准",
+   "unit": "毫米",
+   "value": "25",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_00408ca1dc0e",
+   "indicator_id": "ind_00408ca1dc0e",
+   "name": "冰雹索赔价值占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "54.2",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4aaeb7bc7715",
+   "indicator_id": "ind_4aaeb7bc7715",
+   "name": "冰雹索赔数量占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "1.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_98efc609d3e7",
+   "indicator_id": "ind_98efc609d3e7",
+   "name": "加州烟雾损失范围",
+   "type": "性能",
+   "unit": "%",
+   "value": "9.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8a3bcd4eced6",
+   "indicator_id": "ind_8a3bcd4eced6",
+   "name": "加拿大烧毁面积",
+   "type": "规模",
+   "unit": "万公顷",
+   "value": "1850",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_14e27c639670",
+   "indicator_id": "ind_14e27c639670",
+   "name": "单轴跟踪器收纳角度",
+   "type": "基准",
+   "unit": "度",
+   "value": "45",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8f6fefa6c837",
+   "indicator_id": "ind_8f6fefa6c837",
+   "name": "单轴跟踪系统雪荷载损失",
+   "type": "技术",
+   "unit": "定性",
+   "value": "需优化",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2fae9a92755a",
+   "indicator_id": "ind_2fae9a92755a",
+   "name": "南欧火灾增长",
+   "type": "增长率",
+   "unit": "倍",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d3342c22b9d8",
+   "indicator_id": "ind_d3342c22b9d8",
+   "name": "双面组件增益",
+   "type": "份额",
+   "unit": "百分比",
+   "value": "19%",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3c9055191aae",
+   "indicator_id": "ind_3c9055191aae",
+   "name": "发电量损失",
+   "type": "损失率",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9aa45d5f5979",
+   "indicator_id": "ind_9aa45d5f5979",
+   "name": "发电量损失率",
+   "type": "损失率",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_42ccbeee6253",
+   "indicator_id": "ind_42ccbeee6253",
+   "name": "发电量降幅",
+   "type": "性能",
+   "unit": "%",
+   "value": "30",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8c513419514d",
+   "indicator_id": "ind_8c513419514d",
+   "name": "堪培拉火灾发电量下降",
+   "type": "性能",
+   "unit": "%",
+   "value": "27",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9c469e6015e0",
+   "indicator_id": "ind_9c469e6015e0",
+   "name": "峰值时段损失",
+   "type": "性能",
+   "unit": "%",
+   "value": "15",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_87b3ca25e589",
+   "indicator_id": "ind_87b3ca25e589",
+   "name": "年产量损失",
+   "type": "损失率",
+   "unit": "%",
+   "value": "1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_73912f877623",
+   "indicator_id": "ind_73912f877623",
+   "name": "年产量损失中位数",
+   "type": "损失率",
+   "unit": "%",
+   "value": "1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_56c5ef55e178",
+   "indicator_id": "ind_56c5ef55e178",
+   "name": "年产量损失率",
+   "type": "损失率",
+   "unit": "%",
+   "value": "1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a643abca1128",
+   "indicator_id": "ind_a643abca1128",
+   "name": "年均辐照量",
+   "type": "规模",
+   "unit": "kWh/m²",
+   "value": "2276",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_836f007d1264",
+   "indicator_id": "ind_836f007d1264",
+   "name": "德克萨斯州冰雹损失",
+   "type": "成本",
+   "unit": "万美元",
+   "value": "7000-8000",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ec6fb556f1db",
+   "indicator_id": "ind_ec6fb556f1db",
+   "name": "德克萨斯州冰雹损失金额",
+   "type": "财务",
+   "unit": "美元",
+   "value": "7000万-8000万",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f9b2852fbbb2",
+   "indicator_id": "ind_f9b2852fbbb2",
+   "name": "德州冰雹保险损失",
+   "type": "财务",
+   "unit": "亿美元",
+   "value": "3",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6dabcfad147c",
+   "indicator_id": "ind_6dabcfad147c",
+   "name": "性能比率",
+   "type": "效率",
+   "unit": "%",
+   "value": "12.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4393ea230c6c",
+   "indicator_id": "ind_4393ea230c6c",
+   "name": "新加坡光伏输出下降",
+   "type": "性能",
+   "unit": "%",
+   "value": "15",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ac9f47a5462b",
+   "indicator_id": "ind_ac9f47a5462b",
+   "name": "日本雪灾供电损失",
+   "type": "规模",
+   "unit": "户",
+   "value": "75,000户",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f36f2bfa2fdc",
+   "indicator_id": "ind_f36f2bfa2fdc",
+   "name": "有效组件温度",
+   "type": "环境",
+   "unit": "°C",
+   "value": "35.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e0f73391407c",
+   "indicator_id": "ind_e0f73391407c",
+   "name": "水浸时间",
+   "type": "环境",
+   "unit": "小时",
+   "value": "48",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_02dd13a8c9f9",
+   "indicator_id": "ind_02dd13a8c9f9",
+   "name": "沙尘暴DOD阈值",
+   "type": "基准",
+   "unit": "σ",
+   "value": "4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8332eebbf076",
+   "indicator_id": "ind_8332eebbf076",
+   "name": "沙尘暴持续时间",
+   "type": "营运",
+   "unit": "天",
+   "value": "17",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b1eb3eee7b06",
+   "indicator_id": "ind_b1eb3eee7b06",
+   "name": "沙尘暴积污损失",
+   "type": "增长率",
+   "unit": "倍",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_24470f133a74",
+   "indicator_id": "ind_24470f133a74",
+   "name": "沙尘暴辐射衰减",
+   "type": "规模",
+   "unit": "百分比",
+   "value": "8%",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_25c7ce0cfa10",
+   "indicator_id": "ind_25c7ce0cfa10",
+   "name": "沙尘暴辐照度下降",
+   "type": "增长率",
+   "unit": "%",
+   "value": "40-50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d958eb5c22b0",
+   "indicator_id": "ind_d958eb5c22b0",
+   "name": "洪水保险损失",
+   "type": "财务",
+   "unit": "万美元",
+   "value": "3000",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_689642d9dc98",
+   "indicator_id": "ind_689642d9dc98",
+   "name": "洪水保险要求",
+   "type": "基准",
+   "unit": "级",
+   "value": "IP67",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ac0def7c3bb8",
+   "indicator_id": "ind_ac0def7c3bb8",
+   "name": "洪水淹没深度",
+   "type": "规模",
+   "unit": "英尺",
+   "value": "1-3",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_998c43702c76",
+   "indicator_id": "ind_998c43702c76",
+   "name": "温度系数TC",
+   "type": "性能",
+   "unit": "%/°C",
+   "value": "-0.39",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d06f7faf4f5a",
+   "indicator_id": "ind_d06f7faf4f5a",
+   "name": "澳大利亚烧毁面积增长",
+   "type": "增长率",
+   "unit": "%",
+   "value": "350",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_38bc52814110",
+   "indicator_id": "ind_38bc52814110",
+   "name": "烟雾导致发电量下降",
+   "type": "性能",
+   "unit": "%",
+   "value": "40",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1cedfc65485b",
+   "indicator_id": "ind_1cedfc65485b",
+   "name": "热带气旋年均发电量损失",
+   "type": "增长率",
+   "unit": "%",
+   "value": "1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b235b5fb8344",
+   "indicator_id": "ind_b235b5fb8344",
+   "name": "热浪持续时间",
+   "type": "营运",
+   "unit": "天",
+   "value": "6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1232fbd731da",
+   "indicator_id": "ind_1232fbd731da",
+   "name": "热浪效率下降",
+   "type": "利润率",
+   "unit": "每摄氏度",
+   "value": "0.2-0.5%",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c1a88c8193b2",
+   "indicator_id": "ind_c1a88c8193b2",
+   "name": "热浪温度系数",
+   "type": "基准",
+   "unit": "%/℃",
+   "value": "-0.39",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d5d980dd4179",
+   "indicator_id": "ind_d5d980dd4179",
+   "name": "热浪温度阈值",
+   "type": "基准",
+   "unit": "℃",
+   "value": "40",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_456bc620253e",
+   "indicator_id": "ind_456bc620253e",
+   "name": "环境温度",
+   "type": "环境",
+   "unit": "°C",
+   "value": "20.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_53c77c3af340",
+   "indicator_id": "ind_53c77c3af340",
+   "name": "瑞士冰雹事件年份",
+   "type": "其他",
+   "unit": "年",
+   "value": "2021",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_78a6cb833f3a",
+   "indicator_id": "ind_78a6cb833f3a",
+   "name": "瑞士冰雹受损组件比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "15",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_28caf7d91930",
+   "indicator_id": "ind_28caf7d91930",
+   "name": "相对湿度",
+   "type": "环境",
+   "unit": "%",
+   "value": "13",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0fa5ffdd7200",
+   "indicator_id": "ind_0fa5ffdd7200",
+   "name": "积雪功率损失",
+   "type": "增长率",
+   "unit": "%",
+   "value": "90",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f024ce911e0d",
+   "indicator_id": "ind_f024ce911e0d",
+   "name": "积雪损失模型",
+   "type": "规模",
+   "unit": "种",
+   "value": "11",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d32c09349300",
+   "indicator_id": "ind_d32c09349300",
+   "name": "积雪损失模型数量",
+   "type": "规模",
+   "unit": "种",
+   "value": "11",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2c13e12eca69",
+   "indicator_id": "ind_2c13e12eca69",
+   "name": "积雪损失模型验证",
+   "type": "规模",
+   "unit": "个",
+   "value": "3",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b89574313e0d",
+   "indicator_id": "ind_b89574313e0d",
+   "name": "积雪覆盖面积",
+   "type": "规模",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6f8f57715090",
+   "indicator_id": "ind_6f8f57715090",
+   "name": "积雪载荷",
+   "type": "成本",
+   "unit": "kN/m",
+   "value": "6-8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_700ea2cbf0a0",
+   "indicator_id": "ind_700ea2cbf0a0",
+   "name": "积雪载荷测试",
+   "type": "基准",
+   "unit": "帕斯卡",
+   "value": "5400",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9d1567e5e4fb",
+   "indicator_id": "ind_9d1567e5e4fb",
+   "name": "紧固件审核",
+   "type": "比例",
+   "unit": "%",
+   "value": "1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_36c75409f028",
+   "indicator_id": "ind_36c75409f028",
+   "name": "紧固件审核比例",
+   "type": "比例",
+   "unit": "%",
+   "value": "1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1215fad8a3a0",
+   "indicator_id": "ind_1215fad8a3a0",
+   "name": "紧固件扭矩审核比例",
+   "type": "比例",
+   "unit": "%",
+   "value": "1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1a434d7fa938",
+   "indicator_id": "ind_1a434d7fa938",
+   "name": "紧固件问题",
+   "type": "比例",
+   "unit": "%",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ced454f6d028",
+   "indicator_id": "ind_ced454f6d028",
+   "name": "紧固件问题比例",
+   "type": "比例",
+   "unit": "%",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_533ce89252a7",
+   "indicator_id": "ind_533ce89252a7",
+   "name": "紧固件问题比例阈值",
+   "type": "比例",
+   "unit": "%",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a5cdf7e27321",
+   "indicator_id": "ind_a5cdf7e27321",
+   "name": "组件前玻璃厚度要求",
+   "type": "基准",
+   "unit": "毫米",
+   "value": "25",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f85e69cbbe15",
+   "indicator_id": "ind_f85e69cbbe15",
+   "name": "经济损失",
+   "type": "财务",
+   "unit": "百万美元",
+   "value": "19",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e4d8729a4023",
+   "indicator_id": "ind_e4d8729a4023",
+   "name": "能量损失",
+   "type": "规模",
+   "unit": "GWh",
+   "value": "175",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e97ea9e3e3bc",
+   "indicator_id": "ind_e97ea9e3e3bc",
+   "name": "英国太阳能农场容量",
+   "type": "规模",
+   "unit": "兆瓦",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_7e9ab0d124b0",
+   "indicator_id": "ind_7e9ab0d124b0",
+   "name": "荷兰冰雹保险损失占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "73",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6ea20f8a6e00",
+   "indicator_id": "ind_6ea20f8a6e00",
+   "name": "荷兰太阳能农场容量",
+   "type": "规模",
+   "unit": "兆瓦",
+   "value": "30",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9e4747454011",
+   "indicator_id": "ind_9e4747454011",
+   "name": "装机容量增长",
+   "type": "增长率",
+   "unit": "倍",
+   "value": "4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_7b9f5983bcc5",
+   "indicator_id": "ind_7b9f5983bcc5",
+   "name": "装机容量增长倍数",
+   "type": "增长率",
+   "unit": "倍",
+   "value": "4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6dc94917227b",
+   "indicator_id": "ind_6dc94917227b",
+   "name": "运行年限",
+   "type": "规模",
+   "unit": "年",
+   "value": "21.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_96476f3c4551",
+   "indicator_id": "ind_96476f3c4551",
+   "name": "逆变器数量",
+   "type": "规模",
+   "unit": "台",
+   "value": "23000",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4601fc912dbc",
+   "indicator_id": "ind_4601fc912dbc",
+   "name": "逆变器过热警告",
+   "type": "规模",
+   "unit": "个系统",
+   "value": "1300",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_08ac597d170c",
+   "indicator_id": "ind_08ac597d170c",
+   "name": "野火保险索赔",
+   "type": "份额",
+   "unit": "%",
+   "value": "14",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_11ea3de3b2ca",
+   "indicator_id": "ind_11ea3de3b2ca",
+   "name": "野火发电量下降",
+   "type": "增长率",
+   "unit": "%",
+   "value": "30",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_73ca207c2176",
+   "indicator_id": "ind_73ca207c2176",
+   "name": "野火烟雾损失",
+   "type": "增长率",
+   "unit": "%",
+   "value": "40",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_96a8c494305c",
+   "indicator_id": "ind_96a8c494305c",
+   "name": "野火烧毁面积增长",
+   "type": "增长率",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2c1e015868ae",
+   "indicator_id": "ind_2c1e015868ae",
+   "name": "野火面积增长",
+   "type": "增长率",
+   "unit": "%",
+   "value": "14",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b2ba6875c622",
+   "indicator_id": "ind_b2ba6875c622",
+   "name": "钢化玻璃抗冰雹能力",
+   "type": "技术",
+   "unit": "倍",
+   "value": "2倍",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a533f50b2ec7",
+   "indicator_id": "ind_a533f50b2ec7",
+   "name": "雪堆覆盖损失",
+   "type": "增长率",
+   "unit": "功率损失",
+   "value": "3-6%",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2b37798fb1e5",
+   "indicator_id": "ind_2b37798fb1e5",
+   "name": "雪载荷损坏率",
+   "type": "规模",
+   "unit": "容量",
+   "value": "30MW",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_03c7c0ace395",
+   "indicator_id": "ind_03c7c0ace395",
+   "name": "风速阈值",
+   "type": "阈值",
+   "unit": "m/s",
+   "value": "25",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4560707d5968",
+   "indicator_id": "ind_4560707d5968",
+   "name": "飓风期间性能比率",
+   "type": "效率",
+   "unit": "%",
+   "value": "12.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0aeb1397f319",
+   "indicator_id": "ind_0aeb1397f319",
+   "name": "飓风期间电力损失率",
+   "type": "损失率",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ff401eb54619",
+   "indicator_id": "ind_ff401eb54619",
+   "name": "日本保险赔付增长率",
+   "type": "增长率",
+   "unit": "倍",
+   "value": "3.7",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fa0c102aef1f",
+   "indicator_id": "ind_fa0c102aef1f",
+   "name": "积雪深度",
+   "type": "规模",
+   "unit": "厘米",
+   "value": "100",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b5ff38d5fc62",
+   "indicator_id": "ind_b5ff38d5fc62",
+   "name": "野火面积增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "50",
+   "is_core": false,
+   "node_type": "indicator"
+  }
+ ],
+ "framework_entity_edges": [],
+ "logic_entity_edges": [
+  {
+   "from": "log_1f172d019f0b3576",
+   "to": "ent_4b68c4f9e7aa",
+   "type": "逻辑关联",
+   "from_name": "log_1f172d019f0b3576",
+   "to_name": "以色列内盖夫沙漠",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_fd138a2bf5e6ad14",
+   "to": "ent_8a6d55dd0146",
+   "type": "逻辑关联",
+   "from_name": "log_fd138a2bf5e6ad14",
+   "to_name": "德克萨斯州",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_fd138a2bf5e6ad14",
+   "to": "ent_1cc24894ca56",
+   "type": "逻辑关联",
+   "from_name": "log_fd138a2bf5e6ad14",
+   "to_name": "冰雹",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_c9f4b3c1ac2b5f5c",
+   "to": "ent_23270eb2ea05",
+   "type": "逻辑关联",
+   "from_name": "log_c9f4b3c1ac2b5f5c",
+   "to_name": "NEDO",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f9543f743634bf34",
+   "to": "ent_1cc24894ca56",
+   "type": "逻辑关联",
+   "from_name": "log_f9543f743634bf34",
+   "to_name": "冰雹",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_a782c9ac1cb820ad",
+   "to": "ent_a53b02ff19ec",
+   "type": "逻辑关联",
+   "from_name": "log_a782c9ac1cb820ad",
+   "to_name": "钢化玻璃",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_a782c9ac1cb820ad",
+   "to": "ent_1cc24894ca56",
+   "type": "逻辑关联",
+   "from_name": "log_a782c9ac1cb820ad",
+   "to_name": "冰雹",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_34dd448cc177838a",
+   "to": "ent_e8b3373a5e0d",
+   "type": "逻辑关联",
+   "from_name": "log_34dd448cc177838a",
+   "to_name": "IPCC",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_d9ddbc8e8a5947a5",
+   "to": "ent_e8b3373a5e0d",
+   "type": "逻辑关联",
+   "from_name": "log_d9ddbc8e8a5947a5",
+   "to_name": "IPCC",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_6d391a36ad933e98",
+   "to": "ent_b6c5d85031b1",
+   "type": "逻辑关联",
+   "from_name": "log_6d391a36ad933e98",
+   "to_name": "紧固件",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_6d391a36ad933e98",
+   "to": "ent_443df95fd460",
+   "type": "逻辑关联",
+   "from_name": "log_6d391a36ad933e98",
+   "to_name": "热带气旋",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_6d391a36ad933e98",
+   "to": "ent_e8b3373a5e0d",
+   "type": "逻辑关联",
+   "from_name": "log_6d391a36ad933e98",
+   "to_name": "IPCC",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_6d391a36ad933e98",
+   "to": "ent_5aa1ce2474c2",
+   "type": "逻辑关联",
+   "from_name": "log_6d391a36ad933e98",
+   "to_name": "ASCE 7-22",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_11362cbe8a989e00",
+   "to": "ent_23270eb2ea05",
+   "type": "逻辑关联",
+   "from_name": "log_11362cbe8a989e00",
+   "to_name": "NEDO",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_2c6d65ffaba6e514",
+   "to": "ent_1cc24894ca56",
+   "type": "逻辑关联",
+   "from_name": "log_2c6d65ffaba6e514",
+   "to_name": "冰雹",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_2c6d65ffaba6e514",
+   "to": "ent_a53b02ff19ec",
+   "type": "逻辑关联",
+   "from_name": "log_2c6d65ffaba6e514",
+   "to_name": "钢化玻璃",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_2c6d65ffaba6e514",
+   "to": "ent_8a6d55dd0146",
+   "type": "逻辑关联",
+   "from_name": "log_2c6d65ffaba6e514",
+   "to_name": "德克萨斯州",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f5c175c14c2d2774",
+   "to": "ent_1cc24894ca56",
+   "type": "逻辑关联",
+   "from_name": "log_f5c175c14c2d2774",
+   "to_name": "冰雹",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_cd73330b0efad0da",
+   "to": "ent_1cc24894ca56",
+   "type": "逻辑关联",
+   "from_name": "log_cd73330b0efad0da",
+   "to_name": "冰雹",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_0ea5aee0d1c2e60d",
+   "to": "ent_e8b3373a5e0d",
+   "type": "逻辑关联",
+   "from_name": "log_0ea5aee0d1c2e60d",
+   "to_name": "IPCC",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_0ea5aee0d1c2e60d",
+   "to": "ent_1cc24894ca56",
+   "type": "逻辑关联",
+   "from_name": "log_0ea5aee0d1c2e60d",
+   "to_name": "冰雹",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_bb2eb1701bdded9b",
+   "to": "ent_23270eb2ea05",
+   "type": "逻辑关联",
+   "from_name": "log_bb2eb1701bdded9b",
+   "to_name": "NEDO",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_8af46d7abdbd7767",
+   "to": "ent_23270eb2ea05",
+   "type": "逻辑关联",
+   "from_name": "log_8af46d7abdbd7767",
+   "to_name": "NEDO",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_578f76ad95eb4465",
+   "to": "ent_23270eb2ea05",
+   "type": "逻辑关联",
+   "from_name": "log_578f76ad95eb4465",
+   "to_name": "NEDO",
+   "edge_type": "logic_entity"
+  }
+ ],
+ "indicator_entity_edges": [
+  {
+   "from": "ind_ind_eccc01793eab",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_eccc01793eab",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0680888fe755",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_0680888fe755",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4d3fae2ec357",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_4d3fae2ec357",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5237b881c8ce",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_5237b881c8ce",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d8221de41465",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_d8221de41465",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4d8a357b8221",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_4d8a357b8221",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1e71d9d27d74",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_1e71d9d27d74",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f33288db1450",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_f33288db1450",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2fa4065856f9",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_2fa4065856f9",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e086773c7856",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_e086773c7856",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8c909a778c2d",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c909a778c2d",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d3818737a8b",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d3818737a8b",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9e5b014a9fb8",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_9e5b014a9fb8",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_246a399fe93f",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_246a399fe93f",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d14dd005e3f",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d14dd005e3f",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9d093b3c4824",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_9d093b3c4824",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a50433b7b338",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_a50433b7b338",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30f4fdf6bbf5",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_30f4fdf6bbf5",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5ee753e28df1",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_5ee753e28df1",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_02849394cf2c",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_02849394cf2c",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_98a21c14aa98",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_98a21c14aa98",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_26bb364ffd04",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_26bb364ffd04",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d6f483c5cdfa",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_d6f483c5cdfa",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_00408ca1dc0e",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_00408ca1dc0e",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4aaeb7bc7715",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_4aaeb7bc7715",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_98efc609d3e7",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_98efc609d3e7",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8a3bcd4eced6",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_8a3bcd4eced6",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_14e27c639670",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_14e27c639670",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8f6fefa6c837",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_8f6fefa6c837",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2fae9a92755a",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_2fae9a92755a",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d3342c22b9d8",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_d3342c22b9d8",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3c9055191aae",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_3c9055191aae",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9aa45d5f5979",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_9aa45d5f5979",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_42ccbeee6253",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_42ccbeee6253",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8c513419514d",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c513419514d",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9c469e6015e0",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_9c469e6015e0",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_87b3ca25e589",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_87b3ca25e589",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_73912f877623",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_73912f877623",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_56c5ef55e178",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_56c5ef55e178",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a643abca1128",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_a643abca1128",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_836f007d1264",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_836f007d1264",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ec6fb556f1db",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_ec6fb556f1db",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9b2852fbbb2",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9b2852fbbb2",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6dabcfad147c",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_6dabcfad147c",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4393ea230c6c",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_4393ea230c6c",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ac9f47a5462b",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_ac9f47a5462b",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f36f2bfa2fdc",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_f36f2bfa2fdc",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e0f73391407c",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_e0f73391407c",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_02dd13a8c9f9",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_02dd13a8c9f9",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8332eebbf076",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_8332eebbf076",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b1eb3eee7b06",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_b1eb3eee7b06",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_24470f133a74",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_24470f133a74",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_25c7ce0cfa10",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_25c7ce0cfa10",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d958eb5c22b0",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_d958eb5c22b0",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_689642d9dc98",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_689642d9dc98",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ac0def7c3bb8",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_ac0def7c3bb8",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_998c43702c76",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_998c43702c76",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d06f7faf4f5a",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_d06f7faf4f5a",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_38bc52814110",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_38bc52814110",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1cedfc65485b",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_1cedfc65485b",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b235b5fb8344",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_b235b5fb8344",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1232fbd731da",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_1232fbd731da",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c1a88c8193b2",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_c1a88c8193b2",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d5d980dd4179",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_d5d980dd4179",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_456bc620253e",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_456bc620253e",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_53c77c3af340",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_53c77c3af340",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_78a6cb833f3a",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_78a6cb833f3a",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_28caf7d91930",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_28caf7d91930",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0fa5ffdd7200",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_0fa5ffdd7200",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f024ce911e0d",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_f024ce911e0d",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d32c09349300",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_d32c09349300",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c13e12eca69",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c13e12eca69",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b89574313e0d",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_b89574313e0d",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6f8f57715090",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_6f8f57715090",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_700ea2cbf0a0",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_700ea2cbf0a0",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9d1567e5e4fb",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_9d1567e5e4fb",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_36c75409f028",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_36c75409f028",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1215fad8a3a0",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_1215fad8a3a0",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1a434d7fa938",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_1a434d7fa938",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ced454f6d028",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_ced454f6d028",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_533ce89252a7",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_533ce89252a7",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a5cdf7e27321",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_a5cdf7e27321",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f85e69cbbe15",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_f85e69cbbe15",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e4d8729a4023",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_e4d8729a4023",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e97ea9e3e3bc",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_e97ea9e3e3bc",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7e9ab0d124b0",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_7e9ab0d124b0",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6ea20f8a6e00",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_6ea20f8a6e00",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9e4747454011",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_9e4747454011",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7b9f5983bcc5",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_7b9f5983bcc5",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6dc94917227b",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_6dc94917227b",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_96476f3c4551",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_96476f3c4551",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4601fc912dbc",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_4601fc912dbc",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08ac597d170c",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_08ac597d170c",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_11ea3de3b2ca",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_11ea3de3b2ca",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_73ca207c2176",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_73ca207c2176",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_96a8c494305c",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_96a8c494305c",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c1e015868ae",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c1e015868ae",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b2ba6875c622",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_b2ba6875c622",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a533f50b2ec7",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_a533f50b2ec7",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2b37798fb1e5",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_2b37798fb1e5",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_03c7c0ace395",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_03c7c0ace395",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4560707d5968",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_4560707d5968",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0aeb1397f319",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_0aeb1397f319",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ff401eb54619",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_ff401eb54619",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fa0c102aef1f",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_fa0c102aef1f",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b5ff38d5fc62",
+   "to": "ent_961f25bc1c54",
+   "type": "指标关联",
+   "from_name": "ind_ind_b5ff38d5fc62",
+   "to_name": "异质结技术",
+   "edge_type": "indicator_entity"
+  }
+ ],
+ "counts": {
+  "entity_count": 33,
+  "relation_count": 35,
+  "framework_count": 0,
+  "logic_count": 16,
+  "indicator_count": 106
+ }
+}

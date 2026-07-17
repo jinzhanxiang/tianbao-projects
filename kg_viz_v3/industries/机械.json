@@ -1,0 +1,2377 @@
+{
+ "name": "机械",
+ "entities": [
+  {
+   "id": "ent_e41a4c9ba2ae",
+   "name": "印尼汽车行业",
+   "type": "INDUSTRY",
+   "industry": "机械",
+   "desc": "印尼汽车行业印尼汽车行业拥有巨大的增长潜力，当前千人汽车保有量仅99辆，远低于全球平均水平，预示着未来需求释放空间广阔。在竞争格局方面，市场长期由日系品牌主导燃油车领域，但中国新能源品牌凭借技术优势与成本竞争力正快速崛起，2025年新能源渗透率已达21.21%，推动市场重心加速向电动化转移。作为东南亚重要的工业支柱，印尼汽车业不仅对区域供应链，也是全球车企布局新兴市场、争夺未来增长红利的战略高地。",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_2a1a9ebdbab1",
+   "name": "安徽合力",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "公司总市值172亿元，最新收盘价19.33元，52周内最高/最低价23.46/15.11元，2025H1实现营业收入93.90亿元，归母净利润7.96亿元，资产负债率42.4%，市盈率12.16，海外业务收入突破40亿元占比达43%，在30多个国家和地区保持市场占有率第一",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_5217c2a17dc4",
+   "name": "纯电动汽车",
+   "type": "PRODUCT",
+   "industry": "机械",
+   "desc": "纯电动汽车作为新能源汽车产业的核心产品形态，完全依赖动力电池提供动力，具备零尾气排放、低运行噪音及高能源转化效率等技术特征。在行业定位上，它凭借智能化集成度高、使用成本低及政策补贴红利等优势，纯电动汽车正加速替代传统燃油车，重塑全球汽车市场格局。特别是在新兴市场如印尼，其渗透率呈现爆发式增长，中国作为主要出口国，凭借强大的产业链优势占据主导地位，显著提升了在全球绿色出行领域的产业影响力与话语权。",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_002f25be412b",
+   "name": "印度尼西亚",
+   "type": "PLACE",
+   "industry": "机械",
+   "desc": "印度尼西亚作为东南亚最大的经济体，正处于从中等收入向高收入国家转型的关键阶段，其庞大的内需市场与丰富的自然资源构成了坚实的经济基础。凭借超过2.85亿的人口规模及68%以上的劳动年龄人口占比，该国拥有显著的人口红利和巨大的消费潜力，使其成为全球制造业转移和新兴消费市场的重要目的地。在行业影响力方面，印尼不仅",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_504ca5bc6d4b",
+   "name": "Z世代消费者",
+   "type": "PERSON",
+   "industry": "机械",
+   "desc": "世代消费者指出生于1995年至2009年间的年轻群体，在金融与消费领域被视为新兴市场的核心驱动力。该群体具有数字化原生特征，对新能源汽车等创新产品接受度高，其购车决策高度依赖信贷工具、品牌价值观及功能体验，呈现出理性与个性化并重的消费特征。作为印尼等新兴市场劳动人口的重要组成部分，Z世代正重塑汽车及金融服务的市场需求结构，推动行业向数字化、年轻化转型。其庞大的基数与快速上升的消费能力，使其成为金融机构拓展零售业务及车企制定市场策略的关键目标客群，对行业增长",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_541666c7081e",
+   "name": "印尼电动车补贴政策",
+   "type": "POLICY",
+   "industry": "机械",
+   "desc": "截至2025年BEV最高8000万印尼卢比补贴，混合动力乘用车4000万印尼卢比。2026年6月重启电动车激励政策，覆盖20万辆电动车辆。满足TKDN的BEV可享0%进口关税、豪华税免征、增值税降至1%",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_6b08d58826c4",
+   "name": "合力叉车",
+   "type": "PRODUCT",
+   "industry": "机械",
+   "desc": "合力叉车是安徽合力股份有限公司旗下的核心工业车辆产品，主要应用于物流仓储、制造业及港口等场景，高效、智能的物料搬运解决方案。合力叉车凭借卓越的动力性能、高可靠性及智能化的技术优势，在国内外市场建立了强大的品牌竞争力，尤其在新能源叉车领域处于行业领先地位。2025年上半年，合力叉车海外收入突破40亿元，在30多个国家和地区的市场占有率稳居第一，充分彰显了其在全球工业车辆领域的强劲影响力与国际竞争力。",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_4db3da337d1f",
+   "name": "东盟汽车市场",
+   "type": "INDUSTRY",
+   "industry": "机械",
+   "desc": "东盟汽车市场该市场呈现高度集中的区域格局，泰国、印尼及马来西亚构成核心需求三角，三者合计占据绝大部分市场份额，其中马来西亚占比达26.1%，印尼与泰国分别占25.5%和19.7%，形成了稳定的产业基本盘。尽管印尼千人汽车保有量仅为99辆，远低于马来西亚的490辆和泰国的275辆，但这种显著的低渗透率揭示了印尼市场巨大的增量潜力与长期发展空间。作为全球汽车产业布局的关键一环，东盟市场凭借人口红利、制造业基础及日益完善的供应链体系，正逐步从单一的消费市场向全球重要的生产与出口基地转型，对全球汽车产业链",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_9b88687357b4",
+   "name": "TKDN本地化率要求",
+   "type": "POLICY",
+   "industry": "机械",
+   "desc": "本地化率是印度尼西亚政府为规范电动汽车产业而制定的强制性政策标准，旨在通过设定明确的国产化比例指标，推动本土制造业供应链的深度整合与技术升级。该政策规定自2026年起，本地生产的电动汽车必须达到40%的TKDN值并履行1:1国内生产承诺，随后在2027至2029年间逐步提升至60%，最终于2030年达到80%的严格标准。这一阶梯式提升机制不仅强化了印尼在全球新能源汽车产业链中的自主可控能力，还有效促进了本土零部件制造、电池生产及组装环节的技术积累与规模效应。作为印尼绿色转型战略的核心支柱，该政策对重塑区域产业格局、吸引国际资本投入以及确立印尼作为东南亚电动车制造枢纽的地位具有深远影响。",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_1decb242dea6",
+   "name": "Atto 1",
+   "type": "PRODUCT",
+   "industry": "机械",
+   "desc": "比亚迪Atto 1定位为品牌旗下的入门级纯电动紧凑型SUV，旨在以高性价比策略精准切入大众消费市场，满足城市通勤及家庭日常出行需求。该车型凭借比亚迪在“三电”核心技术领域的深厚积累，具备出色的能效表现与可靠的智能驾驶辅助功能，同时兼顾了宽敞的内部空间与现代化的内饰设计，形成了显著的产品差异化优势。作为2025年的现象级爆款车型，Atto 1市场反响热烈，两款版本累计月销突破5900台，其中主销版本单月销量高达1.3万台，另一版本亦达9582台。凭借极低的库存周期（低于3个月），该车型展现了极强的市场消化能力与供应链效率，进一步巩固了比亚迪在主流纯电SUV细分市场的领先地位。",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_9381e2dd6e54",
+   "name": "五菱",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "五菱是中国领先的汽车制造商，正加速向新能源领域转型，凭借深厚的制造积淀与敏锐的市场洞察力，在微型电动车细分市场占据主导地位。其主要竞争力在于极致的高性价比策略与精准的产品定位，通过New Air EV、Binguo等明星车型系列，有效满足了全球新兴市场对经济型出行工具的刚性需求。在国际化拓展方面，五菱成功切入印尼等东南亚市场，2025年当地销量达1.86万辆，排名跃升至第10位，显著提升了品牌影响力。作为连接大众消费与绿色出行的关键节点，五菱不仅巩固了其在行业内的领先地位，更成为推动全球新能源汽车普及的重要力量。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_fd10407539e2",
+   "name": "京东",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "京东集团是中国领先的技术驱动型电商及供应链基础设施服务商，业务零售、科技、物流及健康等多个领域。其主要竞争力在于构建了强大的智能供应链体系，通过自主研发的仓储自动化技术、大数据分析及人工智能算法，实现了高效精准的物流履约与库存管理。作为全球最具影响力的互联网企业之一，京东在电子商务及智慧物流行业占据主导地位，不仅重塑了传统零售业态，还通过开放平台赋能众多合作伙伴，持续推动产业数字化升级与社会效率提升。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_a2c44702ddbb",
+   "name": "奇瑞集团",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "奇瑞集团构建乘用车、商用车及新能源的完整产业生态，具备从核心零部件到整车的垂直整合能力。依托发动机技术、智能网联及新能源转型积累，该品牌作为中国汽车工业出海先锋，在东南亚、南美及中东等新兴市场占据重要地位。2025年其在印尼市场销量同比大幅增长，进一步巩固了全球主流车企的行业地位，持续推动自主品牌国际化进程。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_e76801f302ef",
+   "name": "安徽叉车集团有限责任公司",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "安徽叉车集团有限责任公司是中国最大的工业车辆研发、制造和出口基地，隶属于安徽合力股份有限公司的控股股东体系。公司深耕工程机械行业数十年，构建了内燃叉车、电动叉车及特种作业车辆在内的完整产品矩阵，具备强大的自主研发能力和规模化生产优势。凭借在核心零部件技术、智能化制造及全球供应链布局上的深厚积累，该企业持续引领国内叉车行业的技术升级与标准制定。作为国家级高新技术企业，其在国内外市场均享有极高的品牌声誉，长期位居全球工业车辆制造商前列，对推动中国高端装备制造产业发展",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_0efa2af2e30f",
+   "name": "顺丰",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "顺丰控股是中国领先的综合物流服务商，深耕快递、快运、冷运及供应链管理等多元化业务领域。公司凭借强大的航空货运网络、先进的自动化分拣技术以及完善的末端配送体系，构建了高效、安全且智能的物流基础设施，确立了在高端时效件市场的绝对优势。作为全球第四大、中国最大的快递企业，顺丰持续推动科技赋能与数字化转型，在提升运营效率的同时强化客户体验。其深厚的行业积淀与卓越的服务品质使其成为连接产业链上下游的关键枢纽，对推动中国现代物流业的高质量发展",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_f9e8f680642d",
+   "name": "印尼充电基础设施",
+   "type": "INDUSTRY",
+   "industry": "机械",
+   "desc": "印尼充电基础设施行业正处于高速扩张期，作为东南亚电动汽车生态系统的核心支撑，其战略地位日益凸显。依托政府2030年建设6.3万个公共充电点的宏观规划，印尼充电基础设施展现出强劲的增长动能，预计未来五年复合年增长率将超过50%，从2024年的约1600个站点激增至2025年的4456个。这一爆发式增长不仅填补了区域能源补给网络的空白，更通过规模化部署显著降低了用户里程焦虑，为电动汽车的大规模普及奠定了坚实基础。作为连接能源供给与交通出行的关键枢纽，印尼充电基础设施正逐步构建起覆盖主要城市及交通干线的服务网络，其快速迭代的能力与庞大的市场潜力，使其成为全球新能源投资版图中极具吸引力的新兴赛道，对推",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_abf6bf1f7fc4",
+   "name": "印尼双碳目标",
+   "type": "POLICY",
+   "industry": "机械",
+   "desc": "印尼双碳目标」是印度尼西亚政府制定的国家气候战略政策，旨在通过系统性减排措施实现2030年前后碳达峰及2060年碳中和的长期愿景。该政策以交通电气化为核心驱动力，设定了2030年推广1300万辆电动摩托车和220万辆电动汽车、2050年新车全面电动化的具体量化指标，体现了从化石能源向清洁能源转型的坚定决心。作为东南亚最大经济体之一，印尼此举不仅重塑了其国内能源结构与产业布局，更对全球南方国家的低碳发展路径",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_0767ac31c6bf",
+   "name": "叉车制造",
+   "type": "INDUSTRY",
+   "industry": "机械",
+   "desc": "叉车制造行业属于工业车辆细分领域，主要平衡重式叉车、前移式叉车等物料搬运设备的研发、生产与销售，叉车制造正加速向电动化、智能化及绿色化方向转型升级，主要竞争力体现在高精度液压控制技术、智能电控系统以及全生命周期服务能力上。安徽合力作为国内龙头企业，凭借深厚的技术积淀与规模化制造优势，持续巩固其市场领先地位，2025年上半年海外业务占比已达43%，显示出强劲的国际竞争力。",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_ffac3d9e0863",
+   "name": "混合动力汽车",
+   "type": "PRODUCT",
+   "industry": "机械",
+   "desc": "混合动力汽车它融合内燃机的高续航与电动机的低能耗，缓解里程焦虑。日系品牌凭借长期技术积累和用户认知，在早期市场建立壁垒。2025年纯电动车技术突破及成本下降导致混动市场面临分流压力，渗透率波动在8%-9%。凭借成熟供应链和稳定性能，混动汽车在特定细分市场仍具竞争力，是汽车产业电动化转型不可或缺的部分",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_116b6fb874e6",
+   "name": "中国车企",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "中国车企是指在中国注册并从事汽车整车及零部件研发、制造与销售的企业集合，传统燃油车制造商及新兴新能源汽车企业。该群体凭借完整的产业链配套、规模化制造能力以及在电动化、智能化领域的快速迭代优势，构建了显著的成本与技术壁垒。近年来，中国车企在全球汽车产业中影响力持续攀升，不仅在国内市场占据主导地位，更通过出口扩张成为重塑全球汽车供应链格局的关键力量，尤其在新能源汽车细分赛道展现出强大的国际竞争力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_e35bec9b70e9",
+   "name": "刘卓",
+   "type": "PERSON",
+   "industry": "机械",
+   "desc": "刘卓是中邮证券研究所资深分析师，持有SAC登记编号S1340522110001，专注于机械设备行业的深度研究与投资分析。他具备扎实的宏观视野与微观企业洞察力，能够精准把握行业周期波动及细分赛道的发展趋势，为投资者提供具有前瞻性的策略建议。凭借对产业链上下游的深刻理解及严谨的数据建模能力，刘卓在机械设备领域建立了良好的专业声誉，其研究成果常被机构客户作为重要参考依据，持续推动中邮证券在该垂直领域的研究影响力与市场竞争力。",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_6e7ba3637f75",
+   "name": "陈基赟",
+   "type": "PERSON",
+   "industry": "机械",
+   "desc": "陈基赟是中邮证券研究所的资深分析师，持有S1340524070003号证券从业资格证书，专注于机械行业及高端装备制造领域的深度研究。他具备扎实的宏观视野与微观企业分析能力，擅长结合产业周期波动、政策导向及技术迭代趋势，对安徽合力等龙头企业进行基本面剖析与估值建模。其研究报告以数据详实、逻辑严密著称，能够精准捕捉行业景气度变化拐点，为投资者提供具有高参考价值的决策依据。凭借在细分赛道上的持续深耕与高质量产出，陈基赟在券商分析师群体中建立了良好的专业声誉，其研究成果对资本市场理解制造业转型升级",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_6d5667d77b17",
+   "name": "MPV车型",
+   "type": "PRODUCT",
+   "industry": "机械",
+   "desc": "车型作为汽车产业中兼顾家庭出行与商务接待的核心产品类别，在东南亚等新兴市场占据着举足轻重的战略地位。该品类凭借宽敞的内部空间、灵活的座椅布局以及优异的乘坐舒适性，成功覆盖了城市通勤与多成员家庭用车的双重场景，形成了区别于传统轿车和SUV的独特市场定位。在印尼等关键区域市场，MPV以超过三成的销量占比稳居各车型类别之首，展现出强大的市场统治力与消费者认可度。然而，随着Z世代消费群体崛起，市场需求正经历结构性调整，用户偏好逐渐从传统七座大型MPV向更具灵活性的轻量化五座车型转移，推动行业在保持空间优势的同时加速产品形态的创新与迭代",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_126c4f0e7aef",
+   "name": "印尼金融服务管理局",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "印尼金融服务管理局（OJK）是印度尼西亚独立的国家监管机构，全面负责监督银行、保险及资本市场等金融子行业，旨在维护金融体系的稳定性与透明度。作为印尼金融体系的核心监管者，OJK通过制定并执行严格的法规框架，有效防范系统性风险，保障投资者权益，并在推动普惠金融发展方面发挥关键作用。近期，该机构通过第35号条例优化机动车融资监管指标，适度放宽不良资产率及资本比率限制，体现了其在保持审慎监管的同时，灵活调整政策以激发市场活力、促进信贷投放的治理智慧。这一举措不仅提升了金融机构的服务能力，也巩固了OJK在东南亚地区金融监管领域的权威地位与影响力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_fbafb4dca826",
+   "name": "泰国",
+   "type": "PLACE",
+   "industry": "机械",
+   "desc": "a professional description of Thailand as a PLACE, focusing on its role as automotive industry hub, supply chain, manufacturing base, high localization rate, maybe mention its position in Southeast Asia, strategic location, government policies, EV development, etc. We have background: \"泰国是东南亚地区汽车产业最",
+   "attrs": "",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_deeac0cad4a8",
+   "name": "雅加达",
+   "type": "PLACE",
+   "industry": "机械",
+   "desc": "雅加达作为印度尼西亚的首及最大城市，是该国新能源汽车产业的核心枢纽与主要消费市场。依托爪哇岛城市群庞大的经济腹地，雅加达集中了全国最密集的充电基础设施网络，形成了显著的区域性产业聚集效应。受限于严重的交通拥堵状况，当地实施的单双号限行政策极大地刺激了居民对电动车的替代性需求，使其成为推动印尼电动化转型的关键驱动力。作为东南亚最具活力的汽车市场之一，雅加达不仅主导着国内新能源汽车的销量格局，更对区域供应链布局及海外车企进入东南亚市场",
+   "attrs": "{\"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_80ed63995918",
+   "name": "印尼汽车工业协会",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "印尼汽车工业协会（Gaikindo）是印尼汽车行业最具代表性的官方组织，负责协调政府、制造商及供应链利益，推动产业规范化与可持续发展。作为核心数据权威发布机构，该协会定期提供整车销量、市场份额及新能源渗透率等深度统计分析，为投资者和政策制定者提供高可信度决策依据。凭借其预测2026年印尼汽车销量将同比增长6%至85万辆，彰显了把握市场脉搏和引领行业风向的强大影响力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_8c368ede586d",
+   "name": "VinFast",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "是越南Vingroup旗下专注电动汽车研发、制造及销售的子公司，旨在推动越南乃至东南亚地区的交通电气化转型。凭借垂直整合的供应链优势，该公司构建了整车制造、电池生产及充电基础设施的完整产业生态，并通过本地化生产降低成本以提升市场竞争力。作为越南首家实现规模化量产的电动汽车企业，VinFast在东南亚新能源汽车市场占据领先地位，其出口战略正逐步拓展至欧洲及北美市场，对区域汽车产业格局产生深远影响。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_13ce3037f5e6",
+   "name": "现代-起亚",
+   "type": "ORG",
+   "industry": "机械",
+   "desc": "现代-起亚集团由韩国现代汽车与起亚汽车组成，业务覆盖整车研发、制造、销售、零部件供应及金融服务。作为全球第七大汽车集团，该组织凭借高性价比产品、快速迭代的技术创新及高效全球供应链管理，在北美、欧洲和亚洲市场占据显著份额。集团持续投入新能源汽车与智能网联领域，构建多元化产品矩阵，以稳健财务表现和持续增长销量确立国际地位，深刻影响全球汽车产业格局。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u673a\\u68b0/\\u519b\\u5de5\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  }
+ ],
+ "relations": [
+  {
+   "from": "ent_e76801f302ef",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "母公司",
+   "from_name": "安徽叉车集团有限责任公司",
+   "to_name": "安徽合力",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_0efa2af2e30f",
+   "type": "市场化",
+   "from_name": "安徽合力",
+   "to_name": "顺丰",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_fd10407539e2",
+   "type": "市场化",
+   "from_name": "安徽合力",
+   "to_name": "京东",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_6b08d58826c4",
+   "type": "品牌",
+   "from_name": "安徽合力",
+   "to_name": "合力叉车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0efa2af2e30f",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "客户",
+   "from_name": "顺丰",
+   "to_name": "安徽合力",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_fd10407539e2",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "客户",
+   "from_name": "京东",
+   "to_name": "安徽合力",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e76801f302ef",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "股东",
+   "from_name": "安徽叉车集团有限责任公司",
+   "to_name": "安徽合力",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_0efa2af2e30f",
+   "type": "战略联盟",
+   "from_name": "安徽合力",
+   "to_name": "顺丰",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_fd10407539e2",
+   "type": "战略联盟",
+   "from_name": "安徽合力",
+   "to_name": "京东",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e35bec9b70e9",
+   "to": "ent_6e7ba3637f75",
+   "type": "对比",
+   "from_name": "刘卓",
+   "to_name": "陈基赟",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PERSON",
+   "to_type": "PERSON",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_0767ac31c6bf",
+   "type": "上下游",
+   "from_name": "安徽合力",
+   "to_name": "叉车制造",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6b08d58826c4",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "对比",
+   "from_name": "合力叉车",
+   "to_name": "安徽合力",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6e7ba3637f75",
+   "to": "ent_e35bec9b70e9",
+   "type": "对比",
+   "from_name": "陈基赟",
+   "to_name": "刘卓",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PERSON",
+   "to_type": "PERSON",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e35bec9b70e9",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "对比",
+   "from_name": "刘卓",
+   "to_name": "安徽合力",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PERSON",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6e7ba3637f75",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "对比",
+   "from_name": "陈基赟",
+   "to_name": "安徽合力",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PERSON",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0efa2af2e30f",
+   "to": "ent_fd10407539e2",
+   "type": "对比",
+   "from_name": "顺丰",
+   "to_name": "京东",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0767ac31c6bf",
+   "to": "ent_e76801f302ef",
+   "type": "对比",
+   "from_name": "叉车制造",
+   "to_name": "安徽叉车集团有限责任公司",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_e76801f302ef",
+   "type": "子公司",
+   "from_name": "安徽合力",
+   "to_name": "安徽叉车集团有限责任公司",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_0efa2af2e30f",
+   "type": "对比",
+   "from_name": "安徽合力",
+   "to_name": "顺丰",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_2a1a9ebdbab1",
+   "to": "ent_fd10407539e2",
+   "type": "对比",
+   "from_name": "安徽合力",
+   "to_name": "京东",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e76801f302ef",
+   "to": "ent_0767ac31c6bf",
+   "type": "对比",
+   "from_name": "安徽叉车集团有限责任公司",
+   "to_name": "叉车制造",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6b08d58826c4",
+   "to": "ent_0767ac31c6bf",
+   "type": "对比",
+   "from_name": "合力叉车",
+   "to_name": "叉车制造",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PRODUCT",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a2c44702ddbb",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "投资",
+   "from_name": "奇瑞集团",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_541666c7081e",
+   "to": "ent_5217c2a17dc4",
+   "type": "监管",
+   "from_name": "印尼电动车补贴政策",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "POLICY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_541666c7081e",
+   "to": "ent_ffac3d9e0863",
+   "type": "监管",
+   "from_name": "印尼电动车补贴政策",
+   "to_name": "混合动力汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "POLICY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9b88687357b4",
+   "to": "ent_116b6fb874e6",
+   "type": "监管",
+   "from_name": "TKDN本地化率要求",
+   "to_name": "中国车企",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "POLICY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_126c4f0e7aef",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "监管",
+   "from_name": "印尼金融服务管理局",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_116b6fb874e6",
+   "type": "监管",
+   "from_name": "印尼汽车行业",
+   "to_name": "中国车企",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f9e8f680642d",
+   "to": "ent_5217c2a17dc4",
+   "type": "上下游",
+   "from_name": "印尼充电基础设施",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_abf6bf1f7fc4",
+   "to": "ent_5217c2a17dc4",
+   "type": "监管",
+   "from_name": "印尼双碳目标",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "POLICY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_504ca5bc6d4b",
+   "to": "ent_9381e2dd6e54",
+   "type": "客户",
+   "from_name": "Z世代消费者",
+   "to_name": "五菱",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PERSON",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_5217c2a17dc4",
+   "type": "上下游",
+   "from_name": "印尼汽车行业",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4db3da337d1f",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "上下游",
+   "from_name": "东盟汽车市场",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_5217c2a17dc4",
+   "type": "监管",
+   "from_name": "印尼汽车行业",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_deeac0cad4a8",
+   "to": "ent_f9e8f680642d",
+   "type": "上下游",
+   "from_name": "雅加达",
+   "to_name": "印尼充电基础设施",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PLACE",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_ffac3d9e0863",
+   "type": "监管",
+   "from_name": "印尼汽车行业",
+   "to_name": "混合动力汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_fbafb4dca826",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "对比",
+   "from_name": "泰国",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PLACE",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_6d5667d77b17",
+   "type": "监管",
+   "from_name": "印尼汽车行业",
+   "to_name": "MPV车型",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_504ca5bc6d4b",
+   "type": "上下游",
+   "from_name": "印尼汽车行业",
+   "to_name": "Z世代消费者",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "PERSON",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_abf6bf1f7fc4",
+   "to": "ent_ffac3d9e0863",
+   "type": "监管",
+   "from_name": "印尼双碳目标",
+   "to_name": "混合动力汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "POLICY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_126c4f0e7aef",
+   "to": "ent_5217c2a17dc4",
+   "type": "监管",
+   "from_name": "印尼金融服务管理局",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_116b6fb874e6",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "投资",
+   "from_name": "中国车企",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9381e2dd6e54",
+   "to": "ent_a2c44702ddbb",
+   "type": "竞争",
+   "from_name": "五菱",
+   "to_name": "奇瑞集团",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_002f25be412b",
+   "type": "上下游",
+   "from_name": "印尼汽车行业",
+   "to_name": "印度尼西亚",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_541666c7081e",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "监管",
+   "from_name": "印尼电动车补贴政策",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_abf6bf1f7fc4",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "监管",
+   "from_name": "印尼双碳目标",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_504ca5bc6d4b",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "客户",
+   "from_name": "Z世代消费者",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PERSON",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a2c44702ddbb",
+   "to": "ent_9381e2dd6e54",
+   "type": "竞争",
+   "from_name": "奇瑞集团",
+   "to_name": "五菱",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_4db3da337d1f",
+   "type": "对比",
+   "from_name": "印尼汽车行业",
+   "to_name": "东盟汽车市场",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_f9e8f680642d",
+   "type": "上下游",
+   "from_name": "印尼汽车行业",
+   "to_name": "印尼充电基础设施",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9381e2dd6e54",
+   "to": "ent_002f25be412b",
+   "type": "供应",
+   "from_name": "五菱",
+   "to_name": "印度尼西亚",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6d5667d77b17",
+   "to": "ent_5217c2a17dc4",
+   "type": "对比",
+   "from_name": "MPV车型",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PRODUCT",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a2c44702ddbb",
+   "to": "ent_002f25be412b",
+   "type": "投资",
+   "from_name": "奇瑞集团",
+   "to_name": "印度尼西亚",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e41a4c9ba2ae",
+   "to": "ent_541666c7081e",
+   "type": "上下游",
+   "from_name": "印尼汽车行业",
+   "to_name": "印尼电动车补贴政策",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_fbafb4dca826",
+   "to": "ent_002f25be412b",
+   "type": "对比",
+   "from_name": "泰国",
+   "to_name": "印度尼西亚",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_80ed63995918",
+   "to": "ent_e41a4c9ba2ae",
+   "type": "监管",
+   "from_name": "印尼汽车工业协会",
+   "to_name": "印尼汽车行业",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_504ca5bc6d4b",
+   "to": "ent_5217c2a17dc4",
+   "type": "客户",
+   "from_name": "Z世代消费者",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PERSON",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9381e2dd6e54",
+   "to": "ent_002f25be412b",
+   "type": "投资",
+   "from_name": "五菱",
+   "to_name": "印度尼西亚",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_5217c2a17dc4",
+   "to": "ent_ffac3d9e0863",
+   "type": "对比",
+   "from_name": "纯电动汽车",
+   "to_name": "混合动力汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PRODUCT",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a2c44702ddbb",
+   "to": "ent_002f25be412b",
+   "type": "战略联盟",
+   "from_name": "奇瑞集团",
+   "to_name": "印度尼西亚",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_deeac0cad4a8",
+   "to": "ent_5217c2a17dc4",
+   "type": "上下游",
+   "from_name": "雅加达",
+   "to_name": "纯电动汽车",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f9e8f680642d",
+   "to": "ent_abf6bf1f7fc4",
+   "type": "监管",
+   "from_name": "印尼充电基础设施",
+   "to_name": "印尼双碳目标",
+   "from_ind": "机械",
+   "to_ind": "机械",
+   "from_type": "INDUSTRY",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  }
+ ],
+ "frameworks": [],
+ "logics": [],
+ "indicators": [
+  {
+   "id": "ind_ind_1d3cbde3a5ea",
+   "indicator_id": "ind_1d3cbde3a5ea",
+   "name": "Q2扣非归母净利润同比增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "12.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_09a3a4fc14e3",
+   "indicator_id": "ind_09a3a4fc14e3",
+   "name": "归母净利润",
+   "type": "财务",
+   "unit": "亿元",
+   "value": "7.96",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_029de2308304",
+   "indicator_id": "ind_029de2308304",
+   "name": "智能物流业务同比增长",
+   "type": "增长率",
+   "unit": "%",
+   "value": "59.1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d5bb9a2f5e2c",
+   "indicator_id": "ind_d5bb9a2f5e2c",
+   "name": "毛利率",
+   "type": "利润率",
+   "unit": "%",
+   "value": "23.58",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fc348fc82707",
+   "indicator_id": "ind_fc348fc82707",
+   "name": "海外业务收入",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "40",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_987d95e99b73",
+   "indicator_id": "ind_987d95e99b73",
+   "name": "海外收入占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "43",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_68f2d6a4510f",
+   "indicator_id": "ind_68f2d6a4510f",
+   "name": "营业收入",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "93.90",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0c51f4cd220f",
+   "indicator_id": "ind_0c51f4cd220f",
+   "name": "营业收入同比增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "6.18",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_299bcde5d3d7",
+   "indicator_id": "ind_299bcde5d3d7",
+   "name": "2025年预计归母净利润同比增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "8.31",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8e4e6d2cfb09",
+   "indicator_id": "ind_8e4e6d2cfb09",
+   "name": "2025年预计营收同比增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "6.77",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e3de955b033d",
+   "indicator_id": "ind_e3de955b033d",
+   "name": "2027年预计PE",
+   "type": "估值",
+   "unit": "倍",
+   "value": "10.50",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_97758013d484",
+   "indicator_id": "ind_97758013d484",
+   "name": "2027年预计归母净利润",
+   "type": "财务",
+   "unit": "亿元",
+   "value": "16.39",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c3e188b681a9",
+   "indicator_id": "ind_c3e188b681a9",
+   "name": "2027年预计营业收入",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "208.75",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_5596ae1d9df4",
+   "indicator_id": "ind_5596ae1d9df4",
+   "name": "52周最低价",
+   "type": "基准",
+   "unit": "元",
+   "value": "15.11",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a9a842a13f7a",
+   "indicator_id": "ind_a9a842a13f7a",
+   "name": "52周最高价",
+   "type": "基准",
+   "unit": "元",
+   "value": "23.46",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3b57f02f2fdf",
+   "indicator_id": "ind_3b57f02f2fdf",
+   "name": "Q1归母净利润",
+   "type": "财务",
+   "unit": "亿元",
+   "value": "3.22",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d3ae90c8b0a3",
+   "indicator_id": "ind_d3ae90c8b0a3",
+   "name": "Q1营业收入",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "42.74",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ca051ae6c82f",
+   "indicator_id": "ind_ca051ae6c82f",
+   "name": "Q1营业收入同比增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "2.1",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ac7b57567047",
+   "indicator_id": "ind_ac7b57567047",
+   "name": "Q2归母净利润",
+   "type": "财务",
+   "unit": "亿元",
+   "value": "4.74",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1d2f203d7a8a",
+   "indicator_id": "ind_1d2f203d7a8a",
+   "name": "Q2营业收入",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "51.16",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3589e7686a5d",
+   "indicator_id": "ind_3589e7686a5d",
+   "name": "Q2营业收入同比增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "9.9",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_7a2184ff5f6f",
+   "indicator_id": "ind_7a2184ff5f6f",
+   "name": "后市场业务同比增长",
+   "type": "增长率",
+   "unit": "%",
+   "value": "15.3",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b7faffe96d91",
+   "indicator_id": "ind_b7faffe96d91",
+   "name": "市盈率",
+   "type": "估值",
+   "unit": "倍",
+   "value": "12.16",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_04541f9f3a21",
+   "indicator_id": "ind_04541f9f3a21",
+   "name": "归母净利润同比增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "-4.6",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0cd0ee01c57a",
+   "indicator_id": "ind_0cd0ee01c57a",
+   "name": "总市值",
+   "type": "估值",
+   "unit": "亿元",
+   "value": "172",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_cc879fe073f7",
+   "indicator_id": "ind_cc879fe073f7",
+   "name": "扣非归母净利润",
+   "type": "财务",
+   "unit": "亿元",
+   "value": "7.27",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_5a09bf966e5d",
+   "indicator_id": "ind_5a09bf966e5d",
+   "name": "期间费用率",
+   "type": "成本",
+   "unit": "%",
+   "value": "13.06",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_89d7d854bf1f",
+   "indicator_id": "ind_89d7d854bf1f",
+   "name": "毛利率同比增长",
+   "type": "利润率",
+   "unit": "pct",
+   "value": "0.36",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_259e55d188b1",
+   "indicator_id": "ind_259e55d188b1",
+   "name": "流通市值",
+   "type": "估值",
+   "unit": "亿元",
+   "value": "172",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b988bc48c929",
+   "indicator_id": "ind_b988bc48c929",
+   "name": "海外市场覆盖国家数",
+   "type": "规模",
+   "unit": "个",
+   "value": "30",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_41d1ccb1d7cb",
+   "indicator_id": "ind_41d1ccb1d7cb",
+   "name": "现金流量净额同比增长",
+   "type": "增长率",
+   "unit": "%",
+   "value": "81.81",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a8785beac98f",
+   "indicator_id": "ind_a8785beac98f",
+   "name": "研发费用率",
+   "type": "成本",
+   "unit": "%",
+   "value": "6.16",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_dbd311bb9cda",
+   "indicator_id": "ind_dbd311bb9cda",
+   "name": "管理费用率",
+   "type": "成本",
+   "unit": "%",
+   "value": "2.83",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f9ef3b4f0388",
+   "indicator_id": "ind_f9ef3b4f0388",
+   "name": "经营活动现金流量净额",
+   "type": "营运",
+   "unit": "亿元",
+   "value": "5.89",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_08af64f9f4a5",
+   "indicator_id": "ind_08af64f9f4a5",
+   "name": "财务费用率",
+   "type": "成本",
+   "unit": "%",
+   "value": "-0.89",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e9f4acf80cdc",
+   "indicator_id": "ind_e9f4acf80cdc",
+   "name": "资产负债率",
+   "type": "偿债",
+   "unit": "%",
+   "value": "42.4",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_50ee5c00472a",
+   "indicator_id": "ind_50ee5c00472a",
+   "name": "销售费用率",
+   "type": "成本",
+   "unit": "%",
+   "value": "4.96",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_01f3b5720419",
+   "indicator_id": "ind_01f3b5720419",
+   "name": "零部件业务同比增长",
+   "type": "增长率",
+   "unit": "%",
+   "value": "16.4",
+   "is_core": false,
+   "node_type": "indicator"
+  }
+ ],
+ "framework_entity_edges": [],
+ "logic_entity_edges": [],
+ "indicator_entity_edges": [
+  {
+   "from": "ind_ind_1d3cbde3a5ea",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d3cbde3a5ea",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d3cbde3a5ea",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d3cbde3a5ea",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d3cbde3a5ea",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d3cbde3a5ea",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_09a3a4fc14e3",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_09a3a4fc14e3",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_09a3a4fc14e3",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_09a3a4fc14e3",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_09a3a4fc14e3",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_09a3a4fc14e3",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_029de2308304",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_029de2308304",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_029de2308304",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_029de2308304",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_029de2308304",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_029de2308304",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d5bb9a2f5e2c",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_d5bb9a2f5e2c",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d5bb9a2f5e2c",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_d5bb9a2f5e2c",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d5bb9a2f5e2c",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_d5bb9a2f5e2c",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc348fc82707",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc348fc82707",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc348fc82707",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc348fc82707",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc348fc82707",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc348fc82707",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_987d95e99b73",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_987d95e99b73",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_987d95e99b73",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_987d95e99b73",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_987d95e99b73",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_987d95e99b73",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68f2d6a4510f",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_68f2d6a4510f",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68f2d6a4510f",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_68f2d6a4510f",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68f2d6a4510f",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_68f2d6a4510f",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0c51f4cd220f",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_0c51f4cd220f",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0c51f4cd220f",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_0c51f4cd220f",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0c51f4cd220f",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_0c51f4cd220f",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_299bcde5d3d7",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_299bcde5d3d7",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_299bcde5d3d7",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_299bcde5d3d7",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_299bcde5d3d7",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_299bcde5d3d7",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8e4e6d2cfb09",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_8e4e6d2cfb09",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8e4e6d2cfb09",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_8e4e6d2cfb09",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8e4e6d2cfb09",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_8e4e6d2cfb09",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e3de955b033d",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_e3de955b033d",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e3de955b033d",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_e3de955b033d",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e3de955b033d",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_e3de955b033d",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_97758013d484",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_97758013d484",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_97758013d484",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_97758013d484",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_97758013d484",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_97758013d484",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c3e188b681a9",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_c3e188b681a9",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c3e188b681a9",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_c3e188b681a9",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c3e188b681a9",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_c3e188b681a9",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5596ae1d9df4",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_5596ae1d9df4",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5596ae1d9df4",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_5596ae1d9df4",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5596ae1d9df4",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_5596ae1d9df4",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a9a842a13f7a",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_a9a842a13f7a",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a9a842a13f7a",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_a9a842a13f7a",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a9a842a13f7a",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_a9a842a13f7a",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3b57f02f2fdf",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_3b57f02f2fdf",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3b57f02f2fdf",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_3b57f02f2fdf",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3b57f02f2fdf",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_3b57f02f2fdf",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d3ae90c8b0a3",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_d3ae90c8b0a3",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d3ae90c8b0a3",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_d3ae90c8b0a3",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d3ae90c8b0a3",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_d3ae90c8b0a3",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ca051ae6c82f",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_ca051ae6c82f",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ca051ae6c82f",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_ca051ae6c82f",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ca051ae6c82f",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_ca051ae6c82f",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ac7b57567047",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_ac7b57567047",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ac7b57567047",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_ac7b57567047",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ac7b57567047",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_ac7b57567047",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d2f203d7a8a",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d2f203d7a8a",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d2f203d7a8a",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d2f203d7a8a",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d2f203d7a8a",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d2f203d7a8a",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3589e7686a5d",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_3589e7686a5d",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3589e7686a5d",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_3589e7686a5d",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3589e7686a5d",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_3589e7686a5d",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7a2184ff5f6f",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_7a2184ff5f6f",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7a2184ff5f6f",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_7a2184ff5f6f",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7a2184ff5f6f",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_7a2184ff5f6f",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b7faffe96d91",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_b7faffe96d91",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b7faffe96d91",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_b7faffe96d91",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b7faffe96d91",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_b7faffe96d91",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_04541f9f3a21",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_04541f9f3a21",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_04541f9f3a21",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_04541f9f3a21",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_04541f9f3a21",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_04541f9f3a21",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0cd0ee01c57a",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_0cd0ee01c57a",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0cd0ee01c57a",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_0cd0ee01c57a",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0cd0ee01c57a",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_0cd0ee01c57a",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc879fe073f7",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc879fe073f7",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc879fe073f7",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc879fe073f7",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc879fe073f7",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc879fe073f7",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5a09bf966e5d",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_5a09bf966e5d",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5a09bf966e5d",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_5a09bf966e5d",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5a09bf966e5d",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_5a09bf966e5d",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_89d7d854bf1f",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_89d7d854bf1f",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_89d7d854bf1f",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_89d7d854bf1f",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_89d7d854bf1f",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_89d7d854bf1f",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_259e55d188b1",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_259e55d188b1",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_259e55d188b1",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_259e55d188b1",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_259e55d188b1",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_259e55d188b1",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b988bc48c929",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_b988bc48c929",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b988bc48c929",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_b988bc48c929",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b988bc48c929",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_b988bc48c929",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_41d1ccb1d7cb",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_41d1ccb1d7cb",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_41d1ccb1d7cb",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_41d1ccb1d7cb",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_41d1ccb1d7cb",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_41d1ccb1d7cb",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a8785beac98f",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_a8785beac98f",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a8785beac98f",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_a8785beac98f",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a8785beac98f",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_a8785beac98f",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dbd311bb9cda",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_dbd311bb9cda",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dbd311bb9cda",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_dbd311bb9cda",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dbd311bb9cda",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_dbd311bb9cda",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9ef3b4f0388",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9ef3b4f0388",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9ef3b4f0388",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9ef3b4f0388",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9ef3b4f0388",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9ef3b4f0388",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08af64f9f4a5",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_08af64f9f4a5",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08af64f9f4a5",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_08af64f9f4a5",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08af64f9f4a5",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_08af64f9f4a5",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e9f4acf80cdc",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_e9f4acf80cdc",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e9f4acf80cdc",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_e9f4acf80cdc",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e9f4acf80cdc",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_e9f4acf80cdc",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_50ee5c00472a",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_50ee5c00472a",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_50ee5c00472a",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_50ee5c00472a",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_50ee5c00472a",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_50ee5c00472a",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_01f3b5720419",
+   "to": "ent_e35bec9b70e9",
+   "type": "指标关联",
+   "from_name": "ind_ind_01f3b5720419",
+   "to_name": "刘卓",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_01f3b5720419",
+   "to": "ent_2a1a9ebdbab1",
+   "type": "指标关联",
+   "from_name": "ind_ind_01f3b5720419",
+   "to_name": "安徽合力",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_01f3b5720419",
+   "to": "ent_6e7ba3637f75",
+   "type": "指标关联",
+   "from_name": "ind_ind_01f3b5720419",
+   "to_name": "陈基赟",
+   "edge_type": "indicator_entity"
+  }
+ ],
+ "counts": {
+  "entity_count": 29,
+  "relation_count": 62,
+  "framework_count": 0,
+  "logic_count": 0,
+  "indicator_count": 38
+ }
+}

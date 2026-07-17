@@ -1,0 +1,5891 @@
+{
+ "name": "金融-主题研究",
+ "entities": [
+  {
+   "id": "ent_61e8303d45db",
+   "name": "A股上市公司",
+   "type": "INDUSTRY",
+   "industry": "金融-主题研究",
+   "desc": "截至2025年10月22日，A股共有2533家上市公司发布2024年度ESG报告，披露率达47%，较上年增长5个百分点。其中上证180、科创50等指数样本公司被2026年前强制披露可持续发展报告，环境管理体系认证比例从2022年38%升至2024年87%。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_9eb8c7bcfd18",
+   "name": "煤电行业",
+   "type": "INDUSTRY",
+   "industry": "金融-主题研究",
+   "desc": "十四五'煤电节能降碳改造规模3.5亿千瓦，'三改联动'累计实施7.37亿千瓦、完成率超75%，2023年单位火电碳排放821克/千瓦时较2005年降21.7%，掺氨燃烧最大比例达35%，已投运CCUS项目13个、总捕集能力60万吨/年。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_5877f2b40235",
+   "name": "数据中心行业",
+   "type": "INDUSTRY",
+   "industry": "金融-主题研究",
+   "desc": "246座国家绿色数据中心PUE从2020年1.44降至2023年1.22，WUE从2.00降至1.08 L/kWh，可再生能源利用率从18.6%升至50%，2024年互联网企业分布式光伏部署22家、绿电交易12家，全球数据中心总能耗预测2027年达813.7。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_3cf268c5e130",
+   "name": "绿色专利",
+   "type": "TECH",
+   "industry": "金融-主题研究",
+   "desc": "2019-2024年A股公司持有量累计增长160%，绿色建筑领域增速374%，新能源汽车领域增速190%，CCUS领域增速超150%，持有企业占比从不足40%升至50%以上。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_e26ce5e114dc",
+   "name": "国新证券",
+   "type": "ORG",
+   "industry": "金融-主题研究",
+   "desc": "注册资本58.41亿元，控股股东为中国国新控股有限责任公司，截至2024年底下设18家分公司、64家营业部，深度参与《央企控股上市公司ESG评价体系研究》课题，推动央企控股上市公司实现100% ESG相关报告披露率，2024年承销绿色债券1674.1亿元。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_6b75b146ee60",
+   "name": "高碳行业",
+   "type": "INDUSTRY",
+   "industry": "金融-主题研究",
+   "desc": "涵盖钢铁、化工、建筑材料等申万一级行业，2024年平均环保投入占营收比例达0.78%，为A股整体水平的1.6倍，其中建筑材料行业47%企业实现温室气体排放强度同比下降。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_29e3dd0ca45f",
+   "name": "张海文",
+   "type": "PERSON",
+   "industry": "金融-主题研究",
+   "desc": "国新证券党委书记、董事长，主导推动央企ESG披露全覆盖，参与构建中国特色ESG评价体系，2025年11月发布《以ESG治理驱动上市公司绿色转型》白皮书，强调深化'研究+金融'服务模式，打造绿色债券和碳中和融资产品。",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_28dea124fe80",
+   "name": "碳达峰碳中和政策",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "2021年11月，国家发展改革委、国家能源局联合印发《关于开展全国煤电机组改造升级的通知》，明确'十四五'期间煤电节能降碳改造、供热改造和灵活性改造的规模分别达到3.5亿千瓦、5000万千瓦、2亿千瓦；2025年4月发布《新一代煤电升级专项行动实施方案（2025—2027年）》，首次量化深度调峰最小出力。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_4dbcdd1efe27",
+   "name": "绿色金融政策体系",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "2016年8月，中国人民银行等七部委联合发布《关于构建绿色金融体系的指导意见》，标志着我国成为全球首个系统性建立比较完善绿色金融政策框架的主要经济体；2024年3月出台《关于进一步强化金融支持绿色低碳发展的指导意见》，形成'三大功能''五大支柱'政策思路，中期目标为2035年构建国际领先的金融支持绿色低碳发展体系。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_0f402fe34204",
+   "name": "转型债券",
+   "type": "PRODUCT",
+   "industry": "金融-主题研究",
+   "desc": "截至2024年末累计发行244只、规模2208亿元，发行人家数从21家增至59家，认购倍数从1.05升至5.48，融资成本低8.1BP，支持传统高碳行业低碳转型，2025年中期目标纳入绿色金融政策体系。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_3aef2687ebd8",
+   "name": "CCUS技术",
+   "type": "TECH",
+   "industry": "金融-主题研究",
+   "desc": "碳捕集、利用与封存技术，2024年已投运项目13个、总捕集能力60万吨/年，碳排放较2024年同类型机组降10~20%，示范机组设计煤耗270克/千瓦时，支撑煤电向灵活调节平台转型。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_896b028a4ccb",
+   "name": "ESG治理体系",
+   "type": "TECH",
+   "industry": "金融-主题研究",
+   "desc": "包含环境（E）、社会（S）、治理（G）三维度的企业可持续发展框架，2024年沪深北交易所《可持续发展报告指引》强制披露范围1和范围2温室气体排放量，2025年财政部《气候准则》征求意见稿采用六章四十七条体例构建专项披露规范。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_c65c5db618c5",
+   "name": "企业可持续披露准则——基本准则",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "财政部等九部门于2024年12月联合印发的试行文件，借鉴ISSB框架四要素，提出到2027年出台气候相关披露准则、2030年建成国家统一可持续披露体系的分步实施策略，企业披露气候、污染、生物多样性等环境议题。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_5faa24736bb0",
+   "name": "全面绿色转型意见",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "2024年8月中共中央、国务院印发，设定2030年绿色生产生活方式基本形成、2035年绿色低碳循环体系基本建立，聚焦空间格局、产业结构、能源交通、城乡消费五大领域，部署全面节约、消费转型、科技创新三大环节，推动能耗双控向碳排放双控转型。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_d1aa54f007b3",
+   "name": "嘉实基金",
+   "type": "ORG",
+   "industry": "金融-主题研究",
+   "desc": "成立于1999年3月，截至2024年底资产管理规模超1.6万亿元，2018年3月签署负责任投资原则，率先组建专职ESG研究团队，建立首个买方视角的本土化ESG评价体系，将ESG因素融入股票和固收投研流程，低碳及绿色发展公募基金223只、规模2130亿元。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_386a94e5f140",
+   "name": "沪深北交易所",
+   "type": "ORG",
+   "industry": "金融-主题研究",
+   "desc": "2024年4月同步发布《上市公司可持续发展报告指引（试行）》，上证180、科创50等指数样本公司最晚于2026年发布2025年度可持续发展报告，设置应对气候变化、污染物排放等7项环境议题框架，推动ESG披露从自愿到强制。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_bb7f1b415831",
+   "name": "绿色基金",
+   "type": "PRODUCT",
+   "industry": "金融-主题研究",
+   "desc": "截至2025年二季度末低碳及绿色发展公募基金223只、规模2130亿元，占ESG基金产品总数46%、总规模54%，2018年发布《绿色投资指引（试行）》，券商管理ESG主题基金规模超1000亿元。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_212f92688a62",
+   "name": "企业可持续披露准则第1号——气候",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "财政部与生态环境部2025年4月发布的征求意见稿，作为首部气候披露专项准则，采用六章四十七条体例，披露气候相关风险机遇评估、转型计划、温室气体排放总量（范围1/2/3）及减排措施，与《基本准则》形成制度协同。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_c80925bc2f74",
+   "name": "关于加快经济社会发展全面绿色转型的意见",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "中共中央、国务院于2024年发布的政策文件，提出到2035年建立绿色低碳循环发展经济体系，明确减污降碳协同增效目标，主要资源利用效率达到国际先进水平，并构建涵盖能源、工业、交通等领域的全面绿色转型路径。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_dd02ee6c9b31",
+   "name": "双碳目标",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "2020年9月提出，2030年前碳达峰、2060年前碳中和，2021年10月印发《关于完整准确全面贯彻新发展理念做好碳达峰碳中和工作的意见》设定10方面31项任务，全国31省制定碳达峰方案，中央出台12个分领域方案及30余项支撑政策，覆盖CO2排放量超50亿吨。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_078bbad5d97c",
+   "name": "可持续发展报告指引",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "2024年4月由沪深北三大交易所联合发布，建立环境披露框架，强制上证180、科创50等指数样本公司2026年前发布报告，参照TCFD框架披露范围1和范围2温室气体排放量。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_da9e19402f1f",
+   "name": "绿色债券",
+   "type": "PRODUCT",
+   "industry": "金融-主题研究",
+   "desc": "累计发行4.6万亿元，余额超2.2万亿元，位居全球前10，2024年券商承销绿色债券（含ABS）1674.1亿元，低碳转型债券267.9亿元，2025年7月《绿色金融支持项目目录（2025年版）》统一产品标准。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_2c3ed48652a3",
+   "name": "企业环境信息依法披露管理办法",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "2021年12月由生态环境部印发，重点污染排放管理单位及涉及特定生态环境违法行为的上市公司和发债企业纳入强制披露范围，明确碳排放量、碳排放设施等披露，填补企业环境数据缺失问题。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_0b1dd065e247",
+   "name": "国资委",
+   "type": "ORG",
+   "industry": "金融-主题研究",
+   "desc": "2023年8月发布《央企控股上市公司ESG专项报告编制研究》，包含5项一级指标、18项二级指标、56项三级指标，推动央企控股上市公司实现100% ESG相关报告披露率，将范围一、二、三碳排放列为建议披露指标。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_07403dcc94cf",
+   "name": "绿色金融",
+   "type": "INDUSTRY",
+   "industry": "金融-主题研究",
+   "desc": "2024年沪深北交易所《可持续发展报告指引》金融机构将ESG因素纳入投资决策，2021年《关于构建绿色金融体系的指导意见》提出完善绿色金融产品体系，2024年A股ESG报告披露率47%推动资金向绿色领域流动。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_382f4c809291",
+   "name": "北京理工大学",
+   "type": "PLACE",
+   "industry": "金融-主题研究",
+   "desc": "研究显示2024-2030年全国数据中心用电量年均增速约20%，2030年总用电量约5257.6亿千瓦时，占全社会用电量4.8%，较2025年预计的2.4%翻倍。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_dffea2ceb4fd",
+   "name": "《关于严格能效约束推动重点领域节能降碳的若干意见》",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "2021年由国家发展改革委印发，将数据中心与钢铁、水泥等传统高耗能行业共同列为重点领域，标志着数据中心进入'能效硬约束'时代。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_6a7b8dd67a7d",
+   "name": "《新一代煤电升级专项行动实施方案（2025—2027年）》",
+   "type": "POLICY",
+   "industry": "金融-主题研究",
+   "desc": "2025年4月由国家发展改革委、国家能源局发布，提出现役机组最小技术出力需达额定负荷25%-40%，示范机组达20%以下，深度调峰能力提升为新能源消纳留足空间。",
+   "attrs": "{\"industry\": \"\\u91d1\\u878d-\\u4e3b\\u9898\\u7814\\u7a76\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  }
+ ],
+ "relations": [
+  {
+   "from": "ent_d1aa54f007b3",
+   "to": "ent_e26ce5e114dc",
+   "type": "合作",
+   "from_name": "嘉实基金",
+   "to_name": "国新证券",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_29e3dd0ca45f",
+   "to": "ent_e26ce5e114dc",
+   "type": "股东",
+   "from_name": "张海文",
+   "to_name": "国新证券",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PERSON",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_dd02ee6c9b31",
+   "to": "ent_5faa24736bb0",
+   "type": "监管",
+   "from_name": "双碳目标",
+   "to_name": "全面绿色转型意见",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_5faa24736bb0",
+   "to": "ent_386a94e5f140",
+   "type": "监管",
+   "from_name": "全面绿色转型意见",
+   "to_name": "沪深北交易所",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_da9e19402f1f",
+   "to": "ent_bb7f1b415831",
+   "type": "投资",
+   "from_name": "绿色债券",
+   "to_name": "绿色基金",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PRODUCT",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9eb8c7bcfd18",
+   "to": "ent_5877f2b40235",
+   "type": "对比",
+   "from_name": "煤电行业",
+   "to_name": "数据中心行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3aef2687ebd8",
+   "to": "ent_9eb8c7bcfd18",
+   "type": "供应",
+   "from_name": "CCUS技术",
+   "to_name": "煤电行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "TECH",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_5877f2b40235",
+   "to": "ent_3cf268c5e130",
+   "type": "合作",
+   "from_name": "数据中心行业",
+   "to_name": "绿色专利",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_386a94e5f140",
+   "to": "ent_078bbad5d97c",
+   "type": "监管",
+   "from_name": "沪深北交易所",
+   "to_name": "可持续发展报告指引",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "ORG",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f402fe34204",
+   "to": "ent_6b75b146ee60",
+   "type": "投资",
+   "from_name": "转型债券",
+   "to_name": "高碳行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PRODUCT",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6b75b146ee60",
+   "to": "ent_3cf268c5e130",
+   "type": "对比",
+   "from_name": "高碳行业",
+   "to_name": "绿色专利",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3cf268c5e130",
+   "to": "ent_bb7f1b415831",
+   "type": "对比",
+   "from_name": "绿色专利",
+   "to_name": "绿色基金",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "TECH",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_dffea2ceb4fd",
+   "to": "ent_5877f2b40235",
+   "type": "监管",
+   "from_name": "《关于严格能效约束推动重点领域节能降碳的若干意见》",
+   "to_name": "数据中心行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6a7b8dd67a7d",
+   "to": "ent_9eb8c7bcfd18",
+   "type": "监管",
+   "from_name": "《新一代煤电升级专项行动实施方案（2025—2027年）》",
+   "to_name": "煤电行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f402fe34204",
+   "to": "ent_07403dcc94cf",
+   "type": "投资",
+   "from_name": "转型债券",
+   "to_name": "绿色金融",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PRODUCT",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_382f4c809291",
+   "to": "ent_5877f2b40235",
+   "type": "对比",
+   "from_name": "北京理工大学",
+   "to_name": "数据中心行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PLACE",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_29e3dd0ca45f",
+   "to": "ent_e26ce5e114dc",
+   "type": "合作",
+   "from_name": "张海文",
+   "to_name": "国新证券",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PERSON",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c80925bc2f74",
+   "to": "ent_61e8303d45db",
+   "type": "监管",
+   "from_name": "关于加快经济社会发展全面绿色转型的意见",
+   "to_name": "A股上市公司",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_896b028a4ccb",
+   "to": "ent_61e8303d45db",
+   "type": "监管",
+   "from_name": "ESG治理体系",
+   "to_name": "A股上市公司",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "TECH",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c65c5db618c5",
+   "to": "ent_61e8303d45db",
+   "type": "监管",
+   "from_name": "企业可持续披露准则——基本准则",
+   "to_name": "A股上市公司",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_212f92688a62",
+   "to": "ent_61e8303d45db",
+   "type": "监管",
+   "from_name": "企业可持续披露准则第1号——气候",
+   "to_name": "A股上市公司",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_07403dcc94cf",
+   "to": "ent_5877f2b40235",
+   "type": "投资",
+   "from_name": "绿色金融",
+   "to_name": "数据中心行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_5877f2b40235",
+   "to": "ent_9eb8c7bcfd18",
+   "type": "对比",
+   "from_name": "数据中心行业",
+   "to_name": "煤电行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d1aa54f007b3",
+   "to": "ent_07403dcc94cf",
+   "type": "投资",
+   "from_name": "嘉实基金",
+   "to_name": "绿色金融",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e26ce5e114dc",
+   "to": "ent_07403dcc94cf",
+   "type": "投资",
+   "from_name": "国新证券",
+   "to_name": "绿色金融",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9eb8c7bcfd18",
+   "to": "ent_3aef2687ebd8",
+   "type": "供应",
+   "from_name": "煤电行业",
+   "to_name": "CCUS技术",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f402fe34204",
+   "to": "ent_9eb8c7bcfd18",
+   "type": "投资",
+   "from_name": "转型债券",
+   "to_name": "煤电行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PRODUCT",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_382f4c809291",
+   "to": "ent_9eb8c7bcfd18",
+   "type": "对比",
+   "from_name": "北京理工大学",
+   "to_name": "煤电行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PLACE",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_29e3dd0ca45f",
+   "to": "ent_07403dcc94cf",
+   "type": "合作",
+   "from_name": "张海文",
+   "to_name": "绿色金融",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "PERSON",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c65c5db618c5",
+   "to": "ent_896b028a4ccb",
+   "type": "监管",
+   "from_name": "企业可持续披露准则——基本准则",
+   "to_name": "ESG治理体系",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6b75b146ee60",
+   "to": "ent_28dea124fe80",
+   "type": "监管",
+   "from_name": "高碳行业",
+   "to_name": "碳达峰碳中和政策",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4dbcdd1efe27",
+   "to": "ent_28dea124fe80",
+   "type": "监管",
+   "from_name": "绿色金融政策体系",
+   "to_name": "碳达峰碳中和政策",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_61e8303d45db",
+   "to": "ent_3cf268c5e130",
+   "type": "投资",
+   "from_name": "A股上市公司",
+   "to_name": "绿色专利",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6b75b146ee60",
+   "to": "ent_61e8303d45db",
+   "type": "监管",
+   "from_name": "高碳行业",
+   "to_name": "A股上市公司",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_5877f2b40235",
+   "to": "ent_28dea124fe80",
+   "type": "监管",
+   "from_name": "数据中心行业",
+   "to_name": "碳达峰碳中和政策",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4dbcdd1efe27",
+   "to": "ent_61e8303d45db",
+   "type": "合作",
+   "from_name": "绿色金融政策体系",
+   "to_name": "A股上市公司",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3cf268c5e130",
+   "to": "ent_61e8303d45db",
+   "type": "上下游",
+   "from_name": "绿色专利",
+   "to_name": "A股上市公司",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "TECH",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4dbcdd1efe27",
+   "to": "ent_61e8303d45db",
+   "type": "监管",
+   "from_name": "绿色金融政策体系",
+   "to_name": "A股上市公司",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_61e8303d45db",
+   "to": "ent_9eb8c7bcfd18",
+   "type": "对比",
+   "from_name": "A股上市公司",
+   "to_name": "煤电行业",
+   "from_ind": "金融-主题研究",
+   "to_ind": "金融-主题研究",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  }
+ ],
+ "frameworks": [
+  {
+   "id": "fw_fw_cf8fc467e9c4",
+   "name": "中国绿色转型政策体系框架",
+   "type": "core_architecture",
+   "category": "行业分析",
+   "industry": "金融-主题研究",
+   "steps": "[\"\\u9876\\u5c42\\u8bbe\\u8ba1\\uff1a2020\\u5e74\\u63d0\\u51fa\\u53cc\\u78b3\\u76ee\\u6807\\uff0c2021\\u5e74\\u786e\\u7acb\\u78b3\\u8fbe\\u5cf0\\u78b3\\u4e2d\\u548c\\u5de5\\u4f5c\\u8def\\u7ebf\\u56fe\", \"\\u653f\\u7b56\\u7ec6\\u5316\\uff1a\\u4e2d\\u592e\\u51fa\\u53f012\\u4e2a\\u5206\\u9886\\u57df\\u65b9\\u6848\\u53ca30\\u4f59\\u9879\\u652f\\u6491\\u653f\\u7b56\\uff0c31\\u7701\\u5236\\u5b9a\\u78b3\\u8fbe\\u5cf0\\u65b9\\u6848\", \"\\u7cfb\\u7edf\\u9769\\u547d\\uff1a2024\\u5e74\\u63a8\\u52a8\\u4ece'\\u78b3\\u8fbe\\u5cf0'\\u5411'\\u5168\\u9762\\u7eff\\u8272\\u8f6c\\u578b'\\u5347\\u7ea7\\uff0c\\u805a\\u7126\\u80fd\\u8017\\u53cc\\u63a7\\u5411\\u78b3\\u6392\\u653e\\u53cc\\u63a7\\u8f6c\\u578b\"]",
+   "confidence": 0.8,
+   "content": "框架名称：中国绿色转型政策体系框架\n描述：基于'双碳'目标构建'1+N'政策体系，2021年印发《关于完整准确全面贯彻新发展理念做好碳达峰碳中和工作的意见》设定10方面31项任务，2024年8月《关于加快经济社会发展全面绿色转型的意见》部署五大领域和三大环节，涵盖空间格局、产业结构、能源交通等，配套财税、金融、市场化机制支持。\n适用场景：绿色转型政策制定与实施评估\n核心维度：空间格局, 产业结构, 能源转型, 交通运输, 城乡建设\n步骤：顶层设计：2020年提出双碳目标，2021年确立碳达峰碳中和工作路线图, 政策细化：中央出台12个分领域方案及30余项支撑政策，31省制定碳达峰方案, 系统革命：2024年推动从'碳达峰'向'全面绿色转型'升级，聚焦能耗双控向碳排放双控转型",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_521f5921d739",
+   "name": "ESG驱动绿色转型六维框架",
+   "type": "methodology",
+   "category": "风险分析",
+   "industry": "金融-主题研究",
+   "steps": "[\"\\u610f\\u8bc6\\u63d0\\u5347\\uff1a\\u5f15\\u5bfc\\u4f01\\u4e1a\\u5173\\u6ce8\\u73af\\u5883\\u8bae\\u9898\\uff0c\\u5982\\u6e29\\u5ba4\\u6c14\\u4f53\\u6392\\u653e\\u62ab\\u9732\\u7387\\u4ece15%\\u5347\\u81f329%\", \"\\u6cbb\\u7406\\u5f3a\\u5316\\uff1a\\u63a8\\u52a8\\u8463\\u4e8b\\u4f1a\\u8d1f\\u8d23\\u6c14\\u5019\\u7ba1\\u7406\\uff0c\\u4ec516%\\u516c\\u53f8\\u5efa\\u7acb\\u4e13\\u95e8\\u67b6\\u6784\", \"\\u8d44\\u91d1\\u8d4b\\u80fd\\uff1aESG\\u6295\\u8d44\\u5f15\\u5bfc\\u8d44\\u672c\\u6d41\\u5411\\u7eff\\u8272\\u9886\\u57df\\uff0c\\u7eff\\u8272\\u57fa\\u91d1\\u89c4\\u6a212130\\u4ebf\\u5143\"]",
+   "confidence": 0.8,
+   "content": "框架名称：ESG驱动绿色转型六维框架\n描述：通过提升意识、改善信息披露、敦促行动、夯实治理根基、驱动创新、资金赋能六大模块，推动企业绿色转型。例如，2024年沪深北交易所指引要求披露气候变化风险，ESG评级机制促使企业设定量化环境目标，绿色专利增长160%体现创新驱动。\n适用场景：上市公司ESG治理实践优化\n核心维度：环境管理, 信息披露, 技术创新, 治理结构, 资本配置\n步骤：意识提升：引导企业关注环境议题，如温室气体排放披露率从15%升至29%, 治理强化：推动董事会负责气候管理，仅16%公司建立专门架构, 资金赋能：ESG投资引导资本流向绿色领域，绿色基金规模2130亿元",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_c66694bced1e",
+   "name": "政策影响评估框架",
+   "type": "logic",
+   "category": "政策分析",
+   "industry": "金融-主题研究",
+   "steps": "[\"\\u8bc6\\u522b\\u5173\\u952e\\u653f\\u7b56\", \"\\u8bc4\\u4f30\\u653f\\u7b56\\u76ee\\u6807\", \"\\u5206\\u6790\\u5b9e\\u65bd\\u673a\\u5236\", \"\\u6d4b\\u91cf\\u653f\\u7b56\\u6548\\u679c\"]",
+   "confidence": 0.8,
+   "content": "框架名称：政策影响评估框架\n描述：梳理政策文件，分析政策目标、实施路径和效果，如绿色金融政策体系如何促进绿色信贷增长，通过政策时间线追踪实施效果。\n适用场景：分析政策对绿色转型的推动作用\n核心维度：政策目标, 实施路径, 效果评估\n步骤：识别关键政策, 评估政策目标, 分析实施机制, 测量政策效果",
+   "is_core": true,
+   "node_type": "framework"
+  }
+ ],
+ "logics": [
+  {
+   "id": "log_e64ca1ebc3ae385d",
+   "logic_id": "e64ca1ebc3ae385d",
+   "type": "对比",
+   "premise": "2024年高碳行业平均环保投入比例0.78%，A股整体0.51%。",
+   "conclusion": "高碳行业更重视绿色转型投入。",
+   "text": "通过对比2024年高碳行业平均环保投入比例0.78%，A股整体0.5,得出高碳行业更重视绿色转型投入。",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_0a6c7d2bb6db2422",
+   "logic_id": "0a6c7d2bb6db2422",
+   "type": "因果",
+   "premise": "2024年4月沪深北交易所发布《可持续发展报告指引》，要求上证180等指数公司2026年前强制披露可持续发展报告",
+   "conclusion": "2024年A股ESG报告披露率达47%，较上年增长5个百分点，发布数量增加290家",
+   "text": "基于2024年4月沪深北交易所发布《可持续发展报告指引》，要求上,推导出2024年A股ESG报告披露率达47%，较上年增长5个百分点",
+   "dimension": "1",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_3634b92bd16ce979",
+   "logic_id": "3634b92bd16ce979",
+   "type": "因果",
+   "premise": "2024年4月沪深北交易所联合发布可持续发展报告指引，要求上证180等指数样本公司2026年前强制披露",
+   "conclusion": "2024年A股ESG报告披露率达47%，较上年提升5个百分点",
+   "text": "基于2024年4月沪深北交易所联合发布可持续发展报告指引，要求上,推导出2024年A股ESG报告披露率达47%，较上年提升5个百分点",
+   "dimension": "5",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_a7aa74af1d326c2d",
+   "logic_id": "a7aa74af1d326c2d",
+   "type": "趋势",
+   "premise": "2019年持有绿色专利的A股公司不足40%，2024年首次突破50%，绿色建筑领域专利增速达374%",
+   "conclusion": "2019-2024年A股绿色专利累计增长160%，持有企业占比突破50%",
+   "text": "从2019年持有绿色专利的A股公司不足40%，2024年首次突的趋势分析,判断2019-2024年A股绿色专利累计增长160%，持有企业占",
+   "dimension": "3",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_249483bb57cd1ba1",
+   "logic_id": "249483bb57cd1ba1",
+   "type": "因果",
+   "premise": "2016年发布《关于构建绿色金融体系的指导意见》，2024年出台强化指导意见。",
+   "conclusion": "政策完善促进绿色信贷规模扩大。",
+   "text": "基于2016年发布《关于构建绿色金融体系的指导意见》，2024年,推导出政策完善促进绿色信贷规模扩大。",
+   "dimension": "5",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_219b412d60ff5bc6",
+   "logic_id": "219b412d60ff5bc6",
+   "type": "对比",
+   "premise": "2021-2024年转型债券认购倍数从1.05升至5.48，融资成本持续下降",
+   "conclusion": "转型债券市场认可度快速提升，发行成本优势逐步显现",
+   "text": "通过对比2021-2024年转型债券认购倍数从1.05升至5.48，,得出转型债券市场认可度快速提升，发行成本优势逐步显现",
+   "dimension": "6",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_2c0789aaddcde7d6",
+   "logic_id": "2c0789aaddcde7d6",
+   "type": "趋势",
+   "premise": "2014年A股ESG报告发布694家（占比27%），2018年904家（25%），2021年1165家（27%），2024年4月沪深北交易所发布可持续发展报告指引，要求上证180等指数样本公司2026",
+   "conclusion": "2024年温室气体排放披露率达29%，环境管理体系认证率87%，ESG披露从自愿转向强制规范。",
+   "text": "交易所指引设置7项环境议题框架，国资委推动央企100%披露率，2024年披露率提升14个百分点，认证率增长49个百分点，体现制度约束力增强。",
+   "dimension": "3",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_cc44a3f8bed54801",
+   "logic_id": "cc44a3f8bed54801",
+   "type": "对比",
+   "premise": "2024年A股8个高碳行业排放强度下降公司占比：建筑材料47%、公用事业41%、石油石化38%、有色金属36%、基础化工35%、交通运输35%、钢铁6%、煤炭0%。",
+   "conclusion": "建材、公用事业等非化石燃料行业转型领先，钢铁和煤炭行业滞后，需针对性政策支持。",
+   "text": "通过对比2024年A股8个高碳行业排放强度下降公司占比：建筑材料47,得出建材、公用事业等非化石燃料行业转型领先，钢铁和煤炭行业滞后，",
+   "dimension": "2",
+   "confidence": 0.8,
+   "is_core": true,
+   "node_type": "logic"
+  }
+ ],
+ "indicators": [
+  {
+   "id": "ind_ind_b247b32565b8",
+   "indicator_id": "ind_b247b32565b8",
+   "name": "2024年A股平均绿色收入占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "10.9",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9474ae57fa00",
+   "indicator_id": "ind_9474ae57fa00",
+   "name": "2030年数据中心总用电量",
+   "type": "规模",
+   "unit": "亿千瓦时",
+   "value": "5257.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_64ec2d830639",
+   "indicator_id": "ind_64ec2d830639",
+   "name": "2030年数据中心用电量占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "4.8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4bf5618af94b",
+   "indicator_id": "ind_4bf5618af94b",
+   "name": "2030年数据中心碳排放量",
+   "type": "规模",
+   "unit": "亿吨",
+   "value": "2.34",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f3e2ab4953bc",
+   "indicator_id": "ind_f3e2ab4953bc",
+   "name": "2060年气候投资需求",
+   "type": "规模",
+   "unit": "万亿元",
+   "value": "139",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0e159f913efc",
+   "indicator_id": "ind_0e159f913efc",
+   "name": "AI数据中心能耗",
+   "type": "规模",
+   "unit": "TWh",
+   "value": "55.1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9fd11582484d",
+   "indicator_id": "ind_9fd11582484d",
+   "name": "A股绿色专利总量累计增长",
+   "type": "增长率",
+   "unit": "%",
+   "value": "160",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1ddb66f8afa8",
+   "indicator_id": "ind_1ddb66f8afa8",
+   "name": "ESG报告发布数量",
+   "type": "规模",
+   "unit": "家",
+   "value": "2533",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c87a25879031",
+   "indicator_id": "ind_c87a25879031",
+   "name": "ESG报告披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "47",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d2dbad1c56c1",
+   "indicator_id": "ind_d2dbad1c56c1",
+   "name": "ESG报告披露率（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "47",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_68a6c0e90da4",
+   "indicator_id": "ind_68a6c0e90da4",
+   "name": "ESG报告数量同比增长",
+   "type": "增长率",
+   "unit": "家",
+   "value": "290",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_080f4e7e0bd7",
+   "indicator_id": "ind_080f4e7e0bd7",
+   "name": "ESG理财产品余额",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "3000",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f9fabc3835f9",
+   "indicator_id": "ind_f9fabc3835f9",
+   "name": "ISO 14001认证比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "87",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1d6323fc9cdc",
+   "indicator_id": "ind_1d6323fc9cdc",
+   "name": "ISO 14001认证比例（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "87",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e608d18748e4",
+   "indicator_id": "ind_e608d18748e4",
+   "name": "人工智能数据中心能耗2024",
+   "type": "规模",
+   "unit": "TWh",
+   "value": "55.1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c01736958505",
+   "indicator_id": "ind_c01736958505",
+   "name": "人工智能数据中心能耗2025",
+   "type": "规模",
+   "unit": "TWh",
+   "value": "77.7",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_31892c2c944e",
+   "indicator_id": "ind_31892c2c944e",
+   "name": "人工智能数据中心能耗2027",
+   "type": "规模",
+   "unit": "TWh",
+   "value": "146.2",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_d0159b5fb09b",
+   "indicator_id": "ind_d0159b5fb09b",
+   "name": "低碳及绿色发展公募基金数量",
+   "type": "规模",
+   "unit": "只",
+   "value": "223",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_41cabbfb7e1b",
+   "indicator_id": "ind_41cabbfb7e1b",
+   "name": "低碳及绿色发展公募基金规模",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "2130",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_dedfa94fb633",
+   "indicator_id": "ind_dedfa94fb633",
+   "name": "全国碳市场覆盖CO2排放量",
+   "type": "规模",
+   "unit": "亿吨",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_820cc4c8c5f7",
+   "indicator_id": "ind_820cc4c8c5f7",
+   "name": "公用事业绿色收入占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "40",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6ef002e08745",
+   "indicator_id": "ind_6ef002e08745",
+   "name": "券商承销绿色债券规模",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "1674.1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0a676f4824c7",
+   "indicator_id": "ind_0a676f4824c7",
+   "name": "可再生能源利用率（2020年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "18.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8539401bcd34",
+   "indicator_id": "ind_8539401bcd34",
+   "name": "可再生能源利用率2023",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_415bdf749de1",
+   "indicator_id": "ind_415bdf749de1",
+   "name": "可再生能源利用率（2023年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_954c6f8b76ac",
+   "indicator_id": "ind_954c6f8b76ac",
+   "name": "国家绿色数据中心PUE",
+   "type": "营运",
+   "unit": "无量纲",
+   "value": "1.22",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_abfd2b98bf91",
+   "indicator_id": "ind_abfd2b98bf91",
+   "name": "国家绿色数据中心PUE2020",
+   "type": "营运",
+   "unit": "",
+   "value": "1.44",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_70b23855865a",
+   "indicator_id": "ind_70b23855865a",
+   "name": "国家绿色数据中心PUE2023",
+   "type": "营运",
+   "unit": "",
+   "value": "1.22",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_83994382f01d",
+   "indicator_id": "ind_83994382f01d",
+   "name": "国家绿色数据中心WUE2023",
+   "type": "营运",
+   "unit": "L/kWh",
+   "value": "1.08",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1969a5058f22",
+   "indicator_id": "ind_1969a5058f22",
+   "name": "年均气候投资缺口",
+   "type": "规模",
+   "unit": "万亿元",
+   "value": "1.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_29753246a754",
+   "indicator_id": "ind_29753246a754",
+   "name": "建筑材料行业排放强度下降公司占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "47",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_337fcbf1790e",
+   "indicator_id": "ind_337fcbf1790e",
+   "name": "持有绿色专利公司占比（2024年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_460d6a02939b",
+   "indicator_id": "ind_460d6a02939b",
+   "name": "数据中心AI能耗",
+   "type": "规模",
+   "unit": "太瓦时",
+   "value": "55.1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ada501cf7f0a",
+   "indicator_id": "ind_ada501cf7f0a",
+   "name": "数据中心PUE（2020年）",
+   "type": "营运",
+   "unit": "",
+   "value": "1.44",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f6772da54ebd",
+   "indicator_id": "ind_f6772da54ebd",
+   "name": "数据中心PUE（2023年）",
+   "type": "营运",
+   "unit": "",
+   "value": "1.22",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_810170060b31",
+   "indicator_id": "ind_810170060b31",
+   "name": "数据中心可再生能源利用率",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e062d00d1dcc",
+   "indicator_id": "ind_e062d00d1dcc",
+   "name": "数据中心用电量占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "4.8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f255118c169b",
+   "indicator_id": "ind_f255118c169b",
+   "name": "数据中心用电量增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_3d6f653d87ca",
+   "indicator_id": "ind_3d6f653d87ca",
+   "name": "数据中心用电量年均增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_bd2896b9e918",
+   "indicator_id": "ind_bd2896b9e918",
+   "name": "数据中心碳排放增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "125",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8589980db85b",
+   "indicator_id": "ind_8589980db85b",
+   "name": "数据中心碳排放量",
+   "type": "规模",
+   "unit": "亿吨",
+   "value": "2.34",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e62ed5bb26e3",
+   "indicator_id": "ind_e62ed5bb26e3",
+   "name": "数据中心能耗复合增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "44.8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_5b7d2e1be38d",
+   "indicator_id": "ind_5b7d2e1be38d",
+   "name": "数据中心能耗年复合增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "44.8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a98d515f594c",
+   "indicator_id": "ind_a98d515f594c",
+   "name": "新能源汽车专利五年累计增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "190",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_78bc03782535",
+   "indicator_id": "ind_78bc03782535",
+   "name": "新能源汽车专利增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "190",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_95d72aa29f52",
+   "indicator_id": "ind_95d72aa29f52",
+   "name": "智能算力复合增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "46.2",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c5b44b25991b",
+   "indicator_id": "ind_c5b44b25991b",
+   "name": "智能算力年复合增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "46.2",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_de8cc59445c7",
+   "indicator_id": "ind_de8cc59445c7",
+   "name": "气候治理负责比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "16",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_478c68a64696",
+   "indicator_id": "ind_478c68a64696",
+   "name": "气候目标定量披露比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_244f1aa15d04",
+   "indicator_id": "ind_244f1aa15d04",
+   "name": "气候目标披露公司数",
+   "type": "规模",
+   "unit": "家",
+   "value": "1008",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ea1f41f3aaef",
+   "indicator_id": "ind_ea1f41f3aaef",
+   "name": "气候目标披露占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "19",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_715f4df2b02a",
+   "indicator_id": "ind_715f4df2b02a",
+   "name": "气候目标披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "19",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f49790c6b3c6",
+   "indicator_id": "ind_f49790c6b3c6",
+   "name": "气候目标未披露比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "81",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_57feaf36244b",
+   "indicator_id": "ind_57feaf36244b",
+   "name": "水资源消耗披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "34",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_cc75f792f286",
+   "indicator_id": "ind_cc75f792f286",
+   "name": "水资源消耗披露率（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "34",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_bdee77e7724f",
+   "indicator_id": "ind_bdee77e7724f",
+   "name": "水资源消耗量披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "34",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b73f29b620e2",
+   "indicator_id": "ind_b73f29b620e2",
+   "name": "温室气体排放总量披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "29",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_bcf23c3ec4c3",
+   "indicator_id": "ind_bcf23c3ec4c3",
+   "name": "温室气体排放披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "29",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c45926ff6bfb",
+   "indicator_id": "ind_c45926ff6bfb",
+   "name": "温室气体排放披露率（2022年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "15",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_08aca86e8740",
+   "indicator_id": "ind_08aca86e8740",
+   "name": "温室气体排放披露率（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "29",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4c8e8a2b54d0",
+   "indicator_id": "ind_4c8e8a2b54d0",
+   "name": "温室气体排放披露率（2024年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "29",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fd710e3532fe",
+   "indicator_id": "ind_fd710e3532fe",
+   "name": "煤炭行业排放强度下降公司占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "0",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ba82b0282792",
+   "indicator_id": "ind_ba82b0282792",
+   "name": "煤电'三改联动'完成率",
+   "type": "份额",
+   "unit": "%",
+   "value": "75",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8c1ceca43bff",
+   "indicator_id": "ind_8c1ceca43bff",
+   "name": "煤电'三改联动'实施规模",
+   "type": "规模",
+   "unit": "亿千瓦",
+   "value": "7.37",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_911a172374ec",
+   "indicator_id": "ind_911a172374ec",
+   "name": "煤电三改联动规模",
+   "type": "规模",
+   "unit": "亿千瓦",
+   "value": "7.37",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_58b75e57bbe7",
+   "indicator_id": "ind_58b75e57bbe7",
+   "name": "煤电机组超低排放比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "95",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_527a49ee493f",
+   "indicator_id": "ind_527a49ee493f",
+   "name": "煤电深度调峰最小出力",
+   "type": "营运",
+   "unit": "%",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_7bfc7e5b4f01",
+   "indicator_id": "ind_7bfc7e5b4f01",
+   "name": "煤电灵活性改造规模",
+   "type": "规模",
+   "unit": "亿千瓦",
+   "value": "3",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fc04f4787851",
+   "indicator_id": "ind_fc04f4787851",
+   "name": "煤电碳排放强度",
+   "type": "成本",
+   "unit": "克/千瓦时",
+   "value": "821",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2f6b727d0e28",
+   "indicator_id": "ind_2f6b727d0e28",
+   "name": "煤电碳排放降幅",
+   "type": "增长率",
+   "unit": "%",
+   "value": "21.7",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2fb20959cea5",
+   "indicator_id": "ind_2fb20959cea5",
+   "name": "环保投入占比",
+   "type": "成本",
+   "unit": "%",
+   "value": "0.49-0.51",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fc8313b782e8",
+   "indicator_id": "ind_fc8313b782e8",
+   "name": "环保投入占营业收入比重",
+   "type": "成本",
+   "unit": "%",
+   "value": "0.51",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ab1a81dc5b29",
+   "indicator_id": "ind_ab1a81dc5b29",
+   "name": "环保板块绿色收入占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "60",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_7dd5540de74d",
+   "indicator_id": "ind_7dd5540de74d",
+   "name": "环境管理体系认证比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "87",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6d426292883c",
+   "indicator_id": "ind_6d426292883c",
+   "name": "环境管理体系认证率",
+   "type": "份额",
+   "unit": "%",
+   "value": "87",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ee2fdb063990",
+   "indicator_id": "ind_ee2fdb063990",
+   "name": "环境管理体系认证率（2022年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "38",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f94aef1e2ebb",
+   "indicator_id": "ind_f94aef1e2ebb",
+   "name": "环境管理体系认证率（2024年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "87",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_84fb0ee8cda5",
+   "indicator_id": "ind_84fb0ee8cda5",
+   "name": "碳排放强度下降企业占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "47",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_baad100f4b75",
+   "indicator_id": "ind_baad100f4b75",
+   "name": "碳排放量增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "125",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4eaaa26a59e2",
+   "indicator_id": "ind_4eaaa26a59e2",
+   "name": "突发环境事件应急预案制定比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9233e716b28b",
+   "indicator_id": "ind_9233e716b28b",
+   "name": "突发环境事件应急预案制定比例（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8fc969bb774b",
+   "indicator_id": "ind_8fc969bb774b",
+   "name": "突发环境事件应急预案比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_647b99b86f72",
+   "indicator_id": "ind_647b99b86f72",
+   "name": "绿色专利增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "160",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_7b27e53cd647",
+   "indicator_id": "ind_7b27e53cd647",
+   "name": "绿色专利累计增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "160",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0efe1215046f",
+   "indicator_id": "ind_0efe1215046f",
+   "name": "绿色保险保费收入（2024年末）",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "3331",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ffa9c09e9f31",
+   "indicator_id": "ind_ffa9c09e9f31",
+   "name": "绿色债券余额",
+   "type": "规模",
+   "unit": "万亿元",
+   "value": "2.2",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2765c22ed2e4",
+   "indicator_id": "ind_2765c22ed2e4",
+   "name": "绿色债券发行成本优势",
+   "type": "成本",
+   "unit": "BP",
+   "value": "9.7",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6590060ff241",
+   "indicator_id": "ind_6590060ff241",
+   "name": "绿色债券累计发行",
+   "type": "规模",
+   "unit": "万亿元",
+   "value": "4.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b94e1b0b9a02",
+   "indicator_id": "ind_b94e1b0b9a02",
+   "name": "绿色债券累计发行规模",
+   "type": "规模",
+   "unit": "万亿元",
+   "value": "4.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_816b120088af",
+   "indicator_id": "ind_816b120088af",
+   "name": "绿色基金占ESG基金比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "46",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_586e1c385ee3",
+   "indicator_id": "ind_586e1c385ee3",
+   "name": "绿色基金数量",
+   "type": "规模",
+   "unit": "只",
+   "value": "223",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9548319ab47c",
+   "indicator_id": "ind_9548319ab47c",
+   "name": "绿色基金规模",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "2130",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4f9914fa8928",
+   "indicator_id": "ind_4f9914fa8928",
+   "name": "绿色建筑专利五年累计增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "374",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_787bab4d68c0",
+   "indicator_id": "ind_787bab4d68c0",
+   "name": "绿色建筑专利增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "374",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4dc2640b89ea",
+   "indicator_id": "ind_4dc2640b89ea",
+   "name": "绿色收入占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_eeed73620627",
+   "indicator_id": "ind_eeed73620627",
+   "name": "绿色贷款余额",
+   "type": "规模",
+   "unit": "万亿元",
+   "value": "42.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_315f28a0bfc7",
+   "indicator_id": "ind_315f28a0bfc7",
+   "name": "绿色贷款余额（2025Q2）",
+   "type": "规模",
+   "unit": "万亿元",
+   "value": "42.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_48ea4276f5c9",
+   "indicator_id": "ind_48ea4276f5c9",
+   "name": "绿色贷款占总贷款比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "16",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_61ecd31a9f5f",
+   "indicator_id": "ind_61ecd31a9f5f",
+   "name": "绿色贷款占总贷款比重",
+   "type": "份额",
+   "unit": "%",
+   "value": "16",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_08b00a16af10",
+   "indicator_id": "ind_08b00a16af10",
+   "name": "绿色贷款年均增速",
+   "type": "增长率",
+   "unit": "%",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_edd92603783b",
+   "indicator_id": "ind_edd92603783b",
+   "name": "绿色贷款较年初增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "14.4",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_919e19be3062",
+   "indicator_id": "ind_919e19be3062",
+   "name": "能源消费量披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "37",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_4aa08df497b6",
+   "indicator_id": "ind_4aa08df497b6",
+   "name": "能源消费量披露率（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "37",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e10623025b2c",
+   "indicator_id": "ind_e10623025b2c",
+   "name": "能源认证体系比例",
+   "type": "份额",
+   "unit": "%",
+   "value": "25",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2c7334409232",
+   "indicator_id": "ind_2c7334409232",
+   "name": "能源认证体系比例（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "25",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_128275d5a378",
+   "indicator_id": "ind_128275d5a378",
+   "name": "范围1温室气体排放披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "27",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ec213eb76389",
+   "indicator_id": "ind_ec213eb76389",
+   "name": "范围1温室气体排放披露率（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "27",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_36ce9a6b775d",
+   "indicator_id": "ind_36ce9a6b775d",
+   "name": "范围2温室气体排放披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "28",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f1f388a1cac0",
+   "indicator_id": "ind_f1f388a1cac0",
+   "name": "范围2温室气体排放披露率（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "28",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e471168f24bd",
+   "indicator_id": "ind_e471168f24bd",
+   "name": "范围3温室气体排放披露率",
+   "type": "份额",
+   "unit": "%",
+   "value": "5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ef7f98cdf3ff",
+   "indicator_id": "ind_ef7f98cdf3ff",
+   "name": "范围3温室气体排放披露率（2024）",
+   "type": "份额",
+   "unit": "%",
+   "value": "5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2631b9fc48a3",
+   "indicator_id": "ind_2631b9fc48a3",
+   "name": "转型债券发行人数量",
+   "type": "规模",
+   "unit": "家",
+   "value": "59",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f91942e8e5c4",
+   "indicator_id": "ind_f91942e8e5c4",
+   "name": "转型债券发行成本优势",
+   "type": "成本",
+   "unit": "BP",
+   "value": "8.1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_511cc47320c2",
+   "indicator_id": "ind_511cc47320c2",
+   "name": "转型债券发行规模",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "2208",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_61d1bd4e9ff3",
+   "indicator_id": "ind_61d1bd4e9ff3",
+   "name": "转型债券累计发行数量",
+   "type": "规模",
+   "unit": "只",
+   "value": "244",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_69c10e5387e8",
+   "indicator_id": "ind_69c10e5387e8",
+   "name": "转型债券累计发行规模",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "2208",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_606443c7733b",
+   "indicator_id": "ind_606443c7733b",
+   "name": "转型债券融资成本优势",
+   "type": "成本",
+   "unit": "BP",
+   "value": "8.1",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fc2146fef251",
+   "indicator_id": "ind_fc2146fef251",
+   "name": "转型债券认购倍数",
+   "type": "其他",
+   "unit": "倍",
+   "value": "5.48",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_069b635aca49",
+   "indicator_id": "ind_069b635aca49",
+   "name": "转型债券认购倍数2024",
+   "type": "其他",
+   "unit": "",
+   "value": "5.48",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_edc45869d8fd",
+   "indicator_id": "ind_edc45869d8fd",
+   "name": "通用算力年复合增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "18.8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_93b57b1e8d15",
+   "indicator_id": "ind_93b57b1e8d15",
+   "name": "非化石能源装机占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "60.9",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_823f9c246d47",
+   "indicator_id": "ind_823f9c246d47",
+   "name": "非化石能源装机容量占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "60.9",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_13d25d1f8422",
+   "indicator_id": "ind_13d25d1f8422",
+   "name": "高碳行业环保投入占比",
+   "type": "成本",
+   "unit": "%",
+   "value": "0.78",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e28e487b9020",
+   "indicator_id": "ind_e28e487b9020",
+   "name": "A股ESG报告发布占比（2014年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "27",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_a9f52effab08",
+   "indicator_id": "ind_a9f52effab08",
+   "name": "A股ESG报告发布数量（2014年）",
+   "type": "规模",
+   "unit": "家",
+   "value": "694",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f29da27b01ea",
+   "indicator_id": "ind_f29da27b01ea",
+   "name": "A股ESG报告发布数量（2021年）",
+   "type": "规模",
+   "unit": "家",
+   "value": "1165",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0db0e1ab4d08",
+   "indicator_id": "ind_0db0e1ab4d08",
+   "name": "ESG报告披露率（2023）",
+   "type": "份额",
+   "unit": "%",
+   "value": "42",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_379d7e3c539a",
+   "indicator_id": "ind_379d7e3c539a",
+   "name": "全球数据中心总能耗（2027E）",
+   "type": "规模",
+   "unit": "TWh",
+   "value": "813.7",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_610ef696d57c",
+   "indicator_id": "ind_610ef696d57c",
+   "name": "持有绿色专利公司占比（2019年）",
+   "type": "份额",
+   "unit": "%",
+   "value": "40",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9f9d6d948e90",
+   "indicator_id": "ind_9f9d6d948e90",
+   "name": "水资源消耗披露率（2022）",
+   "type": "份额",
+   "unit": "%",
+   "value": "20",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_eb5bc1fbcfc3",
+   "indicator_id": "ind_eb5bc1fbcfc3",
+   "name": "水资源消耗披露率（2023）",
+   "type": "份额",
+   "unit": "%",
+   "value": "25",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_406596aaae8b",
+   "indicator_id": "ind_406596aaae8b",
+   "name": "温室气体排放披露率（2022）",
+   "type": "份额",
+   "unit": "%",
+   "value": "15",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ffa7bc340315",
+   "indicator_id": "ind_ffa7bc340315",
+   "name": "温室气体排放披露率（2023）",
+   "type": "份额",
+   "unit": "%",
+   "value": "20",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9ef2baae5ea0",
+   "indicator_id": "ind_9ef2baae5ea0",
+   "name": "环境管理体系认证比例（2022）",
+   "type": "份额",
+   "unit": "%",
+   "value": "38",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_444b15e8e595",
+   "indicator_id": "ind_444b15e8e595",
+   "name": "能源消费量披露率（2022）",
+   "type": "份额",
+   "unit": "%",
+   "value": "21",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_26cf1e6c112f",
+   "indicator_id": "ind_26cf1e6c112f",
+   "name": "能源消费量披露率（2023）",
+   "type": "份额",
+   "unit": "%",
+   "value": "27",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_31661ab2c7ce",
+   "indicator_id": "ind_31661ab2c7ce",
+   "name": "能源认证体系比例（2022）",
+   "type": "份额",
+   "unit": "%",
+   "value": "8",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9e95efdbeb2d",
+   "indicator_id": "ind_9e95efdbeb2d",
+   "name": "范围1温室气体排放披露率（2022）",
+   "type": "份额",
+   "unit": "%",
+   "value": "12",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e394e089e357",
+   "indicator_id": "ind_e394e089e357",
+   "name": "范围1温室气体排放披露率（2023）",
+   "type": "份额",
+   "unit": "%",
+   "value": "16",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f480ab54b089",
+   "indicator_id": "ind_f480ab54b089",
+   "name": "范围2温室气体排放披露率（2022）",
+   "type": "份额",
+   "unit": "%",
+   "value": "12",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_dafceb5d08af",
+   "indicator_id": "ind_dafceb5d08af",
+   "name": "范围2温室气体排放披露率（2023）",
+   "type": "份额",
+   "unit": "%",
+   "value": "17",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_15d4dfae25bd",
+   "indicator_id": "ind_15d4dfae25bd",
+   "name": "范围3温室气体排放披露率（2022）",
+   "type": "份额",
+   "unit": "%",
+   "value": "2",
+   "is_core": false,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f3d394b4a501",
+   "indicator_id": "ind_f3d394b4a501",
+   "name": "范围3温室气体排放披露率（2023）",
+   "type": "份额",
+   "unit": "%",
+   "value": "3",
+   "is_core": false,
+   "node_type": "indicator"
+  }
+ ],
+ "framework_entity_edges": [],
+ "logic_entity_edges": [
+  {
+   "from": "log_e64ca1ebc3ae385d",
+   "to": "ent_6b75b146ee60",
+   "type": "逻辑关联",
+   "from_name": "log_e64ca1ebc3ae385d",
+   "to_name": "高碳行业",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_0a6c7d2bb6db2422",
+   "to": "ent_078bbad5d97c",
+   "type": "逻辑关联",
+   "from_name": "log_0a6c7d2bb6db2422",
+   "to_name": "可持续发展报告指引",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_0a6c7d2bb6db2422",
+   "to": "ent_386a94e5f140",
+   "type": "逻辑关联",
+   "from_name": "log_0a6c7d2bb6db2422",
+   "to_name": "沪深北交易所",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_3634b92bd16ce979",
+   "to": "ent_078bbad5d97c",
+   "type": "逻辑关联",
+   "from_name": "log_3634b92bd16ce979",
+   "to_name": "可持续发展报告指引",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_3634b92bd16ce979",
+   "to": "ent_386a94e5f140",
+   "type": "逻辑关联",
+   "from_name": "log_3634b92bd16ce979",
+   "to_name": "沪深北交易所",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_a7aa74af1d326c2d",
+   "to": "ent_3cf268c5e130",
+   "type": "逻辑关联",
+   "from_name": "log_a7aa74af1d326c2d",
+   "to_name": "绿色专利",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_249483bb57cd1ba1",
+   "to": "ent_07403dcc94cf",
+   "type": "逻辑关联",
+   "from_name": "log_249483bb57cd1ba1",
+   "to_name": "绿色金融",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_219b412d60ff5bc6",
+   "to": "ent_0f402fe34204",
+   "type": "逻辑关联",
+   "from_name": "log_219b412d60ff5bc6",
+   "to_name": "转型债券",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_2c0789aaddcde7d6",
+   "to": "ent_078bbad5d97c",
+   "type": "逻辑关联",
+   "from_name": "log_2c0789aaddcde7d6",
+   "to_name": "可持续发展报告指引",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_2c0789aaddcde7d6",
+   "to": "ent_0b1dd065e247",
+   "type": "逻辑关联",
+   "from_name": "log_2c0789aaddcde7d6",
+   "to_name": "国资委",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_2c0789aaddcde7d6",
+   "to": "ent_386a94e5f140",
+   "type": "逻辑关联",
+   "from_name": "log_2c0789aaddcde7d6",
+   "to_name": "沪深北交易所",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_cc44a3f8bed54801",
+   "to": "ent_6b75b146ee60",
+   "type": "逻辑关联",
+   "from_name": "log_cc44a3f8bed54801",
+   "to_name": "高碳行业",
+   "edge_type": "logic_entity"
+  }
+ ],
+ "indicator_entity_edges": [
+  {
+   "from": "ind_ind_b247b32565b8",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_b247b32565b8",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b247b32565b8",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_b247b32565b8",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b247b32565b8",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_b247b32565b8",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9474ae57fa00",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_9474ae57fa00",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9474ae57fa00",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_9474ae57fa00",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9474ae57fa00",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_9474ae57fa00",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_64ec2d830639",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_64ec2d830639",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_64ec2d830639",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_64ec2d830639",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_64ec2d830639",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_64ec2d830639",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4bf5618af94b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_4bf5618af94b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4bf5618af94b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_4bf5618af94b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4bf5618af94b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_4bf5618af94b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3e2ab4953bc",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3e2ab4953bc",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3e2ab4953bc",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3e2ab4953bc",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3e2ab4953bc",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3e2ab4953bc",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e159f913efc",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e159f913efc",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e159f913efc",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e159f913efc",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e159f913efc",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e159f913efc",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9fd11582484d",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_9fd11582484d",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9fd11582484d",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_9fd11582484d",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9fd11582484d",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_9fd11582484d",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ddb66f8afa8",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ddb66f8afa8",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ddb66f8afa8",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ddb66f8afa8",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ddb66f8afa8",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ddb66f8afa8",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c87a25879031",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_c87a25879031",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c87a25879031",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_c87a25879031",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c87a25879031",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_c87a25879031",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d2dbad1c56c1",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_d2dbad1c56c1",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d2dbad1c56c1",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_d2dbad1c56c1",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d2dbad1c56c1",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_d2dbad1c56c1",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68a6c0e90da4",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_68a6c0e90da4",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68a6c0e90da4",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_68a6c0e90da4",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68a6c0e90da4",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_68a6c0e90da4",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_080f4e7e0bd7",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_080f4e7e0bd7",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_080f4e7e0bd7",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_080f4e7e0bd7",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_080f4e7e0bd7",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_080f4e7e0bd7",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9fabc3835f9",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9fabc3835f9",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9fabc3835f9",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9fabc3835f9",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9fabc3835f9",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9fabc3835f9",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d6323fc9cdc",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d6323fc9cdc",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d6323fc9cdc",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d6323fc9cdc",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1d6323fc9cdc",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_1d6323fc9cdc",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e608d18748e4",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e608d18748e4",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e608d18748e4",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_e608d18748e4",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e608d18748e4",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_e608d18748e4",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c01736958505",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_c01736958505",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c01736958505",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_c01736958505",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c01736958505",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_c01736958505",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31892c2c944e",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_31892c2c944e",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31892c2c944e",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_31892c2c944e",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31892c2c944e",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_31892c2c944e",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d0159b5fb09b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_d0159b5fb09b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d0159b5fb09b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_d0159b5fb09b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d0159b5fb09b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_d0159b5fb09b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_41cabbfb7e1b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_41cabbfb7e1b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_41cabbfb7e1b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_41cabbfb7e1b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_41cabbfb7e1b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_41cabbfb7e1b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dedfa94fb633",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_dedfa94fb633",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dedfa94fb633",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_dedfa94fb633",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dedfa94fb633",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_dedfa94fb633",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_820cc4c8c5f7",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_820cc4c8c5f7",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_820cc4c8c5f7",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_820cc4c8c5f7",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_820cc4c8c5f7",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_820cc4c8c5f7",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6ef002e08745",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_6ef002e08745",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6ef002e08745",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_6ef002e08745",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6ef002e08745",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_6ef002e08745",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0a676f4824c7",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_0a676f4824c7",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0a676f4824c7",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_0a676f4824c7",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0a676f4824c7",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_0a676f4824c7",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8539401bcd34",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_8539401bcd34",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8539401bcd34",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_8539401bcd34",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8539401bcd34",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_8539401bcd34",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_415bdf749de1",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_415bdf749de1",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_415bdf749de1",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_415bdf749de1",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_415bdf749de1",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_415bdf749de1",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_954c6f8b76ac",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_954c6f8b76ac",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_954c6f8b76ac",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_954c6f8b76ac",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_954c6f8b76ac",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_954c6f8b76ac",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_abfd2b98bf91",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_abfd2b98bf91",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_abfd2b98bf91",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_abfd2b98bf91",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_abfd2b98bf91",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_abfd2b98bf91",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_70b23855865a",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_70b23855865a",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_70b23855865a",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_70b23855865a",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_70b23855865a",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_70b23855865a",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_83994382f01d",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_83994382f01d",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_83994382f01d",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_83994382f01d",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_83994382f01d",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_83994382f01d",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1969a5058f22",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_1969a5058f22",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1969a5058f22",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_1969a5058f22",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1969a5058f22",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_1969a5058f22",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_29753246a754",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_29753246a754",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_29753246a754",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_29753246a754",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_29753246a754",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_29753246a754",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_337fcbf1790e",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_337fcbf1790e",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_337fcbf1790e",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_337fcbf1790e",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_337fcbf1790e",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_337fcbf1790e",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_460d6a02939b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_460d6a02939b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_460d6a02939b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_460d6a02939b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_460d6a02939b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_460d6a02939b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ada501cf7f0a",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ada501cf7f0a",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ada501cf7f0a",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ada501cf7f0a",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ada501cf7f0a",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ada501cf7f0a",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6772da54ebd",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6772da54ebd",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6772da54ebd",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6772da54ebd",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6772da54ebd",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6772da54ebd",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_810170060b31",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_810170060b31",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_810170060b31",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_810170060b31",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_810170060b31",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_810170060b31",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e062d00d1dcc",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e062d00d1dcc",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e062d00d1dcc",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_e062d00d1dcc",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e062d00d1dcc",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_e062d00d1dcc",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f255118c169b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f255118c169b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f255118c169b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f255118c169b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f255118c169b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f255118c169b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3d6f653d87ca",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_3d6f653d87ca",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3d6f653d87ca",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_3d6f653d87ca",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3d6f653d87ca",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_3d6f653d87ca",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bd2896b9e918",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_bd2896b9e918",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bd2896b9e918",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_bd2896b9e918",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bd2896b9e918",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_bd2896b9e918",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8589980db85b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_8589980db85b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8589980db85b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_8589980db85b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8589980db85b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_8589980db85b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e62ed5bb26e3",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e62ed5bb26e3",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e62ed5bb26e3",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_e62ed5bb26e3",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e62ed5bb26e3",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_e62ed5bb26e3",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5b7d2e1be38d",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_5b7d2e1be38d",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5b7d2e1be38d",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_5b7d2e1be38d",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5b7d2e1be38d",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_5b7d2e1be38d",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a98d515f594c",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_a98d515f594c",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a98d515f594c",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_a98d515f594c",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a98d515f594c",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_a98d515f594c",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_78bc03782535",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_78bc03782535",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_78bc03782535",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_78bc03782535",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_78bc03782535",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_78bc03782535",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_95d72aa29f52",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_95d72aa29f52",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_95d72aa29f52",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_95d72aa29f52",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_95d72aa29f52",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_95d72aa29f52",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c5b44b25991b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_c5b44b25991b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c5b44b25991b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_c5b44b25991b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c5b44b25991b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_c5b44b25991b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de8cc59445c7",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_de8cc59445c7",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de8cc59445c7",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_de8cc59445c7",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de8cc59445c7",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_de8cc59445c7",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_478c68a64696",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_478c68a64696",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_478c68a64696",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_478c68a64696",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_478c68a64696",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_478c68a64696",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_244f1aa15d04",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_244f1aa15d04",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_244f1aa15d04",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_244f1aa15d04",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_244f1aa15d04",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_244f1aa15d04",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea1f41f3aaef",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea1f41f3aaef",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea1f41f3aaef",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea1f41f3aaef",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea1f41f3aaef",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea1f41f3aaef",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_715f4df2b02a",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_715f4df2b02a",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_715f4df2b02a",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_715f4df2b02a",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_715f4df2b02a",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_715f4df2b02a",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f49790c6b3c6",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f49790c6b3c6",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f49790c6b3c6",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f49790c6b3c6",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f49790c6b3c6",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f49790c6b3c6",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_57feaf36244b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_57feaf36244b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_57feaf36244b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_57feaf36244b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_57feaf36244b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_57feaf36244b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc75f792f286",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc75f792f286",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc75f792f286",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc75f792f286",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc75f792f286",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc75f792f286",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bdee77e7724f",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_bdee77e7724f",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bdee77e7724f",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_bdee77e7724f",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bdee77e7724f",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_bdee77e7724f",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b73f29b620e2",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_b73f29b620e2",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b73f29b620e2",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_b73f29b620e2",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b73f29b620e2",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_b73f29b620e2",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bcf23c3ec4c3",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_bcf23c3ec4c3",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bcf23c3ec4c3",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_bcf23c3ec4c3",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bcf23c3ec4c3",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_bcf23c3ec4c3",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c45926ff6bfb",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_c45926ff6bfb",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c45926ff6bfb",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_c45926ff6bfb",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c45926ff6bfb",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_c45926ff6bfb",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08aca86e8740",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_08aca86e8740",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08aca86e8740",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_08aca86e8740",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08aca86e8740",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_08aca86e8740",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c8e8a2b54d0",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c8e8a2b54d0",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c8e8a2b54d0",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c8e8a2b54d0",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c8e8a2b54d0",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c8e8a2b54d0",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fd710e3532fe",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_fd710e3532fe",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fd710e3532fe",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_fd710e3532fe",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fd710e3532fe",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_fd710e3532fe",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ba82b0282792",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ba82b0282792",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ba82b0282792",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ba82b0282792",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ba82b0282792",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ba82b0282792",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8c1ceca43bff",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c1ceca43bff",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8c1ceca43bff",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c1ceca43bff",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8c1ceca43bff",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c1ceca43bff",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_911a172374ec",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_911a172374ec",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_911a172374ec",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_911a172374ec",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_911a172374ec",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_911a172374ec",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_58b75e57bbe7",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_58b75e57bbe7",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_58b75e57bbe7",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_58b75e57bbe7",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_58b75e57bbe7",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_58b75e57bbe7",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_527a49ee493f",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_527a49ee493f",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_527a49ee493f",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_527a49ee493f",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_527a49ee493f",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_527a49ee493f",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7bfc7e5b4f01",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_7bfc7e5b4f01",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7bfc7e5b4f01",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_7bfc7e5b4f01",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7bfc7e5b4f01",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_7bfc7e5b4f01",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc04f4787851",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc04f4787851",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc04f4787851",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc04f4787851",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc04f4787851",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc04f4787851",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2f6b727d0e28",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_2f6b727d0e28",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2f6b727d0e28",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_2f6b727d0e28",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2f6b727d0e28",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_2f6b727d0e28",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2fb20959cea5",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_2fb20959cea5",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2fb20959cea5",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_2fb20959cea5",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2fb20959cea5",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_2fb20959cea5",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc8313b782e8",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc8313b782e8",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc8313b782e8",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc8313b782e8",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc8313b782e8",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc8313b782e8",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ab1a81dc5b29",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ab1a81dc5b29",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ab1a81dc5b29",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ab1a81dc5b29",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ab1a81dc5b29",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ab1a81dc5b29",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7dd5540de74d",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_7dd5540de74d",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7dd5540de74d",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_7dd5540de74d",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7dd5540de74d",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_7dd5540de74d",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6d426292883c",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_6d426292883c",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6d426292883c",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_6d426292883c",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6d426292883c",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_6d426292883c",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ee2fdb063990",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ee2fdb063990",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ee2fdb063990",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ee2fdb063990",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ee2fdb063990",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ee2fdb063990",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f94aef1e2ebb",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f94aef1e2ebb",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f94aef1e2ebb",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f94aef1e2ebb",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f94aef1e2ebb",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f94aef1e2ebb",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_84fb0ee8cda5",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_84fb0ee8cda5",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_84fb0ee8cda5",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_84fb0ee8cda5",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_84fb0ee8cda5",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_84fb0ee8cda5",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_baad100f4b75",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_baad100f4b75",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_baad100f4b75",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_baad100f4b75",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_baad100f4b75",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_baad100f4b75",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4eaaa26a59e2",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_4eaaa26a59e2",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4eaaa26a59e2",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_4eaaa26a59e2",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4eaaa26a59e2",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_4eaaa26a59e2",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9233e716b28b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_9233e716b28b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9233e716b28b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_9233e716b28b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9233e716b28b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_9233e716b28b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8fc969bb774b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_8fc969bb774b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8fc969bb774b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_8fc969bb774b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8fc969bb774b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_8fc969bb774b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_647b99b86f72",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_647b99b86f72",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_647b99b86f72",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_647b99b86f72",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_647b99b86f72",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_647b99b86f72",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7b27e53cd647",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_7b27e53cd647",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7b27e53cd647",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_7b27e53cd647",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7b27e53cd647",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_7b27e53cd647",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0efe1215046f",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_0efe1215046f",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0efe1215046f",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_0efe1215046f",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0efe1215046f",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_0efe1215046f",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffa9c09e9f31",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffa9c09e9f31",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffa9c09e9f31",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffa9c09e9f31",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffa9c09e9f31",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffa9c09e9f31",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2765c22ed2e4",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_2765c22ed2e4",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2765c22ed2e4",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_2765c22ed2e4",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2765c22ed2e4",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_2765c22ed2e4",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6590060ff241",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_6590060ff241",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6590060ff241",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_6590060ff241",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6590060ff241",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_6590060ff241",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b94e1b0b9a02",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_b94e1b0b9a02",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b94e1b0b9a02",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_b94e1b0b9a02",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b94e1b0b9a02",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_b94e1b0b9a02",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_816b120088af",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_816b120088af",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_816b120088af",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_816b120088af",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_816b120088af",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_816b120088af",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_586e1c385ee3",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_586e1c385ee3",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_586e1c385ee3",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_586e1c385ee3",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_586e1c385ee3",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_586e1c385ee3",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9548319ab47c",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_9548319ab47c",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9548319ab47c",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_9548319ab47c",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9548319ab47c",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_9548319ab47c",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4f9914fa8928",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_4f9914fa8928",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4f9914fa8928",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_4f9914fa8928",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4f9914fa8928",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_4f9914fa8928",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_787bab4d68c0",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_787bab4d68c0",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_787bab4d68c0",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_787bab4d68c0",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_787bab4d68c0",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_787bab4d68c0",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4dc2640b89ea",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_4dc2640b89ea",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4dc2640b89ea",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_4dc2640b89ea",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4dc2640b89ea",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_4dc2640b89ea",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eeed73620627",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_eeed73620627",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eeed73620627",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_eeed73620627",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eeed73620627",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_eeed73620627",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_315f28a0bfc7",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_315f28a0bfc7",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_315f28a0bfc7",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_315f28a0bfc7",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_315f28a0bfc7",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_315f28a0bfc7",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_48ea4276f5c9",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_48ea4276f5c9",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_48ea4276f5c9",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_48ea4276f5c9",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_48ea4276f5c9",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_48ea4276f5c9",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61ecd31a9f5f",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_61ecd31a9f5f",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61ecd31a9f5f",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_61ecd31a9f5f",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61ecd31a9f5f",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_61ecd31a9f5f",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08b00a16af10",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_08b00a16af10",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08b00a16af10",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_08b00a16af10",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_08b00a16af10",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_08b00a16af10",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_edd92603783b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_edd92603783b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_edd92603783b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_edd92603783b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_edd92603783b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_edd92603783b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_919e19be3062",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_919e19be3062",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_919e19be3062",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_919e19be3062",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_919e19be3062",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_919e19be3062",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4aa08df497b6",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_4aa08df497b6",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4aa08df497b6",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_4aa08df497b6",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4aa08df497b6",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_4aa08df497b6",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e10623025b2c",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_e10623025b2c",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e10623025b2c",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e10623025b2c",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e10623025b2c",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_e10623025b2c",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c7334409232",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c7334409232",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c7334409232",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c7334409232",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c7334409232",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c7334409232",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_128275d5a378",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_128275d5a378",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_128275d5a378",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_128275d5a378",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_128275d5a378",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_128275d5a378",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ec213eb76389",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ec213eb76389",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ec213eb76389",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ec213eb76389",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ec213eb76389",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ec213eb76389",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_36ce9a6b775d",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_36ce9a6b775d",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_36ce9a6b775d",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_36ce9a6b775d",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_36ce9a6b775d",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_36ce9a6b775d",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f1f388a1cac0",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f1f388a1cac0",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f1f388a1cac0",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f1f388a1cac0",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f1f388a1cac0",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f1f388a1cac0",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e471168f24bd",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e471168f24bd",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e471168f24bd",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_e471168f24bd",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e471168f24bd",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_e471168f24bd",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ef7f98cdf3ff",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ef7f98cdf3ff",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ef7f98cdf3ff",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ef7f98cdf3ff",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ef7f98cdf3ff",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ef7f98cdf3ff",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2631b9fc48a3",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_2631b9fc48a3",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2631b9fc48a3",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_2631b9fc48a3",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2631b9fc48a3",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_2631b9fc48a3",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f91942e8e5c4",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f91942e8e5c4",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f91942e8e5c4",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f91942e8e5c4",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f91942e8e5c4",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f91942e8e5c4",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_511cc47320c2",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_511cc47320c2",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_511cc47320c2",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_511cc47320c2",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_511cc47320c2",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_511cc47320c2",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61d1bd4e9ff3",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_61d1bd4e9ff3",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61d1bd4e9ff3",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_61d1bd4e9ff3",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61d1bd4e9ff3",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_61d1bd4e9ff3",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_69c10e5387e8",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_69c10e5387e8",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_69c10e5387e8",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_69c10e5387e8",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_69c10e5387e8",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_69c10e5387e8",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_606443c7733b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_606443c7733b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_606443c7733b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_606443c7733b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_606443c7733b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_606443c7733b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc2146fef251",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc2146fef251",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc2146fef251",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc2146fef251",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fc2146fef251",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_fc2146fef251",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_069b635aca49",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_069b635aca49",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_069b635aca49",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_069b635aca49",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_069b635aca49",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_069b635aca49",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_edc45869d8fd",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_edc45869d8fd",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_edc45869d8fd",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_edc45869d8fd",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_edc45869d8fd",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_edc45869d8fd",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_93b57b1e8d15",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_93b57b1e8d15",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_93b57b1e8d15",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_93b57b1e8d15",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_93b57b1e8d15",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_93b57b1e8d15",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_823f9c246d47",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_823f9c246d47",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_823f9c246d47",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_823f9c246d47",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_823f9c246d47",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_823f9c246d47",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_13d25d1f8422",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_13d25d1f8422",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_13d25d1f8422",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_13d25d1f8422",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_13d25d1f8422",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_13d25d1f8422",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e28e487b9020",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_e28e487b9020",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e28e487b9020",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e28e487b9020",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e28e487b9020",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_e28e487b9020",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a9f52effab08",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_a9f52effab08",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a9f52effab08",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_a9f52effab08",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a9f52effab08",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_a9f52effab08",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f29da27b01ea",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f29da27b01ea",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f29da27b01ea",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f29da27b01ea",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f29da27b01ea",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f29da27b01ea",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0db0e1ab4d08",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_0db0e1ab4d08",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0db0e1ab4d08",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_0db0e1ab4d08",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0db0e1ab4d08",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_0db0e1ab4d08",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_379d7e3c539a",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_379d7e3c539a",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_379d7e3c539a",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_379d7e3c539a",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_379d7e3c539a",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_379d7e3c539a",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_610ef696d57c",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_610ef696d57c",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_610ef696d57c",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_610ef696d57c",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_610ef696d57c",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_610ef696d57c",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9f9d6d948e90",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_9f9d6d948e90",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9f9d6d948e90",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_9f9d6d948e90",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9f9d6d948e90",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_9f9d6d948e90",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb5bc1fbcfc3",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb5bc1fbcfc3",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb5bc1fbcfc3",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb5bc1fbcfc3",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb5bc1fbcfc3",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb5bc1fbcfc3",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_406596aaae8b",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_406596aaae8b",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_406596aaae8b",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_406596aaae8b",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_406596aaae8b",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_406596aaae8b",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffa7bc340315",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffa7bc340315",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffa7bc340315",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffa7bc340315",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffa7bc340315",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffa7bc340315",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9ef2baae5ea0",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_9ef2baae5ea0",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9ef2baae5ea0",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_9ef2baae5ea0",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9ef2baae5ea0",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_9ef2baae5ea0",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_444b15e8e595",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_444b15e8e595",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_444b15e8e595",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_444b15e8e595",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_444b15e8e595",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_444b15e8e595",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_26cf1e6c112f",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_26cf1e6c112f",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_26cf1e6c112f",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_26cf1e6c112f",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_26cf1e6c112f",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_26cf1e6c112f",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31661ab2c7ce",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_31661ab2c7ce",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31661ab2c7ce",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_31661ab2c7ce",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31661ab2c7ce",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_31661ab2c7ce",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9e95efdbeb2d",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_9e95efdbeb2d",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9e95efdbeb2d",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_9e95efdbeb2d",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9e95efdbeb2d",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_9e95efdbeb2d",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e394e089e357",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_e394e089e357",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e394e089e357",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_e394e089e357",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e394e089e357",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_e394e089e357",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f480ab54b089",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f480ab54b089",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f480ab54b089",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f480ab54b089",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f480ab54b089",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f480ab54b089",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dafceb5d08af",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_dafceb5d08af",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dafceb5d08af",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_dafceb5d08af",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dafceb5d08af",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_dafceb5d08af",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_15d4dfae25bd",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_15d4dfae25bd",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_15d4dfae25bd",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_15d4dfae25bd",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_15d4dfae25bd",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_15d4dfae25bd",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3d394b4a501",
+   "to": "ent_28dea124fe80",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3d394b4a501",
+   "to_name": "碳达峰碳中和政策",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3d394b4a501",
+   "to": "ent_d1aa54f007b3",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3d394b4a501",
+   "to_name": "嘉实基金",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3d394b4a501",
+   "to": "ent_e26ce5e114dc",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3d394b4a501",
+   "to_name": "国新证券",
+   "edge_type": "indicator_entity"
+  }
+ ],
+ "counts": {
+  "entity_count": 28,
+  "relation_count": 39,
+  "framework_count": 3,
+  "logic_count": 8,
+  "indicator_count": 143
+ }
+}
