@@ -506,36 +506,52 @@ async function tryFetchManifest(p, listEl, cntEl) {
 }
 // === v13 新增：YAML manifest 解析为卡片数组 ===
 function parseManifestToReports(yamlText, dashboardUrl) {
-  const reports = [];
-  // 极简 YAML 解析（不依赖 js-yaml）
-  // PyYAML 实际输出格式：'- file: ...\n  title: ...' （0 空格前缀）
-  // 关键：只取 reports: 区，不要 deprecated: 区。规则：定位 'reports:\n' 后到 'deprecated:\n' 前。
-  // 完整规则见 scripts/manifest/manifest.py（后端权威）
-  const reportsSection = yamlText.split(/\nreports:\n/)[1] || '';
-  const reportsOnly = reportsSection.split(/\ndeprecated:\n/)[0] || reportsSection;
-  const blocks = reportsOnly.split(/\n\s*- /);
-  for (let i = 1; i < blocks.length; i++) {
-    const blk = blocks[i];
-    const fileM = blk.match(/^file:\s*([^\n]+)/);
-    if (!fileM) continue;
-    const file = fileM[1].trim();
-    const titleM = blk.match(/title:\s*([^\n]+)/);
-    const title = titleM ? titleM[1].trim() : file.replace(/\.html$/, '');
-    const dateM = blk.match(/date:\s*([^\n]+)/);
-    const date = dateM ? dateM[1].trim() : '';
-    const colorM = blk.match(/color:\s*([^\n]+)/);
-    const color = colorM ? colorM[1].trim() : 'default';
-    // 拼 URL（dashboardUrl 同仓推导）
-    const base = dashboardUrl.replace(/\/[^\/]+\.html$/, '/');
-    reports.push({
-      name: title,
-      meta: file + (date ? ' · ' + date : ''),
+  // v14 状态机（主公 2026-07-18 修复 split 丢第 1 条 bug）
+  const activeArr = [];
+  const deprecatedArr = [];
+  let section = 'other';
+  let target = null;
+  let cur = null;
+  const lines = yamlText.split('\n');
+  const pushCur = () => {
+    if (cur && target) { target.push(cur); cur = null; }
+  };
+  for (const line of lines) {
+    if (/^reports:\s*$/.test(line)) { pushCur(); section = 'reports'; target = activeArr; continue; }
+    if (/^deprecated:\s*$/.test(line)) { pushCur(); section = 'deprecated'; target = deprecatedArr; continue; }
+    if (/^(hero|meta|owner):\s*$/.test(line)) {
+      pushCur(); section = 'other'; target = null; continue;
+    }
+    const fileMatch = line.match(/^\s*- file:\s*(.+?)\s*$/);
+    if (fileMatch) {
+      pushCur();
+      cur = { file: fileMatch[1].trim() };
+      continue;
+    }
+    if (cur) {
+      const fields = [['title','title'],['date','date'],['desc','desc'],['color','color'],['status','status']];
+      for (const [k, k2] of fields) {
+        const m = line.match(new RegExp('^\\s*' + k + ':\\s*(.+)$'));
+        if (m) { cur[k2] = m[1].trim().replace(/^["']|["']$/g, ''); break; }
+      }
+    }
+  }
+  pushCur();
+  // 返回卡片数组（仅 active 区）
+  const cards = [];
+  const base = dashboardUrl.replace(/\/[^\/]+\.html$/, '/');
+  for (const r of activeArr) {
+    const file = r.file || '';
+    if (!file.endsWith('.html')) continue;
+    cards.push({
+      name: r.title || file.replace(/\.html$/, ''),
+      meta: file + (r.date ? ' · ' + r.date : ''),
       sum: 'manifest SSOT',
       url: base + file,
-      emoji: colorToEmoji(color),
+      emoji: colorToEmoji(r.color || 'default'),
     });
   }
-  return reports;
+  return cards;
 }
 function colorToEmoji(color) {
   const m = { main:'📊', meeting:'📋', thirdparty:'🤝', first:'⭐', deal:'💎' };
