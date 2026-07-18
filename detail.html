@@ -229,14 +229,6 @@ const PROJECTS = [
      {date:'2026-07-01',text:'文件归档 · 微信图片_20260701082817_152_922.jpg',done:true},
      {date:'2026-07-01',text:'报告 · ABS受理通知书 (1).pdf',done:true}
    ]},
-  {id:'PRJ-014',emoji:'🌐',name:'汇天网络',en:'汇天网络科技 · IDC REIT 34%',cat:'np',dashboardUrl:'https://jinzhanxiang.github.io/huitian-network-report/dashboard.html',status:'储备·待签约',statCls:'st-purple',age:0,estInv:'14.76-16.23 亿',dd:0,pending:'是',desc:'IDC·机构间REITs · 7份报告 · 非上市储备。34% 份额认购 14.76-16.23 亿 + 四方协同（基建/能源/GPU/综合金融）；纯市场化 IRR 5.00% → 协同综合 7-9%；上架率 63% → 60% 仅 3pp 安全边际；V2 主报告已部署（2026-07-15）',
-   timeline:[
-     {date:'2026-07-15',text:'主报告 V2 · 天保体系与汇天网络一揽子合作汇总方案_V2_20260715.md（已部署）',done:true},
-     {date:'2026-07-14',text:'研究 · 00-纵横分析-纯市场投资价值研究.md（资产/产品/治理三层 + 同业/压力/替代三维）',done:true},
-     {date:'2026-07-13',text:'专项 · 01-天保基建（10亿减值化解·难度极大）+ 02-天保能源（港股转型）+ 03-新兴科技（B300风险）+ 04-综合金融',done:true},
-     {date:'2026-07-10',text:'调研 · 2026-07-10 调研访谈对话记录.docx（汇天+中信建投 v3 方案）',done:true},
-     {date:'2026-07-01',text:'文档 · 汇天IDC项目汇报-0608v7.pdf + ABS受理通知书',done:true}
-   ]},
   {id:'PRJ-009',emoji:'🛰️',name:'航天宏图',en:'航天宏图 · HTCO IRE',cat:'p',dashboardUrl:'https://jinzhanxiang.github.io/htco-ire-delivery-plan/',status:'已部署',statCls:'st-green',age:0,estInv:'已交付',dd:50,pending:'否',desc:'航天遥感 · 已部署 · 1份报告。上市公司对口交付方案 v4（口令保护），源在桌面（2.4M / 1 PDF）',
    timeline:[
      {date:'2026-07-03',text:'报告 · 航天宏图风险化解方案-0512.pdf',done:true}
@@ -255,84 +247,11 @@ const PROJECTS = [
      
    ]}
 ];
-const REPORTS_CACHE = {
-  'PRJ-001': [
-    {name:'晶能光电商业尽调（V3.43.0 深度模式完善版）', meta:'report_v3_43_0_deep.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/jngd-report/report_v3_43_0_deep.html', emoji:'📊'},
-    {name:'晶能光电商业尽调（V3.42.5 原版）', meta:'7.3', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/jngd-report/report_v3_42_5_original.html', emoji:'📊'},
-    {name:'晶能光电（江西）有限公司商业尽调分析报告', meta:'6.29 v1.1', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/jngd-report/report_main.html', emoji:'📊'},
-    // 手机版已合一：点原报告自动适配手机（v11g 2026-07-11）
-  ],
-  'PRJ-002': [
-    {name:'主报告（report_main.html）', meta:'report_main.html', sum:'主报告全文，点击打开阅读', url:'https://jinzhanxiang.github.io/kedu-report/report_main.html', emoji:'📊'},
-    {name:'项目主页（含全部报告）', meta:'index.html', sum:'点击进入项目主页查看完整报告清单', url:'https://jinzhanxiang.github.io/kedu-report/index.html', emoji:'🏠'},
-  ],
-  'PRJ-003': [
-    {name:'主报告（report_main.html）', meta:'report_main.html', sum:'主报告全文，点击打开阅读', url:'https://jinzhanxiang.github.io/zhongfu-report/report_main.html', emoji:'📊'},
-    {name:'项目主页（含全部报告）', meta:'index.html', sum:'点击进入项目主页查看完整报告清单', url:'https://jinzhanxiang.github.io/zhongfu-report/index.html', emoji:'🏠'},
-  ],
-  'PRJ-004': [
-    {name:'主报告（report_main.html）', meta:'report_main.html', sum:'主报告全文，点击打开阅读', url:'https://jinzhanxiang.github.io/xinhong-report/report_main.html', emoji:'📊'},
-    {name:'项目主页（含全部报告）', meta:'index.html', sum:'点击进入项目主页查看完整报告清单', url:'https://jinzhanxiang.github.io/xinhong-report/index.html', emoji:'🏠'},
-  ],
-  'PRJ-005': [
-    {name:'主报告（report_main.html）', meta:'report_main.html', sum:'主报告全文，点击打开阅读', url:'https://jinzhanxiang.github.io/hongyuan-report/report_main.html', emoji:'📊'},
-    {name:'项目主页（含全部报告）', meta:'index.html', sum:'点击进入项目主页查看完整报告清单', url:'https://jinzhanxiang.github.io/hongyuan-report/index.html', emoji:'🏠'},
-  ],
-  'PRJ-006': [
-    {name:'主报告（report_main.html）', meta:'report_main.html', sum:'主报告全文，点击打开阅读', url:'https://jinzhanxiang.github.io/xunchao-report/report_main.html', emoji:'📊'},
-    {name:'项目主页（含全部报告）', meta:'index.html', sum:'点击进入项目主页查看完整报告清单', url:'https://jinzhanxiang.github.io/xunchao-report/index.html', emoji:'🏠'},
-  ],
-  'PRJ-007': [
-    {name:'元旭半导体（Innoshine）投资分析报告', meta:'innoshine_dd.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html', emoji:'💡'},
-    // 手机版已合一
-    {name:'元旭半导体（Innoshine/Novoshine）拜访谈参', meta:'谈判准备', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/innoshine-report/negotiation_brief.html', emoji:'🤝'},
-    {name:'元旭半导体报告目录', meta:'index.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/innoshine-report/index.html', emoji:'📋'},
-  ],
-  'PRJ-008': [
-    {name:'主报告（report_main.html）', meta:'report_main.html', sum:'主报告全文，点击打开阅读', url:'https://jinzhanxiang.github.io/unicom-idc-report/report_main.html', emoji:'📊'},
-    {name:'项目主页（含全部报告）', meta:'index.html', sum:'点击进入项目主页查看完整报告清单', url:'https://jinzhanxiang.github.io/unicom-idc-report/index.html', emoji:'🏠'},
-  ],
-  'PRJ-010': [
-    {name:'储备项目汇总仪表盘（8维度对比）', meta:'主报告', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/7projects-summary/summary.html', emoji:'📊'},
-    {name:'公司汇报稿 · 投资部储备库与上市标的池', meta:'汇报稿', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/7projects-summary/briefing_report.html', emoji:'🎤'},
-    {name:'收购上市公司标的研究', meta:'专题', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html', emoji:'🏢'},
-    {name:'晶能光电（江西）', meta:'跳转独立仓库', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/jngd-report/dashboard.html', emoji:'💎'},
-    {name:'上海柯渡医学', meta:'跳转独立仓库', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/kedu-report/', emoji:'🏥'},
-    {name:'中复碳芯', meta:'跳转独立仓库', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/zhongfu-report/', emoji:'⚡'},
-    {name:'信鸿医疗', meta:'跳转独立仓库', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xinhong-report/', emoji:'💊'},
-    {name:'迅巢科技', meta:'跳转独立仓库', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xunchao-report/', emoji:'🚀'},
-    {name:'联通云 IDC', meta:'跳转独立仓库', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/unicom-idc-report/', emoji:'☁️'},
-    {name:'宏远创信', meta:'跳转独立仓库', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/hongyuan-report/', emoji:'🧪'},
-    {name:'元旭半导体', meta:'跳转独立仓库', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/innoshine-report/dashboard.html', emoji:'💡'},
-  ],
-  'PRJ-011': [
-    {name:'星恒电源商业尽调分析报告', meta:'report_main.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/report_main.html', emoji:'📊'},
-    // 手机版已合一
-    {name:'附件A：法律尽职调查专项分析', meta:'核心尽调', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_a.html', emoji:'⚖️'},
-    {name:'关于收购星恒电源股权项目方案相关事宜的汇报', meta:'专题会6.15', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/meeting_briefing.html', emoji:'📋'},
-    // 手机版已合一
-    {name:'星恒电源收购方案综合分析（券商方案主框架）', meta:'6.15更新', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/proposal_analysis.html', emoji:'💎'},
-    {name:'附件B：收并购方案与天保收购路径分析', meta:'7.2更新', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_b.html', emoji:'🎯'},
-    {name:'附件C：竞争力演变与归因纵横分析', meta:'appendix_c.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_c.html', emoji:'📈'},
-    {name:'附件D：财务健康度纵横分析', meta:'appendix_d.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_d.html', emoji:'💰'},
-    {name:'附件E：前驱体体外循环与斯科兰德竞争力分析', meta:'appendix_e.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_e.html', emoji:'🏭'},
-    {name:'附件F：固相法技术纵横分析法深度研判', meta:'appendix_f.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_f.html', emoji:'🔬'},
-    {name:'附件G：客户结构与产品安全风险纵横分析', meta:'appendix_g.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_g.html', emoji:'🔍'},
-    {name:'附件H：估值分析专项——多方法交叉验证', meta:'appendix_h.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_h.html', emoji:'📐'},
-    {name:'附件I：锂电池产业链纵横分析——投资标的推荐', meta:'appendix_i.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/appendix_i.html', emoji:'🔗'},
-    {name:'市场份额数据专项验证', meta:'marketshare_verify.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/marketshare_verify.html', emoji:'📊'},
-    {name:'陈述事项专项核验', meta:'claims_verification.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/claims_verification.html', emoji:'✅'},
-    {name:'管理层业绩专项核查', meta:'mgmt_performance.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/mgmt_performance.html', emoji:'👔'},
-    {name:'股东并购历史专项分析', meta:'shareholder_mna.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/shareholder_mna.html', emoji:'🤝'},
-    {name:'项目时间线（独立视图）', meta:'timeline.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/timeline.html', emoji:'📅'},
-    {name:'简易目录（桌面版）', meta:'index.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/index.html', emoji:'📋'},
-    // 手机版已合一
-    {name:'项目报告中心（本页面）', meta:'dashboard.html', sum:'打开查看完整报告', url:'https://jinzhanxiang.github.io/xingheng-report/dashboard.html', emoji:'⭐'},
-  ],
-  'PRJ-009': [
-    {name:'航天宏图（HTCO）商业分析报告', meta:'htco-report.html', sum:'高分遥感卫星运营 + 行业应用领先', url:'https://jinzhanxiang.github.io/tianbao-projects/htco-report.html', emoji:'🛰️'},
-  ],
-};
+// ═══════════ REPORTS_CACHE 已废弃（v13 SSOT manifest 模式·主公 2026-07-18）═══════════
+// 旧 100+ 行 hardcode（PRJ-001..011）已彻底删除
+// 新数据源：永远从 <repo>/manifest.yml 派生
+// 实现：loadDashboardReports() v13 → parseManifestToReports()
+const REPORTS_CACHE = {};  // 占位（为兼容老逻辑）
 const PROJECT_DASHBOARD = {
   "PRJ-001": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
   "PRJ-002": "https://jinzhanxiang.github.io/kedu-report/index.html",
@@ -346,8 +265,7 @@ const PROJECT_DASHBOARD = {
   "PRJ-010": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html",
   "PRJ-011": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html",
   "PRJ-012": "https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html",
-  "PRJ-013": "https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html",
-  "PRJ-014": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
+  "PRJ-013": "https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html"
 };
 const CATS = [
   {id:'np',name:'储备 · 非上市',color:'var(--blue)',cnt:8},
@@ -540,27 +458,88 @@ function renderDetail(pid){
   // === 同步 dashboard 报告清单 ===
   loadDashboardReports(p);
 }
-// === Dashboard 报告清单加载（v11f 2026-07-11 离线优先）===
+// === Dashboard 报告清单加载（v13 2026-07-18 SSOT manifest 模式）===
+// 触发：主公 2026-07-18 「报告库任何修改和增删都自动关联详情页」
+// 数据源：永远从 https://jinzhanxiang.github.io/<repo>/manifest.yml 派生
+// 兑底：manifest 不存在 → fetch dashboard.html（v11f 旧路径）→ 都失败 → PROJECT_DASHBOARD
 const _dashCache = {};
 async function loadDashboardReports(p) {
   const cntEl = document.getElementById('dRptsCount');
   const listEl = document.getElementById('dRpts_' + p.id);
   if (!cntEl || !listEl) return;
-  // === 策略1：预生成缓存（离线可用）===
-  const cached = REPORTS_CACHE && REPORTS_CACHE[p.id];
-  if (cached && cached.length > 0) {
-    renderDashboardReports(listEl, cntEl, cached, p, '预生成清单');
-    // 尝试在线刷新（不阻塞 UI，失败静默）
-    tryFetchDashboard(p, listEl, cntEl);
-    return;
-  }
-  // === 策略2：没有缓存 → 直接 fetch ===
+  // v13：所有 hardcode 已清空，永远走 fetch 路径
   if (!p.dashboardUrl) {
     cntEl.textContent = '暂无报告';
     listEl.innerHTML = `<div class="d-rpts-loading">本项目尚未部署报告</div>`;
     return;
   }
-  tryFetchDashboard(p, listEl, cntEl);
+  tryFetchManifest(p, listEl, cntEl);
+}
+// === v13 新增：拉 manifest.yml 作为 SSOT ===
+async function tryFetchManifest(p, listEl, cntEl) {
+  const cacheKey = 'mf:' + p.dashboardUrl;
+  const cacheTime = 5 * 60 * 1000;
+  if (_dashCache[cacheKey] && Date.now() - _dashCache[cacheKey].time < cacheTime) {
+    return;
+  }
+  // 从 dashboardUrl 推出 repo 路径
+  // 如：https://jinzhanxiang.github.io/jngd-report/dashboard.html -> jngd-report
+  const repoMatch = p.dashboardUrl.match(/github\.io\/([^\/]+)\//);
+  if (!repoMatch) {
+    // 本仓库内部页面（如 tianbao-projects/htco-report.html），跳到 dashboard fetch
+    return tryFetchDashboard(p, listEl, cntEl);
+  }
+  const repo = repoMatch[1];
+  const manifestUrl = `https://jinzhanxiang.github.io/${repo}/manifest.yml?nocache=${Date.now()}`;
+  try {
+    const yamlText = await fetch(manifestUrl, { mode: 'cors', cache: 'no-cache' }).then(r => {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.text();
+    });
+    const reports = parseManifestToReports(yamlText, p.dashboardUrl);
+    _dashCache[cacheKey] = { time: Date.now(), reports: reports };
+    renderDashboardReports(listEl, cntEl, reports, p, `manifest·${reports.length} 份·SSOT`);
+  } catch (err) {
+    // 兑底：manifest 不存在 → 拉 dashboard.html（v11f 路径）
+    tryFetchDashboard(p, listEl, cntEl);
+  }
+}
+// === v13 新增：YAML manifest 解析为卡片数组 ===
+function parseManifestToReports(yamlText, dashboardUrl) {
+  const reports = [];
+  // 极简 YAML 解析（不依赖 js-yaml）
+  // PyYAML 实际输出格式：'- file: ...\n  title: ...' （0 空格前缀）
+  // 关键：只取 reports: 区，不要 deprecated: 区。规则：定位 'reports:\n' 后到 'deprecated:\n' 前。
+  // 完整规则见 scripts/manifest/manifest.py（后端权威）
+  const reportsSection = yamlText.split(/\nreports:\n/)[1] || '';
+  const reportsOnly = reportsSection.split(/\ndeprecated:\n/)[0] || reportsSection;
+  const blocks = reportsOnly.split(/\n\s*- /);
+  for (let i = 1; i < blocks.length; i++) {
+    const blk = blocks[i];
+    const fileM = blk.match(/^file:\s*([^\n]+)/);
+    if (!fileM) continue;
+    const file = fileM[1].trim();
+    const titleM = blk.match(/title:\s*([^\n]+)/);
+    const title = titleM ? titleM[1].trim() : file.replace(/\.html$/, '');
+    const dateM = blk.match(/date:\s*([^\n]+)/);
+    const date = dateM ? dateM[1].trim() : '';
+    const colorM = blk.match(/color:\s*([^\n]+)/);
+    const color = colorM ? colorM[1].trim() : 'default';
+    // 拼 URL（dashboardUrl 同仓推导）
+    const base = dashboardUrl.replace(/\/[^\/]+\.html$/, '/');
+    reports.push({
+      name: title,
+      meta: file + (date ? ' · ' + date : ''),
+      sum: 'manifest SSOT',
+      url: base + file,
+      emoji: colorToEmoji(color),
+    });
+  }
+  return reports;
+}
+function colorToEmoji(color) {
+  const m = { main:'📊', meeting:'📋', thirdparty:'🤝', first:'⭐', deal:'💎' };
+  return m[color] || '📄';
 }
 async function tryFetchDashboard(p, listEl, cntEl) {
   // 5 分钟内存缓存
