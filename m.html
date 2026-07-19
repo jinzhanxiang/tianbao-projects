@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>项目报告中心 · 仪表盘</title>
+<title>✦ 项目报告中心 · 仪表盘</title>
+<script src="assets/particles.js"></script>
+<link rel="stylesheet" href="assets/cyber-override.css">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -41,19 +43,20 @@
   --grad-green:linear-gradient(135deg,#d1fae5,#a7f3d0);
   --grad-purple:linear-gradient(135deg,#ede9fe,#ddd6fe);
   --grad-rose:linear-gradient(135deg,#fce7f3,#fbcfe8);
-  /* 顺滑字号系统（11-44px，1.18-1.25 比例，无跳变） */
+  /* 顺滑字号系统（≥16px 基线） */
   --fs-hero:44px;
   --fs-kpi:30px;
-  --fs-h1:22px;
-  --fs-h2:17px;
-  --fs-h3:15px;
-  --fs-body:14px;
-  --fs-small:13px;
-  --fs-xs:12px;
-  --fs-2xs:11px;
+  --fs-h1:24px;
+  --fs-h2:18px;
+  --fs-h3:16px;
+  --fs-body:16px;
+  --fs-small:15px;
+  --fs-xs:14px;
+  --fs-2xs:13px;
 }
-body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFont,sans-serif;background:linear-gradient(135deg,#f8fafc 0%,#eef2f7 50%,#f8fafc 100%);background-attachment:fixed;color:var(--n3);line-height:1.65;font-size:var(--fs-body);-webkit-font-smoothing:antialiased;min-height:100vh}
-.container{max-width:1280px;margin:0 auto;padding:28px 24px}
+body{font-family:var(--cyber-font);background:var(--cyber-bg);color:var(--cyber-text);line-height:1.65;font-size:var(--fs-body);-webkit-font-smoothing:antialiased;min-height:100vh;height:100vh;overflow:hidden;display:flex;flex-direction:column;position:relative;z-index:0}
+body > *{position:relative;z-index:2}
+.container{max-width:1280px;margin:0 auto;padding:28px 24px;flex:1;overflow-y:auto;min-height:0;width:100%}
 
 /* ====== HERO ====== */
 .hero{background:var(--grad-hero);color:#fff;padding:42px 48px;border-radius:24px;margin-bottom:22px;position:relative;overflow:hidden;box-shadow:0 28px 72px rgba(15,44,90,0.32),0 10px 20px rgba(15,44,90,0.18)}
@@ -205,7 +208,7 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 .timeline{display:flex;flex-direction:column;gap:9px;position:relative}
 .timeline::before{content:"";position:absolute;left:10px;top:5px;bottom:5px;width:1.5px;background:var(--n7)}
 .tl-item{display:flex;gap:9px;align-items:flex-start;position:relative}
-.tl-dot{width:22px;height:22px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;background:var(--tl-color,var(--accent));border:2.5px solid #fff;box-shadow:0 0 0 1.5px var(--tl-color,var(--accent));z-index:1}
+.tl-dot{width:22px;height:22px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;background:var(--tl-color,var(--accent));border:2.5px solid #fff;box-shadow:0 0 0 1.5px var(--tl-color,var(--accent));z-index:1}
 .tl-content{flex:1;min-width:0}
 .tl-title{font-size:var(--fs-xs);font-weight:600;color:var(--n1);line-height:1.3;margin-bottom:1px}
 .tl-meta{font-size:var(--fs-2xs);color:var(--n5);font-weight:500}
@@ -299,6 +302,19 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFon
 </style>
 </head>
 <body>
+<!-- 统一站点导航 -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">✦</span>天保控股 · 项目中心</a>
+    <div class="nav-links">
+      <a href="index.html">✦ 首页</a>
+      <a href="dashboard.html">✦ 仪表盘</a>
+      <a href="projects.html">✦ 项目</a>
+      <a href="reports.html">✦ 报告库</a>
+      <a href="kg.html">✦ 知识图谱</a>
+    </div>
+  </div>
+</nav>
 <div class="container">
 
 <!-- ============ HERO ============ -->

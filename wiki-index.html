@@ -4,11 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>✦ 知识图谱 · 数据全景 · v1.0</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/cyber-override.css">
-<!-- L0 元素叠加（research-report-html skill V1.0 / 5 色 + 仿宋 + 18px + 金色下划线） -->
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 :root{
   --l0-blue:#1a365d;
   --l0-gold:#d69e2e;
@@ -40,99 +38,114 @@ body.cyber-viewport{
   border-radius:3px;
 }
 .cyber-card, .panel-content, section.dashboard-panel, section.timeline-panel, section.overview-panel{
-  background:var(--l0-white) !important;
-  color:var(--l0-blue) !important;
-  border:1px solid var(--l0-slate) !important;
-  border-radius:8px !important;
-  box-shadow:0 1px 3px rgba(26,54,93,0.08) !important;
+  background:var(--cyber-card) !important;
+  color:var(--cyber-text) !important;
+  border:1px solid var(--cyber-border) !important;
+  border-radius:10px !important;
+  box-shadow:var(--cyber-shadow) !important;
+  backdrop-filter:blur(10px) !important;
 }
 h1, h2, h3, h4{
   font-family: "FangSong","仿宋","STFangSong","Songti SC",serif !important;
-  color:var(--l0-blue) !important;
+  color:var(--cyber-text) !important;
 }
 h2{
-  border-bottom:2px solid var(--l0-gold) !important;
+  border-bottom:1px solid var(--cyber-border) !important;
   padding-bottom:6px !important;
   font-weight:600 !important;
 }
 h3{
-  border-bottom:1px dotted var(--l0-gold) !important;
+  border-bottom:1px dotted var(--cyber-border) !important;
   padding-bottom:4px !important;
   font-weight:600 !important;
 }
 .kpi-card, .stat-card, .metric-card{
-  background:var(--l0-white) !important;
-  border:1px solid var(--l0-slate) !important;
-  border-left:4px solid var(--l0-gold) !important;
-  border-radius:6px !important;
-  color:var(--l0-blue) !important;
+  background:var(--cyber-card) !important;
+  border:1px solid var(--cyber-border) !important;
+  border-left:3px solid var(--cyber-cyan) !important;
+  border-radius:8px !important;
+  color:var(--cyber-text) !important;
 }
 .kpi-value, .stat-value, .metric-value{
-  color:var(--l0-blue) !important;
+  color:var(--cyber-cyan) !important;
   font-weight:700 !important;
 }
 .kpi-label, .stat-label, .metric-label{
-  color:var(--l0-gold) !important;
+  color:var(--cyber-text2) !important;
   font-weight:600 !important;
 }
 table.data-table, table.industry-table, table.entity-table{
-  background:var(--l0-white) !important;
+  background:var(--cyber-card) !important;
   border-collapse:collapse !important;
   width:100% !important;
 }
 table.data-table thead th, table.industry-table thead th, table.entity-table thead th{
-  background:var(--l0-blue) !important;
-  color:var(--l0-white) !important;
-  border-bottom:3px solid var(--l0-gold) !important;
+  background:rgba(0,212,255,0.08) !important;
+  color:var(--cyber-cyan) !important;
+  border-bottom:2px solid var(--cyber-cyan) !important;
   padding:10px 14px !important;
-  font-family:"FangSong","仿宋",serif !important;
+  font-family:var(--cyber-font) !important;
 }
 table.data-table tbody tr:nth-child(even), table.industry-table tbody tr:nth-child(even), table.entity-table tbody tr:nth-child(even){
-  background:var(--l0-cream) !important;
+  background:rgba(0,212,255,0.02) !important;
 }
 table.data-table tbody tr:hover, table.industry-table tbody tr:hover, table.entity-table tbody tr:hover{
-  background:var(--l0-amber) !important;
-  color:var(--l0-blue) !important;
+  background:rgba(0,212,255,0.06) !important;
+  color:var(--cyber-text) !important;
 }
 a, a:link, a:visited{
-  color:var(--l0-blue) !important;
+  color:var(--cyber-cyan) !important;
   text-decoration:none !important;
-  border-bottom:1px dotted var(--l0-gold) !important;
+  border-bottom:1px dotted var(--cyber-cyan) !important;
 }
 a:hover{
-  color:#b7791f !important;
-  border-bottom:1px solid var(--l0-gold) !important;
+  color:var(--cyber-purple) !important;
+  border-bottom:1px solid var(--cyber-purple) !important;
 }
 code, pre, .code-block{
-  background:var(--l0-cream) !important;
-  color:var(--l0-blue) !important;
-  border:1px solid var(--l0-slate) !important;
+  background:rgba(0,212,255,0.04) !important;
+  color:var(--cyber-text) !important;
+  border:1px solid var(--cyber-border) !important;
   border-radius:4px !important;
-  font-family:"JetBrains Mono","SF Mono",monospace !important;
+  font-family:var(--cyber-mono) !important;
 }
 .industry-bar-fill, .progress-bar-fill{
-  background:var(--l0-gold) !important;
+  background:var(--cyber-cyan) !important;
 }
 .legend-dot{
-  border:2px solid var(--l0-white) !important;
-  box-shadow:0 0 0 1px var(--l0-slate) !important;
+  border:2px solid var(--cyber-card) !important;
+  box-shadow:0 0 0 1px var(--cyber-border) !important;
 }
 .status-bar{
-  background:var(--l0-white) !important;
-  border-top:2px solid var(--l0-gold) !important;
-  color:var(--l0-blue) !important;
+  background:var(--cyber-card) !important;
+  border-top:1px solid var(--cyber-border) !important;
+  color:var(--cyber-text2) !important;
 }
 .nav-tabs .nav-tab.active{
-  border-bottom:3px solid var(--l0-gold) !important;
-  color:var(--l0-blue) !important;
-  background:var(--l0-white) !important;
+  color:var(--cyber-cyan) !important;
+  border-bottom:2px solid var(--cyber-cyan) !important;
+  background:rgba(0,212,255,0.06) !important;
 }
 .nav-tabs .nav-tab:hover{
-  color:var(--l0-gold) !important;
+  color:var(--cyber-cyan) !important;
 }
 </style>
 </head>
 <body class="cyber-viewport">
+
+<!-- 统一站点导航 -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">✦</span>天保控股 · 项目中心</a>
+    <div class="nav-links">
+      <a href="index.html">✦ 首页</a>
+      <a href="dashboard.html">✦ 仪表盘</a>
+      <a href="projects.html">✦ 项目</a>
+      <a href="reports.html">✦ 报告库</a>
+      <a href="kg.html">✦ 知识图谱</a>
+    </div>
+  </div>
+</nav>
 
 <!-- Particle Canvas (保留 cyber 视觉) -->
 <canvas id="particle-canvas"></canvas>
