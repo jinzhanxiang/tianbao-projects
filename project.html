@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>项目详情 · 天保控股</title>
+<style>
+:root{--navy:#06113a;--blue:#2563eb;--blue-2:#3b82f6;--emerald:#10b981;--amber:#f59e0b;--red:#ef4444;--bg:#e8edf5;--card:#fff;--text:#0f172a;--text-2:#475569;--text-3:#94a3b8;--border:rgba(15,23,42,.08);--shadow:0 4px 20px -4px rgba(6,17,58,.15)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{font-family:-apple-system,"PingFang SC",sans-serif;background:var(--bg);color:var(--text)}
+a{text-decoration:none;color:inherit}
+/* Nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--navy)}
+.logo-mark{width:32px;height:32px;border-radius:8px;background:var(--navy);color:#fff;display:grid;place-items:center}
+.nav-links{display:flex;gap:4px}
+.nav-links a{padding:8px 14px;border-radius:8px;color:var(--text-2);font-size:14px}
+.nav-links a:hover{background:#f1f5f9}
+.nav-links a.active{background:var(--navy);color:#fff}
+/* Main */
+.main{max-width:1000px;margin:0 auto;padding:32px 24px}
+/* Header */
+.proj-header{display:flex;align-items:center;gap:16px;margin-bottom:32px}
+.proj-emoji{font-size:48px}
+.proj-title{font-size:28px;font-weight:800;color:var(--navy)}
+.proj-meta{display:flex;gap:12px;margin-top:8px}
+.proj-badge{padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600}
+.proj-badge.deal{background:#fef2f2;color:var(--red);border:1px solid #fecaca}
+.proj-badge.np{background:#f0fdf4;color:var(--emerald);border:1px solid #bbf7d0}
+.proj-badge.listed{background:#eff6ff;color:var(--blue);border:1px solid #bfdbfe}
+/* Sections */
+.section{margin-bottom:32px}
+.section-title{font-size:18px;font-weight:700;margin-bottom:16px;color:var(--navy);display:flex;align-items:center;gap:8px}
+/* Timeline */
+.timeline{max-width:700px;margin:0 auto}
+.tl-item{position:relative;padding-left:36px;padding-bottom:28px;border-left:3px solid var(--border)}
+.tl-item::before{content:"";position:absolute;left:-7px;top:0;width:12px;height:12px;border-radius:50%;background:var(--blue);border:2px solid var(--bg)}
+.tl-item.main::before{background:var(--navy)}
+.tl-item.done::before{background:var(--emerald)}
+.tl-date{font-size:12px;color:var(--text-3);margin-bottom:4px}
+.tl-title{font-size:15px;font-weight:600;margin-bottom:4px}
+.tl-desc{font-size:13px;color:var(--text-2)}
+.tl-doc{display:inline-block;margin-top:8px;padding:4px 10px;background:var(--blue);color:#fff;border-radius:6px;font-size:12px}
+.tl-doc:hover{background:var(--blue-2)}
+/* Reports */
+.reports-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.report-card{background:var(--card);border-radius:12px;padding:20px;box-shadow:var(--shadow);transition:.2s}
+.report-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.report-card h4{font-size:15px;margin-bottom:8px}
+.report-card a{color:var(--blue);font-size:13px}
+/* Local */
+.local-dir{background:var(--card);border-radius:12px;padding:16px;font-size:13px;color:var(--text-2)}
+.local-dir code{background:#f1f5f9;padding:2px 6px;border-radius:4px;font-size:12px}
+/* Loading */
+.loading{text-align:center;padding:40px;color:var(--text-2)}
+.error{text-align:center;padding:40px;color:var(--red)}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">天</span>天保控股项目中心</a>
+    <div class="nav-links">
+      <a href="index.html">🏠 首页</a>
+      <a href="dashboard.html">📊 仪表盘</a>
+      <a href="projects.html">📁 项目</a>
+      <a href="reports.html">📚 报告库</a>
+      <a href="timeline.html">⏱️ 时间线</a>
+      <a href="kg.html">🔗 知识图谱</a>
+    </div>
+  </div>
+</nav>
+<div class="main">
+  <div id="content"><div class="loading">加载中...</div></div>
+</div>
+<script>
+const params = new URLSearchParams(window.location.search);
+const projectId = params.get('id');
+
+async function init() {
+  if (!projectId) {
+    document.getElementById('content').innerHTML = '<div class="error">缺少项目ID ?id=xxx</div>';
+    return;
+  }
+  try {
+    const resp = await fetch('data/projects.json');
+    const data = await resp.json();
+    const proj = data.projects.find(p => p.id === projectId);
+    if (!proj) {
+      document.getElementById('content').innerHTML = '<div class="error">项目不存在: ' + projectId + '</div>';
+      return;
+    }
+    renderProject(proj, data);
+  } catch(e) {
+    document.getElementById('content').innerHTML = '<div class="error">加载失败: ' + e.message + '</div>';
+  }
+}
+
+function renderProject(p, data) {
+  // 时间线数据
+  const timeline = [
+    {date:'2026-07-01',title:'立项启动',desc:'项目进入立项阶段',type:'main'},
+    {date:'2026-07-10',title:'尽职调查',desc:'开展财务/法律尽调',type:'on'},
+    {date:p.last_updated || '2026-07-19',title:'当前状态',desc:p.status,type:p.category==='deal'?'main':'on'}
+  ];
+  
+  // 外部仓库链接
+  const repo = data.external_repos.find(r => 
+    p.name.includes(r.name) || r.name.includes(p.name)
+  );
+  
+  let html = `
+    <div class="proj-header">
+      <span class="proj-emoji">${p.emoji}</span>
+      <div>
+        <div class="proj-title">${p.name}</div>
+        <div class="proj-meta">
+          <span class="proj-badge ${p.category}">${p.category==='deal'?'重大并购':p.category==='np'?'非上市储备':'上市相关'}</span>
+          <span class="proj-badge">${p.stage}</span>
+          <span class="proj-badge">${p.status}</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">📅 项目时间线</div>
+      <div class="timeline">
+        ${timeline.map(t => `
+          <div class="tl-item ${t.type}">
+            <div class="tl-date">${t.date}</div>
+            <div class="tl-title">${t.title}</div>
+            <div class="tl-desc">${t.desc}</div>
+            ${t.type==='on'?'<span class="tl-doc">📄 查看报告</span>':''}
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">📚 关联报告</div>
+      <div class="reports-grid">
+        ${p.reports && p.reports.length ? p.reports.map(r => `
+          <div class="report-card">
+            <h4>${r.title}</h4>
+            <a href="${r.url}" target="_blank">打开报告 →</a>
+          </div>
+        `).join('') : ''}
+        ${repo ? `
+          <div class="report-card">
+            <h4>${repo.name} 项目中心</h4>
+            <a href="${repo.url}" target="_blank">访问项目 →</a>
+          </div>
+        ` : ''}
+        <div class="report-card">
+          <h4>返回项目列表</h4>
+          <a href="projects.html">查看全部项目 →</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">📁 本地材料目录</div>
+      <div class="local-dir">
+        <p>关联本地目录: <code>${p.localDir || 'entities/' + p.name + '.md'}</code></p>
+        <p style="margin-top:8px;color:var(--text-3)">路径: ~/Documents/tianbao-projects/${p.localDir || 'entities/' + p.name + '.md'}</p>
+      </div>
+    </div>
+  `;
+  
+  document.getElementById('content').innerHTML = html;
+}
+
+init();
+</script>
+</body>
+</html>

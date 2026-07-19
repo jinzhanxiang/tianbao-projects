@@ -1,51 +1,1010 @@
 {
   "metadata": {
     "version": "1.0",
-    "created": "2026-07-19T23:10:00Z",
-    "task": "tianbao-rebuild-m1"
+    "created": "2026-07-19T23:30:00Z",
+    "task": "tianbao-rebuild-m2-c",
+    "total_events": 100
   },
-  "timeline": [
+  "events": [
     {
+      "id": "evt0001",
+      "projectId": "10年期美债",
+      "projectName": "10年期美债",
       "date": "2026-07-19",
-      "type": "milestone",
-      "title": "启动天保项目重构",
-      "description": "主公决策启动 5 项目标重构任务",
-      "project": "tianbao-projects"
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/10年期美债.md"
     },
     {
-      "date": "2026-07-15",
-      "type": "report",
-      "title": "星恒电源尽调报告更新",
-      "description": "股权分析报告 V3",
-      "project": "xingheng"
+      "id": "evt0002",
+      "projectId": "12寸晶圆减薄设备",
+      "projectName": "12寸晶圆减薄设备",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/12寸晶圆减薄设备.md"
     },
     {
-      "date": "2026-07-12",
-      "type": "report",
-      "title": "晶能光电主报告完成",
-      "description": "JNGD 投资分析报告",
-      "project": "jngd"
+      "id": "evt0003",
+      "projectId": "136号文",
+      "projectName": "136号文",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/136号文.md"
     },
     {
-      "date": "2026-07-10",
-      "type": "report",
-      "title": "元旭半导体尽调启动",
-      "description": "启动 Innoshine 尽职调查",
-      "project": "innoshine"
+      "id": "evt0004",
+      "projectId": "2024年8月发布无界全固态电池",
+      "projectName": "2024年8月发布无界全固态电池",
+      "date": "2024-8",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/2024年8月发布无界全固态电池.md"
     },
     {
-      "date": "2026-07-09",
-      "type": "milestone",
-      "title": "启源芯动力立项",
-      "description": "启动启源芯动力并购项目",
-      "project": "qydx"
+      "id": "evt0005",
+      "projectId": "2024年开始吨级氧化物固态电解质出货",
+      "projectName": "2024年开始吨级氧化物固态电解质出货",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/2024年开始吨级氧化物固态电解质出货.md"
     },
     {
-      "date": "2026-07-16",
-      "type": "report",
-      "title": "汇天网络 V2 报告完成",
-      "description": "完成汇天网络合作分析报告",
-      "project": "huitian"
+      "id": "evt0006",
+      "projectId": "2025年12月9日成立",
+      "projectName": "2025年12月9日成立",
+      "date": "2025-129",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/2025年12月9日成立.md"
+    },
+    {
+      "id": "evt0007",
+      "projectId": "2025年产能扩充至2000吨_年氧化物",
+      "projectName": "2025年产能扩充至2000吨_年氧化物",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/2025年产能扩充至2000吨_年氧化物.md"
+    },
+    {
+      "id": "evt0008",
+      "projectId": "2025年汽车标准化工作要点",
+      "projectName": "2025年汽车标准化工作要点",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/2025年汽车标准化工作要点.md"
+    },
+    {
+      "id": "evt0009",
+      "projectId": "20年期美债",
+      "projectName": "20年期美债",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/20年期美债.md"
+    },
+    {
+      "id": "evt0010",
+      "projectId": "2_5D封装",
+      "projectName": "2_5D封装",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/2_5D封装.md"
+    },
+    {
+      "id": "evt0011",
+      "projectId": "2年期美债",
+      "projectName": "2年期美债",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/2年期美债.md"
+    },
+    {
+      "id": "evt0012",
+      "projectId": "360Wh_kg半固态电池",
+      "projectName": "360Wh_kg半固态电池",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/360Wh_kg半固态电池.md"
+    },
+    {
+      "id": "evt0013",
+      "projectId": "394号文",
+      "projectName": "394号文",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/394号文.md"
+    },
+    {
+      "id": "evt0014",
+      "projectId": "3nm制程",
+      "projectName": "3nm制程",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/3nm制程.md"
+    },
+    {
+      "id": "evt0015",
+      "projectId": "863计划",
+      "projectName": "863计划",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/863计划.md"
+    },
+    {
+      "id": "evt0016",
+      "projectId": "AIDC",
+      "projectName": "AIDC",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AIDC.md"
+    },
+    {
+      "id": "evt0017",
+      "projectId": "AIDC储能",
+      "projectName": "AIDC储能",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AIDC储能.md"
+    },
+    {
+      "id": "evt0018",
+      "projectId": "AI推理芯片",
+      "projectName": "AI推理芯片",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AI推理芯片.md"
+    },
+    {
+      "id": "evt0019",
+      "projectId": "AI数据中心储能",
+      "projectName": "AI数据中心储能",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AI数据中心储能.md"
+    },
+    {
+      "id": "evt0020",
+      "projectId": "AI服务器",
+      "projectName": "AI服务器",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AI服务器.md"
+    },
+    {
+      "id": "evt0021",
+      "projectId": "AI芯片",
+      "projectName": "AI芯片",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AI芯片.md"
+    },
+    {
+      "id": "evt0022",
+      "projectId": "AI芯片行业",
+      "projectName": "AI芯片行业",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AI芯片行业.md"
+    },
+    {
+      "id": "evt0023",
+      "projectId": "AI训练芯片",
+      "projectName": "AI训练芯片",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AI训练芯片.md"
+    },
+    {
+      "id": "evt0024",
+      "projectId": "AMAT",
+      "projectName": "AMAT",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AMAT.md"
+    },
+    {
+      "id": "evt0025",
+      "projectId": "AMD",
+      "projectName": "AMD",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AMD.md"
+    },
+    {
+      "id": "evt0026",
+      "projectId": "ASML",
+      "projectName": "ASML",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/ASML.md"
+    },
+    {
+      "id": "evt0027",
+      "projectId": "ASM_Pacific",
+      "projectName": "ASM_Pacific",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/ASM_Pacific.md"
+    },
+    {
+      "id": "evt0028",
+      "projectId": "ATE",
+      "projectName": "ATE",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/ATE.md"
+    },
+    {
+      "id": "evt0029",
+      "projectId": "ATE设备",
+      "projectName": "ATE设备",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/ATE设备.md"
+    },
+    {
+      "id": "evt0030",
+      "projectId": "ATPG",
+      "projectName": "ATPG",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/ATPG.md"
+    },
+    {
+      "id": "evt0031",
+      "projectId": "AgC纳米复合涂层",
+      "projectName": "AgC纳米复合涂层",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/AgC纳米复合涂层.md"
+    },
+    {
+      "id": "evt0032",
+      "projectId": "Applied_Materials",
+      "projectName": "Applied_Materials",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Applied_Materials.md"
+    },
+    {
+      "id": "evt0033",
+      "projectId": "Argyrodite类电解质",
+      "projectName": "Argyrodite类电解质",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Argyrodite类电解质.md"
+    },
+    {
+      "id": "evt0034",
+      "projectId": "Argyrodite类硫化物电解质",
+      "projectName": "Argyrodite类硫化物电解质",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Argyrodite类硫化物电解质.md"
+    },
+    {
+      "id": "evt0035",
+      "projectId": "A股市场",
+      "projectName": "A股市场",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/A股市场.md"
+    },
+    {
+      "id": "evt0036",
+      "projectId": "BNEF",
+      "projectName": "BNEF",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/BNEF.md"
+    },
+    {
+      "id": "evt0037",
+      "projectId": "CESA储能应用分会",
+      "projectName": "CESA储能应用分会",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CESA储能应用分会.md"
+    },
+    {
+      "id": "evt0038",
+      "projectId": "CME利率期货",
+      "projectName": "CME利率期货",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CME利率期货.md"
+    },
+    {
+      "id": "evt0039",
+      "projectId": "CME预期",
+      "projectName": "CME预期",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CME预期.md"
+    },
+    {
+      "id": "evt0040",
+      "projectId": "CMP全局平坦化技术",
+      "projectName": "CMP全局平坦化技术",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CMP全局平坦化技术.md"
+    },
+    {
+      "id": "evt0041",
+      "projectId": "CNESA",
+      "projectName": "CNESA",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CNESA.md"
+    },
+    {
+      "id": "evt0042",
+      "projectId": "CPI",
+      "projectName": "CPI",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CPI.md"
+    },
+    {
+      "id": "evt0043",
+      "projectId": "CPIA",
+      "projectName": "CPIA",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CPIA.md"
+    },
+    {
+      "id": "evt0044",
+      "projectId": "CPI通胀率",
+      "projectName": "CPI通胀率",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CPI通胀率.md"
+    },
+    {
+      "id": "evt0045",
+      "projectId": "CVD气相硅碳技术",
+      "projectName": "CVD气相硅碳技术",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CVD气相硅碳技术.md"
+    },
+    {
+      "id": "evt0046",
+      "projectId": "CVD气相硅碳负极",
+      "projectName": "CVD气相硅碳负极",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CVD气相硅碳负极.md"
+    },
+    {
+      "id": "evt0047",
+      "projectId": "CVD硅碳负极",
+      "projectName": "CVD硅碳负极",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CVD硅碳负极.md"
+    },
+    {
+      "id": "evt0048",
+      "projectId": "CVD设备",
+      "projectName": "CVD设备",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CVD设备.md"
+    },
+    {
+      "id": "evt0049",
+      "projectId": "Chiplet",
+      "projectName": "Chiplet",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Chiplet.md"
+    },
+    {
+      "id": "evt0050",
+      "projectId": "Chiplet封装",
+      "projectName": "Chiplet封装",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Chiplet封装.md"
+    },
+    {
+      "id": "evt0051",
+      "projectId": "CoWoS",
+      "projectName": "CoWoS",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CoWoS.md"
+    },
+    {
+      "id": "evt0052",
+      "projectId": "CoWoS封装",
+      "projectName": "CoWoS封装",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CoWoS封装.md"
+    },
+    {
+      "id": "evt0053",
+      "projectId": "CoWoS封装_PRODUCT",
+      "projectName": "CoWoS封装_PRODUCT",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CoWoS封装_PRODUCT.md"
+    },
+    {
+      "id": "evt0054",
+      "projectId": "CoWoS封装技术",
+      "projectName": "CoWoS封装技术",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CoWoS封装技术.md"
+    },
+    {
+      "id": "evt0055",
+      "projectId": "CoWoS封装技术_TECH",
+      "projectName": "CoWoS封装技术_TECH",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/CoWoS封装技术_TECH.md"
+    },
+    {
+      "id": "evt0056",
+      "projectId": "Crux_300量测设备",
+      "projectName": "Crux_300量测设备",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Crux_300量测设备.md"
+    },
+    {
+      "id": "evt0057",
+      "projectId": "Cu箔集流体",
+      "projectName": "Cu箔集流体",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Cu箔集流体.md"
+    },
+    {
+      "id": "evt0058",
+      "projectId": "D9000",
+      "projectName": "D9000",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/D9000.md"
+    },
+    {
+      "id": "evt0059",
+      "projectId": "D9000_SoC测试机",
+      "projectName": "D9000_SoC测试机",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/D9000_SoC测试机.md"
+    },
+    {
+      "id": "evt0060",
+      "projectId": "DC测试",
+      "projectName": "DC测试",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/DC测试.md"
+    },
+    {
+      "id": "evt0061",
+      "projectId": "DDR5内存",
+      "projectName": "DDR5内存",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/DDR5内存.md"
+    },
+    {
+      "id": "evt0062",
+      "projectId": "DISCO",
+      "projectName": "DISCO",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/DISCO.md"
+    },
+    {
+      "id": "evt0063",
+      "projectId": "DM5_0",
+      "projectName": "DM5_0",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/DM5_0.md"
+    },
+    {
+      "id": "evt0064",
+      "projectId": "DRAM",
+      "projectName": "DRAM",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/DRAM.md"
+    },
+    {
+      "id": "evt0065",
+      "projectId": "DeepSeek",
+      "projectName": "DeepSeek",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/DeepSeek.md"
+    },
+    {
+      "id": "evt0066",
+      "projectId": "Diamo8000",
+      "projectName": "Diamo8000",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Diamo8000.md"
+    },
+    {
+      "id": "evt0067",
+      "projectId": "Dioine_300F熔融键合设备",
+      "projectName": "Dioine_300F熔融键合设备",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Dioine_300F熔融键合设备.md"
+    },
+    {
+      "id": "evt0068",
+      "projectId": "Dion300熔融键合设备",
+      "projectName": "Dion300熔融键合设备",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Dion300熔融键合设备.md"
+    },
+    {
+      "id": "evt0069",
+      "projectId": "EBARA",
+      "projectName": "EBARA",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/EBARA.md"
+    },
+    {
+      "id": "evt0070",
+      "projectId": "EPU指数",
+      "projectName": "EPU指数",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/EPU指数.md"
+    },
+    {
+      "id": "evt0071",
+      "projectId": "EVG",
+      "projectName": "EVG",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/EVG.md"
+    },
+    {
+      "id": "evt0072",
+      "projectId": "EVG_Group",
+      "projectName": "EVG_Group",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/EVG_Group.md"
+    },
+    {
+      "id": "evt0073",
+      "projectId": "EVTank",
+      "projectName": "EVTank",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/EVTank.md"
+    },
+    {
+      "id": "evt0074",
+      "projectId": "EV_Group",
+      "projectName": "EV_Group",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/EV_Group.md"
+    },
+    {
+      "id": "evt0075",
+      "projectId": "Factorial",
+      "projectName": "Factorial",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Factorial.md"
+    },
+    {
+      "id": "evt0076",
+      "projectId": "FactorialEnergy",
+      "projectName": "FactorialEnergy",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/FactorialEnergy.md"
+    },
+    {
+      "id": "evt0077",
+      "projectId": "Figure",
+      "projectName": "Figure",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/Figure.md"
+    },
+    {
+      "id": "evt0078",
+      "projectId": "GAA晶体管",
+      "projectName": "GAA晶体管",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GAA晶体管.md"
+    },
+    {
+      "id": "evt0079",
+      "projectId": "GAA晶体管架构",
+      "projectName": "GAA晶体管架构",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GAA晶体管架构.md"
+    },
+    {
+      "id": "evt0080",
+      "projectId": "GAA结构",
+      "projectName": "GAA结构",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GAA结构.md"
+    },
+    {
+      "id": "evt0081",
+      "projectId": "GB_43854-2024",
+      "projectName": "GB_43854-2024",
+      "date": "3854-2024",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GB_43854-2024.md"
+    },
+    {
+      "id": "evt0082",
+      "projectId": "GB_44240-2024",
+      "projectName": "GB_44240-2024",
+      "date": "4240-2024",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GB_44240-2024.md"
+    },
+    {
+      "id": "evt0083",
+      "projectId": "GPT-4",
+      "projectName": "GPT-4",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GPT-4.md"
+    },
+    {
+      "id": "evt0084",
+      "projectId": "GPU",
+      "projectName": "GPU",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GPU.md"
+    },
+    {
+      "id": "evt0085",
+      "projectId": "GPU芯片",
+      "projectName": "GPU芯片",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GPU芯片.md"
+    },
+    {
+      "id": "evt0086",
+      "projectId": "GWEC",
+      "projectName": "GWEC",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/GWEC.md"
+    },
+    {
+      "id": "evt0087",
+      "projectId": "H100",
+      "projectName": "H100",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/H100.md"
+    },
+    {
+      "id": "evt0088",
+      "projectId": "H200",
+      "projectName": "H200",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/H200.md"
+    },
+    {
+      "id": "evt0089",
+      "projectId": "HBM",
+      "projectName": "HBM",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/HBM.md"
+    },
+    {
+      "id": "evt0090",
+      "projectId": "HBM3E",
+      "projectName": "HBM3E",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/HBM3E.md"
+    },
+    {
+      "id": "evt0091",
+      "projectId": "HBM显存",
+      "projectName": "HBM显存",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/HBM显存.md"
+    },
+    {
+      "id": "evt0092",
+      "projectId": "HBM高带宽内存",
+      "projectName": "HBM高带宽内存",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/HBM高带宽内存.md"
+    },
+    {
+      "id": "evt0093",
+      "projectId": "HUD",
+      "projectName": "HUD",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/HUD.md"
+    },
+    {
+      "id": "evt0094",
+      "projectId": "HVDC架构",
+      "projectName": "HVDC架构",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/HVDC架构.md"
+    },
+    {
+      "id": "evt0095",
+      "projectId": "IDDQ测试",
+      "projectName": "IDDQ测试",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/IDDQ测试.md"
+    },
+    {
+      "id": "evt0096",
+      "projectId": "IEA",
+      "projectName": "IEA",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/IEA.md"
+    },
+    {
+      "id": "evt0097",
+      "projectId": "IP核",
+      "projectName": "IP核",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/IP核.md"
+    },
+    {
+      "id": "evt0098",
+      "projectId": "IRA法案",
+      "projectName": "IRA法案",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/IRA法案.md"
+    },
+    {
+      "id": "evt0099",
+      "projectId": "IRENA",
+      "projectName": "IRENA",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/IRENA.md"
+    },
+    {
+      "id": "evt0100",
+      "projectId": "JTAG协议测试",
+      "projectName": "JTAG协议测试",
+      "date": "2026-07-19",
+      "event": "立项/跟踪",
+      "type": "on",
+      "reportUrl": "",
+      "localDir": "entities/JTAG协议测试.md"
     }
   ]
 }
