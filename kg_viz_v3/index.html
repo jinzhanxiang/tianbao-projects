@@ -10,9 +10,60 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/standalone/umd/vis-network.min.js"></script>
   <style>
     body{font-family:"FangSong","仿宋","FZFS","Noto Serif SC",serif;background:#0a0e1a;color:#e0e0e0;}
+    /* 加载过渡动画 — 全屏 splash */
+    #splash-screen {
+      position:fixed;inset:0;z-index:9999;
+      background:linear-gradient(135deg,#05050f,#0a0e1a,#0f152e);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      transition:opacity 0.8s ease,visibility 0.8s ease;
+    }
+    #splash-screen.hidden{opacity:0;visibility:hidden;pointer-events:none}
+    .splash-logo{font-size:48px;margin-bottom:16px;animation:splash-float 3s ease-in-out infinite}
+    @keyframes splash-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    .splash-title{font-size:28px;font-weight:700;background:linear-gradient(90deg,#fff,var(--cyber-cyan),var(--cyber-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px}
+    .splash-sub{color:var(--cyber-text2);font-size:16px;margin-bottom:24px}
+    .splash-bar{width:200px;height:2px;background:var(--cyber-border);border-radius:2px;overflow:hidden;position:relative}
+    .splash-bar-fill{height:100%;width:0%;background:linear-gradient(90deg,var(--cyber-cyan),var(--cyber-purple));border-radius:2px;animation:splash-load 1.5s ease-in-out forwards}
+    @keyframes splash-load{0%{width:0%}70%{width:70%}100%{width:100%}}
+    .splash-particles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+    .splash-particle{position:absolute;width:3px;height:3px;background:var(--cyber-cyan);border-radius:50%;opacity:0;animation:particle-float 3s ease-in-out infinite}
+    .splash-particle:nth-child(1){left:10%;animation-delay:0s}
+    .splash-particle:nth-child(2){left:30%;animation-delay:0.5s;background:var(--cyber-purple)}
+    .splash-particle:nth-child(3){left:50%;animation-delay:1s;background:var(--cyber-green)}
+    .splash-particle:nth-child(4){left:70%;animation-delay:1.5s;background:var(--cyber-blue)}
+    .splash-particle:nth-child(5){left:90%;animation-delay:2s;background:var(--cyber-pink)}
+    @keyframes particle-float{0%{top:100%;opacity:0}20%{opacity:1}80%{opacity:1}100%{top:0%;opacity:0}}
+    .splash-status{color:var(--cyber-text3);font-size:13px;margin-top:20px;font-family:var(--cyber-mono);animation:splash-blink 1.5s ease-in-out infinite}
+    @keyframes splash-blink{0%,100%{opacity:1}50%{opacity:0.3}}
+    /* 移动端适配 */
+    @media(max-width:768px){
+      .app-layout{grid-template-columns:1fr!important}
+      .app-nav{display:none}
+      .app-detail{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;width:100%!important;max-width:100%!important}
+      .app-header h1{font-size:18px}
+      .header-right{flex-wrap:wrap;gap:4px}
+      .header-right .btn{padding:4px 8px;font-size:12px}
+    }
   </style>
 </head>
 <body>
+
+<!-- 全屏加载 Splash 动画 -->
+<div id="splash-screen">
+  <div class="splash-particles">
+    <div class="splash-particle"></div>
+    <div class="splash-particle"></div>
+    <div class="splash-particle"></div>
+    <div class="splash-particle"></div>
+    <div class="splash-particle"></div>
+  </div>
+  <div class="splash-logo">🌐</div>
+  <div class="splash-title">✦ 知识图谱加载中</div>
+  <div class="splash-sub">实体关系网络 · 分层探索</div>
+  <div class="splash-bar"><div class="splash-bar-fill"></div></div>
+  <div class="splash-status">⏳ 正在初始化图谱引擎…</div>
+</div>
+
 <nav class="nav">
   <div class="nav-inner">
     <a href="../index.html" class="logo"><span class="logo-mark">✦</span>天保控股 · 项目中心</a>
@@ -90,6 +141,21 @@
 
   <!-- 面包屑导航（动态插入） -->
   <div class="breadcrumb" id="breadcrumb" style="display:none;position:absolute;top:60px;left:280px;z-index:50;background:var(--bg-card);border-radius:8px;padding:6px 12px;border:1px solid var(--border);"></div>
+
+  <!-- Splash 隐藏脚本 -->
+  <script>
+    // 窗口加载完成后隐藏 splash
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('splash-screen').classList.add('hidden');
+      }, 1800);
+    });
+    // 3.5秒强制隐藏（兜底）
+    setTimeout(function() {
+      var s = document.getElementById('splash-screen');
+      if(s) s.classList.add('hidden');
+    }, 3500);
+  </script>
 
   <!-- JS 模块 -->
   <script src="js/level1-circular.js"></script>

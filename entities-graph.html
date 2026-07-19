@@ -68,6 +68,19 @@ a{color:var(--cyber-cyan);text-decoration:none}
   animation: cyber-scanline 4s linear infinite;
 }
 
+
+/* 移动端响应式适配 */
+@media (max-width: 768px) {
+  .entity-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important; }
+  .nav-links { flex-wrap: wrap; gap: 6px; }
+  .nav-links a { font-size: 13px; padding: 4px 10px; }
+  .header-section { font-size: 24px !important; }
+}
+@media (max-width: 480px) {
+  .entity-grid { grid-template-columns: 1fr !important; }
+  .nav-links { display: none; }
+  .logo { font-size: 13px; }
+}
 </style>
 </head>
 <body>
@@ -134,6 +147,19 @@ a{color:var(--cyber-cyan);text-decoration:none}
   animation: cyber-scanline 4s linear infinite;
 }
 
+
+/* 移动端响应式适配 */
+@media (max-width: 768px) {
+  .entity-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important; }
+  .nav-links { flex-wrap: wrap; gap: 6px; }
+  .nav-links a { font-size: 13px; padding: 4px 10px; }
+  .header-section { font-size: 24px !important; }
+}
+@media (max-width: 480px) {
+  .entity-grid { grid-template-columns: 1fr !important; }
+  .nav-links { display: none; }
+  .logo { font-size: 13px; }
+}
 </style>
 
 <div id="macroGraph">
@@ -1406,5 +1432,30 @@ function filterEntities(val){
 <script>
 document.getElementById('entityCountDisplay').textContent = document.querySelectorAll('.entity-card').length;
 </script>
-</body>
+
+<!-- 主题切换按钮 -->
+<button class="cyber-theme-toggle" id="themeToggle" title="切换日/夜间模式">🌙</button>
+<script>
+  (function(){
+    var btn = document.getElementById('themeToggle');
+    if(!btn) return;
+    var isLight = localStorage.getItem('cyber-theme') === 'light';
+    if(isLight){
+      document.documentElement.classList.add('cyber-light');
+      btn.textContent = '☀️';
+    }
+    btn.addEventListener('click', function(){
+      var html = document.documentElement;
+      if(html.classList.contains('cyber-light')){
+        html.classList.remove('cyber-light');
+        localStorage.setItem('cyber-theme', 'dark');
+        btn.textContent = '🌙';
+      } else {
+        html.classList.add('cyber-light');
+        localStorage.setItem('cyber-theme', 'light');
+        btn.textContent = '☀️';
+      }
+    });
+  })();
+</script></body>
 </html>

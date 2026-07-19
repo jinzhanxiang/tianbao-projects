@@ -129,5 +129,31 @@ init();
 // Auto-refresh every 60s
 setInterval(init, 60000);
 </script>
-</body>
+
+<!-- 主题切换按钮 -->
+<button class="cyber-theme-toggle" id="themeToggle" title="切换日/夜间模式">🌙</button>
+<script>
+  // 主题切换
+  (function(){
+    var btn = document.getElementById('themeToggle');
+    if(!btn) return;
+    var isLight = localStorage.getItem('cyber-theme') === 'light';
+    if(isLight){
+      document.documentElement.classList.add('cyber-light');
+      btn.textContent = '☀️';
+    }
+    btn.addEventListener('click', function(){
+      var html = document.documentElement;
+      if(html.classList.contains('cyber-light')){
+        html.classList.remove('cyber-light');
+        localStorage.setItem('cyber-theme', 'dark');
+        btn.textContent = '🌙';
+      } else {
+        html.classList.add('cyber-light');
+        localStorage.setItem('cyber-theme', 'light');
+        btn.textContent = '☀️';
+      }
+    });
+  })();
+</script></body>
 </html>
