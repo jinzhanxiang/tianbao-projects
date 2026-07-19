@@ -639,6 +639,152 @@ const Level2Progressive = (function() {
   function getCurrentIndustry() { return currentIndustry; }
   function getNetwork() { return network; }
 
+  // ── 搜索过滤 ──
+  function filterBySearch(term) {
+    if (!network || !nodes) return;
+    if (!term) {
+      // 清空搜索：恢复所有节点
+      nodes.forEach(n => {
+        nodes.update({
+          id: n.id,
+          opacity: 1.0,
+          hidden: false,
+        });
+      });
+      edges.forEach(e => {
+        edges.update({
+          id: e.id,
+          hidden: false,
+        });
+      });
+      return;
+    }
+
+    const lowerTerm = term.toLowerCase();
+    // 匹配节点名称或描述
+    nodes.forEach(n => {
+      const name = (n.name || n.label || '').toLowerCase();
+      const match = name.includes(lowerTerm);
+      nodes.update({
+        id: n.id,
+        opacity: match ? 1.0 : 0.08,
+        hidden: false,
+      });
+    });
+
+    // 只显示匹配节点之间的边
+    const visibleNodes = new Set();
+    nodes.forEach(n => {
+      const name = (n.name || n.label || '').toLowerCase();
+      if (name.includes(lowerTerm)) {
+        visibleNodes.add(n.id);
+      }
+    });
+
+    edges.forEach(e => {
+      const visible = visibleNodes.has(e.from) && visibleNodes.has(e.to);
+      edges.update({
+        id: e.id,
+        hidden: !visible,
+        opacity: visible ? 0.8 : 0,
+      });
+    });
+
+    // 聚焦到第一个匹配节点
+    const firstMatch = nodes.get().find(n => {
+      const name = (n.name || n.label || '').toLowerCase();
+      return name.includes(lowerTerm);
+    });
+    if (firstMatch) {
+      network.focus(firstMatch.id, {
+        scale: 2.0,
+        animation: { duration: 300, easingFunction: 'easeInOutQuad' },
+      });
+    }
+  }
+
+  // ── 类型过滤 ──
+  function filterByType(type, active) {
+    if (!network || !nodes) return;
+    nodes.forEach(n => {
+      const nodeType = (n.type || '').toUpperCase();
+      const matches = nodeType === type.toUpperCase() || nodeType === type;
+      if (active) {
+        // 显示该类型
+        nodes.update({ id: n.id, hidden: false, opacity: 1.0 });
+      } else {
+        // 隐藏该类型
+        nodes.update({ id: n.id, hidden: true });
+      }
+    });
+    // 更新边：只显示两端都可见的边
+    edges.forEach(e => {
+      const fromNode = nodes.get(e.from);
+      const toNode = nodes.get(e.to);
+      const hidden = !fromNode || !toNode || fromNode.hidden || toNode.hidden;
+      edges.update({ id: e.id, hidden });
+    });
+    network.fit({ animation: { duration: 300 } });
+  }
+
+  // ── 关系类型过滤 ──
+  const hiddenRelationTypes = new Set();
+  function filterByRelationType(type, active) {
+    if (!network || !edges) return;
+    if (active) {
+      hiddenRelationTypes.delete(type);
+    } else {
+      hiddenRelationTypes.add(type);
+    }
+    edges.forEach(e => {
+      const edgeType = e.type || e.label || '';
+      const hidden = hiddenRelationTypes.has(edgeType);
+      edges.update({ id: e.id, hidden });
+    });
+  }
+
+  // ── 高亮连通子图 ──
+  function highlightConnectedSubgraph(nodeId) {
+    if (!network || !nodes || !edges) return;
+
+    // 获取该节点所有直接相连的节点和边
+    const connectedNodes = network.getConnectedNodes(nodeId);
+    const connectedEdges = network.getConnectedEdges(nodeId);
+    const highlightSet = new Set([nodeId, ...connectedNodes]);
+
+    // 淡化所有节点，高亮选中节点及其邻居
+    nodes.forEach(n => {
+      const isHighlighted = highlightSet.has(n.id);
+      const isFocal = n.id === nodeId;
+      nodes.update({
+        id: n.id,
+        opacity: isHighlighted ? 1.0 : 0.1,
+        borderWidth: isFocal ? 4 : 1,
+        color: isFocal ? {
+          background: '#FFD700',
+          border: '#fff',
+          highlight: { background: '#FFD700', border: '#fff' },
+        } : undefined,
+      });
+    });
+
+    // 高亮相关边，淡化其他
+    const edgeSet = new Set(connectedEdges);
+    edges.forEach(e => {
+      const isHighlighted = edgeSet.has(e.id);
+      edges.update({
+        id: e.id,
+        opacity: isHighlighted ? 1.0 : 0.05,
+        width: isHighlighted ? 3 : 0.5,
+        color: isHighlighted ? {
+          color: '#FFD700',
+          highlight: '#FFD700',
+          opacity: 1.0,
+        } : undefined,
+      });
+    });
+  }
+
   return {
     loadIndustry,
     reset,
@@ -646,5 +792,9 @@ const Level2Progressive = (function() {
     clearHighlight,
     getCurrentIndustry,
     getNetwork,
+    filterBySearch,
+    filterByType,
+    filterByRelationType,
+    highlightConnectedSubgraph,
   };
 })();

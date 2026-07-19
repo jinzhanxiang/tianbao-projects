@@ -1,23 +1,27 @@
 /**
- * app.js — 知识图谱分层可视化主应用 v4.1
- * 
- * v4.1 分片加载：只加载摘要(2KB) → 点击行业再加载分片数据
+ * app.js — 知识图谱分层可视化主应用 v5 (力导向 + 搜索过滤)
+ *
+ * v5 改进：
+ * - 搜索实体功能
+ * - 类型/关系过滤
+ * - 连通子图高亮
+ * - 力导向布局参数优化
  */
 (function() {
   'use strict';
 
   // ── 全局状态 ──
   let summaryData = null;
-  let fullData = null;           // 完整数据（后台懒加载）
+  let fullData = null;
   let currentLevel = 1;
-  let currentIndustryData = null; // 当前加载的行业分片数据
+  let currentIndustryData = null;
   let breadcrumbPath = [];
 
   // ── DOM 元素 ──
   const els = {
     levelBadge: document.getElementById('level-badge'),
-    industryList: document.getElementById('industry-list'),
-    statsSummary: document.getElementById('stats-summary'),
+    industryList: document.getElementById('industry-nav-list'),
+    statsList: document.getElementById('stats-list'),
     typeLegend: document.getElementById('type-legend'),
     relFilters: document.getElementById('rel-filters'),
     loading: document.getElementById('loading'),
@@ -33,49 +37,23 @@
 
   // ── 工具 ──
   function showLoading(msg) {
-    els.loadingText.textContent = msg;
-    els.loading.classList.add('visible');
+    if (els.loadingText) els.loadingText.textContent = msg || '加载中...';
+    if (els.loading) els.loading.classList.add('visible');
   }
   function hideLoading() {
-    els.loading.classList.remove('visible');
+    if (els.loading) els.loading.classList.remove('visible');
   }
   function setStatus(left, right) {
-    els.statusBarLeft.textContent = left;
-    els.statusBarRight.textContent = right;
+    if (els.statusBarLeft) els.statusBarLeft.textContent = left;
+    if (els.statusBarRight) els.statusBarRight.textContent = right || '天保控股 · 项目中心';
   }
   function setLevelBadge(level, label) {
-    els.levelBadge.textContent = label;
-  }
-  function updateBreadcrumb() {
-    if (breadcrumbPath.length === 0) {
-      els.breadcrumb.style.display = 'none';
-      return;
-    }
-    els.breadcrumb.style.display = 'flex';
-    els.breadcrumb.innerHTML = breadcrumbPath.map((item, i) => {
-      const sep = i > 0 ? `<span class="breadcrumb-sep">›</span>` : '';
-      const clickable = i < breadcrumbPath.length - 1;
-      return `${sep}${clickable
-        ? `<span class="breadcrumb-item" data-lvl="${item.level}" data-name="${escapeAttr(item.name)}">${escapeHtml(item.name)}</span>`
-        : `<span class="breadcrumb-item" style="color:#e7e9ea">${escapeHtml(item.name)}</span>`
-      }`;
-    }).join('');
-    document.querySelectorAll('.breadcrumb-item').forEach(item => {
-      item.onclick = function() {
-        const lvl = parseInt(this.dataset.lvl);
-        const name = this.dataset.name;
-        navigateTo(lvl, name);
-      };
-    });
+    if (els.levelBadge) els.levelBadge.textContent = label;
   }
   function escapeHtml(s) {
     if (!s) return '';
     return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
-  function escapeAttr(s) {
-    return escapeHtml(s).replace(/'/g, '&#39;');
-  }
-  // 安全文件名（与导出脚本一致）
   function safeIndustryName(name) {
     return name.replace(/\//g, '_').replace(/\\/g, '_').replace(/ /g, '_');
   }
@@ -88,20 +66,18 @@
     return resp.json();
   }
 
-  // 后台懒加载完整数据（用于搜索等需要全局数据的场景）
   async function loadFullInBackground() {
     try {
       const resp = await fetch('kg_data.json');
       if (resp.ok) {
         fullData = await resp.json();
-        console.log('✅ 完整数据后台加载完成:', fullData.meta);
+        console.log('✅ 完整数据后台加载完成');
       }
     } catch(e) {
       console.warn('完整数据后台加载失败:', e);
     }
   }
 
-  // 按需加载行业分片
   async function loadIndustryData(indName) {
     const safeName = safeIndustryName(indName);
     const resp = await fetch(`industries/${safeName}.json`);
@@ -111,30 +87,37 @@
 
   // ── 导航渲染 ──
   function renderIndustryNav(data) {
+    if (!els.industryList) return;
     els.industryList.innerHTML = '';
+    const maxCount = Math.max(...data.industries.map(i => i.count));
     data.industries.forEach(ind => {
       const item = document.createElement('div');
       item.className = 'nav-item industry-nav-item';
       item.dataset.industry = ind.name;
       item.onclick = () => navigateTo(2, ind.name);
-      const color = getIndustryColor(ind.count, data.industries[0].count);
+      const intensity = ind.count / maxCount;
+      const r = Math.round(29 + intensity * 168);
+      const g = Math.round(155 + intensity * 41);
+      const color = `rgb(${r},${g},240)`;
       item.innerHTML = `
         <span class="nav-indicator" style="background:${color}"></span>
         <span class="nav-name">${escapeHtml(ind.name)}</span>
         <span class="nav-count">${ind.count}</span>
       `;
+      item.title = `点击查看 ${ind.name} 实体图谱`;
       els.industryList.appendChild(item);
     });
   }
 
   function renderStats(data) {
+    if (!els.statsList) return;
     const totalEnt = data.meta.total_entities || 0;
     const totalRel = data.meta.total_relations || 0;
     const totalInd = data.industries.length || 0;
     const totalFw = data.meta.total_frameworks || 0;
     const totalLc = data.meta.total_logic_chains || 0;
     const totalIndicators = data.meta.total_indicators || 0;
-    els.statsSummary.innerHTML = `
+    els.statsList.innerHTML = `
       <div class="attr-row"><span class="attr-key">📦 实体</span><span class="attr-val">${totalEnt}</span></div>
       <div class="attr-row"><span class="attr-key">🔗 关系</span><span class="attr-val">${totalRel}</span></div>
       <div class="attr-row"><span class="attr-key">🏭 行业</span><span class="attr-val">${totalInd}</span></div>
@@ -145,53 +128,76 @@
   }
 
   function renderTypeLegend(data) {
+    if (!els.typeLegend) return;
     els.typeLegend.innerHTML = '';
+    const typeMap = {
+      ORG: '组织', PERSON: '人物', PRODUCT: '产品',
+      TECH: '技术', INDUSTRY: '行业', POLICY: '政策',
+      PLACE: '地点', UNKNOWN: '未知',
+      framework: '框架', indicator: '指标', logic: '逻辑链',
+    };
     data.entity_types.forEach(t => {
-      const item = document.createElement('div');
+      const item = document.createElement('label');
       item.className = 'type-legend-item';
+      const checked = true;
       item.innerHTML = `
+        <input type="checkbox" checked onchange="window.onToggleTypeFilter('${t.type.toUpperCase()}')">
         <span class="type-legend-dot" style="background:${t.color}"></span>
-        <span>${getTypeLabel(t.type)}</span>
+        <span>${typeMap[t.type] || t.type}</span>
+        <span class="type-legend-count">${t.count}</span>
       `;
       els.typeLegend.appendChild(item);
     });
   }
 
   function renderRelFilters(data) {
+    if (!els.relFilters) return;
     els.relFilters.innerHTML = '';
     data.relation_types.forEach(rt => {
       const chip = document.createElement('span');
       chip.className = 'filter-chip active';
       chip.dataset.type = rt.type;
-      chip.innerHTML = `<span class="fc-dot" style="background:${rt.color}"></span>${rt.type} (${rt.count})`;
+      chip.innerHTML = `<span class="fc-dot" style="background:${rt.color}"></span>${escapeHtml(rt.type)} (${rt.count})`;
       chip.onclick = () => {
         chip.classList.toggle('active');
-        toggleRelFilter(rt.type, chip.classList.contains('active'));
+        const active = chip.classList.contains('active');
+        if (currentLevel === 2) {
+          Level2Progressive.filterByRelationType(rt.type, active);
+        }
       };
       els.relFilters.appendChild(chip);
     });
   }
 
-  function getIndustryColor(count, maxCount) {
-    const intensity = Math.min(count / maxCount, 1);
-    const r = Math.round(29 + intensity * 168);
-    const g = Math.round(155 + intensity * 41);
-    return `rgb(${r},${g},240)`;
-  }
-
-  function getTypeLabel(type) {
-    const map = {
-      ORG: '组织', PERSON: '人物', PRODUCT: '产品',
-      TECH: '技术', INDUSTRY: '行业', POLICY: '政策',
-      PLACE: '地点', UNKNOWN: '未知',
-      framework: '框架', indicator: '指标', logic: '逻辑链',
-    };
-    return map[type] || map[type.toUpperCase()] || type;
+  function updateBreadcrumb() {
+    if (!els.breadcrumb) return;
+    if (breadcrumbPath.length === 0) {
+      els.breadcrumb.style.display = 'none';
+      return;
+    }
+    els.breadcrumb.style.display = 'flex';
+    els.breadcrumb.innerHTML = breadcrumbPath.map((item, i) => {
+      const sep = i > 0 ? '<span class="breadcrumb-sep">›</span>' : '';
+      const clickable = i < breadcrumbPath.length - 1;
+      const cls = clickable ? 'breadcrumb-item' : 'breadcrumb-item';
+      const style = clickable ? '' : 'color:#e7e9ea; cursor:default';
+      return `${sep}<span class="${cls}" style="${style}" data-lvl="${item.level}" data-name="${escapeHtml(item.name)}">${escapeHtml(item.name)}</span>`;
+    }).join('');
+    document.querySelectorAll('.breadcrumb-item').forEach(item => {
+      item.onclick = function() {
+        const lvl = parseInt(this.dataset.lvl);
+        const name = this.dataset.name;
+        navigateTo(lvl, name);
+      };
+    });
   }
 
   // ── 导航 ──
   async function navigateTo(level, name) {
     breadcrumbPath = breadcrumbPath.slice(0, level - 1);
+    // 清空搜索
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = '';
 
     if (level === 1) {
       Level1Circular.init('viz-canvas', summaryData, fullData);
@@ -207,24 +213,17 @@
     } else if (level === 2) {
       showLoading(`加载 ${name} ...`);
       try {
-        // 按需加载行业分片数据
         const indData = await loadIndustryData(name);
         currentIndustryData = indData;
         window._currentIndustryData = indData;
-
-        // 为 Level 3 详情面板设置行业数据
         Level3Detail.setIndustryData(indData);
-
-        // 构建 fakeFullData 供 Level2Progressive 兼容使用
         const fakeFullData = {
           logic_entity_edges: indData.logic_entity_edges || [],
           indicator_entity_edges: indData.indicator_entity_edges || [],
         };
-
         await Level2Progressive.loadIndustry(name, fakeFullData, 'viz-canvas', (msg) => {
-          els.loadingText.textContent = msg;
+          if (els.loadingText) els.loadingText.textContent = msg;
         });
-
         hideLoading();
         currentLevel = 2;
         setLevelBadge(2, `Level 2 · ${name}`);
@@ -246,7 +245,6 @@
         setStatus('错误', err.message);
         alert('行业数据加载失败: ' + err.message);
       }
-
     } else if (level === 3) {
       updateBreadcrumb();
     }
@@ -284,10 +282,24 @@
       }
     });
   };
-
-  function toggleRelFilter(type, active) {
-    console.log('Toggle relation filter:', type, active);
-  }
+  // 搜索
+  window.onSearchNodes = function() {
+    const searchInput = document.getElementById('search-input');
+    if (!searchInput) return;
+    const term = searchInput.value.trim();
+    if (currentLevel === 2) {
+      Level2Progressive.filterBySearch(term);
+    }
+  };
+  // 类型过滤
+  window.onToggleTypeFilter = function(type) {
+    const checkbox = document.getElementById(`type-filter-${type}`);
+    if (!checkbox) return;
+    const active = checkbox.checked;
+    if (currentLevel === 2) {
+      Level2Progressive.filterByType(type, active);
+    }
+  };
 
   // ── 按钮 ──
   els.btnReset.onclick = () => navigateTo(1, null);
@@ -316,33 +328,25 @@
   async function init() {
     try {
       summaryData = await loadSummary();
-      fullData = null; // 暂时不用完整数据
-
-      Level3Detail.setData(null); // 初始无数据，Level3按需传入
-
+      Level3Detail.setData(null);
       renderIndustryNav(summaryData);
       renderStats(summaryData);
       renderTypeLegend(summaryData);
       renderRelFilters(summaryData);
-
       Level1Circular.init('viz-canvas', summaryData, null);
-
       currentLevel = 1;
       setLevelBadge(1, 'Level 1 · 行业全景');
       breadcrumbPath = [{ level: 1, name: '行业全景', type: 'root' }];
       setStatus('就绪', `${summaryData.industries.length} 行业 | ${summaryData.meta.total_entities} 实体`);
       updateBreadcrumb();
       hideLoading();
-
-      // 后台懒加载完整数据（不阻塞首次渲染）
       loadFullInBackground();
-
-      console.log('✅ 知识图谱 v4.1 分片加载已就绪');
+      console.log('✅ 知识图谱 v5 力导向 + 搜索过滤已就绪');
     } catch (err) {
       hideLoading();
       console.error('❌ 初始化失败:', err);
       setStatus('错误', err.message);
-      els.breadcrumb.style.display = 'none';
+      if (els.breadcrumb) els.breadcrumb.style.display = 'none';
     }
   }
 
