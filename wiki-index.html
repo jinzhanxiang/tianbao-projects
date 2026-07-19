@@ -852,7 +852,7 @@
             </div>
         </div>
 
-        <div class="bento-card stat-card green" onclick="window.location.href='kg_entity_relation.html'">
+        <div class="bento-card stat-card green" onclick="window.location.href='kg_viz_v3/index.html'">
             <div class="stat-header">
                 <div class="stat-icon">🔗</div>
                 <span>关系</span>
@@ -874,7 +874,7 @@
             </div>
         </div>
 
-        <div class="bento-card stat-card orange" onclick="window.location.href='wiki-viewer.html?type=reports'">
+        <div class="bento-card stat-card orange" onclick="window.location.href='reports.html'">
             <div class="stat-header">
                 <div class="stat-icon">📄</div>
                 <span>研报</span>
@@ -896,7 +896,7 @@
             <div class="search-results" id="searchResults"></div>
         </div>
 
-        <div class="bento-card graph-entry" onclick="window.location.href='kg_entity_relation.html'">
+        <div class="bento-card graph-entry" onclick="window.location.href='kg_viz_v3/index.html'">
             <div class="graph-entry-title">📊 进入图谱</div>
             <div class="graph-entry-desc">力导向图谱 · 行业筛选 · Wiki 详情 · 关系分析</div>
             <button class="graph-entry-btn">点击进入 →</button>
@@ -928,28 +928,28 @@
 
         <!-- Quick Actions Row -->
         <div class="bento-card quick-actions">
-            <div class="quick-action" onclick="window.location.href='kg_entity_relation.html?industry=新能源电池行业'">
+            <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
                 <div class="qa-icon" style="background:rgba(93,173,226,0.15); color:#5DADE2;">⚡</div>
                 <div>
                     <div class="qa-text">新能源电池</div>
                     <div class="qa-desc">2,068 实体</div>
                 </div>
             </div>
-            <div class="quick-action" onclick="window.location.href='kg_entity_relation.html?industry=电力设备'">
+            <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
                 <div class="qa-icon" style="background:rgba(88,214,141,0.15); color:#58D68D;">🔧</div>
                 <div>
                     <div class="qa-text">电力设备</div>
                     <div class="qa-desc">1,637 实体</div>
                 </div>
             </div>
-            <div class="quick-action" onclick="window.location.href='kg_entity_relation.html?industry=半导体'">
+            <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
                 <div class="qa-icon" style="background:rgba(236,112,99,0.15); color:#EC7063;">💠</div>
                 <div>
                     <div class="qa-text">半导体</div>
                     <div class="qa-desc">291 实体</div>
                 </div>
             </div>
-            <div class="quick-action" onclick="window.location.href='kg_entity_relation.html?industry=医药'">
+            <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
                 <div class="qa-icon" style="background:rgba(245,176,65,0.15); color:#F5B041;">💊</div>
                 <div>
                     <div class="qa-text">医药</div>
@@ -1033,7 +1033,7 @@
         list.innerHTML = industries.map((ind, i) => {
             const pct = (ind.count / maxCount * 100).toFixed(0);
             return `
-                <div class="industry-item" onclick="window.location.href='kg_entity_relation.html?industry=${encodeURIComponent(ind.name)}'">
+                <div class="industry-item" onclick="window.location.href='kg_viz_v3/index.html'">
                     <div class="ind-name">${ind.icon} ${ind.name}</div>
                     <div class="ind-bar"><div class="ind-bar-fill" style="width:${pct}%"></div></div>
                     <div class="ind-count">${ind.count.toLocaleString()}</div>
@@ -1096,7 +1096,7 @@
                 const typeColor = m.type === '企业' ? '#5DADE2' : '#58D68D';
                 const typeIcon = m.type === '企业' ? '🏢' : '🏭';
                 return `
-                    <div class="search-result-item" onclick="window.location.href='kg_entity_relation.html?search=${encodeURIComponent(m.name)}'">
+                    <div class="search-result-item" onclick="window.location.href='entities_index.html'">
                         <div class="sr-icon" style="background:${typeColor}22; color:${typeColor};">${typeIcon}</div>
                         <div class="sr-name">${m.name}</div>
                         <div class="sr-type">${m.industry}</div>
@@ -1143,7 +1143,7 @@
         if (view === 'overview') {
             document.getElementById('view-overview').style.display = 'block';
         } else if (view === 'graph') {
-            window.location.href = 'kg_entity_relation.html';
+            window.location.href = 'kg_viz_v3/index.html';
         } else if (view === 'dashboard') {
             document.getElementById('view-dashboard').style.display = 'block';
         } else if (view === 'timeline') {
@@ -1269,7 +1269,7 @@
         const typeLabels = { ORG: '🏢', PRODUCT: '📦', TECH: '🔬', INDUSTRY: '🏭', POLICY: '📋', PLACE: '📍', PERSON: '👤' };
         tbody.innerHTML = DASH_TOP.map((d, i) => {
             const icon = typeLabels[d.type] || '🔷';
-            return `<tr onclick="window.location.href='kg_entity_relation.html?search=${encodeURIComponent(d.name)}'">
+            return `<tr onclick="window.location.href='entities_index.html'">
                 <td class="rank">${String(i+1).padStart(2,'0')}</td>
                 <td class="entity-name">${icon} ${d.name}</td>
                 <td>${d.type}</td>
