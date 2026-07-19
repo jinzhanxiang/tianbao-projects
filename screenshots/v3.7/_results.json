@@ -1,0 +1,74 @@
+[
+  {
+    "page": "index",
+    "gsap_loaded": true,
+    "transitions_runtime": 20,
+    "cyber_cards": 4,
+    "screenshot": "/Users/jinzhanxiang/Documents/tianbao-projects/screenshots/v3.7/index.png",
+    "size_kb": 183.5,
+    "status": "ok"
+  },
+  {
+    "page": "dashboard",
+    "gsap_loaded": true,
+    "transitions_runtime": 15,
+    "cyber_cards": 0,
+    "screenshot": "/Users/jinzhanxiang/Documents/tianbao-projects/screenshots/v3.7/dashboard.png",
+    "size_kb": 212.5,
+    "status": "ok"
+  },
+  {
+    "page": "projects",
+    "gsap_loaded": true,
+    "transitions_runtime": 1067,
+    "cyber_cards": 0,
+    "screenshot": "/Users/jinzhanxiang/Documents/tianbao-projects/screenshots/v3.7/projects.png",
+    "size_kb": 178.5,
+    "status": "ok"
+  },
+  {
+    "page": "reports",
+    "gsap_loaded": true,
+    "transitions_runtime": 18,
+    "cyber_cards": 0,
+    "screenshot": "/Users/jinzhanxiang/Documents/tianbao-projects/screenshots/v3.7/reports.png",
+    "size_kb": 135.7,
+    "status": "ok"
+  },
+  {
+    "page": "timeline",
+    "gsap_loaded": true,
+    "transitions_runtime": 10,
+    "cyber_cards": 0,
+    "screenshot": "/Users/jinzhanxiang/Documents/tianbao-projects/screenshots/v3.7/timeline.png",
+    "size_kb": 151.6,
+    "status": "ok"
+  },
+  {
+    "page": "project",
+    "gsap_loaded": true,
+    "transitions_runtime": 6,
+    "cyber_cards": 0,
+    "screenshot": "/Users/jinzhanxiang/Documents/tianbao-projects/screenshots/v3.7/project.png",
+    "size_kb": 144.2,
+    "status": "ok"
+  },
+  {
+    "page": "kg",
+    "gsap_loaded": false,
+    "transitions_runtime": 17,
+    "cyber_cards": 0,
+    "screenshot": "/Users/jinzhanxiang/Documents/tianbao-projects/screenshots/v3.7/kg.png",
+    "size_kb": 176.9,
+    "status": "ok"
+  },
+  {
+    "page": "wiki-index",
+    "gsap_loaded": true,
+    "transitions_runtime": 47,
+    "cyber_cards": 0,
+    "screenshot": "/Users/jinzhanxiang/Documents/tianbao-projects/screenshots/v3.7/wiki-index.png",
+    "size_kb": 49.6,
+    "status": "ok"
+  }
+]

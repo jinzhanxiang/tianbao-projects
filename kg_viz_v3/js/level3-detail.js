@@ -38,14 +38,17 @@ const Level3Detail = (function() {
   };
 
   function getRelLabel(type) {
+    if (typeof type !== 'string') return '未知关系';
     return REL_LABELS[type] || type;
   }
 
   function getTypeLabel(type) {
+    if (typeof type !== 'string') return '未知类型';
     return TYPE_LABELS[type] || TYPE_LABELS[type.toUpperCase()] || type;
   }
 
   function getEntityColor(type) {
+    if (typeof type !== 'string') return '#95A5A6';
     return TYPE_COLORS[type] || TYPE_COLORS[type.toUpperCase()] || '#95A5A6';
   }
 
@@ -530,6 +533,7 @@ const Level3Detail = (function() {
     '#1ABC9C', '#E67E22', '#E91E63', '#00BCD4', '#FF9800',
   ];
   function getRelationColor(type) {
+    if (typeof type !== 'string') type = '未知关系';
     let hash = 0;
     for (let i = 0; i < type.length; i++) {
       hash = type.charCodeAt(i) + ((hash << 5) - hash);
