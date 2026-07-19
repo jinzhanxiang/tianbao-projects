@@ -127,8 +127,8 @@ function renderProject(p, data) {
       </div>
     </div>
     
-    <div class="section">
-      <div class="section-title">✦ 项目时间线</div>
+    <div class="section cyber-card cyber-card-glow">
+      <div <h2 class="cyber-title-sm">>✦ 项目时间线</div>
       <div class="timeline">
         ${timeline.map(t => `
           <div class="tl-item ${t.type}">
@@ -141,8 +141,8 @@ function renderProject(p, data) {
       </div>
     </div>
     
-    <div class="section">
-      <div class="section-title">✦ 关联报告</div>
+    <div class="section cyber-card cyber-card-glow">
+      <div <h2 class="cyber-title-sm">>✦ 关联报告</div>
       <div class="reports-grid">
         ${p.reports && p.reports.length ? p.reports.map(r => `
           <div class="report-card">
@@ -158,8 +158,8 @@ function renderProject(p, data) {
       </div>
     </div>
     
-    <div class="section">
-      <div class="section-title">✦ 本地文件</div>
+    <div class="section cyber-card cyber-card-glow">
+      <div <h2 class="cyber-title-sm">>✦ 本地文件</div>
       <div class="local-dir">
         ✦ 实体文件: <code>entities/${p.id}.md</code><br>
         ✦ 项目目录: <code>~/Documents/tianbao-projects/entities/${p.id}/</code>

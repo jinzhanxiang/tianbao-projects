@@ -65,16 +65,16 @@ h2{font-size:18px;font-weight:600;margin-bottom:16px;color:var(--text)}
 
 <div class="wrap">
   <section class="hero">
-    <h1>✦ 项目仪表盘</h1>
+    <h1 class="cyber-title">✦ 项目仪表盘</h1>
     <div class="stats">
-      <div class="stat"><b id="total-count">-</b><span>项目总数</span></div>
-      <div class="stat"><b id="deal-count">-</b><span>重大并购</span></div>
-      <div class="stat"><b id="np-count">-</b><span>储备项目</span></div>
-      <div class="stat"><b id="repo-count">-</b><span>独立仓库</span></div>
+      <div class="stat cyber-stat cyber-pulse"><b id="total-count">-</b><span>项目总数</span></div>
+      <div class="stat cyber-stat cyber-pulse"><b id="deal-count">-</b><span>重大并购</span></div>
+      <div class="stat cyber-stat cyber-pulse"><b id="np-count">-</b><span>储备项目</span></div>
+      <div class="stat cyber-stat cyber-pulse"><b id="repo-count">-</b><span>独立仓库</span></div>
     </div>
   </section>
   
-  <h2>✦ 重点项目</h2>
+  <h2 class="cyber-title-sm">✦ 重点项目</h2>
   <div id="projects-grid" class="grid">
     <div class="loading">✦ 加载中...</div>
   </div>
@@ -104,7 +104,7 @@ async function init() {
     
     const grid = document.getElementById('projects-grid');
     grid.innerHTML = data.projects.map(p => `
-      <div class="card">
+      <div class="card cyber-card cyber-card-glow">
         <div class="card-emoji">${p.emoji}</div>
         <div class="card-name">${p.name}</div>
         <div class="card-sub">${p.stage}</div>
