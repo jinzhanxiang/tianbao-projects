@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="assets/cyber-override.css">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:var(--cyber-font);background:var(--cyber-bg);color:var(--cyber-text);scroll-behavior:smooth;position:relative;z-index:0;padding-bottom:26px}
+body{font-family:var(--cyber-font);background:var(--cyber-bg);color:var(--cyber-text);position:relative;z-index:0;height:100vh;overflow:hidden;display:flex;flex-direction:column}
 body > *{position:relative;z-index:2}
 .header{background:linear-gradient(135deg,#0f0f2a,#050510);padding:20px 32px 14px;border-bottom:1px solid var(--cyber-border);position:relative}
 .header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--cyber-cyan),var(--cyber-purple),transparent);opacity:0.3}
@@ -23,7 +23,7 @@ body > *{position:relative;z-index:2}
 .stat-card .label{font-size:11px;color:var(--cyber-text3);margin-top:1px}
 .stat-card.warn .num{color:var(--cyber-red)}
 .macro-section{padding:6px 32px 12px;background:rgba(0,0,0,0.15)}
-.content{padding:14px 32px 32px;max-width:100%;background:rgba(0,0,0,0.1)}
+.content{padding:14px 32px 32px;max-width:100%;background:rgba(0,0,0,0.1);flex:1;overflow-y:auto;min-height:0}
 #searchBox{width:100%;padding:10px 14px;background:rgba(0,212,255,0.04);border:1px solid var(--cyber-border);border-radius:8px;color:var(--cyber-text);font-size:13px;margin-bottom:16px;outline:none}
 #searchBox:focus{border-color:var(--cyber-cyan);box-shadow:0 0 16px rgba(0,212,255,0.06)}
 .type-section{margin-bottom:16px;background:var(--cyber-card);border:1px solid var(--cyber-border);border-radius:var(--cyber-radius);padding:12px 14px}
