@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════════
-   cyber-override.css — 全站科幻化 CSS 覆盖层 v1.0
+   cyber-override.css — 全站科幻化 CSS 覆盖层 v2.0
    用法：在页面 <head> 中引入此文件，自动覆盖所有样式
    ═══════════════════════════════════════════════════════════════════ */
 
@@ -30,29 +30,47 @@
   --cyber-h2: 28px;
   --cyber-h3: 22px;
   --cyber-h4: 18px;
+  --cyber-card-radius: 12px;
+  --cyber-glow-cyan: 0 0 20px rgba(0,212,255,0.08);
+  --cyber-glow-purple: 0 0 20px rgba(167,139,250,0.08);
 }
 
 /* 字体基础 */
 html{font-size:16px}
-body{font-size:var(--cyber-body);line-height:1.6}
-h1{font-size:var(--cyber-h1);font-weight:700;line-height:1.3}
-h2{font-size:var(--cyber-h2);font-weight:600;line-height:1.3}
+body{font-size:var(--cyber-body);line-height:1.6;letter-spacing:0.02em}
+h1{font-size:var(--cyber-h1);font-weight:700;line-height:1.3;letter-spacing:0.01em}
+h2{font-size:var(--cyber-h2);font-weight:600;line-height:1.3;letter-spacing:0.01em}
 h3{font-size:var(--cyber-h3);font-weight:600;line-height:1.4}
 h4{font-size:var(--cyber-h4);font-weight:600;line-height:1.4}
 small,.small{font-size:14px}
 .xsmall{font-size:12px}
+p{margin-bottom:8px}
+a{color:var(--cyber-cyan);text-decoration:none;transition:color 0.3s}
+a:hover{color:var(--cyber-purple)}
 
-/* ─── 2. 背景网格 ─── */
+/* ─── 2. 背景网格 + 径向光晕 ─── */
 body::after {
   content: '';
   position: fixed;
   inset: 0;
   background-image:
-    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(0, 212, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.025) 1px, transparent 1px);
   background-size: 40px 40px;
   pointer-events: none;
   z-index: 0;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: -30%;
+  left: -10%;
+  width: 60%;
+  height: 60%;
+  background: radial-gradient(circle, rgba(0,212,255,0.03) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+  animation: cyber-ambient-glow 8s ease-in-out infinite alternate;
 }
 
 /* ─── 3. 通用组件 ─── */
@@ -108,7 +126,84 @@ body::after {
   transform: translateY(-1px);
 }
 
-/* 3c. 数据面板 */
+/* 3c. 科幻卡片 (enhanced) */
+.cyber-card {
+  background: var(--cyber-card);
+  border: 1px solid var(--cyber-border);
+  border-radius: var(--cyber-card-radius);
+  padding: 18px 20px;
+  backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.34,1.56,0.64,1);
+  cursor: default;
+}
+.cyber-card:hover {
+  border-color: var(--cyber-border-glow);
+  box-shadow: var(--cyber-glow-cyan);
+  transform: translateY(-2px);
+}
+/* 顶部发光装饰线 */
+.cyber-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cyber-cyan), var(--cyber-purple), transparent);
+  opacity: 0.4;
+  transition: opacity 0.4s;
+}
+.cyber-card:hover::before {
+  opacity: 0.8;
+}
+/* 脉冲环 hover 效果 */
+.cyber-card::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,212,255,0.06) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  transition: all 0.6s ease-out;
+  pointer-events: none;
+}
+.cyber-card:hover::after {
+  width: 300px;
+  height: 300px;
+}
+.cyber-card .card-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+  display: block;
+  animation: cyber-float 3s ease-in-out infinite;
+}
+.cyber-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--cyber-text);
+}
+.cyber-card p {
+  font-size: 14px;
+  color: var(--cyber-text2);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.cyber-card .card-meta {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--cyber-border);
+  font-size: 11px;
+  color: var(--cyber-text3);
+  font-family: var(--cyber-mono);
+}
+
+/* 3d. 数据面板 */
 .cyber-panel {
   background: var(--cyber-card);
   border: 1px solid var(--cyber-border);
@@ -134,7 +229,7 @@ body::after {
   opacity: 0.4;
 }
 
-/* 3d. 标题装饰 */
+/* 3e. 标题装饰 */
 .cyber-title {
   font-size: 13px;
   font-weight: 600;
@@ -154,30 +249,76 @@ body::after {
   background: linear-gradient(90deg, var(--cyber-border-glow), transparent);
 }
 
+/* 3f. 渐变文本 */
+.cyber-gradient-text {
+  background: linear-gradient(135deg, #fff, var(--cyber-cyan), var(--cyber-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% auto;
+  animation: cyber-shimmer 4s linear infinite;
+}
+
 /* ─── 4. 动画关键帧 ─── */
 @keyframes cyber-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
-@keyframes cyber-shimmer {
-  0% { background-position: -200% center; }
-  100% { background-position: 200% center; }
-}
+@keyframes cyber-pulse-glow { 0%, 100% { opacity: 0.4; box-shadow: 0 0 10px currentColor; } 50% { opacity: 0.8; box-shadow: 0 0 25px currentColor; } }
+@keyframes cyber-shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
 @keyframes cyber-glow {
-  0%, 100% { box-shadow: 0 0 5px rgba(0, 212, 255, 0.1); }
-  50% { box-shadow: 0 0 20px rgba(0, 212, 255, 0.2); }
+  0%, 100% { box-shadow: 0 0 5px rgba(0,212,255,0.1); }
+  50% { box-shadow: 0 0 20px rgba(0,212,255,0.2); }
 }
 @keyframes cyber-float {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-3px); }
+  50% { transform: translateY(-4px); }
 }
-@keyframes cyber-rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@keyframes cyber-rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes cyber-scale-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes cyber-slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes cyber-slide-in-right {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes cyber-border-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes cyber-ambient-glow {
+  from { opacity: 0.5; transform: translate(0, 0) scale(1); }
+  to { opacity: 0.8; transform: translate(30px, 20px) scale(1.1); }
+}
+@keyframes cyber-data-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.05); opacity: 1; }
+}
+@keyframes cyber-count-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes cyber-bar-grow {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+@keyframes cyber-donut-fill {
+  from { stroke-dasharray: 0 1000; }
+  to { stroke-dasharray: var(--pct) 1000; }
+}
+@keyframes cyber-ripple {
+  0% { box-shadow: 0 0 0 0 rgba(0,212,255,0.1); }
+  100% { box-shadow: 0 0 0 20px rgba(0,212,255,0); }
 }
 
 /* ─── 5. 暗色滚动条 ─── */
-::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: rgba(255,255,255,0.02); }
-::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.15); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(0,212,255,0.3); }
+::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.12); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,212,255,0.25); }
 
 /* ─── 6. 加载动画 ─── */
 .cyber-loader {
@@ -189,6 +330,16 @@ body::after {
   border-right-color: var(--cyber-purple);
   border-radius: 50%;
   animation: cyber-rotate 0.8s linear infinite;
+}
+.cyber-loader-ring {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(0,212,255,0.05);
+  border-top-color: var(--cyber-cyan);
+  border-bottom-color: var(--cyber-purple);
+  border-radius: 50%;
+  animation: cyber-rotate 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 
 /* ─── 7. 数据流动画 ─── */
@@ -239,36 +390,316 @@ body::after {
   border-radius: 50%;
   display: inline-block;
   margin-right: 5px;
-  animation: cyber-pulse 2s infinite;
+  animation: cyber-pulse-glow 2s infinite;
 }
-.cyber-statusbar .dot.green { background: var(--cyber-green); box-shadow: 0 0 4px var(--cyber-green); }
-.cyber-statusbar .dot.amber { background: var(--cyber-amber); box-shadow: 0 0 4px var(--cyber-amber); }
+.cyber-statusbar .dot.green { background: var(--cyber-green); color: var(--cyber-green); }
+.cyber-statusbar .dot.amber { background: var(--cyber-amber); color: var(--cyber-amber); }
 
 /* ─── 9. 视口适配布局（无页面滚动） ─── */
-.cyber-viewport {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
-}
-.cyber-viewport-header {
-  flex-shrink: 0;
-}
-.cyber-viewport-body {
-  flex: 1;
-  overflow-y: auto;
-  min-height: 0;
-}
+.cyber-viewport { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+.cyber-viewport-header { flex-shrink: 0; }
+.cyber-viewport-body { flex: 1; overflow-y: auto; min-height: 0; }
 .cyber-viewport-body::-webkit-scrollbar { width: 4px; }
 .cyber-viewport-body::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.12); border-radius: 2px; }
 .cyber-viewport-body::-webkit-scrollbar-track { background: transparent; }
 
 /* 内容块容器 */
-.cyber-scroll {
-  overflow-y: auto;
-  min-height: 0;
-  scrollbar-width: thin;
-}
+.cyber-scroll { overflow-y: auto; min-height: 0; scrollbar-width: thin; }
 .cyber-scroll::-webkit-scrollbar { width: 4px; }
 .cyber-scroll::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.12); border-radius: 2px; }
 .cyber-scroll::-webkit-scrollbar-track { background: transparent; }
+
+/* ─── 10. 统计卡片动画 ─── */
+.cyber-stat {
+  background: var(--cyber-card);
+  border: 1px solid var(--cyber-border);
+  border-radius: var(--cyber-card-radius);
+  padding: 14px 18px;
+  backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.34,1.56,0.64,1);
+  animation: cyber-scale-in 0.5s ease backwards;
+}
+.cyber-stat:nth-child(1) { animation-delay: 0.05s; }
+.cyber-stat:nth-child(2) { animation-delay: 0.1s; }
+.cyber-stat:nth-child(3) { animation-delay: 0.15s; }
+.cyber-stat:nth-child(4) { animation-delay: 0.2s; }
+.cyber-stat:nth-child(5) { animation-delay: 0.25s; }
+.cyber-stat:hover { border-color: var(--cyber-border-glow); box-shadow: var(--cyber-glow-cyan); transform: translateY(-2px); }
+.cyber-stat::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 3px; height: 100%;
+  background: linear-gradient(180deg, var(--cyber-cyan), var(--cyber-purple));
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+.cyber-stat:hover::before { opacity: 0.7; }
+.cyber-stat .num {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--cyber-cyan);
+  font-family: var(--cyber-mono);
+  animation: cyber-count-up 0.6s ease backwards;
+}
+.cyber-stat .label {
+  font-size: 12px;
+  color: var(--cyber-text3);
+  margin-top: 2px;
+  letter-spacing: 0.03em;
+}
+
+/* ─── 10b. 实体卡片增强 ─── */
+.entity-card {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: all 0.25s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  background: rgba(255,255,255,0.01);
+  animation: cyber-slide-up 0.3s ease backwards;
+  position: relative;
+  overflow: hidden;
+}
+.entity-card::after {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 2px;
+  background: var(--cyber-cyan);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.entity-card:hover {
+  background: rgba(0,212,255,0.04);
+  border-color: rgba(0,212,255,0.1);
+  transform: translateX(4px);
+  box-shadow: 0 0 16px rgba(0,212,255,0.04);
+}
+.entity-card:hover::after { opacity: 0.6; }
+.entity-card .dot {
+  width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0;
+  box-shadow: 0 0 6px currentColor;
+  animation: cyber-pulse-glow 3s infinite;
+}
+.entity-card .info a {
+  color: var(--cyber-text);
+  transition: color 0.3s;
+}
+.entity-card:hover .info a { color: var(--cyber-cyan); }
+.entity-card .badge {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: auto;
+  animation: cyber-pulse 4s infinite;
+}
+.entity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 6px;
+  animation: cyber-fade-grid 0.6s ease;
+}
+@keyframes cyber-fade-grid {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ─── 11. 实体卡片动画 ─── */
+.cyber-entity-card {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: all 0.25s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  background: rgba(255,255,255,0.01);
+  animation: cyber-slide-up 0.3s ease backwards;
+}
+.cyber-entity-card:hover {
+  background: rgba(0,212,255,0.04);
+  border-color: rgba(0,212,255,0.08);
+  transform: translateX(3px);
+  box-shadow: 0 0 12px rgba(0,212,255,0.03);
+}
+.cyber-entity-card .dot {
+  width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0;
+  box-shadow: 0 0 4px currentColor;
+  animation: cyber-pulse-glow 3s infinite;
+}
+
+/* ─── 12. 图表动画 ─── */
+.cyber-chart-bar {
+  animation: cyber-bar-grow 0.8s cubic-bezier(0.34,1.56,0.64,1) backwards;
+  transform-origin: bottom;
+}
+.cyber-chart-donut {
+  animation: cyber-donut-fill 1.5s ease-out backwards;
+}
+
+/* ─── 13. 导航栏科幻化 ─── */
+.cyber-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(5,5,15,0.85);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--cyber-border);
+  height: 52px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.cyber-nav .nav-inner {
+  max-width: 1200px; margin: 0 auto; width: 100%;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.cyber-nav .logo {
+  display: flex; align-items: center; gap: 8px;
+  font-weight: 700; font-size: 14px; color: var(--cyber-text);
+}
+.cyber-nav .logo-mark {
+  width: 30px; height: 30px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--cyber-cyan), var(--cyber-purple));
+  display: grid; place-items: center; font-size: 15px; font-weight: 800; color: #fff;
+  box-shadow: 0 0 12px rgba(0,212,255,0.15);
+}
+.cyber-nav .nav-links { display: flex; gap: 2px; }
+.cyber-nav .nav-links a {
+  padding: 7px 12px; border-radius: 6px;
+  color: var(--cyber-text2); font-size: 13px;
+  transition: all 0.3s; position: relative;
+}
+.cyber-nav .nav-links a:hover { color: var(--cyber-cyan); background: rgba(0,212,255,0.04); }
+.cyber-nav .nav-links a.active {
+  color: var(--cyber-cyan); background: rgba(0,212,255,0.08);
+  border: 1px solid rgba(0,212,255,0.12);
+}
+.cyber-nav .nav-links a::after {
+  content: ''; position: absolute; bottom: 0; left: 50%; width: 0; height: 1px;
+  background: var(--cyber-cyan); transition: all 0.3s; transform: translateX(-50%);
+}
+.cyber-nav .nav-links a:hover::after, .cyber-nav .nav-links a.active::after { width: 60%; }
+
+/* ─── 14. 搜索框科幻化 ─── */
+.cyber-search {
+  width: 100%;
+  padding: 10px 16px;
+  background: rgba(0,212,255,0.03);
+  border: 1px solid var(--cyber-border);
+  border-radius: 8px;
+  color: var(--cyber-text);
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s;
+  font-family: var(--cyber-font);
+}
+.cyber-search:focus {
+  border-color: var(--cyber-cyan);
+  background: rgba(0,212,255,0.05);
+  box-shadow: 0 0 20px rgba(0,212,255,0.06);
+}
+.cyber-search::placeholder { color: var(--cyber-text3); }
+
+/* ─── 15. 渐变边框动画卡片 ─── */
+.cyber-border-card {
+  background: var(--cyber-card);
+  border-radius: var(--cyber-card-radius);
+  padding: 18px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.cyber-border-card::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: calc(var(--cyber-card-radius) + 2px);
+  background: linear-gradient(135deg, var(--cyber-cyan), transparent, var(--cyber-purple), transparent);
+  background-size: 400% 400%;
+  animation: cyber-border-flow 8s ease infinite;
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: -1;
+}
+.cyber-border-card:hover::before { opacity: 0.3; }
+.cyber-border-card:hover { box-shadow: 0 0 30px rgba(0,212,255,0.06); }
+
+/* ─── 16. 图谱/可视化容器科幻增强 ─── */
+#macroGraph, #networkContainer, #network-graph, .network-container {
+  position: relative;
+  border: 1px solid var(--cyber-border);
+  border-radius: var(--cyber-card-radius);
+  background: rgba(5,5,15,0.6);
+  overflow: hidden;
+  animation: cyber-scale-in 0.6s ease backwards;
+}
+#macroGraph::before, #networkContainer::before, #network-graph::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyber-cyan), var(--cyber-purple), transparent);
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 10;
+  animation: cyber-shimmer 6s linear infinite;
+}
+.macro-legend, .graph-legend, .network-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(0,212,255,0.02);
+  border: 1px solid var(--cyber-border);
+  border-radius: 6px;
+  margin-top: 8px;
+}
+.l-item, .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--cyber-text2);
+  cursor: pointer;
+  transition: all 0.3s;
+  background: rgba(255,255,255,0.01);
+}
+.l-item:hover, .legend-item:hover {
+  background: rgba(0,212,255,0.06);
+  color: var(--cyber-cyan);
+  border-color: var(--cyber-border-glow);
+  transform: translateY(-1px);
+}
+.l-shape, .legend-icon {
+  font-size: 14px;
+  text-shadow: 0 0 6px currentColor;
+  animation: cyber-pulse-glow 3s infinite;
+}
+.l-count, .legend-count {
+  font-size: 10px;
+  color: var(--cyber-text3);
+  font-family: var(--cyber-mono);
+  background: rgba(0,212,255,0.08);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* Wiki dashboard 增强 */
+.bar-fill {
+  animation: cyber-bar-grow 0.8s cubic-bezier(0.34,1.56,0.64,1) backwards;
+  transform-origin: left center;
+}
+.ind-bar-fill {
+  animation: cyber-bar-grow 0.8s cubic-bezier(0.34,1.56,0.64,1) backwards;
+  transform-origin: left center;
+}
+.donut-svg circle {
+  animation: cyber-donut-fill 1.5s ease-out backwards;
+}
