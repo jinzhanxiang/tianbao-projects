@@ -2,9 +2,9 @@
  * level1-circular.js — Level 1: 行业全景图谱 v6 (持续引力 + 父子行业分组)
  *
  * v6 修复：
- * 1. 持续引力动画 — 物理引擎不停止，节点持续缓慢运动
+ * 1. 持续引力动画 — 物理引擎默认不停止，节点持续缓慢运动
  * 2. 父子行业分组 — 检测"电力设备/储能"等子行业，视觉区分
- * 3. 呼吸动画 — 稳定后保持微弱的波动效果
+ * 3. 高可见性引力 — 初始 300 次迭代后转入持续微动模式
  */
 const Level1Circular = (function() {
   'use strict';
@@ -14,9 +14,7 @@ const Level1Circular = (function() {
   let edges = null;
   let containerEl = null;
   let summaryData = null;
-  let physicsTimer = null;
 
-  // 行业名称→图标映射
   const IND_ICONS = {
     '半导体': '⚡', '人工智能': '🧠', '医药': '💊',
     '新能源电池行业': '🔋', '电力设备': '⚙️', '军工': '🎖️',
@@ -26,7 +24,6 @@ const Level1Circular = (function() {
     '电力': '💡', '金融': '💰',
   };
 
-  // 配色方案
   const IND_COLORS = [
     { bg: '#1a8cd8', border: '#1d9bf0' },
     { bg: '#2ecc71', border: '#27ae60' },
@@ -62,7 +59,7 @@ const Level1Circular = (function() {
     return IND_COLORS[index % IND_COLORS.length];
   }
 
-  // ── 检测父子行业关系（源数据中母子类别共存） ──
+  // ── 检测父子行业关系 ──
   function detectParentChildRelations(industries) {
     const relations = [];
     const names = industries.map(i => i.name);
@@ -76,37 +73,19 @@ const Level1Circular = (function() {
     return relations;
   }
 
-  // vis-network 配置（v6: 持续引力 — 不停止物理引擎）
+  // vis-network 配置（v6: 持续引力 — 默认不停止物理引擎）
   const NETWORK_OPTIONS = {
     nodes: {
-      font: {
-        size: 13,
-        color: '#e7e9ea',
-        face: 'FangSong, 仿宋, serif',
-        strokeWidth: 1,
-        strokeColor: '#0a0e1a',
-        align: 'center',
-      },
-      borderWidth: 2,
-      borderWidthSelected: 3,
-      shadow: {
-        enabled: true,
-        size: 8,
-        x: 0,
-        y: 0,
-        color: 'rgba(0,0,0,0.4)',
-      },
-      shape: 'dot',
-      size: 30,
-      margin: 6,
+      font: { size: 13, color: '#e7e9ea', face: 'FangSong, 仿宋, serif', strokeWidth: 1, strokeColor: '#0a0e1a', align: 'center' },
+      borderWidth: 2, borderWidthSelected: 3,
+      shadow: { enabled: true, size: 8, x: 0, y: 0, color: 'rgba(0,0,0,0.4)' },
+      shape: 'dot', size: 30, margin: 6,
     },
     edges: {
       smooth: { type: 'continuous', roundness: 0.2 },
       font: { size: 9, color: '#71767b', face: 'FangSong, 仿宋, serif' },
       color: { color: 'rgba(48, 68, 85, 0.6)', highlight: '#1d9bf0', hover: '#1d9bf0', opacity: 0.6 },
-      width: 1,
-      selectionWidth: 2,
-      hoverWidth: 1.5,
+      width: 1, selectionWidth: 2, hoverWidth: 1.5,
       arrows: { to: { enabled: true, scaleFactor: 0.5 } },
     },
     physics: {
@@ -119,38 +98,31 @@ const Level1Circular = (function() {
         damping: 0.5,
         avoidOverlap: 0.8,
       },
-      stabilization: {
-        iterations: 200,
-        updateInterval: 25,
-        fit: true,
-      },
+      stabilization: { iterations: 300, updateInterval: 25, fit: true },
       adaptiveTimestep: true,
+      // 稳定后不停止物理引擎
+      maxVelocity: 5,
+      minVelocity: 0.3,
     },
     interaction: {
-      hover: true,
-      tooltipDelay: 150,
-      navigationButtons: true,
-      keyboard: true,
-      zoomView: true,
-      dragView: true,
-      hoverConnectedEdges: true,
+      hover: true, tooltipDelay: 150, navigationButtons: true,
+      keyboard: true, zoomView: true, dragView: true, hoverConnectedEdges: true,
     },
     layout: { randomSeed: 42, improvedLayout: true },
     groups: {
       industry: { shape: 'dot', size: 35, borderWidth: 2 },
-      'industry-child': { shape: 'dot', size: 28, borderWidth: 1, borderDashes: [3, 3] },
+      'industry-child': { shape: 'dot', size: 28, borderWidth: 1 },
       center: { shape: 'star', size: 50, borderWidth: 3, font: { size: 16, color: '#1d9bf0', face: 'FangSong, 仿宋, serif', bold: true } },
     },
   };
 
-  // 构建行业节点数据（v6: 父子行业检测 + 子行业虚线边框）
+  // 构建行业节点数据
   function buildIndustryData(summary) {
     const industryNodes = [];
     const industryEdges = [];
     const totalEntities = summary.industries.reduce((s, i) => s + i.count, 0);
     const maxCount = Math.max(...summary.industries.map(i => i.count));
 
-    // 检测父子行业关系
     const parentChildRels = detectParentChildRelations(summary.industries);
     const childNames = new Set();
     parentChildRels.forEach(r => r.children.forEach(c => childNames.add(c)));
@@ -160,18 +132,10 @@ const Level1Circular = (function() {
       id: 'center',
       label: `知识图谱\n${totalEntities.toLocaleString()} 实体`,
       title: `知识图谱全景\n总行业数: ${summary.industries.length}\n总实体数: ${totalEntities.toLocaleString()}`,
-      group: 'center',
-      shape: 'star',
-      size: 50,
-      color: {
-        background: 'rgba(29, 155, 240, 0.3)',
-        border: '#1d9bf0',
-        highlight: { background: 'rgba(29, 155, 240, 0.5)', border: '#fff' },
-      },
+      group: 'center', shape: 'star', size: 50,
+      color: { background: 'rgba(29, 155, 240, 0.3)', border: '#1d9bf0', highlight: { background: 'rgba(29, 155, 240, 0.5)', border: '#fff' } },
       font: { size: 16, color: '#1d9bf0', face: 'FangSong, 仿宋, serif', strokeWidth: 2, strokeColor: '#0a0e1a' },
-      fixed: false,
-      level: 0,
-      type: 'center',
+      fixed: false, level: 0, type: 'center',
     });
 
     // 行业节点
@@ -187,14 +151,10 @@ const Level1Circular = (function() {
       const label = icon ? `${icon} ${ind.name}` : ind.name;
       const isChild = childNames.has(ind.name);
 
-      // 子行业：查找父行业名称
       let parentName = '';
       if (isChild) {
         for (const rel of parentChildRels) {
-          if (rel.children.includes(ind.name)) {
-            parentName = rel.parent;
-            break;
-          }
+          if (rel.children.includes(ind.name)) { parentName = rel.parent; break; }
         }
       }
 
@@ -207,49 +167,27 @@ const Level1Circular = (function() {
         label: `${label}\n${ind.count}`,
         title: tooltip,
         group: isChild ? 'industry-child' : 'industry',
-        shape: 'dot',
-        size: size,
+        shape: 'dot', size: size,
         color: {
           background: color.bg,
           border: isChild ? 'rgba(255,255,255,0.3)' : color.border,
           highlight: { background: color.bg, border: '#fff' },
           hover: { background: color.bg, border: '#fff' },
         },
-        font: {
-          size: isChild ? 11 : 12,
-          color: isChild ? '#9aa0a6' : '#e7e9ea',
-          face: 'FangSong, 仿宋, serif',
-          strokeWidth: 1,
-          strokeColor: '#0a0e1a',
-        },
-        borderDashes: isChild ? [3, 3] : false,
-        level: 0,
-        type: 'industry',
-        isChild: isChild,
-        parentName: parentName,
-        name: ind.name,
-        count: ind.count,
-        index: ind.index,
-        relationCount: ind.relation_count || 0,
+        font: { size: isChild ? 11 : 12, color: isChild ? '#9aa0a6' : '#e7e9ea', face: 'FangSong, 仿宋, serif', strokeWidth: 1, strokeColor: '#0a0e1a' },
+        level: 0, type: 'industry', isChild, parentName,
+        name: ind.name, count: ind.count, index: ind.index, relationCount: ind.relation_count || 0,
       });
     });
 
-    // 边：每个行业连接到中心节点
+    // 边：连接到中心
     industryNodes.forEach(n => {
       if (n.type === 'center') return;
-      const isChild = n.isChild;
       industryEdges.push({
-        from: 'center',
-        to: n.id,
-        color: {
-          color: isChild ? 'rgba(48, 68, 85, 0.2)' : 'rgba(48, 68, 85, 0.4)',
-          highlight: '#1d9bf0',
-          opacity: isChild ? 0.2 : 0.4,
-        },
-        width: isChild ? 0.5 : 0.8,
-        dashes: isChild ? [5, 5] : [3, 3],
-        smooth: { type: 'straight' },
-        arrows: { to: { enabled: false } },
+        from: 'center', to: n.id,
+        color: { color: n.isChild ? 'rgba(48, 68, 85, 0.2)' : 'rgba(48, 68, 85, 0.4)', highlight: '#1d9bf0', opacity: n.isChild ? 0.2 : 0.4 },
+        width: n.isChild ? 0.5 : 0.8, dashes: n.isChild ? [5, 5] : [3, 3],
+        smooth: { type: 'straight' }, arrows: { to: { enabled: false } },
       });
     });
 
@@ -260,11 +198,9 @@ const Level1Circular = (function() {
         const parentNode = industryNodes.find(n => n.id === `ind_${rel.parent}`);
         if (childNode && parentNode) {
           industryEdges.push({
-            from: `ind_${rel.parent}`,
-            to: `ind_${childName}`,
+            from: `ind_${rel.parent}`, to: `ind_${childName}`,
             color: { color: 'rgba(100, 180, 255, 0.15)', opacity: 0.15 },
-            width: 0.4,
-            dashes: [2, 4],
+            width: 0.4, dashes: [2, 4],
             smooth: { type: 'curvedCCW', roundness: 0.1 },
             arrows: { to: { enabled: false } },
           });
@@ -288,59 +224,49 @@ const Level1Circular = (function() {
 
     network = new vis.Network(containerEl, { nodes, edges }, NETWORK_OPTIONS);
 
-    // 稳定后：居中 + 保持持续引力（v6）
+    // 稳定后居中 → 保持持续引力不停止
     network.once('stabilizationIterationsDone', function() {
-      network.fit({
-        animation: { duration: 500, easingFunction: 'easeInOutQuad' },
-      });
+      network.fit({ animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
 
-      // 持续引力：保持物理引擎低强度运行，产生微弱的"呼吸"效果
+      // 切换到持续微动模式（不停止物理引擎）
       setTimeout(() => {
         if (network) {
-          // 启动物理引擎持续微动
           network.setOptions({
             physics: {
               solver: 'forceAtlas2Based',
               forceAtlas2Based: {
-                gravitationalConstant: -40,   // 减弱引力
-                centralGravity: 0.002,
+                gravitationalConstant: -60,
+                centralGravity: 0.003,
                 springLength: 250,
-                springConstant: 0.008,
-                damping: 0.8,                // 高阻尼防止大幅晃动
+                springConstant: 0.01,
+                damping: 0.7,
                 avoidOverlap: 0.5,
               },
-              stabilization: false,           // 不停止
+              stabilization: false,
               adaptiveTimestep: true,
-              maxVelocity: 3,                 // 限制最大速度
-              minVelocity: 0.1,               // 保持最小速度
-              smoothInterpolation: false,
+              maxVelocity: 8,
+              minVelocity: 0.5,
             },
           });
         }
-      }, 1000);
+      }, 500);
     });
 
     // 点击事件 → Level 2
     network.on('click', function(params) {
       if (params.nodes.length > 0) {
-        const nodeId = params.nodes[0];
-        const node = nodes.get(nodeId);
+        const node = nodes.get(params.nodes[0]);
         if (node && node.type === 'industry') {
-          if (window.onEnterLevel2) {
-            window.onEnterLevel2(node.name, node.count);
-          }
+          if (window.onEnterLevel2) window.onEnterLevel2(node.name, node.count);
         }
       }
     });
 
-    // 双击展开
     network.on('doubleClick', function(params) {
       if (params.nodes.length > 0) {
         const node = nodes.get(params.nodes[0]);
         if (node && node.type === 'industry') {
-          if (window.onEnterLevel2) {
-            window.onEnterLevel2(node.name, node.count);
-          }
+          if (window.onEnterLevel2) window.onEnterLevel2(node.name, node.count);
         }
       }
     });
@@ -348,24 +274,16 @@ const Level1Circular = (function() {
     // 悬停高亮
     network.on('hoverNode', function(params) {
       const connected = network.getConnectedNodes(params.node);
-      if (connected.length > 0) {
-        network.selectNodes([params.node, ...connected], false);
-      }
+      if (connected.length > 0) network.selectNodes([params.node, ...connected], false);
     });
+    network.on('blurNode', function() { network.unselectAll(); });
 
-    network.on('blurNode', function() {
-      network.unselectAll();
-    });
-
-    // 窗口自适应
-    window.addEventListener('resize', () => {
-      network.fit({ animation: { duration: 300 } });
-    });
+    window.addEventListener('resize', () => { network.fit({ animation: { duration: 300 } }); });
 
     return network;
   }
 
-  // 重启物理引擎（手动触发引力效果）
+  // 重启物理引擎（完整引力爆发）
   function restartPhysics() {
     if (!network) return;
     network.setOptions({
@@ -383,7 +301,6 @@ const Level1Circular = (function() {
         adaptiveTimestep: true,
       },
     });
-    // 稳定后恢复持续微动
     network.once('stabilizationIterationsDone', function() {
       setTimeout(() => {
         if (network) {
@@ -391,17 +308,17 @@ const Level1Circular = (function() {
             physics: {
               solver: 'forceAtlas2Based',
               forceAtlas2Based: {
-                gravitationalConstant: -40,
-                centralGravity: 0.002,
+                gravitationalConstant: -60,
+                centralGravity: 0.003,
                 springLength: 250,
-                springConstant: 0.008,
-                damping: 0.8,
+                springConstant: 0.01,
+                damping: 0.7,
                 avoidOverlap: 0.5,
               },
               stabilization: false,
               adaptiveTimestep: true,
-              maxVelocity: 3,
-              minVelocity: 0.1,
+              maxVelocity: 8,
+              minVelocity: 0.5,
             },
           });
         }
@@ -412,10 +329,7 @@ const Level1Circular = (function() {
   function focusOnIndustry(industryName) {
     const nodeId = `ind_${industryName}`;
     if (nodes && nodes.get(nodeId)) {
-      network.focus(nodeId, {
-        scale: 2.0,
-        animation: { duration: 500, easingFunction: 'easeInOutQuad' },
-      });
+      network.focus(nodeId, { scale: 2.0, animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
     }
   }
 
@@ -426,33 +340,16 @@ const Level1Circular = (function() {
   }
 
   function getNetwork() { return network; }
-
   function getSelectedIndustry() {
     if (!network) return null;
     const selected = network.getSelection().nodes;
-    if (selected.length > 0) {
-      return nodes.get(selected[0]);
-    }
+    if (selected.length > 0) return nodes.get(selected[0]);
     return null;
   }
-
   function destroy() {
-    if (network) {
-      network.destroy();
-      network = null;
-    }
-    nodes = null;
-    edges = null;
-    containerEl = null;
+    if (network) { network.destroy(); network = null; }
+    nodes = null; edges = null; containerEl = null;
   }
 
-  return {
-    init,
-    focusOnIndustry,
-    getNetwork,
-    getSelectedIndustry,
-    updateStatus,
-    restartPhysics,
-    destroy,
-  };
+  return { init, focusOnIndustry, getNetwork, getSelectedIndustry, updateStatus, restartPhysics, destroy };
 })();

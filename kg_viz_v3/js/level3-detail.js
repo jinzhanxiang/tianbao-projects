@@ -115,18 +115,38 @@ const Level3Detail = (function() {
   }
 
   async function fetchWikiEntityData(name, callback) {
-    try {
-      const resp = await fetch(`../entities/${safeFilename(name)}.json`);
-      if (resp.ok) {
-        const data = await resp.json();
-        callback(data);
-      } else {
-        callback(null);
+    // 先从当前行业数据中查找实体详情
+    const indData = window._currentIndustryData;
+    if (indData && indData.entities) {
+      const entity = indData.entities.find(e => e.name === name || e.label === name);
+      if (entity) {
+        // 构建完整的实体详情
+        const relations = indData.relations ? indData.relations.filter(r => r.from === entity.id || r.to === entity.id) : [];
+        const frameworks = indData.frameworks || [];
+        const logics = indData.logics || [];
+        const indicators = indData.indicators || [];
+        callback({
+          name: entity.name,
+          type: entity.type,
+          description: entity.desc || '',
+          industry: entity.industry || indData.name || '',
+          is_core: entity.is_core,
+          stock_code: entity.stock || '',
+          relations: relations.map(r => ({
+            relation_type: r.type,
+            direction: r.from === entity.id ? 'out' : 'in',
+            target: r.from === entity.id ? r.to_name : r.from_name,
+            source: r.from === entity.id ? r.from_name : r.to_name,
+            description: '',
+          })),
+          indicators: indicators.slice(0, 20),
+          logic_chains: logics.slice(0, 10),
+          reports: [],
+        });
+        return;
       }
-    } catch(e) {
-      console.error('Failed to load wiki data:', e);
-      callback(null);
     }
+    callback(null);
   }
 
   function buildFullEntityDetail(d) {

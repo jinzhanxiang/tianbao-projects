@@ -193,6 +193,74 @@
     });
   }
 
+  // ── 行业Wiki摘要（右侧面板） ──
+  function showIndustryWikiSummary(name, indData) {
+    const bodyEl = document.getElementById('detail-body');
+    const titleEl = document.getElementById('detail-title');
+    const panel = document.getElementById('detail-panel');
+    if (!bodyEl || !titleEl || !panel) return;
+
+    titleEl.textContent = `🏭 ${name} · 行业概览`;
+    titleEl.style.color = '#1d9bf0';
+    panel.classList.remove('hidden');
+
+    const entities = indData.entities || [];
+    const relations = indData.relations || [];
+    const frameworks = indData.frameworks || [];
+    const logics = indData.logics || [];
+    const indicators = indData.indicators || [];
+    const counts = indData.counts || {};
+    const entityTypes = {};
+    entities.forEach(e => {
+      const t = e.type || 'UNKNOWN';
+      entityTypes[t] = (entityTypes[t] || 0) + 1;
+    });
+    const typeEntries = Object.entries(entityTypes).sort((a,b) => b[1]-a[1]);
+
+    const relTypes = {};
+    relations.forEach(r => {
+      relTypes[r.type] = (relTypes[r.type] || 0) + 1;
+    });
+    const relEntries = Object.entries(relTypes).sort((a,b) => b[1]-a[1]);
+
+    // 核心实体
+    const coreEntities = entities.filter(e => e.is_core).slice(0, 15);
+
+    bodyEl.innerHTML = `
+      <div class="detail-card">
+        <h5>📊 数据概览</h5>
+        <div class="attr-row"><span class="attr-key">实体</span><span class="attr-val">${counts.entity_count || entities.length}</span></div>
+        <div class="attr-row"><span class="attr-key">关系</span><span class="attr-val">${counts.relation_count || relations.length}</span></div>
+        <div class="attr-row"><span class="attr-key">研究框架</span><span class="attr-val" style="color:#F39C12">${counts.framework_count || frameworks.length}</span></div>
+        <div class="attr-row"><span class="attr-key">逻辑链</span><span class="attr-val" style="color:#9B59B6">${counts.logic_count || logics.length}</span></div>
+        <div class="attr-row"><span class="attr-key">指标</span><span class="attr-val" style="color:#2ECC71">${counts.indicator_count || indicators.length}</span></div>
+      </div>
+      <div class="detail-card">
+        <h5>🔖 实体类型分布</h5>
+        ${typeEntries.slice(0, 8).map(([t, c]) => {
+          const colors = {ORG:'#4A90D9',PERSON:'#50C878',PRODUCT:'#FFB347',TECH:'#FF6B6B',INDUSTRY:'#FFD700',POLICY:'#FF8C42',PLACE:'#48C9B0',UNKNOWN:'#95A5A6'};
+          const labels = {ORG:'组织',PERSON:'人物',PRODUCT:'产品',TECH:'技术',INDUSTRY:'行业',POLICY:'政策',PLACE:'地点',UNKNOWN:'未知'};
+          return `<div class="attr-row"><span class="attr-key" style="color:${colors[t]||'#95A5A6'}">${labels[t]||t}</span><span class="attr-val">${c}</span></div>`;
+        }).join('')}
+      </div>
+      <div class="detail-card">
+        <h5>🔗 主要关系类型</h5>
+        ${relEntries.slice(0, 8).map(([t, c]) => {
+          return `<div class="attr-row"><span class="attr-key">${t}</span><span class="attr-val">${c}</span></div>`;
+        }).join('')}
+      </div>
+      ${coreEntities.length > 0 ? `
+      <div class="detail-card">
+        <h5>⭐ 核心实体</h5>
+        ${coreEntities.map(e => `<div class="attr-row"><span class="attr-key" style="color:#FFD700">${e.name || e.label}</span><span class="attr-val" style="font-size:11px;color:#71767b">${(e.type||'')}</span></div>`).join('')}
+        ${entities.filter(e => e.is_core).length > 15 ? `<div style="font-size:11px;color:#71767b;padding:4px 0">… 还有 ${entities.filter(e=>e.is_core).length - 15} 个核心实体</div>` : ''}
+      </div>` : ''}
+      <div class="detail-card" style="text-align:center;padding:12px">
+        <span style="font-size:12px;color:#71767b">点击图谱中的节点查看详细实体信息</span>
+      </div>
+    `;
+  }
+
   // ── 导航 ──
   async function navigateTo(level, name) {
     breadcrumbPath = breadcrumbPath.slice(0, level - 1);
@@ -212,6 +280,10 @@
       updateBreadcrumb();
 
     } else if (level === 2) {
+      // 淡出过渡（防止闪白）
+      const overlay = document.getElementById('level-transition-overlay');
+      if (overlay) { overlay.style.opacity = '1'; overlay.style.pointerEvents = 'auto'; }
+
       showLoading(`加载 ${name} ...`);
       try {
         const indData = await loadIndustryData(name);
@@ -226,6 +298,10 @@
           if (els.loadingText) els.loadingText.textContent = msg;
         });
         hideLoading();
+
+        // 淡入恢复
+        if (overlay) { overlay.style.opacity = '0'; setTimeout(() => { overlay.style.pointerEvents = 'none'; }, 300); }
+
         currentLevel = 2;
         setLevelBadge(2, `Level 2 · ${name}`);
         if (breadcrumbPath.length === 0) {
@@ -240,8 +316,12 @@
         document.querySelectorAll('.industry-nav-item').forEach(item => {
           item.classList.toggle('active', item.dataset.industry === name);
         });
+
+        // 在右侧面板显示行业Wiki摘要
+        showIndustryWikiSummary(name, indData);
       } catch(err) {
         hideLoading();
+        if (overlay) { overlay.style.opacity = '0'; setTimeout(() => { overlay.style.pointerEvents = 'none'; }, 300); }
         console.error('行业数据加载失败:', err);
         setStatus('错误', err.message);
         alert('行业数据加载失败: ' + err.message);

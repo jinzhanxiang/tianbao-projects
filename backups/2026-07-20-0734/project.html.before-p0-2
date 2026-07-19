@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>✦ 项目详情 · 天保控股</title>
+<script src="assets/particles.js"></script>
+<link rel="stylesheet" href="assets/cyber-override.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100vh;overflow:hidden;display:flex;flex-direction:column;font-family:var(--cyber-font);background:var(--cyber-bg);color:var(--cyber-text);position:relative;z-index:0}
+body::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;
+  background:radial-gradient(ellipse at 20% 0%,rgba(0,212,255,0.03) 0%,transparent 50%),
+             radial-gradient(ellipse at 80% 100%,rgba(167,139,250,0.02) 0%,transparent 50%);
+  pointer-events:none;z-index:0}
+a{text-decoration:none;color:inherit}
+
+/* Header */
+.proj-header{display:flex;align-items:center;gap:16px;margin-bottom:24px}
+.proj-emoji{font-size:48px}
+.proj-title{font-size:28px;font-weight:800;color:var(--text);background:linear-gradient(90deg,var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.proj-meta{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
+.proj-badge{padding:4px 14px;border-radius:999px;font-size:12px;font-weight:600;background:var(--bg-card);border:1px solid var(--border);color:var(--text-2)}
+.proj-badge.deal{background:rgba(239,68,68,0.15);color:var(--red);border-color:rgba(239,68,68,0.2)}
+.proj-badge.np{background:rgba(52,211,153,0.15);color:var(--green);border-color:rgba(52,211,153,0.2)}
+.proj-badge.listed{background:rgba(74,122,255,0.15);color:var(--blue);border-color:rgba(74,122,255,0.2)}
+
+/* Sections */
+.section{margin-bottom:24px;background:var(--bg-card);border-radius:14px;padding:20px 24px;border:1px solid var(--border);backdrop-filter:blur(10px)}
+.section-title{font-size:17px;font-weight:700;margin-bottom:16px;color:var(--text);display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--border);padding-bottom:10px}
+
+/* Timeline */
+.timeline{max-width:700px;margin:0 auto}
+.tl-item{position:relative;padding-left:36px;padding-bottom:24px;border-left:2px solid rgba(0,212,255,0.15)}
+.tl-item::before{content:"";position:absolute;left:-7px;top:0;width:12px;height:12px;border-radius:50%;background:var(--cyan);border:2px solid var(--cyber-bg);box-shadow:0 0 8px rgba(0,212,255,0.3)}
+.tl-item.main::before{background:var(--purple);box-shadow:0 0 8px rgba(167,139,250,0.3)}
+.tl-item.done::before{background:var(--green);box-shadow:0 0 8px rgba(52,211,153,0.3)}
+.tl-date{font-size:12px;color:var(--text-3);margin-bottom:4px}
+.tl-title{font-size:15px;font-weight:600;margin-bottom:4px;color:var(--text)}
+.tl-desc{font-size:13px;color:var(--text-2)}
+.tl-doc{display:inline-block;margin-top:8px;padding:4px 12px;background:rgba(0,212,255,0.1);color:var(--cyan);border-radius:6px;font-size:12px;border:1px solid rgba(0,212,255,0.1)}
+.tl-doc:hover{background:rgba(0,212,255,0.2);box-shadow:0 0 12px rgba(0,212,255,0.1)}
+
+/* Reports */
+.reports-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.report-card{background:rgba(0,212,255,0.03);border-radius:10px;padding:16px;border:1px solid var(--border);transition:all 0.3s}
+.report-card:hover{border-color:var(--border-glow);transform:translateY(-2px);box-shadow:var(--shadow-glow)}
+.report-card h4{font-size:14px;margin-bottom:8px;color:var(--text);font-weight:600}
+.report-card a{color:var(--cyan);font-size:13px;padding:3px 8px;border-radius:4px;border:1px solid rgba(0,212,255,0.1)}
+.report-card a:hover{background:rgba(0,212,255,0.1)}
+
+/* Local */
+.local-dir{background:var(--bg-card);border-radius:10px;padding:14px 18px;font-size:13px;color:var(--text-2);border:1px solid var(--border)}
+.local-dir code{background:rgba(0,0,0,0.3);padding:2px 8px;border-radius:4px;font-size:12px;color:var(--cyan)}
+
+.loading{text-align:center;padding:60px;color:var(--text-2);font-family:var(--font-mono);font-size:13px}
+.error{text-align:center;padding:60px;color:var(--red);font-family:var(--font-mono);font-size:13px}
+.main{max-width:1000px;margin:0 auto;padding:32px 24px;position:relative;z-index:2;flex:1;overflow-y:auto;min-height:0;width:100%}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">✦</span>天保控股 · 项目中心</a>
+    <div class="nav-links">
+      <a href="index.html">✦ 首页</a>
+      <a href="dashboard.html">✦ 仪表盘</a>
+      <a href="projects.html">✦ 项目</a>
+      <a href="reports.html">✦ 报告库</a>
+    </div>
+  </div>
+</nav>
+
+<div class="main">
+  <div id="content"><div class="loading">✦ 加载中...</div></div>
+</div>
+
+<div class="cyber-statusbar">
+  <span><span class="dot green"></span>✦ 项目详情 · 系统在线</span>
+  <span>✦ 单项目详情视图</span>
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const projectId = params.get('id');
+
+async function init() {
+  if (!projectId) {
+    document.getElementById('content').innerHTML = '<div class="error">✦ 缺少项目ID ?id=xxx</div>';
+    return;
+  }
+  try {
+    const resp = await fetch('data/projects.json');
+    const data = await resp.json();
+    const proj = data.projects.find(p => p.id === projectId);
+    if (!proj) {
+      document.getElementById('content').innerHTML = '<div class="error">✦ 项目不存在: ' + projectId + '</div>';
+      return;
+    }
+    renderProject(proj, data);
+  } catch(e) {
+    document.getElementById('content').innerHTML = '<div class="error">✦ 加载失败: ' + e.message + '</div>';
+  }
+}
+
+function renderProject(p, data) {
+  const timeline = [
+    {date:'2026-07-01',title:'立项启动',desc:'项目进入立项阶段',type:'main'},
+    {date:'2026-07-10',title:'尽职调查',desc:'开展财务/法律尽调',type:'on'},
+    {date:p.last_updated || '2026-07-19',title:'当前状态',desc:p.status,type:p.category==='deal'?'main':'on'}
+  ];
+  
+  const repo = data.external_repos.find(r => 
+    p.name.includes(r.name) || r.name.includes(p.name)
+  );
+  
+  let html = `
+    <div class="proj-header">
+      <span class="proj-emoji">${p.emoji}</span>
+      <div>
+        <div class="proj-title">${p.name}</div>
+        <div class="proj-meta">
+          <span class="proj-badge ${p.category}">${p.category==='deal'?'重大并购':p.category==='np'?'非上市储备':'上市相关'}</span>
+          <span class="proj-badge">${p.stage}</span>
+          <span class="proj-badge">${p.status}</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">✦ 项目时间线</div>
+      <div class="timeline">
+        ${timeline.map(t => `
+          <div class="tl-item ${t.type}">
+            <div class="tl-date">${t.date}</div>
+            <div class="tl-title">${t.title}</div>
+            <div class="tl-desc">${t.desc}</div>
+            ${t.type==='on'?'<span class="tl-doc">✦ 查看报告</span>':''}
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">✦ 关联报告</div>
+      <div class="reports-grid">
+        ${p.reports && p.reports.length ? p.reports.map(r => `
+          <div class="report-card">
+            <h4>${r.title}</h4>
+            <a href="${r.url}" target="_blank">✦ 打开报告 →</a>
+          </div>
+        `).join('') : ''}
+        ${repo ? `
+        <div class="report-card">
+          <h4>${repo.name}</h4>
+          <a href="${repo.url}" target="_blank">✦ 访问仓库 →</a>
+        </div>` : ''}
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">✦ 本地文件</div>
+      <div class="local-dir">
+        ✦ 实体文件: <code>entities/${p.id}.md</code><br>
+        ✦ 项目目录: <code>~/Documents/tianbao-projects/entities/${p.id}/</code>
+      </div>
+    </div>
+  `;
+  
+  document.getElementById('content').innerHTML = html;
+}
+
+init();
+</script>
+</body>
+</html>
