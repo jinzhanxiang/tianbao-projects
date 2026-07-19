@@ -1,9 +1,11 @@
 /* ═══════════════════════════════════════════════════════════════════
-   cyber-override.css — 全站科幻化 CSS 覆盖层 v2.0
+   cyber-override.css — 全站科幻化 CSS 覆盖层 v3.0
+   设计灵感：Cyberpunk 2077 HUD + Glassmorphism + Neon glow
+   核心特性：玻璃态卡片、旋转渐变边框、霓虹发光、栅格背景、HUD扫描线
    用法：在页面 <head> 中引入此文件，自动覆盖所有样式
    ═══════════════════════════════════════════════════════════════════ */
 
-/* ─── 1. 全局变量 & 基础 ─── */
+/* ─── 1. 全局变量 ─── */
 :root {
   --cyber-bg: #05050f;
   --cyber-bg2: #0a0a1a;
@@ -35,7 +37,7 @@
   --cyber-glow-purple: 0 0 20px rgba(167,139,250,0.08);
 }
 
-/* 字体基础 */
+/* ─── 2. 字体基础 ─── */
 html{font-size:16px}
 body{font-size:var(--cyber-body);line-height:1.6;letter-spacing:0.02em}
 h1{font-size:var(--cyber-h1);font-weight:700;line-height:1.3;letter-spacing:0.01em}
@@ -48,374 +50,251 @@ p{margin-bottom:8px}
 a{color:var(--cyber-cyan);text-decoration:none;transition:color 0.3s}
 a:hover{color:var(--cyber-purple)}
 
-/* ─── 2. 背景网格 + 径向光晕 ─── */
-body::after {
+/* ─── 3. 全局背景与扫描线 ─── */
+body {
+  font-family: var(--cyber-font) !important;
+  background: var(--cyber-bg) !important;
+  color: var(--cyber-text) !important;
+  position: relative;
+  z-index: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+body > * { position: relative; z-index: 2; }
+
+/* 栅格电路背景 */
+body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background-image:
-    linear-gradient(rgba(0, 212, 255, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 212, 255, 0.025) 1px, transparent 1px);
+  background:
+    linear-gradient(rgba(0,212,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,212,255,0.02) 1px, transparent 1px);
   background-size: 40px 40px;
   pointer-events: none;
   z-index: 0;
 }
-body::before {
+
+/* 扫描线 — HUD 风格 */
+body::after {
   content: '';
   position: fixed;
-  top: -30%;
-  left: -10%;
-  width: 60%;
-  height: 60%;
-  background: radial-gradient(circle, rgba(0,212,255,0.03) 0%, transparent 70%);
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,212,255,0.015) 2px,
+    rgba(0,212,255,0.015) 4px
+  );
   pointer-events: none;
-  z-index: 0;
-  animation: cyber-ambient-glow 8s ease-in-out infinite alternate;
+  z-index: 1;
+  animation: cyber-scanline 8s linear infinite;
+}
+@keyframes cyber-scanline {
+  from { transform: translateY(0); }
+  to { transform: translateY(4px); }
 }
 
-/* ─── 3. 通用组件 ─── */
+/* ─── 4. 网格背景叠加（可选，用于卡片/面板）─── */
+.cyber-grid-bg {
+  position: relative;
+}
+.cyber-grid-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(167,139,250,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(167,139,250,0.03) 1px, transparent 1px);
+  background-size: 30px 30px;
+  pointer-events: none;
+  z-index: 0;
+}
 
-/* 3a. 霓虹状态徽章 */
+/* ─── 5. 视口布局 ─── */
+.cyber-viewport {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── 6. 霓虹发光标题 ─── */
+.cyber-title {
+  font-size: var(--cyber-h1);
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--cyber-cyan), var(--cyber-purple), var(--cyber-cyan));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: cyber-gradient-shift 4s ease infinite;
+  text-shadow: 0 0 40px rgba(0,212,255,0.15), 0 0 80px rgba(167,139,250,0.1);
+  letter-spacing: 0.02em;
+}
+.cyber-title-sm {
+  font-size: var(--cyber-h2);
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--cyber-cyan), var(--cyber-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+@keyframes cyber-gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* ─── 7. 玻璃态卡片 v3.0 ─── */
+.cyber-card {
+  background: var(--cyber-card);
+  backdrop-filter: blur(16px) saturate(1.2);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  border: 1px solid var(--cyber-border);
+  border-radius: var(--cyber-card-radius);
+  padding: 20px;
+  transition: all 0.4s cubic-bezier(0.34,1.56,0.64,1);
+  position: relative;
+  overflow: hidden;
+}
+.cyber-card::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: var(--cyber-card-radius);
+  padding: 1px;
+  background: conic-gradient(
+    from 0deg,
+    transparent,
+    var(--cyber-cyan),
+    var(--cyber-purple),
+    transparent,
+    transparent
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+.cyber-card:hover::before {
+  opacity: 0.5;
+  animation: cyber-border-rotate 3s linear infinite;
+}
+@keyframes cyber-border-rotate {
+  to { transform: rotate(360deg); }
+}
+.cyber-card:hover {
+  background: var(--cyber-card-hover);
+  border-color: var(--cyber-border-glow);
+  box-shadow: 0 0 30px rgba(0,212,255,0.06), 0 0 60px rgba(167,139,250,0.03);
+  transform: translateY(-3px) scale(1.01);
+}
+.cyber-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyber-cyan), var(--cyber-purple), transparent);
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+.cyber-card:hover::after { opacity: 0.5; }
+
+/* 底部发光条变体 */
+.cyber-card-glow {
+  box-shadow: 0 0 20px rgba(0,212,255,0.04), inset 0 0 20px rgba(0,212,255,0.02);
+}
+
+/* ─── 8. 面板（卡片容器）─── */
+.cyber-panel {
+  background: rgba(8, 10, 24, 0.85);
+  backdrop-filter: blur(12px) saturate(1.1);
+  -webkit-backdrop-filter: blur(12px) saturate(1.1);
+  border: 1px solid var(--cyber-border);
+  border-radius: var(--cyber-card-radius);
+  padding: 16px;
+  transition: all 0.3s ease;
+}
+
+/* ─── 9. 徽章 v3.0 ─── */
 .cyber-badge {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
   padding: 3px 10px;
   border-radius: 20px;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.05em;
-  font-family: var(--cyber-mono);
-  position: relative;
+  background: linear-gradient(135deg, rgba(0,212,255,0.1), rgba(167,139,250,0.1));
+  border: 1px solid rgba(0,212,255,0.15);
+  color: var(--cyber-cyan);
+  animation: cyber-pulse 3s infinite;
+  text-transform: uppercase;
 }
-.cyber-badge::before {
-  content: '';
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  animation: cyber-pulse 2s infinite;
+.cyber-badge-purple {
+  background: linear-gradient(135deg, rgba(167,139,250,0.1), rgba(244,114,182,0.1));
+  border-color: rgba(167,139,250,0.15);
+  color: var(--cyber-purple);
 }
-.cyber-badge.online::before { background: var(--cyber-green); box-shadow: 0 0 6px var(--cyber-green); }
-.cyber-badge.warning::before { background: var(--cyber-amber); box-shadow: 0 0 6px var(--cyber-amber); }
-.cyber-badge.offline::before { background: var(--cyber-red); box-shadow: 0 0 6px var(--cyber-red); }
-.cyber-badge.online { background: rgba(52, 211, 153, 0.1); border: 1px solid rgba(52, 211, 153, 0.2); color: var(--cyber-green); }
-.cyber-badge.warning { background: rgba(251, 146, 60, 0.1); border: 1px solid rgba(251, 146, 60, 0.2); color: var(--cyber-amber); }
+.cyber-badge-green {
+  background: linear-gradient(135deg, rgba(52,211,153,0.1), rgba(0,212,255,0.1));
+  border-color: rgba(52,211,153,0.15);
+  color: var(--cyber-green);
+}
 
-/* 3b. 发光按钮 */
+/* ─── 10. 按钮 ─── */
 .cyber-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 16px;
+  padding: 8px 18px;
   border-radius: 8px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   font-family: var(--cyber-font);
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.3s cubic-bezier(0.34,1.56,0.64,1);
   border: 1px solid var(--cyber-border-glow);
-  background: rgba(0, 212, 255, 0.06);
+  background: linear-gradient(135deg, rgba(0,212,255,0.06), rgba(167,139,250,0.06));
   color: var(--cyber-cyan);
   position: relative;
   overflow: hidden;
-  text-decoration: none;
 }
-.cyber-btn:hover {
-  background: rgba(0, 212, 255, 0.12);
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
-  transform: translateY(-1px);
-}
-
-/* 3c. 科幻卡片 (enhanced) */
-.cyber-card {
-  background: var(--cyber-card);
-  border: 1px solid var(--cyber-border);
-  border-radius: var(--cyber-card-radius);
-  padding: 18px 20px;
-  backdrop-filter: blur(12px);
-  position: relative;
-  overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.34,1.56,0.64,1);
-  cursor: default;
-}
-.cyber-card:hover {
-  border-color: var(--cyber-border-glow);
-  box-shadow: var(--cyber-glow-cyan);
-  transform: translateY(-2px);
-}
-/* 顶部发光装饰线 */
-.cyber-card::before {
+.cyber-btn::before {
   content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--cyber-cyan), var(--cyber-purple), transparent);
-  opacity: 0.4;
-  transition: opacity 0.4s;
-}
-.cyber-card:hover::before {
-  opacity: 0.8;
-}
-/* 脉冲环 hover 效果 */
-.cyber-card::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(0,212,255,0.06) 0%, transparent 70%);
-  transform: translate(-50%, -50%);
-  transition: all 0.6s ease-out;
-  pointer-events: none;
-}
-.cyber-card:hover::after {
-  width: 300px;
-  height: 300px;
-}
-.cyber-card .card-icon {
-  font-size: 32px;
-  margin-bottom: 12px;
-  display: block;
-  animation: cyber-float 3s ease-in-out infinite;
-}
-.cyber-card h3 {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 6px;
-  color: var(--cyber-text);
-}
-.cyber-card p {
-  font-size: 14px;
-  color: var(--cyber-text2);
-  line-height: 1.6;
-  margin-bottom: 0;
-}
-.cyber-card .card-meta {
-  margin-top: 12px;
-  padding-top: 10px;
-  border-top: 1px solid var(--cyber-border);
-  font-size: 11px;
-  color: var(--cyber-text3);
-  font-family: var(--cyber-mono);
-}
-
-/* 3d. 数据面板 */
-.cyber-panel {
-  background: var(--cyber-card);
-  border: 1px solid var(--cyber-border);
-  border-radius: var(--cyber-radius);
-  padding: 14px 16px;
-  backdrop-filter: blur(12px);
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s;
-}
-.cyber-panel:hover {
-  border-color: var(--cyber-border-glow);
-  box-shadow: var(--cyber-shadow);
-}
-.cyber-panel::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--cyber-cyan), var(--cyber-purple), transparent);
-  opacity: 0.4;
-}
-
-/* 3e. 标题装饰 */
-.cyber-title {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--cyber-text2);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--cyber-mono);
-}
-.cyber-title::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, var(--cyber-border-glow), transparent);
-}
-
-/* 3f. 渐变文本 */
-.cyber-gradient-text {
-  background: linear-gradient(135deg, #fff, var(--cyber-cyan), var(--cyber-purple));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background-size: 200% auto;
-  animation: cyber-shimmer 4s linear infinite;
-}
-
-/* ─── 4. 动画关键帧 ─── */
-@keyframes cyber-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
-@keyframes cyber-pulse-glow { 0%, 100% { opacity: 0.4; box-shadow: 0 0 10px currentColor; } 50% { opacity: 0.8; box-shadow: 0 0 25px currentColor; } }
-@keyframes cyber-shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
-@keyframes cyber-glow {
-  0%, 100% { box-shadow: 0 0 5px rgba(0,212,255,0.1); }
-  50% { box-shadow: 0 0 20px rgba(0,212,255,0.2); }
-}
-@keyframes cyber-float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-4px); }
-}
-@keyframes cyber-rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-@keyframes cyber-scale-in {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
-}
-@keyframes cyber-slide-up {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-@keyframes cyber-slide-in-right {
-  from { opacity: 0; transform: translateX(20px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-@keyframes cyber-border-flow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-@keyframes cyber-ambient-glow {
-  from { opacity: 0.5; transform: translate(0, 0) scale(1); }
-  to { opacity: 0.8; transform: translate(30px, 20px) scale(1.1); }
-}
-@keyframes cyber-data-pulse {
-  0%, 100% { transform: scale(1); opacity: 0.6; }
-  50% { transform: scale(1.05); opacity: 1; }
-}
-@keyframes cyber-count-up {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-@keyframes cyber-bar-grow {
-  from { transform: scaleY(0); }
-  to { transform: scaleY(1); }
-}
-@keyframes cyber-donut-fill {
-  from { stroke-dasharray: 0 1000; }
-  to { stroke-dasharray: var(--pct) 1000; }
-}
-@keyframes cyber-ripple {
-  0% { box-shadow: 0 0 0 0 rgba(0,212,255,0.1); }
-  100% { box-shadow: 0 0 0 20px rgba(0,212,255,0); }
-}
-
-/* ─── 5. 暗色滚动条 ─── */
-::-webkit-scrollbar { width: 5px; height: 5px; }
-::-webkit-scrollbar-track { background: rgba(255,255,255,0.02); }
-::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.12); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(0,212,255,0.25); }
-
-/* ─── 6. 加载动画 ─── */
-.cyber-loader {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border: 2px solid transparent;
-  border-top-color: var(--cyber-cyan);
-  border-right-color: var(--cyber-purple);
-  border-radius: 50%;
-  animation: cyber-rotate 0.8s linear infinite;
-}
-.cyber-loader-ring {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  border: 3px solid rgba(0,212,255,0.05);
-  border-top-color: var(--cyber-cyan);
-  border-bottom-color: var(--cyber-purple);
-  border-radius: 50%;
-  animation: cyber-rotate 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-}
-
-/* ─── 7. 数据流动画 ─── */
-.cyber-data-flow {
   position: absolute;
   inset: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-.cyber-data-flow .dot {
-  position: absolute;
-  width: 2px;
-  height: 2px;
-  background: var(--cyber-cyan);
-  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(0,212,255,0.02), rgba(167,139,250,0.02));
   opacity: 0;
-  animation: cyber-float-dot 5s ease-in-out infinite;
+  transition: opacity 0.3s;
 }
-@keyframes cyber-float-dot {
-  0% { opacity: 0; transform: translateY(0) translateX(0); }
-  20% { opacity: 0.5; }
-  80% { opacity: 0.5; }
-  100% { opacity: 0; transform: translateY(-120px) translateX(15px); }
+.cyber-btn:hover {
+  border-color: var(--cyber-cyan);
+  box-shadow: 0 0 20px rgba(0,212,255,0.1), 0 4px 12px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
+  color: #fff;
+}
+.cyber-btn:hover::before { opacity: 1; }
+.cyber-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 0 10px rgba(0,212,255,0.05);
 }
 
-/* ─── 8. 状态栏 ─── */
-.cyber-statusbar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  height: 26px;
-  background: rgba(5, 5, 15, 0.92);
-  border-top: 1px solid var(--cyber-border);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 14px;
-  font-size: 10px;
-  color: var(--cyber-text3);
-  font-family: var(--cyber-mono);
-  backdrop-filter: blur(10px);
-}
-.cyber-statusbar .dot {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 5px;
-  animation: cyber-pulse-glow 2s infinite;
-}
-.cyber-statusbar .dot.green { background: var(--cyber-green); color: var(--cyber-green); }
-.cyber-statusbar .dot.amber { background: var(--cyber-amber); color: var(--cyber-amber); }
-
-/* ─── 9. 视口适配布局（无页面滚动） ─── */
-.cyber-viewport { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
-.cyber-viewport-header { flex-shrink: 0; }
-.cyber-viewport-body { flex: 1; overflow-y: auto; min-height: 0; }
-.cyber-viewport-body::-webkit-scrollbar { width: 4px; }
-.cyber-viewport-body::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.12); border-radius: 2px; }
-.cyber-viewport-body::-webkit-scrollbar-track { background: transparent; }
-
-/* 内容块容器 */
-.cyber-scroll { overflow-y: auto; min-height: 0; scrollbar-width: thin; }
-.cyber-scroll::-webkit-scrollbar { width: 4px; }
-.cyber-scroll::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.12); border-radius: 2px; }
-.cyber-scroll::-webkit-scrollbar-track { background: transparent; }
-
-/* ─── 10. 统计卡片动画 ─── */
+/* ─── 11. 统计卡片动画 v3.0 ─── */
 .cyber-stat {
   background: var(--cyber-card);
+  backdrop-filter: blur(16px) saturate(1.2);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
   border: 1px solid var(--cyber-border);
   border-radius: var(--cyber-card-radius);
-  padding: 14px 18px;
-  backdrop-filter: blur(12px);
+  padding: 16px 20px;
   position: relative;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.34,1.56,0.64,1);
@@ -426,7 +305,11 @@ body::before {
 .cyber-stat:nth-child(3) { animation-delay: 0.15s; }
 .cyber-stat:nth-child(4) { animation-delay: 0.2s; }
 .cyber-stat:nth-child(5) { animation-delay: 0.25s; }
-.cyber-stat:hover { border-color: var(--cyber-border-glow); box-shadow: var(--cyber-glow-cyan); transform: translateY(-2px); }
+.cyber-stat:hover {
+  border-color: var(--cyber-border-glow);
+  box-shadow: 0 0 30px rgba(0,212,255,0.08), 0 0 60px rgba(167,139,250,0.04);
+  transform: translateY(-3px) scale(1.02);
+}
 .cyber-stat::before {
   content: '';
   position: absolute;
@@ -435,27 +318,29 @@ body::before {
   opacity: 0.3;
   transition: opacity 0.3s;
 }
-.cyber-stat:hover::before { opacity: 0.7; }
+.cyber-stat:hover::before { opacity: 0.8; }
 .cyber-stat .num {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--cyber-cyan);
   font-family: var(--cyber-mono);
   animation: cyber-count-up 0.6s ease backwards;
+  text-shadow: 0 0 20px rgba(0,212,255,0.15);
 }
 .cyber-stat .label {
   font-size: 12px;
   color: var(--cyber-text3);
   margin-top: 2px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-/* ─── 10b. 实体卡片增强 ─── */
+/* ─── 12. 实体卡片增强 v3.0 ─── */
 .entity-card {
-  padding: 5px 10px;
-  border-radius: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
   font-size: 13px;
-  transition: all 0.25s ease;
+  transition: all 0.3s cubic-bezier(0.34,1.56,0.64,1);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -464,39 +349,41 @@ body::before {
   animation: cyber-slide-up 0.3s ease backwards;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 .entity-card::after {
   content: '';
   position: absolute;
   left: 0; top: 0; bottom: 0;
   width: 2px;
-  background: var(--cyber-cyan);
+  background: linear-gradient(180deg, var(--cyber-cyan), var(--cyber-purple));
   opacity: 0;
   transition: opacity 0.3s;
 }
 .entity-card:hover {
-  background: rgba(0,212,255,0.04);
-  border-color: rgba(0,212,255,0.1);
-  transform: translateX(4px);
-  box-shadow: 0 0 16px rgba(0,212,255,0.04);
+  background: rgba(0,212,255,0.05);
+  border-color: rgba(0,212,255,0.15);
+  transform: translateX(5px) scale(1.01);
+  box-shadow: 0 0 20px rgba(0,212,255,0.06);
 }
-.entity-card:hover::after { opacity: 0.6; }
+.entity-card:hover::after { opacity: 0.7; }
 .entity-card .dot {
   width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0;
-  box-shadow: 0 0 6px currentColor;
-  animation: cyber-pulse-glow 3s infinite;
+  box-shadow: 0 0 8px currentColor;
+  animation: cyber-pulse-glow 2.5s infinite;
 }
 .entity-card .info a {
   color: var(--cyber-text);
   transition: color 0.3s;
 }
-.entity-card:hover .info a { color: var(--cyber-cyan); }
+.entity-card:hover .info a { color: var(--cyber-cyan); text-shadow: 0 0 12px rgba(0,212,255,0.1); }
 .entity-card .badge {
   font-size: 10px;
-  padding: 2px 6px;
+  padding: 2px 8px;
   border-radius: 4px;
   margin-left: auto;
   animation: cyber-pulse 4s infinite;
+  letter-spacing: 0.03em;
 }
 .entity-grid {
   display: grid;
@@ -505,136 +392,123 @@ body::before {
   animation: cyber-fade-grid 0.6s ease;
 }
 @keyframes cyber-fade-grid {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── 13. 状态栏 ─── */
+.cyber-statusbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 16px;
+  font-size: 11px;
+  color: var(--cyber-text3);
+  background: rgba(0, 0, 0, 0.4);
+  border-top: 1px solid var(--cyber-border);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  flex-shrink: 0;
+  position: relative;
+}
+.cyber-statusbar::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyber-cyan), var(--cyber-purple), transparent);
+  opacity: 0.3;
+}
+.cyber-statusbar .status-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.cyber-statusbar .status-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  animation: cyber-pulse 2s infinite;
+}
+.cyber-statusbar .status-dot.green { background: var(--cyber-green); box-shadow: 0 0 6px var(--cyber-green); }
+.cyber-statusbar .status-dot.cyan { background: var(--cyber-cyan); box-shadow: 0 0 6px var(--cyber-cyan); }
+
+/* ─── 14. 关键帧动画 v3.0 ─── */
+@keyframes cyber-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+@keyframes cyber-pulse-glow {
+  0%, 100% { opacity: 0.8; box-shadow: 0 0 6px currentColor; }
+  50% { opacity: 1; box-shadow: 0 0 12px currentColor, 0 0 20px currentColor; }
+}
+@keyframes cyber-scale-in {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes cyber-slide-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes cyber-count-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes cyber-shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+@keyframes cyber-bar-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes cyber-donut-fill {
+  from { stroke-dasharray: 0 1000; }
+  to { stroke-dasharray: var(--pct) 1000; }
+}
+@keyframes cyber-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+@keyframes cyber-glitch {
+  0%, 90%, 100% { transform: translate(0); }
+  92% { transform: translate(-1px, 0); }
+  94% { transform: translate(1px, 0); }
+  96% { transform: translate(-1px, 0); }
+}
+@keyframes cyber-fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
 }
 
-/* ─── 11. 实体卡片动画 ─── */
-.cyber-entity-card {
-  padding: 6px 10px;
-  border-radius: 6px;
-  font-size: 13px;
-  transition: all 0.25s ease;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid transparent;
-  background: rgba(255,255,255,0.01);
-  animation: cyber-slide-up 0.3s ease backwards;
-}
-.cyber-entity-card:hover {
-  background: rgba(0,212,255,0.04);
-  border-color: rgba(0,212,255,0.08);
-  transform: translateX(3px);
-  box-shadow: 0 0 12px rgba(0,212,255,0.03);
-}
-.cyber-entity-card .dot {
-  width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0;
-  box-shadow: 0 0 4px currentColor;
-  animation: cyber-pulse-glow 3s infinite;
-}
-
-/* ─── 12. 图表动画 ─── */
-.cyber-chart-bar {
-  animation: cyber-bar-grow 0.8s cubic-bezier(0.34,1.56,0.64,1) backwards;
-  transform-origin: bottom;
-}
-.cyber-chart-donut {
-  animation: cyber-donut-fill 1.5s ease-out backwards;
-}
-
-/* ─── 13. 导航栏科幻化 ─── */
-.cyber-nav {
-  position: sticky; top: 0; z-index: 100;
-  background: rgba(5,5,15,0.85);
-  backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--cyber-border);
-  height: 52px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
-.cyber-nav .nav-inner {
-  max-width: 1200px; margin: 0 auto; width: 100%;
-  display: flex; align-items: center; justify-content: space-between;
-}
-.cyber-nav .logo {
-  display: flex; align-items: center; gap: 8px;
-  font-weight: 700; font-size: 14px; color: var(--cyber-text);
-}
-.cyber-nav .logo-mark {
-  width: 30px; height: 30px; border-radius: 8px;
-  background: linear-gradient(135deg, var(--cyber-cyan), var(--cyber-purple));
-  display: grid; place-items: center; font-size: 15px; font-weight: 800; color: #fff;
-  box-shadow: 0 0 12px rgba(0,212,255,0.15);
-}
-.cyber-nav .nav-links { display: flex; gap: 2px; }
-.cyber-nav .nav-links a {
-  padding: 7px 12px; border-radius: 6px;
-  color: var(--cyber-text2); font-size: 13px;
-  transition: all 0.3s; position: relative;
-}
-.cyber-nav .nav-links a:hover { color: var(--cyber-cyan); background: rgba(0,212,255,0.04); }
-.cyber-nav .nav-links a.active {
-  color: var(--cyber-cyan); background: rgba(0,212,255,0.08);
-  border: 1px solid rgba(0,212,255,0.12);
-}
-.cyber-nav .nav-links a::after {
-  content: ''; position: absolute; bottom: 0; left: 50%; width: 0; height: 1px;
-  background: var(--cyber-cyan); transition: all 0.3s; transform: translateX(-50%);
-}
-.cyber-nav .nav-links a:hover::after, .cyber-nav .nav-links a.active::after { width: 60%; }
-
-/* ─── 14. 搜索框科幻化 ─── */
-.cyber-search {
-  width: 100%;
-  padding: 10px 16px;
-  background: rgba(0,212,255,0.03);
-  border: 1px solid var(--cyber-border);
-  border-radius: 8px;
-  color: var(--cyber-text);
-  font-size: 14px;
-  outline: none;
-  transition: all 0.3s;
-  font-family: var(--cyber-font);
-}
-.cyber-search:focus {
-  border-color: var(--cyber-cyan);
-  background: rgba(0,212,255,0.05);
-  box-shadow: 0 0 20px rgba(0,212,255,0.06);
-}
-.cyber-search::placeholder { color: var(--cyber-text3); }
-
-/* ─── 15. 渐变边框动画卡片 ─── */
-.cyber-border-card {
-  background: var(--cyber-card);
-  border-radius: var(--cyber-card-radius);
-  padding: 18px;
-  position: relative;
+/* ─── 15. 数据流粒子 ─── */
+#dataFlow, .data-flow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
   overflow: hidden;
-  transition: all 0.4s;
 }
-.cyber-border-card::before {
-  content: '';
+.flow-dot {
   position: absolute;
-  inset: -2px;
-  border-radius: calc(var(--cyber-card-radius) + 2px);
-  background: linear-gradient(135deg, var(--cyber-cyan), transparent, var(--cyber-purple), transparent);
-  background-size: 400% 400%;
-  animation: cyber-border-flow 8s ease infinite;
+  width: 2px; height: 2px;
+  background: var(--cyber-cyan);
+  border-radius: 50%;
+  box-shadow: 0 0 4px var(--cyber-cyan), 0 0 8px rgba(0,212,255,0.3);
+  animation: cyber-flow-down 8s linear infinite;
   opacity: 0;
-  transition: opacity 0.4s;
-  z-index: -1;
 }
-.cyber-border-card:hover::before { opacity: 0.3; }
-.cyber-border-card:hover { box-shadow: 0 0 30px rgba(0,212,255,0.06); }
+@keyframes cyber-flow-down {
+  0% { transform: translateY(-20px); opacity: 0; }
+  10% { opacity: 0.6; }
+  90% { opacity: 0.6; }
+  100% { transform: translateY(100vh); opacity: 0; }
+}
 
-/* ─── 16. 图谱/可视化容器科幻增强 ─── */
+/* ─── 16. 图谱容器科幻增强 v3.0 ─── */
 #macroGraph, #networkContainer, #network-graph, .network-container {
   position: relative;
   border: 1px solid var(--cyber-border);
   border-radius: var(--cyber-card-radius);
-  background: rgba(5,5,15,0.6);
+  background: rgba(3, 5, 12, 0.7);
   overflow: hidden;
   animation: cyber-scale-in 0.6s ease backwards;
 }
@@ -644,10 +518,21 @@ body::before {
   top: 0; left: 0; right: 0;
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--cyber-cyan), var(--cyber-purple), transparent);
-  opacity: 0.5;
+  opacity: 0.4;
   pointer-events: none;
   z-index: 10;
-  animation: cyber-shimmer 6s linear infinite;
+  animation: cyber-shimmer 4s linear infinite;
+}
+#macroGraph::after, #networkContainer::after, #network-graph::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyber-purple), var(--cyber-cyan), transparent);
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 10;
+  animation: cyber-shimmer 4s linear infinite reverse;
 }
 .macro-legend, .graph-legend, .network-legend {
   display: flex;
@@ -656,30 +541,32 @@ body::before {
   padding: 8px 12px;
   background: rgba(0,212,255,0.02);
   border: 1px solid var(--cyber-border);
-  border-radius: 6px;
+  border-radius: 8px;
   margin-top: 8px;
 }
 .l-item, .legend-item {
   display: flex;
   align-items: center;
   gap: 4px;
-  padding: 3px 8px;
-  border-radius: 4px;
+  padding: 4px 10px;
+  border-radius: 6px;
   font-size: 11px;
   color: var(--cyber-text2);
   cursor: pointer;
   transition: all 0.3s;
   background: rgba(255,255,255,0.01);
+  border: 1px solid transparent;
 }
 .l-item:hover, .legend-item:hover {
   background: rgba(0,212,255,0.06);
   color: var(--cyber-cyan);
-  border-color: var(--cyber-border-glow);
-  transform: translateY(-1px);
+  border-color: rgba(0,212,255,0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px rgba(0,212,255,0.05);
 }
 .l-shape, .legend-icon {
   font-size: 14px;
-  text-shadow: 0 0 6px currentColor;
+  text-shadow: 0 0 8px currentColor;
   animation: cyber-pulse-glow 3s infinite;
 }
 .l-count, .legend-count {
@@ -687,11 +574,11 @@ body::before {
   color: var(--cyber-text3);
   font-family: var(--cyber-mono);
   background: rgba(0,212,255,0.08);
-  padding: 1px 5px;
-  border-radius: 3px;
+  padding: 1px 6px;
+  border-radius: 4px;
 }
 
-/* Wiki dashboard 增强 */
+/* ─── 17. Wiki 仪表盘增强 ─── */
 .bar-fill {
   animation: cyber-bar-grow 0.8s cubic-bezier(0.34,1.56,0.64,1) backwards;
   transform-origin: left center;
@@ -702,4 +589,216 @@ body::before {
 }
 .donut-svg circle {
   animation: cyber-donut-fill 1.5s ease-out backwards;
+}
+
+/* ─── 18. 边框发光卡片 ─── */
+.cyber-border-card {
+  position: relative;
+  border-radius: var(--cyber-card-radius);
+  overflow: hidden;
+  background: var(--cyber-card);
+  backdrop-filter: blur(16px) saturate(1.2);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+}
+.cyber-border-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    transparent 0deg,
+    var(--cyber-cyan) 60deg,
+    var(--cyber-purple) 120deg,
+    transparent 180deg,
+    transparent 360deg
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+.cyber-border-card:hover::before {
+  opacity: 0.4;
+  animation: cyber-border-rotate 4s linear infinite;
+}
+.cyber-border-card:hover { box-shadow: 0 0 40px rgba(0,212,255,0.08); }
+
+/* ─── 19. 加载动画 ─── */
+.cyber-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 40px;
+}
+.cyber-spinner {
+  width: 32px; height: 32px;
+  border: 2px solid rgba(0,212,255,0.1);
+  border-top-color: var(--cyber-cyan);
+  border-radius: 50%;
+  animation: cyber-spin 0.8s linear infinite;
+}
+@keyframes cyber-spin {
+  to { transform: rotate(360deg); }
+}
+.cyber-loading-text {
+  font-size: 13px;
+  color: var(--cyber-text3);
+  letter-spacing: 0.08em;
+  animation: cyber-pulse 2s infinite;
+}
+
+/* ─── 20. 工具提示 ─── */
+.cyber-tooltip {
+  position: relative;
+}
+.cyber-tooltip::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid var(--cyber-border);
+  color: var(--cyber-text);
+  backdrop-filter: blur(8px);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s;
+}
+.cyber-tooltip:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-2px);
+}
+
+/* ─── 21. 导航标签 ─── */
+.cyber-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--cyber-text3);
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+  font-family: var(--cyber-font);
+}
+.cyber-tab:hover {
+  color: var(--cyber-text);
+  background: rgba(0,212,255,0.03);
+  border-color: rgba(0,212,255,0.05);
+}
+.cyber-tab.active {
+  color: var(--cyber-cyan);
+  background: rgba(0,212,255,0.06);
+  border-color: rgba(0,212,255,0.12);
+  box-shadow: 0 0 12px rgba(0,212,255,0.04);
+}
+
+/* ─── 22. 表格 ─── */
+.cyber-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.cyber-table th {
+  padding: 10px 14px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--cyber-cyan);
+  border-bottom: 2px solid rgba(0,212,255,0.1);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.cyber-table td {
+  padding: 8px 14px;
+  border-bottom: 1px solid rgba(0,212,255,0.04);
+  color: var(--cyber-text);
+  transition: background 0.2s;
+}
+.cyber-table tr:hover td {
+  background: rgba(0,212,255,0.02);
+}
+
+/* ─── 23. 滚动条 ─── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: rgba(0,212,255,0.02); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--cyber-cyan), var(--cyber-purple));
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--cyber-cyan); }
+
+/* ─── 24. 选择高亮 ─── */
+::selection {
+  background: rgba(0,212,255,0.2);
+  color: #fff;
+}
+
+/* ─── 25. 页面进入动画 ─── */
+.cyber-page-enter {
+  animation: cyber-fade-in 0.5s ease;
+}
+
+/* ─── 26. 空状态 ─── */
+.cyber-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  color: var(--cyber-text3);
+  gap: 8px;
+}
+.cyber-empty-icon {
+  font-size: 32px;
+  opacity: 0.3;
+}
+.cyber-empty-text {
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+/* ─── 27. 分隔线 ─── */
+.cyber-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyber-border-glow), transparent);
+  margin: 16px 0;
+  border: none;
+}
+
+/* ─── 28. 进度条 ─── */
+.cyber-progress {
+  height: 4px;
+  background: rgba(0,212,255,0.06);
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+.cyber-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--cyber-cyan), var(--cyber-purple));
+  border-radius: 2px;
+  transition: width 0.6s cubic-bezier(0.34,1.56,0.64,1);
+  position: relative;
+}
+.cyber-progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; width: 6px; height: 100%;
+  background: var(--cyber-cyan);
+  filter: blur(3px);
+  animation: cyber-pulse 1s infinite;
 }

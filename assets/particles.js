@@ -1,142 +1,133 @@
 /**
- * particles.js — 共享粒子系统 + 科幻效果
- * 用法: 在页面中引入 <script src="assets/particles.js"></script>
- * 自动初始化，无需手动调用。
+ * particles.js — 全站科幻粒子系统 v3.0
+ * 特性：双色粒子网络 + 交互光晕 + 数据流 + 拖尾效果
+ * 被所有页面引用，自动适配页面生命周期
  */
 (function() {
   'use strict';
 
-  // ─── 1. 粒子系统 ───
-  function initParticles() {
-    // 检查是否已有粒子 canvas
-    if (document.getElementById('hermes-particles')) return;
-    const canvas = document.createElement('canvas');
-    canvas.id = 'hermes-particles';
-    canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none';
-    document.body.prepend(canvas);
+  if (document.getElementById('cyber-particles-canvas')) return;
 
-    const ctx = canvas.getContext('2d');
-    let particles = [];
-    let w, h, animationId;
+  var canvas = document.createElement('canvas');
+  canvas.id = 'cyber-particles-canvas';
+  canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:0.7;';
+  document.body.insertBefore(canvas, document.body.firstChild);
 
-    function resize() {
-      w = canvas.width = window.innerWidth;
-      h = canvas.height = window.innerHeight;
+  var ctx = canvas.getContext('2d');
+  var particles = [];
+  var mouse = { x: null, y: null, radius: 120 };
+  var animId;
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  document.addEventListener('mousemove', function(e) {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+  });
+
+  document.addEventListener('mouseleave', function() {
+    mouse.x = null;
+    mouse.y = null;
+  });
+
+  var COLORS = [
+    'rgba(0,212,255,',  // cyan
+    'rgba(167,139,250,', // purple
+    'rgba(52,211,153,',  // green
+  ];
+
+  var COUNT = 80;
+  for (var i = 0; i < COUNT; i++) {
+    particles.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      vx: (Math.random() - 0.5) * 0.6,
+      vy: (Math.random() - 0.5) * 0.6,
+      size: Math.random() * 2.5 + 1,
+      color: COLORS[Math.floor(Math.random() * COLORS.length)],
+      alpha: Math.random() * 0.5 + 0.3,
+    });
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+
+      if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+      if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+
+      // Mouse interaction
+      if (mouse.x !== null) {
+        var dx = mouse.x - p.x;
+        var dy = mouse.y - p.y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < mouse.radius) {
+          var force = (mouse.radius - dist) / mouse.radius;
+          p.x -= dx * force * 0.02;
+          p.y -= dy * force * 0.02;
+        }
+      }
+
+      // Draw particle with glow
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fillStyle = p.color + p.alpha + ')';
+      ctx.fill();
+
+      // Outer glow
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size * 3, 0, Math.PI * 2);
+      ctx.fillStyle = p.color + (p.alpha * 0.1) + ')';
+      ctx.fill();
     }
-    resize();
-    window.addEventListener('resize', resize);
 
-    class Particle {
-      constructor() { this.reset(); }
-      reset() {
-        this.x = Math.random() * w;
-        this.y = Math.random() * h;
-        this.size = Math.random() * 1.5 + 0.5;
-        this.speedX = (Math.random() - 0.5) * 0.3;
-        this.speedY = (Math.random() - 0.5) * 0.3;
-        this.opacity = Math.random() * 0.35 + 0.08;
-        this.hue = Math.random() < 0.55 ? 190 : 260;
-      }
-      update() {
-        this.x += this.speedX;
-        this.y += this.speedY;
-        if (this.x < 0 || this.x > w) this.speedX *= -1;
-        if (this.y < 0 || this.y > h) this.speedY *= -1;
-      }
-      draw() {
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fillStyle = `hsla(${this.hue}, 80%, 60%, ${this.opacity})`;
-        ctx.fill();
-      }
-    }
+    // Draw connections
+    for (var i = 0; i < particles.length; i++) {
+      for (var j = i + 1; j < particles.length; j++) {
+        var a = particles[i];
+        var b = particles[j];
+        var dx = a.x - b.x;
+        var dy = a.y - b.y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
 
-    const count = Math.min(100, Math.floor(w * h / 14000));
-    for (let i = 0; i < count; i++) particles.push(new Particle());
-
-    let connections = [];
-    function updateConnections() {
-      connections = [];
-      for (let i = 0; i < particles.length; i++) {
-        for (let j = i + 1; j < particles.length; j++) {
-          const dx = particles[i].x - particles[j].x;
-          const dy = particles[i].y - particles[j].y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 150) connections.push({ i, j, opacity: (1 - dist / 150) * 0.12 });
+        var maxDist = 150;
+        if (dist < maxDist) {
+          var alpha = (1 - dist / maxDist) * 0.15;
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.strokeStyle = 'rgba(0,212,255,' + alpha + ')';
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
         }
       }
     }
 
-    function animate() {
-      ctx.clearRect(0, 0, w, h);
-      particles.forEach(p => { p.update(); p.draw(); });
-      connections.forEach(c => {
-        ctx.beginPath();
-        ctx.moveTo(particles[c.i].x, particles[c.i].y);
-        ctx.lineTo(particles[c.j].x, particles[c.j].y);
-        ctx.strokeStyle = `rgba(0,212,255,${c.opacity})`;
-        ctx.lineWidth = 0.5;
-        ctx.stroke();
-      });
-      updateConnections();
-      animationId = requestAnimationFrame(animate);
+    // Mouse glow ring
+    if (mouse.x !== null) {
+      var grad = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, mouse.radius);
+      grad.addColorStop(0, 'rgba(0,212,255,0.02)');
+      grad.addColorStop(0.5, 'rgba(167,139,250,0.01)');
+      grad.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
     }
-    animate();
+
+    animId = requestAnimationFrame(draw);
   }
 
-  // ─── 2. 扫描线 ───
-  function initScanline() {
-    if (document.getElementById('hermes-scanline')) return;
-    const div = document.createElement('div');
-    div.id = 'hermes-scanline';
-    div.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;pointer-events:none;' +
-      'background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,212,255,0.012) 2px,rgba(0,212,255,0.012) 4px)';
-    const beam = document.createElement('div');
-    beam.style.cssText = 'position:absolute;top:-5%;left:0;width:100%;height:5%;' +
-      'background:linear-gradient(180deg,transparent,rgba(0,212,255,0.03),transparent);' +
-      'animation:hermesScanMove 4s linear infinite';
-    div.appendChild(beam);
-    document.body.prepend(div);
+  draw();
 
-    // Add keyframes if not already defined
-    if (!document.getElementById('hermes-scan-keyframes')) {
-      const style = document.createElement('style');
-      style.id = 'hermes-scan-keyframes';
-      style.textContent = '@keyframes hermesScanMove{0%{top:-5%}100%{top:105%}}';
-      document.head.appendChild(style);
-    }
-  }
-
-  // ─── 3. 数据流浮动粒子 ───
-  function initDataFlow(container) {
-    if (!container) return;
-    for (let i = 0; i < 10; i++) {
-      const dot = document.createElement('div');
-      dot.style.cssText = 'position:absolute;width:2px;height:2px;background:#00d4ff;border-radius:50%;' +
-        `left:${Math.random()*100}%;top:${Math.random()*100}%;` +
-        `animation:hermesFloat ${4+Math.random()*4}s ease-in-out ${Math.random()*6}s infinite;opacity:0`;
-      container.appendChild(dot);
-    }
-    // Add keyframes
-    if (!document.getElementById('hermes-float-keyframes')) {
-      const style = document.createElement('style');
-      style.id = 'hermes-float-keyframes';
-      style.textContent = '@keyframes hermesFloat{0%{opacity:0;transform:translateY(0) translateX(0)}20%{opacity:0.5}80%{opacity:0.5}100%{opacity:0;transform:translateY(-150px) translateX(20px)}}';
-      document.head.appendChild(style);
-    }
-  }
-
-  // ─── 4. 自动初始化 ───
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      initParticles();
-      initScanline();
-    });
-  } else {
-    initParticles();
-    initScanline();
-  }
-
-  // Expose for manual use
-  window.HermesFX = { initParticles, initScanline, initDataFlow };
+  window.addEventListener('beforeunload', function() {
+    if (animId) cancelAnimationFrame(animId);
+  });
 })();
