@@ -1,1337 +1,840 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📊 知识图谱 · 数据全景</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        :root {
-            --bg: #0a0a14;
-            --bg-card: #12121f;
-            --bg-card-hover: #1a1a2e;
-            --text: #e0e0e0;
-            --text-muted: #888;
-            --border: rgba(255,255,255,0.06);
-            --accent-blue: #5DADE2;
-            --accent-green: #58D68D;
-            --accent-red: #EC7063;
-            --accent-orange: #F5B041;
-            --accent-purple: #A29BFA;
-        }
-
-        body {
-            background: var(--bg);
-            color: var(--text);
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
-
-        /* ─── Background Effects ─── */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background:
-                radial-gradient(ellipse at 20% 0%, rgba(93,173,226,0.08) 0%, transparent 50%),
-                radial-gradient(ellipse at 80% 100%, rgba(162,155,254,0.06) 0%, transparent 50%);
-            pointer-events: none;
-            z-index: 0;
-        }
-
-        /* ─── Header ─── */
-        .header {
-            position: relative;
-            padding: 40px 48px 24px;
-            z-index: 1;
-        }
-
-        .header-top {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 8px;
-        }
-
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .brand-icon {
-            width: 44px;
-            height: 44px;
-            background: linear-gradient(135deg, #5DADE2 0%, #A29BFA 100%);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 22px;
-            box-shadow: 0 4px 16px rgba(93,173,226,0.3);
-        }
-
-        .brand-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-muted);
-            letter-spacing: 0.05em;
-        }
-
-        .header-actions {
-            display: flex;
-            gap: 8px;
-        }
-
-        .header-btn {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid var(--border);
-            color: var(--text);
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-size: 13px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s;
-            font-family: inherit;
-        }
-
-        .header-btn:hover {
-            background: rgba(255,255,255,0.1);
-        }
-
-        .header-btn.active {
-            background: rgba(93,173,226,0.15);
-            border-color: rgba(93,173,226,0.3);
-            color: #fff;
-        }
-
-        .header-title {
-            font-size: 36px;
-            font-weight: 800;
-            background: linear-gradient(90deg, #fff 0%, #5DADE2 50%, #A29BFA 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: -0.01em;
-            margin-bottom: 6px;
-        }
-
-        .header-subtitle {
-            font-size: 15px;
-            color: var(--text-muted);
-            font-weight: 400;
-        }
-
-        /* ─── Bento Grid ─── */
-        .bento-grid {
-            position: relative;
-            padding: 0 48px 48px;
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-auto-rows: minmax(120px, auto);
-            gap: 16px;
-            z-index: 1;
-        }
-
-        .bento-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 24px;
-            position: relative;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-
-        .bento-card:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(255,255,255,0.12);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-        }
-
-        /* Stat Cards */
-        .stat-card {
-            grid-column: span 3;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            min-height: 140px;
-        }
-
-        .stat-card .stat-header {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 13px;
-            color: var(--text-muted);
-            font-weight: 500;
-        }
-
-        .stat-card .stat-icon {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px;
-        }
-
-        .stat-card .stat-value {
-            font-size: 36px;
-            font-weight: 800;
-            letter-spacing: -0.02em;
-            font-family: 'JetBrains Mono', monospace;
-            line-height: 1;
-        }
-
-        .stat-card .stat-desc {
-            font-size: 12px;
-            color: var(--text-muted);
-            margin-top: 4px;
-        }
-
-        .stat-card.blue .stat-icon { background: rgba(93,173,226,0.15); color: #5DADE2; }
-        .stat-card.blue .stat-value { color: #5DADE2; }
-        .stat-card.green .stat-icon { background: rgba(88,214,141,0.15); color: #58D68D; }
-        .stat-card.green .stat-value { color: #58D68D; }
-        .stat-card.red .stat-icon { background: rgba(236,112,99,0.15); color: #EC7063; }
-        .stat-card.red .stat-value { color: #EC7063; }
-        .stat-card.orange .stat-icon { background: rgba(245,176,65,0.15); color: #F5B041; }
-        .stat-card.orange .stat-value { color: #F5B041; }
-
-        /* Stat Card Hover Effects */
-        .stat-card.blue:hover {
-            background: linear-gradient(135deg, rgba(93,173,226,0.12) 0%, rgba(93,173,226,0.02) 100%);
-            border-color: rgba(93,173,226,0.3);
-            transform: translateY(-4px);
-            box-shadow: 0 12px 40px rgba(93,173,226,0.15);
-        }
-        .stat-card.green:hover {
-            background: linear-gradient(135deg, rgba(88,214,141,0.12) 0%, rgba(88,214,141,0.02) 100%);
-            border-color: rgba(88,214,141,0.3);
-            transform: translateY(-4px);
-            box-shadow: 0 12px 40px rgba(88,214,141,0.15);
-        }
-        .stat-card.red:hover {
-            background: linear-gradient(135deg, rgba(236,112,99,0.12) 0%, rgba(236,112,99,0.02) 100%);
-            border-color: rgba(236,112,99,0.3);
-            transform: translateY(-4px);
-            box-shadow: 0 12px 40px rgba(236,112,99,0.15);
-        }
-        .stat-card.orange:hover {
-            background: linear-gradient(135deg, rgba(245,176,65,0.12) 0%, rgba(245,176,65,0.02) 100%);
-            border-color: rgba(245,176,65,0.3);
-            transform: translateY(-4px);
-            box-shadow: 0 12px 40px rgba(245,176,65,0.15);
-        }
-
-        /* Search Card */
-        .search-card {
-            grid-column: span 6;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-height: 140px;
-        }
-
-        .search-label {
-            font-size: 13px;
-            color: var(--text-muted);
-            margin-bottom: 12px;
-            font-weight: 500;
-        }
-
-        .search-box {
-            display: flex;
-            align-items: center;
-            background: rgba(255,255,255,0.04);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 12px 16px;
-            gap: 12px;
-            transition: all 0.2s;
-        }
-
-        .search-box:focus-within {
-            border-color: rgba(93,173,226,0.4);
-            background: rgba(255,255,255,0.06);
-        }
-
-        .search-box .search-icon {
-            font-size: 18px;
-            opacity: 0.5;
-        }
-
-        .search-box input {
-            flex: 1;
-            background: transparent;
-            border: none;
-            outline: none;
-            color: var(--text);
-            font-size: 15px;
-            font-family: inherit;
-        }
-
-        .search-box input::placeholder {
-            color: var(--text-muted);
-        }
-
-        .search-box .search-hint {
-            font-size: 11px;
-            color: var(--text-muted);
-            font-family: 'JetBrains Mono', monospace;
-            padding: 3px 8px;
-            background: rgba(255,255,255,0.06);
-            border-radius: 6px;
-        }
-
-        /* Graph Entry Card */
-        .graph-entry {
-            grid-column: span 6;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-height: 140px;
-            background: linear-gradient(135deg, rgba(93,173,226,0.08) 0%, rgba(162,155,254,0.05) 100%);
-            border-color: rgba(93,173,226,0.2);
-        }
-
-        .graph-entry:hover {
-            border-color: rgba(93,173,226,0.4);
-        }
-
-        .graph-entry-title {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .graph-entry-desc {
-            font-size: 13px;
-            color: var(--text-muted);
-            margin-bottom: 16px;
-        }
-
-        .graph-entry-btn {
-            align-self: flex-start;
-            background: linear-gradient(135deg, #5DADE2 0%, #A29BFA 100%);
-            color: #fff;
-            border: none;
-            padding: 10px 24px;
-            border-radius: 10px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
-            font-family: inherit;
-            box-shadow: 0 4px 16px rgba(93,173,226,0.3);
-        }
-
-        .graph-entry-btn:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 6px 24px rgba(93,173,226,0.4);
-        }
-
-        /* Top Industries Card */
-        .industries-card {
-            grid-column: span 6;
-            min-height: 240px;
-        }
-
-        .card-title {
-            font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .card-title .card-icon {
-            font-size: 16px;
-        }
-
-        .industry-list {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }
-
-        .industry-item {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 8px 12px;
-            background: rgba(255,255,255,0.03);
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.15s;
-            border: 1px solid transparent;
-        }
-
-        .industry-item:hover {
-            background: rgba(255,255,255,0.06);
-            border-color: rgba(255,255,255,0.08);
-        }
-
-        .industry-item .ind-name {
-            font-size: 13px;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .industry-item .ind-count {
-            font-size: 12px;
-            font-family: 'JetBrains Mono', monospace;
-            color: var(--accent-blue);
-            font-weight: 600;
-        }
-
-        .industry-item .ind-bar {
-            width: 40px;
-            height: 4px;
-            background: rgba(255,255,255,0.06);
-            border-radius: 2px;
-            overflow: hidden;
-        }
-
-        .industry-item .ind-bar-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #5DADE2, #A29BFA);
-            border-radius: 2px;
-        }
-
-        /* Dashboard/Timeline Cards */
-        .placeholder-card {
-            grid-column: span 3;
-            min-height: 240px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .placeholder-card .ph-icon {
-            font-size: 32px;
-            opacity: 0.3;
-        }
-
-        .placeholder-card .ph-title {
-            font-size: 16px;
-            font-weight: 700;
-            margin-top: 8px;
-        }
-
-        .placeholder-card .ph-desc {
-            font-size: 12px;
-            color: var(--text-muted);
-            margin-top: 4px;
-            line-height: 1.5;
-        }
-
-        .placeholder-card .ph-badge {
-            align-self: flex-start;
-            font-size: 11px;
-            color: var(--accent-orange);
-            background: rgba(245,176,65,0.1);
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-weight: 500;
-        }
-
-        /* Quick Actions Row */
-        .quick-actions {
-            grid-column: span 12;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 12px;
-        }
-
-        .quick-action {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 16px 20px;
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .quick-action:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(255,255,255,0.12);
-            transform: translateY(-1px);
-        }
-
-        .quick-action .qa-icon {
-            width: 36px;
-            height: 36px;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px;
-        }
-
-        .quick-action .qa-text {
-            font-size: 13px;
-            font-weight: 600;
-        }
-
-        .quick-action .qa-desc {
-            font-size: 11px;
-            color: var(--text-muted);
-            margin-top: 2px;
-        }
-
-        /* ─── Responsive ─── */
-        @media (max-width: 1200px) {
-            .bento-grid { grid-template-columns: repeat(6, 1fr); }
-            .stat-card { grid-column: span 3; }
-            .search-card, .graph-entry { grid-column: span 6; }
-            .industries-card { grid-column: span 6; }
-            .placeholder-card { grid-column: span 3; }
-            .quick-actions { grid-template-columns: repeat(2, 1fr); }
-        }
-
-        @media (max-width: 768px) {
-            .header { padding: 24px 20px 16px; }
-            .bento-grid { padding: 0 20px 24px; grid-template-columns: 1fr; }
-            .stat-card, .search-card, .graph-entry, .industries-card, .placeholder-card { grid-column: span 1; }
-            .quick-actions { grid-template-columns: 1fr; }
-            .header-title { font-size: 28px; }
-        }
-
-        /* ─── Animations ─── */
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .bento-card {
-            animation: fadeInUp 0.4s ease backwards;
-        }
-
-        .bento-card:nth-child(1) { animation-delay: 0.05s; }
-        .bento-card:nth-child(2) { animation-delay: 0.1s; }
-        .bento-card:nth-child(3) { animation-delay: 0.15s; }
-        .bento-card:nth-child(4) { animation-delay: 0.2s; }
-        .bento-card:nth-child(5) { animation-delay: 0.25s; }
-        .bento-card:nth-child(6) { animation-delay: 0.3s; }
-        .bento-card:nth-child(7) { animation-delay: 0.35s; }
-        .bento-card:nth-child(8) { animation-delay: 0.4s; }
-        .bento-card:nth-child(9) { animation-delay: 0.45s; }
-        .bento-card:nth-child(10) { animation-delay: 0.5s; }
-        .bento-card:nth-child(11) { animation-delay: 0.55s; }
-        .bento-card:nth-child(12) { animation-delay: 0.6s; }
-
-        /* ─── Search Results Dropdown ─── */
-        .search-results {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            margin-top: 8px;
-            max-height: 300px;
-            overflow-y: auto;
-            z-index: 100;
-            display: none;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-        }
-
-        .search-results.active { display: block; }
-
-        .search-result-item {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 10px 16px;
-            cursor: pointer;
-            transition: background 0.15s;
-        }
-
-        .search-result-item:hover {
-            background: rgba(255,255,255,0.06);
-        }
-
-        .search-result-item .sr-icon {
-            width: 28px;
-            height: 28px;
-            border-radius: 6px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            flex-shrink: 0;
-        }
-
-        .search-result-item .sr-name {
-            font-size: 13px;
-            font-weight: 500;
-        }
-
-        .search-result-item .sr-type {
-            font-size: 11px;
-            color: var(--text-muted);
-            margin-left: auto;
-        }
-
-        /* ─── Tab Views ─── */
-        .tab-view {
-            position: relative;
-            padding: 0 48px 48px;
-            z-index: 1;
-            animation: fadeIn 0.3s ease;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(8px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* Dashboard grid */
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            grid-template-rows: auto auto;
-            gap: 16px;
-        }
-        .dash-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 20px;
-        }
-        .dash-card.wide {
-            grid-column: span 2;
-        }
-        .dash-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-muted);
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .dash-title .icon {
-            font-size: 16px;
-        }
-
-        /* Bar chart */
-        .bar-chart {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-        .bar-row {
-            display: grid;
-            grid-template-columns: 120px 1fr 60px;
-            align-items: center;
-            gap: 12px;
-            font-size: 13px;
-        }
-        .bar-label {
-            color: var(--text);
-            font-weight: 500;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        .bar-track {
-            height: 8px;
-            background: rgba(255,255,255,0.06);
-            border-radius: 4px;
-            overflow: hidden;
-        }
-        .bar-fill {
-            height: 100%;
-            border-radius: 4px;
-            transition: width 0.6s ease;
-        }
-        .bar-value {
-            text-align: right;
-            color: var(--text-muted);
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 12px;
-        }
-
-        /* Donut chart */
-        .donut-wrap {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-        }
-        .donut-legend {
-            flex: 1;
-        }
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 12px;
-            margin-bottom: 6px;
-            color: var(--text);
-        }
-        .legend-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 3px;
-            flex-shrink: 0;
-        }
-        .legend-pct {
-            margin-left: auto;
-            color: var(--text-muted);
-            font-family: 'JetBrains Mono', monospace;
-        }
-
-        /* Top entities table */
-        .top-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 13px;
-        }
-        .top-table th {
-            text-align: left;
-            color: var(--text-muted);
-            font-weight: 500;
-            font-size: 11px;
-            padding: 6px 8px;
-            border-bottom: 1px solid var(--border);
-        }
-        .top-table td {
-            padding: 8px;
-            border-bottom: 1px solid var(--border);
-            color: var(--text);
-        }
-        .top-table tr:hover {
-            background: rgba(255,255,255,0.03);
-        }
-        .top-table .rank {
-            color: var(--text-muted);
-            font-family: 'JetBrains Mono', monospace;
-            width: 40px;
-        }
-        .top-table .entity-name {
-            font-weight: 500;
-            cursor: pointer;
-        }
-        .top-table .entity-name:hover {
-            color: #5DADE2;
-        }
-        .top-table .conn-count {
-            font-family: 'JetBrains Mono', monospace;
-            color: #5DADE2;
-            text-align: right;
-        }
-
-        /* Timeline view */
-        .timeline-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 16px;
-        }
-        .timeline-grid .wide {
-            grid-column: span 2;
-        }
-        .timeline-chart {
-            display: flex;
-            align-items: flex-end;
-            gap: 4px;
-            height: 200px;
-            padding-top: 20px;
-        }
-        .timeline-bar {
-            flex: 1;
-            background: linear-gradient(180deg, #5DADE2 0%, #A29BFA 100%);
-            border-radius: 3px 3px 0 0;
-            position: relative;
-            transition: all 0.3s;
-        }
-        .timeline-bar:hover {
-            opacity: 0.8;
-        }
-        .timeline-bar-label {
-            position: absolute;
-            bottom: -20px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 10px;
-            color: var(--text-muted);
-            white-space: nowrap;
-            font-family: 'JetBrains Mono', monospace;
-        }
-        .timeline-bar-value {
-            position: absolute;
-            top: -18px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 11px;
-            color: #5DADE2;
-            font-family: 'JetBrains Mono', monospace;
-        }
-
-        /* Stats cards row */
-        .stats-row {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 12px;
-        }
-        .stat-mini {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 16px;
-            text-align: center;
-        }
-        .stat-mini .label {
-            font-size: 11px;
-            color: var(--text-muted);
-            margin-bottom: 6px;
-        }
-        .stat-mini .value {
-            font-size: 24px;
-            font-weight: 700;
-            font-family: 'JetBrains Mono', monospace;
-            background: linear-gradient(90deg, #5DADE2, #A29BFA);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>✦ 知识图谱 · 数据全景</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ─── Reset & Base ─── */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#05050f;
+  --bg-card:rgba(12,12,30,0.85);
+  --bg-card-hover:rgba(20,20,50,0.9);
+  --text:#d0d0e0;
+  --text-muted:#6a6a8a;
+  --text-glow:#e0e0ff;
+  --accent-cyan:#00d4ff;
+  --accent-blue:#4a7aff;
+  --accent-purple:#a78bfa;
+  --accent-green:#34d399;
+  --accent-red:#f87171;
+  --accent-orange:#fb923c;
+  --accent-pink:#f472b6;
+  --border:rgba(0,212,255,0.1);
+  --border-glow:rgba(0,212,255,0.3);
+  --shadow-glow:0 0 30px rgba(0,212,255,0.08);
+  --font-mono:'JetBrains Mono',monospace;
+  --font-sans:'Inter',-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;
+}
+html,body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+body::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;
+  background:radial-gradient(ellipse at 20% 0%, rgba(0,212,255,0.04) 0%, transparent 50%),
+             radial-gradient(ellipse at 80% 100%, rgba(167,139,250,0.03) 0%, transparent 50%);
+  pointer-events:none;z-index:0}
+
+/* ─── Particle Canvas ─── */
+#particle-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none}
+
+/* ─── Scan Line Overlay ─── */
+.scanline{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;pointer-events:none;
+  background:repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,212,255,0.015) 2px, rgba(0,212,255,0.015) 4px)}
+.scanline::after{content:'';position:absolute;top:-100%;left:0;width:100%;height:5%;background:linear-gradient(180deg,transparent,rgba(0,212,255,0.04),transparent);
+  animation:scanMove 4s linear infinite;pointer-events:none}
+@keyframes scanMove{0%{top:-5%}100%{top:105%}}
+
+/* ─── Header ─── */
+.header{position:relative;padding:32px 48px 16px;z-index:2}
+.header-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;
+  background:linear-gradient(135deg, rgba(0,212,255,0.2), rgba(167,139,250,0.2));
+  border:1px solid var(--border-glow);box-shadow:0 0 20px rgba(0,212,255,0.1);position:relative}
+.brand-icon::after{content:'';position:absolute;inset:-2px;border-radius:12px;
+  background:linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));z-index:-1;opacity:0.3;filter:blur(4px)}
+.brand-title{font-size:12px;color:var(--text-muted);letter-spacing:0.15em;font-weight:600;text-transform:uppercase}
+.header-actions{display:flex;gap:6px}
+.header-btn{background:rgba(0,212,255,0.05);border:1px solid var(--border);color:var(--text-muted);padding:7px 14px;border-radius:8px;
+  font-size:12px;font-weight:500;cursor:pointer;transition:all 0.3s;font-family:inherit;position:relative;overflow:hidden}
+.header-btn::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));opacity:0;transition:opacity 0.3s}
+.header-btn:hover::before{opacity:0.08}
+.header-btn:hover{color:var(--text);border-color:var(--border-glow);box-shadow:0 0 20px rgba(0,212,255,0.05)}
+.header-btn.active{background:rgba(0,212,255,0.1);border-color:var(--accent-cyan);color:var(--text-glow);box-shadow:0 0 20px rgba(0,212,255,0.1)}
+.header-title{font-size:32px;font-weight:800;letter-spacing:-0.01em;margin-bottom:4px;position:relative}
+.header-title .glow{background:linear-gradient(90deg, #fff 0%, var(--accent-cyan) 40%, var(--accent-purple) 70%, #fff 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 100%;animation:shimmer 4s ease-in-out infinite}
+@keyframes shimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.header-subtitle{font-size:13px;color:var(--text-muted);font-weight:400}
+.header-subtitle .highlight{color:var(--accent-cyan)}
+
+/* ─── Tab Views ─── */
+.tab-view{position:relative;z-index:2;animation:fadeIn 0.5s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+
+/* ─── Bento Grid ─── */
+.bento-grid{padding:0 48px 48px;display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(120px,auto);gap:14px;z-index:2}
+.bento-card{background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:20px;position:relative;overflow:hidden;
+  cursor:pointer;transition:all 0.4s cubic-bezier(0.25,0.46,0.45,0.94);backdrop-filter:blur(10px)}
+.bento-card::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(0,212,255,0.03),transparent);transition:left 0.6s;pointer-events:none}
+.bento-card:hover::before{left:100%}
+.bento-card:hover{background:var(--bg-card-hover);border-color:var(--border-glow);transform:translateY(-3px);box-shadow:var(--shadow-glow)}
+.bento-card .card-glow{position:absolute;inset:-1px;border-radius:15px;background:linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+  opacity:0;transition:opacity 0.4s;z-index:-1;filter:blur(8px)}
+.bento-card:hover .card-glow{opacity:0.25}
+
+/* Stat Cards */
+.stat-card{grid-column:span 3;display:flex;flex-direction:column;justify-content:space-between;min-height:130px}
+.stat-card .stat-header{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--text-muted);font-weight:500}
+.stat-card .stat-icon{width:28px;height:28px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:14px}
+.stat-card .stat-value{font-size:32px;font-weight:800;letter-spacing:-0.02em;font-family:var(--font-mono);line-height:1;position:relative}
+.stat-card .stat-value .cyber-glow{position:absolute;left:0;top:50%;transform:translateY(-50%);font-size:54px;font-weight:800;
+  color:transparent;-webkit-text-stroke:1px rgba(0,212,255,0.08);pointer-events:none}
+.stat-card .stat-desc{font-size:11px;color:var(--text-muted);margin-top:4px}
+
+/* Animated counter */
+.counter{display:inline-block}
+.counter-digit{display:inline-block;transition:all 0.3s cubic-bezier(0.34,1.56,0.64,1)}
+
+/* Search Card */
+.search-card{grid-column:span 5;position:relative;min-height:130px}
+.search-label{font-size:12px;color:var(--text-muted);margin-bottom:10px}
+.search-box{display:flex;align-items:center;background:rgba(0,0,0,0.3);border:1px solid var(--border);border-radius:10px;padding:10px 14px;transition:all 0.3s}
+.search-box:focus-within{border-color:var(--accent-cyan);box-shadow:0 0 20px rgba(0,212,255,0.08)}
+.search-icon{font-size:14px;margin-right:8px;opacity:0.5}
+.search-box input{flex:1;background:none;border:none;outline:none;color:var(--text);font-size:13px;font-family:inherit}
+.search-box input::placeholder{color:var(--text-muted)}
+.search-hint{font-size:10px;color:var(--text-muted);background:rgba(255,255,255,0.05);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)}
+.search-results{position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;
+  max-height:280px;overflow-y:auto;z-index:100;display:none;backdrop-filter:blur(20px);box-shadow:0 20px 60px rgba(0,0,0,0.5)}
+.search-results.active{display:block}
+.search-result-item{display:flex;align-items:center;gap:10px;padding:8px 14px;cursor:pointer;transition:background 0.15s;font-size:12px}
+.search-result-item:hover{background:rgba(0,212,255,0.05)}
+
+/* Graph Entry */
+.graph-entry{grid-column:span 7;display:flex;flex-direction:column;justify-content:center;position:relative;min-height:130px;overflow:hidden}
+.graph-entry::after{content:'';position:absolute;right:20px;top:50%;transform:translateY(-50%);width:120px;height:120px;
+  background:radial-gradient(circle, rgba(0,212,255,0.06) 0%, transparent 70%);border-radius:50%;pointer-events:none}
+.graph-entry-title{font-size:16px;font-weight:700;margin-bottom:4px;position:relative}
+.graph-entry-desc{font-size:12px;color:var(--text-muted);margin-bottom:8px}
+.graph-entry-btn{padding:6px 18px;border-radius:20px;border:1px solid var(--border-glow);background:rgba(0,212,255,0.08);
+  color:var(--accent-cyan);font-size:12px;font-weight:600;cursor:pointer;transition:all 0.3s;display:inline-block;width:fit-content}
+.graph-entry-btn:hover{background:rgba(0,212,255,0.15);box-shadow:0 0 20px rgba(0,212,255,0.15)}
+
+/* Industry Card */
+.industries-card{grid-column:span 5;min-height:130px}
+.card-title{font-size:13px;font-weight:600;color:var(--text-muted);margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.industry-list{display:flex;flex-direction:column;gap:6px}
+.industry-item{display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;transition:background 0.2s;font-size:12px}
+.industry-item:hover{background:rgba(0,212,255,0.05)}
+.ind-name{flex:0 0 auto;width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ind-bar{flex:1;height:5px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden}
+.ind-bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));transition:width 0.6s ease}
+.ind-count{font-family:var(--font-mono);font-size:11px;color:var(--text-muted);min-width:40px;text-align:right}
+
+/* Placeholder Cards */
+.placeholder-card{grid-column:span 3;display:flex;flex-direction:column;justify-content:space-between;min-height:130px}
+.ph-icon{font-size:24px;margin-bottom:6px}
+.ph-title{font-size:14px;font-weight:600;margin-bottom:2px}
+.ph-desc{font-size:11px;color:var(--text-muted);line-height:1.4}
+.ph-badge{font-size:11px;padding:3px 10px;border-radius:12px;display:inline-block;width:fit-content}
+
+/* Quick Actions */
+.quick-actions{grid-column:span 12;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;min-height:80px;padding:16px 20px}
+.quick-action{display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:10px;cursor:pointer;transition:all 0.3s;background:rgba(255,255,255,0.02);border:1px solid transparent}
+.quick-action:hover{background:rgba(0,212,255,0.05);border-color:var(--border-glow);transform:translateY(-2px)}
+.qa-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.qa-text{font-size:13px;font-weight:600}
+.qa-desc{font-size:11px;color:var(--text-muted)}
+
+/* ─── Dashboard ─── */
+.dashboard-grid{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:auto auto;gap:14px;padding:0 48px 48px}
+.dash-card{background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:18px;position:relative;overflow:hidden;
+  backdrop-filter:blur(10px);transition:all 0.3s}
+.dash-card:hover{border-color:var(--border-glow);box-shadow:var(--shadow-glow)}
+.dash-card.wide{grid-column:span 2}
+.dash-title{font-size:12px;font-weight:600;color:var(--text-muted);margin-bottom:12px;display:flex;align-items:center;gap:6px;text-transform:uppercase;letter-spacing:0.05em}
+.bar-chart{display:flex;flex-direction:column;gap:6px}
+.bar-row{display:grid;grid-template-columns:110px 1fr 50px;align-items:center;gap:10px;font-size:12px}
+.bar-label{color:var(--text);font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-label .bar-icon{font-size:12px;margin-right:4px}
+.bar-track{height:6px;background:rgba(255,255,255,0.04);border-radius:3px;overflow:hidden;position:relative}
+.bar-fill{height:100%;border-radius:3px;transition:width 1.2s cubic-bezier(0.25,0.46,0.45,0.94);position:relative}
+.bar-fill::after{content:'';position:absolute;top:0;left:0;right:0;height:50%;background:rgba(255,255,255,0.15);border-radius:3px 3px 0 0}
+.bar-value{text-align:right;color:var(--text-muted);font-family:var(--font-mono);font-size:11px}
+.donut-wrap{display:flex;align-items:center;gap:14px}
+.donut-legend{flex:1}
+.legend-item{display:flex;align-items:center;gap:6px;font-size:11px;margin-bottom:4px;color:var(--text)}
+.legend-dot{width:8px;height:8px;border-radius:2px;flex-shrink:0}
+.legend-pct{margin-left:auto;color:var(--text-muted);font-family:var(--font-mono);font-size:10px}
+.top-table{width:100%;border-collapse:collapse;font-size:12px}
+.top-table th{text-align:left;color:var(--text-muted);font-weight:500;font-size:10px;padding:4px 6px;border-bottom:1px solid var(--border);text-transform:uppercase;letter-spacing:0.05em}
+.top-table td{padding:5px 6px;border-bottom:1px solid rgba(255,255,255,0.03);color:var(--text)}
+.top-table tr:hover{background:rgba(0,212,255,0.03)}
+.top-table .rank{color:var(--text-muted);font-family:var(--font-mono);width:28px;font-size:10px}
+.top-table .entity-name{font-weight:500;cursor:pointer}
+.top-table .entity-name:hover{color:var(--accent-cyan)}
+.top-table .conn-count{font-family:var(--font-mono);color:var(--accent-cyan);text-align:right}
+
+/* ─── Timeline ─── */
+.timeline-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 48px 48px}
+.timeline-grid .wide{grid-column:span 2}
+.timeline-chart{display:flex;align-items:flex-end;gap:3px;height:180px;padding-top:16px}
+.timeline-bar{flex:1;background:linear-gradient(180deg, var(--accent-cyan) 0%, var(--accent-purple) 100%);border-radius:2px 2px 0 0;
+  position:relative;transition:all 0.5s;min-height:2px;opacity:0.85}
+.timeline-bar:hover{opacity:1;transform:scaleY(1.05);transform-origin:bottom}
+.timeline-bar-label{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-size:9px;color:var(--text-muted);white-space:nowrap;font-family:var(--font-mono)}
+.timeline-bar-value{position:absolute;top:-16px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--accent-cyan);font-family:var(--font-mono);font-weight:600}
+.stats-row{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;padding:0 48px 12px;z-index:2;position:relative}
+.stat-mini{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:12px;text-align:center;backdrop-filter:blur(10px);transition:all 0.3s}
+.stat-mini:hover{border-color:var(--border-glow);box-shadow:var(--shadow-glow)}
+.stat-mini .label{font-size:10px;color:var(--text-muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:0.05em}
+.stat-mini .value{font-size:20px;font-weight:700;font-family:var(--font-mono);background:linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+
+/* ─── Status Bar ─── */
+.status-bar{position:fixed;bottom:0;left:0;right:0;z-index:100;height:28px;background:rgba(5,5,15,0.9);border-top:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;padding:0 16px;font-size:10px;color:var(--text-muted);font-family:var(--font-mono);backdrop-filter:blur(10px)}
+.status-bar .status-dot{width:6px;height:6px;border-radius:50%;display:inline-block;margin-right:6px;animation:pulse 2s infinite}
+.status-bar .status-dot.live{background:var(--accent-green);box-shadow:0 0 6px rgba(52,211,153,0.5)}
+.status-bar .status-dot.stale{background:var(--accent-orange);box-shadow:0 0 6px rgba(251,146,60,0.5)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+
+/* ─── Responsive ─── */
+@media(max-width:1200px){.bento-grid{grid-template-columns:repeat(6,1fr)}.stat-card{grid-column:span 3}.search-card,.graph-entry{grid-column:span 6}.industries-card{grid-column:span 6}.placeholder-card{grid-column:span 3}.quick-actions{grid-template-columns:repeat(2,1fr)}.dashboard-grid{grid-template-columns:1fr}.dash-card.wide{grid-column:span 1}}
+@media(max-width:768px){.header{padding:20px 16px 12px}.bento-grid{padding:0 16px 24px;grid-template-columns:1fr}.stat-card,.search-card,.graph-entry,.industries-card,.placeholder-card{grid-column:span 1}.quick-actions{grid-template-columns:1fr}.header-title{font-size:24px}.dashboard-grid{padding:0 16px 24px}.timeline-grid{padding:0 16px 24px;grid-template-columns:1fr}.timeline-grid .wide{grid-column:span 1}.stats-row{padding:0 16px 12px;grid-template-columns:repeat(3,1fr)}}
+
+/* ─── Data Flow Animation ─── */
+.data-flow{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;overflow:hidden;z-index:0}
+.data-flow .dot{position:absolute;width:2px;height:2px;background:var(--accent-cyan);border-radius:50%;animation:float 6s ease-in-out infinite;opacity:0}
+@keyframes float{0%{opacity:0;transform:translateY(0) translateX(0)}20%{opacity:0.6}80%{opacity:0.6}100%{opacity:0;transform:translateY(-200px) translateX(30px)}}
+
+/* ─── Glitch Text ─── */
+.glitch{position:relative}
+.glitch::before,.glitch::after{content:attr(data-text);position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}
+.glitch::before{color:var(--accent-cyan);z-index:-1;animation:glitch1 3s infinite}
+.glitch::after{color:var(--accent-purple);z-index:-1;animation:glitch2 3s infinite}
+@keyframes glitch1{0%,90%,100%{transform:translate(0)}92%{transform:translate(-2px)}94%{transform:translate(2px)}96%{transform:translate(-1px)}98%{transform:translate(1px)}}
+@keyframes glitch2{0%,90%,100%{transform:translate(0)}92%{transform:translate(1px)}94%{transform:translate(-2px)}96%{transform:translate(2px)}98%{transform:translate(-1px)}}
+
+/* ─── Loading ─── */
+.loading-overlay{position:fixed;inset:0;background:rgba(5,5,15,0.85);z-index:999;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:1;transition:opacity 0.6s}
+.loading-overlay.hidden{opacity:0;pointer-events:none}
+.loading-ring{width:48px;height:48px;border:2px solid transparent;border-top-color:var(--accent-cyan);border-right-color:var(--accent-purple);border-radius:50%;animation:spin 1s linear infinite;margin-bottom:16px}
+.loading-ring::before{content:'';position:absolute;inset:4px;border:2px solid transparent;border-bottom-color:var(--accent-cyan);border-left-color:var(--accent-purple);border-radius:50%;animation:spin 0.6s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-text{font-size:13px;color:var(--text-muted);font-family:var(--font-mono)}
+</style>
 </head>
 <body>
 
-    <!-- Header -->
-    <div class="header">
-        <div class="header-top">
-            <div class="brand">
-                <div class="brand-icon">🕸️</div>
-                <div class="brand-title">知识图谱 · 数据全景</div>
-            </div>
-            <div class="header-actions">
-                <button class="header-btn active" onclick="switchView('overview')">📊 概览</button>
-                <button class="header-btn" onclick="switchView('graph')">📊 图谱</button>
-                <button class="header-btn" onclick="switchView('dashboard')">📈 仪表盘</button>
-                <button class="header-btn" onclick="switchView('timeline')">📅 时间线</button>
-            </div>
-        </div>
-        <h1 class="header-title">📊 知识图谱 · 实体关系全局图</h1>
-        <p class="header-subtitle">基于 193 份深度研报 · 5,894 个实体 · 11,075 条关系 · 覆盖 25 个行业</p>
+<!-- Loading Overlay -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-ring" style="position:relative"></div>
+  <div class="loading-text">✦ 正在连接数据矩阵...</div>
+</div>
+
+<!-- Particle Canvas -->
+<canvas id="particle-canvas"></canvas>
+
+<!-- Scan Line -->
+<div class="scanline"></div>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-top">
+    <div class="brand">
+      <div class="brand-icon">✦</div>
+      <div class="brand-title">知识图谱 · 数据矩阵</div>
     </div>
-
-    <!-- Bento Grid (Overview) -->
-    <div class="tab-view" id="view-overview">
-    <div class="bento-grid">
-
-        <!-- Stat Cards Row -->
-        <div class="bento-card stat-card blue" onclick="window.location.href='entities_index.html'">
-            <div class="stat-header">
-                <div class="stat-icon">🔷</div>
-                <span>实体</span>
-            </div>
-            <div>
-                <div class="stat-value">5,894</div>
-                <div class="stat-desc">覆盖 25 个行业</div>
-            </div>
-        </div>
-
-        <div class="bento-card stat-card green" onclick="window.location.href='kg_viz_v3/index.html'">
-            <div class="stat-header">
-                <div class="stat-icon">🔗</div>
-                <span>关系</span>
-            </div>
-            <div>
-                <div class="stat-value">11,075</div>
-                <div class="stat-desc">5 大类关系</div>
-            </div>
-        </div>
-
-        <div class="bento-card stat-card red" onclick="window.location.href='entities_index.html'">
-            <div class="stat-header">
-                <div class="stat-icon">🏢</div>
-                <span>行业</span>
-            </div>
-            <div>
-                <div class="stat-value">25</div>
-                <div class="stat-desc">新能源电池领跑</div>
-            </div>
-        </div>
-
-        <div class="bento-card stat-card orange" onclick="window.location.href='reports.html'">
-            <div class="stat-header">
-                <div class="stat-icon">📄</div>
-                <span>研报</span>
-            </div>
-            <div>
-                <div class="stat-value">193</div>
-                <div class="stat-desc">深度分析来源</div>
-            </div>
-        </div>
-
-        <!-- Search + Graph Entry Row -->
-        <div class="bento-card search-card" style="position:relative;">
-            <div class="search-label">🔍 搜索实体、行业</div>
-            <div class="search-box">
-                <span class="search-icon">🔍</span>
-                <input type="text" id="searchInput" placeholder="输入实体名称或行业..." oninput="handleSearch(this.value)" onfocus="handleSearch(this.value)">
-                <span class="search-hint">⌘K</span>
-            </div>
-            <div class="search-results" id="searchResults"></div>
-        </div>
-
-        <div class="bento-card graph-entry" onclick="window.location.href='kg_viz_v3/index.html'">
-            <div class="graph-entry-title">📊 进入图谱</div>
-            <div class="graph-entry-desc">力导向图谱 · 行业筛选 · Wiki 详情 · 关系分析</div>
-            <button class="graph-entry-btn">点击进入 →</button>
-        </div>
-
-        <!-- Top Industries + Placeholders Row -->
-        <div class="bento-card industries-card">
-            <div class="card-title"><span class="card-icon">🏢</span> Top 行业</div>
-            <div class="industry-list" id="industryList"></div>
-        </div>
-
-        <div class="bento-card placeholder-card" onclick="switchView('dashboard'); event.stopPropagation();">
-            <div>
-                <div class="ph-icon">📈</div>
-                <div class="ph-title">仪表盘</div>
-                <div class="ph-desc">行业分布 · Top 实体排行 · 关系热力图</div>
-            </div>
-            <span class="ph-badge" style="background:rgba(93,173,226,0.2); color:#5DADE2; border:1px solid rgba(93,173,226,0.3);">点击查看 →</span>
-        </div>
-
-        <div class="bento-card placeholder-card" onclick="switchView('timeline'); event.stopPropagation();">
-            <div>
-                <div class="ph-icon">📅</div>
-                <div class="ph-title">时间线</div>
-                <div class="ph-desc">研报发布时间轴 · 行业演变轨迹</div>
-            </div>
-            <span class="ph-badge" style="background:rgba(93,173,226,0.2); color:#5DADE2; border:1px solid rgba(93,173,226,0.3);">点击查看 →</span>
-        </div>
-
-        <!-- Quick Actions Row -->
-        <div class="bento-card quick-actions">
-            <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
-                <div class="qa-icon" style="background:rgba(93,173,226,0.15); color:#5DADE2;">⚡</div>
-                <div>
-                    <div class="qa-text">新能源电池</div>
-                    <div class="qa-desc">2,068 实体</div>
-                </div>
-            </div>
-            <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
-                <div class="qa-icon" style="background:rgba(88,214,141,0.15); color:#58D68D;">🔧</div>
-                <div>
-                    <div class="qa-text">电力设备</div>
-                    <div class="qa-desc">1,637 实体</div>
-                </div>
-            </div>
-            <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
-                <div class="qa-icon" style="background:rgba(236,112,99,0.15); color:#EC7063;">💠</div>
-                <div>
-                    <div class="qa-text">半导体</div>
-                    <div class="qa-desc">291 实体</div>
-                </div>
-            </div>
-            <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
-                <div class="qa-icon" style="background:rgba(245,176,65,0.15); color:#F5B041;">💊</div>
-                <div>
-                    <div class="qa-text">医药</div>
-                    <div class="qa-desc">260 实体</div>
-                </div>
-            </div>
-        </div>
-
+    <div class="header-actions">
+      <button class="header-btn active" onclick="switchView('overview')">✦ 概览</button>
+      <button class="header-btn" onclick="switchView('graph')">✦ 图谱</button>
+      <button class="header-btn" onclick="switchView('dashboard')">✦ 仪表盘</button>
+      <button class="header-btn" onclick="switchView('timeline')">✦ 时间线</button>
     </div>
-    </div>
+  </div>
+  <h1 class="header-title"><span class="glow">✦ 知识图谱 · 实体关系全局图</span></h1>
+  <p class="header-subtitle">基于 <span class="highlight" id="reportCount">--</span> 份深度研报 · <span class="highlight" id="entityCount">--</span> 个实体 · <span class="highlight" id="relationCount">--</span> 条关系 · <span class="highlight" id="industryCount">--</span> 个行业</p>
+</div>
 
-    <!-- Dashboard View -->
-    <div class="tab-view" id="view-dashboard" style="display:none;">
-    <div class="dashboard-grid">
-        <!-- Industry Distribution (left, wide) -->
-        <div class="dash-card">
-            <div class="dash-title"><span class="icon">🏭</span> 行业分布</div>
-            <div class="bar-chart" id="dash-industries"></div>
-        </div>
-        <!-- Entity Types (right) -->
-        <div class="dash-card">
-            <div class="dash-title"><span class="icon">🔷</span> 实体类型</div>
-            <div class="donut-wrap" id="dash-types"></div>
-        </div>
-        <!-- Relation Types (left, wide) -->
-        <div class="dash-card">
-            <div class="dash-title"><span class="icon">🔗</span> 关系类型</div>
-            <div class="bar-chart" id="dash-relations"></div>
-        </div>
-        <!-- Top Entities (right) -->
-        <div class="dash-card">
-            <div class="dash-title"><span class="icon">🏆</span> Top 实体排行</div>
-            <table class="top-table" id="dash-top">
-                <thead><tr><th>#</th><th>实体</th><th>类型</th><th>行业</th><th>连接数</th></tr></thead>
-                <tbody></tbody>
-            </table>
-        </div>
-    </div>
-    </div>
+<!-- Overview Tab -->
+<div class="tab-view" id="view-overview" style="display:block">
+<div class="bento-grid">
 
-    <!-- Timeline View -->
-    <div class="tab-view" id="view-timeline" style="display:none;">
-    <!-- Stats Row -->
-    <div class="stats-row" id="timeline-stats"></div>
-    <div style="height:16px;"></div>
-    <div class="timeline-grid">
-        <!-- Report Timeline (wide) -->
-        <div class="dash-card wide">
-            <div class="dash-title"><span class="icon">📄</span> 研报发布时间轴</div>
-            <div class="timeline-chart" id="timeline-chart"></div>
-        </div>
-        <!-- Industry Timeline -->
-        <div class="dash-card">
-            <div class="dash-title"><span class="icon">🏭</span> 行业实体分布</div>
-            <div class="bar-chart" id="timeline-industries"></div>
-        </div>
-        <!-- Relation Types -->
-        <div class="dash-card">
-            <div class="dash-title"><span class="icon">🔗</span> 关系类型分布</div>
-            <div class="donut-wrap" id="timeline-relations"></div>
-        </div>
+  <!-- Stat Cards -->
+  <div class="bento-card stat-card" style="--accent:var(--accent-cyan)" onclick="window.location.href='entities_index.html'">
+    <div class="card-glow"></div>
+    <div class="stat-header"><div class="stat-icon" style="background:rgba(0,212,255,0.12);color:var(--accent-cyan)">◆</div><span>实体</span></div>
+    <div><div class="stat-value"><span class="counter" id="counter-entities">0</span></div><div class="stat-desc">覆盖多行业</div></div>
+  </div>
+
+  <div class="bento-card stat-card" style="--accent:var(--accent-purple)" onclick="window.location.href='kg_viz_v3/index.html'">
+    <div class="card-glow"></div>
+    <div class="stat-header"><div class="stat-icon" style="background:rgba(167,139,250,0.12);color:var(--accent-purple)">◇</div><span>关系</span></div>
+    <div><div class="stat-value"><span class="counter" id="counter-relations">0</span></div><div class="stat-desc">多维关联网络</div></div>
+  </div>
+
+  <div class="bento-card stat-card" style="--accent:var(--accent-green)" onclick="window.location.href='entities_index.html'">
+    <div class="card-glow"></div>
+    <div class="stat-header"><div class="stat-icon" style="background:rgba(52,211,153,0.12);color:var(--accent-green)">◈</div><span>行业</span></div>
+    <div><div class="stat-value"><span class="counter" id="counter-industries">0</span></div><div class="stat-desc">全行业覆盖</div></div>
+  </div>
+
+  <div class="bento-card stat-card" style="--accent:var(--accent-orange)" onclick="window.location.href='reports.html'">
+    <div class="card-glow"></div>
+    <div class="stat-header"><div class="stat-icon" style="background:rgba(251,146,60,0.12);color:var(--accent-orange)">▣</div><span>研报</span></div>
+    <div><div class="stat-value"><span class="counter" id="counter-reports">0</span></div><div class="stat-desc">深度分析来源</div></div>
+  </div>
+
+  <!-- Search -->
+  <div class="bento-card search-card" style="position:relative">
+    <div class="card-glow"></div>
+    <div class="search-label">✦ 搜索实体、行业</div>
+    <div class="search-box">
+      <span class="search-icon">✦</span>
+      <input type="text" id="searchInput" placeholder="输入实体名称或行业..." oninput="handleSearch(this.value)" onfocus="handleSearch(this.value)">
+      <span class="search-hint">⌘K</span>
     </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+
+  <!-- Graph Entry -->
+  <div class="bento-card graph-entry" onclick="window.location.href='kg_viz_v3/index.html'">
+    <div class="card-glow"></div>
+    <div class="data-flow" id="dataFlow"></div>
+    <div class="graph-entry-title">✦ 进入图谱</div>
+    <div class="graph-entry-desc">力导向图谱 · 行业筛选 · Wiki 详情 · 关系分析</div>
+    <div class="graph-entry-btn">✦ 启动探索 →</div>
+  </div>
+
+  <!-- Industries -->
+  <div class="bento-card industries-card">
+    <div class="card-glow"></div>
+    <div class="card-title">◈ Top 行业</div>
+    <div class="industry-list" id="industryList"></div>
+  </div>
+
+  <!-- Placeholders -->
+  <div class="bento-card placeholder-card" onclick="switchView('dashboard');event.stopPropagation()">
+    <div class="card-glow"></div>
+    <div><div class="ph-icon">◈</div><div class="ph-title">仪表盘</div><div class="ph-desc">行业分布 · Top 实体排行 · 关系热力图</div></div>
+    <span class="ph-badge" style="background:rgba(0,212,255,0.1);color:var(--accent-cyan);border:1px solid rgba(0,212,255,0.2)">✦ 点击查看 →</span>
+  </div>
+
+  <div class="bento-card placeholder-card" onclick="switchView('timeline');event.stopPropagation()">
+    <div class="card-glow"></div>
+    <div><div class="ph-icon">◈</div><div class="ph-title">时间线</div><div class="ph-desc">研报发布时间轴 · 行业演变轨迹</div></div>
+    <span class="ph-badge" style="background:rgba(167,139,250,0.1);color:var(--accent-purple);border:1px solid rgba(167,139,250,0.2)">✦ 点击查看 →</span>
+  </div>
+
+  <!-- Quick Actions -->
+  <div class="bento-card quick-actions">
+    <div class="card-glow"></div>
+    <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
+      <div class="qa-icon" style="background:rgba(0,212,255,0.12);color:var(--accent-cyan)">⚡</div>
+      <div><div class="qa-text">新能源电池</div><div class="qa-desc" id="qa-battery">-- 实体</div></div>
     </div>
+    <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
+      <div class="qa-icon" style="background:rgba(52,211,153,0.12);color:var(--accent-green)">🔧</div>
+      <div><div class="qa-text">电力设备</div><div class="qa-desc" id="qa-power">-- 实体</div></div>
+    </div>
+    <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
+      <div class="qa-icon" style="background:rgba(248,113,113,0.12);color:var(--accent-red)">💠</div>
+      <div><div class="qa-text">半导体</div><div class="qa-desc" id="qa-semi">-- 实体</div></div>
+    </div>
+    <div class="quick-action" onclick="window.location.href='kg_viz_v3/index.html'">
+      <div class="qa-icon" style="background:rgba(251,146,60,0.12);color:var(--accent-orange)">💊</div>
+      <div><div class="qa-text">人工智能</div><div class="qa-desc" id="qa-ai">-- 实体</div></div>
+    </div>
+  </div>
 
-    <script>
-    const industries = [
-        { name: '新能源电池行业', count: 2068, icon: '⚡' },
-        { name: '电力设备', count: 1637, icon: '🔧' },
-        { name: '半导体', count: 291, icon: '💠' },
-        { name: '医药', count: 260, icon: '💊' },
-        { name: '低空经济', count: 228, icon: '✈️' },
-        { name: '人工智能', count: 184, icon: '🤖' },
-        { name: '光伏设备', count: 149, icon: '☀️' },
-        { name: '有色金属', count: 131, icon: '🥇' },
-    ];
+</div>
+</div>
 
-    const maxCount = industries[0].count;
+<!-- Dashboard View -->
+<div class="tab-view" id="view-dashboard" style="display:none">
+<div class="dashboard-grid">
+  <div class="dash-card">
+    <div class="dash-title">◈ 行业分布</div>
+    <div class="bar-chart" id="dash-industries"></div>
+  </div>
+  <div class="dash-card">
+    <div class="dash-title">◈ 实体类型</div>
+    <div class="donut-wrap" id="dash-types"></div>
+  </div>
+  <div class="dash-card">
+    <div class="dash-title">◈ 关系类型</div>
+    <div class="bar-chart" id="dash-relations"></div>
+  </div>
+  <div class="dash-card">
+    <div class="dash-title">◈ Top 实体排行</div>
+    <table class="top-table" id="dash-top">
+      <thead><tr><th>#</th><th>实体</th><th>类型</th><th>行业</th><th>连接数</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+</div>
 
-    function renderIndustries() {
-        const list = document.getElementById('industryList');
-        list.innerHTML = industries.map((ind, i) => {
-            const pct = (ind.count / maxCount * 100).toFixed(0);
-            return `
-                <div class="industry-item" onclick="window.location.href='kg_viz_v3/index.html'">
-                    <div class="ind-name">${ind.icon} ${ind.name}</div>
-                    <div class="ind-bar"><div class="ind-bar-fill" style="width:${pct}%"></div></div>
-                    <div class="ind-count">${ind.count.toLocaleString()}</div>
-                </div>
-            `;
-        }).join('');
+<!-- Timeline View -->
+<div class="tab-view" id="view-timeline" style="display:none">
+<div class="stats-row" id="timeline-stats"></div>
+<div style="height:12px"></div>
+<div class="timeline-grid">
+  <div class="dash-card wide">
+    <div class="dash-title">◈ 研报发布时间轴</div>
+    <div class="timeline-chart" id="timeline-chart"></div>
+  </div>
+  <div class="dash-card">
+    <div class="dash-title">◈ 行业实体分布</div>
+    <div class="bar-chart" id="timeline-industries"></div>
+  </div>
+  <div class="dash-card">
+    <div class="dash-title">◈ 关系类型分布</div>
+    <div class="donut-wrap" id="timeline-relations"></div>
+  </div>
+</div>
+</div>
+
+<!-- Status Bar -->
+<div class="status-bar">
+  <span><span class="status-dot live" id="statusDot"></span><span id="statusLeft">✦ 矩阵就绪</span></span>
+  <span id="statusRight">✦ 数据更新: --</span>
+</div>
+
+<script>
+// ─── Particle System ───
+(function initParticles() {
+  const canvas = document.getElementById('particle-canvas');
+  const ctx = canvas.getContext('2d');
+  let particles = [];
+  let w, h;
+
+  function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  class Particle {
+    constructor() { this.reset(); }
+    reset() {
+      this.x = Math.random() * w;
+      this.y = Math.random() * h;
+      this.size = Math.random() * 1.5 + 0.5;
+      this.speedX = (Math.random() - 0.5) * 0.3;
+      this.speedY = (Math.random() - 0.5) * 0.3;
+      this.opacity = Math.random() * 0.4 + 0.1;
+      this.hue = Math.random() < 0.6 ? 190 : 260; // cyan or purple
     }
-
-    // ─── Search (lightweight, no Fuse.js) ───
-    const allEntities = [
-        { name: '宁德时代', type: '企业', industry: '新能源电池行业' },
-        { name: '比亚迪', type: '企业', industry: '新能源电池行业' },
-        { name: '卫蓝新能源', type: '企业', industry: '新能源电池行业' },
-        { name: '国轩高科', type: '企业', industry: '新能源电池行业' },
-        { name: '亿纬锂能', type: '企业', industry: '新能源电池行业' },
-        { name: '中创新航', type: '企业', industry: '新能源电池行业' },
-        { name: '欣旺达', type: '企业', industry: '新能源电池行业' },
-        { name: '珠海冠宇', type: '企业', industry: '新能源电池行业' },
-        { name: '鹏辉能源', type: '企业', industry: '新能源电池行业' },
-        { name: '孚能科技', type: '企业', industry: '新能源电池行业' },
-        { name: '阳光电源', type: '企业', industry: '电力设备' },
-        { name: '汇川技术', type: '企业', industry: '电力设备' },
-        { name: '特变电工', type: '企业', industry: '电力设备' },
-        { name: '许继电气', type: '企业', industry: '电力设备' },
-        { name: '思源电气', type: '企业', industry: '电力设备' },
-        { name: '国电南瑞', type: '企业', industry: '电力设备' },
-        { name: '正泰电器', type: '企业', industry: '电力设备' },
-        { name: '德业股份', type: '企业', industry: '电力设备' },
-        { name: '上能电气', type: '企业', industry: '电力设备' },
-        { name: '固德威', type: '企业', industry: '电力设备' },
-        { name: '中芯国际', type: '企业', industry: '半导体' },
-        { name: '华虹半导体', type: '企业', industry: '半导体' },
-        { name: '韦尔股份', type: '企业', industry: '半导体' },
-        { name: '兆易创新', type: '企业', industry: '半导体' },
-        { name: '卓胜微', type: '企业', industry: '半导体' },
-        { name: '北方华创', type: '企业', industry: '半导体' },
-        { name: '中微公司', type: '企业', industry: '半导体' },
-        { name: '圣邦股份', type: '企业', industry: '半导体' },
-        { name: '澜起科技', type: '企业', industry: '半导体' },
-        { name: '紫光国微', type: '企业', industry: '半导体' },
-    ];
-
-    function handleSearch(query) {
-        const results = document.getElementById('searchResults');
-        if (!query || query.length < 1) {
-            results.classList.remove('active');
-            return;
-        }
-
-        const q = query.toLowerCase();
-        const matches = allEntities.filter(e =>
-            e.name.toLowerCase().includes(q) ||
-            e.industry.toLowerCase().includes(q)
-        ).slice(0, 8);
-
-        if (matches.length === 0) {
-            results.innerHTML = '<div class="search-result-item" style="color:var(--text-muted); font-size:13px; justify-content:center;">未找到匹配结果</div>';
-        } else {
-            results.innerHTML = matches.map(m => {
-                const typeColor = m.type === '企业' ? '#5DADE2' : '#58D68D';
-                const typeIcon = m.type === '企业' ? '🏢' : '🏭';
-                return `
-                    <div class="search-result-item" onclick="window.location.href='entities_index.html'">
-                        <div class="sr-icon" style="background:${typeColor}22; color:${typeColor};">${typeIcon}</div>
-                        <div class="sr-name">${m.name}</div>
-                        <div class="sr-type">${m.industry}</div>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        results.classList.add('active');
+    update() {
+      this.x += this.speedX;
+      this.y += this.speedY;
+      if (this.x < 0 || this.x > w) this.speedX *= -1;
+      if (this.y < 0 || this.y > h) this.speedY *= -1;
     }
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = `hsla(${this.hue}, 80%, 60%, ${this.opacity})`;
+      ctx.fill();
+    }
+  }
 
-    // Close search results on outside click
-    document.addEventListener('click', function(e) {
-        const searchBox = document.querySelector('.search-box');
-        const results = document.getElementById('searchResults');
-        if (!searchBox.contains(e.target) && !results.contains(e.target)) {
-            results.classList.remove('active');
-        }
+  const count = Math.min(120, Math.floor(w * h / 12000));
+  for (let i = 0; i < count; i++) particles.push(new Particle());
+
+  let connections = [];
+  function updateConnections() {
+    connections = [];
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 150) connections.push({ i, j, dist, opacity: (1 - dist / 150) * 0.15 });
+      }
+    }
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, w, h);
+    particles.forEach(p => { p.update(); p.draw(); });
+    connections.forEach(c => {
+      ctx.beginPath();
+      ctx.moveTo(particles[c.i].x, particles[c.i].y);
+      ctx.lineTo(particles[c.j].x, particles[c.j].y);
+      ctx.strokeStyle = `rgba(0,212,255,${c.opacity})`;
+      ctx.lineWidth = 0.5;
+      ctx.stroke();
     });
+    updateConnections();
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
 
-    // ─── Keyboard shortcut ───
-    document.addEventListener('keydown', function(e) {
-        if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-            e.preventDefault();
-            document.getElementById('searchInput').focus();
-        }
-    });
+// ─── Data Flow Dots ───
+(function initDataFlow() {
+  const container = document.getElementById('dataFlow');
+  if (!container) return;
+  for (let i = 0; i < 12; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'dot';
+    dot.style.left = Math.random() * 100 + '%';
+    dot.style.top = Math.random() * 100 + '%';
+    dot.style.animationDelay = Math.random() * 6 + 's';
+    dot.style.animationDuration = (4 + Math.random() * 4) + 's';
+    container.appendChild(dot);
+  }
+})();
 
-    // ─── View Switching ───
-    function switchView(view) {
-        document.querySelectorAll('.header-btn').forEach(btn => btn.classList.remove('active'));
-        // Find and highlight the matching header button
-        const btnMap = { overview: '📊 概览', graph: '📊 图谱', dashboard: '📈 仪表盘', timeline: '📅 时间线' };
-        document.querySelectorAll('.header-btn').forEach(btn => {
-            if (btn.textContent.trim() === btnMap[view]) {
-                btn.classList.add('active');
-            }
-        });
+// ─── Data Loading ───
+let wikiData = null;
+const DATA_URL = 'data/wiki_data.json';
 
-        document.getElementById('view-overview').style.display = 'none';
-        document.getElementById('view-dashboard').style.display = 'none';
-        document.getElementById('view-timeline').style.display = 'none';
+async function loadData() {
+  try {
+    const resp = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    wikiData = await resp.json();
+    renderAll();
+    document.getElementById('loadingOverlay').classList.add('hidden');
+    document.getElementById('statusLeft').textContent = '✦ 矩阵就绪';
+    document.getElementById('statusDot').className = 'status-dot live';
+    document.getElementById('statusRight').textContent = '✦ ' + (wikiData.updated_at || '--');
+    return true;
+  } catch(e) {
+    console.warn('Data load failed, using fallback:', e);
+    document.getElementById('loadingOverlay').classList.add('hidden');
+    document.getElementById('statusLeft').textContent = '✦ 离线模式';
+    document.getElementById('statusDot').className = 'status-dot stale';
+    return false;
+  }
+}
 
-        if (view === 'overview') {
-            document.getElementById('view-overview').style.display = 'block';
-        } else if (view === 'graph') {
-            window.location.href = 'kg_viz_v3/index.html';
-        } else if (view === 'dashboard') {
-            document.getElementById('view-dashboard').style.display = 'block';
-        } else if (view === 'timeline') {
-            document.getElementById('view-timeline').style.display = 'block';
-        }
+// ─── Animated Counter ───
+function animateCounter(el, target, duration = 800) {
+  const start = parseInt(el.textContent.replace(/,/g, '')) || 0;
+  const diff = target - start;
+  if (diff === 0) return;
+  const startTime = Date.now();
+  function tick() {
+    const elapsed = Date.now() - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    // Ease out cubic
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const current = Math.round(start + diff * eased);
+    el.textContent = current.toLocaleString();
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  tick();
+}
+
+// ─── Render ───
+function renderAll() {
+  if (!wikiData) return;
+  const d = wikiData;
+
+  // Header stats
+  document.getElementById('entityCount').textContent = (d.total_entities || 0).toLocaleString();
+  document.getElementById('relationCount').textContent = (d.total_relations || 0).toLocaleString();
+  document.getElementById('reportCount').textContent = (d.total_reports || 0).toLocaleString();
+  const indCount = d.industries ? d.industries.length : 0;
+  document.getElementById('industryCount').textContent = indCount.toLocaleString();
+
+  // Stat counters
+  animateCounter(document.getElementById('counter-entities'), d.total_entities || 0);
+  animateCounter(document.getElementById('counter-relations'), d.total_relations || 0);
+  animateCounter(document.getElementById('counter-industries'), indCount);
+  animateCounter(document.getElementById('counter-reports'), d.total_reports || 0);
+
+  // Quick action industry counts
+  if (d.industries) {
+    const findInd = name => d.industries.find(i => i.name.includes(name));
+    const bat = findInd('新能源电池');
+    const pow = findInd('电力设备');
+    const sem = findInd('半导体');
+    const ai = findInd('人工智能');
+    if (bat) document.getElementById('qa-battery').textContent = bat.count.toLocaleString() + ' 实体';
+    if (pow) document.getElementById('qa-power').textContent = pow.count.toLocaleString() + ' 实体';
+    if (sem) document.getElementById('qa-semi').textContent = sem.count.toLocaleString() + ' 实体';
+    if (ai) document.getElementById('qa-ai').textContent = ai.count.toLocaleString() + ' 实体';
+  }
+
+  // Industry list
+  if (d.industries) {
+    const list = document.getElementById('industryList');
+    const maxCount = d.industries[0].count;
+    list.innerHTML = d.industries.slice(0, 8).map(ind => {
+      const pct = (ind.count / maxCount * 100).toFixed(0);
+      return `<div class="industry-item" onclick="window.location.href='kg_viz_v3/index.html'">
+        <div class="ind-name">${ind.icon || '◈'} ${ind.name}</div>
+        <div class="ind-bar"><div class="ind-bar-fill" style="width:${pct}%"></div></div>
+        <div class="ind-count">${ind.count.toLocaleString()}</div>
+      </div>`;
+    }).join('');
+  }
+
+  // Dashboard
+  renderDashboard(d);
+  renderTimeline(d);
+}
+
+function renderDashboard(d) {
+  const chartColors = ['#00d4ff','#a78bfa','#34d399','#f87171','#fb923c','#f472b6','#4a7aff','#6ee7b7','#fbbf24','#c084fc'];
+
+  // Industries
+  if (d.industries) {
+    const top10 = d.industries.slice(0, 10);
+    const maxVal = top10[0].count;
+    const container = document.getElementById('dash-industries');
+    if (container) {
+      container.innerHTML = top10.map((ind, i) => {
+        const pct = (ind.count / maxVal * 100).toFixed(0);
+        const color = chartColors[i % chartColors.length];
+        return `<div class="bar-row">
+          <div class="bar-label">${ind.name}</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div>
+          <div class="bar-value">${ind.count.toLocaleString()}</div>
+        </div>`;
+      }).join('');
     }
+  }
 
-    // ─── Dashboard Data ───
-    const DASH_INDUSTRIES = [
-        { name: '新能源电池行业', count: 2062 },
-        { name: '电力设备', count: 1637 },
-        { name: '半导体', count: 293 },
-        { name: '医药', count: 260 },
-        { name: '低空经济', count: 228 },
-        { name: '人工智能', count: 184 },
-        { name: '光伏设备', count: 149 },
-        { name: '机械设备', count: 148 },
-        { name: '有色金属', count: 133 },
-        { name: '汽车零部件', count: 127 },
-    ];
-    const DASH_TYPES = [
-        { name: 'ORG', count: 2407, color: '#5DADE2', label: '企业' },
-        { name: 'PRODUCT', count: 945, color: '#58D68D', label: '产品' },
-        { name: 'TECH', count: 905, color: '#EC7063', label: '技术' },
-        { name: 'INDUSTRY', count: 539, color: '#F5B041', label: '行业' },
-        { name: 'POLICY', count: 513, color: '#A29BFA', label: '政策' },
-        { name: 'PLACE', count: 305, color: '#BB8FCE', label: '地点' },
-        { name: 'PERSON', count: 280, color: '#85C1E9', label: '人物' },
-    ];
-    const DASH_RELATIONS = [
-        { name: '上下游', count: 2248 },
-        { name: '合作', count: 1642 },
-        { name: '监管', count: 1478 },
-        { name: '供应', count: 1372 },
-        { name: '对比', count: 1191 },
-        { name: '竞争', count: 970 },
-        { name: '投资', count: 687 },
-        { name: '战略联盟', count: 587 },
-        { name: '客户', count: 558 },
-    ];
-    const DASH_TOP = [
-        { name: '比亚迪', type: 'ORG', industry: '汽车零部件', connections: 178 },
-        { name: '宁德时代', type: 'ORG', industry: '新能源电池行业', connections: 103 },
-        { name: '亿纬锂能', type: 'ORG', industry: '新能源电池行业', connections: 98 },
-        { name: '特斯拉', type: 'ORG', industry: '汽车零部件', connections: 86 },
-        { name: '胜业电气', type: 'ORG', industry: '电力设备', connections: 80 },
-        { name: '固态电池行业', type: 'INDUSTRY', industry: '新能源电池行业', connections: 79 },
-        { name: '美国', type: 'PLACE', industry: '电力设备', connections: 75 },
-        { name: '天赐材料', type: 'ORG', industry: '新能源电池行业', connections: 72 },
-        { name: '华为', type: 'ORG', industry: '半导体', connections: 61 },
-        { name: '隆基绿能', type: 'ORG', industry: '光伏设备', connections: 58 },
-    ];
-    const DASH_TIMELINE = [
-        { month: '2026-07', count: 2 },
-        { month: '2026-06', count: 142 },
-        { month: '2026-05', count: 49 },
-    ];
+  // Entity types
+  if (d.entity_types) {
+    const total = d.entity_types.reduce((s, t) => s + t.count, 0);
+    const container = document.getElementById('dash-types');
+    if (container) {
+      const typeColors = { ORG: '#00d4ff', PRODUCT: '#34d399', TECH: '#f87171', INDUSTRY: '#fb923c', POLICY: '#a78bfa', PERSON: '#f472b6', PLACE: '#4a7aff' };
+      const typeLabels = { ORG: '企业', PRODUCT: '产品', TECH: '技术', INDUSTRY: '行业', POLICY: '政策', PERSON: '人物', PLACE: '地点' };
+      let cumPct = 0;
+      const stops = d.entity_types.map(t => {
+        const pct = (t.count / total * 100);
+        const s = cumPct.toFixed(1);
+        cumPct += pct;
+        const e = cumPct.toFixed(1);
+        const color = typeColors[t.type] || '#888';
+        return `<stop offset="${s}%" stop-color="${color}"/><stop offset="${e}%" stop-color="${color}"/>`;
+      }).join('');
 
-    // ─── Render Functions ───
-    const chartColors = ['#5DADE2', '#58D68D', '#EC7063', '#F5B041', '#A29BFA', '#BB8FCE', '#85C1E9', '#F1948A', '#82E0AA', '#85929E'];
+      container.innerHTML = `
+        <svg width="120" height="120" viewBox="0 0 120 120" style="flex-shrink:0;">
+          <defs><linearGradient id="donutGrad" x1="0" y1="0" x2="0" y2="1">${stops}</linearGradient></defs>
+          <circle cx="60" cy="60" r="42" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="18"/>
+          <circle cx="60" cy="60" r="42" fill="none" stroke="url(#donutGrad)" stroke-width="18"
+            stroke-dasharray="${d.entity_types.map(t => ((t.count / total) * 263.9).toFixed(1)).join(' ')} ${263.9}"
+            stroke-dashoffset="0" transform="rotate(-90 60 60)"/>
+          <text x="60" y="58" text-anchor="middle" fill="#e0e0e0" font-size="18" font-weight="700">${total.toLocaleString()}</text>
+          <text x="60" y="74" text-anchor="middle" fill="#6a6a8a" font-size="9">实体</text>
+        </svg>
+        <div class="donut-legend">
+          ${d.entity_types.map(t => {
+            const pct = (t.count / total * 100).toFixed(0);
+            const color = typeColors[t.type] || '#888';
+            const label = typeLabels[t.type] || t.type;
+            return `<div class="legend-item"><span class="legend-dot" style="background:${color}"></span><span>${label}</span><span class="legend-pct">${pct}%</span></div>`;
+          }).join('')}
+        </div>`;
+    }
+  }
 
-    function renderBarChart(containerId, data, maxVal) {
-        const container = document.getElementById(containerId);
-        if (!container) return;
-        container.innerHTML = data.map((d, i) => {
-            const pct = maxVal > 0 ? (d.count / maxVal * 100) : 0;
+  // Relations
+  if (d.relations) {
+    const top8 = d.relations.slice(0, 8);
+    const maxVal = top8[0].count;
+    const container = document.getElementById('dash-relations');
+    if (container) {
+      container.innerHTML = top8.map((r, i) => {
+        const pct = (r.count / maxVal * 100).toFixed(0);
+        const color = chartColors[i % chartColors.length];
+        return `<div class="bar-row">
+          <div class="bar-label">${r.name}</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div>
+          <div class="bar-value">${r.count.toLocaleString()}</div>
+        </div>`;
+      }).join('');
+    }
+  }
+
+  // Top entities
+  if (d.top_entities) {
+    const tbody = document.querySelector('#dash-top tbody');
+    if (tbody) {
+      const typeIcons = { ORG: '◆', PRODUCT: '▣', TECH: '◇', INDUSTRY: '◈', POLICY: '▢', PLACE: '◯', PERSON: '◉' };
+      tbody.innerHTML = d.top_entities.map((e, i) => {
+        const icon = typeIcons[e.type] || '◆';
+        return `<tr onclick="window.location.href='entities_index.html'">
+          <td class="rank">${String(i+1).padStart(2,'0')}</td>
+          <td class="entity-name">${icon} ${e.name}</td>
+          <td>${e.type || '-'}</td>
+          <td>${e.industry || '-'}</td>
+          <td class="conn-count">${e.connections}</td>
+        </tr>`;
+      }).join('');
+    }
+  }
+}
+
+function renderTimeline(d) {
+  const chartColors = ['#00d4ff','#a78bfa','#34d399','#f87171','#fb923c','#4a7aff','#f472b6','#6ee7b7'];
+
+  // Timeline chart
+  if (d.timeline && d.timeline.length > 0) {
+    const container = document.getElementById('timeline-chart');
+    if (container) {
+      const maxCount = Math.max(...d.timeline.map(t => t.count));
+      container.innerHTML = d.timeline.map(t => {
+        const height = (t.count / maxCount * 100).toFixed(0);
+        return `<div class="timeline-bar" style="height:${height}%">
+          <div class="timeline-bar-value">${t.count}</div>
+          <div class="timeline-bar-label">${t.month}</div>
+        </div>`;
+      }).join('');
+    }
+  }
+
+  // Timeline stats
+  const container = document.getElementById('timeline-stats');
+  if (container) {
+    container.innerHTML = [
+      { label: '实体', value: (d.total_entities || 0).toLocaleString() },
+      { label: '关系', value: (d.total_relations || 0).toLocaleString() },
+      { label: '行业', value: (d.industries ? d.industries.length : 0).toLocaleString() },
+      { label: '研报', value: (d.total_reports || 0).toLocaleString() },
+      { label: '连接密度', value: d.total_entities > 0 ? ((d.total_relations / d.total_entities) * 100 / 100).toFixed(2) : '0' },
+    ].map(s => `<div class="stat-mini"><div class="label">${s.label}</div><div class="value">${s.value}</div></div>`).join('');
+  }
+
+  // Timeline industries
+  if (d.industries) {
+    const top8 = d.industries.slice(0, 8);
+    const maxVal = top8[0].count;
+    const container2 = document.getElementById('timeline-industries');
+    if (container2) {
+      container2.innerHTML = top8.map((ind, i) => {
+        const pct = (ind.count / maxVal * 100).toFixed(0);
+        const color = chartColors[i % chartColors.length];
+        return `<div class="bar-row">
+          <div class="bar-label">${ind.name}</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div>
+          <div class="bar-value">${ind.count.toLocaleString()}</div>
+        </div>`;
+      }).join('');
+    }
+  }
+
+  // Timeline relations
+  if (d.relations) {
+    const top6 = d.relations.slice(0, 6);
+    const total = top6.reduce((s, r) => s + r.count, 0);
+    const container3 = document.getElementById('timeline-relations');
+    if (container3 && total > 0) {
+      let cumPct = 0;
+      const stops = top6.map((r, i) => {
+        const pct = (r.count / total * 100);
+        const s = cumPct.toFixed(1);
+        cumPct += pct;
+        const e = cumPct.toFixed(1);
+        const color = chartColors[i % chartColors.length];
+        return `<stop offset="${s}%" stop-color="${color}"/><stop offset="${e}%" stop-color="${color}"/>`;
+      }).join('');
+      container3.innerHTML = `
+        <svg width="120" height="120" viewBox="0 0 120 120" style="flex-shrink:0;">
+          <defs><linearGradient id="relGrad" x1="0" y1="0" x2="0" y2="1">${stops}</linearGradient></defs>
+          <circle cx="60" cy="60" r="42" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="18"/>
+          <circle cx="60" cy="60" r="42" fill="none" stroke="url(#relGrad)" stroke-width="18"
+            stroke-dasharray="${top6.map(r => ((r.count / total) * 263.9).toFixed(1)).join(' ')} ${263.9}"
+            stroke-dashoffset="0" transform="rotate(-90 60 60)"/>
+          <text x="60" y="58" text-anchor="middle" fill="#e0e0e0" font-size="18" font-weight="700">${total.toLocaleString()}</text>
+          <text x="60" y="74" text-anchor="middle" fill="#6a6a8a" font-size="9">条</text>
+        </svg>
+        <div class="donut-legend">
+          ${top6.map((r, i) => {
+            const pct = (r.count / total * 100).toFixed(0);
             const color = chartColors[i % chartColors.length];
-            return `
-                <div class="bar-row">
-                    <div class="bar-label" title="${d.name}">${d.name}</div>
-                    <div class="bar-track"><div class="bar-fill" style="width:${pct}%; background:${color};"></div></div>
-                    <div class="bar-value">${d.count.toLocaleString()}</div>
-                </div>
-            `;
-        }).join('');
+            return `<div class="legend-item"><span class="legend-dot" style="background:${color}"></span><span>${r.name}</span><span class="legend-pct">${pct}%</span></div>`;
+          }).join('')}
+        </div>`;
     }
+  }
+}
 
-    function renderDonutChart(containerId, data, total) {
-        const container = document.getElementById(containerId);
-        if (!container) return;
-        let cumPct = 0;
-        const stops = data.map(d => {
-            const pct = total > 0 ? (d.count / total * 100) : 0;
-            const stopStart = cumPct.toFixed(1);
-            cumPct += pct;
-            const stopEnd = cumPct.toFixed(1);
-            return `<stop offset="${stopStart}%" stop-color="${d.color}"/><stop offset="${stopEnd}%" stop-color="${d.color}"/>`;
-        }).join('');
+// ─── Search ───
+const allEntities = [
+  {name:'宁德时代',type:'企业',industry:'新能源电池行业'},{name:'比亚迪',type:'企业',industry:'新能源电池行业'},
+  {name:'卫蓝新能源',type:'企业',industry:'新能源电池行业'},{name:'国轩高科',type:'企业',industry:'新能源电池行业'},
+  {name:'亿纬锂能',type:'企业',industry:'新能源电池行业'},{name:'中创新航',type:'企业',industry:'新能源电池行业'},
+  {name:'欣旺达',type:'企业',industry:'新能源电池行业'},{name:'珠海冠宇',type:'企业',industry:'新能源电池行业'},
+  {name:'鹏辉能源',type:'企业',industry:'新能源电池行业'},{name:'孚能科技',type:'企业',industry:'新能源电池行业'},
+  {name:'阳光电源',type:'企业',industry:'电力设备'},{name:'汇川技术',type:'企业',industry:'电力设备'},
+  {name:'特变电工',type:'企业',industry:'电力设备'},{name:'许继电气',type:'企业',industry:'电力设备'},
+  {name:'思源电气',type:'企业',industry:'电力设备'},{name:'国电南瑞',type:'企业',industry:'电力设备'},
+  {name:'正泰电器',type:'企业',industry:'电力设备'},{name:'德业股份',type:'企业',industry:'电力设备'},
+  {name:'上能电气',type:'企业',industry:'电力设备'},{name:'固德威',type:'企业',industry:'电力设备'},
+  {name:'中芯国际',type:'企业',industry:'半导体'},{name:'华虹半导体',type:'企业',industry:'半导体'},
+  {name:'韦尔股份',type:'企业',industry:'半导体'},{name:'兆易创新',type:'企业',industry:'半导体'},
+  {name:'卓胜微',type:'企业',industry:'半导体'},{name:'北方华创',type:'企业',industry:'半导体'},
+  {name:'中微公司',type:'企业',industry:'半导体'},{name:'圣邦股份',type:'企业',industry:'半导体'},
+  {name:'澜起科技',type:'企业',industry:'半导体'},{name:'紫光国微',type:'企业',industry:'半导体'},
+  {name:'特斯拉',type:'企业',industry:'汽车零部件'},{name:'华为',type:'企业',industry:'半导体'},
+  {name:'隆基绿能',type:'企业',industry:'光伏设备'},{name:'天赐材料',type:'企业',industry:'新能源电池行业'},
+  {name:'固态电池行业',type:'行业',industry:'新能源电池行业'},{name:'美国',type:'地点',industry:'电力设备'},
+  {name:'胜业电气',type:'企业',industry:'电力设备'},
+];
 
-        container.innerHTML = `
-            <svg width="140" height="140" viewBox="0 0 140 140" style="flex-shrink:0;">
-                <defs>
-                    <linearGradient id="donutGrad" x1="0" y1="0" x2="0" y2="1">
-                        ${stops}
-                    </linearGradient>
-                </defs>
-                <circle cx="70" cy="70" r="50" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="20"/>
-                <circle cx="70" cy="70" r="50" fill="none" stroke="url(#donutGrad)" stroke-width="20"
-                    stroke-dasharray="${data.map(d => {
-                        const pct = total > 0 ? (d.count / total * 314.16) : 0;
-                        return pct.toFixed(1);
-                    }).join(' ')} ${314.16.toFixed(1)}"
-                    stroke-dashoffset="0" transform="rotate(-90 70 70)"/>
-                <text x="70" y="68" text-anchor="middle" fill="#e0e0e0" font-size="20" font-weight="700">${total.toLocaleString()}</text>
-                <text x="70" y="85" text-anchor="middle" fill="#888" font-size="10">实体</text>
-            </svg>
-            <div class="donut-legend">
-                ${data.map(d => {
-                    const pct = total > 0 ? (d.count / total * 100).toFixed(0) : 0;
-                    return `<div class="legend-item">
-                        <span class="legend-dot" style="background:${d.color};"></span>
-                        <span>${d.label}</span>
-                        <span class="legend-pct">${pct}%</span>
-                    </div>`;
-                }).join('')}
-            </div>
-        `;
-    }
+function handleSearch(query) {
+  const results = document.getElementById('searchResults');
+  if (!query || query.length < 1) { results.classList.remove('active'); return; }
+  const q = query.toLowerCase();
+  const matches = allEntities.filter(e => e.name.toLowerCase().includes(q) || e.industry.toLowerCase().includes(q)).slice(0, 8);
+  if (matches.length === 0) {
+    results.innerHTML = '<div class="search-result-item" style="color:var(--text-muted);font-size:12px;justify-content:center;">✦ 未找到匹配结果</div>';
+  } else {
+    results.innerHTML = matches.map(m => {
+      const typeIcon = m.type === '企业' ? '◆' : '◈';
+      return `<div class="search-result-item" onclick="window.location.href='entities_index.html'">
+        <div class="sr-icon" style="color:var(--accent-cyan)">${typeIcon}</div>
+        <div style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${m.name}</div>
+        <div style="color:var(--text-muted);font-size:10px">${m.industry}</div>
+      </div>`;
+    }).join('');
+  }
+  results.classList.add('active');
+}
 
-    function renderTopTable() {
-        const tbody = document.querySelector('#dash-top tbody');
-        if (!tbody) return;
-        const typeLabels = { ORG: '🏢', PRODUCT: '📦', TECH: '🔬', INDUSTRY: '🏭', POLICY: '📋', PLACE: '📍', PERSON: '👤' };
-        tbody.innerHTML = DASH_TOP.map((d, i) => {
-            const icon = typeLabels[d.type] || '🔷';
-            return `<tr onclick="window.location.href='entities_index.html'">
-                <td class="rank">${String(i+1).padStart(2,'0')}</td>
-                <td class="entity-name">${icon} ${d.name}</td>
-                <td>${d.type}</td>
-                <td>${d.industry || '-'}</td>
-                <td class="conn-count">${d.connections}</td>
-            </tr>`;
-        }).join('');
-    }
+document.addEventListener('click', function(e) {
+  const sb = document.querySelector('.search-box');
+  const r = document.getElementById('searchResults');
+  if (!sb.contains(e.target) && !r.contains(e.target)) r.classList.remove('active');
+});
 
-    function renderTimelineChart() {
-        const container = document.getElementById('timeline-chart');
-        if (!container) return;
-        const maxCount = Math.max(...DASH_TIMELINE.map(d => d.count));
-        container.innerHTML = DASH_TIMELINE.map(d => {
-            const height = maxCount > 0 ? (d.count / maxCount * 100) : 0;
-            return `<div class="timeline-bar" style="height:${height}%">
-                <div class="timeline-bar-value">${d.count}</div>
-                <div class="timeline-bar-label">${d.month}</div>
-            </div>`;
-        }).join('');
-    }
+document.addEventListener('keydown', function(e) {
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); document.getElementById('searchInput').focus(); }
+});
 
-    function renderTimelineStats() {
-        const container = document.getElementById('timeline-stats');
-        if (!container) return;
-        const stats = [
-            { label: '实体', value: '5,894' },
-            { label: '关系', value: '11,075' },
-            { label: '行业', value: '25' },
-            { label: '研报', value: '193' },
-            { label: '连接密度', value: '1.88' },
-        ];
-        container.innerHTML = stats.map(s => `
-            <div class="stat-mini">
-                <div class="label">${s.label}</div>
-                <div class="value">${s.value}</div>
-            </div>
-        `).join('');
-    }
+// ─── View Switching ───
+function switchView(view) {
+  document.querySelectorAll('.header-btn').forEach(b => b.classList.remove('active'));
+  const btnMap = {overview:'✦ 概览',graph:'✦ 图谱',dashboard:'✦ 仪表盘',timeline:'✦ 时间线'};
+  document.querySelectorAll('.header-btn').forEach(b => { if (b.textContent.trim() === btnMap[view]) b.classList.add('active'); });
+  ['view-overview','view-dashboard','view-timeline'].forEach(id => document.getElementById(id).style.display = 'none');
+  if (view === 'overview') document.getElementById('view-overview').style.display = 'block';
+  else if (view === 'graph') window.location.href = 'kg_viz_v3/index.html';
+  else if (view === 'dashboard') document.getElementById('view-dashboard').style.display = 'block';
+  else if (view === 'timeline') document.getElementById('view-timeline').style.display = 'block';
+}
 
-    // ─── Init ───
-    renderIndustries();
+// ─── Init ───
+loadData();
 
-    // Render dashboard on first load
-    const dashMaxInd = Math.max(...DASH_INDUSTRIES.map(d => d.count));
-    renderBarChart('dash-industries', DASH_INDUSTRIES, dashMaxInd);
-    const dashTypeTotal = DASH_TYPES.reduce((s, d) => s + d.count, 0);
-    renderDonutChart('dash-types', DASH_TYPES, dashTypeTotal);
-    const dashMaxRel = Math.max(...DASH_RELATIONS.map(d => d.count));
-    renderBarChart('dash-relations', DASH_RELATIONS, dashMaxRel);
-    renderTopTable();
-
-    // Render timeline on first load
-    renderTimelineChart();
-    renderTimelineStats();
-    renderBarChart('timeline-industries', DASH_INDUSTRIES, dashMaxInd);
-    const relTotal = DASH_RELATIONS.reduce((s, d) => s + d.count, 0);
-    const relDonutData = DASH_RELATIONS.slice(0, 6).map((d, i) => ({
-        ...d, color: chartColors[i], label: d.name
-    }));
-    renderDonutChart('timeline-relations', relDonutData, relTotal);
-    </script>
-
+// Auto-refresh every 60 seconds
+setInterval(() => loadData(), 60000);
+</script>
 </body>
 </html>
