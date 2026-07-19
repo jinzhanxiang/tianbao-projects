@@ -57,6 +57,27 @@ a{text-decoration:none;color:inherit}
 .error{text-align:center;padding:60px;color:var(--red);font-family:var(--font-mono);font-size:13px}
 .main{max-width:1000px;margin:0 auto;padding:32px 24px;position:relative;z-index:2;flex:1;overflow-y:auto;min-height:0;width:100%}
 </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    // GSAP 立即执行 - cyber fade-in + scale + glitch
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof gsap !== 'undefined') {
+        // 主标题 cyber-glitch 立即触发
+        document.querySelectorAll('.cyber-title, .cyber-title-sm, h1, h2').forEach(function(el, i) {
+          gsap.from(el, {duration: 0.6, opacity: 0, y: 20, delay: i * 0.05, ease: 'power2.out'});
+        });
+        // cyber-card 立即 staggered 动画
+        document.querySelectorAll('.cyber-card, .cyber-panel, .cyber-stat').forEach(function(el, i) {
+          gsap.from(el, {duration: 0.5, opacity: 0, scale: 0.95, delay: 0.2 + i * 0.05, ease: 'back.out(1.2)'});
+        });
+        // cyber-badge 脉冲
+        document.querySelectorAll('.cyber-badge').forEach(function(el, i) {
+          gsap.from(el, {duration: 0.4, opacity: 0, scale: 0.5, delay: 0.4 + i * 0.03, ease: 'elastic.out(1, 0.5)'});
+        });
+        console.log('[GSAP] cyber animations initialized for project.html');
+      }
+    });
+  </script>
 </head>
 <body>
 <nav class="nav">
