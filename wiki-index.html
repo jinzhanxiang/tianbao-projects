@@ -19,7 +19,7 @@
 }
 body.cyber-viewport{
   font-family: "FangSong","仿宋","STFangSong","Songti SC",-apple-system,"PingFang SC","Microsoft YaHei",serif;
-  font-size:18px;
+  font-size:16px;
   line-height:1.7;
 }
 .wiki-main{
@@ -559,6 +559,8 @@ function renderReportsList(d) {
 
 // ─── Init ───
 loadData();
+// Auto-refresh every 60s
+setInterval(loadData, 60000);
 </script>
 </body>
 </html>

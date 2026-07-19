@@ -111,6 +111,19 @@ fetch('data/wiki_data.json').then(r=>r.json()).then(d=>{
     <div class="card"><div class="card-icon">◈</div><h3>更新时间</h3><p>${(d.updated_at||'').slice(0,10)}</p></div>
   `;
 }).catch(e=>console.error(e));
+
+// Auto-refresh stats every 60s
+setInterval(() => {
+  fetch('data/wiki_data.json').then(r=>r.json()).then(d=>{
+    const s=document.getElementById('stats');
+    s.innerHTML=`
+      <div class="card"><div class="card-icon">◈</div><h3>实体总数</h3><p>${d.total_entities||0}</p></div>
+      <div class="card"><div class="card-icon">◈</div><h3>关系总数</h3><p>${d.total_relations||0}</p></div>
+      <div class="card"><div class="card-icon">◈</div><h3>行业类型</h3><p>${d.entity_types?.length||0}</p></div>
+      <div class="card"><div class="card-icon">◈</div><h3>更新时间</h3><p>${(d.updated_at||'').slice(0,10)}</p></div>
+    `;
+  }).catch(e=>console.error(e));
+}, 60000);
 </script>
 </body>
 </html>

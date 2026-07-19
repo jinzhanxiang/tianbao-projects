@@ -146,6 +146,8 @@ async function loadStats() {
   } catch(e) { console.error('Load stats failed:', e); }
 }
 loadStats();
+// Auto-refresh every 60s
+setInterval(loadStats, 60000);
 </script>
 <div class="cyber-statusbar">
   <span><span class="dot green"></span>✦ 项目中心 · 系统在线</span>
