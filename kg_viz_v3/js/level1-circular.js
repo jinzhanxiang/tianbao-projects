@@ -358,6 +358,15 @@ const Level1Circular = (function() {
     }
   }
 
+  // 状态文本
+  function updateStatus() {
+    if (!summaryData) return 'Level 1 · 行业全景';
+    const total = summaryData.industries.reduce((s, i) => s + i.count, 0);
+    return `Level 1 · 行业全景 · ${summaryData.industries.length} 个行业 · ${total.toLocaleString()} 实体`;
+  }
+
+  // 获取网络实例
+  function getNetwork() { return network; }
   // 获取选中行业
   function getSelectedIndustry() {
     if (!network) return null;
@@ -366,13 +375,6 @@ const Level1Circular = (function() {
       return nodes.get(selected[0]);
     }
     return null;
-  }
-
-  // 状态文本
-  function updateStatus() {
-    if (!summaryData) return 'Level 1 · 行业全景';
-    const total = summaryData.industries.reduce((s, i) => s + i.count, 0);
-    return `Level 1 · 行业全景 · ${summaryData.industries.length} 个行业 · ${total.toLocaleString()} 实体`;
   }
 
   // 清理
