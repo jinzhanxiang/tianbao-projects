@@ -5,43 +5,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>✦ 知识图谱 · 实体关系图</title>
 <script src="assets/particles.js"></script>
+<link rel="stylesheet" href="assets/cyber-override.css">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:#0a0a18;color:#e0e0e0;padding:0;scroll-behavior:smooth;position:relative;z-index:0}
+body{font-family:var(--cyber-font);background:var(--cyber-bg);color:var(--cyber-text);scroll-behavior:smooth;position:relative;z-index:0;padding-bottom:26px}
 body > *{position:relative;z-index:2}
-.header{background:linear-gradient(135deg,#1a1a3e,#0f0f1a);padding:24px 32px;border-bottom:1px solid rgba(255,255,255,0.08)}
-.header h1{font-size:24px;font-weight:600;margin-bottom:4px}
-.header p{color:#888;font-size:14px}
-.header .sub{color:#666;font-size:13px;margin-top:6px}
-.stats-row{display:flex;gap:16px;padding:16px 32px;border-bottom:1px solid rgba(255,255,255,0.06);flex-wrap:wrap}
-.stat-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:12px 20px;min-width:120px}
-.stat-card .num{font-size:20px;font-weight:600;color:#4A90D9}
-.stat-card .label{font-size:12px;color:#666;margin-top:2px}
-.stat-card.warn .num{color:#E74C3C}
-.macro-section{padding:8px 32px 16px}
-.content{padding:20px 32px;max-width:1400px}
-#searchBox{width:100%;padding:12px 16px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#eee;font-size:14px;margin-bottom:20px;outline:none}
-#searchBox:focus{border-color:#4A90D9;background:rgba(74,144,217,0.08)}
-#searchBox::placeholder{color:#555}
-.type-section{margin-bottom:24px}
-.type-header{font-size:16px;font-weight:600;padding:8px 12px;background:rgba(255,255,255,0.04);border-radius:6px;margin-bottom:8px;display:flex;align-items:center;gap:8px}
-.type-header .count{font-size:13px;color:#888;font-weight:400}
-.type-header .coverage{font-size:12px;margin-left:auto}
-.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:4px}
-.entity-card{padding:8px 12px;border-radius:4px;font-size:13px;transition:background .15s;display:flex;align-items:center;gap:6px}
-.entity-card:hover{background:rgba(255,255,255,0.04)}
-.entity-card .dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.header{background:linear-gradient(135deg,#0f0f2a,#050510);padding:20px 32px 14px;border-bottom:1px solid var(--cyber-border);position:relative}
+.header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--cyber-cyan),var(--cyber-purple),transparent);opacity:0.3}
+.header h1{font-size:22px;font-weight:700;margin-bottom:2px;background:linear-gradient(90deg,#fff,var(--cyber-cyan),var(--cyber-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.header p{color:var(--cyber-text2);font-size:13px}
+.header .sub{color:var(--cyber-text3);font-size:12px;margin-top:4px;font-family:var(--cyber-mono)}
+.header .sub a{color:var(--cyber-cyan);text-decoration:none}
+.stats-row{display:flex;gap:10px;padding:12px 32px;border-bottom:1px solid var(--cyber-border);flex-wrap:wrap;background:rgba(0,0,0,0.2)}
+.stat-card{background:var(--cyber-card);border:1px solid var(--cyber-border);border-radius:var(--cyber-radius);padding:10px 16px;min-width:100px;backdrop-filter:blur(10px);position:relative;overflow:hidden}
+.stat-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,var(--cyber-cyan),var(--cyber-purple));opacity:0.3}
+.stat-card .num{font-size:18px;font-weight:700;color:var(--cyber-cyan);font-family:var(--cyber-mono)}
+.stat-card .label{font-size:11px;color:var(--cyber-text3);margin-top:1px}
+.stat-card.warn .num{color:var(--cyber-red)}
+.macro-section{padding:6px 32px 12px;background:rgba(0,0,0,0.15)}
+.content{padding:14px 32px 32px;max-width:100%;background:rgba(0,0,0,0.1)}
+#searchBox{width:100%;padding:10px 14px;background:rgba(0,212,255,0.04);border:1px solid var(--cyber-border);border-radius:8px;color:var(--cyber-text);font-size:13px;margin-bottom:16px;outline:none}
+#searchBox:focus{border-color:var(--cyber-cyan);box-shadow:0 0 16px rgba(0,212,255,0.06)}
+.type-section{margin-bottom:16px;background:var(--cyber-card);border:1px solid var(--cyber-border);border-radius:var(--cyber-radius);padding:12px 14px}
+.type-header{font-size:14px;font-weight:600;padding:4px 0 8px;display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--cyber-border);margin-bottom:8px;color:var(--cyber-text)}
+.type-header .count{font-size:12px;color:var(--cyber-text3);font-weight:400;font-family:var(--cyber-mono)}
+.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:3px}
+.entity-card{padding:6px 10px;border-radius:6px;font-size:12px;display:flex;align-items:center;gap:6px;border:1px solid transparent;background:rgba(255,255,255,0.01)}
+.entity-card:hover{background:rgba(0,212,255,0.04);border-color:rgba(0,212,255,0.08);transform:translateX(2px)}
+.entity-card .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;box-shadow:0 0 4px currentColor}
 .entity-card .info{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.entity-card .badge{font-size:10px;padding:1px 6px;border-radius:8px;background:rgba(255,255,255,0.08);color:#888;flex-shrink:0}
-.entity-card.has-page a{color:#4A90D9;text-decoration:none}
-.entity-card.has-page a:hover{text-decoration:underline;color:#6AB0FF}
-.entity-card.no-page{color:#666}
+.entity-card .badge{font-size:9px;padding:1px 6px;border-radius:10px;background:rgba(0,212,255,0.08);color:var(--cyber-cyan);flex-shrink:0;font-family:var(--cyber-mono)}
+.entity-card a{color:var(--cyber-cyan);text-decoration:none}
+.entity-card.no-page{color:var(--cyber-text3)}
 .search-hidden{display:none!important}
-a{color:#4A90D9;text-decoration:none}
-a:hover{text-decoration:underline}
-.side-links{margin-left:32px;margin-bottom:20px}
-.side-links a{display:inline-block;margin-right:12px;padding:6px 14px;background:rgba(74,144,217,0.1);border:1px solid rgba(74,144,217,0.2);border-radius:16px;font-size:13px;transition:all .2s}
-.side-links a:hover{background:rgba(74,144,217,0.2);border-color:#4A90D9;text-decoration:none}
+a{color:var(--cyber-cyan);text-decoration:none}
+.side-links{margin-left:32px;margin-bottom:14px;display:flex;gap:8px;flex-wrap:wrap}
+.side-links a{display:inline-block;padding:5px 12px;background:rgba(0,212,255,0.05);border:1px solid var(--cyber-border);border-radius:20px;font-size:12px;transition:all 0.3s;color:var(--cyber-text2)}
+.side-links a:hover{background:rgba(0,212,255,0.1);border-color:var(--cyber-cyan);color:var(--cyber-cyan);box-shadow:0 0 12px rgba(0,212,255,0.06)}
 </style>
 </head>
 <body>
@@ -1346,6 +1346,13 @@ function filterEntities(val){
         s.style.display=vis?'':'none';
     });
 }
+</script>
+<div class="cyber-statusbar">
+  <span><span class="dot green"></span>✦ 实体关系矩阵 · 系统在线</span>
+  <span>✦ <span id="entityCountDisplay">--</span> 实体 · 图谱可视化</span>
+</div>
+<script>
+document.getElementById('entityCountDisplay').textContent = document.querySelectorAll('.entity-card').length;
 </script>
 </body>
 </html>

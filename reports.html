@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>✦ 天保控股 · 报告库</title>
 <script src="assets/particles.js"></script>
+<link rel="stylesheet" href="assets/cyber-override.css">
 <style>
 :root{--bg:#05050f;--bg-card:rgba(12,12,30,0.85);--text:#d0d0e0;--text-2:#6a6a8a;--text-3:#4a4a6a;
   --cyan:#00d4ff;--purple:#a78bfa;--green:#34d399;--blue:#4a7aff;
@@ -105,5 +106,10 @@ async function init() {
 }
 init();
 </script>
+<div class="cyber-statusbar">
+  <span><span class="dot green"></span>✦ 报告库 · 系统在线</span>
+  <span>✦ <span id="reportCountDisplay">--</span> 份报告</span>
+</div>
+<script>document.getElementById('reportCountDisplay').textContent = document.querySelectorAll('.list-item').length;</script>
 </body>
 </html>
