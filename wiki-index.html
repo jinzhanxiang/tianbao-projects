@@ -23,6 +23,23 @@ body.cyber-viewport{
   font-size:18px;
   line-height:1.7;
 }
+.wiki-main{
+  flex:1;
+  overflow-y:auto;
+  min-height:0;
+  padding:0 20px 20px;
+  scroll-behavior:smooth;
+}
+.wiki-main::-webkit-scrollbar{
+  width:6px;
+}
+.wiki-main::-webkit-scrollbar-track{
+  background:rgba(0,212,255,0.02);
+}
+.wiki-main::-webkit-scrollbar-thumb{
+  background:linear-gradient(180deg,var(--cyber-cyan),var(--cyber-purple));
+  border-radius:3px;
+}
 .cyber-card, .panel-content, section.dashboard-panel, section.timeline-panel, section.overview-panel{
   background:var(--l0-white) !important;
   color:var(--l0-blue) !important;
