@@ -116,7 +116,7 @@ const Level3Detail = (function() {
 
   async function fetchWikiEntityData(name, callback) {
     try {
-      const resp = await fetch(`../data/entities/${safeFilename(name)}.json`);
+      const resp = await fetch(`../entities/${safeFilename(name)}.json`);
       if (resp.ok) {
         const data = await resp.json();
         callback(data);

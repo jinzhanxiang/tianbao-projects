@@ -83,7 +83,7 @@
   // ── 数据加载 ──
   async function loadSummary() {
     showLoading('加载数据摘要...');
-    const resp = await fetch('data/kg_summary.json');
+    const resp = await fetch('kg_summary.json');
     if (!resp.ok) throw new Error('摘要加载失败');
     return resp.json();
   }
@@ -91,7 +91,7 @@
   // 后台懒加载完整数据（用于搜索等需要全局数据的场景）
   async function loadFullInBackground() {
     try {
-      const resp = await fetch('data/kg_data.json');
+      const resp = await fetch('kg_data.json');
       if (resp.ok) {
         fullData = await resp.json();
         console.log('✅ 完整数据后台加载完成:', fullData.meta);
@@ -104,7 +104,7 @@
   // 按需加载行业分片
   async function loadIndustryData(indName) {
     const safeName = safeIndustryName(indName);
-    const resp = await fetch(`data/industries/${safeName}.json`);
+    const resp = await fetch(`industries/${safeName}.json`);
     if (!resp.ok) throw new Error(`行业数据加载失败: ${indName} (${resp.status})`);
     return resp.json();
   }
