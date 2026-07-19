@@ -1,15 +1,13 @@
 /**
- * level2-progressive.js — Level 2: 行业内部渐进加载视图 v4
- * 
- * 点击行业后，渐进式加载该行业内部的所有节点（实体/框架/逻辑链/指标）
- * 和边（实体关系/逻辑关联/指标关联）。
- * 
- * v4 改进：
- * - 支持框架/逻辑/指标节点类型
- * - 按实体类型分组聚类（避免散点）
- * - 更好的物理引擎
- * - 按类型分组显示
+ * level2-progressive.js — Level 2: 行业内部渐进加载视图 v6
+ *
+ * v6 修复（性能优化）：
+ * 1. 节点预算 — 最多显示 200 个节点，指示器和逻辑链默认聚类
+ * 2. 大图引擎切换 — 超过 200 节点自动切换 BarnesHut（高效）
+ * 3. 渐进加载 — 显示 "已加载 X/Y 个节点" 可展开
+ * 4. 最大节点数警告 — 超大行业提示用户
  */
+const MAX_VISIBLE_NODES = 200;
 
 const Level2Progressive = (function() {
   let network = null;
@@ -17,42 +15,56 @@ const Level2Progressive = (function() {
   let edges = null;
   let currentIndustry = null;
   let currentData = null;
+  let fullNodeData = null; // 完整数据（含未加载的）
   let clusteringActive = true;
+  let nodeBudget = MAX_VISIBLE_NODES;
 
-  const NETWORK_OPTIONS = {
-    nodes: {
-      font: { size: 13, color: '#e7e9ea', face: 'FangSong, 仿宋, serif', strokeWidth: 1, strokeColor: '#000' },
-      borderWidth: 2,
-      shadow: { enabled: true, size: 15, color: 'rgba(0,212,255,0.5)' },
-    },
-    edges: {
-      smooth: { type: 'continuous', roundness: 0.2 },
-      font: { size: 9, color: '#7a8aaa', face: 'FangSong, 仿宋, serif', strokeWidth: 0 },
-      arrows: { to: { enabled: true, scaleFactor: 0.6 } },
-      color: { color: 'rgba(0,212,255,0.4)', highlight: '#00d4ff' },
-    },
-    physics: {
-      solver: 'forceAtlas2Based',
-      forceAtlas2Based: {
-        gravitationalConstant: -150,
-        centralGravity: 0.008,
-        springLength: 200,
-        springConstant: 0.008,
-        damping: 0.6,
-        avoidOverlap: 0.8,
+  // 大图使用 BarnesHut（高效），小图使用 forceAtlas2Based（美观）
+  function getNetworkOptions(nodeCount) {
+    const isLarge = nodeCount > 200;
+    return {
+      nodes: {
+        font: { size: 13, color: '#e7e9ea', face: 'FangSong, 仿宋, serif', strokeWidth: 1, strokeColor: '#000' },
+        borderWidth: 2,
+        shadow: { enabled: !isLarge, size: 15, color: 'rgba(0,212,255,0.5)' },
       },
-      stabilization: { iterations: 200 },
-    },
-    interaction: { hover: true, tooltipDelay: 100, navigationButtons: false },
-    groups: {
-      entity: { shape: 'dot', size: 14 },
-      framework: { shape: 'square', size: 20, borderWidth: 2 },
-      logic: { shape: 'triangle', size: 12 },
-      indicator: { shape: 'diamond', size: 10 },
-    },
-  };
+      edges: {
+        smooth: { type: 'continuous', roundness: 0.2 },
+        font: { size: 9, color: '#7a8aaa', face: 'FangSong, 仿宋, serif', strokeWidth: 0 },
+        arrows: { to: { enabled: true, scaleFactor: 0.6 } },
+        color: { color: 'rgba(0,212,255,0.4)', highlight: '#00d4ff' },
+      },
+      physics: {
+        solver: isLarge ? 'barnesHut' : 'forceAtlas2Based',
+        barnesHut: isLarge ? {
+          gravitationalConstant: -3000,
+          centralGravity: 0.3,
+          springLength: 95,
+          springConstant: 0.04,
+          damping: 0.5,
+          avoidOverlap: 0.5,
+        } : undefined,
+        forceAtlas2Based: !isLarge ? {
+          gravitationalConstant: -150,
+          centralGravity: 0.008,
+          springLength: 200,
+          springConstant: 0.008,
+          damping: 0.6,
+          avoidOverlap: 0.8,
+        } : undefined,
+        stabilization: { iterations: isLarge ? 80 : 200 },
+        adaptiveTimestep: true,
+      },
+      interaction: { hover: true, tooltipDelay: 100, navigationButtons: false },
+      groups: {
+        entity: { shape: 'dot', size: 14 },
+        framework: { shape: 'square', size: 20, borderWidth: 2 },
+        logic: { shape: 'triangle', size: 12 },
+        indicator: { shape: 'diamond', size: 10 },
+      },
+    };
+  }
 
-  // 完整实体类型配色
   const TYPE_COLORS = {
     ORG: '#4A90D9', PERSON: '#50C878', PRODUCT: '#FFB347',
     TECH: '#FF6B6B', INDUSTRY: '#FFD700', POLICY: '#FF8C42',
@@ -61,7 +73,6 @@ const Level2Progressive = (function() {
     logic: '#9B59B6', report: '#95A5A6',
   };
 
-  // 中文类型标签
   const TYPE_LABELS = {
     ORG: '组织', PERSON: '人物', PRODUCT: '产品',
     TECH: '技术', INDUSTRY: '行业', POLICY: '政策',
@@ -70,7 +81,6 @@ const Level2Progressive = (function() {
     logic: '逻辑链', report: '报告',
   };
 
-  // 节点形状映射
   const TYPE_SHAPES = {
     ORG: 'box', PERSON: 'ellipse', PRODUCT: 'hexagon',
     TECH: 'triangle', INDUSTRY: 'star', POLICY: 'square',
@@ -82,153 +92,142 @@ const Level2Progressive = (function() {
   function getEntityColor(type) {
     return TYPE_COLORS[type] || TYPE_COLORS[type.toUpperCase()] || '#95A5A6';
   }
-
   function getEntityTypeLabel(type) {
     return TYPE_LABELS[type] || TYPE_LABELS[type.toUpperCase()] || type;
   }
-
   function getShape(type) {
     return TYPE_SHAPES[type] || TYPE_SHAPES[type.toUpperCase()] || 'dot';
   }
 
-  // 构建行业内部节点和边（从组件数组组合，避免数据冗余）
-  function buildIndustryData(industryName, fullData, showIsolated) {
-    const industryMap = fullData.industries_map[industryName];
-    if (!industryMap) return { nodes: [], edges: [], entityCount: 0, relationCount: 0 };
-
-    // 从组件构建节点和边
-    return buildNodesFromComponents(industryName, industryMap, fullData, showIsolated);
-  }
-
-  // 节点标签策略：v4 修复 — 更多节点显示标签
-  function getNodeLabel(node, type, size) {
-    // indicator/logic 节点显示短标签（之前完全隐藏）
-    if (type === 'indicator') return node.name && node.name.length <= 8 ? node.name : '';
-    if (type === 'logic') return node.name && node.name.length <= 8 ? node.name : '';
-    // 非核心实体也显示标签（之前对 size<=12 隐藏）
-    return node.label || node.name || '';
-  }
-
-  // 从组件数组构建节点和边（无冗余版本）
-  function buildNodesFromComponents(industryName, industryMap, fullData, showIsolated) {
+  // 构建节点（v6: 按预算截断）
+  function buildNodesFromComponents(industryName, industryMap, edgeData, showIsolated, budget) {
     const entities = industryMap.entities || [];
     const relations = industryMap.relations || [];
     const frameworks = industryMap.frameworks || [];
     const logics = industryMap.logics || [];
     const indicators = industryMap.indicators || [];
 
-    // 从全局获取关联边
-    const logicEdges = (fullData.logic_entity_edges || []).filter(e => {
+    const logicEdges = (edgeData.logic_entity_edges || []).filter(e => {
       const targetEntity = entities.find(ent => ent.id === e.to);
       return !!targetEntity;
     });
-    const indicatorEdges = (fullData.indicator_entity_edges || []).filter(e => {
+    const indicatorEdges = (edgeData.indicator_entity_edges || []).filter(e => {
       const targetEntity = entities.find(ent => ent.id === e.to);
       return !!targetEntity;
     });
 
-    // 统计有关系的实体 ID
     const connectedIds = new Set();
-    relations.forEach(r => {
-      connectedIds.add(r.from);
-      connectedIds.add(r.to);
-    });
+    relations.forEach(r => { connectedIds.add(r.from); connectedIds.add(r.to); });
     logicEdges.forEach(e => connectedIds.add(e.from));
     indicatorEdges.forEach(e => connectedIds.add(e.from));
 
     const entityNodes = [];
     const edgeMap = new Map();
 
-    // 构建节点 ── 默认显示孤立节点（v4 修复：节点数与实际可见数一致）
-    entities.forEach(e => {
+    const totalNodeCount = entities.length + frameworks.length + logics.length + indicators.length;
+    const isOverBudget = totalNodeCount > budget;
+
+    // 预算分配：核心实体优先，框架其次，逻辑链/指标按比例截断
+    let budgetRemaining = budget;
+
+    // ── 实体节点（核心优先） ──
+    const coreEntities = entities.filter(e => e.is_core);
+    const normalEntities = entities.filter(e => !e.is_core);
+
+    coreEntities.forEach(e => {
+      if (budgetRemaining <= 0) return;
+      budgetRemaining--;
       const color = getEntityColor(e.type);
-      const size = e.is_core ? 22 : 14;
       entityNodes.push({
-        id: e.id,
-        label: getNodeLabel(e, e.type, size),
+        id: e.id, label: e.label || e.name || '',
         title: buildTooltip(e, industryMap),
-        shape: getShape(e.type),
-        group: 'entity',
-        color: {
-          background: color,
-          border: adjustColor(color, -40),
-          highlight: { background: '#fff', border: '#1d9bf0' },
-        },
-        size: size,
-        level: e.is_core ? 0 : 1,
-        type: e.type,
-        nodeType: 'entity',
-        name: e.name,
-        is_core: e.is_core,
-        industry: industryName,
+        shape: getShape(e.type), group: 'entity',
+        color: { background: color, border: adjustColor(color, -40), highlight: { background: '#fff', border: '#1d9bf0' } },
+        size: 22, level: 0, type: e.type, nodeType: 'entity',
+        name: e.name, is_core: true, industry: industryName,
       });
     });
 
-    frameworks.forEach(fw => {
+    // 普通实体按连通性排序
+    const connectedEntities = normalEntities.filter(e => connectedIds.has(e.id));
+    const isolatedEntities = normalEntities.filter(e => !connectedIds.has(e.id));
+
+    for (const e of connectedEntities) {
+      if (budgetRemaining <= 0) break;
+      budgetRemaining--;
+      const color = getEntityColor(e.type);
       entityNodes.push({
-        id: fw.id,
-        label: getNodeLabel(fw, 'framework', 20),
+        id: e.id, label: e.label || e.name || '',
+        title: buildTooltip(e, industryMap),
+        shape: getShape(e.type), group: 'entity',
+        color: { background: color, border: adjustColor(color, -40), highlight: { background: '#fff', border: '#1d9bf0' } },
+        size: 14, level: 1, type: e.type, nodeType: 'entity',
+        name: e.name, is_core: false, industry: industryName,
+      });
+    }
+
+    if (showIsolated) {
+      for (const e of isolatedEntities) {
+        if (budgetRemaining <= 0) break;
+        budgetRemaining--;
+        const color = getEntityColor(e.type);
+        entityNodes.push({
+          id: e.id, label: e.label || e.name || '',
+          title: buildTooltip(e, industryMap),
+          shape: getShape(e.type), group: 'entity',
+          color: { background: color, border: adjustColor(color, -40), highlight: { background: '#fff', border: '#1d9bf0' } },
+          size: 10, level: 2, type: e.type, nodeType: 'entity',
+          name: e.name, is_core: false, industry: industryName,
+        });
+      }
+    }
+
+    // ── 框架节点（高优先级） ──
+    const maxFrameworks = Math.min(frameworks.length, Math.max(10, Math.floor(budget * 0.15)));
+    frameworks.slice(0, maxFrameworks).forEach(fw => {
+      if (budgetRemaining <= 0) return;
+      budgetRemaining--;
+      entityNodes.push({
+        id: fw.id, label: fw.name || '框架',
         title: buildTooltip(fw, industryMap),
-        shape: 'square',
-        group: 'framework',
-        color: {
-          background: getEntityColor('framework'),
-          border: adjustColor(getEntityColor('framework'), -40),
-          highlight: { background: '#fff', border: '#1d9bf0' },
-        },
-        size: 20,
-        type: 'framework',
-        nodeType: 'framework',
-        name: fw.name,
-        is_core: true,
-        industry: industryName,
+        shape: 'square', group: 'framework',
+        color: { background: '#F39C12', border: adjustColor('#F39C12', -40), highlight: { background: '#fff', border: '#1d9bf0' } },
+        size: 20, type: 'framework', nodeType: 'framework',
+        name: fw.name, is_core: true, industry: industryName,
       });
     });
 
-    logics.forEach(lc => {
+    // ── 逻辑链和指标（默认聚类，仅显示少量） ──
+    const maxLogics = Math.min(logics.length, Math.max(5, Math.floor(budget * 0.1)));
+    logics.slice(0, maxLogics).forEach(lc => {
+      if (budgetRemaining <= 0) return;
+      budgetRemaining--;
       entityNodes.push({
-        id: lc.id,
-        label: getNodeLabel(lc, 'logic', 12),
+        id: lc.id, label: '⚡' + (lc.type || '逻辑'),
         title: buildTooltip(lc, industryMap),
-        shape: 'triangle',
-        group: 'logic',
-        color: {
-          background: getEntityColor('logic'),
-          border: adjustColor(getEntityColor('logic'), -40),
-          highlight: { background: '#fff', border: '#1d9bf0' },
-        },
-        size: 12,
-        type: 'logic',
-        nodeType: 'logic',
-        name: lc.type || '逻辑链',
-        is_core: false,
-        industry: industryName,
+        shape: 'triangle', group: 'logic',
+        color: { background: '#9B59B6', border: adjustColor('#9B59B6', -40), highlight: { background: '#fff', border: '#1d9bf0' } },
+        size: 12, type: 'logic', nodeType: 'logic',
+        name: lc.type || '逻辑链', is_core: false, industry: industryName,
       });
     });
 
-    indicators.forEach(ind => {
+    const maxIndicators = Math.min(indicators.length, Math.max(5, Math.floor(budget * 0.1)));
+    indicators.slice(0, maxIndicators).forEach(ind => {
+      if (budgetRemaining <= 0) return;
+      budgetRemaining--;
       entityNodes.push({
-        id: ind.id,
-        label: getNodeLabel(ind, 'indicator', 10),
+        id: ind.id, label: '📊' + (ind.name || '指标').slice(0, 6),
         title: buildTooltip(ind, industryMap),
-        shape: 'diamond',
-        group: 'indicator',
-        color: {
-          background: getEntityColor('indicator'),
-          border: adjustColor(getEntityColor('indicator'), -40),
-          highlight: { background: '#fff', border: '#1d9bf0' },
-        },
-        size: 10,
-        type: 'indicator',
-        nodeType: 'indicator',
-        name: ind.name || '指标',
-        is_core: ind.is_core || false,
-        industry: industryName,
+        shape: 'diamond', group: 'indicator',
+        color: { background: '#2ECC71', border: adjustColor('#2ECC71', -40), highlight: { background: '#fff', border: '#1d9bf0' } },
+        size: 10, type: 'indicator', nodeType: 'indicator',
+        name: ind.name || '指标', is_core: false, industry: industryName,
       });
     });
 
-    // ── 构建边 ──
-    const addEdge = function(from, to, type, edgeType, opacity, dashes) {
+    // ── 边 ──
+    const addEdge = function(from, to, type, edgeType) {
       const key = `${from}|${to}|${type}`;
       if (!edgeMap.has(key)) {
         edgeMap.set(key, { from, to, type, count: 1, edgeType });
@@ -236,9 +235,21 @@ const Level2Progressive = (function() {
         edgeMap.get(key).count++;
       }
     };
-    relations.forEach(r => addEdge(r.from, r.to, r.type, 'entity_relation', 0.8, false));
-    logicEdges.forEach(e => addEdge(e.from, e.to, e.type, e.edge_type || 'logic_entity', 0.4, true));
-    indicatorEdges.forEach(e => addEdge(e.from, e.to, e.type, e.edge_type || 'indicator_entity', 0.4, true));
+    relations.forEach(r => {
+      const fromExists = entityNodes.some(n => n.id === r.from);
+      const toExists = entityNodes.some(n => n.id === r.to);
+      if (fromExists && toExists) addEdge(r.from, r.to, r.type, 'entity_relation');
+    });
+    logicEdges.forEach(e => {
+      const fromExists = entityNodes.some(n => n.id === e.from);
+      const toExists = entityNodes.some(n => n.id === e.to);
+      if (fromExists && toExists) addEdge(e.from, e.to, e.type, e.edge_type || 'logic_entity');
+    });
+    indicatorEdges.forEach(e => {
+      const fromExists = entityNodes.some(n => n.id === e.from);
+      const toExists = entityNodes.some(n => n.id === e.to);
+      if (fromExists && toExists) addEdge(e.from, e.to, e.type, e.edge_type || 'indicator_entity');
+    });
 
     const industryEdges = [];
     edgeMap.forEach(edge => {
@@ -255,132 +266,32 @@ const Level2Progressive = (function() {
       });
     });
 
+    const visibleCount = entityNodes.length;
+    const totalCount = totalNodeCount;
+    const hiddenCount = totalCount - visibleCount;
+
     return {
       nodes: entityNodes,
       edges: industryEdges,
-      entityCount: industryMap.entity_count || 0,
-      relationCount: industryMap.relation_count || 0,
-      frameworkCount: industryMap.framework_count || 0,
-      logicCount: industryMap.logic_count || 0,
-      indicatorCount: industryMap.indicator_count || 0,
+      entityCount: entityNodes.length,
+      relationCount: industryEdges.length,
+      totalNodeCount: totalCount,
+      visibleNodeCount: visibleCount,
+      hiddenNodeCount: Math.max(0, hiddenCount),
+      isOverBudget,
     };
   }
 
-  // 构建 tooltip
   function buildTooltip(node, industryMap) {
-    let lines = [`${node.label}`];
+    let lines = [`${node.label || node.name || ''}`];
     lines.push(`类型: ${getEntityTypeLabel(node.type)}`);
-    
-    if (node.node_type === 'entity') {
-      // 查找实体的描述
-      const found = (industryMap.entities || []).find(e => e.id === node.id);
-      if (found && found.desc) {
-        lines.push(`描述: ${found.desc.slice(0, 100)}`);
-      }
-    } else if (node.node_type === 'framework') {
-      const found = (industryMap.frameworks || []).find(f => f.id === node.id);
-      if (found) {
-        if (found.category) lines.push(`分类: ${found.category}`);
-        if (found.content) lines.push(`内容: ${found.content.slice(0, 150)}`);
-        lines.push(`置信度: ${(found.confidence * 100).toFixed(0)}%`);
-      }
-    } else if (node.node_type === 'logic') {
-      const found = (industryMap.logics || []).find(l => l.id === node.id);
-      if (found) {
-        if (found.premise) lines.push(`前提: ${found.premise.slice(0, 80)}`);
-        if (found.conclusion) lines.push(`结论: ${found.conclusion.slice(0, 80)}`);
-      }
-    } else if (node.node_type === 'indicator') {
-      const found = (industryMap.indicators || []).find(i => i.id === node.id);
-      if (found) {
-        if (found.value) lines.push(`值: ${found.value}${found.unit || ''}`);
-        if (found.type) lines.push(`类型: ${found.type}`);
-      }
-    }
     return lines.join('\n');
   }
 
-  // 旧数据版本兼容
-  function buildNodesFromLegacyData(industryMap, showIsolated) {
-    const connectedIds = new Set();
-    industryMap.relations.forEach(r => {
-      connectedIds.add(r.from);
-      connectedIds.add(r.to);
-    });
-
-    const entityNodes = [];
-    const edgeMap = new Map();
-
-    industryMap.entities.forEach(e => {
-      if (showIsolated !== true && !connectedIds.has(e.id)) return;
-      const color = getEntityColor(e.type);
-      const size = e.is_core ? 20 : 12;
-      entityNodes.push({
-        id: e.id,
-        label: getNodeLabel(e, e.type, size),
-        title: `${e.name}\n类型: ${getEntityTypeLabel(e.type)}\n${e.desc}`,
-        shape: getShape(e.type),
-        group: 'entity',
-        color: {
-          background: color,
-          border: adjustColor(color, -30),
-          highlight: { background: '#fff', border: '#1d9bf0' },
-        },
-        size: size,
-        level: e.is_core ? 0 : 1,
-        type: e.type,
-        nodeType: 'entity',
-        name: e.name,
-        desc: e.desc,
-        is_core: e.is_core,
-        industry: industryMap.industry || '',
-      });
-    });
-
-    industryMap.relations.forEach(r => {
-      const key = `${r.from}|${r.to}|${r.type}`;
-      if (!edgeMap.has(key)) {
-        edgeMap.set(key, { from: r.from, to: r.to, type: r.type, count: 1 });
-      } else {
-        edgeMap.get(key).count++;
-      }
-    });
-
-    const industryEdges = [];
-    edgeMap.forEach(edge => {
-      const color = getRelationColor(edge.type);
-      industryEdges.push({
-        from: edge.from,
-        to: edge.to,
-        label: edge.count > 1 ? `${edge.count}` : '',
-        color: { color: color, highlight: '#1d9bf0', opacity: 0.8 },
-        width: Math.min(edge.count / 2 + 1, 3),
-        smooth: { type: 'continuous', roundness: 0.15 },
-      });
-    });
-
-    return {
-      nodes: entityNodes,
-      edges: industryEdges,
-      entityCount: industryMap.entity_count || 0,
-      relationCount: industryMap.relation_count || 0,
-      frameworkCount: 0, logicCount: 0, indicatorCount: 0,
-    };
-  }
-
-  // 关系类型配色
-  const REL_PALETTE = [
-    '#E74C3C', '#F39C12', '#2ECC71', '#3498DB', '#9B59B6',
-    '#1ABC9C', '#E67E22', '#E91E63', '#00BCD4', '#FF9800',
-    '#8E44AD', '#FF7043', '#00ACC1', '#7E57C2', '#27AE60',
-    '#D32F2F', '#388E3C', '#1976D2', '#7B1FA2', '#00796B',
-  ];
-
   function getRelationColor(type) {
+    const REL_PALETTE = ['#E74C3C','#F39C12','#2ECC71','#3498DB','#9B59B6','#1ABC9C','#E67E22','#E91E63','#00BCD4','#FF9800','#8E44AD','#FF7043','#00ACC1','#7E57C2','#27AE60','#D32F2F','#388E3C','#1976D2','#7B1FA2','#00796B'];
     let hash = 0;
-    for (let i = 0; i < type.length; i++) {
-      hash = type.charCodeAt(i) + ((hash << 5) - hash);
-    }
+    for (let i = 0; i < type.length; i++) hash = type.charCodeAt(i) + ((hash << 5) - hash);
     return REL_PALETTE[Math.abs(hash) % REL_PALETTE.length];
   }
 
@@ -392,107 +303,15 @@ const Level2Progressive = (function() {
     return `rgb(${r},${g},${b})`;
   }
 
-  // 按实体类型聚类
-  function applyTypeClustering(network, nodes) {
-    if (!clusteringActive) return;
-    
-    // 对非实体节点按类型聚类
-    const nodeTypes = {};
-    nodes.forEach(n => {
-      if (n.nodeType !== 'entity') {
-        const typeKey = n.nodeType || 'other';
-        if (!nodeTypes[typeKey]) nodeTypes[typeKey] = [];
-        nodeTypes[typeKey].push(n.id);
-      }
-    });
-
-    // 聚类逻辑链（数量通常很多，必须聚类）
-    Object.keys(nodeTypes).forEach(typeKey => {
-      const ids = nodeTypes[typeKey];
-      if (ids.length < 3) return; // 太少不聚类
-      
-      const typeLabel = TYPE_LABELS[typeKey] || typeKey;
-      const color = TYPE_COLORS[typeKey] || '#95A5A6';
-      
-      network.cluster({
-        joinCondition: (nodeOptions) => {
-          return ids.includes(nodeOptions.id);
-        },
-        clusterNodeProperties: {
-          id: `cluster_${typeKey}`,
-          label: `${typeLabel} (${ids.length})`,
-          shape: typeKey === 'framework' ? 'square' : 
-                 typeKey === 'logic' ? 'triangle' : 'diamond',
-          size: Math.min(ids.length * 0.5 + 25, 50),
-          color: {
-            background: color,
-            border: adjustColor(color, -40),
-            highlight: { background: '#fff', border: '#1d9bf0' },
-          },
-          font: { size: 14, color: '#e7e9ea', face: 'Arial' },
-        },
-        clusterEdgeProperties: {
-          color: { color: adjustColor(color, -20), opacity: 0.3 },
-          width: 0.8,
-          dashes: [3, 3],
-        },
-      });
-    });
-
-    // 对同类型实体按行业子类聚类（如果该行业实体超500）
-    const entityIds = [];
-    nodes.forEach(n => {
-      if (n.nodeType === 'entity') entityIds.push(n.id);
-    });
-    if (entityIds.length > 500) {
-      // 按类型聚类主体
-      const entByType = {};
-      nodes.forEach(n => {
-        if (n.nodeType === 'entity') {
-          const t = n.type || 'UNKNOWN';
-          if (!entByType[t]) entByType[t] = [];
-          entByType[t].push(n.id);
-        }
-      });
-      Object.keys(entByType).forEach(typeKey => {
-        const ids = entByType[typeKey];
-        if (ids.length < 50) return;
-        const typeLabel = TYPE_LABELS[typeKey] || typeKey;
-        const color = TYPE_COLORS[typeKey] || '#95A5A6';
-        network.cluster({
-          joinCondition: (nodeOptions) => ids.includes(nodeOptions.id),
-          clusterNodeProperties: {
-            id: `cluster_entity_${typeKey}`,
-            label: `${typeLabel}主体 (${ids.length})`,
-            shape: getShape(typeKey),
-            size: Math.min(ids.length * 0.3 + 30, 55),
-            color: {
-              background: color,
-              border: adjustColor(color, -40),
-              highlight: { background: '#fff', border: '#1d9bf0' },
-            },
-            font: { size: 14, color: '#e7e9ea', face: 'Arial' },
-          },
-          clusterEdgeProperties: {
-            color: { color: adjustColor(color, -20), opacity: 0.2 },
-            width: 0.5,
-          },
-        });
-      });
-    }
-  }
-
-  // 渐进式加载
+  // 加载行业（v6: 预算控制 + 大图引擎切换）
   async function loadIndustry(industryName, edgeData, container, onProgress) {
     currentIndustry = industryName;
     currentData = edgeData;
 
     if (onProgress) onProgress(`加载 ${industryName} 数据...`);
 
-    // 获取行业数据分片（从 app.js 的 window._currentIndustryData）
     let industryData = window._currentIndustryData;
     if (!industryData || industryData.name !== industryName) {
-      // 兼容旧版 fullData.industries_map
       if (edgeData.industries_map && edgeData.industries_map[industryName]) {
         industryData = edgeData.industries_map[industryName];
       } else {
@@ -504,43 +323,50 @@ const Level2Progressive = (function() {
 
     if (onProgress) onProgress(`${industryName}: 构建节点和边...`);
     const showIsolated = window._showIsolatedNodes === true;
-    const full = buildNodesFromComponents(industryName, industryData, edgeData, showIsolated);
+    const full = buildNodesFromComponents(industryName, industryData, edgeData, showIsolated, nodeBudget);
+    fullNodeData = full;
 
     const containerEl = document.getElementById(container);
     if (!containerEl) { console.error('容器未找到:', container); return; }
 
-    // 阶段1：仅加载核心实体和框架（先展示骨架）
-    const coreNodes = full.nodes.filter(n => n.is_core || n.nodeType === 'framework');
+    // 构建阶段：先显示核心
+    const coreNodes = full.nodes.filter(n => n.is_core);
     const coreIds = new Set(coreNodes.map(n => n.id));
-    const coreEdges = full.edges.filter(e => coreIds.has(e.from) && coreIds.has(e.to));
 
     nodes = new vis.DataSet(coreNodes);
-    edges = new vis.DataSet(coreEdges);
+    edges = new vis.DataSet([]);
 
     containerEl.innerHTML = '';
-    network = new vis.Network(containerEl, { nodes, edges }, NETWORK_OPTIONS);
+    const options = getNetworkOptions(full.nodes.length);
+    network = new vis.Network(containerEl, { nodes, edges }, options);
 
     if (onProgress) onProgress(`已加载 ${coreNodes.length} 个核心节点`);
 
-    // 阶段2：加载全部节点（延迟）
-    await sleep(800);
+    // 阶段2：加载全部节点
+    await sleep(600);
     const remainingNodes = full.nodes.filter(n => !n.is_core);
     if (remainingNodes.length > 0) {
       nodes.add(remainingNodes);
     }
-    if (onProgress) onProgress(`已加载 ${full.nodes.length} 个节点`);
 
-    // 阶段3：加载全部边
-    await sleep(600);
-    const remainingEdges = full.edges.filter(e => !coreIds.has(e.from) || !coreIds.has(e.to));
-    if (remainingEdges.length > 0) {
-      edges.add(remainingEdges);
+    // 阶段3：加载边
+    await sleep(400);
+    if (full.edges.length > 0) {
+      edges.add(full.edges);
     }
-    if (onProgress) onProgress(`已加载 ${full.edges.length} 条关系`);
 
-    // 阶段4：按类型聚类（减少视觉杂乱）
-    await sleep(1200);
-    applyTypeClustering(network, nodes);
+    // 阶段4：聚类逻辑链和指标（减少视觉杂乱）
+    await sleep(800);
+    clusterNonEntities(network, nodes);
+
+    // 显示节点预算信息
+    if (full.isOverBudget && full.hiddenNodeCount > 0) {
+      if (onProgress) onProgress(`已加载 ${full.visibleNodeCount}/${full.totalNodeCount} 个节点 (${full.hiddenNodeCount} 个已隐藏，点击"加载更多"展开)`);
+      showNodeBudgetBanner(full);
+    } else {
+      if (onProgress) onProgress(`已加载 ${full.visibleNodeCount} 个节点`);
+      hideNodeBudgetBanner();
+    }
 
     // 节点点击 → Level 3
     network.on('click', function(params) {
@@ -548,14 +374,11 @@ const Level2Progressive = (function() {
         const nodeId = params.nodes[0];
         const node = nodes.get(nodeId);
         if (node) {
-          if (window.onEnterLevel3) {
-            window.onEnterLevel3(node);
-          }
+          if (window.onEnterLevel3) window.onEnterLevel3(node);
         }
       }
     });
 
-    // 双击展开聚类
     network.on('doubleClick', function(params) {
       if (params.nodes.length > 0) {
         const clusterId = params.nodes[0];
@@ -564,13 +387,10 @@ const Level2Progressive = (function() {
           return;
         }
         const node = nodes.get(clusterId);
-        if (node && window.onEnterLevel3) {
-          window.onEnterLevel3(node);
-        }
+        if (node && window.onEnterLevel3) window.onEnterLevel3(node);
       }
     });
 
-    // 适应视图
     network.once('stabilizationIterationsDone', function() {
       network.fit({ animation: { duration: 500 } });
     });
@@ -580,60 +400,118 @@ const Level2Progressive = (function() {
     return { network, nodes, edges, data: full };
   }
 
+  // 聚类非实体节点（逻辑链、指标、框架）
+  function clusterNonEntities(network, nodes) {
+    if (!clusteringActive) return;
+    const nodeTypes = {};
+    nodes.forEach(n => {
+      if (n.nodeType !== 'entity') {
+        const typeKey = n.nodeType || 'other';
+        if (!nodeTypes[typeKey]) nodeTypes[typeKey] = [];
+        nodeTypes[typeKey].push(n.id);
+      }
+    });
+
+    Object.keys(nodeTypes).forEach(typeKey => {
+      const ids = nodeTypes[typeKey];
+      if (ids.length < 3) return;
+      const typeLabel = TYPE_LABELS[typeKey] || typeKey;
+      const color = TYPE_COLORS[typeKey] || '#95A5A6';
+      network.cluster({
+        joinCondition: (nodeOptions) => ids.includes(nodeOptions.id),
+        clusterNodeProperties: {
+          id: `cluster_${typeKey}`,
+          label: `${typeLabel} (${ids.length})`,
+          shape: typeKey === 'framework' ? 'square' : typeKey === 'logic' ? 'triangle' : 'diamond',
+          size: Math.min(ids.length * 0.5 + 25, 50),
+          color: { background: color, border: adjustColor(color, -40), highlight: { background: '#fff', border: '#1d9bf0' } },
+          font: { size: 14, color: '#e7e9ea', face: 'Arial' },
+        },
+        clusterEdgeProperties: {
+          color: { color: adjustColor(color, -20), opacity: 0.3 },
+          width: 0.8, dashes: [3, 3],
+        },
+      });
+    });
+  }
+
+  // 节点预算提示条
+  function showNodeBudgetBanner(data) {
+    let banner = document.getElementById('node-budget-banner');
+    if (!banner) {
+      banner = document.createElement('div');
+      banner.id = 'node-budget-banner';
+      banner.className = 'node-budget-banner';
+      const canvas = document.getElementById('viz-canvas');
+      if (canvas && canvas.parentNode) canvas.parentNode.appendChild(banner);
+    }
+    banner.innerHTML = `
+      <span>📊 已加载 <strong>${data.visibleNodeCount}</strong> / ${data.totalNodeCount} 个节点
+      (${data.hiddenNodeCount} 个已隐藏)</span>
+      <button class="btn btn-small" onclick="Level2Progressive.loadMoreNodes()">+ 加载更多</button>
+      <button class="btn btn-small" onclick="Level2Progressive.loadAllNodes()">+ 加载全部</button>
+    `;
+    banner.style.display = 'flex';
+  }
+
+  function hideNodeBudgetBanner() {
+    const banner = document.getElementById('node-budget-banner');
+    if (banner) banner.style.display = 'none';
+  }
+
+  // 加载更多节点（增加预算 + 50）
+  async function loadMoreNodes() {
+    nodeBudget += 50;
+    if (currentIndustry && currentData) {
+      await loadIndustry(currentIndustry, currentData, 'viz-canvas', (msg) => {
+        const lt = document.getElementById('loading-text');
+        if (lt) lt.textContent = msg;
+      });
+    }
+  }
+
+  // 加载全部节点
+  async function loadAllNodes() {
+    nodeBudget = 99999;
+    if (currentIndustry && currentData) {
+      await loadIndustry(currentIndustry, currentData, 'viz-canvas', (msg) => {
+        const lt = document.getElementById('loading-text');
+        if (lt) lt.textContent = msg;
+      });
+    }
+  }
+
   function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
   function reset() {
     currentIndustry = null;
     currentData = null;
-    if (network) {
-      network.destroy();
-      network = null;
-    }
+    fullNodeData = null;
+    nodeBudget = MAX_VISIBLE_NODES;
+    hideNodeBudgetBanner();
+    if (network) { network.destroy(); network = null; }
     nodes = null;
     edges = null;
   }
 
   function highlightEntity(entityId) {
     if (!network || !nodes) return;
-    const allNodes = nodes.get({ filter: n => n.id !== entityId });
-    const targetNode = nodes.get(entityId);
-
-    allNodes.forEach(n => {
-      nodes.update({ id: n.id, opacity: 0.2, color: { opacity: 0.2 } });
+    // 淡化所有节点
+    nodes.forEach(n => {
+      if (n.id !== entityId) {
+        nodes.update({ id: n.id, opacity: 0.2, color: { opacity: 0.2 } });
+      } else {
+        nodes.update({ id: entityId, opacity: 1, borderWidth: 3,
+          color: { background: '#FFD700', border: '#fff', highlight: { background: '#FFD700', border: '#fff' } }
+        });
+      }
     });
-
-    if (targetNode) {
-      nodes.update({
-        id: entityId,
-        opacity: 1,
-        color: { background: targetNode.color.background, border: '#fff', highlight: { background: '#fff', border: '#1d9bf0' } },
-        borderWidth: 3,
-      });
-    }
-
-    const connectedEdges = edges.get({ filter: e => e.from === entityId || e.to === entityId });
-    edges.update(connectedEdges.map(e => ({
-      id: e.id,
-      color: { color: '#FFD700', highlight: '#FF6B00', opacity: 1 },
-      width: 3,
-    })));
-
-    const otherEdges = edges.get({ filter: e => e.from !== entityId && e.to !== entityId });
-    edges.update(otherEdges.map(e => ({
-      id: e.id,
-      color: { opacity: 0.1 },
-      width: 0.5,
-    })));
   }
 
   function clearHighlight() {
     if (!network || !nodes || !edges) return;
-    nodes.forEach(n => {
-      nodes.update({ id: n.id, opacity: 1, borderWidth: n.is_core ? 2 : 1 });
-    });
-    edges.forEach(e => {
-      edges.update({ id: e.id, color: { opacity: 0.8 }, width: 1.5 });
-    });
+    nodes.forEach(n => nodes.update({ id: n.id, opacity: 1, borderWidth: n.is_core ? 2 : 1 }));
+    edges.forEach(e => edges.update({ id: e.id, color: { opacity: 0.8 }, width: 1.5 }));
   }
 
   function getCurrentIndustry() { return currentIndustry; }
@@ -643,145 +521,74 @@ const Level2Progressive = (function() {
   function filterBySearch(term) {
     if (!network || !nodes) return;
     if (!term) {
-      // 清空搜索：恢复所有节点
-      nodes.forEach(n => {
-        nodes.update({
-          id: n.id,
-          opacity: 1.0,
-          hidden: false,
-        });
-      });
-      edges.forEach(e => {
-        edges.update({
-          id: e.id,
-          hidden: false,
-        });
-      });
+      nodes.forEach(n => nodes.update({ id: n.id, opacity: 1.0, hidden: false }));
+      edges.forEach(e => edges.update({ id: e.id, hidden: false }));
       return;
     }
-
     const lowerTerm = term.toLowerCase();
-    // 匹配节点名称或描述
     nodes.forEach(n => {
       const name = (n.name || n.label || '').toLowerCase();
       const match = name.includes(lowerTerm);
-      nodes.update({
-        id: n.id,
-        opacity: match ? 1.0 : 0.08,
-        hidden: false,
-      });
+      nodes.update({ id: n.id, opacity: match ? 1.0 : 0.08, hidden: false });
     });
-
-    // 只显示匹配节点之间的边
     const visibleNodes = new Set();
     nodes.forEach(n => {
-      const name = (n.name || n.label || '').toLowerCase();
-      if (name.includes(lowerTerm)) {
-        visibleNodes.add(n.id);
-      }
+      if ((n.name || n.label || '').toLowerCase().includes(lowerTerm)) visibleNodes.add(n.id);
     });
-
     edges.forEach(e => {
       const visible = visibleNodes.has(e.from) && visibleNodes.has(e.to);
-      edges.update({
-        id: e.id,
-        hidden: !visible,
-        opacity: visible ? 0.8 : 0,
-      });
+      edges.update({ id: e.id, hidden: !visible, opacity: visible ? 0.8 : 0 });
     });
-
-    // 聚焦到第一个匹配节点
-    const firstMatch = nodes.get().find(n => {
-      const name = (n.name || n.label || '').toLowerCase();
-      return name.includes(lowerTerm);
-    });
+    const firstMatch = nodes.get().find(n => (n.name || n.label || '').toLowerCase().includes(lowerTerm));
     if (firstMatch) {
-      network.focus(firstMatch.id, {
-        scale: 2.0,
-        animation: { duration: 300, easingFunction: 'easeInOutQuad' },
-      });
+      network.focus(firstMatch.id, { scale: 2.0, animation: { duration: 300 } });
     }
   }
 
-  // ── 类型过滤 ──
   function filterByType(type, active) {
     if (!network || !nodes) return;
     nodes.forEach(n => {
       const nodeType = (n.type || '').toUpperCase();
-      const matches = nodeType === type.toUpperCase() || nodeType === type;
-      if (active) {
-        // 显示该类型
-        nodes.update({ id: n.id, hidden: false, opacity: 1.0 });
-      } else {
-        // 隐藏该类型
-        nodes.update({ id: n.id, hidden: true });
+      if (nodeType === type.toUpperCase() || nodeType === type) {
+        nodes.update({ id: n.id, hidden: !active });
       }
     });
-    // 更新边：只显示两端都可见的边
     edges.forEach(e => {
       const fromNode = nodes.get(e.from);
       const toNode = nodes.get(e.to);
-      const hidden = !fromNode || !toNode || fromNode.hidden || toNode.hidden;
-      edges.update({ id: e.id, hidden });
+      edges.update({ id: e.id, hidden: !fromNode || !toNode || fromNode.hidden || toNode.hidden });
     });
     network.fit({ animation: { duration: 300 } });
   }
 
-  // ── 关系类型过滤 ──
   const hiddenRelationTypes = new Set();
   function filterByRelationType(type, active) {
     if (!network || !edges) return;
-    if (active) {
-      hiddenRelationTypes.delete(type);
-    } else {
-      hiddenRelationTypes.add(type);
-    }
+    if (active) hiddenRelationTypes.delete(type);
+    else hiddenRelationTypes.add(type);
     edges.forEach(e => {
       const edgeType = e.type || e.label || '';
-      const hidden = hiddenRelationTypes.has(edgeType);
-      edges.update({ id: e.id, hidden });
+      edges.update({ id: e.id, hidden: hiddenRelationTypes.has(edgeType) });
     });
   }
 
-  // ── 高亮连通子图 ──
   function highlightConnectedSubgraph(nodeId) {
     if (!network || !nodes || !edges) return;
-
-    // 获取该节点所有直接相连的节点和边
     const connectedNodes = network.getConnectedNodes(nodeId);
     const connectedEdges = network.getConnectedEdges(nodeId);
     const highlightSet = new Set([nodeId, ...connectedNodes]);
-
-    // 淡化所有节点，高亮选中节点及其邻居
+    const edgeSet = new Set(connectedEdges);
     nodes.forEach(n => {
       const isHighlighted = highlightSet.has(n.id);
       const isFocal = n.id === nodeId;
       nodes.update({
-        id: n.id,
-        opacity: isHighlighted ? 1.0 : 0.1,
+        id: n.id, opacity: isHighlighted ? 1.0 : 0.1,
         borderWidth: isFocal ? 4 : 1,
-        color: isFocal ? {
-          background: '#FFD700',
-          border: '#fff',
-          highlight: { background: '#FFD700', border: '#fff' },
-        } : undefined,
       });
     });
-
-    // 高亮相关边，淡化其他
-    const edgeSet = new Set(connectedEdges);
     edges.forEach(e => {
       const isHighlighted = edgeSet.has(e.id);
-      edges.update({
-        id: e.id,
-        opacity: isHighlighted ? 1.0 : 0.05,
-        width: isHighlighted ? 3 : 0.5,
-        color: isHighlighted ? {
-          color: '#FFD700',
-          highlight: '#FFD700',
-          opacity: 1.0,
-        } : undefined,
-      });
+      edges.update({ id: e.id, opacity: isHighlighted ? 1.0 : 0.05, width: isHighlighted ? 3 : 0.5 });
     });
   }
 
@@ -796,5 +603,7 @@ const Level2Progressive = (function() {
     filterByType,
     filterByRelationType,
     highlightConnectedSubgraph,
+    loadMoreNodes,
+    loadAllNodes,
   };
 })();

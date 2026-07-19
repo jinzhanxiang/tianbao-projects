@@ -1,17 +1,10 @@
 /**
- * level1-circular.js — Level 1: 行业全景图谱 v5 (力导向布局)
+ * level1-circular.js — Level 1: 行业全景图谱 v6 (持续引力 + 父子行业分组)
  *
- * 设计原则（基于前沿KG可视化调研）：
- * 1. 力导向布局优先 — 物理引擎参数调优决定可读性
- * 2. 视觉编码清晰 — 颜色=行业类型，大小=实体数，形状=节点角色
- * 3. 交互流畅 — hover高亮、点击下钻、悬停工具提示
- * 4. 极简背景 — 聚焦图谱本身，不堆砌CSS特效
- *
- * 物理引擎策略：
- * - forceAtlas2Based 引擎
- * - 中心引力让节点围绕中心聚集
- * - 弹簧长度控制节点间距
- * - 避免重叠确保节点可见
+ * v6 修复：
+ * 1. 持续引力动画 — 物理引擎不停止，节点持续缓慢运动
+ * 2. 父子行业分组 — 检测"电力设备/储能"等子行业，视觉区分
+ * 3. 呼吸动画 — 稳定后保持微弱的波动效果
  */
 const Level1Circular = (function() {
   'use strict';
@@ -21,8 +14,9 @@ const Level1Circular = (function() {
   let edges = null;
   let containerEl = null;
   let summaryData = null;
+  let physicsTimer = null;
 
-  // 行业名称→图标映射（少量，仅用于视觉辅助）
+  // 行业名称→图标映射
   const IND_ICONS = {
     '半导体': '⚡', '人工智能': '🧠', '医药': '💊',
     '新能源电池行业': '🔋', '电力设备': '⚙️', '军工': '🎖️',
@@ -32,43 +26,57 @@ const Level1Circular = (function() {
     '电力': '💡', '金融': '💰',
   };
 
-  // 配色方案：每个行业一个独特颜色（基于HSL均匀分布，保证视觉区分度）
+  // 配色方案
   const IND_COLORS = [
-    { bg: '#1a8cd8', border: '#1d9bf0' },  // 蓝色
-    { bg: '#2ecc71', border: '#27ae60' },   // 绿色
-    { bg: '#e74c3c', border: '#c0392b' },   // 红色
-    { bg: '#f39c12', border: '#e67e22' },   // 橙色
-    { bg: '#9b59b6', border: '#8e44ad' },   // 紫色
-    { bg: '#1abc9c', border: '#16a085' },   // 青色
-    { bg: '#e91e63', border: '#c2185b' },   // 粉色
-    { bg: '#00bcd4', border: '#0097a7' },   // 亮青
-    { bg: '#ff5722', border: '#e64a19' },   // 深橙
-    { bg: '#607d8b', border: '#455a64' },   // 灰蓝
-    { bg: '#795548', border: '#5d4037' },   // 棕色
-    { bg: '#4caf50', border: '#388e3c' },   // 草绿
-    { bg: '#2196f3', border: '#1976d2' },   // 天蓝
-    { bg: '#ff9800', border: '#f57c00' },   // 琥珀
-    { bg: '#673ab7', border: '#512da8' },   // 深紫
-    { bg: '#009688', border: '#00796b' },   // 深青
-    { bg: '#f44336', border: '#d32f2f' },   // 亮红
-    { bg: '#3f51b5', border: '#303f9f' },   // 靛蓝
-    { bg: '#cddc39', border: '#afb42b' },   // 黄绿
-    { bg: '#ffc107', border: '#ffb300' },   // 金黄
-    { bg: '#03a9f4', border: '#0288d1' },   // 浅蓝
-    { bg: '#8bc34a', border: '#689f38' },   // 嫩绿
-    { bg: '#ff4081', border: '#f50057' },   // 玫红
-    { bg: '#536dfe', border: '#304ffe' },   // 电光蓝
-    { bg: '#ff6e40', border: '#ff3d00' },   // 朱红
-    { bg: '#69f0ae', border: '#00c853' },   // 翠绿
-    { bg: '#b388ff', border: '#7c4dff' },   // 淡紫
-    { bg: '#18ffff', border: '#00e5ff' },   // 亮青
+    { bg: '#1a8cd8', border: '#1d9bf0' },
+    { bg: '#2ecc71', border: '#27ae60' },
+    { bg: '#e74c3c', border: '#c0392b' },
+    { bg: '#f39c12', border: '#e67e22' },
+    { bg: '#9b59b6', border: '#8e44ad' },
+    { bg: '#1abc9c', border: '#16a085' },
+    { bg: '#e91e63', border: '#c2185b' },
+    { bg: '#00bcd4', border: '#0097a7' },
+    { bg: '#ff5722', border: '#e64a19' },
+    { bg: '#607d8b', border: '#455a64' },
+    { bg: '#795548', border: '#5d4037' },
+    { bg: '#4caf50', border: '#388e3c' },
+    { bg: '#2196f3', border: '#1976d2' },
+    { bg: '#ff9800', border: '#f57c00' },
+    { bg: '#673ab7', border: '#512da8' },
+    { bg: '#009688', border: '#00796b' },
+    { bg: '#f44336', border: '#d32f2f' },
+    { bg: '#3f51b5', border: '#303f9f' },
+    { bg: '#cddc39', border: '#afb42b' },
+    { bg: '#ffc107', border: '#ffb300' },
+    { bg: '#03a9f4', border: '#0288d1' },
+    { bg: '#8bc34a', border: '#689f38' },
+    { bg: '#ff4081', border: '#f50057' },
+    { bg: '#536dfe', border: '#304ffe' },
+    { bg: '#ff6e40', border: '#ff3d00' },
+    { bg: '#69f0ae', border: '#00c853' },
+    { bg: '#b388ff', border: '#7c4dff' },
+    { bg: '#18ffff', border: '#00e5ff' },
   ];
 
   function getIndustryColor(index) {
     return IND_COLORS[index % IND_COLORS.length];
   }
 
-  // vis-network 配置（经调优的力导向布局参数）
+  // ── 检测父子行业关系（源数据中母子类别共存） ──
+  function detectParentChildRelations(industries) {
+    const relations = [];
+    const names = industries.map(i => i.name);
+    for (const ind of industries) {
+      const name = ind.name;
+      const children = names.filter(n => n !== name && (n.startsWith(name + '/') || n.startsWith(name + '-')));
+      if (children.length > 0) {
+        relations.push({ parent: name, children });
+      }
+    }
+    return relations;
+  }
+
+  // vis-network 配置（v6: 持续引力 — 不停止物理引擎）
   const NETWORK_OPTIONS = {
     nodes: {
       font: {
@@ -93,37 +101,23 @@ const Level1Circular = (function() {
       margin: 6,
     },
     edges: {
-      smooth: {
-        type: 'continuous',
-        roundness: 0.2,
-      },
-      font: {
-        size: 9,
-        color: '#71767b',
-        face: 'FangSong, 仿宋, serif',
-      },
-      color: {
-        color: 'rgba(48, 68, 85, 0.6)',
-        highlight: '#1d9bf0',
-        hover: '#1d9bf0',
-        opacity: 0.6,
-      },
+      smooth: { type: 'continuous', roundness: 0.2 },
+      font: { size: 9, color: '#71767b', face: 'FangSong, 仿宋, serif' },
+      color: { color: 'rgba(48, 68, 85, 0.6)', highlight: '#1d9bf0', hover: '#1d9bf0', opacity: 0.6 },
       width: 1,
       selectionWidth: 2,
       hoverWidth: 1.5,
-      arrows: {
-        to: { enabled: true, scaleFactor: 0.5 },
-      },
+      arrows: { to: { enabled: true, scaleFactor: 0.5 } },
     },
     physics: {
       solver: 'forceAtlas2Based',
       forceAtlas2Based: {
-        gravitationalConstant: -80,       // 引力强度
-        centralGravity: 0.005,            // 中心聚集
-        springLength: 250,                 // 弹簧长度（节点间距）
-        springConstant: 0.02,              // 弹簧弹性
-        damping: 0.5,                      // 阻尼
-        avoidOverlap: 0.8,                // 避免重叠
+        gravitationalConstant: -80,
+        centralGravity: 0.005,
+        springLength: 250,
+        springConstant: 0.02,
+        damping: 0.5,
+        avoidOverlap: 0.8,
       },
       stabilization: {
         iterations: 200,
@@ -141,42 +135,27 @@ const Level1Circular = (function() {
       dragView: true,
       hoverConnectedEdges: true,
     },
-    layout: {
-      randomSeed: 42,
-      improvedLayout: true,
-    },
-    configure: {
-      enabled: false,
-    },
-    // 高亮配置
+    layout: { randomSeed: 42, improvedLayout: true },
     groups: {
-      industry: {
-        shape: 'dot',
-        size: 35,
-        borderWidth: 2,
-      },
-      center: {
-        shape: 'star',
-        size: 50,
-        borderWidth: 3,
-        font: {
-          size: 16,
-          color: '#1d9bf0',
-          face: 'FangSong, 仿宋, serif',
-          bold: true,
-        },
-      },
+      industry: { shape: 'dot', size: 35, borderWidth: 2 },
+      'industry-child': { shape: 'dot', size: 28, borderWidth: 1, borderDashes: [3, 3] },
+      center: { shape: 'star', size: 50, borderWidth: 3, font: { size: 16, color: '#1d9bf0', face: 'FangSong, 仿宋, serif', bold: true } },
     },
   };
 
-  // 构建行业节点数据
+  // 构建行业节点数据（v6: 父子行业检测 + 子行业虚线边框）
   function buildIndustryData(summary) {
     const industryNodes = [];
     const industryEdges = [];
     const totalEntities = summary.industries.reduce((s, i) => s + i.count, 0);
     const maxCount = Math.max(...summary.industries.map(i => i.count));
 
-    // 中心节点（知识图谱总数）
+    // 检测父子行业关系
+    const parentChildRels = detectParentChildRelations(summary.industries);
+    const childNames = new Set();
+    parentChildRels.forEach(r => r.children.forEach(c => childNames.add(c)));
+
+    // 中心节点
     industryNodes.push({
       id: 'center',
       label: `知识图谱\n${totalEntities.toLocaleString()} 实体`,
@@ -189,19 +168,13 @@ const Level1Circular = (function() {
         border: '#1d9bf0',
         highlight: { background: 'rgba(29, 155, 240, 0.5)', border: '#fff' },
       },
-      font: {
-        size: 16,
-        color: '#1d9bf0',
-        face: 'FangSong, 仿宋, serif',
-        strokeWidth: 2,
-        strokeColor: '#0a0e1a',
-      },
+      font: { size: 16, color: '#1d9bf0', face: 'FangSong, 仿宋, serif', strokeWidth: 2, strokeColor: '#0a0e1a' },
       fixed: false,
       level: 0,
       type: 'center',
     });
 
-    // 行业节点 — 按实体数量排序，最大行业在中心附近
+    // 行业节点
     const sortedIndustries = [...summary.industries]
       .map((ind, i) => ({ ...ind, index: i }))
       .sort((a, b) => b.count - a.count);
@@ -209,32 +182,51 @@ const Level1Circular = (function() {
     sortedIndustries.forEach((ind) => {
       const color = getIndustryColor(ind.index);
       const intensity = ind.count / maxCount;
-      const size = 20 + intensity * 25; // 20~45
+      const size = 20 + intensity * 25;
       const icon = IND_ICONS[ind.name] || '';
       const label = icon ? `${icon} ${ind.name}` : ind.name;
+      const isChild = childNames.has(ind.name);
+
+      // 子行业：查找父行业名称
+      let parentName = '';
+      if (isChild) {
+        for (const rel of parentChildRels) {
+          if (rel.children.includes(ind.name)) {
+            parentName = rel.parent;
+            break;
+          }
+        }
+      }
+
+      const tooltip = isChild
+        ? `子行业: ${ind.name}\n所属: ${parentName}\n实体数: ${ind.count}\n关系数: ${ind.relation_count || 'N/A'}\n点击查看详情`
+        : `行业: ${ind.name}\n实体数: ${ind.count}\n关系数: ${ind.relation_count || 'N/A'}\n点击查看详情`;
 
       industryNodes.push({
         id: `ind_${ind.name}`,
         label: `${label}\n${ind.count}`,
-        title: `行业: ${ind.name}\n实体数: ${ind.count}\n关系数: ${ind.relation_count || 'N/A'}\n点击查看详情`,
-        group: 'industry',
+        title: tooltip,
+        group: isChild ? 'industry-child' : 'industry',
         shape: 'dot',
         size: size,
         color: {
           background: color.bg,
-          border: color.border,
+          border: isChild ? 'rgba(255,255,255,0.3)' : color.border,
           highlight: { background: color.bg, border: '#fff' },
           hover: { background: color.bg, border: '#fff' },
         },
         font: {
-          size: 12,
-          color: '#e7e9ea',
+          size: isChild ? 11 : 12,
+          color: isChild ? '#9aa0a6' : '#e7e9ea',
           face: 'FangSong, 仿宋, serif',
           strokeWidth: 1,
           strokeColor: '#0a0e1a',
         },
+        borderDashes: isChild ? [3, 3] : false,
         level: 0,
         type: 'industry',
+        isChild: isChild,
+        parentName: parentName,
         name: ind.name,
         count: ind.count,
         index: ind.index,
@@ -245,39 +237,40 @@ const Level1Circular = (function() {
     // 边：每个行业连接到中心节点
     industryNodes.forEach(n => {
       if (n.type === 'center') return;
+      const isChild = n.isChild;
       industryEdges.push({
         from: 'center',
         to: n.id,
         color: {
-          color: 'rgba(48, 68, 85, 0.4)',
+          color: isChild ? 'rgba(48, 68, 85, 0.2)' : 'rgba(48, 68, 85, 0.4)',
           highlight: '#1d9bf0',
-          opacity: 0.4,
+          opacity: isChild ? 0.2 : 0.4,
         },
-        width: 0.8,
-        dashes: [3, 3],
+        width: isChild ? 0.5 : 0.8,
+        dashes: isChild ? [5, 5] : [3, 3],
         smooth: { type: 'straight' },
         arrows: { to: { enabled: false } },
       });
     });
 
-    // 相邻行业环形连接（减少视觉空白）
-    const sortedByName = [...summary.industries].sort((a, b) => a.name.localeCompare(b.name));
-    for (let i = 0; i < sortedByName.length; i++) {
-      const j = (i + 1) % sortedByName.length;
-      if (i > 5) break; // 只连前6个，避免太多边
-      industryEdges.push({
-        from: `ind_${sortedByName[i].name}`,
-        to: `ind_${sortedByName[j].name}`,
-        color: {
-          color: 'rgba(48, 68, 85, 0.2)',
-          opacity: 0.2,
-        },
-        width: 0.5,
-        dashes: [4, 4],
-        smooth: { type: 'curvedCW', roundness: 0.1 },
-        arrows: { to: { enabled: false } },
+    // 父子行业之间的虚线连接
+    parentChildRels.forEach(rel => {
+      rel.children.forEach(childName => {
+        const childNode = industryNodes.find(n => n.id === `ind_${childName}`);
+        const parentNode = industryNodes.find(n => n.id === `ind_${rel.parent}`);
+        if (childNode && parentNode) {
+          industryEdges.push({
+            from: `ind_${rel.parent}`,
+            to: `ind_${childName}`,
+            color: { color: 'rgba(100, 180, 255, 0.15)', opacity: 0.15 },
+            width: 0.4,
+            dashes: [2, 4],
+            smooth: { type: 'curvedCCW', roundness: 0.1 },
+            arrows: { to: { enabled: false } },
+          });
+        }
       });
-    }
+    });
 
     return { nodes: industryNodes, edges: industryEdges };
   }
@@ -295,11 +288,36 @@ const Level1Circular = (function() {
 
     network = new vis.Network(containerEl, { nodes, edges }, NETWORK_OPTIONS);
 
-    // 稳定后居中
+    // 稳定后：居中 + 保持持续引力（v6）
     network.once('stabilizationIterationsDone', function() {
       network.fit({
         animation: { duration: 500, easingFunction: 'easeInOutQuad' },
       });
+
+      // 持续引力：保持物理引擎低强度运行，产生微弱的"呼吸"效果
+      setTimeout(() => {
+        if (network) {
+          // 启动物理引擎持续微动
+          network.setOptions({
+            physics: {
+              solver: 'forceAtlas2Based',
+              forceAtlas2Based: {
+                gravitationalConstant: -40,   // 减弱引力
+                centralGravity: 0.002,
+                springLength: 250,
+                springConstant: 0.008,
+                damping: 0.8,                // 高阻尼防止大幅晃动
+                avoidOverlap: 0.5,
+              },
+              stabilization: false,           // 不停止
+              adaptiveTimestep: true,
+              maxVelocity: 3,                 // 限制最大速度
+              minVelocity: 0.1,               // 保持最小速度
+              smoothInterpolation: false,
+            },
+          });
+        }
+      }, 1000);
     });
 
     // 点击事件 → Level 2
@@ -327,7 +345,7 @@ const Level1Circular = (function() {
       }
     });
 
-    // 悬停高亮（hover connected edges）
+    // 悬停高亮
     network.on('hoverNode', function(params) {
       const connected = network.getConnectedNodes(params.node);
       if (connected.length > 0) {
@@ -347,7 +365,50 @@ const Level1Circular = (function() {
     return network;
   }
 
-  // 聚焦到特定行业
+  // 重启物理引擎（手动触发引力效果）
+  function restartPhysics() {
+    if (!network) return;
+    network.setOptions({
+      physics: {
+        solver: 'forceAtlas2Based',
+        forceAtlas2Based: {
+          gravitationalConstant: -120,
+          centralGravity: 0.01,
+          springLength: 250,
+          springConstant: 0.02,
+          damping: 0.4,
+          avoidOverlap: 0.8,
+        },
+        stabilization: { iterations: 100 },
+        adaptiveTimestep: true,
+      },
+    });
+    // 稳定后恢复持续微动
+    network.once('stabilizationIterationsDone', function() {
+      setTimeout(() => {
+        if (network) {
+          network.setOptions({
+            physics: {
+              solver: 'forceAtlas2Based',
+              forceAtlas2Based: {
+                gravitationalConstant: -40,
+                centralGravity: 0.002,
+                springLength: 250,
+                springConstant: 0.008,
+                damping: 0.8,
+                avoidOverlap: 0.5,
+              },
+              stabilization: false,
+              adaptiveTimestep: true,
+              maxVelocity: 3,
+              minVelocity: 0.1,
+            },
+          });
+        }
+      }, 1500);
+    });
+  }
+
   function focusOnIndustry(industryName) {
     const nodeId = `ind_${industryName}`;
     if (nodes && nodes.get(nodeId)) {
@@ -358,16 +419,14 @@ const Level1Circular = (function() {
     }
   }
 
-  // 状态文本
   function updateStatus() {
     if (!summaryData) return 'Level 1 · 行业全景';
     const total = summaryData.industries.reduce((s, i) => s + i.count, 0);
     return `Level 1 · 行业全景 · ${summaryData.industries.length} 个行业 · ${total.toLocaleString()} 实体`;
   }
 
-  // 获取网络实例
   function getNetwork() { return network; }
-  // 获取选中行业
+
   function getSelectedIndustry() {
     if (!network) return null;
     const selected = network.getSelection().nodes;
@@ -377,7 +436,6 @@ const Level1Circular = (function() {
     return null;
   }
 
-  // 清理
   function destroy() {
     if (network) {
       network.destroy();
@@ -394,6 +452,7 @@ const Level1Circular = (function() {
     getNetwork,
     getSelectedIndustry,
     updateStatus,
+    restartPhysics,
     destroy,
   };
 })();

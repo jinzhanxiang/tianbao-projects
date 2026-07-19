@@ -30,6 +30,7 @@
     statusBarRight: document.getElementById('status-right'),
     breadcrumb: document.getElementById('breadcrumb'),
     btnReset: document.getElementById('btn-reset'),
+    btnPhysics: document.getElementById('btn-physics'),
     btnFit: document.getElementById('btn-fit'),
     btnExport: document.getElementById('btn-export'),
     btnCloseDetail: document.getElementById('btn-close-detail'),
@@ -303,6 +304,12 @@
 
   // ── 按钮 ──
   els.btnReset.onclick = () => navigateTo(1, null);
+  els.btnPhysics.onclick = function() {
+    if (currentLevel === 1 && Level1Circular.restartPhysics) {
+      Level1Circular.restartPhysics();
+      setStatus('引力动画已重启', '');
+    }
+  };
   els.btnFit.onclick = function() {
     if (currentLevel === 1 && Level1Circular.getNetwork()) {
       Level1Circular.getNetwork().fit({ animation: { duration: 400 } });
