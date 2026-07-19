@@ -391,6 +391,7 @@ const Level1Circular = (function() {
   return {
     init,
     focusOnIndustry,
+    getNetwork,
     getSelectedIndustry,
     updateStatus,
     destroy,
