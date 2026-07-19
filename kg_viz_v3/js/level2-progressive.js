@@ -21,33 +21,34 @@ const Level2Progressive = (function() {
 
   const NETWORK_OPTIONS = {
     nodes: {
-      font: { size: 11, color: '#e7e9ea', face: 'Arial', strokeWidth: 1, strokeColor: '#000' },
-      borderWidth: 1,
-      shadow: { enabled: true, size: 5, color: 'rgba(0,0,0,0.4)' },
+      font: { size: 13, color: '#e7e9ea', face: 'FangSong, 仿宋, serif', strokeWidth: 1, strokeColor: '#000' },
+      borderWidth: 2,
+      shadow: { enabled: true, size: 15, color: 'rgba(0,212,255,0.5)' },
     },
     edges: {
       smooth: { type: 'continuous', roundness: 0.2 },
-      font: { size: 8, color: '#71767b', face: 'Arial', strokeWidth: 0 },
-      arrows: { to: { enabled: false } },
+      font: { size: 9, color: '#7a8aaa', face: 'FangSong, 仿宋, serif', strokeWidth: 0 },
+      arrows: { to: { enabled: true, scaleFactor: 0.6 } },
+      color: { color: 'rgba(0,212,255,0.4)', highlight: '#00d4ff' },
     },
     physics: {
       solver: 'forceAtlas2Based',
       forceAtlas2Based: {
-        gravitationalConstant: -120,
-        centralGravity: 0.005,
-        springLength: 180,
-        springConstant: 0.01,
+        gravitationalConstant: -150,
+        centralGravity: 0.008,
+        springLength: 200,
+        springConstant: 0.008,
         damping: 0.6,
-        avoidOverlap: 1.0,
+        avoidOverlap: 0.8,
       },
-      stabilization: { iterations: 150 },
+      stabilization: { iterations: 200 },
     },
     interaction: { hover: true, tooltipDelay: 100, navigationButtons: false },
     groups: {
-      entity: { shape: 'dot', size: 12 },
-      framework: { shape: 'square', size: 18, borderWidth: 2 },
-      logic: { shape: 'triangle', size: 10 },
-      indicator: { shape: 'diamond', size: 8 },
+      entity: { shape: 'dot', size: 14 },
+      framework: { shape: 'square', size: 20, borderWidth: 2 },
+      logic: { shape: 'triangle', size: 12 },
+      indicator: { shape: 'diamond', size: 10 },
     },
   };
 
@@ -99,13 +100,12 @@ const Level2Progressive = (function() {
     return buildNodesFromComponents(industryName, industryMap, fullData, showIsolated);
   }
 
-  // 节点标签策略：只有关键节点显示标签，小节点只显示颜色/形状
+  // 节点标签策略：v4 修复 — 更多节点显示标签
   function getNodeLabel(node, type, size) {
-    // indicator/logic 节点默认不显示标签（太小，满屏文字）
-    if (type === 'indicator' || type === 'logic') return '';
-    // 非核心实体节点不显示标签
-    if (node.nodeType === 'entity' && !node.is_core && size <= 12) return '';
-    // 其他节点显示标签
+    // indicator/logic 节点显示短标签（之前完全隐藏）
+    if (type === 'indicator') return node.name && node.name.length <= 8 ? node.name : '';
+    if (type === 'logic') return node.name && node.name.length <= 8 ? node.name : '';
+    // 非核心实体也显示标签（之前对 size<=12 隐藏）
     return node.label || node.name || '';
   }
 
@@ -139,11 +139,10 @@ const Level2Progressive = (function() {
     const entityNodes = [];
     const edgeMap = new Map();
 
-    // ── 构建节点 ──
+    // 构建节点 ── 默认显示孤立节点（v4 修复：节点数与实际可见数一致）
     entities.forEach(e => {
-      if (showIsolated !== true && !connectedIds.has(e.id)) return;
       const color = getEntityColor(e.type);
-      const size = e.is_core ? 20 : 12;
+      const size = e.is_core ? 22 : 14;
       entityNodes.push({
         id: e.id,
         label: getNodeLabel(e, e.type, size),
@@ -166,10 +165,9 @@ const Level2Progressive = (function() {
     });
 
     frameworks.forEach(fw => {
-      if (!connectedIds.has(fw.id) && showIsolated !== true) return;
       entityNodes.push({
         id: fw.id,
-        label: getNodeLabel(fw, 'framework', 18),
+        label: getNodeLabel(fw, 'framework', 20),
         title: buildTooltip(fw, industryMap),
         shape: 'square',
         group: 'framework',
@@ -178,7 +176,7 @@ const Level2Progressive = (function() {
           border: adjustColor(getEntityColor('framework'), -40),
           highlight: { background: '#fff', border: '#1d9bf0' },
         },
-        size: 18,
+        size: 20,
         type: 'framework',
         nodeType: 'framework',
         name: fw.name,
@@ -188,10 +186,9 @@ const Level2Progressive = (function() {
     });
 
     logics.forEach(lc => {
-      if (!connectedIds.has(lc.id) && showIsolated !== true) return;
       entityNodes.push({
         id: lc.id,
-        label: getNodeLabel(lc, 'logic', 10),
+        label: getNodeLabel(lc, 'logic', 12),
         title: buildTooltip(lc, industryMap),
         shape: 'triangle',
         group: 'logic',
@@ -200,7 +197,7 @@ const Level2Progressive = (function() {
           border: adjustColor(getEntityColor('logic'), -40),
           highlight: { background: '#fff', border: '#1d9bf0' },
         },
-        size: 10,
+        size: 12,
         type: 'logic',
         nodeType: 'logic',
         name: lc.type || '逻辑链',
@@ -210,10 +207,9 @@ const Level2Progressive = (function() {
     });
 
     indicators.forEach(ind => {
-      if (!connectedIds.has(ind.id) && showIsolated !== true) return;
       entityNodes.push({
         id: ind.id,
-        label: getNodeLabel(ind, 'indicator', 8),
+        label: getNodeLabel(ind, 'indicator', 10),
         title: buildTooltip(ind, industryMap),
         shape: 'diamond',
         group: 'indicator',
@@ -222,7 +218,7 @@ const Level2Progressive = (function() {
           border: adjustColor(getEntityColor('indicator'), -40),
           highlight: { background: '#fff', border: '#1d9bf0' },
         },
-        size: 8,
+        size: 10,
         type: 'indicator',
         nodeType: 'indicator',
         name: ind.name || '指标',

@@ -516,3 +516,373 @@ html, body {
 #detail-body .dcn{font-size:13px;font-weight:600;color:#4A90D9}
 #detail-body .dcty{font-size:10px;color:#888}
 #detail-body .dcd{font-size:11px;color:#999;line-height:1.5}
+
+
+/* ============================================================
+   v4 科幻化增强 — 网格背景 + 霓虹辉光 + 扫描线动画
+   ============================================================ */
+
+/* 全局网格背景 */
+.app-visual {
+  background:
+    radial-gradient(ellipse at 50% 50%, rgba(0, 212, 255, 0.08) 0%, transparent 70%),
+    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+    var(--bg-primary);
+  background-size: 100% 100%, 40px 40px, 40px 40px, 100% 100%;
+  animation: grid-pulse 4s ease-in-out infinite;
+}
+
+@keyframes grid-pulse {
+  0%, 100% { background-size: 100% 100%, 40px 40px, 40px 40px, 100% 100%; }
+  50% { background-size: 100% 100%, 40px 40px, 40px 40px, 100% 100%; }
+}
+
+/* 扫描线效果 */
+.app-visual::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 3px,
+    rgba(0, 212, 255, 0.02) 3px,
+    rgba(0, 212, 255, 0.02) 4px
+  );
+  pointer-events: none;
+  animation: scanline 8s linear infinite;
+  z-index: 1;
+}
+
+@keyframes scanline {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 100%; }
+}
+
+/* vis-network 容器辉光 */
+#viz-canvas {
+  position: relative;
+  z-index: 2;
+}
+
+/* 顶部栏科幻化 */
+.app-header {
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(0, 212, 255, 0.05) 100%);
+  border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+  box-shadow: 0 2px 20px rgba(0, 212, 255, 0.15);
+}
+
+.app-header h1 {
+  background: linear-gradient(135deg, #00d4ff, #a78bfa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: neon-flicker 3s ease-in-out infinite;
+}
+
+@keyframes neon-flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.9; }
+}
+
+/* 导航栏科幻化 */
+.app-nav {
+  background: linear-gradient(180deg, var(--bg-secondary) 0%, rgba(10, 14, 26, 0.8) 100%);
+  border-right: 1px solid rgba(0, 212, 255, 0.3);
+  box-shadow: 2px 0 20px rgba(0, 212, 255, 0.1);
+}
+
+.nav-item {
+  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-item:hover {
+  background: rgba(0, 212, 255, 0.1);
+  border-left-color: #00d4ff;
+  box-shadow: inset 0 0 20px rgba(0, 212, 255, 0.15);
+}
+
+.nav-item.active {
+  background: rgba(0, 212, 255, 0.15);
+  border-left-color: #00d4ff;
+  box-shadow: inset 0 0 30px rgba(0, 212, 255, 0.2);
+}
+
+/* 行业导航项增强 */
+.industry-nav-item {
+  transition: all 0.3s ease;
+}
+
+.industry-nav-item:hover {
+  background: rgba(0, 212, 255, 0.1);
+  transform: translateX(4px);
+}
+
+.industry-nav-item.active {
+  background: rgba(0, 212, 255, 0.2);
+  border-left: 3px solid #00d4ff;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+/* 节点指示器霓虹效果 */
+.nav-indicator {
+  box-shadow: 0 0 8px currentColor;
+  animation: indicator-pulse 2s ease-in-out infinite;
+}
+
+@keyframes indicator-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+/* 右侧详情面板科幻化 */
+.app-detail {
+  background: linear-gradient(180deg, var(--bg-secondary) 0%, rgba(10, 14, 26, 0.9) 100%);
+  border-left: 1px solid rgba(0, 212, 255, 0.3);
+  box-shadow: -2px 0 20px rgba(0, 212, 255, 0.1);
+}
+
+/* 面包屑科幻化 */
+.breadcrumb {
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+}
+
+.breadcrumb-item {
+  color: #00d4ff;
+  text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+}
+
+.breadcrumb-item:hover {
+  color: #a78bfa;
+  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+}
+
+/* 按钮科幻化 */
+.btn {
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  color: #00d4ff;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: rgba(0, 212, 255, 0.2);
+  border-color: #00d4ff;
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.4);
+  color: #fff;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #00d4ff, #a78bfa);
+  border-color: transparent;
+  color: #000;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 25px rgba(0, 212, 255, 0.6);
+}
+
+/* 属性行科幻化 */
+.attr-row {
+  border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+  padding: 8px 0;
+  transition: all 0.3s ease;
+}
+
+.attr-row:hover {
+  background: rgba(0, 212, 255, 0.05);
+}
+
+.attr-key {
+  color: var(--text-secondary);
+}
+
+.attr-val {
+  color: #00d4ff;
+  font-weight: 600;
+}
+
+/* 类型图例科幻化 */
+.type-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.type-legend-item:hover {
+  background: rgba(0, 212, 255, 0.1);
+}
+
+.type-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px currentColor;
+  animation: legend-pulse 2s ease-in-out infinite;
+}
+
+@keyframes legend-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* 过滤芯片科幻化 */
+.filter-chip {
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  color: var(--text-secondary);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.filter-chip.active {
+  background: rgba(0, 212, 255, 0.2);
+  border-color: #00d4ff;
+  color: #00d4ff;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+.filter-chip:hover {
+  background: rgba(0, 212, 255, 0.15);
+  border-color: #00d4ff;
+}
+
+.fc-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+/* 加载动画科幻化 */
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(10, 14, 26, 0.95);
+  border: 1px solid rgba(0, 212, 255, 0.5);
+  border-radius: 10px;
+  padding: 30px 50px;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 0 40px rgba(0, 212, 255, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+#loading.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+#loading::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 15px;
+  border: 3px solid rgba(0, 212, 255, 0.2);
+  border-top-color: #00d4ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+#loading-text {
+  color: #00d4ff;
+  font-size: 14px;
+  font-family: 'FangSong', 仿宋, serif;
+  text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+}
+
+/* 状态栏科幻化 */
+.app-statusbar {
+  background: rgba(0, 212, 255, 0.1);
+  border-top: 1px solid rgba(0, 212, 255, 0.3);
+  color: var(--text-secondary);
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+#status-left, #status-right {
+  transition: color 0.3s ease;
+}
+
+#status-left:hover, #status-right:hover {
+  color: #00d4ff;
+}
+
+/* 详情面板标题 */
+#detail-title {
+  color: #00d4ff;
+  text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+  font-family: 'FangSong', 仿宋, serif;
+}
+
+/* vis-network 节点辉光增强 */
+.vis-network .vis-node {
+  filter: drop-shadow(0 0 5px rgba(0, 212, 255, 0.6));
+}
+
+.vis-network .vis-edge {
+  filter: drop-shadow(0 0 2px rgba(0, 212, 255, 0.4));
+}
+
+/* 字体统一为仿宋 */
+body, .app-layout, .nav-item, .breadcrumb-item, .filter-chip, .type-legend-item {
+  font-family: 'FangSong', '仿宋', 'STFangSong', 'Songti SC', serif;
+}
+
+/* 滚动条科幻化 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 212, 255, 0.5);
+}
+
+/* 数据面板科幻化 */
+.data-panel {
+  background: rgba(0, 212, 255, 0.05);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 8px;
+}
+
+.data-panel:hover {
+  background: rgba(0, 212, 255, 0.08);
+  border-color: rgba(0, 212, 255, 0.4);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+}
