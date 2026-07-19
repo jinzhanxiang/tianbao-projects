@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-07-19T23:10:00Z",
+    "task": "tianbao-rebuild-m1"
+  },
+  "timeline": [
+    {
+      "date": "2026-07-19",
+      "type": "milestone",
+      "title": "启动天保项目重构",
+      "description": "主公决策启动 5 项目标重构任务",
+      "project": "tianbao-projects"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "report",
+      "title": "星恒电源尽调报告更新",
+      "description": "股权分析报告 V3",
+      "project": "xingheng"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "report",
+      "title": "晶能光电主报告完成",
+      "description": "JNGD 投资分析报告",
+      "project": "jngd"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "report",
+      "title": "元旭半导体尽调启动",
+      "description": "启动 Innoshine 尽职调查",
+      "project": "innoshine"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "milestone",
+      "title": "启源芯动力立项",
+      "description": "启动启源芯动力并购项目",
+      "project": "qydx"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "report",
+      "title": "汇天网络 V2 报告完成",
+      "description": "完成汇天网络合作分析报告",
+      "project": "huitian"
+    }
+  ]
+}

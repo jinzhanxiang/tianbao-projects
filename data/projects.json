@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-07-19T23:09:00Z",
+    "task": "tianbao-rebuild-m1",
+    "total_projects": 1055,
+    "categories": [
+      {"id": "deal", "name": "重大并购", "count": 0},
+      {"id": "np", "name": "非上市储备", "count": 0},
+      {"id": "listed", "name": "上市相关", "count": 0},
+      {"id": "done", "name": "已完成", "count": 0}
+    ]
+  },
+  "projects": [
+    {
+      "id": "xingheng",
+      "name": "星恒电源",
+      "category": "deal",
+      "status": "尽调中",
+      "stage": "尽调阶段",
+      "emoji": "⭐",
+      "last_updated": "2026-07-15",
+      "reports": [
+        {"title": "商业分析报告", "url": "https://jinzhanxiang.github.io/xingheng-report/"},
+        {"title": "项目中心", "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"}
+      ]
+    },
+    {
+      "id": "jngd",
+      "name": "晶能光电",
+      "category": "np",
+      "status": "跟踪中",
+      "stage": "储备阶段",
+      "emoji": "🔬",
+      "last_updated": "2026-07-12",
+      "reports": [
+        {"title": "主报告", "url": "https://jinzhanxiang.github.io/jngd-report/"}
+      ]
+    },
+    {
+      "id": "innoshine",
+      "name": "元旭半导体",
+      "category": "np",
+      "status": "跟踪中",
+      "stage": "储备阶段",
+      "emoji": "💡",
+      "last_updated": "2026-07-10",
+      "reports": [
+        {"title": "尽调报告", "url": "https://jinzhanxiang.github.io/innoshine-report/"}
+      ]
+    },
+    {
+      "id": "huitian",
+      "name": "汇天网络",
+      "category": "deal",
+      "status": "尽调完成",
+      "stage": "决策阶段",
+      "emoji": "🌐",
+      "last_updated": "2026-07-16",
+      "reports": [
+        {"title": "V2主报告", "url": "https://jinzhanxiang.github.io/huitian-network-report/huitian_cooperation.html"},
+        {"title": "项目中心", "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"}
+      ]
+    },
+    {
+      "id": "qydx",
+      "name": "启源芯动力",
+      "category": "deal",
+      "status": "立项中",
+      "stage": "立项阶段",
+      "emoji": "⚡",
+      "last_updated": "2026-07-09",
+      "reports": []
+    }
+  ],
+  "external_repos": [
+    {"name": "星恒电源", "repo": "xingheng-report", "url": "https://jinzhanxiang.github.io/xingheng-report/"},
+    {"name": "汇天网络", "repo": "huitian-network-report", "url": "https://jinzhanxiang.github.io/huitian-network-report/"},
+    {"name": "晶能光电", "repo": "jngd-report", "url": "https://jinzhanxiang.github.io/jngd-report/"},
+    {"name": "元旭半导体", "repo": "innoshine-report", "url": "https://jinzhanxiang.github.io/innoshine-report/"},
+    {"name": "七项目汇总", "repo": "7projects-summary", "url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html"}
+  ]
+}
