@@ -150,7 +150,7 @@ async function loadStats() {
         if (current >= target) clearInterval(timer);
       }, 30);
     });
-    document.getElementById('update-time').textContent = new Date(data.metadata.created).toLocaleDateString('zh-CN');
+    /* update-time 已废弃（按主公 08:23） · 静态数据无 metadata.created */
   } catch(e) { console.error('Load stats failed:', e); }
 }
 loadStats();

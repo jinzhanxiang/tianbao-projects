@@ -97,7 +97,7 @@ async function init() {
     ]};
     data.projects.forEach(p => {
       if (p.reports && p.reports.length > 0) {
-        html += `<div class="list-item">
+        html += `<div class="list-item cyber-card cyber-card-glow cyber-shimmer">
           <span class="list-icon">${p.emoji}</span>
           <div class="list-content">
             <div class="list-title">${p.name}</div>
@@ -108,7 +108,7 @@ async function init() {
       }
     });
     data.external_repos.forEach(r => {
-      html += `<div class="list-item">
+      html += `<div class="list-item cyber-card cyber-card-glow cyber-shimmer">
         <span class="list-icon">▣</span>
         <div class="list-content">
           <div class="list-title">${r.name}</div>

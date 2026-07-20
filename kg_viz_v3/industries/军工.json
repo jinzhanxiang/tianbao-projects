@@ -1,0 +1,123 @@
+{
+ "name": "军工",
+ "entities": [
+  {
+   "id": "ent_a9c6f21f975f",
+   "name": "AESA雷达",
+   "type": "TECH",
+   "industry": "军工",
+   "desc": "有源电子扫描阵列雷达，具备高可靠性，适用于低空通信场景。AESA雷达通过地面基站校正提高GPS精度的DGPS（差分全球定位系统）结合使用，用于无人机导航中的IMU（惯性测量单元）传感器常配合LiDAR（激光探测与测距系统）获取高精度三维地形和物体。",
+   "attrs": "{\"industry\": \"\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_5f547dc08b9a",
+   "name": "激光雷达",
+   "type": "PRODUCT",
+   "industry": "军工",
+   "desc": "激光雷达2023年渗透率2.1%，预计2025年达10%，单车价值量1600-3000元，市场空间从16亿元扩容至45亿元，降本加速普及",
+   "attrs": "{\"industry\": \"\\u519b\\u5de5\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  }
+ ],
+ "relations": [],
+ "frameworks": [],
+ "logics": [
+  {
+   "id": "log_28a9086192ee85c3",
+   "logic_id": "28a9086192ee85c3",
+   "type": "递进",
+   "premise": "2023年座舱域控渗透率12%预计2025年达25%，智驾域控渗透率7.2%预计2025年达18%，HUD渗透率9.8%预计2025年达30%，激光雷达渗透率2.1%预计2025年达10%",
+   "conclusion": "技术进步、配置升级和规模化带动众多子赛道空间扩容，座舱域控市场空间从93亿增至209亿，智驾域控从168亿增至406亿，激光雷达从16亿增至45亿",
+   "text": "新能源渗透率提升为智能化配置提供载体，域控、激光雷达等功能渗透率提升反映智能驾驶需求增长；规模降本加速普及，座舱域控单价维持3000元但渗透率翻倍，激光雷达单价从3000降至1600元推动渗透率从2.1%升至10%；油车与电车共用产品如车灯、座椅、底盘、HUD也因智能舒适需求升级",
+   "dimension": "4",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_d6490a8678ef93b6",
+   "logic_id": "d6490a8678ef93b6",
+   "type": "因果",
+   "premise": "2021-2023年新能源渗透率从15%提升至34%，智能化产品如域控、激光雷达渗透率同步增长",
+   "conclusion": "新能源渗透率提升推动智能化产品需求增长，进而带动行业空间扩容",
+   "text": "基于2021-2023年新能源渗透率从15%提升至34%，智能化,推导出新能源渗透率提升推动智能化产品需求增长，进而带动行业空间扩容",
+   "dimension": "2",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_d0e8946fe2412118",
+   "logic_id": "d0e8946fe2412118",
+   "type": "趋势",
+   "premise": "2021-2023年新能源渗透率从15%提升至34%，汽车智能化新增量产品如域控、激光雷达等渗透率不断提升",
+   "conclusion": "2023-2025年座舱域控市场空间将从93亿元扩容至209亿元，智驾域控从168亿元扩容至406亿元",
+   "text": "从2021-2023年新能源渗透率从15%提升至34%，汽车智的趋势分析,判断2023-2025年座舱域控市场空间将从93亿元扩容至209",
+   "dimension": "2",
+   "confidence": 0.85,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_025345e02739c7fd",
+   "logic_id": "025345e02739c7fd",
+   "type": "趋势",
+   "premise": "激光雷达2023年渗透率2.1%、单车价值量3000元、市场空间16亿元；预计2025年渗透率10%、单车价值量1600元、市场空间45亿元",
+   "conclusion": "成本下降46.7%（3000→1600元）是渗透率提升4.8倍的核心驱动因素，降本加速普及效应显著",
+   "text": "从激光雷达2023年渗透率2.1%、单车价值量3000元、市场的趋势分析,判断成本下降46.7%（3000→1600元）是渗透率提升4.8",
+   "dimension": "2",
+   "confidence": 0.82,
+   "is_core": false,
+   "node_type": "logic"
+  }
+ ],
+ "indicators": [],
+ "framework_entity_edges": [],
+ "logic_entity_edges": [
+  {
+   "from": "log_28a9086192ee85c3",
+   "to": "ent_5f547dc08b9a",
+   "type": "逻辑关联",
+   "from_name": "log_28a9086192ee85c3",
+   "to_name": "激光雷达",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_d6490a8678ef93b6",
+   "to": "ent_5f547dc08b9a",
+   "type": "逻辑关联",
+   "from_name": "log_d6490a8678ef93b6",
+   "to_name": "激光雷达",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_d0e8946fe2412118",
+   "to": "ent_5f547dc08b9a",
+   "type": "逻辑关联",
+   "from_name": "log_d0e8946fe2412118",
+   "to_name": "激光雷达",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_025345e02739c7fd",
+   "to": "ent_5f547dc08b9a",
+   "type": "逻辑关联",
+   "from_name": "log_025345e02739c7fd",
+   "to_name": "激光雷达",
+   "edge_type": "logic_entity"
+  }
+ ],
+ "indicator_entity_edges": [],
+ "counts": {
+  "entity_count": 2,
+  "relation_count": 0,
+  "framework_count": 0,
+  "logic_count": 4,
+  "indicator_count": 0
+ }
+}

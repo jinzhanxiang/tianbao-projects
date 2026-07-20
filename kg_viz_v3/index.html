@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✦ 知识图谱 · 分层探索</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-layout">
+  <!-- 顶部栏 -->
+  <header class="app-header">
+    <h1>
+      <span>📊</span> 知识图谱
+      <span class="level-badge" id="level-badge">Level 1 · 行业全景</span>
+    </h1>
+    <div class="header-right">
+      <div class="header-controls">
+        <input type="text" id="search-input" class="search-input" placeholder="🔍 搜索实体..." onkeyup="if(event.key=='Enter')window.onSearchNodes()">
+        <button class="btn" id="btn-search" title="搜索" onclick="window.onSearchNodes()">🔍</button>
+        <label class="toggle-label" title="显示没有关联关系的孤立节点">
+          <input type="checkbox" id="toggle-isolated" onchange="window.onToggleIsolatedNodes()">
+          <span>孤立节点</span>
+        </label>
+      </div>
+      <button class="btn" id="btn-reset" title="重置视图">🔄 重置</button>
+      <button class="btn" id="btn-physics" title="重启引力动画">🌀 引力</button>
+      <button class="btn" id="btn-fit" title="适应屏幕">🔍 适应</button>
+      <button class="btn" id="btn-export" title="导出PNG">💾 导出</button>
+    </div>
+  </header>
+
+  <!-- 左侧导航 -->
+  <nav class="app-nav">
+    <div class="nav-section" id="nav-industries">
+      <h3>🏭 行业</h3>
+      <div id="industry-nav-list" class="nav-list"></div>
+    </div>
+
+    <div class="nav-section" id="nav-type-filter">
+      <h3>🔖 节点类型过滤</h3>
+      <div id="type-legend" class="type-legend-list"></div>
+    </div>
+    <div class="nav-section" id="nav-rel-filters">
+      <h3>🔗 关系类型过滤</h3>
+      <div id="rel-filters" class="filter-list"></div>
+    </div>
+    <div class="nav-section" id="nav-stats">
+      <h3>📊 概览</h3>
+      <div id="stats-list" class="stats-list"></div>
+    </div>
+  </nav>
+
+  <!-- 主可视化区域 -->
+  <div class="app-visual">
+    <div class="breadcrumb" id="breadcrumb"></div>
+    <div id="viz-canvas" class="level1-circular"></div>
+    <div id="loading" class="visible">
+      <div id="loading-text">初始化图谱引擎中...</div>
+    </div>
+  </div>
+
+  <!-- 右侧详情面板 -->
+  <div class="app-detail" id="detail-panel">
+    <div class="detail-header">
+      <h3 id="detail-title">实体详情</h3>
+      <button class="btn" id="btn-close-detail" title="关闭详情面板">✕</button>
+    </div>
+    <div class="detail-body" id="detail-body">
+      <div class="detail-placeholder">
+        <div class="ph-icon">👆</div>
+        <div class="ph-text">点击图谱中的节点查看实体详情</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 加载过渡遮罩 -->
+<div id="level-transition-overlay" style="position:fixed;inset:0;z-index:9998;background:#0f1419;opacity:0;pointer-events:none;transition:opacity 0.3s ease;"></div>
+
+<!-- 状态栏 -->
+<div class="app-statusbar">
+  <span id="status-left">就绪</span>
+  <span id="status-right">天保控股 · 项目中心</span>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/standalone/umd/vis-network.min.js"></script>
+<script src="js/level1-circular.js?v=7"></script>
+<script src="js/level2-progressive.js?v=7"></script>
+<script src="js/level3-detail.js?v=7"></script>
+<script src="js/app.js?v=7"></script>
+</body>
+</html>

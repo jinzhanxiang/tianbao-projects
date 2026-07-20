@@ -118,6 +118,10 @@ async function init() {
       {id:'PRJ-006',name:'巡超',category:'deal',stage:'尽调中',emoji:'📑'}
     ]};
     allProjects = data.projects;
+    /* cyber-card 模板（按主公 08:23 终极指令 · 加快进度） */
+    const grid = document.getElementById('project-list');
+    grid.className = 'cyber-grid';
+    grid.innerHTML = allProjects.map(p => `<div class="card cyber-card cyber-card-glow cyber-shimmer"><div class="card-emoji">${p.emoji}</div><div class="card-name">${p.name}</div><div class="card-sub">${p.stage}</div></div>`).join('');
     document.getElementById('projectCount').textContent = allProjects.length;
     document.getElementById('projectCount').textContent = allProjects.length;
     render(allProjects);

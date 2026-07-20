@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✦ Wiki · 实体详情</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'FangSong', serif; background: #0a0e1a; color: #e7e9ea; }
+    .header { padding: 14px 20px; background: #0f1419; border-bottom: 1px solid #1d2a38; display: flex; align-items: center; gap: 12px; }
+    .header h1 { font-size: 16px; font-weight: 500; margin: 0; }
+    .header a { color: #1d9bf0; text-decoration: none; font-size: 13px; }
+    .container { max-width: 900px; margin: 20px auto; padding: 0 20px; }
+    .card { background: #0f1419; border: 1px solid #1d2a38; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+    .card h5 { margin: 0 0 10px; font-size: 13px; color: #1d9bf0; }
+    .attr-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #1d2a38; font-size: 13px; }
+    .attr-row:last-child { border-bottom: none; }
+    .attr-key { color: #71767b; }
+    .attr-val { color: #e7e9ea; text-align: right; max-width: 60%; word-break: break-all; }
+    .empty { text-align: center; padding: 40px; color: #71767b; }
+    .relation-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .relation-item { background: #1d2a38; padding: 4px 8px; border-radius: 4px; font-size: 12px; cursor: pointer; }
+    .relation-item:hover { background: #1d9bf0; color: #0a0e1a; }
+    .detail-card p { font-size: 13px; line-height: 1.6; color: #bdc3c7; }
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1>✦ 知识图谱 · Wiki</h1>
+  <a href="../index.html">← 返回图谱</a>
+</div>
+<div class="container" id="content">
+  <div class="card"><div class="empty">加载中...</div></div>
+</div>
+<script>
+(function() {
+  function esc(t) { if(!t) return ''; return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+  function getTypeLabel(t) {
+    var L = {ORG:'组织机构',PERSON:'人物',PRODUCT:'产品',TECH:'技术',INDUSTRY:'行业领域',POLICY:'政策法规',PLACE:'地点',UNKNOWN:'未知'};
+    return L[t] || t;
+  }
+  function getTypeColor(t) {
+    var C = {ORG:'#4A90D9',PERSON:'#50C878',PRODUCT:'#FFB347',TECH:'#FF6B6B',INDUSTRY:'#FFD700',POLICY:'#FF8C42',PLACE:'#48C9B0',UNKNOWN:'#95A5A6'};
+    return C[t] || '#95A5A6';
+  }
+
+  function render(entity, data) {
+    var name = entity.name || entity.label || '未知';
+    var type = entity.type || 'UNKNOWN';
+    var color = getTypeColor(type);
+    var label = getTypeLabel(type);
+    var content = document.getElementById('content');
+
+    var html = '<div class="card"><h5>基本信息</h5>';
+    html += '<div class="attr-row"><span class="attr-key">名称</span><span class="attr-val">' + esc(name) + '</span></div>';
+    html += '<div class="attr-row"><span class="attr-key">类型</span><span class="attr-val" style="color:' + color + '">' + label + '</span></div>';
+    if (entity.industry) html += '<div class="attr-row"><span class="attr-key">行业</span><span class="attr-val">' + esc(entity.industry) + '</span></div>';
+    if (entity.stock) html += '<div class="attr-row"><span class="attr-key">股票代码</span><span class="attr-val">' + esc(entity.stock) + '</span></div>';
+    if (entity.is_core) html += '<div class="attr-row"><span class="attr-key">核心</span><span class="attr-val" style="color:#00ba7c;font-weight:bold">★ 是</span></div>';
+    html += '</div>';
+
+    if (entity.desc) {
+      html += '<div class="card detail-card"><h5>描述</h5><p>' + esc(entity.desc) + '</p></div>';
+    }
+    if (entity.attrs) {
+      html += '<div class="card detail-card"><h5>属性</h5><p>' + esc(entity.attrs) + '</p></div>';
+    }
+
+    // 关系
+    var relations = (data && data.relations) || [];
+    var myRels = relations.filter(function(r) { return r.from === entity.id || r.to === entity.id; });
+    if (myRels.length > 0) {
+      html += '<div class="card"><h5>相关关系 (' + myRels.length + ')</h5><div class="relation-list">';
+      myRels.forEach(function(r) {
+        var target = r.from === entity.id ? r.to_name : r.from_name;
+        var rid = r.from === entity.id ? r.to : r.from;
+        html += '<span class="relation-item" onclick="window.location.hash=\'' + esc(rid) + '\';fetchEntity(\'' + esc(rid) + '\')">[' + esc(r.type) + '] ' + esc(target) + '</span>';
+      });
+      html += '</div></div>';
+    }
+
+    // Wiki 文件链接（如存在同名 .md 文件）
+    var wikiName = entity.name ? entity.name.replace(/\s/g,'_') : name;
+    html += '<div class="card detail-card"><h5>知识库</h5><p style="color:#1d9bf0;cursor:pointer" onclick="window.open(\'./entities/' + esc(wikiName) + '.md\',\'_blank\')">📄 查看 Wiki 页面</p></div>';
+
+    content.innerHTML = html;
+  }
+
+  function fetchEntity(id) {
+    fetch('../../kg_data.json?_t=' + Date.now())
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var allEnts = data.all_entities || data.entities || [];
+        var entity = allEnts.find(function(e) { return e.id === id || e.name === id || (e.label && e.label === id); });
+        if (!entity) {
+          // fallback: search industry slice data
+          var industryData = window._currentIndustryData || null;
+          if (industryData && industryData.entities) {
+            entity = industryData.entities.find(function(e) { return e.id === id || e.name === id || e.label === id; });
+          }
+        }
+        if (entity) {
+          render(entity, data);
+          document.title = esc(entity.name || entity.label) + ' · Wiki';
+        } else {
+          document.getElementById('content').innerHTML = '<div class="card"><div class="empty">未找到实体: ' + esc(id) + '<br><small>kg_data.json 中实体数: ' + allEnts.length + '</small></div></div>';
+        }
+      })
+      .catch(function(e) {
+        document.getElementById('content').innerHTML = '<div class="card"><div class="empty">加载失败: ' + e.message + '</div></div>';
+      });
+  }
+
+  // 从 URL 或 hash 读取实体 ID
+  var params = new URLSearchParams(window.location.search);
+  var entityId = params.get('entity');
+  if (!entityId) entityId = window.location.hash.replace('#','') || null;
+
+  if (entityId) {
+    fetchEntity(encodeURIComponent(entityId));
+  } else {
+    document.getElementById('content').innerHTML = '<div class="card"><div class="empty">请通过 ?entity=实体名称 或 #实体ID 访问</div></div>';
+  }
+})();
+</script>
+</body>
+</html>
