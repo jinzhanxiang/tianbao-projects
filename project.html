@@ -111,15 +111,25 @@ async function init() {
   }
   try {
     /* fetch 已废弃（按主公 08:12 终极指令） · 项目数据内嵌 */
-    const data = { projects: [
-      {id:'PRJ-001',emoji:'🚀',name:'江南国际',stage:'待尽调',category:'deal',timeline:[
-        {date:'2026-07-15',text:'立项',done:true},
-        {date:'2026-07-20',text:'启动尽调',done:false}
-      ],desc:'江南国际标的项目'},
-      {id:'PRJ-002',emoji:'📡',name:'科渡',stage:'已签约',category:'deal',timeline:[
-        {date:'2026-07-10',text:'签约',done:true}
-      ],desc:'科渡IDC合作项目'}
-    ]};
+    const data = { 
+      projects: [
+        {id:'PRJ-001',emoji:'🚀',name:'江南国际',stage:'待尽调',status:'待尽调',category:'deal',last_updated:'2026-07-19',timeline:[
+          {date:'2026-07-15',text:'立项',done:true},
+          {date:'2026-07-20',text:'启动尽调',done:false}
+        ],desc:'江南国际标的项目',reports:[{title:'江南国际尽调报告',url:'/jngd-report/dashboard.html'}]},
+        {id:'PRJ-002',emoji:'📡',name:'科渡',stage:'已签约',status:'已签约',category:'deal',last_updated:'2026-07-19',timeline:[
+          {date:'2026-07-10',text:'签约',done:true}
+        ],desc:'科渡IDC合作项目',reports:[{title:'科渡可行性分析',url:'/kedu-report/index.html'}]},
+        {id:'PRJ-003',emoji:'💼',name:'中富',stage:'推进中',status:'推进中',category:'np',last_updated:'2026-07-19',timeline:[
+          {date:'2026-07-12',text:'立项',done:true}
+        ],desc:'中富投资项目',reports:[{title:'中富可研报告',url:'/zhongfu-report/index.html'}]}
+      ],
+      external_repos: [
+        {name:'江南国际',url:'/jngd-report/dashboard.html'},
+        {name:'科渡',url:'/kedu-report/index.html'},
+        {name:'中富',url:'/zhongfu-report/index.html'}
+      ]
+    };
     const proj = data.projects.find(p => p.id === projectId);
     if (!proj) {
       document.getElementById('content').innerHTML = '<div class="error">✦ 项目不存在: ' + projectId + '</div>';
@@ -156,7 +166,7 @@ function renderProject(p, data) {
     </div>
     
     <div class="section cyber-card cyber-card-glow">
-      <div <h2 class="cyber-title-sm">>✦ 项目时间线</div>
+      <div class="cyber-title-sm-wrap"><h2 class="cyber-title-sm">✦ 项目时间线</div>
       <div class="timeline">
         ${timeline.map(t => `
           <div class="tl-item ${t.type}">
@@ -170,7 +180,7 @@ function renderProject(p, data) {
     </div>
     
     <div class="section cyber-card cyber-card-glow">
-      <div <h2 class="cyber-title-sm">>✦ 关联报告</div>
+      <div class="cyber-title-sm-wrap"><h2 class="cyber-title-sm">✦ 关联报告</div>
       <div class="reports-grid">
         ${p.reports && p.reports.length ? p.reports.map(r => `
           <div class="report-card">
@@ -187,7 +197,7 @@ function renderProject(p, data) {
     </div>
     
     <div class="section cyber-card cyber-card-glow">
-      <div <h2 class="cyber-title-sm">>✦ 本地文件</div>
+      <div class="cyber-title-sm-wrap"><h2 class="cyber-title-sm">✦ 本地文件</div>
       <div class="local-dir">
         ✦ 实体文件: <code>entities/${p.id}.md</code><br>
         ✦ 项目目录: <code>~/Documents/tianbao-projects/entities/${p.id}/</code>
