@@ -145,16 +145,20 @@ function render(projects) {
     return;
   }
   list.innerHTML = projects.map(p => `
-    <a href="detail.html?id=${p.id}" class="list-item">
+    <a href="detail.html?id=${p.id}" class="list-item cyber-card cyber-card-glow cyber-shimmer">
       <span class="list-emoji">${p.emoji}</span>
       <div class="list-main">
         <div class="list-name">${p.name}</div>
-        <div class="list-sub">${p.stage} · ${p.status}</div>
-        <div class="list-meta"><span>更新: ${p.last_updated}</span></div>
+        <div class="list-sub">${p.stage}</div>
+        <div class="list-meta"><span>更新: ${p.last_updated || '今日'}</span></div>
       </div>
       <span class="list-status status-${p.category}">${p.category === 'deal' ? '并购' : p.category === 'np' ? '储备' : '上市'}</span>
     </a>
   `).join('');
+  /* GSAP 科幻化动画（按主公 08:23 终极指令） */
+  if (typeof gsap !== 'undefined') {
+    gsap.from('.list-item.cyber-card', {duration: 0.5, opacity: 0, y: 20, stagger: 0.05, ease: 'power2.out'});
+  }
 }
 init();
 // Auto-refresh every 60s
