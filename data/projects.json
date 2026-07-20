@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-07-20T10:25:00Z",
+    "total_projects": 4
+  },
+  "projects": [
+    {
+      "id": "xingheng",
+      "name": "星恒电源",
+      "category": "deal",
+      "emoji": "⭐",
+      "status": "尽调中",
+      "stage": "尽调阶段",
+      "localDir": "entities/星恒电源.md",
+      "reports": [
+        {
+          "title": "商业分析",
+          "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        }
+      ]
+    },
+    {
+      "id": "jngd",
+      "name": "晶能光电",
+      "category": "np",
+      "emoji": "🔬",
+      "status": "跟踪中",
+      "stage": "储备阶段",
+      "localDir": "entities/晶能光电.md",
+      "reports": [
+        {
+          "title": "主报告",
+          "url": "https://jinzhanxiang.github.io/jngd-report/"
+        }
+      ]
+    },
+    {
+      "id": "huitian",
+      "name": "汇天网络",
+      "category": "np",
+      "emoji": "🌐",
+      "status": "跟踪中",
+      "stage": "储备阶段",
+      "localDir": "entities/汇天网络.md",
+      "reports": [
+        {
+          "title": "V2主报告",
+          "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
+        }
+      ]
+    },
+    {
+      "id": "innoshine",
+      "name": "元旭半导体",
+      "category": "np",
+      "emoji": "💡",
+      "status": "跟踪中",
+      "stage": "储备阶段",
+      "localDir": "entities/元旭半导体.md",
+      "reports": []
+    }
+  ],
+  "external_repos": [
+    {
+      "name": "星恒电源",
+      "repo": "xingheng-report",
+      "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+    },
+    {
+      "name": "汇天网络",
+      "repo": "huitian-network-report",
+      "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
+    },
+    {
+      "name": "晶能光电",
+      "repo": "jngd-report",
+      "url": "https://jinzhanxiang.github.io/jngd-report/"
+    },
+    {
+      "name": "元旭半导体",
+      "repo": "innoshine-report",
+      "url": "https://jinzhanxiang.github.io/innoshine-report/"
+    }
+  ]
+}
