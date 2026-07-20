@@ -101,6 +101,8 @@ async function init() {
         {id:'huaitongda',name:'怀通达资产处置',url:'https://github.com/jinzhanxiang/huaitongda-assets'}
       ]
     };
+    let html = '';
+    const list = document.getElementById('reports-list');
     data.projects.forEach(p => {
       if (p.reports && p.reports.length > 0) {
         html += `<div class="list-item cyber-card cyber-card-glow cyber-shimmer">
