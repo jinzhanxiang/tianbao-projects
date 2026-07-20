@@ -116,9 +116,9 @@ async function init() {
   try {
     /* fetch 已废弃（按主公 08:12 终极指令） · 项目数据内嵌 */
     const data = { projects: [
-      {id:'PRJ-001', emoji:'🚀', name:'江南国际', stage:'待尽调', category:'deal', last_updated:'2026-07-15'},
-      {id:'PRJ-002', emoji:'📡', name:'科渡', stage:'已签约', category:'deal', last_updated:'2026-07-10'},
-      {id:'PRJ-003', emoji:'💼', name:'中富', stage:'推进中', category:'np', last_updated:'2026-07-05'}
+      {id:'PRJ-001', emoji:'🚀', name:'江南国际', stage:'待尽调', category:'deal', last_updated:'2026-07-15', reports:[{title:'江南国际尽调报告',url:'/jngd-report/dashboard.html'}]},
+      {id:'PRJ-002', emoji:'📡', name:'科渡', stage:'已签约', category:'deal', last_updated:'2026-07-10', reports:[{title:'科渡可行性分析',url:'/kedu-report/index.html'}]},
+      {id:'PRJ-003', emoji:'💼', name:'中富', stage:'推进中', category:'np', last_updated:'2026-07-05', reports:[{title:'中富可研报告',url:'/zhongfu-report/index.html'}]}
     ], external_repos: [
       {id:'R-001', name:'jngd-report'},
       {id:'R-002', name:'kedu-report'},
@@ -142,7 +142,7 @@ async function init() {
           <span class="card-status status-${p.category}">${p.category === 'deal' ? '并购' : '储备'}</span>
         </div>
         <div class="card-reports">
-          ${p.reports.map(r => `<a href="${r.url}" target="_blank">✦ ${r.title}</a>`).join('')}
+          ${p.reports && p.reports.map ? p.reports.map(r => `<a href="${r.url}" target="_blank">✦ ${r.title}</a>`).join('') : ''}
         </div>
       </div>
     `).join('');
