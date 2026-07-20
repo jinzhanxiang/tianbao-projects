@@ -115,8 +115,17 @@ h2{font-size:18px;font-weight:600;margin-bottom:16px;color:var(--text)}
 <script>
 async function init() {
   try {
-    const resp = await fetch('data/projects.json');
-    const data = await resp.json();
+    /* fetch 已废弃（按主公 08:12 终极指令） · 项目数据内嵌 */
+    const data = { projects: [
+      {id:'PRJ-001', emoji:'🚀', name:'江南国际', stage:'待尽调', category:'deal', last_updated:'2026-07-15'},
+      {id:'PRJ-002', emoji:'📡', name:'科渡', stage:'已签约', category:'deal', last_updated:'2026-07-10'},
+      {id:'PRJ-003', emoji:'💼', name:'中富', stage:'推进中', category:'np', last_updated:'2026-07-05'}
+    ], external_repos: [
+      {id:'R-001', name:'jngd-report'},
+      {id:'R-002', name:'kedu-report'},
+      {id:'R-003', name:'zhongfu-report'}
+    ]};
+
     
     document.getElementById('total-count').textContent = data.projects.length;
     document.getElementById('deal-count').textContent = data.projects.filter(p => p.category === 'deal').length;

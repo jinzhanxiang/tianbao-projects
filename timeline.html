@@ -107,22 +107,36 @@ select:focus{border-color:var(--border-glow);outline:none;box-shadow:var(--shado
 const projectsData = [];
 async function init() {
   try {
-    const [projResp, tlResp] = await Promise.all([
-      fetch('data/projects.json'),
-      fetch('data/timeline.json')
-    ]);
-    const projData = await projResp.json();
-    const tlData = await tlResp.json();
+    /* fetch 已废弃（按主公 08:12 终极指令） · 时间线数据内嵌 */
+    const projData = { projects: [
+      {id:'PRJ-001',name:'江南国际'},
+      {id:'PRJ-002',name:'科渡'},
+      {id:'PRJ-003',name:'中富'},
+      {id:'PRJ-004',name:'新宏'},
+      {id:'PRJ-005',name:'宏源'}
+    ]};
+    const tlData = { events: [
+      {date:'2026-07-15',text:'江南国际立项',projectId:'PRJ-001',projectName:'江南国际'},
+      {date:'2026-07-10',text:'科渡签约',projectId:'PRJ-002',projectName:'科渡'},
+      {date:'2026-07-05',text:'中富预研启动',projectId:'PRJ-003',projectName:'中富'},
+      {date:'2026-07-20',text:'主公 08:12 终极指令清理 kg/wiki 数据',projectId:'-',projectName:'系统'},
+      {date:'2026-07-20',text:'P0-5 删除 1107 文件 (commit ddbc2d0)',projectId:'-',projectName:'系统'},
+      {date:'2026-07-20',text:'P0-6 fetch 改内嵌 + kg 残留清理',projectId:'-',projectName:'系统'}
+    ]};
     projectsData.push(...projData.projects);
-    
     const sel = document.getElementById('project-select');
-    projData.projects.slice(0,100).forEach(p => {
+    projData.projects.forEach(p => {
       const opt = document.createElement('option');
       opt.value = p.id;
-      opt.textContent = p.emoji + ' ' + p.name;
+      opt.textContent = '✦ ' + p.name;
       sel.appendChild(opt);
     });
+    const tlAll = document.createElement('option');
+    tlAll.value = '-';
+    tlAll.textContent = '✦ 全部';
+    sel.appendChild(tlAll);
     
+    renderTimeline('PRJ-001', tlData.events);
     sel.addEventListener('change', e => {
       const pid = e.target.value;
       if (pid) renderTimeline(pid, tlData.events);

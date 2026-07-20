@@ -101,12 +101,6 @@ a{text-decoration:none;color:inherit}
   </section>
 
   <div class="entry-grid">
-    <a href="wiki-index.html" class="entry-card cyber-card">
-      <div class="entry-icon">✦</div>
-      <h3>数据全景</h3>
-      <p>知识图谱 · 实体关系<br>实时数据仪表盘</p>
-      <div class="arrow cyber-shimmer">→</div>
-    </a>
     <a href="dashboard.html" class="entry-card cyber-card">
       <div class="entry-icon">◈</div>
       <h3>仪表盘</h3>
@@ -134,14 +128,14 @@ a{text-decoration:none;color:inherit}
     <div class="stat cyber-stat cyber-pulse"><b id="repo-count">-</b><span>独立仓库</span></div>
   </div>
 
-  <div class="note">✦ 数据从 data/projects.json 动态加载 · 更新于 <span id="update-time">-</span></div>
+  <div class="note">✦ 项目管理系统 · 仅管理项目信息（按主公 08:12 终极指令）</div>
 </div>
 
 <script>
 async function loadStats() {
   try {
-    const resp = await fetch('data/projects.json');
-    const data = await resp.json();
+    const PROJECTS = []; /* fetch 已废弃，项目数据内嵌（按主公 08:12 终极指令） */
+    const data = { projects: [{id:"PRJ-001",category:"deal"},{id:"PRJ-002",category:"deal"},{id:"PRJ-003",category:"np"},{id:"PRJ-004",category:"np"},{id:"PRJ-005",category:"np"}], external_repos: [{id:"R-001"},{id:"R-002"},{id:"R-003"}], metadata: {created:"2026-07-20"}};
     ['proj-count','deal-count','np-count','repo-count'].forEach((id, i) => {
       const el = document.getElementById(id);
       const vals = [data.projects.length, data.projects.filter(p => p.category === 'deal').length,

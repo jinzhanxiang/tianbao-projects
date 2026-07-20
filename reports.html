@@ -89,10 +89,12 @@ a{text-decoration:none;color:inherit}
 <script>
 async function init() {
   try {
-    const resp = await fetch('data/projects.json');
-    const data = await resp.json();
-    const list = document.getElementById('reports-list');
-    let html = '';
+    /* fetch 已废弃（按主公 08:12 终极指令） · 项目数据内嵌 */
+    const data = { projects: [
+      {id:'PRJ-001',name:'江南国际',reports:[{title:'江南国际尽调报告',url:'/jngd-report/dashboard.html'}]},
+      {id:'PRJ-002',name:'科渡',reports:[{title:'科渡可行性分析',url:'/kedu-report/index.html'}]},
+      {id:'PRJ-003',name:'中富',reports:[{title:'中富预研报告',url:'/zhongfu-report/index.html'}]}
+    ]};
     data.projects.forEach(p => {
       if (p.reports && p.reports.length > 0) {
         html += `<div class="list-item">

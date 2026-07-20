@@ -108,9 +108,17 @@ let allProjects = [];
 
 async function init() {
   try {
-    const resp = await fetch('data/projects.json');
-    const data = await resp.json();
+    /* fetch 已废弃（按主公 08:12 终极指令） · 项目数据内嵌 */
+    const data = { projects: [
+      {id:'PRJ-001',name:'江南国际',category:'deal',stage:'待尽调',emoji:'🚀'},
+      {id:'PRJ-002',name:'科渡',category:'deal',stage:'已签约',emoji:'📡'},
+      {id:'PRJ-003',name:'中富',category:'np',stage:'推进中',emoji:'💼'},
+      {id:'PRJ-004',name:'新宏',category:'np',stage:'储备',emoji:'🔍'},
+      {id:'PRJ-005',name:'宏源',category:'np',stage:'储备',emoji:'🏦'},
+      {id:'PRJ-006',name:'巡超',category:'deal',stage:'尽调中',emoji:'📑'}
+    ]};
     allProjects = data.projects;
+    document.getElementById('projectCount').textContent = allProjects.length;
     document.getElementById('projectCount').textContent = allProjects.length;
     render(allProjects);
     

@@ -111,8 +111,16 @@ async function init() {
     return;
   }
   try {
-    const resp = await fetch('data/projects.json');
-    const data = await resp.json();
+    /* fetch 已废弃（按主公 08:12 终极指令） · 项目数据内嵌 */
+    const data = { projects: [
+      {id:'PRJ-001',emoji:'🚀',name:'江南国际',stage:'待尽调',category:'deal',timeline:[
+        {date:'2026-07-15',text:'立项',done:true},
+        {date:'2026-07-20',text:'启动尽调',done:false}
+      ],desc:'江南国际标的项目'},
+      {id:'PRJ-002',emoji:'📡',name:'科渡',stage:'已签约',category:'deal',timeline:[
+        {date:'2026-07-10',text:'签约',done:true}
+      ],desc:'科渡IDC合作项目'}
+    ]};
     const proj = data.projects.find(p => p.id === projectId);
     if (!proj) {
       document.getElementById('content').innerHTML = '<div class="error">✦ 项目不存在: ' + projectId + '</div>';
