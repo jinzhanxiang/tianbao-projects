@@ -89,11 +89,18 @@ a{text-decoration:none;color:inherit}
 async function init() {
   try {
     /* fetch 已废弃（按主公 08:12 终极指令） · 项目数据内嵌 */
-    const data = { projects: [
-      {id:'PRJ-001',name:'江南国际',reports:[{title:'江南国际尽调报告',url:'/jngd-report/dashboard.html'}]},
-      {id:'PRJ-002',name:'科渡',reports:[{title:'科渡可行性分析',url:'/kedu-report/index.html'}]},
-      {id:'PRJ-003',name:'中富',reports:[{title:'中富预研报告',url:'/zhongfu-report/index.html'}]}
-    ]};
+    const data = { 
+      projects: [
+        {id:'PRJ-001',name:'江南国际',emoji:'🌏',stage:'并购',reports:[{title:'江南国际尽调报告',url:'/jngd-report/dashboard.html'}]},
+        {id:'PRJ-002',name:'科渡',emoji:'📡',stage:'并购',reports:[{title:'科渡可行性分析',url:'/kedu-report/index.html'}]},
+        {id:'PRJ-003',name:'中富',emoji:'💼',stage:'储备',reports:[{title:'中富预研报告',url:'/zhongfu-report/index.html'}]}
+      ],
+      external_repos: [
+        {id:'gongcheng',name:'工程局投资管理平台',url:'https://github.com/jinzhanxiang/gongcheng-portal'},
+        {id:'huayang',name:'华阳集团监控系统',url:'https://github.com/jinzhanxiang/huayang-monitor'},
+        {id:'huaitongda',name:'怀通达资产处置',url:'https://github.com/jinzhanxiang/huaitongda-assets'}
+      ]
+    };
     data.projects.forEach(p => {
       if (p.reports && p.reports.length > 0) {
         html += `<div class="list-item cyber-card cyber-card-glow cyber-shimmer">
@@ -117,6 +124,10 @@ async function init() {
       </div>`;
     });
     list.innerHTML = html || '<div class="loading">✦ 暂无报告</div>';
+    /* GSAP 科幻化动画（按主公 08:23 终极指令） */
+    if (typeof gsap !== 'undefined') {
+      gsap.from('.list-item.cyber-card', {duration: 0.5, opacity: 0, y: 20, stagger: 0.05, ease: 'power2.out'});
+    }
   } catch(e) {
     document.getElementById('reports-list').innerHTML = '<div class="loading">✦ 加载失败: ' + e.message + '</div>';
   }
