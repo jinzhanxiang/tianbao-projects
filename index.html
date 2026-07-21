@@ -123,25 +123,34 @@ body{background:var(--bg)}
   <!-- KPI 4 宫格（公文 HUD 风） -->
   <div class="v3-kpi-grid" id="kpiGrid">
     <div class="v3-kpi">
-      <div class="v3-kpi-num" id="kpiProjects">--</div>
+      <div class="v3-kpi-num" id="kpiProjects" data-counter-up="0">0</div>
       <div class="v3-kpi-lbl">总项目数</div>
       <div class="v3-kpi-sub" id="kpiProjectsSub">载入中...</div>
     </div>
     <div class="v3-kpi">
-      <div class="v3-kpi-num" id="kpiReports">--</div>
+      <div class="v3-kpi-num" id="kpiReports" data-counter-up="0">0</div>
       <div class="v3-kpi-lbl">报告总数</div>
       <div class="v3-kpi-sub" id="kpiReportsSub">含 7 大类别</div>
     </div>
     <div class="v3-kpi">
-      <div class="v3-kpi-num" id="kpiIndustries">--</div>
+      <div class="v3-kpi-num" id="kpiIndustries" data-counter-up="0">0</div>
       <div class="v3-kpi-lbl">覆盖行业</div>
       <div class="v3-kpi-sub" id="kpiIndustriesSub">—</div>
     </div>
     <div class="v3-kpi">
-      <div class="v3-kpi-num" id="kpiFeatured">--</div>
+      <div class="v3-kpi-num" id="kpiFeatured" data-counter-up="0">0</div>
       <div class="v3-kpi-lbl">在推重点项目</div>
       <div class="v3-kpi-sub" id="kpiFeaturedSub">投资部直管</div>
     </div>
+  </div>
+
+  <!-- ⌘K 搜索提示 -->
+  <div style="margin:6px 0 12px;display:flex;align-items:center;gap:8px;font-family:var(--fsong);font-size:12px;color:var(--ink-3);text-indent:0">
+    <span>💡 按</span>
+    <kbd style="padding:2px 8px;background:var(--paper);border:1px solid var(--border);border-radius:4px;font-family:ui-monospace,monospace;font-size:11px;color:var(--ink);box-shadow:0 1px 0 rgba(0,0,0,.05)">⌘</kbd>
+    <span>+</span>
+    <kbd style="padding:2px 8px;background:var(--paper);border:1px solid var(--border);border-radius:4px;font-family:ui-monospace,monospace;font-size:11px;color:var(--ink);box-shadow:0 1px 0 rgba(0,0,0,.05)">K</kbd>
+    <span>唤起全局搜索 · 一键跳到任意项目或报告</span>
   </div>
 
   <!-- 3 类入口 · 公文卡片 -->
@@ -208,6 +217,7 @@ body{background:var(--bg)}
 </div>
 
 <script src="assets/dnd.js"></script>
+<script src="assets/cmdK.js"></script>
 <script>
 /* ==============================
  * 首页 v3 渲染器
@@ -276,6 +286,10 @@ body{background:var(--bg)}
       console.error('数据加载失败', e);
       PROJECTS = []; REPORTS = {}; NEWS = []; NEWS_BY_IND = {};
     }
+    // 暴露给 ⌘K 搜索
+    window.PROJECTS = PROJECTS;
+    window.REPORTS = REPORTS;
+    if(window.cmdK) window.cmdK.rebuildIndex();
     renderAll();
   }
 
@@ -290,13 +304,15 @@ body{background:var(--bg)}
       if(main) industries.add(main);
     });
     const featured = PROJECTS.filter(p=>p.stage_v3==='在推重点').length;
-    document.getElementById('kpiProjects').textContent = totalP;
+
+    // 设 data-counter-up 属性，然后 cmdK.counterUpAll() 会滚动到目标值
+    document.getElementById('kpiProjects').setAttribute('data-counter-up', totalP);
     document.getElementById('kpiProjectsSub').textContent = `7 类阶段 × 3 状态`;
-    document.getElementById('kpiReports').textContent = totalR;
+    document.getElementById('kpiReports').setAttribute('data-counter-up', totalR);
     document.getElementById('kpiReportsSub').textContent = `按项目文件夹索引`;
-    document.getElementById('kpiIndustries').textContent = industries.size;
+    document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.size);
     document.getElementById('kpiIndustriesSub').textContent = '自动从项目聚合';
-    document.getElementById('kpiFeatured').textContent = featured;
+    document.getElementById('kpiFeatured').setAttribute('data-counter-up', featured);
 
     // 分类入口计数
     ['在推重点','储备','观察'].forEach(s=>{
@@ -304,6 +320,9 @@ body{background:var(--bg)}
       const el = document.getElementById('cntP'+(s==='在推重点'?0:s==='储备'?1:2));
       if(el) el.textContent = `${cnt} 个项目`;
     });
+
+    // 触发 counter-up 滚动（cmdK.js 提供）
+    if(window.cmdK) window.cmdK.counterUpAll();
   }
 
   /* ---------- 行业词云 ---------- */
@@ -449,6 +468,10 @@ body{background:var(--bg)}
     renderCloud();
     renderNews();
     renderRecentTimeline();
+    // 绑定 3D 倾斜到 v3-entry / v3-recent-card（cmdK.js 提供）
+    if(window.cmdK){
+      window.cmdK.tiltAll();
+    }
   }
 
   /* ---------- 绑定 ---------- */
