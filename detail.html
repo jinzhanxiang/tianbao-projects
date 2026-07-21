@@ -94,8 +94,8 @@ body{background:var(--bg)}
     <a class="nav-brand" href="index.html">
       <div class="nav-logo">保</div>
       <div>
-        <div>天保控股 · 项目指挥中心</div>
-        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 详情</div>
+        <div>天保控股投资部 · 项目指挥中心</div>
+        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 项目详情</div>
       </div>
     </a>
     <div class="nav-links">
@@ -360,12 +360,12 @@ body{background:var(--bg)}
     }).join('');
 
     // 3. 联系人
-    const raw = (p.contacts || '金战祥').toString();
+    const raw = (p.contacts || '天保控股投资部').toString();
     const items = raw.split('/').map(s=>s.trim()).filter(Boolean);
     const contacts = items.map((it, i)=>{
       const [name, ext] = it.split(':').map(s=>s.trim());
       const avatar = (name||'·').substring(0,1);
-      const role = i===0 ? '主公直管' : '外部对接';
+      const role = i===0 ? '投资部直管' : '外部对接';
       return `<div class="v3-side-contact">
         <div class="avatar">${avatar}</div>
         <div class="name">${escapeHtml(name||'—')}</div>
@@ -423,7 +423,7 @@ body{background:var(--bg)}
     if(p.stage) tags.push(`原始阶段：${p.stage}`);
     if(p.stage_v3) tags.push(`v3 分类：${p.stage_v3}`);
     if(p.iss) tags.push(`状态：${p.iss}`);
-    if(p.contacts) tags.push(`主公直管`);
+    if(p.contacts) tags.push(`投资部直管`);
     document.getElementById('briefTags').innerHTML = tags.map(t=>`<span class="v3-brief-tag">${escapeHtml(t)}</span>`).join('');
 
     const links = [];
