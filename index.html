@@ -9,12 +9,14 @@
 <style>
 /* === index.html 专属 · 首页微调 === */
 body{background:var(--bg)}
-.v3-home{max-width:1280px;margin:0 auto;padding:0 24px}
-.v3-h1-banner{display:flex;justify-content:space-between;align-items:flex-end;margin:12px 0 10px;padding-bottom:8px;border-bottom:2px solid var(--ink)}
-.v3-h1-banner .lhs h1{font-family:var(--hei);font-size:var(--doc-title);color:var(--ink);margin:0 0 4px;letter-spacing:2px;font-weight:900}
-.v3-h1-banner .lhs h1::before{content:'';display:inline-block;width:4px;height:22px;background:var(--doc-rule);margin-right:10px;vertical-align:-3px;border-radius:1px}
-.v3-h1-banner .lhs .sub{font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);letter-spacing:2px}
-.v3-h1-banner .rhs{display:flex;gap:12px;align-items:flex-end}
+.v3-home{max-width:1320px;margin:0 auto;padding:0 24px}
+.v3-h1-banner{display:block;text-align:center;margin:22px 0 16px;padding:0 0 12px;border-bottom:3px double var(--ink);position:relative}
+.v3-h1-banner .lhs h1{font-family:var(--hei);font-size:30px;color:var(--ink);margin:0 0 6px;letter-spacing:6px;font-weight:900;text-align:center;display:inline-block;padding:0 28px;position:relative}
+.v3-h1-banner .lhs h1::before,.v3-h1-banner .lhs h1::after{content:'';position:absolute;top:50%;width:80px;height:2px;background:linear-gradient(90deg,transparent,var(--seal))}
+.v3-h1-banner .lhs h1::before{right:100%;margin-right:14px}
+.v3-h1-banner .lhs h1::after{left:100%;margin-left:14px;background:linear-gradient(90deg,var(--seal),transparent)}
+.v3-h1-banner .lhs .sub{font-family:var(--fsong);font-size:14px;color:var(--ink-3);letter-spacing:3px;text-align:center;margin-top:4px}
+.v3-h1-banner .rhs{position:absolute;right:0;top:6px}
 .v3-h1-banner .clock{text-align:right}
 .v3-h1-banner .clock b{font-size:22px;font-weight:900;color:var(--seal);font-family:var(--hei);letter-spacing:1px;display:block}
 .v3-h1-banner .clock small{font-size:11px;color:var(--ink-3)}
@@ -90,8 +92,8 @@ body{background:var(--bg)}
     <a class="nav-brand" href="index.html">
       <div class="nav-logo">保</div>
       <div>
-        <div>天保控股 · 项目指挥中心</div>
-        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 首页</div>
+        <div>天保控股投资部 · 项目指挥中心</div>
+        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 投资部总览</div>
       </div>
     </a>
     <div class="nav-links">
@@ -107,8 +109,8 @@ body{background:var(--bg)}
   <!-- 顶部信息条 -->
   <div class="v3-h1-banner">
     <div class="lhs">
-      <h1>项目指挥中心 · 总览</h1>
-      <div class="sub">主公专属项目管理系统 · v3 文字版 · 公文风 + 科技感</div>
+      <h1>天保控股投资部 · 项目指挥中心</h1>
+      <div class="sub">天保控股投资部项目管理系统 · v3 文字版 · 公文风 + 科技感</div>
     </div>
     <div class="rhs">
       <div class="clock">
@@ -138,7 +140,7 @@ body{background:var(--bg)}
     <div class="v3-kpi">
       <div class="v3-kpi-num" id="kpiFeatured">--</div>
       <div class="v3-kpi-lbl">在推重点项目</div>
-      <div class="v3-kpi-sub" id="kpiFeaturedSub">主公直管</div>
+      <div class="v3-kpi-sub" id="kpiFeaturedSub">投资部直管</div>
     </div>
   </div>
 
@@ -152,7 +154,7 @@ body{background:var(--bg)}
       <div class="v3-entry-icon">🏛</div>
       <div class="v3-entry-title">在推重点</div>
       <div class="v3-entry-count" id="cntP0">— <small>个项目</small></div>
-      <div class="v3-entry-desc">主公直管的重大并购 / 战略投资 · 立项或尽调阶段中</div>
+      <div class="v3-entry-desc">天保控股投资部直管的重大并购 / 战略投资 · 立项或尽调阶段中</div>
     </a>
     <a class="v3-entry" href="page.html?view=cat&cat=储备" style="--cat-color:#1565C0">
       <div class="v3-entry-icon">📂</div>
