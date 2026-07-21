@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T23:07:12+08:00",
+  "generated_at": "2026-07-21T23:20:12+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 14,
   "stage_v3_enum": [
@@ -176,7 +176,7 @@
       "category": "重大并购",
       "stage": "初步分析",
       "stage_v3": "在推重点",
-      "iss": "未上市",
+      "iss": "REITs",
       "industry": "数据·云",
       "online_url": "https://jinzhanxiang.github.io/unicom-idc-report/",
       "dashboard_url": "",
@@ -332,7 +332,7 @@
       "category": "知识图谱",
       "stage": "初步分析",
       "stage_v3": "观察",
-      "iss": "未上市",
+      "iss": "REITs",
       "industry": "数据·云 · IDC",
       "online_url": "",
       "dashboard_url": "",
@@ -542,11 +542,12 @@
     "在推重点": {
       "未上市": [
         "jngd",
-        "unicom-idc",
         "hongyuan"
       ],
       "上市": [],
-      "REITs": []
+      "REITs": [
+        "unicom-idc"
+      ]
     },
     "储备": {
       "未上市": [
@@ -566,11 +567,12 @@
     "观察": {
       "未上市": [
         "xingheng",
-        "qiyuanxin",
-        "huitian"
+        "qiyuanxin"
       ],
       "上市": [],
-      "REITs": []
+      "REITs": [
+        "huitian"
+      ]
     }
   }
 }
