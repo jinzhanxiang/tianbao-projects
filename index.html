@@ -10,64 +10,54 @@
 /* === index.html 专属 · 首页微调 === */
 body{background:var(--bg)}
 .v3-home{max-width:1320px;margin:0 auto;padding:0 24px}
-.v3-h1-banner{display:block;text-align:center;margin:22px 0 16px;padding:0 0 12px;border-bottom:3px double var(--ink);position:relative}
-.v3-h1-banner .lhs h1{font-family:var(--hei);font-size:30px;color:var(--ink);margin:0 0 6px;letter-spacing:6px;font-weight:900;text-align:center;display:inline-block;padding:0 28px;position:relative}
-.v3-h1-banner .lhs h1::before,.v3-h1-banner .lhs h1::after{content:'';position:absolute;top:50%;width:80px;height:2px;background:linear-gradient(90deg,transparent,var(--seal))}
-.v3-h1-banner .lhs h1::before{right:100%;margin-right:14px}
-.v3-h1-banner .lhs h1::after{left:100%;margin-left:14px;background:linear-gradient(90deg,var(--seal),transparent)}
-.v3-h1-banner .lhs .sub{font-family:var(--fsong);font-size:14px;color:var(--ink-3);letter-spacing:3px;text-align:center;margin-top:4px}
-.v3-h1-banner .rhs{position:absolute;right:0;top:6px}
-.v3-h1-banner .clock{text-align:right}
-.v3-h1-banner .clock b{font-size:22px;font-weight:900;color:var(--seal);font-family:var(--hei);letter-spacing:1px;display:block}
-.v3-h1-banner .clock small{font-size:11px;color:var(--ink-3)}
 
-.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:10px 0 18px}
-.v3-entry{background:linear-gradient(180deg,var(--paper) 0%,rgba(250,250,245,0.6) 100%);border:1px solid var(--border);border-radius:var(--r-lg);padding:18px 22px 22px;cursor:pointer;transition:.3s;position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;min-height:140px}
+.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:8px 0 10px}
+.v3-entry{background:linear-gradient(180deg,var(--paper) 0%,rgba(250,250,245,0.6) 100%);border:1px solid var(--border);border-radius:var(--r-lg);padding:14px 18px 18px;cursor:pointer;transition:.3s;position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;min-height:108px}
 .v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--cat-color,var(--seal));transition:.3s}
-.v3-entry::after{content:'进入分类 →';position:absolute;right:20px;bottom:16px;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);font-weight:600;transition:.3s}
+.v3-entry::after{content:'进入分类 →';position:absolute;right:18px;bottom:12px;font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:600;transition:.3s}
 .v3-entry:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08),0 2px 6px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal))}
 .v3-entry:hover::before{width:8px}
 .v3-entry:hover::after{color:var(--cat-color,var(--seal));transform:translateX(3px)}
-.v3-entry-icon{font-size:36px;line-height:1;margin-bottom:10px;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.08))}
-.v3-entry-title{font-family:var(--hei);font-size:20px;color:var(--ink);font-weight:800;margin-bottom:6px;letter-spacing:2px}
-.v3-entry-count{font-family:ui-monospace,monospace;font-size:18px;color:var(--cat-color,var(--seal));font-weight:900;margin-bottom:10px;letter-spacing:-0.5px}
+.v3-entry-icon{font-size:32px;line-height:1;margin-bottom:6px;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.08))}
+.v3-entry-title{font-family:var(--hei);font-size:18px;color:var(--ink);font-weight:800;margin-bottom:4px;letter-spacing:2px}
+.v3-entry-count{font-family:ui-monospace,monospace;font-size:16px;color:var(--cat-color,var(--seal));font-weight:900;margin-bottom:6px;letter-spacing:-0.5px}
 .v3-entry-count small{font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:500;margin-left:3px;letter-spacing:1px}
-.v3-entry-desc{font-family:var(--fsong);font-size:13px;color:var(--ink-2);line-height:1.6}
+.v3-entry-desc{font-family:var(--fsong);font-size:12px;color:var(--ink-2);line-height:1.5}
 
 /* === 行业分布 · 筛选条（全宽，一行） === */
-.v3-cloud-strip{display:flex;align-items:center;gap:10px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:8px 14px;margin:12px 0}
+.v3-cloud-strip{display:flex;align-items:center;gap:10px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:6px 14px;margin:6px 0}
 .v3-cloud-strip .lbl{font-family:var(--hei);font-size:13px;color:var(--ink);font-weight:800;letter-spacing:2px;flex-shrink:0;padding-right:12px;border-right:1px solid var(--border);display:flex;align-items:center;gap:6px}
 .v3-cloud-strip .lbl::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
 .v3-cloud-strip .v3-cloud-tags{display:flex;flex-wrap:wrap;gap:6px;flex:1;min-width:0}
 
 /* === 双栏滚动流：行业最新动态 | 近期报告 === */
-.v3-feed2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 16px}
-.v3-feed{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:10px 14px 12px;display:flex;flex-direction:column;min-width:0}
-.v3-feed-head{display:flex;align-items:center;gap:8px;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
-.v3-feed-head h2{font-family:var(--hei);font-size:var(--doc-sub);color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:8px;letter-spacing:2px}
-.v3-feed-head h2::before{content:'';width:3px;height:16px;background:var(--doc-rule);border-radius:1px}
+.v3-feed2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 12px}
+.v3-feed{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:8px 14px 10px;display:flex;flex-direction:column;min-width:0}
+.v3-feed-head{display:flex;align-items:center;gap:8px;margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
+.v3-feed-head h2{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:8px;letter-spacing:2px}
+.v3-feed-head h2::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
 .v3-feed-head small{margin-left:auto;font-size:11px;color:var(--ink-3);font-family:var(--fsong)}
 
-.v3-marquee{position:relative;height:300px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 7%,#000 93%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 7%,#000 93%,transparent 100%)}
+.v3-marquee{position:relative;height:200px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 7%,#000 93%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 7%,#000 93%,transparent 100%)}
 .v3-marquee-track{display:flex;flex-direction:column;animation:marqueeUp var(--dur,32s) linear infinite;will-change:transform}
 .v3-marquee:hover .v3-marquee-track{animation-play-state:paused}
 .v3-marquee.no-scroll .v3-marquee-track{animation:none}
 @keyframes marqueeUp{from{transform:translateY(0)}to{transform:translateY(-50%)}}
 
-.v3-feed-card{display:block;background:var(--bg-2);border:1px solid var(--border);border-left:3px solid var(--blue);border-radius:6px;padding:8px 12px;margin-bottom:8px;text-decoration:none;color:inherit;transition:.15s;flex-shrink:0}
+.v3-feed-card{display:block;background:var(--bg-2);border:1px solid var(--border);border-left:3px solid var(--blue);border-radius:6px;padding:6px 10px;margin-bottom:6px;text-decoration:none;color:inherit;transition:.15s;flex-shrink:0}
 .v3-feed-card:hover{background:var(--paper);border-left-color:var(--seal);box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.v3-feed-card-top{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.v3-feed-card-top{display:flex;align-items:center;gap:8px;margin-bottom:3px}
 .v3-feed-tag{font-size:10px;color:var(--blue);background:rgba(21,101,192,.1);padding:1px 7px;border-radius:3px;font-weight:700;letter-spacing:1px}
 .v3-feed-date{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);font-weight:800;letter-spacing:1px;margin-left:auto;flex-shrink:0}
 .v3-feed-title{font-family:var(--fsong);font-size:13px;color:var(--ink);font-weight:700;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .v3-feed-card:hover .v3-feed-title{color:var(--seal)}
-.v3-feed-sub{font-size:11px;color:var(--ink-3);font-family:var(--fsong);margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.v3-feed-empty{padding:48px 12px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:13px;text-indent:0}
+.v3-feed-sub{font-size:11px;color:var(--ink-3);font-family:var(--fsong);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-feed-empty{padding:32px 12px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:13px;text-indent:0}
 
-.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:12px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
-.v3-section-h h2{font-family:var(--hei);font-size:var(--doc-sub);color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:10px;letter-spacing:2px}
-.v3-section-h h2::before{content:'';width:3px;height:18px;background:var(--doc-rule);border-radius:1px}
-.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);font-weight:500}
+.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
+.v3-section-h h2{font-family:var(--hei);font-size:15px;color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:10px;letter-spacing:2px}
+.v3-section-h h2::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
+.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:500}
 .v3-section-h .tools{display:flex;gap:8px;align-items:center}
 .v3-section-h .tools small{font-size:11px;color:var(--ink-3)}
 
@@ -80,12 +70,9 @@ body{background:var(--bg)}
   .v3-feed2{grid-template-columns:1fr}
 }
 @media (max-width:760px){
-  .v3-h1-banner{flex-direction:column;align-items:flex-start}
   .v3-entries{grid-template-columns:1fr}
   .v3-feed2{grid-template-columns:1fr}
-  .v3-h1-banner h1{font-size:22px;letter-spacing:2px}
-  .v3-h1-banner .lhs h1::before,.v3-h1-banner .lhs h1::after{display:none}
-  .v3-marquee{height:260px}
+  .v3-marquee{height:180px}
 }
 </style>
 </head>
@@ -97,7 +84,7 @@ body{background:var(--bg)}
       <div class="nav-logo">保</div>
       <div>
         <div>天保控股投资部 · 项目管理中心</div>
-        <div style="font-size:11px;color:var(--ink-3);font-weight:400">投资部总览</div>
+        <div class="nav-brand-sub">项目分类 · 行业动态 · 研究报告 一站式管理<span class="sep">·</span><span class="clock" id="navClock">--:--:--</span><span class="sep">·</span><span id="navDate">----年--月--日</span></div>
       </div>
     </a>
     <div class="nav-links">
@@ -109,20 +96,6 @@ body{background:var(--bg)}
 </nav>
 
 <div class="v3-home viewport-fit v3-grow">
-
-  <!-- 顶部信息条 -->
-  <div class="v3-h1-banner">
-    <div class="lhs">
-      <h1>天保控股投资部 · 项目管理中心</h1>
-      <div class="sub">项目分类 · 行业动态 · 研究报告 一站式管理</div>
-    </div>
-    <div class="rhs">
-      <div class="clock">
-        <b id="navClock">--:--:--</b>
-        <small id="navDate">----年--月--日</small>
-      </div>
-    </div>
-  </div>
 
   <!-- KPI 4 宫格（公文 HUD 风） -->
   <div class="v3-kpi-grid" id="kpiGrid">
@@ -148,20 +121,7 @@ body{background:var(--bg)}
     </div>
   </div>
 
-  <!-- ⌘K 搜索提示 -->
-  <div style="margin:6px 0 12px;display:flex;align-items:center;gap:8px;font-family:var(--fsong);font-size:12px;color:var(--ink-3);text-indent:0">
-    <span>💡 按</span>
-    <kbd style="padding:2px 8px;background:var(--paper);border:1px solid var(--border);border-radius:4px;font-family:ui-monospace,monospace;font-size:11px;color:var(--ink);box-shadow:0 1px 0 rgba(0,0,0,.05)">⌘</kbd>
-    <span>+</span>
-    <kbd style="padding:2px 8px;background:var(--paper);border:1px solid var(--border);border-radius:4px;font-family:ui-monospace,monospace;font-size:11px;color:var(--ink);box-shadow:0 1px 0 rgba(0,0,0,.05)">K</kbd>
-    <span>唤起全局搜索 · 一键跳到任意项目或报告</span>
-  </div>
-
   <!-- 3 类入口 · 公文卡片 -->
-  <div class="v3-section-h">
-    <h2>分类入口</h2>
-    <em>点击进入分类页 · 支持拖拽项目在三类间移动</em>
-  </div>
   <div class="v3-entries">
     <a class="v3-entry" href="page.html?view=cat&cat=在推重点" style="--cat-color:#C0392B">
       <div class="v3-entry-icon">🏛</div>
