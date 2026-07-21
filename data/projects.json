@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T22:31:27+08:00",
+  "generated_at": "2026-07-21T22:43:57+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 14,
   "stage_v3_enum": [
@@ -30,11 +30,11 @@
       "folder_alias": "",
       "report_count": 16,
       "progress_pct": 50,
-      "contacts": "金战祥/外部:林总/18600001111",
+      "contacts": "天保控股投资部",
       "brief_md": "星恒电源（动力电池·新能源）· 已立项阶段 · 详见报告库",
       "deploy_date": "2026-05-15",
       "last_update": "2026-07-09",
-      "notes": "重大并购项目，已部署 dashboard.html 双视图版 | 2026-07-21 由主公决定移到观察",
+      "notes": "重大并购项目，已部署 dashboard.html 双视图版 | 2026-07-21 由投资部决定移到观察",
       "pending_tasks": "已上线 (2026-07-11 v11g 真实 timeline 接入)"
     },
     {
@@ -54,11 +54,11 @@
       "folder_alias": "",
       "report_count": 3,
       "progress_pct": 50,
-      "contacts": "金战祥/外部:周总/13900002222",
+      "contacts": "天保控股投资部",
       "brief_md": "晶能光电（硬科技·新材料）· 尽调完成阶段 · 详见报告库",
       "deploy_date": "2026-05",
       "last_update": "2026-07-09",
-      "notes": "3 份报告 + 2个过程 md；dashboard.html 已部署；Documents 旧文件夹待清理 | 2026-07-21 由主公决定移到在推重点",
+      "notes": "3 份报告 + 2个过程 md；dashboard.html 已部署；Documents 旧文件夹待清理 | 2026-07-21 由投资部决定移到在推重点",
       "pending_tasks": "待 v11h 切共享 CSS"
     },
     {
@@ -78,12 +78,12 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
-      "contacts": "金战祥/外部:陈总/13700003333",
+      "contacts": "天保控股投资部",
       "brief_md": "柯渡医学（医疗健康）· 初步分析阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
       "notes": "单报告项目，源在桌面根（110MB PPTX）",
-      "pending_tasks": "单文件项目，待主公部署指示"
+      "pending_tasks": "单文件项目，待投资部部署指示"
     },
     {
       "code": "zhongfu",
@@ -102,12 +102,12 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
-      "contacts": "金战祥/外部:王总/13600004444",
+      "contacts": "天保控股投资部",
       "brief_md": "中复碳芯（硬科技·新材料）· 初步分析阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
       "notes": "单报告项目，源在桌面（86M / 3文件：1 pptx + 2 img）",
-      "pending_tasks": "单文件项目，待主公部署指示"
+      "pending_tasks": "单文件项目，待投资部部署指示"
     },
     {
       "code": "xinhong",
@@ -126,12 +126,12 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
-      "contacts": "金战祥/外部:李总/13500005555",
+      "contacts": "天保控股投资部",
       "brief_md": "信鸿医疗（医疗健康）· 初步分析阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
       "notes": "单报告项目，源在桌面（40M / 3文件：1 xlsx + 2 docx）",
-      "pending_tasks": "单文件项目，待主公部署指示"
+      "pending_tasks": "单文件项目，待投资部部署指示"
     },
     {
       "code": "xunchao",
@@ -150,12 +150,12 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
-      "contacts": "金战祥/外部:赵总/13400006666",
+      "contacts": "天保控股投资部",
       "brief_md": "迅巢科技（硬科技·新能源）· 初步分析阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
       "notes": "单报告项目，源在桌面根（16MB PDF）",
-      "pending_tasks": "单文件项目，待主公部署指示"
+      "pending_tasks": "单文件项目，待投资部部署指示"
     },
     {
       "code": "unicom-idc",
@@ -174,11 +174,11 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
-      "contacts": "金战祥/外部:孙总/13300007777",
+      "contacts": "天保控股投资部",
       "brief_md": "四川 IDC（数据·云）· REITs阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
-      "notes": "REITs 项目，源在桌面（5.9M / 7文件） | 2026-07-21 由主公决定移到在推重点 | 2026-07-21 由主公澄清：此项目为四川IDC，原名\"联通云IDC\"中\"汇天网络科技\"为路径误标，已分拆为独立项目 huitian",
+      "notes": "REITs 项目，源在桌面（5.9M / 7文件） | 2026-07-21 由投资部决定移到在推重点 | 2026-07-21 由投资部澄清：此项目为四川IDC，原名\"联通云IDC\"中\"汇天网络科技\"为路径误标，已分拆为独立项目 huitian",
       "pending_tasks": "REITs 项目，源 7 文件已归类"
     },
     {
@@ -198,12 +198,12 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
-      "contacts": "金战祥/外部:周总/13200008888",
+      "contacts": "天保控股投资部",
       "brief_md": "宏远创信（硬科技·新材料）· 初步分析阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
-      "notes": "单报告项目，源在桌面（11M / 4文件：3 PDF + 1 docx） | 2026-07-21 由主公决定移到在推重点（电力交易）",
-      "pending_tasks": "单文件项目，待主公部署指示"
+      "notes": "单报告项目，源在桌面（11M / 4文件：3 PDF + 1 docx） | 2026-07-21 由投资部决定移到在推重点（电力交易）",
+      "pending_tasks": "单文件项目，待投资部部署指示"
     },
     {
       "code": "innoshine",
@@ -222,7 +222,7 @@
       "folder_alias": "",
       "report_count": 2,
       "progress_pct": 50,
-      "contacts": "金战祥/外部:吴总/13100009999",
+      "contacts": "天保控股投资部",
       "brief_md": "元旭半导体（硬科技·芯片）· 已立项阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026-07-09",
@@ -246,7 +246,7 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
-      "contacts": "金战祥/外部:郑总/13000001010",
+      "contacts": "天保控股投资部",
       "brief_md": "航天宏图（航天遥感）· 已部署阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026-07",
@@ -270,7 +270,7 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
-      "contacts": "金战祥/内部投研",
+      "contacts": "天保控股投资部",
       "brief_md": "收购上市公司研究（收购研究·上市公司）· 研究阶段阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
@@ -294,22 +294,22 @@
       "folder_alias": "",
       "report_count": 2,
       "progress_pct": 30,
-      "contacts": "金战祥/外部:陈志江/已归档",
+      "contacts": "天保控股投资部",
       "brief_md": "启源芯动力（新能源汽车·电驱）· 暂停跟踪阶段 · 详见报告库",
       "deploy_date": "2025-09",
       "last_update": "2026-07-08",
-      "notes": "重大并购（1.7G 本地源 + 3阶段：入股/合资/并购）；无独立仓库；research 产物在 projects/启源芯动力/output/；2026-07-09 主公决定不进入主中心（避免口径混淆），台账保留作历史记录 | 2026-07-21 由主公决定移到观察",
-      "pending_tasks": "等待主公重新激活或正式归档"
+      "notes": "重大并购（1.7G 本地源 + 3阶段：入股/合资/并购）；无独立仓库；research 产物在 projects/启源芯动力/output/；2026-07-09 投资部决定不进入主中心（避免口径混淆），台账保留作历史记录 | 2026-07-21 由投资部决定移到观察",
+      "pending_tasks": "等待投资部重新激活或正式归档"
     },
     {
       "code": "huitian",
       "name_cn": "汇天科技",
-      "name_full": "汇天科技（IC 项目）",
+      "name_full": "汇天科技（IDC 数据中心）",
       "category": "知识图谱",
-      "stage": "初步分析",
+      "stage": "REITs",
       "stage_v3": "观察",
-      "iss": "未上市",
-      "industry": "硬科技·芯片",
+      "iss": "REITs",
+      "industry": "数据·云 · IDC",
       "online_url": "",
       "dashboard_url": "",
       "online_index": "",
@@ -318,12 +318,12 @@
       "folder_alias": "",
       "report_count": 0,
       "progress_pct": 10,
-      "contacts": "金战祥",
-      "brief_md": "汇天科技（硬科技·芯片）· 初步分析阶段 · 详见报告库",
+      "contacts": "天保控股投资部",
+      "brief_md": "汇天科技（数据·云 · IDC）· REITs阶段 · 详见报告库",
       "deploy_date": "2026-07-21",
       "last_update": "2026-07-21",
-      "notes": "2026-07-21 由主公新增：独立的 IC 项目（与 unicom-idc 拆开），从 unicom-idc 旧路径 ~/Desktop/储备项目/汇天网络科技/ 迁出，初始跟踪",
-      "pending_tasks": "待主公确认本地原始材料归属 / 部署独立仓库"
+      "notes": "2026-07-21 由投资部新增：独立的 IC 项目（与 unicom-idc 拆开），从 unicom-idc 旧路径 ~/Desktop/储备项目/汇天网络科技/ 迁出，初始跟踪 | 2026-07-21 投资部澄清：汇天科技 = IDC 数据中心项目（独立），与 unicom-idc/四川IDC 拆开",
+      "pending_tasks": "待投资部确认本地原始材料归属 / 部署独立仓库"
     },
     {
       "code": "huayt",
@@ -342,11 +342,11 @@
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 50,
-      "contacts": "金战祥",
+      "contacts": "天保控股投资部",
       "brief_md": "华阳集团（硬科技·新材料）· 已立项阶段 · 详见报告库",
       "deploy_date": "2026-07-21",
       "last_update": "2026-07-21",
-      "notes": "2026-07-21 由主公新增：上市公司（储备·上市公司），reports.json 中已有 1 份《华阳集团_投资可行性分析报告_v2_20260719》",
+      "notes": "2026-07-21 由投资部新增：上市公司（储备·上市公司），reports.json 中已有 1 份《华阳集团_投资可行性分析报告_v2_20260719》",
       "pending_tasks": "部署独立仓库 + 整理本地原始材料"
     }
   ],
@@ -397,11 +397,6 @@
         "count": 2
       },
       {
-        "code": "huitian",
-        "name_cn": "汇天科技",
-        "count": 0
-      },
-      {
         "code": "huayt",
         "name_cn": "华阳集团",
         "count": 1
@@ -446,6 +441,11 @@
         "code": "unicom-idc",
         "name_cn": "四川 IDC",
         "count": 1
+      },
+      {
+        "code": "huitian",
+        "name_cn": "汇天科技",
+        "count": 0
       }
     ],
     "云": [
@@ -453,6 +453,11 @@
         "code": "unicom-idc",
         "name_cn": "四川 IDC",
         "count": 1
+      },
+      {
+        "code": "huitian",
+        "name_cn": "汇天科技",
+        "count": 0
       }
     ],
     "芯片": [
@@ -460,11 +465,6 @@
         "code": "innoshine",
         "name_cn": "元旭半导体",
         "count": 2
-      },
-      {
-        "code": "huitian",
-        "name_cn": "汇天科技",
-        "count": 0
       }
     ],
     "航天遥感": [
@@ -501,6 +501,13 @@
         "name_cn": "启源芯动力",
         "count": 2
       }
+    ],
+    "IDC": [
+      {
+        "code": "huitian",
+        "name_cn": "汇天科技",
+        "count": 0
+      }
     ]
   },
   "stage_matrix": {
@@ -532,11 +539,12 @@
     "观察": {
       "未上市": [
         "xingheng",
-        "qiyuanxin",
-        "huitian"
+        "qiyuanxin"
       ],
       "上市": [],
-      "REITs": []
+      "REITs": [
+        "huitian"
+      ]
     }
   }
 }
