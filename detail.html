@@ -85,6 +85,35 @@ body{background:var(--bg)}
 
 .v3-brief-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;padding-top:14px;border-top:1px dashed var(--border)}
 .v3-brief-tag{font-family:var(--fsong);font-size:12px;color:var(--ink-2);background:var(--bg-2);padding:3px 10px;border-radius:999px;border:1px solid var(--border)}
+
+/* === 项目简介 · 三段式 === */
+.v3-brief-section{margin-bottom:18px;padding-bottom:18px;border-bottom:1px dashed var(--border)}
+.v3-brief-section:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.v3-brief-h{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:800;margin-bottom:10px;letter-spacing:2px;display:flex;align-items:center;gap:8px}
+.v3-brief-h::before{content:'';width:4px;height:14px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:2px}
+.v3-brief-progress-pct{margin-left:auto;font-family:ui-monospace,monospace;font-size:12px;color:var(--seal);font-weight:800;background:rgba(192,57,43,0.08);padding:2px 10px;border-radius:4px;letter-spacing:1px}
+.v3-brief-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 14px;margin-bottom:12px}
+.v3-brief-cell{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:6px 12px;background:var(--bg-2);border-radius:6px;border-left:3px solid var(--doc-rule)}
+.v3-brief-cell .lbl{font-family:var(--fsong);font-size:12px;color:var(--ink-3);flex-shrink:0}
+.v3-brief-cell .val{font-family:ui-monospace,monospace;font-size:12px;color:var(--ink);font-weight:700;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-brief-lead{font-family:var(--fsong);font-size:14px;color:var(--ink-2);line-height:1.7;margin:8px 0 0;text-indent:2em}
+.v3-brief-progress-bar{height:8px;background:var(--bg-2);border-radius:4px;overflow:hidden;margin-bottom:12px;border:1px solid var(--border);position:relative}
+.v3-brief-progress-fill{height:100%;background:linear-gradient(90deg,var(--doc-rule) 0%,var(--seal) 50%,var(--seal-2) 100%);border-radius:4px;transition:width .6s cubic-bezier(.4,.2,.2,1);position:relative}
+.v3-brief-progress-fill::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,0.3) 50%,transparent 100%);animation:shimmer 2s infinite}
+@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.v3-brief-pending{background:var(--bg-2);border-radius:6px;padding:10px 14px;border-left:3px solid var(--blue)}
+.v3-brief-pending-h{font-family:var(--hei);font-size:12px;color:var(--ink);font-weight:700;margin-bottom:4px;letter-spacing:1px}
+.v3-brief-pending-body{font-family:var(--fsong);font-size:13px;color:var(--ink-2);line-height:1.7;text-indent:0}
+.v3-brief-downgrade{background:linear-gradient(180deg,rgba(192,57,43,0.04) 0%,rgba(192,57,43,0.02) 100%);border:1px solid rgba(192,57,43,0.2);border-radius:8px;padding:14px 16px}
+.v3-brief-downgrade .v3-brief-h{color:var(--seal)}
+.v3-brief-downgrade .v3-brief-h::before{background:var(--seal);box-shadow:0 0 8px rgba(192,57,43,0.4)}
+.v3-brief-downgrade-body{font-family:var(--fsong);font-size:13px;color:var(--ink);line-height:1.8;text-indent:0;padding-left:8px}
+
+@media (max-width:760px){
+  .v3-brief-grid{grid-template-columns:1fr}
+  .v3-brief-cell{flex-direction:column;align-items:flex-start;gap:2px}
+  .v3-brief-cell .val{text-align:left}
+}
 </style>
 </head>
 <body>
@@ -344,18 +373,16 @@ body{background:var(--bg)}
     `;
 
     // 2. 进度（紧凑纵向）
-    const stepKey = STAGE2STEP[(p.stage||'').trim()] || 'reserve';
-    let activeIdx = PROGRESS_STEPS.findIndex(s=>s.key===stepKey);
-    if(activeIdx<0) activeIdx = 0;
-    const progressPct = p.progress_pct || Math.round((activeIdx+1)/PROGRESS_STEPS.length*100);
+    // 注意：第三方尽调不算我方进度，CSV 已校准 progress_pct；此处直接读
+    const progressPct = p.progress_pct || 10;
+    // 根据 progress_pct 反推 activeIdx（更准确反映我方实际进度）
+    let activeIdx = Math.min(Math.floor(progressPct / (100/PROGRESS_STEPS.length)), PROGRESS_STEPS.length-1);
     document.getElementById('sideProgressPct').textContent = progressPct + '%';
     document.getElementById('sideProgress').innerHTML = PROGRESS_STEPS.map((s,i)=>{
       const cls = i<activeIdx?'done':(i===activeIdx?'active':'');
-      const pct = Math.round((i+1)/PROGRESS_STEPS.length*100);
       return `<div class="v3-side-progress-step ${cls}">
         <span class="dot"></span>
         <span class="name">${s.name}</span>
-        <span class="pct">${pct}%</span>
       </div>`;
     }).join('');
 
@@ -374,10 +401,20 @@ body{background:var(--bg)}
     }).join('') || `<div class="v3-empty">无联系人数据</div>`;
     document.getElementById('sideContacts').innerHTML = contacts;
 
-    // 4. 同类项目（同 stage_v3 且不同 code，上限 5）
+    // 4. 同类项目（按行业段重合度，不再按 stage_v3 强行配对）
+    // 逻辑：取本项目所有行业标签（按 ·/· 分割），找其他项目至少有一个相同标签
+    const tags = (p.industry || '').split(/[·\/ ]+/).filter(Boolean);
     const related = PROJECTS
-      .filter(x => x.code !== p.code && x.stage_v3 === p.stage_v3)
-      .slice(0, 5);
+      .filter(x => x.code !== p.code)
+      .map(x => {
+        const xTags = (x.industry || '').split(/[·\/ ]+/).filter(Boolean);
+        const overlap = tags.filter(t => xTags.includes(t)).length;
+        return { p: x, score: overlap };
+      })
+      .filter(x => x.score > 0)
+      .sort((a,b)=> b.score - a.score)
+      .slice(0, 5)
+      .map(x => x.p);
     document.getElementById('sideRelatedCnt').textContent = related.length || '0';
     document.getElementById('sideRelated').innerHTML = related.length
       ? related.map(r=>`
@@ -386,7 +423,7 @@ body{background:var(--bg)}
             <span class="name">${escapeHtml(r.name_cn || r.code)}</span>
             <span class="stage">${r.report_count || 0}份</span>
           </a>`).join('')
-      : '<div class="v3-empty" style="padding:12px 0">该分类暂无其他项目</div>';
+      : '<div class="v3-empty" style="padding:12px 0">暂无行业相近项目</div>';
   }
 
   function issLabel(iss){
@@ -412,33 +449,60 @@ body{background:var(--bg)}
   /* ---- 主区域 ---- */
   function renderBrief(p){
     const body = document.getElementById('briefBody');
+    const progressPct = p.progress_pct || 10;
+    const pending = (p.pending_tasks || '').trim();
+    const estimation = (p.estimation || '').trim();
+    const downgrade = (p.downgrade_reason || '').trim();
     const brief = p.brief_md || `${p.name_full}（${p.industry}）· ${p.stage}阶段`;
-    body.innerHTML = `
-      <p class="v3-brief-lead">${p.name_cn||p.code}（${p.industry||'—'}）</p>
-      <p>${escapeHtml(brief)}</p>
-    `;
+
+    // === 三段式项目简介 ===
+    // 段 1：项目基本信息（行业 + 估值口径）
+    // 段 2：项目进度与待办事项
+    // 段 3：项目状态说明（仅在移到观察/储备时显示降级原因）
+
+    const hasDowngrade = !!downgrade && downgrade !== '—';
+    const parts = [];
+
+    parts.push(`<div class="v3-brief-section v3-brief-basic">
+      <div class="v3-brief-h">📋 项目基本信息</div>
+      <div class="v3-brief-grid">
+        <div class="v3-brief-cell"><span class="lbl">项目名称</span><span class="val">${escapeHtml(p.name_full || p.name_cn || '—')}</span></div>
+        <div class="v3-brief-cell"><span class="lbl">主要行业</span><span class="val">${escapeHtml(p.industry || '—')}</span></div>
+        <div class="v3-brief-cell"><span class="lbl">估值口径</span><span class="val">${escapeHtml(estimation || '—')}</span></div>
+        <div class="v3-brief-cell"><span class="lbl">v3 分类</span><span class="val">${escapeHtml((p.stage_v3||'—') + ' · ' + (p.iss||'—'))}</span></div>
+      </div>
+      <p class="v3-brief-lead">${escapeHtml(brief)}</p>
+    </div>`);
+
+    parts.push(`<div class="v3-brief-section v3-brief-progress">
+      <div class="v3-brief-h">🎯 项目进度与待办事项 <span class="v3-brief-progress-pct">${progressPct}%</span></div>
+      <div class="v3-brief-progress-bar"><div class="v3-brief-progress-fill" style="width:${progressPct}%"></div></div>
+      <div class="v3-brief-pending">
+        ${pending ? `<div class="v3-brief-pending-h">待办事项：</div><div class="v3-brief-pending-body">${escapeHtml(pending)}</div>` : '<div class="v3-brief-pending-body" style="color:var(--ink-3)">暂无待办</div>'}
+      </div>
+    </div>`);
+
+    if(hasDowngrade){
+      parts.push(`<div class="v3-brief-section v3-brief-downgrade">
+        <div class="v3-brief-h">⚠️ 项目状态说明</div>
+        <div class="v3-brief-downgrade-body">${escapeHtml(downgrade)}</div>
+      </div>`);
+    }
+
+    body.innerHTML = parts.join('');
+
+    // tags 简化
     const tags = [];
-    if(p.name_full) tags.push(p.name_full);
-    if(p.industry) tags.push(p.industry);
     if(p.stage) tags.push(`原始阶段：${p.stage}`);
-    if(p.stage_v3) tags.push(`v3 分类：${p.stage_v3}`);
-    if(p.iss) tags.push(`状态：${p.iss}`);
     if(p.contacts) tags.push(`投资部直管`);
     document.getElementById('briefTags').innerHTML = tags.map(t=>`<span class="v3-brief-tag">${escapeHtml(t)}</span>`).join('');
 
+    // 链接：仅保留 在线主页 + 所有报告；删除 dashboard 链接 + repo 链接
     const links = [];
     if(p.online_url){
       links.push(`<a class="primary" href="${p.online_url}" target="_blank">🔗 访问在线项目主页</a>`);
     }
-    if(p.dashboard_url && p.dashboard_url !== p.online_url){
-      links.push(`<a href="${p.dashboard_url}" target="_blank">📊 双视图时间线</a>`);
-    }
-    if(p.repo){
-      links.push(`<a href="${p.repo}" target="_blank">📁 部署仓库</a>`);
-    }
-    if(p.online_index){
-      links.push(`<a href="${p.online_index}" target="_blank">🔗 在线索引</a>`);
-    }
+    links.push(`<a href="all_reports.html?code=${encodeURIComponent(p.code)}">📚 所有报告</a>`);
     document.getElementById('briefLinks').innerHTML = links.join('');
   }
 
