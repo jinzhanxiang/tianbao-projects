@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<title>所有报告 · 天保控股项目库</title>
+<meta name="description" content="天保控股投资部 · 全站研究报告索引 · 按项目 / 日期 / 类别筛选">
+<link rel="stylesheet" href="assets/tianbao.css">
+<style>
+body{background:var(--bg)}
+.v3-ar{max-width:1320px;margin:0 auto;padding:0 24px}
+.v3-ar-head{display:block;text-align:center;margin:22px 0 16px;padding:0 0 12px;border-bottom:3px double var(--ink);position:relative}
+.v3-ar-head h1{font-family:var(--hei);font-size:28px;color:var(--ink);margin:0 0 6px;letter-spacing:6px;font-weight:900;display:inline-block;padding:0 28px;position:relative}
+.v3-ar-head h1::before,.v3-ar-head h1::after{content:'';position:absolute;top:50%;width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--seal))}
+.v3-ar-head h1::before{right:100%;margin-right:14px}
+.v3-ar-head h1::after{left:100%;margin-left:14px;background:linear-gradient(90deg,var(--seal),transparent)}
+.v3-ar-head .sub{font-family:var(--fsong);font-size:13px;color:var(--ink-3);letter-spacing:3px;margin-top:4px;text-align:center}
+.v3-ar-head .meta{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);text-align:right;line-height:1.7;position:absolute;right:0;top:6px}
+.v3-ar-head .meta b{color:var(--seal);font-size:14px}
+
+.v3-ar-toolbar{display:flex;gap:8px;align-items:center;margin:12px 0 14px;padding:10px 14px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);flex-wrap:wrap}
+.v3-ar-toolbar label{font-family:var(--fsong);font-size:12px;color:var(--ink-3)}
+.v3-ar-toolbar select,.v3-ar-toolbar input{font-family:var(--fsong);font-size:13px;padding:5px 10px;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--ink);min-width:160px}
+.v3-ar-toolbar input:focus,.v3-ar-toolbar select:focus{outline:none;border-color:var(--seal)}
+.v3-ar-toolbar .stat{margin-left:auto;font-family:ui-monospace,monospace;font-size:12px;color:var(--ink-3)}
+
+.v3-ar-proj-block{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:14px 18px;margin-bottom:14px}
+.v3-ar-proj-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.v3-ar-proj-head .emoji{font-size:22px}
+.v3-ar-proj-head .title{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:800;letter-spacing:2px}
+.v3-ar-proj-head .stage{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);background:rgba(192,57,43,0.08);padding:2px 8px;border-radius:4px;margin-left:auto}
+.v3-ar-proj-head .cnt{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);margin-left:6px}
+.v3-ar-proj-head a{font-family:var(--fsong);font-size:12px;color:var(--blue);text-decoration:none;margin-left:auto}
+.v3-ar-proj-head a:hover{text-decoration:underline}
+
+.v3-ar-list{display:flex;flex-direction:column;gap:6px}
+.v3-ar-item{display:grid;grid-template-columns:90px 1fr 90px;gap:10px;align-items:center;padding:8px 12px;background:var(--bg-2);border-radius:6px;border-left:3px solid var(--blue);transition:.2s;text-decoration:none;color:inherit}
+.v3-ar-item:hover{background:var(--paper);transform:translateX(4px);box-shadow:0 2px 8px rgba(0,0,0,0.06);border-left-color:var(--seal)}
+.v3-ar-date{font-family:ui-monospace,monospace;font-size:12px;color:var(--seal);font-weight:800;letter-spacing:1px}
+.v3-ar-cat{font-family:var(--fsong);font-size:11px;color:var(--blue);background:rgba(21,101,192,0.08);padding:1px 8px;border-radius:3px;font-weight:600;text-align:center;letter-spacing:1px}
+.v3-ar-title{font-family:var(--fsong);font-size:13px;color:var(--ink);font-weight:600;line-height:1.4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-ar-item:hover .v3-ar-title{color:var(--seal)}
+
+.v3-ar-empty{padding:60px 20px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
+.v3-ar-loading{padding:60px 20px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
+
+@media (max-width:760px){
+  .v3-ar-head h1{font-size:22px}
+  .v3-ar-item{grid-template-columns:80px 1fr}
+  .v3-ar-cat{display:none}
+  .v3-ar-proj-head{flex-wrap:wrap}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo">保</div>
+      <div>
+        <div>天保控股投资部 · 项目指挥中心</div>
+        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 所有报告</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">🏛 首页</a>
+      <a href="page.html">📂 分类矩阵</a>
+      <a class="active" id="navActive">📚 所有报告</a>
+    </div>
+  </div>
+</nav>
+
+<div class="v3-ar viewport-fit v3-grow">
+
+  <div class="v3-ar-head">
+    <div>
+      <h1>所有报告 · 全站索引</h1>
+      <div class="sub">按项目聚合 · 按日期倒序 · 支持项目/类别筛选</div>
+    </div>
+    <div class="meta" id="arMeta">载入中...</div>
+  </div>
+
+  <!-- 面包屑 -->
+  <div class="v3-breadcrumb">
+    <a href="index.html">首页</a>
+    <span class="sep">/</span>
+    <span class="current" id="bcName">所有报告</span>
+  </div>
+
+  <!-- 筛选 -->
+  <div class="v3-ar-toolbar">
+    <label>项目：</label>
+    <select id="filterProj">
+      <option value="__ALL__">全部项目</option>
+    </select>
+    <label>类别：</label>
+    <select id="filterCat">
+      <option value="__ALL__">全部类别</option>
+    </select>
+    <label>关键字：</label>
+    <input id="filterKw" type="text" placeholder="按标题搜索...">
+    <div class="stat" id="filterStat">— 份</div>
+  </div>
+
+  <div id="arHost">
+    <div class="v3-ar-loading">载入中...</div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  'use strict';
+
+  let PROJECTS = [];
+  let REPORTS = {};   // {code: [report, ...]}
+  let CURRENT_FILTER = { proj: '__ALL__', cat: '__ALL__', kw: '' };
+
+  async function loadData(){
+    try {
+      const [p, r] = await Promise.all([
+        fetch('data/projects.json', {cache:'no-store'}),
+        fetch('data/reports.json', {cache:'no-store'}),
+      ]);
+      PROJECTS = (await p.json()).projects || [];
+      REPORTS = (await r.json()).by_code || {};
+    } catch(e){
+      console.error('数据加载失败', e);
+      PROJECTS = []; REPORTS = {};
+    }
+    bindFromUrl();
+    populateFilterOptions();
+    renderAll();
+    bindToolbar();
+  }
+
+  function bindFromUrl(){
+    const u = new URLSearchParams(location.search);
+    const code = u.get('code');
+    if(code){
+      CURRENT_FILTER.proj = code;
+      document.getElementById('bcName').textContent = `${(PROJECTS.find(p=>p.code===code)||{}).name_cn || code} · 所有报告`;
+      document.getElementById('navActive').textContent = '📚 该项目报告';
+    }
+  }
+
+  function populateFilterOptions(){
+    const projSel = document.getElementById('filterProj');
+    PROJECTS.forEach(p=>{
+      const o = document.createElement('option');
+      o.value = p.code;
+      o.textContent = `${p.name_cn}（${p.code}）`;
+      projSel.appendChild(o);
+    });
+    projSel.value = CURRENT_FILTER.proj;
+
+    // 收集所有类别
+    const cats = new Set();
+    Object.values(REPORTS).forEach(list => list.forEach(r => r.category && cats.add(r.category)));
+    const catSel = document.getElementById('filterCat');
+    Array.from(cats).sort().forEach(c=>{
+      const o = document.createElement('option');
+      o.value = c;
+      o.textContent = c;
+      catSel.appendChild(o);
+    });
+  }
+
+  function bindToolbar(){
+    document.getElementById('filterProj').addEventListener('change', e=>{
+      CURRENT_FILTER.proj = e.target.value;
+      renderAll();
+    });
+    document.getElementById('filterCat').addEventListener('change', e=>{
+      CURRENT_FILTER.cat = e.target.value;
+      renderAll();
+    });
+    document.getElementById('filterKw').addEventListener('input', e=>{
+      CURRENT_FILTER.kw = e.target.value.trim();
+      renderAll();
+    });
+  }
+
+  function getEmoji(industry){
+    if(!industry) return '🏢';
+    if(industry.includes('电池')) return '🔋';
+    if(industry.includes('医疗')) return '🏥';
+    if(industry.includes('芯片')) return '💎';
+    if(industry.includes('航天')) return '🛰️';
+    if(industry.includes('数据')) return '🖥️';
+    if(industry.includes('智能体')) return '🧠';
+    return '🏢';
+  }
+
+  function escapeHtml(s){return (s||'').replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));}
+
+  function renderAll(){
+    const host = document.getElementById('arHost');
+    const projOrder = PROJECTS.filter(p => {
+      if(CURRENT_FILTER.proj !== '__ALL__') return p.code === CURRENT_FILTER.proj;
+      return (REPORTS[p.code] || []).length > 0;
+    });
+    const projMap = Object.fromEntries(PROJECTS.map(p=>[p.code, p]));
+    const totalMeta = document.getElementById('arMeta');
+
+    let totalShown = 0;
+    let totalAll = 0;
+    const blocks = projOrder.map(p=>{
+      const list = (REPORTS[p.code] || []).slice().sort((a,b)=>b.date.localeCompare(a.date));
+      totalAll += list.length;
+      const filtered = list.filter(r=>{
+        if(CURRENT_FILTER.cat !== '__ALL__' && r.category !== CURRENT_FILTER.cat) return false;
+        if(CURRENT_FILTER.kw && !(r.title||'').toLowerCase().includes(CURRENT_FILTER.kw.toLowerCase())) return false;
+        return true;
+      });
+      totalShown += filtered.length;
+      if(!filtered.length) return '';
+      return `
+        <div class="v3-ar-proj-block">
+          <div class="v3-ar-proj-head">
+            <span class="emoji">${getEmoji(p.industry)}</span>
+            <span class="title">${escapeHtml(p.name_cn || p.code)}</span>
+            <span class="stage">${escapeHtml(p.stage_v3 || '—')} · ${escapeHtml(p.iss || '—')}</span>
+            <span class="cnt">${filtered.length} / ${list.length} 份</span>
+            <a href="detail.html?code=${encodeURIComponent(p.code)}">查看项目详情 →</a>
+          </div>
+          <div class="v3-ar-list">
+            ${filtered.map(r=>`
+              <a class="v3-ar-item" href="${r.url||'#'}" target="_blank" rel="noopener">
+                <span class="v3-ar-date">${r.date || '—'}</span>
+                <span class="v3-ar-title">${escapeHtml(r.title || '(无标题)')}</span>
+                <span class="v3-ar-cat">${escapeHtml(r.category || '未分类')}</span>
+              </a>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }).filter(Boolean).join('');
+
+    host.innerHTML = blocks || `<div class="v3-ar-empty">未匹配到任何报告 · 调整筛选条件重试</div>`;
+    document.getElementById('filterStat').textContent = `${totalShown} / ${totalAll} 份`;
+    totalMeta.innerHTML = `共 <b>${totalAll}</b> 份报告 · 覆盖 <b>${Object.keys(REPORTS).filter(c=>(REPORTS[c]||[]).length>0).length}</b> 个项目`;
+  }
+
+  function init(){
+    if(document.readyState==='loading'){
+      document.addEventListener('DOMContentLoaded', loadData);
+    } else {
+      loadData();
+    }
+  }
+  init();
+})();
+</script>
+</body>
+</html>
