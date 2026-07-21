@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T21:03:47+08:00",
+  "generated_at": "2026-07-21T21:39:25+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 17,
   "stage_v3_enum": [
@@ -17,9 +17,9 @@
       "code": "xingheng",
       "name_cn": "星恒电源",
       "name_full": "星恒电源（锂电两轮车龙头）",
-      "category": "重大并购",
+      "category": "知识图谱",
       "stage": "已立项",
-      "stage_v3": "在推重点",
+      "stage_v3": "观察",
       "iss": "未上市",
       "industry": "动力电池·新能源",
       "online_url": "https://jinzhanxiang.github.io/xingheng-report/",
@@ -29,21 +29,21 @@
       "local_folder": "~/Documents/OpenClaw-workspace-Projects/2、星恒电源项目/",
       "folder_alias": "",
       "report_count": 16,
-      "progress_pct": 75,
+      "progress_pct": 50,
       "contacts": "金战祥/外部:林总/18600001111",
       "brief_md": "星恒电源（动力电池·新能源）· 已立项阶段 · 详见报告库",
       "deploy_date": "2026-05-15",
       "last_update": "2026-07-09",
-      "notes": "重大并购项目，已部署 dashboard.html 双视图版",
+      "notes": "重大并购项目，已部署 dashboard.html 双视图版 | 2026-07-21 由主公决定移到观察",
       "pending_tasks": "已上线 (2026-07-11 v11g 真实 timeline 接入)"
     },
     {
       "code": "jngd",
       "name_cn": "晶能光电",
       "name_full": "晶能光电（江西）有限公司",
-      "category": "储备·非上市",
+      "category": "重大并购",
       "stage": "尽调完成",
-      "stage_v3": "储备",
+      "stage_v3": "在推重点",
       "iss": "未上市",
       "industry": "硬科技·新材料",
       "online_url": "https://jinzhanxiang.github.io/jngd-report/",
@@ -58,7 +58,7 @@
       "brief_md": "晶能光电（硬科技·新材料）· 尽调完成阶段 · 详见报告库",
       "deploy_date": "2026-05",
       "last_update": "2026-07-09",
-      "notes": "3 份报告 + 2个过程 md；dashboard.html 已部署；Documents 旧文件夹待清理",
+      "notes": "3 份报告 + 2个过程 md；dashboard.html 已部署；Documents 旧文件夹待清理 | 2026-07-21 由主公决定移到在推重点",
       "pending_tasks": "待 v11h 切共享 CSS"
     },
     {
@@ -161,9 +161,9 @@
       "code": "unicom-idc",
       "name_cn": "联通云 IDC",
       "name_full": "联通云数据中心 IDC REIT 项目",
-      "category": "储备·非上市",
+      "category": "重大并购",
       "stage": "REITs",
-      "stage_v3": "储备",
+      "stage_v3": "在推重点",
       "iss": "REITs",
       "industry": "数据·云",
       "online_url": "https://jinzhanxiang.github.io/unicom-idc-report/",
@@ -178,16 +178,16 @@
       "brief_md": "联通云 IDC（数据·云）· REITs阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
-      "notes": "REITs 项目，源在桌面（5.9M / 7文件）",
+      "notes": "REITs 项目，源在桌面（5.9M / 7文件） | 2026-07-21 由主公决定移到在推重点",
       "pending_tasks": "REITs 项目，源 7 文件已归类"
     },
     {
       "code": "hongyuan",
       "name_cn": "宏远创信",
       "name_full": "宏远创信（综合智慧能源）",
-      "category": "储备·非上市",
+      "category": "重大并购",
       "stage": "初步分析",
-      "stage_v3": "储备",
+      "stage_v3": "在推重点",
       "iss": "未上市",
       "industry": "硬科技·新材料",
       "online_url": "https://jinzhanxiang.github.io/hongyuan-report/",
@@ -202,7 +202,7 @@
       "brief_md": "宏远创信（硬科技·新材料）· 初步分析阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
-      "notes": "单报告项目，源在桌面（11M / 4文件：3 PDF + 1 docx）",
+      "notes": "单报告项目，源在桌面（11M / 4文件：3 PDF + 1 docx） | 2026-07-21 由主公决定移到在推重点（电力交易）",
       "pending_tasks": "单文件项目，待主公部署指示"
     },
     {
@@ -601,32 +601,32 @@
   "stage_matrix": {
     "在推重点": {
       "未上市": [
-        "xingheng",
+        "jngd",
+        "hongyuan",
         "qiyuanxin"
       ],
       "上市": [],
-      "REITs": []
+      "REITs": [
+        "unicom-idc"
+      ]
     },
     "储备": {
       "未上市": [
-        "jngd",
         "kedu",
         "zhongfu",
         "xinhong",
         "xunchao",
-        "hongyuan",
         "innoshine"
       ],
       "上市": [
         "htco",
         "acquisition-listed"
       ],
-      "REITs": [
-        "unicom-idc"
-      ]
+      "REITs": []
     },
     "观察": {
       "未上市": [
+        "xingheng",
         "wiki-index",
         "entities-graph",
         "tianbao-projects",
