@@ -176,9 +176,8 @@ body{background:var(--bg)}
     }[cat||''] || '完整 3×3 矩阵 · 全部 17 个项目';
 
     if(FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT)){
-      // cat 参数仅作高亮该行，标题不改为「分类矩阵·X」
-      h1.textContent = `项目分类矩阵 · 焦点「${FILTER_CAT}」`;
-      meta.innerHTML = `3 × 3 全部 17 项目 · 当前焦点行：<b>${FILTER_CAT}</b><br>${legacyNote}`;
+      h1.textContent = `${FILTER_CAT} · 项目分类`;
+      meta.innerHTML = `1 × 3 焦点行：<b>${FILTER_CAT}</b>（其他行已隐藏）<br>${legacyNote}`;
     } else {
       h1.textContent = '项目分类矩阵';
       meta.innerHTML = `全部 <b>17</b> 个项目 · 3 × 3 矩阵<br>${legacyNote}`;
@@ -189,10 +188,21 @@ body{background:var(--bg)}
   }
 
   function renderAll(){
-    // 高亮筛选行
+    // 焦点模式（cat=X）：只显示该行 1×3，隐藏其他 2 行
+    const focused = FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT);
+    const matrix = document.getElementById('matrix');
+    if(matrix) matrix.classList.toggle('focused', focused);
     document.querySelectorAll('.v3-matrix-row-h').forEach(el=>{
       const stage = el.textContent.trim().replace(/^[^一-龥]+/,'');
-      el.style.opacity = (FILTER_CAT==='__ALL__'||stage===FILTER_CAT) ? 1 : 0.35;
+      const isOther = focused && stage !== FILTER_CAT;
+      el.style.opacity = isOther ? 0.25 : 1;
+      el.style.display = isOther ? 'none' : '';
+    });
+    // 隐藏非焦点行对应的 cell
+    document.querySelectorAll('.v3-cell').forEach(cell=>{
+      const stage = cell.dataset.stage;
+      const isOther = focused && stage !== FILTER_CAT;
+      cell.style.display = isOther ? 'none' : '';
     });
 
     // 清空所有 cell-list
