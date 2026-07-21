@@ -19,15 +19,36 @@ body{background:var(--bg)}
 .v3-h1-banner .clock b{font-size:22px;font-weight:900;color:var(--seal);font-family:var(--hei);letter-spacing:1px;display:block}
 .v3-h1-banner .clock small{font-size:11px;color:var(--ink-3)}
 
-.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0 14px}
-.v3-entry{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:14px 18px;cursor:pointer;transition:.25s;position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit}
-.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--cat-color,var(--seal))}
-.v3-entry::after{content:'进入分类 →';position:absolute;right:18px;bottom:14px;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);font-weight:600}
-.v3-entry:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--cat-color,var(--seal))}
-.v3-entry:hover::after{color:var(--cat-color,var(--seal))}
+.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:10px 0 18px}
+.v3-entry{background:linear-gradient(180deg,var(--paper) 0%,rgba(250,250,245,0.6) 100%);border:1px solid var(--border);border-radius:var(--r-lg);padding:18px 22px 22px;cursor:pointer;transition:.3s;position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;min-height:140px}
+.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--cat-color,var(--seal));transition:.3s}
+.v3-entry::after{content:'进入分类 →';position:absolute;right:20px;bottom:16px;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);font-weight:600;transition:.3s}
+.v3-entry:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08),0 2px 6px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal))}
+.v3-entry:hover::before{width:8px}
+.v3-entry:hover::after{color:var(--cat-color,var(--seal));transform:translateX(3px)}
+.v3-entry-icon{font-size:36px;line-height:1;margin-bottom:10px;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.08))}
 .v3-entry-title{font-family:var(--hei);font-size:20px;color:var(--ink);font-weight:800;margin-bottom:6px;letter-spacing:2px}
-.v3-entry-count{font-family:var(--fsong);font-size:14px;color:var(--cat-color,var(--seal));font-weight:700;margin-bottom:10px}
-.v3-entry-desc{font-family:var(--fsong);font-size:13px;color:var(--ink-2);line-height:1.5}
+.v3-entry-count{font-family:ui-monospace,monospace;font-size:18px;color:var(--cat-color,var(--seal));font-weight:900;margin-bottom:10px;letter-spacing:-0.5px}
+.v3-entry-count small{font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:500;margin-left:3px;letter-spacing:1px}
+.v3-entry-desc{font-family:var(--fsong);font-size:13px;color:var(--ink-2);line-height:1.6}
+
+/* === 近期报告扫描 · 时间线 === */
+.v3-recent-wrap{margin-top:18px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:14px 20px 18px;position:relative}
+.v3-recent-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.v3-recent-head h2{font-family:var(--hei);font-size:var(--doc-sub);color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:8px;letter-spacing:2px}
+.v3-recent-head h2::before{content:'';width:3px;height:18px;background:var(--doc-rule);border-radius:1px}
+.v3-recent-head .h2-tools{margin-left:auto;display:flex;gap:6px;align-items:center}
+.v3-recent-head .h2-tools small{font-size:11px;color:var(--ink-3)}
+.v3-recent-tl{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.v3-recent-card{position:relative;background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:10px 14px;display:flex;flex-direction:column;gap:6px;transition:.2s;text-decoration:none;color:inherit;cursor:pointer}
+.v3-recent-card:hover{border-color:var(--seal);background:var(--paper);transform:translateY(-1px);box-shadow:var(--shadow)}
+.v3-recent-card-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.v3-recent-date{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);font-weight:800;letter-spacing:1px}
+.v3-recent-cat{font-size:10px;color:var(--blue);background:rgba(21,101,192,0.1);padding:1px 7px;border-radius:3px;font-weight:700;letter-spacing:1px}
+.v3-recent-title{font-family:var(--fsong);font-size:13px;color:var(--ink);font-weight:700;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.v3-recent-proj{font-size:11px;color:var(--ink-3);font-family:var(--fsong);display:flex;align-items:center;gap:4px}
+.v3-recent-proj::before{content:'📁';font-size:10px}
+.v3-recent-empty{grid-column:1/-1;text-align:center;padding:24px;color:var(--ink-3);font-family:var(--fsong);font-size:13px;text-indent:0}
 
 /* 左右双栏：行业分布 + 行业最新动态 */
 .v3-col2{display:grid;grid-template-columns:1fr 1.6fr;gap:14px;margin:12px 0 14px}
@@ -128,18 +149,21 @@ body{background:var(--bg)}
   </div>
   <div class="v3-entries">
     <a class="v3-entry" href="page.html?view=cat&cat=在推重点" style="--cat-color:#C0392B">
-      <div class="v3-entry-title">🏛 在推重点</div>
-      <div class="v3-entry-count" id="cntP0">— 个项目</div>
+      <div class="v3-entry-icon">🏛</div>
+      <div class="v3-entry-title">在推重点</div>
+      <div class="v3-entry-count" id="cntP0">— <small>个项目</small></div>
       <div class="v3-entry-desc">主公直管的重大并购 / 战略投资 · 立项或尽调阶段中</div>
     </a>
     <a class="v3-entry" href="page.html?view=cat&cat=储备" style="--cat-color:#1565C0">
-      <div class="v3-entry-title">📂 储备</div>
-      <div class="v3-entry-count" id="cntP1">— 个项目</div>
-      <div class="v3-entry-desc">未来 6-18 个月可能推进的项目 · 未上市 / 上市 / 资产类</div>
+      <div class="v3-entry-icon">📂</div>
+      <div class="v3-entry-title">储备</div>
+      <div class="v3-entry-count" id="cntP1">— <small>个项目</small></div>
+      <div class="v3-entry-desc">未来 6-18 个月可能推进的项目 · 未上市 / 上市 / REITs</div>
     </a>
     <a class="v3-entry" href="page.html?view=cat&cat=观察" style="--cat-color:#6B7280">
-      <div class="v3-entry-title">🔭 观察</div>
-      <div class="v3-entry-count" id="cntP2">— 个项目</div>
+      <div class="v3-entry-icon">🔭</div>
+      <div class="v3-entry-title">观察</div>
+      <div class="v3-entry-count" id="cntP2">— <small>个项目</small></div>
       <div class="v3-entry-desc">已立项 / 知识图谱 / 中心入口 · 维持弱跟踪</div>
     </a>
   </div>
@@ -164,6 +188,16 @@ body{background:var(--bg)}
         </div>
         <button class="v3-swiper-btn next" id="newsNext" aria-label="下一张">›</button>
       </div>
+    </div>
+  </div>
+
+  <!-- 近期报告扫描 · 全宽时间线卡片 -->
+  <div class="v3-recent-wrap v3-hud">
+    <div class="v3-recent-head">
+      <h2>📡 近期报告扫描 <div class="h2-tools"><small id="recentTotalLbl">载入中...</small><button class="v3-btn v3-btn-mini" id="recentReloadBtn">刷新</button></div></h2>
+    </div>
+    <div class="v3-recent-tl" id="recentTl">
+      <div class="v3-recent-empty">载入中...</div>
     </div>
   </div>
 
@@ -370,11 +404,49 @@ body{background:var(--bg)}
       `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
   }
 
+  /* ---------- 近期报告扫描（时间线）---------- */
+  function collectRecentReports(){
+    // 从 REPORTS（按 code）拉平 → 按 date 倒序 → 上限 12
+    const all = [];
+    Object.entries(REPORTS).forEach(([code, list])=>{
+      list.forEach(r=>all.push({...r, code}));
+    });
+    all.sort((a,b)=>b.date.localeCompare(a.date));
+    return all.slice(0, 12);
+  }
+  function renderRecentTimeline(){
+    const list = collectRecentReports();
+    const host = document.getElementById('recentTl');
+    const lbl  = document.getElementById('recentTotalLbl');
+    lbl.textContent = `共 ${list.length} 份 · 按日期倒序`;
+    if(!list.length){
+      host.innerHTML = '<div class="v3-recent-empty">暂无研究报告 · 等待 research 代理推送</div>';
+      return;
+    }
+    host.innerHTML = list.map(r=>{
+      const proj = PROJECTS.find(p=>p.code===r.code);
+      const projName = proj ? (proj.name_cn || proj.code) : r.code;
+      return `
+        <a class="v3-recent-card" href="${r.url || ('detail.html?code='+encodeURIComponent(r.code))}" target="_blank" rel="noopener">
+          <div class="v3-recent-card-top">
+            <span class="v3-recent-date">${r.date || '—'}</span>
+            <span class="v3-recent-cat">${r.category || '未分类'}</span>
+          </div>
+          <div class="v3-recent-title">${escapeHtml(r.title || '(无标题)')}</div>
+          <div class="v3-recent-proj">${escapeHtml(projName)}</div>
+        </a>
+      `;
+    }).join('');
+  }
+
+  function escapeHtml(s){return (s||'').replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));}
+
   /* ---------- 主渲染 ---------- */
   function renderAll(){
     renderKPI();
     renderCloud();
     renderNews();
+    renderRecentTimeline();
   }
 
   /* ---------- 绑定 ---------- */
@@ -389,6 +461,10 @@ body{background:var(--bg)}
     });
     document.getElementById('newsReloadBtn').addEventListener('click',()=>{
       NEWS_START = 0;
+      loadData();
+    });
+    const recentBtn = document.getElementById('recentReloadBtn');
+    if(recentBtn) recentBtn.addEventListener('click',()=>{
       loadData();
     });
   }
