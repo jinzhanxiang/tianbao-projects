@@ -153,7 +153,7 @@ body{background:var(--bg)}
   const STAGE2STEP = {
     '已立项':'project', '立项':'project', '暂停':'project', '暂停跟踪':'project',
     '尽调完成':'dd', '尽调':'dd', '初步分析':'dd', '初步尽调':'dd', '财务尽调':'dd',
-    '研究阶段':'reserve', '研究':'reserve', 'REITs':'reserve', '已部署':'post', '已归档':'exit',
+    '研究阶段':'reserve', '研究':'reserve', 'REITs':'dd', '已部署':'post', '已归档':'exit',
   };
 
   const STORE_KEY = 'tianbao_proj_folders';
@@ -224,10 +224,12 @@ body{background:var(--bg)}
 
     document.title = `${p.name_cn} · ${p.code} · 天保控股项目详情`;
     document.getElementById('projTitle').textContent = p.name_full || p.name_cn || code;
+    const actualReportCount = (REPORTS[p.code] || []).length;
+    const ledgerDiff = actualReportCount !== p.report_count;
     document.getElementById('projMeta').innerHTML = `
       <span>code: <b>${p.code}</b></span>
       <span>行业: <b>${p.industry || '—'}</b></span>
-      <span>报告: <b>${p.report_count} 份</b></span>
+      <span>报告: <b>${actualReportCount} 份</b>${ledgerDiff ? ` <small style="color:var(--seal)">(台账 ${p.report_count})</small>` : ''}</span>
       <span>本地: <b style="text-transform:none">${p.local_folder || '—'}</b></span>
     `;
     document.getElementById('projStage').innerHTML = `
