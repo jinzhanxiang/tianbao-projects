@@ -377,13 +377,29 @@ body{background:var(--bg)}
     if(SELECTED_INDUSTRY==='__ALL__'){
       return NEWS;
     }
-    // 精确 + 兼容（首字 / 包含）
-    const inds = Object.keys(NEWS_BY_IND);
-    const matched = inds.find(k=>k===SELECTED_INDUSTRY)
-      || inds.find(k=>k.includes(SELECTED_INDUSTRY) || SELECTED_INDUSTRY.includes(k))
-      || null;
-    if(!matched) return [];
-    return NEWS_BY_IND[matched].map(n=>({...n, industry:matched}));
+    const keys = Object.keys(NEWS_BY_IND);
+    // 词云标签是主行业名（·前段），新闻按细分名归档，需用项目全量子标签搭桥
+    const tokens = new Set([SELECTED_INDUSTRY]);
+    PROJECTS.forEach(p=>{
+      if((p.industry||'').split('·')[0].trim() === SELECTED_INDUSTRY){
+        (p.industry||'').split(/[·\/ ]+/).forEach(t=>{ t=t.trim(); if(t) tokens.add(t); });
+      }
+    });
+    const share2 = (a,b)=>{ for(let i=0;i+2<=a.length;i++){ if(b.includes(a.slice(i,i+2))) return true; } return false; };
+    const matchedKeys = keys.filter(k=>{
+      for(const t of tokens){ if(k===t || k.includes(t) || t.includes(k) || share2(t,k)) return true; }
+      return false;
+    });
+    if(!matchedKeys.length) return [];
+    const seen = new Set(), out = [];
+    matchedKeys.forEach(k=>{
+      NEWS_BY_IND[k].forEach(n=>{
+        const id = (n.title||'')+'|'+(n.date||'');
+        if(seen.has(id)) return; seen.add(id);
+        out.push({...n, industry:k});
+      });
+    });
+    return out;
   }
   function renderNews(){
     const data = newsForIndustry();
