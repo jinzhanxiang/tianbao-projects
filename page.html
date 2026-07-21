@@ -118,6 +118,7 @@ body{background:var(--bg)}
 </div>
 
 <script src="assets/dnd.js"></script>
+<script src="assets/cmdK.js"></script>
 <script>
 /* ==============================
  * 分类页 v3 渲染器 · 3×3 矩阵 + 拖拽
@@ -153,6 +154,9 @@ body{background:var(--bg)}
     if(window.dnd && dnd.applyOverrides){
       PROJECTS = dnd.applyOverrides(PROJECTS);
     }
+    // 暴露给 ⌘K 全局搜索
+    window.PROJECTS = PROJECTS;
+    if(window.cmdK) window.cmdK.rebuildIndex();
     bindFromUrl();
     renderAll();
     initDnd();
