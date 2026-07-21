@@ -9,11 +9,13 @@
 <style>
 body{background:var(--bg)}
 .v3-cat{max-width:1320px;margin:0 auto;padding:0 24px}
-.v3-cat-head{display:flex;justify-content:space-between;align-items:flex-end;margin:20px 0 16px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
-.v3-cat-head h1{font-family:var(--hei);font-size:26px;color:var(--ink);margin:0;letter-spacing:2px;font-weight:900}
-.v3-cat-head h1::before{content:'';display:inline-block;width:4px;height:22px;background:var(--doc-rule);margin-right:10px;vertical-align:-3px}
-.v3-cat-head .sub{font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);letter-spacing:2px;margin-top:4px}
-.v3-cat-head .meta{font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-2);text-align:right;line-height:1.7}
+.v3-cat-head{display:block;text-align:center;margin:22px 0 16px;padding:0 0 12px;border-bottom:3px double var(--ink);position:relative}
+.v3-cat-head h1{font-family:var(--hei);font-size:28px;color:var(--ink);margin:0 0 6px;letter-spacing:6px;font-weight:900;display:inline-block;padding:0 28px;position:relative}
+.v3-cat-head h1::before,.v3-cat-head h1::after{content:'';position:absolute;top:50%;width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--seal))}
+.v3-cat-head h1::before{right:100%;margin-right:14px}
+.v3-cat-head h1::after{left:100%;margin-left:14px;background:linear-gradient(90deg,var(--seal),transparent)}
+.v3-cat-head .sub{font-family:var(--fsong);font-size:14px;color:var(--ink-3);letter-spacing:3px;margin-top:4px;text-align:center}
+.v3-cat-head .meta{font-family:var(--fsong);font-size:13px;color:var(--ink-2);text-align:right;line-height:1.7;position:absolute;right:0;top:6px}
 .v3-cat-head .meta b{color:var(--seal)}
 
 .v3-loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
@@ -39,8 +41,8 @@ body{background:var(--bg)}
     <a class="nav-brand" href="index.html">
       <div class="nav-logo">保</div>
       <div>
-        <div>天保控股 · 项目指挥中心</div>
-        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 分类页</div>
+        <div>天保控股投资部 · 项目指挥中心</div>
+        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 分类矩阵</div>
       </div>
     </a>
     <div class="nav-links">
@@ -87,25 +89,25 @@ body{background:var(--bg)}
       <div class="v3-matrix-h col-tag"></div>
       <div class="v3-matrix-h">未上市公司股权</div>
       <div class="v3-matrix-h">上市公司</div>
-      <div class="v3-matrix-h">REITs</div>
+      <div class="v3-matrix-h">IDC · REITs</div>
 
       <!-- 行1：在推重点 -->
       <div class="v3-matrix-row-h">🏛 在推重点</div>
       <div class="v3-cell" data-stage="在推重点" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市公司股权</span><span class="v3-cell-cnt" data-cnt="在推重点|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
       <div class="v3-cell" data-stage="在推重点" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市公司</span><span class="v3-cell-cnt" data-cnt="在推重点|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="在推重点" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="在推重点|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">IDC · REITs</span><span class="v3-cell-cnt" data-cnt="在推重点|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
 
       <!-- 行2：储备 -->
       <div class="v3-matrix-row-h">📂 储备</div>
       <div class="v3-cell" data-stage="储备" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市公司股权</span><span class="v3-cell-cnt" data-cnt="储备|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
       <div class="v3-cell" data-stage="储备" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市公司</span><span class="v3-cell-cnt" data-cnt="储备|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="储备" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="储备|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">IDC · REITs</span><span class="v3-cell-cnt" data-cnt="储备|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
 
       <!-- 行3：观察 -->
       <div class="v3-matrix-row-h">🔭 观察</div>
       <div class="v3-cell" data-stage="观察" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市公司股权</span><span class="v3-cell-cnt" data-cnt="观察|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
       <div class="v3-cell" data-stage="观察" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市公司</span><span class="v3-cell-cnt" data-cnt="观察|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="观察" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="观察|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">IDC · REITs</span><span class="v3-cell-cnt" data-cnt="观察|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
     </div>
   </section>
 
