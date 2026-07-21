@@ -191,6 +191,25 @@ body{background:var(--bg)}
   let NEWS_START = 0;
   const NEWS_PER_PAGE = 6;
 
+  /* ---------- v2 → v3 URL 兼容 ---------- */
+  function legacyRedirect(){
+    const u = new URLSearchParams(location.search);
+    const view = u.get('view');
+    const cat = u.get('cat');
+    const code = u.get('code');
+    if (view === 'cat' && cat) {
+      // v2 ?view=cat&cat=deal → page.html?view=cat&cat=在推重点（page.html 内部映射）
+      location.replace('page.html?' + u.toString());
+      return true;
+    }
+    if (view === 'proj' && code) {
+      // v2 ?view=proj&code=xingheng → detail.html?code=xingheng
+      location.replace('detail.html?code=' + encodeURIComponent(code));
+      return true;
+    }
+    return false;
+  }
+
   /* ---------- 路由工具 ---------- */
   function v2to3Cat(cat){
     const map = {
@@ -380,6 +399,8 @@ body{background:var(--bg)}
 
   /* ---------- 初始化 ---------- */
   function init(){
+    // v2 → v3 URL 兼容（如果有旧 view= 参数则重定向到新结构）
+    if (legacyRedirect()) return;
     bind();
     tick(); setInterval(tick, 1000);
     loadData();
