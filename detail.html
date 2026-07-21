@@ -409,14 +409,19 @@ body{background:var(--bg)}
     document.getElementById('sideContacts').innerHTML = contacts;
 
     // 4. 同类项目（按行业段重合度，不再按 stage_v3 强行配对）
-    // 逻辑：取本项目所有行业标签（按 ·/· 分割），找其他项目至少有一个相同标签
+    // 逻辑：本项目行业标签与其他项目标签比对，完全相同 +2，≥2字部分重合 +1
     const tags = (p.industry || '').split(/[·\/ ]+/).filter(Boolean);
+    const share2 = (a,b)=>{ for(let i=0;i+2<=a.length;i++){ if(b.includes(a.slice(i,i+2))) return true; } return false; };
     const related = PROJECTS
       .filter(x => x.code !== p.code)
       .map(x => {
         const xTags = (x.industry || '').split(/[·\/ ]+/).filter(Boolean);
-        const overlap = tags.filter(t => xTags.includes(t)).length;
-        return { p: x, score: overlap };
+        let score = 0;
+        tags.forEach(t => xTags.forEach(xt => {
+          if(t === xt) score += 2;
+          else if(share2(t, xt)) score += 1;
+        }));
+        return { p: x, score };
       })
       .filter(x => x.score > 0)
       .sort((a,b)=> b.score - a.score)
