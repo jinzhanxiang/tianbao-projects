@@ -78,25 +78,25 @@ body{background:var(--bg)}
       <div class="v3-matrix-h col-tag"></div>
       <div class="v3-matrix-h">未上市</div>
       <div class="v3-matrix-h">上市</div>
-      <div class="v3-matrix-h">资产类</div>
+      <div class="v3-matrix-h">REITs</div>
 
       <!-- 行1：在推重点 -->
       <div class="v3-matrix-row-h">🏛 在推重点</div>
       <div class="v3-cell" data-stage="在推重点" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="在推重点|未上市">0</span></div><div class="v3-cell-list"></div></div>
       <div class="v3-cell" data-stage="在推重点" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="在推重点|上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="在推重点" data-iss="资产类"><div class="v3-cell-h"><span class="v3-cell-title">资产类</span><span class="v3-cell-cnt" data-cnt="在推重点|资产类">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="在推重点|REITs">0</span></div><div class="v3-cell-list"></div></div>
 
       <!-- 行2：储备 -->
       <div class="v3-matrix-row-h">📂 储备</div>
       <div class="v3-cell" data-stage="储备" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="储备|未上市">0</span></div><div class="v3-cell-list"></div></div>
       <div class="v3-cell" data-stage="储备" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="储备|上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="储备" data-iss="资产类"><div class="v3-cell-h"><span class="v3-cell-title">资产类</span><span class="v3-cell-cnt" data-cnt="储备|资产类">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="储备|REITs">0</span></div><div class="v3-cell-list"></div></div>
 
       <!-- 行3：观察 -->
       <div class="v3-matrix-row-h">🔭 观察</div>
       <div class="v3-cell" data-stage="观察" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="观察|未上市">0</span></div><div class="v3-cell-list"></div></div>
       <div class="v3-cell" data-stage="观察" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="观察|上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="观察" data-iss="资产类"><div class="v3-cell-h"><span class="v3-cell-title">资产类</span><span class="v3-cell-cnt" data-cnt="观察|资产类">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="观察|REITs">0</span></div><div class="v3-cell-list"></div></div>
     </div>
   </section>
 
@@ -115,7 +115,7 @@ body{background:var(--bg)}
   'use strict';
 
   const STAGES = ['在推重点', '储备', '观察'];
-  const ISSES  = ['未上市', '上市', '资产类'];
+  const ISSES  = ['未上市', '上市', 'REITs'];
 
   let PROJECTS = [];
   let FILTER_CAT = '__ALL__';     // 来自 ?view=cat&cat=...
@@ -166,7 +166,7 @@ body{background:var(--bg)}
 
     if(FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT)){
       h1.textContent = `分类矩阵 · ${FILTER_CAT}`;
-      meta.innerHTML = `<b>${FILTER_CAT}</b> · 横向 3 状态（未上市 / 上市 / 资产类）<br>${legacyNote}`;
+      meta.innerHTML = `<b>${FILTER_CAT}</b> · 横向 3 状态（未上市 / 上市 / REITs）<br>${legacyNote}`;
     } else {
       h1.textContent = '项目分类矩阵';
       meta.innerHTML = `全部 <b>17</b> 个项目 · 3 × 3 矩阵<br>${legacyNote}`;
