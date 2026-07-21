@@ -56,7 +56,7 @@
   function tiltAll(){
     bindTilt('.v3-rtl-i');
     bindTilt('.v3-ar-item');
-    bindTilt('.v3-recent-card', {max: 4});
+    bindTilt('.v3-feed-card', {max: 4});
     bindTilt('.v3-entry', {max: 4});
   }
 
