@@ -10,26 +10,36 @@
 /* === index.html 专属 · 首页微调 === */
 body{background:var(--bg)}
 .v3-home{max-width:1280px;margin:0 auto;padding:0 24px}
-.v3-h1-banner{display:flex;justify-content:space-between;align-items:flex-end;margin:20px 0 14px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
-.v3-h1-banner .lhs h1{font-family:var(--hei);font-size:28px;color:var(--ink);margin:0 0 4px;letter-spacing:2px;font-weight:900}
+.v3-h1-banner{display:flex;justify-content:space-between;align-items:flex-end;margin:12px 0 10px;padding-bottom:8px;border-bottom:2px solid var(--ink)}
+.v3-h1-banner .lhs h1{font-family:var(--hei);font-size:var(--doc-title);color:var(--ink);margin:0 0 4px;letter-spacing:2px;font-weight:900}
 .v3-h1-banner .lhs h1::before{content:'';display:inline-block;width:4px;height:22px;background:var(--doc-rule);margin-right:10px;vertical-align:-3px;border-radius:1px}
 .v3-h1-banner .lhs .sub{font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);letter-spacing:2px}
 .v3-h1-banner .rhs{display:flex;gap:12px;align-items:flex-end}
 .v3-h1-banner .clock{text-align:right}
-.v3-h1-banner .clock b{font-size:24px;font-weight:900;color:var(--seal);font-family:var(--hei);letter-spacing:1px;display:block}
+.v3-h1-banner .clock b{font-size:22px;font-weight:900;color:var(--seal);font-family:var(--hei);letter-spacing:1px;display:block}
 .v3-h1-banner .clock small{font-size:11px;color:var(--ink-3)}
 
-.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 22px}
-.v3-entry{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:20px 22px;cursor:pointer;transition:.25s;position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit}
+.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0 14px}
+.v3-entry{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:14px 18px;cursor:pointer;transition:.25s;position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit}
 .v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--cat-color,var(--seal))}
 .v3-entry::after{content:'进入分类 →';position:absolute;right:18px;bottom:14px;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);font-weight:600}
 .v3-entry:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--cat-color,var(--seal))}
 .v3-entry:hover::after{color:var(--cat-color,var(--seal))}
 .v3-entry-title{font-family:var(--hei);font-size:20px;color:var(--ink);font-weight:800;margin-bottom:6px;letter-spacing:2px}
 .v3-entry-count{font-family:var(--fsong);font-size:14px;color:var(--cat-color,var(--seal));font-weight:700;margin-bottom:10px}
-.v3-entry-desc{font-family:var(--fsong);font-size:13px;color:var(--ink-2);line-height:1.6}
+.v3-entry-desc{font-family:var(--fsong);font-size:13px;color:var(--ink-2);line-height:1.5}
 
-.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:18px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+/* 左右双栏：行业分布 + 行业最新动态 */
+.v3-col2{display:grid;grid-template-columns:1fr 1.6fr;gap:14px;margin:12px 0 14px}
+.v3-col2-section{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:12px 16px;display:flex;flex-direction:column;min-height:0}
+.v3-col2-section h2{font-family:var(--hei);font-size:var(--doc-sub);color:var(--ink);font-weight:800;margin:0 0 8px;display:flex;align-items:center;gap:8px;letter-spacing:2px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.v3-col2-section h2::before{content:'';width:3px;height:16px;background:var(--doc-rule);border-radius:1px}
+.v3-col2-section .h2-tools{margin-left:auto;display:flex;gap:6px;align-items:center}
+.v3-col2-section .h2-tools small{font-size:11px;color:var(--ink-3)}
+.v3-col2-section .v3-cloud-tags{flex:1}
+.v3-col2-section .v3-swiper-wrap{flex:1;min-height:0}
+
+.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:12px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
 .v3-section-h h2{font-family:var(--hei);font-size:var(--doc-sub);color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:10px;letter-spacing:2px}
 .v3-section-h h2::before{content:'';width:3px;height:18px;background:var(--doc-rule);border-radius:1px}
 .v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);font-weight:500}
@@ -42,10 +52,12 @@ body{background:var(--bg)}
 
 @media (max-width:1100px){
   .v3-entries{grid-template-columns:1fr 1fr}
+  .v3-col2{grid-template-columns:1fr}
 }
 @media (max-width:760px){
   .v3-h1-banner{flex-direction:column;align-items:flex-start}
   .v3-entries{grid-template-columns:1fr}
+  .v3-col2{grid-template-columns:1fr}
   .v3-h1-banner h1{font-size:22px}
 }
 </style>
@@ -132,32 +144,28 @@ body{background:var(--bg)}
     </a>
   </div>
 
-  <!-- 行业词云（自动从项目聚合） -->
-  <div class="v3-section-h">
-    <h2>行业分布</h2>
-    <em>按项目行业主名聚合 · 字号反映项目密度 · 点击切换下方动态</em>
-  </div>
-  <section class="v3-cloud v3-hud">
-    <div class="v3-cloud-tags" id="cloudTags">
-      <div class="v3-cloud-empty">载入中...</div>
+  <!-- 左右双栏：行业分布 + 行业最新动态 -->
+  <div class="v3-col2">
+    <!-- 左：行业分布（词云）-->
+    <div class="v3-col2-section v3-hud">
+      <h2>行业分布</h2>
+      <div class="v3-cloud-tags" id="cloudTags">
+        <div class="v3-cloud-empty">载入中...</div>
+      </div>
     </div>
-  </section>
 
-  <!-- 行业最新动态 · 双轮播（点行业切换） -->
-  <div class="v3-section-h">
-    <h2>行业最新动态</h2>
-    <div class="tools">
-      <small id="newsIndLabel">显示：全部行业</small>
-      <button class="v3-btn" id="newsReloadBtn">刷新</button>
+    <!-- 右：行业最新动态 -->
+    <div class="v3-col2-section v3-hud">
+      <h2>行业最新动态 <div class="h2-tools"><small id="newsIndLabel">全部行业</small><button class="v3-btn v3-btn-mini" id="newsReloadBtn">刷新</button></div></h2>
+      <div class="v3-swiper-wrap">
+        <button class="v3-swiper-btn prev" id="newsPrev" aria-label="上一张">‹</button>
+        <div class="v3-swiper" id="newsSwiper">
+          <div class="v3-news-empty">载入中...</div>
+        </div>
+        <button class="v3-swiper-btn next" id="newsNext" aria-label="下一张">›</button>
+      </div>
     </div>
   </div>
-  <section class="v3-swiper-wrap v3-hud">
-    <button class="v3-swiper-btn prev" id="newsPrev" aria-label="上一张">‹</button>
-    <div class="v3-swiper" id="newsSwiper">
-      <div class="v3-news-empty">载入中...</div>
-    </div>
-    <button class="v3-swiper-btn next" id="newsNext" aria-label="下一张">›</button>
-  </section>
 
   <!-- 路由跳转：旧版 -->
   <div class="v3-section-h" style="margin-top:24px">
