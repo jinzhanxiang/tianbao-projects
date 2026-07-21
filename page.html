@@ -71,7 +71,7 @@ body{background:var(--bg)}
   <!-- 矩阵筛选提示条 -->
   <div class="v3-matrix-bar">
     <div class="v3-matrix-bar-info">
-      <b>3 × 3</b> 共 <b id="totalCount">—</b> 个项目 · 已落位 <b id="placedCount">—</b> 个 · <small id="foldState">全部折叠</small>
+      <b id="matrixSize">3 × 3</b> 共 <b id="totalCount">—</b> 个项目 · 已落位 <b id="placedCount">—</b> 个 · <small id="foldState">全部折叠</small>
     </div>
     <div class="v3-matrix-bar-tools">
       <button class="v3-btn" id="btnFold">折叠/展开</button>
@@ -226,6 +226,7 @@ body{background:var(--bg)}
     // 计数
     document.getElementById('totalCount').textContent = filtered.length;
     document.getElementById('placedCount').textContent = placed;
+    document.getElementById('matrixSize').textContent = focused ? '1 × 3' : '3 × 3';
     document.querySelectorAll('.v3-cell-cnt').forEach(el=>{
       const [s,i] = el.dataset.cnt.split('|');
       const c = document.querySelector(`.v3-cell[data-stage="${s}"][data-iss="${i}"] .v3-cell-list`);
