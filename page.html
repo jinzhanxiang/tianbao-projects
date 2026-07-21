@@ -18,6 +18,14 @@ body{background:var(--bg)}
 
 .v3-loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
 
+/* === Cell 可折叠 === */
+.v3-cell-toggle{margin-left:6px;font-size:11px;color:var(--ink-3);transition:.2s;flex-shrink:0}
+.v3-cell-h{cursor:pointer;user-select:none}
+.v3-cell.collapsed .v3-cell-list{display:none}
+.v3-cell.collapsed .v3-cell-toggle{transform:rotate(-90deg);color:var(--seal)}
+.v3-cell.collapsed .v3-cell-h{background:var(--bg-2);border-radius:6px}
+.v3-cell-empty{padding:8px 10px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:11px;font-style:italic;text-indent:0}
+
 @media (max-width:760px){
   .v3-cat-head{flex-direction:column;align-items:flex-start}
   .v3-cat-head h1{font-size:22px}
@@ -63,9 +71,10 @@ body{background:var(--bg)}
   <!-- 矩阵筛选提示条 -->
   <div class="v3-matrix-bar">
     <div class="v3-matrix-bar-info">
-      <b>3 × 3</b> 共 <b id="totalCount">—</b> 个项目 · 已落位 <b id="placedCount">—</b> 个
+      <b>3 × 3</b> 共 <b id="totalCount">—</b> 个项目 · 已落位 <b id="placedCount">—</b> 个 · <small id="foldState">全部折叠</small>
     </div>
     <div class="v3-matrix-bar-tools">
+      <button class="v3-btn" id="btnFold">折叠/展开</button>
       <button class="v3-btn" id="btnAll">查看全部</button>
       <button class="v3-btn danger" id="btnReset">重置拖拽</button>
     </div>
@@ -82,21 +91,21 @@ body{background:var(--bg)}
 
       <!-- 行1：在推重点 -->
       <div class="v3-matrix-row-h">🏛 在推重点</div>
-      <div class="v3-cell" data-stage="在推重点" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="在推重点|未上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="在推重点" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="在推重点|上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="在推重点" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="在推重点|REITs">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="在推重点|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="在推重点|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="在推重点|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
 
       <!-- 行2：储备 -->
       <div class="v3-matrix-row-h">📂 储备</div>
-      <div class="v3-cell" data-stage="储备" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="储备|未上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="储备" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="储备|上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="储备" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="储备|REITs">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="储备|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="储备|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="储备|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
 
       <!-- 行3：观察 -->
       <div class="v3-matrix-row-h">🔭 观察</div>
-      <div class="v3-cell" data-stage="观察" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="观察|未上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="观察" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="观察|上市">0</span></div><div class="v3-cell-list"></div></div>
-      <div class="v3-cell" data-stage="观察" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="观察|REITs">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="观察|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="观察|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">REITs</span><span class="v3-cell-cnt" data-cnt="观察|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
     </div>
   </section>
 
@@ -145,6 +154,7 @@ body{background:var(--bg)}
     bindFromUrl();
     renderAll();
     initDnd();
+    setupFold();
   }
 
   function bindFromUrl(){
@@ -188,8 +198,8 @@ body{background:var(--bg)}
     // 清空所有 cell-list
     document.querySelectorAll('.v3-cell .v3-cell-list').forEach(el=>el.innerHTML='');
 
-    // 按 v3 stage_v3 / iss 分类 —— 默认展示全部 17 项目；cat 参数仅作焦点高亮，不作过滤
-    const filtered = PROJECTS;
+    // 按 v3 stage_v3 / iss 分类 —— 默认展示全部 17 项目；cat=X 严格过滤只显示该行（focus 模式）
+    const filtered = FILTER_CAT==='__ALL__' ? PROJECTS : PROJECTS.filter(p=>p.stage_v3===FILTER_CAT);
 
     let placed = 0;
     let totalShown = 0;
@@ -275,6 +285,41 @@ body{background:var(--bg)}
       alert('已重置 · 刷新页面');
       location.reload();
     });
+    const foldBtn = document.getElementById('btnFold');
+    if(foldBtn) foldBtn.addEventListener('click', ()=>{
+      const cells = document.querySelectorAll('.v3-cell');
+      const allCollapsed = Array.from(cells).every(c=>c.classList.contains('collapsed'));
+      cells.forEach(c=>c.classList.toggle('collapsed', !allCollapsed));
+      updateFoldState();
+    });
+  }
+
+  /* ---------- 折叠逻辑 ---------- */
+  function setupFold(){
+    const cells = document.querySelectorAll('.v3-cell');
+    // 默认全部折叠
+    cells.forEach(c=>c.classList.add('collapsed'));
+    updateFoldState();
+    // 点击 cell-h 切换
+    cells.forEach(cell=>{
+      const h = cell.querySelector('.v3-cell-h');
+      if(!h) return;
+      h.addEventListener('click', (e)=>{
+        // 避免点击 a.v3-card 时触发（虽然 v3-card 在 cell-list 不在 cell-h）
+        if(e.target.closest('.v3-card')) return;
+        cell.classList.toggle('collapsed');
+        updateFoldState();
+      });
+    });
+  }
+  function updateFoldState(){
+    const cells = document.querySelectorAll('.v3-cell');
+    const allCollapsed = Array.from(cells).every(c=>c.classList.contains('collapsed'));
+    const anyCollapsed = Array.from(cells).some(c=>c.classList.contains('collapsed'));
+    const lbl = document.getElementById('foldState');
+    if(lbl){
+      lbl.textContent = allCollapsed ? '全部折叠' : (anyCollapsed ? '部分展开' : '全部展开');
+    }
   }
 
   /* ---------- 旧版入口（已收口为页面跳转，不再弹 alert） ---------- */
