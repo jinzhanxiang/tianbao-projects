@@ -2,190 +2,394 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>✦ 天保控股 · 项目中心</title>
-<link rel="stylesheet" href="assets/cyber-override.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<title>天保控股项目指挥中心 · 首页</title>
+<meta name="description" content="天保控股项目管理系统 v3 · 首页 · 行业分布 + 行业最新动态">
+<link rel="stylesheet" href="assets/tianbao.css">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100vh;overflow:hidden;display:flex;flex-direction:column;font-family:var(--cyber-font);background:var(--cyber-bg);color:var(--cyber-text);position:relative;z-index:0}
-body::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;
-  background:radial-gradient(ellipse at 20% 0%,rgba(0,212,255,0.03) 0%,transparent 50%),
-             radial-gradient(ellipse at 80% 100%,rgba(167,139,250,0.02) 0%,transparent 50%);
-  pointer-events:none;z-index:0}
-a{text-decoration:none;color:inherit}
+/* === index.html 专属 · 首页微调 === */
+body{background:var(--bg)}
+.v3-home{max-width:1280px;margin:0 auto;padding:0 24px}
+.v3-h1-banner{display:flex;justify-content:space-between;align-items:flex-end;margin:20px 0 14px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.v3-h1-banner .lhs h1{font-family:var(--hei);font-size:28px;color:var(--ink);margin:0 0 4px;letter-spacing:2px;font-weight:900}
+.v3-h1-banner .lhs h1::before{content:'';display:inline-block;width:4px;height:22px;background:var(--doc-rule);margin-right:10px;vertical-align:-3px;border-radius:1px}
+.v3-h1-banner .lhs .sub{font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);letter-spacing:2px}
+.v3-h1-banner .rhs{display:flex;gap:12px;align-items:flex-end}
+.v3-h1-banner .clock{text-align:right}
+.v3-h1-banner .clock b{font-size:24px;font-weight:900;color:var(--seal);font-family:var(--hei);letter-spacing:1px;display:block}
+.v3-h1-banner .clock small{font-size:11px;color:var(--ink-3)}
 
-/* Nav */
-.nav{position:sticky;top:0;z-index:100;background:rgba(5,5,15,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
-.nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between}
-.logo{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--text);font-size:14px}
-.logo-mark{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--cyan),var(--purple));display:grid;place-items:center;font-size:16px;font-weight:800;color:#fff;box-shadow:0 0 16px rgba(0,212,255,0.2)}
-.nav-links{display:flex;gap:4px}
-.nav-links a{padding:8px 14px;border-radius:8px;color:var(--text-2);font-size:13px;transition:all 0.3s;position:relative}
-.nav-links a:hover{color:var(--cyan);background:rgba(0,212,255,0.05)}
-.nav-links a.active{color:var(--cyan);background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.15)}
+.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 22px}
+.v3-entry{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:20px 22px;cursor:pointer;transition:.25s;position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit}
+.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--cat-color,var(--seal))}
+.v3-entry::after{content:'进入分类 →';position:absolute;right:18px;bottom:14px;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);font-weight:600}
+.v3-entry:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--cat-color,var(--seal))}
+.v3-entry:hover::after{color:var(--cat-color,var(--seal))}
+.v3-entry-title{font-family:var(--hei);font-size:20px;color:var(--ink);font-weight:800;margin-bottom:6px;letter-spacing:2px}
+.v3-entry-count{font-family:var(--fsong);font-size:14px;color:var(--cat-color,var(--seal));font-weight:700;margin-bottom:10px}
+.v3-entry-desc{font-family:var(--fsong);font-size:13px;color:var(--ink-2);line-height:1.6}
 
-/* Main */
-.wrap,.main{max-width:1200px;margin:0 auto;padding:24px;position:relative;z-index:2;flex:1;overflow-y:auto;min-height:0;width:100%}
+.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:18px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.v3-section-h h2{font-family:var(--hei);font-size:var(--doc-sub);color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:10px;letter-spacing:2px}
+.v3-section-h h2::before{content:'';width:3px;height:18px;background:var(--doc-rule);border-radius:1px}
+.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);font-weight:500}
+.v3-section-h .tools{display:flex;gap:8px;align-items:center}
+.v3-section-h .tools small{font-size:11px;color:var(--ink-3)}
 
-/* Hero */
-.hero{text-align:center;margin-bottom:48px;position:relative}
-.hero h1{font-size:32px;font-weight:800;margin-bottom:12px;background:linear-gradient(90deg,#fff 0%,var(--cyan) 40%,var(--purple) 70%,#fff 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 100%;animation:shimmer 4s ease-in-out infinite}
-@keyframes shimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
-.hero p{font-size:15px;color:var(--text-2);max-width:600px;margin:0 auto}
+.v3-loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
+.v3-loading::before{content:'';display:inline-block;width:14px;height:14px;border:2px solid var(--border);border-top-color:var(--seal);border-radius:50%;animation:spin 1s linear infinite;margin-right:8px;vertical-align:-2px}
+@keyframes spin{to{transform:rotate(360deg)}}
 
-/* Entry Grid */
-.entry-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1000px;margin:0 auto}
-.entry-card{background:var(--bg-card);border-radius:14px;padding:28px 24px;border:1px solid var(--border);transition:all 0.4s;cursor:pointer;display:block;text-align:center;position:relative;overflow:hidden;backdrop-filter:blur(10px)}
-.entry-card::before{content:'';position:absolute;inset:-1px;border-radius:15px;background:linear-gradient(135deg,var(--cyan),var(--purple));opacity:0;transition:opacity 0.4s;z-index:-1;filter:blur(8px)}
-.entry-card:hover::before{opacity:0.2}
-.entry-card:hover{transform:translateY(-4px);border-color:var(--border-glow);box-shadow:var(--shadow-glow)}
-.entry-icon{width:64px;height:64px;border-radius:16px;display:grid;place-items:center;font-size:28px;margin:0 auto 16px;background:linear-gradient(135deg,rgba(0,212,255,0.15),rgba(167,139,250,0.15));border:1px solid rgba(0,212,255,0.1);position:relative}
-.entry-icon::after{content:'';position:absolute;inset:-2px;border-radius:18px;background:linear-gradient(135deg,var(--cyan),var(--purple));z-index:-1;opacity:0.3;filter:blur(6px)}
-.entry-card h3{font-size:18px;font-weight:700;margin-bottom:8px;color:var(--text)}
-.entry-card p{font-size:13px;color:var(--text-2);line-height:1.5}
-.entry-card .arrow{font-size:20px;margin-top:12px;color:var(--cyan);opacity:0;transform:translateX(-10px);transition:all 0.3s}
-.entry-card:hover .arrow{opacity:1;transform:translateX(0)}
-
-/* Stats */
-.stats{display:flex;justify-content:center;gap:32px;margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}
-.stat{text-align:center}
-.stat b{display:block;font-size:28px;font-weight:800;font-family:var(--font-mono);background:linear-gradient(90deg,var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.stat span{font-size:12px;color:var(--text-3)}
-
-/* Footer */
-.note{text-align:center;margin-top:40px;font-size:11px;color:var(--text-3);font-family:var(--font-mono)}
-
-@media(max-width:768px){.entry-grid{grid-template-columns:1fr}.stats{gap:16px;flex-wrap:wrap}}
+@media (max-width:1100px){
+  .v3-entries{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .v3-h1-banner{flex-direction:column;align-items:flex-start}
+  .v3-entries{grid-template-columns:1fr}
+  .v3-h1-banner h1{font-size:22px}
+}
 </style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script>
-    // GSAP 立即执行 - cyber fade-in + scale + glitch
-    document.addEventListener('DOMContentLoaded', function() {
-      if (typeof gsap !== 'undefined') {
-        // 主标题 cyber-glitch 立即触发
-        document.querySelectorAll('.cyber-title, .cyber-title-sm, h1, h2').forEach(function(el, i) {
-          gsap.from(el, {duration: 0.6, opacity: 0, y: 20, delay: i * 0.05, ease: 'power2.out'});
-        });
-        // cyber-card 立即 staggered 动画
-        document.querySelectorAll('.cyber-card, .cyber-panel, .cyber-stat').forEach(function(el, i) {
-          gsap.from(el, {duration: 0.5, opacity: 0, scale: 0.95, delay: 0.2 + i * 0.05, ease: 'back.out(1.2)'});
-        });
-        // cyber-badge 脉冲
-        document.querySelectorAll('.cyber-badge').forEach(function(el, i) {
-          gsap.from(el, {duration: 0.4, opacity: 0, scale: 0.5, delay: 0.4 + i * 0.03, ease: 'elastic.out(1, 0.5)'});
-        });
-        console.log('[GSAP] cyber animations initialized for index.html');
-      }
-    });
-  </script>
 </head>
 <body>
+
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="logo"><span class="logo-mark">✦</span>天保控股 · 项目中心</a>
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo">保</div>
+      <div>
+        <div>天保控股 · 项目指挥中心</div>
+        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 首页</div>
+      </div>
+    </a>
     <div class="nav-links">
-      <a href="index.html" class="active">✦ 首页</a>
-      <a href="dashboard.html">✦ 仪表盘</a>
-      <a href="projects.html">✦ 项目</a>
-      <a href="reports.html">✦ 报告库</a>
+      <a class="active">🏛 首页</a>
+      <a href="page.html?view=cat&cat=在推重点">📂 分类页</a>
+      <a href="#" id="navLegacy">🔗 旧版入口</a>
     </div>
   </div>
 </nav>
 
-<div class="main">
-  <section class="hero">
-    <h1 class="cyber-title">✦ 天保控股项目中心</h1>
-    <p>投资项目管理平台 · 分层导航 · 动态数据</p>
+<div class="v3-home viewport-fit v3-grow">
+
+  <!-- 顶部信息条 -->
+  <div class="v3-h1-banner">
+    <div class="lhs">
+      <h1>项目指挥中心 · 总览</h1>
+      <div class="sub">主公专属项目管理系统 · v3 文字版 · 公文风 + 科技感</div>
+    </div>
+    <div class="rhs">
+      <div class="clock">
+        <b id="navClock">--:--:--</b>
+        <small id="navDate">----年--月--日</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPI 4 宫格（公文 HUD 风） -->
+  <div class="v3-kpi-grid" id="kpiGrid">
+    <div class="v3-kpi">
+      <div class="v3-kpi-num" id="kpiProjects">--</div>
+      <div class="v3-kpi-lbl">总项目数</div>
+      <div class="v3-kpi-sub" id="kpiProjectsSub">载入中...</div>
+    </div>
+    <div class="v3-kpi">
+      <div class="v3-kpi-num" id="kpiReports">--</div>
+      <div class="v3-kpi-lbl">报告总数</div>
+      <div class="v3-kpi-sub" id="kpiReportsSub">含 7 大类别</div>
+    </div>
+    <div class="v3-kpi">
+      <div class="v3-kpi-num" id="kpiIndustries">--</div>
+      <div class="v3-kpi-lbl">覆盖行业</div>
+      <div class="v3-kpi-sub" id="kpiIndustriesSub">—</div>
+    </div>
+    <div class="v3-kpi">
+      <div class="v3-kpi-num"><span id="kpiFeatured">--</span><small>个</small></div>
+      <div class="v3-kpi-lbl">在推重点</div>
+      <div class="v3-kpi-sub" id="kpiFeaturedSub">主公直管</div>
+    </div>
+  </div>
+
+  <!-- 3 类入口 · 公文卡片 -->
+  <div class="v3-section-h">
+    <h2>分类入口</h2>
+    <em>点击进入分类页 · 支持拖拽项目在三类间移动</em>
+  </div>
+  <div class="v3-entries">
+    <a class="v3-entry" href="page.html?view=cat&cat=在推重点" style="--cat-color:#C0392B">
+      <div class="v3-entry-title">🏛 在推重点</div>
+      <div class="v3-entry-count" id="cntP0">— 个项目</div>
+      <div class="v3-entry-desc">主公直管的重大并购 / 战略投资 · 立项或尽调阶段中</div>
+    </a>
+    <a class="v3-entry" href="page.html?view=cat&cat=储备" style="--cat-color:#1565C0">
+      <div class="v3-entry-title">📂 储备</div>
+      <div class="v3-entry-count" id="cntP1">— 个项目</div>
+      <div class="v3-entry-desc">未来 6-18 个月可能推进的项目 · 未上市 / 上市 / 资产类</div>
+    </a>
+    <a class="v3-entry" href="page.html?view=cat&cat=观察" style="--cat-color:#6B7280">
+      <div class="v3-entry-title">🔭 观察</div>
+      <div class="v3-entry-count" id="cntP2">— 个项目</div>
+      <div class="v3-entry-desc">已立项 / 知识图谱 / 中心入口 · 维持弱跟踪</div>
+    </a>
+  </div>
+
+  <!-- 行业词云（自动从项目聚合） -->
+  <div class="v3-section-h">
+    <h2>行业分布</h2>
+    <em>按项目行业主名聚合 · 字号反映项目密度 · 点击切换下方动态</em>
+  </div>
+  <section class="v3-cloud v3-hud">
+    <div class="v3-cloud-tags" id="cloudTags">
+      <div class="v3-cloud-empty">载入中...</div>
+    </div>
   </section>
 
-  <div class="entry-grid">
-    <a href="dashboard.html" class="entry-card cyber-card">
-      <div class="entry-icon">◈</div>
-      <h3>仪表盘</h3>
-      <p>项目总览、关键指标<br>快速入口</p>
-      <div class="arrow cyber-shimmer">→</div>
-    </a>
-    <a href="reports.html" class="entry-card cyber-card">
-      <div class="entry-icon">▣</div>
-      <h3>报告库</h3>
-      <p>所有项目报告的<br>统一入口</p>
-      <div class="arrow cyber-shimmer">→</div>
-    </a>
-    <a href="detail.html" class="entry-card cyber-card">
-      <div class="entry-icon">◇</div>
-      <h3>项目详情</h3>
-      <p>单个项目的<br>详细信息与时间线</p>
-      <div class="arrow cyber-shimmer">→</div>
-    </a>
+  <!-- 行业最新动态 · 双轮播（点行业切换） -->
+  <div class="v3-section-h">
+    <h2>行业最新动态</h2>
+    <div class="tools">
+      <small id="newsIndLabel">显示：全部行业</small>
+      <button class="v3-btn" id="newsReloadBtn">刷新</button>
+    </div>
+  </div>
+  <section class="v3-swiper-wrap v3-hud">
+    <button class="v3-swiper-btn prev" id="newsPrev" aria-label="上一张">‹</button>
+    <div class="v3-swiper" id="newsSwiper">
+      <div class="v3-news-empty">载入中...</div>
+    </div>
+    <button class="v3-swiper-btn next" id="newsNext" aria-label="下一张">›</button>
+  </section>
+
+  <!-- 路由跳转：旧版 -->
+  <div class="v3-section-h" style="margin-top:24px">
+    <h2>旧版兼容入口</h2>
+    <em>v2.2 旧链接 · 自动重定向到新分类页</em>
+  </div>
+  <div style="margin:0 0 32px;padding:14px 18px;background:var(--paper);border:1px dashed var(--border);border-radius:var(--r);font-family:ui-monospace,monospace;font-size:13px;color:var(--ink-2);line-height:1.9">
+    <div><b>·</b> <a href="page.html?view=cat&cat=deal" style="color:var(--blue)">?view=cat&cat=deal</a>（重大并购） → 在推重点</div>
+    <div><b>·</b> <a href="page.html?view=cat&cat=np" style="color:var(--blue)">?view=cat&cat=np</a>（储备·非上市） → 储备·未上市</div>
+    <div><b>·</b> <a href="page.html?view=cat&cat=p" style="color:var(--blue)">?view=cat&cat=p</a>（储备·上市） → 储备·上市</div>
+    <div><b>·</b> <a href="page.html?view=cat&cat=kg" style="color:var(--blue)">?view=cat&cat=kg</a>（知识图谱） → 观察·未上市</div>
+    <div><b>·</b> <a href="page.html?view=cat&cat=hub" style="color:var(--blue)">?view=cat&cat=hub</a>（中心·入口） → 观察·未上市</div>
+    <div><b>·</b> <a href="page.html?view=cat&cat=course" style="color:var(--blue)">?view=cat&cat=course</a>（内训课件） → 观察·未上市</div>
   </div>
 
-  <div class="stats">
-    <div class="stat cyber-stat cyber-pulse"><b id="proj-count">-</b><span>项目总数</span></div>
-    <div class="stat cyber-stat cyber-pulse"><b id="deal-count">-</b><span>并购项目</span></div>
-    <div class="stat cyber-stat cyber-pulse"><b id="np-count">-</b><span>储备项目</span></div>
-    <div class="stat cyber-stat cyber-pulse"><b id="repo-count">-</b><span>独立仓库</span></div>
-  </div>
-
-  <div class="note">✦ 项目管理系统 · 仅管理项目信息（按主公 08:12 终极指令）</div>
 </div>
 
+<script src="assets/dnd.js"></script>
 <script>
-async function loadStats() {
-  try {
-    const PROJECTS = []; /* fetch 已废弃，项目数据内嵌（按主公 08:12 终极指令） */
-    const data = { projects: [{id:"PRJ-001",category:"deal"},{id:"PRJ-002",category:"deal"},{id:"PRJ-003",category:"np"},{id:"PRJ-004",category:"np"},{id:"PRJ-005",category:"np"}], external_repos: [{id:"R-001"},{id:"R-002"},{id:"R-003"}], metadata: {created:"2026-07-20"}};
-    ['proj-count','deal-count','np-count','repo-count'].forEach((id, i) => {
-      const el = document.getElementById(id);
-      const vals = [data.projects.length, data.projects.filter(p => p.category === 'deal').length,
-        data.projects.filter(p => p.category === 'np').length, data.external_repos.length];
-      // Animate counter
-      const target = vals[i];
-      let current = 0;
-      const step = Math.max(1, Math.floor(target / 30));
-      const timer = setInterval(() => {
-        current = Math.min(current + step, target);
-        el.textContent = current.toLocaleString();
-        if (current >= target) clearInterval(timer);
-      }, 30);
-    });
-    /* update-time 已废弃（按主公 08:23） · 静态数据无 metadata.created */
-  } catch(e) { console.error('Load stats failed:', e); }
-}
-loadStats();
-// Auto-refresh every 60s
-setInterval(loadStats, 60000);
-</script>
-<div class="cyber-statusbar">
-  <span><span class="dot green"></span>✦ 项目中心 · 系统在线</span>
-  <span>✦ 天保控股 · 投资项目管理平台</span>
-</div>
+/* ==============================
+ * 首页 v3 渲染器
+ * ============================== */
+(function(){
+  'use strict';
 
-<!-- 主题切换按钮 -->
-<button class="cyber-theme-toggle" id="themeToggle" title="切换日/夜间模式">🌙</button>
-<script>
-  // 主题切换
-  (function(){
-    var btn = document.getElementById('themeToggle');
-    if(!btn) return;
-    var isLight = localStorage.getItem('cyber-theme') === 'light';
-    if(isLight){
-      document.documentElement.classList.add('cyber-light');
-      btn.textContent = '☀️';
+  let PROJECTS = [];
+  let REPORTS = [];
+  let NEWS = [];
+  let SELECTED_INDUSTRY = '__ALL__';
+  let NEWS_START = 0;
+  const NEWS_PER_PAGE = 6;
+
+  /* ---------- 路由工具 ---------- */
+  function v2to3Cat(cat){
+    const map = {
+      'deal': '在推重点',
+      'np': '储备',
+      'p': '储备',
+      'kg': '观察',
+      'hub': '观察',
+      'course': '观察',
+    };
+    return map[cat] || '在推重点';
+  }
+
+  /* ---------- 加载数据 ---------- */
+  async function loadData(){
+    try {
+      const [p, r, n] = await Promise.all([
+        fetch('data/projects.json', {cache:'no-store'}),
+        fetch('data/reports.json', {cache:'no-store'}),
+        fetch('data/industry_news.json', {cache:'no-store'}),
+      ]);
+      PROJECTS = (await p.json()).projects || [];
+      REPORTS = (await r.json()).by_code || {};
+      NEWS = (await n.json()) || {};
+    } catch(e){
+      console.error('数据加载失败', e);
+      PROJECTS = []; REPORTS = {}; NEWS = {};
     }
-    btn.addEventListener('click', function(){
-      var html = document.documentElement;
-      if(html.classList.contains('cyber-light')){
-        html.classList.remove('cyber-light');
-        localStorage.setItem('cyber-theme', 'dark');
-        btn.textContent = '🌙';
-      } else {
-        html.classList.add('cyber-light');
-        localStorage.setItem('cyber-theme', 'light');
-        btn.textContent = '☀️';
-      }
+    renderAll();
+  }
+
+  /* ---------- KPI ---------- */
+  function renderKPI(){
+    const totalP = PROJECTS.length;
+    const totalR = Object.values(REPORTS).reduce((s,a)=>s+a.length,0);
+    const industries = new Set();
+    PROJECTS.forEach(p=>{
+      p.industry.split(/[·\/ ]/).forEach(x=>{if(x.trim())industries.add(x.trim());});
+      const main = p.industry.split('·')[0].trim();
+      if(main) industries.add(main);
     });
-  })();
-</script><script src="assets/particles.js"></script>
+    const featured = PROJECTS.filter(p=>p.stage_v3==='在推重点').length;
+    document.getElementById('kpiProjects').textContent = totalP;
+    document.getElementById('kpiProjectsSub').textContent = `7 类阶段 × 3 状态`;
+    document.getElementById('kpiReports').textContent = totalR;
+    document.getElementById('kpiReportsSub').textContent = `按项目文件夹索引`;
+    document.getElementById('kpiIndustries').textContent = industries.size;
+    document.getElementById('kpiIndustriesSub').textContent = '自动从项目聚合';
+    document.getElementById('kpiFeatured').textContent = featured;
+
+    // 分类入口计数
+    ['在推重点','储备','观察'].forEach(s=>{
+      const cnt = PROJECTS.filter(p=>p.stage_v3===s).length;
+      const el = document.getElementById('cntP'+(s==='在推重点'?0:s==='储备'?1:2));
+      if(el) el.textContent = `${cnt} 个项目`;
+    });
+  }
+
+  /* ---------- 行业词云 ---------- */
+  function aggregateIndustries(){
+    const map = {};
+    PROJECTS.forEach(p=>{
+      // 主名（·前的）
+      const main = p.industry.split('·')[0].trim();
+      if(!main) return;
+      if(!map[main]) map[main] = {count:0, reports:0, samples:[]};
+      map[main].count++;
+      const rc = (REPORTS[p.code]||[]).length;
+      map[main].reports += rc;
+      if(map[main].samples.length<3) map[main].samples.push(p.name_cn);
+    });
+    return map;
+  }
+  function renderCloud(){
+    const map = aggregateIndustries();
+    const items = Object.entries(map).map(([k,v])=>({name:k,...v}));
+    items.sort((a,b)=>b.count-a.count);
+    const host = document.getElementById('cloudTags');
+    if(!items.length){
+      host.innerHTML = '<div class="v3-cloud-empty">暂无行业数据</div>';
+      return;
+    }
+    const max = items[0].count;
+    host.innerHTML = `
+      <span class="v3-cloud-tag v3-cloud-tag-cloud${SELECTED_INDUSTRY==='__ALL__'?' active':''}" data-ind="__ALL__" style="font-size:15px">
+        全部行业 <span class="count">${items.length}</span>
+      </span>
+      ${items.map(it=>{
+        const lvl = it.count===max ? 1 : it.count>=max*0.6 ? 2 : 3;
+        const fs = lvl===1 ? 16 : lvl===2 ? 14 : 13;
+        return `<span class="v3-cloud-tag${SELECTED_INDUSTRY===it.name?' active':''}" data-ind="${it.name}" style="font-size:${fs}px">
+          ${it.name} <span class="count">${it.count}</span>
+        </span>`;
+      }).join('')}
+    `;
+    host.querySelectorAll('.v3-cloud-tag').forEach(el=>{
+      el.addEventListener('click',()=>{
+        SELECTED_INDUSTRY = el.dataset.ind;
+        NEWS_START = 0;
+        renderCloud();
+        renderNews();
+      });
+    });
+  }
+
+  /* ---------- 行业动态 ---------- */
+  function newsForIndustry(){
+    const map = aggregateIndustries();
+    if(SELECTED_INDUSTRY==='__ALL__'){
+      // 全行业：拉所有 industry_news 各行业的 key
+      const list = [];
+      Object.entries(NEWS).forEach(([ind, items])=>{
+        items.forEach(n=>list.push({...n,industry:ind}));
+      });
+      return list;
+    }
+    // 单行业：精确 + 兼容 key（首字 / 包含）
+    const inds = Object.keys(NEWS);
+    const matched = inds.find(k=>k===SELECTED_INDUSTRY)
+      || inds.find(k=>k.includes(SELECTED_INDUSTRY) || SELECTED_INDUSTRY.includes(k))
+      || null;
+    if(!matched) return [];
+    return NEWS[matched].map(n=>({...n,industry:matched}));
+  }
+  function renderNews(){
+    const data = newsForIndustry();
+    const host = document.getElementById('newsSwiper');
+    const lbl  = document.getElementById('newsIndLabel');
+    const prev = document.getElementById('newsPrev');
+    const next = document.getElementById('newsNext');
+    lbl.textContent = `显示：${SELECTED_INDUSTRY==='__ALL__'?'全部行业':SELECTED_INDUSTRY} · 共 ${data.length} 条`;
+    if(!data.length){
+      host.innerHTML = `<div class="v3-news-empty">${SELECTED_INDUSTRY==='__ALL__'?'暂无行业动态':'该行业暂无公开动态，建议尝试「全部行业」'}</div>`;
+      prev.disabled = true; next.disabled = true;
+      return;
+    }
+    prev.disabled = NEWS_START <= 0;
+    next.disabled = NEWS_START + NEWS_PER_PAGE >= data.length;
+    const slice = data.slice(NEWS_START, NEWS_START + NEWS_PER_PAGE);
+    host.innerHTML = slice.map(n=>`
+      <a class="v3-news-card" href="${n.url||'#'}" target="_blank" rel="noopener" style="text-decoration:none">
+        <div>
+          <div class="v3-news-source">
+            <span class="v3-news-src">${n.industry || n.source || '资讯'}</span>
+            <span class="v3-news-time">${n.time || n.date || ''}</span>
+          </div>
+          <div class="v3-news-title">${n.title || ''}</div>
+          <div class="v3-news-sum">${n.summary || n.desc || ''}</div>
+        </div>
+        <div class="v3-news-arrow">${n.url?'查看原文 →':'—'}</div>
+      </a>
+    `).join('');
+  }
+
+  /* ---------- 实时时钟 ---------- */
+  function tick(){
+    const d=new Date();
+    const pad=n=>String(n).padStart(2,'0');
+    document.getElementById('navClock').textContent =
+      `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+    document.getElementById('navDate').textContent =
+      `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
+  }
+
+  /* ---------- 主渲染 ---------- */
+  function renderAll(){
+    renderKPI();
+    renderCloud();
+    renderNews();
+  }
+
+  /* ---------- 绑定 ---------- */
+  function bind(){
+    document.getElementById('newsPrev').addEventListener('click',()=>{
+      NEWS_START = Math.max(0, NEWS_START - NEWS_PER_PAGE);
+      renderNews();
+    });
+    document.getElementById('newsNext').addEventListener('click',()=>{
+      NEWS_START = NEWS_START + NEWS_PER_PAGE;
+      renderNews();
+    });
+    document.getElementById('newsReloadBtn').addEventListener('click',()=>{
+      NEWS_START = 0;
+      loadData();
+    });
+  }
+
+  /* ---------- 初始化 ---------- */
+  function init(){
+    bind();
+    tick(); setInterval(tick, 1000);
+    loadData();
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
 </body>
 </html>
