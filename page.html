@@ -277,18 +277,9 @@ body{background:var(--bg)}
     });
   }
 
-  /* ---------- 旧版入口提示 ---------- */
+  /* ---------- 旧版入口（已收口为页面跳转，不再弹 alert） ---------- */
   function bindLegacy(){
-    document.getElementById('navLegacy').addEventListener('click',(e)=>{
-      e.preventDefault();
-      alert('本系统已升级到 v3 · 旧 URL 自动重定向：\n\n' +
-        '?view=cat&cat=deal → 在推重点\n' +
-        '?view=cat&cat=np → 储备·未上市\n' +
-        '?view=cat&cat=p → 储备·上市\n' +
-        '?view=cat&cat=kg → 观察·未上市\n' +
-        '?view=cat&cat=hub → 观察·未上市\n' +
-        '?view=cat&cat=course → 观察·未上市');
-    });
+    // nav 上的「v2 旧版」是 <a href="index.html?cat=deal">，点击直接跳首页+cat 参数，v3 兼容由 index.html 的 legacyRedirect 处理
   }
 
   function init(){
