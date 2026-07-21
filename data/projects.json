@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T22:07:24+08:00",
+  "generated_at": "2026-07-21T22:20:58+08:00",
   "source": "project_ledger.csv (v3 schema)",
-  "rows": 17,
+  "rows": 12,
   "stage_v3_enum": [
     "在推重点",
     "储备",
@@ -278,126 +278,6 @@
       "pending_tasks": "7projects-summary/projects/ 子文件"
     },
     {
-      "code": "wiki-index",
-      "name_cn": "知识图谱·数据全景（主公 Wiki）",
-      "name_full": "LLM Wiki · 1055 实体页面",
-      "category": "知识图谱",
-      "stage": "已部署",
-      "stage_v3": "观察",
-      "iss": "未上市",
-      "industry": "知识图谱·可视化",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html",
-      "dashboard_url": "",
-      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html",
-      "repo": "tianbao-projects",
-      "local_folder": "~/wiki/index.html",
-      "folder_alias": "",
-      "report_count": 1,
-      "progress_pct": 30,
-      "contacts": "系统生成",
-      "brief_md": "知识图谱·数据全景（主公 Wiki）（知识图谱·可视化）· 已部署阶段 · 详见报告库",
-      "deploy_date": "2026-07",
-      "last_update": "2026-07",
-      "notes": "主公主 Wiki 入口，1055 个实体页面（tianbao-projects 子文件）",
-      "pending_tasks": "1055 实体 Wiki 已部署"
-    },
-    {
-      "code": "entities-graph",
-      "name_cn": "实体关系图谱",
-      "name_full": "交互式关系网络图",
-      "category": "知识图谱",
-      "stage": "已部署",
-      "stage_v3": "观察",
-      "iss": "未上市",
-      "industry": "知识图谱·可视化",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html",
-      "dashboard_url": "",
-      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html",
-      "repo": "tianbao-projects",
-      "local_folder": "~/wiki/entities_index.html",
-      "folder_alias": "",
-      "report_count": 1,
-      "progress_pct": 30,
-      "contacts": "系统生成",
-      "brief_md": "实体关系图谱（知识图谱·可视化）· 已部署阶段 · 详见报告库",
-      "deploy_date": "2026-07",
-      "last_update": "2026-07",
-      "notes": "实体关系图谱（529KB 交互网络），是主公主用 Wiki 的关系视图",
-      "pending_tasks": "529KB 交互网络已部署"
-    },
-    {
-      "code": "tianbao-projects",
-      "name_cn": "天保项目报告中心",
-      "name_full": "天保控股项目报告中心",
-      "category": "中心·入口",
-      "stage": "已部署",
-      "stage_v3": "观察",
-      "iss": "未上市",
-      "industry": "平台",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/",
-      "dashboard_url": "",
-      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/index.html",
-      "repo": "tianbao-projects",
-      "local_folder": "/Users/jinzhanxiang/.openclaw/workspace-project/tianbao-projects-src/",
-      "folder_alias": "",
-      "report_count": 2,
-      "progress_pct": 30,
-      "contacts": "系统生成",
-      "brief_md": "天保项目报告中心（平台）· 已部署阶段 · 详见报告库",
-      "deploy_date": "2026",
-      "last_update": "2026-07-09",
-      "notes": "项目报告中心，含 4 大分类 13 项目，v5",
-      "pending_tasks": "已上线 (2026-07-11 v11g timeline + CSS 抽取)"
-    },
-    {
-      "code": "7projects-summary",
-      "name_cn": "7项目汇总库",
-      "name_full": "储备项目汇总库",
-      "category": "中心·入口",
-      "stage": "已部署",
-      "stage_v3": "观察",
-      "iss": "未上市",
-      "industry": "平台",
-      "online_url": "https://jinzhanxiang.github.io/7projects-summary/",
-      "dashboard_url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html",
-      "online_index": "https://jinzhanxiang.github.io/7projects-summary/index.html",
-      "repo": "7projects-summary",
-      "local_folder": "~/Desktop/储备项目/项目储备库汇报/",
-      "folder_alias": "",
-      "report_count": 2,
-      "progress_pct": 30,
-      "contacts": "系统生成",
-      "brief_md": "7项目汇总库（平台）· 已部署阶段 · 详见报告库",
-      "deploy_date": "2026",
-      "last_update": "2026-07-09",
-      "notes": "8 维度对比仪表盘 + 9 项目对比汇总库；dashboard.html 已部署",
-      "pending_tasks": "8 维度对比仪表盘已部署"
-    },
-    {
-      "code": "ai-course-tianbao",
-      "name_cn": "智能体内训课件",
-      "name_full": "智能体赋能投资研究 — 从天保实践到团队跃迁",
-      "category": "内训课件",
-      "stage": "已部署",
-      "stage_v3": "观察",
-      "iss": "未上市",
-      "industry": "内训",
-      "online_url": "https://jinzhanxiang.github.io/ai-course-tianbao/",
-      "dashboard_url": "",
-      "online_index": "https://jinzhanxiang.github.io/ai-course-tianbao/index.html",
-      "repo": "ai-course-tianbao",
-      "local_folder": "~/Documents/OpenClaw-workspace-Projects/智能体内训课件/",
-      "folder_alias": "",
-      "report_count": 1,
-      "progress_pct": 30,
-      "contacts": "金战祥",
-      "brief_md": "智能体内训课件（内训）· 已部署阶段 · 详见报告库",
-      "deploy_date": "2026-07",
-      "last_update": "2026-07-04",
-      "notes": "主公内训课件，2026.07 部署",
-      "pending_tasks": "主公内训课件已部署 (2026-07-04)"
-    },
-    {
       "code": "qiyuanxin",
       "name_cn": "启源芯动力",
       "name_full": "启源芯动力科技有限公司（电驱系统）",
@@ -540,49 +420,6 @@
         "count": 1
       }
     ],
-    "知识图谱": [
-      {
-        "code": "wiki-index",
-        "name_cn": "知识图谱·数据全景（主公 Wiki）",
-        "count": 1
-      },
-      {
-        "code": "entities-graph",
-        "name_cn": "实体关系图谱",
-        "count": 1
-      }
-    ],
-    "可视化": [
-      {
-        "code": "wiki-index",
-        "name_cn": "知识图谱·数据全景（主公 Wiki）",
-        "count": 1
-      },
-      {
-        "code": "entities-graph",
-        "name_cn": "实体关系图谱",
-        "count": 1
-      }
-    ],
-    "平台": [
-      {
-        "code": "tianbao-projects",
-        "name_cn": "天保项目报告中心",
-        "count": 2
-      },
-      {
-        "code": "7projects-summary",
-        "name_cn": "7项目汇总库",
-        "count": 2
-      }
-    ],
-    "内训": [
-      {
-        "code": "ai-course-tianbao",
-        "name_cn": "智能体内训课件",
-        "count": 1
-      }
-    ],
     "新能源汽车": [
       {
         "code": "qiyuanxin",
@@ -626,12 +463,7 @@
     },
     "观察": {
       "未上市": [
-        "xingheng",
-        "wiki-index",
-        "entities-graph",
-        "tianbao-projects",
-        "7projects-summary",
-        "ai-course-tianbao"
+        "xingheng"
       ],
       "上市": [],
       "REITs": []
