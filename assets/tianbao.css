@@ -207,11 +207,13 @@ a{color:inherit;text-decoration:none}
 .footer-bottom{padding-top:20px;border-top:1px solid rgba(255,255,255,.10);font-size:12px;color:rgba(255,255,255,.5);text-align:center}
 
 /* === RESPONSIVE === */
+/* B2 修复：v3 仅保留 2 个断点（@1100 / @760），原 @700 / @960 的 v2 死代码已移除 */
 @media (max-width:1100px){
   .d-grid{grid-template-columns:repeat(2,1fr)}
   .kpi-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:700px){
+  /* v2 残留 · 仅对 .hero-grid / .footer-grid / .nav-links a span 生效（v3 不用这些类） */
   .hero-grid{grid-template-columns:1fr}
   .d-grid{grid-template-columns:1fr}
   .kpi-grid{grid-template-columns:1fr 1fr}
@@ -426,12 +428,8 @@ a{color:inherit;text-decoration:none}
   .d-stat-v{font-size:22px}
   .dh-tit{font-size:22px}
 }
-@media (max-width:960px){
-  .cw-shell{grid-template-columns:1fr;min-height:auto}
-  .cw-left{max-height:50vh}
-  .d-stats{grid-template-columns:repeat(2,1fr)}
-  .d-rpts{grid-template-columns:1fr}
-}
+/* B2 清理：@960 是 v2 死代码（v3 已改用 .v3-detail-grid + .v3-section），无需单独断点 */
+/* v3 的 .v3-detail-grid 在 detail.html 内部 @1100 处已切 1fr */
 
 
 /* === C 部分：报告卡片可点击态 === */
