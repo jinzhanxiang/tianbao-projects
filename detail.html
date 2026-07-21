@@ -315,7 +315,7 @@ body{background:var(--bg)}
     document.getElementById('projStage').innerHTML = `
       <div class="v3-stage-row">
         <span class="v3-badge-v3 b-${p.stage_v3||'观察'}">${p.stage_v3||'观察'}</span>
-        <span class="v3-badge-iss b-${p.iss||'未上市'}">${p.iss||'未上市'}</span>
+        <span class="v3-badge-iss b-${p.iss||'未上市'}">${escapeHtml(issLabel(p.iss))}</span>
       </div>
       <small style="font-family:var(--fsong);color:var(--ink-3);font-size:11px">原始阶段：${p.stage || '—'}</small>
     `;
@@ -338,7 +338,7 @@ body{background:var(--bg)}
       <div class="v3-side-meta-row"><span class="lbl">行业</span><span class="val">${escapeHtml(p.industry || '—')}</span></div>
       <div class="v3-side-meta-row"><span class="lbl">原始阶段</span><span class="val">${escapeHtml(p.stage || '—')}</span></div>
       <div class="v3-side-meta-row"><span class="lbl">v3 分类</span><span class="val">${escapeHtml(p.stage_v3 || '观察')}</span></div>
-      <div class="v3-side-meta-row"><span class="lbl">状态</span><span class="val">${escapeHtml(p.iss || '未上市')}</span></div>
+      <div class="v3-side-meta-row"><span class="lbl">状态</span><span class="val">${escapeHtml(issLabel(p.iss))}</span></div>
       <div class="v3-side-meta-row"><span class="lbl">报告</span><span class="val ${actualReportCount !== p.report_count ? 'warn' : ''}">${actualReportCount}${actualReportCount !== p.report_count ? ` / ${p.report_count}` : ''}</span></div>
       <div class="v3-side-meta-row"><span class="lbl">本地路径</span><span class="val" title="${escapeHtml(p.local_folder||'')}">${escapeHtml(p.local_folder || '—')}</span></div>
     `;
@@ -387,6 +387,15 @@ body{background:var(--bg)}
             <span class="stage">${r.report_count || 0}份</span>
           </a>`).join('')
       : '<div class="v3-empty" style="padding:12px 0">该分类暂无其他项目</div>';
+  }
+
+  function issLabel(iss){
+    const map = {
+      '未上市': '未上市公司股权',
+      '上市': '上市公司',
+      'REITs': 'REITs',
+    };
+    return map[iss] || iss || '未上市公司股权';
   }
 
   function getEmoji(industry){
