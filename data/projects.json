@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T16:13:57+08:00",
+  "generated_at": "2026-07-21T17:00:16+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 17,
   "stage_v3_enum": [
@@ -10,7 +10,7 @@
   "iss_enum": [
     "未上市",
     "上市",
-    "资产类"
+    "REITs"
   ],
   "projects": [
     {
@@ -164,7 +164,7 @@
       "category": "储备·非上市",
       "stage": "REITs",
       "stage_v3": "储备",
-      "iss": "资产类",
+      "iss": "REITs",
       "industry": "数据·云",
       "online_url": "https://jinzhanxiang.github.io/unicom-idc-report/",
       "dashboard_url": "",
@@ -605,7 +605,7 @@
         "qiyuanxin"
       ],
       "上市": [],
-      "资产类": []
+      "REITs": []
     },
     "储备": {
       "未上市": [
@@ -621,7 +621,7 @@
         "htco",
         "acquisition-listed"
       ],
-      "资产类": [
+      "REITs": [
         "unicom-idc"
       ]
     },
@@ -634,7 +634,7 @@
         "ai-course-tianbao"
       ],
       "上市": [],
-      "资产类": []
+      "REITs": []
     }
   }
 }
