@@ -4,16 +4,74 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 <title>天保控股 · 项目详情</title>
-<meta name="description" content="天保控股项目详情页 · 5 区段公文版">
+<meta name="description" content="天保控股项目详情页 · Notion 风格 sidebar + main">
 <link rel="stylesheet" href="assets/tianbao.css">
 <style>
 body{background:var(--bg)}
-.v3-detail{max-width:1100px;margin:0 auto;padding:0 24px}
+.v3-detail{max-width:1280px;margin:0 auto;padding:0 24px}
 .v3-loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
 .v3-empty{font-family:var(--fsong);font-size:13px;color:var(--ink-3);text-align:center;padding:24px 0;text-indent:0}
 .v3-detail-meta{font-family:ui-monospace,monospace;font-size:12px;color:var(--ink-3);margin:4px 0 14px;letter-spacing:1px}
 .v3-detail-meta span{margin-right:14px}
 .v3-detail-meta b{color:var(--seal);font-weight:700}
+
+/* === Notion 风格 2 栏布局（sidebar + main）=== */
+.v3-detail-grid{display:grid;grid-template-columns:280px 1fr;gap:24px;margin-top:14px}
+.v3-detail-side{position:sticky;top:80px;align-self:start;display:flex;flex-direction:column;gap:14px;max-height:calc(100vh - 96px);overflow-y:auto;padding-right:4px}
+.v3-detail-side::-webkit-scrollbar{width:6px}
+.v3-detail-side::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+.v3-detail-main{display:flex;flex-direction:column;gap:14px;min-width:0}
+
+.v3-side-card{background:var(--paper);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px}
+.v3-side-card h3{font-family:var(--hei);font-size:13px;color:var(--ink);font-weight:800;margin:0 0 10px;letter-spacing:2px;display:flex;align-items:center;gap:6px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.v3-side-card h3::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
+.v3-side-card h3 .badge{margin-left:auto;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600;background:var(--bg-2);padding:2px 6px;border-radius:4px;letter-spacing:0.5px}
+
+.v3-side-meta-row{display:flex;justify-content:space-between;align-items:center;padding:7px 0;font-size:12px;font-family:var(--fsong);border-bottom:1px dashed var(--border);gap:8px}
+.v3-side-meta-row:last-child{border-bottom:none}
+.v3-side-meta-row .lbl{color:var(--ink-3);font-size:11px;flex-shrink:0}
+.v3-side-meta-row .val{color:var(--ink);font-weight:600;text-align:right;font-family:ui-monospace,monospace;font-size:11px;letter-spacing:0.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-side-meta-row .val.warn{color:var(--seal)}
+
+/* 6 阶段进度（紧凑 sidebar 版）*/
+.v3-side-progress{display:flex;flex-direction:column;gap:4px}
+.v3-side-progress-step{display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;font-size:11px;font-family:var(--fsong);color:var(--ink-3);background:var(--bg-2);transition:.2s}
+.v3-side-progress-step .dot{width:8px;height:8px;border-radius:50%;background:var(--border);flex-shrink:0;transition:.2s}
+.v3-side-progress-step.done{background:rgba(46,125,50,0.06);color:var(--ink-2)}
+.v3-side-progress-step.done .dot{background:#2E7D32}
+.v3-side-progress-step.active{background:linear-gradient(180deg,rgba(192,57,43,0.12),rgba(192,57,43,0.06));color:var(--seal);font-weight:700}
+.v3-side-progress-step.active .dot{background:var(--seal);box-shadow:0 0 0 3px rgba(192,57,43,0.18)}
+.v3-side-progress-step .name{flex:1}
+.v3-side-progress-step .pct{font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600}
+
+/* 联系人（sidebar compact）*/
+.v3-side-contacts{display:flex;flex-direction:column;gap:6px}
+.v3-side-contact{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:6px;font-size:12px;font-family:var(--fsong);background:var(--bg-2)}
+.v3-side-contact .avatar{width:24px;height:24px;border-radius:50%;background:var(--seal);color:#fff;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;font-family:var(--hei);flex-shrink:0}
+.v3-side-contact .name{flex:1;color:var(--ink);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-side-contact .role{font-size:10px;color:var(--ink-3);flex-shrink:0}
+
+/* 同类项目（sidebar）*/
+.v3-side-related{display:flex;flex-direction:column;gap:4px}
+.v3-side-related a{display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:6px;font-size:12px;font-family:var(--fsong);color:var(--blue);text-decoration:none;font-weight:600;background:var(--bg-2);transition:.15s}
+.v3-side-related a:hover{background:var(--ink);color:var(--paper)}
+.v3-side-related .emoji{font-size:13px;flex-shrink:0}
+.v3-side-related .name{flex:1;color:inherit;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-side-related .stage{font-size:10px;font-family:ui-monospace,monospace;color:var(--ink-3);flex-shrink:0}
+
+/* 主区域 section 紧凑 */
+.v3-section{padding:16px 20px !important}
+.v3-section h2{font-size:16px !important;margin-bottom:10px !important}
+
+@media (max-width:1100px){
+  .v3-detail-grid{grid-template-columns:1fr}
+  .v3-detail-side{position:static;max-height:none;overflow:visible}
+}
+@media (max-width:760px){
+  .v3-detail h1{font-size:22px !important}
+  .v3-section{padding:14px 18px !important}
+  .v3-proj-head{padding:14px 18px !important}
+}
 
 .v3-link-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
 .v3-link-row a{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:var(--paper);border:1px solid var(--border);border-radius:6px;font-family:var(--fsong);font-size:13px;color:var(--blue);text-decoration:none;font-weight:600;transition:.2s}
@@ -27,12 +85,6 @@ body{background:var(--bg)}
 
 .v3-brief-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;padding-top:14px;border-top:1px dashed var(--border)}
 .v3-brief-tag{font-family:var(--fsong);font-size:12px;color:var(--ink-2);background:var(--bg-2);padding:3px 10px;border-radius:999px;border:1px solid var(--border)}
-
-@media (max-width:760px){
-  .v3-detail h1{font-size:22px !important}
-  .v3-section{padding:14px 18px !important}
-  .v3-proj-head{padding:14px 18px !important}
-}
 </style>
 </head>
 <body>
@@ -73,46 +125,74 @@ body{background:var(--bg)}
     <span class="current" id="bcName">项目</span>
   </div>
 
-  <!-- ① 联系人 -->
-  <section class="v3-section" id="secContacts">
-    <h2>① 联系人 <small>主公直管 · 外部对接</small></h2>
-    <div class="v3-contacts" id="contactsList"></div>
-  </section>
+  <!-- Notion 风格 2 栏：sidebar + main -->
+  <div class="v3-detail-grid">
 
-  <!-- ② 进度（6 阶段） -->
-  <section class="v3-section" id="secProgress">
-    <h2>② 项目进度 <small>当前阶段位置</small></h2>
-    <div id="progressBar"></div>
-    <div class="v3-detail-meta" id="progressMeta" style="margin-top:6px"></div>
-  </section>
+    <!-- ====== 侧栏 ====== -->
+    <aside class="v3-detail-side">
 
-  <!-- ③ 简介（公文仿宋） -->
-  <section class="v3-section" id="secBrief">
-    <h2>③ 项目简介 <small>公文版 · 仿宋 17px</small></h2>
-    <div class="v3-brief" id="briefBody"></div>
-    <div class="v3-brief-tags" id="briefTags"></div>
-    <div class="v3-link-row" id="briefLinks"></div>
-  </section>
+      <!-- 项目元 -->
+      <div class="v3-side-card">
+        <h3>📌 项目元 <span class="badge" id="sideBadgeCode">—</span></h3>
+        <div id="sideMeta"></div>
+      </div>
 
-  <!-- ④ 原始材料（file:// 链接） -->
-  <section class="v3-section" id="secMaterials">
-    <h2>④ 原始材料 <small>本地项目文件夹 · file:// 协议深链</small></h2>
-    <div class="v3-mat-empty" id="matEmpty">正在检查本地文件夹绑定...</div>
-    <div class="v3-mats" id="matList" style="display:none"></div>
-    <div id="matActions" style="display:none;margin-top:14px">
-      <button class="v3-btn v3-btn-primary" id="btnSetFolder">重新设置项目文件夹</button>
-      <button class="v3-btn" id="btnFinder">在 Finder 中显示</button>
-      <button class="v3-btn" id="btnCopyPath">复制路径</button>
-    </div>
-  </section>
+      <!-- 6 阶段进度（紧凑纵向）-->
+      <div class="v3-side-card">
+        <h3>📊 进度 <span class="badge" id="sideProgressPct">0%</span></h3>
+        <div class="v3-side-progress" id="sideProgress"></div>
+      </div>
 
-  <!-- ⑤ 报告时间线 -->
-  <section class="v3-section" id="secReports">
-    <h2>⑤ 报告时间线 <small>按日期倒序 · 自动从 research 输出扫描</small></h2>
-    <div class="v3-reports-tl" id="reportsTl">
-      <div class="v3-rtl-empty">载入中...</div>
-    </div>
-  </section>
+      <!-- 联系人 -->
+      <div class="v3-side-card">
+        <h3>👤 联系人</h3>
+        <div class="v3-side-contacts" id="sideContacts"></div>
+      </div>
+
+      <!-- 同类项目 -->
+      <div class="v3-side-card">
+        <h3>🔗 同类项目 <span class="badge" id="sideRelatedCnt">—</span></h3>
+        <div class="v3-side-related" id="sideRelated">
+          <div class="v3-empty" style="padding:12px 0">暂无</div>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- ====== 主区域 ====== -->
+    <main class="v3-detail-main">
+
+      <!-- ① 项目简介 -->
+      <section class="v3-section" id="secBrief">
+        <h2>① 项目简介 <small>公文版 · 仿宋 17px</small></h2>
+        <div class="v3-brief" id="briefBody"></div>
+        <div class="v3-brief-tags" id="briefTags"></div>
+        <div class="v3-link-row" id="briefLinks"></div>
+      </section>
+
+      <!-- ② 原始材料 -->
+      <section class="v3-section" id="secMaterials">
+        <h2>② 原始材料 <small>本地项目文件夹 · file:// 协议深链</small></h2>
+        <div class="v3-mat-empty" id="matEmpty">正在检查本地文件夹绑定...</div>
+        <div class="v3-mats" id="matList" style="display:none"></div>
+        <div id="matActions" style="display:none;margin-top:14px">
+          <button class="v3-btn v3-btn-primary" id="btnSetFolder">重新设置项目文件夹</button>
+          <button class="v3-btn" id="btnFinder">在 Finder 中显示</button>
+          <button class="v3-btn" id="btnCopyPath">复制路径</button>
+        </div>
+      </section>
+
+      <!-- ③ 报告时间线 -->
+      <section class="v3-section" id="secReports">
+        <h2>③ 报告时间线 <small>按日期倒序 · 自动从 research 输出扫描</small></h2>
+        <div class="v3-reports-tl" id="reportsTl">
+          <div class="v3-rtl-empty">载入中...</div>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
 
 </div>
 
@@ -137,7 +217,7 @@ body{background:var(--bg)}
 <script src="assets/dnd.js"></script>
 <script>
 /* ==============================
- * 详情页 v3 渲染器
+ * 详情页 v3 渲染器 · Notion 风格 sidebar+main
  * ============================== */
 (function(){
   'use strict';
@@ -241,44 +321,86 @@ body{background:var(--bg)}
     `;
     document.getElementById('bcName').textContent = p.name_cn || code;
 
-    renderContacts(p);
-    renderProgress(p);
+    renderSidebar(p);
     renderBrief(p);
     renderMaterials(p);
     renderTimeline(p);
   }
 
-  function renderContacts(p){
-    const list = document.getElementById('contactsList');
-    const raw = (p.contacts || '金战祥').toString();
-    const items = raw.split('/').map(s=>s.trim()).filter(Boolean);
-    list.innerHTML = items.map((it, i)=>{
-      const [name, ext] = it.split(':').map(s=>s.trim());
-      return `<div class="v3-contact">
-        <div class="v3-contact-label">${i===0 ? '负责人 · 主公直管' : '外部对接'}</div>
-        <div class="v3-contact-name">${name||'—'}${ext?`<small>${ext}</small>`:''}</div>
-      </div>`;
-    }).join('') || `<div class="v3-empty">无联系人数据</div>`;
-  }
+  /* ---- sidebar ---- */
+  function renderSidebar(p){
+    const actualReportCount = (REPORTS[p.code] || []).length;
 
-  function renderProgress(p){
+    // 1. 项目元
+    document.getElementById('sideBadgeCode').textContent = p.code;
+    document.getElementById('sideMeta').innerHTML = `
+      <div class="v3-side-meta-row"><span class="lbl">项目名</span><span class="val" title="${escapeHtml(p.name_full||'')}">${escapeHtml(p.name_cn || '—')}</span></div>
+      <div class="v3-side-meta-row"><span class="lbl">行业</span><span class="val">${escapeHtml(p.industry || '—')}</span></div>
+      <div class="v3-side-meta-row"><span class="lbl">原始阶段</span><span class="val">${escapeHtml(p.stage || '—')}</span></div>
+      <div class="v3-side-meta-row"><span class="lbl">v3 分类</span><span class="val">${escapeHtml(p.stage_v3 || '观察')}</span></div>
+      <div class="v3-side-meta-row"><span class="lbl">状态</span><span class="val">${escapeHtml(p.iss || '未上市')}</span></div>
+      <div class="v3-side-meta-row"><span class="lbl">报告</span><span class="val ${actualReportCount !== p.report_count ? 'warn' : ''}">${actualReportCount}${actualReportCount !== p.report_count ? ` / ${p.report_count}` : ''}</span></div>
+      <div class="v3-side-meta-row"><span class="lbl">本地路径</span><span class="val" title="${escapeHtml(p.local_folder||'')}">${escapeHtml(p.local_folder || '—')}</span></div>
+    `;
+
+    // 2. 进度（紧凑纵向）
     const stepKey = STAGE2STEP[(p.stage||'').trim()] || 'reserve';
     let activeIdx = PROGRESS_STEPS.findIndex(s=>s.key===stepKey);
     if(activeIdx<0) activeIdx = 0;
-    const bar = document.getElementById('progressBar');
-    bar.innerHTML = '<div class="v3-progress">' + PROGRESS_STEPS.map((s,i)=>{
+    const progressPct = p.progress_pct || Math.round((activeIdx+1)/PROGRESS_STEPS.length*100);
+    document.getElementById('sideProgressPct').textContent = progressPct + '%';
+    document.getElementById('sideProgress').innerHTML = PROGRESS_STEPS.map((s,i)=>{
       const cls = i<activeIdx?'done':(i===activeIdx?'active':'');
       const pct = Math.round((i+1)/PROGRESS_STEPS.length*100);
-      return `<div class="v3-progress-step ${cls}">
-        <div style="font-size:13px;font-weight:700">${s.name}</div>
-        <div style="font-size:10px;color:var(--ink-3);margin-top:2px">${pct}%</div>
+      return `<div class="v3-side-progress-step ${cls}">
+        <span class="dot"></span>
+        <span class="name">${s.name}</span>
+        <span class="pct">${pct}%</span>
       </div>`;
-    }).join('') + '</div>';
-    document.getElementById('progressMeta').innerHTML = `
-      进度：<b>${p.progress_pct||0}%</b> · 当前：<b>${PROGRESS_STEPS[activeIdx].name}</b> · 源数据原始：<b>${p.stage||'—'}</b>
-    `;
+    }).join('');
+
+    // 3. 联系人
+    const raw = (p.contacts || '金战祥').toString();
+    const items = raw.split('/').map(s=>s.trim()).filter(Boolean);
+    const contacts = items.map((it, i)=>{
+      const [name, ext] = it.split(':').map(s=>s.trim());
+      const avatar = (name||'·').substring(0,1);
+      const role = i===0 ? '主公直管' : '外部对接';
+      return `<div class="v3-side-contact">
+        <div class="avatar">${avatar}</div>
+        <div class="name">${escapeHtml(name||'—')}</div>
+        <div class="role">${role}</div>
+      </div>`;
+    }).join('') || `<div class="v3-empty">无联系人数据</div>`;
+    document.getElementById('sideContacts').innerHTML = contacts;
+
+    // 4. 同类项目（同 stage_v3 且不同 code，上限 5）
+    const related = PROJECTS
+      .filter(x => x.code !== p.code && x.stage_v3 === p.stage_v3)
+      .slice(0, 5);
+    document.getElementById('sideRelatedCnt').textContent = related.length || '0';
+    document.getElementById('sideRelated').innerHTML = related.length
+      ? related.map(r=>`
+          <a href="detail.html?code=${encodeURIComponent(r.code)}">
+            <span class="emoji">${getEmoji(r.industry)}</span>
+            <span class="name">${escapeHtml(r.name_cn || r.code)}</span>
+            <span class="stage">${r.report_count || 0}份</span>
+          </a>`).join('')
+      : '<div class="v3-empty" style="padding:12px 0">该分类暂无其他项目</div>';
   }
 
+  function getEmoji(industry){
+    if(!industry) return '🏢';
+    if(industry.includes('电池')) return '🔋';
+    if(industry.includes('医疗')) return '🏥';
+    if(industry.includes('芯片')) return '💎';
+    if(industry.includes('航天')) return '🛰️';
+    if(industry.includes('数据')) return '🖥️';
+    if(industry.includes('智能体')) return '🧠';
+    return '🏢';
+  }
+
+  /* ---- 主区域 ---- */
   function renderBrief(p){
     const body = document.getElementById('briefBody');
     const brief = p.brief_md || `${p.name_full}（${p.industry}）· ${p.stage}阶段`;
