@@ -31,7 +31,7 @@ body{background:var(--bg)}
 
 /* 左右双栏：行业分布 + 行业最新动态 */
 .v3-col2{display:grid;grid-template-columns:1fr 1.6fr;gap:14px;margin:12px 0 14px}
-.v3-col2-section{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:12px 16px;display:flex;flex-direction:column;min-height:0}
+.v3-col2-section{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:10px 14px;display:flex;flex-direction:column;min-height:0;max-height:260px;overflow:hidden}
 .v3-col2-section h2{font-family:var(--hei);font-size:var(--doc-sub);color:var(--ink);font-weight:800;margin:0 0 8px;display:flex;align-items:center;gap:8px;letter-spacing:2px;padding-bottom:6px;border-bottom:1px solid var(--border)}
 .v3-col2-section h2::before{content:'';width:3px;height:16px;background:var(--doc-rule);border-radius:1px}
 .v3-col2-section .h2-tools{margin-left:auto;display:flex;gap:6px;align-items:center}
@@ -167,19 +167,7 @@ body{background:var(--bg)}
     </div>
   </div>
 
-  <!-- 路由跳转：旧版 -->
-  <div class="v3-section-h" style="margin-top:24px">
-    <h2>旧版兼容入口</h2>
-    <em>v2.2 旧链接 · 自动重定向到新分类页</em>
-  </div>
-  <div style="margin:0 0 32px;padding:14px 18px;background:var(--paper);border:1px dashed var(--border);border-radius:var(--r);font-family:ui-monospace,monospace;font-size:13px;color:var(--ink-2);line-height:1.9">
-    <div><b>·</b> <a href="page.html?view=cat&cat=deal" style="color:var(--blue)">?view=cat&cat=deal</a>（重大并购） → 在推重点</div>
-    <div><b>·</b> <a href="page.html?view=cat&cat=np" style="color:var(--blue)">?view=cat&cat=np</a>（储备·非上市） → 储备·未上市</div>
-    <div><b>·</b> <a href="page.html?view=cat&cat=p" style="color:var(--blue)">?view=cat&cat=p</a>（储备·上市） → 储备·上市</div>
-    <div><b>·</b> <a href="page.html?view=cat&cat=kg" style="color:var(--blue)">?view=cat&cat=kg</a>（知识图谱） → 观察·未上市</div>
-    <div><b>·</b> <a href="page.html?view=cat&cat=hub" style="color:var(--blue)">?view=cat&cat=hub</a>（中心·入口） → 观察·未上市</div>
-    <div><b>·</b> <a href="page.html?view=cat&cat=course" style="color:var(--blue)">?view=cat&cat=course</a>（内训课件） → 观察·未上市</div>
-  </div>
+  <!-- 旧版入口已收口到 nav 上的「🔗 旧版入口」链接 -->
 
 </div>
 
