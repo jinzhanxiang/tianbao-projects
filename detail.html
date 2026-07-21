@@ -244,6 +244,7 @@ body{background:var(--bg)}
 </div>
 
 <script src="assets/dnd.js"></script>
+<script src="assets/cmdK.js"></script>
 <script>
 /* ==============================
  * 详情页 v3 渲染器 · Notion 风格 sidebar+main
@@ -313,6 +314,10 @@ body{background:var(--bg)}
     if(window.dnd && dnd.applyOverrides){
       PROJECTS = dnd.applyOverrides(PROJECTS);
     }
+    // 暴露给 ⌘K 全局搜索
+    window.PROJECTS = PROJECTS;
+    window.REPORTS = REPORTS;
+    if(window.cmdK) window.cmdK.rebuildIndex();
     const code = (new URLSearchParams(location.search)).get('code');
     if(!code){
       document.getElementById('projTitle').textContent = '未指定 code';
@@ -322,6 +327,8 @@ body{background:var(--bg)}
     CURRENT_REPORTS = (REPORTS[code] || []).slice().sort((a,b)=>b.date.localeCompare(a.date));
     renderAll(code);
     bindEvents();
+    // 绑定报告时间线 3D 倾斜（cmdK.js 提供）
+    if(window.cmdK) window.cmdK.tiltAll();
   }
 
   function renderAll(code){
