@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<title>天保控股 · 项目分类页</title>
+<meta name="description" content="天保控股项目分类页 · 3×3 矩阵 + 拖拽">
+<link rel="stylesheet" href="assets/tianbao.css">
+<style>
+body{background:var(--bg)}
+.v3-cat{max-width:1320px;margin:0 auto;padding:0 24px}
+.v3-cat-head{display:flex;justify-content:space-between;align-items:flex-end;margin:20px 0 16px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.v3-cat-head h1{font-family:var(--hei);font-size:26px;color:var(--ink);margin:0;letter-spacing:2px;font-weight:900}
+.v3-cat-head h1::before{content:'';display:inline-block;width:4px;height:22px;background:var(--doc-rule);margin-right:10px;vertical-align:-3px}
+.v3-cat-head .sub{font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);letter-spacing:2px;margin-top:4px}
+.v3-cat-head .meta{font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-2);text-align:right;line-height:1.7}
+.v3-cat-head .meta b{color:var(--seal)}
+
+.v3-loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
+
+@media (max-width:760px){
+  .v3-cat-head{flex-direction:column;align-items:flex-start}
+  .v3-cat-head h1{font-size:22px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo">保</div>
+      <div>
+        <div>天保控股 · 项目指挥中心</div>
+        <div style="font-size:11px;color:var(--ink-3);font-weight:400">v3 DMS · 分类页</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">🏛 首页</a>
+      <a class="active" id="navActive">📂 分类页</a>
+      <a href="#" id="navLegacy">🔗 旧版入口</a>
+    </div>
+  </div>
+</nav>
+
+<div class="v3-cat viewport-fit v3-grow">
+
+  <div class="v3-cat-head">
+    <div>
+      <h1 id="catH1">项目分类矩阵</h1>
+      <div class="sub">3 一级 × 3 二级 · 拖拽项目卡可在单元格间移动</div>
+    </div>
+    <div class="meta" id="catMeta">载入中...</div>
+  </div>
+
+  <!-- 面包屑 -->
+  <div class="v3-breadcrumb">
+    <a href="index.html">首页</a>
+    <span class="sep">/</span>
+    <span class="current">分类矩阵</span>
+  </div>
+
+  <!-- 矩阵筛选提示条 -->
+  <div class="v3-matrix-bar">
+    <div class="v3-matrix-bar-info">
+      <b>3 × 3</b> 共 <b id="totalCount">—</b> 个项目 · 已落位 <b id="placedCount">—</b> 个
+    </div>
+    <div class="v3-matrix-bar-tools">
+      <button class="v3-btn" id="btnAll">查看全部</button>
+      <button class="v3-btn danger" id="btnReset">重置拖拽</button>
+    </div>
+  </div>
+
+  <!-- 3×3 矩阵 -->
+  <section class="v3-matrix-wrap v3-hud">
+    <div class="v3-matrix" id="matrix">
+      <!-- 顶行：表头 -->
+      <div class="v3-matrix-h col-tag"></div>
+      <div class="v3-matrix-h">未上市</div>
+      <div class="v3-matrix-h">上市</div>
+      <div class="v3-matrix-h">资产类</div>
+
+      <!-- 行1：在推重点 -->
+      <div class="v3-matrix-row-h">🏛 在推重点</div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="在推重点|未上市">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="在推重点|上市">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="资产类"><div class="v3-cell-h"><span class="v3-cell-title">资产类</span><span class="v3-cell-cnt" data-cnt="在推重点|资产类">0</span></div><div class="v3-cell-list"></div></div>
+
+      <!-- 行2：储备 -->
+      <div class="v3-matrix-row-h">📂 储备</div>
+      <div class="v3-cell" data-stage="储备" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="储备|未上市">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="储备|上市">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="资产类"><div class="v3-cell-h"><span class="v3-cell-title">资产类</span><span class="v3-cell-cnt" data-cnt="储备|资产类">0</span></div><div class="v3-cell-list"></div></div>
+
+      <!-- 行3：观察 -->
+      <div class="v3-matrix-row-h">🔭 观察</div>
+      <div class="v3-cell" data-stage="观察" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市</span><span class="v3-cell-cnt" data-cnt="观察|未上市">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市</span><span class="v3-cell-cnt" data-cnt="观察|上市">0</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="资产类"><div class="v3-cell-h"><span class="v3-cell-title">资产类</span><span class="v3-cell-cnt" data-cnt="观察|资产类">0</span></div><div class="v3-cell-list"></div></div>
+    </div>
+  </section>
+
+  <div style="margin-top:18px;padding:12px 16px;background:var(--paper);border:1px dashed var(--border);border-radius:6px;font-family:var(--fsong);font-size:var(--doc-foot);color:var(--ink-3);text-indent:0;line-height:1.7">
+    💡 <b>提示：</b>拖拽卡片可在 9 单元格间移动 · 状态保存在浏览器 localStorage · 多 tab 自动同步 · 点击卡片进入详情页。
+  </div>
+
+</div>
+
+<script src="assets/dnd.js"></script>
+<script>
+/* ==============================
+ * 分类页 v3 渲染器 · 3×3 矩阵 + 拖拽
+ * ============================== */
+(function(){
+  'use strict';
+
+  const STAGES = ['在推重点', '储备', '观察'];
+  const ISSES  = ['未上市', '上市', '资产类'];
+
+  let PROJECTS = [];
+  let FILTER_CAT = '__ALL__';     // 来自 ?view=cat&cat=...
+
+  function v2to3Cat(cat){
+    const map = {
+      'deal': '在推重点',
+      'np': '储备', 'p': '储备',
+      'kg': '观察', 'hub': '观察', 'course': '观察',
+    };
+    return map[cat] || cat || '__ALL__';
+  }
+
+  async function loadData(){
+    try {
+      const r = await fetch('data/projects.json', {cache:'no-store'});
+      const obj = await r.json();
+      PROJECTS = obj.projects || [];
+    } catch(e){
+      console.error('projects.json 加载失败', e);
+      PROJECTS = [];
+    }
+    // v3 dnd.js 应用 localStorage 覆盖
+    if(window.dnd && dnd.applyOverrides){
+      PROJECTS = dnd.applyOverrides(PROJECTS);
+    }
+    bindFromUrl();
+    renderAll();
+    initDnd();
+  }
+
+  function bindFromUrl(){
+    const u = new URLSearchParams(location.search);
+    const cat = u.get('cat');
+    FILTER_CAT = v2to3Cat(cat);
+
+    // 标题
+    const h1 = document.getElementById('catH1');
+    const meta = document.getElementById('catMeta');
+    const legacyNote = {
+      'deal': 'v2.2 旧分类「重大并购」映射而来',
+      'np':   'v2.2 旧分类「储备·非上市」映射',
+      'p':    'v2.2 旧分类「储备·上市」映射',
+      'kg':   'v2.2 旧分类「知识图谱」映射',
+      'hub':  'v2.2 旧分类「中心·入口」映射',
+      'course':'v2.2 旧分类「内训课件」映射',
+    }[cat||''] || '完整 3×3 矩阵 · 全部 17 个项目';
+
+    if(FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT)){
+      h1.textContent = `分类矩阵 · ${FILTER_CAT}`;
+      meta.innerHTML = `<b>${FILTER_CAT}</b> · 横向 3 状态（未上市 / 上市 / 资产类）<br>${legacyNote}`;
+    } else {
+      h1.textContent = '项目分类矩阵';
+      meta.innerHTML = `全部 <b>17</b> 个项目 · 3 × 3 矩阵<br>${legacyNote}`;
+    }
+
+    // 顶导航高亮
+    document.getElementById('navActive').textContent = FILTER_CAT!=='__ALL__' ? `📂 ${FILTER_CAT}` : '📂 分类页';
+  }
+
+  function renderAll(){
+    // 高亮筛选行
+    document.querySelectorAll('.v3-matrix-row-h').forEach(el=>{
+      const stage = el.textContent.trim().replace(/^[^一-龥]+/,'');
+      el.style.opacity = (FILTER_CAT==='__ALL__'||stage===FILTER_CAT) ? 1 : 0.35;
+    });
+
+    // 清空所有 cell-list
+    document.querySelectorAll('.v3-cell .v3-cell-list').forEach(el=>el.innerHTML='');
+
+    // 按 v3 stage_v3 / iss 分类（受 FILTER_CAT 限制）
+    const filtered = FILTER_CAT==='__ALL__' ? PROJECTS : PROJECTS.filter(p=>p.stage_v3===FILTER_CAT);
+
+    let placed = 0;
+    let totalShown = 0;
+    filtered.forEach(p=>{
+      const stage = p.stage_v3 || '观察';
+      const iss = p.iss || '未上市';
+      const cell = document.querySelector(`.v3-cell[data-stage="${stage}"][data-iss="${iss}"] .v3-cell-list`);
+      if(!cell) return;
+      totalShown++;
+      cell.appendChild(makeCard(p));
+      placed++;
+    });
+
+    // 计数
+    document.getElementById('totalCount').textContent = filtered.length;
+    document.getElementById('placedCount').textContent = placed;
+    document.querySelectorAll('.v3-cell-cnt').forEach(el=>{
+      const [s,i] = el.dataset.cnt.split('|');
+      const c = document.querySelector(`.v3-cell[data-stage="${s}"][data-iss="${i}"] .v3-cell-list`);
+      const n = c ? c.children.length : 0;
+      el.textContent = n;
+    });
+    // 未落位的 cell 显示 empty
+    document.querySelectorAll('.v3-cell').forEach(cell=>{
+      const list = cell.querySelector('.v3-cell-list');
+      if(list && list.children.length===0 && !list.querySelector('.v3-cell-empty')){
+        const e = document.createElement('div');
+        e.className = 'v3-cell-empty';
+        e.textContent = '暂无项目';
+        list.appendChild(e);
+      }
+    });
+  }
+
+  function makeCard(p){
+    const a = document.createElement('a');
+    a.className = 'v3-card';
+    a.draggable = true;
+    a.dataset.code = p.code;
+    a.href = 'detail.html?code='+encodeURIComponent(p.code);
+    a.innerHTML = `
+      <span class="v3-card-emoji">${p.industry && p.industry.includes('电池')?'🔋':p.industry && p.industry.includes('医疗')?'🏥':p.industry && p.industry.includes('芯片')?'💎':p.industry && p.industry.includes('航天')?'🛰️':p.industry && p.industry.includes('数据')?'🖥️':p.industry && p.industry.includes('智能体')?'🧠':'🏢'}</span>
+      <span class="v3-card-main">${p.name_cn||p.code}</span>
+      <span class="v3-card-count">${p.report_count||0}份</span>
+    `;
+    return a;
+  }
+
+  function initDnd(){
+    if(!window.dnd || !dnd.bind){
+      console.error('dnd.js 未加载');
+      return;
+    }
+    dnd.bind('.v3-card', '.v3-cell', (card, cell)=>{
+      const code = card.dataset.code;
+      const stage = cell.dataset.stage;
+      const iss = cell.dataset.iss;
+      if(!confirm(`确认将「${card.querySelector('.v3-card-main').textContent}」移动到「${stage}·${iss}」？`)) return;
+      dnd.patchProject(code, {stage_v3: stage, iss: iss});
+      // 立即在本地更新并重渲染
+      const projs = JSON.parse(JSON.stringify(PROJECTS));
+      const obj = projs.find(x=>x.code===code);
+      if(obj){ obj.stage_v3 = stage; obj.iss = iss; }
+      PROJECTS = projs;
+      renderAll();
+      initDnd(); // 重新绑定新 DOM
+    });
+    // 监听同源 tab 同步
+    document.addEventListener('dnd:patch', (e)=>{
+      // 重新拉数据并 reload（简单可靠）
+      location.reload();
+    });
+  }
+
+  /* ---------- 「查看全部」「重置」按钮 ---------- */
+  function bindTools(){
+    document.getElementById('btnAll').addEventListener('click',()=>{
+      location.href = 'page.html';
+    });
+    document.getElementById('btnReset').addEventListener('click',()=>{
+      if(!confirm('确认重置全部拖拽状态？此操作仅清空浏览器缓存，不影响源数据。')) return;
+      if(window.dnd && dnd.clearAll) dnd.clearAll();
+      alert('已重置 · 刷新页面');
+      location.reload();
+    });
+  }
+
+  /* ---------- 旧版入口提示 ---------- */
+  function bindLegacy(){
+    document.getElementById('navLegacy').addEventListener('click',(e)=>{
+      e.preventDefault();
+      alert('本系统已升级到 v3 · 旧 URL 自动重定向：\n\n' +
+        '?view=cat&cat=deal → 在推重点\n' +
+        '?view=cat&cat=np → 储备·未上市\n' +
+        '?view=cat&cat=p → 储备·上市\n' +
+        '?view=cat&cat=kg → 观察·未上市\n' +
+        '?view=cat&cat=hub → 观察·未上市\n' +
+        '?view=cat&cat=course → 观察·未上市');
+    });
+  }
+
+  function init(){
+    bindTools();
+    bindLegacy();
+    loadData();
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+</body>
+</html>
