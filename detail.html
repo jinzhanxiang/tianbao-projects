@@ -264,14 +264,14 @@ body{background:var(--bg)}
     let activeIdx = PROGRESS_STEPS.findIndex(s=>s.key===stepKey);
     if(activeIdx<0) activeIdx = 0;
     const bar = document.getElementById('progressBar');
-    bar.innerHTML = PROGRESS_STEPS.map((s,i)=>{
+    bar.innerHTML = '<div class="v3-progress">' + PROGRESS_STEPS.map((s,i)=>{
       const cls = i<activeIdx?'done':(i===activeIdx?'active':'');
       const pct = Math.round((i+1)/PROGRESS_STEPS.length*100);
       return `<div class="v3-progress-step ${cls}">
         <div style="font-size:13px;font-weight:700">${s.name}</div>
         <div style="font-size:10px;color:var(--ink-3);margin-top:2px">${pct}%</div>
       </div>`;
-    }).join('');
+    }).join('') + '</div>';
     document.getElementById('progressMeta').innerHTML = `
       进度：<b>${p.progress_pct||0}%</b> · 当前：<b>${PROGRESS_STEPS[activeIdx].name}</b> · 源数据原始：<b>${p.stage||'—'}</b>
     `;
