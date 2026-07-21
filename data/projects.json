@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T22:20:58+08:00",
+  "generated_at": "2026-07-21T22:31:27+08:00",
   "source": "project_ledger.csv (v3 schema)",
-  "rows": 12,
+  "rows": 14,
   "stage_v3_enum": [
     "在推重点",
     "储备",
@@ -159,8 +159,8 @@
     },
     {
       "code": "unicom-idc",
-      "name_cn": "联通云 IDC",
-      "name_full": "联通云数据中心 IDC REIT 项目",
+      "name_cn": "四川 IDC",
+      "name_full": "四川数据中心 IDC 项目",
       "category": "重大并购",
       "stage": "REITs",
       "stage_v3": "在推重点",
@@ -170,15 +170,15 @@
       "dashboard_url": "",
       "online_index": "https://jinzhanxiang.github.io/unicom-idc-report/index.html",
       "repo": "unicom-idc-report",
-      "local_folder": "~/Desktop/储备项目/汇天网络科技/",
+      "local_folder": "~/Desktop/储备项目/四川IDC/",
       "folder_alias": "",
       "report_count": 1,
       "progress_pct": 30,
       "contacts": "金战祥/外部:孙总/13300007777",
-      "brief_md": "联通云 IDC（数据·云）· REITs阶段 · 详见报告库",
+      "brief_md": "四川 IDC（数据·云）· REITs阶段 · 详见报告库",
       "deploy_date": "2026",
       "last_update": "2026",
-      "notes": "REITs 项目，源在桌面（5.9M / 7文件） | 2026-07-21 由主公决定移到在推重点",
+      "notes": "REITs 项目，源在桌面（5.9M / 7文件） | 2026-07-21 由主公决定移到在推重点 | 2026-07-21 由主公澄清：此项目为四川IDC，原名\"联通云IDC\"中\"汇天网络科技\"为路径误标，已分拆为独立项目 huitian",
       "pending_tasks": "REITs 项目，源 7 文件已归类"
     },
     {
@@ -281,9 +281,9 @@
       "code": "qiyuanxin",
       "name_cn": "启源芯动力",
       "name_full": "启源芯动力科技有限公司（电驱系统）",
-      "category": "重大并购",
+      "category": "知识图谱",
       "stage": "暂停跟踪",
-      "stage_v3": "在推重点",
+      "stage_v3": "观察",
       "iss": "未上市",
       "industry": "新能源汽车·电驱",
       "online_url": "https://jinzhanxiang.github.io/7projects-summary/",
@@ -298,8 +298,56 @@
       "brief_md": "启源芯动力（新能源汽车·电驱）· 暂停跟踪阶段 · 详见报告库",
       "deploy_date": "2025-09",
       "last_update": "2026-07-08",
-      "notes": "重大并购（1.7G 本地源 + 3阶段：入股/合资/并购）；无独立仓库；research 产物在 projects/启源芯动力/output/；2026-07-09 主公决定不进入主中心（避免口径混淆），台账保留作历史记录",
+      "notes": "重大并购（1.7G 本地源 + 3阶段：入股/合资/并购）；无独立仓库；research 产物在 projects/启源芯动力/output/；2026-07-09 主公决定不进入主中心（避免口径混淆），台账保留作历史记录 | 2026-07-21 由主公决定移到观察",
       "pending_tasks": "等待主公重新激活或正式归档"
+    },
+    {
+      "code": "huitian",
+      "name_cn": "汇天科技",
+      "name_full": "汇天科技（IC 项目）",
+      "category": "知识图谱",
+      "stage": "初步分析",
+      "stage_v3": "观察",
+      "iss": "未上市",
+      "industry": "硬科技·芯片",
+      "online_url": "",
+      "dashboard_url": "",
+      "online_index": "",
+      "repo": "",
+      "local_folder": "~/Desktop/储备项目/汇天网络科技/",
+      "folder_alias": "",
+      "report_count": 0,
+      "progress_pct": 10,
+      "contacts": "金战祥",
+      "brief_md": "汇天科技（硬科技·芯片）· 初步分析阶段 · 详见报告库",
+      "deploy_date": "2026-07-21",
+      "last_update": "2026-07-21",
+      "notes": "2026-07-21 由主公新增：独立的 IC 项目（与 unicom-idc 拆开），从 unicom-idc 旧路径 ~/Desktop/储备项目/汇天网络科技/ 迁出，初始跟踪",
+      "pending_tasks": "待主公确认本地原始材料归属 / 部署独立仓库"
+    },
+    {
+      "code": "huayt",
+      "name_cn": "华阳集团",
+      "name_full": "华阳集团股份有限公司",
+      "category": "储备·上市",
+      "stage": "已立项",
+      "stage_v3": "储备",
+      "iss": "上市",
+      "industry": "硬科技·新材料",
+      "online_url": "",
+      "dashboard_url": "",
+      "online_index": "",
+      "repo": "",
+      "local_folder": "~/Desktop/储备项目/华阳集团/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 50,
+      "contacts": "金战祥",
+      "brief_md": "华阳集团（硬科技·新材料）· 已立项阶段 · 详见报告库",
+      "deploy_date": "2026-07-21",
+      "last_update": "2026-07-21",
+      "notes": "2026-07-21 由主公新增：上市公司（储备·上市公司），reports.json 中已有 1 份《华阳集团_投资可行性分析报告_v2_20260719》",
+      "pending_tasks": "部署独立仓库 + 整理本地原始材料"
     }
   ],
   "industries": {
@@ -347,6 +395,16 @@
         "code": "innoshine",
         "name_cn": "元旭半导体",
         "count": 2
+      },
+      {
+        "code": "huitian",
+        "name_cn": "汇天科技",
+        "count": 0
+      },
+      {
+        "code": "huayt",
+        "name_cn": "华阳集团",
+        "count": 1
       }
     ],
     "新材料": [
@@ -363,6 +421,11 @@
       {
         "code": "hongyuan",
         "name_cn": "宏远创信",
+        "count": 1
+      },
+      {
+        "code": "huayt",
+        "name_cn": "华阳集团",
         "count": 1
       }
     ],
@@ -381,14 +444,14 @@
     "数据": [
       {
         "code": "unicom-idc",
-        "name_cn": "联通云 IDC",
+        "name_cn": "四川 IDC",
         "count": 1
       }
     ],
     "云": [
       {
         "code": "unicom-idc",
-        "name_cn": "联通云 IDC",
+        "name_cn": "四川 IDC",
         "count": 1
       }
     ],
@@ -397,6 +460,11 @@
         "code": "innoshine",
         "name_cn": "元旭半导体",
         "count": 2
+      },
+      {
+        "code": "huitian",
+        "name_cn": "汇天科技",
+        "count": 0
       }
     ],
     "航天遥感": [
@@ -439,8 +507,7 @@
     "在推重点": {
       "未上市": [
         "jngd",
-        "hongyuan",
-        "qiyuanxin"
+        "hongyuan"
       ],
       "上市": [],
       "REITs": [
@@ -457,13 +524,16 @@
       ],
       "上市": [
         "htco",
-        "acquisition-listed"
+        "acquisition-listed",
+        "huayt"
       ],
       "REITs": []
     },
     "观察": {
       "未上市": [
-        "xingheng"
+        "xingheng",
+        "qiyuanxin",
+        "huitian"
       ],
       "上市": [],
       "REITs": []
