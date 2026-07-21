@@ -28,10 +28,12 @@ body{background:var(--bg)}
 .v3-ar-proj-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}
 .v3-ar-proj-head .emoji{font-size:22px}
 .v3-ar-proj-head .title{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:800;letter-spacing:2px}
-.v3-ar-proj-head .stage{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);background:rgba(192,57,43,0.08);padding:2px 8px;border-radius:4px;margin-left:auto}
+.v3-ar-proj-head .stage{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);background:rgba(192,57,43,0.08);padding:2px 8px;border-radius:4px}
 .v3-ar-proj-head .cnt{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);margin-left:6px}
-.v3-ar-proj-head a{font-family:var(--fsong);font-size:12px;color:var(--blue);text-decoration:none;margin-left:auto}
+.v3-ar-proj-head a{font-family:var(--fsong);font-size:12px;color:var(--blue);text-decoration:none;margin-left:10px;flex-shrink:0}
 .v3-ar-proj-head a:hover{text-decoration:underline}
+/* B1 修复：右侧 stage + cnt + a 三件组，用一个 wrapper 推到右边，避免 margin-left:auto 冲突 */
+.v3-ar-proj-head-r{display:flex;align-items:center;gap:6px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end}
 
 .v3-ar-list{display:flex;flex-direction:column;gap:6px}
 .v3-ar-item{display:grid;grid-template-columns:90px 1fr 90px;gap:10px;align-items:center;padding:8px 12px;background:var(--bg-2);border-radius:6px;border-left:3px solid var(--blue);transition:.2s;text-decoration:none;color:inherit}
@@ -109,6 +111,7 @@ body{background:var(--bg)}
 
 </div>
 
+<script src="assets/cmdK.js"></script>
 <script>
 (function(){
   'use strict';
@@ -129,10 +132,16 @@ body{background:var(--bg)}
       console.error('数据加载失败', e);
       PROJECTS = []; REPORTS = {};
     }
+    // 暴露给 ⌘K 全局搜索
+    window.PROJECTS = PROJECTS;
+    window.REPORTS = REPORTS;
+    if(window.cmdK) window.cmdK.rebuildIndex();
     bindFromUrl();
     populateFilterOptions();
     renderAll();
     bindToolbar();
+    // 绑定报告行 3D 倾斜（cmdK.js 提供）
+    if(window.cmdK) window.cmdK.tiltAll();
   }
 
   function bindFromUrl(){
@@ -221,9 +230,11 @@ body{background:var(--bg)}
           <div class="v3-ar-proj-head">
             <span class="emoji">${getEmoji(p.industry)}</span>
             <span class="title">${escapeHtml(p.name_cn || p.code)}</span>
-            <span class="stage">${escapeHtml(p.stage_v3 || '—')} · ${escapeHtml(p.iss || '—')}</span>
-            <span class="cnt">${filtered.length} / ${list.length} 份</span>
-            <a href="detail.html?code=${encodeURIComponent(p.code)}">查看项目详情 →</a>
+            <div class="v3-ar-proj-head-r">
+              <span class="stage">${escapeHtml(p.stage_v3 || '—')} · ${escapeHtml(p.iss || '—')}</span>
+              <span class="cnt">${filtered.length} / ${list.length} 份</span>
+              <a href="detail.html?code=${encodeURIComponent(p.code)}">查看项目详情 →</a>
+            </div>
           </div>
           <div class="v3-ar-list">
             ${filtered.map(r=>`
@@ -241,6 +252,8 @@ body{background:var(--bg)}
     host.innerHTML = blocks || `<div class="v3-ar-empty">未匹配到任何报告 · 调整筛选条件重试</div>`;
     document.getElementById('filterStat').textContent = `${totalShown} / ${totalAll} 份`;
     totalMeta.innerHTML = `共 <b>${totalAll}</b> 份报告 · 覆盖 <b>${Object.keys(REPORTS).filter(c=>(REPORTS[c]||[]).length>0).length}</b> 个项目`;
+    // 重新绑定 3D 倾斜（新渲染的 .v3-ar-item 需要重新挂监听）
+    if(window.cmdK) window.cmdK.tiltAll();
   }
 
   function init(){
