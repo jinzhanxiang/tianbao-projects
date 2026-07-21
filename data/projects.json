@@ -1,86 +1,640 @@
 {
-  "metadata": {
-    "version": "1.0",
-    "created": "2026-07-20T10:25:00Z",
-    "total_projects": 4
-  },
+  "generated_at": "2026-07-21T16:13:57+08:00",
+  "source": "project_ledger.csv (v3 schema)",
+  "rows": 17,
+  "stage_v3_enum": [
+    "在推重点",
+    "储备",
+    "观察"
+  ],
+  "iss_enum": [
+    "未上市",
+    "上市",
+    "资产类"
+  ],
   "projects": [
     {
-      "id": "xingheng",
-      "name": "星恒电源",
-      "category": "deal",
-      "emoji": "⭐",
-      "status": "尽调中",
-      "stage": "尽调阶段",
-      "localDir": "entities/星恒电源.md",
-      "reports": [
-        {
-          "title": "商业分析",
-          "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-        }
-      ]
+      "code": "xingheng",
+      "name_cn": "星恒电源",
+      "name_full": "星恒电源（锂电两轮车龙头）",
+      "category": "重大并购",
+      "stage": "已立项",
+      "stage_v3": "在推重点",
+      "iss": "未上市",
+      "industry": "动力电池·新能源",
+      "online_url": "https://jinzhanxiang.github.io/xingheng-report/",
+      "dashboard_url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html",
+      "online_index": "https://jinzhanxiang.github.io/xingheng-report/index.html",
+      "repo": "xingheng-report",
+      "local_folder": "~/Documents/OpenClaw-workspace-Projects/2、星恒电源项目/",
+      "folder_alias": "",
+      "report_count": 16,
+      "progress_pct": 75,
+      "contacts": "金战祥/外部:林总/18600001111",
+      "brief_md": "星恒电源（动力电池·新能源）· 已立项阶段 · 详见报告库",
+      "deploy_date": "2026-05-15",
+      "last_update": "2026-07-09",
+      "notes": "重大并购项目，已部署 dashboard.html 双视图版",
+      "pending_tasks": "已上线 (2026-07-11 v11g 真实 timeline 接入)"
     },
     {
-      "id": "jngd",
-      "name": "晶能光电",
-      "category": "np",
-      "emoji": "🔬",
-      "status": "跟踪中",
-      "stage": "储备阶段",
-      "localDir": "entities/晶能光电.md",
-      "reports": [
-        {
-          "title": "主报告",
-          "url": "https://jinzhanxiang.github.io/jngd-report/"
-        }
-      ]
+      "code": "jngd",
+      "name_cn": "晶能光电",
+      "name_full": "晶能光电（江西）有限公司",
+      "category": "储备·非上市",
+      "stage": "尽调完成",
+      "stage_v3": "储备",
+      "iss": "未上市",
+      "industry": "硬科技·新材料",
+      "online_url": "https://jinzhanxiang.github.io/jngd-report/",
+      "dashboard_url": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
+      "online_index": "https://jinzhanxiang.github.io/jngd-report/index.html",
+      "repo": "jngd-report",
+      "local_folder": "~/Desktop/储备项目/晶能光电/",
+      "folder_alias": "",
+      "report_count": 3,
+      "progress_pct": 50,
+      "contacts": "金战祥/外部:周总/13900002222",
+      "brief_md": "晶能光电（硬科技·新材料）· 尽调完成阶段 · 详见报告库",
+      "deploy_date": "2026-05",
+      "last_update": "2026-07-09",
+      "notes": "3 份报告 + 2个过程 md；dashboard.html 已部署；Documents 旧文件夹待清理",
+      "pending_tasks": "待 v11h 切共享 CSS"
     },
     {
-      "id": "huitian",
-      "name": "汇天网络",
-      "category": "np",
-      "emoji": "🌐",
-      "status": "跟踪中",
-      "stage": "储备阶段",
-      "localDir": "entities/汇天网络.md",
-      "reports": [
-        {
-          "title": "V2主报告",
-          "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
-        }
-      ]
+      "code": "kedu",
+      "name_cn": "柯渡医学",
+      "name_full": "上海柯渡医学",
+      "category": "储备·非上市",
+      "stage": "初步分析",
+      "stage_v3": "储备",
+      "iss": "未上市",
+      "industry": "医疗健康",
+      "online_url": "https://jinzhanxiang.github.io/kedu-report/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/kedu-report/index.html",
+      "repo": "kedu-report",
+      "local_folder": "~/Desktop/储备项目/上海柯渡医学科技股份有限公司投资立项汇报0522.pptx",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥/外部:陈总/13700003333",
+      "brief_md": "柯渡医学（医疗健康）· 初步分析阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026",
+      "notes": "单报告项目，源在桌面根（110MB PPTX）",
+      "pending_tasks": "单文件项目，待主公部署指示"
     },
     {
-      "id": "innoshine",
-      "name": "元旭半导体",
-      "category": "np",
-      "emoji": "💡",
-      "status": "跟踪中",
-      "stage": "储备阶段",
-      "localDir": "entities/元旭半导体.md",
-      "reports": []
+      "code": "zhongfu",
+      "name_cn": "中复碳芯",
+      "name_full": "中复神鹰碳纤维芯电缆项目",
+      "category": "储备·非上市",
+      "stage": "初步分析",
+      "stage_v3": "储备",
+      "iss": "未上市",
+      "industry": "硬科技·新材料",
+      "online_url": "https://jinzhanxiang.github.io/zhongfu-report/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/zhongfu-report/index.html",
+      "repo": "zhongfu-report",
+      "local_folder": "~/Desktop/储备项目/中复碳芯/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥/外部:王总/13600004444",
+      "brief_md": "中复碳芯（硬科技·新材料）· 初步分析阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026",
+      "notes": "单报告项目，源在桌面（86M / 3文件：1 pptx + 2 img）",
+      "pending_tasks": "单文件项目，待主公部署指示"
+    },
+    {
+      "code": "xinhong",
+      "name_cn": "信鸿医疗",
+      "name_full": "天津信鸿医疗科技股份有限公司",
+      "category": "储备·非上市",
+      "stage": "初步分析",
+      "stage_v3": "储备",
+      "iss": "未上市",
+      "industry": "医疗健康",
+      "online_url": "https://jinzhanxiang.github.io/xinhong-report/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/xinhong-report/index.html",
+      "repo": "xinhong-report",
+      "local_folder": "~/Desktop/储备项目/信鸿医疗/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥/外部:李总/13500005555",
+      "brief_md": "信鸿医疗（医疗健康）· 初步分析阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026",
+      "notes": "单报告项目，源在桌面（40M / 3文件：1 xlsx + 2 docx）",
+      "pending_tasks": "单文件项目，待主公部署指示"
+    },
+    {
+      "code": "xunchao",
+      "name_cn": "迅巢科技",
+      "name_full": "迅巢换电（XCHS Energon）",
+      "category": "储备·非上市",
+      "stage": "初步分析",
+      "stage_v3": "储备",
+      "iss": "未上市",
+      "industry": "硬科技·新能源",
+      "online_url": "https://jinzhanxiang.github.io/xunchao-report/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/xunchao-report/index.html",
+      "repo": "xunchao-report",
+      "local_folder": "~/Desktop/储备项目/迅巢科技0419.pdf",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥/外部:赵总/13400006666",
+      "brief_md": "迅巢科技（硬科技·新能源）· 初步分析阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026",
+      "notes": "单报告项目，源在桌面根（16MB PDF）",
+      "pending_tasks": "单文件项目，待主公部署指示"
+    },
+    {
+      "code": "unicom-idc",
+      "name_cn": "联通云 IDC",
+      "name_full": "联通云数据中心 IDC REIT 项目",
+      "category": "储备·非上市",
+      "stage": "REITs",
+      "stage_v3": "储备",
+      "iss": "资产类",
+      "industry": "数据·云",
+      "online_url": "https://jinzhanxiang.github.io/unicom-idc-report/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/unicom-idc-report/index.html",
+      "repo": "unicom-idc-report",
+      "local_folder": "~/Desktop/储备项目/汇天网络科技/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥/外部:孙总/13300007777",
+      "brief_md": "联通云 IDC（数据·云）· REITs阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026",
+      "notes": "REITs 项目，源在桌面（5.9M / 7文件）",
+      "pending_tasks": "REITs 项目，源 7 文件已归类"
+    },
+    {
+      "code": "hongyuan",
+      "name_cn": "宏远创信",
+      "name_full": "宏远创信（综合智慧能源）",
+      "category": "储备·非上市",
+      "stage": "初步分析",
+      "stage_v3": "储备",
+      "iss": "未上市",
+      "industry": "硬科技·新材料",
+      "online_url": "https://jinzhanxiang.github.io/hongyuan-report/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/hongyuan-report/index.html",
+      "repo": "hongyuan-report",
+      "local_folder": "~/Desktop/储备项目/宏远创信/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥/外部:周总/13200008888",
+      "brief_md": "宏远创信（硬科技·新材料）· 初步分析阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026",
+      "notes": "单报告项目，源在桌面（11M / 4文件：3 PDF + 1 docx）",
+      "pending_tasks": "单文件项目，待主公部署指示"
+    },
+    {
+      "code": "innoshine",
+      "name_cn": "元旭半导体",
+      "name_full": "元旭半导体（Innoshine）",
+      "category": "储备·非上市",
+      "stage": "已立项",
+      "stage_v3": "储备",
+      "iss": "未上市",
+      "industry": "硬科技·芯片",
+      "online_url": "https://jinzhanxiang.github.io/innoshine-report/",
+      "dashboard_url": "https://jinzhanxiang.github.io/innoshine-report/dashboard.html",
+      "online_index": "https://jinzhanxiang.github.io/innoshine-report/index.html",
+      "repo": "innoshine-report",
+      "local_folder": "~/Documents/OpenClaw-workspace-Projects/元旭半导体/",
+      "folder_alias": "",
+      "report_count": 2,
+      "progress_pct": 50,
+      "contacts": "金战祥/外部:吴总/13100009999",
+      "brief_md": "元旭半导体（硬科技·芯片）· 已立项阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026-07-09",
+      "notes": "尽调报告 + 谈判简报 = 2份报告；dashboard.html 已部署；子目录:尽调分析/尽调报告/谈判准备/部署脚本",
+      "pending_tasks": "待 v11h 切共享 CSS"
+    },
+    {
+      "code": "htco",
+      "name_cn": "航天宏图",
+      "name_full": "航天宏图（HTCO IRE）",
+      "category": "储备·上市",
+      "stage": "已部署",
+      "stage_v3": "储备",
+      "iss": "上市",
+      "industry": "航天遥感",
+      "online_url": "https://jinzhanxiang.github.io/htco-ire-delivery-plan/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/htco-ire-delivery-plan/",
+      "repo": "htco-ire-delivery-plan",
+      "local_folder": "~/Desktop/储备项目/航天宏图/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥/外部:郑总/13000001010",
+      "brief_md": "航天宏图（航天遥感）· 已部署阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026-07",
+      "notes": "上市公司对口交付方案 v4（口令保护），源在桌面（2.4M / 1 PDF）",
+      "pending_tasks": "上市公司对口交付方案 v4 已部署（口令保护）"
+    },
+    {
+      "code": "acquisition-listed",
+      "name_cn": "收购上市公司研究",
+      "name_full": "收购上市公司标的研究",
+      "category": "储备·上市",
+      "stage": "研究阶段",
+      "stage_v3": "储备",
+      "iss": "上市",
+      "industry": "收购研究·上市公司",
+      "online_url": "https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html",
+      "repo": "7projects-summary",
+      "local_folder": "~/Desktop/储备项目/拟收购上市公司研究/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥/内部投研",
+      "brief_md": "收购上市公司研究（收购研究·上市公司）· 研究阶段阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026",
+      "notes": "在 7projects-summary/projects/ 下，无独立仓库；源在桌面（504K / 3文件）",
+      "pending_tasks": "7projects-summary/projects/ 子文件"
+    },
+    {
+      "code": "wiki-index",
+      "name_cn": "知识图谱·数据全景（主公 Wiki）",
+      "name_full": "LLM Wiki · 1055 实体页面",
+      "category": "知识图谱",
+      "stage": "已部署",
+      "stage_v3": "观察",
+      "iss": "未上市",
+      "industry": "知识图谱·可视化",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html",
+      "repo": "tianbao-projects",
+      "local_folder": "~/wiki/index.html",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "系统生成",
+      "brief_md": "知识图谱·数据全景（主公 Wiki）（知识图谱·可视化）· 已部署阶段 · 详见报告库",
+      "deploy_date": "2026-07",
+      "last_update": "2026-07",
+      "notes": "主公主 Wiki 入口，1055 个实体页面（tianbao-projects 子文件）",
+      "pending_tasks": "1055 实体 Wiki 已部署"
+    },
+    {
+      "code": "entities-graph",
+      "name_cn": "实体关系图谱",
+      "name_full": "交互式关系网络图",
+      "category": "知识图谱",
+      "stage": "已部署",
+      "stage_v3": "观察",
+      "iss": "未上市",
+      "industry": "知识图谱·可视化",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html",
+      "repo": "tianbao-projects",
+      "local_folder": "~/wiki/entities_index.html",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "系统生成",
+      "brief_md": "实体关系图谱（知识图谱·可视化）· 已部署阶段 · 详见报告库",
+      "deploy_date": "2026-07",
+      "last_update": "2026-07",
+      "notes": "实体关系图谱（529KB 交互网络），是主公主用 Wiki 的关系视图",
+      "pending_tasks": "529KB 交互网络已部署"
+    },
+    {
+      "code": "tianbao-projects",
+      "name_cn": "天保项目报告中心",
+      "name_full": "天保控股项目报告中心",
+      "category": "中心·入口",
+      "stage": "已部署",
+      "stage_v3": "观察",
+      "iss": "未上市",
+      "industry": "平台",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/index.html",
+      "repo": "tianbao-projects",
+      "local_folder": "/Users/jinzhanxiang/.openclaw/workspace-project/tianbao-projects-src/",
+      "folder_alias": "",
+      "report_count": 2,
+      "progress_pct": 30,
+      "contacts": "系统生成",
+      "brief_md": "天保项目报告中心（平台）· 已部署阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026-07-09",
+      "notes": "项目报告中心，含 4 大分类 13 项目，v5",
+      "pending_tasks": "已上线 (2026-07-11 v11g timeline + CSS 抽取)"
+    },
+    {
+      "code": "7projects-summary",
+      "name_cn": "7项目汇总库",
+      "name_full": "储备项目汇总库",
+      "category": "中心·入口",
+      "stage": "已部署",
+      "stage_v3": "观察",
+      "iss": "未上市",
+      "industry": "平台",
+      "online_url": "https://jinzhanxiang.github.io/7projects-summary/",
+      "dashboard_url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html",
+      "online_index": "https://jinzhanxiang.github.io/7projects-summary/index.html",
+      "repo": "7projects-summary",
+      "local_folder": "~/Desktop/储备项目/项目储备库汇报/",
+      "folder_alias": "",
+      "report_count": 2,
+      "progress_pct": 30,
+      "contacts": "系统生成",
+      "brief_md": "7项目汇总库（平台）· 已部署阶段 · 详见报告库",
+      "deploy_date": "2026",
+      "last_update": "2026-07-09",
+      "notes": "8 维度对比仪表盘 + 9 项目对比汇总库；dashboard.html 已部署",
+      "pending_tasks": "8 维度对比仪表盘已部署"
+    },
+    {
+      "code": "ai-course-tianbao",
+      "name_cn": "智能体内训课件",
+      "name_full": "智能体赋能投资研究 — 从天保实践到团队跃迁",
+      "category": "内训课件",
+      "stage": "已部署",
+      "stage_v3": "观察",
+      "iss": "未上市",
+      "industry": "内训",
+      "online_url": "https://jinzhanxiang.github.io/ai-course-tianbao/",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/ai-course-tianbao/index.html",
+      "repo": "ai-course-tianbao",
+      "local_folder": "~/Documents/OpenClaw-workspace-Projects/智能体内训课件/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 30,
+      "contacts": "金战祥",
+      "brief_md": "智能体内训课件（内训）· 已部署阶段 · 详见报告库",
+      "deploy_date": "2026-07",
+      "last_update": "2026-07-04",
+      "notes": "主公内训课件，2026.07 部署",
+      "pending_tasks": "主公内训课件已部署 (2026-07-04)"
+    },
+    {
+      "code": "qiyuanxin",
+      "name_cn": "启源芯动力",
+      "name_full": "启源芯动力科技有限公司（电驱系统）",
+      "category": "重大并购",
+      "stage": "暂停跟踪",
+      "stage_v3": "在推重点",
+      "iss": "未上市",
+      "industry": "新能源汽车·电驱",
+      "online_url": "https://jinzhanxiang.github.io/7projects-summary/",
+      "dashboard_url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html",
+      "online_index": "https://jinzhanxiang.github.io/7projects-summary/index.html",
+      "repo": "7projects-summary",
+      "local_folder": "~/Documents/OpenClaw-workspace-Projects/1、启源芯项目/",
+      "folder_alias": "",
+      "report_count": 2,
+      "progress_pct": 30,
+      "contacts": "金战祥/外部:陈志江/已归档",
+      "brief_md": "启源芯动力（新能源汽车·电驱）· 暂停跟踪阶段 · 详见报告库",
+      "deploy_date": "2025-09",
+      "last_update": "2026-07-08",
+      "notes": "重大并购（1.7G 本地源 + 3阶段：入股/合资/并购）；无独立仓库；research 产物在 projects/启源芯动力/output/；2026-07-09 主公决定不进入主中心（避免口径混淆），台账保留作历史记录",
+      "pending_tasks": "等待主公重新激活或正式归档"
     }
   ],
-  "external_repos": [
-    {
-      "name": "星恒电源",
-      "repo": "xingheng-report",
-      "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+  "industries": {
+    "动力电池": [
+      {
+        "code": "xingheng",
+        "name_cn": "星恒电源",
+        "count": 16
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "name_cn": "星恒电源",
+        "count": 16
+      },
+      {
+        "code": "xunchao",
+        "name_cn": "迅巢科技",
+        "count": 1
+      }
+    ],
+    "硬科技": [
+      {
+        "code": "jngd",
+        "name_cn": "晶能光电",
+        "count": 3
+      },
+      {
+        "code": "zhongfu",
+        "name_cn": "中复碳芯",
+        "count": 1
+      },
+      {
+        "code": "xunchao",
+        "name_cn": "迅巢科技",
+        "count": 1
+      },
+      {
+        "code": "hongyuan",
+        "name_cn": "宏远创信",
+        "count": 1
+      },
+      {
+        "code": "innoshine",
+        "name_cn": "元旭半导体",
+        "count": 2
+      }
+    ],
+    "新材料": [
+      {
+        "code": "jngd",
+        "name_cn": "晶能光电",
+        "count": 3
+      },
+      {
+        "code": "zhongfu",
+        "name_cn": "中复碳芯",
+        "count": 1
+      },
+      {
+        "code": "hongyuan",
+        "name_cn": "宏远创信",
+        "count": 1
+      }
+    ],
+    "医疗健康": [
+      {
+        "code": "kedu",
+        "name_cn": "柯渡医学",
+        "count": 1
+      },
+      {
+        "code": "xinhong",
+        "name_cn": "信鸿医疗",
+        "count": 1
+      }
+    ],
+    "数据": [
+      {
+        "code": "unicom-idc",
+        "name_cn": "联通云 IDC",
+        "count": 1
+      }
+    ],
+    "云": [
+      {
+        "code": "unicom-idc",
+        "name_cn": "联通云 IDC",
+        "count": 1
+      }
+    ],
+    "芯片": [
+      {
+        "code": "innoshine",
+        "name_cn": "元旭半导体",
+        "count": 2
+      }
+    ],
+    "航天遥感": [
+      {
+        "code": "htco",
+        "name_cn": "航天宏图",
+        "count": 1
+      }
+    ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "name_cn": "收购上市公司研究",
+        "count": 1
+      }
+    ],
+    "上市公司": [
+      {
+        "code": "acquisition-listed",
+        "name_cn": "收购上市公司研究",
+        "count": 1
+      }
+    ],
+    "知识图谱": [
+      {
+        "code": "wiki-index",
+        "name_cn": "知识图谱·数据全景（主公 Wiki）",
+        "count": 1
+      },
+      {
+        "code": "entities-graph",
+        "name_cn": "实体关系图谱",
+        "count": 1
+      }
+    ],
+    "可视化": [
+      {
+        "code": "wiki-index",
+        "name_cn": "知识图谱·数据全景（主公 Wiki）",
+        "count": 1
+      },
+      {
+        "code": "entities-graph",
+        "name_cn": "实体关系图谱",
+        "count": 1
+      }
+    ],
+    "平台": [
+      {
+        "code": "tianbao-projects",
+        "name_cn": "天保项目报告中心",
+        "count": 2
+      },
+      {
+        "code": "7projects-summary",
+        "name_cn": "7项目汇总库",
+        "count": 2
+      }
+    ],
+    "内训": [
+      {
+        "code": "ai-course-tianbao",
+        "name_cn": "智能体内训课件",
+        "count": 1
+      }
+    ],
+    "新能源汽车": [
+      {
+        "code": "qiyuanxin",
+        "name_cn": "启源芯动力",
+        "count": 2
+      }
+    ],
+    "电驱": [
+      {
+        "code": "qiyuanxin",
+        "name_cn": "启源芯动力",
+        "count": 2
+      }
+    ]
+  },
+  "stage_matrix": {
+    "在推重点": {
+      "未上市": [
+        "xingheng",
+        "qiyuanxin"
+      ],
+      "上市": [],
+      "资产类": []
     },
-    {
-      "name": "汇天网络",
-      "repo": "huitian-network-report",
-      "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
+    "储备": {
+      "未上市": [
+        "jngd",
+        "kedu",
+        "zhongfu",
+        "xinhong",
+        "xunchao",
+        "hongyuan",
+        "innoshine"
+      ],
+      "上市": [
+        "htco",
+        "acquisition-listed"
+      ],
+      "资产类": [
+        "unicom-idc"
+      ]
     },
-    {
-      "name": "晶能光电",
-      "repo": "jngd-report",
-      "url": "https://jinzhanxiang.github.io/jngd-report/"
-    },
-    {
-      "name": "元旭半导体",
-      "repo": "innoshine-report",
-      "url": "https://jinzhanxiang.github.io/innoshine-report/"
+    "观察": {
+      "未上市": [
+        "wiki-index",
+        "entities-graph",
+        "tianbao-projects",
+        "7projects-summary",
+        "ai-course-tianbao"
+      ],
+      "上市": [],
+      "资产类": []
     }
-  ]
+  }
 }
