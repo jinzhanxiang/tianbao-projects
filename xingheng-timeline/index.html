@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>星恒电源项目时间线</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --c-accent:#1a365d;
+  --c-accent2:#2c5282;
+  --c-blue:#3182ce;
+  --c-warning:#d69e2e;
+  --c-success:#38a169;
+  --c-danger:#e53e3e;
+  --c-muted:#718096;
+  --c-bg:#f7fafc;
+  --c-card:#fff;
+  --c-text:#2d3748;
+  --c-text2:#4a5568;
+}
+body{
+  font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif;
+  color:var(--c-text);background:var(--c-bg);line-height:1.9;font-size:17px;
+  min-height:100vh;
+}
+.back-nav{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:12px 20px;background:var(--c-card);
+  border-bottom:1px solid #e2e8f0;
+  position:sticky;top:0;z-index:100;
+}
+.back-nav a{
+  color:var(--c-blue);text-decoration:none;font-size:14px;
+  display:inline-flex;align-items:center;gap:6px;
+}
+.back-nav a:hover{text-decoration:underline}
+.project-title{font-size:13px;color:var(--c-muted)}
+
+.hero{
+  background:linear-gradient(135deg,#1a365d,#2d3748);
+  color:#fff;padding:32px 20px;text-align:center;
+}
+.hero h1{font-size:24px;margin-bottom:6px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.hero p{color:rgba(255,255,255,0.7);font-size:14px}
+
+.container{max-width:800px;margin:0 auto;padding:24px 20px 60px}
+
+/* 时间线样式 */
+.timeline{position:relative;padding-left:28px}
+.timeline::before{
+  content:'';position:absolute;left:7px;top:8px;bottom:8px;
+  width:2px;background:linear-gradient(180deg,#cbd5e0,#e2e8f0);
+}
+.timeline-item{
+  position:relative;margin-bottom:28px;
+}
+.timeline-item::before{
+  content:'';position:absolute;left:-24px;top:8px;
+  width:12px;height:12px;border-radius:50%;
+  background:var(--c-card);border:3px solid var(--c-blue);
+}
+.timeline-item.type-report::before{background:var(--c-blue)}
+.timeline-item.type-analysis::before{background:var(--c-warning);border-color:var(--c-warning)}
+.timeline-item.type-thirdparty::before{background:var(--c-success);border-color:var(--c-success)}
+.timeline-item.type-material::before{background:var(--c-accent);border-color:var(--c-accent)}
+
+.timeline-date{
+  font-size:13px;color:var(--c-muted);margin-bottom:4px;
+  font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+.timeline-content{
+  background:var(--c-card);border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.06);padding:18px 20px;
+  border-left:4px solid var(--c-blue);
+}
+.timeline-item.type-report .timeline-content{border-left-color:var(--c-blue)}
+.timeline-item.type-analysis .timeline-content{border-left-color:var(--c-warning)}
+.timeline-item.type-thirdparty .timeline-content{border-left-color:var(--c-success)}
+.timeline-item.type-material .timeline-content{border-left-color:var(--c-accent)}
+
+.timeline-title{
+  font-size:17px;font-weight:600;color:var(--c-accent);
+  margin-bottom:8px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+.timeline-desc{font-size:15px;color:var(--c-text2);margin-bottom:12px}
+.timeline-links{display:flex;flex-wrap:wrap;gap:10px}
+.timeline-link{
+  display:inline-flex;align-items:center;gap:5px;
+  padding:6px 12px;background:#edf2f7;border-radius:6px;
+  color:var(--c-blue);text-decoration:none;font-size:13px;
+  transition:all .15s;
+}
+.timeline-link:hover{background:#e2e8f0;transform:translateY(-1px)}
+.timeline-link .icon{font-size:14px}
+
+.badge{
+  display:inline-block;background:var(--c-blue);color:#fff;
+  font-size:11px;padding:1px 7px;border-radius:8px;margin-left:8px;
+  font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+.badge.analysis{background:var(--c-warning)}
+.badge.thirdparty{background:var(--c-success)}
+.badge.material{background:var(--c-accent)}
+
+.footer{text-align:center;color:var(--c-muted);font-size:13px;padding:20px}
+
+/* 移动端适配 */
+@media (max-width:600px){
+  .timeline-links{flex-direction:column}
+  .timeline-link{width:100%;justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<div class="back-nav">
+  <a href="https://jinzhanxiang.github.io/tianbao-projects/">← 返回报告中心</a>
+  <span class="project-title">天保控股项目储备库</span>
+</div>
+
+<div class="hero">
+  <h1>⭐ 星恒电源</h1>
+  <p>动力电池 · 新能源 · 尽调完成</p>
+</div>
+
+<div class="container">
+
+<!-- 时间线 -->
+<div class="timeline">
+
+  <!-- 最新状态 -->
+  <div class="timeline-item type-report">
+    <div class="timeline-date">2026-06-22 · 更新</div>
+    <div class="timeline-content">
+      <div class="timeline-title">综合分析报告（第6版） <span class="badge">主报告</span></div>
+      <div class="timeline-desc">含16份报告的完整尽调分析，涵盖商业/法律/财务/估值等维度</div>
+      <div class="timeline-links">
+        <a href="https://jinzhanxiang.github.io/xingheng-report/report_main.html" class="timeline-link" target="_blank"><span class="icon">📊</span> 主报告</a>
+        <a href="https://jinzhanxiang.github.io/xingheng-report/" class="timeline-link" target="_blank"><span class="icon">📋</span> 报告目录</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 法律尽调第三方报告 -->
+  <div class="timeline-item type-thirdparty">
+    <div class="timeline-date">2026-06-23</div>
+    <div class="timeline-content">
+      <div class="timeline-title">法律尽职调查专项分析 <span class="badge thirdparty">第三方</span></div>
+      <div class="timeline-desc">允公律所出具的法律尽调报告，指出6家标的公司存在31个问题</div>
+      <div class="timeline-links">
+        <a href="https://jinzhanxiang.github.io/xingheng-report/appendix_a.html" class="timeline-link" target="_blank"><span class="icon">⚖️</span> 法律尽调报告</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 估值分析 -->
+  <div class="timeline-item type-analysis">
+    <div class="timeline-date">2026-06-15</div>
+    <div class="timeline-content">
+      <div class="timeline-title">估值分析专项 <span class="badge analysis">新增</span></div>
+      <div class="timeline-desc">多方法交叉验证估值分析</div>
+      <div class="timeline-links">
+        <a href="https://jinzhanxiang.github.io/xingheng-report/appendix_h.html" class="timeline-link" target="_blank"><span class="icon">📐</span> 估值分析</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 产业链分析 -->
+  <div class="timeline-item type-analysis">
+    <div class="timeline-date">2026-06-21</div>
+    <div class="timeline-content">
+      <div class="timeline-title">锂电池产业链纵横分析 <span class="badge analysis">新增</span></div>
+      <div class="timeline-desc">投资标的推荐分析</div>
+      <div class="timeline-links">
+        <a href="https://jinzhanxiang.github.io/xingheng-report/appendix_i.html" class="timeline-link" target="_blank"><span class="icon">🔗</span> 产业链分析</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 专题会汇报 -->
+  <div class="timeline-item type-material">
+    <div class="timeline-date">2026-06-15</div>
+    <div class="timeline-content">
+      <div class="timeline-title">专题会汇报 <span class="badge material">会议</span></div>
+      <div class="timeline-desc">关于收购星恒电源股权项目方案相关事宜的汇报</div>
+      <div class="timeline-links">
+        <a href="https://jinzhanxiang.github.io/xingheng-report/meeting_briefing.html" class="timeline-link" target="_blank"><span class="icon">📋</span> 会议汇报</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 收并购方案 -->
+  <div class="timeline-item type-analysis">
+    <div class="timeline-date">2026-06-15</div>
+    <div class="timeline-content">
+      <div class="timeline-title">收购方案综合分析 <span class="badge analysis">更新</span></div>
+      <div class="timeline-desc">券商方案主框架分析</div>
+      <div class="timeline-links">
+        <a href="https://jinzhanxiang.github.io/xingheng-report/proposal_analysis.html" class="timeline-link" target="_blank"><span class="icon">💎</span> 方案分析</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 首版报告 -->
+  <div class="timeline-item type-report">
+    <div class="timeline-date">2026-05-15 · 首版</div>
+    <div class="timeline-content">
+      <div class="timeline-title">星恒电源商业尽调分析报告（第1版）</div>
+      <div class="timeline-desc">首版商业分析报告，包含行业/竞争/财务三大附件</div>
+      <div class="timeline-links">
+        <a href="https://jinzhanxiang.github.io/xingheng-report/appendix_c.html" class="timeline-link" target="_blank"><span class="icon">📈</span> 竞争力分析</a>
+        <a href="https://jinzhanxiang.github.io/xingheng-report/appendix_d.html" class="timeline-link" target="_blank"><span class="icon">💰</span> 财务分析</a>
+        <a href="https://jinzhanxiang.github.io/xingheng-report/appendix_e.html" class="timeline-link" target="_blank"><span class="icon">🏭</span> 技术分析</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+<div class="footer">
+  <p>星恒电源投资并购分析 · 时间线</p>
+  <p style="margin-top:8px"><a href="https://jinzhanxiang.github.io/xingheng-report/" style="color:var(--c-blue)">查看所有报告 →</a></p>
+</div>
+
+</body>
+</html>
