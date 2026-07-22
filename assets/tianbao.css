@@ -698,19 +698,62 @@ a{color:inherit;text-decoration:none}
   .v3-mats{grid-template-columns:1fr}
   .v3-mat-empty{grid-column:span 1}
 }
+
+/* === R171 · 手机端全局适配（≤760px） · 同时覆盖 cat/detail/index === */
 @media (max-width:760px){
-  .v3-kpi-grid{grid-template-columns:1fr 1fr}
-  .v3-matrix{grid-template-columns:1fr;gap:6px}
+  /* === NAV · 防止 brand 标题竖排溢出 === */
+  .nav{padding:0!important}
+  .nav-inner{padding:8px 12px!important;gap:8px!important;flex-wrap:wrap}
+  .nav-brand{gap:8px!important;font-size:14px!important;flex-shrink:1;min-width:0}
+  .nav-brand>div{min-width:0;flex:1}
+  .nav-brand>div>div:first-child{font-size:14px!important;letter-spacing:.3px!important;white-space:nowrap!important;line-height:1.3!important}
+  .nav-brand-sub{font-size:9px!important;display:none!important}
+  .nav-logo{width:28px!important;height:28px!important;font-size:13px!important;flex-shrink:0}
+  .nav-links{gap:4px!important;margin-left:0!important;flex-shrink:0}
+  .nav-links a{padding:5px 10px!important;font-size:11px!important;font-weight:700;border-radius:6px;letter-spacing:.5px}
+
+  /* === 通用容器 · 紧凑 === */
+  .v3-cat,.v3-detail,.wrap{padding:0 12px !important}
+  .hero{padding:24px 0 18px !important}
+  .hero h1{font-size:24px !important;letter-spacing:2px !important}
+  .hero-grid{grid-template-columns:1fr;gap:14px !important}
+  .hero-stats{gap:8px !important;flex-wrap:wrap}
+  .hero-stat{padding:8px 12px !important;min-width:auto}
+  .hero-stat b{font-size:20px !important}
+  .clock-card{padding:10px 14px !important;min-width:auto;text-align:left}
+
+  /* === KPI === */
+  .v3-kpi-grid{grid-template-columns:1fr 1fr;gap:6px !important}
+  .v3-kpi-num{font-size:24px !important}
+  .v3-kpi{padding:10px !important}
+
+  /* === 矩阵 · 单列 === */
+  .v3-matrix{grid-template-columns:1fr !important;gap:8px !important}
   .v3-matrix-row-h,.v3-matrix-h.col-tag{display:none}
   .v3-cell{min-height:auto}
-  .v3-doc-paper{padding:18px 22px}
-  .v3-section{padding:14px 18px}
-  .v3-proj-head{padding:14px 18px}
-  .v3-proj-head h1{font-size:22px}
-  .v3-swiper{height:320px}
+  .v3-matrix-bar{flex-direction:column;align-items:flex-start;gap:6px !important}
+  .v3-matrix-bar-tools{width:100%;justify-content:flex-end}
+  .v3-matrix-bar-info{font-size:11px !important}
+
+  /* === 文档 / 区段 === */
+  .v3-doc-paper{padding:14px 16px !important}
+  .v3-section{padding:10px 14px !important;margin:6px 0 !important}
+  .v3-proj-head{padding:12px 16px !important}
+  .v3-proj-head h1{font-size:20px !important;letter-spacing:2px !important}
+
+  /* === 项目卡 · 单列 === */
   .v3-mat-card-top{flex-direction:column;align-items:flex-start}
   .v3-mat-meta{word-break:break-all;white-space:normal;font-size:10px}
   .v3-mat{max-width:100%}
+  .v3-swiper{height:280px}
+
+  /* === 详情页布局 === */
+  .v3-detail-grid{grid-template-columns:1fr !important;gap:10px !important}
+  .v3-detail-side{position:static !important;max-height:none !important;overflow:visible !important}
+  .v3-link-row a{padding:4px 8px !important;font-size:11px !important}
+  .v3-brief-grid{grid-template-columns:1fr !important}
+  .v3-brief-cell{flex-direction:column;align-items:flex-start;gap:2px}
+  .v3-brief-cell .val{text-align:left}
 }
 
 
