@@ -9,22 +9,22 @@
 <style>
 body{background:var(--bg)}
 .v3-ar{max-width:1320px;margin:0 auto;padding:0 24px}
-.v3-ar-head{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
-.v3-ar-head h1{font-family:var(--hei);font-size:18px;color:var(--ink);font-weight:800;margin:0;letter-spacing:2px;display:flex;align-items:center;gap:8px}
-.v3-ar-head h1::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
+.v3-ar-head{display:flex;justify-content:space-between;align-items:flex-end;margin:6px 0 6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
+.v3-ar-head h1{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:800;margin:0;letter-spacing:2px;display:flex;align-items:center;gap:8px}
+.v3-ar-head h1::before{content:'';width:3px;height:13px;background:var(--doc-rule);border-radius:1px}
 .v3-ar-head .meta{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);text-align:right;line-height:1.5}
 .v3-ar-head .meta b{color:var(--seal);font-size:13px}
 
-.v3-ar-toolbar{display:flex;gap:6px;align-items:center;margin:6px 0 8px;padding:6px 12px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);flex-wrap:wrap}
+.v3-ar-toolbar{display:flex;gap:5px;align-items:center;margin:4px 0 6px;padding:5px 12px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);flex-wrap:wrap}
 .v3-ar-toolbar label{font-family:var(--fsong);font-size:11px;color:var(--ink-3)}
 .v3-ar-toolbar select,.v3-ar-toolbar input{font-family:var(--fsong);font-size:12px;padding:3px 8px;border:1px solid var(--border);border-radius:5px;background:var(--bg);color:var(--ink);min-width:120px}
 .v3-ar-toolbar input:focus,.v3-ar-toolbar select:focus{outline:none;border-color:var(--seal)}
 .v3-ar-toolbar .stat{margin-left:auto;font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3)}
 
-.v3-ar-proj-block{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:8px 14px 10px;margin-bottom:8px}
-.v3-ar-proj-head{display:flex;align-items:center;gap:8px;margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
-.v3-ar-proj-head .emoji{font-size:18px}
-.v3-ar-proj-head .title{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:800;letter-spacing:1px}
+.v3-ar-proj-block{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:6px 12px 8px;margin-bottom:6px}
+.v3-ar-proj-head{display:flex;align-items:center;gap:8px;margin-bottom:4px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.v3-ar-proj-head .emoji{font-size:16px}
+.v3-ar-proj-head .title{font-family:var(--hei);font-size:13px;color:var(--ink);font-weight:800;letter-spacing:1px}
 .v3-ar-proj-head .stage{font-family:ui-monospace,monospace;font-size:10px;color:var(--seal);background:rgba(192,57,43,0.08);padding:1px 6px;border-radius:3px}
 .v3-ar-proj-head .cnt{font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);margin-left:4px}
 .v3-ar-proj-head a{font-family:var(--fsong);font-size:11px;color:var(--blue);text-decoration:none;margin-left:8px;flex-shrink:0}
@@ -32,8 +32,8 @@ body{background:var(--bg)}
 .v3-ar-proj-head-r{display:flex;align-items:center;gap:4px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end}
 
 /* === 2 列网格：单页装下全部报告 === */
-.v3-ar-list{display:grid;grid-template-columns:1fr 1fr;gap:5px}
-.v3-ar-item{display:grid;grid-template-columns:78px 1fr 78px;gap:8px;align-items:center;padding:5px 9px;background:var(--bg-2);border-radius:5px;border-left:2.5px solid var(--blue);transition:.2s;text-decoration:none;color:inherit;min-height:32px}
+.v3-ar-list{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.v3-ar-item{display:grid;grid-template-columns:72px 1fr 68px;gap:6px;align-items:center;padding:3px 8px;background:var(--bg-2);border-radius:4px;border-left:2.5px solid var(--blue);transition:.2s;text-decoration:none;color:inherit;min-height:26px}
 .v3-ar-item:hover{background:var(--paper);transform:translateX(3px);box-shadow:0 2px 8px rgba(0,0,0,0.06);border-left-color:var(--seal)}
 .v3-ar-date{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);font-weight:800;letter-spacing:.5px}
 .v3-ar-cat{font-family:var(--fsong);font-size:10px;color:var(--blue);background:rgba(21,101,192,0.08);padding:1px 6px;border-radius:3px;font-weight:600;text-align:center;letter-spacing:.5px}
