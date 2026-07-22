@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "schema": "events_v1",
+    "note": "新增项目请在文件顶部追加（会自动按 ts 倒序，无需手动排序）",
+    "fields": {
+      "ts": "YYYY-MM-DD 时间戳",
+      "lvl": "INFO / WARN / DEAL / SHIP / MAJOR / RISK / UI / M&A / V3",
+      "tag": "短标签（≤6字符）",
+      "title": "加粗标题",
+      "body": "正文描述（可含 HTML 标签）",
+      "url": "可选，相关链接"
+    }
+  },
+  "events": [
+    {
+      "ts": "2026-07-14",
+      "lvl": "INFO",
+      "tag": "DEPLOY",
+      "title": "huitian-network-report 报告部署",
+      "body": "GitHub Pages 已更新，含本批次所有报告。",
+      "url": "https://jinzhanxiang.github.io/huitian-network-report/"
+    },
+    {
+      "ts": "2026-07-12",
+      "lvl": "MAJOR",
+      "tag": "★ V3.43.1",
+      "title": "晶能光电 V3.43.1 深度版上线",
+      "body": "深度版商业尽调（27 章 + 8 附录 + 8 图）部署完成；中文乱码已修复（fontproperties 全量覆盖）。",
+      "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
+    },
+    {
+      "ts": "2026-07-10",
+      "lvl": "INFO",
+      "tag": "UI",
+      "title": "v9.4 仪表盘升级",
+      "body": "状态圆环全息双圈+卫星点 / 行业条形能量光带+警示⚠ / 知识图谱节点。",
+      "url": ""
+    },
+    {
+      "ts": "2026-07-08",
+      "lvl": "INFO",
+      "tag": "EVENT",
+      "title": "储备项目集中分析",
+      "body": "完成 10 项储备项目初步分析：<b>8 项非上市 + 2 项上市</b>。",
+      "url": ""
+    },
+    {
+      "ts": "2026-07-02",
+      "lvl": "WARN",
+      "tag": "RISK",
+      "title": "航天宏图风险化解",
+      "body": "针对<b>应收账款减值、客户集中度高</b>出具方案。",
+      "url": ""
+    },
+    {
+      "ts": "2026-06-28",
+      "lvl": "DEAL",
+      "tag": "M&A",
+      "title": "上市公司收购研究",
+      "body": "科华 / 绿田 / 爱朋 3 家 <b>8 维度对比</b>。",
+      "url": ""
+    },
+    {
+      "ts": "2026-06-18",
+      "lvl": "SHIP",
+      "tag": "v3.0",
+      "title": "知识图谱 v3.0",
+      "body": "<b>3D 星云 + 环形分层</b>已上线。",
+      "url": ""
+    },
+    {
+      "ts": "2026-05-20",
+      "lvl": "MAJOR",
+      "tag": "★ DEAL",
+      "title": "重大并购项目立项",
+      "body": "星恒电源完成<b>商业分析 + 3 附件</b>。",
+      "url": ""
+    }
+  ]
+}
