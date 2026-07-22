@@ -16,8 +16,8 @@ body{background:var(--bg)}
 .v3-detail-meta b{color:var(--seal);font-weight:700}
 
 /* === Notion 风格 2 栏布局（sidebar + main）=== */
-.v3-detail-grid{display:grid;grid-template-columns:260px 1fr;gap:14px;margin-top:8px}
-.v3-detail-side{position:sticky;top:80px;align-self:start;display:flex;flex-direction:column;gap:8px;max-height:calc(100vh - 96px);overflow-y:auto;padding-right:4px}
+.v3-detail-grid{display:grid;grid-template-columns:240px 1fr;gap:12px;margin-top:6px}
+.v3-detail-side{position:sticky;top:80px;align-self:start;display:flex;flex-direction:column;gap:6px;max-height:calc(100vh - 96px);overflow-y:auto;padding-right:4px}
 .v3-detail-side::-webkit-scrollbar{width:6px}
 .v3-detail-side::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 .v3-detail-main{display:flex;flex-direction:column;gap:14px;min-width:0}
@@ -60,8 +60,8 @@ body{background:var(--bg)}
 .v3-side-related .stage{font-size:9px;font-family:ui-monospace,monospace;color:var(--ink-3);flex-shrink:0}
 
 /* 主区域 section 紧凑 */
-.v3-section{padding:10px 14px !important}
-.v3-section h2{font-size:15px !important;margin-bottom:8px !important}
+.v3-section{padding:8px 12px !important}
+.v3-section h2{font-size:14px !important;margin-bottom:6px !important}
 
 @media (max-width:1100px){
   .v3-detail-grid{grid-template-columns:1fr}
@@ -87,27 +87,27 @@ body{background:var(--bg)}
 .v3-brief-tag{font-family:var(--fsong);font-size:11px;color:var(--ink-2);background:var(--bg-2);padding:2px 8px;border-radius:999px;border:1px solid var(--border)}
 
 /* === 项目简介 · 三段式 === */
-.v3-brief-section{margin-bottom:10px;padding-bottom:10px;border-bottom:1px dashed var(--border)}
+.v3-brief-section{margin-bottom:6px;padding-bottom:6px;border-bottom:1px dashed var(--border)}
 .v3-brief-section:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
-.v3-brief-h{font-family:var(--hei);font-size:13px;color:var(--ink);font-weight:800;margin-bottom:6px;letter-spacing:2px;display:flex;align-items:center;gap:8px}
-.v3-brief-h::before{content:'';width:4px;height:12px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:2px}
-.v3-brief-progress-pct{margin-left:auto;font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);font-weight:800;background:rgba(192,57,43,0.08);padding:1px 8px;border-radius:4px;letter-spacing:1px}
-.v3-brief-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:5px 10px;margin-bottom:8px}
-.v3-brief-cell{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:3px 10px;background:var(--bg-2);border-radius:5px;border-left:3px solid var(--doc-rule)}
-.v3-brief-cell .lbl{font-family:var(--fsong);font-size:11px;color:var(--ink-3);flex-shrink:0}
-.v3-brief-cell .val{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink);font-weight:700;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.v3-brief-lead{font-family:var(--fsong);font-size:12px;color:var(--ink-2);line-height:1.55;margin:4px 0 0;text-indent:2em}
-.v3-brief-progress-bar{height:6px;background:var(--bg-2);border-radius:3px;overflow:hidden;margin-bottom:8px;border:1px solid var(--border);position:relative}
+.v3-brief-h{font-family:var(--hei);font-size:12px;color:var(--ink);font-weight:800;margin-bottom:4px;letter-spacing:1px;display:flex;align-items:center;gap:6px}
+.v3-brief-h::before{content:'';width:3px;height:11px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:1px}
+.v3-brief-progress-pct{margin-left:auto;font-family:ui-monospace,monospace;font-size:10px;color:var(--seal);font-weight:800;background:rgba(192,57,43,0.08);padding:1px 6px;border-radius:3px;letter-spacing:1px}
+.v3-brief-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px 8px;margin-bottom:6px}
+.v3-brief-cell{display:flex;justify-content:space-between;align-items:baseline;gap:6px;padding:3px 8px;background:var(--bg-2);border-radius:4px;border-left:2.5px solid var(--doc-rule)}
+.v3-brief-cell .lbl{font-family:var(--fsong);font-size:10px;color:var(--ink-3);flex-shrink:0}
+.v3-brief-cell .val{font-family:ui-monospace,monospace;font-size:10px;color:var(--ink);font-weight:700;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-brief-lead{font-family:var(--fsong);font-size:11px;color:var(--ink-2);line-height:1.5;margin:4px 0 0;text-indent:2em}
+.v3-brief-progress-bar{height:5px;background:var(--bg-2);border-radius:3px;overflow:hidden;margin-bottom:5px;border:1px solid var(--border);position:relative}
 .v3-brief-progress-fill{height:100%;background:linear-gradient(90deg,var(--doc-rule) 0%,var(--seal) 50%,var(--seal-2) 100%);border-radius:3px;transition:width .6s cubic-bezier(.4,.2,.2,1);position:relative}
 .v3-brief-progress-fill::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,0.3) 50%,transparent 100%);animation:shimmer 2s infinite}
 @keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
-.v3-brief-pending{background:var(--bg-2);border-radius:5px;padding:6px 10px;border-left:3px solid var(--blue)}
-.v3-brief-pending-h{font-family:var(--hei);font-size:11px;color:var(--ink);font-weight:700;margin-bottom:3px;letter-spacing:1px}
-.v3-brief-pending-body{font-family:var(--fsong);font-size:12px;color:var(--ink-2);line-height:1.55;text-indent:0}
-.v3-brief-downgrade{background:linear-gradient(180deg,rgba(192,57,43,0.04) 0%,rgba(192,57,43,0.02) 100%);border:1px solid rgba(192,57,43,0.2);border-radius:6px;padding:8px 12px}
+.v3-brief-pending{background:var(--bg-2);border-radius:4px;padding:5px 9px;border-left:3px solid var(--blue)}
+.v3-brief-pending-h{font-family:var(--hei);font-size:11px;color:var(--ink);font-weight:700;margin-bottom:2px;letter-spacing:1px}
+.v3-brief-pending-body{font-family:var(--fsong);font-size:11px;color:var(--ink-2);line-height:1.5;text-indent:0}
+.v3-brief-downgrade{background:linear-gradient(180deg,rgba(192,57,43,0.04) 0%,rgba(192,57,43,0.02) 100%);border:1px solid rgba(192,57,43,0.2);border-radius:5px;padding:6px 10px}
 .v3-brief-downgrade .v3-brief-h{color:var(--seal)}
 .v3-brief-downgrade .v3-brief-h::before{background:var(--seal);box-shadow:0 0 8px rgba(192,57,43,0.4)}
-.v3-brief-downgrade-body{font-family:var(--fsong);font-size:12px;color:var(--ink);line-height:1.6;text-indent:0;padding-left:6px}
+.v3-brief-downgrade-body{font-family:var(--fsong);font-size:11px;color:var(--ink);line-height:1.55;text-indent:0;padding-left:5px}
 
 @media (max-width:760px){
   .v3-brief-grid{grid-template-columns:1fr}
@@ -145,14 +145,7 @@ body{background:var(--bg)}
     <div class="v3-proj-head-r" id="projStage"></div>
   </div>
 
-  <!-- 面包屑 -->
-  <div class="v3-breadcrumb" style="margin:6px 0 8px">
-    <a href="index.html">首页</a>
-    <span class="sep">/</span>
-    <a href="page.html">分类</a>
-    <span class="sep">/</span>
-    <span class="current" id="bcName">项目</span>
-  </div>
+  <!-- 面包屑（已合并到 nav-brand subtitle） -->
 
   <!-- Notion 风格 2 栏：sidebar + main -->
   <div class="v3-detail-grid">
