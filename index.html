@@ -48,8 +48,8 @@ body::before{
 .v3-section-h em::before{content:'';width:6px;height:6px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 3px rgba(22,163,74,0.2);animation:livePulse 2s ease-in-out infinite}
 @keyframes livePulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
 
-/* === KPI 4 宫格 · 视觉重设计 === */
-.v3-kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:12px}
+/* === KPI 3 宫格 · 视觉重设计（删总项目数后剩 报告总数 + 行业合并 大卡） === */
+.v3-kpi-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:14px;margin-bottom:12px}
 .v3-kpi{position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);border:1px solid var(--border);border-radius:14px;padding:14px 16px 12px;transition:.35s cubic-bezier(.2,.8,.2,1);overflow:hidden;display:flex;flex-direction:column;gap:6px;min-height:148px;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
 .v3-kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--kpi-color) 0%,var(--kpi-color-2,var(--seal-2)) 100%)}
 .v3-kpi::after{content:'';position:absolute;top:0;right:0;width:60px;height:60px;background:radial-gradient(circle at 100% 0%,var(--kpi-color) 0%,transparent 60%);opacity:.08;transition:.4s;pointer-events:none}
@@ -75,9 +75,20 @@ body::before{
 
 /* 行业云 */
 .v3-kpi-cloud{display:flex;flex-wrap:wrap;gap:4px;line-height:1.3}
-.v3-kpi-cloud-tag{padding:2px 8px;background:var(--bg-2);border:1px solid var(--border);border-radius:10px;color:var(--ink-2);font-weight:600;font-size:10px;transition:.2s;cursor:default}
+.v3-kpi-cloud-tag{padding:3px 9px;background:var(--bg-2);border:1px solid var(--border);border-radius:10px;color:var(--ink-2);font-weight:700;font-size:11px;transition:.2s;cursor:default}
 .v3-kpi-cloud-tag:hover{background:var(--paper);color:var(--ink);border-color:var(--seal);transform:translateY(-1px)}
 .v3-kpi-cloud-tag b{color:var(--ink);font-family:ui-monospace,monospace;margin-left:3px;font-weight:800}
+
+/* === 行业合并大卡 · Industry Mix === */
+.v3-kpi-mix{display:flex;gap:14px;flex:1;min-width:0}
+.v3-kpi-mix-l{flex:1;display:flex;flex-direction:column;gap:5px;justify-content:center;min-width:0}
+.v3-kpi-mix-r{flex:1.1;display:flex;flex-direction:column;gap:4px;min-width:0;border-left:1px dashed var(--border);padding-left:14px}
+.v3-kpi-mix-r .grp-title{font-family:var(--hei);font-size:10px;color:var(--ink-3);font-weight:900;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px}
+.v3-kpi-tier{display:flex;gap:6px;align-items:stretch;font-size:11px;color:var(--ink-2);font-family:var(--fsong);font-weight:600}
+.v3-kpi-tier > div{flex:1;border:1px solid var(--border);border-radius:6px;padding:3px 6px;background:var(--bg-2);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1px;transition:.2s}
+.v3-kpi-tier > div:hover{border-color:var(--kpi-color);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.v3-kpi-tier b{font-family:ui-monospace,monospace;font-size:14px;color:var(--ink);font-weight:900;letter-spacing:-.5px}
+.v3-kpi-tier small{font-size:9px;color:var(--ink-3);font-weight:600;letter-spacing:.3px}
 
 /* 行业细分 · Top-N 堆叠条（替代 KPI 4 Featured 重复） */
 .v3-kpi-inds{display:flex;flex-direction:column;gap:5px;flex:1;justify-content:center;min-width:0}
@@ -156,19 +167,19 @@ body::before{
 .v3-cloud-strip .v3-cloud-tags{display:flex;flex-wrap:wrap;gap:6px;flex:1;min-width:0}
 
 .v3-cloud-tag{
-  display:inline-flex;align-items:center;gap:5px;padding:3px 10px;
+  display:inline-flex;align-items:center;gap:6px;padding:4px 12px;
   background:var(--bg-2);border:1px solid var(--border);border-radius:14px;
   font-family:var(--fsong);color:var(--ink-2);cursor:pointer;
-  transition:.2s;font-weight:600;
+  transition:.2s;font-weight:700;font-size:13px;
 }
 .v3-cloud-tag:hover{background:var(--paper);color:var(--ink);border-color:var(--seal);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.08)}
 .v3-cloud-tag.active{background:linear-gradient(135deg,var(--seal) 0%,var(--seal-2) 100%);color:#fff;border-color:var(--seal);box-shadow:0 2px 8px rgba(192,57,43,0.3)}
 .v3-cloud-tag.active .count{color:#fff;font-weight:800}
-.v3-cloud-tag .count{font-family:ui-monospace,monospace;font-weight:700;color:var(--seal);font-size:11px;background:rgba(192,57,43,0.1);padding:0 5px;border-radius:8px;min-width:18px;text-align:center}
-.v3-cloud-tag-cloud{font-size:13px;font-weight:800}
+.v3-cloud-tag .count{font-family:ui-monospace,monospace;font-weight:800;color:var(--seal);font-size:12px;background:rgba(192,57,43,0.1);padding:0 7px;border-radius:10px;min-width:22px;text-align:center}
+.v3-cloud-tag-cloud{font-size:13px;font-weight:800;padding:5px 14px}
 .v3-cloud-tag-cloud .count{background:rgba(0,0,0,.08);color:var(--ink-2)}
 .v3-cloud-tag-cloud.active .count{background:rgba(255,255,255,.25);color:#fff}
-.v3-cloud-empty{padding:6px 10px;color:var(--ink-3);font-family:var(--fsong);font-size:12px}
+.v3-cloud-empty{padding:6px 10px;color:var(--ink-3);font-family:var(--fsong);font-size:13px}
 
 /* === 双栏滚动流 === */
 .v3-feed2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:6px 0 12px}
@@ -263,17 +274,7 @@ body::before{
     <em id="overviewMeta">实时统计 · 同步 ledger.csv → projects.json → reports.json</em>
   </div>
   <div class="v3-kpi-grid" id="kpiGrid">
-    <div class="v3-kpi" style="--kpi-color:#C0392B;--kpi-color-2:#E67E22">
-      <div class="v3-kpi-eyebrow">Project Pipeline</div>
-      <div class="v3-kpi-num-row">
-        <div class="v3-kpi-num" id="kpiProjects" data-counter-up="0" data-unit="个项目">0</div>
-        <div class="v3-kpi-vis">
-          <div class="v3-kpi-bar" id="kpiProjectsBar"></div>
-          <div class="v3-kpi-bd" id="kpiProjectsBd"></div>
-        </div>
-      </div>
-      <div class="v3-kpi-lbl">总项目数</div>
-    </div>
+    <!-- 报告总数 · Research Reports -->
     <div class="v3-kpi" style="--kpi-color:#1565C0;--kpi-color-2:#0EA5E9">
       <div class="v3-kpi-eyebrow">Research Reports</div>
       <div class="v3-kpi-num-row">
@@ -283,25 +284,28 @@ body::before{
           <div class="v3-kpi-bd" id="kpiReportsBd"></div>
         </div>
       </div>
-      <div class="v3-kpi-lbl">报告总数</div>
+      <div class="v3-kpi-lbl">报告总数 · 自动从 reports/ 扫描</div>
     </div>
-    <div class="v3-kpi" style="--kpi-color:#0D8050;--kpi-color-2:#16A34A">
-      <div class="v3-kpi-eyebrow">Industry Coverage</div>
-      <div class="v3-kpi-num-row">
-        <div class="v3-kpi-num" id="kpiIndustries" data-counter-up="0" data-unit="个行业">0</div>
-        <div class="v3-kpi-vis">
-          <div class="v3-kpi-cloud" id="kpiIndustriesCloud"></div>
+    <!-- 行业覆盖 + 细分合并大卡 · Industry Mix -->
+    <div class="v3-kpi" style="--kpi-color:#7C3AED;--kpi-color-2:#A855F7">
+      <div class="v3-kpi-eyebrow">Industry Mix · 行业覆盖 + 细分</div>
+      <div class="v3-kpi-mix">
+        <!-- 左：覆盖总数 + Top 6 堆叠条 + 芯片 -->
+        <div class="v3-kpi-mix-l">
+          <div style="display:flex;align-items:baseline;gap:8px">
+            <div class="v3-kpi-num" id="kpiIndustries" data-counter-up="0" data-unit="个行业">0</div>
+            <span style="font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:600">已覆盖</span>
+          </div>
+          <div class="v3-kpi-ind-bar" id="kpiIndBar"></div>
+          <div class="v3-kpi-ind-list" id="kpiIndList"></div>
+        </div>
+        <!-- 右：项目数分层（按项目数分布） -->
+        <div class="v3-kpi-mix-r">
+          <div class="grp-title">项目分布</div>
+          <div class="v3-kpi-tier" id="kpiTier"></div>
+          <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:2px" id="kpiIndCloud"></div>
         </div>
       </div>
-      <div class="v3-kpi-lbl">覆盖行业</div>
-    </div>
-    <div class="v3-kpi" style="--kpi-color:#7C3AED;--kpi-color-2:#A855F7">
-      <div class="v3-kpi-eyebrow">Industry Mix · 行业细分</div>
-      <div class="v3-kpi-inds">
-        <div class="v3-kpi-ind-bar" id="kpiIndBar"></div>
-        <div class="v3-kpi-ind-list" id="kpiIndList"></div>
-      </div>
-      <div class="v3-kpi-lbl">行业细分 · <span id="kpiIndCount" data-counter-up="0" style="font-family:ui-monospace,monospace;color:var(--kpi-color);font-size:16px;font-weight:900">0</span></div>
     </div>
   </div>
 
@@ -465,7 +469,6 @@ body::before{
   const CAT_PALETTE = ['#1565C0','#C0392B','#0D8050','#7C3AED','#E67E22','#0EA5E9','#DC2626','#0891B2','#7C2D12','#1E3A8A','#166534','#B45309','#6D28D9','#BE185D'];
 
   function renderKPI(){
-    const totalP = PROJECTS.length;
     const totalR = Object.values(REPORTS).reduce((s,a)=>s+a.length,0);
 
     const indMap = new Map();
@@ -484,21 +487,7 @@ body::before{
     });
     const cats = [...catMap.entries()].sort((a,b)=>b[1]-a[1]);
 
-    /* ① 总项目数 · 阶段分段 */
-    document.getElementById('kpiProjects').setAttribute('data-counter-up', totalP);
-    const stages = ['在推重点','储备','观察'];
-    const stageBar = document.getElementById('kpiProjectsBar');
-    stageBar.innerHTML = stages.map(s=>{
-      const cnt = PROJECTS.filter(p=>p.stage_v3===s).length;
-      const pct = totalP>0 ? (cnt/totalP*100).toFixed(1) : 0;
-      return `<div class="v3-kpi-bar-seg" style="width:${pct}%;background:${STAGE_COLORS[s]}" title="${s}: ${cnt}"></div>`;
-    }).join('');
-    document.getElementById('kpiProjectsBd').innerHTML = stages.map(s=>{
-      const cnt = PROJECTS.filter(p=>p.stage_v3===s).length;
-      return `<span><i style="background:${STAGE_COLORS[s]}"></i>${s}<b>${cnt}</b></span>`;
-    }).join('');
-
-    /* ② 报告总数 · 类别分段 */
+    /* ① 报告总数 · 类别分段（自动从 reports/ 扫描） */
     document.getElementById('kpiReports').setAttribute('data-counter-up', totalR);
     const repBar = document.getElementById('kpiReportsBar');
     const topCats = cats.slice(0,7);
@@ -511,12 +500,9 @@ body::before{
     }).join('');
     document.getElementById('kpiReportsBd').innerHTML = topCats.slice(0,4).map(([c,n],i)=>`<span><i style="background:${CAT_PALETTE[i%CAT_PALETTE.length]}"></i>${c}<b>${n}</b></span>`).join('') + (otherCnt>0?`<span><i style="background:#9CA3AF"></i>其他<b>${otherCnt}</b></span>`:'');
 
-    /* ③ 行业 · Top 4 标签云 */
+    /* ② 行业覆盖 + 细分合并大卡 */
     document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.length);
-    const top4 = industries.slice(0,4);
-    document.getElementById('kpiIndustriesCloud').innerHTML = top4.map(([n,c])=>`<span class="v3-kpi-cloud-tag">${n}<b>${c}</b></span>`).join('') + (industries.length>4?`<span class="v3-kpi-cloud-tag" style="opacity:.6">+${industries.length-4}</span>`:'');
-
-    /* ④ 行业细分 · Top 6 堆叠条（替代原来的"在推重点项目"以去重） */
+    /* 左：Top 6 堆叠条 + 列表 */
     const top6 = industries.slice(0,6);
     const indTotal = top6.reduce((s,[,c])=>s+c,0);
     const indBar = document.getElementById('kpiIndBar');
@@ -525,13 +511,24 @@ body::before{
       return `<div class="v3-kpi-ind-seg" style="width:${pct}%;background:${CAT_PALETTE[i%CAT_PALETTE.length]}" title="${n}: ${c} 个项目"></div>`;
     }).join('');
     document.getElementById('kpiIndList').innerHTML = top6.map(([n,c],i)=>`<span><i style="background:${CAT_PALETTE[i%CAT_PALETTE.length]}"></i>${n}<b>${c}</b></span>`).join('');
-    document.getElementById('kpiIndCount').setAttribute('data-counter-up', industries.length);
+    /* 右：项目分层（≥3 / 2 / 1）+ Tag 云（剩余行业） */
+    const tier3 = industries.filter(([,c])=>c>=3).length;
+    const tier2 = industries.filter(([,c])=>c===2).length;
+    const tier1 = industries.filter(([,c])=>c===1).length;
+    document.getElementById('kpiTier').innerHTML = `
+      <div title="≥3 个项目行业"><b>${tier3}</b><small>≥3项目</small></div>
+      <div title="2 个项目行业"><b>${tier2}</b><small>=2项目</small></div>
+      <div title="1 个项目行业"><b>${tier1}</b><small>=1项目</small></div>
+    `;
+    document.getElementById('kpiIndCloud').innerHTML = industries.slice(6,12).map(([n,c],i)=>
+      `<span class="v3-kpi-cloud-tag">${n}<b>${c}</b></span>`
+    ).join('') + (industries.length>12?`<span class="v3-kpi-cloud-tag" style="opacity:.6">+${industries.length-12}</span>`:'');
 
     /* 概览头部同步戳 */
     const now = new Date();
     const pad = n=>String(n).padStart(2,'0');
     const stamp = `${pad(now.getHours())}:${pad(now.getMinutes())} 同步`;
-    document.getElementById('overviewMeta').textContent = `实时统计 · ${stamp} · 数据源 ledger.csv → projects.json → reports.json`;
+    document.getElementById('overviewMeta').textContent = `实时统计 · ${stamp} · 数据源 research/{projects,reports}/ → reports.json`;
 
     /* === 3 类入口 · 进度环 + 行业芯片 === */
     renderEntries();
@@ -633,6 +630,7 @@ body::before{
         SELECTED_INDUSTRY = el.dataset.ind;
         renderCloud();
         renderNews();
+        renderRecentTimeline();  /* 行业筛选也作用于近期报告 */
       });
     });
   }
@@ -719,15 +717,29 @@ body::before{
       list.forEach(r=>all.push({...r, code}));
     });
     all.sort((a,b)=>b.date.localeCompare(a.date));
-    return all.slice(0, 16);
+    /* 若选中了行业，则只保留该项目行业匹配的报告 */
+    let filtered = all;
+    if(SELECTED_INDUSTRY && SELECTED_INDUSTRY !== '__ALL__'){
+      filtered = all.filter(r=>{
+        const proj = PROJECTS.find(p=>p.code===r.code);
+        if(!proj) return false;
+        const tokens = (proj.industry||'').split(/[·\/ ]+/).map(t=>t.trim()).filter(Boolean);
+        return tokens.includes(SELECTED_INDUSTRY);
+      });
+    }
+    return filtered.slice(0, 16);
   }
   function renderRecentTimeline(){
     const list = collectRecentReports();
     const track = document.getElementById('recentTrack');
     const lbl  = document.getElementById('recentTotalLbl');
-    lbl.textContent = `${list.length} 份 · 倒序`;
+    const indLabel = SELECTED_INDUSTRY==='__ALL__' ? '倒序' : `${SELECTED_INDUSTRY} · 倒序`;
+    lbl.textContent = `${list.length} 份 · ${indLabel}`;
     if(!list.length){
-      track.innerHTML = '<div class="v3-feed-empty">暂无研究报告 · 等待 research 代理推送</div>';
+      const msg = SELECTED_INDUSTRY==='__ALL__'
+        ? '暂无研究报告 · 等待 research 代理推送'
+        : `「${SELECTED_INDUSTRY}」暂无相关报告 · 点「全部行业」查看`;
+      track.innerHTML = `<div class="v3-feed-empty">${msg}</div>`;
       setMarquee('recentMarquee','recentTrack',0);
       return;
     }
