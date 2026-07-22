@@ -9,46 +9,45 @@
 <style>
 body{background:var(--bg)}
 .v3-ar{max-width:1320px;margin:0 auto;padding:0 24px}
-.v3-ar-head{display:block;text-align:center;margin:22px 0 16px;padding:0 0 12px;border-bottom:3px double var(--ink);position:relative}
-.v3-ar-head h1{font-family:var(--hei);font-size:28px;color:var(--ink);margin:0 0 6px;letter-spacing:6px;font-weight:900;display:inline-block;padding:0 28px;position:relative}
-.v3-ar-head h1::before,.v3-ar-head h1::after{content:'';position:absolute;top:50%;width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--seal))}
-.v3-ar-head h1::before{right:100%;margin-right:14px}
-.v3-ar-head h1::after{left:100%;margin-left:14px;background:linear-gradient(90deg,var(--seal),transparent)}
-.v3-ar-head .sub{font-family:var(--fsong);font-size:13px;color:var(--ink-3);letter-spacing:3px;margin-top:4px;text-align:center}
-.v3-ar-head .meta{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);text-align:right;line-height:1.7;position:absolute;right:0;top:6px}
-.v3-ar-head .meta b{color:var(--seal);font-size:14px}
+.v3-ar-head{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.v3-ar-head h1{font-family:var(--hei);font-size:18px;color:var(--ink);font-weight:800;margin:0;letter-spacing:2px;display:flex;align-items:center;gap:8px}
+.v3-ar-head h1::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
+.v3-ar-head .meta{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);text-align:right;line-height:1.5}
+.v3-ar-head .meta b{color:var(--seal);font-size:13px}
 
-.v3-ar-toolbar{display:flex;gap:8px;align-items:center;margin:12px 0 14px;padding:10px 14px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);flex-wrap:wrap}
-.v3-ar-toolbar label{font-family:var(--fsong);font-size:12px;color:var(--ink-3)}
-.v3-ar-toolbar select,.v3-ar-toolbar input{font-family:var(--fsong);font-size:13px;padding:5px 10px;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--ink);min-width:160px}
+.v3-ar-toolbar{display:flex;gap:6px;align-items:center;margin:6px 0 8px;padding:6px 12px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);flex-wrap:wrap}
+.v3-ar-toolbar label{font-family:var(--fsong);font-size:11px;color:var(--ink-3)}
+.v3-ar-toolbar select,.v3-ar-toolbar input{font-family:var(--fsong);font-size:12px;padding:3px 8px;border:1px solid var(--border);border-radius:5px;background:var(--bg);color:var(--ink);min-width:120px}
 .v3-ar-toolbar input:focus,.v3-ar-toolbar select:focus{outline:none;border-color:var(--seal)}
-.v3-ar-toolbar .stat{margin-left:auto;font-family:ui-monospace,monospace;font-size:12px;color:var(--ink-3)}
+.v3-ar-toolbar .stat{margin-left:auto;font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3)}
 
-.v3-ar-proj-block{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:14px 18px;margin-bottom:14px}
-.v3-ar-proj-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}
-.v3-ar-proj-head .emoji{font-size:22px}
-.v3-ar-proj-head .title{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:800;letter-spacing:2px}
-.v3-ar-proj-head .stage{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);background:rgba(192,57,43,0.08);padding:2px 8px;border-radius:4px}
-.v3-ar-proj-head .cnt{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);margin-left:6px}
-.v3-ar-proj-head a{font-family:var(--fsong);font-size:12px;color:var(--blue);text-decoration:none;margin-left:10px;flex-shrink:0}
+.v3-ar-proj-block{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:8px 14px 10px;margin-bottom:8px}
+.v3-ar-proj-head{display:flex;align-items:center;gap:8px;margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
+.v3-ar-proj-head .emoji{font-size:18px}
+.v3-ar-proj-head .title{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:800;letter-spacing:1px}
+.v3-ar-proj-head .stage{font-family:ui-monospace,monospace;font-size:10px;color:var(--seal);background:rgba(192,57,43,0.08);padding:1px 6px;border-radius:3px}
+.v3-ar-proj-head .cnt{font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);margin-left:4px}
+.v3-ar-proj-head a{font-family:var(--fsong);font-size:11px;color:var(--blue);text-decoration:none;margin-left:8px;flex-shrink:0}
 .v3-ar-proj-head a:hover{text-decoration:underline}
-/* B1 修复：右侧 stage + cnt + a 三件组，用一个 wrapper 推到右边，避免 margin-left:auto 冲突 */
-.v3-ar-proj-head-r{display:flex;align-items:center;gap:6px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end}
+.v3-ar-proj-head-r{display:flex;align-items:center;gap:4px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end}
 
-.v3-ar-list{display:flex;flex-direction:column;gap:6px}
-.v3-ar-item{display:grid;grid-template-columns:90px 1fr 90px;gap:10px;align-items:center;padding:8px 12px;background:var(--bg-2);border-radius:6px;border-left:3px solid var(--blue);transition:.2s;text-decoration:none;color:inherit}
-.v3-ar-item:hover{background:var(--paper);transform:translateX(4px);box-shadow:0 2px 8px rgba(0,0,0,0.06);border-left-color:var(--seal)}
-.v3-ar-date{font-family:ui-monospace,monospace;font-size:12px;color:var(--seal);font-weight:800;letter-spacing:1px}
-.v3-ar-cat{font-family:var(--fsong);font-size:11px;color:var(--blue);background:rgba(21,101,192,0.08);padding:1px 8px;border-radius:3px;font-weight:600;text-align:center;letter-spacing:1px}
-.v3-ar-title{font-family:var(--fsong);font-size:13px;color:var(--ink);font-weight:600;line-height:1.4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* === 2 列网格：单页装下全部报告 === */
+.v3-ar-list{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.v3-ar-item{display:grid;grid-template-columns:78px 1fr 78px;gap:8px;align-items:center;padding:5px 9px;background:var(--bg-2);border-radius:5px;border-left:2.5px solid var(--blue);transition:.2s;text-decoration:none;color:inherit;min-height:32px}
+.v3-ar-item:hover{background:var(--paper);transform:translateX(3px);box-shadow:0 2px 8px rgba(0,0,0,0.06);border-left-color:var(--seal)}
+.v3-ar-date{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);font-weight:800;letter-spacing:.5px}
+.v3-ar-cat{font-family:var(--fsong);font-size:10px;color:var(--blue);background:rgba(21,101,192,0.08);padding:1px 6px;border-radius:3px;font-weight:600;text-align:center;letter-spacing:.5px}
+.v3-ar-title{font-family:var(--fsong);font-size:12px;color:var(--ink);font-weight:600;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .v3-ar-item:hover .v3-ar-title{color:var(--seal)}
 
-.v3-ar-empty{padding:60px 20px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
-.v3-ar-loading{padding:60px 20px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
+.v3-ar-empty{padding:32px 20px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:13px;text-indent:0}
+.v3-ar-loading{padding:32px 20px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:13px;text-indent:0}
 
+@media (max-width:1100px){
+  .v3-ar-list{grid-template-columns:1fr}
+}
 @media (max-width:760px){
-  .v3-ar-head h1{font-size:22px}
-  .v3-ar-item{grid-template-columns:80px 1fr}
+  .v3-ar-item{grid-template-columns:70px 1fr}
   .v3-ar-cat{display:none}
   .v3-ar-proj-head{flex-wrap:wrap}
 }
@@ -62,7 +61,7 @@ body{background:var(--bg)}
       <div class="nav-logo">保</div>
       <div>
         <div>天保控股投资部 · 项目管理中心</div>
-        <div style="font-size:11px;color:var(--ink-3);font-weight:400">所有报告</div>
+        <div class="nav-brand-sub">全站研究报告索引<span class="sep">·</span>按项目 / 日期 / 类别筛选<span class="sep">·</span><span id="arMeta">载入中...</span></div>
       </div>
     </a>
     <div class="nav-links">
@@ -76,18 +75,7 @@ body{background:var(--bg)}
 <div class="v3-ar viewport-fit v3-grow">
 
   <div class="v3-ar-head">
-    <div>
-      <h1>所有报告 · 全站索引</h1>
-      <div class="sub">按项目聚合 · 按日期倒序 · 支持项目/类别筛选</div>
-    </div>
-    <div class="meta" id="arMeta">载入中...</div>
-  </div>
-
-  <!-- 面包屑 -->
-  <div class="v3-breadcrumb">
-    <a href="index.html">首页</a>
-    <span class="sep">/</span>
-    <span class="current" id="bcName">所有报告</span>
+    <h1>所有报告 · 全站索引</h1>
   </div>
 
   <!-- 筛选 -->
