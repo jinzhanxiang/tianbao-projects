@@ -1,0 +1,717 @@
+/* ============================================================
+   report.css — 报告类公共样式（V11i htco 规范版 2026-07-11）
+   
+   模版来源：https://github.com/jinzhanxiang/tianbao-projects/blob/main/htco-report.html
+   设计哲学：
+     - 深蓝-白-金三段式（#1a365d / #ffffff / #d69e2e）
+     - 公文仿宋保留（正文）+ PingFang SC（标题）双字体栈
+     - 图表三件套：chart-figure / chart-figure-svg / chart-figure-html
+     - 暗色模式：双 SVG 切换
+     - 数据来源标注：[A级] [B级] [C级-待验证]
+     - !important 防止 inline style 覆盖
+   ============================================================ */
+
+/* ---------- 基础变量 ---------- */
+:root{
+  --bg:#ffffff;
+  --bg-2:#fafaf9;
+  --text:#1a202c;
+  --text-2:#2d3748;
+  --brand:#1a365d;
+  --brand-light:#2d3748;
+  --accent:#d69e2e;
+  --accent-2:#b7791f;
+  --border:#cbd5e0;
+  --border-2:#e2e8f0;
+  --warn:#fef3c7;
+  --code-bg:#edf2f7;
+  --quote:#fef9e7;
+  --font-body:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif;
+  --font-head:-apple-system,"PingFang SC","Microsoft YaHei","Heiti SC",sans-serif;
+  --font-mono:"SF Mono",Menlo,Consolas,monospace;
+}
+
+/* ---------- 基础排版 ---------- */
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{
+  font-family:var(--font-body);
+  color:var(--text);
+  background:var(--bg) !important;
+  line-height:1.9;
+  font-size:18px;
+  -webkit-font-smoothing:antialiased;
+}
+body{max-width:1200px;margin:0 auto;padding:24px 28px}
+
+/* ---------- 标题层级 ---------- */
+h1{
+  font-family:var(--font-head) !important;
+  font-size:30px !important;
+  color:var(--brand) !important;
+  margin:32px 0 18px !important;
+  border-bottom:3px solid var(--accent) !important;
+  padding-bottom:14px !important;
+  font-weight:700 !important;
+}
+h2{
+  font-family:var(--font-head) !important;
+  font-size:24px !important;
+  color:var(--brand) !important;
+  margin:32px 0 14px !important;
+  font-weight:700 !important;
+}
+h3{
+  font-family:var(--font-head) !important;
+  font-size:20px !important;
+  color:var(--text-2) !important;
+  margin:24px 0 12px !important;
+  font-weight:600 !important;
+}
+h4{
+  font-family:var(--font-head) !important;
+  font-size:18px !important;
+  color:var(--text-2) !important;
+  margin:20px 0 10px !important;
+  font-weight:600 !important;
+}
+h5,h6{
+  font-family:var(--font-head);
+  color:var(--text-2);
+  margin:18px 0 8px;
+  font-weight:600;
+}
+p{margin-bottom:14px !important;font-size:18px !important;line-height:1.9 !important}
+strong{color:var(--brand) !important;font-weight:700}
+em{color:var(--accent-2);font-style:normal;font-weight:600}
+
+/* ---------- 链接 ---------- */
+a{color:var(--accent-2) !important;text-decoration:none !important;border-bottom:1px dotted var(--accent-2) !important}
+a:hover{color:#975a16 !important;border-bottom:1px solid #975a16 !important}
+a:visited{color:#744210 !important}
+
+/* ---------- 列表 ---------- */
+ul,ol{margin:14px 0 14px 28px !important;padding-left:8px}
+li{margin-bottom:8px !important;font-size:18px !important;line-height:1.85}
+
+/* ---------- 水平分隔线 ---------- */
+hr{border:none !important;border-top:1px solid var(--border-2) !important;margin:32px 0 !important;height:0}
+
+/* ---------- 引用块 ---------- */
+blockquote{
+  background:linear-gradient(135deg,#fef9e7,#fef3c7) !important;
+  border-left:4px solid var(--accent) !important;
+  padding:14px 18px !important;
+  margin:18px 0 !important;
+  border-radius:0 8px 8px 0 !important;
+  color:#744210 !important;
+  font-size:17px !important;
+  line-height:1.85 !important;
+}
+blockquote p{margin-bottom:8px !important;font-size:17px !important}
+blockquote p:last-child{margin-bottom:0 !important}
+blockquote strong{color:var(--brand) !important}
+
+/* ---------- 代码 ---------- */
+code{
+  background:var(--code-bg) !important;
+  padding:3px 8px !important;
+  border-radius:4px !important;
+  font-family:var(--font-mono);
+  font-size:15px !important;
+  color:#c53030 !important;
+}
+pre{
+  background:#1a202c !important;
+  color:#e2e8f0 !important;
+  padding:18px !important;
+  border-radius:8px !important;
+  margin:18px 0 !important;
+  overflow-x:auto !important;
+  font-size:15px !important;
+  line-height:1.7 !important;
+}
+pre code{background:none !important;color:inherit !important;padding:0 !important;font-size:15px !important}
+
+/* ---------- 表格（核心） ---------- */
+table{
+  width:100% !important;
+  border-collapse:collapse !important;
+  margin:22px 0 !important;
+  font-size:16px !important;
+  table-layout:auto !important;
+  border-spacing:0 !important;
+  border:1px solid var(--border) !important;
+  border-radius:6px !important;
+  overflow:hidden !important;
+}
+th{
+  background:var(--brand) !important;
+  color:#ffffff !important;
+  padding:13px 16px !important;
+  text-align:left !important;
+  font-family:var(--font-head);
+  font-size:15px !important;
+  font-weight:700 !important;
+  border-bottom:3px solid var(--accent) !important;
+  word-break:break-word !important;
+  white-space:normal !important;
+  line-height:1.5 !important;
+  letter-spacing:0.3px !important;
+  vertical-align:middle !important;
+}
+td{
+  padding:12px 16px !important;
+  border-bottom:1px solid var(--border-2) !important;
+  font-size:15px !important;
+  color:var(--text) !important;
+  word-break:break-word !important;
+  overflow-wrap:break-word !important;
+  line-height:1.7 !important;
+  vertical-align:top !important;
+  background:#ffffff !important;
+}
+/* 斑马纹 */
+table.card-table tbody tr:nth-child(even) td{background:#edf2f7 !important}
+table.card-table tbody tr:nth-child(odd) td{background:#ffffff !important}
+/* 第一列加重 */
+table td:first-child,table th:first-child{
+  white-space:normal !important;
+  font-weight:700 !important;
+  min-width:80px;
+  max-width:240px;
+  color:var(--brand) !important;
+}
+/* 数字列加粗品牌色 */
+table.card-table td:nth-child(2){font-weight:600 !important;color:var(--brand) !important}
+/* 末行高亮（汇总行） */
+table.card-table tbody tr:last-child td{
+  background:var(--warn) !important;
+  color:var(--brand) !important;
+  font-weight:600 !important;
+  border-top:2px solid var(--accent) !important;
+}
+/* hover */
+table.card-table tbody tr:hover td{
+  background:var(--warn) !important;
+  color:var(--brand) !important;
+}
+table.card-table{
+  background:#ffffff !important;
+  border-radius:6px !important;
+  overflow:hidden !important;
+  box-shadow:0 1px 3px rgba(26,54,93,0.06) !important;
+}
+/* 数据对照表 */
+table.data-table-compact{font-size:14px !important;max-width:760px !important;margin:0 auto !important}
+
+/* ============================================================
+   图表容器（htco 规范三件套）
+   ============================================================ */
+.chart-figure{
+  margin:36px auto !important;
+  padding:20px !important;
+  background:#fafaf9 !important;
+  border:1px solid var(--border) !important;
+  border-top:3px solid var(--brand) !important;
+  border-bottom:3px solid var(--accent) !important;
+  border-radius:8px !important;
+  text-align:center !important;
+  max-width:100% !important;
+  overflow:hidden !important;
+  box-shadow:0 1px 4px rgba(26,54,93,0.08) !important;
+}
+.chart-figure img{
+  max-width:100% !important;height:auto !important;
+  border-radius:4px !important;display:block !important;margin:0 auto !important;
+}
+.chart-figure figcaption{
+  margin-top:16px !important;
+  font-family:var(--font-head);
+  font-size:16px !important;
+  color:var(--brand) !important;
+  font-weight:700 !important;
+  text-align:center !important;
+  padding-top:14px !important;
+  border-top:1px solid var(--accent) !important;
+}
+.chart-data-table{
+  margin-top:20px !important;
+  padding-top:16px !important;
+  border-top:1px dashed var(--accent) !important;
+}
+.chart-data-table table{width:100% !important;max-width:760px !important;margin:0 auto !important;font-size:14px !important}
+
+/* ---------- SVG 矢量图 ---------- */
+.chart-figure-svg .chart-svg-container{width:100% !important;display:flex !important;justify-content:center}
+.chart-figure-svg .chart-svg-container svg{
+  max-width:100% !important;height:auto !important;width:900px;border-radius:4px;
+}
+.chart-figure-svg .chart-svg-container.chart-light{display:block !important}
+.chart-figure-svg .chart-svg-container.chart-dark{display:none !important}
+
+/* ---------- HTML 产业链结构图 ---------- */
+.chart-figure-html{padding:24px 24px 18px !important}
+.chart-figure-html .chart-title{
+  font-family:var(--font-head);
+  font-size:17px !important;font-weight:700 !important;
+  color:var(--brand) !important;text-align:center !important;
+  margin-bottom:18px !important;padding-bottom:14px !important;
+  border-bottom:2px solid var(--accent) !important;
+}
+.chain-container{
+  display:grid !important;
+  grid-template-columns:1fr auto 1.2fr auto 1fr !important;
+  gap:14px !important;align-items:stretch !important;margin:20px 0 !important;
+}
+.chain-stage{
+  background:#ffffff !important;
+  border:1px solid var(--border) !important;
+  border-radius:8px !important;
+  padding:16px 12px !important;
+  display:flex !important;flex-direction:column !important;
+  box-shadow:0 1px 3px rgba(26,54,93,0.06) !important;
+}
+.chain-stage-label{
+  font-family:var(--font-head);
+  font-size:13px !important;font-weight:700 !important;
+  color:var(--brand) !important;text-align:center !important;
+  margin-bottom:14px !important;padding-bottom:8px !important;
+  border-bottom:1px dashed var(--accent) !important;letter-spacing:0.5px !important;
+}
+.chain-nodes{display:flex !important;flex-direction:column !important;gap:10px !important;flex:1 !important}
+.chain-node{
+  background:#f7fafc !important;
+  border-left:3px solid var(--brand) !important;
+  border-radius:4px !important;padding:10px 12px !important;
+  transition:all 0.2s;
+}
+.chain-node:hover{
+  background:var(--warn) !important;border-left-color:var(--accent) !important;transform:translateX(2px);
+}
+.chain-node-title{
+  font-family:var(--font-head);
+  font-size:14px !important;font-weight:700 !important;color:var(--brand) !important;margin-bottom:6px !important;
+}
+.chain-node-detail{font-size:13px !important;line-height:1.7 !important;color:var(--text) !important}
+.chain-node-pie{
+  background:linear-gradient(135deg,#fef3c7 0%,#fde68a 100%) !important;
+  border-left:4px solid var(--accent) !important;
+  border:2px solid var(--accent) !important;position:relative !important;padding:12px !important;
+}
+.chain-node-badge{
+  display:inline-block !important;background:var(--brand) !important;color:var(--accent) !important;
+  font-family:var(--font-head);
+  font-size:11px !important;font-weight:700 !important;
+  padding:3px 10px !important;border-radius:10px !important;
+  margin-bottom:8px !important;letter-spacing:0.5px !important;
+}
+.chain-node-pie .chain-node-title{color:var(--brand) !important;font-size:15px !important}
+.chain-node-pie .chain-node-detail{color:var(--text) !important;font-weight:500 !important}
+.chain-margin{
+  text-align:center !important;margin-top:14px !important;padding-top:10px !important;
+  border-top:1px solid var(--border) !important;
+  font-family:var(--font-head);
+  font-size:12px !important;font-weight:600 !important;
+  color:var(--accent) !important;letter-spacing:0.3px !important;
+}
+.chain-highlight{
+  background:linear-gradient(180deg,#fafaf9 0%,#ffffff 100%) !important;
+  border:2px solid var(--accent) !important;
+  box-shadow:0 2px 8px rgba(214,158,46,0.15) !important;
+}
+.chain-highlight .chain-stage-label{
+  color:var(--brand) !important;font-size:14px !important;border-bottom-color:var(--accent) !important;
+}
+.chain-arrow{
+  display:flex !important;align-items:center !important;justify-content:center !important;
+  font-size:32px !important;font-weight:700 !important;
+  color:var(--accent) !important;text-shadow:0 1px 2px rgba(214,158,46,0.3) !important;
+  align-self:center !important;
+}
+.chain-insight{
+  margin-top:20px !important;padding:14px 18px !important;
+  background:var(--warn) !important;
+  border-left:4px solid var(--accent) !important;
+  border-radius:6px !important;
+  font-size:14px !important;line-height:1.8 !important;color:var(--text) !important;
+}
+.chain-insight strong{color:var(--brand) !important;font-weight:700 !important}
+
+/* ============================================================
+   暗色模式
+   ============================================================ */
+body.dark-mode{background:#1a202c !important;color:#e2e8f0 !important}
+body.dark-mode h1,body.dark-mode h2{color:var(--accent) !important}
+body.dark-mode h3,body.dark-mode h4{color:#cbd5e0 !important}
+body.dark-mode strong{color:#fbd38d !important}
+body.dark-mode table{border-color:#4a5568 !important;box-shadow:0 1px 3px rgba(0,0,0,0.3) !important}
+body.dark-mode th{background:var(--brand) !important;color:var(--accent) !important;border-bottom-color:var(--accent) !important}
+body.dark-mode td{color:#e2e8f0 !important;border-bottom-color:#2d3748 !important;background:#1a202c !important}
+body.dark-mode table.card-table tbody tr:nth-child(even) td{background:#2d3748 !important}
+body.dark-mode table.card-table tbody tr:nth-child(odd) td{background:#1a202c !important}
+body.dark-mode code{background:#2d3748 !important;color:#fc8181 !important}
+body.dark-mode blockquote{
+  background:linear-gradient(135deg,#3d2f00,#2d3748) !important;
+  color:#fbd38d !important;border-left-color:var(--accent) !important;
+}
+body.dark-mode table td:first-child,body.dark-mode table th:first-child{color:var(--accent) !important}
+body.dark-mode table.card-table td:nth-child(2){color:var(--accent) !important}
+body.dark-mode table.card-table tbody tr:last-child td{
+  background:#3d2f00 !important;color:#fbd38d !important;border-top-color:var(--accent) !important;
+}
+body.dark-mode table.card-table tbody tr:hover td{
+  background:#3d2f00 !important;color:#fbd38d !important;
+}
+body.dark-mode pre{background:#0f1419 !important;color:#e2e8f0 !important}
+body.dark-mode a{color:#63b3ed !important;border-bottom-color:#63b3ed !important}
+body.dark-mode a:hover{color:var(--accent) !important}
+body.dark-mode hr{border-top-color:#2d3748 !important}
+/* 图表暗色 */
+body.dark-mode .chart-figure{
+  background:#1a202c !important;border-color:#4a5568 !important;
+  border-top-color:var(--brand) !important;border-bottom-color:var(--accent) !important;
+}
+body.dark-mode .chart-figure figcaption{color:var(--accent) !important;border-top-color:var(--accent) !important}
+body.dark-mode .chart-data-table{border-top-color:#4a5568 !important}
+body.dark-mode .chart-figure-svg .chart-svg-container.chart-light{display:none !important}
+body.dark-mode .chart-figure-svg .chart-svg-container.chart-dark{display:block !important}
+/* 产业链暗色 */
+body.dark-mode .chart-figure-html .chart-title{color:var(--accent) !important;border-bottom-color:var(--accent) !important}
+body.dark-mode .chain-stage{background:#2d3748 !important;border-color:#4a5568 !important}
+body.dark-mode .chain-stage-label{color:var(--accent) !important;border-bottom-color:#4a5568 !important}
+body.dark-mode .chain-node{background:#1a202c !important;border-left-color:#63b3ed !important}
+body.dark-mode .chain-node:hover{background:#3d2f00 !important;border-left-color:var(--accent) !important}
+body.dark-mode .chain-node-title{color:var(--accent) !important}
+body.dark-mode .chain-node-detail{color:#e2e8f0 !important}
+body.dark-mode .chain-node-pie{
+  background:linear-gradient(135deg,#3d2f00 0%,#2d1f00 100%) !important;border-color:var(--accent) !important;
+}
+body.dark-mode .chain-node-pie .chain-node-title{color:#fbd38d !important}
+body.dark-mode .chain-node-pie .chain-node-detail{color:#e2e8f0 !important}
+body.dark-mode .chain-highlight{
+  background:linear-gradient(180deg,#2d3748 0%,#1a202c 100%) !important;border-color:var(--accent) !important;
+}
+body.dark-mode .chain-margin{color:#fbd38d !important;border-top-color:#4a5568 !important}
+body.dark-mode .chain-arrow{color:#fbd38d !important}
+body.dark-mode .chain-insight{background:#3d2f00 !important;border-left-color:var(--accent) !important;color:#e2e8f0 !important}
+body.dark-mode .chain-insight strong{color:#fbd38d !important}
+
+/* ============================================================
+   暗色切换按钮（必须由报告内嵌脚本调用 body.classList.toggle）
+   ============================================================ */
+.dark-toggle{
+  position:fixed !important;top:14px !important;right:14px !important;
+  background:rgba(26,54,93,0.9) !important;color:#fff !important;border:none !important;
+  padding:8px 14px !important;border-radius:6px !important;cursor:pointer !important;
+  font-size:13px !important;z-index:1000 !important;
+  font-family:var(--font-head);
+}
+.dark-toggle:hover{background:var(--brand) !important}
+
+/* ============================================================
+   响应式
+   ============================================================ */
+@media (max-width:980px){
+  .chain-container{grid-template-columns:1fr !important;gap:8px !important}
+  .chain-arrow{transform:rotate(90deg) !important;font-size:24px !important}
+}
+@media (max-width:820px){
+  body{padding:16px 18px !important;font-size:17px !important}
+  h1{font-size:24px !important}
+  h2{font-size:20px !important}
+  h3{font-size:18px !important}
+  h4{font-size:16px !important}
+  p{font-size:16px !important}
+  table{font-size:14px !important}
+  th,td{padding:9px 12px !important;font-size:14px !important}
+  .chart-figure{margin:24px auto !important;padding:14px !important}
+  .chart-figure figcaption{font-size:15px !important}
+}
+@media (max-width:780px){
+  .chart-figure{margin:24px auto !important;padding:14px !important}
+  .chart-figure figcaption{font-size:15px !important}
+}
+
+/* ============================================================
+   打印样式
+   ============================================================ */
+@media print{
+  @page{size:A4;margin:2cm}
+  body{font-size:12pt !important;background:#fff !important;color:#000 !important;max-width:100% !important;padding:0 !important}
+  h1,h2,h3{page-break-after:avoid !important;color:var(--brand) !important}
+  h1{font-size:18pt !important}
+  h2{font-size:15pt !important}
+  table{page-break-inside:avoid !important;font-size:10pt !important}
+  a{color:#000 !important;text-decoration:underline !important}
+  a[href]:after{content:" (" attr(href) ")" !important;font-size:9pt !important;color:#666 !important}
+  .dark-toggle{display:none !important}
+  .chart-figure{page-break-inside:avoid !important;box-shadow:none !important}
+  blockquote{background:#fff !important;border-left:3px solid #000 !important}
+}/* ================================================================
+   charts.css — V11j 报告图表样式（5A 收尾）
+   配套 auto_chart.py，覆盖 6 种基础图 + 5B 扩展预留
+   部署：jinzhanxiang.github.io/tianbao-projects/assets/charts.css
+   ================================================================ */
+
+/* ---------- 通用 figure 容器 ---------- */
+.chart-figure {
+  margin: 1.5em 0;
+  padding: 16px 18px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  color: #2d3748;
+}
+.chart-figure .ch-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 4px;
+  border-left: 4px solid #d69e2e;
+  padding-left: 10px;
+}
+.chart-figure .ch-sub {
+  font-size: 12px;
+  color: #718096;
+  margin-bottom: 10px;
+}
+.chart-figure .ch-note {
+  font-size: 11px;
+  color: #718096;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* ---------- 1. 横向条形图 ---------- */
+.hbar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 0;
+}
+.hbar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hbar-label {
+  flex: 0 0 110px;
+  font-size: 13px;
+  color: #2d3748;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hbar-track {
+  flex: 1;
+  height: 24px;
+  background: #f7fafc;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+.hbar-fill {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+  border-radius: 3px;
+  transition: width .4s ease;
+  min-width: 24px;
+}
+.hbar-num {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+/* ---------- 2. 纵向柱状图 ---------- */
+.vbar-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 240px;
+  padding: 8px 12px 0;
+  border-bottom: 1px solid #cbd5e0;
+  gap: 8px;
+}
+.vbar-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+  min-width: 32px;
+}
+.vbar-num {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 2px;
+}
+.vbar-bar {
+  width: 100%;
+  max-width: 60px;
+  min-height: 4px;
+  border-radius: 3px 3px 0 0;
+  transition: height .4s ease;
+}
+.vbar-label {
+  font-size: 11px;
+  color: #4a5568;
+  margin-top: 6px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80px;
+}
+
+/* ---------- 3. 折线图 + 4. 面积图（共用 SVG）---------- */
+.line-svg {
+  width: 100%;
+  height: 280px;
+  display: block;
+}
+.line-svg text {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.line-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: #4a5568;
+}
+.lg-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* ---------- 5. 饼图 + 6. 环形图 ---------- */
+.pie-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.pie-svg, .donut-svg {
+  flex: 0 0 220px;
+  width: 220px;
+  height: 220px;
+  max-width: 100%;
+}
+.pie-legend {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: #2d3748;
+}
+.pie-legend span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pie-legend small {
+  color: #718096;
+  font-size: 11px;
+  margin-left: 4px;
+}
+.chart-donut {
+  text-align: center;
+}
+.chart-donut .donut-svg {
+  margin: 0 auto;
+}
+.chart-donut .donut-label {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #4a5568;
+}
+
+/* ---------- 5B 预留（radar/scatter/bubble/waterfall/funnel） ---------- */
+.radar-svg, .scatter-svg, .bubble-svg {
+  width: 100%;
+  height: 320px;
+  display: block;
+}
+.radar-svg text, .scatter-svg text, .bubble-svg text {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.funnel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  padding: 8px 0;
+}
+.funnel-stage {
+  display: flex;
+  justify-content: center;
+}
+.funnel-bar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 4px;
+  transition: width .4s ease;
+  padding: 0 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.waterfall-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.waterfall-table th, .waterfall-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: right;
+}
+.waterfall-table th {
+  background: #f7fafc;
+  color: #4a5568;
+  font-weight: 700;
+  font-size: 12px;
+}
+.waterfall-table td:first-child {
+  text-align: left;
+  color: #2d3748;
+  font-weight: 600;
+}
+.waterfall-table .total {
+  color: #1a365d;
+  font-weight: 700;
+  background: #f7fafc;
+}
+.waterfall-pos { color: #2f855a; font-weight: 700; }
+.waterfall-neg { color: #9b2c2c; font-weight: 700; }
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 640px) {
+  .hbar-label { flex: 0 0 80px; font-size: 12px; }
+  .pie-flex { flex-direction: column; }
+  .pie-svg, .donut-svg { flex: 0 0 auto; width: 180px; height: 180px; }
+  .vbar-container { height: 200px; }
+  .line-svg { height: 220px; }
+}
+/* === end of merged charts.css === */
