@@ -191,12 +191,12 @@ body::before{
 /* === 近期动态时间线 · 填充空白 === */
 .v3-timeline{
   background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:12px;padding:4px 14px 5px;
+  border:1px solid var(--border);border-radius:12px;padding:3px 14px 4px;
   box-shadow:0 2px 6px rgba(0,0,0,.04);
-  position:relative;overflow:hidden;margin:3px 0 3px;
+  position:relative;overflow:hidden;margin:2px 0 2px;
 }
 .v3-timeline::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--blue) 0%,var(--seal) 60%,var(--gold) 100%);opacity:.7}
-.v3-timeline-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:4px;padding-bottom:4px;border-bottom:1px dashed var(--border)}
+.v3-timeline-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:3px;padding-bottom:3px;border-bottom:1px dashed var(--border)}
 .v3-timeline-head h3{font-family:var(--hei);font-size:12px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:6px;letter-spacing:2px}
 .v3-timeline-head h3::before{content:'';width:4px;height:12px;background:linear-gradient(180deg,var(--blue),var(--seal));border-radius:1px}
 .v3-timeline-head em{font-style:normal;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600;letter-spacing:.5px}
@@ -208,9 +208,9 @@ body::before{
 .v3-timeline-track::-webkit-scrollbar{height:4px}
 .v3-timeline-track::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
 .v3-tl-card{
-  flex:0 0 auto;width:150px;background:var(--bg-2);
+  flex:0 0 auto;width:140px;background:var(--bg-2);
   border:1px solid var(--border);border-left:3px solid var(--tl-c,var(--blue));
-  border-radius:8px;padding:4px 7px 5px;
+  border-radius:8px;padding:3px 7px 4px;
   font-family:var(--fsong);position:relative;overflow:hidden;
   transition:.2s;text-decoration:none;color:inherit;
 }
@@ -234,7 +234,7 @@ body::before{
 .v3-feed-head small{margin-left:auto;font-size:11px;color:var(--ink-3);font-family:var(--fsong);display:flex;align-items:center;gap:4px}
 .v3-feed-head small::before{content:'';width:5px;height:5px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 2px rgba(22,163,74,0.2);animation:livePulse 2s ease-in-out infinite}
 
-.v3-marquee{position:relative;height:250px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 6%,#000 94%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 6%,#000 94%,transparent 100%)}
+.v3-marquee{position:relative;height:200px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 6%,#000 94%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 6%,#000 94%,transparent 100%)}
 .v3-marquee-track{display:flex;flex-direction:column;animation:marqueeUp var(--dur,32s) linear infinite;will-change:transform}
 .v3-marquee:hover .v3-marquee-track{animation-play-state:paused}
 .v3-marquee.no-scroll .v3-marquee-track{animation:none}
