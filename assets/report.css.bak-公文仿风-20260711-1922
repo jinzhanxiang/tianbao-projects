@@ -1,0 +1,394 @@
+/* ============================================================================
+ * report.css — 报告公文仿宋风（v11h 重写）
+ * 适用：xingheng-report / jngd-report / innoshine-report / 7projects-summary 等
+ * 与 tianbao.css（深蓝大屏详情页）严格分离
+ * ============================================================================ */
+
+/* ========== 基础变量（公文仿宋风） ========== */
+:root{
+  --bg:#fdfcf7;            /* 米白纸张底色 */
+  --bg-2:#f5f1e6;          /* 浅米色（隔行/区块） */
+  --text:#1a1a1a;          /* 主文字（深黑） */
+  --text-2:#4a4a4a;        /* 次级文字 */
+  --text-3:#7a7a7a;        /* 辅助文字 */
+  --accent:#8b1a1a;        /* 印章红（强调） */
+  --accent-2:#a52a2a;      /* 印章红（hover） */
+  --border:#d4c8a8;        /* 米色边框 */
+  --border-strong:#a89c70; /* 深米色边框 */
+  --shadow:0 1px 3px rgba(74,59,30,.08);
+}
+
+/* ========== 全局重置 ========== */
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+
+body{
+  font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif !important;
+  font-size:17px !important;
+  line-height:1.85 !important;
+  color:var(--text) !important;
+  background:var(--bg) !important;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* 覆盖 dpl inject 时可能注入的内联 background/color */
+body[style]{
+  background:var(--bg) !important;
+  color:var(--text) !important;
+}
+
+/* ========== 顶部导航栏 ========== */
+.nav{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(253,252,247,.92);
+  backdrop-filter:saturate(180%) blur(12px);
+  -webkit-backdrop-filter:saturate(180%) blur(12px);
+  border-bottom:2px solid var(--border-strong);
+  box-shadow:var(--shadow);
+  padding:14px 32px;
+  display:flex;
+  align-items:center;
+  gap:24px;
+  flex-wrap:wrap;
+  font-family:"PingFang SC","Microsoft YaHei",sans-serif;
+}
+.nav a{
+  color:var(--text-2);
+  text-decoration:none;
+  font-size:14px;
+  padding:6px 12px;
+  border-radius:4px;
+  transition:.2s;
+}
+.nav a:hover{background:var(--bg-2);color:var(--accent)}
+.nav a.active{color:var(--accent);font-weight:600}
+.nav span{color:var(--text-3);font-size:12px;margin-left:auto}
+
+/* ========== 主容器 ========== */
+#top,body>div:not(.nav){
+  max-width:1080px;
+  margin:0 auto;
+  padding:32px 36px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:"FangSong","仿宋","仿宋_GB2312","Songti SC","Noto Serif CJK SC",serif;
+  font-weight:700;
+  color:#000;
+  line-height:1.4;
+  margin:1.6em 0 .8em;
+  page-break-after:avoid;
+}
+
+h1{
+  font-size:32px;
+  text-align:center;
+  letter-spacing:6px;
+  padding-bottom:20px;
+  margin:0 0 32px;
+  border-bottom:3px double var(--border-strong);
+  position:relative;
+}
+h1::after{
+  content:"";
+  position:absolute;
+  bottom:-9px;
+  left:50%;
+  transform:translateX(-50%);
+  width:60px;
+  height:2px;
+  background:var(--accent);
+}
+
+h2{
+  font-size:24px;
+  padding:8px 0 8px 14px;
+  border-left:5px solid var(--accent);
+  background:linear-gradient(to right,var(--bg-2),transparent 80%);
+  margin-top:2.4em;
+}
+
+h3{
+  font-size:20px;
+  color:var(--text);
+  padding-bottom:4px;
+  border-bottom:1px dashed var(--border);
+}
+
+h4{
+  font-size:18px;
+  color:var(--text-2);
+}
+
+h5,h6{
+  font-size:17px;
+  color:var(--text-2);
+  font-weight:600;
+}
+
+p{margin:1em 0;text-align:justify;text-indent:2em}
+
+/* ========== 链接 ========== */
+a{
+  color:var(--accent);
+  text-decoration:none;
+  border-bottom:1px dotted var(--accent);
+  transition:.2s;
+}
+a:hover{
+  color:var(--accent-2);
+  border-bottom-style:solid;
+}
+
+/* ========== 列表 ========== */
+ul,ol{
+  margin:1em 0;
+  padding-left:2em;
+}
+ul li,ol li{
+  margin:.5em 0;
+  line-height:1.8;
+}
+ul li::marker{color:var(--accent)}
+ol li::marker{color:var(--accent);font-weight:600}
+
+/* ========== 表格（核心：公文风格） ========== */
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin:1.6em 0;
+  font-size:15px;
+  background:#fff;
+  box-shadow:var(--shadow);
+  page-break-inside:avoid;
+}
+
+table th{
+  background:var(--text);
+  color:#fff;
+  font-weight:700;
+  padding:12px 16px;
+  text-align:left;
+  border:1px solid var(--text);
+  font-family:"PingFang SC","Microsoft YaHei",sans-serif;
+  letter-spacing:1px;
+}
+
+table td{
+  padding:11px 16px;
+  border:1px solid var(--border);
+  vertical-align:top;
+  line-height:1.7;
+}
+
+table tr:nth-child(even) td{
+  background:var(--bg-2);
+}
+
+table tr:hover td{
+  background:#faf3d4;
+}
+
+/* 表格内强调 */
+table td strong{color:var(--accent);font-weight:700}
+
+/* ========== 表格包装器 ========== */
+.table-wrapper{
+  margin:1.6em 0;
+  padding:0;
+  overflow-x:auto;
+}
+
+/* ========== 引用块 ========== */
+blockquote{
+  margin:1.6em 0;
+  padding:14px 20px;
+  background:var(--bg-2);
+  border-left:5px solid var(--accent);
+  font-style:italic;
+  color:var(--text-2);
+  border-radius:0 4px 4px 0;
+}
+blockquote p:first-child{margin-top:0}
+blockquote p:last-child{margin-bottom:0}
+
+/* ========== 代码块 ========== */
+code{
+  font-family:"SF Mono","Menlo","Consolas",monospace;
+  font-size:14px;
+  background:var(--bg-2);
+  padding:2px 6px;
+  border-radius:3px;
+  color:var(--accent);
+  border:1px solid var(--border);
+}
+
+pre{
+  margin:1.6em 0;
+  padding:16px 20px;
+  background:#2a2520;
+  color:#e8dfc8;
+  border-radius:6px;
+  overflow-x:auto;
+  font-size:14px;
+  line-height:1.6;
+  border:1px solid var(--border-strong);
+}
+pre code{
+  background:none;
+  border:none;
+  color:inherit;
+  padding:0;
+  font-size:inherit;
+}
+
+/* ========== details/summary（折叠块） ========== */
+details{
+  margin:1.2em 0;
+  border:1px solid var(--border);
+  border-radius:4px;
+  background:#fff;
+  overflow:hidden;
+}
+details summary{
+  padding:12px 18px;
+  background:var(--bg-2);
+  cursor:pointer;
+  font-weight:600;
+  color:var(--text);
+  user-select:none;
+  list-style:none;
+  border-bottom:1px solid var(--border);
+}
+details summary:hover{background:#ede4c4}
+details summary::-webkit-details-marker{display:none}
+details summary::before{
+  content:"▶";
+  display:inline-block;
+  margin-right:8px;
+  color:var(--accent);
+  transition:transform .2s;
+}
+details[open] summary::before{transform:rotate(90deg)}
+details[open] summary{border-bottom:1px solid var(--border)}
+details>*:not(summary){
+  padding:16px 20px;
+}
+
+/* ========== 详情内容容器 ========== */
+.details-content{
+  margin:1.6em 0;
+  padding:20px 24px;
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:4px;
+  box-shadow:var(--shadow);
+}
+.details-content>p:first-child{margin-top:0}
+.details-content>p:last-child{margin-bottom:0}
+
+/* ========== 强调标记 ========== */
+strong,b{font-weight:700;color:var(--text)}
+em,i{font-style:italic;color:var(--text-2)}
+
+mark{
+  background:#fff3a3;
+  padding:1px 4px;
+  border-radius:2px;
+  color:var(--text);
+}
+
+/* ========== 分隔线 ========== */
+hr{
+  border:none;
+  height:1px;
+  background:linear-gradient(to right,transparent,var(--border-strong),transparent);
+  margin:2.4em 0;
+}
+
+/* ========== 图片 ========== */
+img{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:1.6em auto;
+  border:1px solid var(--border);
+  border-radius:4px;
+  box-shadow:var(--shadow);
+}
+
+figure{
+  margin:1.6em 0;
+  text-align:center;
+}
+figcaption{
+  margin-top:8px;
+  font-size:14px;
+  color:var(--text-3);
+  font-style:italic;
+}
+
+/* ========== 脚注/小字 ========== */
+small,.small{
+  font-size:13px;
+  color:var(--text-3);
+}
+
+/* ========== 印章式强调块 ========== */
+.notice{
+  margin:1.6em 0;
+  padding:14px 20px;
+  background:#fff8e1;
+  border:1px dashed var(--accent);
+  border-radius:4px;
+  color:var(--text);
+}
+.notice strong{color:var(--accent)}
+
+/* ========== 强调卡片 ========== */
+.callout{
+  margin:1.6em 0;
+  padding:18px 22px;
+  background:linear-gradient(135deg,#fff8e1,#fdfcf7);
+  border-left:5px solid var(--accent);
+  border-radius:0 4px 4px 0;
+  box-shadow:var(--shadow);
+}
+
+/* ========== 章节锚点（首字下沉） ========== */
+h1 + p::first-letter,
+h2 + p::first-letter{
+  font-size:1.3em;
+  font-weight:700;
+  color:var(--accent);
+}
+
+/* ========== 响应式 ========== */
+@media (max-width:820px){
+  body{font-size:16px;line-height:1.75}
+  #top,body>div:not(.nav){padding:20px 16px}
+  h1{font-size:24px;letter-spacing:3px}
+  h2{font-size:20px}
+  h3{font-size:18px}
+  table{font-size:14px}
+  table th,table td{padding:8px 10px}
+  .nav{padding:10px 14px;gap:12px}
+  .nav a{font-size:13px;padding:4px 8px}
+  .nav span{font-size:11px}
+}
+
+/* ========== 打印样式 ========== */
+@media print{
+  body{background:#fff;font-size:12pt;line-height:1.6}
+  .nav{display:none}
+  h1{font-size:20pt;page-break-before:avoid}
+  h2{font-size:16pt;page-break-after:avoid}
+  h3{font-size:14pt}
+  table{page-break-inside:avoid;box-shadow:none}
+  table th{background:#ddd !important;color:#000 !important}
+  a{color:#000;border-bottom:none}
+  blockquote,details,.details-content,.callout{box-shadow:none;border:1px solid #ccc}
+}
