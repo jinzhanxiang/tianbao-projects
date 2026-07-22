@@ -7,72 +7,187 @@
 <meta name="description" content="天保控股项目管理系统 v3 · 首页 · 行业分布 + 行业最新动态">
 <link rel="stylesheet" href="assets/tianbao.css">
 <style>
-/* === index.html 专属 · 首页微调 === */
-body{background:var(--bg)}
-.v3-home{max-width:1320px;margin:0 auto;padding:0 24px}
+/* === index.html 专属 · 首页美化 === */
+:root {
+  --gold: #B45309;
+  --gold-2: #D97706;
+  --indigo: #4338CA;
+  --indigo-2: #6366F1;
+}
+body{background:var(--bg);position:relative;overflow-x:hidden}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(ellipse 800px 400px at 10% 0%,rgba(192,57,43,0.05),transparent 60%),
+    radial-gradient(ellipse 800px 400px at 90% 100%,rgba(21,101,192,0.05),transparent 60%),
+    radial-gradient(circle at 50% 50%,rgba(180,83,9,0.02),transparent 70%);
+}
+.v3-home{max-width:1320px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
 
-.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:8px 0 10px}
-.v3-entry{background:linear-gradient(180deg,var(--paper) 0%,rgba(250,250,245,0.6) 100%);border:1px solid var(--border);border-radius:var(--r-lg);padding:14px 18px 18px;cursor:pointer;transition:.3s;position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;min-height:108px}
-.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--cat-color,var(--seal));transition:.3s}
-.v3-entry::after{content:'进入分类 →';position:absolute;right:18px;bottom:12px;font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:600;transition:.3s}
-.v3-entry:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08),0 2px 6px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal))}
-.v3-entry:hover::before{width:8px}
-.v3-entry:hover::after{color:var(--cat-color,var(--seal));transform:translateX(3px)}
-.v3-entry-icon{font-size:34px;line-height:1;margin-bottom:6px;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.08))}
-.v3-entry-title{font-family:var(--hei);font-size:20px;color:var(--ink);font-weight:900;margin-bottom:4px;letter-spacing:3px}
-.v3-entry-count{font-family:ui-monospace,monospace;font-size:17px;color:var(--cat-color,var(--seal));font-weight:900;margin-bottom:6px;letter-spacing:-0.5px}
-.v3-entry-count small{font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:500;margin-left:3px;letter-spacing:1px}
-.v3-entry-desc{font-family:var(--fsong);font-size:12px;color:var(--ink-2);line-height:1.5}
+/* === 概览标题 === */
+.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--ink);position:relative}
+.v3-section-h::after{content:'';position:absolute;bottom:-2px;left:0;width:80px;height:2px;background:linear-gradient(90deg,var(--seal),transparent)}
+.v3-section-h h2{font-family:var(--hei);font-size:22px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:12px;letter-spacing:4px;position:relative}
+.v3-section-h h2::before{content:'';width:5px;height:22px;background:linear-gradient(180deg,var(--doc-rule) 0%,var(--seal) 60%,var(--seal-2) 100%);border-radius:1px;box-shadow:0 0 8px rgba(192,57,43,0.4)}
+.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:12px;color:var(--ink-2);font-weight:500;letter-spacing:.5px;display:flex;align-items:center;gap:6px}
+.v3-section-h em::before{content:'';width:6px;height:6px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 3px rgba(22,163,74,0.2);animation:livePulse 2s ease-in-out infinite}
+@keyframes livePulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
 
-/* === 行业分布 · 筛选条（全宽，一行） === */
-.v3-cloud-strip{display:flex;align-items:center;gap:10px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:6px 14px;margin:6px 0}
-.v3-cloud-strip .lbl{font-family:var(--hei);font-size:13px;color:var(--ink);font-weight:800;letter-spacing:2px;flex-shrink:0;padding-right:12px;border-right:1px solid var(--border);display:flex;align-items:center;gap:6px}
-.v3-cloud-strip .lbl::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
+/* === KPI 4 宫格 · 视觉重设计 === */
+.v3-kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:12px}
+.v3-kpi{position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);border:1px solid var(--border);border-radius:14px;padding:14px 16px 12px;transition:.35s cubic-bezier(.2,.8,.2,1);overflow:hidden;display:flex;flex-direction:column;gap:6px;min-height:148px;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+.v3-kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--kpi-color) 0%,var(--kpi-color-2,var(--seal-2)) 100%)}
+.v3-kpi::after{content:'';position:absolute;top:0;right:0;width:60px;height:60px;background:radial-gradient(circle at 100% 0%,var(--kpi-color) 0%,transparent 60%);opacity:.08;transition:.4s;pointer-events:none}
+.v3-kpi:hover{transform:translateY(-4px) scale(1.01);box-shadow:0 12px 32px rgba(0,0,0,0.1),0 2px 8px var(--kpi-color);border-color:var(--kpi-color)}
+.v3-kpi:hover::after{opacity:.18;transform:scale(1.5)}
+.v3-kpi-eyebrow{font-family:ui-monospace,monospace;font-size:11px;color:var(--kpi-color);font-weight:800;letter-spacing:2.5px;display:flex;align-items:center;gap:6px;text-transform:uppercase}
+.v3-kpi-eyebrow::before{content:'';width:4px;height:10px;background:var(--kpi-color);border-radius:1px;box-shadow:0 0 6px var(--kpi-color)}
+.v3-kpi-num-row{display:flex;align-items:center;gap:10px;flex:1;min-height:48px}
+.v3-kpi-num{font-family:var(--hei);font-size:48px;font-weight:900;color:var(--kpi-color);line-height:.95;letter-spacing:-2px;text-shadow:0 2px 0 rgba(0,0,0,.04),0 4px 12px rgba(0,0,0,.05);position:relative;display:inline-block}
+.v3-kpi-num::after{content:attr(data-unit);font-family:var(--fsong);font-size:13px;font-weight:600;color:var(--ink-3);margin-left:5px;letter-spacing:1px;vertical-align:8px}
+.v3-kpi-vis{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px;justify-content:center}
+.v3-kpi-bar{height:8px;background:var(--bg-2);border-radius:4px;overflow:hidden;display:flex;border:1px solid var(--border);box-shadow:inset 0 1px 2px rgba(0,0,0,.05)}
+.v3-kpi-bar-seg{height:100%;transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;overflow:hidden}
+.v3-kpi-bar-seg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.3) 0%,transparent 50%)}
+.v3-kpi-bar-seg:not(:last-child){border-right:1px solid var(--paper)}
+.v3-kpi-bd{display:flex;flex-wrap:wrap;gap:3px 8px;font-size:11px;color:var(--ink-2);font-family:var(--fsong);font-weight:600;line-height:1.4}
+.v3-kpi-bd span{display:inline-flex;align-items:center;gap:3px}
+.v3-kpi-bd i{width:8px;height:8px;border-radius:2px;display:inline-block;flex-shrink:0;box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.v3-kpi-bd b{font-family:ui-monospace,monospace;font-weight:800;color:var(--ink);font-size:11px}
+.v3-kpi-lbl{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:800;letter-spacing:3px;padding-top:5px;border-top:1px dashed var(--border);display:flex;align-items:center;justify-content:space-between}
+.v3-kpi-lbl::after{content:'→';font-size:13px;color:var(--kpi-color);font-weight:700;opacity:0;transform:translateX(-4px);transition:.3s}
+.v3-kpi:hover .v3-kpi-lbl::after{opacity:1;transform:translateX(0)}
+
+/* 行业云 */
+.v3-kpi-cloud{display:flex;flex-wrap:wrap;gap:4px;line-height:1.3}
+.v3-kpi-cloud-tag{padding:2px 8px;background:var(--bg-2);border:1px solid var(--border);border-radius:10px;color:var(--ink-2);font-weight:600;font-size:10px;transition:.2s;cursor:default}
+.v3-kpi-cloud-tag:hover{background:var(--paper);color:var(--ink);border-color:var(--seal);transform:translateY(-1px)}
+.v3-kpi-cloud-tag b{color:var(--ink);font-family:ui-monospace,monospace;margin-left:3px;font-weight:800}
+
+/* 在推重点项目 */
+.v3-kpi-featured{display:flex;flex-direction:column;gap:3px;flex:1;justify-content:center}
+.v3-kpi-feat{display:flex;align-items:center;gap:6px;padding:4px 7px;background:var(--bg-2);border:1px solid var(--border);border-radius:5px;font-size:11px;color:var(--ink);font-weight:700;text-decoration:none;transition:.2s}
+.v3-kpi-feat:hover{background:var(--paper);border-color:var(--kpi-color);transform:translateX(2px)}
+.v3-kpi-feat .em{font-size:13px;flex-shrink:0;filter:drop-shadow(0 1px 1px rgba(0,0,0,.1))}
+.v3-kpi-feat .nm{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--fsong);font-weight:600}
+.v3-kpi-feat .iss{font-family:ui-monospace,monospace;font-size:9px;color:var(--blue);background:rgba(21,101,192,.1);padding:1px 5px;border-radius:3px;flex-shrink:0;font-weight:700;letter-spacing:.3px}
+
+/* === 3 类入口 === */
+.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:6px 0 10px}
+.v3-entry{
+  background:linear-gradient(160deg,var(--paper) 0%,var(--paper-2) 100%);
+  border:1px solid var(--border);border-radius:14px;padding:16px 18px 18px;
+  cursor:pointer;transition:.35s cubic-bezier(.2,.8,.2,1);
+  position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;min-height:112px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.04);
+}
+.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:6px;background:linear-gradient(180deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);transition:.35s}
+.v3-entry::after{content:'进入分类 →';position:absolute;right:18px;bottom:14px;font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:600;transition:.3s;letter-spacing:1px}
+.v3-entry:hover{transform:translateY(-5px) scale(1.015);box-shadow:0 12px 32px rgba(0,0,0,0.1),0 2px 8px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal))}
+.v3-entry:hover::before{width:10px;box-shadow:0 0 12px var(--cat-color,var(--seal))}
+.v3-entry:hover::after{color:var(--cat-color,var(--seal));transform:translateX(4px)}
+.v3-entry-icon{
+  font-size:36px;line-height:1;margin-bottom:6px;display:inline-block;width:48px;height:48px;line-height:48px;text-align:center;
+  background:linear-gradient(135deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);
+  border-radius:10px;color:#fff;filter:drop-shadow(0 3px 6px rgba(0,0,0,0.15));
+  transition:.35s;
+}
+.v3-entry:hover .v3-entry-icon{transform:rotate(-6deg) scale(1.1)}
+.v3-entry-title{font-family:var(--hei);font-size:22px;color:var(--ink);font-weight:900;margin-bottom:4px;letter-spacing:4px;display:inline-block;margin-left:8px;vertical-align:middle}
+.v3-entry-count{font-family:ui-monospace,monospace;font-size:20px;color:var(--cat-color,var(--seal));font-weight:900;margin-bottom:4px;letter-spacing:-.5px;display:flex;align-items:baseline;gap:6px}
+.v3-entry-count small{font-family:var(--fsong);font-size:12px;color:var(--ink-3);font-weight:600;letter-spacing:1.5px}
+.v3-entry-count::after{content:'';flex:1;height:2px;background:linear-gradient(90deg,var(--cat-color,var(--seal)) 0%,transparent 100%);opacity:.3}
+.v3-entry-desc{font-family:var(--fsong);font-size:12px;color:var(--ink-2);line-height:1.55;letter-spacing:.3px}
+
+/* === 行业分布 · 筛选条 === */
+.v3-cloud-strip{
+  display:flex;align-items:center;gap:10px;
+  background:linear-gradient(90deg,var(--paper) 0%,var(--paper-2) 100%);
+  border:1px solid var(--border);border-radius:12px;padding:8px 16px;margin:6px 0;
+  box-shadow:0 2px 6px rgba(0,0,0,0.03);
+}
+.v3-cloud-strip .lbl{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:900;letter-spacing:3px;flex-shrink:0;padding-right:14px;border-right:2px solid var(--seal);display:flex;align-items:center;gap:6px}
+.v3-cloud-strip .lbl::before{content:'';width:4px;height:16px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:1px}
 .v3-cloud-strip .v3-cloud-tags{display:flex;flex-wrap:wrap;gap:6px;flex:1;min-width:0}
 
-/* === 双栏滚动流：行业最新动态 | 近期报告 === */
-.v3-feed2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 12px}
-.v3-feed{background:var(--paper);border:1px solid var(--border);border-radius:var(--r-lg);padding:8px 14px 10px;display:flex;flex-direction:column;min-width:0}
-.v3-feed-head{display:flex;align-items:center;gap:8px;margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
-.v3-feed-head h2{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:8px;letter-spacing:2px}
-.v3-feed-head h2::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
-.v3-feed-head small{margin-left:auto;font-size:11px;color:var(--ink-3);font-family:var(--fsong)}
+.v3-cloud-tag{
+  display:inline-flex;align-items:center;gap:5px;padding:3px 10px;
+  background:var(--bg-2);border:1px solid var(--border);border-radius:14px;
+  font-family:var(--fsong);color:var(--ink-2);cursor:pointer;
+  transition:.2s;font-weight:600;
+}
+.v3-cloud-tag:hover{background:var(--paper);color:var(--ink);border-color:var(--seal);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.v3-cloud-tag.active{background:linear-gradient(135deg,var(--seal) 0%,var(--seal-2) 100%);color:#fff;border-color:var(--seal);box-shadow:0 2px 8px rgba(192,57,43,0.3)}
+.v3-cloud-tag.active .count{color:#fff;font-weight:800}
+.v3-cloud-tag .count{font-family:ui-monospace,monospace;font-weight:700;color:var(--seal);font-size:11px;background:rgba(192,57,43,0.1);padding:0 5px;border-radius:8px;min-width:18px;text-align:center}
+.v3-cloud-tag-cloud{font-size:13px;font-weight:800}
+.v3-cloud-tag-cloud .count{background:rgba(0,0,0,.08);color:var(--ink-2)}
+.v3-cloud-tag-cloud.active .count{background:rgba(255,255,255,.25);color:#fff}
+.v3-cloud-empty{padding:6px 10px;color:var(--ink-3);font-family:var(--fsong);font-size:12px}
 
-.v3-marquee{position:relative;height:200px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 7%,#000 93%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 7%,#000 93%,transparent 100%)}
+/* === 双栏滚动流 === */
+.v3-feed2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:6px 0 12px}
+.v3-feed{
+  background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
+  border:1px solid var(--border);border-radius:12px;padding:8px 14px 10px;
+  display:flex;flex-direction:column;min-width:0;min-height:0;
+  box-shadow:0 2px 6px rgba(0,0,0,0.04);
+  position:relative;overflow:hidden;
+}
+.v3-feed::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--feed-color,var(--blue)) 0%,transparent 100%)}
+.v3-feed-head{display:flex;align-items:center;gap:8px;margin-bottom:6px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.v3-feed-head h2{font-family:var(--hei);font-size:17px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:8px;letter-spacing:3px}
+.v3-feed-head h2::before{content:'';width:4px;height:16px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:1px}
+.v3-feed-head small{margin-left:auto;font-size:11px;color:var(--ink-3);font-family:var(--fsong);display:flex;align-items:center;gap:4px}
+.v3-feed-head small::before{content:'';width:5px;height:5px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 2px rgba(22,163,74,0.2);animation:livePulse 2s ease-in-out infinite}
+
+.v3-marquee{position:relative;height:188px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 8%,#000 92%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 8%,#000 92%,transparent 100%)}
 .v3-marquee-track{display:flex;flex-direction:column;animation:marqueeUp var(--dur,32s) linear infinite;will-change:transform}
 .v3-marquee:hover .v3-marquee-track{animation-play-state:paused}
 .v3-marquee.no-scroll .v3-marquee-track{animation:none}
 @keyframes marqueeUp{from{transform:translateY(0)}to{transform:translateY(-50%)}}
 
-.v3-feed-card{display:block;background:var(--bg-2);border:1px solid var(--border);border-left:3px solid var(--blue);border-radius:6px;padding:6px 10px;margin-bottom:6px;text-decoration:none;color:inherit;transition:.15s;flex-shrink:0}
-.v3-feed-card:hover{background:var(--paper);border-left-color:var(--seal);box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.v3-feed-card-top{display:flex;align-items:center;gap:8px;margin-bottom:3px}
-.v3-feed-tag{font-size:10px;color:var(--blue);background:rgba(21,101,192,.1);padding:1px 7px;border-radius:3px;font-weight:700;letter-spacing:1px}
+.v3-feed-card{
+  display:flex;flex-direction:column;gap:3px;background:var(--bg-2);
+  border:1px solid var(--border);border-left:3px solid var(--feed-color,var(--blue));
+  border-radius:6px;padding:7px 11px;margin-bottom:6px;
+  text-decoration:none;color:inherit;transition:.2s;flex-shrink:0;
+}
+.v3-feed-card:hover{background:var(--paper);border-left-width:5px;box-shadow:0 4px 12px rgba(0,0,0,.08);transform:translateX(2px)}
+.v3-feed-card-top{display:flex;align-items:center;gap:8px}
+.v3-feed-tag{font-size:10px;color:var(--feed-color,var(--blue));background:rgba(21,101,192,0.1);padding:1px 8px;border-radius:10px;font-weight:800;letter-spacing:1px;line-height:1.4}
 .v3-feed-date{font-family:ui-monospace,monospace;font-size:11px;color:var(--seal);font-weight:800;letter-spacing:1px;margin-left:auto;flex-shrink:0}
-.v3-feed-title{font-family:var(--fsong);font-size:13px;color:var(--ink);font-weight:700;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.v3-feed-title{font-family:var(--fsong);font-size:13px;color:var(--ink);font-weight:700;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;letter-spacing:.2px}
 .v3-feed-card:hover .v3-feed-title{color:var(--seal)}
-.v3-feed-sub{font-size:11px;color:var(--ink-3);font-family:var(--fsong);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.v3-feed-empty{padding:32px 12px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:13px;text-indent:0}
-
-.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 6px;padding-bottom:5px;border-bottom:2px solid var(--ink)}
-.v3-section-h h2{font-family:var(--hei);font-size:19px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:10px;letter-spacing:3px}
-.v3-section-h h2::before{content:'';width:4px;height:18px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:1px}
-.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:12px;color:var(--ink-2);font-weight:500;letter-spacing:.5px}
-.v3-section-h .tools{display:flex;gap:8px;align-items:center}
-.v3-section-h .tools small{font-size:11px;color:var(--ink-3)}
+.v3-feed-sub{font-size:11px;color:var(--ink-3);font-family:var(--fsong);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:flex;align-items:center;gap:4px}
+.v3-feed-empty{padding:40px 12px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:13px;text-indent:0}
 
 .v3-loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
 .v3-loading::before{content:'';display:inline-block;width:14px;height:14px;border:2px solid var(--border);border-top-color:var(--seal);border-radius:50%;animation:spin 1s linear infinite;margin-right:8px;vertical-align:-2px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
+/* === 卡片入场动画 === */
+@keyframes cardIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.v3-kpi,.v3-entry,.v3-feed,.v3-cloud-strip{animation:cardIn .5s cubic-bezier(.2,.8,.2,1) backwards}
+.v3-kpi:nth-of-type(1){animation-delay:.05s}
+.v3-kpi:nth-of-type(2){animation-delay:.1s}
+.v3-kpi:nth-of-type(3){animation-delay:.15s}
+.v3-kpi:nth-of-type(4){animation-delay:.2s}
+.v3-entry:nth-of-type(1){animation-delay:.15s}
+.v3-entry:nth-of-type(2){animation-delay:.2s}
+.v3-entry:nth-of-type(3){animation-delay:.25s}
+
 @media (max-width:1100px){
   .v3-entries{grid-template-columns:1fr 1fr}
   .v3-feed2{grid-template-columns:1fr}
+  .v3-kpi-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:760px){
   .v3-entries{grid-template-columns:1fr}
   .v3-feed2{grid-template-columns:1fr}
-  .v3-marquee{height:180px}
+  .v3-kpi-grid{grid-template-columns:1fr 1fr}
+  .v3-marquee{height:170px}
+  .v3-section-h h2{font-size:18px;letter-spacing:2px}
 }
 </style>
 </head>
@@ -99,14 +214,14 @@ body{background:var(--bg)}
 
   <!-- 项目概括总览 · 4 宫格可视化 -->
   <div class="v3-section-h">
-    <h2>📊 项目概括总览</h2>
-    <em id="overviewMeta">实时统计 · 从 ledger 聚合</em>
+    <h2>项目概括总览</h2>
+    <em id="overviewMeta">实时统计 · 同步 ledger.csv → projects.json → reports.json</em>
   </div>
   <div class="v3-kpi-grid" id="kpiGrid">
-    <div class="v3-kpi" style="--kpi-color:#C0392B">
-      <div class="v3-kpi-eyebrow">PROJECT PIPELINE</div>
+    <div class="v3-kpi" style="--kpi-color:#C0392B;--kpi-color-2:#E67E22">
+      <div class="v3-kpi-eyebrow">Project Pipeline</div>
       <div class="v3-kpi-num-row">
-        <div class="v3-kpi-num" id="kpiProjects" data-counter-up="0">0</div>
+        <div class="v3-kpi-num" id="kpiProjects" data-counter-up="0" data-unit="个项目">0</div>
         <div class="v3-kpi-vis">
           <div class="v3-kpi-bar" id="kpiProjectsBar"></div>
           <div class="v3-kpi-bd" id="kpiProjectsBd"></div>
@@ -114,10 +229,10 @@ body{background:var(--bg)}
       </div>
       <div class="v3-kpi-lbl">总项目数</div>
     </div>
-    <div class="v3-kpi" style="--kpi-color:#1565C0">
-      <div class="v3-kpi-eyebrow">RESEARCH REPORTS</div>
+    <div class="v3-kpi" style="--kpi-color:#1565C0;--kpi-color-2:#0EA5E9">
+      <div class="v3-kpi-eyebrow">Research Reports</div>
       <div class="v3-kpi-num-row">
-        <div class="v3-kpi-num" id="kpiReports" data-counter-up="0">0</div>
+        <div class="v3-kpi-num" id="kpiReports" data-counter-up="0" data-unit="份报告">0</div>
         <div class="v3-kpi-vis">
           <div class="v3-kpi-bar" id="kpiReportsBar"></div>
           <div class="v3-kpi-bd" id="kpiReportsBd"></div>
@@ -125,40 +240,46 @@ body{background:var(--bg)}
       </div>
       <div class="v3-kpi-lbl">报告总数</div>
     </div>
-    <div class="v3-kpi" style="--kpi-color:#0D8050">
-      <div class="v3-kpi-eyebrow">INDUSTRY COVERAGE</div>
+    <div class="v3-kpi" style="--kpi-color:#0D8050;--kpi-color-2:#16A34A">
+      <div class="v3-kpi-eyebrow">Industry Coverage</div>
       <div class="v3-kpi-num-row">
-        <div class="v3-kpi-num" id="kpiIndustries" data-counter-up="0">0</div>
+        <div class="v3-kpi-num" id="kpiIndustries" data-counter-up="0" data-unit="个行业">0</div>
         <div class="v3-kpi-vis">
           <div class="v3-kpi-cloud" id="kpiIndustriesCloud"></div>
         </div>
       </div>
       <div class="v3-kpi-lbl">覆盖行业</div>
     </div>
-    <div class="v3-kpi" style="--kpi-color:#8B5CF6">
-      <div class="v3-kpi-eyebrow">FEATURED · 投资部直管</div>
+    <div class="v3-kpi" style="--kpi-color:#7C3AED;--kpi-color-2:#A855F7">
+      <div class="v3-kpi-eyebrow">Featured · 投资部直管</div>
       <div class="v3-kpi-featured" id="kpiFeaturedList"></div>
-      <div class="v3-kpi-lbl">在推重点项目 · <span id="kpiFeatured" data-counter-up="0" style="font-family:ui-monospace,monospace;color:var(--seal);font-size:14px">0</span></div>
+      <div class="v3-kpi-lbl">在推重点项目 · <span id="kpiFeatured" data-counter-up="0" style="font-family:ui-monospace,monospace;color:var(--kpi-color);font-size:16px;font-weight:900">0</span></div>
     </div>
   </div>
 
   <!-- 3 类入口 · 公文卡片 -->
   <div class="v3-entries">
-    <a class="v3-entry" href="page.html?view=cat&cat=在推重点" style="--cat-color:#C0392B">
-      <div class="v3-entry-icon">🏛</div>
-      <div class="v3-entry-title">在推重点</div>
+    <a class="v3-entry" href="page.html?view=cat&cat=在推重点" style="--cat-color:#C0392B;--cat-color-2:#E67E22">
+      <div style="display:flex;align-items:center;margin-bottom:8px">
+        <div class="v3-entry-icon">🏛</div>
+        <div class="v3-entry-title">在推重点</div>
+      </div>
       <div class="v3-entry-count" id="cntP0">— <small>个项目</small></div>
       <div class="v3-entry-desc">天保控股投资部直管的重大并购 / 战略投资 · 立项或尽调阶段中</div>
     </a>
-    <a class="v3-entry" href="page.html?view=cat&cat=储备" style="--cat-color:#1565C0">
-      <div class="v3-entry-icon">📂</div>
-      <div class="v3-entry-title">储备</div>
+    <a class="v3-entry" href="page.html?view=cat&cat=储备" style="--cat-color:#1565C0;--cat-color-2:#0EA5E9">
+      <div style="display:flex;align-items:center;margin-bottom:8px">
+        <div class="v3-entry-icon">📂</div>
+        <div class="v3-entry-title">储备</div>
+      </div>
       <div class="v3-entry-count" id="cntP1">— <small>个项目</small></div>
       <div class="v3-entry-desc">未来 6-18 个月可能推进的项目 · 未上市 / 上市 / REITs</div>
     </a>
-    <a class="v3-entry" href="page.html?view=cat&cat=观察" style="--cat-color:#6B7280">
-      <div class="v3-entry-icon">🔭</div>
-      <div class="v3-entry-title">观察</div>
+    <a class="v3-entry" href="page.html?view=cat&cat=观察" style="--cat-color:#6B7280;--cat-color-2:#9CA3AF">
+      <div style="display:flex;align-items:center;margin-bottom:8px">
+        <div class="v3-entry-icon">🔭</div>
+        <div class="v3-entry-title">观察</div>
+      </div>
       <div class="v3-entry-count" id="cntP2">— <small>个项目</small></div>
       <div class="v3-entry-desc">已立项 / 知识图谱 / 中心入口 · 维持弱跟踪</div>
     </a>
@@ -175,7 +296,7 @@ body{background:var(--bg)}
   <!-- 双栏滚动流：行业最新动态 | 近期报告 -->
   <div class="v3-feed2">
     <!-- 左：行业最新动态 -->
-    <div class="v3-feed v3-hud v3-corner">
+    <div class="v3-feed v3-hud v3-corner" style="--feed-color:#C0392B">
       <div class="v3-feed-head">
         <h2>行业最新动态</h2>
         <small id="newsIndLabel">全部行业</small>
@@ -188,9 +309,9 @@ body{background:var(--bg)}
     </div>
 
     <!-- 右：近期报告 -->
-    <div class="v3-feed v3-hud v3-corner">
+    <div class="v3-feed v3-hud v3-corner" style="--feed-color:#1565C0">
       <div class="v3-feed-head">
-        <h2>📡 近期报告</h2>
+        <h2>近期报告</h2>
         <small id="recentTotalLbl">载入中...</small>
       </div>
       <div class="v3-marquee" id="recentMarquee">
@@ -207,50 +328,41 @@ body{background:var(--bg)}
 <script src="assets/cmdK.js"></script>
 <script>
 /* ==============================
- * 首页 v3 渲染器
+ * 首页 v3 渲染器 · 视觉重设计版
  * ============================== */
 (function(){
   'use strict';
 
   let PROJECTS = [];
   let REPORTS = [];
-  let NEWS = [];   // [{title, summary, source, date, url, industry}] — flat list
-  let NEWS_BY_IND = {};  // {industry_name: [...]}
+  let NEWS = [];
+  let NEWS_BY_IND = {};
   let SELECTED_INDUSTRY = '__ALL__';
 
-  /* ---------- v2 → v3 URL 兼容 ---------- */
   function legacyRedirect(){
     const u = new URLSearchParams(location.search);
     const view = u.get('view');
     const cat = u.get('cat');
     const code = u.get('code');
     if (view === 'cat' && cat) {
-      // v2 ?view=cat&cat=deal → page.html?view=cat&cat=在推重点（page.html 内部映射）
       location.replace('page.html?' + u.toString());
       return true;
     }
     if (view === 'proj' && code) {
-      // v2 ?view=proj&code=xingheng → detail.html?code=xingheng
       location.replace('detail.html?code=' + encodeURIComponent(code));
       return true;
     }
     return false;
   }
 
-  /* ---------- 路由工具 ---------- */
   function v2to3Cat(cat){
     const map = {
-      'deal': '在推重点',
-      'np': '储备',
-      'p': '储备',
-      'kg': '观察',
-      'hub': '观察',
-      'course': '观察',
+      'deal': '在推重点','np': '储备','p': '储备',
+      'kg': '观察','hub': '观察','course': '观察',
     };
     return map[cat] || '在推重点';
   }
 
-  /* ---------- 加载数据 ---------- */
   async function loadData(){
     try {
       const [p, r, n] = await Promise.all([
@@ -262,7 +374,6 @@ body{background:var(--bg)}
       REPORTS = (await r.json()).by_code || {};
       const newsRaw = (await n.json()) || {};
       NEWS_BY_IND = newsRaw.industries || {};
-      // 拉平为带 industry 字段的数组
       NEWS = [];
       Object.entries(NEWS_BY_IND).forEach(([ind, items])=>{
         items.forEach(it=>NEWS.push({...it, industry:ind}));
@@ -271,7 +382,6 @@ body{background:var(--bg)}
       console.error('数据加载失败', e);
       PROJECTS = []; REPORTS = {}; NEWS = []; NEWS_BY_IND = {};
     }
-    // 暴露给 ⌘K 搜索
     window.PROJECTS = PROJECTS;
     window.REPORTS = REPORTS;
     if(window.cmdK) window.cmdK.rebuildIndex();
@@ -280,14 +390,12 @@ body{background:var(--bg)}
 
   /* ---------- KPI · 可视化 ---------- */
   const STAGE_COLORS = {'在推重点':'#C0392B','储备':'#1565C0','观察':'#6B7280'};
-  const ISS_COLORS = {'未上市':'#8B5CF6','上市':'#0D8050','REITs':'#E67E22'};
-  const CAT_PALETTE = ['#1565C0','#C0392B','#0D8050','#8B5CF6','#E67E22','#0EA5E9','#DC2626'];
+  const CAT_PALETTE = ['#1565C0','#C0392B','#0D8050','#7C3AED','#E67E22','#0EA5E9','#DC2626','#0891B2','#7C2D12','#1E3A8A','#166534','#B45309','#6D28D9','#BE185D'];
 
   function renderKPI(){
     const totalP = PROJECTS.length;
     const totalR = Object.values(REPORTS).reduce((s,a)=>s+a.length,0);
 
-    // 行业聚合
     const indMap = new Map();
     PROJECTS.forEach(p=>{
       p.industry.split(/[·\/ ]/).forEach(x=>{const t=x.trim(); if(t) indMap.set(t,(indMap.get(t)||0)+1)});
@@ -296,10 +404,8 @@ body{background:var(--bg)}
     });
     const industries = [...indMap.entries()].sort((a,b)=>b[1]-a[1]);
 
-    // 在推重点
     const featuredList = PROJECTS.filter(p=>p.stage_v3==='在推重点').sort((a,b)=>(b.progress_pct||0)-(a.progress_pct||0));
 
-    // 报告按 category 统计
     const catMap = new Map();
     Object.values(REPORTS).flat().forEach(r=>{
       const c = r.category || '未分类';
@@ -307,7 +413,7 @@ body{background:var(--bg)}
     });
     const cats = [...catMap.entries()].sort((a,b)=>b[1]-a[1]);
 
-    /* ① 总项目数 · 阶段拆分条 */
+    /* ① 总项目数 · 阶段分段 */
     document.getElementById('kpiProjects').setAttribute('data-counter-up', totalP);
     const stages = ['在推重点','储备','观察'];
     const stageBar = document.getElementById('kpiProjectsBar');
@@ -318,49 +424,47 @@ body{background:var(--bg)}
     }).join('');
     document.getElementById('kpiProjectsBd').innerHTML = stages.map(s=>{
       const cnt = PROJECTS.filter(p=>p.stage_v3===s).length;
-      return `<span><i style="background:${STAGE_COLORS[s]}"></i>${s} <b>${cnt}</b></span>`;
+      return `<span><i style="background:${STAGE_COLORS[s]}"></i>${s}<b>${cnt}</b></span>`;
     }).join('');
 
-    /* ② 报告总数 · 类别条 */
+    /* ② 报告总数 · 类别分段 */
     document.getElementById('kpiReports').setAttribute('data-counter-up', totalR);
     const repBar = document.getElementById('kpiReportsBar');
     const topCats = cats.slice(0,7);
     const otherCnt = cats.slice(7).reduce((s,[,c])=>s+c,0);
-    const palette = CAT_PALETTE.slice();
-    const allSeg = topCats.map(([c,n],i)=>({c,n,color:palette[i%palette.length]}));
+    const allSeg = topCats.map(([c,n],i)=>({c,n,color:CAT_PALETTE[i%CAT_PALETTE.length]}));
     if(otherCnt>0) allSeg.push({c:'其他',n:otherCnt,color:'#9CA3AF'});
     repBar.innerHTML = allSeg.map(s=>{
       const pct = totalR>0 ? (s.n/totalR*100).toFixed(1) : 0;
       return `<div class="v3-kpi-bar-seg" style="width:${pct}%;background:${s.color}" title="${s.c}: ${s.n}"></div>`;
     }).join('');
-    document.getElementById('kpiReportsBd').innerHTML = topCats.slice(0,3).map(([c,n],i)=>`<span><i style="background:${palette[i%palette.length]}"></i>${c} <b>${n}</b></span>`).join('') + (otherCnt>0?`<span><i style="background:#9CA3AF"></i>其他 <b>${otherCnt}</b></span>`:'');
+    document.getElementById('kpiReportsBd').innerHTML = topCats.slice(0,4).map(([c,n],i)=>`<span><i style="background:${CAT_PALETTE[i%CAT_PALETTE.length]}"></i>${c}<b>${n}</b></span>`).join('') + (otherCnt>0?`<span><i style="background:#9CA3AF"></i>其他<b>${otherCnt}</b></span>`:'');
 
     /* ③ 行业 · Top 4 标签云 */
     document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.length);
     const top4 = industries.slice(0,4);
-    document.getElementById('kpiIndustriesCloud').innerHTML = top4.map(([n,c])=>`<span class="v3-kpi-cloud-tag">${n} <b>${c}</b></span>`).join('') + (industries.length>4?`<span class="v3-kpi-cloud-tag" style="background:var(--paper-2);color:var(--ink-3)">+${industries.length-4}</span>`:'');
+    document.getElementById('kpiIndustriesCloud').innerHTML = top4.map(([n,c])=>`<span class="v3-kpi-cloud-tag">${n}<b>${c}</b></span>`).join('') + (industries.length>4?`<span class="v3-kpi-cloud-tag" style="opacity:.6">+${industries.length-4}</span>`:'');
 
     /* ④ 在推重点项目 · 卡片堆叠 */
     document.getElementById('kpiFeatured').setAttribute('data-counter-up', featuredList.length);
     document.getElementById('kpiFeaturedList').innerHTML = featuredList.slice(0,3).map(p=>{
-      const emoji = (p.industry||'').includes('电池')?'🔋':(p.industry||'').includes('医疗')?'🏥':(p.industry||'').includes('芯片')?'💎':(p.industry||'').includes('航天')?'🛰️':(p.industry||'').includes('数据')?'🖥️':(p.industry||'').includes('智能体')?'🧠':'🏢';
+      const emoji = (p.industry||'').includes('电池')?'🔋':(p.industry||'').includes('医疗')?'🏥':(p.industry||'').includes('芯片')?'💎':(p.industry||'').includes('航天')?'🛰️':(p.industry||'').includes('数据')?'🖥️':(p.industry||'').includes('智能体')?'🧠':(p.industry||'').includes('基建')?'🏗️':(p.industry||'').includes('能源')?'⚡':'🏢';
       return `<a class="v3-kpi-feat" href="detail.html?code=${encodeURIComponent(p.code)}"><span class="em">${emoji}</span><span class="nm">${escapeHtml(p.name_cn||p.code)}</span><span class="iss">${escapeHtml(p.iss||'—')}</span></a>`;
     }).join('') || '<div style="font-size:11px;color:var(--ink-3);font-family:var(--fsong);padding:6px">暂无在推重点</div>';
 
-    /* 概览头部 */
+    /* 概览头部同步戳 */
     const now = new Date();
     const pad = n=>String(n).padStart(2,'0');
     const stamp = `${pad(now.getHours())}:${pad(now.getMinutes())} 同步`;
     document.getElementById('overviewMeta').textContent = `实时统计 · ${stamp} · 数据源 ledger.csv → projects.json → reports.json`;
 
-    // 分类入口计数
+    /* 分类入口计数 */
     ['在推重点','储备','观察'].forEach(s=>{
       const cnt = PROJECTS.filter(p=>p.stage_v3===s).length;
       const el = document.getElementById('cntP'+(s==='在推重点'?0:s==='储备'?1:2));
-      if(el) el.textContent = `${cnt} 个项目`;
+      if(el) el.innerHTML = `${cnt} <small>个项目</small>`;
     });
 
-    // 触发 counter-up 滚动
     if(window.cmdK) window.cmdK.counterUpAll();
   }
 
@@ -368,7 +472,6 @@ body{background:var(--bg)}
   function aggregateIndustries(){
     const map = {};
     PROJECTS.forEach(p=>{
-      // 主名（·前的）
       const main = p.industry.split('·')[0].trim();
       if(!main) return;
       if(!map[main]) map[main] = {count:0, reports:0, samples:[]};
@@ -390,13 +493,11 @@ body{background:var(--bg)}
     }
     const max = items[0].count;
     host.innerHTML = `
-      <span class="v3-cloud-tag v3-cloud-tag-cloud${SELECTED_INDUSTRY==='__ALL__'?' active':''}" data-ind="__ALL__" style="font-size:15px">
+      <span class="v3-cloud-tag v3-cloud-tag-cloud${SELECTED_INDUSTRY==='__ALL__'?' active':''}" data-ind="__ALL__">
         全部行业 <span class="count">${items.length}</span>
       </span>
       ${items.map(it=>{
-        const lvl = it.count===max ? 1 : it.count>=max*0.6 ? 2 : 3;
-        const fs = lvl===1 ? 16 : lvl===2 ? 14 : 13;
-        return `<span class="v3-cloud-tag${SELECTED_INDUSTRY===it.name?' active':''}" data-ind="${it.name}" style="font-size:${fs}px">
+        return `<span class="v3-cloud-tag${SELECTED_INDUSTRY===it.name?' active':''}" data-ind="${it.name}">
           ${it.name} <span class="count">${it.count}</span>
         </span>`;
       }).join('')}
@@ -412,11 +513,8 @@ body{background:var(--bg)}
 
   /* ---------- 行业动态 ---------- */
   function newsForIndustry(){
-    if(SELECTED_INDUSTRY==='__ALL__'){
-      return NEWS;
-    }
+    if(SELECTED_INDUSTRY==='__ALL__') return NEWS;
     const keys = Object.keys(NEWS_BY_IND);
-    // 词云标签是主行业名（·前段），新闻按细分名归档，需用项目全量子标签搭桥
     const tokens = new Set([SELECTED_INDUSTRY]);
     PROJECTS.forEach(p=>{
       if((p.industry||'').split('·')[0].trim() === SELECTED_INDUSTRY){
@@ -458,12 +556,10 @@ body{background:var(--bg)}
         <div class="v3-feed-title">${escapeHtml(n.title || '')}</div>
       </a>
     `).join('');
-    // 复制两份实现无缝循环滚动
     track.innerHTML = cards + cards;
     setMarquee('newsMarquee','newsTrack',data.length);
   }
 
-  /* ---------- 滚动跑马灯：按内容高度动态设速，内容不足则不滚 ---------- */
   function setMarquee(marqueeId, trackId, count){
     const mq = document.getElementById(marqueeId);
     const track = document.getElementById(trackId);
@@ -476,13 +572,12 @@ body{background:var(--bg)}
         track.style.removeProperty('--dur');
       } else {
         mq.classList.remove('no-scroll');
-        const dur = Math.max(18, Math.round(oneCopy / 22)); // ≈22px/s
+        const dur = Math.max(18, Math.round(oneCopy / 22));
         track.style.setProperty('--dur', dur + 's');
       }
     });
   }
 
-  /* ---------- 实时时钟 ---------- */
   function tick(){
     const d=new Date();
     const pad=n=>String(n).padStart(2,'0');
@@ -492,7 +587,6 @@ body{background:var(--bg)}
       `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
   }
 
-  /* ---------- 近期报告扫描（时间线）---------- */
   function collectRecentReports(){
     const all = [];
     Object.entries(REPORTS).forEach(([code, list])=>{
@@ -531,22 +625,17 @@ body{background:var(--bg)}
 
   function escapeHtml(s){return (s||'').replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));}
 
-  /* ---------- 主渲染 ---------- */
   function renderAll(){
     renderKPI();
     renderCloud();
     renderNews();
     renderRecentTimeline();
-    // 绑定 3D 倾斜到 v3-entry / v3-recent-card（cmdK.js 提供）
     if(window.cmdK){
       window.cmdK.tiltAll();
     }
   }
 
-  /* ---------- 绑定 ---------- */
   function bind(){
-    // 词云点击联动在 renderCloud 内绑定；滚动流为自动跑马灯，无需分页按钮
-    // 窗口尺寸变化时重算跑马灯速度
     let rz;
     window.addEventListener('resize', ()=>{
       clearTimeout(rz);
@@ -554,9 +643,7 @@ body{background:var(--bg)}
     });
   }
 
-  /* ---------- 初始化 ---------- */
   function init(){
-    // v2 → v3 URL 兼容（如果有旧 view= 参数则重定向到新结构）
     if (legacyRedirect()) return;
     bind();
     tick(); setInterval(tick, 1000);
