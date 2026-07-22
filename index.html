@@ -366,10 +366,13 @@ body::before{
 
   /* NAV · 缩小品牌 + 时钟保小 */
   .nav{padding:6px 12px}
+  .nav-inner{flex-wrap:wrap;gap:6px}
   .nav-logo{width:30px;height:30px;font-size:14px}
-  .nav-brand>div>div:first-child{font-size:14px!important;letter-spacing:1px}
-  .nav-brand-sub{font-size:10px!important}
+  .nav-brand>div>div:first-child{font-size:13px!important;letter-spacing:.5px;white-space:nowrap}
+  .nav-brand-sub{font-size:9px!important;display:none}
   .nav-clock{font-size:11px}
+  .nav-links{flex-wrap:wrap;gap:4px}
+  .nav-links a{padding:3px 8px;font-size:11px}
 }
 /* === 短视口 · 高度 < 800 的紧凑模式（移动端/小窗） === */
 @media (max-height:820px){
