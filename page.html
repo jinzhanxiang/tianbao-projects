@@ -9,14 +9,11 @@
 <style>
 body{background:var(--bg)}
 .v3-cat{max-width:1320px;margin:0 auto;padding:0 24px}
-.v3-cat-head{display:block;text-align:center;margin:22px 0 16px;padding:0 0 12px;border-bottom:3px double var(--ink);position:relative}
-.v3-cat-head h1{font-family:var(--hei);font-size:28px;color:var(--ink);margin:0 0 6px;letter-spacing:6px;font-weight:900;display:inline-block;padding:0 28px;position:relative}
-.v3-cat-head h1::before,.v3-cat-head h1::after{content:'';position:absolute;top:50%;width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--seal))}
-.v3-cat-head h1::before{right:100%;margin-right:14px}
-.v3-cat-head h1::after{left:100%;margin-left:14px;background:linear-gradient(90deg,var(--seal),transparent)}
-.v3-cat-head .sub{font-family:var(--fsong);font-size:14px;color:var(--ink-3);letter-spacing:3px;margin-top:4px;text-align:center}
-.v3-cat-head .meta{font-family:var(--fsong);font-size:13px;color:var(--ink-2);text-align:right;line-height:1.7;position:absolute;right:0;top:6px}
-.v3-cat-head .meta b{color:var(--seal)}
+.v3-cat-head{display:flex;justify-content:space-between;align-items:flex-end;margin:6px 0 6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
+.v3-cat-head h1{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:800;margin:0;letter-spacing:2px;display:flex;align-items:center;gap:8px}
+.v3-cat-head h1::before{content:'';width:3px;height:13px;background:var(--doc-rule);border-radius:1px}
+.v3-cat-head .meta{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);text-align:right;line-height:1.5}
+.v3-cat-head .meta b{color:var(--seal);font-size:13px}
 
 .v3-loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
 
@@ -42,7 +39,7 @@ body{background:var(--bg)}
       <div class="nav-logo">保</div>
       <div>
         <div>天保控股投资部 · 项目管理中心</div>
-        <div style="font-size:11px;color:var(--ink-3);font-weight:400">分类矩阵</div>
+        <div class="nav-brand-sub">分类矩阵 · 3 一级 × 3 二级<span class="sep">·</span>支持拖拽项目在 9 单元格间移动</div>
       </div>
     </a>
     <div class="nav-links">
@@ -56,18 +53,8 @@ body{background:var(--bg)}
 <div class="v3-cat viewport-fit v3-grow">
 
   <div class="v3-cat-head">
-    <div>
-      <h1 id="catH1">项目分类矩阵</h1>
-      <div class="sub">3 一级 × 3 二级 · 拖拽项目卡可在单元格间移动</div>
-    </div>
+    <h1 id="catH1">项目分类矩阵 · 3 × 3</h1>
     <div class="meta" id="catMeta">载入中...</div>
-  </div>
-
-  <!-- 面包屑 -->
-  <div class="v3-breadcrumb">
-    <a href="index.html">首页</a>
-    <span class="sep">/</span>
-    <span class="current">分类矩阵</span>
   </div>
 
   <!-- 矩阵筛选提示条 -->
