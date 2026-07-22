@@ -344,15 +344,15 @@ body{background:var(--bg)}
   /* ---------- 折叠逻辑 ---------- */
   function setupFold(){
     const cells = document.querySelectorAll('.v3-cell');
-    // 默认全部折叠
-    cells.forEach(c=>c.classList.add('collapsed'));
+    cells.forEach(c=>{
+      const has = c.dataset.empty === 'false';
+      c.classList.toggle('collapsed', !has);
+    });
     updateFoldState();
-    // 点击 cell-h 切换
     cells.forEach(cell=>{
       const h = cell.querySelector('.v3-cell-h');
       if(!h) return;
       h.addEventListener('click', (e)=>{
-        // 避免点击 a.v3-card 时触发（虽然 v3-card 在 cell-list 不在 cell-h）
         if(e.target.closest('.v3-card')) return;
         cell.classList.toggle('collapsed');
         updateFoldState();
