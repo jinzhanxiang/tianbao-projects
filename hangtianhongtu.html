@@ -3,81 +3,98 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>✦ 航天宏图 · 项目时间线</title>
-<script src="assets/particles.js"></script>
-<link rel="stylesheet" href="assets/cyber-override.css">
+<title>航天宏图项目时间线</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{height:100vh;overflow:hidden;display:flex;flex-direction:column;font-family:var(--cyber-font);background:var(--cyber-bg);color:var(--cyber-text);position:relative;z-index:0}
-body > *{position:relative;z-index:2}
+:root{
+  --c-accent:#1a365d;
+  --c-blue:#3182ce;
+  --c-warning:#d69e2e;
+  --c-success:#38a169;
+  --c-muted:#718096;
+  --c-bg:#f7fafc;
+  --c-card:#fff;
+  --c-text:#2d3748;
+  --c-text2:#4a5568;
+}
+body{
+  font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC",serif;
+  color:var(--c-text);background:var(--c-bg);line-height:1.9;font-size:17px;
+  min-height:100vh;
+}
+.back-nav{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:12px 20px;background:var(--c-card);
+  border-bottom:1px solid #e2e8f0;
+}
+.back-nav a{color:var(--c-blue);text-decoration:none;font-size:14px}
+.back-nav a:hover{text-decoration:underline}
 
-/* Hero */
-.hero{text-align:center;padding:28px 20px 16px;position:relative}
-.hero::after{content:'';position:absolute;bottom:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,var(--cyber-cyan),var(--cyber-purple),transparent);opacity:0.3}
-.hero h1{font-size:28px;font-weight:700;margin-bottom:4px;background:linear-gradient(90deg,#fff,var(--cyber-cyan),var(--cyber-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.hero p{color:var(--cyber-text2);font-size:15px}
+.hero{
+  background:linear-gradient(135deg,#1a365d,#2d3748);
+  color:#fff;padding:32px 20px;text-align:center;
+}
+.hero h1{font-size:24px;margin-bottom:6px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.hero p{color:rgba(255,255,255,0.7);font-size:14px}
 
-/* Container */
-.container{flex:1;overflow-y:auto;min-height:0;max-width:800px;margin:0 auto;padding:20px;width:100%}
-.container::-webkit-scrollbar{width:6px}
-.container::-webkit-scrollbar-track{background:rgba(0,212,255,0.02)}
-.container::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--cyber-cyan),var(--cyber-purple));border-radius:3px}
+.container{max-width:800px;margin:0 auto;padding:24px 20px 60px}
 
-/* Timeline */
-.timeline{position:relative;padding-left:32px}
-.timeline::before{content:'';position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:linear-gradient(180deg,var(--cyber-cyan),var(--cyber-purple),transparent);opacity:0.4}
-.timeline-item{position:relative;margin-bottom:24px;opacity:0;animation:cyber-appear 0.5s ease-out forwards}
-.timeline-item:nth-child(1){animation-delay:0.1s}
-.timeline-item:nth-child(2){animation-delay:0.3s}
-.timeline-item:nth-child(3){animation-delay:0.5s}
-@keyframes cyber-appear{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}
-.timeline-item::before{content:'';position:absolute;left:-28px;top:10px;width:14px;height:14px;border-radius:50%;background:var(--cyber-card);border:3px solid var(--cyber-cyan);box-shadow:0 0 12px rgba(0,212,255,0.3);animation:pulse-glow 2.5s ease-in-out infinite}
-.timeline-item.type-thirdparty::before{border-color:var(--cyber-green);box-shadow:0 0 12px rgba(52,211,153,0.3)}
-.timeline-item.type-analysis::before{border-color:var(--cyber-amber);box-shadow:0 0 12px rgba(251,146,60,0.3)}
-@keyframes pulse-glow{0%,100%{box-shadow:0 0 8px rgba(0,212,255,0.2)}50%{box-shadow:0 0 20px rgba(0,212,255,0.5)}}
+.timeline{position:relative;padding-left:28px}
+.timeline::before{
+  content:'';position:absolute;left:7px;top:8px;bottom:8px;
+  width:2px;background:linear-gradient(180deg,#cbd5e0,#e2e8f0);
+}
+.timeline-item{position:relative;margin-bottom:28px}
+.timeline-item::before{
+  content:'';position:absolute;left:-24px;top:8px;
+  width:12px;height:12px;border-radius:50%;
+  background:var(--c-card);border:3px solid var(--c-blue);
+}
+.timeline-item.type-thirdparty::before{background:var(--c-success);border-color:var(--c-success)}
+.timeline-item.type-analysis::before{background:var(--c-warning);border-color:var(--c-warning)}
 
-.timeline-date{font-size:13px;color:var(--cyber-text3);margin-bottom:4px;font-family:var(--cyber-mono)}
-.timeline-content{background:var(--cyber-card);border:1px solid var(--cyber-border);border-radius:10px;padding:18px 20px;border-left:3px solid var(--cyber-cyan);backdrop-filter:blur(10px);transition:all 0.3s}
-.timeline-content:hover{border-color:var(--cyber-border-glow);box-shadow:0 0 24px rgba(0,212,255,0.06)}
-.timeline-item.type-thirdparty .timeline-content{border-left-color:var(--cyber-green)}
-.timeline-item.type-analysis .timeline-content{border-left-color:var(--cyber-amber)}
+.timeline-date{font-size:13px;color:var(--c-muted);margin-bottom:4px}
+.timeline-content{
+  background:var(--c-card);border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.06);padding:18px 20px;
+  border-left:4px solid var(--c-blue);
+}
+.timeline-item.type-thirdparty .timeline-content{border-left-color:var(--c-success)}
+.timeline-item.type-analysis .timeline-content{border-left-color:var(--c-warning)}
 
-.timeline-title{font-size:17px;font-weight:600;color:var(--cyber-text);margin-bottom:8px}
-.timeline-desc{font-size:15px;color:var(--cyber-text2);margin-bottom:12px;line-height:1.6}
-.timeline-links{display:flex;flex-wrap:wrap;gap:8px}
-.timeline-link{display:inline-flex;align-items:center;gap:5px;padding:6px 12px;background:rgba(0,212,255,0.06);border:1px solid var(--cyber-border);border-radius:6px;color:var(--cyber-cyan);text-decoration:none;font-size:13px;transition:all 0.3s}
-.timeline-link:hover{background:rgba(0,212,255,0.1);border-color:var(--cyber-cyan);box-shadow:0 0 12px rgba(0,212,255,0.1)}
+.timeline-title{font-size:17px;font-weight:600;color:var(--c-accent);margin-bottom:8px}
+.timeline-desc{font-size:15px;color:var(--c-text2);margin-bottom:12px}
+.timeline-links{display:flex;flex-wrap:wrap;gap:10px}
+.timeline-link{
+  display:inline-flex;align-items:center;gap:5px;
+  padding:6px 12px;background:#edf2f7;border-radius:6px;
+  color:var(--c-blue);text-decoration:none;font-size:13px;
+}
+.timeline-link:hover{background:#e2e8f0}
 
-.badge{display:inline-block;font-size:11px;padding:1px 8px;border-radius:8px;margin-left:8px;vertical-align:middle}
-.badge.thirdparty{background:rgba(52,211,153,0.15);color:var(--cyber-green);border:1px solid rgba(52,211,153,0.3)}
-.badge.analysis{background:rgba(251,146,60,0.15);color:var(--cyber-amber);border:1px solid rgba(251,146,60,0.3)}
+.badge{display:inline-block;background:var(--c-blue);color:#fff;font-size:11px;padding:1px 7px;border-radius:8px;margin-left:8px}
+.badge.thirdparty{background:var(--c-success)}
+.badge.analysis{background:var(--c-warning)}
 
-/* Footer */
-.footer{text-align:center;color:var(--cyber-text3);font-size:13px;padding:16px;border-top:1px solid var(--cyber-border)}
+.footer{text-align:center;color:var(--c-muted);font-size:13px;padding:20px}
 </style>
 </head>
 <body>
 
-<nav class="nav">
-  <div class="nav-inner">
-    <a href="index.html" class="logo"><span class="logo-mark">✦</span>天保控股 · 项目中心</a>
-    <div class="nav-links">
-      <a href="index.html">✦ 首页</a>
-      <a href="dashboard.html">✦ 仪表盘</a>
-      <a href="projects.html">✦ 项目</a>
-      <a href="reports.html">✦ 报告库</a>
-    </div>
-  </div>
-</nav>
+<div class="back-nav">
+  <a href="https://jinzhanxiang.github.io/tianbao-projects/">← 返回报告中心</a>
+</div>
 
 <div class="hero">
-  <h1>✦ 航天宏图</h1>
-  <p>🛰️ 卫星遥感 · 应急管理 · 初步分析阶段</p>
+  <h1>🛰️ 航天宏图</h1>
+  <p>卫星遥感 · 应急管理 · 初步分析阶段</p>
 </div>
 
 <div class="container">
+
 <div class="timeline">
 
+  <!-- 风险化解方案（PDF在桌面） -->
   <div class="timeline-item type-thirdparty">
     <div class="timeline-date">2026-05-12</div>
     <div class="timeline-content">
@@ -89,22 +106,25 @@ body > *{position:relative;z-index:2}
     </div>
   </div>
 
+  <!-- 纳入储备项目 -->
   <div class="timeline-item type-analysis">
     <div class="timeline-date">2026-07-07</div>
     <div class="timeline-content">
       <div class="timeline-title">项目纳入储备库 <span class="badge analysis">初步分析</span></div>
       <div class="timeline-desc">项目已纳入天保控股储备项目库，处于初步分析阶段</div>
       <div class="timeline-links">
-        <a href="index.html" class="timeline-link" target="_blank">📊 储备项目库</a>
+        <a href="https://jinzhanxiang.github.io/tianbao-projects/" class="timeline-link" target="_blank">📊 储备项目库</a>
       </div>
     </div>
   </div>
 
 </div>
+
 </div>
 
 <div class="footer">
-  <p>航天宏图投资分析 · 时间线 · 文件位置：~/Desktop/储备项目/航天宏图/</p>
+  <p>航天宏图投资分析 · 时间线</p>
+  <p style="margin-top:8px">📍 文件位置：~/Desktop/储备项目/航天宏图/</p>
 </div>
 
 </body>
