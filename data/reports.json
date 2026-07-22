@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T03:49:48+08:00",
+  "generated_at": "2026-07-23T05:11:59+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 69,
+  "total": 63,
   "by_code": {
     "华东数控-资本运作平台": [
       {
@@ -41,18 +41,6 @@
         "mtime": "2026-07-19T19:59:44+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华阳集团/output/华阳集团_投资可行性分析报告_v2_20260719.md"
-      },
-      {
-        "code": "huayt",
-        "date": "2026-06-11",
-        "category": "商业研究",
-        "title": "天能 / 超威 / 宁德时代 两轮车锂电池业务 2022-2024 财报与战略分析",
-        "file": "天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
-        "size": 12650,
-        "mtime": "2026-06-11T18:08:25+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md"
       }
     ],
     "qiyuanxin": [
@@ -234,39 +222,27 @@
       },
       {
         "code": "jngd",
-        "date": "2026-07-04",
+        "date": "2026-07-03",
         "category": "商业研究",
-        "title": "V3.43.0 升级验证报告：晶能光电尽调 V3.42.5 vs V3.43.0 对比",
-        "file": "jneng_v3_42_5_vs_v3_43_0_verify_20260704.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_v3_42_5_vs_v3_43_0_verify_20260704.md",
-        "size": 8119,
-        "mtime": "2026-07-04T12:21:15+08:00",
+        "title": "晶能光电商业尽调报告",
+        "file": "jneng-202607031510_report.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-202607031510_report.md",
+        "size": 41212,
+        "mtime": "2026-07-03T15:33:07+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_v3_42_5_vs_v3_43_0_verify_20260704.md"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-04",
-        "category": "未分类",
-        "title": "提升 + 退化双向分析：V3.42.5 vs V3.43.0 v2 重做版",
-        "file": "jneng_v3_43_0_v2_diff_analysis_20260704.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_v3_43_0_v2_diff_analysis_20260704.md",
-        "size": 10400,
-        "mtime": "2026-07-04T12:30:11+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_v3_43_0_v2_diff_analysis_20260704.md"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-202607031510_report.md"
       },
       {
         "code": "jngd",
         "date": "2026-07-03",
         "category": "商业研究",
-        "title": "晶能光电商业尽调对比：Claude Code vs Research 代理",
-        "file": "jneng_CC_vs_Research_compare_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_CC_vs_Research_compare_20260703.md",
-        "size": 9032,
-        "mtime": "2026-07-03T22:08:18+08:00",
+        "title": "晶能光电商业尽调报告（完整版）",
+        "file": "jneng-v2-20260703_report.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-v2-20260703_report.md",
+        "size": 44625,
+        "mtime": "2026-07-03T16:17:11+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_CC_vs_Research_compare_20260703.md"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-v2-20260703_report.md"
       },
       {
         "code": "jngd",
@@ -296,18 +272,6 @@
         "code": "jngd",
         "date": "2026-07-03",
         "category": "商业研究",
-        "title": "晶能光电尽调复盘：V3 报告 vs Claude Code 报告差距分析",
-        "file": "jneng_photoelectric_V3_vs_CC_差距分析_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_V3_vs_CC_差距分析_20260703.md",
-        "size": 7844,
-        "mtime": "2026-07-03T16:27:35+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_V3_vs_CC_差距分析_20260703.md"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
         "title": "晶能光电商业尽调报告",
         "file": "jneng_photoelectric_商业尽调报告_v1_20260703.md",
         "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md",
@@ -315,30 +279,6 @@
         "mtime": "2026-07-03T15:47:25+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
-        "title": "晶能光电尽调 — 复盘与差距分析",
-        "file": "jneng_photoelectric_复盘与差距分析_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_复盘与差距分析_20260703.md",
-        "size": 10534,
-        "mtime": "2026-07-03T15:57:08+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_复盘与差距分析_20260703.md"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
-        "title": "晶能光电尽调：V3 vs HV-Analysis vs Claude Code 全维度对比报告",
-        "file": "jneng_three_report_compare_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_three_report_compare_20260703.md",
-        "size": 11251,
-        "mtime": "2026-07-03T22:02:13+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_three_report_compare_20260703.md"
       }
     ],
     "huitian": [
@@ -389,6 +329,42 @@
         "mtime": "2026-07-13T16:12:12+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/汇天网络科技/output/汇天IDC_v4_5子平台联动方案_20260713.md"
+      },
+      {
+        "code": "huitian",
+        "date": "2026-07-13",
+        "category": "行业研究",
+        "title": "NVIDIA 数据中心 GPU 历史价格曲线 + 中国租赁市场尽调报告",
+        "file": "NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
+        "size": 33842,
+        "mtime": "2026-07-13T20:54:36+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md"
+      },
+      {
+        "code": "huitian",
+        "date": "2026-07-09",
+        "category": "未分类",
+        "title": "汇天网络科技有限公司可行性分析报告",
+        "file": "汇天网络可行性分析_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
+        "size": 42394,
+        "mtime": "2026-07-09T16:16:48+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md"
+      },
+      {
+        "code": "huitian",
+        "date": "2026-06-29",
+        "category": "行业研究",
+        "title": "中国IDC行业核心数据汇编（2024-2026）",
+        "file": "IDC行业数据汇编_2024-2026_20260629.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
+        "size": 10563,
+        "mtime": "2026-06-29T07:33:08+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md"
       }
     ],
     "联通云项目-山西": [
@@ -614,78 +590,20 @@
     "未归类": [
       {
         "code": "未归类",
-        "date": "2026-07-13",
-        "category": "行业研究",
-        "title": "NVIDIA 数据中心 GPU 历史价格曲线 + 中国租赁市场尽调报告",
-        "file": "NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "size": 33842,
-        "mtime": "2026-07-13T20:54:36+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-07-09",
+        "date": "2026-05-12",
         "category": "未分类",
-        "title": "汇天网络科技有限公司可行性分析报告",
-        "file": "汇天网络可行性分析_v1.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
-        "size": 42394,
-        "mtime": "2026-07-09T16:16:48+08:00",
+        "title": "LLM Wiki 研究报告：向前沿知识管理范式演进",
+        "file": "LLM_Wiki_研究报告_20260512.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/LLM_Wiki_研究报告_20260512.md",
+        "size": 13868,
+        "mtime": "2026-05-12T06:57:25+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md"
-      },
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/LLM_Wiki_研究报告_20260512.md"
+      }
+    ],
+    "xingheng": [
       {
-        "code": "未归类",
-        "date": "2026-07-03",
-        "category": "未分类",
-        "title": "研究报告 - jneng-202607031510",
-        "file": "jneng-202607031510_report.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-202607031510_report.md",
-        "size": 41212,
-        "mtime": "2026-07-03T15:33:07+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-202607031510_report.md"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-07-03",
-        "category": "未分类",
-        "title": "研究报告 - jneng-v2-20260703",
-        "file": "jneng-v2-20260703_report.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-v2-20260703_report.md",
-        "size": 44625,
-        "mtime": "2026-07-03T16:17:11+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-v2-20260703_report.md"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-07-03",
-        "category": "未分类",
-        "title": "三维通信投资并购价值分析报告",
-        "file": "三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
-        "size": 25099,
-        "mtime": "2026-07-03T09:48:08+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "中国IDC行业核心数据汇编（2024-2026）",
-        "file": "IDC行业数据汇编_2024-2026_20260629.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
-        "size": 10563,
-        "mtime": "2026-06-29T07:33:08+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md"
-      },
-      {
-        "code": "未归类",
+        "code": "xingheng",
         "date": "2026-06-11",
         "category": "财务分析",
         "title": "电动两轮车锂电池上市公司财务数据汇编（2021-2024）",
@@ -697,7 +615,7 @@
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/上市公司两轮车锂电财务数据_2021-2024_20260611.md"
       },
       {
-        "code": "未归类",
+        "code": "xingheng",
         "date": "2026-06-11",
         "category": "财务分析",
         "title": "博力威 + 宁德时代 电动两轮车锂电池 2022-2024 财务数据",
@@ -709,7 +627,19 @@
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/博力威+CATL两轮车锂电_2022-2024_20260611.md"
       },
       {
-        "code": "未归类",
+        "code": "xingheng",
+        "date": "2026-06-11",
+        "category": "商业研究",
+        "title": "天能 / 超威 / 宁德时代 两轮车锂电池业务 2022-2024 财报与战略分析",
+        "file": "天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
+        "size": 12650,
+        "mtime": "2026-06-11T18:08:25+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md"
+      },
+      {
+        "code": "xingheng",
         "date": "2026-06-11",
         "category": "行业研究",
         "title": "电动两轮车锂电池市场份额数据汇编（GGII / SPIR / 弗若斯特沙利文 / EVTank）",
@@ -721,19 +651,7 @@
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/电动两轮车锂电池市场份额_2022-2024_20260611.md"
       },
       {
-        "code": "未归类",
-        "date": "2026-06-07",
-        "category": "未分类",
-        "title": "私募 EB + 现金收购 + 资产注入\"三步走\"监管合规地图",
-        "file": "私募EB与国企资产注入监管合规地图_20260603.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md",
-        "size": 24319,
-        "mtime": "2026-06-07T12:30:29+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md"
-      },
-      {
-        "code": "未归类",
+        "code": "xingheng",
         "date": "2026-06-02",
         "category": "行业研究",
         "title": "锂离子电池行业规范条件（2024年本）要点速览",
@@ -744,32 +662,6 @@
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/policy/工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md"
       },
-      {
-        "code": "未归类",
-        "date": "2026-05-12",
-        "category": "未分类",
-        "title": "LLM Wiki 研究报告：向前沿知识管理范式演进",
-        "file": "LLM_Wiki_研究报告_20260512.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/LLM_Wiki_研究报告_20260512.md",
-        "size": 13868,
-        "mtime": "2026-05-12T06:57:25+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/LLM_Wiki_研究报告_20260512.md"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-04-28",
-        "category": "未分类",
-        "title": "飞马国际(002210)研究报告",
-        "file": "飞马国际002210研究报告_20260428.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md",
-        "size": 7515,
-        "mtime": "2026-04-28T18:00:17+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md"
-      }
-    ],
-    "xingheng": [
       {
         "code": "xingheng",
         "date": "2026-05-25",
@@ -853,6 +745,44 @@
         "mtime": "2026-05-18T17:50:06+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_股权清晰性深度核实_20260518.md"
+      }
+    ],
+    "acquisition-listed": [
+      {
+        "code": "acquisition-listed",
+        "date": "2026-07-03",
+        "category": "未分类",
+        "title": "三维通信投资并购价值分析报告",
+        "file": "三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
+        "size": 25099,
+        "mtime": "2026-07-03T09:48:08+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md"
+      },
+      {
+        "code": "acquisition-listed",
+        "date": "2026-06-07",
+        "category": "未分类",
+        "title": "私募 EB + 现金收购 + 资产注入\"三步走\"监管合规地图",
+        "file": "私募EB与国企资产注入监管合规地图_20260603.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md",
+        "size": 24319,
+        "mtime": "2026-06-07T12:30:29+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md"
+      },
+      {
+        "code": "acquisition-listed",
+        "date": "2026-04-28",
+        "category": "未分类",
+        "title": "飞马国际(002210)研究报告",
+        "file": "飞马国际002210研究报告_20260428.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md",
+        "size": 7515,
+        "mtime": "2026-04-28T18:00:17+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md"
       }
     ]
   },
@@ -1003,149 +933,6 @@
       },
       {
         "code": "未归类",
-        "date": "2026-07-13",
-        "category": "行业研究",
-        "title": "NVIDIA 数据中心 GPU 历史价格曲线 + 中国租赁市场尽调报告",
-        "file": "NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "size": 33842,
-        "mtime": "2026-07-13T20:54:36+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-07-09",
-        "category": "未分类",
-        "title": "汇天网络科技有限公司可行性分析报告",
-        "file": "汇天网络可行性分析_v1.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
-        "size": 42394,
-        "mtime": "2026-07-09T16:16:48+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-07-03",
-        "category": "未分类",
-        "title": "研究报告 - jneng-202607031510",
-        "file": "jneng-202607031510_report.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-202607031510_report.md",
-        "size": 41212,
-        "mtime": "2026-07-03T15:33:07+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-202607031510_report.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-07-03",
-        "category": "未分类",
-        "title": "研究报告 - jneng-v2-20260703",
-        "file": "jneng-v2-20260703_report.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-v2-20260703_report.md",
-        "size": 44625,
-        "mtime": "2026-07-03T16:17:11+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-v2-20260703_report.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-07-03",
-        "category": "未分类",
-        "title": "三维通信投资并购价值分析报告",
-        "file": "三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
-        "size": 25099,
-        "mtime": "2026-07-03T09:48:08+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "中国IDC行业核心数据汇编（2024-2026）",
-        "file": "IDC行业数据汇编_2024-2026_20260629.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
-        "size": 10563,
-        "mtime": "2026-06-29T07:33:08+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-06-11",
-        "category": "财务分析",
-        "title": "电动两轮车锂电池上市公司财务数据汇编（2021-2024）",
-        "file": "上市公司两轮车锂电财务数据_2021-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/上市公司两轮车锂电财务数据_2021-2024_20260611.md",
-        "size": 12857,
-        "mtime": "2026-06-11T18:29:41+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/上市公司两轮车锂电财务数据_2021-2024_20260611.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-06-11",
-        "category": "财务分析",
-        "title": "博力威 + 宁德时代 电动两轮车锂电池 2022-2024 财务数据",
-        "file": "博力威+CATL两轮车锂电_2022-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/博力威+CATL两轮车锂电_2022-2024_20260611.md",
-        "size": 10472,
-        "mtime": "2026-06-11T18:32:34+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/博力威+CATL两轮车锂电_2022-2024_20260611.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-06-11",
-        "category": "行业研究",
-        "title": "电动两轮车锂电池市场份额数据汇编（GGII / SPIR / 弗若斯特沙利文 / EVTank）",
-        "file": "电动两轮车锂电池市场份额_2022-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/电动两轮车锂电池市场份额_2022-2024_20260611.md",
-        "size": 9710,
-        "mtime": "2026-06-11T18:05:34+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/电动两轮车锂电池市场份额_2022-2024_20260611.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-06-07",
-        "category": "未分类",
-        "title": "私募 EB + 现金收购 + 资产注入\"三步走\"监管合规地图",
-        "file": "私募EB与国企资产注入监管合规地图_20260603.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md",
-        "size": 24319,
-        "mtime": "2026-06-07T12:30:29+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-06-02",
-        "category": "行业研究",
-        "title": "锂离子电池行业规范条件（2024年本）要点速览",
-        "file": "工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/policy/工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md",
-        "size": 6946,
-        "mtime": "2026-06-02T17:48:15+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/policy/工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
         "date": "2026-05-12",
         "category": "未分类",
         "title": "LLM Wiki 研究报告：向前沿知识管理范式演进",
@@ -1155,19 +942,6 @@
         "mtime": "2026-05-12T06:57:25+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/LLM_Wiki_研究报告_20260512.md",
-        "industry": "其他"
-      },
-      {
-        "code": "未归类",
-        "date": "2026-04-28",
-        "category": "未分类",
-        "title": "飞马国际(002210)研究报告",
-        "file": "飞马国际002210研究报告_20260428.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md",
-        "size": 7515,
-        "mtime": "2026-04-28T18:00:17+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md",
         "industry": "其他"
       }
     ],
@@ -1183,19 +957,6 @@
         "mtime": "2026-07-19T19:59:44+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华阳集团/output/华阳集团_投资可行性分析报告_v2_20260719.md",
-        "industry": "硬科技"
-      },
-      {
-        "code": "huayt",
-        "date": "2026-06-11",
-        "category": "商业研究",
-        "title": "天能 / 超威 / 宁德时代 两轮车锂电池业务 2022-2024 财报与战略分析",
-        "file": "天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
-        "size": 12650,
-        "mtime": "2026-06-11T18:08:25+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
         "industry": "硬科技"
       },
       {
@@ -1317,41 +1078,28 @@
       },
       {
         "code": "jngd",
-        "date": "2026-07-04",
+        "date": "2026-07-03",
         "category": "商业研究",
-        "title": "V3.43.0 升级验证报告：晶能光电尽调 V3.42.5 vs V3.43.0 对比",
-        "file": "jneng_v3_42_5_vs_v3_43_0_verify_20260704.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_v3_42_5_vs_v3_43_0_verify_20260704.md",
-        "size": 8119,
-        "mtime": "2026-07-04T12:21:15+08:00",
+        "title": "晶能光电商业尽调报告",
+        "file": "jneng-202607031510_report.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-202607031510_report.md",
+        "size": 41212,
+        "mtime": "2026-07-03T15:33:07+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_v3_42_5_vs_v3_43_0_verify_20260704.md",
-        "industry": "硬科技"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-04",
-        "category": "未分类",
-        "title": "提升 + 退化双向分析：V3.42.5 vs V3.43.0 v2 重做版",
-        "file": "jneng_v3_43_0_v2_diff_analysis_20260704.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_v3_43_0_v2_diff_analysis_20260704.md",
-        "size": 10400,
-        "mtime": "2026-07-04T12:30:11+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_v3_43_0_v2_diff_analysis_20260704.md",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-202607031510_report.md",
         "industry": "硬科技"
       },
       {
         "code": "jngd",
         "date": "2026-07-03",
         "category": "商业研究",
-        "title": "晶能光电商业尽调对比：Claude Code vs Research 代理",
-        "file": "jneng_CC_vs_Research_compare_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_CC_vs_Research_compare_20260703.md",
-        "size": 9032,
-        "mtime": "2026-07-03T22:08:18+08:00",
+        "title": "晶能光电商业尽调报告（完整版）",
+        "file": "jneng-v2-20260703_report.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-v2-20260703_report.md",
+        "size": 44625,
+        "mtime": "2026-07-03T16:17:11+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_CC_vs_Research_compare_20260703.md",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng-v2-20260703_report.md",
         "industry": "硬科技"
       },
       {
@@ -1384,19 +1132,6 @@
         "code": "jngd",
         "date": "2026-07-03",
         "category": "商业研究",
-        "title": "晶能光电尽调复盘：V3 报告 vs Claude Code 报告差距分析",
-        "file": "jneng_photoelectric_V3_vs_CC_差距分析_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_V3_vs_CC_差距分析_20260703.md",
-        "size": 7844,
-        "mtime": "2026-07-03T16:27:35+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_V3_vs_CC_差距分析_20260703.md",
-        "industry": "硬科技"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
         "title": "晶能光电商业尽调报告",
         "file": "jneng_photoelectric_商业尽调报告_v1_20260703.md",
         "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md",
@@ -1404,32 +1139,6 @@
         "mtime": "2026-07-03T15:47:25+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md",
-        "industry": "硬科技"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
-        "title": "晶能光电尽调 — 复盘与差距分析",
-        "file": "jneng_photoelectric_复盘与差距分析_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_复盘与差距分析_20260703.md",
-        "size": 10534,
-        "mtime": "2026-07-03T15:57:08+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_复盘与差距分析_20260703.md",
-        "industry": "硬科技"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
-        "title": "晶能光电尽调：V3 vs HV-Analysis vs Claude Code 全维度对比报告",
-        "file": "jneng_three_report_compare_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_three_report_compare_20260703.md",
-        "size": 11251,
-        "mtime": "2026-07-03T22:02:13+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_three_report_compare_20260703.md",
         "industry": "硬科技"
       }
     ],
@@ -1499,6 +1208,45 @@
         "mtime": "2026-07-13T16:12:12+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/汇天网络科技/output/汇天IDC_v4_5子平台联动方案_20260713.md",
+        "industry": "数据"
+      },
+      {
+        "code": "huitian",
+        "date": "2026-07-13",
+        "category": "行业研究",
+        "title": "NVIDIA 数据中心 GPU 历史价格曲线 + 中国租赁市场尽调报告",
+        "file": "NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
+        "size": 33842,
+        "mtime": "2026-07-13T20:54:36+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
+        "industry": "数据"
+      },
+      {
+        "code": "huitian",
+        "date": "2026-07-09",
+        "category": "未分类",
+        "title": "汇天网络科技有限公司可行性分析报告",
+        "file": "汇天网络可行性分析_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
+        "size": 42394,
+        "mtime": "2026-07-09T16:16:48+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
+        "industry": "数据"
+      },
+      {
+        "code": "huitian",
+        "date": "2026-06-29",
+        "category": "行业研究",
+        "title": "中国IDC行业核心数据汇编（2024-2026）",
+        "file": "IDC行业数据汇编_2024-2026_20260629.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
+        "size": 10563,
+        "mtime": "2026-06-29T07:33:08+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
         "industry": "数据"
       }
     ],
@@ -1676,6 +1424,71 @@
     "动力电池": [
       {
         "code": "xingheng",
+        "date": "2026-06-11",
+        "category": "财务分析",
+        "title": "电动两轮车锂电池上市公司财务数据汇编（2021-2024）",
+        "file": "上市公司两轮车锂电财务数据_2021-2024_20260611.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/上市公司两轮车锂电财务数据_2021-2024_20260611.md",
+        "size": 12857,
+        "mtime": "2026-06-11T18:29:41+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/上市公司两轮车锂电财务数据_2021-2024_20260611.md",
+        "industry": "动力电池"
+      },
+      {
+        "code": "xingheng",
+        "date": "2026-06-11",
+        "category": "财务分析",
+        "title": "博力威 + 宁德时代 电动两轮车锂电池 2022-2024 财务数据",
+        "file": "博力威+CATL两轮车锂电_2022-2024_20260611.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/博力威+CATL两轮车锂电_2022-2024_20260611.md",
+        "size": 10472,
+        "mtime": "2026-06-11T18:32:34+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/博力威+CATL两轮车锂电_2022-2024_20260611.md",
+        "industry": "动力电池"
+      },
+      {
+        "code": "xingheng",
+        "date": "2026-06-11",
+        "category": "商业研究",
+        "title": "天能 / 超威 / 宁德时代 两轮车锂电池业务 2022-2024 财报与战略分析",
+        "file": "天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
+        "size": 12650,
+        "mtime": "2026-06-11T18:08:25+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
+        "industry": "动力电池"
+      },
+      {
+        "code": "xingheng",
+        "date": "2026-06-11",
+        "category": "行业研究",
+        "title": "电动两轮车锂电池市场份额数据汇编（GGII / SPIR / 弗若斯特沙利文 / EVTank）",
+        "file": "电动两轮车锂电池市场份额_2022-2024_20260611.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/电动两轮车锂电池市场份额_2022-2024_20260611.md",
+        "size": 9710,
+        "mtime": "2026-06-11T18:05:34+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/电动两轮车锂电池市场份额_2022-2024_20260611.md",
+        "industry": "动力电池"
+      },
+      {
+        "code": "xingheng",
+        "date": "2026-06-02",
+        "category": "行业研究",
+        "title": "锂离子电池行业规范条件（2024年本）要点速览",
+        "file": "工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/policy/工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md",
+        "size": 6946,
+        "mtime": "2026-06-02T17:48:15+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/policy/工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md",
+        "industry": "动力电池"
+      },
+      {
+        "code": "xingheng",
         "date": "2026-05-25",
         "category": "法律分析",
         "title": "星恒电源13.73%股权收购：诉讼解决逻辑分析",
@@ -1764,6 +1577,47 @@
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_股权清晰性深度核实_20260518.md",
         "industry": "动力电池"
+      }
+    ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "date": "2026-07-03",
+        "category": "未分类",
+        "title": "三维通信投资并购价值分析报告",
+        "file": "三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
+        "size": 25099,
+        "mtime": "2026-07-03T09:48:08+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
+        "industry": "收购研究"
+      },
+      {
+        "code": "acquisition-listed",
+        "date": "2026-06-07",
+        "category": "未分类",
+        "title": "私募 EB + 现金收购 + 资产注入\"三步走\"监管合规地图",
+        "file": "私募EB与国企资产注入监管合规地图_20260603.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md",
+        "size": 24319,
+        "mtime": "2026-06-07T12:30:29+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md",
+        "industry": "收购研究"
+      },
+      {
+        "code": "acquisition-listed",
+        "date": "2026-04-28",
+        "category": "未分类",
+        "title": "飞马国际(002210)研究报告",
+        "file": "飞马国际002210研究报告_20260428.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md",
+        "size": 7515,
+        "mtime": "2026-04-28T18:00:17+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md",
+        "industry": "收购研究"
       }
     ]
   }
