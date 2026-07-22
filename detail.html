@@ -360,8 +360,6 @@ body{background:var(--bg)}
       </div>
       <small style="font-family:var(--fsong);color:var(--ink-3);font-size:11px">原始阶段：${p.stage || '—'}</small>
     `;
-    document.getElementById('bcName').textContent = p.name_cn || code;
-
     renderSidebar(p);
     renderBrief(p);
     renderMaterials(p);
