@@ -323,9 +323,9 @@ body::before{
   .v3-section-h{margin:1px 0}
 }
 @media (max-width:760px){
-  /* 基础排版缩窄 */
-  .v3-home{padding:0 12px}
-  body{font-size:14px}
+  /* R171: 基础排版缩窄 + 首页改为 min-height 允许滚动 */
+  .v3-home{padding:12px!important;height:auto!important;min-height:calc(100vh - 56px)!important;overflow:visible!important;gap:10px!important}
+  body{font-size:14px;overflow-x:hidden}
   .v3-section-h h2{font-size:16px;letter-spacing:2px}
   .v3-section-h{margin:4px 0 6px}
 
@@ -358,25 +358,18 @@ body::before{
   .v3-cloud-tag .count{font-size:10px;padding:0 6px;min-width:18px}
 
   /* 统一事件流 · 拉长纵向距离 */
-  .v3-feed{padding:8px 10px;margin:4px 0 8px}
-  .v3-feed-head h2{font-size:13px;letter-spacing:2px;margin-bottom:3px}
+  .v3-feed{padding:8px 10px;margin:4px 0 8px;min-height:auto!important}
+  .v3-feed-head h2{font-size:13px;letter-spacing:1.5px;margin-bottom:3px}
   .v3-feed-head small{font-size:10px}
-  .v3-marquee{height:220px}
-  .v3-feed-card{padding:6px 10px;margin-bottom:4px;gap:3px;min-height:48px}
+  .v3-marquee{height:auto!important;max-height:none!important;overflow:visible!important;-webkit-mask-image:none!important;mask-image:none!important}
+  .v3-marquee-track{animation:none!important;flex-direction:column!important}
+  .v3-feed-card{padding:8px 12px;margin-bottom:5px;gap:3px;min-height:48px}
   .v3-feed-title{font-size:13px;line-height:1.4}
   .v3-feed-tag{font-size:10px;padding:1px 7px}
   .v3-feed-date{font-size:10px}
   .v3-feed-sub{font-size:10px}
 
-  /* NAV · 缩小品牌 + 时钟保小 */
-  .nav{padding:6px 12px}
-  .nav-inner{flex-wrap:wrap;gap:6px}
-  .nav-logo{width:30px;height:30px;font-size:14px}
-  .nav-brand>div>div:first-child{font-size:13px!important;letter-spacing:.5px;white-space:nowrap}
-  .nav-brand-sub{font-size:9px!important;display:none}
-  .nav-clock{font-size:11px}
-  .nav-links{flex-wrap:wrap;gap:4px}
-  .nav-links a{padding:3px 8px;font-size:11px}
+  /* R171: NAV · 移动端已移至 tianbao.css @media (max-width:760px)，此处不再重复 */
 }
 /* === 短视口 · 高度 < 800 的紧凑模式（移动端/小窗） === */
 @media (max-height:820px){
