@@ -45,7 +45,7 @@ body{background:var(--bg)}
     </a>
     <div class="nav-links">
       <a href="index.html" class="anim-fade-in">🏛 首页</a>
-      <a class="active anim-fade-in" id="navActive" style="animation-delay:.1s">📂 分类矩阵</a>
+      <span class="nav-current anim-fade-in" id="navActive" style="animation-delay:.1s" aria-current="page">📂 分类矩阵</span>
       <a href="all_reports.html" class="anim-fade-in" style="animation-delay:.2s">📚 所有报告</a>
     </div>
   </div>
@@ -201,6 +201,7 @@ body{background:var(--bg)}
 
     // 清空所有 cell-list
     document.querySelectorAll('.v3-cell .v3-cell-list').forEach(el=>el.innerHTML='');
+    document.querySelectorAll('.v3-cell').forEach(c=>{ c.dataset.empty = 'true'; c.classList.remove('preview-limited'); c.classList.remove('preview-open'); });
 
     // 按 v3 stage_v3 / iss 分类 —— 默认展示全部 17 项目；cat=X 严格过滤只显示该行（focus 模式）
     const filtered = FILTER_CAT==='__ALL__' ? PROJECTS : PROJECTS.filter(p=>p.stage_v3===FILTER_CAT);
@@ -210,11 +211,30 @@ body{background:var(--bg)}
     filtered.forEach(p=>{
       const stage = p.stage_v3 || '观察';
       const iss = p.iss || '未上市';
-      const cell = document.querySelector(`.v3-cell[data-stage="${stage}"][data-iss="${iss}"] .v3-cell-list`);
+      const cell = document.querySelector(`.v3-cell[data-stage="${stage}"][data-iss="${iss}"]`);
       if(!cell) return;
+      const list = cell.querySelector('.v3-cell-list');
+      if(!list) return;
       totalShown++;
-      cell.appendChild(makeCard(p));
+      list.appendChild(makeCard(p));
       placed++;
+      cell.dataset.empty = 'false';
+      const cards = list.querySelectorAll('.v3-card');
+      if(cards.length > 2){
+        cell.classList.add('preview-limited');
+        if(!cell.querySelector('.v3-cell-more')){
+          const more = document.createElement('button');
+          more.className = 'v3-cell-more';
+          more.type = 'button';
+          more.textContent = cell.querySelector('.v3-cell-more-base') ? `展开全部 ${cards.length} 项` : `展开全部 ${cards.length} 项`;
+          more.addEventListener('click', (e)=>{
+            e.stopPropagation();
+            cell.classList.toggle('preview-open');
+            more.textContent = cell.classList.contains('preview-open') ? '收起' : `展开全部 ${cards.length} 项`;
+          });
+          list.appendChild(more);
+        }
+      }
     });
 
     // 计数
@@ -237,6 +257,7 @@ body{background:var(--bg)}
         list.appendChild(e);
       }
     });
+    bindStageToggle();
   }
 
   function makeCard(p){
@@ -277,6 +298,27 @@ body{background:var(--bg)}
       // 重新拉数据并 reload（简单可靠）
       location.reload();
     });
+  }
+
+  function bindStageToggle(){
+    document.querySelectorAll('.v3-matrix-row-h').forEach(row=>{
+      if(row.dataset.bound === '1') return;
+      row.dataset.bound = '1';
+      row.addEventListener('click', ()=>{
+        if(!isMobile()) return;
+        row.classList.toggle('stage-collapsed');
+        const stage = (row.textContent||'').replace(/^[^一-龥]+/,'').replace(/[▾▿]/g,'').trim();
+        document.querySelectorAll('.v3-cell').forEach(cell=>{
+          if(cell.dataset.stage === stage){
+            cell.classList.toggle('mobile-stage-hidden', row.classList.contains('stage-collapsed'));
+          }
+        });
+      });
+    });
+  }
+
+  function isMobile(){
+    return window.matchMedia && window.matchMedia('(max-width:760px)').matches;
   }
 
   /* ---------- 「查看全部」「重置」按钮 ---------- */
