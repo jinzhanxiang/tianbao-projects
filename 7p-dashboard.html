@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>储备项目汇总库 · 项目报告中心</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--c-accent:#1a365d;--c-accent2:#2c5282;--c-blue:#3182ce;--c-warning:#d69e2e;--c-success:#38a169;--c-danger:#e53e3e;--c-muted:#718096;--c-bg:#f7fafc;--c-card:#fff;--c-text:#2d3748;--c-text2:#4a5568}
+body{font-family:"FangSong","仿宋","仿宋_GB2312","STFangsong","Songti SC","Noto Serif CJK SC",serif;color:var(--c-text);background:var(--c-bg);line-height:1.8;font-size:16px;min-height:100vh}
+.back-nav{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:var(--c-card);border-bottom:1px solid #e2e8f0;position:sticky;top:0;z-index:100}
+.back-nav a{color:var(--c-blue);text-decoration:none;font-size:14px;display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:6px;transition:.15s}
+.back-nav a:hover{background:#ebf8ff;text-decoration:none}
+.project-title{font-size:13px;color:var(--c-muted)}
+.hero{background:linear-gradient(135deg,#1a365d,#2d3748);color:#fff;padding:36px 20px 28px;text-align:center}
+.hero h1{font-size:28px;margin-bottom:8px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.hero p{color:rgba(255,255,255,.7);font-size:14px;margin-top:6px}
+.hero-stats{display:flex;justify-content:center;gap:30px;margin-top:18px;flex-wrap:wrap}
+.hero-stat{color:#fff}
+.hero-stat .num{font-size:26px;font-weight:800;font-family:-apple-system,"PingFang SC",sans-serif}
+.hero-stat .lbl{font-size:12px;color:rgba(255,255,255,.7);margin-top:2px}
+.tabs{display:flex;justify-content:center;gap:0;background:var(--c-card);border-bottom:1px solid #e2e8f0;position:sticky;top:53px;z-index:99}
+.tab{padding:14px 28px;cursor:pointer;font-size:15px;font-weight:600;color:var(--c-muted);border-bottom:3px solid transparent;transition:.2s;font-family:-apple-system,"PingFang SC",sans-serif}
+.tab:hover{color:var(--c-accent)}
+.tab.active{color:var(--c-accent);border-bottom-color:var(--c-blue);background:linear-gradient(180deg,transparent,rgba(49,130,206,.04))}
+.tab .tab-count{display:inline-block;background:var(--c-muted);color:#fff;font-size:11px;padding:1px 7px;border-radius:8px;margin-left:6px;vertical-align:middle}
+.tab.active .tab-count{background:var(--c-blue)}
+.container{max-width:960px;margin:0 auto;padding:24px 20px 60px}
+.tab-panel{display:none;animation:fadeIn .3s ease}
+.tab-panel.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.timeline{position:relative;padding-left:32px;margin-top:20px}
+.timeline::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:3px;background:linear-gradient(180deg,var(--c-blue),var(--c-accent));border-radius:2px}
+.tl-item{position:relative;padding:0 0 32px 20px}
+.tl-item:last-child{padding-bottom:0}
+.tl-dot{position:absolute;left:-26px;top:6px;width:18px;height:18px;border-radius:50%;background:#fff;border:3px solid var(--c-blue);box-shadow:0 0 0 4px rgba(49,130,206,.12)}
+.tl-item.tl-main .tl-dot{border-color:var(--c-accent);background:var(--c-accent);box-shadow:0 0 0 4px rgba(26,54,93,.15)}
+.tl-item.tl-thirdparty .tl-dot{border-color:var(--c-danger);background:var(--c-danger)}
+.tl-item.tl-meeting .tl-dot{border-color:var(--c-warning);background:var(--c-warning)}
+.tl-item.tl-first .tl-dot{border-color:var(--c-success);background:var(--c-success)}
+.tl-date{font-size:12px;color:var(--c-muted);font-family:-apple-system,"PingFang SC",sans-serif;letter-spacing:.5px}
+.tl-title{font-size:17px;font-weight:700;color:var(--c-accent);margin:4px 0 6px;font-family:-apple-system,"PingFang SC",sans-serif}
+.tl-desc{font-size:15px;color:var(--c-text2);margin-bottom:10px}
+.tl-links{display:flex;flex-wrap:wrap;gap:8px}
+.tl-link{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:#edf2f7;color:var(--c-blue);border-radius:6px;text-decoration:none;font-size:13px;font-family:-apple-system,"PingFang SC",sans-serif;transition:.15s;border:1px solid transparent}
+.tl-link:hover{background:#bee3f8;color:var(--c-accent);border-color:var(--c-blue);transform:translateY(-1px)}
+.report-group{margin-bottom:24px}
+.rg-title{font-size:14px;font-weight:700;color:var(--c-muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:12px;font-family:-apple-system,"PingFang SC",sans-serif;padding-left:8px;border-left:3px solid var(--c-blue)}
+.rg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.r-card{background:var(--c-card);border:1px solid #e2e8f0;border-radius:8px;padding:14px 16px;display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit;transition:.15s}
+.r-card:hover{border-color:var(--c-blue);box-shadow:0 4px 12px rgba(49,130,206,.1);transform:translateY(-2px)}
+.r-emoji{font-size:24px;flex-shrink:0}
+.r-body{flex:1;min-width:0}
+.r-name{font-size:14px;font-weight:600;color:var(--c-accent);margin-bottom:2px;font-family:-apple-system,"PingFang SC",sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r-badge{display:inline-block;background:#fef5e7;color:#b7791f;font-size:11px;padding:1px 7px;border-radius:8px;margin-left:4px;vertical-align:middle;font-family:-apple-system,sans-serif}
+.r-badge.b-main{background:#e6fffa;color:#234e52}
+.r-arrow{color:var(--c-muted);font-size:14px;transition:.15s}
+.r-card:hover .r-arrow{color:var(--c-blue);transform:translateX(3px)}
+.footer{text-align:center;color:var(--c-muted);font-size:13px;margin-top:30px;padding:20px 0;border-top:1px solid #e2e8f0}
+@media(max-width:600px){.hero h1{font-size:22px}.hero-stat .num{font-size:20px}.tabs{top:53px}.tab{padding:12px 14px;font-size:14px}.tl-links{flex-direction:column}.tl-link{width:100%;justify-content:center}.rg-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="back-nav">
+  <a href="https://jinzhanxiang.github.io/tianbao-projects/">← 返回报告中心</a>
+  <span class="project-title">天保控股 · 项目管理</span>
+</div>
+<div class="hero">
+  <h1>📊 储备项目汇总库</h1>
+  <p>8 维度对比 + 公司汇报稿 + 9 项目报告 · 中心·入口 · 11 份报告 · 双视图导航</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="num">11</div><div class="lbl">报告总数</div></div>
+    <div class="hero-stat"><div class="num">2</div><div class="lbl">时间节点</div></div>
+    <div class="hero-stat"><div class="num">11</div><div class="lbl">报告清单</div></div>
+  </div>
+</div>
+<div class="tabs">
+  <div class="tab active" data-tab="timeline">📅 时间线视图<span class="tab-count">2</span></div>
+  <div class="tab" data-tab="reports">📋 全部报告总览<span class="tab-count">11</span></div>
+</div>
+<div class="container">
+  <div class="tab-panel active" id="panel-timeline">
+    <div class="timeline"><div class="tl-item tl-main">
+  <div class="tl-dot"></div>
+  <div class="tl-date">2026-Q2</div>
+  <div class="tl-title">📊 储备项目汇总分析（8 维度）</div>
+  <div class="tl-desc">统一汇总 8 个 Pre-IPO/REITs 项目，对比分析与仪表盘</div>
+  <div class="tl-links"><a href="https://jinzhanxiang.github.io/7projects-summary/summary.html" class="tl-link" target="_blank"><span>📊</span>汇总</a></div>
+</div><div class="tl-item tl-meeting">
+  <div class="tl-dot"></div>
+  <div class="tl-date">2026-Q2</div>
+  <div class="tl-title">📋 公司汇报稿</div>
+  <div class="tl-desc">向公司汇报投资部项目储备库与上市标的池</div>
+  <div class="tl-links"><a href="https://jinzhanxiang.github.io/7projects-summary/briefing_report.html" class="tl-link" target="_blank"><span>📋</span>汇报稿</a></div>
+</div></div>
+  </div>
+  <div class="tab-panel" id="panel-reports">
+    <div class="report-group"><div class="rg-title">📋 全部报告</div><div class="rg-grid"><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/summary.html" target="_blank">
+  <div class="r-emoji">📊</div>
+  <div class="r-body"><div class="r-name">储备项目汇总分析（8 维度对比）<span class="r-badgeb' b-main'">汇总报告</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/briefing_report.html" target="_blank">
+  <div class="r-emoji">📋</div>
+  <div class="r-body"><div class="r-name">公司汇报稿 · 投资部项目储备库与上市标的池<span class="r-badge">汇报材料</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/jngd.html" target="_blank">
+  <div class="r-emoji">💎</div>
+  <div class="r-body"><div class="r-name">晶能光电（江西）有限公司<span class="r-badge">硬科技·新材料</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/kedu.html" target="_blank">
+  <div class="r-emoji">🏥</div>
+  <div class="r-body"><div class="r-name">上海柯渡医学<span class="r-badge">医疗健康</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/zhongfu.html" target="_blank">
+  <div class="r-emoji">⚡</div>
+  <div class="r-body"><div class="r-name">中复碳芯（碳纤维芯电缆）<span class="r-badge">硬科技·新材料</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xinhong.html" target="_blank">
+  <div class="r-emoji">💊</div>
+  <div class="r-body"><div class="r-name">信鸿医疗（IVD 综合服务平台）<span class="r-badge">医疗健康</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/xunchao.html" target="_blank">
+  <div class="r-emoji">🚀</div>
+  <div class="r-body"><div class="r-name">迅巢科技（两轮/三轮电动车换电）<span class="r-badge">新能源</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/unicom-idc.html" target="_blank">
+  <div class="r-emoji">☁️</div>
+  <div class="r-body"><div class="r-name">联通云数据中心 IDC REIT<span class="r-badge">数据·云</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/hongyuan.html" target="_blank">
+  <div class="r-emoji">🧪</div>
+  <div class="r-body"><div class="r-name">宏远创信（综合智慧能源）<span class="r-badge">硬科技·新材料</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/innoshine.html" target="_blank">
+  <div class="r-emoji">💡</div>
+  <div class="r-body"><div class="r-name">元旭半导体（Innoshine）<span class="r-badge">化合物半导体</span></div></div>
+  <div class="r-arrow">→</div>
+</a><a class="r-card" href="https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html" target="_blank">
+  <div class="r-emoji">📈</div>
+  <div class="r-body"><div class="r-name">收购上市公司标的研究<span class="r-badge">上市公司</span></div></div>
+  <div class="r-arrow">→</div>
+</a></div></div>
+  </div>
+</div>
+<div class="footer">储备项目汇总库 · 项目报告中心 · 2026-07-09 v2 双视图</div>
+<script>
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+});
+</script>
+</body>
+</html>
