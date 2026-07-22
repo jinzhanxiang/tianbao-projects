@@ -476,7 +476,7 @@ body::before{
     document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.length);
     /* 主行业有 N 个，叠加细分子行业 marker */
     const subCount = subIndMap.size;
-    document.getElementById('kpiIndMain').textContent = industries.length + (subCount>0?`<span style="color:var(--ink-3);font-weight:600">+${subCount}细分</span>`:'');
+    document.getElementById('kpiIndMain').innerHTML = industries.length + (subCount>0?` <span style="color:var(--ink-3);font-weight:600;font-size:0.85em">+${subCount} 细分</span>`:'');
     /* 行：每个主行业一行 + 细分（只在视觉上叠在一起） */
     const maxMain = Math.max(1, ...industries.map(i=>i[1]));
     const indRows = industries.map(([n,c])=>{
