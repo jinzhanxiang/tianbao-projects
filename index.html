@@ -40,120 +40,77 @@ body::before{
 .v3-section-h h2{font-size:24px!important;letter-spacing:5px!important}
 
 /* === 概览标题 === */
-.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--ink);position:relative}
+.v3-section-h{display:flex;justify-content:space-between;align-items:center;margin:4px 0 4px;padding-bottom:4px;border-bottom:2px solid var(--ink);position:relative}
 .v3-section-h::after{content:'';position:absolute;bottom:-2px;left:0;width:80px;height:2px;background:linear-gradient(90deg,var(--seal),transparent)}
-.v3-section-h h2{font-family:var(--hei);font-size:22px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:12px;letter-spacing:4px;position:relative}
-.v3-section-h h2::before{content:'';width:5px;height:22px;background:linear-gradient(180deg,var(--doc-rule) 0%,var(--seal) 60%,var(--seal-2) 100%);border-radius:1px;box-shadow:0 0 8px rgba(192,57,43,0.4)}
-.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:12px;color:var(--ink-2);font-weight:500;letter-spacing:.5px;display:flex;align-items:center;gap:6px}
+.v3-section-h h2{font-family:var(--hei);font-size:20px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:10px;letter-spacing:4px;position:relative}
+.v3-section-h h2::before{content:'';width:5px;height:18px;background:linear-gradient(180deg,var(--doc-rule) 0%,var(--seal) 60%,var(--seal-2) 100%);border-radius:1px;box-shadow:0 0 8px rgba(192,57,43,0.4)}
+.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:11px;color:var(--ink-2);font-weight:600;letter-spacing:.4px;display:flex;align-items:center;gap:6px}
 .v3-section-h em::before{content:'';width:6px;height:6px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 3px rgba(22,163,74,0.2);animation:livePulse 2s ease-in-out infinite}
 @keyframes livePulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
 
-/* === KPI 3 宫格 · 视觉重设计（删总项目数后剩 报告总数 + 行业合并 大卡） === */
-.v3-kpi-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:14px;margin-bottom:10px}
-.v3-kpi{position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);border:1px solid var(--border);border-radius:14px;padding:11px 14px 10px;transition:.35s cubic-bezier(.2,.8,.2,1);overflow:hidden;display:flex;flex-direction:column;gap:5px;min-height:170px;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+/* === KPI 2 宫格 · 一体化重设计（统一风格 · 报告类别 ↔ 行业细分） === */
+.v3-kpi-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:12px;margin-bottom:8px}
+.v3-kpi{position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);border:1px solid var(--border);border-radius:14px;padding:10px 14px 10px;transition:.35s cubic-bezier(.2,.8,.2,1);overflow:hidden;display:flex;flex-direction:column;gap:6px;min-height:170px;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
 .v3-kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--kpi-color) 0%,var(--kpi-color-2,var(--seal-2)) 100%)}
 .v3-kpi::after{content:'';position:absolute;top:0;right:0;width:60px;height:60px;background:radial-gradient(circle at 100% 0%,var(--kpi-color) 0%,transparent 60%);opacity:.08;transition:.4s;pointer-events:none}
-.v3-kpi:hover{transform:translateY(-4px) scale(1.01);box-shadow:0 12px 32px rgba(0,0,0,0.1),0 2px 8px var(--kpi-color);border-color:var(--kpi-color)}
+.v3-kpi:hover{transform:translateY(-3px) scale(1.005);box-shadow:0 10px 28px rgba(0,0,0,0.1),0 2px 8px var(--kpi-color);border-color:var(--kpi-color)}
 .v3-kpi:hover::after{opacity:.18;transform:scale(1.5)}
-.v3-kpi-eyebrow{font-family:ui-monospace,monospace;font-size:11px;color:var(--kpi-color);font-weight:800;letter-spacing:2.5px;display:flex;align-items:center;gap:6px;text-transform:uppercase}
+.v3-kpi-eyebrow{font-family:ui-monospace,monospace;font-size:10px;color:var(--kpi-color);font-weight:800;letter-spacing:2.5px;display:flex;align-items:center;gap:6px;text-transform:uppercase}
 .v3-kpi-eyebrow::before{content:'';width:4px;height:10px;background:var(--kpi-color);border-radius:1px;box-shadow:0 0 6px var(--kpi-color)}
-.v3-kpi-num-row{display:flex;align-items:center;gap:10px;flex:1;min-height:48px}
-.v3-kpi-num{font-family:var(--hei);font-size:48px;font-weight:900;color:var(--kpi-color);line-height:.95;letter-spacing:-2px;text-shadow:0 2px 0 rgba(0,0,0,.04),0 4px 12px rgba(0,0,0,.05);position:relative;display:inline-block}
-.v3-kpi-num::after{content:attr(data-unit);font-family:var(--fsong);font-size:13px;font-weight:600;color:var(--ink-3);margin-left:5px;letter-spacing:1px;vertical-align:8px}
-.v3-kpi-vis{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px;justify-content:center}
-.v3-kpi-bar{height:8px;background:var(--bg-2);border-radius:4px;overflow:hidden;display:flex;border:1px solid var(--border);box-shadow:inset 0 1px 2px rgba(0,0,0,.05)}
-.v3-kpi-bar-seg{height:100%;transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;overflow:hidden}
-.v3-kpi-bar-seg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.3) 0%,transparent 50%)}
-.v3-kpi-bar-seg:not(:last-child){border-right:1px solid var(--paper)}
-.v3-kpi-bd{display:flex;flex-wrap:wrap;gap:3px 8px;font-size:11px;color:var(--ink-2);font-family:var(--fsong);font-weight:600;line-height:1.4}
-.v3-kpi-bd span{display:inline-flex;align-items:center;gap:3px}
-.v3-kpi-bd i{width:8px;height:8px;border-radius:2px;display:inline-block;flex-shrink:0;box-shadow:0 1px 2px rgba(0,0,0,.15)}
-.v3-kpi-bd b{font-family:ui-monospace,monospace;font-weight:800;color:var(--ink);font-size:11px}
-.v3-kpi-lbl{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:800;letter-spacing:3px;padding-top:5px;border-top:1px dashed var(--border);display:flex;align-items:center;justify-content:space-between}
-.v3-kpi-lbl::after{content:'→';font-size:13px;color:var(--kpi-color);font-weight:700;opacity:0;transform:translateX(-4px);transition:.3s}
-.v3-kpi:hover .v3-kpi-lbl::after{opacity:1;transform:translateX(0)}
+.v3-kpi-num-row{display:flex;align-items:baseline;gap:8px;flex-shrink:0}
+.v3-kpi-num{font-family:var(--hei);font-size:42px;font-weight:900;color:var(--kpi-color);line-height:.95;letter-spacing:-2px;text-shadow:0 2px 0 rgba(0,0,0,.04),0 4px 12px rgba(0,0,0,.05);position:relative;display:inline-block;transition:transform .35s}
+.v3-kpi:hover .v3-kpi-num{transform:scale(1.05)}
+.v3-kpi-num-unit{font-family:var(--fsong);font-size:12px;color:var(--ink-3);font-weight:700;letter-spacing:1px}
+.v3-kpi-num-ts{font-family:ui-monospace,monospace;font-size:9px;color:var(--ink-3);margin-left:auto;font-weight:600;letter-spacing:.5px;background:var(--bg-2);padding:1px 6px;border-radius:5px}
 
-/* 行业云 */
-.v3-kpi-cloud{display:flex;flex-wrap:wrap;gap:4px;line-height:1.3}
-.v3-kpi-cloud-tag{padding:3px 9px;background:var(--bg-2);border:1px solid var(--border);border-radius:10px;color:var(--ink-2);font-weight:700;font-size:11px;transition:.2s;cursor:default}
-.v3-kpi-cloud-tag:hover{background:var(--paper);color:var(--ink);border-color:var(--seal);transform:translateY(-1px)}
-.v3-kpi-cloud-tag b{color:var(--ink);font-family:ui-monospace,monospace;margin-left:3px;font-weight:800}
+/* 统一行样式 · name + bar + count */
+.v3-kpi-rows{display:flex;flex-direction:column;gap:3px;flex:1;min-height:0;justify-content:center}
+.v3-kpi-row{display:flex;align-items:center;gap:8px;font-size:11px;font-family:var(--fsong)}
+.v3-kpi-row .rk{flex:1;min-width:0;height:8px;background:var(--bg-2);border-radius:4px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(0,0,0,.05);position:relative}
+.v3-kpi-row .rk-fill{height:100%;background:linear-gradient(90deg,var(--kpi-color) 0%,var(--kpi-color-2) 100%);transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;overflow:hidden}
+.v3-kpi-row .rk-fill::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.3) 0%,transparent 50%)}
+.v3-kpi-row .rk-fill:hover{filter:brightness(1.1)}
+.v3-kpi-row .nm{flex:0 0 88px;font-family:var(--fsong);color:var(--ink);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px}
+.v3-kpi-row .ct{flex:0 0 24px;font-family:ui-monospace,monospace;color:var(--kpi-color);font-weight:900;text-align:right;letter-spacing:-.3px;font-size:11px}
+.v3-kpi-row .pct{font-size:8px;color:var(--ink-3);font-weight:700;flex:0 0 30px;text-align:right;font-family:ui-monospace,monospace}
 
-/* === 行业合并大卡 · Industry Mix === */
-.v3-kpi-mix{display:flex;gap:14px;flex:1;min-width:0}
-.v3-kpi-mix-l{flex:1;display:flex;flex-direction:column;gap:5px;justify-content:center;min-width:0}
-.v3-kpi-mix-r{flex:1.1;display:flex;flex-direction:column;gap:4px;min-width:0;border-left:1px dashed var(--border);padding-left:14px}
-.v3-kpi-mix-r .grp-title{font-family:var(--hei);font-size:10px;color:var(--ink-3);font-weight:900;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px}
-.v3-kpi-tier{display:flex;gap:6px;align-items:stretch;font-size:11px;color:var(--ink-2);font-family:var(--fsong);font-weight:600}
-.v3-kpi-tier > div{flex:1;border:1px solid var(--border);border-radius:6px;padding:3px 6px;background:var(--bg-2);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1px;transition:.2s}
-.v3-kpi-tier > div:hover{border-color:var(--kpi-color);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.06)}
-.v3-kpi-tier b{font-family:ui-monospace,monospace;font-size:14px;color:var(--ink);font-weight:900;letter-spacing:-.5px}
-.v3-kpi-tier small{font-size:9px;color:var(--ink-3);font-weight:600;letter-spacing:.3px}
+.v3-kpi-meta{font-family:var(--fsong);font-size:10px;color:var(--ink-3);font-weight:600;display:flex;align-items:center;gap:8px;padding-top:4px;border-top:1px dashed var(--border);letter-spacing:.3px;flex-shrink:0}
+.v3-kpi-meta b{color:var(--ink);font-weight:800;font-family:ui-monospace,monospace}
+.v3-kpi-meta i{font-style:normal;color:var(--kpi-color);font-weight:800;font-family:ui-monospace,monospace}
 
-/* 行业细分 · Top-N 堆叠条（替代 KPI 4 Featured 重复） */
-.v3-kpi-inds{display:flex;flex-direction:column;gap:5px;flex:1;justify-content:center;min-width:0}
-.v3-kpi-ind-bar{height:10px;background:var(--bg-2);border-radius:5px;overflow:hidden;display:flex;border:1px solid var(--border);box-shadow:inset 0 1px 2px rgba(0,0,0,.06)}
-.v3-kpi-ind-seg{height:100%;transition:width 1.2s cubic-bezier(.4,.2,.2,1) .2s;position:relative;overflow:hidden}
-.v3-kpi-ind-seg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.35) 0%,transparent 60%)}
-.v3-kpi-ind-seg:not(:last-child){border-right:1px solid var(--paper)}
-.v3-kpi-ind-seg:hover{filter:brightness(1.1);transform:scaleY(1.4);transform-origin:center;transition:.25s}
-.v3-kpi-ind-list{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:11px;color:var(--ink-2);font-family:var(--fsong);font-weight:600;line-height:1.35}
-.v3-kpi-ind-list span{display:inline-flex;align-items:center;gap:4px;padding:1px 6px;border-radius:8px;background:var(--bg-2);transition:.2s;cursor:default}
-.v3-kpi-ind-list span:hover{background:var(--paper);transform:translateY(-1px)}
-.v3-kpi-ind-list i{width:8px;height:8px;border-radius:2px;display:inline-block;flex-shrink:0;box-shadow:0 1px 2px rgba(0,0,0,.15)}
-.v3-kpi-ind-list b{font-family:ui-monospace,monospace;font-weight:900;color:var(--ink);font-size:11px}
+/* 旧 v3-kpi-cloud/v3-kpi-mix/v3-kpi-inds 系列样式已废弃，统一到 .v3-kpi-rows */
 
-/* === 3 类入口 === */
-.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:6px 0 10px}
+/* === 3 类入口 · 极简单行结构 === */
+.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:4px 0 6px}
 .v3-entry{
   background:linear-gradient(160deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:14px;padding:16px 18px 18px;
-  cursor:pointer;transition:.35s cubic-bezier(.2,.8,.2,1);
-  position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;min-height:112px;
-  box-shadow:0 2px 8px rgba(0,0,0,0.04);
+  border:1px solid var(--border);border-radius:12px;padding:9px 12px 10px;
+  cursor:pointer;transition:.3s cubic-bezier(.2,.8,.2,1);
+  position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;
+  box-shadow:0 2px 6px rgba(0,0,0,0.03);
 }
-.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:6px;background:linear-gradient(180deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);transition:.35s}
-.v3-entry::after{content:'进入分类 →';position:absolute;right:18px;bottom:14px;font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:600;transition:.3s;letter-spacing:1px}
-.v3-entry:hover{transform:translateY(-5px) scale(1.015);box-shadow:0 12px 32px rgba(0,0,0,0.1),0 2px 8px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal))}
-.v3-entry:hover::before{width:10px;box-shadow:0 0 12px var(--cat-color,var(--seal))}
-.v3-entry:hover::after{color:var(--cat-color,var(--seal));transform:translateX(4px)}
+.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);transition:.3s}
+.v3-entry:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(0,0,0,0.1),0 2px 6px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal))}
+.v3-entry:hover::before{width:8px;box-shadow:0 0 10px var(--cat-color,var(--seal))}
+.v3-entry-row1{display:flex;align-items:center;gap:8px;margin-bottom:5px}
 .v3-entry-icon{
-  font-size:36px;line-height:1;margin-bottom:6px;display:inline-block;width:48px;height:48px;line-height:48px;text-align:center;
+  font-size:18px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;
   background:linear-gradient(135deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);
-  border-radius:10px;color:#fff;filter:drop-shadow(0 3px 6px rgba(0,0,0,0.15));
-  transition:.35s;
+  border-radius:7px;color:#fff;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.15));
+  transition:.3s;flex-shrink:0;
 }
-.v3-entry:hover .v3-entry-icon{transform:rotate(-6deg) scale(1.1)}
-.v3-entry-title{font-family:var(--hei);font-size:22px;color:var(--ink);font-weight:900;margin-bottom:4px;letter-spacing:4px;display:inline-block;margin-left:8px;vertical-align:middle}
-.v3-entry-count{font-family:ui-monospace,monospace;font-size:20px;color:var(--cat-color,var(--seal));font-weight:900;margin-bottom:4px;letter-spacing:-.5px;display:flex;align-items:baseline;gap:6px}
-.v3-entry-count small{font-family:var(--fsong);font-size:12px;color:var(--ink-3);font-weight:600;letter-spacing:1.5px}
-.v3-entry-count::after{content:'';flex:1;height:2px;background:linear-gradient(90deg,var(--cat-color,var(--seal)) 0%,transparent 100%);opacity:.3}
-.v3-entry-desc{font-family:var(--fsong);font-size:12px;color:var(--ink-2);line-height:1.55;letter-spacing:.3px}
+.v3-entry:hover .v3-entry-icon{transform:rotate(-6deg) scale(1.08)}
+.v3-entry-title{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:900;letter-spacing:3px;flex:1;min-width:0}
+.v3-entry-count{font-family:ui-monospace,monospace;font-size:14px;color:var(--cat-color,var(--seal));font-weight:900;flex-shrink:0;letter-spacing:-.3px}
+.v3-entry-count small{font-family:var(--fsong);font-size:10px;color:var(--ink-3);font-weight:700;letter-spacing:1px;margin-left:2px}
+.v3-entry-meta{font-family:var(--fsong);font-size:10px;color:var(--ink-2);font-weight:600;line-height:1.3;letter-spacing:.2px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.v3-entry-meta b{font-family:ui-monospace,monospace;color:var(--ink);font-weight:900}
+.v3-entry-meta .sep{color:var(--border-strong);opacity:.4}
+.v3-entry-meta .ind-chip{display:inline-flex;align-items:center;gap:3px;padding:1px 6px;background:rgba(0,0,0,.04);border-radius:6px;font-weight:700;color:var(--cat-color);font-size:10px}
+.v3-entry-arrow{position:absolute;right:10px;bottom:8px;font-size:11px;color:var(--cat-color);font-weight:700;letter-spacing:.5px;opacity:0;transition:.3s}
+.v3-entry:hover .v3-entry-arrow{opacity:1;transform:translateX(2px)}
 
-/* === v3-entry 增强：进度环 + 行业芯片 === */
-.v3-entry-body{display:flex;align-items:center;gap:10px;margin:6px 0 4px}
-.v3-entry-ring{
-  position:relative;width:54px;height:54px;flex-shrink:0;
-  border-radius:50%;background:conic-gradient(var(--cat-color,var(--seal)) calc(var(--p,0)*1%),var(--bg-2) 0);
-  display:grid;place-items:center;transition:background 1.2s cubic-bezier(.4,.2,.2,1) .2s;
-}
-.v3-entry-ring::before{content:'';position:absolute;inset:5px;background:var(--paper);border-radius:50%;box-shadow:inset 0 1px 3px rgba(0,0,0,.06)}
-.v3-entry-ring b{position:relative;z-index:1;font-family:var(--hei);font-size:14px;color:var(--cat-color,var(--seal));font-weight:900;letter-spacing:-.5px}
-.v3-entry-ring em{position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);font-family:ui-monospace,monospace;font-size:9px;color:var(--ink-3);font-style:normal;letter-spacing:.5px;background:var(--paper);padding:0 4px;font-weight:700}
-.v3-entry-stats{flex:1;display:flex;flex-direction:column;gap:3px;min-width:0}
-.v3-entry-stat-row{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--ink-2);font-family:var(--fsong);font-weight:600}
-.v3-entry-stat-row b{font-family:ui-monospace,monospace;font-weight:900;color:var(--ink);font-size:13px}
-.v3-entry-stat-row .lb{flex:1;letter-spacing:.5px}
-.v3-entry-chips{display:flex;flex-wrap:wrap;gap:3px;padding-top:3px;border-top:1px dashed var(--border);margin-top:3px}
-.v3-entry-chip{
-  display:inline-flex;align-items:center;gap:3px;padding:1px 6px;font-size:9px;
-  background:var(--bg-2);border:1px solid var(--border);border-radius:8px;
-  color:var(--ink-2);font-family:var(--fsong);font-weight:600;
-  transition:.2s;
-}
-.v3-entry-chip:hover{background:var(--paper);border-color:var(--cat-color);color:var(--ink)}
-.v3-entry-chip i{width:6px;height:6px;border-radius:1px;flex-shrink:0;display:inline-block;box-shadow:0 1px 1px rgba(0,0,0,.1)}
-.v3-entry-chip b{font-family:ui-monospace,monospace;color:var(--cat-color);font-weight:900}
+/* === v3-entry-body / ring / chips 系列已废弃 · meta 单行内联 === */
 
 /* === 行业分布 · 筛选条 === */
 .v3-cloud-strip{
@@ -268,96 +225,64 @@ body::before{
 
 <div class="v3-home viewport-fit v3-grow">
 
-  <!-- 项目概括总览 · 4 宫格可视化 -->
+  <!-- 项目概括总览 · 2 宫格（统一「名+条+量」结构 · 随数据动态） -->
   <div class="v3-section-h">
     <h2>项目概括总览</h2>
-    <em id="overviewMeta">实时统计 · 同步 ledger.csv → projects.json → reports.json</em>
+    <em id="overviewMeta">实时统计 · 数据自动同步</em>
   </div>
   <div class="v3-kpi-grid" id="kpiGrid">
-    <!-- 报告总数 · Research Reports -->
+    <!-- 报告总数 · 类别分布（动态行数） -->
     <div class="v3-kpi" style="--kpi-color:#1565C0;--kpi-color-2:#0EA5E9">
-      <div class="v3-kpi-eyebrow">Research Reports</div>
+      <div class="v3-kpi-eyebrow">Research Reports · 报告类别分布</div>
       <div class="v3-kpi-num-row">
-        <div class="v3-kpi-num" id="kpiReports" data-counter-up="0" data-unit="份报告">0</div>
-        <div class="v3-kpi-vis">
-          <div class="v3-kpi-bar" id="kpiReportsBar"></div>
-          <div class="v3-kpi-bd" id="kpiReportsBd"></div>
-        </div>
+        <span class="v3-kpi-num" id="kpiReports" data-counter-up="0">0</span>
+        <span class="v3-kpi-num-unit">份 · 跨 <i id="kpiReportsSpan">0</i> 类</span>
+        <span class="v3-kpi-num-ts" id="kpiReportsTs">--:--</span>
       </div>
-      <div class="v3-kpi-lbl">报告总数 · 自动从 reports/ 扫描</div>
+      <div class="v3-kpi-rows" id="kpiReportsRows"></div>
+      <div class="v3-kpi-meta" id="kpiReportsMeta"></div>
     </div>
-    <!-- 行业覆盖 + 细分合并大卡 · Industry Mix -->
+    <!-- 行业覆盖 · 项目分布（统一结构 · 右侧分布融入每行） -->
     <div class="v3-kpi" style="--kpi-color:#7C3AED;--kpi-color-2:#A855F7">
-      <div class="v3-kpi-eyebrow">Industry Mix · 行业覆盖 + 细分</div>
-      <div class="v3-kpi-mix">
-        <!-- 左：覆盖总数 + Top 6 堆叠条 + 芯片 -->
-        <div class="v3-kpi-mix-l">
-          <div style="display:flex;align-items:baseline;gap:8px">
-            <div class="v3-kpi-num" id="kpiIndustries" data-counter-up="0" data-unit="个行业">0</div>
-            <span style="font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:600">已覆盖</span>
-          </div>
-          <div class="v3-kpi-ind-bar" id="kpiIndBar"></div>
-          <div class="v3-kpi-ind-list" id="kpiIndList"></div>
-        </div>
-        <!-- 右：项目数分层（按项目数分布） -->
-        <div class="v3-kpi-mix-r">
-          <div class="grp-title">项目分布</div>
-          <div class="v3-kpi-tier" id="kpiTier"></div>
-          <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:2px" id="kpiIndCloud"></div>
-        </div>
+      <div class="v3-kpi-eyebrow">Industry Mix · 行业覆盖 + 项目分布</div>
+      <div class="v3-kpi-num-row">
+        <span class="v3-kpi-num" id="kpiIndustries" data-counter-up="0">0</span>
+        <span class="v3-kpi-num-unit">个行业 · 含 <i id="kpiIndMain">0</i> 主行业</span>
+        <span class="v3-kpi-num-ts" id="kpiIndTs">实时</span>
       </div>
+      <div class="v3-kpi-rows" id="kpiIndRows"></div>
+      <div class="v3-kpi-meta" id="kpiIndMeta"></div>
     </div>
   </div>
 
-  <!-- 3 类入口 · 公文卡片（带进度环 + 行业芯片） -->
+  <!-- 3 类入口 · 公文卡片（紧凑单行 · 标题+计数+meta） -->
   <div class="v3-entries">
     <a class="v3-entry" href="page.html?view=cat&cat=在推重点" id="entryP0" style="--cat-color:#C0392B;--cat-color-2:#E67E22">
-      <div style="display:flex;align-items:center;margin-bottom:6px">
+      <div class="v3-entry-row1">
         <div class="v3-entry-icon">🏛</div>
         <div class="v3-entry-title">在推重点</div>
+        <div class="v3-entry-count"><span id="cntP0N">0</span><small>项</small></div>
       </div>
-      <div class="v3-entry-body">
-        <div class="v3-entry-ring" data-ring="0" style="--p:0"><b id="ringP0Pct">0%</b><em>优先级</em></div>
-        <div class="v3-entry-stats">
-          <div class="v3-entry-stat-row"><span class="lb">项目数</span><b id="cntP0N">0</b></div>
-          <div class="v3-entry-stat-row"><span class="lb">已立项</span><b id="cntP0L">0</b></div>
-          <div class="v3-entry-stat-row"><span class="lb">已尽调</span><b id="cntP0D">0</b></div>
-        </div>
-      </div>
-      <div class="v3-entry-desc">天保控股投资部直管的重大并购 / 战略投资</div>
-      <div class="v3-entry-chips" id="chipsP0"></div>
+      <div class="v3-entry-meta" id="metaP0">载入中...</div>
+      <div class="v3-entry-arrow">进入 →</div>
     </a>
     <a class="v3-entry" href="page.html?view=cat&cat=储备" id="entryP1" style="--cat-color:#1565C0;--cat-color-2:#0EA5E9">
-      <div style="display:flex;align-items:center;margin-bottom:6px">
+      <div class="v3-entry-row1">
         <div class="v3-entry-icon">📂</div>
         <div class="v3-entry-title">储备</div>
+        <div class="v3-entry-count"><span id="cntP1N">0</span><small>项</small></div>
       </div>
-      <div class="v3-entry-body">
-        <div class="v3-entry-ring" data-ring="0" style="--p:0"><b id="ringP1Pct">0%</b><em>储备度</em></div>
-        <div class="v3-entry-stats">
-          <div class="v3-entry-stat-row"><span class="lb">项目数</span><b id="cntP1N">0</b></div>
-          <div class="v3-entry-stat-row"><span class="lb">未上市</span><b id="cntP1U">0</b></div>
-          <div class="v3-entry-stat-row"><span class="lb">上市/REITs</span><b id="cntP1L">0</b></div>
-        </div>
-      </div>
-      <div class="v3-entry-desc">未来 6-18 个月可能推进的项目</div>
-      <div class="v3-entry-chips" id="chipsP1"></div>
+      <div class="v3-entry-meta" id="metaP1">载入中...</div>
+      <div class="v3-entry-arrow">进入 →</div>
     </a>
     <a class="v3-entry" href="page.html?view=cat&cat=观察" id="entryP2" style="--cat-color:#6B7280;--cat-color-2:#9CA3AF">
-      <div style="display:flex;align-items:center;margin-bottom:6px">
+      <div class="v3-entry-row1">
         <div class="v3-entry-icon">🔭</div>
         <div class="v3-entry-title">观察</div>
+        <div class="v3-entry-count"><span id="cntP2N">0</span><small>项</small></div>
       </div>
-      <div class="v3-entry-body">
-        <div class="v3-entry-ring" data-ring="0" style="--p:0"><b id="ringP2Pct">0%</b><em>跟进度</em></div>
-        <div class="v3-entry-stats">
-          <div class="v3-entry-stat-row"><span class="lb">项目数</span><b id="cntP2N">0</b></div>
-          <div class="v3-entry-stat-row"><span class="lb">短链</span><b id="cntP2S">0</b></div>
-          <div class="v3-entry-stat-row"><span class="lb">中链</span><b id="cntP2M">0</b></div>
-        </div>
-      </div>
-      <div class="v3-entry-desc">已立项 / 知识图谱 / 中心入口 · 维持弱跟踪</div>
-      <div class="v3-entry-chips" id="chipsP2"></div>
+      <div class="v3-entry-meta" id="metaP2">载入中...</div>
+      <div class="v3-entry-arrow">进入 →</div>
     </a>
   </div>
 
@@ -469,66 +394,93 @@ body::before{
   const CAT_PALETTE = ['#1565C0','#C0392B','#0D8050','#7C3AED','#E67E22','#0EA5E9','#DC2626','#0891B2','#7C2D12','#1E3A8A','#166534','#B45309','#6D28D9','#BE185D'];
 
   function renderKPI(){
-    const totalR = Object.values(REPORTS).reduce((s,a)=>s+a.length,0);
+    /* ===== 数据计算 ===== */
+    const allReports = Object.values(REPORTS).flat();
+    const totalR = allReports.length;
 
-    const indMap = new Map();
+    /* 行业（按主行业分 · 含细分 marker） */
+    const mainIndMap = new Map();   // 主行业 → 项目数
+    const subIndMap = new Map();    // 含「·」的细分 → 项目数（合并做次级行）
     PROJECTS.forEach(p=>{
-      p.industry.split(/[·\/ ]/).forEach(x=>{const t=x.trim(); if(t) indMap.set(t,(indMap.get(t)||0)+1)});
-      const main = p.industry.split('·')[0].trim();
-      if(main) indMap.set(main,(indMap.get(main)||0)+1);
+      const inds = (p.industry||'').split(/[·\/ ]+/).map(t=>t.trim()).filter(Boolean);
+      if(inds.length){
+        mainIndMap.set(inds[0], (mainIndMap.get(inds[0])||0)+1);
+      }
+      inds.forEach(t=>{ if(t!==inds[0]) subIndMap.set(t, (subIndMap.get(t)||0)+1); });
     });
-    const industries = [...indMap.entries()].sort((a,b)=>b[1]-a[1]);
+    const industries = [...mainIndMap.entries()].sort((a,b)=>b[1]-a[1]);
 
-
+    /* 报告类别分布 */
     const catMap = new Map();
-    Object.values(REPORTS).flat().forEach(r=>{
+    allReports.forEach(r=>{
       const c = r.category || '未分类';
-      catMap.set(c,(catMap.get(c)||0)+1);
+      catMap.set(c, (catMap.get(c)||0)+1);
     });
     const cats = [...catMap.entries()].sort((a,b)=>b[1]-a[1]);
 
-    /* ① 报告总数 · 类别分段（自动从 reports/ 扫描） */
+    /* ===== KPI 1 · 报告 ===== */
     document.getElementById('kpiReports').setAttribute('data-counter-up', totalR);
-    const repBar = document.getElementById('kpiReportsBar');
-    const topCats = cats.slice(0,7);
-    const otherCnt = cats.slice(7).reduce((s,[,c])=>s+c,0);
-    const allSeg = topCats.map(([c,n],i)=>({c,n,color:CAT_PALETTE[i%CAT_PALETTE.length]}));
-    if(otherCnt>0) allSeg.push({c:'其他',n:otherCnt,color:'#9CA3AF'});
-    repBar.innerHTML = allSeg.map(s=>{
-      const pct = totalR>0 ? (s.n/totalR*100).toFixed(1) : 0;
-      return `<div class="v3-kpi-bar-seg" style="width:${pct}%;background:${s.color}" title="${s.c}: ${s.n}"></div>`;
-    }).join('');
-    document.getElementById('kpiReportsBd').innerHTML = topCats.slice(0,4).map(([c,n],i)=>`<span><i style="background:${CAT_PALETTE[i%CAT_PALETTE.length]}"></i>${c}<b>${n}</b></span>`).join('') + (otherCnt>0?`<span><i style="background:#9CA3AF"></i>其他<b>${otherCnt}</b></span>`:'');
-
-    /* ② 行业覆盖 + 细分合并大卡 */
-    document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.length);
-    /* 左：Top 6 堆叠条 + 列表 */
-    const top6 = industries.slice(0,6);
-    const indTotal = top6.reduce((s,[,c])=>s+c,0);
-    const indBar = document.getElementById('kpiIndBar');
-    indBar.innerHTML = top6.map(([n,c],i)=>{
-      const pct = indTotal>0 ? (c/indTotal*100).toFixed(1) : 0;
-      return `<div class="v3-kpi-ind-seg" style="width:${pct}%;background:${CAT_PALETTE[i%CAT_PALETTE.length]}" title="${n}: ${c} 个项目"></div>`;
-    }).join('');
-    document.getElementById('kpiIndList').innerHTML = top6.map(([n,c],i)=>`<span><i style="background:${CAT_PALETTE[i%CAT_PALETTE.length]}"></i>${n}<b>${c}</b></span>`).join('');
-    /* 右：项目分层（≥3 / 2 / 1）+ Tag 云（剩余行业） */
-    const tier3 = industries.filter(([,c])=>c>=3).length;
-    const tier2 = industries.filter(([,c])=>c===2).length;
-    const tier1 = industries.filter(([,c])=>c===1).length;
-    document.getElementById('kpiTier').innerHTML = `
-      <div title="≥3 个项目行业"><b>${tier3}</b><small>≥3项目</small></div>
-      <div title="2 个项目行业"><b>${tier2}</b><small>=2项目</small></div>
-      <div title="1 个项目行业"><b>${tier1}</b><small>=1项目</small></div>
-    `;
-    document.getElementById('kpiIndCloud').innerHTML = industries.slice(6,12).map(([n,c],i)=>
-      `<span class="v3-kpi-cloud-tag">${n}<b>${c}</b></span>`
-    ).join('') + (industries.length>12?`<span class="v3-kpi-cloud-tag" style="opacity:.6">+${industries.length-12}</span>`:'');
-
-    /* 概览头部同步戳 */
-    const now = new Date();
+    document.getElementById('kpiReportsSpan').textContent = cats.length;
+    const ts = new Date();
     const pad = n=>String(n).padStart(2,'0');
-    const stamp = `${pad(now.getHours())}:${pad(now.getMinutes())} 同步`;
-    document.getElementById('overviewMeta').textContent = `实时统计 · ${stamp} · 数据源 research/{projects,reports}/ → reports.json`;
+    document.getElementById('kpiReportsTs').textContent = `${pad(ts.getHours())}:${pad(ts.getMinutes())}`;
+    /* 行：每类一行，按数量降序 */
+    const maxCat = Math.max(1, ...cats.map(c=>c[1]));
+    document.getElementById('kpiReportsRows').innerHTML = cats.map(([n,c])=>{
+      const pct = (c/maxCat*100).toFixed(0);
+      return `<div class="v3-kpi-row" title="${n}：${c} 份">
+        <span class="nm">${n}</span>
+        <span class="rk"><span class="rk-fill" style="width:${pct}%"></span></span>
+        <span class="ct">${c}</span>
+      </div>`;
+    }).join('') || '<div style="font-size:11px;color:var(--ink-3);font-family:var(--fsong);text-align:center;padding:8px">暂无报告数据</div>';
+    document.getElementById('kpiReportsMeta').innerHTML = `共 <i>${totalR}</i> 份 · 覆盖 <i>${new Set(allReports.map(r=>r.code)).size}</i> 个项目 · 自动从 reports/ 扫描`;
+
+    /* ===== KPI 2 · 行业 ===== */
+    document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.length);
+    /* 主行业有 N 个，叠加细分子行业 marker */
+    const subCount = subIndMap.size;
+    document.getElementById('kpiIndMain').textContent = industries.length + (subCount>0?`<span style="color:var(--ink-3);font-weight:600">+${subCount}细分</span>`:'');
+    /* 行：每个主行业一行 + 细分（只在视觉上叠在一起） */
+    const maxMain = Math.max(1, ...industries.map(i=>i[1]));
+    const indRows = industries.map(([n,c])=>{
+      const pct = (c/maxMain*100).toFixed(0);
+      /* 把细分以小字附在名称内 */
+      const subs = [...subIndMap.entries()].filter(([k,v])=>{
+        /* 行业为「X·Y」时 Y 是其细分；取属于此行业的细分 */
+        for(const it of industries){
+          if(it[0]===n){
+            return Object.entries(subIndMap).filter(([k,v])=>k.startsWith(it[0])).map(([k,v])=>`${k}<b>${v}</b>`);
+          }
+        }
+        return false;
+      });
+      return `<div class="v3-kpi-row" title="${n}：${c} 个项目">
+        <span class="nm">${n}</span>
+        <span class="rk"><span class="rk-fill" style="width:${pct}%"></span></span>
+        <span class="ct">${c}</span>
+        <span class="pct">${(c/PROJECTS.length*100).toFixed(0)}%</span>
+      </div>`;
+    });
+    /* 细分总览行（轻量版 · 仅按总数排序） */
+    const subList = [...subIndMap.entries()].sort((a,b)=>b[1]-a[1]);
+    if(subList.length){
+      const maxSub = Math.max(1, ...subList.map(s=>s[1]));
+      indRows.push(`<div class="v3-kpi-row" style="opacity:.6" title="细分行业">
+        <span class="nm" style="font-style:italic;color:var(--seal)">▸ 细分行业</span>
+        <span class="rk"><span class="rk-fill" style="width:100%;background:var(--seal)"></span></span>
+        <span class="ct" style="color:var(--seal)">${subList.length}</span>
+        <span class="pct"></span>
+      </div>`);
+    }
+    document.getElementById('kpiIndRows').innerHTML = indRows.join('') || '<div style="font-size:11px;color:var(--ink-3);font-family:var(--fsong);text-align:center;padding:8px">暂无行业数据</div>';
+    /* 元信息 */
+    const topIndustry = industries[0] ? industries[0] : ['—',0];
+    document.getElementById('kpiIndMeta').innerHTML = `<span><b>${topIndustry[0]}</b> 居首 · ${topIndustry[1]} 个项目</span> · 自动从 projects.json 聚合`;
+
+    /* ===== 概览头部同步戳 · 动态显示总数 ===== */
+    const stamp = `${pad(ts.getHours())}:${pad(ts.getMinutes())} 同步`;
+    document.getElementById('overviewMeta').textContent = `实时统计 · ${stamp} · ${PROJECTS.length} 项目 · ${totalR} 报告 · ${industries.length} 行业`;
 
     /* === 3 类入口 · 进度环 + 行业芯片 === */
     renderEntries();
@@ -541,8 +493,10 @@ body::before{
     groups.forEach((s, gi)=>{
       const ps = PROJECTS.filter(p=>p.stage_v3===s);
       const cntN = ps.length;
-      /* 进度环百分比 */
-      let pct = 0;
+      document.getElementById('cntP'+gi+'N').textContent = cntN;
+
+      /* 进度估算（按当前 stage + 平均 progress_pct） */
+      let pct;
       if(s==='在推重点'){
         pct = Math.min(100, Math.round(ps.reduce((sum,p)=>sum+(p.progress_pct||0),0) / Math.max(1, ps.length)));
       } else if(s==='储备'){
@@ -550,43 +504,36 @@ body::before{
       } else {
         pct = Math.min(100, Math.round(ps.reduce((sum,p)=>sum+((p.progress_pct||5)*0.4+5),0) / Math.max(1, ps.length)));
       }
-      const ring = document.querySelector(`#entryP${gi} .v3-entry-ring`);
-      const pctEl = document.getElementById('ringP'+gi+'Pct');
-      if(ring) requestAnimationFrame(()=>{ ring.style.setProperty('--p', pct); });
-      if(pctEl) pctEl.textContent = pct + '%';
 
-      /* 统计行 */
-      const statsMap = {
-        0: ['cntP0N','cntP0L','cntP0D'],
-        1: ['cntP1N','cntP1U','cntP1L'],
-        2: ['cntP2N','cntP2S','cntP2M'],
-      };
-      const [nId, lId, dId] = statsMap[gi];
-      document.getElementById(nId).textContent = cntN;
+      /* 每个类别的简明 meta：进度% + 子统计 + Top 行业 */
+      let subPart = '';
       if(gi===0){
-        document.getElementById(lId).textContent = ps.filter(p=>p.progress_pct>=30).length;
-        document.getElementById(dId).textContent = ps.filter(p=>p.progress_pct>=60).length;
+        const l = ps.filter(p=>(p.progress_pct||0)>=30).length;
+        const d = ps.filter(p=>(p.progress_pct||0)>=60).length;
+        subPart = `<b>${l}</b>立项 <span class="sep">·</span> <b>${d}</b>已尽调`;
       } else if(gi===1){
         const u = ps.filter(p=>!p.iss || p.iss==='未上市' || (p.iss||'').includes('未')).length;
-        document.getElementById(lId).textContent = u;
-        document.getElementById(dId).textContent = cntN - u;
+        subPart = `<b>${u}</b>未上市 <span class="sep">·</span> <b>${cntN-u}</b>上市/REITs`;
       } else {
-        document.getElementById(lId).textContent = ps.filter(p=>(p.progress_pct||0)<20).length;
-        document.getElementById(dId).textContent = ps.filter(p=>(p.progress_pct||0)>=20 && (p.progress_pct||0)<50).length;
+        const short = ps.filter(p=>(p.progress_pct||0)<20).length;
+        const mid   = ps.filter(p=>(p.progress_pct||0)>=20 && (p.progress_pct||0)<50).length;
+        subPart = `<b>${short}</b>短链 <span class="sep">·</span> <b>${mid}</b>中链`;
       }
 
-      /* 行业芯片 · 取这个类别下的 Top 3 行业 */
+      /* Top 行业 chips 内联 */
       const indMap = new Map();
       ps.forEach(p=>{
         const main = (p.industry||'').split('·')[0].trim();
         if(main) indMap.set(main, (indMap.get(main)||0)+1);
       });
       const topInds = [...indMap.entries()].sort((a,b)=>b[1]-a[1]).slice(0,3);
-      const chipHost = document.getElementById('chipsP'+gi);
-      if(chipHost){
-        chipHost.innerHTML = topInds.map(([n,c],i)=>{
-          return `<span class="v3-entry-chip"><i style="background:${CAT_PALETTE[i%CAT_PALETTE.length]}"></i>${n}<b>${c}</b></span>`;
-        }).join('') || '<span class="v3-entry-chip" style="opacity:.5">— 无行业 —</span>';
+      const chipPart = topInds.map(([n,c],i)=>
+        `<span class="ind-chip"><i style="width:6px;height:6px;background:${CAT_PALETTE[i%CAT_PALETTE.length]};display:inline-block;border-radius:1px"></i>${n}<b>${c}</b></span>`
+      ).join('') || '<span class="ind-chip" style="opacity:.5">—</span>';
+
+      const metaHost = document.getElementById('metaP'+gi);
+      if(metaHost){
+        metaHost.innerHTML = `📊 ${pct}% <span class="sep">·</span> ${subPart} <span class="sep">·</span> ${chipPart}`;
       }
     });
   }
