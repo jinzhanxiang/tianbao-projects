@@ -18,9 +18,9 @@ body{background:var(--bg)}
 .v3-entry:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08),0 2px 6px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal))}
 .v3-entry:hover::before{width:8px}
 .v3-entry:hover::after{color:var(--cat-color,var(--seal));transform:translateX(3px)}
-.v3-entry-icon{font-size:32px;line-height:1;margin-bottom:6px;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.08))}
-.v3-entry-title{font-family:var(--hei);font-size:18px;color:var(--ink);font-weight:800;margin-bottom:4px;letter-spacing:2px}
-.v3-entry-count{font-family:ui-monospace,monospace;font-size:16px;color:var(--cat-color,var(--seal));font-weight:900;margin-bottom:6px;letter-spacing:-0.5px}
+.v3-entry-icon{font-size:34px;line-height:1;margin-bottom:6px;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.08))}
+.v3-entry-title{font-family:var(--hei);font-size:20px;color:var(--ink);font-weight:900;margin-bottom:4px;letter-spacing:3px}
+.v3-entry-count{font-family:ui-monospace,monospace;font-size:17px;color:var(--cat-color,var(--seal));font-weight:900;margin-bottom:6px;letter-spacing:-0.5px}
 .v3-entry-count small{font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:500;margin-left:3px;letter-spacing:1px}
 .v3-entry-desc{font-family:var(--fsong);font-size:12px;color:var(--ink-2);line-height:1.5}
 
@@ -54,10 +54,10 @@ body{background:var(--bg)}
 .v3-feed-sub{font-size:11px;color:var(--ink-3);font-family:var(--fsong);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .v3-feed-empty{padding:32px 12px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:13px;text-indent:0}
 
-.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
-.v3-section-h h2{font-family:var(--hei);font-size:15px;color:var(--ink);font-weight:800;margin:0;display:flex;align-items:center;gap:10px;letter-spacing:2px}
-.v3-section-h h2::before{content:'';width:3px;height:14px;background:var(--doc-rule);border-radius:1px}
-.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:11px;color:var(--ink-3);font-weight:500}
+.v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 6px;padding-bottom:5px;border-bottom:2px solid var(--ink)}
+.v3-section-h h2{font-family:var(--hei);font-size:19px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:10px;letter-spacing:3px}
+.v3-section-h h2::before{content:'';width:4px;height:18px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:1px}
+.v3-section-h em{font-style:normal;font-family:var(--fsong);font-size:12px;color:var(--ink-2);font-weight:500;letter-spacing:.5px}
 .v3-section-h .tools{display:flex;gap:8px;align-items:center}
 .v3-section-h .tools small{font-size:11px;color:var(--ink-3)}
 
@@ -97,27 +97,48 @@ body{background:var(--bg)}
 
 <div class="v3-home viewport-fit v3-grow">
 
-  <!-- KPI 4 宫格（公文 HUD 风） -->
+  <!-- 项目概括总览 · 4 宫格可视化 -->
+  <div class="v3-section-h">
+    <h2>📊 项目概括总览</h2>
+    <em id="overviewMeta">实时统计 · 从 ledger 聚合</em>
+  </div>
   <div class="v3-kpi-grid" id="kpiGrid">
-    <div class="v3-kpi">
-      <div class="v3-kpi-num" id="kpiProjects" data-counter-up="0">0</div>
+    <div class="v3-kpi" style="--kpi-color:#C0392B">
+      <div class="v3-kpi-eyebrow">PROJECT PIPELINE</div>
+      <div class="v3-kpi-num-row">
+        <div class="v3-kpi-num" id="kpiProjects" data-counter-up="0">0</div>
+        <div class="v3-kpi-vis">
+          <div class="v3-kpi-bar" id="kpiProjectsBar"></div>
+          <div class="v3-kpi-bd" id="kpiProjectsBd"></div>
+        </div>
+      </div>
       <div class="v3-kpi-lbl">总项目数</div>
-      <div class="v3-kpi-sub" id="kpiProjectsSub">载入中...</div>
     </div>
-    <div class="v3-kpi">
-      <div class="v3-kpi-num" id="kpiReports" data-counter-up="0">0</div>
+    <div class="v3-kpi" style="--kpi-color:#1565C0">
+      <div class="v3-kpi-eyebrow">RESEARCH REPORTS</div>
+      <div class="v3-kpi-num-row">
+        <div class="v3-kpi-num" id="kpiReports" data-counter-up="0">0</div>
+        <div class="v3-kpi-vis">
+          <div class="v3-kpi-bar" id="kpiReportsBar"></div>
+          <div class="v3-kpi-bd" id="kpiReportsBd"></div>
+        </div>
+      </div>
       <div class="v3-kpi-lbl">报告总数</div>
-      <div class="v3-kpi-sub" id="kpiReportsSub">含 7 大类别</div>
     </div>
-    <div class="v3-kpi">
-      <div class="v3-kpi-num" id="kpiIndustries" data-counter-up="0">0</div>
+    <div class="v3-kpi" style="--kpi-color:#0D8050">
+      <div class="v3-kpi-eyebrow">INDUSTRY COVERAGE</div>
+      <div class="v3-kpi-num-row">
+        <div class="v3-kpi-num" id="kpiIndustries" data-counter-up="0">0</div>
+        <div class="v3-kpi-vis">
+          <div class="v3-kpi-cloud" id="kpiIndustriesCloud"></div>
+        </div>
+      </div>
       <div class="v3-kpi-lbl">覆盖行业</div>
-      <div class="v3-kpi-sub" id="kpiIndustriesSub">—</div>
     </div>
-    <div class="v3-kpi">
-      <div class="v3-kpi-num" id="kpiFeatured" data-counter-up="0">0</div>
-      <div class="v3-kpi-lbl">在推重点项目</div>
-      <div class="v3-kpi-sub" id="kpiFeaturedSub">投资部直管</div>
+    <div class="v3-kpi" style="--kpi-color:#8B5CF6">
+      <div class="v3-kpi-eyebrow">FEATURED · 投资部直管</div>
+      <div class="v3-kpi-featured" id="kpiFeaturedList"></div>
+      <div class="v3-kpi-lbl">在推重点项目 · <span id="kpiFeatured" data-counter-up="0" style="font-family:ui-monospace,monospace;color:var(--seal);font-size:14px">0</span></div>
     </div>
   </div>
 
@@ -257,26 +278,80 @@ body{background:var(--bg)}
     renderAll();
   }
 
-  /* ---------- KPI ---------- */
+  /* ---------- KPI · 可视化 ---------- */
+  const STAGE_COLORS = {'在推重点':'#C0392B','储备':'#1565C0','观察':'#6B7280'};
+  const ISS_COLORS = {'未上市':'#8B5CF6','上市':'#0D8050','REITs':'#E67E22'};
+  const CAT_PALETTE = ['#1565C0','#C0392B','#0D8050','#8B5CF6','#E67E22','#0EA5E9','#DC2626'];
+
   function renderKPI(){
     const totalP = PROJECTS.length;
     const totalR = Object.values(REPORTS).reduce((s,a)=>s+a.length,0);
-    const industries = new Set();
-    PROJECTS.forEach(p=>{
-      p.industry.split(/[·\/ ]/).forEach(x=>{if(x.trim())industries.add(x.trim());});
-      const main = p.industry.split('·')[0].trim();
-      if(main) industries.add(main);
-    });
-    const featured = PROJECTS.filter(p=>p.stage_v3==='在推重点').length;
 
-    // 设 data-counter-up 属性，然后 cmdK.counterUpAll() 会滚动到目标值
+    // 行业聚合
+    const indMap = new Map();
+    PROJECTS.forEach(p=>{
+      p.industry.split(/[·\/ ]/).forEach(x=>{const t=x.trim(); if(t) indMap.set(t,(indMap.get(t)||0)+1)});
+      const main = p.industry.split('·')[0].trim();
+      if(main) indMap.set(main,(indMap.get(main)||0)+1);
+    });
+    const industries = [...indMap.entries()].sort((a,b)=>b[1]-a[1]);
+
+    // 在推重点
+    const featuredList = PROJECTS.filter(p=>p.stage_v3==='在推重点').sort((a,b)=>(b.progress_pct||0)-(a.progress_pct||0));
+
+    // 报告按 category 统计
+    const catMap = new Map();
+    Object.values(REPORTS).flat().forEach(r=>{
+      const c = r.category || '未分类';
+      catMap.set(c,(catMap.get(c)||0)+1);
+    });
+    const cats = [...catMap.entries()].sort((a,b)=>b[1]-a[1]);
+
+    /* ① 总项目数 · 阶段拆分条 */
     document.getElementById('kpiProjects').setAttribute('data-counter-up', totalP);
-    document.getElementById('kpiProjectsSub').textContent = `7 类阶段 × 3 状态`;
+    const stages = ['在推重点','储备','观察'];
+    const stageBar = document.getElementById('kpiProjectsBar');
+    stageBar.innerHTML = stages.map(s=>{
+      const cnt = PROJECTS.filter(p=>p.stage_v3===s).length;
+      const pct = totalP>0 ? (cnt/totalP*100).toFixed(1) : 0;
+      return `<div class="v3-kpi-bar-seg" style="width:${pct}%;background:${STAGE_COLORS[s]}" title="${s}: ${cnt}"></div>`;
+    }).join('');
+    document.getElementById('kpiProjectsBd').innerHTML = stages.map(s=>{
+      const cnt = PROJECTS.filter(p=>p.stage_v3===s).length;
+      return `<span><i style="background:${STAGE_COLORS[s]}"></i>${s} <b>${cnt}</b></span>`;
+    }).join('');
+
+    /* ② 报告总数 · 类别条 */
     document.getElementById('kpiReports').setAttribute('data-counter-up', totalR);
-    document.getElementById('kpiReportsSub').textContent = `按项目文件夹索引`;
-    document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.size);
-    document.getElementById('kpiIndustriesSub').textContent = '自动从项目聚合';
-    document.getElementById('kpiFeatured').setAttribute('data-counter-up', featured);
+    const repBar = document.getElementById('kpiReportsBar');
+    const topCats = cats.slice(0,7);
+    const otherCnt = cats.slice(7).reduce((s,[,c])=>s+c,0);
+    const palette = CAT_PALETTE.slice();
+    const allSeg = topCats.map(([c,n],i)=>({c,n,color:palette[i%palette.length]}));
+    if(otherCnt>0) allSeg.push({c:'其他',n:otherCnt,color:'#9CA3AF'});
+    repBar.innerHTML = allSeg.map(s=>{
+      const pct = totalR>0 ? (s.n/totalR*100).toFixed(1) : 0;
+      return `<div class="v3-kpi-bar-seg" style="width:${pct}%;background:${s.color}" title="${s.c}: ${s.n}"></div>`;
+    }).join('');
+    document.getElementById('kpiReportsBd').innerHTML = topCats.slice(0,3).map(([c,n],i)=>`<span><i style="background:${palette[i%palette.length]}"></i>${c} <b>${n}</b></span>`).join('') + (otherCnt>0?`<span><i style="background:#9CA3AF"></i>其他 <b>${otherCnt}</b></span>`:'');
+
+    /* ③ 行业 · Top 4 标签云 */
+    document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.length);
+    const top4 = industries.slice(0,4);
+    document.getElementById('kpiIndustriesCloud').innerHTML = top4.map(([n,c])=>`<span class="v3-kpi-cloud-tag">${n} <b>${c}</b></span>`).join('') + (industries.length>4?`<span class="v3-kpi-cloud-tag" style="background:var(--paper-2);color:var(--ink-3)">+${industries.length-4}</span>`:'');
+
+    /* ④ 在推重点项目 · 卡片堆叠 */
+    document.getElementById('kpiFeatured').setAttribute('data-counter-up', featuredList.length);
+    document.getElementById('kpiFeaturedList').innerHTML = featuredList.slice(0,3).map(p=>{
+      const emoji = (p.industry||'').includes('电池')?'🔋':(p.industry||'').includes('医疗')?'🏥':(p.industry||'').includes('芯片')?'💎':(p.industry||'').includes('航天')?'🛰️':(p.industry||'').includes('数据')?'🖥️':(p.industry||'').includes('智能体')?'🧠':'🏢';
+      return `<a class="v3-kpi-feat" href="detail.html?code=${encodeURIComponent(p.code)}"><span class="em">${emoji}</span><span class="nm">${escapeHtml(p.name_cn||p.code)}</span><span class="iss">${escapeHtml(p.iss||'—')}</span></a>`;
+    }).join('') || '<div style="font-size:11px;color:var(--ink-3);font-family:var(--fsong);padding:6px">暂无在推重点</div>';
+
+    /* 概览头部 */
+    const now = new Date();
+    const pad = n=>String(n).padStart(2,'0');
+    const stamp = `${pad(now.getHours())}:${pad(now.getMinutes())} 同步`;
+    document.getElementById('overviewMeta').textContent = `实时统计 · ${stamp} · 数据源 ledger.csv → projects.json → reports.json`;
 
     // 分类入口计数
     ['在推重点','储备','观察'].forEach(s=>{
@@ -285,7 +360,7 @@ body{background:var(--bg)}
       if(el) el.textContent = `${cnt} 个项目`;
     });
 
-    // 触发 counter-up 滚动（cmdK.js 提供）
+    // 触发 counter-up 滚动
     if(window.cmdK) window.cmdK.counterUpAll();
   }
 
