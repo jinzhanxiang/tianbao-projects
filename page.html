@@ -36,16 +36,17 @@ body{background:var(--bg)}
 <nav class="nav">
   <div class="nav-inner">
     <a class="nav-brand" href="index.html">
-      <div class="nav-logo">保</div>
+      <img class="nav-logo" src="assets/brand/tb-logo.svg" alt="TB" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="nav-logo-fallback" style="display:none">保</div>
       <div>
         <div>天保控股投资部 · 项目管理中心</div>
         <div class="nav-brand-sub">分类矩阵 · 3 一级 × 3 二级<span class="sep">·</span>支持拖拽项目在 9 单元格间移动</div>
       </div>
     </a>
     <div class="nav-links">
-      <a href="index.html">🏛 首页</a>
-      <a class="active" id="navActive">📂 分类矩阵</a>
-      <a href="all_reports.html">📚 所有报告</a>
+      <a href="index.html" class="anim-fade-in">🏛 首页</a>
+      <a class="active anim-fade-in" id="navActive" style="animation-delay:.1s">📂 分类矩阵</a>
+      <a href="all_reports.html" class="anim-fade-in" style="animation-delay:.2s">📚 所有报告</a>
     </div>
   </div>
 </nav>
