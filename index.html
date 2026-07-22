@@ -445,7 +445,7 @@ body::before{
       </div>
     </a>
     <div class="nav-links">
-      <a class="active anim-fade-in">🏛 首页</a>
+      <span class="nav-current anim-fade-in" aria-current="page">🏛 首页</span>
       <a href="page.html" class="anim-fade-in" style="animation-delay:.1s">📂 分类矩阵</a>
       <a href="all_reports.html" class="anim-fade-in" style="animation-delay:.2s">📚 所有报告</a>
     </div>
@@ -931,6 +931,16 @@ body::before{
     return {list: filtered.slice(0, limit), total: filtered.length};
   }
 
+  function resolveReportUrl(report){
+    return window.cmdK ? window.cmdK.resolveReportUrl(report, report.code) : ('detail.html?code=' + encodeURIComponent(report.code) + '#secReports');
+  }
+
+  const RESTRICTED_SOURCE_HOSTS = ['cers.org.cn', 'omdia.com', 'came-online.org'];
+  function isRestrictedSource(url){
+    try { return RESTRICTED_SOURCE_HOSTS.some(host => new URL(url, location.href).hostname.includes(host)); }
+    catch(e){ return false; }
+  }
+
   /* === 统一事件流 · 行业动态 + 近期报告 按日期合并排序 === */
   function renderUnified(){
     const track = document.getElementById('unifiedTrack');
@@ -949,7 +959,8 @@ body::before{
         sortKey: n.date || '',
         tag: n.industry || n.source || '资讯',
         title: n.title || '',
-        url: n.url || '#',
+        url: n.url || '',
+        restricted: isRestrictedSource(n.url || ''),
       })),
       ...reports.map(r => {
         const proj = PROJECTS.find(p => p.code === r.code);
@@ -960,7 +971,7 @@ body::before{
           sortKey: r.date || '',
           tag: r.category || '未分类',
           title: r.title || '(无标题)',
-          url: r.url || ('detail.html?code=' + encodeURIComponent(r.code)),
+          url: resolveReportUrl({...r, code:r.code}),
           projName,
         };
       }),
@@ -979,17 +990,19 @@ body::before{
       const isNews = it.kind === 'news';
       const tagEmoji = isNews ? '📰' : '📄';
       const tagColor = isNews ? 'var(--tb-blue)' : 'var(--seal)';
-      const subLine = isNews ? '' : `<div class="v3-feed-sub">📁 ${escapeHtml(it.projName)}</div>`;
-      return `
-        <a class="v3-feed-card" href="${it.url}" target="_blank" rel="noopener" data-kind="${it.kind}">
+      const subLine = isNews
+        ? (it.restricted ? '<div class="v3-source-note">来源网站可能限制直接访问</div>' : '')
+        : `<div class="v3-feed-sub">📁 ${escapeHtml(it.projName)}</div>`;
+      const inner = `
           <div class="v3-feed-card-top">
             <span class="v3-feed-tag" style="--tag-c:${tagColor}">${tagEmoji} ${escapeHtml(it.tag)}</span>
             <span class="v3-feed-date">${it.date || '—'}</span>
           </div>
           <div class="v3-feed-title">${escapeHtml(it.title)}</div>
-          ${subLine}
-        </a>
-      `;
+          ${subLine}`;
+      return it.url
+        ? `<a class="v3-feed-card" href="${it.url}" target="_blank" rel="noopener noreferrer" data-kind="${it.kind}">${inner}</a>`
+        : `<div class="v3-feed-card" data-kind="${it.kind}">${inner}</div>`;
     }).join('');
     track.innerHTML = cards + cards;
     setMarquee('unifiedMarquee', 'unifiedTrack', total);
