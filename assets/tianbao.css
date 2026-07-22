@@ -1,7 +1,7 @@
 
-/* === 国企公文风格 v8.0 · 天保控股投资部项目管理系统 · A+A+A === */
+/* === 国企公文风格 v9.0 · 天保控股投资部项目管理系统 · 公文调 + 适度科技感 === */
 :root{
-  /* 主调：朱红印章 + 米色宣纸 + 墨色字体 */
+  /* 主调：朱红印章 + 米色宣纸 + 墨色字体 + 官方品牌蓝 */
   --bg:#F5EFE0;             /* 米色宣纸底 */
   --bg-2:#EFE6CF;           /* 深米色（备用）*/
   --paper:#FFFCF0;          /* 宣纸白 */
@@ -14,16 +14,23 @@
   --gold:#B8860B;           /* 金色点缀 */
   --gold-2:#8B6914;         /* 深金 */
   --green:#2E7D32;          /* 国企绿色 */
-  --blue:#1565C0;           /* 国企蓝 */
+  --blue:#1565C0;           /* 国企蓝（次要）*/
+  /* === 官方品牌色（取自 tbh.com.cn 实际 CSS） === */
+  --tb-blue:#0079DD;        /* 官方主蓝（关键品牌色）*/
+  --tb-blue-2:#00519B;      /* 深官方蓝 */
+  --tb-blue-3:#6FC9FF;      /* 浅官方蓝 */
+  --tb-blue-soft:rgba(0,121,221,0.08);  /* 蓝芯片背景 */
   --red:#E53E3E;            /* 红（卡片 status 用）*/
-  --chip-bg:rgba(21,101,192,0.08);  /* 蓝芯片背景 */
-  --panel:transparent;      /* 透明卡片（A+A+A 决策②）*/
+  --chip-bg:rgba(0,121,221,0.08);  /* 蓝芯片背景（使用官方蓝）*/
+  --panel:transparent;      /* 透明卡片 */
   --panel-strong:rgba(255,252,240,0.6);  /* 半透米色（hover/重点）*/
   --border:rgba(26,26,26,0.18);          /* 墨色细边 */
   --border-strong:rgba(192,57,43,0.55);  /* 朱红强调边 */
+  --border-tb:rgba(0,121,221,0.35);      /* 官方蓝边 */
   --r:8px; --r-lg:12px; --r-xl:18px;     /* 收敛圆角·公文调性 */
   --shadow:0 2px 8px rgba(26,26,26,0.06);                /* 极弱阴影 */
   --shadow-lg:0 4px 16px rgba(26,26,26,0.10);
+  --shadow-tb:0 4px 14px rgba(0,121,221,0.12);  /* 官方蓝投影 */
   --font-fang:'Source Han Serif SC','Noto Serif SC','Songti SC','STFangsong','FangSong','仿宋','HuaWenFangSong',serif;
   /* === 公文规范 === */
   --doc-title:22px;
@@ -35,12 +42,80 @@
   --fsong:"FangSong","STFangsong","仿宋_GB2312","仿宋",serif;
   --hei:"SimHei","黑体","Source Han Sans SC","Noto Sans SC",sans-serif;
   --teal:#00D4FF;
-  --hud-line:rgba(0,212,255,0.42);
-  /* === 科幻效果（HUD 风）=== */
-  --glow-seal:0 0 12px rgba(192,57,43,0.45);
-  --glow-blue:0 0 10px rgba(21,101,192,0.4);
-  --hud-bg:linear-gradient(135deg,rgba(0,212,255,0.04),rgba(192,57,43,0.04));
+  --hud-line:rgba(0,121,221,0.32);  /* 官方蓝 HUD 边 */
+  /* === 适度科技感阴影（保留） === */
+  --glow-soft:0 2px 8px rgba(0,121,221,0.10);  /* 柔光投影 */
+  --hud-bg:linear-gradient(135deg,rgba(0,121,221,0.04),rgba(192,57,43,0.04));
 }
+
+/* =====================================================
+ * 国企公文调 + 适度科技感 · 动画目录
+ * 原则：一次性入场动画 + 状态过渡 · 避免赛博朋克闪烁
+ * ===================================================== */
+
+/* === 入场动画 · 一次完成（不循环） === */
+@keyframes inkDrop{            /* 印章落墨 */
+  0%{opacity:0;transform:scale(1.2)}
+  60%{opacity:1;transform:scale(.95)}
+  100%{opacity:1;transform:scale(1)}
+}
+@keyframes ribbonUnfold{        /* 红带横向展开 */
+  0%{transform:scaleX(0);opacity:0}
+  100%{transform:scaleX(1);opacity:1}
+}
+@keyframes lineDraw{            /* 分割线绘制 */
+  0%{transform:scaleX(0)}
+  100%{transform:scaleX(1)}
+}
+@keyframes barGrow{             /* 进度条伸展 */
+  0%{width:0}
+  100%{width:var(--w,100%)}
+}
+@keyframes fadeUp{              /* 卡片淡入上浮 */
+  0%{opacity:0;transform:translateY(8px)}
+  100%{opacity:1;transform:translateY(0)}
+}
+@keyframes fadeIn{              /* 纯淡入 */
+  0%{opacity:0}
+  100%{opacity:1}
+}
+@keyframes slideRight{          /* 从左滑入 */
+  0%{opacity:0;transform:translateX(-12px)}
+  100%{opacity:1;transform:translateX(0)}
+}
+@keyframes sealStamp{           /* 印章盖落 */
+  0%{opacity:0;transform:scale(1.5) rotate(-15deg)}
+  70%{opacity:1;transform:scale(.92) rotate(2deg)}
+  100%{opacity:1;transform:scale(1) rotate(0)}
+}
+@keyframes dotAppear{           /* 状态点出现 */
+  0%{opacity:0;transform:scale(0)}
+  60%{opacity:1;transform:scale(1.3)}
+  100%{opacity:1;transform:scale(1)}
+}
+@keyframes scrollMarquee{       /* 长列表滚动（功能） */
+  0%{transform:translateY(0)}
+  100%{transform:translateY(-50%)}
+}
+@keyframes brandShine{          /* 品牌字渐变光泽（保留·已存在） */
+  0%,100%{background-position:0 0}
+  50%{background-position:200% 0}
+}
+@keyframes rippleOut{           /* 点击涟漪（保留·单次） */
+  0%{transform:scale(0);opacity:.6}
+  100%{transform:scale(2.5);opacity:0}
+}
+
+/* === 动画应用类（按用途） === */
+.anim-ink-drop{animation:inkDrop .6s cubic-bezier(.2,.8,.2,1) backwards}
+.anim-ribbon{animation:ribbonUnfold .4s ease-out backwards;transform-origin:left}
+.anim-line{animation:lineDraw .6s ease-out backwards;transform-origin:left}
+.anim-bar{animation:barGrow 1s cubic-bezier(.4,.2,.2,1) backwards}
+.anim-fade-up{animation:fadeUp .5s cubic-bezier(.2,.8,.2,1) backwards}
+.anim-fade-in{animation:fadeIn .5s ease-out backwards}
+.anim-slide-r{animation:slideRight .5s cubic-bezier(.2,.8,.2,1) backwards}
+.anim-seal{animation:sealStamp .7s cubic-bezier(.2,.8,.2,1) backwards}
+.anim-dot{animation:dotAppear .5s cubic-bezier(.2,.8,.2,1) backwards}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:var(--font-fang);font-size:18px;background:var(--bg);color:var(--ink);line-height:1.8;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s;background-image:radial-gradient(circle at 20% 30%,rgba(184,134,11,0.03) 0%,transparent 50%),radial-gradient(circle at 80% 70%,rgba(192,57,43,0.03) 0%,transparent 50%)}
@@ -90,6 +165,8 @@ a{color:inherit;text-decoration:none}
 
 /* === 顶栏 === */
 .nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--border)}
+/* R173: 公文红带 · 顶部3px品牌色条（公司主色+党建红）*/
+.nav::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--tb-blue) 0%,var(--tb-blue-2) 30%,var(--seal) 70%,var(--seal-2) 100%);z-index:1;transform-origin:left;animation:ribbonUnfold 1s cubic-bezier(.2,.8,.2,1) backwards}
 .nav-inner{max-width:1280px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:20px}
 .nav-brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:15px;color:var(--ink);transition:.3s}
 .nav-brand:hover{transform:translateX(2px)}
@@ -97,7 +174,9 @@ a{color:inherit;text-decoration:none}
 .nav-brand>div>div:first-child{font-size:18px;letter-spacing:1.5px;background:linear-gradient(90deg,var(--ink) 0%,var(--seal) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;position:relative;animation:brandShine 4s ease-in-out infinite}
 @keyframes brandShine{0%,100%{background-position:0 0}50%{background-position:200% 0}}
 /* R172: 删除 brandSweep 高光扫过（叠加在 brandShine 上显得过炫） */
-.nav-logo{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--ink),var(--blue));display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px;flex-shrink:0}
+.nav-logo{width:36px;height:36px;border-radius:50%;background:transparent;display:block;flex-shrink:0;object-fit:cover;transition:.3s cubic-bezier(.2,.8,.2,1);filter:drop-shadow(0 2px 4px rgba(0,121,221,0.15))}
+.nav-brand:hover .nav-logo{transform:rotate(8deg) scale(1.05);filter:drop-shadow(0 4px 8px rgba(0,121,221,0.25))}
+.nav-logo-fallback{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--tb-blue) 0%,var(--tb-blue-2) 100%);color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900;box-shadow:0 2px 6px rgba(0,121,221,0.25);flex-shrink:0}
 .nav-brand-sub{font-size:11px;color:var(--ink-3);font-weight:500;letter-spacing:.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .nav-brand-sub .clock{font-family:ui-monospace,monospace;color:var(--seal);font-weight:800;letter-spacing:1px;font-size:12px}
 .nav-brand-sub .sep{color:var(--border-strong)}
@@ -578,10 +657,22 @@ a{color:inherit;text-decoration:none}
 .v3-matrix-h{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:700;letter-spacing:2px;text-align:center;padding:14px 8px;background:var(--paper);border-radius:var(--r);border:1px dashed var(--hud-line)}
 .v3-matrix-h.col-tag{background:transparent;border:none}
 .v3-matrix-row-h{font-family:var(--hei);font-size:var(--doc-body);color:var(--ink);font-weight:700;letter-spacing:3px;display:flex;align-items:center;justify-content:center;background:var(--paper);border-radius:var(--r);border:1px dashed var(--hud-line);padding:0 16px;text-align:center}
-.v3-cell{min-height:160px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r);padding:14px;transition:.2s;position:relative}
+.v3-cell{min-height:160px;background:var(--paper);border:1px solid var(--border);border-radius:var(--r);padding:14px;transition:.3s cubic-bezier(.2,.8,.2,1);position:relative;animation:fadeUp .5s cubic-bezier(.2,.8,.2,1) backwards}
+.v3-cell:nth-of-type(1){animation-delay:.05s}
+.v3-cell:nth-of-type(2){animation-delay:.1s}
+.v3-cell:nth-of-type(3){animation-delay:.15s}
+.v3-cell:nth-of-type(4){animation-delay:.2s}
+.v3-cell:nth-of-type(5){animation-delay:.25s}
+.v3-cell:nth-of-type(6){animation-delay:.3s}
+.v3-cell:nth-of-type(7){animation-delay:.35s}
+.v3-cell:nth-of-type(8){animation-delay:.4s}
+.v3-cell:nth-of-type(9){animation-delay:.45s}
+.v3-cell:hover{border-color:var(--tb-blue);box-shadow:0 6px 18px rgba(0,121,221,0.10);transform:translateY(-2px)}
 .v3-cell-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;padding-bottom:8px;border-bottom:1px dashed var(--border)}
-.v3-cell-title{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:700}
-.v3-cell-cnt{font-size:11px;color:var(--seal);background:rgba(192,57,43,0.08);padding:2px 8px;border-radius:999px;font-weight:700}
+.v3-cell-title{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:700;transition:color .25s}
+.v3-cell:hover .v3-cell-title{color:var(--tb-blue)}
+.v3-cell-cnt{font-size:11px;color:var(--tb-blue);background:rgba(0,121,221,0.08);padding:2px 8px;border-radius:999px;font-weight:700;transition:.25s}
+.v3-cell:hover .v3-cell-cnt{background:rgba(0,121,221,0.15)}
 .v3-cell-list{display:flex;flex-direction:column;gap:6px}
 .v3-card{display:flex;align-items:center;gap:8px;padding:8px 10px;background:var(--bg-2);border:1px solid var(--border);border-radius:8px;font-size:13px;color:var(--ink);font-weight:600;transition:.2s;cursor:grab}
 .v3-card:hover{background:var(--paper);border-color:var(--seal);transform:translateX(2px)}
@@ -592,8 +683,8 @@ a{color:inherit;text-decoration:none}
 
 /* 阶段/状态徽章 */
 .v3-badge-v3{display:inline-block;font-size:11px;padding:3px 9px;border-radius:4px;font-weight:700;letter-spacing:1px}
-.v3-badge-v3.b-在推重点{background:linear-gradient(135deg,#C0392B,#922B21);color:#fff}
-.v3-badge-v3.b-储备{background:linear-gradient(135deg,#1565C0,#0D47A1);color:#fff}
+.v3-badge-v3.b-在推重点{background:linear-gradient(135deg,var(--seal) 0%,var(--seal-2) 100%);color:#fff}
+.v3-badge-v3.b-储备{background:linear-gradient(135deg,var(--tb-blue) 0%,var(--tb-blue-2) 100%);color:#fff}
 .v3-badge-v3.b-观察{background:linear-gradient(135deg,#6B7280,#4B5563);color:#fff}
 .v3-badge-iss{display:inline-block;font-size:10px;padding:2px 7px;border:1px solid;border-radius:3px;font-weight:700;letter-spacing:1px}
 .v3-badge-iss.b-未上市{background:rgba(46,125,50,0.1);color:#2E7D32;border-color:rgba(46,125,50,0.35)}
