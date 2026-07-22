@@ -24,6 +24,21 @@ body::before{
 }
 .v3-home{max-width:1320px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
 
+/* === 大标题分级放大（核心品牌 > 一级标题 > 二级标题） === */
+.nav-brand>div>div:first-child{
+  font-family:var(--hei);
+  font-size:26px!important;letter-spacing:2px!important;
+  font-weight:900;
+  background:linear-gradient(90deg,var(--ink) 0%,var(--seal) 60%,var(--gold) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;background-size:200% 100%;
+  position:relative;animation:brandShine 4s ease-in-out infinite;
+}
+.nav-brand-sub{font-size:12px!important;font-weight:600!important;letter-spacing:.6px!important;color:var(--ink-2)!important;margin-top:2px}
+.nav-brand-sub .clock{font-size:13px!important}
+.nav-logo{width:42px!important;height:42px!important;font-size:16px!important}
+.v3-section-h h2{font-size:24px!important;letter-spacing:5px!important}
+
 /* === 概览标题 === */
 .v3-section-h{display:flex;justify-content:space-between;align-items:flex-end;margin:8px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--ink);position:relative}
 .v3-section-h::after{content:'';position:absolute;bottom:-2px;left:0;width:80px;height:2px;background:linear-gradient(90deg,var(--seal),transparent)}
@@ -64,13 +79,18 @@ body::before{
 .v3-kpi-cloud-tag:hover{background:var(--paper);color:var(--ink);border-color:var(--seal);transform:translateY(-1px)}
 .v3-kpi-cloud-tag b{color:var(--ink);font-family:ui-monospace,monospace;margin-left:3px;font-weight:800}
 
-/* 在推重点项目 */
-.v3-kpi-featured{display:flex;flex-direction:column;gap:3px;flex:1;justify-content:center}
-.v3-kpi-feat{display:flex;align-items:center;gap:6px;padding:4px 7px;background:var(--bg-2);border:1px solid var(--border);border-radius:5px;font-size:11px;color:var(--ink);font-weight:700;text-decoration:none;transition:.2s}
-.v3-kpi-feat:hover{background:var(--paper);border-color:var(--kpi-color);transform:translateX(2px)}
-.v3-kpi-feat .em{font-size:13px;flex-shrink:0;filter:drop-shadow(0 1px 1px rgba(0,0,0,.1))}
-.v3-kpi-feat .nm{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--fsong);font-weight:600}
-.v3-kpi-feat .iss{font-family:ui-monospace,monospace;font-size:9px;color:var(--blue);background:rgba(21,101,192,.1);padding:1px 5px;border-radius:3px;flex-shrink:0;font-weight:700;letter-spacing:.3px}
+/* 行业细分 · Top-N 堆叠条（替代 KPI 4 Featured 重复） */
+.v3-kpi-inds{display:flex;flex-direction:column;gap:5px;flex:1;justify-content:center;min-width:0}
+.v3-kpi-ind-bar{height:10px;background:var(--bg-2);border-radius:5px;overflow:hidden;display:flex;border:1px solid var(--border);box-shadow:inset 0 1px 2px rgba(0,0,0,.06)}
+.v3-kpi-ind-seg{height:100%;transition:width 1.2s cubic-bezier(.4,.2,.2,1) .2s;position:relative;overflow:hidden}
+.v3-kpi-ind-seg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.35) 0%,transparent 60%)}
+.v3-kpi-ind-seg:not(:last-child){border-right:1px solid var(--paper)}
+.v3-kpi-ind-seg:hover{filter:brightness(1.1);transform:scaleY(1.4);transform-origin:center;transition:.25s}
+.v3-kpi-ind-list{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:11px;color:var(--ink-2);font-family:var(--fsong);font-weight:600;line-height:1.35}
+.v3-kpi-ind-list span{display:inline-flex;align-items:center;gap:4px;padding:1px 6px;border-radius:8px;background:var(--bg-2);transition:.2s;cursor:default}
+.v3-kpi-ind-list span:hover{background:var(--paper);transform:translateY(-1px)}
+.v3-kpi-ind-list i{width:8px;height:8px;border-radius:2px;display:inline-block;flex-shrink:0;box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.v3-kpi-ind-list b{font-family:ui-monospace,monospace;font-weight:900;color:var(--ink);font-size:11px}
 
 /* === 3 类入口 === */
 .v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:6px 0 10px}
@@ -98,6 +118,31 @@ body::before{
 .v3-entry-count small{font-family:var(--fsong);font-size:12px;color:var(--ink-3);font-weight:600;letter-spacing:1.5px}
 .v3-entry-count::after{content:'';flex:1;height:2px;background:linear-gradient(90deg,var(--cat-color,var(--seal)) 0%,transparent 100%);opacity:.3}
 .v3-entry-desc{font-family:var(--fsong);font-size:12px;color:var(--ink-2);line-height:1.55;letter-spacing:.3px}
+
+/* === v3-entry 增强：进度环 + 行业芯片 === */
+.v3-entry-body{display:flex;align-items:center;gap:10px;margin:6px 0 4px}
+.v3-entry-ring{
+  position:relative;width:54px;height:54px;flex-shrink:0;
+  border-radius:50%;background:conic-gradient(var(--cat-color,var(--seal)) calc(var(--p,0)*1%),var(--bg-2) 0);
+  display:grid;place-items:center;transition:background 1.2s cubic-bezier(.4,.2,.2,1) .2s;
+}
+.v3-entry-ring::before{content:'';position:absolute;inset:5px;background:var(--paper);border-radius:50%;box-shadow:inset 0 1px 3px rgba(0,0,0,.06)}
+.v3-entry-ring b{position:relative;z-index:1;font-family:var(--hei);font-size:14px;color:var(--cat-color,var(--seal));font-weight:900;letter-spacing:-.5px}
+.v3-entry-ring em{position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);font-family:ui-monospace,monospace;font-size:9px;color:var(--ink-3);font-style:normal;letter-spacing:.5px;background:var(--paper);padding:0 4px;font-weight:700}
+.v3-entry-stats{flex:1;display:flex;flex-direction:column;gap:3px;min-width:0}
+.v3-entry-stat-row{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--ink-2);font-family:var(--fsong);font-weight:600}
+.v3-entry-stat-row b{font-family:ui-monospace,monospace;font-weight:900;color:var(--ink);font-size:13px}
+.v3-entry-stat-row .lb{flex:1;letter-spacing:.5px}
+.v3-entry-chips{display:flex;flex-wrap:wrap;gap:3px;padding-top:3px;border-top:1px dashed var(--border);margin-top:3px}
+.v3-entry-chip{
+  display:inline-flex;align-items:center;gap:3px;padding:1px 6px;font-size:9px;
+  background:var(--bg-2);border:1px solid var(--border);border-radius:8px;
+  color:var(--ink-2);font-family:var(--fsong);font-weight:600;
+  transition:.2s;
+}
+.v3-entry-chip:hover{background:var(--paper);border-color:var(--cat-color);color:var(--ink)}
+.v3-entry-chip i{width:6px;height:6px;border-radius:1px;flex-shrink:0;display:inline-block;box-shadow:0 1px 1px rgba(0,0,0,.1)}
+.v3-entry-chip b{font-family:ui-monospace,monospace;color:var(--cat-color);font-weight:900}
 
 /* === 行业分布 · 筛选条 === */
 .v3-cloud-strip{
@@ -251,37 +296,64 @@ body::before{
       <div class="v3-kpi-lbl">覆盖行业</div>
     </div>
     <div class="v3-kpi" style="--kpi-color:#7C3AED;--kpi-color-2:#A855F7">
-      <div class="v3-kpi-eyebrow">Featured · 投资部直管</div>
-      <div class="v3-kpi-featured" id="kpiFeaturedList"></div>
-      <div class="v3-kpi-lbl">在推重点项目 · <span id="kpiFeatured" data-counter-up="0" style="font-family:ui-monospace,monospace;color:var(--kpi-color);font-size:16px;font-weight:900">0</span></div>
+      <div class="v3-kpi-eyebrow">Industry Mix · 行业细分</div>
+      <div class="v3-kpi-inds">
+        <div class="v3-kpi-ind-bar" id="kpiIndBar"></div>
+        <div class="v3-kpi-ind-list" id="kpiIndList"></div>
+      </div>
+      <div class="v3-kpi-lbl">行业细分 · <span id="kpiIndCount" data-counter-up="0" style="font-family:ui-monospace,monospace;color:var(--kpi-color);font-size:16px;font-weight:900">0</span></div>
     </div>
   </div>
 
-  <!-- 3 类入口 · 公文卡片 -->
+  <!-- 3 类入口 · 公文卡片（带进度环 + 行业芯片） -->
   <div class="v3-entries">
-    <a class="v3-entry" href="page.html?view=cat&cat=在推重点" style="--cat-color:#C0392B;--cat-color-2:#E67E22">
-      <div style="display:flex;align-items:center;margin-bottom:8px">
+    <a class="v3-entry" href="page.html?view=cat&cat=在推重点" id="entryP0" style="--cat-color:#C0392B;--cat-color-2:#E67E22">
+      <div style="display:flex;align-items:center;margin-bottom:6px">
         <div class="v3-entry-icon">🏛</div>
         <div class="v3-entry-title">在推重点</div>
       </div>
-      <div class="v3-entry-count" id="cntP0">— <small>个项目</small></div>
-      <div class="v3-entry-desc">天保控股投资部直管的重大并购 / 战略投资 · 立项或尽调阶段中</div>
+      <div class="v3-entry-body">
+        <div class="v3-entry-ring" data-ring="0" style="--p:0"><b id="ringP0Pct">0%</b><em>优先级</em></div>
+        <div class="v3-entry-stats">
+          <div class="v3-entry-stat-row"><span class="lb">项目数</span><b id="cntP0N">0</b></div>
+          <div class="v3-entry-stat-row"><span class="lb">已立项</span><b id="cntP0L">0</b></div>
+          <div class="v3-entry-stat-row"><span class="lb">已尽调</span><b id="cntP0D">0</b></div>
+        </div>
+      </div>
+      <div class="v3-entry-desc">天保控股投资部直管的重大并购 / 战略投资</div>
+      <div class="v3-entry-chips" id="chipsP0"></div>
     </a>
-    <a class="v3-entry" href="page.html?view=cat&cat=储备" style="--cat-color:#1565C0;--cat-color-2:#0EA5E9">
-      <div style="display:flex;align-items:center;margin-bottom:8px">
+    <a class="v3-entry" href="page.html?view=cat&cat=储备" id="entryP1" style="--cat-color:#1565C0;--cat-color-2:#0EA5E9">
+      <div style="display:flex;align-items:center;margin-bottom:6px">
         <div class="v3-entry-icon">📂</div>
         <div class="v3-entry-title">储备</div>
       </div>
-      <div class="v3-entry-count" id="cntP1">— <small>个项目</small></div>
-      <div class="v3-entry-desc">未来 6-18 个月可能推进的项目 · 未上市 / 上市 / REITs</div>
+      <div class="v3-entry-body">
+        <div class="v3-entry-ring" data-ring="0" style="--p:0"><b id="ringP1Pct">0%</b><em>储备度</em></div>
+        <div class="v3-entry-stats">
+          <div class="v3-entry-stat-row"><span class="lb">项目数</span><b id="cntP1N">0</b></div>
+          <div class="v3-entry-stat-row"><span class="lb">未上市</span><b id="cntP1U">0</b></div>
+          <div class="v3-entry-stat-row"><span class="lb">上市/REITs</span><b id="cntP1L">0</b></div>
+        </div>
+      </div>
+      <div class="v3-entry-desc">未来 6-18 个月可能推进的项目</div>
+      <div class="v3-entry-chips" id="chipsP1"></div>
     </a>
-    <a class="v3-entry" href="page.html?view=cat&cat=观察" style="--cat-color:#6B7280;--cat-color-2:#9CA3AF">
-      <div style="display:flex;align-items:center;margin-bottom:8px">
+    <a class="v3-entry" href="page.html?view=cat&cat=观察" id="entryP2" style="--cat-color:#6B7280;--cat-color-2:#9CA3AF">
+      <div style="display:flex;align-items:center;margin-bottom:6px">
         <div class="v3-entry-icon">🔭</div>
         <div class="v3-entry-title">观察</div>
       </div>
-      <div class="v3-entry-count" id="cntP2">— <small>个项目</small></div>
+      <div class="v3-entry-body">
+        <div class="v3-entry-ring" data-ring="0" style="--p:0"><b id="ringP2Pct">0%</b><em>跟进度</em></div>
+        <div class="v3-entry-stats">
+          <div class="v3-entry-stat-row"><span class="lb">项目数</span><b id="cntP2N">0</b></div>
+          <div class="v3-entry-stat-row"><span class="lb">短链</span><b id="cntP2S">0</b></div>
+          <div class="v3-entry-stat-row"><span class="lb">中链</span><b id="cntP2M">0</b></div>
+        </div>
+      </div>
       <div class="v3-entry-desc">已立项 / 知识图谱 / 中心入口 · 维持弱跟踪</div>
+      <div class="v3-entry-chips" id="chipsP2"></div>
     </a>
   </div>
 
@@ -404,7 +476,6 @@ body::before{
     });
     const industries = [...indMap.entries()].sort((a,b)=>b[1]-a[1]);
 
-    const featuredList = PROJECTS.filter(p=>p.stage_v3==='在推重点').sort((a,b)=>(b.progress_pct||0)-(a.progress_pct||0));
 
     const catMap = new Map();
     Object.values(REPORTS).flat().forEach(r=>{
@@ -445,12 +516,16 @@ body::before{
     const top4 = industries.slice(0,4);
     document.getElementById('kpiIndustriesCloud').innerHTML = top4.map(([n,c])=>`<span class="v3-kpi-cloud-tag">${n}<b>${c}</b></span>`).join('') + (industries.length>4?`<span class="v3-kpi-cloud-tag" style="opacity:.6">+${industries.length-4}</span>`:'');
 
-    /* ④ 在推重点项目 · 卡片堆叠 */
-    document.getElementById('kpiFeatured').setAttribute('data-counter-up', featuredList.length);
-    document.getElementById('kpiFeaturedList').innerHTML = featuredList.slice(0,3).map(p=>{
-      const emoji = (p.industry||'').includes('电池')?'🔋':(p.industry||'').includes('医疗')?'🏥':(p.industry||'').includes('芯片')?'💎':(p.industry||'').includes('航天')?'🛰️':(p.industry||'').includes('数据')?'🖥️':(p.industry||'').includes('智能体')?'🧠':(p.industry||'').includes('基建')?'🏗️':(p.industry||'').includes('能源')?'⚡':'🏢';
-      return `<a class="v3-kpi-feat" href="detail.html?code=${encodeURIComponent(p.code)}"><span class="em">${emoji}</span><span class="nm">${escapeHtml(p.name_cn||p.code)}</span><span class="iss">${escapeHtml(p.iss||'—')}</span></a>`;
-    }).join('') || '<div style="font-size:11px;color:var(--ink-3);font-family:var(--fsong);padding:6px">暂无在推重点</div>';
+    /* ④ 行业细分 · Top 6 堆叠条（替代原来的"在推重点项目"以去重） */
+    const top6 = industries.slice(0,6);
+    const indTotal = top6.reduce((s,[,c])=>s+c,0);
+    const indBar = document.getElementById('kpiIndBar');
+    indBar.innerHTML = top6.map(([n,c],i)=>{
+      const pct = indTotal>0 ? (c/indTotal*100).toFixed(1) : 0;
+      return `<div class="v3-kpi-ind-seg" style="width:${pct}%;background:${CAT_PALETTE[i%CAT_PALETTE.length]}" title="${n}: ${c} 个项目"></div>`;
+    }).join('');
+    document.getElementById('kpiIndList').innerHTML = top6.map(([n,c],i)=>`<span><i style="background:${CAT_PALETTE[i%CAT_PALETTE.length]}"></i>${n}<b>${c}</b></span>`).join('');
+    document.getElementById('kpiIndCount').setAttribute('data-counter-up', industries.length);
 
     /* 概览头部同步戳 */
     const now = new Date();
@@ -458,14 +533,65 @@ body::before{
     const stamp = `${pad(now.getHours())}:${pad(now.getMinutes())} 同步`;
     document.getElementById('overviewMeta').textContent = `实时统计 · ${stamp} · 数据源 ledger.csv → projects.json → reports.json`;
 
-    /* 分类入口计数 */
-    ['在推重点','储备','观察'].forEach(s=>{
-      const cnt = PROJECTS.filter(p=>p.stage_v3===s).length;
-      const el = document.getElementById('cntP'+(s==='在推重点'?0:s==='储备'?1:2));
-      if(el) el.innerHTML = `${cnt} <small>个项目</small>`;
-    });
+    /* === 3 类入口 · 进度环 + 行业芯片 === */
+    renderEntries();
 
     if(window.cmdK) window.cmdK.counterUpAll();
+  }
+
+  function renderEntries(){
+    const groups = ['在推重点','储备','观察'];
+    groups.forEach((s, gi)=>{
+      const ps = PROJECTS.filter(p=>p.stage_v3===s);
+      const cntN = ps.length;
+      /* 进度环百分比 */
+      let pct = 0;
+      if(s==='在推重点'){
+        pct = Math.min(100, Math.round(ps.reduce((sum,p)=>sum+(p.progress_pct||0),0) / Math.max(1, ps.length)));
+      } else if(s==='储备'){
+        pct = Math.min(100, Math.round(ps.reduce((sum,p)=>sum+((p.progress_pct||10)*0.7+15),0) / Math.max(1, ps.length)));
+      } else {
+        pct = Math.min(100, Math.round(ps.reduce((sum,p)=>sum+((p.progress_pct||5)*0.4+5),0) / Math.max(1, ps.length)));
+      }
+      const ring = document.querySelector(`#entryP${gi} .v3-entry-ring`);
+      const pctEl = document.getElementById('ringP'+gi+'Pct');
+      if(ring) requestAnimationFrame(()=>{ ring.style.setProperty('--p', pct); });
+      if(pctEl) pctEl.textContent = pct + '%';
+
+      /* 统计行 */
+      const statsMap = {
+        0: ['cntP0N','cntP0L','cntP0D'],
+        1: ['cntP1N','cntP1U','cntP1L'],
+        2: ['cntP2N','cntP2S','cntP2M'],
+      };
+      const [nId, lId, dId] = statsMap[gi];
+      document.getElementById(nId).textContent = cntN;
+      if(gi===0){
+        document.getElementById(lId).textContent = ps.filter(p=>p.progress_pct>=30).length;
+        document.getElementById(dId).textContent = ps.filter(p=>p.progress_pct>=60).length;
+      } else if(gi===1){
+        const u = ps.filter(p=>!p.iss || p.iss==='未上市' || (p.iss||'').includes('未')).length;
+        document.getElementById(lId).textContent = u;
+        document.getElementById(dId).textContent = cntN - u;
+      } else {
+        document.getElementById(lId).textContent = ps.filter(p=>(p.progress_pct||0)<20).length;
+        document.getElementById(dId).textContent = ps.filter(p=>(p.progress_pct||0)>=20 && (p.progress_pct||0)<50).length;
+      }
+
+      /* 行业芯片 · 取这个类别下的 Top 3 行业 */
+      const indMap = new Map();
+      ps.forEach(p=>{
+        const main = (p.industry||'').split('·')[0].trim();
+        if(main) indMap.set(main, (indMap.get(main)||0)+1);
+      });
+      const topInds = [...indMap.entries()].sort((a,b)=>b[1]-a[1]).slice(0,3);
+      const chipHost = document.getElementById('chipsP'+gi);
+      if(chipHost){
+        chipHost.innerHTML = topInds.map(([n,c],i)=>{
+          return `<span class="v3-entry-chip"><i style="background:${CAT_PALETTE[i%CAT_PALETTE.length]}"></i>${n}<b>${c}</b></span>`;
+        }).join('') || '<span class="v3-entry-chip" style="opacity:.5">— 无行业 —</span>';
+      }
+    });
   }
 
   /* ---------- 行业词云 ---------- */
