@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>项目详情中心 · 天保控股</title>
+<style>
+/* === 主题变量（亮色/暗色） === */
+:root{
+  --navy:#06113a; --navy-2:#0d1f5c; --blue:#2563eb; --blue-2:#3b82f6;
+  --amber:#f59e0b; --emerald:#10b981; --purple:#7c3aed; --red:#ef4444;
+  --bg:#e8edf5; --card:#ffffff; --text:#0f172a; --text-2:#475569; --text-3:#94a3b8;
+  --border:rgba(15,23,42,.08); --shadow:0 4px 20px -4px rgba(15,23,42,.06),0 2px 8px -2px rgba(15,23,42,.04);
+  --shadow-lg:0 20px 40px -8px rgba(15,23,42,.10),0 8px 16px -4px rgba(15,23,42,.06);
+  --r:16px; --r-lg:24px; --r-xl:28px;
+  --chip-bg:rgba(37,99,235,.10);
+}
+[data-theme="dark"]{
+  --bg:#0a0f1e; --card:#131a2e; --text:#e8eaf3; --text-2:#a3aac0; --text-3:#6c7595;
+  --border:rgba(255,255,255,.08);
+  --shadow:0 4px 20px -4px rgba(0,0,0,.4),0 2px 8px -2px rgba(0,0,0,.2);
+  --shadow-lg:0 20px 40px -8px rgba(0,0,0,.5),0 8px 16px -4px rgba(0,0,0,.3);
+  --chip-bg:rgba(59,130,246,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+a{color:inherit;text-decoration:none}
+
+/* === 顶栏 === */
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--border)}
+[data-theme="dark"] .nav{background:rgba(13,18,40,.85)}
+.nav-inner{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px}
+.nav-brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:15px;color:var(--navy)}
+[data-theme="dark"] .nav-brand{color:#fff}
+.nav-logo{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--navy),var(--blue));display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px}
+.nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav-links a{padding:8px 14px;border-radius:10px;font-size:13px;font-weight:600;color:var(--text-2);transition:.2s}
+.nav-links a:hover{background:var(--chip-bg);color:var(--blue)}
+.nav-links a.active{background:var(--blue);color:#fff}
+.theme-toggle{margin-left:8px;background:var(--chip-bg);border:none;width:36px;height:36px;border-radius:10px;cursor:pointer;font-size:16px;display:grid;place-items:center;color:var(--text)}
+.theme-toggle:hover{background:var(--blue);color:#fff}
+
+/* === HERO === */
+.hero{padding:48px 0 40px;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(37,99,235,.12),transparent 60%)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+.hero-grid{display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center}
+.hero h1{font-size:34px;font-weight:900;letter-spacing:-.8px;color:var(--navy);margin-bottom:8px}
+[data-theme="dark"] .hero h1{color:#fff}
+.hero p{color:var(--text-2);font-size:14px}
+.hero-stats{display:flex;gap:24px;margin-top:20px}
+.hero-stat{padding:10px 16px;background:var(--card);border-radius:14px;border:1px solid var(--border);min-width:90px}
+.hero-stat b{display:block;font-size:24px;font-weight:900;color:var(--blue);letter-spacing:-.5px}
+.hero-stat span{font-size:11px;color:var(--text-3);font-weight:600}
+.clock-card{padding:18px 24px;background:var(--card);border-radius:18px;border:1px solid var(--border);text-align:right;min-width:160px}
+.clock-card #d-clock{font-size:30px;font-weight:900;color:var(--navy);letter-spacing:-1px}
+[data-theme="dark"] .clock-card #d-clock{color:#fff}
+.clock-card small{font-size:11px;color:var(--text-3);display:block;margin-top:4px}
+
+/* === KPI 区 === */
+.kpi-section{padding:24px 0 12px}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kpi{background:var(--card);border-radius:18px;padding:22px;border:1px solid var(--border);box-shadow:var(--shadow);position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--purple))}
+.kpi.k-amber::before{background:linear-gradient(90deg,var(--amber),#f97316)}
+.kpi.k-green::before{background:linear-gradient(90deg,var(--emerald),#059669)}
+.kpi.k-purple::before{background:linear-gradient(90deg,var(--purple),#a855f7)}
+.kpi-icon{font-size:22px;margin-bottom:8px;display:block}
+.kpi b{font-size:30px;font-weight:900;color:var(--text);letter-spacing:-1px;display:block;line-height:1.1}
+.kpi-label{font-size:12px;color:var(--text-3);font-weight:600;margin-top:4px}
+.kpi-sub{font-size:11px;color:var(--emerald);font-weight:700;margin-top:6px}
+
+/* === 分类筛选 Pill === */
+.filter-section{padding:20px 0}
+.filter-pills{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.fp{padding:8px 16px;border-radius:999px;background:var(--card);border:1px solid var(--border);font-size:13px;font-weight:600;color:var(--text-2);cursor:pointer;transition:.2s;display:flex;align-items:center;gap:6px}
+.fp:hover{border-color:var(--blue);color:var(--blue)}
+.fp.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.fp .cnt{background:rgba(255,255,255,.25);padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700}
+.fp:not(.active) .cnt{background:var(--chip-bg);color:var(--blue)}
+.filter-info{margin-bottom:12px;font-size:13px;color:var(--text-3);font-weight:500}
+.filter-info b{color:var(--text)}
+
+/* === 分类区块 === */
+.section-title{font-size:22px;font-weight:800;color:var(--navy);margin:32px 0 16px;display:flex;align-items:center;gap:12px;letter-spacing:-.4px}
+[data-theme="dark"] .section-title{color:#fff}
+.section-title .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.section-title small{font-size:13px;color:var(--text-3);font-weight:500;margin-left:auto}
+.cat-block{margin-bottom:40px}
+.cat-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;padding:14px 18px;background:var(--card);border-radius:14px;border:1px solid var(--border)}
+.cat-head-left{display:flex;align-items:center;gap:12px}
+.cat-dot{width:12px;height:12px;border-radius:50%}
+.cat-title{font-size:16px;font-weight:800;color:var(--text)}
+.cat-sub{font-size:12px;color:var(--text-3);font-weight:500}
+.cat-stats .cs-pill{font-size:11px;padding:5px 12px;border-radius:999px;font-weight:700}
+
+/* === d-card 升级版 === */
+.d-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.d-card{background:var(--card);border-radius:var(--r-lg);padding:22px;box-shadow:var(--shadow);border:1px solid var(--border);transition:.25s;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.d-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);border-color:rgba(37,99,235,.25)}
+.d-card.featured{background:linear-gradient(135deg,#fff7ed 0%,#fef3c7 100%);border:2px solid var(--amber)}
+[data-theme="dark"] .d-card.featured{background:linear-gradient(135deg,#3a2710,#2a1c0a);border-color:var(--amber)}
+.d-card.featured::before{content:"★ 重点跟进";position:absolute;top:14px;right:14px;background:linear-gradient(135deg,var(--amber),#f97316);color:#fff;font-size:10px;font-weight:800;padding:4px 10px;border-radius:999px;letter-spacing:.5px;box-shadow:0 4px 10px -2px rgba(245,158,11,.4);z-index:2}
+.d-card-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px}
+.d-card-emoji{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,rgba(37,99,235,.10),rgba(124,58,237,.10));display:grid;place-items:center;font-size:24px;flex-shrink:0}
+.d-card-status{font-size:10px;font-weight:700;padding:4px 10px;border-radius:999px;letter-spacing:.3px;color:#fff;white-space:nowrap}
+.s-yellow{background:linear-gradient(135deg,var(--amber),#f97316)}
+.s-green{background:linear-gradient(135deg,var(--emerald),#059669)}
+.s-purple{background:linear-gradient(135deg,var(--purple),#6d28d9)}
+.s-blue{background:linear-gradient(135deg,var(--blue),#1e40af)}
+.s-red{background:linear-gradient(135deg,var(--red),#dc2626)}
+.s-navy{background:linear-gradient(135deg,var(--navy),#0d1f5c)}
+.s-gray{background:linear-gradient(135deg,#6b7280,#4b5563)}
+.d-card-name{font-size:17px;font-weight:800;color:var(--navy);margin-bottom:3px;letter-spacing:-.2px}
+[data-theme="dark"] .d-card-name{color:#fff}
+.d-card-sub{font-size:11px;color:var(--text-3);margin-bottom:10px;font-weight:500}
+.d-card-desc{font-size:13px;color:var(--text-2);line-height:1.55;margin-bottom:12px;flex:1}
+
+/* === 新增：指标条 === */
+.metric-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px 0;border-top:1px dashed var(--border);border-bottom:1px dashed var(--border);margin-bottom:12px}
+.metric{text-align:center}
+.metric b{display:block;font-size:16px;font-weight:800;color:var(--blue);letter-spacing:-.3px}
+.metric .ml{font-size:10px;color:var(--text-3);font-weight:600;margin-top:2px}
+.metric.b b{color:var(--emerald)}
+.metric.a b{color:var(--amber)}
+
+/* === 进度环 === */
+.donut-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.donut-svg{width:38px;height:38px;flex-shrink:0}
+.donut-info{flex:1;font-size:11px}
+.donut-info b{display:block;font-size:14px;color:var(--text);font-weight:800}
+.donut-info span{color:var(--text-3);font-size:10px}
+
+/* === 任务动态 === */
+.task-list{font-size:11px;color:var(--text-2);background:rgba(37,99,235,.04);border-radius:8px;padding:8px 10px;margin-bottom:10px;line-height:1.5}
+[data-theme="dark"] .task-list{background:rgba(59,130,246,.10)}
+.task-list b{color:var(--blue);font-size:10px;display:block;margin-bottom:3px;letter-spacing:.3px}
+.amt-src{font-size:10px;color:var(--text-2);background:rgba(16,185,129,.06);border-left:2px solid var(--emerald);padding:4px 8px;border-radius:4px;margin-bottom:8px;font-family:ui-monospace,monospace}
+[data-theme="dark"] .amt-src{background:rgba(16,185,129,.12);color:#86efac}
+
+.d-card-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.d-tag{font-size:10px;padding:3px 9px;border-radius:999px;background:var(--chip-bg);color:var(--blue);font-weight:600;border:1px solid rgba(37,99,235,.15)}
+.d-card-foot{display:flex;justify-content:space-between;align-items:center;padding-top:10px;font-size:11px;color:var(--text-3)}
+.d-card-arrow{color:var(--blue);font-weight:700}
+.d-card.disabled{opacity:.5;pointer-events:none}
+
+/* === FOOTER === */
+.footer{background:linear-gradient(180deg,var(--navy-2) 0%,var(--navy) 100%);color:rgba(255,255,255,.7);padding:48px 0 24px;margin-top:60px}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:36px;margin-bottom:32px}
+.footer h4{color:#fff;font-size:14px;font-weight:700;margin-bottom:14px;letter-spacing:.5px}
+.footer p,.footer a{font-size:13px;color:rgba(255,255,255,.6);line-height:1.8}
+.footer a:hover{color:#fff}
+.footer ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.footer-bottom{padding-top:20px;border-top:1px solid rgba(255,255,255,.10);font-size:12px;color:rgba(255,255,255,.5);text-align:center}
+
+/* === RESPONSIVE === */
+@media (max-width:1100px){
+  .d-grid{grid-template-columns:repeat(2,1fr)}
+  .kpi-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:700px){
+  .hero-grid{grid-template-columns:1fr}
+  .d-grid{grid-template-columns:1fr}
+  .kpi-grid{grid-template-columns:1fr 1fr}
+  .nav-links a span{display:none}
+  .hero h1{font-size:28px}
+  .footer-grid{grid-template-columns:1fr;gap:24px}
+}
+</style>
+</head>
+<body>
+
+<!-- 顶栏 -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-brand">
+      <div class="nav-logo">保</div>
+      <span>天保控股 · 项目详情中心</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html"><span>📊</span>仪表盘</a>
+      <a href="detail.html" class="active"><span>📋</span>项目详情</a>
+      <a href="#" target="_blank"><span>📚</span>7项目汇总</a>
+      <a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank"><span>⭐</span>星恒</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" title="切换暗色模式">🌙</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>项目详情中心</h1>
+      <p>13 个项目 · 4 大分类 · 全部项目进度 / 投资金额 / 阶段停留 一站式管理</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>13</b><span>项目总数</span></div>
+        <div class="hero-stat"><b>11</b><span>储备项目</span></div>
+        <div class="hero-stat"><b>3</b><span>尽调完成</span></div>
+        <div class="hero-stat"><b>1</b><span>已立项</span></div>
+      </div>
+    </div>
+    <div class="clock-card">
+      <div id="d-clock">14:16:00</div>
+      <small id="d-date">2026年7月9日 · 周四</small>
+    </div>
+  </div>
+</section>
+
+<!-- KPI -->
+<section class="kpi-section">
+  <div class="wrap">
+    <div class="kpi-grid">
+      <div class="kpi">
+        <span class="kpi-icon">📂</span>
+        <b>12</b>
+        <div class="kpi-label">项目总数</div>
+        <div class="kpi-sub">▲ 本月新增 10 项</div>
+      </div>
+      <div class="kpi k-amber">
+        <span class="kpi-icon">🗂️</span>
+        <b>11</b>
+        <div class="kpi-label">储备项目</div>
+        <div class="kpi-sub">▲ 非上市 9 + 上市 2</div>
+      </div>
+      <div class="kpi k-green">
+        <span class="kpi-icon">⭐</span>
+        <b>1</b>
+        <div class="kpi-label">重大并购</div>
+        <div class="kpi-sub">▲ 星恒电源·已立项</div>
+      </div>
+      <div class="kpi k-purple">
+        <span class="kpi-icon">🌐</span>
+        <b>2</b>
+        <div class="kpi-label">知识图谱</div>
+        <div class="kpi-sub">▲ Wiki + 关系图</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 分类筛选 -->
+<section class="filter-section">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="dot" style="background:var(--blue)"></span>项目分类导航
+      <small>点击筛选 ↓</small>
+    </div>
+    <div class="filter-info" id="flt-info"><span>当前可见 <b id="flt-count">13</b> / 13 项目</span><span>分类：<b id="flt-cat">全部</b></span></div>
+    <div class="filter-pills">
+      <div class="fp active" data-cat="all"><span>全部</span><span class="cnt" id="cnt-all">14</span></div>
+      <div class="fp" data-cat="np"><span>🗂️ 储备·非上市</span><span class="cnt" id="cnt-np">9</span></div>
+      <div class="fp" data-cat="p"><span>📈 储备·上市</span><span class="cnt" id="cnt-p">2</span></div>
+      <div class="fp" data-cat="deal"><span>⭐ 重大并购</span><span class="cnt" id="cnt-deal">1</span></div>
+      <div class="fp" data-cat="kg"><span>🌐 知识图谱</span><span class="cnt" id="cnt-kg">2</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 分类区块 -->
+<section class="wrap" style="padding-top:24px">
+
+  <!-- 储备·非上市 -->
+  <section class="cat-block" id="cat-np">
+    <div class="cat-head">
+      <div class="cat-head-left">
+        <span class="cat-dot" style="background:var(--blue)"></span>
+        <div>
+          <div class="cat-title">储备项目 · 非上市公司</div>
+          <div class="cat-sub">Pre-IPO 储备池 · 9 项</div>
+        </div>
+      </div>
+      <div class="cat-stats">
+        <span class="cs-pill" style="background:#3b82f615;color:var(--blue)"><b>9</b> 个项目</span>
+      </div>
+    </div>
+    <div class="d-grid">
+
+      <a class="d-card featured" href="https://jinzhanxiang.github.io/jngd-report/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">💎</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">晶能光电</div>
+        <div class="d-card-sub">LED芯片 · 硅衬底技术</div>
+        <div class="d-card-desc">中国硅衬底 LED 芯片技术开拓者，综合评分 ⭐⭐⭐⭐⭐；JNGD 财务尽调报告 + 法律尽调 + 并购 LX 半导体方案</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>75d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="100,100" stroke-dashoffset="0"/>
+          </svg>
+          <div class="donut-info"><b>100%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-09 Documents 旧文件夹已清理 → Desktop/晶能光电/</div>
+        <div class="d-card-tags"><span class="d-tag">LED</span><span class="d-tag">硅衬底</span><span class="d-tag">科创板</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-09</span><span class="d-card-arrow">时间线+报告 →</span></div>
+      </a>
+
+      <a class="d-card" href="#" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🏥</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">柯渡医学</div>
+        <div class="d-card-sub">医疗设备 · 第三方维保</div>
+        <div class="d-card-desc">医疗设备第三方维保双寡头之一，覆盖 CT/MR/超声全产品线；2026-05-22 立项汇报</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>35%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>48d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="35,100"/>
+          </svg>
+          <div class="donut-info"><b>35%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-05-22 完成立项汇报 PPT（110MB）</div>
+        <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">设备维保</span></div>
+        <div class="d-card-foot"><span>📅 2026-05-22</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="#" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">⚡</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">中复碳芯</div>
+        <div class="d-card-sub">碳纤维 · 复合材料</div>
+        <div class="d-card-desc">中国建材集团旗下碳纤维复合材料平台；2026-03 企业介绍材料</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>25%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>127d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="25,100"/>
+          </svg>
+          <div class="donut-info"><b>25%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-03 企业介绍材料已入库（86M）</div>
+        <div class="d-card-tags"><span class="d-tag">碳纤维</span><span class="d-tag">央企</span></div>
+        <div class="d-card-foot"><span>📅 2026-03</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/hongyuan-report/" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🧪</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">宏远创信</div>
+        <div class="d-card-sub">新材料 · 综合智慧能源</div>
+        <div class="d-card-desc">北京宏远创信能源科技（新材料+综合智慧能源）；2026-07-06 会谈纪要，2025 审计报告</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>40%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>3d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="40,100"/>
+          </svg>
+          <div class="donut-info"><b>40%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-06 会谈纪要 + 2025 审计报告入库</div>
+        <div class="d-card-tags"><span class="d-tag">新材料</span><span class="d-tag">智慧能源</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-06</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="#" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">💊</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">信鸿医疗</div>
+        <div class="d-card-sub">医疗器械 · 供应链</div>
+        <div class="d-card-desc">天津信鸿医疗（医疗器械供应链）；2025-12 合并财务报表 + 2026-01-30 介绍材料</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>30%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>161d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="30,100"/>
+          </svg>
+          <div class="donut-info"><b>30%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-01-30 公司介绍 PPT 入库</div>
+        <div class="d-card-tags"><span class="d-tag">医疗</span><span class="d-tag">供应链</span></div>
+        <div class="d-card-foot"><span>📅 2026-01-30</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="#" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🚀</div>
+          <span class="d-card-status s-yellow">Pre-IPO</span>
+        </div>
+        <div class="d-card-name">迅巢科技</div>
+        <div class="d-card-sub">换电科技 · XCHS Energon</div>
+        <div class="d-card-desc">迅巢换电（XCHS Energon）— 换电科技 / 创新型企业</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>20%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>81d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="20,100"/>
+          </svg>
+          <div class="donut-info"><b>20%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-04-19 PDF 入库（17MB）</div>
+        <div class="d-card-tags"><span class="d-tag">换电</span><span class="d-tag">科技</span></div>
+        <div class="d-card-foot"><span>📅 2026-04-19</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/innoshine-report/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">💡</div>
+          <span class="d-card-status s-green">尽调完成</span>
+        </div>
+        <div class="d-card-name">元旭半导体</div>
+        <div class="d-card-sub">Micro-LED · 高端制造</div>
+        <div class="d-card-desc">Micro-LED 并行光引擎器件平台；尽调报告 + 谈判简报 = 2 份报告；dashboard.html 已部署</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>5d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>100%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-04 dashboard.html 双视图部署</div>
+        <div class="d-card-tags"><span class="d-tag">Micro-LED</span><span class="d-tag">高端制造</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-04</span><span class="d-card-arrow">时间线+报告 →</span></div>
+      </a>
+
+      <a class="d-card" href="#" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">☁️</div>
+          <span class="d-card-status s-purple">REITs</span>
+        </div>
+        <div class="d-card-name">联通云 IDC</div>
+        <div class="d-card-sub">数据中心 · REITs</div>
+        <div class="d-card-desc">联通云 IDC 数据中心 REITs 项目；汇天网络科技合作机会汇总（5.9M / 7 文件）</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric b"><b>85%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>32d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="85,100"/>
+          </svg>
+          <div class="donut-info"><b>85%</b><span>尽调完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-07 中信建投持有型不动产 ABS 合作方案入库</div>
+        <div class="d-card-tags"><span class="d-tag">IDC</span><span class="d-tag">REITs</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-07</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/huitian-network-report/dashboard.html" target="_blank" data-cat="np">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🌐</div>
+          <span class="d-card-status s-blue">控制并表方案 v2</span>
+        </div>
+        <div class="d-card-name">汇天网络科技</div>
+        <div class="d-card-sub">IDC · 北京副中心 · 天保能源（01671.HK）</div>
+        <div class="d-card-desc">天保能源 34% 持股控制并表 ABS（V2：港交所实测 / 8 张 SVG 图表 / 3 情景资金方案 / HKEX 14/14A 章监管）；HV Analysis V3.46.0 增强版 / 994KB MD</div>
+        <div class="metric-row">
+          <div class="metric a"><b>43.40 亿</b><div class="ml">A 平价 100% 发行</div></div>
+          <div class="metric b"><b>14.76 亿</b><div class="ml">能源认购 34%</div></div>
+          <div class="metric"><b>72.85%</b><div class="ml">能源负债率（港交所）</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--blue)" stroke-width="3" stroke-dasharray="100,100" stroke-dashoffset="0"/>
+          </svg>
+          <div class="donut-info"><b>100%</b><span>V2 控制并表方案完成</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-09 V2 部署（轻量 54KB + 完整 1MB + 8 SVG）/ 港交所 2025 实测 / 4 家同业对标</div>
+        <div class="d-card-tags"><span class="d-tag">IDC</span><span class="d-tag">ABS</span><span class="d-tag">REITs</span><span class="d-tag">HKEX</span><span class="d-tag">V2</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-09 v2</span><span class="d-card-arrow">时间线+报告 →</span></div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- 储备·上市 -->
+  <section class="cat-block" id="cat-p">
+    <div class="cat-head">
+      <div class="cat-head-left">
+        <span class="cat-dot" style="background:var(--purple)"></span>
+        <div>
+          <div class="cat-title">储备项目 · 上市公司</div>
+          <div class="cat-sub">上市公司交付/研究 · 2 项</div>
+        </div>
+      </div>
+      <div class="cat-stats">
+        <span class="cs-pill" style="background:#7c3aed15;color:var(--purple)"><b>2</b> 个项目</span>
+      </div>
+    </div>
+    <div class="d-grid">
+
+      <a class="d-card featured" href="https://jinzhanxiang.github.io/tianbao-projects/htco-report.html" target="_blank" data-cat="p">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🛰️</div>
+          <span class="d-card-status s-blue">已部署</span>
+        </div>
+        <div class="d-card-name">航天宏图</div>
+        <div class="d-card-sub">HTCO IRE · 航天遥感</div>
+        <div class="d-card-desc">上市公司对口交付方案 v4（口令保护）；针对应收账款减值、客户集中度高等问题出具化解方案</div>
+        <div class="metric-row">
+          <div class="metric a"><b>已交付</b><div class="ml">交付状态</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">方案完成</div></div>
+          <div class="metric"><b>57d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--blue)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>已部署 v4</b><span>交付版本</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-05-12 风险化解方案 v4 部署上线</div>
+        <div class="d-card-tags"><span class="d-tag">航天遥感</span><span class="d-tag">对口交付</span></div>
+        <div class="d-card-foot"><span>📅 2026-05-12</span><span class="d-card-arrow">查看方案 →</span></div>
+      </a>
+
+      <a class="d-card" href="#" target="_blank" data-cat="p">
+        <div class="d-card-top">
+          <div class="d-card-emoji">📊</div>
+          <span class="d-card-status s-blue">研究阶段</span>
+        </div>
+        <div class="d-card-name">收购上市公司研究</div>
+        <div class="d-card-sub">3 家上市公司 8 维度对比</div>
+        <div class="d-card-desc">科华 / 绿田 / 爱朋 3 家上市公司 8 维度对比 + 收购优先级排序；研究阶段，待立项</div>
+        <div class="metric-row">
+          <div class="metric a"><b>待补充</b><div class="ml">投资金额</div></div>
+          <div class="metric"><b>60%</b><div class="ml">研究完成</div></div>
+          <div class="metric"><b>9d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--purple)" stroke-width="3" stroke-dasharray="60,100"/>
+          </svg>
+          <div class="donut-info"><b>60%</b><span>研究完成度</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07 完成 3 家上市公司 8 维度对比仪表盘</div>
+        <div class="d-card-tags"><span class="d-tag">上市公司</span><span class="d-tag">收购研究</span></div>
+        <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看详情 →</span></div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- 重大并购 -->
+  <section class="cat-block" id="cat-deal">
+    <div class="cat-head">
+      <div class="cat-head-left">
+        <span class="cat-dot" style="background:var(--amber)"></span>
+        <div>
+          <div class="cat-title">重大并购</div>
+          <div class="cat-sub">立项阶段 · 1 项</div>
+        </div>
+      </div>
+      <div class="cat-stats">
+        <span class="cs-pill" style="background:#f59e0b15;color:var(--amber)"><b>2</b> 个项目</span>
+      </div>
+    </div>
+    <div class="d-grid">
+
+      <a class="d-card featured" href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank" data-cat="deal">
+        <div class="d-card-top">
+          <div class="d-card-emoji">⭐</div>
+          <span class="d-card-status s-amber" style="background:linear-gradient(135deg,#f59e0b,#d97706)">已立项</span>
+        </div>
+        <div class="d-card-name">星恒电源</div>
+        <div class="d-card-sub">锂电两轮车龙头 · 启源纳川</div>
+        <div class="d-card-desc">锂电两轮车龙头，启源纳川并购标的；天保方总出资需求 17 亿元（老股收购 12 亿 + 新设产能 5 亿）</div>
+        <div class="metric-row">
+          <div class="metric a"><b>17 亿</b><div class="ml">总出资需求</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">尽调完成</div></div>
+          <div class="metric"><b>54d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="amt-src">📁 总办会请示0513 §（一）.1</div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>100%</b><span>立项准备</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07-09 双视图 dashboard 部署；陈志江纳川股份关联分析完成</div>
+        <div class="d-card-tags"><span class="d-tag">动力电池</span><span class="d-tag">新能源</span></div>
+        <div class="d-card-foot"><span>📅 2026-07-09</span><span class="d-card-arrow">时间线+报告 →</span></div>
+      </a>
+
+
+
+    </div>
+  </section>
+
+  <!-- 知识图谱 -->
+  <section class="cat-block" id="cat-kg">
+    <div class="cat-head">
+      <div class="cat-head-left">
+        <span class="cat-dot" style="background:var(--emerald)"></span>
+        <div>
+          <div class="cat-title">知识图谱</div>
+          <div class="cat-sub">Wiki 系统 · 实体网络 · 2 项</div>
+        </div>
+      </div>
+      <div class="cat-stats">
+        <span class="cs-pill" style="background:#10b98115;color:var(--emerald)"><b>2</b> 个系统</span>
+      </div>
+    </div>
+    <div class="d-grid">
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html" target="_blank" data-cat="kg">
+        <div class="d-card-top">
+          <div class="d-card-emoji">📚</div>
+          <span class="d-card-status s-green">已部署</span>
+        </div>
+        <div class="d-card-name">知识图谱 · 数据全景</div>
+        <div class="d-card-sub">LLM Wiki · 1055 实体</div>
+        <div class="d-card-desc">主公主 Wiki 入口，1055 个实体页面（tianbao-projects 子文件）</div>
+        <div class="metric-row">
+          <div class="metric b"><b>1055</b><div class="ml">实体数</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">完成度</div></div>
+          <div class="metric"><b>9d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>数据全景</b><span>Wiki 入口</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07 Wiki 系统替代 kg-viz-3d / kg-viz 旧版</div>
+        <div class="d-card-tags"><span class="d-tag">LLM Wiki</span><span class="d-tag">实体页面</span></div>
+        <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">进入 Wiki →</span></div>
+      </a>
+
+      <a class="d-card" href="https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html" target="_blank" data-cat="kg">
+        <div class="d-card-top">
+          <div class="d-card-emoji">🔗</div>
+          <span class="d-card-status s-green">已部署</span>
+        </div>
+        <div class="d-card-name">实体关系图谱</div>
+        <div class="d-card-sub">交互式关系网络</div>
+        <div class="d-card-desc">实体关系图谱（529KB 交互网络）— 主公主用 Wiki 的关系视图</div>
+        <div class="metric-row">
+          <div class="metric b"><b>529KB</b><div class="ml">文件大小</div></div>
+          <div class="metric b"><b>100%</b><div class="ml">完成度</div></div>
+          <div class="metric"><b>9d</b><div class="ml">阶段停留</div></div>
+        </div>
+        <div class="donut-row">
+          <svg class="donut-svg" viewBox="0 0 36 36">
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--border)" stroke-width="3"/>
+            <path d="M18 2a16 16 0 1 1 0 32 16 16 0 1 1 0 -32" fill="none" stroke="var(--emerald)" stroke-width="3" stroke-dasharray="100,100"/>
+          </svg>
+          <div class="donut-info"><b>关系图谱</b><span>交互网络</span></div>
+        </div>
+        <div class="task-list"><b>📋 最近任务</b>2026-07 实体网络部署上线</div>
+        <div class="d-card-tags"><span class="d-tag">关系图</span><span class="d-tag">可视化</span></div>
+        <div class="d-card-foot"><span>📅 2026-07</span><span class="d-card-arrow">查看图谱 →</span></div>
+      </a>
+
+    </div>
+  </section>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>天保项目 · TIANBAO PROJECTS</h4>
+        <p>天保控股投资项目全生命周期管理平台<br>覆盖立项、尽调、决策、投后、退出五大阶段</p>
+      </div>
+      <div>
+        <h4>快速访问</h4>
+        <ul>
+          <li><a href="index.html">仪表盘</a></li>
+          <li><a href="detail.html">项目详情</a></li>
+          <li><a href="#" target="_blank">7项目汇总</a></li>
+          <li><a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank">星恒电源</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系与说明</h4>
+        <ul>
+          <li>📅 报告更新：2026-07-09</li>
+          <li>🏢 天保控股 · 投资部</li>
+          <li>🔒 仅供内部使用</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 TIANBAO PROJECTS · v6.0 d-card 升级版 · Generated for Investment Committee Review</div>
+  </div>
+</footer>
+
+<script>
+// === 时钟 ===
+function tickClock(){
+  const now=new Date();
+  const pad=n=>String(n).padStart(2,'0');
+  const h=pad(now.getHours()),m=pad(now.getMinutes()),s=pad(now.getSeconds());
+  document.getElementById('d-clock').textContent=`${h}:${m}:${s}`;
+  const days=['周日','周一','周二','周三','周四','周五','周六'];
+  document.getElementById('d-date').textContent=`${now.getFullYear()}年${now.getMonth()+1}月${now.getDate()}日 · ${days[now.getDay()]}`;
+}
+tickClock();setInterval(tickClock,1000);
+
+// === 暗色模式 ===
+const themeBtn=document.getElementById('themeToggle');
+const savedTheme=localStorage.getItem('tb-theme')||'light';
+if(savedTheme==='dark'){document.documentElement.setAttribute('data-theme','dark');themeBtn.textContent='☀️';}
+themeBtn.addEventListener('click',()=>{
+  const cur=document.documentElement.getAttribute('data-theme');
+  if(cur==='dark'){document.documentElement.removeAttribute('data-theme');localStorage.setItem('tb-theme','light');themeBtn.textContent='🌙';}
+  else{document.documentElement.setAttribute('data-theme','dark');localStorage.setItem('tb-theme','dark');themeBtn.textContent='☀️';}
+});
+
+// === 分类筛选 ===
+const pills=document.querySelectorAll('.fp');
+const cards=document.querySelectorAll('.d-card');
+const cntEls={all:0,np:0,p:0,deal:0,kg:0};
+cards.forEach(c=>{
+  const cat=c.dataset.cat;
+  if(cntEls[cat]!==undefined)cntEls[cat]++;
+  cntEls.all++;
+});
+Object.keys(cntEls).forEach(k=>{const el=document.getElementById('cnt-'+k);if(el)el.textContent=cntEls[k];});
+document.getElementById('flt-count').textContent='13';
+
+pills.forEach(p=>{
+  p.addEventListener('click',()=>{
+    pills.forEach(x=>x.classList.remove('active'));
+    p.classList.add('active');
+    const cat=p.dataset.cat;
+    const catLabel=p.textContent.trim().replace(/\s+\d+$/,'');
+    document.getElementById('flt-cat').textContent=catLabel;
+    let visible=0;
+    cards.forEach(c=>{
+      const match=(cat==='all')||c.dataset.cat===cat;
+      c.style.display=match?'':'none';
+      if(match)visible++;
+    });
+    document.getElementById('flt-count').textContent=visible;
+  });
+});
+
+// === 锚点滚动锚定 ===
+document.querySelectorAll('a[href^="#cat-"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    e.preventDefault();
+    const target=document.querySelector(a.getAttribute('href'));
+    if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+});
+</script>
+
+</body>
+</html>
