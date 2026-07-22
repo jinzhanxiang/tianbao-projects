@@ -48,37 +48,85 @@ body::before{
 .v3-section-h em::before{content:'';width:6px;height:6px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 3px rgba(22,163,74,0.2);animation:livePulse 2s ease-in-out infinite}
 @keyframes livePulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
 
-/* === KPI 2 宫格 · 一体化重设计（统一风格 · 报告类别 ↔ 行业细分） === */
-.v3-kpi-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:12px;margin-bottom:8px}
-.v3-kpi{position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);border:1px solid var(--border);border-radius:14px;padding:8px 12px 8px;transition:.35s cubic-bezier(.2,.8,.2,1);overflow:hidden;display:flex;flex-direction:column;gap:4px;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
-.v3-kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--kpi-color) 0%,var(--kpi-color-2,var(--seal-2)) 100%)}
-.v3-kpi::after{content:'';position:absolute;top:0;right:0;width:60px;height:60px;background:radial-gradient(circle at 100% 0%,var(--kpi-color) 0%,transparent 60%);opacity:.08;transition:.4s;pointer-events:none}
-.v3-kpi:hover{transform:translateY(-3px) scale(1.005);box-shadow:0 10px 28px rgba(0,0,0,0.1),0 2px 8px var(--kpi-color);border-color:var(--kpi-color)}
-.v3-kpi:hover::after{opacity:.18;transform:scale(1.5)}
-.v3-kpi-eyebrow{font-family:ui-monospace,monospace;font-size:10px;color:var(--kpi-color);font-weight:800;letter-spacing:2.5px;display:flex;align-items:center;gap:6px;text-transform:uppercase}
-.v3-kpi-eyebrow::before{content:'';width:4px;height:10px;background:var(--kpi-color);border-radius:1px;box-shadow:0 0 6px var(--kpi-color)}
-.v3-kpi-num-row{display:flex;align-items:baseline;gap:8px;flex-shrink:0}
-.v3-kpi-num{font-family:var(--hei);font-size:34px;font-weight:900;color:var(--kpi-color);line-height:.95;letter-spacing:-1.5px;text-shadow:0 2px 0 rgba(0,0,0,.04),0 4px 12px rgba(0,0,0,.05);position:relative;display:inline-block;transition:transform .35s}
-.v3-kpi:hover .v3-kpi-num{transform:scale(1.05)}
-.v3-kpi-num-unit{font-family:var(--fsong);font-size:12px;color:var(--ink-3);font-weight:700;letter-spacing:1px}
-.v3-kpi-num-ts{font-family:ui-monospace,monospace;font-size:9px;color:var(--ink-3);margin-left:auto;font-weight:600;letter-spacing:.5px;background:var(--bg-2);padding:1px 6px;border-radius:5px}
+/* === 战情中心 · 一体化全息面板（替换 2 宫格 KPI） === */
+.v3-holo{
+  position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
+  border:1px solid var(--border);border-radius:14px;padding:8px 12px 10px;margin-bottom:6px;
+  box-shadow:0 4px 14px rgba(0,0,0,.06),inset 0 0 0 1px rgba(0,212,255,.04);
+  display:flex;flex-direction:column;gap:6px;overflow:hidden;
+}
+.v3-holo::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--doc-rule) 0%,var(--seal) 50%,var(--seal-2) 100%);border-radius:14px 0 0 14px}
+.v3-holo::after{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:repeating-linear-gradient(90deg,var(--seal) 0 12px,transparent 12px 24px);opacity:.4;animation:holoScan 3.5s linear infinite}
+@keyframes holoScan{from{transform:translateX(0)}to{transform:translateX(-24px)}}
 
-/* 统一行样式 · name + bar + count */
-.v3-kpi-rows{display:flex;flex-direction:column;gap:2px;min-height:0}
-.v3-kpi-row{display:flex;align-items:center;gap:8px;font-size:11px;font-family:var(--fsong);line-height:1.4}
-.v3-kpi-row .rk{flex:1;min-width:0;height:6px;background:var(--bg-2);border-radius:3px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(0,0,0,.05);position:relative}
-.v3-kpi-row .rk-fill{height:100%;background:linear-gradient(90deg,var(--kpi-color) 0%,var(--kpi-color-2) 100%);transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;overflow:hidden}
-.v3-kpi-row .rk-fill::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.3) 0%,transparent 50%)}
-.v3-kpi-row .rk-fill:hover{filter:brightness(1.1)}
-.v3-kpi-row .nm{flex:0 0 88px;font-family:var(--fsong);color:var(--ink);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px}
-.v3-kpi-row .ct{flex:0 0 24px;font-family:ui-monospace,monospace;color:var(--kpi-color);font-weight:900;text-align:right;letter-spacing:-.3px;font-size:11px}
-.v3-kpi-row .pct{font-size:8px;color:var(--ink-3);font-weight:700;flex:0 0 30px;text-align:right;font-family:ui-monospace,monospace}
+.v3-holo-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:0 0 4px;border-bottom:1px solid var(--border);position:relative}
+.v3-holo-head h2{font-family:var(--hei);font-size:18px;color:var(--ink);font-weight:900;margin:0;letter-spacing:4px;display:flex;align-items:center;gap:8px;line-height:1}
+.v3-holo-head h2::before{content:'⚡';font-size:18px;background:linear-gradient(135deg,#FFD700 0%,#FF6B35 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 0 6px rgba(255,180,40,.5));animation:lightningPulse 1.8s ease-in-out infinite}
+@keyframes lightningPulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.15);opacity:.85}}
+.v3-holo-head em{font-style:normal;font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-2);font-weight:700;letter-spacing:1px;display:flex;align-items:center;gap:8px}
+.v3-holo-head em::before{content:'';width:7px;height:7px;border-radius:50%;background:#16A34A;box-shadow:0 0 8px #16A34A;animation:holoLivePulse 1.5s ease-in-out infinite}
+@keyframes holoLivePulse{0%,100%{box-shadow:0 0 8px #16A34A}50%{box-shadow:0 0 16px #16A34A,0 0 4px #16A34A}}
 
-.v3-kpi-meta{font-family:var(--fsong);font-size:10px;color:var(--ink-3);font-weight:600;display:flex;align-items:center;gap:8px;padding-top:3px;border-top:1px dashed var(--border);letter-spacing:.3px;flex-shrink:0}
-.v3-kpi-meta b{color:var(--ink);font-weight:800;font-family:ui-monospace,monospace}
-.v3-kpi-meta i{font-style:normal;color:var(--kpi-color);font-weight:800;font-family:ui-monospace,monospace}
+.v3-holo-grid{display:grid;grid-template-columns:.85fr 1.2fr 1.2fr;gap:10px;align-items:stretch;min-height:130px}
 
-/* 旧 v3-kpi-cloud/v3-kpi-mix/v3-kpi-inds 系列样式已废弃，统一到 .v3-kpi-rows */
+.v3-holo-core{display:flex;flex-direction:column;gap:8px;padding:4px 6px;border-right:1px dashed var(--border);min-width:0}
+.v3-holo-pulse{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px}
+.v3-holo-stat{position:relative;padding:8px 4px 6px;text-align:center;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,.4) 0%,transparent 100%);transition:.3s;overflow:hidden}
+.v3-holo-stat::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:60%;height:2px;background:var(--hc,var(--seal));box-shadow:0 0 8px var(--hc,var(--seal));border-radius:1px}
+.v3-holo-stat-big{font-family:var(--hei);font-size:30px;font-weight:900;color:var(--hc,var(--seal));line-height:1;letter-spacing:-1.5px;position:relative;display:block;animation:numGlow 2.4s ease-in-out infinite;transition:transform .35s}
+@keyframes numGlow{0%,100%{text-shadow:0 0 0 transparent}50%{text-shadow:0 0 14px var(--hc-glow,rgba(192,57,43,.5)),0 0 4px var(--hc-glow,rgba(192,57,43,.3))}}
+.v3-holo-stat:hover .v3-holo-stat-big{transform:scale(1.08)}
+.v3-holo-stat-lbl{font-family:var(--hei);font-size:11px;color:var(--ink-2);font-weight:700;letter-spacing:3px;margin-top:3px;display:block}
+
+.v3-holo-stages{padding:6px 0 0;margin-top:auto;border-top:1px dashed var(--border);padding-top:6px}
+.v3-holo-stages-h{font-family:var(--hei);font-size:11px;color:var(--ink-3);font-weight:800;letter-spacing:3px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:center}
+.v3-holo-stages-h em{font-style:normal;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600;letter-spacing:1px}
+.v3-holo-stage-bar{display:flex;height:8px;border-radius:4px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(0,0,0,.1),0 0 0 1px var(--border);position:relative}
+.v3-holo-stage-bar i{display:block;height:100%;transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;overflow:hidden}
+.v3-holo-stage-bar i::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,.4) 50%,transparent 100%);background-size:200% 100%;animation:shineFlow 2.6s linear infinite}
+@keyframes shineFlow{from{background-position:200% 0}to{background-position:-200% 0}}
+.v3-holo-stage-legend{display:flex;justify-content:space-between;font-family:var(--fsong);font-size:10px;color:var(--ink-2);font-weight:600;margin-top:4px;letter-spacing:.5px;gap:4px}
+.v3-holo-stage-legend span{display:flex;align-items:center;gap:4px;flex:1;min-width:0}
+.v3-holo-stage-legend i{width:8px;height:8px;border-radius:2px;flex-shrink:0;box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.v3-holo-stage-legend b{font-family:ui-monospace,monospace;color:var(--ink);font-weight:900;font-size:11px}
+
+.v3-holo-block{position:relative;display:flex;flex-direction:column;gap:4px;padding:2px 4px 2px 8px;min-width:0}
+.v3-holo-block-h{font-family:var(--hei);font-size:12px;color:var(--hb,var(--blue));font-weight:800;letter-spacing:2px;display:flex;justify-content:space-between;align-items:center;border-left:3px solid var(--hb,var(--blue));padding-left:6px;margin-bottom:2px}
+.v3-holo-block-h em{font-style:normal;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600;background:var(--bg-2);padding:1px 6px;border-radius:8px}
+
+.v3-holo-donut-wrap{display:flex;align-items:center;gap:10px;flex:1;min-height:0}
+.v3-holo-donut{position:relative;width:84px;height:84px;flex-shrink:0}
+.v3-holo-donut svg{width:100%;height:100%;transform:rotate(-90deg);overflow:visible}
+.v3-holo-donut-bg{fill:none;stroke:var(--bg-2);stroke-width:10}
+.v3-holo-donut-seg{fill:none;stroke-width:10;stroke-linecap:butt;filter:drop-shadow(0 0 4px var(--seg-c,transparent));transition:stroke-dasharray 1.2s cubic-bezier(.4,.2,.2,1),stroke-dashoffset 1.2s cubic-bezier(.4,.2,.2,1)}
+.v3-holo-donut-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none}
+.v3-holo-donut-center .big{font-family:var(--hei);font-size:22px;font-weight:900;color:var(--ink);line-height:1;letter-spacing:-1px}
+.v3-holo-donut-center .lbl{font-family:var(--hei);font-size:9px;color:var(--ink-3);letter-spacing:2px;margin-top:1px;font-weight:700}
+
+.v3-holo-legend{display:flex;flex-direction:column;gap:2px;flex:1;min-width:0;max-height:92px;overflow:hidden}
+.v3-holo-leg{display:flex;align-items:center;gap:5px;font-family:var(--fsong);font-size:11px;color:var(--ink-2);font-weight:600;line-height:1.4}
+.v3-holo-leg i{width:6px;height:6px;border-radius:1px;flex-shrink:0;box-shadow:0 0 0 1px rgba(0,0,0,.05)}
+.v3-holo-leg .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-holo-leg b{font-family:ui-monospace,monospace;color:var(--ink);font-weight:900;font-size:11px;flex-shrink:0}
+.v3-holo-leg .pct{font-family:ui-monospace,monospace;color:var(--ink-3);font-weight:700;font-size:9px;flex:0 0 26px;text-align:right}
+
+.v3-holo-radar-wrap{display:flex;align-items:center;gap:10px;flex:1;min-height:0}
+.v3-holo-radar{position:relative;width:104px;height:84px;flex-shrink:0}
+.v3-holo-radar svg{width:100%;height:100%;overflow:visible}
+.radar-grid{fill:none;stroke:var(--border);stroke-width:.5;stroke-dasharray:2 2;opacity:.5}
+.radar-axis{stroke:var(--border);stroke-width:.5;opacity:.4}
+.radar-poly{fill:url(#radar-grad);fill-opacity:.4;stroke:var(--rr,#7C3AED);stroke-width:1.5;filter:drop-shadow(0 0 4px var(--rr-glow,rgba(124,58,237,.6)))}
+.radar-vtx{fill:var(--rr,#7C3AED);opacity:0;animation:vertexPop .5s cubic-bezier(.34,1.56,.64,1) forwards}
+@keyframes vertexPop{to{opacity:1}}
+.radar-vtx-ring{fill:none;stroke:var(--rr,#7C3AED);stroke-width:1;opacity:0;animation:vertexRing 1.8s ease-out infinite}
+@keyframes vertexRing{0%{r:1.5;opacity:.8}100%{r:8;opacity:0}}
+.radar-label{font-family:var(--hei);font-size:7px;font-weight:800;fill:var(--ink);letter-spacing:.2px}
+.radar-label-v{font-family:ui-monospace,monospace;font-size:7px;font-weight:900;fill:var(--rr,#7C3AED);letter-spacing:0}
+.radar-scan{fill:none;stroke:var(--rr,#7C3AED);stroke-width:1;opacity:.5;animation:radarSweep 4s linear infinite;transform-origin:60px 50px}
+@keyframes radarSweep{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+/* === 旧 KPI 类样式 · 已废弃（display:none 兜底） === */
+.v3-kpi-grid,.v3-kpi,.v3-kpi-eyebrow,.v3-kpi-num-row,.v3-kpi-num,.v3-kpi-num-unit,.v3-kpi-num-ts,.v3-kpi-rows,.v3-kpi-row,.v3-kpi-meta{display:none}
 
 /* === 3 类入口 · 极简单行结构 === */
 .v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:4px 0 4px}
@@ -124,22 +172,55 @@ body::before{
 .v3-cloud-strip .v3-cloud-tags{display:flex;flex-wrap:wrap;gap:5px;flex:1;min-width:0}
 
 .v3-cloud-tag{
-  display:inline-flex;align-items:center;gap:5px;padding:2px 10px;
+  display:inline-flex;align-items:center;gap:6px;padding:3px 12px;
   background:var(--bg-2);border:1px solid var(--border);border-radius:14px;
   font-family:var(--fsong);color:var(--ink-2);cursor:pointer;
-  transition:.2s;font-weight:700;font-size:12px;
+  transition:.2s;font-weight:700;font-size:14px;
 }
 .v3-cloud-tag:hover{background:var(--paper);color:var(--ink);border-color:var(--seal);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.08)}
 .v3-cloud-tag.active{background:linear-gradient(135deg,var(--seal) 0%,var(--seal-2) 100%);color:#fff;border-color:var(--seal);box-shadow:0 2px 8px rgba(192,57,43,0.3)}
 .v3-cloud-tag.active .count{color:#fff;font-weight:800}
 .v3-cloud-tag .count{font-family:ui-monospace,monospace;font-weight:800;color:var(--seal);font-size:12px;background:rgba(192,57,43,0.1);padding:0 7px;border-radius:10px;min-width:22px;text-align:center}
-.v3-cloud-tag-cloud{font-size:13px;font-weight:800;padding:5px 14px}
+.v3-cloud-tag-cloud{font-size:14px;font-weight:800;padding:4px 14px}
 .v3-cloud-tag-cloud .count{background:rgba(0,0,0,.08);color:var(--ink-2)}
 .v3-cloud-tag-cloud.active .count{background:rgba(255,255,255,.25);color:#fff}
 .v3-cloud-empty{padding:6px 10px;color:var(--ink-3);font-family:var(--fsong);font-size:13px}
 
 /* === 双栏滚动流 === */
 .v3-feed2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:4px 0 8px}
+
+/* === 近期动态时间线 · 填充空白 === */
+.v3-timeline{
+  background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
+  border:1px solid var(--border);border-radius:12px;padding:8px 14px 10px;
+  box-shadow:0 2px 6px rgba(0,0,0,.04);
+  position:relative;overflow:hidden;margin:6px 0 8px;
+}
+.v3-timeline::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue) 0%,var(--seal) 60%,var(--gold) 100%);opacity:.7}
+.v3-timeline-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px;padding-bottom:6px;border-bottom:1px dashed var(--border)}
+.v3-timeline-head h3{font-family:var(--hei);font-size:14px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:6px;letter-spacing:2px}
+.v3-timeline-head h3::before{content:'';width:4px;height:12px;background:linear-gradient(180deg,var(--blue),var(--seal));border-radius:1px}
+.v3-timeline-head em{font-style:normal;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600;letter-spacing:.5px}
+.v3-timeline-track{
+  display:flex;flex-wrap:nowrap;gap:10px;overflow-x:auto;overflow-y:hidden;
+  padding-bottom:4px;
+  scrollbar-width:thin;scrollbar-color:var(--border) transparent;
+}
+.v3-timeline-track::-webkit-scrollbar{height:4px}
+.v3-timeline-track::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.v3-tl-card{
+  flex:0 0 auto;width:200px;background:var(--bg-2);
+  border:1px solid var(--border);border-left:3px solid var(--tl-c,var(--blue));
+  border-radius:8px;padding:7px 10px 8px;
+  font-family:var(--fsong);position:relative;overflow:hidden;
+  transition:.2s;text-decoration:none;color:inherit;
+}
+.v3-tl-card:hover{background:var(--paper);border-left-width:5px;transform:translateY(-2px);box-shadow:0 4px 10px rgba(0,0,0,.08)}
+.v3-tl-top{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:var(--ink-3);font-family:ui-monospace,monospace;font-weight:800;letter-spacing:1px;margin-bottom:2px}
+.v3-tl-stage{font-family:var(--hei);font-size:13px;color:var(--tl-c,var(--blue));font-weight:900;line-height:1.3;margin:2px 0;letter-spacing:.5px}
+.v3-tl-meta{font-size:10px;color:var(--ink-3);display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:3px}
+.v3-tl-meta b{font-family:ui-monospace,monospace;color:var(--ink);font-weight:900;font-size:11px}
+.v3-tl-meta i{font-style:normal;padding:1px 5px;background:rgba(0,0,0,.04);border-radius:4px;font-weight:700;color:var(--ink-2)}
 .v3-feed{
   background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
   border:1px solid var(--border);border-radius:12px;padding:6px 12px 8px;
@@ -209,15 +290,38 @@ body::before{
 }
 /* === 短视口 · 高度 < 800 的紧凑模式（移动端/小窗） === */
 @media (max-height:820px){
-  .v3-kpi{padding:6px 12px 7px;gap:3px}
-  .v3-kpi-num{font-size:28px}
-  .v3-kpi-num-unit{font-size:11px}
-  .v3-kpi-eyebrow{font-size:9px;letter-spacing:2px}
-  .v3-kpi-row{font-size:10px;line-height:1.3}
-  .v3-kpi-row .nm{flex:0 0 80px;font-size:10px}
-  .v3-kpi-row .ct{font-size:10px}
-  .v3-kpi-row .rk{height:5px}
-  .v3-kpi-meta{font-size:9px;padding-top:2px}
+  /* 战情中心紧凑 */
+  .v3-holo{padding:6px 10px 8px;gap:4px}
+  .v3-holo-head h2{font-size:16px;letter-spacing:3px}
+  .v3-holo-head em{font-size:10px}
+  .v3-holo-grid{min-height:110px}
+  .v3-holo-stat{padding:5px 3px 4px}
+  .v3-holo-stat-big{font-size:24px}
+  .v3-holo-stat-lbl{font-size:10px;letter-spacing:2px}
+  .v3-holo-stages{padding-top:4px}
+  .v3-holo-stages-h{font-size:10px;letter-spacing:2px;margin-bottom:3px}
+  .v3-holo-stage-bar{height:6px}
+  .v3-holo-stage-legend{font-size:9px;margin-top:3px}
+  .v3-holo-stage-legend b{font-size:10px}
+  .v3-holo-donut{width:72px;height:72px}
+  .v3-holo-donut-center .big{font-size:18px}
+  .v3-holo-donut-center .lbl{font-size:8px}
+  .v3-holo-donut-seg{stroke-width:8}
+  .v3-holo-donut-bg{stroke-width:8}
+  .v3-holo-radar{width:90px;height:72px}
+  .v3-holo-block-h{font-size:11px;letter-spacing:1px}
+  .v3-holo-block-h em{font-size:9px}
+  .v3-holo-leg{font-size:10px}
+  .v3-holo-leg b{font-size:10px}
+  .v3-holo-leg .pct{font-size:8px;flex-basis:22px}
+  .v3-holo-legend{max-height:78px}
+  /* 时间线紧凑 */
+  .v3-timeline{padding:5px 12px 7px;margin:3px 0 6px}
+  .v3-timeline-head h3{font-size:12px}
+  .v3-tl-card{width:180px;padding:5px 9px 6px}
+  .v3-tl-stage{font-size:11px}
+  .v3-tl-meta{font-size:9px}
+  /* 其他 */
   .v3-entries{gap:6px;margin:3px 0}
   .v3-entry{padding:6px 10px 7px}
   .v3-entry-icon{width:26px;height:26px;font-size:16px}
@@ -226,7 +330,9 @@ body::before{
   .v3-entry-meta{font-size:9px;gap:4px}
   .v3-cloud-strip{padding:4px 12px;margin:3px 0}
   .v3-cloud-strip .lbl{font-size:12px}
-  .v3-cloud-tag{padding:2px 9px;font-size:11px}
+  .v3-cloud-tag{padding:2px 9px;font-size:13px}
+  .v3-cloud-tag-cloud{font-size:13px}
+  .v3-cloud-tag .count{font-size:11px;padding:0 6px;min-width:18px}
   .v3-feed2{margin:3px 0 6px;gap:8px}
   .v3-feed{padding:5px 10px 6px}
   .v3-feed-head h2{font-size:13px;letter-spacing:2px}
@@ -261,33 +367,94 @@ body::before{
 
 <div class="v3-home viewport-fit v3-grow">
 
-  <!-- 项目概括总览 · 2 宫格（统一「名+条+量」结构 · 随数据动态） -->
-  <div class="v3-section-h">
-    <h2>项目概括总览</h2>
-    <em id="overviewMeta">实时统计 · 数据自动同步</em>
-  </div>
-  <div class="v3-kpi-grid" id="kpiGrid">
-    <!-- 报告总数 · 类别分布（动态行数） -->
-    <div class="v3-kpi" style="--kpi-color:#1565C0;--kpi-color-2:#0EA5E9">
-      <div class="v3-kpi-eyebrow">Research Reports · 报告类别分布</div>
-      <div class="v3-kpi-num-row">
-        <span class="v3-kpi-num" id="kpiReports" data-counter-up="0">0</span>
-        <span class="v3-kpi-num-unit">份 · 跨 <i id="kpiReportsSpan">0</i> 类</span>
-        <span class="v3-kpi-num-ts" id="kpiReportsTs">--:--</span>
-      </div>
-      <div class="v3-kpi-rows" id="kpiReportsRows"></div>
-      <div class="v3-kpi-meta" id="kpiReportsMeta"></div>
+  <!-- 战情中心 · 一体化全息面板（替换 2 宫格 KPI） -->
+  <div class="v3-holo" id="holoPanel">
+    <div class="v3-holo-head">
+      <h2>战情中心 · HOLOGRAM</h2>
+      <em id="holoMeta">实时同步 · 数据自动刷新</em>
     </div>
-    <!-- 行业覆盖 · 项目分布（统一结构 · 右侧分布融入每行） -->
-    <div class="v3-kpi" style="--kpi-color:#7C3AED;--kpi-color-2:#A855F7">
-      <div class="v3-kpi-eyebrow">Industry Mix · 行业覆盖 + 项目分布</div>
-      <div class="v3-kpi-num-row">
-        <span class="v3-kpi-num" id="kpiIndustries" data-counter-up="0">0</span>
-        <span class="v3-kpi-num-unit">个行业 · 主 <i id="kpiIndMain">0</i></span>
-        <span class="v3-kpi-num-ts" id="kpiIndTs">实时</span>
+    <div class="v3-holo-grid">
+      <!-- 左：三联脉冲 + 阶段分布 -->
+      <div class="v3-holo-core">
+        <div class="v3-holo-pulse">
+          <div class="v3-holo-stat" style="--hc:#C0392B;--hc-glow:rgba(192,57,43,.5)">
+            <span class="v3-holo-stat-big" id="holoProjects" data-counter-up="0">0</span>
+            <span class="v3-holo-stat-lbl">项目</span>
+          </div>
+          <div class="v3-holo-stat" style="--hc:#1565C0;--hc-glow:rgba(21,101,192,.5)">
+            <span class="v3-holo-stat-big" id="holoReports" data-counter-up="0">0</span>
+            <span class="v3-holo-stat-lbl">报告</span>
+          </div>
+          <div class="v3-holo-stat" style="--hc:#7C3AED;--hc-glow:rgba(124,58,237,.5)">
+            <span class="v3-holo-stat-big" id="holoInds" data-counter-up="0">0</span>
+            <span class="v3-holo-stat-lbl">行业</span>
+          </div>
+        </div>
+        <div class="v3-holo-stages">
+          <div class="v3-holo-stages-h">
+            <span>阶段分布</span><em id="holoStagePct">—</em>
+          </div>
+          <div class="v3-holo-stage-bar" id="holoStageBar">
+            <i style="width:0;background:linear-gradient(90deg,#C0392B,#E67E22)"></i>
+            <i style="width:0;background:linear-gradient(90deg,#1565C0,#0EA5E9)"></i>
+            <i style="width:0;background:linear-gradient(90deg,#6B7280,#9CA3AF)"></i>
+          </div>
+          <div class="v3-holo-stage-legend" id="holoStageLegend">
+            <span><i style="background:#C0392B"></i><b id="holoN0">0</b>在推</span>
+            <span><i style="background:#1565C0"></i><b id="holoN1">0</b>储备</span>
+            <span><i style="background:#6B7280"></i><b id="holoN2">0</b>观察</span>
+          </div>
+        </div>
       </div>
-      <div class="v3-kpi-rows" id="kpiIndRows"></div>
-      <div class="v3-kpi-meta" id="kpiIndMeta"></div>
+      <!-- 中：报告类别 · DONUT -->
+      <div class="v3-holo-block" style="--hb:#1565C0">
+        <div class="v3-holo-block-h">
+          <span>📊 报告类别分布</span><em id="holoDonutTotal">—</em>
+        </div>
+        <div class="v3-holo-donut-wrap">
+          <div class="v3-holo-donut">
+            <svg viewBox="0 0 120 120">
+              <defs>
+                <filter id="donutGlow" x="-50%" y="-50%" width="200%" height="200%">
+                  <feGaussianBlur stdDeviation="1.2"/>
+                </filter>
+              </defs>
+              <circle class="v3-holo-donut-bg" cx="60" cy="60" r="48"/>
+              <g id="holoDonutSeg"></g>
+            </svg>
+            <div class="v3-holo-donut-center">
+              <div class="big" id="holoDonutMid">0</div>
+              <div class="lbl">类</div>
+            </div>
+          </div>
+          <div class="v3-holo-legend" id="holoDonutLegend"></div>
+        </div>
+      </div>
+      <!-- 右：行业分布 · RADAR -->
+      <div class="v3-holo-block" style="--hb:#7C3AED;--rr:#7C3AED;--rr-glow:rgba(124,58,237,.6)">
+        <div class="v3-holo-block-h">
+          <span>🎯 行业 · 项目分布</span><em id="holoRadarTotal">—</em>
+        </div>
+        <div class="v3-holo-radar-wrap">
+          <div class="v3-holo-radar">
+            <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <radialGradient id="radar-grad" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.5"/>
+                  <stop offset="100%" stop-color="#A855F7" stop-opacity="0.15"/>
+                </radialGradient>
+              </defs>
+              <g id="holoRadarGrid"></g>
+              <g id="holoRadarAxes"></g>
+              <polygon class="radar-poly" id="holoRadarPoly" points=""/>
+              <polygon class="radar-scan" id="holoRadarScan" points="60,50 60,12 60,50"/>
+              <g id="holoRadarVtx"></g>
+              <g id="holoRadarLabels"></g>
+            </svg>
+          </div>
+          <div class="v3-holo-legend" id="holoRadarLegend"></div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -320,6 +487,17 @@ body::before{
       <div class="v3-entry-meta" id="metaP2">载入中...</div>
       <div class="v3-entry-arrow">进入 →</div>
     </a>
+  </div>
+
+  <!-- 近期动态时间线 · 填充页面空白 · 数据流 -->
+  <div class="v3-timeline" id="timeline">
+    <div class="v3-timeline-head">
+      <h3>📡 近期动态 · 数据流</h3>
+      <em id="timelineMeta">载入中...</em>
+    </div>
+    <div class="v3-timeline-track" id="timelineTrack">
+      <div class="v3-feed-empty">载入中...</div>
+    </div>
   </div>
 
   <!-- 行业分布 · 筛选条（点击标签联动右侧行业动态） -->
@@ -434,95 +612,197 @@ body::before{
     const allReports = Object.values(REPORTS).flat();
     const totalR = allReports.length;
 
-    /* 行业（按主行业分 · 含细分 marker） */
-    const mainIndMap = new Map();   // 主行业 → 项目数
-    const subIndMap = new Map();    // 含「·」的细分 → 项目数（合并做次级行）
+    /* 行业（主+细分） */
+    const mainIndMap = new Map();
+    const subIndMap = new Map();
     PROJECTS.forEach(p=>{
       const inds = (p.industry||'').split(/[·\/ ]+/).map(t=>t.trim()).filter(Boolean);
-      if(inds.length){
-        mainIndMap.set(inds[0], (mainIndMap.get(inds[0])||0)+1);
-      }
+      if(inds.length) mainIndMap.set(inds[0], (mainIndMap.get(inds[0])||0)+1);
       inds.forEach(t=>{ if(t!==inds[0]) subIndMap.set(t, (subIndMap.get(t)||0)+1); });
     });
     const industries = [...mainIndMap.entries()].sort((a,b)=>b[1]-a[1]);
 
-    /* 报告类别分布 */
+    /* 报告类别 */
     const catMap = new Map();
-    allReports.forEach(r=>{
-      const c = r.category || '未分类';
-      catMap.set(c, (catMap.get(c)||0)+1);
-    });
+    allReports.forEach(r=>{ catMap.set(r.category||'未分类', (catMap.get(r.category||'未分类')||0)+1); });
     const cats = [...catMap.entries()].sort((a,b)=>b[1]-a[1]);
 
-    /* ===== KPI 1 · 报告 ===== */
-    document.getElementById('kpiReports').setAttribute('data-counter-up', totalR);
-    document.getElementById('kpiReportsSpan').textContent = cats.length;
+    /* 阶段分布 */
+    const stages = {0:0, 1:0, 2:0};
+    PROJECTS.forEach(p=>{
+      const s = p.stage_v3;
+      if(s==='在推重点') stages[0]++;
+      else if(s==='储备') stages[1]++;
+      else if(s==='观察') stages[2]++;
+    });
+    const totalP = stages[0]+stages[1]+stages[2] || 1;
+
+    /* ===== 时间戳 ===== */
     const ts = new Date();
     const pad = n=>String(n).padStart(2,'0');
-    document.getElementById('kpiReportsTs').textContent = `${pad(ts.getHours())}:${pad(ts.getMinutes())}`;
-    /* 行：每类一行，按数量降序 */
-    const maxCat = Math.max(1, ...cats.map(c=>c[1]));
-    document.getElementById('kpiReportsRows').innerHTML = cats.map(([n,c])=>{
-      const pct = (c/maxCat*100).toFixed(0);
-      return `<div class="v3-kpi-row" title="${n}：${c} 份">
-        <span class="nm">${n}</span>
-        <span class="rk"><span class="rk-fill" style="width:${pct}%"></span></span>
-        <span class="ct">${c}</span>
-      </div>`;
-    }).join('') || '<div style="font-size:11px;color:var(--ink-3);font-family:var(--fsong);text-align:center;padding:8px">暂无报告数据</div>';
-    document.getElementById('kpiReportsMeta').innerHTML = `共 <i>${totalR}</i> 份 · 覆盖 <i>${new Set(allReports.map(r=>r.code)).size}</i> 个项目 · 自动从 reports/ 扫描`;
+    const stamp = `${pad(ts.getHours())}:${pad(ts.getMinutes())}`;
 
-    /* ===== KPI 2 · 行业 ===== */
-    document.getElementById('kpiIndustries').setAttribute('data-counter-up', industries.length);
-    /* 主行业有 N 个，叠加细分子行业 marker */
-    const subCount = subIndMap.size;
-    document.getElementById('kpiIndMain').innerHTML = industries.length + (subCount>0?` <span style="color:var(--ink-3);font-weight:600;font-size:0.85em">+${subCount} 细分</span>`:'');
-    /* 行：每个主行业一行 + 细分（只在视觉上叠在一起） */
-    const maxMain = Math.max(1, ...industries.map(i=>i[1]));
-    const indRows = industries.map(([n,c])=>{
-      const pct = (c/maxMain*100).toFixed(0);
-      /* 把细分以小字附在名称内 */
-      const subs = [...subIndMap.entries()].filter(([k,v])=>{
-        /* 行业为「X·Y」时 Y 是其细分；取属于此行业的细分 */
-        for(const it of industries){
-          if(it[0]===n){
-            return Object.entries(subIndMap).filter(([k,v])=>k.startsWith(it[0])).map(([k,v])=>`${k}<b>${v}</b>`);
-          }
-        }
-        return false;
-      });
-      return `<div class="v3-kpi-row" title="${n}：${c} 个项目">
+    /* ===== 1. 三联脉冲 ===== */
+    document.getElementById('holoProjects').setAttribute('data-counter-up', PROJECTS.length);
+    document.getElementById('holoReports').setAttribute('data-counter-up', totalR);
+    document.getElementById('holoInds').setAttribute('data-counter-up', industries.length);
+
+    /* ===== 2. 阶段分布 stacked bar ===== */
+    const stageBar = document.getElementById('holoStageBar');
+    const stageSegs = stageBar.querySelectorAll('i');
+    const stageColors = ['#C0392B,#E67E22','#1565C0,#0EA5E9','#6B7280,#9CA3AF'];
+    for(let i=0; i<3; i++){
+      stageSegs[i].style.transition = 'width 1.2s cubic-bezier(.4,.2,.2,1) ' + (i*120) + 'ms';
+      stageSegs[i].style.background = `linear-gradient(90deg,${stageColors[i]})`;
+    }
+    requestAnimationFrame(()=>{
+      stageSegs[0].style.width = (stages[0]/totalP*100) + '%';
+      stageSegs[1].style.width = (stages[1]/totalP*100) + '%';
+      stageSegs[2].style.width = (stages[2]/totalP*100) + '%';
+    });
+    document.getElementById('holoN0').textContent = stages[0];
+    document.getElementById('holoN1').textContent = stages[1];
+    document.getElementById('holoN2').textContent = stages[2];
+    const topStage = stages[0]>=stages[1] && stages[0]>=stages[2]?'在推' : stages[1]>=stages[2]?'储备':'观察';
+    const topStageN = Math.max(stages[0],stages[1],stages[2]);
+    document.getElementById('holoStagePct').textContent = `TOP ${topStage} ${(topStageN/totalP*100).toFixed(0)}%`;
+
+    /* ===== 3. DONUT · 报告类别 ===== */
+    const DONUT_PALETTE = ['#1565C0','#0EA5E9','#7C3AED','#A855F7','#C0392B','#E67E22','#0891B2','#0D8050','#DC2626','#7C2D12'];
+    const donutR = 48, donutCx = 60, donutCy = 60, donutC = 2*Math.PI*donutR;
+    const donutTotal = cats.reduce((s,[_,c])=>s+c,0) || 1;
+    let donutAcc = 0;
+    const donutSegs = cats.map(([name, count], i)=>{
+      const pct = count / donutTotal;
+      const dash = donutC * pct;
+      const offset = -donutAcc;
+      donutAcc += dash;
+      const color = DONUT_PALETTE[i % DONUT_PALETTE.length];
+      return {
+        name, count, pct, color,
+        offset,
+        dash,
+        delay: 80 * i,
+      };
+    });
+    const donutG = document.getElementById('holoDonutSeg');
+    donutG.innerHTML = donutSegs.map((s,i)=>{
+      return `<circle class="v3-holo-donut-seg" cx="60" cy="60" r="48" stroke="${s.color}"
+        stroke-dasharray="0 ${donutC}" stroke-dashoffset="${s.offset}"
+        style="--seg-c:${s.color};animation:donutDraw 1s cubic-bezier(.4,.2,.2,1) ${s.delay}ms forwards"/>`;
+    }).join('');
+    document.getElementById('holoDonutMid').textContent = cats.length;
+    document.getElementById('holoDonutTotal').textContent = `${totalR} 份`;
+    document.getElementById('holoDonutLegend').innerHTML = donutSegs.map(s=>{
+      return `<div class="v3-holo-leg" title="${s.name}：${s.count} 份 (${(s.pct*100).toFixed(1)}%)">
+        <i style="background:${s.color}"></i>
+        <span class="nm">${s.name}</span>
+        <b>${s.count}</b>
+        <span class="pct">${(s.pct*100).toFixed(0)}%</span>
+      </div>`;
+    }).join('');
+
+    /* ===== 4. RADAR · 行业分布 ===== */
+    /* 凑齐 ≥5 个数据点（雷达要有足够轴数）· 不足则补「—」占位 */
+    const radarData = [...industries];
+    while(radarData.length<5 && industries.length>0){
+      radarData.push(['其他',0]);
+    }
+    const radarMax = Math.max(1, ...radarData.map(([_,c])=>c));
+    const radarN = radarData.length;
+    const radarCx = 60, radarCy = 50, radarR = 32;
+    const radarAngles = radarData.map((_, i)=>(-Math.PI/2) + (i/radarN)*(Math.PI*2));
+
+    /* Grid rings */
+    const gridHtml = [0.33, 0.67, 1].map(scale=>{
+      const pts = radarAngles.map(a=>`${(radarCx+radarR*scale*Math.cos(a)).toFixed(1)},${(radarCy+radarR*scale*Math.sin(a)).toFixed(1)}`).join(' ');
+      return `<polygon class="radar-grid" points="${pts}" />`;
+    }).join('');
+    document.getElementById('holoRadarGrid').innerHTML = gridHtml;
+
+    /* Axes */
+    const axesHtml = radarAngles.map(a=>`<line class="radar-axis" x1="${radarCx}" y1="${radarCy}" x2="${(radarCx+radarR*Math.cos(a)).toFixed(1)}" y2="${(radarCy+radarR*Math.sin(a)).toFixed(1)}" />`).join('');
+    document.getElementById('holoRadarAxes').innerHTML = axesHtml;
+
+    /* Scan triangle · 从中心指向第一个轴 */
+    const scanA0 = radarAngles[0];
+    document.getElementById('holoRadarScan').setAttribute('points', `${radarCx},${radarCy} ${(radarCx+radarR*Math.cos(scanA0)).toFixed(1)},${(radarCy+radarR*Math.sin(scanA0)).toFixed(1)} ${radarCx},${radarCy}`);
+
+    /* Data polygon + vertices + labels */
+    const polyPts = radarData.map(([_,v],i)=>{
+      const a = radarAngles[i];
+      const radius = (v/radarMax) * radarR;
+      return `${(radarCx+radius*Math.cos(a)).toFixed(1)},${(radarCy+radius*Math.sin(a)).toFixed(1)}`;
+    }).join(' ');
+    document.getElementById('holoRadarPoly').setAttribute('points', polyPts);
+    document.getElementById('holoRadarPoly').style.animation = 'radarPolyDraw 1.2s cubic-bezier(.4,.2,.2,1) forwards';
+
+    /* Vertex rings (animated) */
+    const vtxHtml = radarData.map(([_,v],i)=>{
+      if(v===0) return '';
+      const a = radarAngles[i];
+      const radius = (v/radarMax) * radarR;
+      const vx = radarCx + radius*Math.cos(a);
+      const vy = radarCy + radius*Math.sin(a);
+      return `<circle class="radar-vtx-ring" cx="${vx.toFixed(1)}" cy="${vy.toFixed(1)}" r="1.5" style="animation-delay:${i*200}ms"/>
+              <circle class="radar-vtx" cx="${vx.toFixed(1)}" cy="${vy.toFixed(1)}" r="2" style="animation-delay:${300+i*150}ms"/>`;
+    }).join('');
+    document.getElementById('holoRadarVtx').innerHTML = vtxHtml;
+
+    /* Labels (轴外标签) */
+    const labelsHtml = radarData.map(([n,v],i)=>{
+      const a = radarAngles[i];
+      const lx = radarCx + (radarR+9) * Math.cos(a);
+      const ly = radarCy + (radarR+9) * Math.sin(a);
+      const anchor = (Math.cos(a)>0.3?'start':(Math.cos(a)<-0.3?'end':'middle'));
+      const vStr = v>0?`·${v}`:'';
+      return `<text class="radar-label" x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" dominant-baseline="middle">${n}</text>`;
+    }).join('');
+    document.getElementById('holoRadarLabels').innerHTML = labelsHtml;
+
+    /* Radar legend (右侧 7 项) */
+    document.getElementById('holoRadarLegend').innerHTML = industries.slice(0,7).map(([n,c],i)=>{
+      const col = DONUT_PALETTE[(i+3) % DONUT_PALETTE.length];
+      return `<div class="v3-holo-leg" title="${n}：${c} 个项目">
+        <i style="background:${col}"></i>
         <span class="nm">${n}</span>
-        <span class="rk"><span class="rk-fill" style="width:${pct}%"></span></span>
-        <span class="ct">${c}</span>
+        <b>${c}</b>
         <span class="pct">${(c/PROJECTS.length*100).toFixed(0)}%</span>
       </div>`;
-    });
-    /* 细分总览行（轻量版 · 仅按总数排序） */
-    const subList = [...subIndMap.entries()].sort((a,b)=>b[1]-a[1]);
-    if(subList.length){
-      const maxSub = Math.max(1, ...subList.map(s=>s[1]));
-      indRows.push(`<div class="v3-kpi-row" style="opacity:.6" title="细分行业">
-        <span class="nm" style="font-style:italic;color:var(--seal)">▸ 细分行业</span>
-        <span class="rk"><span class="rk-fill" style="width:100%;background:var(--seal)"></span></span>
-        <span class="ct" style="color:var(--seal)">${subList.length}</span>
-        <span class="pct"></span>
-      </div>`);
-    }
-    document.getElementById('kpiIndRows').innerHTML = indRows.join('') || '<div style="font-size:11px;color:var(--ink-3);font-family:var(--fsong);text-align:center;padding:8px">暂无行业数据</div>';
-    /* 元信息 */
-    const topIndustry = industries[0] ? industries[0] : ['—',0];
-    document.getElementById('kpiIndMeta').innerHTML = `<span><b>${topIndustry[0]}</b> 居首 · ${topIndustry[1]} 个项目</span> · 自动从 projects.json 聚合`;
+    }).join('');
 
-    /* ===== 概览头部同步戳 · 动态显示总数 ===== */
-    const stamp = `${pad(ts.getHours())}:${pad(ts.getMinutes())} 同步`;
-    document.getElementById('overviewMeta').textContent = `实时统计 · ${stamp} · ${PROJECTS.length} 项目 · ${totalR} 报告 · ${industries.length} 行业`;
+    document.getElementById('holoRadarTotal').textContent = `${industries.length} 行业 · ${PROJECTS.length} 项目`;
 
-    /* === 3 类入口 · 进度环 + 行业芯片 === */
+    /* ===== 头部状态栏 ===== */
+    const subCount = subIndMap.size;
+    document.getElementById('holoMeta').innerHTML =
+      `实时 ${stamp} · ${PROJECTS.length} 项目 · ${totalR} 报告 · ${industries.length} 行业` +
+      (subCount?` <span style="color:var(--ink-3);font-weight:600">+${subCount}细分</span>`:'');
+
+    /* === 3 类入口 === */
     renderEntries();
 
+    /* 触发计数器动画 */
     if(window.cmdK) window.cmdK.counterUpAll();
   }
+
+  /* CSS animations for donut sectors (keyframes via JS, avoid registering in CSS for legacy code) */
+  (function(){
+    if(document.getElementById('holoAnimStyle')) return;
+    const s = document.createElement('style');
+    s.id = 'holoAnimStyle';
+    s.textContent = `
+      @keyframes donutDraw{
+        from{stroke-dasharray:0 var(--donut-c, ${(2*Math.PI*48).toFixed(2)})}
+        to{stroke-dasharray:var(--donut-d,0) var(--donut-c,0)}
+      }
+      @keyframes radarPolyDraw{
+        from{transform:scale(0);transform-origin:60px 50px;opacity:0}
+        to{transform:scale(1);opacity:1}
+      }
+    `;
+    document.head.appendChild(s);
+  })();
 
   function renderEntries(){
     const groups = ['在推重点','储备','观察'];
@@ -753,8 +1033,66 @@ body::before{
     renderCloud();
     renderNews();
     renderRecentTimeline();
+    renderTimeline();
     if(window.cmdK){
       window.cmdK.tiltAll();
+    }
+  }
+
+  /* === 近期动态时间线 · 横向滚动 · 项目级里程碑 === */
+  function renderTimeline(){
+    const track = document.getElementById('timelineTrack');
+    const meta  = document.getElementById('timelineMeta');
+    if(!track) return;
+    const STAGE_C = {'在推重点':'#C0392B', '储备':'#1565C0', '观察':'#6B7280'};
+    /* 按 progress_pct 倒序 + 按更新时间聚合前 18 个项目 */
+    const sorted = [...PROJECTS].sort((a,b)=>{
+      const ap = a.progress_pct||0, bp = b.progress_pct||0;
+      if(bp!==ap) return bp-ap;
+      return (b.code||'').localeCompare(a.code||'');
+    }).slice(0, 18);
+
+    /* 计算每个项目最新报告日期（若存在） */
+    const codeLatestReport = {};
+    Object.entries(REPORTS).forEach(([code, list])=>{
+      list.forEach(r=>{
+        if(!codeLatestReport[code] || r.date > codeLatestReport[code]) codeLatestReport[code] = r.date;
+      });
+    });
+
+    const cards = sorted.map(p=>{
+      const c = STAGE_C[p.stage_v3] || '#6B7280';
+      const rc = (REPORTS[p.code]||[]).length;
+      const inds = (p.industry||'').split(/[·\/ ]+/).filter(Boolean);
+      const indShort = inds[0] || '—';
+      const lastReport = codeLatestReport[p.code] || '—';
+      const pct = p.progress_pct || 0;
+      const target = p.code==='acquisition-listed' ? 'detail.html?code=' + encodeURIComponent(p.code) : (p.folder ? `detail.html?code=${encodeURIComponent(p.code)}` : `page.html?view=cat&cat=${encodeURIComponent(p.stage_v3)}`);
+      return `<a class="v3-tl-card" href="${target}" style="--tl-c:${c}" title="${p.name_cn||p.code}：进度 ${pct}%">
+        <div class="v3-tl-top">
+          <span style="color:${c}">${p.stage_v3}</span>
+          <span style="font-family:ui-monospace,monospace">${pct}%</span>
+        </div>
+        <div class="v3-tl-stage">${escapeHtml(p.name_cn || p.code)}</div>
+        <div class="v3-tl-meta">
+          <i>${indShort}</i>
+          <span>📄 <b>${rc}</b></span>
+          <span>更新 <b>${lastReport}</b></span>
+        </div>
+      </a>`;
+    }).join('');
+    track.innerHTML = cards || '<div class="v3-feed-empty">暂无项目</div>';
+    /* 横向自动轮播 · 每 30s 平滑滚动 1 张 */
+    let offset = 0;
+    setInterval(()=>{
+      if(!track || track.children.length<3) return;
+      offset += 220;
+      if(offset > track.scrollWidth - track.clientWidth - 20) offset = 0;
+      track.scrollTo({left:offset, behavior:'smooth'});
+    }, 4000);
+    if(meta){
+      const updated = sorted.filter(p => codeLatestReport[p.code]).length;
+      meta.innerHTML = `<b>${sorted.length}</b> 项目 · <b>${updated}</b> 有更新 · 自动轮播`;
     }
   }
 
