@@ -22,9 +22,15 @@ body{background:var(--bg)}
 .v3-detail-side::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 .v3-detail-main{display:flex;flex-direction:column;gap:14px;min-width:0}
 
-.v3-side-card{background:var(--paper);border:1px solid var(--border);border-radius:var(--r);padding:8px 12px}
+.v3-side-card{background:var(--paper);border:1px solid var(--border);border-radius:var(--r);padding:8px 12px;transition:.3s cubic-bezier(.2,.8,.2,1);animation:fadeUp .5s cubic-bezier(.2,.8,.2,1) backwards}
+.v3-side-card:nth-of-type(1){animation-delay:.05s}
+.v3-side-card:nth-of-type(2){animation-delay:.12s}
+.v3-side-card:nth-of-type(3){animation-delay:.19s}
+.v3-side-card:nth-of-type(4){animation-delay:.26s}
+.v3-side-card:hover{border-color:var(--tb-blue);box-shadow:0 4px 12px rgba(0,121,221,0.08);transform:translateX(2px)}
 .v3-side-card h3{font-family:var(--hei);font-size:12px;color:var(--ink);font-weight:800;margin:0 0 6px;letter-spacing:1px;display:flex;align-items:center;gap:6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
-.v3-side-card h3::before{content:'';width:3px;height:12px;background:var(--doc-rule);border-radius:1px}
+.v3-side-card h3::before{content:'';width:3px;height:12px;background:linear-gradient(180deg,var(--tb-blue),var(--tb-blue-2));border-radius:1px;transition:.3s}
+.v3-side-card:hover h3::before{background:linear-gradient(180deg,var(--seal),var(--seal-2))}
 .v3-side-card h3 .badge{margin-left:auto;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600;background:var(--bg-2);padding:1px 5px;border-radius:3px;letter-spacing:0.5px}
 
 .v3-side-meta-row{display:flex;justify-content:space-between;align-items:center;padding:3px 0;font-size:11px;font-family:var(--fsong);border-bottom:1px dashed var(--border);gap:8px}
@@ -59,8 +65,14 @@ body{background:var(--bg)}
 .v3-side-related .name{flex:1;color:inherit;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .v3-side-related .stage{font-size:9px;font-family:ui-monospace,monospace;color:var(--ink-3);flex-shrink:0}
 
-/* 主区域 section 紧凑 */
-.v3-section{padding:8px 12px !important}
+/* 主区域 section 紧凑 · R173 适度科技感 */
+.v3-section{padding:8px 12px !important;animation:fadeUp .5s cubic-bezier(.2,.8,.2,1) backwards;transition:.3s cubic-bezier(.2,.8,.2,1)}
+.v3-section:nth-of-type(1){animation-delay:.1s}
+.v3-section:nth-of-type(2){animation-delay:.18s}
+.v3-section:nth-of-type(3){animation-delay:.26s}
+.v3-section:nth-of-type(4){animation-delay:.34s}
+.v3-section:nth-of-type(5){animation-delay:.42s}
+.v3-section:hover{box-shadow:0 4px 14px rgba(0,0,0,0.06);border-color:var(--tb-blue)}
 .v3-section h2{font-size:14px !important;margin-bottom:6px !important}
 
 @media (max-width:1100px){
@@ -120,16 +132,17 @@ body{background:var(--bg)}
 <nav class="nav">
   <div class="nav-inner">
     <a class="nav-brand" href="index.html">
-      <div class="nav-logo">保</div>
+      <img class="nav-logo" src="assets/brand/tb-logo.svg" alt="TB" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="nav-logo-fallback" style="display:none">保</div>
       <div>
         <div>天保控股投资部 · 项目管理中心</div>
         <div class="nav-brand-sub">项目详情 · 5 区段公文版式<span class="sep">·</span>联系人 / 进度 / 简介 / 原始材料 / 报告时间线</div>
       </div>
     </a>
     <div class="nav-links">
-      <a href="index.html">🏛 首页</a>
-      <a href="page.html">📂 分类矩阵</a>
-      <a class="active">📋 详情</a>
+      <a href="index.html" class="anim-fade-in">🏛 首页</a>
+      <a href="page.html" class="anim-fade-in" style="animation-delay:.1s">📂 分类矩阵</a>
+      <a class="active anim-fade-in" style="animation-delay:.2s">📋 详情</a>
     </div>
   </div>
 </nav>
