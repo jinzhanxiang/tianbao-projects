@@ -195,6 +195,11 @@ body::before{
   .v3-feed2{grid-template-columns:1fr}
   .v3-kpi-grid{grid-template-columns:repeat(2,1fr)}
 }
+/* === 1000-1100 宽度 + 短视口 · 强制 entries 单行 + cloud 横排 === */
+@media (min-width:760px) and (max-width:1099px) and (max-height:820px){
+  .v3-entries{grid-template-columns:repeat(3,1fr)}
+  .v3-feed2{grid-template-columns:1fr 1fr}
+}
 @media (max-width:760px){
   .v3-entries{grid-template-columns:1fr}
   .v3-feed2{grid-template-columns:1fr}
