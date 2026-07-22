@@ -68,7 +68,7 @@ body{background:var(--bg)}
     <div class="nav-links">
       <a href="index.html" class="anim-fade-in">🏛 首页</a>
       <a href="page.html" class="anim-fade-in" style="animation-delay:.1s">📂 分类矩阵</a>
-      <a class="active anim-fade-in" id="navActive" style="animation-delay:.2s">📚 所有报告</a>
+      <span class="nav-current anim-fade-in" id="navActive" style="animation-delay:.2s" aria-current="page">📚 所有报告</span>
     </div>
   </div>
 </nav>
@@ -227,19 +227,21 @@ body{background:var(--bg)}
           </div>
           <div class="v3-ar-list">
             ${filtered.map(r=>{
-              const u = (r.url||'');
-              const url = u.startsWith('file://') ? (p.online_url||'') : u;
-              const isLocalOnly = !url && u.startsWith('file://');
-              return url ? `
-              <a class="v3-ar-item" href="${url}" target="_blank" rel="noopener">
-                <span class="v3-ar-date">${r.date || '—'}</span>
-                <span class="v3-ar-title">${escapeHtml(r.title || '(无标题)')}</span>
-                <span class="v3-ar-cat">${escapeHtml(r.category || '未分类')}</span>
+              const resolved = window.cmdK ? window.cmdK.resolveReportUrl(r, p.code) : '';
+              const isOnline = !!resolved && /^https?:/.test(resolved);
+              const dateStr = escapeHtml(r.date || '—');
+              const titleStr = escapeHtml(r.title || '(无标题)');
+              const catStr = escapeHtml(r.category || '未分类');
+              return isOnline ? `
+              <a class="v3-ar-item" href="${resolved}" target="_blank" rel="noopener noreferrer">
+                <span class="v3-ar-date">${dateStr}</span>
+                <span class="v3-ar-title">${titleStr}</span>
+                <span class="v3-ar-cat">${catStr}</span>
               </a>` : `
-              <div class="v3-ar-item" style="cursor:default;border-left-color:var(--ink-3);opacity:.75">
-                <span class="v3-ar-date">${r.date || '—'}</span>
-                <span class="v3-ar-title">${escapeHtml(r.title || '(无标题)')}${isLocalOnly?' · 本地文件':''}</span>
-                <span class="v3-ar-cat">${escapeHtml(r.category || '未分类')}</span>
+              <div class="v3-ar-item" style="cursor:default;border-left-color:var(--ink-3);opacity:.85">
+                <span class="v3-ar-date">${dateStr}</span>
+                <span class="v3-ar-title">${titleStr}<span style="font-size:9px;color:var(--ink-3);font-family:var(--fsong);margin-left:6px">· 项目内查看</span></span>
+                <span class="v3-ar-cat">${catStr}</span>
               </div>`;
             }).join('')}
           </div>
