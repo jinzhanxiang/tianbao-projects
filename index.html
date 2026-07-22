@@ -719,6 +719,7 @@ body::before{
     all.sort((a,b)=>b.date.localeCompare(a.date));
     /* 若选中了行业，则只保留该项目行业匹配的报告 */
     let filtered = all;
+    let limit = 16;
     if(SELECTED_INDUSTRY && SELECTED_INDUSTRY !== '__ALL__'){
       filtered = all.filter(r=>{
         const proj = PROJECTS.find(p=>p.code===r.code);
@@ -726,15 +727,16 @@ body::before{
         const tokens = (proj.industry||'').split(/[·\/ ]+/).map(t=>t.trim()).filter(Boolean);
         return tokens.includes(SELECTED_INDUSTRY);
       });
+      limit = 30;  // 筛选时放宽上限，让差异可见
     }
-    return filtered.slice(0, 16);
+    return {list: filtered.slice(0, limit), total: filtered.length};
   }
   function renderRecentTimeline(){
-    const list = collectRecentReports();
+    const {list, total} = collectRecentReports();
     const track = document.getElementById('recentTrack');
     const lbl  = document.getElementById('recentTotalLbl');
-    const indLabel = SELECTED_INDUSTRY==='__ALL__' ? '倒序' : `${SELECTED_INDUSTRY} · 倒序`;
-    lbl.textContent = `${list.length} 份 · ${indLabel}`;
+    const indLabel = SELECTED_INDUSTRY==='__ALL__' ? '全部 · 倒序' : `${SELECTED_INDUSTRY} · ${total} 份`;
+    lbl.textContent = indLabel;
     if(!list.length){
       const msg = SELECTED_INDUSTRY==='__ALL__'
         ? '暂无研究报告 · 等待 research 代理推送'
