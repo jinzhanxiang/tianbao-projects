@@ -19,7 +19,7 @@ body::before{
     radial-gradient(ellipse 800px 400px at 90% 100%,rgba(21,101,192,0.05),transparent 60%),
     radial-gradient(circle at 50% 50%,rgba(180,83,9,0.02),transparent 70%);
 }
-.v3-home{max-width:1320px;margin:0 auto;padding:0 24px 24px;position:relative;z-index:1;flex:0 0 auto!important;min-height:0!important}
+.v3-home{max-width:1320px;margin:0 auto;padding:14px 24px 18px;position:relative;z-index:1;display:flex;flex-direction:column;gap:8px;height:calc(100vh - 60px);min-height:720px;overflow:hidden}
 
 /* === 大标题分级放大（核心品牌 > 一级标题 > 二级标题） === */
 .nav-brand>div>div:first-child{
@@ -45,20 +45,19 @@ body::before{
 .v3-section-h em::before{content:'';width:6px;height:6px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 3px rgba(22,163,74,0.2);animation:livePulse 2s ease-in-out infinite}
 @keyframes livePulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
 
-/* === 项目概况汇总 · 行业·项目分布 一体化全息面板（v3.5 精简版） === */
+/* === 项目概况汇总 · 行业·项目分布 一体化全息面板（v3.8 上下居中） === */
 .v3-holo{
   position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:14px;padding:4px 12px 5px;margin-bottom:2px;
-  box-shadow:0 4px 14px rgba(0,0,0,.06),inset 0 0 0 1px rgba(192,57,43,.05);
-  display:flex;flex-direction:column;gap:3px;overflow:hidden;
+  border:1px solid var(--border);border-radius:12px;padding:14px 18px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.04);
+  display:flex;flex-direction:column;gap:12px;overflow:hidden;
+  flex:0 0 auto;
 }
-.v3-holo::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--doc-rule) 0%,var(--seal) 50%,var(--seal-2) 100%);border-radius:14px 0 0 14px}
-.v3-holo::after{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:repeating-linear-gradient(90deg,var(--seal) 0 12px,transparent 12px 24px);opacity:.4;animation:holoScan 3.5s linear infinite}
-@keyframes holoScan{from{transform:translateX(0)}to{transform:translateX(-24px)}}
+.v3-holo::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--doc-rule) 0%,var(--seal) 50%,var(--seal-2) 100%);border-radius:12px 0 0 12px}
 
-.v3-holo-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:0 0 2px;border-bottom:1px solid var(--border);position:relative}
-.v3-holo-head h2{font-family:var(--hei);font-size:18px;color:var(--ink);font-weight:900;margin:0;letter-spacing:4px;display:flex;align-items:center;gap:8px;line-height:1}
-.v3-holo-head h2::before{content:'◆';font-size:16px;color:var(--seal);filter:drop-shadow(0 0 6px rgba(192,57,43,.6));animation:lightningPulse 1.8s ease-in-out infinite}
+.v3-holo-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:2px 2px 14px;border-bottom:1px solid var(--border);position:relative;min-height:26px}
+.v3-holo-head h2{font-family:var(--hei);font-size:17px;color:var(--ink);font-weight:900;margin:0;letter-spacing:4px;display:flex;align-items:center;gap:8px;line-height:1}
+.v3-holo-head h2::before{content:'◆';font-size:15px;color:var(--seal);filter:drop-shadow(0 0 6px rgba(192,57,43,.6));animation:lightningPulse 1.8s ease-in-out infinite}
 @keyframes lightningPulse{0%,100%{transform:scale(1) rotate(0);opacity:1}50%{transform:scale(1.15) rotate(60deg);opacity:.85}}
 .v3-holo-head em{font-style:normal;font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-2);font-weight:700;letter-spacing:1px;display:flex;align-items:center;gap:8px}
 .v3-holo-head em::before{content:'';width:7px;height:7px;border-radius:50%;background:#16A34A;box-shadow:0 0 8px #16A34A;animation:holoLivePulse 1.5s ease-in-out infinite}
@@ -66,13 +65,14 @@ body::before{
 
 /* === 单列布局：上方 4-指标条 + 下方雷达 + 右侧行业分布条 === */
 .v3-holo-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;align-items:stretch;min-height:120px}
+.v3-holo-grid-single{grid-template-columns:1fr;min-height:auto}
 
 /* === 上方 4-指标数据条（项目总数 / 行业 / 报告 / 平均进度） === */
 .v3-holo-pulse{
   display:grid;grid-template-columns:repeat(4,1fr);gap:8px;
-  padding:2px 4px;border-bottom:1px dashed var(--border);margin-bottom:2px;
+  padding:6px 4px 2px;border-bottom:0;margin-bottom:0;
 }
-.v3-holo-stat{position:relative;padding:4px 4px 3px;text-align:center;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,.4) 0%,transparent 100%);transition:.3s;overflow:hidden}
+.v3-holo-stat{position:relative;padding:10px 4px 8px;text-align:center;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,.4) 0%,transparent 100%);transition:.3s;overflow:hidden;display:flex;flex-direction:column;justify-content:center;gap:4px;min-height:60px}
 .v3-holo-stat::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:60%;height:2px;background:var(--hc,var(--seal));box-shadow:0 0 8px var(--hc,var(--seal));border-radius:1px}
 .v3-holo-stat-big{font-family:var(--hei);font-size:22px;font-weight:900;color:var(--hc,var(--seal));line-height:1;letter-spacing:-1.5px;position:relative;display:block;animation:numGlow 2.4s ease-in-out infinite;transition:transform .35s}
 @keyframes numGlow{0%,100%{text-shadow:0 0 0 transparent}50%{text-shadow:0 0 14px var(--hc-glow,rgba(192,57,43,.5)),0 0 4px var(--hc-glow,rgba(192,57,43,.3))}}
@@ -80,24 +80,7 @@ body::before{
 .v3-holo-stat-lbl{font-family:var(--hei);font-size:11px;color:var(--ink-2);font-weight:700;letter-spacing:3px;margin-top:3px;display:block}
 
 /* === 左：RADAR 主舞台 === */
-/* === 左：阶段进度分布（v3.7 替代雷达） === */
-.v3-holo-stages-stage{
-  position:relative;display:flex;flex-direction:column;gap:3px;
-  padding:6px 8px 6px 12px;
-  border-left:3px solid var(--seal);
-  background:linear-gradient(135deg,rgba(192,57,43,.04) 0%,rgba(180,83,9,.02) 100%);
-  border-radius:0 8px 8px 0;
-  min-width:0;
-}
-.v3-holo-stages-h{font-family:var(--hei);font-size:12px;color:var(--seal);font-weight:800;letter-spacing:3px;display:flex;justify-content:space-between;align-items:center;margin-bottom:2px;padding-bottom:3px;border-bottom:1px solid var(--border)}
-.v3-holo-stages-h em{font-style:normal;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600}
-.v3-holo-stage-row{display:grid;grid-template-columns:24px 60px 1fr 28px 38px;gap:6px;align-items:center;font-family:var(--fsong);font-size:11px;color:var(--ink-2);font-weight:600;line-height:1.3;padding:2px 0;cursor:pointer;transition:.3s;border-radius:6px}
-.v3-holo-stage-row:hover{background:rgba(192,57,43,.04);transform:translateX(2px)}
-.v3-holo-stage-row .ic{font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;background:linear-gradient(135deg,var(--bc,var(--seal)) 0%,var(--bc-2,var(--gold)) 100%);border-radius:6px;color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,0.15));transition:.3s}
-.v3-holo-stage-row:hover .ic{transform:scale(1.1) rotate(-6deg);filter:drop-shadow(0 0 6px var(--bc,var(--seal)))}
-.v3-holo-stage-row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--hei);font-size:11px;font-weight:700;letter-spacing:1px;color:var(--ink)}
-
-/* === 右：行业分布条形图 === */
+/* === 行业分布条形图（v3.8 单列全宽） === */
 .v3-holo-bars-stage{
   display:flex;flex-direction:column;gap:3px;padding:6px 4px 6px 10px;
   border-left:1px dashed var(--border);
@@ -115,23 +98,17 @@ body::before{
 @keyframes shineFlow{from{background-position:200% 0}to{background-position:-200% 0}}
 .v3-holo-bar-row .cnt{font-family:ui-monospace,monospace;color:var(--seal);font-weight:900;font-size:12px;text-align:right;text-shadow:0 0 6px rgba(192,57,43,.4)}
 
-/* 阶段分布行 · 复用 bar 样式 + pct 单独 */
-.v3-holo-stage-row .bar{position:relative;height:8px;background:var(--bg-2);border-radius:4px;overflow:hidden;box-shadow:inset 0 1px 1px rgba(0,0,0,.06)}
-.v3-holo-stage-row .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--bc,var(--seal)),var(--bc-2,var(--gold)));border-radius:4px;width:0;transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;box-shadow:0 0 6px var(--bc-glow,rgba(192,57,43,.4))}
-.v3-holo-stage-row .bar i::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,.5) 50%,transparent 100%);background-size:200% 100%;animation:shineFlow 2.6s linear infinite}
-.v3-holo-stage-row .cnt{font-family:ui-monospace,monospace;color:var(--ink);font-weight:900;font-size:12px;text-align:right}
-.v3-holo-stage-row .pct{font-family:ui-monospace,monospace;color:var(--bc,var(--seal));font-weight:900;font-size:11px;text-align:right;text-shadow:0 0 4px var(--bc-glow,rgba(192,57,43,.4))}
-
 /* === 旧 KPI 类样式 · 已废弃（display:none 兜底） === */
 .v3-kpi-grid,.v3-kpi,.v3-kpi-eyebrow,.v3-kpi-num-row,.v3-kpi-num,.v3-kpi-num-unit,.v3-kpi-num-ts,.v3-kpi-rows,.v3-kpi-row,.v3-kpi-meta,.v3-holo-core,.v3-holo-stages,.v3-holo-stages-h,.v3-holo-stage-bar,.v3-holo-stage-legend,.v3-holo-block,.v3-holo-donut-wrap,.v3-holo-donut,.v3-holo-donut-center,.v3-holo-donut-seg,.v3-holo-donut-bg{display:none}
 
 /* === 3 类入口 · 极简单行结构 === */
-.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:2px 0 2px}
+.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:0;flex:0 0 auto}
 .v3-entry{
   background:linear-gradient(160deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:12px;padding:3px 11px 4px;
+  border:1px solid var(--border);border-radius:12px;padding:14px 18px;
   cursor:pointer;transition:.3s cubic-bezier(.2,.8,.2,1);
-  position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;
+  position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:center;gap:6px;
+  min-height:88px;text-decoration:none;color:inherit;
   box-shadow:0 2px 6px rgba(0,0,0,0.03);
 }
 .v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);transition:.3s;z-index:2}
@@ -189,8 +166,10 @@ body::before{
 .v3-cloud-strip{
   display:flex;align-items:center;gap:10px;
   background:linear-gradient(90deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:12px;padding:4px 14px;margin:3px 0;
+  border:1px solid var(--border);border-radius:12px;padding:14px 18px;
   box-shadow:0 2px 6px rgba(0,0,0,0.03);
+  min-height:54px;
+  flex:0 0 auto;
 }
 .v3-cloud-strip .lbl{font-family:var(--hei);font-size:13px;color:var(--ink);font-weight:900;letter-spacing:3px;flex-shrink:0;padding-right:12px;border-right:2px solid var(--seal);display:flex;align-items:center;gap:6px}
 .v3-cloud-strip .lbl::before{content:'';width:4px;height:14px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:1px}
@@ -211,23 +190,24 @@ body::before{
 .v3-cloud-tag-cloud.active .count{background:rgba(255,255,255,.25);color:#fff}
 .v3-cloud-empty{padding:6px 10px;color:var(--ink-3);font-family:var(--fsong);font-size:13px}
 
-/* === 统一事件流 === */
+/* === 统一事件流 · v3.8 填满底部 + 上下居中 === */
 .v3-feed{
   background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:12px;padding:6px 12px 8px;
+  border:1px solid var(--border);border-radius:12px;padding:14px 18px;
   display:flex;flex-direction:column;min-width:0;min-height:0;
   box-shadow:0 2px 6px rgba(0,0,0,0.04);
   position:relative;overflow:hidden;
+  flex:1 1 auto;min-height:380px;
 }
 .v3-feed::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--feed-color,var(--blue)) 0%,transparent 100%)}
-.v3-feed-head{display:flex;align-items:center;gap:8px;margin-bottom:5px;padding-bottom:5px;border-bottom:1px solid var(--border)}
+.v3-feed-head{display:flex;align-items:center;gap:8px;margin-bottom:8px;padding:2px 0 12px;border-bottom:1px solid var(--border);min-height:24px}
 .v3-feed-head h2{font-family:var(--hei);font-size:15px;color:var(--ink);font-weight:900;margin:0;display:flex;align-items:center;gap:8px;letter-spacing:2px}
 .v3-feed-head h2::before{content:'';width:4px;height:14px;background:linear-gradient(180deg,var(--doc-rule),var(--seal));border-radius:1px}
 .v3-feed-head small{margin-left:auto;font-size:11px;color:var(--ink-3);font-family:var(--fsong);display:flex;align-items:center;gap:4px}
 .v3-feed-head small::before{content:'';width:5px;height:5px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 2px rgba(22,163,74,0.2);animation:livePulse 2s ease-in-out infinite}
 
-.v3-marquee{position:relative;height:200px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 6%,#000 94%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 6%,#000 94%,transparent 100%)}
-.v3-marquee-track{display:flex;flex-direction:column;animation:marqueeUp var(--dur,32s) linear infinite;will-change:transform}
+.v3-marquee{position:relative;flex:1 1 auto;min-height:0;max-height:100%;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin}
+.v3-marquee-track{display:flex;flex-direction:column;animation:none;will-change:auto}
 .v3-marquee:hover .v3-marquee-track{animation-play-state:paused}
 .v3-marquee.no-scroll .v3-marquee-track{animation:none}
 @keyframes marqueeUp{from{transform:translateY(0)}to{transform:translateY(-50%)}}
@@ -494,14 +474,8 @@ body::before{
         <span class="v3-holo-stat-lbl">平均进度%</span>
       </div>
     </div>
-    <!-- 下方主舞台：阶段进度条 + 行业条形图（v3.7 去掉雷达，重复） -->
-    <div class="v3-holo-grid">
-      <!-- 左：3 阶段进度分布 -->
-      <div class="v3-holo-stages-stage">
-        <div class="v3-holo-stages-h">🎯 阶段分布<em id="holoStagesTotal">—</em></div>
-        <div id="holoStagesList"></div>
-      </div>
-      <!-- 右：行业分布条形图 -->
+    <!-- 下方主舞台：行业分布条形图（v3.8 移除阶段汇总，单列展示） -->
+    <div class="v3-holo-grid v3-holo-grid-single">
       <div class="v3-holo-bars-stage">
         <div class="v3-holo-bars-h">
           <span>📊 行业·项目分布</span>
@@ -668,36 +642,11 @@ body::before{
     document.getElementById('holoInds').setAttribute('data-counter-up', industries.length);
     document.getElementById('holoProgress').setAttribute('data-counter-up', avgProgress);
 
-    /* ===== 2. 3 阶段进度分布（左侧主舞台 · v3.7 新增替代雷达） ===== */
+    /* ===== 2. 行业分布条形图（v3.8 单列全宽，去掉阶段汇总） ===== */
     const IND_PALETTE = ['var(--seal)','var(--gold)','#C0392B','#1565C0','#0EA5E9','#0D8050','#DC2626','#E67E22','#0891B2','#BE185D','#1E3A8A','#B45309'];
-    const stageColors = {'在推重点':'#C0392B', '储备':'#1565C0', '观察':'#6B7280'};
-    const stageIcons  = {'在推重点':'🏛', '储备':'📂', '观察':'🔭'};
-    const stageList = ['在推重点','储备','观察'];
-    const stageData = stageList.map(s => {
-      const ps = PROJECTS.filter(p => p.stage_v3 === s);
-      const pct = ps.length ? Math.round(ps.reduce((sum, p) => sum + (p.progress_pct || 0), 0) / ps.length) : 0;
-      return {stage: s, count: ps.length, pct};
-    });
-    const stagesListEl = document.getElementById('holoStagesList');
-    const stagesMax = Math.max(1, ...stageData.map(s => s.count));
-    stagesListEl.innerHTML = stageData.map((s, i) => {
-      const c = stageColors[s.stage];
-      const c2 = i === 0 ? '#E67E22' : (i === 1 ? '#0EA5E9' : '#9CA3AF');
-      const w = (s.count / stagesMax * 100).toFixed(1);
-      const pctW = s.pct.toFixed(0);
-      return `<div class="v3-holo-stage-row" data-stage="${s.stage}">
-        <span class="ic">${stageIcons[s.stage]}</span>
-        <span class="nm">${s.stage}</span>
-        <span class="bar"><i style="width:${w}%;--bc:${c};--bc-2:${c2};--bc-glow:${c}55"></i></span>
-        <span class="cnt">${s.count}</span>
-        <span class="pct">${pctW}%</span>
-      </div>`;
-    }).join('');
-    const stagesTotal = stageData.reduce((sum, s) => sum + s.count, 0);
-    document.getElementById('holoStagesTotal').textContent = `${stagesTotal} 项目 · ${PROJECTS.length - stagesTotal > 0 ? '+' + (PROJECTS.length - stagesTotal) + ' 隐藏' : '已全收录'}`;
 
     /* ===== 3. 行业分布条形图（右侧主舞台） ===== */
-    const topN = Math.min(8, industries.length);
+    const topN = Math.min(6, industries.length);
     const barsListEl = document.getElementById('holoBarsList');
     const maxN = Math.max(1, ...industries.slice(0, topN).map(([_,c])=>c));
     barsListEl.innerHTML = industries.slice(0, topN).map(([n,c], i)=>{
@@ -733,10 +682,8 @@ body::before{
     });
 
     /* ===== 头部状态栏 · 去时间戳 · 改为数据快照（与 NAV 时钟分工） ===== */
-    const subCount = subIndMap.size;
     document.getElementById('holoMeta').innerHTML =
-      `<b>${PROJECTS.length}</b> 项目 · <b>${totalR}</b> 报告 · <b>${industries.length}</b> 行业` +
-      (subCount?` <span style="color:var(--ink-3);font-weight:600">+${subCount}细分</span>`:'');
+      `<b>${PROJECTS.length}</b> 项目 · <b>${totalR}</b> 报告 · <b>${industries.length}</b> 行业`;
 
     /* === 3 类入口 === */
     renderEntries();
@@ -745,17 +692,14 @@ body::before{
     if(window.cmdK) window.cmdK.counterUpAll();
   }
 
-  /* CSS animations for stages row entrance (v3.7 替代 radarPolyDraw) */
+  /* v3.8: stages row entrance 已废弃 · 移除 */
   (function(){
     if(document.getElementById('holoAnimStyle')) return;
     const s = document.createElement('style');
     s.id = 'holoAnimStyle';
     s.textContent = `
-      @keyframes stageRowIn{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:translateX(0)}}
-      .v3-holo-stage-row{animation:stageRowIn .5s cubic-bezier(.2,.8,.2,1) backwards}
-      .v3-holo-stage-row:nth-child(1){animation-delay:.05s}
-      .v3-holo-stage-row:nth-child(2){animation-delay:.18s}
-      .v3-holo-stage-row:nth-child(3){animation-delay:.31s}
+      @keyframes barRowIn{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:translateX(0)}}
+      .v3-holo-bar-row{animation:barRowIn .4s cubic-bezier(.2,.8,.2,1) backwards}
     `;
     document.head.appendChild(s);
   })();
@@ -858,29 +802,35 @@ body::before{
 
   /* ---------- 行业动态 ---------- */
   function newsForIndustry(){
-    if(SELECTED_INDUSTRY==='__ALL__') return NEWS;
-    const keys = Object.keys(NEWS_BY_IND);
-    const tokens = new Set([SELECTED_INDUSTRY]);
-    PROJECTS.forEach(p=>{
-      if((p.industry||'').split('·')[0].trim() === SELECTED_INDUSTRY){
-        (p.industry||'').split(/[·\/ ]+/).forEach(t=>{ t=t.trim(); if(t) tokens.add(t); });
-      }
-    });
-    const share2 = (a,b)=>{ for(let i=0;i+2<=a.length;i++){ if(b.includes(a.slice(i,i+2))) return true; } return false; };
-    const matchedKeys = keys.filter(k=>{
-      for(const t of tokens){ if(k===t || k.includes(t) || t.includes(k) || share2(t,k)) return true; }
-      return false;
-    });
-    if(!matchedKeys.length) return [];
-    const seen = new Set(), out = [];
-    matchedKeys.forEach(k=>{
-      NEWS_BY_IND[k].forEach(n=>{
-        const id = (n.title||'')+'|'+(n.date||'');
-        if(seen.has(id)) return; seen.add(id);
-        out.push({...n, industry:k});
+    let pool;
+    if(SELECTED_INDUSTRY==='__ALL__'){
+      pool = NEWS;
+    } else {
+      const keys = Object.keys(NEWS_BY_IND);
+      const tokens = new Set([SELECTED_INDUSTRY]);
+      PROJECTS.forEach(p=>{
+        if((p.industry||'').split('·')[0].trim() === SELECTED_INDUSTRY){
+          (p.industry||'').split(/[·\/ ]+/).forEach(t=>{ t=t.trim(); if(t) tokens.add(t); });
+        }
       });
-    });
-    return out;
+      const share2 = (a,b)=>{ for(let i=0;i+2<=a.length;i++){ if(b.includes(a.slice(i,i+2))) return true; } return false; };
+      const matchedKeys = keys.filter(k=>{
+        for(const t of tokens){ if(k===t || k.includes(t) || t.includes(k) || share2(t,k)) return true; }
+        return false;
+      });
+      if(!matchedKeys.length) return [];
+      pool = [];
+      const seen = new Set();
+      matchedKeys.forEach(k=>{
+        NEWS_BY_IND[k].forEach(n=>{
+          const id = (n.title||'')+'|'+(n.date||'');
+          if(seen.has(id)) return; seen.add(id);
+          pool.push({...n, industry:k});
+        });
+      });
+    }
+    /* 按日期倒序，再截前 12 条 · 避免 marquee 撑开过大 */
+    return pool.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0, 12);
   }
 
   function setMarquee(marqueeId, trackId, count){
@@ -918,7 +868,7 @@ body::before{
     all.sort((a,b)=>b.date.localeCompare(a.date));
     /* 若选中了行业，则只保留该项目行业匹配的报告 */
     let filtered = all;
-    let limit = 20;
+    let limit = 8;
     if(SELECTED_INDUSTRY && SELECTED_INDUSTRY !== '__ALL__'){
       filtered = all.filter(r=>{
         const proj = PROJECTS.find(p=>p.code===r.code);
@@ -926,7 +876,7 @@ body::before{
         const tokens = (proj.industry||'').split(/[·\/ ]+/).map(t=>t.trim()).filter(Boolean);
         return tokens.includes(SELECTED_INDUSTRY);
       });
-      limit = 30;  // 筛选时放宽上限，让差异可见
+      limit = 14;  // 筛选时放宽上限，让差异可见
     }
     return {list: filtered.slice(0, limit), total: filtered.length};
   }
@@ -991,7 +941,7 @@ body::before{
         </a>
       `;
     }).join('');
-    track.innerHTML = cards + cards;
+    track.innerHTML = cards;
     setMarquee('unifiedMarquee', 'unifiedTrack', total);
   }
 
