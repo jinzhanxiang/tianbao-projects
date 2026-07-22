@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>项目详情中心 · 天保控股</title>
+<style>
+/* === 全息大屏变量 v7.0 === */
+:root{
+  --bg:#04081A; --bg-2:#0A1430; --bg-3:#0F1B3A;
+  --panel:rgba(15,27,58,0.55); --panel-strong:rgba(10,20,48,0.85);
+  --border:rgba(0,240,255,0.18); --border-strong:rgba(0,240,255,0.45);
+  --cyan:#00F0FF; --cyan-2:#00C4D9;
+  --purple:#B14EFF; --purple-2:#7C3AED;
+  --amber:#FFB800; --green:#00FFA3; --red:#FF3860; --blue:#3B82F6;
+  --emerald:#00FFA3;
+  --text:#E6F1FF; --text-2:#9CB4D8; --text-3:#5C7AAA;
+  --grid:rgba(0,240,255,0.06);
+  --r:16px; --r-lg:24px; --r-xl:28px;
+  --chip-bg:rgba(0,240,255,0.12);
+  --shadow:0 0 20px rgba(0,240,255,0.08), 0 4px 20px -4px rgba(0,0,0,0.5);
+  --shadow-lg:0 0 30px rgba(0,240,255,0.12), 0 20px 40px -8px rgba(0,0,0,0.6);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+a{color:inherit;text-decoration:none}
+
+/* === 顶栏 === */
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px}
+.nav-brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:15px;color:var(--navy)}
+.nav-logo{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--navy),var(--blue));display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px}
+.nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav-links a{padding:8px 14px;border-radius:10px;font-size:13px;font-weight:600;color:var(--text-2);transition:.2s}
+.nav-links a:hover{background:var(--chip-bg);color:var(--blue)}
+.nav-links a.active{background:var(--blue);color:#fff}
+.theme-toggle{margin-left:8px;background:var(--chip-bg);border:none;width:36px;height:36px;border-radius:10px;cursor:pointer;font-size:16px;display:grid;place-items:center;color:var(--text)}
+.theme-toggle:hover{background:var(--blue);color:#fff}
+
+/* === HERO === */
+.hero{padding:48px 0 40px;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(37,99,235,.12),transparent 60%)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+.hero-grid{display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center}
+.hero h1{font-size:34px;font-weight:900;letter-spacing:-.8px;color:var(--navy);margin-bottom:8px}
+.hero p{color:var(--text-2);font-size:14px}
+.hero-stats{display:flex;gap:24px;margin-top:20px}
+.hero-stat{padding:10px 16px;background:var(--card);border-radius:14px;border:1px solid var(--border);min-width:90px}
+.hero-stat b{display:block;font-size:26px;font-weight:900;color:var(--blue);letter-spacing:-.5px}
+.hero-stat span{font-size:11px;color:var(--text-3);font-weight:600}
+.clock-card{padding:18px 24px;background:var(--card);border-radius:18px;border:1px solid var(--border);text-align:right;min-width:160px}
+.clock-card #d-clock{font-size:30px;font-weight:900;color:var(--navy);letter-spacing:-1px}
+.clock-card small{font-size:11px;color:var(--text-3);display:block;margin-top:4px}
+
+/* === KPI 区 === */
+.kpi-section{padding:24px 0 12px}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kpi{background:var(--card);border-radius:18px;padding:22px;border:1px solid var(--border);box-shadow:var(--shadow);position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--purple))}
+.kpi.k-amber::before{background:linear-gradient(90deg,var(--amber),#f97316)}
+.kpi.k-green::before{background:linear-gradient(90deg,var(--emerald),#059669)}
+.kpi.k-purple::before{background:linear-gradient(90deg,var(--purple),#a855f7)}
+.kpi-icon{font-size:22px;margin-bottom:8px;display:block}
+.kpi b{font-size:30px;font-weight:900;color:var(--text);letter-spacing:-1px;display:block;line-height:1.1}
+.kpi-label{font-size:12px;color:var(--text-3);font-weight:600;margin-top:4px}
+.kpi-sub{font-size:11px;color:var(--emerald);font-weight:700;margin-top:6px}
+
+/* === 分类筛选 Pill === */
+.filter-section{padding:20px 0}
+.filter-pills{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.fp{padding:8px 16px;border-radius:999px;background:var(--card);border:1px solid var(--border);font-size:13px;font-weight:600;color:var(--text-2);cursor:pointer;transition:.2s;display:flex;align-items:center;gap:6px}
+.fp:hover{border-color:var(--blue);color:var(--blue)}
+.fp.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.fp .cnt{background:rgba(255,255,255,.25);padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700}
+.fp:not(.active) .cnt{background:var(--chip-bg);color:var(--blue)}
+.filter-info{margin-bottom:12px;font-size:13px;color:var(--text-3);font-weight:500}
+.filter-info b{color:var(--text)}
+
+/* === 分类区块 === */
+.section-title{font-size:22px;font-weight:800;color:var(--navy);margin:32px 0 16px;display:flex;align-items:center;gap:12px;letter-spacing:-.4px}
+.section-title .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.section-title small{font-size:13px;color:var(--text-3);font-weight:500;margin-left:auto}
+.cat-block{margin-bottom:40px}
+.cat-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;padding:14px 18px;background:var(--card);border-radius:14px;border:1px solid var(--border)}
+.cat-head-left{display:flex;align-items:center;gap:12px}
+.cat-dot{width:12px;height:12px;border-radius:50%}
+.cat-title{font-size:16px;font-weight:800;color:var(--text)}
+.cat-sub{font-size:12px;color:var(--text-3);font-weight:500}
+.cat-stats .cs-pill{font-size:11px;padding:5px 12px;border-radius:999px;font-weight:700}
+
+/* === d-card 升级版 === */
+.d-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.d-card{background:var(--card);border-radius:var(--r-lg);padding:22px;box-shadow:var(--shadow);border:1px solid var(--border);transition:.25s;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.d-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);border-color:rgba(37,99,235,.25)}
+.d-card.featured{background:linear-gradient(135deg,#fff7ed 0%,#fef3c7 100%);border:2px solid var(--amber)}
+.d-card.featured::before{content:"★ 重点跟进";position:absolute;top:14px;right:14px;background:linear-gradient(135deg,var(--amber),#f97316);color:#fff;font-size:10px;font-weight:800;padding:4px 10px;border-radius:999px;letter-spacing:.5px;box-shadow:0 4px 10px -2px rgba(245,158,11,.4);z-index:2}
+.d-card-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px}
+.d-card-emoji{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,rgba(37,99,235,.10),rgba(124,58,237,.10));display:grid;place-items:center;font-size:24px;flex-shrink:0}
+.d-card-status{font-size:10px;font-weight:700;padding:4px 10px;border-radius:999px;letter-spacing:.3px;color:#fff;white-space:nowrap}
+.s-yellow{background:linear-gradient(135deg,var(--amber),#f97316)}
+.s-green{background:linear-gradient(135deg,var(--emerald),#059669)}
+.s-purple{background:linear-gradient(135deg,var(--purple),#6d28d9)}
+.s-blue{background:linear-gradient(135deg,var(--blue),#1e40af)}
+.s-red{background:linear-gradient(135deg,var(--red),#dc2626)}
+.s-navy{background:linear-gradient(135deg,var(--navy),#0d1f5c)}
+.s-gray{background:linear-gradient(135deg,#6b7280,#4b5563)}
+.d-card-name{font-size:17px;font-weight:800;color:var(--navy);margin-bottom:3px;letter-spacing:-.2px}
+.d-card-sub{font-size:11px;color:var(--text-3);margin-bottom:10px;font-weight:500}
+.d-card-desc{font-size:13px;color:var(--text-2);line-height:1.55;margin-bottom:12px;flex:1}
+
+/* === 新增：指标条 === */
+.metric-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px 0;border-top:1px dashed var(--border);border-bottom:1px dashed var(--border);margin-bottom:12px}
+.metric{text-align:center}
+.metric b{display:block;font-size:16px;font-weight:800;color:var(--blue);letter-spacing:-.3px}
+.metric .ml{font-size:10px;color:var(--text-3);font-weight:600;margin-top:2px}
+.metric.b b{color:var(--emerald)}
+.metric.a b{color:var(--amber)}
+
+/* === 进度环 === */
+.donut-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.donut-svg{width:38px;height:38px;flex-shrink:0}
+.donut-info{flex:1;font-size:11px}
+.donut-info b{display:block;font-size:14px;color:var(--text);font-weight:800}
+.donut-info span{color:var(--text-3);font-size:10px}
+
+/* === 任务动态 === */
+.task-list{font-size:11px;color:var(--text-2);background:rgba(37,99,235,.04);border-radius:8px;padding:8px 10px;margin-bottom:10px;line-height:1.5}
+.task-list b{color:var(--blue);font-size:10px;display:block;margin-bottom:3px;letter-spacing:.3px}
+.amt-src{font-size:10px;color:var(--text-2);background:rgba(16,185,129,.06);border-left:2px solid var(--emerald);padding:4px 8px;border-radius:4px;margin-bottom:8px;font-family:ui-monospace,monospace}
+
+.d-card-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.d-tag{font-size:10px;padding:3px 9px;border-radius:999px;background:var(--chip-bg);color:var(--blue);font-weight:600;border:1px solid rgba(37,99,235,.15)}
+.d-card-foot{display:flex;justify-content:space-between;align-items:center;padding-top:10px;font-size:11px;color:var(--text-3)}
+.d-card-arrow{color:var(--blue);font-weight:700}
+.d-card.disabled{opacity:.5;pointer-events:none}
+
+/* === FOOTER === */
+.footer{background:linear-gradient(180deg,var(--navy-2) 0%,var(--navy) 100%);color:rgba(255,255,255,.7);padding:48px 0 24px;margin-top:60px}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:36px;margin-bottom:32px}
+.footer h4{color:#fff;font-size:14px;font-weight:700;margin-bottom:14px;letter-spacing:.5px}
+.footer p,.footer a{font-size:13px;color:rgba(255,255,255,.6);line-height:1.8}
+.footer a:hover{color:#fff}
+.footer ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.footer-bottom{padding-top:20px;border-top:1px solid rgba(255,255,255,.10);font-size:12px;color:rgba(255,255,255,.5);text-align:center}
+
+/* === RESPONSIVE === */
+@media (max-width:1100px){
+  .d-grid{grid-template-columns:repeat(2,1fr)}
+  .kpi-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:700px){
+  .hero-grid{grid-template-columns:1fr}
+  .d-grid{grid-template-columns:1fr}
+  .kpi-grid{grid-template-columns:1fr 1fr}
+  .nav-links a span{display:none}
+  .hero h1{font-size:28px}
+  .footer-grid{grid-template-columns:1fr;gap:24px}
+}
+
+/* === v7.0 全息增强 === */
+body{background:radial-gradient(ellipse at top,var(--bg-3) 0%,var(--bg) 60%);background-attachment:fixed;color:var(--text);min-height:100vh;position:relative;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:50px 50px;pointer-events:none;z-index:0}
+.nav{background:rgba(4,8,26,0.75)!important;backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--border)!important;box-shadow:0 4px 20px rgba(0,0,0,0.4)}
+.nav-brand{color:var(--cyan)!important;text-shadow:0 0 10px rgba(0,240,255,0.4)}
+.nav-logo{background:linear-gradient(135deg,var(--cyan),var(--purple))!important;box-shadow:0 0 20px rgba(0,240,255,0.4)}
+.nav-links a{color:var(--text-2);transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--cyan);text-shadow:0 0 8px rgba(0,240,255,0.6)}
+.nav-links a.active{border-bottom:2px solid var(--cyan)}
+.theme-toggle{background:var(--panel);border:1px solid var(--border);color:var(--text-2);border-radius:8px;padding:6px 10px;cursor:pointer}
+.hero{position:relative;z-index:1;background:var(--panel);border:1px solid var(--border);border-radius:var(--r-lg);padding:32px;margin:24px auto;max-width:1280px;backdrop-filter:blur(20px);box-shadow:var(--shadow-lg)}
+.hero h1{color:var(--text);font-size:36px;background:linear-gradient(90deg,var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p,.hero .hero-sub{color:var(--text-2)}
+.hero-stat{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:14px 18px;backdrop-filter:blur(10px)}
+.hero-stat .num{color:var(--cyan);text-shadow:0 0 12px rgba(0,240,255,0.5)}
+.hero-stat .lbl{color:var(--text-3)}
+.clock-card{background:var(--panel-strong);border:1px solid var(--border);border-radius:var(--r);padding:18px;backdrop-filter:blur(20px)}
+.clock-card #d-clock{color:var(--cyan);text-shadow:0 0 12px rgba(0,240,255,0.6)}
+.kpi-section{position:relative;z-index:1;max-width:1280px;margin:0 auto 24px;padding:0 24px}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.kpi{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:20px;backdrop-filter:blur(20px);position:relative;overflow:hidden;transition:all .3s}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--cyan),var(--purple))}
+.kpi:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:var(--border-strong)}
+.kpi .k-num{color:var(--cyan);font-size:32px;font-weight:800;text-shadow:0 0 12px rgba(0,240,255,0.4)}
+.k-amber .k-num{color:var(--amber);text-shadow:0 0 12px rgba(255,184,0,0.4)}
+.k-amber::before{background:linear-gradient(90deg,var(--amber),var(--red))}
+.k-green .k-num{color:var(--green);text-shadow:0 0 12px rgba(0,255,163,0.4)}
+.k-green::before{background:linear-gradient(90deg,var(--green),var(--cyan))}
+.k-purple .k-num{color:var(--purple);text-shadow:0 0 12px rgba(177,78,255,0.4)}
+.k-purple::before{background:linear-gradient(90deg,var(--purple),var(--cyan))}
+.kpi .k-lbl{color:var(--text-3);font-size:12px;letter-spacing:1px}
+.kpi .k-sub{color:var(--text-2);font-size:11px;margin-top:6px}
+.filter-section{position:relative;z-index:1;max-width:1280px;margin:0 auto 24px;padding:0 24px}
+.section-title{color:var(--text);border-left:3px solid var(--cyan);padding-left:12px;text-shadow:0 0 8px rgba(0,240,255,0.3)}
+.filter-pills{display:flex;flex-wrap:wrap;gap:8px;background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:12px;backdrop-filter:blur(10px)}
+.fp{background:rgba(0,240,255,0.05);border:1px solid var(--border);color:var(--text-2);padding:6px 14px;border-radius:20px;cursor:pointer;transition:all .2s;font-size:13px}
+.fp:hover{background:rgba(0,240,255,0.15);color:var(--text);border-color:var(--cyan)}
+.fp.active{background:linear-gradient(90deg,var(--cyan),var(--purple));color:#fff;border-color:transparent;box-shadow:0 0 12px rgba(0,240,255,0.4)}
+.filter-info{color:var(--text-3);font-size:12px;padding:8px 12px}
+.cat-block{position:relative;z-index:1;max-width:1280px;margin:0 auto 24px;padding:0 24px}
+.cat-head{background:var(--panel);border:1px solid var(--border);border-radius:var(--r) var(--r) 0 0;padding:14px 20px;backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border)}
+.cat-head-left{display:flex;align-items:center;gap:12px}
+.cat-dot{width:10px;height:10px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px var(--cyan)}
+.cat-title{color:var(--text);font-size:18px;font-weight:700}
+.cat-sub{color:var(--text-3);font-size:12px}
+.cat-stats .cs-pill{background:rgba(0,240,255,0.1);color:var(--cyan);border:1px solid var(--border);padding:4px 12px;border-radius:12px;font-size:12px}
+.d-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;background:var(--panel);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--r) var(--r);padding:20px;backdrop-filter:blur(10px)}
+.d-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px;transition:all .3s;position:relative;overflow:hidden}
+.d-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);opacity:0;transition:opacity .3s}
+.d-card:hover{border-color:var(--border-strong);transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.d-card:hover::before{opacity:1}
+.d-card.featured{border-color:rgba(255,184,0,0.4);background:linear-gradient(135deg,rgba(255,184,0,0.08),var(--bg-2))}
+.d-card.no-link{cursor:not-allowed;opacity:.55;filter:grayscale(.4)}
+.d-card.no-link:hover{transform:none;box-shadow:var(--shadow)}
+.d-card.no-link .d-card-foot .d-card-arrow{color:var(--text-3);font-weight:600}
+.d-card.no-link .d-card-foot .d-card-arrow::before{content:"ⓘ ";font-weight:700}
+.d-card.no-link .d-card-arrow{font-size:11px}
+.d-card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}
+.d-card-emoji{font-size:28px;filter:drop-shadow(0 0 6px rgba(0,240,255,0.4))}
+.d-card-status{font-size:11px;padding:3px 8px;border-radius:10px;letter-spacing:1px}
+.s-yellow{background:rgba(255,184,0,0.15);color:var(--amber);border:1px solid rgba(255,184,0,0.3)}
+.s-blue{background:rgba(59,130,246,0.15);color:var(--blue);border:1px solid rgba(59,130,246,0.3)}
+.s-green{background:rgba(0,255,163,0.15);color:var(--green);border:1px solid rgba(0,255,163,0.3)}
+.s-purple{background:rgba(177,78,255,0.15);color:var(--purple);border:1px solid rgba(177,78,255,0.3)}
+.s-red{background:rgba(255,56,96,0.15);color:var(--red);border:1px solid rgba(255,56,96,0.3)}
+.d-card-name{color:var(--text);font-size:18px;font-weight:700;margin-bottom:4px}
+.d-card-sub{color:var(--text-3);font-size:12px;margin-bottom:12px}
+.d-card-desc{color:var(--text-2);font-size:13px;line-height:1.6;margin-bottom:14px}
+.metric-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
+.metric{background:rgba(0,240,255,0.04);border:1px solid var(--border);border-radius:8px;padding:8px 10px;text-align:center}
+.metric .m-lbl{color:var(--text-3);font-size:10px;letter-spacing:1px;display:block;margin-bottom:2px}
+.metric .m-val{color:var(--cyan);font-size:14px;font-weight:700}
+.metric.a .m-val{color:var(--amber)}
+.metric.b .m-val{color:var(--green)}
+.donut-row{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.donut-svg{width:48px;height:48px;transform:rotate(-90deg)}
+.donut-svg circle{fill:none;stroke-width:3}
+.donut-svg .bg{stroke:rgba(0,240,255,0.1)}
+.donut-svg .fg{stroke:var(--cyan);stroke-linecap:round;transition:stroke-dashoffset .6s}
+.donut-info{color:var(--text-2);font-size:12px}
+.donut-info b{color:var(--cyan)}
+.task-list{background:rgba(0,240,255,0.04);border:1px solid var(--border);border-radius:10px;padding:10px 12px;margin-bottom:12px;max-height:120px;overflow-y:auto}
+.task-list::-webkit-scrollbar{width:4px}
+.task-list::-webkit-scrollbar-thumb{background:var(--cyan);border-radius:2px}
+.task{color:var(--text-2);font-size:12px;padding:4px 0;border-bottom:1px dashed var(--border)}
+.task:last-child{border-bottom:none}
+.task .t-time{color:var(--text-3);margin-right:8px}
+.amt-src{display:inline-block;background:rgba(0,255,163,0.1);color:var(--green);padding:2px 8px;border-radius:6px;font-size:11px;margin-top:4px}
+.d-card-tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px}
+.d-tag{background:rgba(0,240,255,0.08);color:var(--cyan);border:1px solid var(--border);padding:2px 8px;border-radius:8px;font-size:11px}
+.d-card-foot{padding-top:10px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--text-3)}
+.d-card-foot a{color:var(--cyan);transition:all .2s}
+.d-card-foot a:hover{text-shadow:0 0 8px var(--cyan)}
+.footer{position:relative;z-index:1;max-width:1280px;margin:40px auto 24px;padding:24px;border-top:1px solid var(--border);color:var(--text-3);font-size:12px}
+.footer b{color:var(--cyan)}
+/* 元素动画 */
+@keyframes pulse-glow{0%,100%{box-shadow:0 0 8px var(--cyan)}50%{box-shadow:0 0 16px var(--cyan),0 0 24px rgba(0,240,255,0.3)}}
+.cat-dot{animation:pulse-glow 2s infinite}
+@keyframes scan-line{0%{transform:translateY(-100%)}100%{transform:translateY(100vh)}}
+.scan-line{position:fixed;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);opacity:0.4;z-index:0;animation:scan-line 8s linear infinite;pointer-events:none}
+
+/* === C+A 详情页改造 · 主页样式 === */
+.cw-shell{display:grid;grid-template-columns:300px 1fr;gap:20px;min-height:700px}
+/* === 左项目列表 === */
+.cw-left{background:var(--card);border-radius:var(--r-lg);border:1px solid var(--border);box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden}
+.cw-tools{padding:12px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(0,240,255,.03),transparent)}
+.cw-search{width:100%;background:var(--panel);border:1px solid rgba(0,240,255,.25);border-radius:8px;padding:9px 12px;font-size:12.5px;color:var(--text);outline:none;font-family:inherit;margin-bottom:8px;transition:.2s}
+.cw-search:focus{border-color:var(--cyan);box-shadow:0 0 0 3px rgba(0,240,255,.1)}
+.cw-toolbar{display:flex;gap:4px}
+.cw-sort{flex:1;padding:5px 0;background:transparent;border:1px solid var(--border);border-radius:6px;font-size:11px;color:var(--text-3);cursor:pointer;transition:.2s;font-weight:600;font-family:inherit}
+.cw-sort:hover{color:var(--text);border-color:var(--cyan)}
+.cw-sort.active{background:linear-gradient(135deg,var(--cyan),var(--cyan-2));color:#000;border-color:var(--cyan);box-shadow:0 0 8px rgba(0,240,255,.3)}
+.cw-tree{flex:1;overflow-y:auto;padding:6px 0 12px}
+.cw-cat{padding:12px 14px 4px}
+.cw-cat-h{display:flex;justify-content:space-between;align-items:center;padding:8px 0;font-size:13px;font-weight:700;color:var(--cyan);text-transform:uppercase;letter-spacing:2px;border-bottom:1px solid var(--border);cursor:pointer;user-select:none}
+.cw-cat-h .cnt{color:#000;font-size:10px;background:linear-gradient(135deg,var(--cyan),var(--cyan-2));padding:2px 8px;border-radius:8px;font-weight:700;box-shadow:0 0 6px rgba(0,240,255,.3)}
+.cw-item{display:flex;align-items:center;gap:8px;padding:9px 14px 9px 18px;cursor:pointer;transition:.2s;border-left:2px solid transparent;position:relative}
+.cw-item:hover{background:rgba(0,240,255,.08);border-left-color:rgba(0,240,255,.6);padding-left:22px}
+.cw-item.active{background:linear-gradient(90deg,rgba(0,240,255,.12),transparent);border-left-color:var(--cyan)}
+.cw-item.active::after{content:"";position:absolute;right:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--cyan),transparent)}
+.cw-item-emoji{font-size:16px;flex-shrink:0;width:20px;text-align:center}
+.cw-item-main{flex:1;min-width:0}
+.cw-item-name{font-size:12.5px;font-weight:700;color:var(--text);line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cw-item-sub{font-size:10px;color:var(--text-3);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:flex;align-items:center;gap:4px}
+.cw-item-sub .urgent{color:var(--amber);font-weight:700}
+.cw-item-stat{font-size:9px;padding:3px 6px;border-radius:6px;letter-spacing:.5px;flex-shrink:0;font-weight:700}
+.st-yellow{background:rgba(255,184,0,.18);color:var(--amber)}
+.st-green{background:rgba(0,255,163,.18);color:var(--emerald)}
+.st-purple{background:rgba(177,78,255,.28);color:#d8a4ff}
+.st-blue{background:rgba(59,130,246,.3);color:#93c5fd}
+.st-amber{background:linear-gradient(135deg,#f59e0b,#d97706);color:#fff}
+/* 状态摘要 红点1 */
+.cw-summary{padding:10px 14px;border-top:1px solid var(--border);background:linear-gradient(180deg,transparent,rgba(0,240,255,.04))}
+.cw-sum-row{display:flex;align-items:center;gap:6px;padding:5px 0;font-size:11px;color:var(--text-3);font-weight:600;border-bottom:1px dashed rgba(0,0,0,.04)}
+.cw-sum-row:last-child{border:none}
+.cw-sum-row b{color:var(--cyan);font-size:13px;font-weight:900;font-family:var(--mono);margin:0 2px}
+.cw-sum-row .cw-sum-i{font-size:13px;width:18px;text-align:center}
+.cw-sum-meta{margin-left:auto;font-size:10px;color:var(--amber);font-weight:700;background:rgba(245,158,11,.1);padding:2px 6px;border-radius:5px}
+/* === 右动态详情 === */
+.cw-right{background:var(--card);border-radius:var(--r-lg);border:1px solid var(--border);box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden}
+/* 快捷操作栏 红点3 */
+.cw-quickbar{padding:10px 16px;display:flex;align-items:center;gap:6px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(0,240,255,.05),transparent);flex-wrap:wrap}
+.qbtn{padding:7px 12px;background:transparent;border:1px solid var(--border);border-radius:8px;color:var(--text-2);font-size:11.5px;font-weight:600;cursor:pointer;transition:.2s;font-family:inherit;display:inline-flex;align-items:center;gap:4px}
+.qbtn:hover{border-color:var(--cyan);color:var(--text);background:rgba(0,240,255,.06)}
+.qb-primary{background:linear-gradient(135deg,var(--cyan),var(--cyan-2));color:#000;border-color:var(--cyan);font-weight:800}
+.qb-primary:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.cw-shortcuts{margin-left:auto;font-size:10px;color:var(--text-3);font-family:var(--mono);letter-spacing:.5px}
+/* 详情主体 */
+.cw-detail{padding:24px 28px;overflow-y:auto;flex:1}
+/* 详情头 */
+.dh{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid var(--border);gap:18px}
+.dh-l{display:flex;gap:14px;align-items:flex-start}
+.dh-emoji{font-size:42px;line-height:1;filter:drop-shadow(0 0 12px rgba(0,240,255,.4))}
+.dh-tit{font-size:22px;font-weight:900;color:var(--text);margin-bottom:4px;letter-spacing:-.5px}
+.dh-en{font-size:11px;color:var(--cyan);font-family:var(--mono);letter-spacing:1.5px;font-weight:600}
+.dh-r{text-align:right;font-size:10px;color:var(--text-3);font-family:var(--mono);letter-spacing:1px;display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+.dh-r-id{color:var(--text-3)}
+.dh-r-stat{display:inline-block;padding:5px 11px;border-radius:8px;font-weight:800;letter-spacing:1px;font-size:10.5px}
+/* 简介 红点4 行高 1.7 */
+.d-desc{font-size:14px;line-height:1.7;color:var(--text-2);background:rgba(0,240,255,.04);border-left:3px solid var(--cyan);border-radius:6px;padding:14px 18px;margin-bottom:18px}
+/* KPI 4 宫格 */
+.d-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}
+.d-stat{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:12px 14px}
+.d-stat-l{font-size:10px;color:var(--text-3);font-weight:700;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:6px}
+.d-stat-v{font-size:26px;font-weight:900;color:var(--text);letter-spacing:-.5px;line-height:1.1}
+.d-stat-v small{color:var(--cyan);font-size:11px;margin-left:3px;font-weight:600}
+.d-stat-v.txt{font-size:13px;font-family:inherit;font-weight:700}
+/* 章节 */
+.d-sec{background:rgba(0,0,0,.02);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin-bottom:14px}
+.d-sec h3{font-size:13px;font-weight:800;color:var(--text);margin-bottom:12px;display:flex;align-items:center;gap:8px;letter-spacing:.5px}
+.d-sec h3 em{font-size:10px;font-style:normal;color:var(--cyan);font-family:var(--mono);font-weight:600;letter-spacing:1.5px;background:rgba(0,240,255,.12);padding:2px 8px;border-radius:6px}
+/* 时间线 红点2 */
+.d-tl{padding-left:10px;border-left:2px dashed rgba(0,240,255,.3)}
+.d-tl-i{position:relative;padding:7px 0 7px 18px;font-size:12.5px;color:var(--text-2);line-height:1.6;display:flex;align-items:center;gap:8px}
+.d-tl-i.has-link{cursor:pointer;transition:all .15s ease}
+.d-tl-i.has-link:hover{background:rgba(0,240,255,.08);border-left:2px solid var(--cyan);padding-left:14px;color:#fff}
+.d-tl-i.has-link:hover .d-tl-link{opacity:1;color:var(--cyan)}
+.d-tl-link{opacity:.35;font-size:11px;margin-left:auto;transition:all .15s ease}
+.d-tl-text{flex:1;display:inline}
+.d-tl-i::before{content:"";position:absolute;left:-5px;top:13px;width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px rgba(0,240,255,.5)}
+.d-tl-i.done{color:var(--text-3);opacity:.85}
+.d-tl-i.done::before{background:var(--emerald);box-shadow:0 0 6px var(--emerald)}
+.d-tl-i.urgent{background:linear-gradient(90deg,rgba(245,158,11,.18),rgba(245,158,11,.04));border-radius:6px;margin-left:-10px;padding-left:28px;font-weight:700;color:var(--text);box-shadow:inset 3px 0 0 var(--amber)}
+.d-tl-i.urgent::before{background:var(--amber);box-shadow:0 0 12px var(--amber);animation:pulse-warn 1.5s infinite}
+.d-tl-date{color:var(--cyan);font-family:var(--mono);font-size:10.5px;font-weight:700;margin-right:8px;letter-spacing:.5px}
+.d-tl-tag{display:inline-block;font-size:9px;padding:2px 7px;border-radius:5px;background:rgba(245,158,11,.2);color:var(--amber);font-weight:800;letter-spacing:1px;margin-left:6px}
+.d-tl-i.done .d-tl-tag{background:rgba(0,255,163,.18);color:var(--emerald)}
+@keyframes pulse-warn{0%,100%{transform:scale(1);box-shadow:0 0 12px var(--amber)}50%{transform:scale(1.4);box-shadow:0 0 18px var(--amber)}}
+/* 报告 红点5 */
+.d-rpts{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.d-rpt{background:rgba(0,240,255,.05);border:1px solid var(--border);border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;transition:.2s;cursor:pointer}
+.d-rpt:hover{border-color:var(--cyan);background:rgba(0,240,255,.1);transform:translateY(-1px)}
+.d-rpt-l{flex:1;min-width:0}
+.d-rpt-name{font-size:12.5px;font-weight:700;color:var(--text);margin-bottom:3px}
+.d-rpt-meta{font-size:10px;color:var(--text-3);font-family:var(--mono);letter-spacing:.5px;margin-bottom:3px}
+.d-rpt-sum{font-size:11px;color:var(--text-2);line-height:1.45;font-style:italic}
+.d-rpt-r{color:var(--cyan);font-size:10px;font-family:var(--mono);font-weight:700;letter-spacing:1px;flex-shrink:0;margin-left:8px}
+.d-rpt.pending{opacity:.55}
+.d-rpt.pending .d-rpt-r{color:var(--amber)}
+/* 行动按钮 */
+.d-act{display:flex;gap:8px;margin-top:18px;padding-top:14px;border-top:1px dashed var(--border)}
+.d-act-btn{flex:1;padding:10px;background:rgba(0,240,255,.06);border:1px solid var(--border);border-radius:8px;font-size:12px;font-weight:700;color:var(--text);text-align:center;cursor:pointer;transition:.2s}
+.d-act-btn:hover{background:var(--cyan);color:#000;border-color:var(--cyan)}
+.d-act-btn.main{background:linear-gradient(135deg,var(--cyan),var(--cyan-2));color:#000;border-color:var(--cyan)}
+/* 响应式 */
+@media (max-width:1100px){
+  .cw-shell{grid-template-columns:260px 1fr;gap:14px}
+  .cw-left{font-size:11px}
+  .cw-item{padding:8px 12px 8px 14px}
+  .cw-detail{padding:20px 22px}
+  .d-stat-v{font-size:22px}
+  .dh-tit{font-size:20px}
+}
+@media (max-width:960px){
+  .cw-shell{grid-template-columns:1fr;min-height:auto}
+  .cw-left{max-height:50vh}
+  .d-stats{grid-template-columns:repeat(2,1fr)}
+  .d-rpts{grid-template-columns:1fr}
+}
+
+
+/* === C 部分：报告卡片可点击态 === */
+.d-rpt{cursor:pointer;transition:.2s}
+.d-rpt:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,240,255,.18);border-color:var(--cyan) !important}
+.d-rpt.pending{cursor:not-allowed;opacity:.55}
+.d-rpt.pending:hover{transform:none;box-shadow:none;border-color:var(--border) !important}
+
+</style>
+</head>
+<body>
+<canvas id="particles" style="position:fixed;inset:0;z-index:0;pointer-events:none"></canvas>
+<div class="scan-line"></div>
+
+<!-- 顶栏 -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-brand">
+      <div class="nav-logo">保</div>
+      <span>天保控股 · 项目详情中心</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html"><span>📊</span>指挥中心</a>
+      <a href="detail.html" class="active"><span>📋</span>项目详情</a>
+      <a href="https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html" target="_blank"><span>📚</span>知识图谱</a>
+      <a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank"><span>⭐</span>星恒</a>
+      <a href="https://jinzhanxiang.github.io/huitian-network-report/dashboard.html" target="_blank"><span>🌐</span>汇天</a>
+    </div>
+    <span class="theme-toggle" id="statusBadge" style="font-size:11px;display:flex;align-items:center;gap:6px"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:pulse-glow 2s infinite"></span>SYSTEM ONLINE</span>
+  </div>
+</nav>
+
+<!-- HERO · 紧凑版（不承担首页定位） -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>项目详情中心</h1>
+      <p>单项目深探 · 左侧选项目 → 右侧查详情</p>
+      <div class="hero-stats">
+        <div class="hero-stat" id="hsActive"><b>3</b><span>今日待办</span></div>
+        <div class="hero-stat" id="hsPending"><b>5</b><span>本周节点</span></div>
+        <div class="hero-stat" id="hsUrgent"><b>0</b><span>超期项目</span></div>
+      </div>
+    </div>
+    <div class="clock-card">
+      <div id="d-clock">--:--:--</div>
+      <small id="d-date">2026年7月11日 · 周六</small>
+    </div>
+  </div>
+</section>
+
+<!-- 主区 · 左项目列表 + 右动态详情 -->
+<section class="wrap" style="padding:16px 24px 48px">
+  <div class="cw-shell">
+
+    <!-- 左项目列表 -->
+    <aside class="cw-left">
+      <!-- 工具条 -->
+      <div class="cw-tools">
+        <input id="cwSearch" class="cw-search" placeholder="⌕ 搜索项目名 / 标签 / 代码…" />
+        <div class="cw-toolbar">
+          <button class="cw-sort active" data-sort="default">默认</button>
+          <button class="cw-sort" data-sort="age-desc">周期 ↑</button>
+          <button class="cw-sort" data-sort="urgent">待办 ↑</button>
+        </div>
+      </div>
+      <!-- 分类树（由 JS 渲染） -->
+      <div id="cwTree" class="cw-tree"></div>
+      <!-- 底栏：状态摘要红点1 -->
+      <div class="cw-summary">
+        <div class="cw-sum-row"><span class="cw-sum-i">📌</span><b id="sumPending">3</b><span>个待办</span><span class="cw-sum-meta" id="sumNextDate">下步：2026-07-15</span></div>
+        <div class="cw-sum-row"><span class="cw-sum-i">⏳</span><b id="sumWatching">2</b><span>长期跟踪</span><span class="cw-sum-meta">> 60天</span></div>
+        <div class="cw-sum-row"><span class="cw-sum-i">🏁</span><b id="sumDone">1</b><span>尽调完成</span><span class="cw-sum-meta">本周可立项</span></div>
+      </div>
+    </aside>
+
+    <!-- 右动态详情 -->
+    <main class="cw-right" id="cwRight">
+      <!-- 顶部快捷操作栏 红点3 -->
+      <div class="cw-quickbar">
+        <button class="qbtn qb-primary"><span>✚</span>写新报告</button>
+        <button class="qbtn"><span>📅</span>添加节点</button>
+        <button class="qbtn"><span>⭐</span>标星</button>
+        <button class="qbtn"><span>📥</span>归档</button>
+        <button class="qbtn"><span>🔗</span>复制链接</button>
+        <span class="cw-shortcuts">↑↓ 切换 · / 搜索 · Esc 返回</span>
+      </div>
+      <!-- 详情主体（由 JS 渲染） -->
+      <div id="cwDetail" class="cw-detail"></div>
+    </main>
+
+  </div>
+</section>
+
+<!-- FOOTER --><!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>天保项目 · TIANBAO PROJECTS</h4>
+        <p>天保控股投资项目全生命周期管理平台<br>覆盖立项、尽调、决策、投后、退出五大阶段</p>
+      </div>
+      <div>
+        <h4>快速访问</h4>
+        <ul>
+          <li><a href="index.html">仪表盘</a></li>
+          <li><a href="detail.html">项目详情</a></li>
+          <li><a href="https://jinzhanxiang.github.io/7projects-summary/dashboard.html" target="_blank">7项目汇总</a></li>
+          <li><a href="https://jinzhanxiang.github.io/xingheng-report/dashboard.html" target="_blank">星恒电源</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系与说明</h4>
+        <ul>
+          <li>📅 报告更新：2026-07-09</li>
+          <li>🏢 天保控股 · 投资部</li>
+          <li>🔒 仅供内部使用</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 TIANBAO PROJECTS · v6.0 d-card 升级版 · Generated for Investment Committee Review</div>
+  </div>
+</footer>
+
+<script>
+// === 时钟 ===
+function tickClock(){
+  const now=new Date();
+  const pad=n=>String(n).padStart(2,'0');
+  const h=pad(now.getHours()),m=pad(now.getMinutes()),s=pad(now.getSeconds());
+  document.getElementById('d-clock').textContent=`${h}:${m}:${s}`;
+  const days=['周日','周一','周二','周三','周四','周五','周六'];
+  document.getElementById('d-date').textContent=`${now.getFullYear()}年${now.getMonth()+1}月${now.getDate()}日 · ${days[now.getDay()]}`;
+}
+tickClock();setInterval(tickClock,1000);
+
+// === 粒子背景 ===
+(function(){const c=document.getElementById('particles');if(!c)return;const ctx=c.getContext('2d');function resize(){c.width=innerWidth;c.height=innerHeight}resize();addEventListener('resize',resize);const N=50;const pts=Array.from({length:N},()=>({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,r:Math.random()*1.4+.4}));function frame(){ctx.clearRect(0,0,c.width,c.height);for(const p of pts){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>c.width)p.vx*=-1;if(p.y<0||p.y>c.height)p.vy*=-1;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,6.283);ctx.fillStyle='rgba(0,240,255,.5)';ctx.fill()}for(let i=0;i<N;i++)for(let j=i+1;j<N;j++){const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y;const d=Math.hypot(dx,dy);if(d<120){ctx.beginPath();ctx.moveTo(pts[i].x,pts[i].y);ctx.lineTo(pts[j].x,pts[j].y);ctx.strokeStyle='rgba(0,240,255,'+(.15*(1-d/120))+')';ctx.lineWidth=.5;ctx.stroke()}}requestAnimationFrame(frame)}frame()})();
+
+// === 分类筛选 ===
+const pills=document.querySelectorAll('.fp');
+const cards=document.querySelectorAll('.d-card');
+const cntEls={all:0,np:0,p:0,deal:0,kg:0};
+cards.forEach(c=>{
+  const cat=c.dataset.cat;
+  if(cntEls[cat]!==undefined)cntEls[cat]++;
+  cntEls.all++;
+});
+Object.keys(cntEls).forEach(k=>{const el=document.getElementById('cnt-'+k);if(el)el.textContent=cntEls[k];});
+document.getElementById('flt-count').textContent='13';
+
+pills.forEach(p=>{
+  p.addEventListener('click',()=>{
+    pills.forEach(x=>x.classList.remove('active'));
+    p.classList.add('active');
+    const cat=p.dataset.cat;
+    const catLabel=p.textContent.trim().replace(/\s+\d+$/,'');
+    document.getElementById('flt-cat').textContent=catLabel;
+    let visible=0;
+    cards.forEach(c=>{
+      const match=(cat==='all')||c.dataset.cat===cat;
+      c.style.display=match?'':'none';
+      if(match)visible++;
+    });
+    document.getElementById('flt-count').textContent=visible;
+  });
+});
+
+// === 锚点滚动锚定 ===
+document.querySelectorAll('a[href^="#cat-"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    e.preventDefault();
+    const target=document.querySelector(a.getAttribute('href'));
+    if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+});
+</script>
+
+
+<script>
+// ============ 项目数据（13 个）============
+const PROJECTS = [
+  // 储备·非上市
+  {id:'PRJ-001',emoji:'💎',name:'晶能光电',en:'JNGD · LED',cat:'np',status:'Pre-IPO',statCls:'st-yellow',age:75,estInv:'待补充',dd:100,pending:'否',
+   desc:'中国硅衬底 LED 芯片技术开拓者，综合评分 ⭐⭐⭐⭐⭐；JNGD 财务尽调报告 + 法律尽调 + 并购 LX 半导体方案。当前阶段：在并购方案修订。',
+   reports:[
+     {name:'财务尽调报告 V3',meta:'JNGD-FDD-V3 · 2026-07-04',sum:'目标公司税前估值 102 亿元，财务健康度高',url:'https://jinzhanxiang.github.io/jngd-report/'},
+     {name:'法律尽调专项 V2',meta:'JNGD-LDD-V2 · 2026-06-23',sum:'3 项需披露事项 + 估值调整建议',url:'https://jinzhanxiang.github.io/jngd-report/report_v3_43_0_deep.html'},
+     {name:'并购 LX 半导体方案',meta:'JNGD-ACQ-V1 · 2026-06-30',sum:'横向并购路径，成本节省约 18%',url:'https://jinzhanxiang.github.io/jngd-report/report_main.html'},
+     {name:'竞品分析 (三安/华灿)',meta:'JNGD-CMP-V1 · 2026-05-15',sum:'技术路线对比：硅衬底 vs 蓝宝石',url:'https://jinzhanxiang.github.io/jngd-report/dashboard.html'}
+   ],
+   timeline:[
+     {date:'2026-03-15',text:'立项登记 · 信息建档',done:true},
+     {date:'2026-04-22',text:'财务尽调第一轮访谈',done:true},
+     {date:'2026-05-15',text:'竞品对标初稿',done:true},
+     {date:'2026-06-23',text:'法律尽调专项完成 V2',done:true},
+     {date:'2026-07-09',text:'并购 LX 半导体方案落定',done:true},
+     {date:'2026-07-15',text:'三会汇报 PPT',urgent:true,tag:'待办'},
+     {date:'2026-07-25',text:'立项决议上会',urgent:true,tag:'待办'}
+   ]},
+  {id:'PRJ-002',emoji:'🏥',name:'柯渡医学',en:'KEDU · MED',cat:'np',status:'Pre-IPO',statCls:'st-yellow',age:48,estInv:'¥3-5亿',dd:35,
+   desc:'医疗设备第三方维保双寡头之一，覆盖 CT/MR/超声全产品线；2026-05-22 立项汇报完成，待补充产业链横向对标。',
+   reports:[
+     {name:'产业研究 V1',meta:'KEDU-IND-V1 · 2026-05-22',sum:'双寡头格局明确，毛利率 25-30%',url:'https://jinzhanxiang.github.io/kedu-report/report_main.html'},
+     {name:'立项汇报 PPT',meta:'KEDU-DEC-V1 · 2026-05-22',sum:'立项建议书，待投决会评审',url:'https://jinzhanxiang.github.io/kedu-report/index.html'}
+   ],
+   timeline:[
+     {date:'2026-05-22',text:'立项汇报 V1 完成',done:true},
+     {date:'2026-06-15',text:'首次管理层访谈',done:true},
+     {date:'2026-07-05',text:'横向对标启动',done:true},
+     {date:'2026-07-20',text:'横向对标分析报告',urgent:true,tag:'待办'},
+     {date:'2026-08-15',text:'财务尽调第一轮',urgent:true,tag:'待办'}
+   ]},
+  {id:'PRJ-003',emoji:'🧪',name:'中复碳芯',en:'CCRT · CARBON',cat:'np',status:'Pre-IPO',statCls:'st-yellow',age:55,estInv:'¥2-4亿',dd:25,
+   desc:'碳纤维及复合材料供应商，应用于风电叶片 / 航空航天。当前阶段：尽调启动。',
+   reports:[
+     {name:'产业研究 V1',meta:'CCRT-IND-V1 · 2026-05-08',sum:'风电叶片市场 CAGR 8.5%',url:'https://jinzhanxiang.github.io/zhongfu-report/report_main.html'}
+   ],
+   timeline:[
+     {date:'2026-05-08',text:'产业研究 V1 完成',done:true},
+     {date:'2026-06-12',text:'管理层访谈',done:true},
+     {date:'2026-07-15',text:'财务尽调启动',urgent:true,tag:'待办'}
+   ]},
+  {id:'PRJ-004',emoji:'💊',name:'信鸿医疗',en:'XINHONG · MED',cat:'np',status:'Pre-IPO',statCls:'st-yellow',age:42,estInv:'¥1.5-3亿',dd:30,
+   desc:'医疗器械供应链服务商，下游医院渠道资源深厚。',
+   reports:[
+     {name:'立项汇报 V1',meta:'XH-DEC-V1 · 2026-05-29',sum:'建议推进，关注应收账款风险',url:'https://jinzhanxiang.github.io/xinhong-report/report_main.html'}
+   ],
+   timeline:[
+     {date:'2026-05-29',text:'立项汇报 V1 完成',done:true},
+     {date:'2026-07-08',text:'首轮财务访谈',done:true},
+     {date:'2026-07-22',text:'横向对标',urgent:true,tag:'待办'}
+   ]},
+  {id:'PRJ-005',emoji:'🚀',name:'宏远创信',en:'HYCX · ENERGY',cat:'np',status:'Pre-IPO',statCls:'st-yellow',age:40,estInv:'¥1.8-3.2亿',dd:40,
+   desc:'新材料+综合智慧能源，行业研究中心首发入库。',
+   reports:[
+     {name:'产业研究 V1',meta:'HYCX-IND-V1 · 2026-06-12',sum:'智慧能源市场处于早期，机会窗口有限',url:'https://jinzhanxiang.github.io/hongyuan-report/report_main.html'}
+   ],
+   timeline:[
+     {date:'2026-06-12',text:'产业研究 V1',done:true},
+     {date:'2026-07-10',text:'管理层首次访谈',done:true},
+     {date:'2026-07-30',text:'横向对标',urgent:true,tag:'待办'}
+   ]},
+  {id:'PRJ-006',emoji:'💡',name:'迅巢科技',en:'XCHS · BATTERY',cat:'np',status:'Pre-IPO',statCls:'st-yellow',age:38,estInv:'¥2-3亿',dd:20,
+   desc:'换电科技服务商 XCHS Energon，两轮车换电运营。',
+   reports:[
+     {name:'产业研究 V1',meta:'XCHS-IND-V1 · 2026-06-15',sum:'即时配送场景验证完成',url:'https://jinzhanxiang.github.io/xunchao-report/report_main.html'}
+   ],
+   timeline:[
+     {date:'2026-06-15',text:'产业研究 V1',done:true},
+     {date:'2026-07-05',text:'场景验证访谈',done:true},
+     {date:'2026-07-25',text:'财务模型搭建',urgent:true,tag:'待办'}
+   ]},
+  {id:'PRJ-007',emoji:'⚡',name:'元旭半导体',en:'YUANXU · LED',cat:'np',status:'尽调完成',statCls:'st-green',age:63,estInv:'¥15-22亿',dd:100,
+   desc:'第三代半导体（GaN/SiC）外延片供应商，专注 Micro-LED 微显示方向，应用于 AR 眼镜、车载 HUD 等场景。已有产线良率行业领先，2024 年获国家级基金首轮融资，本周完成首次 50 分钟高管访谈。',
+   reports:[
+     {name:'产业研究 V1.0',meta:'PRJ-001 · 2026-05-15',sum:'Micro-LED 微显示市场 2024-2028 CAGR 38%',url:'https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html'},
+     {name:'访谈笔记',meta:'NOTE · 2026-06-08',sum:'高管访谈 50min，焦点：产能爬坡节奏',url:'https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html'},
+     {name:'横向对标 V1',meta:'CMP-001 · 2026-07-02',sum:'6 家可比公司筛选（含三安/华灿/京东方）',url:'https://jinzhanxiang.github.io/innoshine-report/dashboard.html'},
+     {name:'深度研究报告',meta:'预计 · 2026-07-15',sum:'结论：建议立项（待发布）',url:'#',pending:true}
+   ],
+   timeline:[
+     {date:'2026-04-02',text:'立项登记 · 信息建档',done:true},
+     {date:'2026-05-15',text:'首版产业研究报告 V1.0',done:true},
+     {date:'2026-06-08',text:'首次高管访谈（50min）',done:true},
+     {date:'2026-07-02',text:'横向对标分析 V1',done:true},
+     {date:'2026-07-15',text:'产业链深度研究报告',urgent:true,tag:'待办'},
+     {date:'2026-08-01',text:'初步立项建议书',urgent:true,tag:'待办'}
+   ]},
+  {id:'PRJ-008',emoji:'☁️',name:'联通云 IDC',en:'CUIID · IDC',cat:'np',status:'REITs',statCls:'st-purple',age:90,estInv:'¥30-45亿',dd:85,
+   desc:'数据中心 REITs 项目，联通云参与。',
+   reports:[
+     {name:'REITs 方案 V1',meta:'CUIID-RT-V1 · 2026-06-20',sum:'预期分派率 4.5-5.5%',url:'https://jinzhanxiang.github.io/unicom-idc-report/report_main.html'}
+   ],
+   timeline:[
+     {date:'2026-04-15',text:'REITs 框架沟通',done:true},
+     {date:'2026-06-20',text:'REITs 方案 V1',done:true},
+     {date:'2026-07-25',text:'法律意见书',urgent:true,tag:'待办'}
+   ]},
+  // 储备·上市
+  {id:'PRJ-009',emoji:'🛰️',name:'航天宏图',en:'HTCO · SAT',cat:'p',status:'已部署',statCls:'st-blue',age:120,estInv:'已交付',dd:100,
+   desc:'航天宏图（HTCO IRE）航天遥感上市公司分析与交付。',
+   reports:[
+     {name:'商业分析报告',meta:'HTCO-RPT-V4 · 2026-05-15',sum:'高分遥感卫星运营 + 行业应用领先',url:'https://jinzhanxiang.github.io/tianbao-projects/htco-report.html'}
+   ],
+   timeline:[
+     {date:'2026-03-01',text:'项目交付',done:true},
+     {date:'2026-05-15',text:'商业分析 V4',done:true}
+   ]},
+  {id:'PRJ-010',emoji:'💎',name:'收购上市公司研究',en:'ACQ · CMP',cat:'p',status:'研究阶段',statCls:'st-blue',age:60,estInv:'研究类',dd:60,
+   desc:'3 家上市公司 8 维度横向对比研究。',
+   reports:[
+     {name:'8 维度对比报告',meta:'ACQ-CMP-V1 · 2026-06-30',sum:'三家公司估值/行业/团队多维对标',url:'https://jinzhanxiang.github.io/7projects-summary/dashboard.html'}
+   ],
+   timeline:[
+     {date:'2026-05-30',text:'研究启动',done:true},
+     {date:'2026-06-30',text:'对比报告 V1',done:true}
+   ]},
+  // 重大并购
+  {id:'PRJ-011',emoji:'⭐',name:'星恒电源',en:'XINGHENG · BATTERY',cat:'deal',status:'已立项',statCls:'st-amber',age:200,estInv:'¥102亿',dd:100,
+   desc:'锂电两轮车龙头 · 启源纳川，已立项。16 份报告，含商业分析、技术尽调、法律尽调。',
+   reports:[
+     {name:'商业分析主报告',meta:'XH-MAIN-V8 · 2026-07-09',sum:'全球两轮车锂电龙头，市占率 26%',url:'https://jinzhanxiang.github.io/xingheng-report/dashboard.html'},
+     {name:'股权穿透 V7',meta:'XH-EQ-V7 · 2026-06-12',sum:'管理层背景 + 实控人持股',url:'https://jinzhanxiang.github.io/xingheng-report/shareholder_mna.html'},
+     {name:'法律尽调专项',meta:'XH-LDD-V2 · 2026-06-23',sum:'3 项建议披露事项 + 重大合同清单',url:'https://jinzhanxiang.github.io/xingheng-report/claims_verification.html'}
+   ],
+   timeline:[
+     {date:'2026-01-10',text:'立项 · 战略协议',done:true},
+     {date:'2026-03-05',text:'商业分析 V1',done:true},
+     {date:'2026-05-15',text:'法律尽调专项 V2',done:true},
+     {date:'2026-07-09',text:'商业分析主报告 V8',done:true}
+   ]},
+  // 知识图谱
+  {id:'PRJ-012',emoji:'📊',name:'知识图谱 · 数据全景',en:'KG · WIKI',cat:'kg',status:'已部署',statCls:'st-green',age:365,estInv:'常驻',dd:100,
+   desc:'LLM Wiki · 1055 实体 / 48KB 摘要，已部署为 Wiki 系统。',
+   reports:[
+     {name:'Wiki 索引页',meta:'WIKI-INDEX · 2026-07-09',sum:'48KB 摘要 · 1055 实体',url:'https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html'},
+     {name:'实体生成',meta:'ENT-2026-07',sum:'本周新增 12 实体',url:'https://jinzhanxiang.github.io/tianbao-projects/entities_index.html'}
+   ],
+   timeline:[
+     {date:'2026-01-01',text:'Wiki 系统上线',done:true},
+     {date:'2026-07-09',text:'最新索引同步',done:true}
+   ]},
+  {id:'PRJ-013',emoji:'🔗',name:'实体关系图谱',en:'KG · GRAPH',cat:'kg',status:'已部署',statCls:'st-green',age:300,estInv:'常驻',dd:100,
+   desc:'交互式关系网络图谱，529KB 交互式。',
+   reports:[
+     {name:'实体关系图谱',meta:'KG-GRAPH · 2026-06-25',sum:'529KB 交互式节点网络',url:'https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html'}
+   ],
+   timeline:[
+     {date:'2026-06-25',text:'实体关系图谱上线',done:true}
+   ]}
+];
+
+
+const PROJECT_DASHBOARD = {
+  "PRJ-001": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
+  "PRJ-002": "https://jinzhanxiang.github.io/kedu-report/index.html",
+  "PRJ-003": "https://jinzhanxiang.github.io/zhongfu-report/index.html",
+  "PRJ-004": "https://jinzhanxiang.github.io/xinhong-report/index.html",
+  "PRJ-005": "https://jinzhanxiang.github.io/hongyuan-report/index.html",
+  "PRJ-006": "https://jinzhanxiang.github.io/xunchao-report/index.html",
+  "PRJ-007": "https://jinzhanxiang.github.io/innoshine-report/dashboard.html",
+  "PRJ-008": "https://jinzhanxiang.github.io/unicom-idc-report/index.html",
+  "PRJ-009": "https://jinzhanxiang.github.io/tianbao-projects/htco-report.html",
+  "PRJ-010": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html",
+  "PRJ-011": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html",
+  "PRJ-012": "https://jinzhanxiang.github.io/tianbao-projects/wiki-index.html",
+  "PRJ-013": "https://jinzhanxiang.github.io/tianbao-projects/entities-graph.html"
+};
+
+const CATS = [
+  {id:'np',name:'储备 · 非上市',color:'var(--blue)',cnt:8},
+  {id:'p',name:'储备 · 上市',color:'var(--purple)',cnt:2},
+  {id:'deal',name:'重大并购',color:'var(--amber)',cnt:1},
+  {id:'kg',name:'知识图谱',color:'var(--emerald)',cnt:2}
+];
+
+// ============ 渲染逻辑 ============
+let currentSort = 'default';
+let filterKw = '';
+
+
+// === 报告卡片点击委托（C 部分 2026-07-11）===
+function delegateReportClick(){
+  document.body.addEventListener('click', e => {
+    const rpt = e.target.closest('.d-rpt');
+    if (!rpt) return;
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (rpt.classList.contains('pending')) {
+      showToast('⏳ 该报告尚未发布，请待部署完成后访问', 'warn');
+      return;
+    }
+    const url = rpt.dataset.url;
+    if (url && url !== '#') {
+      window.open(url, '_blank');
+      return;
+    }
+    // url 为空 → 兜底打开项目 dashboard
+    const active = document.querySelector('.cw-item.active');
+    const pid = active ? active.dataset.id : null;
+    const fb = pid ? PROJECT_DASHBOARD[pid] : null;
+    if (fb) {
+      showToast('🅱️ 报告链接待补充，已为您打开项目主页', 'info');
+      window.open(fb, '_blank');
+    } else {
+      showToast('⚠️ 项目兜底链接缺失', 'warn');
+    }
+  });
+}
+
+// === Toast 提示 ===
+function showToast(msg, type='info'){
+  let toast = document.getElementById('ocToast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'ocToast';
+    toast.style.cssText = 'position:fixed;top:80px;right:24px;padding:14px 20px;border-radius:10px;font-size:13px;font-weight:600;z-index:9999;opacity:0;transition:.25s;backdrop-filter:blur(20px);box-shadow:0 10px 30px rgba(0,0,0,.3);max-width:340px';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  const colors = { info: 'rgba(0,240,255,.92)', warn: 'rgba(255,184,0,.92)', err: 'rgba(255,56,96,.92)' };
+  toast.style.background = colors[type] || colors.info;
+  toast.style.color = type === 'warn' ? '#000' : '#04081A';
+  toast.style.opacity = '1';
+  clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => { toast.style.opacity = '0'; }, 2800);
+}
+
+function renderTree(){
+  let items = PROJECTS.slice();
+  // 排序 红点1
+  if (currentSort === 'age-desc') items.sort((a,b)=>b.age-a.age);
+  else if (currentSort === 'urgent') items = items.filter(p=>p.timeline.some(t=>t.urgent));
+  
+  // 过滤
+  if (filterKw) {
+    const kw = filterKw.toLowerCase();
+    items = items.filter(p =>
+      p.name.toLowerCase().includes(kw) || p.en.toLowerCase().includes(kw) || p.id.toLowerCase().includes(kw) || p.desc.toLowerCase().includes(kw)
+    );
+  }
+  
+  let html = '';
+  CATS.forEach(cat => {
+    const list = items.filter(p => p.cat === cat.id);
+    if (list.length === 0) return;
+    html += `<div class="cw-cat"><div class="cw-cat-h"><span>${cat.name}</span><span class="cnt">${list.length}</span></div>`;
+    list.forEach((p, i) => {
+      const active = (i===0 && cat.id==='np' && !filterKw) ? 'active' : '';
+      const urgentPending = p.timeline.find(t => t.urgent);
+      const subInfo = urgentPending ? `<span class="urgent">▶ ${urgentPending.date}</span>` : `<span>${p.status}</span>`;
+      html += `<div class="cw-item ${active}" data-id="${p.id}">
+        <span class="cw-item-emoji">${p.emoji}</span>
+        <div class="cw-item-main">
+          <div class="cw-item-name">${p.name}</div>
+          <div class="cw-item-sub">${subInfo}</div>
+        </div>
+        <span class="cw-item-stat ${p.statCls}">${p.status}</span>
+      </div>`;
+    });
+    html += `</div>`;
+  });
+  document.getElementById('cwTree').innerHTML = html;
+  
+  // 绑定点击
+  document.querySelectorAll('.cw-item').forEach(el => {
+    el.addEventListener('click', () => {
+      document.querySelectorAll('.cw-item').forEach(e => e.classList.remove('active'));
+      el.classList.add('active');
+      renderDetail(el.dataset.id);
+    });
+  });
+  
+  // 默认选第一个
+  const first = document.querySelector('.cw-item');
+  if (first) renderDetail(first.dataset.id);
+  
+  // 更新状态摘要 红点1
+  const pendingAll = PROJECTS.reduce((acc,p)=>acc + p.timeline.filter(t=>t.urgent).length, 0);
+  document.getElementById('sumPending').textContent = pendingAll;
+  const nextDate = (()=>{
+    const all = PROJECTS.flatMap(p=>p.timeline.filter(t=>t.urgent).map(t=>({d:t.date,p:p.name})));
+    all.sort((a,b)=>a.d.localeCompare(b.d));
+    return all[0] ? all[0].d : '—';
+  })();
+  document.getElementById('sumNextDate').textContent = '下步: ' + nextDate;
+  document.getElementById('sumWatching').textContent = PROJECTS.filter(p=>p.age>60).length;
+  document.getElementById('sumDone').textContent = PROJECTS.filter(p=>p.dd>=80).length;
+  // Hero 动态卡 B2
+  const todayPending = PROJECTS.reduce((acc,p)=>acc + p.timeline.filter(t=>t.urgent).length, 0);
+  const weekEvents = PROJECTS.reduce((acc,p)=>acc + p.timeline.length, 0);
+  const overdueCount = PROJECTS.filter(p=>p.timeline.filter(t=>t.urgent && t.date<'2026-07-11').length>0).length;
+  const hsA = document.getElementById('hsActive'); if (hsA) { hsA.querySelector('b').textContent = todayPending; hsA.querySelector('span').textContent = '今日待办'; }
+  const hsB = document.getElementById('hsPending'); if (hsB) { hsB.querySelector('b').textContent = weekEvents; hsB.querySelector('span').textContent = '总节点数'; }
+  const hsC = document.getElementById('hsUrgent'); if (hsC) { hsC.querySelector('b').textContent = overdueCount; hsC.querySelector('span').textContent = '超期项目'; }
+}
+
+function renderDetail(pid){
+  const p = PROJECTS.find(x => x.id === pid);
+  if (!p) return;
+  const nextStep = p.timeline.find(t => t.urgent);
+  const dHtml = `
+    <div class="dh">
+      <div class="dh-l">
+        <div class="dh-emoji">${p.emoji}</div>
+        <div>
+          <div class="dh-tit">${p.name}</div>
+          <div class="dh-en">// ${p.en} · ${p.cat==='np'?'非上市储备':p.cat==='p'?'上市储备':p.cat==='deal'?'重大并购':'知识图谱'}</div>
+        </div>
+      </div>
+      <div class="dh-r">
+        <div class="dh-r-id">${p.id} · ${p.age}D</div>
+        <div class="dh-r-stat ${p.statCls}">● ${p.status}</div>
+      </div>
+    </div>
+    <div class="d-desc">${p.desc}</div>
+    <div class="d-stats">
+      <div class="d-stat"><div class="d-stat-l">在跟周期</div><div class="d-stat-v">${p.age}<small>d</small></div></div>
+      <div class="d-stat"><div class="d-stat-l">报告数</div><div class="d-stat-v">${p.reports.length}<small>份</small></div></div>
+      <div class="d-stat"><div class="d-stat-l">投资金额</div><div class="d-stat-v txt" style="${p.estInv==='待补充'||p.estInv==='研究类'||p.estInv==='常驻'?'color:var(--text-3)':''}">${p.estInv}</div></div>
+      <div class="d-stat"><div class="d-stat-l">下步动作</div><div class="d-stat-v txt">${nextStep ? '▶ '+nextStep.text.substring(0,8) : '—'}</div></div>
+    </div>
+    <div class="d-sec">
+      <h3>📅 项目时间进度 <em style="background:linear-gradient(90deg,rgba(0,240,255,.15),rgba(16,185,129,.15))"><b style="color:#fff">${p.timeline.length}</b><span style="margin:0 4px;color:var(--text-3)">·</span><b style="color:var(--emerald)">LIVE</b></em></h3>
+      <div class="d-tl">
+        ${p.timeline.map(t => `
+          <div class="d-tl-i ${t.done?'done':''} ${t.urgent?'urgent':''}">
+            <span class="d-tl-date">${t.date}</span>${t.text}${t.urgent?'<span class="d-tl-tag">'+t.tag+'</span>':''}
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    <div class="d-sec">
+      <h3>📑 所有报告 <em>${p.reports.length} 份 · 含结论摘要</em></h3>
+      <div class="d-rpts">
+        ${p.reports.map(r => `
+          <div class="d-rpt ${r.pending?'pending':''}" data-url="${r.url && r.url!=='#' && !r.pending ? r.url : ''}">
+            <div class="d-rpt-l">
+              <div class="d-rpt-name">${r.name}${r.pending?' ⏳':''}</div>
+              <div class="d-rpt-meta">${r.meta}</div>
+              <div class="d-rpt-sum">"${r.sum}"</div>
+            </div>
+            <div class="d-rpt-r">${r.pending?'▶ 待发':'查看 →'}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    <div class="d-act">
+      <div class="d-act-btn">✚ 添加节点</div>
+      <div class="d-act-btn">📅 更新状态</div>
+      <div class="d-act-btn">⭐ 标星</div>
+      <div class="d-act-btn main">📤 发起立项</div>
+    </div>
+  `;
+  document.getElementById('cwDetail').innerHTML = dHtml;
+}
+
+// 初始化
+document.addEventListener('DOMContentLoaded', () => {
+  renderTree();
+  delegateReportClick();
+  document.getElementById('cwSearch').addEventListener('input', e => {
+    filterKw = e.target.value.trim();
+    renderTree();
+  });
+  document.querySelectorAll('.cw-sort').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.cw-sort').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentSort = btn.dataset.sort;
+      renderTree();
+    });
+  });
+});
+</script>
+</body>
+</html>
