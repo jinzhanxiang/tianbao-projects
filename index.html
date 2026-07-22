@@ -275,6 +275,31 @@ body::before{
   .v3-feed2{grid-template-columns:1fr}
   .v3-kpi-grid{grid-template-columns:repeat(2,1fr)}
 }
+/* === 1100+ 宽度 + 短视口（1366×768 等） · 压紧整体 === */
+@media (min-width:1100px) and (max-height:820px){
+  .v3-timeline{padding:2px 14px 3px;margin:2px 0 2px;border-radius:10px}
+  .v3-timeline-head{margin-bottom:2px;padding-bottom:3px}
+  .v3-tl-card{width:135px;padding:3px 6px 4px}
+  .v3-tl-stage{font-size:10px}
+  .v3-tl-meta{font-size:8px}
+  .v3-holo{padding:3px 12px 4px;gap:2px}
+  .v3-holo-grid{min-height:104px;gap:8px}
+  .v3-holo-radar{width:120px;height:96px}
+  .v3-holo-stat-big{font-size:20px}
+  .v3-holo-stat-lbl{font-size:9px;letter-spacing:1px}
+  .v3-holo-bars-h{font-size:11px;padding-bottom:2px}
+  .v3-holo-bar-row{font-size:10px;gap:4px}
+  .v3-marquee{height:175px}
+  .v3-cloud-strip{padding:3px 14px;margin:2px 0}
+  .v3-cloud-tag{padding:2px 9px;font-size:12px}
+  .v3-cloud-tag-cloud{font-size:12px;padding:3px 12px}
+  .v3-entries{margin:2px 0}
+  .v3-entry{padding:3px 11px 4px}
+  .v3-entry-icon{width:24px;height:24px;font-size:15px}
+  .v3-entry-row1{margin-bottom:1px}
+  .v3-section-h h2{font-size:16px;letter-spacing:2px}
+  .v3-section-h{margin:2px 0}
+}
 /* === 1000-1100 宽度 + 短视口 · 强制 entries 单行 + cloud 横排 === */
 @media (min-width:760px) and (max-width:1099px) and (max-height:820px){
   .v3-entries{grid-template-columns:repeat(3,1fr)}
