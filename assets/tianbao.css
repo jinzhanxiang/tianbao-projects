@@ -96,8 +96,7 @@ a{color:inherit;text-decoration:none}
 .nav-brand>div{display:flex;flex-direction:column;gap:2px;min-width:0}
 .nav-brand>div>div:first-child{font-size:18px;letter-spacing:1.5px;background:linear-gradient(90deg,var(--ink) 0%,var(--seal) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;position:relative;animation:brandShine 4s ease-in-out infinite}
 @keyframes brandShine{0%,100%{background-position:0 0}50%{background-position:200% 0}}
-.nav-brand>div>div:first-child::after{content:'天保控股投资部 · 项目管理中心';position:absolute;inset:0;background:linear-gradient(90deg,transparent 30%,rgba(255,255,255,.7) 50%,transparent 70%);-webkit-background-clip:text;background-clip:text;animation:brandSweep 5s ease-in-out infinite;pointer-events:none}
-@keyframes brandSweep{0%,100%{opacity:0;transform:translateX(-30%)}50%{opacity:1;transform:translateX(30%)}}
+/* R172: 删除 brandSweep 高光扫过（叠加在 brandShine 上显得过炫） */
 .nav-logo{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--ink),var(--blue));display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px;flex-shrink:0}
 .nav-brand-sub{font-size:11px;color:var(--ink-3);font-weight:500;letter-spacing:.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .nav-brand-sub .clock{font-family:ui-monospace,monospace;color:var(--seal);font-weight:800;letter-spacing:1px;font-size:12px}
@@ -246,35 +245,39 @@ a{color:inherit;text-decoration:none}
 .hero h1{color:var(--ink);font-size:36px;background:linear-gradient(90deg,var(--seal),var(--seal));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero p,.hero .hero-sub{color:var(--ink-2)}
 .hero-stat{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:14px 18px;backdrop-filter:blur(10px)}
-.hero-stat .num{color:var(--seal);text-shadow:0 0 12px rgba(192,57,43,0.5)}
+/* R172: 静态化 · 去除数字辉光 */
+.hero-stat .num{color:var(--seal)}
 .hero-stat .lbl{color:var(--ink-3)}
 .clock-card{background:var(--panel-strong);border:1px solid var(--border);border-radius:var(--r);padding:18px;backdrop-filter:blur(20px)}
-.clock-card #d-clock{color:var(--seal);text-shadow:0 0 12px rgba(192,57,43,0.6)}
+.clock-card #d-clock{color:var(--seal)}
 .kpi-section{position:relative;z-index:1;max-width:1280px;margin:0 auto 24px;padding:0 24px}
 .kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .kpi{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:20px;backdrop-filter:blur(20px);position:relative;overflow:hidden;transition:all .3s}
 .kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--seal),var(--seal))}
 .kpi:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:var(--border-strong)}
-.kpi .k-num{color:var(--seal);font-size:32px;font-weight:800;text-shadow:0 0 12px rgba(192,57,43,0.4)}
-.k-amber .k-num{color:var(--gold);text-shadow:0 0 12px rgba(255,184,0,0.4)}
+/* R172: 静态化 · KPI 数字与标题去除赛博辉光 */
+.kpi .k-num{color:var(--seal);font-size:32px;font-weight:800}
+.k-amber .k-num{color:var(--gold)}
 .k-amber::before{background:linear-gradient(90deg,var(--gold),var(--red))}
-.k-green .k-num{color:var(--green);text-shadow:0 0 12px rgba(46,125,50,0.4)}
+.k-green .k-num{color:var(--green)}
 .k-green::before{background:linear-gradient(90deg,var(--green),var(--seal))}
-.k-purple .k-num{color:var(--seal);text-shadow:0 0 12px rgba(192,57,43,0.4)}
+.k-purple .k-num{color:var(--seal)}
 .k-purple::before{background:linear-gradient(90deg,var(--seal),var(--seal))}
 .kpi .k-lbl{color:var(--ink-3);font-size:12px;letter-spacing:1px}
 .kpi .k-sub{color:var(--ink-2);font-size:11px;margin-top:6px}
 .filter-section{position:relative;z-index:1;max-width:1280px;margin:0 auto 24px;padding:0 24px}
-.section-title{color:var(--ink);border-left:3px solid var(--seal);padding-left:12px;text-shadow:0 0 8px rgba(192,57,43,0.3)}
+.section-title{color:var(--ink);border-left:3px solid var(--seal);padding-left:12px}
 .filter-pills{display:flex;flex-wrap:wrap;gap:8px;background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:12px;backdrop-filter:blur(10px)}
 .fp{background:rgba(192,57,43,0.05);border:1px solid var(--border);color:var(--ink-2);padding:6px 14px;border-radius:20px;cursor:pointer;transition:all .2s;font-size:13px}
 .fp:hover{background:rgba(192,57,43,0.15);color:var(--ink);border-color:var(--seal)}
-.fp.active{background:linear-gradient(90deg,var(--seal),var(--seal));color:#fff;border-color:transparent;box-shadow:0 0 12px rgba(192,57,43,0.4)}
+/* R172: 静态化 · 滤镜胶囊去除辉光 */
+.fp.active{background:linear-gradient(90deg,var(--seal),var(--seal));color:#fff;border-color:transparent;box-shadow:0 2px 6px rgba(192,57,43,0.18)}
 .filter-info{color:var(--ink-3);font-size:12px;padding:8px 12px}
 .cat-block{position:relative;z-index:1;max-width:1280px;margin:0 auto 24px;padding:0 24px}
 .cat-head{background:var(--panel);border:1px solid var(--border);border-radius:var(--r) var(--r) 0 0;padding:14px 20px;backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border)}
 .cat-head-left{display:flex;align-items:center;gap:12px}
-.cat-dot{width:10px;height:10px;border-radius:50%;background:var(--seal);box-shadow:0 0 8px var(--seal)}
+/* R172: 静态化 · 分类圆点去除辉光 */
+.cat-dot{width:10px;height:10px;border-radius:50%;background:var(--seal)}
 .cat-title{color:var(--ink);font-size:18px;font-weight:700}
 .cat-sub{color:var(--ink-3);font-size:12px}
 .cat-stats .cs-pill{background:rgba(192,57,43,0.1);color:var(--seal);border:1px solid var(--border);padding:4px 12px;border-radius:12px;font-size:12px}
@@ -290,7 +293,8 @@ a{color:inherit;text-decoration:none}
 .d-card.no-link .d-card-foot .d-card-arrow::before{content:"ⓘ ";font-weight:700}
 .d-card.no-link .d-card-arrow{font-size:11px}
 .d-card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}
-.d-card-emoji{font-size:28px;filter:drop-shadow(0 0 6px rgba(192,57,43,0.4))}
+/* R172: 静态化 · emoji 去除投影 */
+.d-card-emoji{font-size:28px}
 .d-card-status{font-size:11px;padding:3px 8px;border-radius:10px;letter-spacing:1px}
 .s-yellow{background:rgba(255,184,0,0.15);color:var(--gold);border:1px solid rgba(255,184,0,0.3)}
 .s-blue{background:rgba(21,101,192,0.15);color:var(--blue);border:1px solid rgba(21,101,192,0.3)}
@@ -324,12 +328,12 @@ a{color:inherit;text-decoration:none}
 .d-tag{background:rgba(192,57,43,0.08);color:var(--seal);border:1px solid var(--border);padding:2px 8px;border-radius:8px;font-size:11px}
 .d-card-foot{padding-top:10px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--ink-3)}
 .d-card-foot a{color:var(--seal);transition:all .2s}
-.d-card-foot a:hover{text-shadow:0 0 8px var(--seal)}
+/* R172: 静态化 · 链接去除文字辉光 */
+.d-card-foot a:hover{color:var(--seal-2)}
 .footer{position:relative;z-index:1;max-width:1280px;margin:40px auto 24px;padding:24px;border-top:1px solid var(--border);color:var(--ink-3);font-size:12px}
 .footer b{color:var(--seal)}
 /* 元素动画 */
-@keyframes pulse-glow{0%,100%{box-shadow:0 0 8px var(--seal)}50%{box-shadow:0 0 16px var(--seal),0 0 24px rgba(192,57,43,0.3)}}
-.cat-dot{animation:pulse-glow 2s infinite}
+/* R172: 静态化 · 移除分类点 pulse-glow 动画 */
 100%{transform:translateY(100vh)}}
 
 
@@ -407,11 +411,12 @@ a{color:inherit;text-decoration:none}
 .d-tl-i.done{color:var(--ink-3);opacity:.85}
 .d-tl-i.done::before{background:var(--ink-3)}
 .d-tl-i.urgent{background:var(--paper-2);border-radius:4px;margin-left:-10px;padding-left:28px;font-weight:700;color:var(--ink);box-shadow:inset 3px 0 0 var(--seal)}
-.d-tl-i.urgent::before{background:var(--seal);animation:pulse-warn 1.5s infinite}
+/* R172: 静态化 · 时间线 urgent 节点去除脉冲动画 */
+.d-tl-i.urgent::before{background:var(--seal)}
 .d-tl-date{color:var(--seal);font-size:11px;font-weight:700;margin-right:8px;letter-spacing:.5px}
 .d-tl-tag{display:inline-block;font-size:10px;padding:2px 7px;border-radius:3px;background:var(--paper-2);color:var(--seal);font-weight:800;letter-spacing:1px;margin-left:6px}
 .d-tl-i.done .d-tl-tag{background:var(--paper-2);color:var(--green)}
-@keyframes pulse-warn{0%,100%{transform:scale(1);box-shadow:0 0 6px var(--seal)}50%{transform:scale(1.3);box-shadow:0 0 12px var(--seal)}}50%{transform:scale(1.4);box-shadow:0 0 18px var(--gold)}}
+/* R172: 静态化 · pulse-warn 动画定义已废弃 */}
 /* 报告 */
 .d-rpts{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
 .d-rpt{background:transparent;border:1px solid var(--border);border-radius:4px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;transition:.2s;cursor:pointer}
@@ -505,8 +510,8 @@ a{color:inherit;text-decoration:none}
 .v3-kpi{position:relative;background:var(--paper);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px 12px;transition:.3s cubic-bezier(.2,.8,.2,1);overflow:hidden;display:flex;flex-direction:column;gap:6px;min-height:120px}
 .v3-kpi:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.08),0 2px 6px var(--kpi-color,var(--seal));border-color:var(--kpi-color,var(--seal))}
 .v3-kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--kpi-color,var(--seal)),var(--seal-2))}
-.v3-kpi::after{content:'';position:absolute;top:3px;left:0;width:var(--kpi-pct,30%);height:3px;background:rgba(255,255,255,.5);filter:blur(3px);animation:kpiGlow 3s ease-in-out infinite}
-@keyframes kpiGlow{0%,100%{opacity:.3;transform:translateX(0)}50%{opacity:.7;transform:translateX(20px)}}
+/* R172: 静态化 · KPI 顶部高光去除动画 */
+.v3-kpi::after{content:'';position:absolute;top:3px;left:0;width:var(--kpi-pct,30%);height:2px;background:rgba(255,255,255,.4)}
 .v3-kpi-eyebrow{font-family:var(--hei);font-size:10px;color:var(--kpi-color,var(--seal));font-weight:800;letter-spacing:2px;display:flex;align-items:center;gap:5px}
 .v3-kpi-eyebrow::before{content:'';width:3px;height:9px;background:var(--kpi-color,var(--seal));border-radius:1px}
 .v3-kpi-num-row{display:flex;align-items:center;gap:10px;flex:1}
@@ -539,7 +544,8 @@ a{color:inherit;text-decoration:none}
 .v3-cloud-tags{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .v3-cloud-tag{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:var(--paper);border:1px solid var(--border);border-radius:999px;color:var(--ink);font-family:var(--fsong);font-weight:600;transition:.2s;cursor:pointer;text-decoration:none;font-size:var(--doc-foot)}
 .v3-cloud-tag:hover{background:rgba(192,57,43,0.1);border-color:var(--seal);color:var(--seal);transform:translateY(-1px)}
-.v3-cloud-tag.active{background:linear-gradient(90deg,var(--seal),var(--seal-2));color:var(--paper);border-color:var(--seal);box-shadow:0 0 12px rgba(192,57,43,0.35)}
+/* R172: 静态化 · 行业词云 active 标签去除辉光 */
+.v3-cloud-tag.active{background:linear-gradient(90deg,var(--seal),var(--seal-2));color:var(--paper);border-color:var(--seal);box-shadow:0 2px 6px rgba(192,57,43,0.18)}
 .v3-cloud-tag .count{font-size:11px;background:rgba(0,0,0,0.08);padding:1px 6px;border-radius:999px;font-weight:800}
 .v3-cloud-tag.active .count{background:rgba(255,255,255,0.25);color:#fff}
 .v3-cloud-empty{color:var(--ink-3);font-size:var(--doc-foot);text-align:center;padding:24px;text-indent:0}
@@ -629,8 +635,8 @@ a{color:inherit;text-decoration:none}
 .v3-progress-step:last-child{border-right:none}
 .v3-progress-step.done{background:rgba(46,125,50,0.08);color:#2E7D32;font-weight:700}
 .v3-progress-step.active{background:linear-gradient(180deg,rgba(192,57,43,0.12),rgba(192,57,43,0.06));color:var(--seal);font-weight:800;box-shadow:inset 0 -2px 0 var(--seal)}
-.v3-progress-step.active::after{content:'●';display:block;color:var(--seal);font-size:8px;margin-top:2px;animation:blink 1.5s infinite}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:.4}}
+/* R172: 静态化 · 进度点去除 blink 动画 */
+.v3-progress-step.active::after{content:'●';display:block;color:var(--seal);font-size:8px;margin-top:2px;opacity:.85}
 
 /* 简介公文版 */
 .v3-brief{font-family:var(--fsong);font-size:var(--doc-body);color:var(--ink);line-height:1.95;text-align:justify;text-indent:var(--doc-indent)}
@@ -761,53 +767,25 @@ a{color:inherit;text-decoration:none}
  * v3.5 · 全站科幻动画 + 视觉统一层
  * ===================================================== */
 
-/* === HUD 扫描线（HUD 风科技感） === */
-@keyframes hudScan{
-  0%{transform:translateY(-100%);opacity:0}
-  10%{opacity:.8}
-  90%{opacity:.8}
-  100%{transform:translateY(100vh);opacity:0}
-}
+/* === HUD 扫描线（HUD 风科技感）· R172 静态化 === */
 .v3-hud{position:relative;overflow:hidden}
-.v3-hud::before{
-  content:'';position:absolute;left:0;right:0;height:2px;
-  background:linear-gradient(90deg,transparent,var(--teal),transparent);
-  pointer-events:none;z-index:1;
-  animation:hudScan 8s linear infinite;
-}
+/* 扫描线已改为静态顶部细线，去除循环动画 */
 
-/* === 边框呼吸光 === */
-@keyframes borderGlow{
-  0%,100%{box-shadow:0 0 0 rgba(192,57,43,0)}
-  50%{box-shadow:0 0 14px rgba(192,57,43,0.35)}
-}
-@keyframes blueGlow{
-  0%,100%{box-shadow:0 0 0 rgba(21,101,192,0)}
-  50%{box-shadow:0 0 14px rgba(21,101,192,0.4)}
-}
-.v3-glow{border-color:var(--seal)!important;animation:borderGlow 3s ease-in-out infinite}
-.v3-glow-blue{animation:blueGlow 3s ease-in-out infinite}
+@keyframes borderGlow{0%,100%{box-shadow:0 0 0 rgba(192,57,43,0)}50%{box-shadow:0 0 14px rgba(192,57,43,0.35)}}
+@keyframes blueGlow{0%,100%{box-shadow:0 0 0 rgba(21,101,192,0)}50%{box-shadow:0 0 14px rgba(21,101,192,0.4)}}
 
-/* === 数字滚动 / 脉冲 === */
-@keyframes pulseSeal{
-  0%,100%{opacity:1;transform:scale(1)}
-  50%{opacity:.7;transform:scale(1.04)}
-}
-@keyframes neonPulse{
-  0%,100%{text-shadow:0 0 4px rgba(192,57,43,0.5),0 0 12px rgba(192,57,43,0.3)}
-  50%{text-shadow:0 0 8px rgba(192,57,43,0.8),0 0 24px rgba(192,57,43,0.5)}
-}
-@keyframes bracketBlink{
-  0%,49%,100%{opacity:.35}
-  50%,99%{opacity:1}
-}
-@keyframes shimmer{
-  0%{background-position:-200% 0}
-  100%{background-position:200% 0}
-}
+/* R172: 静态化 · 边框呼吸光改为静态增强边框 */
+.v3-glow{border-color:var(--seal)!important;box-shadow:0 0 0 1px rgba(192,57,43,0.15)}
+.v3-glow-blue{box-shadow:0 0 0 1px rgba(21,101,192,0.15)}
 
-.v3-pulse{animation:pulseSeal 2s ease-in-out infinite}
-.v3-neon{animation:neonPulse 2.4s ease-in-out infinite;color:var(--seal)}
+/* === 数字滚动 / 脉冲 · R172 静态化 === */
+/* pulseSeal / neonPulse 动画已废弃（详见 index.html 的 counterUp） */
+
+@keyframes bracketBlink{0%,49%,100%{opacity:.35}50%,99%{opacity:1}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+
+/* R172: 静态化 · v3-pulse / v3-neon 移除无限动画 */
+.v3-pulse,.v3-neon{color:var(--seal)}
 
 /* === KPI 卡 · hover lift + 数字动画 === */
 .v3-kpi,.kpi{position:relative;transition:.3s cubic-bezier(.2,.8,.2,1)}
@@ -827,15 +805,10 @@ a{position:relative;transition:color .2s}
 .v3-corner::before{top:6px;left:6px;border-top-width:2px;border-left-width:2px}
 .v3-corner::after{bottom:6px;right:6px;border-bottom-width:2px;border-right-width:2px}
 
-/* === 时间线节点 · 脉冲光点 === */
-@keyframes nodePulse{
-  0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(192,57,43,0.5)}
-  50%{transform:scale(1.15);box-shadow:0 0 0 6px rgba(192,57,43,0)}
-}
+/* === 时间线节点 · 脉冲光点 · R172 静态化 === */
 .v3-rtl-i::before,.v3-ar-item::before{
   content:'';display:inline-block;width:8px;height:8px;border-radius:50%;
   background:var(--seal);margin-right:8px;flex-shrink:0;
-  animation:nodePulse 2s ease-in-out infinite;
 }
 
 /* === 标题分割线 · 渐入 === */
