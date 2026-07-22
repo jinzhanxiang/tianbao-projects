@@ -51,9 +51,9 @@ body::before{
 /* === 项目概况汇总 · 行业·项目分布 一体化全息面板（v3.5 精简版） === */
 .v3-holo{
   position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:14px;padding:8px 12px 10px;margin-bottom:6px;
+  border:1px solid var(--border);border-radius:14px;padding:6px 12px 8px;margin-bottom:4px;
   box-shadow:0 4px 14px rgba(0,0,0,.06),inset 0 0 0 1px rgba(124,58,237,.05);
-  display:flex;flex-direction:column;gap:6px;overflow:hidden;
+  display:flex;flex-direction:column;gap:4px;overflow:hidden;
 }
 .v3-holo::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--doc-rule) 0%,var(--seal) 50%,var(--seal-2) 100%);border-radius:14px 0 0 14px}
 .v3-holo::after{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:repeating-linear-gradient(90deg,#7C3AED 0 12px,transparent 12px 24px);opacity:.4;animation:holoScan 3.5s linear infinite}
@@ -68,24 +68,24 @@ body::before{
 @keyframes holoLivePulse{0%,100%{box-shadow:0 0 8px #16A34A}50%{box-shadow:0 0 16px #16A34A,0 0 4px #16A34A}}
 
 /* === 单列布局：上方 4-指标条 + 下方雷达 + 右侧行业分布条 === */
-.v3-holo-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;align-items:stretch;min-height:180px}
+.v3-holo-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:10px;align-items:stretch;min-height:170px}
 
 /* === 上方 4-指标数据条（项目总数 / 行业 / 报告 / 平均进度） === */
 .v3-holo-pulse{
   display:grid;grid-template-columns:repeat(4,1fr);gap:8px;
-  padding:6px 4px;border-bottom:1px dashed var(--border);margin-bottom:6px;
+  padding:4px 4px;border-bottom:1px dashed var(--border);margin-bottom:4px;
 }
-.v3-holo-stat{position:relative;padding:8px 4px 6px;text-align:center;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,.4) 0%,transparent 100%);transition:.3s;overflow:hidden}
+.v3-holo-stat{position:relative;padding:5px 4px 4px;text-align:center;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,.4) 0%,transparent 100%);transition:.3s;overflow:hidden}
 .v3-holo-stat::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:60%;height:2px;background:var(--hc,#7C3AED);box-shadow:0 0 8px var(--hc,#7C3AED);border-radius:1px}
-.v3-holo-stat-big{font-family:var(--hei);font-size:30px;font-weight:900;color:var(--hc,#7C3AED);line-height:1;letter-spacing:-1.5px;position:relative;display:block;animation:numGlow 2.4s ease-in-out infinite;transition:transform .35s}
+.v3-holo-stat-big{font-family:var(--hei);font-size:26px;font-weight:900;color:var(--hc,#7C3AED);line-height:1;letter-spacing:-1.5px;position:relative;display:block;animation:numGlow 2.4s ease-in-out infinite;transition:transform .35s}
 @keyframes numGlow{0%,100%{text-shadow:0 0 0 transparent}50%{text-shadow:0 0 14px var(--hc-glow,rgba(124,58,237,.5)),0 0 4px var(--hc-glow,rgba(124,58,237,.3))}}
 .v3-holo-stat:hover .v3-holo-stat-big{transform:scale(1.08)}
 .v3-holo-stat-lbl{font-family:var(--hei);font-size:11px;color:var(--ink-2);font-weight:700;letter-spacing:3px;margin-top:3px;display:block}
 
 /* === 左：RADAR 主舞台 === */
 .v3-holo-radar-stage{
-  position:relative;display:flex;align-items:center;gap:14px;
-  padding:8px 8px 8px 14px;
+  position:relative;display:flex;align-items:center;gap:10px;
+  padding:6px 8px 6px 12px;
   border-left:3px solid #7C3AED;
   background:linear-gradient(135deg,rgba(124,58,237,.04) 0%,rgba(168,85,247,.02) 100%);
   border-radius:0 8px 8px 0;
@@ -93,7 +93,7 @@ body::before{
 }
 .v3-holo-radar-h{position:absolute;top:4px;left:14px;font-family:var(--hei);font-size:12px;color:#7C3AED;font-weight:800;letter-spacing:3px}
 .v3-holo-radar-h em{font-style:normal;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600;background:var(--paper);padding:1px 6px;border-radius:8px;margin-left:6px}
-.v3-holo-radar{position:relative;width:160px;height:130px;flex-shrink:0;margin-left:auto}
+.v3-holo-radar{position:relative;width:170px;height:140px;flex-shrink:0;margin-left:auto}
 .v3-holo-radar svg{width:100%;height:100%;overflow:visible}
 .radar-grid{fill:none;stroke:var(--border);stroke-width:.5;stroke-dasharray:2 2;opacity:.5}
 .radar-axis{stroke:var(--border);stroke-width:.5;opacity:.4}
@@ -108,7 +108,7 @@ body::before{
 
 /* === 右：行业分布条形图 === */
 .v3-holo-bars-stage{
-  display:flex;flex-direction:column;gap:4px;padding:8px 4px 8px 12px;
+  display:flex;flex-direction:column;gap:3px;padding:6px 4px 6px 10px;
   border-left:1px dashed var(--border);
   background:linear-gradient(180deg,rgba(124,58,237,.02) 0%,transparent 100%);
   border-radius:0 8px 8px 0;
@@ -128,7 +128,7 @@ body::before{
 .v3-kpi-grid,.v3-kpi,.v3-kpi-eyebrow,.v3-kpi-num-row,.v3-kpi-num,.v3-kpi-num-unit,.v3-kpi-num-ts,.v3-kpi-rows,.v3-kpi-row,.v3-kpi-meta,.v3-holo-core,.v3-holo-stages,.v3-holo-stages-h,.v3-holo-stage-bar,.v3-holo-stage-legend,.v3-holo-block,.v3-holo-donut-wrap,.v3-holo-donut,.v3-holo-donut-center,.v3-holo-donut-seg,.v3-holo-donut-bg{display:none}
 
 /* === 3 类入口 · 极简单行结构 === */
-.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:4px 0 4px}
+.v3-entries{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:3px 0 3px}
 .v3-entry{
   background:linear-gradient(160deg,var(--paper) 0%,var(--paper-2) 100%);
   border:1px solid var(--border);border-radius:12px;padding:7px 11px 9px;
@@ -191,9 +191,9 @@ body::before{
 /* === 近期动态时间线 · 填充空白 === */
 .v3-timeline{
   background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:12px;padding:8px 14px 10px;
+  border:1px solid var(--border);border-radius:12px;padding:5px 14px 6px;
   box-shadow:0 2px 6px rgba(0,0,0,.04);
-  position:relative;overflow:hidden;margin:6px 0 8px;
+  position:relative;overflow:hidden;margin:4px 0 4px;
 }
 .v3-timeline::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue) 0%,var(--seal) 60%,var(--gold) 100%);opacity:.7}
 .v3-timeline-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px;padding-bottom:6px;border-bottom:1px dashed var(--border)}
@@ -208,16 +208,16 @@ body::before{
 .v3-timeline-track::-webkit-scrollbar{height:4px}
 .v3-timeline-track::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
 .v3-tl-card{
-  flex:0 0 auto;width:200px;background:var(--bg-2);
+  flex:0 0 auto;width:170px;background:var(--bg-2);
   border:1px solid var(--border);border-left:3px solid var(--tl-c,var(--blue));
-  border-radius:8px;padding:7px 10px 8px;
+  border-radius:8px;padding:5px 8px 6px;
   font-family:var(--fsong);position:relative;overflow:hidden;
   transition:.2s;text-decoration:none;color:inherit;
 }
 .v3-tl-card:hover{background:var(--paper);border-left-width:5px;transform:translateY(-2px);box-shadow:0 4px 10px rgba(0,0,0,.08)}
-.v3-tl-top{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:var(--ink-3);font-family:ui-monospace,monospace;font-weight:800;letter-spacing:1px;margin-bottom:2px}
-.v3-tl-stage{font-family:var(--hei);font-size:13px;color:var(--tl-c,var(--blue));font-weight:900;line-height:1.3;margin:2px 0;letter-spacing:.5px}
-.v3-tl-meta{font-size:10px;color:var(--ink-3);display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:3px}
+.v3-tl-top{display:flex;justify-content:space-between;align-items:center;font-size:9px;color:var(--ink-3);font-family:ui-monospace,monospace;font-weight:800;letter-spacing:1px;margin-bottom:1px}
+.v3-tl-stage{font-family:var(--hei);font-size:11px;color:var(--tl-c,var(--blue));font-weight:900;line-height:1.25;margin:1px 0;letter-spacing:.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-tl-meta{font-size:9px;color:var(--ink-3);display:flex;gap:4px;align-items:center;flex-wrap:wrap;margin-top:2px}
 .v3-tl-meta b{font-family:ui-monospace,monospace;color:var(--ink);font-weight:900;font-size:11px}
 .v3-tl-meta i{font-style:normal;padding:1px 5px;background:rgba(0,0,0,.04);border-radius:4px;font-weight:700;color:var(--ink-2)}
 .v3-feed{
