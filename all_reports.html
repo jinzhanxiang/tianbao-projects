@@ -226,13 +226,22 @@ body{background:var(--bg)}
             </div>
           </div>
           <div class="v3-ar-list">
-            ${filtered.map(r=>`
-              <a class="v3-ar-item" href="${r.url||'#'}" target="_blank" rel="noopener">
+            ${filtered.map(r=>{
+              const u = (r.url||'');
+              const url = u.startsWith('file://') ? (p.online_url||'') : u;
+              const isLocalOnly = !url && u.startsWith('file://');
+              return url ? `
+              <a class="v3-ar-item" href="${url}" target="_blank" rel="noopener">
                 <span class="v3-ar-date">${r.date || '—'}</span>
                 <span class="v3-ar-title">${escapeHtml(r.title || '(无标题)')}</span>
                 <span class="v3-ar-cat">${escapeHtml(r.category || '未分类')}</span>
-              </a>
-            `).join('')}
+              </a>` : `
+              <div class="v3-ar-item" style="cursor:default;border-left-color:var(--ink-3);opacity:.75">
+                <span class="v3-ar-date">${r.date || '—'}</span>
+                <span class="v3-ar-title">${escapeHtml(r.title || '(无标题)')}${isLocalOnly?' · 本地文件':''}</span>
+                <span class="v3-ar-cat">${escapeHtml(r.category || '未分类')}</span>
+              </div>`;
+            }).join('')}
           </div>
         </div>
       `;
