@@ -142,7 +142,7 @@ body{background:var(--bg)}
     <div class="nav-links">
       <a href="index.html" class="anim-fade-in">🏛 首页</a>
       <a href="page.html" class="anim-fade-in" style="animation-delay:.1s">📂 分类矩阵</a>
-      <a class="active anim-fade-in" style="animation-delay:.2s">📋 详情</a>
+      <span class="nav-current anim-fade-in" style="animation-delay:.2s" aria-current="page">📋 详情</span>
     </div>
   </div>
 </nav>
@@ -206,7 +206,7 @@ body{background:var(--bg)}
 
       <!-- ② 原始材料 -->
       <section class="v3-section" id="secMaterials">
-        <h2>② 原始材料 <small>本地项目文件夹 · file:// 协议深链</small></h2>
+        <h2>② 原始材料 <small>本地项目文件夹 · 公网仅展示路径</small></h2>
         <div class="v3-mat-empty" id="matEmpty">正在检查本地文件夹绑定...</div>
         <div class="v3-mats" id="matList" style="display:none"></div>
         <div id="matActions" style="display:none;margin-top:14px">
@@ -542,21 +542,39 @@ body{background:var(--bg)}
       {name:'项目原始资料 · 主目录', path: folder},
       {name:'研究报告输出', path: folder.replace(/projects\/([^/]+)\/?$/, 'projects/$1/output/')},
     ];
-    list.innerHTML = items.map(it=>`
-      <a class="v3-mat" href="${fileUrl(it.path)}" target="_blank">
+    list.innerHTML = items.map(it=>{
+      const copyId = 'pathcopy_' + Math.random().toString(36).slice(2,8);
+      return `
+      <div class="v3-mat">
         <div class="v3-mat-card">
           <div class="v3-mat-card-top">
             <span class="v3-mat-name">📁 ${escapeHtml(it.name)}</span>
             <span class="v3-mat-meta">${escapeHtml(it.path)}</span>
           </div>
         </div>
-        <div class="v3-mat-r">${fileUrl(it.path)!=='#'?'→ 在 Finder 显示':'—'}</div>
-      </a>
-    `).join('');
+        <div class="v3-mat-r">
+          <button type="button" class="v3-path-copy" data-path="${escapeHtml(it.path)}" data-copy-id="${copyId}">复制路径</button>
+          <span style="font-size:10px;color:var(--ink-3);font-family:var(--fsong);">需在本机 Finder 中打开</span>
+        </div>
+      </div>`;
+    }).join('');
     empty.style.display = 'none';
     list.style.display = 'grid';
     actions.style.display = 'flex';
     document.getElementById('btnSetFolder').textContent = '重新设置项目文件夹';
+    list.querySelectorAll('.v3-path-copy').forEach(btn=>{
+      btn.addEventListener('click', async ()=>{
+        const path = btn.getAttribute('data-path') || '';
+        try {
+          await navigator.clipboard.writeText(path);
+          const orig = btn.textContent;
+          btn.textContent = '已复制 ✓';
+          setTimeout(()=>{ btn.textContent = orig; }, 1200);
+        } catch(e){
+          prompt('复制失败 · 请手动复制：', path);
+        }
+      });
+    });
   }
 
   function fileUrl(path){
@@ -583,22 +601,64 @@ body{background:var(--bg)}
       host.innerHTML = '<div class="v3-rtl-empty">该项目暂无研究报告 · 等待 research 代理推送</div>';
       return;
     }
-    host.innerHTML = CURRENT_REPORTS.map(r=>{
-      const cat = r.category || '未分类';
-      const url = resolveReportUrl(r);
-      const isLocalOnly = !url && (r.url||'').startsWith('file://');
-      return `
-        <div class="v3-rtl-i" data-url="${url||'#'}">
-          <div class="v3-rtl-cat"></div>
-          <div class="v3-rtl-date">${r.date}</div>
-          <span class="v3-rtl-cat-tag cat-${cat}">${cat}</span>
-          <div class="v3-rtl-title">
-            ${url?`<a href="${url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;border-bottom:1px dashed var(--border);padding-bottom:1px">${escapeHtml(r.title)}</a>`:`${escapeHtml(r.title)}${isLocalOnly?' <span style="font-size:10px;color:var(--ink-3);font-family:ui-monospace,monospace">· 本地文件</span>':''}`}
-          </div>
-          ${r.summary?`<div style="font-size:12px;color:var(--ink-2);margin-top:4px;font-family:var(--fsong);line-height:1.6;text-indent:0">${escapeHtml(r.summary.slice(0,200))}</div>`:''}
-        </div>
-      `;
+    const sorted = CURRENT_REPORTS.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    const groups = {};
+    sorted.forEach(r=>{
+      const key = (r.date || '—').slice(0,7) || '—';
+      (groups[key] = groups[key] || []).push(r);
+    });
+    const groupKeys = Object.keys(groups).sort((a,b)=>b.localeCompare(a));
+    let shown = 0;
+    const RECENT_LIMIT = 5;
+    let moreBtn = null;
+    const html = groupKeys.map(gKey=>{
+      const list = groups[gKey];
+      const rows = list.map(r=>{
+        const cat = r.category || '未分类';
+        const url = resolveReportUrl(r);
+        const isLocalOnly = !url && (r.url||'').startsWith('file://');
+        return `
+          <div class="v3-rtl-i" data-url="${url||'#'}">
+            <div class="v3-rtl-cat"></div>
+            <div class="v3-rtl-date">${r.date || '—'}</div>
+            <span class="v3-rtl-cat-tag cat-${cat}">${cat}</span>
+            <div class="v3-rtl-title">
+              ${url?`<a href="${url}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;border-bottom:1px dashed var(--border);padding-bottom:1px">${escapeHtml(r.title)}</a>`:`${escapeHtml(r.title)}${isLocalOnly?' <span style="font-size:10px;color:var(--ink-3);font-family:ui-monospace,monospace">· 项目内查看</span>':''}`}
+            </div>
+            ${r.summary?`<div style="font-size:12px;color:var(--ink-2);margin-top:4px;font-family:var(--fsong);line-height:1.6;text-indent:0">${escapeHtml(r.summary.slice(0,200))}</div>`:''}
+          </div>`;
+      }).join('');
+      shown += list.length;
+      return `<div class="v3-report-date-group" data-month="${gKey}"><div class="v3-report-date-head">📅 ${gKey}</div>${rows}</div>`;
     }).join('');
+
+    host.innerHTML = html;
+    let revealed = groupKeys.length;
+    if(groupKeys.length > 0){
+      const total = sorted.length;
+      if(total > RECENT_LIMIT){
+        const groupsEls = host.querySelectorAll('.v3-report-date-group');
+        groupsEls.forEach((g, i)=>{ if(i >= 1) g.classList.add('tl-hidden'); });
+        revealed = 1;
+        moreBtn = document.createElement('button');
+        moreBtn.type = 'button';
+        moreBtn.className = 'v3-btn v3-reports-more';
+        moreBtn.textContent = `展开全部 ${total} 份`;
+        moreBtn.addEventListener('click', ()=>{
+          const open = moreBtn.classList.toggle('is-open');
+          if(open){
+            groupsEls.forEach(g=>g.classList.remove('tl-hidden'));
+            revealed = groupKeys.length;
+            moreBtn.textContent = '收起';
+          } else {
+            groupsEls.forEach((g, i)=>{ if(i >= 1) g.classList.add('tl-hidden'); });
+            revealed = 1;
+            moreBtn.textContent = `展开全部 ${total} 份`;
+          }
+        });
+        host.appendChild(moreBtn);
+      }
+    }
     host.querySelectorAll('.v3-rtl-i').forEach(el=>{
       const url = el.dataset.url;
       if(url && url!=='#'){
