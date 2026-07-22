@@ -234,12 +234,13 @@ a{color:inherit;text-decoration:none}
 /* === v7.0 全息增强 === */
 
 
-.nav{background:rgba(4,8,26,0.75)!important;backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--border)!important;box-shadow:0 4px 20px rgba(0,0,0,0.4)}
-.nav-brand{color:var(--seal)!important;text-shadow:0 0 10px rgba(192,57,43,0.4)}
-.nav-logo{background:linear-gradient(135deg,var(--seal),var(--seal))!important;box-shadow:0 0 20px rgba(192,57,43,0.4)}
-.nav-links a{color:var(--ink-2);transition:color .2s}
-.nav-links a:hover,.nav-links a.active{color:var(--seal);text-shadow:0 0 8px rgba(192,57,43,0.6)}
-.nav-links a.active{border-bottom:2px solid var(--seal)}
+.nav{background:linear-gradient(180deg,rgba(255,252,240,0.96) 0%,rgba(255,252,240,0.85) 100%)!important;backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid rgba(192,57,43,0.18)!important;box-shadow:0 2px 12px rgba(184,134,11,0.08)}
+.nav-brand{color:var(--ink)!important;text-shadow:none}
+.nav-logo{background:linear-gradient(135deg,var(--seal) 0%,var(--gold) 100%)!important;box-shadow:0 2px 8px rgba(192,57,43,0.25)}
+.nav-links a{color:var(--ink-2);transition:color .2s;border-color:rgba(184,134,11,0.15);background:rgba(255,255,255,0.6)}
+.nav-links a:hover{color:var(--seal);border-color:var(--seal);background:rgba(255,255,255,0.9)}
+.nav-links a:hover,.nav-links a.active{text-shadow:none}
+.nav-links a.active{color:var(--paper);background:var(--seal);border-color:var(--seal);box-shadow:0 2px 6px rgba(192,57,43,0.25)}
 .theme-toggle{background:var(--panel);border:1px solid var(--border);color:var(--ink-2);border-radius:8px;padding:6px 10px;cursor:pointer}
 .hero{position:relative;z-index:1;background:var(--panel);border:1px solid var(--border);border-radius:var(--r-lg);padding:32px;margin:24px auto;max-width:1280px;backdrop-filter:blur(20px);box-shadow:var(--shadow-lg)}
 .hero h1{color:var(--ink);font-size:36px;background:linear-gradient(90deg,var(--seal),var(--seal));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
