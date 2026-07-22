@@ -99,14 +99,13 @@ body{background:var(--bg)}
 .v3-brief-lead{font-family:var(--fsong);font-size:11px;color:var(--ink-2);line-height:1.5;margin:4px 0 0;text-indent:2em}
 .v3-brief-progress-bar{height:5px;background:var(--bg-2);border-radius:3px;overflow:hidden;margin-bottom:5px;border:1px solid var(--border);position:relative}
 .v3-brief-progress-fill{height:100%;background:linear-gradient(90deg,var(--doc-rule) 0%,var(--seal) 50%,var(--seal-2) 100%);border-radius:3px;transition:width .6s cubic-bezier(.4,.2,.2,1);position:relative}
-.v3-brief-progress-fill::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,0.3) 50%,transparent 100%);animation:shimmer 2s infinite}
-@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+/* R172: 静态化 · 进度条 shimmer 无限动画移除 */
 .v3-brief-pending{background:var(--bg-2);border-radius:4px;padding:5px 9px;border-left:3px solid var(--blue)}
 .v3-brief-pending-h{font-family:var(--hei);font-size:11px;color:var(--ink);font-weight:700;margin-bottom:2px;letter-spacing:1px}
 .v3-brief-pending-body{font-family:var(--fsong);font-size:11px;color:var(--ink-2);line-height:1.5;text-indent:0}
 .v3-brief-downgrade{background:linear-gradient(180deg,rgba(192,57,43,0.04) 0%,rgba(192,57,43,0.02) 100%);border:1px solid rgba(192,57,43,0.2);border-radius:5px;padding:6px 10px}
 .v3-brief-downgrade .v3-brief-h{color:var(--seal)}
-.v3-brief-downgrade .v3-brief-h::before{background:var(--seal);box-shadow:0 0 8px rgba(192,57,43,0.4)}
+.v3-brief-downgrade .v3-brief-h::before{background:var(--seal)}
 .v3-brief-downgrade-body{font-family:var(--fsong);font-size:11px;color:var(--ink);line-height:1.55;text-indent:0;padding-left:5px}
 
 @media (max-width:760px){
