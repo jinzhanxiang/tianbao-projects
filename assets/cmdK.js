@@ -1,4 +1,4 @@
-// cmdK.js · v3.5 · ⌘K 全局命令面板 + counter-up + 3D 倾斜
+// cmdK.js · v3.6 · 全局命令面板 + 报告链接解析 + 页面转场
 // 由 index / page / detail / all_reports 4 页共享引入
 (function(){
   'use strict';
@@ -58,6 +58,15 @@
     bindTilt('.v3-ar-item');
     bindTilt('.v3-feed-card', {max: 4});
     bindTilt('.v3-entry', {max: 4});
+  }
+
+  function resolveReportUrl(report, code){
+    var raw = (report && report.url) || '';
+    if(raw && !raw.startsWith('file://')) return raw;
+    var project = (window.PROJECTS || []).find(function(p){ return p.code === code; });
+    var online = project && project.online_url ? project.online_url : '';
+    if(online && !online.includes('/tianbao-projects/')) return online;
+    return 'detail.html?code=' + encodeURIComponent(code) + '#secReports';
   }
 
   // ============ ⌘K 全局搜索面板 ============
@@ -129,7 +138,7 @@
             code: code,
             name: r.title || '(无标题)',
             sub: projName + ' · ' + (r.date||'') + ' · ' + (r.category||'未分类'),
-            url: r.url || ('detail.html?code=' + encodeURIComponent(code)),
+            url: resolveReportUrl(r, code),
             badge: r.category || '报告',
             emoji: '📄',
             keywords: (r.title + ' ' + projName + ' ' + (r.category||'')).toLowerCase()
@@ -285,7 +294,60 @@
     });
   }
 
-  // ============ 公开 API ============
+  function reducedMotion(){
+    return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+
+  function showIntro(){
+    if(reducedMotion()) return;
+    try {
+      if(sessionStorage.getItem('tianbao_intro_seen')) return;
+      sessionStorage.setItem('tianbao_intro_seen', '1');
+    } catch(e){}
+    var intro = document.createElement('div');
+    intro.className = 'tb-intro';
+    intro.setAttribute('aria-hidden', 'true');
+    intro.innerHTML = '<div class="tb-intro-grid"></div><div class="tb-intro-mark"><img src="assets/brand/tb-logo.svg" alt=""><div class="tb-intro-title">天保控股投资部</div><div class="tb-intro-sub">项目管理中心 · PROJECT REGISTRY</div><div class="tb-intro-line"><i></i></div><div class="tb-intro-ready">DATA READY</div></div>';
+    document.body.appendChild(intro);
+    requestAnimationFrame(function(){ intro.classList.add('is-running'); });
+    setTimeout(function(){
+      intro.classList.add('is-leaving');
+      setTimeout(function(){ intro.remove(); }, 320);
+    }, 760);
+  }
+
+  function bindPageTransitions(){
+    document.addEventListener('click', function(e){
+      var link = e.target.closest('a[href]');
+      if(!link || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      if(link.target === '_blank' || link.hasAttribute('download')) return;
+      var href = link.getAttribute('href') || '';
+      if(!href || href === '#' || href.startsWith('javascript:') || href.startsWith('file:')) return;
+      var next;
+      try { next = new URL(link.href, location.href); } catch(err){ return; }
+      if(next.origin !== location.origin) return;
+      if(next.pathname === location.pathname && next.search === location.search && next.hash) return;
+      e.preventDefault();
+      document.body.classList.add('tb-page-leaving');
+      setTimeout(function(){ location.href = next.href; }, reducedMotion() ? 0 : 220);
+    });
+  }
+
+  function bindRipples(){
+    document.addEventListener('pointerdown', function(e){
+      var host = e.target.closest('.v3-btn,.nav-links a,.v3-entry,.v3-card,.v3-ar-item,.v3-feed-card');
+      if(!host || reducedMotion()) return;
+      var rect = host.getBoundingClientRect();
+      var ripple = document.createElement('i');
+      ripple.className = 'tb-ripple';
+      ripple.style.left = (e.clientX - rect.left) + 'px';
+      ripple.style.top = (e.clientY - rect.top) + 'px';
+      host.appendChild(ripple);
+      setTimeout(function(){ ripple.remove(); }, 520);
+    });
+  }
+
+
   window.cmdK = {
     open: openPanel,
     close: closePanel,
@@ -293,19 +355,23 @@
     counterUp: counterUp,
     counterUpAll: counterUpAll,
     bindTilt: bindTilt,
-    tiltAll: tiltAll
+    tiltAll: tiltAll,
+    resolveReportUrl: resolveReportUrl
   };
 
   // 自动初始化
   function init(){
     bindKeys();
     bindInput();
-    // counter-up 首次执行（在 DOMContentLoaded 后由页面自己触发，确保 data-counter-up 已写入）
+    bindPageTransitions();
+    bindRipples();
     if(document.readyState !== 'loading'){
+      showIntro();
       setTimeout(counterUpAll, 200);
       setTimeout(tiltAll, 300);
     } else {
       document.addEventListener('DOMContentLoaded', function(){
+        showIntro();
         setTimeout(counterUpAll, 200);
         setTimeout(tiltAll, 300);
       });
