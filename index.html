@@ -19,7 +19,7 @@ body::before{
     radial-gradient(ellipse 800px 400px at 90% 100%,rgba(21,101,192,0.05),transparent 60%),
     radial-gradient(circle at 50% 50%,rgba(180,83,9,0.02),transparent 70%);
 }
-.v3-home{max-width:1320px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.v3-home{max-width:1320px;margin:0 auto;padding:0 24px 24px;position:relative;z-index:1;flex:0 0 auto!important;min-height:0!important}
 
 /* === 大标题分级放大（核心品牌 > 一级标题 > 二级标题） === */
 .nav-brand>div>div:first-child{
@@ -65,7 +65,7 @@ body::before{
 @keyframes holoLivePulse{0%,100%{box-shadow:0 0 8px #16A34A}50%{box-shadow:0 0 16px #16A34A,0 0 4px #16A34A}}
 
 /* === 单列布局：上方 4-指标条 + 下方雷达 + 右侧行业分布条 === */
-.v3-holo-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:10px;align-items:stretch;min-height:170px}
+.v3-holo-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;align-items:stretch;min-height:120px}
 
 /* === 上方 4-指标数据条（项目总数 / 行业 / 报告 / 平均进度） === */
 .v3-holo-pulse{
@@ -80,28 +80,22 @@ body::before{
 .v3-holo-stat-lbl{font-family:var(--hei);font-size:11px;color:var(--ink-2);font-weight:700;letter-spacing:3px;margin-top:3px;display:block}
 
 /* === 左：RADAR 主舞台 === */
-.v3-holo-radar-stage{
-  position:relative;display:flex;align-items:center;gap:10px;
+/* === 左：阶段进度分布（v3.7 替代雷达） === */
+.v3-holo-stages-stage{
+  position:relative;display:flex;flex-direction:column;gap:3px;
   padding:6px 8px 6px 12px;
   border-left:3px solid var(--seal);
   background:linear-gradient(135deg,rgba(192,57,43,.04) 0%,rgba(180,83,9,.02) 100%);
   border-radius:0 8px 8px 0;
   min-width:0;
 }
-.v3-holo-radar-h{position:absolute;top:4px;left:14px;font-family:var(--hei);font-size:12px;color:var(--seal);font-weight:800;letter-spacing:3px}
-.v3-holo-radar-h em{font-style:normal;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600;background:var(--paper);padding:1px 6px;border-radius:8px;margin-left:6px}
-.v3-holo-radar{position:relative;width:170px;height:140px;flex-shrink:0;margin-left:auto}
-.v3-holo-radar svg{width:100%;height:100%;overflow:visible}
-.radar-grid{fill:none;stroke:var(--border);stroke-width:.5;stroke-dasharray:2 2;opacity:.5}
-.radar-axis{stroke:var(--border);stroke-width:.5;opacity:.4}
-.radar-poly{fill:url(#radar-grad);fill-opacity:.45;stroke:var(--seal);stroke-width:1.8;filter:drop-shadow(0 0 6px rgba(192,57,43,.7));transform:scale(0);transform-origin:60px 50px;animation:radarPolyDraw 1.2s cubic-bezier(.4,.2,.2,1) forwards}
-.radar-vtx{fill:var(--seal);opacity:1;transform:scale(0);transform-origin:center;animation:vertexPop .6s cubic-bezier(.34,1.56,.64,1) forwards}
-@keyframes vertexPop{from{transform:scale(0);opacity:0}60%{transform:scale(1.4);opacity:1}to{transform:scale(1);opacity:1}}
-.radar-vtx-ring{fill:none;stroke:var(--seal);stroke-width:1;opacity:0;animation:vertexRing 1.8s ease-out infinite}
-@keyframes vertexRing{0%{r:1.5;opacity:.8}100%{r:8;opacity:0}}
-.radar-label{font-family:var(--hei);font-size:7px;font-weight:800;fill:var(--ink);letter-spacing:.2px}
-.radar-scan{fill:var(--seal);opacity:.4;animation:radarSweep 4s linear infinite;transform-origin:60px 50px}
-@keyframes radarSweep{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.v3-holo-stages-h{font-family:var(--hei);font-size:12px;color:var(--seal);font-weight:800;letter-spacing:3px;display:flex;justify-content:space-between;align-items:center;margin-bottom:2px;padding-bottom:3px;border-bottom:1px solid var(--border)}
+.v3-holo-stages-h em{font-style:normal;font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-3);font-weight:600}
+.v3-holo-stage-row{display:grid;grid-template-columns:24px 60px 1fr 28px 38px;gap:6px;align-items:center;font-family:var(--fsong);font-size:11px;color:var(--ink-2);font-weight:600;line-height:1.3;padding:2px 0;cursor:pointer;transition:.3s;border-radius:6px}
+.v3-holo-stage-row:hover{background:rgba(192,57,43,.04);transform:translateX(2px)}
+.v3-holo-stage-row .ic{font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;background:linear-gradient(135deg,var(--bc,var(--seal)) 0%,var(--bc-2,var(--gold)) 100%);border-radius:6px;color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,0.15));transition:.3s}
+.v3-holo-stage-row:hover .ic{transform:scale(1.1) rotate(-6deg);filter:drop-shadow(0 0 6px var(--bc,var(--seal)))}
+.v3-holo-stage-row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--hei);font-size:11px;font-weight:700;letter-spacing:1px;color:var(--ink)}
 
 /* === 右：行业分布条形图 === */
 .v3-holo-bars-stage{
@@ -121,6 +115,13 @@ body::before{
 @keyframes shineFlow{from{background-position:200% 0}to{background-position:-200% 0}}
 .v3-holo-bar-row .cnt{font-family:ui-monospace,monospace;color:var(--seal);font-weight:900;font-size:12px;text-align:right;text-shadow:0 0 6px rgba(192,57,43,.4)}
 
+/* 阶段分布行 · 复用 bar 样式 + pct 单独 */
+.v3-holo-stage-row .bar{position:relative;height:8px;background:var(--bg-2);border-radius:4px;overflow:hidden;box-shadow:inset 0 1px 1px rgba(0,0,0,.06)}
+.v3-holo-stage-row .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--bc,var(--seal)),var(--bc-2,var(--gold)));border-radius:4px;width:0;transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;box-shadow:0 0 6px var(--bc-glow,rgba(192,57,43,.4))}
+.v3-holo-stage-row .bar i::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,.5) 50%,transparent 100%);background-size:200% 100%;animation:shineFlow 2.6s linear infinite}
+.v3-holo-stage-row .cnt{font-family:ui-monospace,monospace;color:var(--ink);font-weight:900;font-size:12px;text-align:right}
+.v3-holo-stage-row .pct{font-family:ui-monospace,monospace;color:var(--bc,var(--seal));font-weight:900;font-size:11px;text-align:right;text-shadow:0 0 4px var(--bc-glow,rgba(192,57,43,.4))}
+
 /* === 旧 KPI 类样式 · 已废弃（display:none 兜底） === */
 .v3-kpi-grid,.v3-kpi,.v3-kpi-eyebrow,.v3-kpi-num-row,.v3-kpi-num,.v3-kpi-num-unit,.v3-kpi-num-ts,.v3-kpi-rows,.v3-kpi-row,.v3-kpi-meta,.v3-holo-core,.v3-holo-stages,.v3-holo-stages-h,.v3-holo-stage-bar,.v3-holo-stage-legend,.v3-holo-block,.v3-holo-donut-wrap,.v3-holo-donut,.v3-holo-donut-center,.v3-holo-donut-seg,.v3-holo-donut-bg{display:none}
 
@@ -133,26 +134,54 @@ body::before{
   position:relative;overflow:hidden;display:block;text-decoration:none;color:inherit;
   box-shadow:0 2px 6px rgba(0,0,0,0.03);
 }
-.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);transition:.3s}
-.v3-entry:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(0,0,0,0.1),0 2px 6px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal))}
+.v3-entry::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);transition:.3s;z-index:2}
+/* === 科幻动画 · 光扫扫描线 === */
+.v3-entry::after{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent 0%,var(--cat-color,var(--seal)) 50%,transparent 100%);opacity:0;transition:opacity .3s;pointer-events:none}
+.v3-entry:hover::after{opacity:.6;animation:entryScan 1.4s linear infinite}
+@keyframes entryScan{0%{transform:translateY(0)}100%{transform:translateY(120px)}}
+/* === 科幻动画 · 角落装饰角（4 角） === */
+.v3-entry .corner{position:absolute;width:10px;height:10px;border:1.5px solid var(--cat-color,var(--seal));opacity:0;transition:.3s;pointer-events:none}
+.v3-entry .corner.tl{top:3px;left:3px;border-right:none;border-bottom:none}
+.v3-entry .corner.tr{top:3px;right:3px;border-left:none;border-bottom:none}
+.v3-entry .corner.bl{bottom:3px;left:3px;border-right:none;border-top:none}
+.v3-entry .corner.br{bottom:3px;right:3px;border-left:none;border-top:none}
+.v3-entry:hover .corner{opacity:.7}
+/* === 科幻动画 · idle 边框呼吸 === */
+.v3-entry{animation:cardIn .5s cubic-bezier(.2,.8,.2,1) backwards,entryBreath 4s ease-in-out infinite}
+@keyframes entryBreath{0%,100%{box-shadow:0 2px 6px rgba(0,0,0,0.03),0 0 0 0 transparent}50%{box-shadow:0 2px 6px rgba(0,0,0,0.03),0 0 0 2px var(--cat-color,var(--seal))} }
+/* 各卡片错峰呼吸 */
+#entryP0{animation-delay:0s, .0s}
+#entryP1{animation-delay:.05s, 1.3s}
+#entryP2{animation-delay:.1s, 2.6s}
+
+.v3-entry:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(0,0,0,0.1),0 2px 6px var(--cat-color,var(--seal)),0 0 0 2px var(--cat-color,var(--seal));border-color:var(--cat-color,var(--seal));animation:entryBreath 4s ease-in-out infinite paused}
 .v3-entry:hover::before{width:8px;box-shadow:0 0 10px var(--cat-color,var(--seal))}
-.v3-entry-row1{display:flex;align-items:center;gap:8px;margin-bottom:2px}
+.v3-entry-row1{display:flex;align-items:center;gap:8px;margin-bottom:2px;position:relative;z-index:1}
 .v3-entry-icon{
   font-size:16px;line-height:1;display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
   background:linear-gradient(135deg,var(--cat-color,var(--seal)) 0%,var(--cat-color-2,var(--seal-2)) 100%);
   border-radius:6px;color:#fff;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.15));
-  transition:.3s;flex-shrink:0;
+  transition:.3s;flex-shrink:0;position:relative;
 }
-.v3-entry:hover .v3-entry-icon{transform:rotate(-6deg) scale(1.08)}
+/* icon 周围光晕环 */
+.v3-entry-icon::after{content:'';position:absolute;inset:-3px;border-radius:8px;border:1px solid var(--cat-color,var(--seal));opacity:0;transition:.3s;pointer-events:none}
+.v3-entry:hover .v3-entry-icon{transform:rotate(-8deg) scale(1.12);filter:drop-shadow(0 0 8px var(--cat-color,var(--seal)))}
+.v3-entry:hover .v3-entry-icon::after{opacity:.6;animation:iconPulse 1.2s ease-out infinite}
+@keyframes iconPulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.4);opacity:0}}
 .v3-entry-title{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:900;letter-spacing:3px;flex:1;min-width:0}
-.v3-entry-count{font-family:ui-monospace,monospace;font-size:14px;color:var(--cat-color,var(--seal));font-weight:900;flex-shrink:0;letter-spacing:-.3px}
+.v3-entry-count{font-family:ui-monospace,monospace;font-size:14px;color:var(--cat-color,var(--seal));font-weight:900;flex-shrink:0;letter-spacing:-.3px;position:relative;display:inline-block}
 .v3-entry-count small{font-family:var(--fsong);font-size:10px;color:var(--ink-3);font-weight:700;letter-spacing:1px;margin-left:2px}
-.v3-entry-meta{font-family:var(--fsong);font-size:10px;color:var(--ink-2);font-weight:600;line-height:1.3;letter-spacing:.2px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+/* count 数字辉光 */
+.v3-entry-count::before{content:attr(data-count);position:absolute;inset:0;color:var(--cat-color,var(--seal));filter:blur(6px);opacity:.4;pointer-events:none;z-index:-1}
+.v3-entry-meta{font-family:var(--fsong);font-size:10px;color:var(--ink-2);font-weight:600;line-height:1.3;letter-spacing:.2px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;position:relative;z-index:1}
 .v3-entry-meta b{font-family:ui-monospace,monospace;color:var(--ink);font-weight:900}
 .v3-entry-meta .sep{color:var(--border-strong);opacity:.4}
 .v3-entry-meta .ind-chip{display:inline-flex;align-items:center;gap:3px;padding:1px 6px;background:rgba(0,0,0,.04);border-radius:6px;font-weight:700;color:var(--cat-color);font-size:10px}
-.v3-entry-arrow{position:absolute;right:10px;bottom:8px;font-size:11px;color:var(--cat-color);font-weight:700;letter-spacing:.5px;opacity:0;transition:.3s}
-.v3-entry:hover .v3-entry-arrow{opacity:1;transform:translateX(2px)}
+/* === 进度环 · 占位 === */
+.v3-entry-progress{display:none}
+.v3-entry-arrow{position:absolute;right:10px;bottom:8px;font-size:11px;color:var(--cat-color);font-weight:700;letter-spacing:.5px;opacity:0;transition:.3s;z-index:1}
+.v3-entry:hover .v3-entry-arrow{opacity:1;transform:translateX(2px);animation:arrowBlink 1s ease-in-out infinite}
+@keyframes arrowBlink{0%,100%{opacity:1}50%{opacity:.4}}
 
 /* === v3-entry-body / ring / chips 系列已废弃 · meta 单行内联 === */
 
@@ -254,9 +283,6 @@ body::before{
   .v3-holo-stat-big{font-size:20px}
   .v3-holo-stat-lbl{font-size:9px;letter-spacing:1px}
   .v3-holo-grid{min-height:90px;gap:8px}
-  .v3-holo-radar{width:110px;height:88px}
-  .v3-holo-radar-h{font-size:11px;letter-spacing:2px}
-  .v3-holo-radar-h em{font-size:9px;padding:1px 5px}
   .v3-holo-bars-h{font-size:11px;padding-bottom:1px}
   .v3-holo-bar-row{font-size:9px;gap:4px}
   .v3-holo-bar-row .nm{font-size:10px}
@@ -294,7 +320,6 @@ body::before{
   .v3-holo-stat{padding:1px 3px 0;line-height:1}
   .v3-holo-stat-big{font-size:18px}
   .v3-holo-stat-lbl{font-size:8px;letter-spacing:1px;margin-top:1px}
-  .v3-holo-radar{width:90px;height:70px}
   .v3-holo-bars-h{font-size:10px;padding-bottom:1px}
   .v3-holo-bar-row{font-size:9px;gap:3px;padding:0}
   .v3-holo-bar-row .nm{font-size:9px}
@@ -384,9 +409,6 @@ body::before{
   .v3-holo-stat{padding:3px 3px 2px}
   .v3-holo-stat-big{font-size:20px}
   .v3-holo-stat-lbl{font-size:9px;letter-spacing:2px}
-  .v3-holo-radar{width:110px;height:88px}
-  .v3-holo-radar-h{font-size:10px;letter-spacing:2px}
-  .v3-holo-radar-h em{font-size:9px;padding:1px 5px}
   .v3-holo-bars-h{font-size:10px;letter-spacing:2px;padding-bottom:2px}
   .v3-holo-bar-row{font-size:9px;gap:4px;padding:0}
   .v3-holo-bar-row .nm{font-size:9px;letter-spacing:.5px}
@@ -445,7 +467,7 @@ body::before{
   </div>
 </nav>
 
-<div class="v3-home viewport-fit v3-grow">
+<div class="v3-home">
 
   <!-- 项目概况汇总 · 行业·项目分布 一体化全息面板（v3.5 精简版） -->
   <div class="v3-holo" id="holoPanel">
@@ -472,27 +494,12 @@ body::before{
         <span class="v3-holo-stat-lbl">平均进度%</span>
       </div>
     </div>
-    <!-- 下方主舞台：左雷达 + 右行业条形图 -->
+    <!-- 下方主舞台：阶段进度条 + 行业条形图（v3.7 去掉雷达，重复） -->
     <div class="v3-holo-grid">
-      <!-- 左：行业分布雷达 -->
-      <div class="v3-holo-radar-stage">
-        <div class="v3-holo-radar-h">🎯 行业·项目雷达<em id="holoRadarTotal">—</em></div>
-        <div class="v3-holo-radar">
-          <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet">
-            <defs>
-              <radialGradient id="radar-grad" cx="50%" cy="50%" r="50%">
-                <stop offset="0%" stop-color="var(--seal)" stop-opacity="0.55"/>
-                <stop offset="100%" stop-color="var(--gold)" stop-opacity="0.18"/>
-              </radialGradient>
-            </defs>
-            <g id="holoRadarGrid"></g>
-            <g id="holoRadarAxes"></g>
-            <polygon class="radar-poly" id="holoRadarPoly" points=""/>
-            <polygon class="radar-scan" id="holoRadarScan" points="60,50 60,12 60,50"/>
-            <g id="holoRadarVtx"></g>
-            <g id="holoRadarLabels"></g>
-          </svg>
-        </div>
+      <!-- 左：3 阶段进度分布 -->
+      <div class="v3-holo-stages-stage">
+        <div class="v3-holo-stages-h">🎯 阶段分布<em id="holoStagesTotal">—</em></div>
+        <div id="holoStagesList"></div>
       </div>
       <!-- 右：行业分布条形图 -->
       <div class="v3-holo-bars-stage">
@@ -508,28 +515,31 @@ body::before{
   <!-- 3 类入口 · 公文卡片（紧凑单行 · 标题+计数+meta） -->
   <div class="v3-entries">
     <a class="v3-entry" href="page.html?view=cat&cat=在推重点" id="entryP0" style="--cat-color:#C0392B;--cat-color-2:#E67E22">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
       <div class="v3-entry-row1">
         <div class="v3-entry-icon">🏛</div>
         <div class="v3-entry-title">在推重点</div>
-        <div class="v3-entry-count"><span id="cntP0N">0</span><small>项</small></div>
+        <div class="v3-entry-count" data-count="0"><span id="cntP0N">0</span><small>项</small></div>
       </div>
       <div class="v3-entry-meta" id="metaP0">载入中...</div>
       <div class="v3-entry-arrow">进入 →</div>
     </a>
     <a class="v3-entry" href="page.html?view=cat&cat=储备" id="entryP1" style="--cat-color:#1565C0;--cat-color-2:#0EA5E9">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
       <div class="v3-entry-row1">
         <div class="v3-entry-icon">📂</div>
         <div class="v3-entry-title">储备</div>
-        <div class="v3-entry-count"><span id="cntP1N">0</span><small>项</small></div>
+        <div class="v3-entry-count" data-count="0"><span id="cntP1N">0</span><small>项</small></div>
       </div>
       <div class="v3-entry-meta" id="metaP1">载入中...</div>
       <div class="v3-entry-arrow">进入 →</div>
     </a>
     <a class="v3-entry" href="page.html?view=cat&cat=观察" id="entryP2" style="--cat-color:#6B7280;--cat-color-2:#9CA3AF">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
       <div class="v3-entry-row1">
         <div class="v3-entry-icon">🔭</div>
         <div class="v3-entry-title">观察</div>
-        <div class="v3-entry-count"><span id="cntP2N">0</span><small>项</small></div>
+        <div class="v3-entry-count" data-count="0"><span id="cntP2N">0</span><small>项</small></div>
       </div>
       <div class="v3-entry-meta" id="metaP2">载入中...</div>
       <div class="v3-entry-arrow">进入 →</div>
@@ -658,65 +668,33 @@ body::before{
     document.getElementById('holoInds').setAttribute('data-counter-up', industries.length);
     document.getElementById('holoProgress').setAttribute('data-counter-up', avgProgress);
 
-    /* ===== 2. RADAR · 行业分布（左侧主舞台） ===== */
+    /* ===== 2. 3 阶段进度分布（左侧主舞台 · v3.7 新增替代雷达） ===== */
     const IND_PALETTE = ['var(--seal)','var(--gold)','#C0392B','#1565C0','#0EA5E9','#0D8050','#DC2626','#E67E22','#0891B2','#BE185D','#1E3A8A','#B45309'];
-    /* 凑齐 ≥5 个数据点（雷达要有足够轴数）· 不足则补「—」占位 */
-    const radarData = [...industries];
-    while(radarData.length<5 && industries.length>0){
-      radarData.push(['其他',0]);
-    }
-    const radarMax = Math.max(1, ...radarData.map(([_,c])=>c));
-    const radarN = radarData.length;
-    const radarCx = 60, radarCy = 50, radarR = 36;
-    const radarAngles = radarData.map((_, i)=>(-Math.PI/2) + (i/radarN)*(Math.PI*2));
-
-    /* Grid rings */
-    const gridHtml = [0.33, 0.67, 1].map(scale=>{
-      const pts = radarAngles.map(a=>`${(radarCx+radarR*scale*Math.cos(a)).toFixed(1)},${(radarCy+radarR*scale*Math.sin(a)).toFixed(1)}`).join(' ');
-      return `<polygon class="radar-grid" points="${pts}" />`;
+    const stageColors = {'在推重点':'#C0392B', '储备':'#1565C0', '观察':'#6B7280'};
+    const stageIcons  = {'在推重点':'🏛', '储备':'📂', '观察':'🔭'};
+    const stageList = ['在推重点','储备','观察'];
+    const stageData = stageList.map(s => {
+      const ps = PROJECTS.filter(p => p.stage_v3 === s);
+      const pct = ps.length ? Math.round(ps.reduce((sum, p) => sum + (p.progress_pct || 0), 0) / ps.length) : 0;
+      return {stage: s, count: ps.length, pct};
+    });
+    const stagesListEl = document.getElementById('holoStagesList');
+    const stagesMax = Math.max(1, ...stageData.map(s => s.count));
+    stagesListEl.innerHTML = stageData.map((s, i) => {
+      const c = stageColors[s.stage];
+      const c2 = i === 0 ? '#E67E22' : (i === 1 ? '#0EA5E9' : '#9CA3AF');
+      const w = (s.count / stagesMax * 100).toFixed(1);
+      const pctW = s.pct.toFixed(0);
+      return `<div class="v3-holo-stage-row" data-stage="${s.stage}">
+        <span class="ic">${stageIcons[s.stage]}</span>
+        <span class="nm">${s.stage}</span>
+        <span class="bar"><i style="width:${w}%;--bc:${c};--bc-2:${c2};--bc-glow:${c}55"></i></span>
+        <span class="cnt">${s.count}</span>
+        <span class="pct">${pctW}%</span>
+      </div>`;
     }).join('');
-    document.getElementById('holoRadarGrid').innerHTML = gridHtml;
-
-    /* Axes */
-    const axesHtml = radarAngles.map(a=>`<line class="radar-axis" x1="${radarCx}" y1="${radarCy}" x2="${(radarCx+radarR*Math.cos(a)).toFixed(1)}" y2="${(radarCy+radarR*Math.sin(a)).toFixed(1)}" />`).join('');
-    document.getElementById('holoRadarAxes').innerHTML = axesHtml;
-
-    /* Scan triangle · 从中心指向第一个轴 */
-    const scanA0 = radarAngles[0];
-    document.getElementById('holoRadarScan').setAttribute('points', `${radarCx},${radarCy} ${(radarCx+radarR*Math.cos(scanA0)).toFixed(1)},${(radarCy+radarR*Math.sin(scanA0)).toFixed(1)} ${radarCx},${radarCy}`);
-
-    /* Data polygon */
-    const polyPts = radarData.map(([_,v],i)=>{
-      const a = radarAngles[i];
-      const radius = (v/radarMax) * radarR;
-      return `${(radarCx+radius*Math.cos(a)).toFixed(1)},${(radarCy+radius*Math.sin(a)).toFixed(1)}`;
-    }).join(' ');
-    document.getElementById('holoRadarPoly').setAttribute('points', polyPts);
-    document.getElementById('holoRadarPoly').style.animation = 'radarPolyDraw 1.2s cubic-bezier(.4,.2,.2,1) forwards';
-
-    /* Vertex rings (animated) */
-    const vtxHtml = radarData.map(([_,v],i)=>{
-      if(v===0) return '';
-      const a = radarAngles[i];
-      const radius = (v/radarMax) * radarR;
-      const vx = radarCx + radius*Math.cos(a);
-      const vy = radarCy + radius*Math.sin(a);
-      return `<circle class="radar-vtx-ring" cx="${vx.toFixed(1)}" cy="${vy.toFixed(1)}" r="1.5" style="animation-delay:${i*200}ms"/>
-              <circle class="radar-vtx" cx="${vx.toFixed(1)}" cy="${vy.toFixed(1)}" r="2.2" style="animation-delay:${300+i*150}ms"/>`;
-    }).join('');
-    document.getElementById('holoRadarVtx').innerHTML = vtxHtml;
-
-    /* Labels (轴外标签) */
-    const labelsHtml = radarData.map(([n,v],i)=>{
-      const a = radarAngles[i];
-      const lx = radarCx + (radarR+10) * Math.cos(a);
-      const ly = radarCy + (radarR+10) * Math.sin(a);
-      const anchor = (Math.cos(a)>0.3?'start':(Math.cos(a)<-0.3?'end':'middle'));
-      return `<text class="radar-label" x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" dominant-baseline="middle">${n}</text>`;
-    }).join('');
-    document.getElementById('holoRadarLabels').innerHTML = labelsHtml;
-
-    document.getElementById('holoRadarTotal').textContent = `${industries.length} 行业 · ${PROJECTS.length} 项目`;
+    const stagesTotal = stageData.reduce((sum, s) => sum + s.count, 0);
+    document.getElementById('holoStagesTotal').textContent = `${stagesTotal} 项目 · ${PROJECTS.length - stagesTotal > 0 ? '+' + (PROJECTS.length - stagesTotal) + ' 隐藏' : '已全收录'}`;
 
     /* ===== 3. 行业分布条形图（右侧主舞台） ===== */
     const topN = Math.min(8, industries.length);
@@ -767,20 +745,17 @@ body::before{
     if(window.cmdK) window.cmdK.counterUpAll();
   }
 
-  /* CSS animations for donut sectors (keyframes via JS, avoid registering in CSS for legacy code) */
+  /* CSS animations for stages row entrance (v3.7 替代 radarPolyDraw) */
   (function(){
     if(document.getElementById('holoAnimStyle')) return;
     const s = document.createElement('style');
     s.id = 'holoAnimStyle';
     s.textContent = `
-      @keyframes donutDraw{
-        from{stroke-dasharray:0 var(--donut-c, ${(2*Math.PI*48).toFixed(2)})}
-        to{stroke-dasharray:var(--donut-d,0) var(--donut-c,0)}
-      }
-      @keyframes radarPolyDraw{
-        from{transform:scale(0);transform-origin:60px 50px;opacity:0}
-        to{transform:scale(1);opacity:1}
-      }
+      @keyframes stageRowIn{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:translateX(0)}}
+      .v3-holo-stage-row{animation:stageRowIn .5s cubic-bezier(.2,.8,.2,1) backwards}
+      .v3-holo-stage-row:nth-child(1){animation-delay:.05s}
+      .v3-holo-stage-row:nth-child(2){animation-delay:.18s}
+      .v3-holo-stage-row:nth-child(3){animation-delay:.31s}
     `;
     document.head.appendChild(s);
   })();
@@ -791,6 +766,9 @@ body::before{
       const ps = PROJECTS.filter(p=>p.stage_v3===s);
       const cntN = ps.length;
       document.getElementById('cntP'+gi+'N').textContent = cntN;
+      /* 同步 data-count 给辉光层 */
+      const cntHost = document.querySelector('#entryP'+gi+' .v3-entry-count');
+      if(cntHost) cntHost.setAttribute('data-count', String(cntN));
 
       /* 进度估算（按当前 stage + 平均 progress_pct） */
       let pct;
