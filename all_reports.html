@@ -138,8 +138,8 @@ body{background:var(--bg)}
     const code = u.get('code');
     if(code){
       CURRENT_FILTER.proj = code;
-      document.getElementById('bcName').textContent = `${(PROJECTS.find(p=>p.code===code)||{}).name_cn || code} · 所有报告`;
-      document.getElementById('navActive').textContent = '📚 该项目报告';
+      const navA = document.getElementById('navActive');
+      if(navA) navA.textContent = '📚 该项目报告';
     }
   }
 
