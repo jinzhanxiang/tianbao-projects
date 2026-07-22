@@ -51,7 +51,7 @@ body::before{
 /* === 项目概况汇总 · 行业·项目分布 一体化全息面板（v3.5 精简版） === */
 .v3-holo{
   position:relative;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%);
-  border:1px solid var(--border);border-radius:14px;padding:5px 12px 6px;margin-bottom:3px;
+  border:1px solid var(--border);border-radius:14px;padding:4px 12px 5px;margin-bottom:2px;
   box-shadow:0 4px 14px rgba(0,0,0,.06),inset 0 0 0 1px rgba(124,58,237,.05);
   display:flex;flex-direction:column;gap:3px;overflow:hidden;
 }
@@ -59,7 +59,7 @@ body::before{
 .v3-holo::after{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:repeating-linear-gradient(90deg,#7C3AED 0 12px,transparent 12px 24px);opacity:.4;animation:holoScan 3.5s linear infinite}
 @keyframes holoScan{from{transform:translateX(0)}to{transform:translateX(-24px)}}
 
-.v3-holo-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:0 0 4px;border-bottom:1px solid var(--border);position:relative}
+.v3-holo-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:0 0 2px;border-bottom:1px solid var(--border);position:relative}
 .v3-holo-head h2{font-family:var(--hei);font-size:18px;color:var(--ink);font-weight:900;margin:0;letter-spacing:4px;display:flex;align-items:center;gap:8px;line-height:1}
 .v3-holo-head h2::before{content:'◆';font-size:16px;color:#7C3AED;filter:drop-shadow(0 0 6px rgba(124,58,237,.6));animation:lightningPulse 1.8s ease-in-out infinite}
 @keyframes lightningPulse{0%,100%{transform:scale(1) rotate(0);opacity:1}50%{transform:scale(1.15) rotate(60deg);opacity:.85}}
@@ -73,11 +73,11 @@ body::before{
 /* === 上方 4-指标数据条（项目总数 / 行业 / 报告 / 平均进度） === */
 .v3-holo-pulse{
   display:grid;grid-template-columns:repeat(4,1fr);gap:8px;
-  padding:4px 4px;border-bottom:1px dashed var(--border);margin-bottom:4px;
+  padding:2px 4px;border-bottom:1px dashed var(--border);margin-bottom:2px;
 }
-.v3-holo-stat{position:relative;padding:5px 4px 4px;text-align:center;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,.4) 0%,transparent 100%);transition:.3s;overflow:hidden}
+.v3-holo-stat{position:relative;padding:4px 4px 3px;text-align:center;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,.4) 0%,transparent 100%);transition:.3s;overflow:hidden}
 .v3-holo-stat::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:60%;height:2px;background:var(--hc,#7C3AED);box-shadow:0 0 8px var(--hc,#7C3AED);border-radius:1px}
-.v3-holo-stat-big{font-family:var(--hei);font-size:26px;font-weight:900;color:var(--hc,#7C3AED);line-height:1;letter-spacing:-1.5px;position:relative;display:block;animation:numGlow 2.4s ease-in-out infinite;transition:transform .35s}
+.v3-holo-stat-big{font-family:var(--hei);font-size:24px;font-weight:900;color:var(--hc,#7C3AED);line-height:1;letter-spacing:-1.5px;position:relative;display:block;animation:numGlow 2.4s ease-in-out infinite;transition:transform .35s}
 @keyframes numGlow{0%,100%{text-shadow:0 0 0 transparent}50%{text-shadow:0 0 14px var(--hc-glow,rgba(124,58,237,.5)),0 0 4px var(--hc-glow,rgba(124,58,237,.3))}}
 .v3-holo-stat:hover .v3-holo-stat-big{transform:scale(1.08)}
 .v3-holo-stat-lbl{font-family:var(--hei);font-size:11px;color:var(--ink-2);font-weight:700;letter-spacing:3px;margin-top:3px;display:block}
