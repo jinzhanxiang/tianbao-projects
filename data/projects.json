@@ -196,7 +196,7 @@
       "repo": "hongyuan-report",
       "local_folder": "~/Desktop/储备项目/宏远创信/",
       "folder_alias": "",
-      "report_count": 2,
+      "report_count": 3,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "宏远创信（硬科技·新材料）· 初步分析阶段 · 详见报告库",
@@ -529,7 +529,7 @@
       {
         "code": "hongyuan",
         "name_cn": "宏远创信",
-        "count": 2
+        "count": 3
       },
       {
         "code": "innoshine",
@@ -561,7 +561,7 @@
       {
         "code": "hongyuan",
         "name_cn": "宏远创信",
-        "count": 2
+        "count": 3
       },
       {
         "code": "huayt",
@@ -696,20 +696,6 @@
         "name_cn": "华东数控",
         "count": 2
       }
-    ],
-    "基建": [
-      {
-        "code": "tianbao-jijian",
-        "name_cn": "天保基建",
-        "count": 1
-      }
-    ],
-    "母公司": [
-      {
-        "code": "tianbao-jijian",
-        "name_cn": "天保基建",
-        "count": 1
-      }
     ]
   },
   "stage_matrix": {
@@ -720,8 +706,7 @@
       ],
       "上市": [
         "aodian",
-        "huadong-sk",
-        "tianbao-jijian"
+        "huadong-sk"
       ],
       "REITs": [
         "unicom-idc",
