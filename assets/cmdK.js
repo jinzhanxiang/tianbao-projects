@@ -135,6 +135,7 @@
         var proj = (window.PROJECTS || []).find(function(x){return x.code===code;});
         var projName = proj ? proj.name_cn : code;
         (REPORTS[code] || []).forEach(function(r){
+          if(r._archived) return;  // 底库项目报告不入主搜索
           _index.push({
             kind: 'report',
             code: code,
