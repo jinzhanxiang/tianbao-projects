@@ -87,6 +87,28 @@
 @keyframes cntIn{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 
+/* === 新增 · HUD 增强关键帧 === */
+@keyframes scanLine{
+  0%{transform:translateY(-100%);opacity:0}
+  8%{opacity:.9}
+  92%{opacity:.9}
+  100%{transform:translateY(100%);opacity:0}
+}
+@keyframes hudBracketBlink{
+  0%,100%{opacity:.35}
+  50%{opacity:.95}
+}
+@keyframes accentDotBlink{
+  0%,100%{transform:scale(1);opacity:1;box-shadow:0 0 0 3px var(--row-glow,transparent),0 0 10px var(--row-color,var(--sk-blue))}
+  50%{transform:scale(.85);opacity:.5;box-shadow:0 0 0 6px var(--row-glow,transparent),0 0 14px var(--row-color,var(--sk-blue))}
+}
+@keyframes cellCountGlitch{
+  0%{transform:translateY(-2px) scale(.9);opacity:0;filter:blur(1px)}
+  60%{transform:translateY(1px) scale(1.05);opacity:1;filter:blur(0)}
+  100%{transform:translateY(0) scale(1);opacity:1}
+}
+@keyframes ringRotate{to{transform:rotate(360deg)}}
+
 *{box-sizing:border-box}
 body{
   background:var(--sk-bg)!important;
@@ -174,6 +196,16 @@ body{
   background:var(--sk-blue)!important;color:#fff!important;
   box-shadow:0 4px 14px rgba(0,121,221,0.30);
 }
+/* === Pill · 底部扫描光带 === */
+.v3-stage-pill{position:relative;overflow:hidden}
+.v3-stage-pill::after{
+  content:'';position:absolute;left:0;right:0;bottom:0;height:2px;
+  background:linear-gradient(90deg,transparent,rgba(0,121,221,.55),transparent);
+  background-size:200% 100%;
+  opacity:0;transition:opacity .2s;
+}
+.v3-stage-pill:hover::after{opacity:1;animation:flowRight 1.6s linear infinite}
+.v3-stage-pill.active::after{opacity:1;background:linear-gradient(90deg,transparent,rgba(255,255,255,.75),transparent);animation:flowRight 1.8s linear infinite}
 .v3-stage-pill.active .v3-pill-cnt{background:rgba(255,255,255,0.25);color:#fff}
 .v3-pill-icon{font-size:18px;line-height:1}
 .v3-pill-cnt{
@@ -243,6 +275,19 @@ body{
   pointer-events:none;
 }
 
+/* === 矩阵外框 · 4 角 HUD 支架 === */
+.v3-mw-corner{
+  position:absolute;width:24px;height:24px;
+  border-style:solid;border-color:var(--sk-blue);
+  opacity:0;transition:opacity .35s ease;pointer-events:none;
+  z-index:5;
+}
+.v3-matrix-wrap:hover .v3-mw-corner{opacity:.75;animation:hudBracketBlink 2.4s ease-in-out infinite}
+.v3-mw-corner.tl{top:-1px;left:-1px;border-width:2px 0 0 2px;border-top-left-radius:14px;box-shadow:-2px -2px 10px rgba(0,121,221,.25)}
+.v3-mw-corner.tr{top:-1px;right:-1px;border-width:2px 2px 0 0;border-top-right-radius:14px;box-shadow:2px -2px 10px rgba(0,121,221,.25)}
+.v3-mw-corner.bl{bottom:-1px;left:-1px;border-width:0 0 2px 2px;border-bottom-left-radius:14px;box-shadow:-2px 2px 10px rgba(0,121,221,.25)}
+.v3-mw-corner.br{bottom:-1px;right:-1px;border-width:0 2px 2px 0;border-bottom-right-radius:14px;box-shadow:2px 2px 10px rgba(0,121,221,.25)}
+
 /* === 矩阵网格 === */
 .v3-matrix{
   display:grid;
@@ -270,6 +315,15 @@ body{
   background:linear-gradient(180deg,var(--sk-blue),var(--sk-blue-2));
   box-shadow:0 0 8px rgba(0,121,221,0.4);
   flex-shrink:0;
+}
+.v3-matrix-h{overflow:hidden}
+/* 列头 · 斜光扫描 */
+.v3-matrix-h::after{
+  content:'';position:absolute;top:0;left:-50%;width:60%;height:100%;
+  background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,.55) 50%,transparent 100%);
+  transform:skewX(-20deg) translateX(-100%);
+  animation:cellBgSweep 7s ease-in-out infinite;
+  pointer-events:none;
 }
 .v3-matrix-h .col-icon{font-size:20px;line-height:1;flex-shrink:0}
 .v3-matrix-h .col-label{flex:1;font-weight:800;letter-spacing:.2px}
@@ -299,6 +353,15 @@ body{
 .v3-matrix-row-h .row-sub{font-size:12px;color:var(--sk-ink-3);font-weight:500;letter-spacing:.3px}
 .v3-matrix-row-h:hover{background:var(--sk-blue-softer)!important}
 .v3-matrix-row-h:hover .row-name{transform:translateX(3px);transition:.2s}
+/* 行头 · 右上角脉冲点（阶段色） */
+.v3-matrix-row-h::after{
+  content:'';position:absolute;right:14px;top:50%;transform:translateY(-50%);
+  width:6px;height:6px;border-radius:50%;
+  background:var(--row-color);
+  box-shadow:0 0 0 3px var(--row-glow,transparent),0 0 10px var(--row-color);
+  animation:accentDotBlink 2s ease-in-out infinite;
+  pointer-events:none;
+}
 
 /* === Cell · 阶段色卡 === */
 .v3-cell{
@@ -342,6 +405,27 @@ body{
 }
 .v3-cell.empty-cell::before,.v3-cell.empty-cell::after{display:none}
 
+/* === Cell · 4 角 HUD + 扫描线 === */
+.v3-cell-corner{
+  position:absolute;width:14px;height:14px;
+  border-style:solid;border-color:var(--cell-color-strong);
+  opacity:0;transition:opacity .35s ease;pointer-events:none;
+  z-index:2;
+}
+.v3-cell:hover .v3-cell-corner{opacity:.9;animation:hudBracketBlink 2s ease-in-out infinite}
+.v3-cell-corner.tl{top:-1px;left:-1px;border-width:1.5px 0 0 1.5px;border-top-left-radius:8px}
+.v3-cell-corner.tr{top:-1px;right:-1px;border-width:1.5px 1.5px 0 0;border-top-right-radius:8px}
+.v3-cell-corner.bl{bottom:-1px;left:-1px;border-width:0 0 1.5px 1.5px;border-bottom-left-radius:8px}
+.v3-cell-corner.br{bottom:-1px;right:-1px;border-width:0 1.5px 1.5px 0;border-bottom-right-radius:8px}
+
+.v3-cell-scan{
+  position:absolute;left:0;right:0;top:0;height:2px;
+  background:linear-gradient(90deg,transparent 0%,var(--cell-color-strong) 50%,transparent 100%);
+  opacity:0;pointer-events:none;z-index:2;
+  border-radius:18px 18px 0 0;
+}
+.v3-cell:hover .v3-cell-scan{opacity:.85;animation:scanLine 2.4s ease-in-out infinite}
+
 /* Cell 头 */
 .v3-cell-h{
   font-family:'PingFang SC','Outfit',sans-serif!important;
@@ -363,8 +447,10 @@ body{
   padding:2px 12px!important;border-radius:var(--sk-radius-pill)!important;
   font-variant-numeric:tabular-nums;
   min-width:36px;text-align:center;
-  animation:cntIn .4s cubic-bezier(.2,1.4,.4,1) backwards;
+  animation:cntIn .4s cubic-bezier(.2,1.4,.4,1) backwards, cellCountGlitch .55s cubic-bezier(.2,1.4,.4,1) backwards;
+  animation-delay:0s,.35s;
   box-shadow:0 0 0 2px var(--cell-color);
+  position:relative;z-index:1;
 }
 .v3-cell-toggle{font-size:14px!important;color:var(--sk-ink-3)!important;transition:.2s;cursor:pointer;width:20px;text-align:center}
 .v3-cell-toggle:hover{color:var(--cell-color-strong)}
@@ -400,6 +486,18 @@ body{
   transform:translateX(3px) translateY(-1px);
   box-shadow:0 6px 18px var(--cell-glow);
 }
+/* === Card · 4 角 HUD === */
+.v3-card-corner{
+  position:absolute;width:10px;height:10px;
+  border-style:solid;border-color:var(--cell-color-strong);
+  opacity:0;transition:opacity .25s ease;pointer-events:none;
+  z-index:2;
+}
+.v3-card:hover .v3-card-corner{opacity:1}
+.v3-card-corner.tl{top:-1px;left:-1px;border-width:1.5px 0 0 1.5px;border-top-left-radius:5px}
+.v3-card-corner.tr{top:-1px;right:-1px;border-width:1.5px 1.5px 0 0;border-top-right-radius:5px}
+.v3-card-corner.bl{bottom:-1px;left:-1px;border-width:0 0 1.5px 1.5px;border-bottom-left-radius:5px}
+.v3-card-corner.br{bottom:-1px;right:-1px;border-width:0 1.5px 1.5px 0;border-bottom-right-radius:5px}
 .v3-card-row1{
   display:flex;align-items:center;gap:10px;
   position:relative;z-index:1;
@@ -660,6 +758,10 @@ body{
 
   <!-- 3×3 矩阵 -->
   <section class="v3-matrix-wrap v3-hud">
+    <span class="v3-mw-corner tl"></span>
+    <span class="v3-mw-corner tr"></span>
+    <span class="v3-mw-corner bl"></span>
+    <span class="v3-mw-corner br"></span>
     <div class="v3-matrix" id="matrix">
       <!-- 顶行：表头 -->
       <div class="v3-matrix-h col-tag"></div>
@@ -836,6 +938,16 @@ body{
       c.classList.remove('preview-limited');
       c.classList.remove('preview-open');
       c.classList.remove('empty-cell');
+      // 注入 HUD 4 角 + 扫描线（仅一次）
+      if(!c.querySelector('.v3-cell-corner')){
+        c.insertAdjacentHTML('beforeend',
+          '<span class="v3-cell-corner tl"></span>'+
+          '<span class="v3-cell-corner tr"></span>'+
+          '<span class="v3-cell-corner bl"></span>'+
+          '<span class="v3-cell-corner br"></span>'+
+          '<span class="v3-cell-scan"></span>'
+        );
+      }
     });
 
     // 按 v3 stage_v3 / iss 分类（pill 筛选优先于 URL cat · 二者择一）
@@ -919,6 +1031,10 @@ body{
     const industry = p.industry || '—';
     const progress = p.progress_pct || 0;
     a.innerHTML = `
+      <span class="v3-card-corner tl"></span>
+      <span class="v3-card-corner tr"></span>
+      <span class="v3-card-corner bl"></span>
+      <span class="v3-card-corner br"></span>
       <div class="v3-card-row1">
         <span class="v3-card-emoji">${emoji}</span>
         <span class="v3-card-main">${p.name_cn||p.code}</span>
