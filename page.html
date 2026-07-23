@@ -121,10 +121,10 @@ body{
 
 /* 导航 */
 .nav{background:rgba(255,255,255,0.85)!important;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--sk-line)!important}
-.nav-brand>div>div:first-child{font-size:40px!important;letter-spacing:-0.5px!important;line-height:1.1!important;font-weight:800!important;background:linear-gradient(90deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;-webkit-background-clip:text!important;-webkit-text-fill-color:transparent!important;background-clip:text!important}
-.nav-brand-sub{font-size:15px!important;font-weight:500!important;color:var(--sk-ink-2)!important;margin-top:6px!important}
-.nav-logo{width:56px!important;height:56px!important;border-radius:16px!important;background:linear-gradient(135deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;box-shadow:0 4px 12px rgba(0,121,221,0.30)!important}
-.nav-logo-fallback{width:56px;height:56px;font-size:26px;border-radius:16px}
+.nav-brand>div>div:first-child{font-size:24px!important;letter-spacing:-0.3px!important;line-height:1.2!important;font-weight:800!important;color:#000000!important;-webkit-text-fill-color:#000000!important;background:none!important;-webkit-background-clip:initial!important;background-clip:initial!important}
+.nav-brand-sub{font-size:14px!important;font-weight:500!important;color:var(--sk-ink-2)!important;margin-top:4px!important}
+.nav-logo{width:88px!important;height:88px!important;border-radius:8px!important;background:#ffffff!important;box-shadow:0 2px 8px rgba(0,0,0,0.08)!important;object-fit:contain;padding:4px}
+.nav-logo-fallback{width:88px;height:88px;font-size:24px;border-radius:8px;background:#ffffff;color:#000}
 .nav-links a,.nav-current{font-size:16px!important;font-weight:600!important;padding:8px 16px!important;border-radius:var(--sk-radius-pill)!important;color:var(--sk-ink-2)!important}
 .nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important}
 .nav-current{background:var(--sk-blue)!important;color:#fff!important}
@@ -691,10 +691,10 @@ body{
 <nav class="nav">
   <div class="nav-inner">
     <a class="nav-brand" href="index.html">
-      <img class="nav-logo" src="assets/brand/tb-logo.svg" alt="TB" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <img class="nav-logo" src="assets/brand/tb-logo.jpg" alt="天保控股 T&B HOLDING" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <div class="nav-logo-fallback" style="display:none">保</div>
       <div>
-        <div>天保控股投资部 · 项目管理中心</div>
+        <div>投资业务 · 项目管理中心</div>
         <div class="nav-brand-sub">分类矩阵 · 3 阶段 × 3 类型<span class="sep">·</span>支持拖拽项目在 9 单元格间移动</div>
       </div>
     </a>
