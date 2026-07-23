@@ -941,11 +941,9 @@ body::before{display:none}
     /* ===== 头部状态栏 · 数据快照（由 loadData 统一管理 · 此处不再覆盖） ===== */
     /* 仅在数据非空时刷新，确保 loadData 中的"加载中/重试"提示不被覆盖 */
     if(PROJECTS.length > 0){
-      const archNote = _archivedCnt
-        ? ` · <span style="color:#6B7280" title="${(window.ARCHIVED||[]).map(p=>p.name_cn).join('·')} 母公司存档不入矩阵">底库 ${_archivedCnt} 个</span>`
-        : '';
+      /* 底库项目不入 UI · 不显示 "底库 N 个" 注脚 */
       document.getElementById('holoMeta').innerHTML =
-        `<b>${PROJECTS.length}</b> 项目${archNote} · <b>${totalR}</b> 报告 · <b>${industries.length}</b> 行业`;
+        `<b>${PROJECTS.length}</b> 项目 · <b>${totalR}</b> 报告 · <b>${industries.length}</b> 行业`;
     }
 
     /* === 3 类入口 === */
