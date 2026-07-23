@@ -115,8 +115,9 @@
   function rebuildIndex(){
     _index = [];
     try {
-      // 项目
+      // 项目（隐藏 archived 底库项目，避免主搜索结果混入）
       (window.PROJECTS || []).forEach(function(p){
+        if(p.archived) return;
         _index.push({
           kind: 'project',
           code: p.code,
