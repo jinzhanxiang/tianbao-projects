@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T03:49:48+08:00",
+  "generated_at": "2026-07-23T08:39:24+08:00",
   "source": "project_ledger.csv (v3 schema)",
-  "rows": 14,
+  "rows": 19,
   "stage_v3_enum": [
     "在推重点",
     "储备",
@@ -28,7 +28,7 @@
       "repo": "xingheng-report",
       "local_folder": "~/Documents/OpenClaw-workspace-Projects/2、星恒电源项目/",
       "folder_alias": "",
-      "report_count": 16,
+      "report_count": 12,
       "progress_pct": 35,
       "contacts": "天保控股投资部",
       "brief_md": "星恒电源（动力电池·新能源）· 已立项阶段 · 详见报告库",
@@ -54,7 +54,7 @@
       "repo": "jngd-report",
       "local_folder": "~/Desktop/储备项目/晶能光电/",
       "folder_alias": "",
-      "report_count": 3,
+      "report_count": 10,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "晶能光电（硬科技·新材料）· 初步分析阶段 · 详见报告库",
@@ -210,7 +210,7 @@
       "repo": "hongyuan-report",
       "local_folder": "~/Desktop/储备项目/宏远创信/",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 2,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "宏远创信（硬科技·新材料）· 初步分析阶段 · 详见报告库",
@@ -288,7 +288,7 @@
       "repo": "7projects-summary",
       "local_folder": "~/Desktop/储备项目/拟收购上市公司研究/",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 3,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "收购上市公司研究（收购研究·上市公司）· 研究阶段阶段 · 详见报告库",
@@ -314,7 +314,7 @@
       "repo": "7projects-summary",
       "local_folder": "~/Documents/OpenClaw-workspace-Projects/1、启源芯项目/",
       "folder_alias": "",
-      "report_count": 2,
+      "report_count": 1,
       "progress_pct": 15,
       "contacts": "天保控股投资部",
       "brief_md": "启源芯动力（新能源汽车·电驱）· 暂停跟踪阶段 · 详见报告库",
@@ -340,7 +340,7 @@
       "repo": "huitian-network-report",
       "local_folder": "~/Desktop/储备项目/汇天网络科技/",
       "folder_alias": "",
-      "report_count": 0,
+      "report_count": 7,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "汇天科技（数据·云 · IDC）· 初步分析阶段 · 详见报告库",
@@ -376,6 +376,136 @@
       "last_update": "2026-07-21",
       "notes": "2026-07-21 由投资部新增：上市公司（储备·上市公司），reports.json 中已有 1 份《华阳集团_投资可行性分析报告_v2_20260719》",
       "pending_tasks": "部署独立仓库 + 整理本地原始材料"
+    },
+    {
+      "code": "htco-us",
+      "name_cn": "High-Trend International",
+      "name_full": "High-Trend International Group（NASDAQ: HTCO）",
+      "category": "特殊归档",
+      "stage": "研究阶段",
+      "stage_v3": "观察",
+      "iss": "上市",
+      "industry": "美国中概股·跨境物流",
+      "online_url": "",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/htco-ire-delivery-plan/",
+      "repo": "",
+      "local_folder": "",
+      "folder_alias": "",
+      "report_count": 13,
+      "progress_pct": 20,
+      "contacts": "天保控股投资部",
+      "brief_md": "High-Trend International（美国中概股·跨境物流）· 研究阶段阶段 · 详见报告库",
+      "estimation": "—",
+      "downgrade_reason": "市值管理合规敏感，建议仅作内部参考",
+      "deploy_date": "2026",
+      "last_update": "2026-07-23",
+      "notes": "R176 新增：与航天宏图同名不同公司，原 13 份 HTCO_IRE/创新方案报告从 htco 迁出单独归档",
+      "pending_tasks": "需与投资部确认是否纳入主中心"
+    },
+    {
+      "code": "aodian",
+      "name_cn": "奥联电子",
+      "name_full": "南京奥联汽车电子电器股份有限公司（300585.SZ）",
+      "category": "重大并购",
+      "stage": "已立项",
+      "stage_v3": "在推重点",
+      "iss": "上市",
+      "industry": "汽车电子",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=aodian",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=aodian",
+      "repo": "",
+      "local_folder": "~/Desktop/储备项目/奥联电子/",
+      "folder_alias": "",
+      "report_count": 3,
+      "progress_pct": 35,
+      "contacts": "天保控股投资部",
+      "brief_md": "奥联电子（汽车电子）· 已立项阶段 · 详见报告库",
+      "estimation": "9.40 亿（DCF 8.16 + PS 13.30 + PB 6.67）",
+      "downgrade_reason": "—",
+      "deploy_date": "2026-07-22",
+      "last_update": "2026-07-23",
+      "notes": "R176 新增：3 份 V4.1 报告 + 自检报告",
+      "pending_tasks": "需以最新股价重测估值区间"
+    },
+    {
+      "code": "huadong-sk",
+      "name_cn": "华东数控",
+      "name_full": "华东数控（002248.SZ）",
+      "category": "重大并购",
+      "stage": "初步分析",
+      "stage_v3": "在推重点",
+      "iss": "上市",
+      "industry": "硬科技·资本运作",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=huadong-sk",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=huadong-sk",
+      "repo": "",
+      "local_folder": "~/Desktop/储备项目/华东数控/",
+      "folder_alias": "",
+      "report_count": 2,
+      "progress_pct": 20,
+      "contacts": "天保控股投资部",
+      "brief_md": "华东数控（硬科技·资本运作）· 初步分析阶段 · 详见报告库",
+      "estimation": "—",
+      "downgrade_reason": "—",
+      "deploy_date": "2026-07-22",
+      "last_update": "2026-07-23",
+      "notes": "R176 新增：2 份报告（Phase 1 执行计划 + 可行性研究）",
+      "pending_tasks": "需补充可比交易与监管口径"
+    },
+    {
+      "code": "tianbao-jijian",
+      "name_cn": "天保基建",
+      "name_full": "天保基建（000965.SZ）",
+      "category": "重大并购",
+      "stage": "独立尽调",
+      "stage_v3": "在推重点",
+      "iss": "上市",
+      "industry": "基建·母公司",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
+      "repo": "",
+      "local_folder": "~/Desktop/储备项目/天保基建/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 20,
+      "contacts": "天保控股投资部",
+      "brief_md": "天保基建（基建·母公司）· 独立尽调阶段 · 详见报告库",
+      "estimation": "—",
+      "downgrade_reason": "—",
+      "deploy_date": "2026-07-13",
+      "last_update": "2026-07-23",
+      "notes": "R176 新增：1 份独立深度尽调",
+      "pending_tasks": "与基建医药/芯片二选一框架协同"
+    },
+    {
+      "code": "unicom-sx",
+      "name_cn": "联通云山西",
+      "name_full": "联通云（山西）IDC 项目",
+      "category": "重大并购",
+      "stage": "已立项",
+      "stage_v3": "在推重点",
+      "iss": "REITs",
+      "industry": "数据·云 · IDC",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=unicom-sx",
+      "dashboard_url": "",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=unicom-sx",
+      "repo": "",
+      "local_folder": "~/Desktop/储备项目/联通云项目-山西/",
+      "folder_alias": "",
+      "report_count": 5,
+      "progress_pct": 35,
+      "contacts": "天保控股投资部",
+      "brief_md": "联通云山西（数据·云 · IDC）· 已立项阶段 · 详见报告库",
+      "estimation": "—",
+      "downgrade_reason": "—",
+      "deploy_date": "2026-07-22",
+      "last_update": "2026-07-23",
+      "notes": "R176 新增：5 份报告（Phase 2 估值底稿 + V4.1 主报告 + v3.51 主报告 + 增量章节 + 完整版）",
+      "pending_tasks": "需补充机柜上架率与客户结构"
     }
   ],
   "industries": {
@@ -383,14 +513,14 @@
       {
         "code": "xingheng",
         "name_cn": "星恒电源",
-        "count": 16
+        "count": 12
       }
     ],
     "新能源": [
       {
         "code": "xingheng",
         "name_cn": "星恒电源",
-        "count": 16
+        "count": 12
       },
       {
         "code": "xunchao",
@@ -402,7 +532,7 @@
       {
         "code": "jngd",
         "name_cn": "晶能光电",
-        "count": 3
+        "count": 10
       },
       {
         "code": "zhongfu",
@@ -417,7 +547,7 @@
       {
         "code": "hongyuan",
         "name_cn": "宏远创信",
-        "count": 1
+        "count": 2
       },
       {
         "code": "innoshine",
@@ -428,13 +558,18 @@
         "code": "huayt",
         "name_cn": "华阳集团",
         "count": 1
+      },
+      {
+        "code": "huadong-sk",
+        "name_cn": "华东数控",
+        "count": 2
       }
     ],
     "新材料": [
       {
         "code": "jngd",
         "name_cn": "晶能光电",
-        "count": 3
+        "count": 10
       },
       {
         "code": "zhongfu",
@@ -444,7 +579,7 @@
       {
         "code": "hongyuan",
         "name_cn": "宏远创信",
-        "count": 1
+        "count": 2
       },
       {
         "code": "huayt",
@@ -473,7 +608,12 @@
       {
         "code": "huitian",
         "name_cn": "汇天科技",
-        "count": 0
+        "count": 7
+      },
+      {
+        "code": "unicom-sx",
+        "name_cn": "联通云山西",
+        "count": 5
       }
     ],
     "云": [
@@ -485,7 +625,12 @@
       {
         "code": "huitian",
         "name_cn": "汇天科技",
-        "count": 0
+        "count": 7
+      },
+      {
+        "code": "unicom-sx",
+        "name_cn": "联通云山西",
+        "count": 5
       }
     ],
     "芯片": [
@@ -506,35 +651,82 @@
       {
         "code": "acquisition-listed",
         "name_cn": "收购上市公司研究",
-        "count": 1
+        "count": 3
       }
     ],
     "上市公司": [
       {
         "code": "acquisition-listed",
         "name_cn": "收购上市公司研究",
-        "count": 1
+        "count": 3
       }
     ],
     "新能源汽车": [
       {
         "code": "qiyuanxin",
         "name_cn": "启源芯动力",
-        "count": 2
+        "count": 1
       }
     ],
     "电驱": [
       {
         "code": "qiyuanxin",
         "name_cn": "启源芯动力",
-        "count": 2
+        "count": 1
       }
     ],
     "IDC": [
       {
         "code": "huitian",
         "name_cn": "汇天科技",
-        "count": 0
+        "count": 7
+      },
+      {
+        "code": "unicom-sx",
+        "name_cn": "联通云山西",
+        "count": 5
+      }
+    ],
+    "美国中概股": [
+      {
+        "code": "htco-us",
+        "name_cn": "High-Trend International",
+        "count": 13
+      }
+    ],
+    "跨境物流": [
+      {
+        "code": "htco-us",
+        "name_cn": "High-Trend International",
+        "count": 13
+      }
+    ],
+    "汽车电子": [
+      {
+        "code": "aodian",
+        "name_cn": "奥联电子",
+        "count": 3
+      }
+    ],
+    "资本运作": [
+      {
+        "code": "huadong-sk",
+        "name_cn": "华东数控",
+        "count": 2
+      }
+    ],
+    "基建": [
+      {
+        "code": "tianbao-jijian",
+        "name_cn": "天保基建",
+        "count": 1
+      }
+    ],
+    "母公司": [
+      {
+        "code": "tianbao-jijian",
+        "name_cn": "天保基建",
+        "count": 1
       }
     ]
   },
@@ -544,9 +736,14 @@
         "jngd",
         "hongyuan"
       ],
-      "上市": [],
+      "上市": [
+        "aodian",
+        "huadong-sk",
+        "tianbao-jijian"
+      ],
       "REITs": [
-        "unicom-idc"
+        "unicom-idc",
+        "unicom-sx"
       ]
     },
     "储备": {
@@ -569,7 +766,9 @@
         "xingheng",
         "qiyuanxin"
       ],
-      "上市": [],
+      "上市": [
+        "htco-us"
+      ],
       "REITs": [
         "huitian"
       ]
