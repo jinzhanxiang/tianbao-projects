@@ -310,7 +310,7 @@
     var intro = document.createElement('div');
     intro.className = 'tb-intro';
     intro.setAttribute('aria-hidden', 'true');
-    intro.innerHTML = '<div class="tb-intro-grid"></div><div class="tb-intro-mark"><img src="assets/brand/tb-logo.svg" alt=""><div class="tb-intro-title">天保控股投资部</div><div class="tb-intro-sub">项目管理中心 · PROJECT REGISTRY</div><div class="tb-intro-line"><i></i></div><div class="tb-intro-ready">DATA READY</div></div>';
+    intro.innerHTML = '<div class="tb-intro-grid"></div><div class="tb-intro-mark"><img src="assets/brand/tb-logo.jpg" alt=""><div class="tb-intro-title">天保控股投资部</div><div class="tb-intro-sub">项目管理中心 · PROJECT REGISTRY</div><div class="tb-intro-line"><i></i></div><div class="tb-intro-ready">DATA READY</div></div>';
     document.body.appendChild(intro);
     requestAnimationFrame(function(){ intro.classList.add('is-running'); });
     setTimeout(function(){
