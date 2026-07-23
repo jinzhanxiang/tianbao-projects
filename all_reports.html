@@ -435,9 +435,12 @@ body{
       PROJECTS = (await p.json()).projects || [];
       const _rp = await r.json();
       REPORTS = _rp.by_code || {};
-      /* 隔离区过滤 */
+      /* 隔离区过滤 + 底库项目 _archived 标记过滤 */
       const _qc = _rp.quarantine_codes || [];
       _qc.forEach(c => { delete REPORTS[c]; });
+      Object.keys(REPORTS).forEach(c => {
+        REPORTS[c] = (REPORTS[c] || []).filter(r => !r._archived);
+      });
     } catch(e){
       console.error('数据加载失败', e);
       PROJECTS = []; REPORTS = {};
