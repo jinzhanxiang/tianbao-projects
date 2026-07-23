@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:03:13+08:00",
+  "generated_at": "2026-07-23T16:37:21+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 62,
@@ -15,7 +15,19 @@
         "source": "www.haikou.gov.cn",
         "date": "2026-07-23",
         "score": 5.5,
-        "query": "柯渡医学 新闻 2026"
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "医学装备管理服务提供商柯渡医学科技完成近6000...",
+        "summary": "发，柯渡医学科技具备业内少见的医院全科室设备服务能力。 2016年3月，柯渡医学科技获国药基金B轮融资；2014年12月，柯渡医学科技获WISE ADMIRAL LIMITED的A轮投资。",
+        "url": "https://tech.sina.com.cn/roll/2019-12-16/doc-iihnzahi7918847.shtml",
+        "source": "tech.sina.com.cn",
+        "date": "2026-07-23",
+        "score": 5.5,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       },
       {
         "code": "kedu",
@@ -25,18 +37,6 @@
         "summary": "上海柯渡医学科技股份有限公司是国内领先的医院医学装备资产管理服务商，为医院医学装备从引进论证、验收、安装、调试、使用、日常巡检、定期保养、故障.",
         "url": "https://shpt.gov.cn/zlcxj-quji/20230620/902262.html",
         "source": "shpt.gov.cn",
-        "date": "2026-07-23",
-        "score": 4.5,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "柯渡医学 | 项目信息-36氪",
-        "summary": "项目简介. 柯渡医学科技股份有限公司（简称“柯渡医学”）是一家医学装备管理服务商，专注于提供医院资产管理解决方案。工商全称. 上海柯渡医学科技股份有限公司.",
-        "url": "https://pitchhub.36kr.com/project/1817538219231110",
-        "source": "pitchhub.36kr.com",
         "date": "2026-07-23",
         "score": 4.5,
         "query": "\"柯渡医学\" 公告 签约 中标 投资"
@@ -93,13 +93,327 @@
         "code": "xinhong",
         "company": "信鸿医疗",
         "industry": "医疗健康",
-        "title": "新闻中心-天津信鸿医疗科技股份有限公司",
-        "summary": "信鸿医疗 信鸿医疗. 新闻中心. 公司新闻News.总共：99 条文章， 当前：1/10 页. 天津信鸿医疗科技股份有限公司. 地址：天津市东丽区华明高新技术产业区EOD总部港B02-8号.",
-        "url": "https://tj-xhkj.com/news_10.html",
-        "source": "tj-xhkj.com",
+        "title": "天津信鸿医疗科技股份有限公司",
+        "summary": "新三板，简称：信鸿医疗。医疗机构提供JMI/VMI和SPD服务。",
+        "url": "https://tjkinghood.com/home_1.html",
+        "source": "tjkinghood.com",
         "date": "2026-07-23",
         "score": 3.0,
         "query": "信鸿医疗 新闻 2026"
+      }
+    ],
+    "硬科技": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "元旭半导体取得LED直显投影显示屏及LED显示模块专利，降低组装难度",
+        "summary": "国家知识产权局信息显示，元旭半导体科技（无锡）有限公司取得一项名为“一种LED直显投影显示屏及LED显示模块”的专利，授权公告号CN223638094U，申请日期为2024.本文为AI基于第三方数据生成，仅供参考，不构成个人投资建议。",
+        "url": "https://www.163.com/dy/article/KG97A5TD0519QIKK.html",
+        "source": "www.163.com",
+        "date": "2026-07-23",
+        "score": 5.5,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "晶能光电突破创新拥抱城市照明-电子发烧友网",
+        "summary": "在封装工艺方面，晶能光电亦有所突破，推出复合材料反射碗杯结构CSP技术，这是一种无支架封装形式。专利布局方面，晶能光电是中国LED产业唯一具有完整核心专利和布局的企业。",
+        "url": "https://m.elecfans.com/article/695637.html",
+        "source": "m.elecfans.com",
+        "date": "2026-07-23",
+        "score": 4.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "晶能光电：大中小企业融通可使企业成本下降20%以上-电子发烧友网",
+        "summary": "“粗略统计，通过大中小企业融通，企业成本预计可下降20%以上。 ”12月6日，在中国照明与显示技术创新峰会暨中国创新创业大赛国际第三代半导体专业赛（简称“大赛”） 东南赛区决赛暨颁奖典礼现场，LED知名企业晶能光.",
+        "url": "https://m.elecfans.com/article/830530.html",
+        "source": "m.elecfans.com",
+        "date": "2026-07-23",
+        "score": 4.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "看来是真的!晶能光电或上演蛇吞象传奇_新浪家居",
+        "summary": "晶能光电被报一下\"玩\"出两个大动作，若真如此，似乎可以梳理出这样一条脉络--多年痴迷专注耕耘硅衬底LED芯片技术的晶能光电意欲借助资本力量.",
+        "url": "https://jiaju.sina.com.cn/news/20150327/409584.shtml",
+        "source": "jiaju.sina.com.cn",
+        "date": "2026-07-23",
+        "score": 4.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "海泰发展(600082.SH)：元旭半导体正在加快推动MicroLED产业化布局",
+        "summary": "新闻. 国内.海泰发展(600082.SH)：元旭半导体正在加快推动MicroLED产业化布局.",
+        "url": "https://www.163.com/dy/article/JJ2L8FB905198ETO.html",
+        "source": "www.163.com",
+        "date": "2026-07-23",
+        "score": 4.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "晶能光电完成二轮4000万美元融资",
+        "summary": "晶能光电曾于去年4月首轮融资1000万美元，投资方包括GSR、Mayfield以及永威投资。 今年2月，晶能光电“硅衬底发光二极管材料与器件”一期工程正式开工。",
+        "url": "https://www.alighting.cn/news/2007621/V5619.htm",
+        "source": "www.alighting.cn",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "唐华 - 六盘水宏远创信建筑劳务有限公司 - 法定代表人/高管/股东 - 爱企查",
+        "summary": "一、唐华担任职务： 唐华目前担任六盘水宏远创信建筑劳务有限公司法定代表人，同时担任六盘水宏远创信建筑劳务有限公司执行董事兼总经理； 二、唐华.立案信息0. 法院公告0. 开庭公告0. 裁判文书0.",
+        "url": "https://aiqicha.baidu.com/person?personId=1f7b22064ae994526c193dbd86208067",
+        "source": "aiqicha.baidu.com",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "元旭半导体发布量产玻璃基Micro LED屏-电子工程专辑",
+        "summary": "据介绍，此次发布的元旭半导体MOG（Micro-LED on Glass）显示屏将RGB像素直接集成于玻璃基板之上，通过在超平整玻璃上应用超精密半导体技术，将主芯片尺寸缩小.",
+        "url": "https://www.eet-china.com/mp/a446654.html",
+        "source": "www.eet-china.com",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "元旭半导体_投资界：播报元旭半导体投资并购动态",
+        "summary": "元旭半导体. 元旭半导体最新资讯，投资界全方位播报元旭半导体相关话题,全面解读元旭半导体投资、融资、并购等动态。",
+        "url": "https://www.pedaily.cn/tag/439429/",
+        "source": "www.pedaily.cn",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "硬科技",
+        "title": "中标公示_中国东莞麻涌镇栏目",
+        "summary": "项目法人：东莞市麻涌镇华阳股份经济联合社. 招标人：东莞市麻涌镇华阳股份经济联合社. 招标代理机构：东莞市骏华建设工程咨询有限公司. 最高报价：419,610.96元. 单列措施费：31,141.73元.",
+        "url": "https://www.dg.gov.cn/machong/zbxx/nzjy/content/post_4243103.html",
+        "source": "www.dg.gov.cn",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "\"华阳\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控：公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+        "summary": "现阶段新产品收入占公司营业收入比例较小，短期内不会对公司经营业绩产生重大影响，未来订单放量与业绩贡献存在较大不确定性。 敬请投资者理性看待单一订单影响，注意投资风险。 感谢您对华东数控（002248）的关注！",
+        "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+        "source": "yuanchuang.10jqka.com.cn",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控002248——半导体磨床已交付，打开半导体设备业绩增长曲线",
+        "summary": "6月15日中标记录 已被公司董秘确认. 圆台磨床成功中标半导体行业客户采购.半导体专用设备毛利率普遍在40-60%之间，远高于传统机床业务的20-30%。 如果华东数控能够成功切入半导体磨床市场，其整体盈利能力将大幅提升。",
+        "url": "https://www.jiuyangongshe.com/a/2gpa3acr6bw",
+        "source": "www.jiuyangongshe.com",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "news.qq.com/rain/a/20260629A078ET00",
+        "summary": "【财华社讯】6月29日，华东数控(002248.SZ)在互动平台表示，公司新产品圆台磨床近日已成功中标半导体行业客户采购项目，此次四台设备是公司首次小批量订.",
+        "url": "https://news.qq.com/rain/a/20260629A078ET00",
+        "source": "news.qq.com",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控分析师会议-20260515 - Reportify",
+        "summary": "为华东数控，所属行业是通用设备，接待时间为2026 - 05 - 15，上市公司接待人员有财务总监肖崔英和董事会秘书刘璐 [17] 详细调研机构 - 接待对象类型包括投资.",
+        "url": "https://reportify.cn/reports/1252813968762867712",
+        "source": "reportify.cn",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "硬科技",
+        "title": "直击科创板医疗器械行业集体业绩说明会：“硬科技”与AI融合加速",
+        "summary": "从盈利表现来看，2025年，受集采深化、行业调整等因素影响，上述22家公司中，13家公司归母净利润同比出现不同程度的下滑；进入2026年一季度，随着政策预期.",
+        "url": "https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002jyro",
+        "source": "cj.sina.com.cn",
+        "date": "2026-07-23",
+        "score": 3.5,
+        "query": "硬科技 行业 政策 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "硬科技",
+        "title": "163.com/dy/article/KQ7OK75K0519QIKK.html",
+        "summary": "中复碳芯取得光伏边框连接结构专利，提高光伏边框加工的稳定性,光伏,专利,电缆,边框,高精度,中复碳芯,科技有限公司.每日经济新闻 2026-04-15 22:56:08.",
+        "url": "https://www.163.com/dy/article/KQ7OK75K0519QIKK.html",
+        "source": "www.163.com",
+        "date": "2026-07-23",
+        "score": 3.0,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "硬科技",
+        "title": "finance.sina.com.cn/roll/2025-02-13/doc-inekieue0841033.shtml",
+        "summary": "岳清瑞院士助力中复碳芯引领碳纤维复合材料产业新篇章.这一举措标志着中复碳芯在科学技术创新及产学研深度融合等方面迈出了重要一步，将为公司未来持续发展注入强劲动力。 中复碳芯副总经理王志伟代表公司向岳院士颁发聘书。 来源:中复碳芯.",
+        "url": "https://finance.sina.com.cn/roll/2025-02-13/doc-inekieue0841033.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "2026-07-23",
+        "score": 3.0,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "硬科技",
+        "title": "三一重能入股中复碳芯 | 界面新闻",
+        "summary": "三一重能入股中复碳芯.打开界面新闻APP，查看原文. 打开界面新闻，查看更多专业报道.",
+        "url": "https://m.jiemian.com/article/12037116_microcontent.html",
+        "source": "m.jiemian.com",
+        "date": "2026-07-23",
+        "score": 3.0,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "163.com/dy/article/JU8H7E160519QIKK.html",
+        "summary": "迅巢科技申请负载平衡新能源电池能效优化专利，解决电池能效优化问题,专利,新能源,电池组,迅巢科技,能效优化,固态电池,科技有限公司.每日经济新闻 2026-05-21 11:17:36.",
+        "url": "https://www.163.com/dy/article/JU8H7E160519QIKK.html",
+        "source": "www.163.com",
+        "date": "2026-07-23",
+        "score": 3.0,
+        "query": "迅巢 新闻 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "迅巢新能源资产管理系统",
+        "summary": "加载中...",
+        "url": "https://manager.ienergon.com/",
+        "source": "manager.ienergon.com",
+        "date": "2026-07-23",
+        "score": 3.0,
+        "query": "迅巢 新闻 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "北京迅巢科技有限公司 - 迅巢科技 - 爱企查",
+        "summary": "北京迅巢科技有限公司认领. 迅巢科技. 开业小微企业高新技术企业(2023)专精特新中小企业. 法定代表人：秦蕴凯. 注册资本：5,000万(元).新浪微博. 更新时间：2026-03-28. 北京迅巢科技有限公司 北京迅巢科技有限公司.",
+        "url": "https://aiqicha.baidu.com/company_detail_96178514978184",
+        "source": "aiqicha.baidu.com",
+        "date": "2026-07-23",
+        "score": 3.0,
+        "query": "迅巢 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "北京宏远创信能源科技有限公司",
+        "summary": "北京宏远创信能源科技有限公司，成立于2015-11-11年，位于北京省。 企业注册资本8700万人民币。企业名称: 北京宏远创信能源科技有限公司.",
+        "url": "http://jinghongyuan.com/company/20557651",
+        "source": "jinghongyuan.com",
+        "date": "2026-07-23",
+        "score": 3.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "硬科技",
+        "title": "【成都华阳公租房合同】-安居客房产问答",
+        "summary": "成都华阳公租房合同. 成都华阳公租房合同相关问题解答，安居客房产经纪人、置业顾问会帮您分析成都华阳公租房合同相关问题，帮您解决房产问题。",
+        "url": "https://www.anjuke.com/qa/hot-239906/",
+        "source": "www.anjuke.com",
+        "date": "2026-07-23",
+        "score": 3.0,
+        "query": "\"华阳\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "宁夏：1家售电公司因连续12...",
+        "summary": "北极星售电网获悉，宁夏电力交易中心发布关于对连续12个月未进行实际交易的售电公司暂停交易资格的公告，北京宏远创信能源科技有限公司自2024. 年8月7日起暂停参与宁夏电力市场交易资格，重新参与交易前须再次进行公示。 详情如下：",
+        "url": "https://m.bjx.com.cn/mnews/20240808/1393759.shtml",
+        "source": "m.bjx.com.cn",
+        "date": "2026-07-23",
+        "score": 2.5,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "硬科技",
+        "title": "cls.cn/detail/2074795",
+        "summary": "目前，正与兴业信托积极协商和解方案，并将持续履行信息披露义务以保障投资者权益。华阳新材公告，公司控股股东的托管方华阳新材料科技集团有限公司因2021年未经同意划转上市公司资金11.264亿元，构成非经营性资金占用，拟被处以400. 万元罚款",
+        "url": "https://www.cls.cn/detail/2074795",
+        "source": "www.cls.cn",
+        "date": "2026-07-23",
+        "score": 2.5,
+        "query": "\"华阳\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "硬科技",
+        "title": "11月22日盘前早报 热点事件关注-韭研公社",
+        "summary": "2、华阳变速：同花顺11月21日新增新能源汽车概念。三、涨停事件. 1、公告涨停. 大千生态：11月5日公告，控股股东拟由大千投资变更为苏州步步高.",
+        "url": "https://www.jiuyangongshe.com/a/6f3cb5xq5s",
+        "source": "www.jiuyangongshe.com",
+        "date": "2026-07-23",
+        "score": 2.5,
+        "query": "\"华阳\" 公告 签约 中标 投资"
       }
     ],
     "航天遥感": [
@@ -131,6 +445,18 @@
         "code": "htco",
         "company": "航天宏图",
         "industry": "航天遥感",
+        "title": "从“不达标”到“离不开” 航天宏图啃下航天遥感基础软件硬骨头",
+        "summary": "从“不达标”到“离不开” 航天宏图啃下航天遥感基础软件硬骨头. 2019-08-08 07:52:37 来源：上海证券报 作者：温婷. 航天宏图董事长 王宇翔. 宇宙任翱翔、航天展宏图——航天宏图董事长王宇翔仿佛注定了要和天空结缘。",
+        "url": "https://news.cnstock.com/kcb,tt-201908-4413272.htm",
+        "source": "news.cnstock.com",
+        "date": "2026-07-23",
+        "score": 5.5,
+        "query": "\"航天宏图\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "htco",
+        "company": "航天宏图",
+        "industry": "航天遥感",
         "title": "蹊跷！ “先涨后说”？ 航天宏图29亿大单信披疑云_腾讯新闻",
         "summary": "航天宏图9月5日分时交易图. 与此同时，一篇报道开始传播。 报道称，9月4日，鹤壁市商业航天产业的龙头企业航天宏图信息技术股份有限公司在北京举行的第二届中国-巴基斯坦B2B投资峰会上，与巴基斯坦.",
         "url": "https://news.qq.com/rain/a/20250908A08EBS00",
@@ -138,18 +464,6 @@
         "date": "2026-07-23",
         "score": 4.5,
         "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "htco",
-        "company": "航天宏图",
-        "industry": "航天遥感",
-        "title": "航天宏图获101...",
-        "summary": "航天宏图1月26日发布投资者关系活动记录表，公司于2026年1月26日接受101家机构调研，机构类型为QFII、保险公司、其他、基金公司、证券公司、阳光私募机构。",
-        "url": "https://xueqiu.com/S/SH688066/373266206",
-        "source": "xueqiu.com",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "航天宏图 新闻 2026"
       }
     ],
     "汽车电子": [
@@ -252,332 +566,6 @@
         "query": "天保基建 新闻 2026"
       }
     ],
-    "硬科技": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "晶能光电突破创新拥抱城市照明-电子发烧友网",
-        "summary": "在封装工艺方面，晶能光电亦有所突破，推出复合材料反射碗杯结构CSP技术，这是一种无支架封装形式。专利布局方面，晶能光电是中国LED产业唯一具有完整核心专利和布局的企业。",
-        "url": "https://m.elecfans.com/article/695637.html",
-        "source": "m.elecfans.com",
-        "date": "2026-07-23",
-        "score": 4.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "晶能光电：大中小企业融通可使企业成本下降20%以上-电子发烧友网",
-        "summary": "“粗略统计，通过大中小企业融通，企业成本预计可下降20%以上。 ”12月6日，在中国照明与显示技术创新峰会暨中国创新创业大赛国际第三代半导体专业赛（简称“大赛”） 东南赛区决赛暨颁奖典礼现场，LED知名企业晶能光.",
-        "url": "https://m.elecfans.com/article/830530.html",
-        "source": "m.elecfans.com",
-        "date": "2026-07-23",
-        "score": 4.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "看来是真的!晶能光电或上演蛇吞象传奇_新浪家居",
-        "summary": "晶能光电被报一下\"玩\"出两个大动作，若真如此，似乎可以梳理出这样一条脉络--多年痴迷专注耕耘硅衬底LED芯片技术的晶能光电意欲借助资本力量.",
-        "url": "https://jiaju.sina.com.cn/news/20150327/409584.shtml",
-        "source": "jiaju.sina.com.cn",
-        "date": "2026-07-23",
-        "score": 4.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "硬科技",
-        "title": "北京迅巢申请BMS...",
-        "summary": "金融界2025年4月25日消息，国家知识产权局信息显示，北京迅巢科技有限公司申请一项名为“BMS中电芯失效预测的深度学习方法及装置”的专利，公开号.央视新闻客户端 2026-05-24 23:31:08.",
-        "url": "https://www.163.com/dy/article/JU0LCPNL0519QIKK.html",
-        "source": "www.163.com",
-        "date": "2026-07-23",
-        "score": 4.5,
-        "query": "迅巢 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "海泰发展(600082.SH)：元旭半导体正在加快推动MicroLED产业化布局",
-        "summary": "新闻. 国内.海泰发展(600082.SH)：元旭半导体正在加快推动MicroLED产业化布局.",
-        "url": "https://www.163.com/dy/article/JJ2L8FB905198ETO.html",
-        "source": "www.163.com",
-        "date": "2026-07-23",
-        "score": 4.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "163.com/dy/article/J7V41D040530WJIN.html",
-        "summary": "理。 其中，中复碳芯电缆科技有限公司（下称“中复碳芯”）上榜。 公告显示，中复碳芯供国网陕西公司的架空绝缘导线，2021年6月抽检发现II级质量问题，积2分，已延长挂网1年，验收仍未通过。中国新闻周刊 2026-04-27 14:25:00",
-        "url": "https://www.163.com/dy/article/J7V41D040530WJIN.html",
-        "source": "www.163.com",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "中复碳芯 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "光触媒消毒产品走红，晶能光电和小米达成合作_搜搜LED网",
-        "summary": "图4. 晶能光电基于创新的大功率UVA LED和纳米TiO2过滤网设计，开发出了专利的PCO净化技术，有效去除颗粒、花粉、烟尘、臭味、VOCs以及细菌病毒，可用于车载、家庭以.",
-        "url": "http://www.sosoled.com/news/show-13923.html",
-        "source": "www.sosoled.com",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "唐华 - 六盘水宏远创信建筑劳务有限公司 - 法定代表人/高管/股东 - 爱企查",
-        "summary": "一、唐华担任职务： 唐华目前担任六盘水宏远创信建筑劳务有限公司法定代表人，同时担任六盘水宏远创信建筑劳务有限公司执行董事兼总经理； 二、唐华.立案信息0. 法院公告0. 开庭公告0. 裁判文书0.",
-        "url": "https://aiqicha.baidu.com/person?personId=1f7b22064ae994526c193dbd86208067",
-        "source": "aiqicha.baidu.com",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "元旭半导体_投资界：播报元旭半导体投资并购动态",
-        "summary": "元旭半导体. 元旭半导体最新资讯，投资界全方位播报元旭半导体相关话题,全面解读元旭半导体投资、融资、并购等动态。",
-        "url": "https://www.pedaily.cn/tag/439429/",
-        "source": "www.pedaily.cn",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "元旭半导体发布量产玻璃基Micro LED屏-电子工程专辑",
-        "summary": "据介绍，此次发布的元旭半导体MOG（Micro-LED on Glass）显示屏将RGB像素直接集成于玻璃基板之上，通过在超平整玻璃上应用超精密半导体技术，将主芯片尺寸缩小.",
-        "url": "https://www.eet-china.com/mp/a446654.html",
-        "source": "www.eet-china.com",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "gyxxh.tj.gov.cn/ZWXX5652/GXDT9285/202503/t20250331_6896722.html",
-        "summary": "总投资8亿元 元旭半导体天津整合智造基地启动试生产 打造国内领先集成显示芯片“超级工厂”. 来源：天津日报 发布时间：2025-03-31 14:00.",
-        "url": "https://gyxxh.tj.gov.cn/ZWXX5652/GXDT9285/202503/t20250331_6896722.html",
-        "source": "gyxxh.tj.gov.cn",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "\"元旭半导体\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "硬科技",
-        "title": "中标公示_中国东莞麻涌镇栏目",
-        "summary": "项目法人：东莞市麻涌镇华阳股份经济联合社. 招标人：东莞市麻涌镇华阳股份经济联合社. 招标代理机构：东莞市骏华建设工程咨询有限公司. 最高报价：419,610.96元. 单列措施费：31,141.73元.",
-        "url": "https://www.dg.gov.cn/machong/zbxx/nzjy/content/post_4243103.html",
-        "source": "www.dg.gov.cn",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "\"华阳\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "硬科技",
-        "title": "cj.sina.com.cn/articles/view/5182171545/134e1a99902002g8g2",
-        "summary": "华东数控6月29日在互动平台表示，公司新产品圆台磨床已成功中标半导体行业客户采购项目，实现首次小批量订单，标志着该产品从技术验证阶段进. 展到商业化交付阶段。",
-        "url": "https://cj.sina.com.cn/articles/view/5182171545/134e1a99902002g8g2",
-        "source": "cj.sina.com.cn",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "\"华东数控\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "硬科技",
-        "title": "华东数控：公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
-        "summary": "现阶段新产品收入占公司营业收入比例较小，短期内不会对公司经营业绩产生重大影响，未来订单放量与业绩贡献存在较大不确定性。 敬请投资者理性看待单一订单影响，注意投资风险。 感谢您对华东数控（002248）的关注！",
-        "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
-        "source": "yuanchuang.10jqka.com.cn",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "\"华东数控\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "硬科技",
-        "title": "华东数控002248——半导体磨床已交付，打开半导体设备业绩增长曲线",
-        "summary": "6月15日中标记录 已被公司董秘确认. 圆台磨床成功中标半导体行业客户采购.半导体专用设备毛利率普遍在40-60%之间，远高于传统机床业务的20-30%。 如果华东数控能够成功切入半导体磨床市场，其整体盈利能力将大幅提升。",
-        "url": "https://www.jiuyangongshe.com/a/2gpa3acr6bw",
-        "source": "www.jiuyangongshe.com",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "\"华东数控\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "硬科技",
-        "title": "news.qq.com/rain/a/20260629A078ET00",
-        "summary": "【财华社讯】6月29日，华东数控(002248.SZ)在互动平台表示，公司新产品圆台磨床近日已成功中标半导体行业客户采购项目，此次四台设备是公司首次小批量订.",
-        "url": "https://news.qq.com/rain/a/20260629A078ET00",
-        "source": "news.qq.com",
-        "date": "2026-07-23",
-        "score": 4.0,
-        "query": "\"华东数控\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "硬科技",
-        "title": "直击科创板医疗器械行业集体业绩说明会：“硬科技”与AI融合加速",
-        "summary": "从盈利表现来看，2025年，受集采深化、行业调整等因素影响，上述22家公司中，13家公司归母净利润同比出现不同程度的下滑；进入2026年一季度，随着政策预期.",
-        "url": "https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002jyro",
-        "source": "cj.sina.com.cn",
-        "date": "2026-07-23",
-        "score": 3.5,
-        "query": "硬科技 行业 政策 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "三一重能入股中复碳芯 | 界面新闻",
-        "summary": "三一重能入股中复碳芯.打开界面新闻APP，查看原文. 打开界面新闻，查看更多专业报道.",
-        "url": "https://m.jiemian.com/article/12037116_microcontent.html",
-        "source": "m.jiemian.com",
-        "date": "2026-07-23",
-        "score": 3.0,
-        "query": "中复碳芯 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "finance.sina.com.cn/roll/2025-02-13/doc-inekieue0841033.shtml",
-        "summary": "岳清瑞院士助力中复碳芯引领碳纤维复合材料产业新篇章.这一举措标志着中复碳芯在科学技术创新及产学研深度融合等方面迈出了重要一步，将为公司未来持续发展注入强劲动力。 中复碳芯副总经理王志伟代表公司向岳院士颁发聘书。 来源:中复碳芯.",
-        "url": "https://finance.sina.com.cn/roll/2025-02-13/doc-inekieue0841033.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "2026-07-23",
-        "score": 3.0,
-        "query": "中复碳芯 新闻 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "硬科技",
-        "title": "163.com/dy/article/JU8H7E160519QIKK.html",
-        "summary": "迅巢科技申请负载平衡新能源电池能效优化专利，解决电池能效优化问题,专利,新能源,电池组,迅巢科技,能效优化,固态电池,科技有限公司.每日经济新闻 2026-05-21 11:17:36.",
-        "url": "https://www.163.com/dy/article/JU8H7E160519QIKK.html",
-        "source": "www.163.com",
-        "date": "2026-07-23",
-        "score": 3.0,
-        "query": "迅巢 新闻 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "硬科技",
-        "title": "迅巢新能源资产管理系统",
-        "summary": "加载中...",
-        "url": "https://manager.ienergon.com/",
-        "source": "manager.ienergon.com",
-        "date": "2026-07-23",
-        "score": 3.0,
-        "query": "迅巢 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "taweekly.com/zx/cjxw/202607/t20260713_4416509.html",
-        "summary": "赵俊山先后致辞。 会上举行战略合作签约仪式，中复神鹰副总经理李韦与中复碳芯副总经理孙运亮签署战略合作协议，标志着双方在碳纤维复合材料领域的产业链协同. 迈入新阶段。",
-        "url": "http://www.taweekly.com/zx/cjxw/202607/t20260713_4416509.html",
-        "source": "www.taweekly.com",
-        "date": "2026-07-23",
-        "score": 2.5,
-        "query": "中复碳芯 新闻 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "政策暖风频吹 沪市并购重组活跃 - 中国证券报金牛投资者教育基地",
-        "summary": "中国证券报记者注意到，受政策推动，并购重组正进入活跃期。 业内人士认为，在政策利好加持和各方一致努力下，A股产业并购活跃度将持续升温，更多典型案例也将不断落地。",
-        "url": "https://cs.com.cn/tj/02/01/202407/t20240717_6425084.html",
-        "source": "cs.com.cn",
-        "date": "2026-07-23",
-        "score": 2.5,
-        "query": "硬科技 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "163网易免费邮-你的专业电子邮局",
-        "summary": "阅读并接受 《服务条款》和 《隐私政策》.注册新账号 注册VIP. 阅读并接受 《服务条款》和 《隐私政策》.",
-        "url": "https://mail.163.com/",
-        "source": "mail.163.com",
-        "date": "2026-07-23",
-        "score": 2.5,
-        "query": "硬科技 行业 政策 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "硬科技",
-        "title": "cls.cn/detail/2074795",
-        "summary": "目前，正与兴业信托积极协商和解方案，并将持续履行信息披露义务以保障投资者权益。华阳新材公告，公司控股股东的托管方华阳新材料科技集团有限公司因2021年未经同意划转上市公司资金11.264亿元，构成非经营性资金占用，拟被处以400. 万元罚款",
-        "url": "https://www.cls.cn/detail/2074795",
-        "source": "www.cls.cn",
-        "date": "2026-07-23",
-        "score": 2.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "硬科技",
-        "title": "明信阳光采购网-我要阳光采购",
-        "summary": "华阳建投阳泉热电有限责任公司#1、#2机组脱硫增效优化项目中标候选人公示. 预中标公告 | 招标 发布时间: 2026-03-20 招标单位: 河北建设投资集团有限责任公司 标段编号",
-        "url": "https://www.51ygcg.com/GongGao/2026/03/7e0886db-e364-4e0b-9582-b62e47a355bd.html",
-        "source": "www.51ygcg.com",
-        "date": "2026-07-23",
-        "score": 2.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "硬科技",
-        "title": "11月22日盘前早报 热点事件关注-韭研公社",
-        "summary": "2、华阳变速：同花顺11月21日新增新能源汽车概念。三、涨停事件. 1、公告涨停. 大千生态：11月5日公告，控股股东拟由大千投资变更为苏州步步高.",
-        "url": "https://www.jiuyangongshe.com/a/6f3cb5xq5s",
-        "source": "www.jiuyangongshe.com",
-        "date": "2026-07-23",
-        "score": 2.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
-      }
-    ],
     "动力电池": [
       {
         "code": "xingheng",
@@ -633,6 +621,18 @@
         "code": "qiyuanxin",
         "company": "启源芯动力",
         "industry": "新能源汽车",
+        "title": "共同打造低碳绿能物流 江淮汽车与国家电投启源芯动力签署战略合作",
+        "summary": "卡车新闻. 客车新闻. 专用车.共同打造低碳绿能物流 江淮汽车与国家电投启源芯动力签署战略合作. 2022-09-09 新闻来源： 新闻作者: 新闻编辑: 杨云鹤.",
+        "url": "http://www.truck998.com/Home/allnews/content/id/101906.html",
+        "source": "www.truck998.com",
+        "date": "2026-07-23",
+        "score": 4.0,
+        "query": "启源芯动力 新闻 2026"
+      },
+      {
+        "code": "qiyuanxin",
+        "company": "启源芯动力",
+        "industry": "新能源汽车",
         "title": "tj.chinadaily.com.cn/a/202512/23/WS694a62d2a310942cc49982e2.html",
         "summary": "近日，天津市投资促进局召开“以龙头牵引聚势赋能，以改革创新筑巢引凤”新闻发布会。 天津市投资促进局党组成员、副局长李涛，落地企业代表上海启源芯动力常务副总经理刘须宝，新紫光新架构公司副总经理田宏敏，新紫光旗下企业元驰.",
         "url": "https://tj.chinadaily.com.cn/a/202512/23/WS694a62d2a310942cc49982e2.html",
@@ -664,18 +664,6 @@
         "date": "2026-07-23",
         "score": 3.5,
         "query": "新能源汽车 行业 政策 2026"
-      },
-      {
-        "code": "qiyuanxin",
-        "company": "启源芯动力",
-        "industry": "新能源汽车",
-        "title": "近 40 座充换电站组网 启源芯动力搭建江苏重卡绿色补能体系-碳索储能网",
-        "summary": "2026 年五一假期，启源芯动力移动送电车进驻江苏宁杭高速天目湖服务区、江宁服务区，累计服务车辆近 1000 辆，高效应对节假日高速补能高峰，形成 “固定站点.",
-        "url": "https://mcn.solarbe.com/news/20260528/50023614.html",
-        "source": "mcn.solarbe.com",
-        "date": "2026-07-23",
-        "score": 3.0,
-        "query": "启源芯动力 新闻 2026"
       }
     ],
     "数据": [
@@ -765,6 +753,20 @@
         "score": 3.0,
         "query": "\"High-Trend International\" 公告 签约 中标 投资"
       }
+    ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "163网易免费邮-你的专业电子邮局",
+        "summary": "阅读并接受 《服务条款》和 《隐私政策》.注册新账号 注册VIP. 阅读并接受 《服务条款》和 《隐私政策》.",
+        "url": "https://mail.163.com/",
+        "source": "mail.163.com",
+        "date": "2026-07-23",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -778,7 +780,31 @@
       "source": "www.haikou.gov.cn",
       "date": "2026-07-23",
       "score": 5.5,
-      "query": "柯渡医学 新闻 2026"
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "医学装备管理服务提供商柯渡医学科技完成近6000...",
+      "summary": "发，柯渡医学科技具备业内少见的医院全科室设备服务能力。 2016年3月，柯渡医学科技获国药基金B轮融资；2014年12月，柯渡医学科技获WISE ADMIRAL LIMITED的A轮投资。",
+      "url": "https://tech.sina.com.cn/roll/2019-12-16/doc-iihnzahi7918847.shtml",
+      "source": "tech.sina.com.cn",
+      "date": "2026-07-23",
+      "score": 5.5,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "硬科技",
+      "title": "元旭半导体取得LED直显投影显示屏及LED显示模块专利，降低组装难度",
+      "summary": "国家知识产权局信息显示，元旭半导体科技（无锡）有限公司取得一项名为“一种LED直显投影显示屏及LED显示模块”的专利，授权公告号CN223638094U，申请日期为2024.本文为AI基于第三方数据生成，仅供参考，不构成个人投资建议。",
+      "url": "https://www.163.com/dy/article/KG97A5TD0519QIKK.html",
+      "source": "www.163.com",
+      "date": "2026-07-23",
+      "score": 5.5,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     },
     {
       "code": "htco",
@@ -803,6 +829,18 @@
       "date": "2026-07-23",
       "score": 5.5,
       "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "htco",
+      "company": "航天宏图",
+      "industry": "航天遥感",
+      "title": "从“不达标”到“离不开” 航天宏图啃下航天遥感基础软件硬骨头",
+      "summary": "从“不达标”到“离不开” 航天宏图啃下航天遥感基础软件硬骨头. 2019-08-08 07:52:37 来源：上海证券报 作者：温婷. 航天宏图董事长 王宇翔. 宇宙任翱翔、航天展宏图——航天宏图董事长王宇翔仿佛注定了要和天空结缘。",
+      "url": "https://news.cnstock.com/kcb,tt-201908-4413272.htm",
+      "source": "news.cnstock.com",
+      "date": "2026-07-23",
+      "score": 5.5,
+      "query": "\"航天宏图\" 公告 签约 中标 投资"
     },
     {
       "code": "aodian",
@@ -901,18 +939,6 @@
       "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "柯渡医学 | 项目信息-36氪",
-      "summary": "项目简介. 柯渡医学科技股份有限公司（简称“柯渡医学”）是一家医学装备管理服务商，专注于提供医院资产管理解决方案。工商全称. 上海柯渡医学科技股份有限公司.",
-      "url": "https://pitchhub.36kr.com/project/1817538219231110",
-      "source": "pitchhub.36kr.com",
-      "date": "2026-07-23",
-      "score": 4.5,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "硬科技",
@@ -949,18 +975,6 @@
       "query": "\"晶能光电\" 公告 签约 中标 投资"
     },
     {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "硬科技",
-      "title": "北京迅巢申请BMS...",
-      "summary": "金融界2025年4月25日消息，国家知识产权局信息显示，北京迅巢科技有限公司申请一项名为“BMS中电芯失效预测的深度学习方法及装置”的专利，公开号.央视新闻客户端 2026-05-24 23:31:08.",
-      "url": "https://www.163.com/dy/article/JU0LCPNL0519QIKK.html",
-      "source": "www.163.com",
-      "date": "2026-07-23",
-      "score": 4.5,
-      "query": "迅巢 新闻 2026"
-    },
-    {
       "code": "innoshine",
       "company": "元旭半导体",
       "industry": "硬科技",
@@ -983,42 +997,6 @@
       "date": "2026-07-23",
       "score": 4.5,
       "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "柯渡亮相2026医学装备大会，资管龙头品牌4大重磅事项现场发布",
-      "summary": "3月26日，备受行业瞩目的2026医学装备大会暨医学装备展览会在重庆国际博览中心盛大开幕。作为国内医学装备数据及管理服务领域的龙头企业，上海柯渡医学科技携重磅AI新品、自研硬件新品、全场景解决方案亮相N3D07 & N4D04双展位，全.",
-      "url": "https://www.163.com/dy/article/KP8ROH1H0526KRBE.html",
-      "source": "www.163.com",
-      "date": "2026-07-23",
-      "score": 4.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "163.com/dy/article/J7V41D040530WJIN.html",
-      "summary": "理。 其中，中复碳芯电缆科技有限公司（下称“中复碳芯”）上榜。 公告显示，中复碳芯供国网陕西公司的架空绝缘导线，2021年6月抽检发现II级质量问题，积2分，已延长挂网1年，验收仍未通过。中国新闻周刊 2026-04-27 14:25:00",
-      "url": "https://www.163.com/dy/article/J7V41D040530WJIN.html",
-      "source": "www.163.com",
-      "date": "2026-07-23",
-      "score": 4.0,
-      "query": "中复碳芯 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "硬科技",
-      "title": "光触媒消毒产品走红，晶能光电和小米达成合作_搜搜LED网",
-      "summary": "图4. 晶能光电基于创新的大功率UVA LED和纳米TiO2过滤网设计，开发出了专利的PCO净化技术，有效去除颗粒、花粉、烟尘、臭味、VOCs以及细菌病毒，可用于车载、家庭以.",
-      "url": "http://www.sosoled.com/news/show-13923.html",
-      "source": "www.sosoled.com",
-      "date": "2026-07-23",
-      "score": 4.0,
-      "query": "晶能光电 新闻 2026"
     },
     {
       "code": "xingheng",
@@ -1057,6 +1035,30 @@
       "query": "\"星恒电源\" 公告 签约 中标 投资"
     },
     {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "柯渡亮相2026医学装备大会，资管龙头品牌4大重磅事项现场发布",
+      "summary": "3月26日，备受行业瞩目的2026医学装备大会暨医学装备展览会在重庆国际博览中心盛大开幕。作为国内医学装备数据及管理服务领域的龙头企业，上海柯渡医学科技携重磅AI新品、自研硬件新品、全场景解决方案亮相N3D07 & N4D04双展位，全.",
+      "url": "https://www.163.com/dy/article/KP8ROH1H0526KRBE.html",
+      "source": "www.163.com",
+      "date": "2026-07-23",
+      "score": 4.0,
+      "query": "柯渡医学 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "晶能光电完成二轮4000万美元融资",
+      "summary": "晶能光电曾于去年4月首轮融资1000万美元，投资方包括GSR、Mayfield以及永威投资。 今年2月，晶能光电“硅衬底发光二极管材料与器件”一期工程正式开工。",
+      "url": "https://www.alighting.cn/news/2007621/V5619.htm",
+      "source": "www.alighting.cn",
+      "date": "2026-07-23",
+      "score": 4.0,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
       "code": "xinhong",
       "company": "信鸿医疗",
       "industry": "医疗健康",
@@ -1084,18 +1086,6 @@
       "code": "innoshine",
       "company": "元旭半导体",
       "industry": "硬科技",
-      "title": "元旭半导体_投资界：播报元旭半导体投资并购动态",
-      "summary": "元旭半导体. 元旭半导体最新资讯，投资界全方位播报元旭半导体相关话题,全面解读元旭半导体投资、融资、并购等动态。",
-      "url": "https://www.pedaily.cn/tag/439429/",
-      "source": "www.pedaily.cn",
-      "date": "2026-07-23",
-      "score": 4.0,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "硬科技",
       "title": "元旭半导体发布量产玻璃基Micro LED屏-电子工程专辑",
       "summary": "据介绍，此次发布的元旭半导体MOG（Micro-LED on Glass）显示屏将RGB像素直接集成于玻璃基板之上，通过在超平整玻璃上应用超精密半导体技术，将主芯片尺寸缩小.",
       "url": "https://www.eet-china.com/mp/a446654.html",
@@ -1108,25 +1098,25 @@
       "code": "innoshine",
       "company": "元旭半导体",
       "industry": "硬科技",
-      "title": "gyxxh.tj.gov.cn/ZWXX5652/GXDT9285/202503/t20250331_6896722.html",
-      "summary": "总投资8亿元 元旭半导体天津整合智造基地启动试生产 打造国内领先集成显示芯片“超级工厂”. 来源：天津日报 发布时间：2025-03-31 14:00.",
-      "url": "https://gyxxh.tj.gov.cn/ZWXX5652/GXDT9285/202503/t20250331_6896722.html",
-      "source": "gyxxh.tj.gov.cn",
+      "title": "元旭半导体_投资界：播报元旭半导体投资并购动态",
+      "summary": "元旭半导体. 元旭半导体最新资讯，投资界全方位播报元旭半导体相关话题,全面解读元旭半导体投资、融资、并购等动态。",
+      "url": "https://www.pedaily.cn/tag/439429/",
+      "source": "www.pedaily.cn",
       "date": "2026-07-23",
       "score": 4.0,
-      "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      "query": "元旭半导体 新闻 2026"
     },
     {
-      "code": "htco",
-      "company": "航天宏图",
-      "industry": "航天遥感",
-      "title": "航天宏图获101...",
-      "summary": "航天宏图1月26日发布投资者关系活动记录表，公司于2026年1月26日接受101家机构调研，机构类型为QFII、保险公司、其他、基金公司、证券公司、阳光私募机构。",
-      "url": "https://xueqiu.com/S/SH688066/373266206",
-      "source": "xueqiu.com",
+      "code": "qiyuanxin",
+      "company": "启源芯动力",
+      "industry": "新能源汽车",
+      "title": "共同打造低碳绿能物流 江淮汽车与国家电投启源芯动力签署战略合作",
+      "summary": "卡车新闻. 客车新闻. 专用车.共同打造低碳绿能物流 江淮汽车与国家电投启源芯动力签署战略合作. 2022-09-09 新闻来源： 新闻作者: 新闻编辑: 杨云鹤.",
+      "url": "http://www.truck998.com/Home/allnews/content/id/101906.html",
+      "source": "www.truck998.com",
       "date": "2026-07-23",
       "score": 4.0,
-      "query": "航天宏图 新闻 2026"
+      "query": "启源芯动力 新闻 2026"
     },
     {
       "code": "qiyuanxin",
@@ -1204,18 +1194,6 @@
       "code": "huadong-sk",
       "company": "华东数控",
       "industry": "硬科技",
-      "title": "cj.sina.com.cn/articles/view/5182171545/134e1a99902002g8g2",
-      "summary": "华东数控6月29日在互动平台表示，公司新产品圆台磨床已成功中标半导体行业客户采购项目，实现首次小批量订单，标志着该产品从技术验证阶段进. 展到商业化交付阶段。",
-      "url": "https://cj.sina.com.cn/articles/view/5182171545/134e1a99902002g8g2",
-      "source": "cj.sina.com.cn",
-      "date": "2026-07-23",
-      "score": 4.0,
-      "query": "\"华东数控\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "硬科技",
       "title": "华东数控：公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
       "summary": "现阶段新产品收入占公司营业收入比例较小，短期内不会对公司经营业绩产生重大影响，未来订单放量与业绩贡献存在较大不确定性。 敬请投资者理性看待单一订单影响，注意投资风险。 感谢您对华东数控（002248）的关注！",
       "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
@@ -1249,6 +1227,18 @@
       "query": "\"华东数控\" 公告 签约 中标 投资"
     },
     {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控分析师会议-20260515 - Reportify",
+      "summary": "为华东数控，所属行业是通用设备，接待时间为2026 - 05 - 15，上市公司接待人员有财务总监肖崔英和董事会秘书刘璐 [17] 详细调研机构 - 接待对象类型包括投资.",
+      "url": "https://reportify.cn/reports/1252813968762867712",
+      "source": "reportify.cn",
+      "date": "2026-07-23",
+      "score": 4.0,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
       "code": "tianbao-jijian",
       "company": "天保基建",
       "industry": "基建",
@@ -1261,6 +1251,18 @@
       "query": "天保基建 新闻 2026"
     },
     {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "硬科技",
+      "title": "直击科创板医疗器械行业集体业绩说明会：“硬科技”与AI融合加速",
+      "summary": "从盈利表现来看，2025年，受集采深化、行业调整等因素影响，上述22家公司中，13家公司归母净利润同比出现不同程度的下滑；进入2026年一季度，随着政策预期.",
+      "url": "https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002jyro",
+      "source": "cj.sina.com.cn",
+      "date": "2026-07-23",
+      "score": 3.5,
+      "query": "硬科技 行业 政策 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "动力电池",
@@ -1271,18 +1273,6 @@
       "date": "2026-07-23",
       "score": 3.5,
       "query": "星恒电源 新闻 2026"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "硬科技",
-      "title": "直击科创板医疗器械行业集体业绩说明会：“硬科技”与AI融合加速",
-      "summary": "从盈利表现来看，2025年，受集采深化、行业调整等因素影响，上述22家公司中，13家公司归母净利润同比出现不同程度的下滑；进入2026年一季度，随着政策预期.",
-      "url": "https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002jyro",
-      "source": "cj.sina.com.cn",
-      "date": "2026-07-23",
-      "score": 3.5,
-      "query": "硬科技 行业 政策 2026"
     },
     {
       "code": "xinhong",
@@ -1324,10 +1314,10 @@
       "code": "zhongfu",
       "company": "中复碳芯",
       "industry": "硬科技",
-      "title": "三一重能入股中复碳芯 | 界面新闻",
-      "summary": "三一重能入股中复碳芯.打开界面新闻APP，查看原文. 打开界面新闻，查看更多专业报道.",
-      "url": "https://m.jiemian.com/article/12037116_microcontent.html",
-      "source": "m.jiemian.com",
+      "title": "163.com/dy/article/KQ7OK75K0519QIKK.html",
+      "summary": "中复碳芯取得光伏边框连接结构专利，提高光伏边框加工的稳定性,光伏,专利,电缆,边框,高精度,中复碳芯,科技有限公司.每日经济新闻 2026-04-15 22:56:08.",
+      "url": "https://www.163.com/dy/article/KQ7OK75K0519QIKK.html",
+      "source": "www.163.com",
       "date": "2026-07-23",
       "score": 3.0,
       "query": "中复碳芯 新闻 2026"
@@ -1343,6 +1333,42 @@
       "date": "2026-07-23",
       "score": 3.0,
       "query": "中复碳芯 新闻 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "硬科技",
+      "title": "三一重能入股中复碳芯 | 界面新闻",
+      "summary": "三一重能入股中复碳芯.打开界面新闻APP，查看原文. 打开界面新闻，查看更多专业报道.",
+      "url": "https://m.jiemian.com/article/12037116_microcontent.html",
+      "source": "m.jiemian.com",
+      "date": "2026-07-23",
+      "score": 3.0,
+      "query": "中复碳芯 新闻 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "公司新闻-天津信鸿医疗科技股份有限公司",
+      "summary": "我们的信条Creed. 信鸿视频Video. 新闻中心News.信鸿医疗与执信孵化器亮相 2024第八届广州高端医疗器械展 [公司新闻] [News] 信鸿医疗与执信孵化器亮相 2024第八届广州高端医疗器械展2024-07-18.",
+      "url": "https://www.tj-shunjie.com/news_11.html",
+      "source": "www.tj-shunjie.com",
+      "date": "2026-07-23",
+      "score": 3.0,
+      "query": "信鸿医疗 新闻 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "天津信鸿医疗科技股份有限公司",
+      "summary": "新三板，简称：信鸿医疗。医疗机构提供JMI/VMI和SPD服务。",
+      "url": "https://tjkinghood.com/home_1.html",
+      "source": "tjkinghood.com",
+      "date": "2026-07-23",
+      "score": 3.0,
+      "query": "信鸿医疗 新闻 2026"
     },
     {
       "code": "xunchao",
@@ -1369,40 +1395,28 @@
       "query": "迅巢 新闻 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "公司新闻-天津信鸿医疗科技股份有限公司",
-      "summary": "我们的信条Creed. 信鸿视频Video. 新闻中心News.信鸿医疗与执信孵化器亮相 2024第八届广州高端医疗器械展 [公司新闻] [News] 信鸿医疗与执信孵化器亮相 2024第八届广州高端医疗器械展2024-07-18.",
-      "url": "https://www.tj-shunjie.com/news_11.html",
-      "source": "www.tj-shunjie.com",
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "硬科技",
+      "title": "北京迅巢科技有限公司 - 迅巢科技 - 爱企查",
+      "summary": "北京迅巢科技有限公司认领. 迅巢科技. 开业小微企业高新技术企业(2023)专精特新中小企业. 法定代表人：秦蕴凯. 注册资本：5,000万(元).新浪微博. 更新时间：2026-03-28. 北京迅巢科技有限公司 北京迅巢科技有限公司.",
+      "url": "https://aiqicha.baidu.com/company_detail_96178514978184",
+      "source": "aiqicha.baidu.com",
       "date": "2026-07-23",
       "score": 3.0,
-      "query": "信鸿医疗 新闻 2026"
+      "query": "迅巢 新闻 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "新闻中心-天津信鸿医疗科技股份有限公司",
-      "summary": "信鸿医疗 信鸿医疗. 新闻中心. 公司新闻News.总共：99 条文章， 当前：1/10 页. 天津信鸿医疗科技股份有限公司. 地址：天津市东丽区华明高新技术产业区EOD总部港B02-8号.",
-      "url": "https://tj-xhkj.com/news_10.html",
-      "source": "tj-xhkj.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "硬科技",
+      "title": "北京宏远创信能源科技有限公司",
+      "summary": "北京宏远创信能源科技有限公司，成立于2015-11-11年，位于北京省。 企业注册资本8700万人民币。企业名称: 北京宏远创信能源科技有限公司.",
+      "url": "http://jinghongyuan.com/company/20557651",
+      "source": "jinghongyuan.com",
       "date": "2026-07-23",
       "score": 3.0,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
-      "code": "qiyuanxin",
-      "company": "启源芯动力",
-      "industry": "新能源汽车",
-      "title": "近 40 座充换电站组网 启源芯动力搭建江苏重卡绿色补能体系-碳索储能网",
-      "summary": "2026 年五一假期，启源芯动力移动送电车进驻江苏宁杭高速天目湖服务区、江宁服务区，累计服务车辆近 1000 辆，高效应对节假日高速补能高峰，形成 “固定站点.",
-      "url": "https://mcn.solarbe.com/news/20260528/50023614.html",
-      "source": "mcn.solarbe.com",
-      "date": "2026-07-23",
-      "score": 3.0,
-      "query": "启源芯动力 新闻 2026"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
       "code": "htco-us",
@@ -1429,16 +1443,28 @@
       "query": "\"High-Trend International\" 公告 签约 中标 投资"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
+      "code": "huayt",
+      "company": "华阳集团",
       "industry": "硬科技",
-      "title": "taweekly.com/zx/cjxw/202607/t20260713_4416509.html",
-      "summary": "赵俊山先后致辞。 会上举行战略合作签约仪式，中复神鹰副总经理李韦与中复碳芯副总经理孙运亮签署战略合作协议，标志着双方在碳纤维复合材料领域的产业链协同. 迈入新阶段。",
-      "url": "http://www.taweekly.com/zx/cjxw/202607/t20260713_4416509.html",
-      "source": "www.taweekly.com",
+      "title": "【成都华阳公租房合同】-安居客房产问答",
+      "summary": "成都华阳公租房合同. 成都华阳公租房合同相关问题解答，安居客房产经纪人、置业顾问会帮您分析成都华阳公租房合同相关问题，帮您解决房产问题。",
+      "url": "https://www.anjuke.com/qa/hot-239906/",
+      "source": "www.anjuke.com",
+      "date": "2026-07-23",
+      "score": 3.0,
+      "query": "\"华阳\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "硬科技",
+      "title": "宁夏：1家售电公司因连续12...",
+      "summary": "北极星售电网获悉，宁夏电力交易中心发布关于对连续12个月未进行实际交易的售电公司暂停交易资格的公告，北京宏远创信能源科技有限公司自2024. 年8月7日起暂停参与宁夏电力市场交易资格，重新参与交易前须再次进行公示。 详情如下：",
+      "url": "https://m.bjx.com.cn/mnews/20240808/1393759.shtml",
+      "source": "m.bjx.com.cn",
       "date": "2026-07-23",
       "score": 2.5,
-      "query": "中复碳芯 新闻 2026"
+      "query": "宏远创信 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -1453,28 +1479,16 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "政策暖风频吹 沪市并购重组活跃 - 中国证券报金牛投资者教育基地",
-      "summary": "中国证券报记者注意到，受政策推动，并购重组正进入活跃期。 业内人士认为，在政策利好加持和各方一致努力下，A股产业并购活跃度将持续升温，更多典型案例也将不断落地。",
-      "url": "https://cs.com.cn/tj/02/01/202407/t20240717_6425084.html",
-      "source": "cs.com.cn",
-      "date": "2026-07-23",
-      "score": 2.5,
-      "query": "硬科技 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
       "title": "163网易免费邮-你的专业电子邮局",
       "summary": "阅读并接受 《服务条款》和 《隐私政策》.注册新账号 注册VIP. 阅读并接受 《服务条款》和 《隐私政策》.",
       "url": "https://mail.163.com/",
       "source": "mail.163.com",
       "date": "2026-07-23",
       "score": 2.5,
-      "query": "硬科技 行业 政策 2026"
+      "query": "收购研究 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -1484,18 +1498,6 @@
       "summary": "目前，正与兴业信托积极协商和解方案，并将持续履行信息披露义务以保障投资者权益。华阳新材公告，公司控股股东的托管方华阳新材料科技集团有限公司因2021年未经同意划转上市公司资金11.264亿元，构成非经营性资金占用，拟被处以400. 万元罚款",
       "url": "https://www.cls.cn/detail/2074795",
       "source": "www.cls.cn",
-      "date": "2026-07-23",
-      "score": 2.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "硬科技",
-      "title": "明信阳光采购网-我要阳光采购",
-      "summary": "华阳建投阳泉热电有限责任公司#1、#2机组脱硫增效优化项目中标候选人公示. 预中标公告 | 招标 发布时间: 2026-03-20 招标单位: 河北建设投资集团有限责任公司 标段编号",
-      "url": "https://www.51ygcg.com/GongGao/2026/03/7e0886db-e364-4e0b-9582-b62e47a355bd.html",
-      "source": "www.51ygcg.com",
       "date": "2026-07-23",
       "score": 2.5,
       "query": "\"华阳\" 公告 签约 中标 投资"
