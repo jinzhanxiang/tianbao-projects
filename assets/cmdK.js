@@ -63,6 +63,7 @@
   function resolveReportUrl(report, code){
     var raw = (report && report.url) || '';
     if(raw && !raw.startsWith('file://')) return raw;
+    // 兜底：项目主页（同 source 域内可访问 · 但已不再是汇总页）
     var project = (window.PROJECTS || []).find(function(p){ return p.code === code; });
     var online = project && project.online_url ? project.online_url : '';
     if(online && !online.includes('/tianbao-projects/')) return online;
