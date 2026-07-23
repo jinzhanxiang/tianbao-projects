@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:59:54+08:00",
+  "generated_at": "2026-07-24T06:22:00+08:00",
   "source": "build_industry_news.py + 人工维护（已存在行业不覆盖）",
   "note": "本数据基于 projects.json + reports.json 自动汇总 ledger 行业集合，通过 alias 映射复用已有人工编辑的真实新闻。无新闻条目的行业填充占位（_placeholder=true）。具体数据请以官方公告为准。",
   "industries": {
@@ -238,17 +238,7 @@
         "title": "上市公司行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
         "source": "待补充",
-        "date": "2026-07-23",
-        "url": "",
-        "_placeholder": true
-      }
-    ],
-    "其他": [
-      {
-        "title": "其他行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "url": "",
         "_placeholder": true
       }
@@ -258,7 +248,7 @@
         "title": "基建行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
         "source": "待补充",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "url": "",
         "_placeholder": true
       }
@@ -268,7 +258,7 @@
         "title": "收购研究行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
         "source": "待补充",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "url": "",
         "_placeholder": true
       }
@@ -278,7 +268,7 @@
         "title": "母公司行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
         "source": "待补充",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "url": "",
         "_placeholder": true
       }
@@ -288,7 +278,7 @@
         "title": "美国中概股行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
         "source": "待补充",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "url": "",
         "_placeholder": true
       }
@@ -298,7 +288,7 @@
         "title": "航天遥感行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
         "source": "待补充",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "url": "",
         "_placeholder": true
       }
@@ -308,7 +298,7 @@
         "title": "资本运作行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
         "source": "待补充",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "url": "",
         "_placeholder": true
       }
@@ -318,7 +308,7 @@
         "title": "跨境物流行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
         "source": "待补充",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "url": "",
         "_placeholder": true
       }
