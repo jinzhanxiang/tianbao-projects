@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T10:10:33+08:00",
+  "generated_at": "2026-07-23T11:00:00+08:00",
   "source": "project_ledger.csv (v3 schema)",
-  "rows": 19,
+  "rows": 17,
   "stage_v3_enum": [
     "在推重点",
     "储备",
@@ -170,32 +170,6 @@
       "pending_tasks": "单文件项目，待投资部部署指示"
     },
     {
-      "code": "unicom-idc",
-      "name_cn": "四川 IDC",
-      "name_full": "四川数据中心 IDC 项目",
-      "category": "重大并购",
-      "stage": "初步分析",
-      "stage_v3": "在推重点",
-      "iss": "REITs",
-      "industry": "数据·云",
-      "online_url": "https://jinzhanxiang.github.io/unicom-idc-report/",
-      "dashboard_url": "",
-      "online_index": "https://jinzhanxiang.github.io/unicom-idc-report/index.html",
-      "repo": "unicom-idc-report",
-      "local_folder": "~/Desktop/储备项目/四川IDC/",
-      "folder_alias": "",
-      "report_count": 1,
-      "progress_pct": 20,
-      "contacts": "天保控股投资部",
-      "brief_md": "四川 IDC（数据·云）· 初步分析阶段 · 详见报告库",
-      "estimation": "需补充机柜上架率/客户结构",
-      "downgrade_reason": "—",
-      "deploy_date": "2026",
-      "last_update": "2026",
-      "notes": "REITs 项目，源在桌面（5.9M / 7文件） | 2026-07-21 由投资部决定移到在推重点 | 2026-07-21 由投资部澄清：此项目为四川IDC，原名\"联通云IDC\"中\"汇天网络科技\"为路径误标，已分拆为独立项目 huitian",
-      "pending_tasks": "REITs 项目，源 7 文件已归类"
-    },
-    {
       "code": "hongyuan",
       "name_cn": "宏远创信",
       "name_full": "宏远创信（综合智慧能源）",
@@ -314,7 +288,7 @@
       "repo": "7projects-summary",
       "local_folder": "~/Documents/OpenClaw-workspace-Projects/1、启源芯项目/",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 2,
       "progress_pct": 15,
       "contacts": "天保控股投资部",
       "brief_md": "启源芯动力（新能源汽车·电驱）· 暂停跟踪阶段 · 详见报告库",
@@ -376,32 +350,6 @@
       "last_update": "2026-07-21",
       "notes": "2026-07-21 由投资部新增：上市公司（储备·上市公司），reports.json 中已有 1 份《华阳集团_投资可行性分析报告_v2_20260719》",
       "pending_tasks": "部署独立仓库 + 整理本地原始材料"
-    },
-    {
-      "code": "htco-us",
-      "name_cn": "High-Trend International",
-      "name_full": "High-Trend International Group（NASDAQ: HTCO）",
-      "category": "特殊归档",
-      "stage": "研究阶段",
-      "stage_v3": "观察",
-      "iss": "上市",
-      "industry": "美国中概股·跨境物流",
-      "online_url": "",
-      "dashboard_url": "",
-      "online_index": "https://jinzhanxiang.github.io/htco-ire-delivery-plan/",
-      "repo": "",
-      "local_folder": "",
-      "folder_alias": "",
-      "report_count": 13,
-      "progress_pct": 20,
-      "contacts": "天保控股投资部",
-      "brief_md": "High-Trend International（美国中概股·跨境物流）· 研究阶段阶段 · 详见报告库",
-      "estimation": "—",
-      "downgrade_reason": "市值管理合规敏感，建议仅作内部参考",
-      "deploy_date": "2026",
-      "last_update": "2026-07-23",
-      "notes": "R176 新增：与航天宏图同名不同公司，原 13 份 HTCO_IRE/创新方案报告从 htco 迁出单独归档",
-      "pending_tasks": "需与投资部确认是否纳入主中心"
     },
     {
       "code": "aodian",
@@ -773,5 +721,11 @@
         "huitian"
       ]
     }
-  }
+  },
+  "quarantine_codes": [
+    "htco-us",
+    "_quarantine",
+    "未归类"
+  ],
+  "quarantine_note": "投资部隔离区 · 推量方案/外围创新/成交量交付类研究 · 非合规投资研究 · 不会出现在首页事件流 / 详情页时间线 / 报告索引"
 }
