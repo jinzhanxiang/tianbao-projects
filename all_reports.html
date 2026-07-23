@@ -16,17 +16,47 @@
   --sk-ink:#1d1d1f;
   --sk-ink-2:#3c3c43;
   --sk-ink-3:#747480;
-  --sk-line:rgba(0,0,0,0.08);
+  --sk-line:rgba(0,0,0,0.14);
+  --sk-line-strong:rgba(0,0,0,0.18);
   --sk-blue:#0079DD;
   --sk-blue-2:#00519B;
-  --sk-blue-soft:rgba(0,121,221,0.08);
-  --sk-blue-softer:rgba(0,121,221,0.04);
-  --sk-shadow:0 1px 2px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
-  --sk-shadow-lg:0 4px 16px rgba(0,121,221,0.10), 0 12px 32px rgba(0,0,0,0.06);
-  --sk-radius:20px;
+  --sk-blue-3:#6FC9FF;
+  --sk-blue-soft:rgba(0,121,221,0.10);
+  --sk-blue-softer:rgba(0,121,221,0.06);
+  --sk-shadow:0 1px 2px rgba(0,0,0,0.06), 0 6px 20px rgba(0,0,0,0.06);
+  --sk-shadow-lg:0 6px 20px rgba(0,121,221,0.18), 0 16px 40px rgba(0,0,0,0.08);
+  --sk-radius:22px;
   --sk-radius-sm:14px;
   --sk-radius-pill:980px;
+  --sk-glow:0 0 0 4px rgba(0,121,221,0.12), 0 0 24px rgba(0,121,221,0.15);
 }
+
+/* === 全局动画 === */
+@keyframes cardBreathe{
+  0%,100%{box-shadow:0 1px 2px rgba(0,0,0,0.06), 0 6px 20px rgba(0,0,0,0.06), 0 0 0 0 rgba(0,121,221,0.0)}
+  50%{box-shadow:0 1px 2px rgba(0,0,0,0.06), 0 6px 20px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,121,221,0.10)}
+}
+@keyframes borderShine{
+  0%{background-position:0% 0%}
+  100%{background-position:300% 300%}
+}
+@keyframes shimmerDown{
+  0%{transform:rotate(20deg) translateY(-100%)}
+  60%,100%{transform:rotate(20deg) translateY(120%)}
+}
+@keyframes bgSweep{
+  0%,100%{background-position:-100% 0}
+  50%{background-position:200% 0}
+}
+@keyframes flowRight{
+  0%{background-position:200% 0}
+  100%{background-position:-200% 0}
+}
+@keyframes dotPulse{
+  0%,100%{transform:scale(1);opacity:1;box-shadow:0 0 0 4px rgba(0,121,221,0.15),0 0 12px rgba(0,121,221,0.4)}
+  50%{transform:scale(1.2);opacity:.85;box-shadow:0 0 0 8px rgba(0,121,221,0.05),0 0 24px rgba(0,121,221,0.6)}
+}
+@keyframes cardIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
 *{box-sizing:border-box}
 body{
@@ -69,18 +99,32 @@ body{
   content:'';width:6px;height:36px!important;
   background:linear-gradient(180deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;
   border-radius:3px!important;
+  box-shadow:0 0 12px rgba(0,121,221,0.45);
 }
 
-/* 工具栏 · 玻璃卡 */
+/* 工具栏 · 玻璃卡 + 流光边框 */
 .v3-ar-toolbar{
   display:flex;gap:12px;align-items:center;
   flex-wrap:wrap;
   padding:20px 28px!important;
-  background:rgba(255,255,255,0.85)!important;
+  background:rgba(255,255,255,0.92)!important;
   backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
-  border:1px solid var(--sk-line)!important;
+  border:1.5px solid var(--sk-line)!important;
   border-radius:var(--sk-radius)!important;
   box-shadow:var(--sk-shadow)!important;
+  position:relative;overflow:visible;
+  animation:cardBreathe 6s ease-in-out infinite;
+}
+.v3-ar-toolbar::after{
+  content:'';position:absolute;inset:-1px;border-radius:inherit;
+  padding:1.5px;
+  background:linear-gradient(135deg,rgba(0,121,221,0.0) 0%,rgba(0,121,221,0.30) 30%,rgba(192,57,43,0.20) 50%,rgba(0,121,221,0.30) 70%,rgba(0,121,221,0.0) 100%);
+  background-size:300% 300%;
+  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+  animation:borderShine 8s linear infinite;
+  pointer-events:none;
 }
 .v3-ar-toolbar label{
   font-size:15px!important;color:var(--sk-ink-2)!important;
@@ -106,14 +150,27 @@ body{
   font-variant-numeric:tabular-nums;
 }
 
-/* 项目块 · 玻璃卡 */
+/* 项目块 · 玻璃卡 + 流光边框 */
 .v3-ar-proj-block{
-  background:rgba(255,255,255,0.85)!important;
+  background:rgba(255,255,255,0.92)!important;
   backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
-  border:1px solid var(--sk-line)!important;
+  border:1.5px solid var(--sk-line)!important;
   border-radius:var(--sk-radius)!important;
   padding:24px 28px!important;margin-bottom:16px!important;
   box-shadow:var(--sk-shadow)!important;
+  position:relative;overflow:visible;
+  animation:cardIn .5s cubic-bezier(.2,.8,.2,1) backwards, cardBreathe 6s ease-in-out infinite;
+}
+.v3-ar-proj-block::after{
+  content:'';position:absolute;inset:-1px;border-radius:inherit;
+  padding:1.5px;
+  background:linear-gradient(135deg,rgba(0,121,221,0.0) 0%,rgba(0,121,221,0.30) 30%,rgba(192,57,43,0.20) 50%,rgba(0,121,221,0.30) 70%,rgba(0,121,221,0.0) 100%);
+  background-size:300% 300%;
+  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+  animation:borderShine 8s linear infinite;
+  pointer-events:none;
 }
 .v3-ar-proj-head{
   display:flex;align-items:center;gap:12px;
@@ -160,6 +217,14 @@ body{
   border-left:4px solid var(--sk-blue)!important;
   transition:.2s;text-decoration:none;color:inherit;min-height:48px;
   font-family:'PingFang SC',sans-serif;
+  position:relative;overflow:hidden;
+}
+.v3-ar-item::after{
+  content:'';position:absolute;left:-20%;right:-20%;top:-50%;height:200%;
+  background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,0) 40%,rgba(255,255,255,0.55) 50%,rgba(255,255,255,0) 60%,transparent 70%);
+  transform:rotate(20deg) translateY(-100%);
+  animation:shimmerDown 4s ease-in-out infinite;
+  pointer-events:none;
 }
 .v3-ar-item:hover{
   background:var(--sk-blue-softer)!important;
@@ -200,6 +265,18 @@ body{
   padding:60px 24px!important;text-align:center;
   color:var(--sk-ink-3)!important;font-size:16px!important;
 }
+
+/* 入场动画 + 呼吸 */
+.v3-ar-head,.v3-ar-toolbar{
+  animation:cardIn .5s cubic-bezier(.2,.8,.2,1) backwards, cardBreathe 6s ease-in-out infinite .5s;
+}
+.v3-ar-head{animation-delay:.05s,.55s}
+.v3-ar-toolbar{animation-delay:.12s,.62s}
+.v3-ar-proj-block:nth-of-type(1){animation-delay:.19s,.55s}
+.v3-ar-proj-block:nth-of-type(2){animation-delay:.26s,.62s}
+.v3-ar-proj-block:nth-of-type(3){animation-delay:.33s,.69s}
+.v3-ar-proj-block:nth-of-type(4){animation-delay:.40s,.76s}
+.v3-ar-proj-block:nth-of-type(5){animation-delay:.47s,.83s}
 
 @media (max-width:1100px){
   .v3-ar-list{grid-template-columns:1fr!important}
@@ -284,7 +361,11 @@ body{
         fetch('data/reports.json', {cache:'no-store'}),
       ]);
       PROJECTS = (await p.json()).projects || [];
-      REPORTS = (await r.json()).by_code || {};
+      const _rp = await r.json();
+      REPORTS = _rp.by_code || {};
+      /* 隔离区过滤 */
+      const _qc = _rp.quarantine_codes || [];
+      _qc.forEach(c => { delete REPORTS[c]; });
     } catch(e){
       console.error('数据加载失败', e);
       PROJECTS = []; REPORTS = {};
