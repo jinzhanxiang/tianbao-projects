@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T14:46:00+08:00",
-  "source": "research 代理跨项目行业动态汇编",
-  "note": "本数据基于 2026 年 7 月公开行业信息整理，供项目展示用。具体数据请以官方公告为准。",
+  "generated_at": "2026-07-23T08:39:24+08:00",
+  "source": "build_industry_news.py + 人工维护（已存在行业不覆盖）",
+  "note": "本数据基于 projects.json + reports.json 自动汇总 ledger 行业集合，通过 alias 映射复用已有人工编辑的真实新闻。无新闻条目的行业填充占位（_placeholder=true）。具体数据请以官方公告为准。",
   "industries": {
     "综合智慧能源": [
       {
@@ -231,6 +231,96 @@
         "source": "工信部赛迪研究院",
         "date": "2026-07-08",
         "url": "https://www.ccidgroup.com"
+      }
+    ],
+    "上市公司": [
+      {
+        "title": "上市公司行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
+      }
+    ],
+    "其他": [
+      {
+        "title": "其他行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
+      }
+    ],
+    "基建": [
+      {
+        "title": "基建行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
+      }
+    ],
+    "收购研究": [
+      {
+        "title": "收购研究行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
+      }
+    ],
+    "母公司": [
+      {
+        "title": "母公司行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
+      }
+    ],
+    "美国中概股": [
+      {
+        "title": "美国中概股行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
+      }
+    ],
+    "航天遥感": [
+      {
+        "title": "航天遥感行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
+      }
+    ],
+    "资本运作": [
+      {
+        "title": "资本运作行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
+      }
+    ],
+    "跨境物流": [
+      {
+        "title": "跨境物流行业 · 待补充近期动态",
+        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
+        "source": "待补充",
+        "date": "2026-07-23",
+        "url": "",
+        "_placeholder": true
       }
     ]
   }
