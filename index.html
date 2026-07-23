@@ -54,18 +54,19 @@ body::before{display:none}
   border-bottom:1px solid var(--sk-line)!important;
 }
 .nav-brand>div>div:first-child{
-  font-size:40px!important;letter-spacing:-0.5px!important;line-height:1.1!important;
+  font-size:24px!important;letter-spacing:-0.3px!important;line-height:1.2!important;
   font-weight:800!important;
-  background:linear-gradient(90deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;
-  -webkit-background-clip:text!important;-webkit-text-fill-color:transparent!important;
-  background-clip:text!important;
+  color:#000000!important;
+  -webkit-text-fill-color:#000000!important;
+  background:none!important;
+  -webkit-background-clip:initial!important;background-clip:initial!important;
   animation:none!important;
 }
-.nav-brand-sub{font-size:15px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-2)!important;margin-top:6px!important}
+.nav-brand-sub{font-size:14px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-2)!important;margin-top:4px!important}
 .nav-brand-sub .clock{font-size:16px!important;font-weight:700!important;color:var(--sk-blue)!important;font-variant-numeric:tabular-nums}
-.nav-logo{width:56px!important;height:56px!important;border-radius:16px!important;background:linear-gradient(135deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;box-shadow:0 4px 12px rgba(0,121,221,0.30)!important;transition:.3s}
-.nav-brand:hover .nav-logo{transform:translateY(-1px) scale(1.04);box-shadow:0 8px 18px rgba(0,121,221,0.40)!important}
-.nav-logo-fallback{display:none;width:56px;height:56px;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%);color:#fff;font-size:26px;font-weight:900;border-radius:16px;box-shadow:0 4px 12px rgba(0,121,221,0.30)}
+.nav-logo{width:88px!important;height:88px!important;border-radius:8px!important;background:#ffffff!important;box-shadow:0 2px 8px rgba(0,0,0,0.08)!important;transition:.3s;object-fit:contain;padding:4px}
+.nav-brand:hover .nav-logo{transform:translateY(-1px) scale(1.04);box-shadow:0 6px 14px rgba(0,0,0,0.12)!important}
+.nav-logo-fallback{display:none;width:88px;height:88px;align-items:center;justify-content:center;background:#ffffff;color:#000;font-size:24px;font-weight:900;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
 .nav-links a, .nav-current{
   font-size:16px!important;font-weight:600!important;
   padding:8px 16px!important;border-radius:var(--sk-radius-pill)!important;
@@ -760,10 +761,10 @@ body::before{display:none}
 <nav class="nav">
   <div class="nav-inner">
     <a class="nav-brand" href="index.html">
-      <img class="nav-logo" src="assets/brand/tb-logo.svg" alt="TB" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <img class="nav-logo" src="assets/brand/tb-logo.jpg" alt="天保控股 T&B HOLDING" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <div class="nav-logo-fallback" style="display:none">保</div>
       <div>
-        <div>天保控股投资部 · 项目管理中心</div>
+        <div>投资业务 · 项目管理中心</div>
         <div class="nav-brand-sub">天津天保控股有限公司 · 投资业务管理平台<span class="sep">·</span><span class="clock" id="navClock">--:--:--</span><span class="sep">·</span><span id="navDate">----年--月--日</span></div>
       </div>
     </a>
