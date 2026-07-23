@@ -7,27 +7,217 @@
 <meta name="description" content="天保控股项目分类页 · 3×3 矩阵 + 拖拽">
 <link rel="stylesheet" href="assets/tianbao.css">
 <style>
-body{background:var(--bg)}
-.v3-cat{max-width:1320px;margin:0 auto;padding:0 24px}
-.v3-cat-head{display:flex;justify-content:space-between;align-items:flex-end;margin:6px 0 6px;padding-bottom:5px;border-bottom:1px solid var(--border)}
-.v3-cat-head h1{font-family:var(--hei);font-size:16px;color:var(--ink);font-weight:800;margin:0;letter-spacing:2px;display:flex;align-items:center;gap:8px}
-.v3-cat-head h1::before{content:'';width:3px;height:13px;background:var(--doc-rule);border-radius:1px}
-.v3-cat-head .meta{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-3);text-align:right;line-height:1.5}
-.v3-cat-head .meta b{color:var(--seal);font-size:13px}
+/* ============================================================
+ *  天保 v3 DMS · 分类矩阵页 · skillhub.cn 风格覆盖
+ * ============================================================ */
+:root{
+  --sk-bg:#F5F5F7;
+  --sk-paper:#FFFFFF;
+  --sk-ink:#1d1d1f;
+  --sk-ink-2:#3c3c43;
+  --sk-ink-3:#747480;
+  --sk-line:rgba(0,0,0,0.08);
+  --sk-blue:#0079DD;
+  --sk-blue-2:#00519B;
+  --sk-blue-soft:rgba(0,121,221,0.08);
+  --sk-blue-softer:rgba(0,121,221,0.04);
+  --sk-shadow:0 1px 2px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
+  --sk-shadow-lg:0 4px 16px rgba(0,121,221,0.10), 0 12px 32px rgba(0,0,0,0.06);
+  --sk-radius:20px;
+  --sk-radius-pill:980px;
+}
 
-.v3-loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:14px;text-indent:0}
+*{box-sizing:border-box}
+body{
+  background:var(--sk-bg)!important;
+  font-family:'PingFang SC','Outfit',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Source Han Sans SC','Noto Sans SC',sans-serif!important;
+  font-size:17px!important;color:var(--sk-ink)!important;line-height:1.55;
+}
 
-/* === Cell 可折叠 === */
-.v3-cell-toggle{margin-left:6px;font-size:11px;color:var(--ink-3);transition:.2s;flex-shrink:0}
-.v3-cell-h{cursor:pointer;user-select:none}
-.v3-cell.collapsed .v3-cell-list{display:none}
-.v3-cell.collapsed .v3-cell-toggle{transform:rotate(-90deg);color:var(--seal)}
-.v3-cell.collapsed .v3-cell-h{background:var(--bg-2);border-radius:6px}
-.v3-cell-empty{padding:8px 10px;text-align:center;color:var(--ink-3);font-family:var(--fsong);font-size:11px;font-style:italic;text-indent:0}
+/* 导航继承首页 skillhub 风格 */
+.nav{background:rgba(255,255,255,0.85)!important;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--sk-line)!important}
+.nav-brand>div>div:first-child{font-size:40px!important;letter-spacing:-0.5px!important;line-height:1.1!important;font-weight:800!important;background:linear-gradient(90deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;-webkit-background-clip:text!important;-webkit-text-fill-color:transparent!important;background-clip:text!important}
+.nav-brand-sub{font-size:15px!important;font-weight:500!important;color:var(--sk-ink-2)!important;margin-top:6px!important}
+.nav-logo{width:56px!important;height:56px!important;border-radius:16px!important;background:linear-gradient(135deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;box-shadow:0 4px 12px rgba(0,121,221,0.30)!important}
+.nav-logo-fallback{width:56px;height:56px;font-size:26px;border-radius:16px}
+.nav-links a,.nav-current{font-size:16px!important;font-weight:600!important;padding:8px 16px!important;border-radius:var(--sk-radius-pill)!important;color:var(--sk-ink-2)!important}
+.nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important}
+.nav-current{background:var(--sk-blue)!important;color:#fff!important}
 
+/* 主容器 · 加大纵向间距 */
+.v3-cat{
+  max-width:1320px;margin:0 auto;
+  padding:36px 36px 80px!important;
+  display:flex;flex-direction:column;gap:24px;
+}
+
+/* 页头 H1 · 显著加大 */
+.v3-cat-head{
+  display:flex;justify-content:space-between;align-items:flex-end;
+  margin:0!important;padding:0 0 24px!important;
+  border-bottom:1px solid var(--sk-line)!important;
+  background:transparent!important;flex-wrap:wrap;gap:16px;
+}
+.v3-cat-head h1{
+  font-family:'PingFang SC','Outfit',sans-serif!important;
+  font-size:38px!important;letter-spacing:-0.5px!important;line-height:1.2!important;
+  color:var(--sk-ink)!important;font-weight:800!important;
+  margin:0!important;display:flex;align-items:center;gap:14px;
+}
+.v3-cat-head h1::before{
+  content:'';width:6px;height:36px!important;
+  background:linear-gradient(180deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;
+  border-radius:3px!important;
+}
+.v3-cat-head .meta{
+  font-family:'PingFang SC','Outfit',sans-serif!important;
+  font-size:16px!important;color:var(--sk-ink-2)!important;
+  text-align:right;line-height:1.6;font-weight:500;
+}
+.v3-cat-head .meta b{color:var(--sk-blue)!important;font-size:18px!important;font-weight:700}
+
+/* 矩阵工具条 · 玻璃卡 */
+.v3-matrix-bar{
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:16px;
+  padding:20px 28px!important;
+  background:rgba(255,255,255,0.85)!important;
+  backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
+  border:1px solid var(--sk-line)!important;
+  border-radius:var(--sk-radius)!important;
+  box-shadow:var(--sk-shadow)!important;
+  font-size:16px!important;
+}
+.v3-matrix-bar b{color:var(--sk-blue);font-size:18px;font-weight:800}
+.v3-matrix-bar small{font-size:14px;color:var(--sk-ink-3)}
+
+/* 按钮 · 胶囊 */
+.v3-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:8px 18px!important;border-radius:var(--sk-radius-pill)!important;
+  background:var(--sk-bg)!important;border:1px solid var(--sk-line)!important;
+  font-size:15px!important;font-weight:600!important;color:var(--sk-ink-2)!important;
+  cursor:pointer;transition:.2s;font-family:inherit;
+}
+.v3-btn:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important;border-color:var(--sk-blue)!important}
+.v3-btn.danger:hover{background:rgba(229,62,62,0.10)!important;color:#E53E3E!important;border-color:#E53E3E!important}
+
+/* 矩阵外框 · 玻璃卡 */
+.v3-matrix-wrap{
+  background:rgba(255,255,255,0.85)!important;
+  backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
+  border:1px solid var(--sk-line)!important;
+  border-radius:var(--sk-radius)!important;
+  padding:24px 28px!important;
+  box-shadow:var(--sk-shadow)!important;
+}
+.v3-matrix-wrap::before,.v3-matrix-wrap::after{display:none!important}
+
+/* 矩阵表头 / 行头 */
+.v3-matrix-h{
+  font-family:'PingFang SC','Outfit',sans-serif!important;
+  font-size:18px!important;font-weight:800!important;color:var(--sk-ink)!important;
+  padding:16px 12px!important;letter-spacing:0!important;
+  background:var(--sk-blue-softer)!important;border:0!important;
+  border-radius:12px!important;
+}
+.v3-matrix-row-h{
+  font-family:'PingFang SC','Outfit',sans-serif!important;
+  font-size:20px!important;font-weight:800!important;color:var(--sk-ink)!important;
+  padding:16px 12px!important;letter-spacing:0!important;
+  background:transparent!important;border:0!important;border-radius:12px!important;
+  display:flex;align-items:center;
+}
+.v3-matrix-row-h:hover{background:var(--sk-blue-soft)!important;cursor:pointer}
+
+/* Cell · 玻璃卡 */
+.v3-cell{
+  background:var(--sk-paper)!important;
+  border:1px solid var(--sk-line)!important;
+  border-radius:16px!important;
+  padding:16px!important;
+  transition:.3s;min-height:120px;
+}
+.v3-cell:hover{border-color:var(--sk-blue)!important;box-shadow:var(--sk-shadow-lg)}
+.v3-cell-h{
+  font-family:'PingFang SC','Outfit',sans-serif!important;
+  font-size:16px!important;font-weight:700!important;color:var(--sk-ink)!important;
+  padding:6px 0!important;border-bottom:1px solid var(--sk-line)!important;
+  display:flex;align-items:center;gap:10px;
+}
+.v3-cell-title{flex:1}
+.v3-cell-cnt{
+  font-family:'Outfit',sans-serif!important;
+  font-size:24px!important;font-weight:800!important;color:var(--sk-blue)!important;
+  background:var(--sk-blue-soft);padding:2px 12px!important;border-radius:var(--sk-radius-pill)!important;
+  font-variant-numeric:tabular-nums;
+}
+.v3-cell-toggle{font-size:14px!important;color:var(--sk-ink-3)!important}
+.v3-cell-list{padding-top:10px!important}
+
+/* Cell 内卡片 */
+.v3-card{
+  font-family:'PingFang SC','Outfit',sans-serif!important;
+  font-size:15px!important;font-weight:600!important;color:var(--sk-ink)!important;
+  padding:12px 14px!important;
+  background:var(--sk-bg)!important;
+  border:1px solid var(--sk-line)!important;
+  border-radius:12px!important;
+  display:flex;align-items:center;gap:10px;
+  text-decoration:none;transition:.2s;
+  border-left:3px solid var(--sk-blue)!important;
+}
+.v3-card:hover{background:var(--sk-blue-soft)!important;border-color:var(--sk-blue)!important;transform:translateX(3px)}
+.v3-card-emoji{font-size:20px}
+.v3-card-main{flex:1;font-weight:700}
+.v3-card-count{
+  font-family:'Outfit',sans-serif!important;font-size:13px!important;
+  color:var(--sk-blue)!important;background:var(--sk-blue-soft);
+  padding:2px 10px;border-radius:var(--sk-radius-pill);font-weight:700;
+  font-variant-numeric:tabular-nums;
+}
+
+.v3-cell-empty{
+  padding:20px!important;color:var(--sk-ink-3)!important;
+  font-size:14px!important;font-style:italic;
+}
+.v3-cell-more{
+  width:100%;margin-top:8px;padding:8px!important;
+  background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important;
+  border:0!important;border-radius:10px!important;
+  font-size:14px!important;font-weight:600;cursor:pointer;
+}
+.v3-cell-more:hover{background:var(--sk-blue)!important;color:#fff!important}
+
+.v3-loading{padding:60px!important;text-align:center;color:var(--sk-ink-3)!important;font-size:16px!important}
+
+/* 底部提示条 · 玻璃卡 */
+.v3-cat>div[style*="dashed"]{
+  background:rgba(0,121,221,0.06)!important;
+  border:1px solid var(--sk-blue-soft)!important;
+  border-radius:var(--sk-radius)!important;
+  padding:18px 24px!important;
+  font-size:16px!important;color:var(--sk-ink-2)!important;line-height:1.7;
+}
+.v3-cat>div[style*="dashed"] b{color:var(--sk-blue);font-weight:700}
+
+@media (max-width:1100px){
+  .v3-matrix-h{font-size:16px!important;padding:12px 8px!important}
+  .v3-matrix-row-h{font-size:18px!important}
+}
 @media (max-width:760px){
-  .v3-cat-head{flex-direction:column;align-items:flex-start}
-  .v3-cat-head h1{font-size:22px}
+  .v3-cat{padding:20px 16px 60px!important;gap:18px}
+  .v3-cat-head h1{font-size:28px!important}
+  .v3-cat-head h1::before{height:26px!important}
+  .v3-cat-head .meta{font-size:14px!important;text-align:left}
+  .v3-matrix-bar{padding:16px!important;gap:10px}
+  .v3-btn{padding:6px 14px!important;font-size:13px!important}
+  .v3-matrix-h{font-size:14px!important;padding:8px 6px!important}
+  .v3-matrix-row-h{font-size:15px!important;padding:10px 6px!important}
+  .v3-cell{padding:12px!important;min-height:80px}
+  .v3-cell-h{font-size:14px!important}
+  .v3-cell-cnt{font-size:18px!important}
+  .v3-card{padding:10px 12px!important;font-size:14px!important}
 }
 </style>
 </head>
