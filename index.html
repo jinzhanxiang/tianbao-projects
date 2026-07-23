@@ -813,7 +813,10 @@ body::before{display:none}
         fetchOnce('data/industry_news.json'),
         fetchOnce('data/project_news.json').catch(()=>null),  /* 每日自动抓取的公司新闻 · 缺失不阻断 */
       ]);
-      PROJECTS = (p && p.projects) || [];
+      const _allProjects = (p && p.projects) || [];
+      const _archived = _allProjects.filter(x=>x.archived);
+      /* 过滤掉 archived（仅底库留存，不入矩阵/顶部KPI） */
+      PROJECTS = _allProjects.filter(x=>!x.archived);
       REPORTS = (r && r.by_code) || {};
       /* 隔离区过滤：跳过推量方案/外围创新/成交量交付类研究 + 未归类报告
          quarantine_codes 名单在 reports.json 顶层定义，集中维护 */
@@ -824,6 +827,8 @@ body::before{display:none}
         const _after = Object.values(REPORTS).flat().length;
         if(_before !== _after) console.log(`[v3] 隔离区已过滤 ${_before-_after} 份报告 · 名单:`, _qc);
       }
+      window.ALL_PROJECTS = _allProjects;
+      window.ARCHIVED = _archived;
       const newsRaw = n || {};
       NEWS_BY_IND = newsRaw.industries || {};
       NEWS = [];
@@ -887,7 +892,9 @@ body::before{display:none}
     const stamp = `${pad(ts.getHours())}:${pad(ts.getMinutes())}`;
 
     /* ===== 1. 顶部 4-指标数据条 ===== */
+    const _archivedCnt = (window.ARCHIVED || []).length;
     document.getElementById('holoProjects').setAttribute('data-counter-up', PROJECTS.length);
+    document.getElementById('holoProjects').setAttribute('data-archived-count', _archivedCnt);
     document.getElementById('holoReports').setAttribute('data-counter-up', totalR);
     document.getElementById('holoInds').setAttribute('data-counter-up', industries.length);
     document.getElementById('holoProgress').setAttribute('data-counter-up', avgProgress);
@@ -934,8 +941,11 @@ body::before{display:none}
     /* ===== 头部状态栏 · 数据快照（由 loadData 统一管理 · 此处不再覆盖） ===== */
     /* 仅在数据非空时刷新，确保 loadData 中的"加载中/重试"提示不被覆盖 */
     if(PROJECTS.length > 0){
+      const archNote = _archivedCnt
+        ? ` · <span style="color:#6B7280" title="${(window.ARCHIVED||[]).map(p=>p.name_cn).join('·')} 母公司存档不入矩阵">底库 ${_archivedCnt} 个</span>`
+        : '';
       document.getElementById('holoMeta').innerHTML =
-        `<b>${PROJECTS.length}</b> 项目 · <b>${totalR}</b> 报告 · <b>${industries.length}</b> 行业`;
+        `<b>${PROJECTS.length}</b> 项目${archNote} · <b>${totalR}</b> 报告 · <b>${industries.length}</b> 行业`;
     }
 
     /* === 3 类入口 === */
