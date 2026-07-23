@@ -763,11 +763,13 @@ body{
     document.getElementById('projTitle').textContent = p.name_full || p.name_cn || code;
     const actualReportCount = (REPORTS[p.code] || []).length;
     const ledgerDiff = actualReportCount !== p.report_count;
+    const isArchived = !!p.archived;
     document.getElementById('projMeta').innerHTML = `
       <span>code: <b>${p.code}</b></span>
       <span>行业: <b>${p.industry || '—'}</b></span>
       <span>报告: <b>${actualReportCount} 份</b>${ledgerDiff ? ` <small style="color:var(--seal)">(台账 ${p.report_count})</small>` : ''}</span>
       <span>本地: <b style="text-transform:none">${p.local_folder || '—'}</b></span>
+      ${isArchived ? `<span style="color:var(--seal);font-weight:700">🗄️ 底库存档</span>` : ''}
     `;
     document.getElementById('projStage').innerHTML = `
       <div class="v3-stage-row">
@@ -775,6 +777,7 @@ body{
         <span class="v3-badge-iss b-${p.iss||'未上市'}">${escapeHtml(issLabel(p.iss))}</span>
       </div>
       <small style="font-family:var(--fsong);color:var(--ink-3);font-size:11px">原始阶段：${p.stage || '—'}</small>
+      ${isArchived && p.archived_reason ? `<small style="font-family:var(--fsong);color:var(--ink-3);font-size:11px;display:block;margin-top:4px">📌 归档原因：${escapeHtml(p.archived_reason)}</small>` : ''}
     `;
     renderSidebar(p);
     renderBrief(p);
