@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:08:29+08:00",
+  "generated_at": "2026-07-23T16:02:59+08:00",
   "source": "build_industry_news.py + 人工维护（已存在行业不覆盖）",
   "note": "本数据基于 projects.json + reports.json 自动汇总 ledger 行业集合，通过 alias 映射复用已有人工编辑的真实新闻。无新闻条目的行业填充占位（_placeholder=true）。具体数据请以官方公告为准。",
   "industries": {
