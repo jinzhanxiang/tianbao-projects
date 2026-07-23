@@ -616,11 +616,15 @@ body::before{display:none}
 }
 .v3-marquee-track{
   display:flex;flex-direction:column;gap:12px;
-  animation:marqueeUp var(--dur,60s) linear infinite;will-change:transform;
+  animation:marqueePingPong var(--dur,60s) ease-in-out infinite alternate;will-change:transform;
 }
 .v3-marquee:hover .v3-marquee-track{animation-play-state:paused}
 .v3-marquee.no-scroll .v3-marquee-track{animation:none}
-@keyframes marqueeUp{from{transform:translateY(0)}to{transform:translateY(-50%)}}
+/* 上下往返滚动（R179）：向上滚到顶部 → 反向滑回底部 → 反复 */
+@keyframes marqueePingPong{
+  0%  {transform:translateY(0)}
+  100%{transform:translateY(var(--marquee-shift, -50%))}
+}
 
 .v3-feed-card{
   display:flex;flex-direction:column;gap:8px;
@@ -856,8 +860,8 @@ body::before{display:none}
   <div class="v3-feed v3-hud v3-corner" style="--feed-color:#0079DD">
     <div class="v3-feed-head">
       <h2>📡 统一事件流 · 行业动态 + 近期报告</h2>
-      <small><span id="unifiedIndLabel">全部行业 · 倒序 ·</span> <span id="unifiedTotal">0</span> 项</small>
-      <button class="v3-feed-toggle" id="unifiedToggle" type="button" title="切换滚动/静态" data-mode="static">
+      <small><span id="unifiedIndLabel">全部行业 · 倒序 ·</span> <span id="unifiedTotal">0</span> 项 <span id="unifiedReportLabel" style="color:var(--seal);font-weight:700"></span></small>
+      <button class="v3-feed-toggle" id="unifiedToggle" type="button" title="切换滚动/静态" data-mode="scroll">
         <span class="ico-static">⊟</span><span class="ico-scroll">↕</span>
       </button>
     </div>
@@ -1289,26 +1293,31 @@ body::before{display:none}
       if(count <= 0 || oneCopy <= mq.clientHeight + 4 || mode === 'static'){
         mq.classList.add('no-scroll');
         track.style.removeProperty('--dur');
+        track.style.removeProperty('--marquee-shift');
       } else {
         mq.classList.remove('no-scroll');
-        const dur = Math.max(18, Math.round(oneCopy / 22));
+        /* 上下往返：up 半程 + down 半程 = 2 × --dur 全周期
+           速度：每像素 28ms · 半程（oneCopy）耗时 oneCopy/28 秒 */
+        const dur = Math.max(20, Math.round(oneCopy / 28));
         track.style.setProperty('--dur', dur + 's');
+        track.style.setProperty('--marquee-shift', '-50%');
       }
     });
   }
 
-  /* R170: marquee 静态/动态模式切换 · 默认静态（更易点击） */
-  let UNIFIED_MODE = 'static';
+  /* R170/R179: marquee 静态/动态模式切换 · 默认滚动（上下往返 · 让全部内容循环可见） */
+  let UNIFIED_MODE = 'scroll';
   function bindToggle(){
     const btn = document.getElementById('unifiedToggle');
     if(!btn) return;
+    btn.setAttribute('data-mode', UNIFIED_MODE);
+    btn.title = UNIFIED_MODE === 'static' ? '当前：滚动 · 点击切换静态' : '当前：静态 · 点击切换滚动';
     btn.addEventListener('click', ()=>{
-      UNIFIED_MODE = UNIFIED_MODE === 'static' ? 'scroll' : 'static';
+      UNIFIED_MODE = UNIFIED_MODE === 'scroll' ? 'static' : 'scroll';
       btn.setAttribute('data-mode', UNIFIED_MODE);
       btn.title = UNIFIED_MODE === 'static' ? '当前：静态 · 点击切换滚动' : '当前：滚动 · 点击切换静态';
       renderUnified();
     });
-    btn.title = '当前：静态 · 点击切换滚动';
   }
 
   function tick(){
@@ -1361,36 +1370,44 @@ body::before{display:none}
     const news = newsForIndustry();
     const {list: reports} = collectRecentReports();
 
-    /* 合并 · 加 source 标签 */
-    const merged = [
-      ...news.map(n => ({
-        kind: 'news',
-        date: n.date || '',
-        sortKey: n.date || '',
-        /* 自动抓取的公司新闻优先显示公司名，宏观行业动态显示行业名 */
-        tag: (n._auto && n.company) ? n.company : (n.industry || n.source || '资讯'),
-        title: n.title || '',
-        url: n.url || '',
-        restricted: isRestrictedSource(n.url || ''),
-      })),
-      ...reports.map(r => {
-        const proj = PROJECTS.find(p => p.code === r.code);
-        const projName = proj ? (proj.name_cn || proj.code) : r.code;
-        return {
-          kind: 'report',
-          date: r.date || '—',
-          sortKey: r.date || '',
-          tag: r.category || '未分类',
-          title: r.title || '(无标题)',
-          url: resolveReportUrl({...r, code:r.code}),
-          projName,
-        };
-      }),
-    ];
-    merged.sort((a, b) => (b.sortKey || '').localeCompare(a.sortKey || ''));
+    /* R179: 各自按日期倒序，再按 kind 交替合并（报告不再被挤到底部） */
+    const newsSorted = news.map(n => ({
+      kind: 'news',
+      date: n.date || '',
+      sortKey: n.date || '',
+      tag: (n._auto && n.company) ? n.company : (n.industry || n.source || '资讯'),
+      title: n.title || '',
+      url: n.url || '',
+      restricted: isRestrictedSource(n.url || ''),
+    })).sort((a, b) => (b.sortKey || '').localeCompare(a.sortKey || ''));
+
+    const reportSorted = reports.map(r => {
+      const proj = PROJECTS.find(p => p.code === r.code);
+      const projName = proj ? (proj.name_cn || proj.code) : r.code;
+      return {
+        kind: 'report',
+        date: r.date || '—',
+        sortKey: r.date || '',
+        tag: r.category || '未分类',
+        title: r.title || '(无标题)',
+        url: resolveReportUrl({...r, code:r.code}),
+        projName,
+      };
+    }).sort((a, b) => (b.sortKey || '').localeCompare(a.sortKey || ''));
+
+    /* 交替合并：news[0], report[0], news[1], report[1], ... → 让报告均匀出现 */
+    const merged = [];
+    const maxLen = Math.max(newsSorted.length, reportSorted.length);
+    for(let i = 0; i < maxLen; i++){
+      if(i < newsSorted.length) merged.push(newsSorted[i]);
+      if(i < reportSorted.length) merged.push(reportSorted[i]);
+    }
     const total = merged.length;
     totalEl.textContent = total;
     lbl.textContent = `${SELECTED_INDUSTRY === '__ALL__' ? '全部行业' : SELECTED_INDUSTRY} · 倒序 ·`;
+    /* 报告条数提示，让"近期报告"确实可见 */
+    const reportLbl = document.getElementById('unifiedReportLabel');
+    if(reportLbl) reportLbl.textContent = `· 近期报告 ${reportSorted.length} 份`;
 
     if(!total){
       track.innerHTML = `<div class="v3-feed-empty">${SELECTED_INDUSTRY === '__ALL__' ? '暂无事件流 · 等待推送' : '该行业暂无公开事件 · 点「全部行业」查看'}</div>`;
