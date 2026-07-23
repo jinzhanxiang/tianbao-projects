@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T06:21:52+08:00",
+  "generated_at": "2026-07-24T07:10:05+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 19,
   "stage_v3_enum": [
@@ -17,6 +17,7 @@
       "code": "xingheng",
       "name_cn": "星恒电源",
       "name_full": "星恒电源（锂电两轮车龙头）",
+      "archived_reason": "",
       "category": "知识图谱",
       "stage": "已立项",
       "stage_v3": "观察",
@@ -38,13 +39,13 @@
       "last_update": "2026-07-09",
       "notes": "重大并购项目，已部署 dashboard.html 双视图版 | 2026-07-21 由投资部决定移到观察",
       "pending_tasks": "已上线 (2026-07-11 v11g 真实 timeline 接入)",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "jngd",
       "name_cn": "晶能光电",
       "name_full": "晶能光电（江西）有限公司",
+      "archived_reason": "",
       "category": "重大并购",
       "stage": "初步分析",
       "stage_v3": "在推重点",
@@ -66,13 +67,13 @@
       "last_update": "2026-07-09",
       "notes": "3 份报告 + 2个过程 md；dashboard.html 已部署；Documents 旧文件夹待清理 | 2026-07-21 由投资部决定移到在推重点",
       "pending_tasks": "待 v11h 切共享 CSS",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "kedu",
       "name_cn": "柯渡医学",
       "name_full": "上海柯渡医学",
+      "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
@@ -84,7 +85,7 @@
       "repo": "kedu-report",
       "local_folder": "~/Desktop/储备项目/上海柯渡医学科技股份有限公司投资立项汇报0522.pptx",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 0,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "柯渡医学（医疗健康）· 初步分析阶段 · 详见报告库",
@@ -94,13 +95,13 @@
       "last_update": "2026",
       "notes": "单报告项目，源在桌面根（110MB PPTX）",
       "pending_tasks": "单文件项目，待投资部部署指示",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "zhongfu",
       "name_cn": "中复碳芯",
       "name_full": "中复神鹰碳纤维芯电缆项目",
+      "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
@@ -112,7 +113,7 @@
       "repo": "zhongfu-report",
       "local_folder": "~/Desktop/储备项目/中复碳芯/",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 0,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "中复碳芯（硬科技·新材料）· 初步分析阶段 · 详见报告库",
@@ -122,13 +123,13 @@
       "last_update": "2026",
       "notes": "单报告项目，源在桌面（86M / 3文件：1 pptx + 2 img）",
       "pending_tasks": "单文件项目，待投资部部署指示",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "xinhong",
       "name_cn": "信鸿医疗",
       "name_full": "天津信鸿医疗科技股份有限公司",
+      "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
@@ -140,7 +141,7 @@
       "repo": "xinhong-report",
       "local_folder": "~/Desktop/储备项目/信鸿医疗/",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 0,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "信鸿医疗（医疗健康）· 初步分析阶段 · 详见报告库",
@@ -150,13 +151,13 @@
       "last_update": "2026",
       "notes": "单报告项目，源在桌面（40M / 3文件：1 xlsx + 2 docx）",
       "pending_tasks": "单文件项目，待投资部部署指示",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "xunchao",
       "name_cn": "迅巢科技",
       "name_full": "迅巢换电（XCHS Energon）",
+      "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
@@ -168,7 +169,7 @@
       "repo": "xunchao-report",
       "local_folder": "~/Desktop/储备项目/迅巢科技0419.pdf",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 0,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "迅巢科技（硬科技·新能源）· 初步分析阶段 · 详见报告库",
@@ -178,13 +179,13 @@
       "last_update": "2026",
       "notes": "单报告项目，源在桌面根（16MB PDF）",
       "pending_tasks": "单文件项目，待投资部部署指示",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "unicom-idc",
       "name_cn": "四川 IDC",
       "name_full": "四川数据中心 IDC 项目",
+      "archived_reason": "与 huitian 重复·0 报告·不入主中心·仅在底库留存可查",
       "category": "重大并购",
       "stage": "初步分析",
       "stage_v3": "在推重点",
@@ -196,7 +197,7 @@
       "repo": "unicom-idc-report",
       "local_folder": "~/Desktop/储备项目/四川IDC/",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 0,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "四川 IDC（数据·云）· 初步分析阶段 · 详见报告库",
@@ -206,13 +207,13 @@
       "last_update": "2026",
       "notes": "REITs 项目，源在桌面（5.9M / 7文件） | 2026-07-21 由投资部决定移到在推重点 | 2026-07-21 由投资部澄清：此项目为四川IDC，原名\"联通云IDC\"中\"汇天网络科技\"为路径误标，已分拆为独立项目 huitian",
       "pending_tasks": "REITs 项目，源 7 文件已归类",
-      "archived": false,
-      "archived_reason": ""
+      "archived": true
     },
     {
       "code": "hongyuan",
       "name_cn": "宏远创信",
       "name_full": "宏远创信（综合智慧能源）",
+      "archived_reason": "",
       "category": "重大并购",
       "stage": "初步分析",
       "stage_v3": "在推重点",
@@ -234,13 +235,13 @@
       "last_update": "2026",
       "notes": "单报告项目，源在桌面（11M / 4文件：3 PDF + 1 docx） | 2026-07-21 由投资部决定移到在推重点（电力交易）",
       "pending_tasks": "单文件项目，待投资部部署指示",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "innoshine",
       "name_cn": "元旭半导体",
       "name_full": "元旭半导体（Innoshine）",
+      "archived_reason": "",
       "category": "储备·非上市",
       "stage": "已立项",
       "stage_v3": "储备",
@@ -252,7 +253,7 @@
       "repo": "innoshine-report",
       "local_folder": "~/Documents/OpenClaw-workspace-Projects/元旭半导体/",
       "folder_alias": "",
-      "report_count": 2,
+      "report_count": 0,
       "progress_pct": 35,
       "contacts": "天保控股投资部",
       "brief_md": "元旭半导体（硬科技·芯片）· 已立项阶段 · 详见报告库",
@@ -262,13 +263,13 @@
       "last_update": "2026-07-09",
       "notes": "尽调报告 + 谈判简报 = 2份报告；dashboard.html 已部署；子目录:尽调分析/尽调报告/谈判准备/部署脚本",
       "pending_tasks": "待 v11h 切共享 CSS",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "htco",
       "name_cn": "航天宏图",
       "name_full": "航天宏图（HTCO IRE）",
+      "archived_reason": "",
       "category": "储备·上市",
       "stage": "已部署",
       "stage_v3": "储备",
@@ -280,7 +281,7 @@
       "repo": "htco-ire-delivery-plan",
       "local_folder": "~/Desktop/储备项目/航天宏图/",
       "folder_alias": "",
-      "report_count": 1,
+      "report_count": 0,
       "progress_pct": 70,
       "contacts": "天保控股投资部",
       "brief_md": "航天宏图（航天遥感）· 已部署阶段 · 详见报告库",
@@ -290,13 +291,13 @@
       "last_update": "2026-07",
       "notes": "上市公司对口交付方案 v4（口令保护），源在桌面（2.4M / 1 PDF）",
       "pending_tasks": "上市公司对口交付方案 v4 已部署（口令保护）",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "acquisition-listed",
       "name_cn": "收购上市公司研究",
       "name_full": "收购上市公司标的研究",
+      "archived_reason": "",
       "category": "储备·上市",
       "stage": "研究阶段",
       "stage_v3": "储备",
@@ -318,13 +319,13 @@
       "last_update": "2026",
       "notes": "在 7projects-summary/projects/ 下，无独立仓库；源在桌面（504K / 3文件）",
       "pending_tasks": "7projects-summary/projects/ 子文件",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "qiyuanxin",
       "name_cn": "启源芯动力",
       "name_full": "启源芯动力科技有限公司（电驱系统）",
+      "archived_reason": "",
       "category": "知识图谱",
       "stage": "暂停跟踪",
       "stage_v3": "观察",
@@ -336,7 +337,7 @@
       "repo": "7projects-summary",
       "local_folder": "~/Documents/OpenClaw-workspace-Projects/1、启源芯项目/",
       "folder_alias": "",
-      "report_count": 2,
+      "report_count": 0,
       "progress_pct": 15,
       "contacts": "天保控股投资部",
       "brief_md": "启源芯动力（新能源汽车·电驱）· 暂停跟踪阶段 · 详见报告库",
@@ -346,13 +347,13 @@
       "last_update": "2026-07-08",
       "notes": "重大并购（1.7G 本地源 + 3阶段：入股/合资/并购）；无独立仓库；research 产物在 projects/启源芯动力/output/；2026-07-09 投资部决定不进入主中心（避免口径混淆），台账保留作历史记录 | 2026-07-21 由投资部决定移到观察",
       "pending_tasks": "等待投资部重新激活或正式归档",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "huitian",
       "name_cn": "汇天科技",
       "name_full": "汇天科技（IDC 数据中心）",
+      "archived_reason": "",
       "category": "知识图谱",
       "stage": "初步分析",
       "stage_v3": "观察",
@@ -374,13 +375,13 @@
       "last_update": "2026-07-21",
       "notes": "2026-07-21 由投资部新增：独立的 IC 项目（与 unicom-idc 拆开），从 unicom-idc 旧路径 ~/Desktop/储备项目/汇天网络科技/ 迁出，初始跟踪 | 2026-07-21 投资部澄清：汇天科技 = IDC 数据中心项目（独立），与 unicom-idc/四川IDC 拆开",
       "pending_tasks": "待投资部确认本地原始材料归属 / 部署独立仓库",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "huayt",
       "name_cn": "华阳集团",
       "name_full": "华阳集团股份有限公司",
+      "archived_reason": "",
       "category": "储备·上市",
       "stage": "已立项",
       "stage_v3": "储备",
@@ -402,13 +403,13 @@
       "last_update": "2026-07-21",
       "notes": "2026-07-21 由投资部新增：上市公司（储备·上市公司），reports.json 中已有 1 份《华阳集团_投资可行性分析报告_v2_20260719》",
       "pending_tasks": "部署独立仓库 + 整理本地原始材料",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "htco-us",
       "name_cn": "High-Trend International",
       "name_full": "High-Trend International Group（NASDAQ: HTCO）",
+      "archived_reason": "NASDAQ: HTCO 市值管理合规敏感·不入主中心·仅在底库留存可查",
       "category": "特殊归档",
       "stage": "研究阶段",
       "stage_v3": "观察",
@@ -420,7 +421,7 @@
       "repo": "",
       "local_folder": "",
       "folder_alias": "",
-      "report_count": 13,
+      "report_count": 0,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "High-Trend International（美国中概股·跨境物流）· 研究阶段阶段 · 详见报告库",
@@ -430,13 +431,13 @@
       "last_update": "2026-07-23",
       "notes": "R176 新增：与航天宏图同名不同公司，原 13 份 HTCO_IRE/创新方案报告从 htco 迁出单独归档",
       "pending_tasks": "需与投资部确认是否纳入主中心",
-      "archived": false,
-      "archived_reason": ""
+      "archived": true
     },
     {
       "code": "aodian",
       "name_cn": "奥联电子",
       "name_full": "南京奥联汽车电子电器股份有限公司（300585.SZ）",
+      "archived_reason": "",
       "category": "重大并购",
       "stage": "已立项",
       "stage_v3": "在推重点",
@@ -458,13 +459,13 @@
       "last_update": "2026-07-23",
       "notes": "R176 新增：3 份 V4.1 报告 + 自检报告",
       "pending_tasks": "需以最新股价重测估值区间",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "huadong-sk",
       "name_cn": "华东数控",
       "name_full": "华东数控（002248.SZ）",
+      "archived_reason": "",
       "category": "重大并购",
       "stage": "初步分析",
       "stage_v3": "在推重点",
@@ -486,13 +487,13 @@
       "last_update": "2026-07-23",
       "notes": "R176 新增：2 份报告（Phase 1 执行计划 + 可行性研究）",
       "pending_tasks": "需补充可比交易与监管口径",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     },
     {
       "code": "tianbao-jijian",
       "name_cn": "天保基建",
       "name_full": "天保基建（000965.SZ）",
+      "archived_reason": "天保控股母公司已控制上市公司·材料不推送至项目库·仅在底库留存可查",
       "category": "重大并购",
       "stage": "独立尽调",
       "stage_v3": "在推重点",
@@ -514,13 +515,13 @@
       "last_update": "2026-07-23",
       "notes": "R176 新增：1 份独立深度尽调",
       "pending_tasks": "与基建医药/芯片二选一框架协同",
-      "archived": true,
-      "archived_reason": "天保控股母公司已控制上市公司·材料不推送至项目库·仅在底库留存可查"
+      "archived": true
     },
     {
       "code": "unicom-sx",
       "name_cn": "联通云山西",
       "name_full": "联通云（山西）IDC 项目",
+      "archived_reason": "",
       "category": "重大并购",
       "stage": "已立项",
       "stage_v3": "在推重点",
@@ -542,8 +543,7 @@
       "last_update": "2026-07-23",
       "notes": "R176 新增：5 份报告（Phase 2 估值底稿 + V4.1 主报告 + v3.51 主报告 + 增量章节 + 完整版）",
       "pending_tasks": "需补充机柜上架率与客户结构",
-      "archived": false,
-      "archived_reason": ""
+      "archived": false
     }
   ],
   "industries": {
@@ -563,7 +563,7 @@
       {
         "code": "xunchao",
         "name_cn": "迅巢科技",
-        "count": 1
+        "count": 0
       }
     ],
     "硬科技": [
@@ -575,12 +575,12 @@
       {
         "code": "zhongfu",
         "name_cn": "中复碳芯",
-        "count": 1
+        "count": 0
       },
       {
         "code": "xunchao",
         "name_cn": "迅巢科技",
-        "count": 1
+        "count": 0
       },
       {
         "code": "hongyuan",
@@ -590,7 +590,7 @@
       {
         "code": "innoshine",
         "name_cn": "元旭半导体",
-        "count": 2
+        "count": 0
       },
       {
         "code": "huayt",
@@ -612,7 +612,7 @@
       {
         "code": "zhongfu",
         "name_cn": "中复碳芯",
-        "count": 1
+        "count": 0
       },
       {
         "code": "hongyuan",
@@ -629,60 +629,26 @@
       {
         "code": "kedu",
         "name_cn": "柯渡医学",
-        "count": 1
+        "count": 0
       },
       {
         "code": "xinhong",
         "name_cn": "信鸿医疗",
-        "count": 1
-      }
-    ],
-    "数据": [
-      {
-        "code": "unicom-idc",
-        "name_cn": "四川 IDC",
-        "count": 1
-      },
-      {
-        "code": "huitian",
-        "name_cn": "汇天科技",
-        "count": 3
-      },
-      {
-        "code": "unicom-sx",
-        "name_cn": "联通云山西",
-        "count": 2
-      }
-    ],
-    "云": [
-      {
-        "code": "unicom-idc",
-        "name_cn": "四川 IDC",
-        "count": 1
-      },
-      {
-        "code": "huitian",
-        "name_cn": "汇天科技",
-        "count": 3
-      },
-      {
-        "code": "unicom-sx",
-        "name_cn": "联通云山西",
-        "count": 2
+        "count": 0
       }
     ],
     "芯片": [
       {
         "code": "innoshine",
         "name_cn": "元旭半导体",
-        "count": 2
+        "count": 0
       }
     ],
     "航天遥感": [
       {
         "code": "htco",
         "name_cn": "航天宏图",
-        "count": 1
+        "count": 0
       }
     ],
     "收购研究": [
@@ -703,13 +669,37 @@
       {
         "code": "qiyuanxin",
         "name_cn": "启源芯动力",
-        "count": 2
+        "count": 0
       }
     ],
     "电驱": [
       {
         "code": "qiyuanxin",
         "name_cn": "启源芯动力",
+        "count": 0
+      }
+    ],
+    "数据": [
+      {
+        "code": "huitian",
+        "name_cn": "汇天科技",
+        "count": 3
+      },
+      {
+        "code": "unicom-sx",
+        "name_cn": "联通云山西",
+        "count": 2
+      }
+    ],
+    "云": [
+      {
+        "code": "huitian",
+        "name_cn": "汇天科技",
+        "count": 3
+      },
+      {
+        "code": "unicom-sx",
+        "name_cn": "联通云山西",
         "count": 2
       }
     ],
@@ -723,20 +713,6 @@
         "code": "unicom-sx",
         "name_cn": "联通云山西",
         "count": 2
-      }
-    ],
-    "美国中概股": [
-      {
-        "code": "htco-us",
-        "name_cn": "High-Trend International",
-        "count": 13
-      }
-    ],
-    "跨境物流": [
-      {
-        "code": "htco-us",
-        "name_cn": "High-Trend International",
-        "count": 13
       }
     ],
     "汽车电子": [
@@ -765,7 +741,6 @@
         "huadong-sk"
       ],
       "REITs": [
-        "unicom-idc",
         "unicom-sx"
       ]
     },
@@ -789,9 +764,7 @@
         "xingheng",
         "qiyuanxin"
       ],
-      "上市": [
-        "htco-us"
-      ],
+      "上市": [],
       "REITs": [
         "huitian"
       ]
