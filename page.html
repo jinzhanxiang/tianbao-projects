@@ -708,13 +708,15 @@ body{
     </div>
   </section>
 
-  <!-- 归档信息条 · 展示被排除的母公司项目 -->
+  <!-- 归档信息条 · 隐藏：底库备注不入 UI（保留 archived_reason 供内部参考） -->
+  <!--
   <div class="v3-archive-info" id="archiveInfo" style="display:none">
     <span class="v3-archive-ico">🗄️</span>
     <span class="v3-archive-body">
       <b>底库存档 · 不入矩阵</b> · <span id="archiveText"></span>
     </span>
   </div>
+  -->
 
   <!-- 提示条 -->
   <div class="v3-tip">
@@ -779,17 +781,8 @@ body{
   }
 
   function renderArchiveInfo(){
-    const archived = ALL_PROJECTS.filter(p => p.archived);
-    if(!archived.length){
-      document.getElementById('archiveInfo').style.display = 'none';
-      return;
-    }
-    document.getElementById('archiveInfo').style.display = '';
-    const txt = archived.map(p => {
-      const r = p.archived_reason || '母公司存档';
-      return `<b>${p.name_cn}</b>（${p.code}）· ${r}`;
-    }).join(' · ');
-    document.getElementById('archiveText').innerHTML = txt;
+    /* 底库备注不入 UI · 仅保留内部 archived_reason · 不向页面渲染 */
+    return;
   }
 
   function bindFromUrl(){
@@ -799,7 +792,6 @@ body{
 
     const h1 = document.getElementById('catH1');
     const meta = document.getElementById('catMeta');
-    const archived = ALL_PROJECTS.filter(p => p.archived).length;
     const legacyNote = {
       'deal': 'v2.2 旧分类「重大并购」映射而来',
       'np':   'v2.2 旧分类「储备·非上市」映射',
@@ -807,14 +799,14 @@ body{
       'kg':   'v2.2 旧分类「知识图谱」映射',
       'hub':  'v2.2 旧分类「中心·入口」映射',
       'course':'v2.2 旧分类「内训课件」映射',
-    }[cat||''] || `完整 3×3 矩阵 · 全部 ${PROJECTS.length} 个项目${archived?` · 底库 ${archived} 个`:''}`;
+    }[cat||''] || `完整 3×3 矩阵 · 全部 ${PROJECTS.length} 个项目`;
 
     if(FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT)){
       h1.textContent = `${FILTER_CAT} · 项目分类`;
       meta.innerHTML = `1 × 3 焦点行：<b>${FILTER_CAT}</b>（其他行已隐藏）<br>${legacyNote}`;
     } else {
       h1.textContent = '项目分类矩阵';
-      meta.innerHTML = `全部 <b>${PROJECTS.length}</b> 个项目 · 3 × 3 矩阵${archived?` · <span style="color:var(--stage-3)">底库 ${archived} 个母公司存档</span>`:''}<br>${legacyNote}`;
+      meta.innerHTML = `全部 <b>${PROJECTS.length}</b> 个项目 · 3 × 3 矩阵<br>${legacyNote}`;
     }
 
     document.getElementById('navActive').textContent = FILTER_CAT!=='__ALL__' ? `📂 ${FILTER_CAT}` : '📂 分类页';
@@ -846,8 +838,11 @@ body{
       c.classList.remove('empty-cell');
     });
 
-    // 按 v3 stage_v3 / iss 分类
-    const filtered = FILTER_CAT==='__ALL__' ? PROJECTS : PROJECTS.filter(p=>p.stage_v3===FILTER_CAT);
+    // 按 v3 stage_v3 / iss 分类（pill 筛选优先于 URL cat · 二者择一）
+    const activeFilter = PILL_FILTER !== '__ALL__' ? PILL_FILTER
+                       : FILTER_CAT !== '__ALL__' ? FILTER_CAT
+                       : '__ALL__';
+    const filtered = activeFilter==='__ALL__' ? PROJECTS : PROJECTS.filter(p=>p.stage_v3===activeFilter);
 
     let placed = 0;
     filtered.forEach((p, idx)=>{
@@ -963,7 +958,17 @@ body{
         document.querySelectorAll('.v3-stage-pill').forEach(p=>p.classList.remove('active'));
         pill.classList.add('active');
         PILL_FILTER = f;
+        // 同步 URL · 让浏览器后退/前进/刷新都保留当前筛选
+        try {
+          const newSearch = f === '__ALL__' ? '' : `?cat=${encodeURIComponent(f)}`;
+          const newUrl = `${location.pathname}${newSearch}`;
+          history.replaceState(null, '', newUrl);
+          // 同步 FILTER_CAT，让 bindFromUrl 渲染的标题/计数与 pill 一致
+          FILTER_CAT = f;
+          bindFromUrl();
+        } catch(e){}
         applyPillFilter();
+        renderAll();  // 关键：pill 切换需重新填充 cell-list（否则空 cell）
       });
     });
   }
