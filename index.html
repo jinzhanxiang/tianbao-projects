@@ -237,6 +237,159 @@ body::before{display:none}
   font-style:normal;font-size:14px;color:var(--sk-ink-3);
   font-weight:600;
 }
+/* === 行业·项目分布 · v3.9 科幻化卡条形图 === */
+/* 主卡 · 整体玻璃质感 */
+.v3-bar-row{
+  position:relative;
+  padding:12px 16px 10px;
+  border-radius:12px;
+  background:linear-gradient(135deg,rgba(255,255,255,.78) 0%,rgba(255,255,255,.42) 100%);
+  border:1px solid rgba(0,0,0,.06);
+  transition:.28s cubic-bezier(.2,.8,.2,1);
+  cursor:pointer;
+  overflow:visible;
+}
+.v3-bar-row:hover{
+  background:linear-gradient(135deg,var(--paper) 0%,rgba(255,255,255,.6) 100%);
+  transform:translateY(-2px);
+  box-shadow:0 10px 28px -6px var(--bc-glow,rgba(0,121,221,.20)),
+             0 0 0 1px var(--bc,rgba(0,121,221,.35));
+  border-color:var(--bc,rgba(0,121,221,.4));
+}
+/* HUD 边角支架 [ ] · hover 时浮现 */
+.v3-bar-corner{
+  position:absolute;width:14px;height:14px;
+  opacity:0;transition:opacity .28s ease;
+  pointer-events:none;
+  border-style:solid;border-color:var(--bc);
+}
+.v3-bar-row:hover .v3-bar-corner{opacity:1}
+.v3-bar-corner.tl{top:-1px;left:-1px;border-width:2px 0 0 2px;border-top-left-radius:8px;box-shadow:-1px -1px 6px var(--bc-glow,transparent)}
+.v3-bar-corner.tr{top:-1px;right:-1px;border-width:2px 2px 0 0;border-top-right-radius:8px;box-shadow:1px -1px 6px var(--bc-glow,transparent)}
+.v3-bar-corner.bl{bottom:-1px;left:-1px;border-width:0 0 2px 2px;border-bottom-left-radius:8px;box-shadow:-1px 1px 6px var(--bc-glow,transparent)}
+.v3-bar-corner.br{bottom:-1px;right:-1px;border-width:0 2px 2px 0;border-bottom-right-radius:8px;box-shadow:1px 1px 6px var(--bc-glow,transparent)}
+
+/* 头部行：图标 + 行业名 + ⟨ 计数 ⟩ */
+.v3-bar-head{
+  display:flex;align-items:center;gap:10px;
+  margin-bottom:9px;
+}
+.v3-bar-icon{font-size:16px;line-height:1}
+.v3-bar-nm{
+  flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  font-size:15px;font-weight:700;letter-spacing:.3px;
+  color:var(--sk-ink);
+}
+.v3-bar-cnt{
+  font-family:'Outfit','JetBrains Mono',ui-monospace,monospace;
+  font-weight:800;font-size:13px;letter-spacing:.5px;
+  color:var(--bc,var(--sk-blue));
+  padding:0 2px;
+  display:inline-flex;align-items:baseline;gap:1px;
+}
+.v3-bar-cnt::before{content:'⟨';opacity:.45;margin-right:3px;font-weight:400}
+.v3-bar-cnt::after {content:'⟩';opacity:.45;margin-left:3px;font-weight:400}
+.v3-bar-cnt b{font-size:18px;font-variant-numeric:tabular-nums;letter-spacing:-.5px}
+.v3-bar-cnt small{font-size:9px;opacity:.7;font-weight:600;margin-left:1px}
+
+/* 进度条轨道 */
+.v3-bar-track{
+  position:relative;height:18px;
+  background:rgba(0,0,0,.045);border-radius:9px;
+  box-shadow:inset 0 1px 2px rgba(0,0,0,.06);
+  overflow:visible;
+}
+.v3-bar-fill{
+  position:relative;height:100%;width:0;
+  background:linear-gradient(90deg,var(--bc,var(--sk-blue)),var(--bc-2,var(--sk-blue-3)));
+  border-radius:9px;
+  transition:width 1.2s cubic-bezier(.4,.2,.2,1);
+  box-shadow:0 0 14px var(--bc-glow,rgba(0,121,221,.40));
+  overflow:visible;
+}
+/* 流光扫描 */
+.v3-bar-fill::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,.55) 50%,transparent 100%);
+  background-size:200% 100%;
+  animation:flowRight 2.2s linear infinite;
+  border-radius:9px;
+}
+@keyframes flowRight{
+  0%{background-position:200% 0}
+  100%{background-position:-200% 0}
+}
+/* 末端脉冲光点 */
+.v3-bar-cap{
+  position:absolute;right:-5px;top:50%;
+  width:10px;height:10px;border-radius:50%;
+  background:var(--bc,var(--sk-blue));
+  box-shadow:0 0 12px var(--bc,var(--sk-blue)),
+             0 0 22px var(--bc-glow,rgba(0,121,221,.4));
+  animation:pulseCap 1.8s ease-in-out infinite;
+  pointer-events:none;
+}
+@keyframes pulseCap{
+  0%,100%{transform:translateY(-50%) scale(1);opacity:1}
+  50%{transform:translateY(-50%) scale(1.55);opacity:.7}
+}
+
+/* 企业标签 · stagger fade-in */
+.v3-bar-tags{
+  display:flex;flex-wrap:wrap;gap:6px;
+  margin-top:8px;
+}
+.v3-bar-tag{
+  font-size:11px;font-weight:600;
+  padding:3px 10px 3px 8px;
+  background:rgba(255,255,255,.65);
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:999px;
+  color:var(--sk-ink-2);
+  display:inline-flex;align-items:center;gap:5px;
+  opacity:0;transform:translateY(4px);
+  animation:tagFadeIn .55s cubic-bezier(.2,.8,.2,1) forwards;
+  animation-delay:calc(var(--i,0) * 100ms + 700ms);
+  transition:.22s ease;
+  cursor:pointer;
+  position:relative;
+  text-decoration:none;
+}
+.v3-bar-tag:hover{
+  background:var(--bc,var(--sk-blue));
+  color:#fff;
+  border-color:var(--bc,var(--sk-blue));
+  box-shadow:0 4px 12px var(--bc-glow,rgba(0,121,221,.45));
+  transform:translateY(-1px);
+}
+.v3-bar-tag-dot{
+  width:6px;height:6px;border-radius:50%;
+  background:var(--bc,var(--sk-blue));
+  box-shadow:0 0 4px var(--bc-glow,rgba(0,121,221,.5));
+  flex-shrink:0;
+}
+.v3-bar-tag-more{
+  font-size:10px;color:var(--sk-ink-3);font-weight:700;
+  padding:3px 9px;border-radius:999px;
+  background:rgba(0,0,0,.045);
+  opacity:0;
+  animation:tagFadeIn .55s cubic-bezier(.2,.8,.2,1) forwards;
+  animation-delay:calc(3 * 100ms + 700ms);
+}
+@keyframes tagFadeIn{
+  from{opacity:0;transform:translateY(4px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* 数字翻滚 · count glitch（首次出现时） */
+@keyframes countGlitch{
+  0%  {transform:translateY(-3px);opacity:0;filter:blur(2px)}
+  60% {transform:translateY(1px);opacity:1;filter:blur(0)}
+  100%{transform:translateY(0);opacity:1}
+}
+.v3-bar-cnt b{animation:countGlitch .5s cubic-bezier(.2,.8,.2,1) backwards;animation-delay:calc(var(--i,0) * 90ms)}
+
+/* 兼容旧版条形图 · 仅在 markup 仍使用 .nm/.bar/.cnt 时生效 */
 .v3-holo-bar-row{
   display:grid;grid-template-columns:140px 1fr 60px;
   gap:18px;align-items:center;
@@ -247,40 +400,11 @@ body::before{display:none}
   cursor:pointer;position:relative;z-index:1;
 }
 .v3-holo-bar-row:hover{background:var(--sk-paper);transform:translateX(4px);box-shadow:0 4px 14px rgba(0,121,221,0.10)}
-.v3-holo-bar-row .nm{
-  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
-  font-size:17px;font-weight:700;letter-spacing:.2px;color:var(--sk-ink);
-}
-.v3-holo-bar-row .bar{
-  position:relative;height:14px;
-  background:rgba(0,0,0,0.06);border-radius:7px;overflow:hidden;
-  box-shadow:inset 0 1px 2px rgba(0,0,0,0.06);
-}
-.v3-holo-bar-row .bar i{
-  display:block;height:100%;
-  background:linear-gradient(90deg,var(--bc,var(--sk-blue)),var(--bc-2,var(--sk-blue-3)));
-  border-radius:7px;width:0;
-  transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;
-  box-shadow:0 0 12px var(--bc-glow,rgba(0,121,221,0.4));
-  overflow:hidden;
-}
-/* 进度条内部流光 */
-.v3-holo-bar-row .bar i::after{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,0.4) 50%,transparent 100%);
-  background-size:200% 100%;
-  animation:flowRight 2s linear infinite;
-}
-@keyframes flowRight{
-  0%{background-position:200% 0}
-  100%{background-position:-200% 0}
-}
-.v3-holo-bar-row .cnt{
-  font-family:'Outfit',ui-monospace,monospace;
-  color:var(--sk-blue);font-weight:800;font-size:20px;
-  text-align:right;letter-spacing:-0.5px;
-  font-variant-numeric:tabular-nums;
-}
+.v3-holo-bar-row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:17px;font-weight:700;letter-spacing:.2px;color:var(--sk-ink)}
+.v3-holo-bar-row .bar{position:relative;height:14px;background:rgba(0,0,0,0.06);border-radius:7px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(0,0,0,0.06)}
+.v3-holo-bar-row .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--bc,var(--sk-blue)),var(--bc-2,var(--sk-blue-3)));border-radius:7px;width:0;transition:width 1.2s cubic-bezier(.4,.2,.2,1);position:relative;box-shadow:0 0 12px var(--bc-glow,rgba(0,121,221,0.4));overflow:hidden}
+.v3-holo-bar-row .bar i::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,0.4) 50%,transparent 100%);background-size:200% 100%;animation:flowRight 2s linear infinite}
+.v3-holo-bar-row .cnt{font-family:'Outfit',ui-monospace,monospace;color:var(--sk-blue);font-weight:800;font-size:20px;text-align:right;letter-spacing:-0.5px;font-variant-numeric:tabular-nums}
 
 /* === 废弃类 · 兜底隐藏 === */
 .v3-kpi-grid,.v3-kpi,.v3-kpi-eyebrow,.v3-kpi-num-row,.v3-kpi-num,.v3-kpi-num-unit,.v3-kpi-num-ts,.v3-kpi-rows,.v3-kpi-row,.v3-kpi-meta,.v3-holo-core,.v3-holo-stages,.v3-holo-stages-h,.v3-holo-stage-bar,.v3-holo-stage-legend,.v3-holo-block,.v3-holo-donut-wrap,.v3-holo-donut,.v3-holo-donut-center,.v3-holo-donut-seg,.v3-holo-donut-bg,.v3-feed2,.v3-timeline,.v3-timeline-head,.v3-tl-card,.v3-tl-stage,.v3-tl-meta{display:none}
@@ -902,27 +1026,80 @@ body::before{display:none}
     /* ===== 2. 行业分布条形图（v3.8 单列全宽，去掉阶段汇总） ===== */
     const IND_PALETTE = ['var(--seal)','var(--gold)','#C0392B','#1565C0','#0EA5E9','#0D8050','#DC2626','#E67E22','#0891B2','#BE185D','#1E3A8A','#B45309'];
 
-    /* ===== 3. 行业分布条形图（右侧主舞台） ===== */
+    /* ===== 3. 行业分布条形图（右侧主舞台）v3.9 科幻化卡条形图 ===== */
+    /* 同时构建「行业 → 企业清单」用于在卡上标注具体公司名 */
+    const mainIndCompanies = new Map();
+    PROJECTS.forEach(p=>{
+      const inds = (p.industry||'').split(/[·\/ ]+/).map(t=>t.trim()).filter(Boolean);
+      if(!inds.length) return;
+      const main = inds[0];
+      if(!mainIndCompanies.has(main)) mainIndCompanies.set(main, []);
+      mainIndCompanies.get(main).push({code: p.code, name_cn: p.name_cn, iss: p.iss});
+    });
     const topN = Math.min(6, industries.length);
     const barsListEl = document.getElementById('holoBarsList');
     const maxN = Math.max(1, ...industries.slice(0, topN).map(([_,c])=>c));
+    function indEmoji(name){
+      const n = name || '';
+      if(n.includes('电池')||n.includes('锂')) return '🔋';
+      if(n.includes('医疗')||n.includes('健康')) return '🏥';
+      if(n.includes('芯片')||n.includes('半导体')) return '💎';
+      if(n.includes('航天')||n.includes('遥感')) return '🛰️';
+      if(n.includes('数据')||n.includes('云')||n.includes('IDC')) return '🖥️';
+      if(n.includes('智能体')||n.includes('AI')) return '🧠';
+      if(n.includes('碳')||n.includes('材料')||n.includes('化工')) return '🧪';
+      if(n.includes('稀土')||n.includes('矿产')) return '⛏️';
+      if(n.includes('电源')||n.includes('电驱')||n.includes('电')) return '⚡';
+      if(n.includes('基建')||n.includes('建设')) return '🏗️';
+      if(n.includes('汽车')) return '🚗';
+      if(n.includes('换电')) return '🔌';
+      if(n.includes('智慧能源')||n.includes('综合能源')) return '🌱';
+      if(n.includes('光电')||n.includes('光能')) return '💡';
+      if(n.includes('IVD')||n.includes('诊断')) return '🧬';
+      return '🏢';
+    }
+    function escHtml(s){return (s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
     barsListEl.innerHTML = industries.slice(0, topN).map(([n,c], i)=>{
       const col = IND_PALETTE[i % IND_PALETTE.length];
       const col2 = IND_PALETTE[(i+1) % IND_PALETTE.length];
+      const glow = col.match(/var\((--[\w-]+)\)/) ? `var(${col.match(/var\((--[\w-]+)\)/)[1]}-soft, transparent)` : col + '55';
       const w = (c / maxN * 100).toFixed(1);
-      return `<div class="v3-holo-bar-row" title="${n}：${c} 个项目（占 ${(c/PROJECTS.length*100).toFixed(0)}%）">
-        <span class="nm">${n}</span>
-        <span class="bar"><i style="width:${w}%;--bc:${col};--bc-2:${col2};--bc-glow:${col}55"></i></span>
-        <span class="cnt">${c}</span>
+      const cos = mainIndCompanies.get(n) || [];
+      const emoji = indEmoji(n);
+      const visibleTags = cos.slice(0, 4);
+      const more = cos.length - visibleTags.length;
+      const tagsHtml = visibleTags.map((co, j) =>
+        `<a class="v3-bar-tag" style="--i:${j}" href="detail.html?code=${encodeURIComponent(co.code)}" title="查看 ${escHtml(co.name_cn)} 详情" onclick="event.stopPropagation()">
+          <span class="v3-bar-tag-dot"></span>${escHtml(co.name_cn)}
+        </a>`
+      ).join('') + (more > 0 ? `<span class="v3-bar-tag-more">+${more}</span>` : '');
+      return `<div class="v3-bar-row" style="--i:${i};--bc:${col};--bc-2:${col2};--bc-glow:${glow}" data-industry="${escHtml(n)}">
+        <span class="v3-bar-corner tl"></span>
+        <span class="v3-bar-corner tr"></span>
+        <span class="v3-bar-corner bl"></span>
+        <span class="v3-bar-corner br"></span>
+        <div class="v3-bar-head">
+          <span class="v3-bar-icon">${emoji}</span>
+          <span class="v3-bar-nm">${escHtml(n)}</span>
+          <span class="v3-bar-cnt" style="--i:${i}"><b>${c}</b><small>项</small></span>
+        </div>
+        <div class="v3-bar-track">
+          <div class="v3-bar-fill" style="width:${w}%">
+            <span class="v3-bar-cap"></span>
+          </div>
+        </div>
+        <div class="v3-bar-tags">${tagsHtml}</div>
       </div>`;
     }).join('');
-    document.getElementById('holoBarsTotal').textContent = `Top ${topN} · ${industries.length} 行业`;
+    document.getElementById('holoBarsTotal').textContent = `Top ${topN} · ${industries.length} 行业 · 已标注 ${Array.from(mainIndCompanies.values()).reduce((s,v)=>s+v.length,0)} 家企业`;
 
     /* === 条形图点击 · 联动 CLOUD 筛选 + 统一事件流 === */
-    barsListEl.querySelectorAll('.v3-holo-bar-row').forEach(row=>{
+    barsListEl.querySelectorAll('.v3-bar-row, .v3-holo-bar-row').forEach(row=>{
       row.style.cursor = 'pointer';
-      row.addEventListener('click',()=>{
-        const nm = (row.querySelector('.nm')?.textContent || '').trim();
+      row.addEventListener('click',(e)=>{
+        /* 企业标签点击：自己处理跳转，不触发卡条 click */
+        if(e.target.closest('.v3-bar-tag')) return;
+        const nm = (row.dataset.industry || row.querySelector('.v3-bar-nm')?.textContent || row.querySelector('.nm')?.textContent || '').trim();
         if(!nm) return;
         SELECTED_INDUSTRY = nm;
         renderCloud();
