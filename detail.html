@@ -1004,11 +1004,10 @@ body{
 
   function resolveReportUrl(r){
     const u = (r && r.url) || '';
-    // file:// 本地路径在 https/移动端无法打开 → 回退到项目在线报告门户
-    if(u.startsWith('file://')){
-      return (CURRENT_PROJ && CURRENT_PROJ.online_url) ? CURRENT_PROJ.online_url : '';
-    }
-    return u;
+    // 直达已部署的在线报告页（非汇总/落地/详情）
+    if(u && !u.startsWith('file://')) return u;
+    // 兜底：项目在线门户（仅在 r.url 缺省时使用）
+    return (CURRENT_PROJ && CURRENT_PROJ.online_url) ? CURRENT_PROJ.online_url : '';
   }
 
   function renderTimeline(p){
