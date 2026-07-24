@@ -445,6 +445,7 @@ body{
 
   let PROJECTS = [];
   let REPORTS = {};   // {code: [report, ...]}
+  let _rpRaw = null;  // raw reports.json（用于统计 archived 报告数）
   let CURRENT_FILTER = { proj: '__ALL__', cat: '__ALL__', kw: '' };
 
   async function loadData(){
@@ -455,13 +456,16 @@ body{
       ]);
       PROJECTS = (await p.json()).projects || [];
       const _rp = await r.json();
+      _rpRaw = _rp;
       REPORTS = _rp.by_code || {};
-      /* 隔离区过滤 + 底库项目 _archived 标记过滤 */
+      /* 隔离区过滤 + 底库项目 _archived 标记过滤（先统计 archived，再过滤避免引用污染） */
+      const _archivedCount = Object.values(_rpRaw.by_code||{}).flat().filter(r=>r._archived).length;
       const _qc = _rp.quarantine_codes || [];
       _qc.forEach(c => { delete REPORTS[c]; });
       Object.keys(REPORTS).forEach(c => {
         REPORTS[c] = (REPORTS[c] || []).filter(r => !r._archived);
       });
+      _rpRaw._archivedCount = _archivedCount;
     } catch(e){
       console.error('数据加载失败', e);
       PROJECTS = []; REPORTS = {};
@@ -619,7 +623,8 @@ body{
     host.innerHTML = blocks || `<div class="v3-ar-empty">未匹配到任何报告 · 调整筛选条件重试</div>`;
     if(window.cmdK && window.cmdK.bindScrollReveal) window.cmdK.bindScrollReveal(host);
     document.getElementById('filterStat').textContent = `${totalShown} / ${totalAll} 份`;
-    totalMeta.innerHTML = `共 <b>${totalAll}</b> 份报告 · 覆盖 <b>${Object.keys(REPORTS).filter(c=>(REPORTS[c]||[]).length>0).length}</b> 个项目`;
+    const _archivedReports = _rpRaw?._archivedCount || 0;
+    totalMeta.innerHTML = `共 <b>${totalAll}</b> 份报告 · 覆盖 <b>${Object.keys(REPORTS).filter(c=>(REPORTS[c]||[]).length>0).length}</b> 个项目${_archivedReports > 0 ? ` · <span style="color:var(--sk-ink-3);font-size:12px">已隐藏 archived ${_archivedReports} 份</span>` : ''}`;
     // 重新绑定 3D 倾斜（新渲染的 .v3-ar-item 需要重新挂监听）
     if(window.cmdK) window.cmdK.tiltAll();
   }
