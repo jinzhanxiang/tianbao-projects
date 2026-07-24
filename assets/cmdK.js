@@ -366,7 +366,7 @@
             revealObserver.unobserve(entry.target);
           }
         });
-      }, {threshold:0.12, rootMargin:'0px 0px -48px 0px'});
+      }, {threshold:0.05, rootMargin:'0px 0px -12px 0px'});
     }
     Array.prototype.forEach.call(targets, function(el){
       el.dataset.revealBound = '1';
