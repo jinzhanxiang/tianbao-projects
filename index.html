@@ -36,6 +36,10 @@
 html,body{margin:0;padding:0}
 body{
   background:var(--sk-bg);
+  background-image:
+    radial-gradient(ellipse 800px 400px at 10% 0%, rgba(0,121,221,0.06), transparent 60%),
+    radial-gradient(ellipse 600px 400px at 90% 30%, rgba(192,57,43,0.04), transparent 60%);
+  background-attachment: fixed;
   font-family:'PingFang SC','Outfit',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Source Han Sans SC','Noto Sans SC','Microsoft YaHei',sans-serif;
   font-size:18px;
   color:var(--sk-ink);
@@ -44,7 +48,17 @@ body{
   -moz-osx-font-smoothing:grayscale;
   text-rendering:optimizeLegibility;
 }
-body::before{display:none}
+body::before{
+  content:'';position:fixed;inset:0;
+  background-image:radial-gradient(ellipse 1200px 600px at 50% 100%, rgba(0,121,221,0.05), transparent 70%);
+  pointer-events:none;z-index:0;
+  animation:bgDrift 24s ease-in-out infinite alternate;
+}
+@keyframes bgDrift{
+  0%{transform:translate(0,0) scale(1);opacity:.6}
+  50%{transform:translate(-30px,-20px) scale(1.05);opacity:.9}
+  100%{transform:translate(20px,-10px) scale(1.02);opacity:.7}
+}
 
 /* === 顶部导航 · 白色玻璃条 === */
 .nav{
@@ -54,27 +68,47 @@ body::before{display:none}
   border-bottom:1px solid var(--sk-line)!important;
 }
 .nav-brand>div>div:first-child{
-  font-size:36px!important;letter-spacing:-0.3px!important;line-height:1.2!important;
-  font-weight:800!important;
+  font-size:40px!important;letter-spacing:-0.5px!important;line-height:1.15!important;
+  font-weight:900!important;
+  font-family:'PingFang SC','Source Han Sans SC','Noto Sans SC','Microsoft YaHei',sans-serif!important;
   color:#000000!important;
   -webkit-text-fill-color:#000000!important;
   background:none!important;
   -webkit-background-clip:initial!important;background-clip:initial!important;
-  animation:none!important;
+  animation:titleFadeIn .55s cubic-bezier(.2,.8,.2,1) .12s backwards!important;
 }
-.nav-brand-sub{font-size:16px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-2)!important;margin-top:6px!important}
-.nav-brand-sub .clock{font-size:18px!important;font-weight:700!important;color:var(--sk-blue)!important;font-variant-numeric:tabular-nums}
-.nav-logo{width:264px!important;height:264px!important;border-radius:12px!important;background:#ffffff!important;box-shadow:0 2px 8px rgba(0,0,0,0.08)!important;transition:.3s;object-fit:contain;padding:6px}
-.nav-brand:hover .nav-logo{transform:translateY(-1px) scale(1.04);box-shadow:0 6px 14px rgba(0,0,0,0.12)!important}
-.nav-logo-fallback{display:none;width:264px;height:264px;align-items:center;justify-content:center;background:#ffffff;color:#000;font-size:72px;font-weight:900;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.nav-brand-sub{font-size:15px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-2)!important;margin-top:4px!important;animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .26s backwards}
+.nav-brand-sub .clock{font-size:16px!important;font-weight:700!important;color:var(--sk-blue)!important;font-variant-numeric:tabular-nums}
+.nav-logo{width:200px!important;height:200px!important;border-radius:10px!important;background:#ffffff!important;box-shadow:0 2px 8px rgba(0,0,0,0.08)!important;transition:.3s cubic-bezier(.2,.8,.2,1);object-fit:contain;padding:4px;animation:logoFadeIn .6s cubic-bezier(.2,.8,.2,1) backwards}
+.nav-brand:hover .nav-logo{transform:translateY(-2px) scale(1.03);box-shadow:0 8px 18px rgba(0,0,0,0.15)!important}
+.nav-logo-fallback{display:none;width:200px;height:200px;align-items:center;justify-content:center;background:#ffffff;color:#000;font-size:54px;font-weight:900;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+
+@keyframes logoFadeIn{
+  0%{opacity:0;transform:scale(.85) translateX(-12px)}
+  100%{opacity:1;transform:scale(1) translateX(0)}
+}
+@keyframes titleFadeIn{
+  0%{opacity:0;transform:translateY(18px)}
+  100%{opacity:1;transform:translateY(0)}
+}
+@keyframes subFadeIn{
+  0%{opacity:0;transform:translateY(10px)}
+  100%{opacity:1;transform:translateY(0)}
+}
 .nav-links a, .nav-current{
   font-size:16px!important;font-weight:600!important;
   padding:8px 16px!important;border-radius:var(--sk-radius-pill)!important;
   color:var(--sk-ink-2)!important;letter-spacing:.3px!important;
-  transition:.2s;
+  transition:.25s cubic-bezier(.2,.8,.2,1);position:relative;
 }
-.nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important}
+.nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important;transform:translateY(-1px)}
+.nav-links a::after{content:'';position:absolute;left:50%;bottom:4px;width:0;height:2px;background:var(--sk-blue);border-radius:1px;transition:.3s cubic-bezier(.2,.8,.2,1);transform:translateX(-50%)}
+.nav-links a:hover::after{width:24px}
 .nav-current{background:var(--sk-blue)!important;color:#fff!important}
+
+/* === 滚动渐入动画 === */
+.to-reveal{opacity:0;transform:translateY(28px);transition:opacity .65s cubic-bezier(.2,.8,.2,1), transform .65s cubic-bezier(.2,.8,.2,1);transition-delay:var(--reveal-delay,0ms)}
+.to-reveal.is-revealed{opacity:1;transform:translateY(0)}
 
 /* === 主容器 · 允许纵向自然滚动 === */
 .v3-home{
@@ -1462,6 +1496,27 @@ body::before{display:none}
     bindToggle();
     tick(); setInterval(tick, 1000);
     loadData();
+    bindScrollReveal();
+  }
+
+  // ============ 滚动渐入动画 ============
+  function bindScrollReveal(){
+    if(!('IntersectionObserver' in window)) return;
+    const targets = document.querySelectorAll('.v3-holo, .v3-entries, .v3-uni, .v3-entry, .v3-bar-row, .v3-feed2 .v3-feed2-card');
+    if(!targets.length) return;
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach((e)=>{
+        if(e.isIntersecting){
+          e.target.classList.add('is-revealed');
+          io.unobserve(e.target);
+        }
+      });
+    }, {threshold: 0.12, rootMargin: '0px 0px -60px 0px'});
+    targets.forEach((el, i)=>{
+      el.classList.add('to-reveal');
+      el.style.setProperty('--reveal-delay', (Math.min(i, 6) * 70) + 'ms');
+      io.observe(el);
+    });
   }
 
   if(document.readyState==='loading'){
