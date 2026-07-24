@@ -6,6 +6,9 @@
 <title>天保控股 · 项目分类矩阵</title>
 <meta name="description" content="天保控股项目分类矩阵 · 3 阶段 × 3 类型 · skillhub 风格可视化">
 <link rel="stylesheet" href="assets/tianbao.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/brand/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/brand/favicon-180.png">
 <style>
 /* ============================================================
  *  天保 v3 DMS · 分类矩阵页 · skillhub.cn 风格重构 v2
@@ -119,15 +122,21 @@ body{
     radial-gradient(circle at 100% 100%, rgba(192,57,43,0.03) 0%, transparent 50%);
 }
 
-/* 导航 */
+/* 导航 · R179 同步 */
 .nav{background:rgba(255,255,255,0.85)!important;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--sk-line)!important}
-.nav-brand>div>div:first-child{font-size:36px!important;letter-spacing:-0.3px!important;line-height:1.2!important;font-weight:800!important;color:#000000!important;-webkit-text-fill-color:#000000!important;background:none!important;-webkit-background-clip:initial!important;background-clip:initial!important}
-.nav-brand-sub{font-size:16px!important;font-weight:500!important;color:var(--sk-ink-2)!important;margin-top:6px!important}
-.nav-logo{width:264px!important;height:264px!important;border-radius:12px!important;background:#ffffff!important;box-shadow:0 2px 8px rgba(0,0,0,0.08)!important;object-fit:contain;padding:6px}
-.nav-logo-fallback{width:264px;height:264px;font-size:72px;border-radius:12px;background:#ffffff;color:#000}
+.nav-brand>div>div:first-child{font-size:40px!important;letter-spacing:-0.5px!important;line-height:1.15!important;font-weight:900!important;font-family:'PingFang SC','Source Han Sans SC','Noto Sans SC','Microsoft YaHei',sans-serif!important;color:#000000!important;-webkit-text-fill-color:#000000!important;background:none!important;-webkit-background-clip:initial!important;background-clip:initial!important;animation:titleFadeIn .55s cubic-bezier(.2,.8,.2,1) .12s backwards!important}
+.nav-brand-sub{font-size:15px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-2)!important;margin-top:4px!important;animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .26s backwards}
+.nav-logo{width:200px!important;height:200px!important;border-radius:10px!important;background:#ffffff!important;box-shadow:0 2px 8px rgba(0,0,0,0.08)!important;transition:.3s cubic-bezier(.2,.8,.2,1);object-fit:contain;padding:4px;animation:logoFadeIn .6s cubic-bezier(.2,.8,.2,1) backwards}
+.nav-brand:hover .nav-logo{transform:translateY(-2px) scale(1.03);box-shadow:0 8px 18px rgba(0,0,0,0.15)!important}
+.nav-logo-fallback{display:none;width:200px;height:200px;align-items:center;justify-content:center;background:#ffffff;color:#000;font-size:54px;font-weight:900;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.nav-dept-chip{display:inline-flex;align-items:center;gap:5px;margin-left:10px;padding:3px 10px;background:linear-gradient(135deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;color:#fff!important;font-size:12px!important;font-weight:800!important;letter-spacing:2px;border-radius:6px;vertical-align:middle;box-shadow:0 2px 6px rgba(0,121,221,0.25);animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .4s backwards}
+.nav-dept-chip::before{content:'';width:6px;height:6px;background:#fff;border-radius:50%;box-shadow:0 0 6px rgba(255,255,255,0.9)}
 .nav-links a,.nav-current{font-size:16px!important;font-weight:600!important;padding:8px 16px!important;border-radius:var(--sk-radius-pill)!important;color:var(--sk-ink-2)!important}
 .nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important}
 .nav-current{background:var(--sk-blue)!important;color:#fff!important}
+@keyframes logoFadeIn{0%{opacity:0;transform:scale(.85) translateX(-12px)}100%{opacity:1;transform:scale(1) translateX(0)}}
+@keyframes titleFadeIn{0%{opacity:0;transform:translateY(18px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes subFadeIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}
 
 /* 主容器 */
 .v3-cat{
@@ -694,7 +703,7 @@ body{
       <img class="nav-logo" src="assets/brand/tb-logo.jpg" alt="天保控股 T&B HOLDING" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <div class="nav-logo-fallback" style="display:none">保</div>
       <div>
-        <div>投资业务 · 项目管理中心</div>
+        <div>投资部 · 项目管理中心<span class="nav-dept-chip">投资部</span></div>
         <div class="nav-brand-sub">分类矩阵 · 3 阶段 × 3 类型<span class="sep">·</span>支持拖拽项目在 9 单元格间移动</div>
       </div>
     </a>
