@@ -190,10 +190,10 @@ a{color:inherit;text-decoration:none}
 .theme-toggle:hover{background:var(--blue);color:#fff}
 
 /* === R180 · 副标识 chip「投资部」 === */
-.nav-dept-chip{display:inline-flex;align-items:center;gap:5px;margin-left:10px;padding:3px 10px;background:linear-gradient(135deg,var(--tb-blue) 0%,var(--tb-blue-2) 100%);color:#fff;font-size:12px;font-weight:800;letter-spacing:2px;border-radius:6px;vertical-align:middle;box-shadow:0 2px 6px rgba(0,121,221,0.25);transition:.3s}
-.nav-dept-chip:hover{transform:translateY(-1px);box-shadow:0 4px 10px rgba(0,121,221,0.4)}
-.nav-dept-chip::before{content:'';width:6px;height:6px;background:#fff;border-radius:50%;box-shadow:0 0 6px rgba(255,255,255,0.9);animation:deptDotBlink 2.5s ease-in-out infinite}
-@keyframes deptDotBlink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(.85)}}
+.nav-dept-chip{display:inline-flex;align-items:center;gap:6px;margin-left:10px;padding:4px 11px;background:rgba(0,121,221,0.92);color:#fff;font-size:12px;font-weight:800;letter-spacing:2px;border-radius:980px;vertical-align:middle;box-shadow:0 2px 8px rgba(0,121,221,0.30),inset 0 1px 0 rgba(255,255,255,0.20);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:.3s}
+.nav-dept-chip:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,121,221,0.45),inset 0 1px 0 rgba(255,255,255,0.25)}
+.nav-dept-chip::before{content:'';width:6px;height:6px;background:#fff;border-radius:50%;box-shadow:0 0 8px rgba(255,255,255,1.0),0 0 0 3px rgba(0,121,221,0.25);animation:deptDotBlink 2.5s ease-in-out infinite}
+@keyframes deptDotBlink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.85;transform:scale(1.2)}}
 
 /* === HERO（朱红印章大标题） === */
 .hero{padding:60px 0 50px;background:transparent;border-bottom:2px solid var(--ink);position:relative}
