@@ -118,7 +118,9 @@
 .anim-dot{animation:dotAppear .5s cubic-bezier(.2,.8,.2,1) backwards}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:var(--font-fang);font-size:18px;background:var(--bg);color:var(--ink);line-height:1.8;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s;background-image:radial-gradient(circle at 20% 30%,rgba(184,134,11,0.03) 0%,transparent 50%),radial-gradient(circle at 80% 70%,rgba(192,57,43,0.03) 0%,transparent 50%)}
+
+/* 页面内容必须在背景之上 */
+.v3-home,.v3-cat,.v3-reports,.v3-detail,.v3-doc,.nav{position:relative;z-index:1}
 a{color:inherit;text-decoration:none}
 
 /* === 全站字号层次（公文规范 18px 正文） === */
@@ -1037,3 +1039,100 @@ body.tb-page-leaving>nav,body.tb-page-leaving>.v3-home,body.tb-page-leaving>.v3-
     transition-duration:.01ms!important;
   }
 }
+
+/* ============================================================
+ * v3 全站背景层 · 浅色科技蓝调（多径向渐变 + 蓝图点纹 + 慢漂移）
+ * 放最末位确保级联顺序（覆盖 line 1026 的 body::after 页面离开动画）
+ * ============================================================ */
+body{
+  background-color:#F5F5F7;
+  background-image:
+    radial-gradient(ellipse 1100px 700px at 12% 8%, rgba(0,121,221,0.075), transparent 60%),
+    radial-gradient(ellipse 900px 600px at 88% 26%, rgba(192,57,43,0.045), transparent 60%),
+    radial-gradient(ellipse 1000px 700px at 50% 100%, rgba(0,121,221,0.05), transparent 70%);
+  background-attachment: fixed;
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    radial-gradient(circle 700px at 22% 32%, rgba(111,201,255,0.07), transparent 70%),
+    radial-gradient(circle 600px at 78% 58%, rgba(255,150,150,0.045), transparent 70%);
+  animation:v3-bg-drift 60s ease-in-out infinite alternate;
+}
+body:not(.tb-page-leaving)::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    radial-gradient(circle 800px at 70% 20%, rgba(192,57,43,0.04), transparent 70%),
+    radial-gradient(circle, rgba(0,121,221,0.06) 1px, transparent 1.5px);
+  background-size:100% 100%, 22px 22px;
+  animation:v3-bg-drift-2 75s ease-in-out infinite alternate-reverse;
+}
+@keyframes v3-bg-drift{
+  0%{transform:translate(0,0) scale(1);opacity:.65}
+  50%{transform:translate(-30px,-20px) scale(1.06);opacity:.95}
+  100%{transform:translate(25px,-15px) scale(1.03);opacity:.8}
+}
+@keyframes v3-bg-drift-2{
+  0%{transform:translate(0,0) scale(1);opacity:.6}
+  50%{transform:translate(40px,30px) scale(1.08);opacity:.9}
+  100%{transform:translate(-20px,20px) scale(1.04);opacity:.7}
+}
+
+/* ============================================================
+ * v3 全站 HUD 工具类 · 4 角支架 + 扫描线 + 悬停高亮
+ * 应用：给任一卡片容器加 .v3-hud 即获得 sci-fi 微交互
+ * 原理：::before/::after 双角 + box-shadow inset 多边线
+ * ============================================================ */
+@keyframes v3-hud-bracket-blink{
+  0%,100%{opacity:.55}
+  50%{opacity:1}
+}
+@keyframes v3-hud-scanline{
+  0%{transform:translateY(-100%);opacity:0}
+  10%{opacity:.8}
+  90%{opacity:.8}
+  100%{transform:translateY(800%);opacity:0}
+}
+.v3-hud{position:relative;overflow:hidden}
+.v3-hud::before,.v3-hud::after{
+  content:'';position:absolute;width:14px;height:14px;
+  pointer-events:none;z-index:4;
+  opacity:0;transition:opacity .3s ease;
+  border-style:solid;border-color:var(--sk-blue);
+}
+.v3-hud::before{
+  top:0;left:0;border-width:1.5px 0 0 1.5px;
+  border-top-left-radius:8px;
+  box-shadow:-2px -2px 8px rgba(0,121,221,.18);
+}
+.v3-hud::after{
+  bottom:0;right:0;border-width:0 1.5px 1.5px 0;
+  border-bottom-right-radius:8px;
+  box-shadow:2px 2px 8px rgba(0,121,221,.18);
+}
+.v3-hud:hover::before,.v3-hud:hover::after{
+  opacity:.85;
+  animation:v3-hud-bracket-blink 2.4s ease-in-out infinite;
+}
+/* 顶部细线 + 扫描光带 */
+.v3-hud .v3-hud-scan,
+.v3-hud:hover .v3-hud-scan{
+  position:absolute;left:0;right:0;top:0;height:2px;
+  background:linear-gradient(90deg,transparent 0%,var(--sk-blue) 50%,transparent 100%);
+  pointer-events:none;z-index:4;border-radius:8px 8px 0 0;
+}
+.v3-hud .v3-hud-scan{opacity:0}
+.v3-hud:hover .v3-hud-scan{
+  opacity:.85;
+  animation:v3-hud-scanline 2.6s ease-in-out infinite;
+}
+/* 滚动渐入基础类（IntersectionObserver 触发添加 .is-revealed） */
+.to-reveal{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.2,.8,.2,1),transform .7s cubic-bezier(.2,.8,.2,1)}
+.to-reveal.is-revealed{opacity:1;transform:translateY(0)}
+.to-reveal[data-reveal-delay="1"]{transition-delay:.08s}
+.to-reveal[data-reveal-delay="2"]{transition-delay:.16s}
+.to-reveal[data-reveal-delay="3"]{transition-delay:.24s}
+.to-reveal[data-reveal-delay="4"]{transition-delay:.32s}
+.to-reveal[data-reveal-delay="5"]{transition-delay:.4s}
+/* 键盘焦点环（无障碍） */
+*:focus-visible{outline:2px solid var(--sk-blue,#0079DD);outline-offset:2px;border-radius:4px}
