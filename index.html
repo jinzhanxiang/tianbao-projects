@@ -837,8 +837,8 @@ body{
         <span class="v3-holo-stat-lbl">行业</span>
       </div>
       <div class="v3-holo-stat" style="--hc:var(--green)">
-        <span class="v3-holo-stat-big" id="holoProgress" data-counter-up="0">—</span>
-        <span class="v3-holo-stat-lbl">平均进度%</span>
+        <span class="v3-holo-stat-big" id="holoFocus" data-counter-up="0">—</span>
+        <span class="v3-holo-stat-lbl">在推项目</span>
       </div>
     </div>
     <!-- 下方主舞台：行业分布条形图（v3.8 移除阶段汇总，单列展示） -->
@@ -1064,7 +1064,7 @@ body{
     document.getElementById('holoProjects').setAttribute('data-archived-count', _archivedCnt);
     document.getElementById('holoReports').setAttribute('data-counter-up', totalR);
     document.getElementById('holoInds').setAttribute('data-counter-up', industries.length);
-    document.getElementById('holoProgress').setAttribute('data-counter-up', avgProgress);
+    document.getElementById('holoFocus').setAttribute('data-counter-up', PROJECTS.filter(p=>p.stage_v3==='在推重点').length);
 
     /* ===== 2. 行业分布条形图（v3.8 单列全宽，去掉阶段汇总） ===== */
     const IND_PALETTE = ['var(--seal)','var(--gold)','#C0392B','#1565C0','#0EA5E9','#0D8050','#DC2626','#E67E22','#0891B2','#BE185D','#1E3A8A','#B45309'];
