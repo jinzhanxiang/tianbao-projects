@@ -1168,3 +1168,112 @@ body:not(.tb-page-leaving)::after{
 .to-reveal[data-reveal-delay="5"]{transition-delay:.4s}
 /* 键盘焦点环（无障碍） */
 *:focus-visible{outline:2px solid var(--sk-blue,#0079DD);outline-offset:2px;border-radius:4px}
+
+/* ============================================================
+ * v3 Glassmorphism 覆盖层 · 让卡片透出彩色背景
+ *   背景已升级到 4 层极光+网格，卡片需要同步"玻璃化"
+ *   策略：降低背景不透明度 + 加强 backdrop-filter + 提亮边框
+ * ============================================================ */
+
+/* === 首页主卡片 === */
+.v3-kpi{
+  background:rgba(255,255,255,0.55)!important;
+  backdrop-filter:saturate(180%) blur(24px)!important;
+  -webkit-backdrop-filter:saturate(180%) blur(24px)!important;
+  border:1.5px solid rgba(255,255,255,0.6)!important;
+  box-shadow:0 1px 2px rgba(0,0,0,0.04), 0 8px 28px rgba(0,73,137,0.08)!important;
+}
+.v3-kpi:hover{
+  background:rgba(255,255,255,0.72)!important;
+  box-shadow:0 1px 2px rgba(0,0,0,0.06), 0 12px 32px rgba(0,73,137,0.14), 0 0 0 1px rgba(0,121,221,0.15)!important;
+}
+
+/* === 首页内层小卡（行业条目等） === */
+.v3-kpi-feat{
+  background:rgba(255,255,255,0.50)!important;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+}
+.v3-kpi-bar{background:rgba(255,255,255,0.4)!important;border:1px solid rgba(255,255,255,0.4)!important}
+.v3-kpi-cloud-tag{background:rgba(255,255,255,0.45)!important;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+
+/* === 首页内/外 Hero / 行业 / 报告卡 === */
+.v3-hero,.v3-cloud{background:rgba(255,255,255,0.55)!important;backdrop-filter:saturate(180%) blur(24px)!important;-webkit-backdrop-filter:saturate(180%) blur(24px)!important;border:1.5px solid rgba(255,255,255,0.6)!important;box-shadow:0 1px 2px rgba(0,0,0,0.04), 0 8px 28px rgba(0,73,137,0.08)!important}
+.v3-cloud-tag{background:rgba(255,255,255,0.45)!important;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.5)!important}
+
+/* === 分类/详情 通用 section / side-card / proj-head === */
+/* 这两类在 detail.html 中有 !important 硬编码，需要更高优先级 */
+/* 用 [class] 属性选择器提升特异性 */
+.v3-side-card[class],
+.v3-section[class],
+.v3-proj-head[class],
+.v3-matrix-wrap[class]{
+  background:rgba(255,255,255,0.58)!important;
+  backdrop-filter:saturate(180%) blur(24px)!important;
+  -webkit-backdrop-filter:saturate(180%) blur(24px)!important;
+  border:1.5px solid rgba(255,255,255,0.6)!important;
+}
+
+/* === 矩阵单元格 · 更透明以透出彩色背景 === */
+.v3-cell{
+  background:rgba(255,255,255,0.50)!important;
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,0.55)!important;
+}
+.v3-cell-h{background:rgba(255,255,255,0.35)!important;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+
+/* === 内部小组件 · 状态条 / 标签 / 元数据 === */
+.v3-side-meta-row,
+.v3-side-progress-step,
+.v3-side-contact{
+  background:rgba(255,255,255,0.50)!important;
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+  border-color:rgba(0,0,0,0.06)!important;
+}
+.v3-mat,
+.v3-rtl-i{
+  background:rgba(255,255,255,0.55)!important;
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,0.6)!important;
+}
+.v3-brief-cell,
+.v3-brief-pending{
+  background:rgba(255,255,255,0.55)!important;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  border-color:rgba(0,0,0,0.06)!important;
+}
+.v3-brief-downgrade{
+  background:rgba(229,62,62,0.10)!important;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+}
+
+/* === Pills / Buttons · 半透明带模糊 === */
+.v3-stage-pill,
+.v3-iss-pill,
+.v3-btn{
+  background:rgba(255,255,255,0.55)!important;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  border:1px solid rgba(255,255,255,0.5)!important;
+}
+.v3-stage-pill.active,
+.v3-iss-pill.active{
+  background:rgba(0,121,221,0.92)!important;
+  border-color:rgba(0,121,221,0.5)!important;
+  box-shadow:0 4px 14px rgba(0,121,221,0.35)!important;
+}
+
+/* === 弹窗 · 半透明 === */
+.v3-modal{
+  background:rgba(255,255,255,0.85)!important;
+  backdrop-filter:saturate(180%) blur(28px)!important;
+  -webkit-backdrop-filter:saturate(180%) blur(28px)!important;
+}
+
+/* === 主导航 · 适当透明以透出背景 === */
+.nav{background:rgba(255,255,255,0.65)!important;backdrop-filter:saturate(180%) blur(24px)!important;-webkit-backdrop-filter:saturate(180%) blur(24px)!important;border-bottom:1px solid rgba(255,255,255,0.4)!important}
