@@ -1041,41 +1041,73 @@ body.tb-page-leaving>nav,body.tb-page-leaving>.v3-home,body.tb-page-leaving>.v3-
 }
 
 /* ============================================================
- * v3 全站背景层 · 浅色科技蓝调（多径向渐变 + 蓝图点纹 + 慢漂移）
- * 放最末位确保级联顺序（覆盖 line 1026 的 body::after 页面离开动画）
+ * v3 全站背景层 · 4 层架构
+ *   Layer 1 (body)        基础冷调渐变 + 双色主光斑（静态）
+ *   Layer 2 (body::before) 极光球群 · 3 颗慢漂移（蓝/紫/珊瑚）
+ *   Layer 3 (body::after)  蓝图网格 + 像素星点 + 扫描光束
+ * 设计原则：opacity ≤ 0.10 保持稳重，动画 ≥ 45s 不抢戏
  * ============================================================ */
 body{
-  background-color:#F5F5F7;
+  background-color:#EDF1F7;
   background-image:
-    radial-gradient(ellipse 1100px 700px at 12% 8%, rgba(0,121,221,0.075), transparent 60%),
-    radial-gradient(ellipse 900px 600px at 88% 26%, rgba(192,57,43,0.045), transparent 60%),
-    radial-gradient(ellipse 1000px 700px at 50% 100%, rgba(0,121,221,0.05), transparent 70%);
+    radial-gradient(ellipse 1200px 800px at 8% 5%, rgba(0,121,221,0.10), transparent 65%),
+    radial-gradient(ellipse 1000px 700px at 92% 28%, rgba(125,80,200,0.07), transparent 65%),
+    radial-gradient(ellipse 1100px 750px at 50% 105%, rgba(192,57,43,0.05), transparent 70%);
   background-attachment: fixed;
 }
+/* === Layer 2 · 极光球 · 慢漂移 === */
 body::before{
   content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   background-image:
-    radial-gradient(circle 700px at 22% 32%, rgba(111,201,255,0.07), transparent 70%),
-    radial-gradient(circle 600px at 78% 58%, rgba(255,150,150,0.045), transparent 70%);
-  animation:v3-bg-drift 60s ease-in-out infinite alternate;
+    /* 极光球 1：电光蓝 · 左上 */
+    radial-gradient(circle 800px at 18% 25%, rgba(0,160,255,0.13), transparent 70%),
+    /* 极光球 2：星云紫 · 右上 */
+    radial-gradient(circle 700px at 82% 35%, rgba(140,90,220,0.10), transparent 70%),
+    /* 极光球 3：珊瑚粉 · 底部 */
+    radial-gradient(circle 750px at 50% 90%, rgba(255,130,120,0.08), transparent 70%);
+  animation:v3-aurora-drift 75s ease-in-out infinite alternate;
 }
+@keyframes v3-aurora-drift{
+  0%   {transform:translate(0,0)     scale(1);    opacity:.7;}
+  33%  {transform:translate(-40px,-25px) scale(1.05); opacity:.95;}
+  66%  {transform:translate(30px,-30px)  scale(1.08); opacity:.85;}
+  100% {transform:translate(20px,15px)   scale(1.03); opacity:.75;}
+}
+
+/* === Layer 3 · 蓝图网格 + 像素星 + 扫描光束 === */
 body:not(.tb-page-leaving)::after{
   content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   background-image:
-    radial-gradient(circle 800px at 70% 20%, rgba(192,57,43,0.04), transparent 70%),
-    radial-gradient(circle, rgba(0,121,221,0.06) 1px, transparent 1.5px);
-  background-size:100% 100%, 22px 22px;
-  animation:v3-bg-drift-2 75s ease-in-out infinite alternate-reverse;
+    /* 扫描光束 · 顶部斜向光带（动态 background-position） */
+    linear-gradient(115deg, transparent 0%, transparent 39%, rgba(0,180,255,0.07) 49.5%, rgba(111,201,255,0.10) 50%, rgba(0,180,255,0.07) 50.5%, transparent 61%, transparent 100%),
+    /* 蓝图点阵 · 1.5px 蓝点 24px 网格 */
+    radial-gradient(circle, rgba(0,121,221,0.10) 1px, transparent 1.6px),
+    /* 蓝图细线 · 60px 网格 */
+    linear-gradient(rgba(0,121,221,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,121,221,0.05) 1px, transparent 1px);
+  background-size:
+    200% 200%,
+    24px 24px,
+    60px 60px,
+    60px 60px;
+  background-position:
+    -50% -50%,
+    0 0,
+    0 0,
+    0 0;
+  animation:
+    v3-scan-sweep 22s linear infinite,
+    v3-grid-pulse 8s ease-in-out infinite;
 }
-@keyframes v3-bg-drift{
-  0%{transform:translate(0,0) scale(1);opacity:.65}
-  50%{transform:translate(-30px,-20px) scale(1.06);opacity:.95}
-  100%{transform:translate(25px,-15px) scale(1.03);opacity:.8}
+/* 扫描光束 · 自上而下斜向缓慢扫过 */
+@keyframes v3-scan-sweep{
+  0%   {background-position: -50% -50%, 0 0, 0 0, 0 0;}
+  100% {background-position: 150% 150%, 0 0, 0 0, 0 0;}
 }
-@keyframes v3-bg-drift-2{
-  0%{transform:translate(0,0) scale(1);opacity:.6}
-  50%{transform:translate(40px,30px) scale(1.08);opacity:.9}
-  100%{transform:translate(-20px,20px) scale(1.04);opacity:.7}
+/* 蓝图网格呼吸 · 整体微明微暗 */
+@keyframes v3-grid-pulse{
+  0%,100% {filter: brightness(1);    opacity:.92;}
+  50%     {filter: brightness(1.15); opacity:1;}
 }
 
 /* ============================================================
