@@ -38,30 +38,15 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{
-  background:var(--sk-bg);
-  background-image:
-    radial-gradient(ellipse 800px 400px at 10% 0%, rgba(0,121,221,0.06), transparent 60%),
-    radial-gradient(ellipse 600px 400px at 90% 30%, rgba(192,57,43,0.04), transparent 60%);
-  background-attachment: fixed;
   font-family:'PingFang SC','Outfit',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Source Han Sans SC','Noto Sans SC','Microsoft YaHei',sans-serif;
-  font-size:18px;
+  font-size:17px;
   color:var(--sk-ink);
   line-height:1.55;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   text-rendering:optimizeLegibility;
 }
-body::before{
-  content:'';position:fixed;inset:0;
-  background-image:radial-gradient(ellipse 1200px 600px at 50% 100%, rgba(0,121,221,0.05), transparent 70%);
-  pointer-events:none;z-index:0;
-  animation:bgDrift 24s ease-in-out infinite alternate;
-}
-@keyframes bgDrift{
-  0%{transform:translate(0,0) scale(1);opacity:.6}
-  50%{transform:translate(-30px,-20px) scale(1.05);opacity:.9}
-  100%{transform:translate(20px,-10px) scale(1.02);opacity:.7}
-}
+/* 背景层由 tianbao.css 统一提供（多径向渐变 + 蓝图点纹 + 慢漂移） */
 
 /* === 顶部导航 · 白色玻璃条 === */
 .nav{
