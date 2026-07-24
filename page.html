@@ -114,13 +114,10 @@
 
 *{box-sizing:border-box}
 body{
-  background:var(--sk-bg)!important;
   font-family:'PingFang SC','Outfit',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Source Han Sans SC','Noto Sans SC',sans-serif!important;
   font-size:17px!important;color:var(--sk-ink)!important;line-height:1.55;
-  background-image:
-    radial-gradient(circle at 0% 0%, rgba(0,121,221,0.04) 0%, transparent 50%),
-    radial-gradient(circle at 100% 100%, rgba(192,57,43,0.03) 0%, transparent 50%);
 }
+/* 背景层由 tianbao.css 统一提供（多径向渐变 + 蓝图点纹 + 慢漂移） */
 
 /* 导航 · R179 同步 */
 .nav{background:rgba(255,255,255,0.85)!important;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--sk-line)!important}
@@ -943,6 +940,9 @@ body{
       }
     });
     document.querySelectorAll('.v3-cell').forEach(cell=>{
+      cell.classList.add('to-reveal');
+      cell.dataset.revealDelay = String(Math.min(5, Array.from(document.querySelectorAll('.v3-cell')).indexOf(cell) + 1));
+      cell.classList.remove('is-revealed');
       const stage = cell.dataset.stage;
       const isOther = focused && stage !== FILTER_CAT;
       cell.style.display = isOther ? 'none' : '';
@@ -1036,6 +1036,7 @@ body{
       }
     });
     bindStageToggle();
+    if(window.cmdK && window.cmdK.bindScrollReveal) window.cmdK.bindScrollReveal(document.querySelector('.v3-matrix'));
   }
 
   function makeCard(p){
