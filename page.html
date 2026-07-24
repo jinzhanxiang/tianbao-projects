@@ -952,8 +952,8 @@ body{
       }
     });
     document.querySelectorAll('.v3-cell').forEach(cell=>{
-      cell.classList.add('to-reveal');
-      cell.dataset.revealDelay = String(Math.min(5, Array.from(document.querySelectorAll('.v3-cell')).indexOf(cell) + 1));
+      // 不再加 .to-reveal — fadeUp CSS 动画已做入场；reveal 与 fadeUp 互相干扰导致视口外元素需滚动才显示
+      cell.classList.remove('to-reveal');
       cell.classList.remove('is-revealed');
       const stage = cell.dataset.stage;
       const isOther = focused && stage !== FILTER_CAT;
