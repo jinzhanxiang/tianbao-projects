@@ -349,7 +349,30 @@
       setTimeout(function(){ ripple.remove(); }, 520);
     });
   }
-
+  var revealObserver = null;
+  function bindScrollReveal(root){
+    var scope = root || document;
+    var targets = scope.querySelectorAll ? scope.querySelectorAll('.to-reveal:not([data-reveal-bound])') : [];
+    if(!targets.length) return;
+    if(reducedMotion() || !('IntersectionObserver' in window)){
+      Array.prototype.forEach.call(targets, function(el){ el.classList.add('is-revealed'); el.dataset.revealBound = '1'; });
+      return;
+    }
+    if(!revealObserver){
+      revealObserver = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){
+            entry.target.classList.add('is-revealed');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, {threshold:0.12, rootMargin:'0px 0px -48px 0px'});
+    }
+    Array.prototype.forEach.call(targets, function(el){
+      el.dataset.revealBound = '1';
+      revealObserver.observe(el);
+    });
+  }
 
   window.cmdK = {
     open: openPanel,
@@ -359,7 +382,8 @@
     counterUpAll: counterUpAll,
     bindTilt: bindTilt,
     tiltAll: tiltAll,
-    resolveReportUrl: resolveReportUrl
+    resolveReportUrl: resolveReportUrl,
+    bindScrollReveal: bindScrollReveal
   };
 
   // 自动初始化
@@ -368,6 +392,7 @@
     bindInput();
     bindPageTransitions();
     bindRipples();
+    bindScrollReveal();
     if(document.readyState !== 'loading'){
       showIntro();
       setTimeout(counterUpAll, 200);
