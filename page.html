@@ -693,34 +693,11 @@ body{
   .v3-card{padding:10px 12px!important;font-size:14px!important}
   .v3-card-emoji{width:32px;height:32px;font-size:20px}
 }
-.v3-command-strip{display:grid;grid-template-columns:minmax(220px,1.4fr) repeat(3,minmax(150px,1fr));gap:10px;padding:12px 14px;background:linear-gradient(135deg,#071b35 0%,#0b2b50 55%,#103c68 100%);border:1px solid rgba(111,201,255,.38);border-radius:16px;box-shadow:0 10px 28px rgba(4,24,52,.18),inset 0 1px 0 rgba(255,255,255,.12);position:relative;overflow:hidden;color:#d9efff}
-.v3-command-strip::before{content:'';position:absolute;inset:0;background:linear-gradient(110deg,transparent 25%,rgba(111,201,255,.12) 48%,transparent 68%);background-size:220% 100%;animation:commandSweep 7s ease-in-out infinite;pointer-events:none}
-@keyframes commandSweep{0%,100%{background-position:-120% 0}50%{background-position:160% 0}}
-.v3-command-title,.v3-telemetry{position:relative;z-index:1;min-width:0}
-.v3-command-title{display:flex;align-items:center;gap:12px;padding:4px 12px;border-right:1px solid rgba(111,201,255,.24)}
-.v3-command-mark{width:34px;height:34px;border:1px solid #6fc9ff;border-radius:9px;display:grid;place-items:center;color:#6fc9ff;font:800 13px/1 ui-monospace,monospace;box-shadow:0 0 16px rgba(111,201,255,.22);flex-shrink:0}
-.v3-command-kicker{font:700 10px/1.2 ui-monospace,monospace;letter-spacing:1.6px;color:#6fc9ff;text-transform:uppercase}
-.v3-command-name{margin-top:4px;font-size:18px;font-weight:800;letter-spacing:1px;color:#fff;white-space:nowrap}
-.v3-command-online{display:inline-flex;align-items:center;gap:5px;margin-left:8px;color:#8cf0b4;font:700 10px/1 ui-monospace,monospace;letter-spacing:.6px;vertical-align:middle}
-.v3-command-online::before{content:'';width:6px;height:6px;border-radius:50%;background:#57e389;box-shadow:0 0 0 3px rgba(87,227,137,.16),0 0 10px rgba(87,227,137,.7);animation:dotPulse 2.6s ease-in-out infinite}
-.v3-telemetry{padding:5px 12px;border-left:1px solid rgba(111,201,255,.16);display:flex;flex-direction:column;justify-content:center;gap:3px}
-.v3-telemetry-label{font:600 10px/1.2 ui-monospace,monospace;letter-spacing:1px;color:rgba(217,239,255,.64)}
-.v3-telemetry-value{font:800 19px/1.1 ui-monospace,monospace;color:#fff;font-variant-numeric:tabular-nums}
-.v3-telemetry-value small{font-size:10px;color:#6fc9ff;letter-spacing:.7px;margin-left:4px}
 .v3-matrix-wrap{background:linear-gradient(180deg,rgba(247,252,255,.98),rgba(255,255,255,.94))!important;border-color:rgba(0,121,221,.25)!important;box-shadow:0 12px 34px rgba(0,73,137,.10),inset 0 1px 0 rgba(255,255,255,.9)!important}
 .v3-matrix-wrap::after{background:linear-gradient(135deg,rgba(0,121,221,0) 0%,rgba(111,201,255,.7) 25%,rgba(192,57,43,.35) 50%,rgba(111,201,255,.7) 75%,rgba(0,121,221,0) 100%);background-size:300% 300%}
 .v3-matrix-h{background:linear-gradient(135deg,rgba(0,121,221,.12),rgba(111,201,255,.04))!important;border-color:rgba(0,121,221,.22)!important}
 .v3-cell{box-shadow:inset 0 0 0 1px rgba(0,121,221,.035),0 4px 12px rgba(11,45,80,.045)!important}
 .v3-cell:hover{box-shadow:inset 0 0 0 1px rgba(0,121,221,.28),0 10px 24px rgba(0,121,221,.12)!important}
-.v3-command-strip + .v3-stage-pills{margin-top:-4px}
-@media (max-width:760px){
-  .v3-command-strip{grid-template-columns:1fr 1fr;gap:6px;padding:10px}
-  .v3-command-title{grid-column:1/-1;border-right:0;border-bottom:1px solid rgba(111,201,255,.22);padding:2px 4px 9px}
-  .v3-command-name{font-size:15px}
-  .v3-telemetry{padding:5px 8px}
-  .v3-telemetry-value{font-size:16px}
-  .v3-telemetry-label{font-size:9px}
-}
 </style>
 </head>
 <body>
@@ -748,19 +725,6 @@ body{
   <div class="v3-cat-head">
     <h1 id="catH1">项目分类矩阵 · 3 × 3</h1>
     <div class="meta" id="catMeta">载入中...</div>
-  </div>
-
-  <div class="v3-command-strip" aria-label="项目分类指挥台状态">
-    <div class="v3-command-title">
-      <span class="v3-command-mark">TB</span>
-      <div>
-        <div class="v3-command-kicker">PROJECT CLASSIFICATION COMMAND CENTER</div>
-        <div class="v3-command-name">项目分类指挥台 <span class="v3-command-online">LIVE</span></div>
-      </div>
-    </div>
-    <div class="v3-telemetry"><span class="v3-telemetry-label">PROJECTS ONLINE</span><span class="v3-telemetry-value" id="telemetryProjects">—<small>ACTIVE</small></span></div>
-    <div class="v3-telemetry"><span class="v3-telemetry-label">REPORTS INDEXED</span><span class="v3-telemetry-value" id="telemetryReports">—<small>REPORTS</small></span></div>
-    <div class="v3-telemetry"><span class="v3-telemetry-label">MATRIX CELLS</span><span class="v3-telemetry-value">09<small>MONITORED</small></span></div>
   </div>
 
   <!-- 阶段筛选条 · 阶段色芯片 -->
@@ -1049,10 +1013,6 @@ body{
     document.getElementById('pillFocus').textContent = PROJECTS.filter(p=>p.stage_v3==='在推重点').length;
     document.getElementById('pillStore').textContent = PROJECTS.filter(p=>p.stage_v3==='储备').length;
     document.getElementById('pillWatch').textContent = PROJECTS.filter(p=>p.stage_v3==='观察').length;
-    const telemetryProjects = document.getElementById('telemetryProjects');
-    const telemetryReports = document.getElementById('telemetryReports');
-    if(telemetryProjects) telemetryProjects.innerHTML = `${PROJECTS.length}<small>ACTIVE</small>`;
-    if(telemetryReports) telemetryReports.innerHTML = `${PROJECTS.reduce((sum,p)=>sum+(Number(p.report_count)||0),0)}<small>REPORTS</small>`;
     // cell 内计数
     document.querySelectorAll('.v3-cell-cnt').forEach(el=>{
       const [s,i] = el.dataset.cnt.split('|');
