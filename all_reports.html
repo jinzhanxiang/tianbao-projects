@@ -84,10 +84,10 @@
 
 *{box-sizing:border-box}
 body{
-  background:var(--sk-bg)!important;
   font-family:'PingFang SC','Outfit',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Source Han Sans SC','Noto Sans SC',sans-serif!important;
   font-size:17px!important;color:var(--sk-ink)!important;line-height:1.55;
 }
+/* 背景层由 tianbao.css 统一提供（多径向渐变 + 蓝图点纹 + 慢漂移） */
 
 /* 导航 · R179 同步 */
 .nav{background:rgba(255,255,255,0.85)!important;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--sk-line)!important}
@@ -564,7 +564,7 @@ body{
       const stageColor = AR_STAGE_COLOR[p.stage_v3] || '#0079DD';
       const stageGlow = hexToRgba(stageColor, 0.20);
       return `
-        <div class="v3-ar-proj-block" style="--pb-color:${stageColor};--pb-glow:${stageGlow}">
+        <div class="v3-ar-proj-block to-reveal" data-reveal-delay="${Math.min(5, projOrder.indexOf(p) + 1)}" style="--pb-color:${stageColor};--pb-glow:${stageGlow}">
           <span class="v3-block-corner tl"></span>
           <span class="v3-block-corner tr"></span>
           <span class="v3-block-corner bl"></span>
@@ -605,6 +605,7 @@ body{
     }).filter(Boolean).join('');
 
     host.innerHTML = blocks || `<div class="v3-ar-empty">未匹配到任何报告 · 调整筛选条件重试</div>`;
+    if(window.cmdK && window.cmdK.bindScrollReveal) window.cmdK.bindScrollReveal(host);
     document.getElementById('filterStat').textContent = `${totalShown} / ${totalAll} 份`;
     totalMeta.innerHTML = `共 <b>${totalAll}</b> 份报告 · 覆盖 <b>${Object.keys(REPORTS).filter(c=>(REPORTS[c]||[]).length>0).length}</b> 个项目`;
     // 重新绑定 3D 倾斜（新渲染的 .v3-ar-item 需要重新挂监听）
