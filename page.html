@@ -121,19 +121,25 @@ body{
 
 /* 导航 · R179 同步 */
 .nav{background:rgba(255,255,255,0.85)!important;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--sk-line)!important}
-.nav-brand>div>div:first-child{font-size:40px!important;letter-spacing:-0.5px!important;line-height:1.15!important;font-weight:900!important;font-family:'PingFang SC','Source Han Sans SC','Noto Sans SC','Microsoft YaHei',sans-serif!important;color:#000000!important;-webkit-text-fill-color:#000000!important;background:none!important;-webkit-background-clip:initial!important;background-clip:initial!important;animation:titleFadeIn .55s cubic-bezier(.2,.8,.2,1) .12s backwards!important}
-.nav-brand-sub{font-size:15px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-2)!important;margin-top:4px!important;animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .26s backwards}
+.nav-brand>div>div:first-child{font-size:40px!important;letter-spacing:-0.5px!important;line-height:1.15!important;font-weight:900!important;font-family:'PingFang SC','Source Han Sans SC','Noto Sans SC','Microsoft YaHei',sans-serif!important;background:linear-gradient(135deg,#0A1F3D 0%,#0079DD 50%,#5B3FB8 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important;color:transparent!important;filter:drop-shadow(0 2px 4px rgba(0,121,221,0.12));opacity:.94;animation:titleFadeIn .55s cubic-bezier(.2,.8,.2,1) .12s backwards!important}
+.nav-brand-sub{font-size:14px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-3)!important;margin-top:6px!important;opacity:.85;animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .26s backwards}
 .nav-logo{width:200px!important;height:auto!important;border-radius:10px!important;background:#ffffff!important;box-shadow:0 2px 8px rgba(0,0,0,0.08)!important;transition:.3s cubic-bezier(.2,.8,.2,1);object-fit:contain;padding:0;animation:logoFadeIn .6s cubic-bezier(.2,.8,.2,1) backwards}
 .nav-brand:hover .nav-logo{transform:translateY(-2px) scale(1.03);box-shadow:0 8px 18px rgba(0,0,0,0.15)!important}
 .nav-logo-fallback{display:none;width:200px;height:200px;align-items:center;justify-content:center;background:#ffffff;color:#000;font-size:54px;font-weight:900;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
-.nav-dept-chip{display:inline-flex;align-items:center;gap:5px;margin-left:10px;padding:3px 10px;background:linear-gradient(135deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;color:#fff!important;font-size:12px!important;font-weight:800!important;letter-spacing:2px;border-radius:6px;vertical-align:middle;box-shadow:0 2px 6px rgba(0,121,221,0.25);animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .4s backwards}
-.nav-dept-chip::before{content:'';width:6px;height:6px;background:#fff;border-radius:50%;box-shadow:0 0 6px rgba(255,255,255,0.9)}
+.nav-dept-chip{display:inline-flex;align-items:center;gap:6px;margin-left:10px;padding:4px 11px;background:rgba(0,121,221,0.92);color:#fff;font-size:12px;font-weight:800;letter-spacing:2px;border-radius:980px;vertical-align:middle;box-shadow:0 2px 8px rgba(0,121,221,0.30),inset 0 1px 0 rgba(255,255,255,0.20);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:.3s;animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .4s backwards}
+.nav-dept-chip::before{content:'';width:6px;height:6px;background:#fff;border-radius:50%;box-shadow:0 0 8px rgba(255,255,255,1.0),0 0 0 3px rgba(0,121,221,0.25);animation:deptDotBlink 2.5s ease-in-out infinite}
 .nav-links a,.nav-current{font-size:16px!important;font-weight:600!important;padding:8px 16px!important;border-radius:var(--sk-radius-pill)!important;color:var(--sk-ink-2)!important}
-.nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important}
+.nav-links a{transition:.25s cubic-bezier(.2,.8,.2,1)!important;position:relative!important}
+.nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important;transform:translateY(-2px)!important;box-shadow:0 4px 12px rgba(0,121,221,0.18)!important}
+.nav-links a::before{content:''!important;position:absolute!important;left:50%!important;top:50%!important;width:0!important;height:0!important;border-radius:50%!important;background:radial-gradient(circle,rgba(0,121,221,0.18) 0%,transparent 70%)!important;transform:translate(-50%,-50%)!important;transition:.45s cubic-bezier(.2,.8,.2,1)!important;pointer-events:none!important}
+.nav-links a:hover::before{width:120%!important;height:200%!important}
+.nav-links a::after{content:''!important;position:absolute!important;left:50%!important;bottom:4px!important;width:0!important;height:2px!important;background:linear-gradient(90deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%)!important;border-radius:1px!important;transition:.35s cubic-bezier(.2,.8,.2,1)!important;transform:translateX(-50%)!important;box-shadow:0 0 6px rgba(0,121,221,0.5)!important}
+.nav-links a:hover::after{width:28px!important}
 .nav-current{background:var(--sk-blue)!important;color:#fff!important}
 @keyframes logoFadeIn{0%{opacity:0;transform:scale(.85) translateX(-12px)}100%{opacity:1;transform:scale(1) translateX(0)}}
 @keyframes titleFadeIn{0%{opacity:0;transform:translateY(18px)}100%{opacity:1;transform:translateY(0)}}
 @keyframes subFadeIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes deptDotBlink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.85;transform:scale(1.2)}}
 
 /* 主容器 */
 .v3-cat{
@@ -689,6 +695,12 @@ body{
   .v3-cell-cnt{font-size:18px}
   .v3-card{padding:10px 12px!important;font-size:14px!important}
   .v3-card-emoji{width:32px;height:32px;font-size:20px}
+
+  .nav-brand>div>div:first-child{font-size:26px!important}
+  .nav-brand-sub{font-size:12px!important}
+  .nav-brand-sub .clock{font-size:13px!important}
+  .nav-dept-chip{font-size:10px!important;padding:3px 8px!important;letter-spacing:1px!important;margin-left:6px!important}
+  .nav-logo{width:120px!important}
 }
 .v3-matrix-wrap{background:linear-gradient(180deg,rgba(247,252,255,.98),rgba(255,255,255,.94))!important;border-color:rgba(0,121,221,.25)!important;box-shadow:0 12px 34px rgba(0,73,137,.10),inset 0 1px 0 rgba(255,255,255,.9)!important}
 .v3-matrix-wrap::after{background:linear-gradient(135deg,rgba(0,121,221,0) 0%,rgba(111,201,255,.7) 25%,rgba(192,57,43,.35) 50%,rgba(111,201,255,.7) 75%,rgba(0,121,221,0) 100%);background-size:300% 300%}
