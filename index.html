@@ -59,14 +59,17 @@ body{
   font-size:40px!important;letter-spacing:-0.5px!important;line-height:1.15!important;
   font-weight:900!important;
   font-family:'PingFang SC','Source Han Sans SC','Noto Sans SC','Microsoft YaHei',sans-serif!important;
-  color:#000000!important;
-  -webkit-text-fill-color:#000000!important;
-  background:none!important;
-  -webkit-background-clip:initial!important;background-clip:initial!important;
+  /* 渐变文字 · 蓝→深蓝→紫 · 科技感 */
+  background:linear-gradient(135deg,#0A1F3D 0%,#0079DD 50%,#5B3FB8 100%)!important;
+  -webkit-background-clip:text!important;background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;
+  color:transparent!important;
   animation:titleFadeIn .55s cubic-bezier(.2,.8,.2,1) .12s backwards!important;
+  filter:drop-shadow(0 2px 4px rgba(0,121,221,0.12));
+  opacity:.94;
 }
-.nav-brand-sub{font-size:15px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-2)!important;margin-top:4px!important;animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .26s backwards}
-.nav-brand-sub .clock{font-size:16px!important;font-weight:700!important;color:var(--sk-blue)!important;font-variant-numeric:tabular-nums}
+.nav-brand-sub{font-size:14px!important;font-weight:500!important;letter-spacing:.3px!important;color:var(--sk-ink-3)!important;margin-top:6px!important;opacity:.85;animation:subFadeIn .55s cubic-bezier(.2,.8,.2,1) .26s backwards}
+.nav-brand-sub .clock{font-size:15px!important;font-weight:700!important;color:var(--sk-blue)!important;font-variant-numeric:tabular-nums;letter-spacing:.5px;background:rgba(0,121,221,0.08);padding:1px 8px;border-radius:6px}
 .nav-logo{width:200px!important;height:auto!important;border-radius:10px!important;background:#ffffff!important;box-shadow:0 2px 8px rgba(0,0,0,0.08)!important;transition:.3s cubic-bezier(.2,.8,.2,1);object-fit:contain;padding:0;animation:logoFadeIn .6s cubic-bezier(.2,.8,.2,1) backwards}
 .nav-brand:hover .nav-logo{transform:translateY(-2px) scale(1.03);box-shadow:0 8px 18px rgba(0,0,0,0.15)!important}
 .nav-logo-fallback{display:none;width:200px;height:200px;align-items:center;justify-content:center;background:#ffffff;color:#000;font-size:54px;font-weight:900;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
@@ -89,9 +92,11 @@ body{
   color:var(--sk-ink-2)!important;letter-spacing:.3px!important;
   transition:.25s cubic-bezier(.2,.8,.2,1);position:relative;
 }
-.nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important;transform:translateY(-1px)}
-.nav-links a::after{content:'';position:absolute;left:50%;bottom:4px;width:0;height:2px;background:var(--sk-blue);border-radius:1px;transition:.3s cubic-bezier(.2,.8,.2,1);transform:translateX(-50%)}
-.nav-links a:hover::after{width:24px}
+.nav-links a:hover{background:var(--sk-blue-soft)!important;color:var(--sk-blue)!important;transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,121,221,0.18)}
+.nav-links a::before{content:'';position:absolute;left:50%;top:50%;width:0;height:0;border-radius:50%;background:radial-gradient(circle,rgba(0,121,221,0.18) 0%,transparent 70%);transform:translate(-50%,-50%);transition:.45s cubic-bezier(.2,.8,.2,1);pointer-events:none}
+.nav-links a:hover::before{width:120%;height:200%}
+.nav-links a::after{content:'';position:absolute;left:50%;bottom:4px;width:0;height:2px;background:linear-gradient(90deg,var(--sk-blue) 0%,var(--sk-blue-2) 100%);border-radius:1px;transition:.35s cubic-bezier(.2,.8,.2,1);transform:translateX(-50%);box-shadow:0 0 6px rgba(0,121,221,0.5)}
+.nav-links a:hover::after{width:28px}
 .nav-current{background:var(--sk-blue)!important;color:#fff!important}
 
 /* === 滚动渐入动画 === */
@@ -151,8 +156,12 @@ body{
   position:relative;
 }
 .v3-holo-head h2{
-  font-size:28px!important;color:var(--sk-ink);font-weight:800;
+  font-size:28px!important;font-weight:800;
   margin:0;letter-spacing:-0.5px;display:flex;align-items:center;gap:12px;line-height:1.2;
+  /* 渐变文字 · 配合科幻背景 */
+  background:linear-gradient(135deg,#1d1d1f 0%,#0079DD 70%,#5B3FB8 100%)!important;
+  -webkit-background-clip:text!important;background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;color:transparent!important;
 }
 .v3-holo-head h2::before{
   content:'';width:6px;height:28px;border-radius:3px;
@@ -775,6 +784,12 @@ body{
   .v3-feed-date{font-size:13px}
   .v3-feed-title{font-size:16px;line-height:1.5}
   .v3-feed-sub{font-size:13px}
+
+  .nav-brand>div>div:first-child{font-size:26px!important}
+  .nav-brand-sub{font-size:12px!important}
+  .nav-brand-sub .clock{font-size:13px!important}
+  .nav-dept-chip{font-size:10px!important;padding:3px 8px!important;letter-spacing:1px!important;margin-left:6px!important}
+  .nav-logo{width:120px!important}
 }
 </style>
 </head>
