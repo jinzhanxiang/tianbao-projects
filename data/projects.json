@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T23:06:01+08:00",
+  "generated_at": "2026-07-24T23:49:21+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 19,
   "stage_v3_enum": [
@@ -533,7 +533,7 @@
       "repo": "",
       "local_folder": "~/Desktop/储备项目/联通云项目-山西/",
       "folder_alias": "",
-      "report_count": 4,
+      "report_count": 5,
       "progress_pct": 35,
       "contacts": "天保控股投资部",
       "brief_md": "联通云山西（数据·云 · IDC）· 已立项阶段 · 详见报告库",
@@ -688,7 +688,7 @@
       {
         "code": "unicom-sx",
         "name_cn": "联通云山西",
-        "count": 4
+        "count": 5
       }
     ],
     "云": [
@@ -700,7 +700,7 @@
       {
         "code": "unicom-sx",
         "name_cn": "联通云山西",
-        "count": 4
+        "count": 5
       }
     ],
     "IDC": [
@@ -712,7 +712,7 @@
       {
         "code": "unicom-sx",
         "name_cn": "联通云山西",
-        "count": 4
+        "count": 5
       }
     ],
     "汽车电子": [
