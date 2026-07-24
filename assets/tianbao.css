@@ -169,13 +169,13 @@ a{color:inherit;text-decoration:none}
 .nav::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--tb-blue) 0%,var(--tb-blue-2) 30%,var(--seal) 70%,var(--seal-2) 100%);z-index:1;transform-origin:left;animation:ribbonUnfold 1s cubic-bezier(.2,.8,.2,1) backwards}
 .nav-inner{max-width:1280px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;gap:20px}
 .nav-brand{display:flex;align-items:center;gap:14px;font-weight:800;font-size:15px;color:var(--ink);transition:.3s}
-.nav-brand:hover{transform:translateX(2px)}
+.nav-brand:hover{transform:translateY(-1px)}
 .nav-brand>div{display:flex;flex-direction:column;gap:2px;min-width:0}
 .nav-brand>div>div:first-child{font-size:18px;letter-spacing:1.5px;background:linear-gradient(90deg,var(--ink) 0%,var(--seal) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;position:relative;animation:brandShine 4s ease-in-out infinite}
 @keyframes brandShine{0%,100%{background-position:0 0}50%{background-position:200% 0}}
 /* R172: 删除 brandSweep 高光扫过（叠加在 brandShine 上显得过炫） */
 .nav-logo{width:36px;height:36px;border-radius:50%;background:transparent;display:block;flex-shrink:0;object-fit:cover;transition:.3s cubic-bezier(.2,.8,.2,1);filter:drop-shadow(0 2px 4px rgba(0,121,221,0.15))}
-.nav-brand:hover .nav-logo{transform:rotate(8deg) scale(1.05);filter:drop-shadow(0 4px 8px rgba(0,121,221,0.25))}
+.nav-brand:hover .nav-logo{transform:translateY(-2px) scale(1.03);filter:drop-shadow(0 6px 14px rgba(0,0,0,0.15))}
 .nav-logo-fallback{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--tb-blue) 0%,var(--tb-blue-2) 100%);color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900;box-shadow:0 2px 6px rgba(0,121,221,0.25);flex-shrink:0}
 .nav-brand-sub{font-size:11px;color:var(--ink-3);font-weight:500;letter-spacing:.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .nav-brand-sub .clock{font-family:ui-monospace,monospace;color:var(--seal);font-weight:800;letter-spacing:1px;font-size:12px}
@@ -186,6 +186,12 @@ a{color:inherit;text-decoration:none}
 .nav-links a.active{background:var(--ink);color:var(--paper);border-color:var(--ink);box-shadow:0 2px 6px rgba(0,0,0,.12)}
 .theme-toggle{margin-left:8px;background:var(--chip-bg);border:none;width:36px;height:36px;border-radius:10px;cursor:pointer;font-size:16px;display:grid;place-items:center;color:var(--ink)}
 .theme-toggle:hover{background:var(--blue);color:#fff}
+
+/* === R180 · 副标识 chip「投资部」 === */
+.nav-dept-chip{display:inline-flex;align-items:center;gap:5px;margin-left:10px;padding:3px 10px;background:linear-gradient(135deg,var(--tb-blue) 0%,var(--tb-blue-2) 100%);color:#fff;font-size:12px;font-weight:800;letter-spacing:2px;border-radius:6px;vertical-align:middle;box-shadow:0 2px 6px rgba(0,121,221,0.25);transition:.3s}
+.nav-dept-chip:hover{transform:translateY(-1px);box-shadow:0 4px 10px rgba(0,121,221,0.4)}
+.nav-dept-chip::before{content:'';width:6px;height:6px;background:#fff;border-radius:50%;box-shadow:0 0 6px rgba(255,255,255,0.9);animation:deptDotBlink 2.5s ease-in-out infinite}
+@keyframes deptDotBlink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(.85)}}
 
 /* === HERO（朱红印章大标题） === */
 .hero{padding:60px 0 50px;background:transparent;border-bottom:2px solid var(--ink);position:relative}
@@ -805,7 +811,8 @@ a{color:inherit;text-decoration:none}
   .nav-brand>div{min-width:0;flex:1}
   .nav-brand>div>div:first-child{font-size:14px!important;letter-spacing:.3px!important;white-space:nowrap!important;line-height:1.3!important}
   .nav-brand-sub{font-size:9px!important;display:none!important}
-  .nav-logo{width:28px!important;height:28px!important;font-size:13px!important;flex-shrink:0}
+  .nav-logo{width:88px!important;height:88px!important;flex-shrink:0}
+  .nav-dept-chip{display:none!important}
   .nav-links{gap:4px!important;margin-left:0!important;flex-shrink:0}
   .nav-links a{padding:5px 10px!important;font-size:11px!important;font-weight:700;border-radius:6px;letter-spacing:.5px}
 
