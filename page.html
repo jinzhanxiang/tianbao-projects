@@ -672,417 +672,11 @@ body{
   .v3-matrix-row-h .row-name{font-size:18px}
   .v3-cell{padding:14px!important;min-height:160px}
 }
-
-/* ============================================================
- *  R187 · 3 列 Kanban · 类型横向过滤芯片 · 聚焦状态条
- * ============================================================ */
-
-/* === 聚焦状态条 banner === */
-.v3-status-banner{
-  display:flex;align-items:center;gap:14px;
-  padding:14px 22px!important;
-  background:linear-gradient(135deg,rgba(192,57,43,0.06) 0%,rgba(0,121,221,0.05) 100%)!important;
-  border:1.5px solid rgba(192,57,43,0.25)!important;
-  border-radius:var(--sk-radius)!important;
-  font-size:14px!important;color:var(--sk-ink-2)!important;
-  position:relative;overflow:hidden;
-  animation:bannerSlideIn .45s cubic-bezier(.2,.8,.2,1);
-}
-.v3-status-banner[hidden]{display:none!important}
-.v3-status-banner::before{
-  content:'';position:absolute;left:0;top:0;bottom:0;width:4px;
-  background:linear-gradient(180deg,#C0392B 0%,#922B21 100%);
-  border-radius:2px 0 0 2px;
-  box-shadow:0 0 8px rgba(192,57,43,0.4);
-}
-.v3-status-banner::after{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(120deg,transparent 0%,rgba(192,57,43,0.06) 50%,transparent 100%);
-  background-size:200% 100%;
-  animation:bgSweep 7s ease-in-out infinite;
-  pointer-events:none;
-}
-.v3-status-banner-ico{
-  font-size:20px;line-height:1;flex-shrink:0;
-  filter:drop-shadow(0 0 6px rgba(192,57,43,.35));
-}
-.v3-status-banner-body{flex:1;position:relative;z-index:1}
-.v3-status-banner-body b{
-  color:#C0392B;font-weight:800;
-  font-family:'Outfit',ui-monospace,monospace;
-  font-variant-numeric:tabular-nums;
-}
-.v3-status-banner-close{
-  font-family:'PingFang SC','Outfit',sans-serif!important;
-  font-size:13px!important;font-weight:700!important;
-  padding:6px 16px!important;border-radius:var(--sk-radius-pill)!important;
-  background:rgba(192,57,43,0.08)!important;color:#C0392B!important;
-  border:1px solid rgba(192,57,43,0.30)!important;
-  cursor:pointer;transition:.2s;
-  position:relative;z-index:1;
-}
-.v3-status-banner-close:hover{
-  background:#C0392B!important;color:#fff!important;transform:translateX(2px);
-}
-@keyframes bannerSlideIn{
-  from{opacity:0;transform:translateY(-12px)}
-  to{opacity:1;transform:translateY(0)}
-}
-
-/* === ISS 横向过滤芯片 === */
-.v3-iss-pills{
-  display:flex;align-items:center;gap:10px;flex-wrap:wrap;
-  padding:14px 20px!important;
-  background:rgba(255,255,255,0.78)!important;
-  backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);
-  border:1px solid var(--sk-line)!important;
-  border-radius:var(--sk-radius)!important;
-  font-family:'PingFang SC','Outfit',sans-serif;
-  box-shadow:var(--sk-shadow)!important;
-  position:relative;overflow:hidden;
-}
-.v3-iss-pills-label{
-  font-size:13px;font-weight:700;color:var(--sk-ink-3);
-  letter-spacing:.5px;text-transform:uppercase;flex-shrink:0;
-}
-.v3-iss-pill{
-  display:inline-flex;align-items:center;gap:6px;
-  padding:7px 16px!important;border-radius:var(--sk-radius-pill)!important;
-  background:transparent!important;border:1px solid var(--sk-line)!important;
-  font-size:13px!important;font-weight:600!important;color:var(--sk-ink-2)!important;
-  cursor:pointer;transition:.2s;font-family:inherit;
-  position:relative;overflow:hidden;
-}
-.v3-iss-pill:hover{
-  background:var(--sk-blue-softer)!important;color:var(--sk-blue)!important;border-color:var(--sk-blue)!important;
-}
-.v3-iss-pill.active{
-  background:var(--sk-blue)!important;color:#fff!important;border-color:var(--sk-blue)!important;
-  box-shadow:0 4px 12px rgba(0,121,221,0.30);
-}
-.v3-iss-pill .v3-iss-pill-cnt{
-  font-family:'Outfit',ui-monospace,monospace;font-size:11px;font-weight:800;
-  background:rgba(255,255,255,0.25);color:inherit;padding:1px 7px;border-radius:8px;
-  font-variant-numeric:tabular-nums;
-}
-.v3-iss-pill:not(.active) .v3-iss-pill-cnt{
-  background:var(--sk-bg);color:var(--sk-ink-3);
-}
-.v3-iss-divider{flex:1;min-width:8px}
-.v3-iss-pills-hint{
-  font-size:12px;color:var(--sk-ink-3);
-  display:inline-flex;align-items:center;gap:5px;
-}
-
-/* === Kanban 外框 === */
-.v3-kanban-wrap{
-  background:rgba(255,255,255,0.92)!important;
-  backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
-  border:1.5px solid var(--sk-line)!important;
-  border-radius:var(--sk-radius)!important;
-  padding:24px 24px 28px!important;
-  box-shadow:var(--sk-shadow)!important;
-  position:relative;overflow:visible;
-}
-.v3-kanban-wrap::before{display:none!important}
-.v3-kanban-wrap::after{
-  content:'';position:absolute;inset:-1px;border-radius:inherit;
-  padding:1.5px;
-  background:linear-gradient(135deg,rgba(0,121,221,0.0) 0%,rgba(0,121,221,0.30) 25%,rgba(192,57,43,0.20) 50%,rgba(0,121,221,0.30) 75%,rgba(0,121,221,0.0) 100%);
-  background-size:300% 300%;
-  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
-  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
-  -webkit-mask-composite:xor;mask-composite:exclude;
-  animation:borderShine 9s linear infinite;
-  pointer-events:none;
-}
-
-/* === Kanban 3 列网格 === */
-.v3-kanban{
-  display:grid;
-  grid-template-columns:repeat(3, 1fr);
-  gap:18px;
-  align-items:start;
-}
-.v3-kanban.focus-mode{
-  grid-template-columns:minmax(0,1fr);
-  max-width:780px;margin:0 auto;
-}
-.v3-kanban.focus-mode .v3-kcol:not(.is-focused){display:none}
-
-/* === 列 · 阶段色柱 === */
-.v3-kcol{
-  --kcol-color:var(--sk-blue);
-  --kcol-color-2:var(--sk-blue-2);
-  --kcol-glow:rgba(0,121,221,.20);
-  --kcol-tint:var(--sk-blue-softer);
-  --kcol-soft:rgba(0,121,221,0.08);
-  background:var(--sk-paper)!important;
-  border:1.5px solid var(--sk-line)!important;
-  border-top:4px solid var(--kcol-color)!important;
-  border-radius:18px!important;
-  padding:0!important;
-  min-height:280px;
-  position:relative;overflow:hidden;
-  display:flex;flex-direction:column;
-  transition:.3s cubic-bezier(.2,.8,.2,1);
-}
-.v3-kcol[data-stage="在推重点"]{--kcol-color:#C0392B;--kcol-color-2:#922B21;--kcol-glow:rgba(192,57,43,.22);--kcol-tint:rgba(192,57,43,.08);--kcol-soft:rgba(192,57,43,.04)}
-.v3-kcol[data-stage="储备"]{--kcol-color:#0079DD;--kcol-color-2:#00519B;--kcol-glow:rgba(0,121,221,.22);--kcol-tint:rgba(0,121,221,.08);--kcol-soft:rgba(0,121,221,.04)}
-.v3-kcol[data-stage="观察"]{--kcol-color:#6B7280;--kcol-color-2:#4B5563;--kcol-glow:rgba(107,114,128,.22);--kcol-tint:rgba(107,114,128,.08);--kcol-soft:rgba(107,114,128,.04)}
-.v3-kcol::before{
-  content:'';position:absolute;left:0;right:0;top:0;height:80px;
-  background:linear-gradient(180deg,var(--kcol-soft) 0%,transparent 100%);
-  pointer-events:none;
-}
-.v3-kcol.is-focused{
-  border-color:var(--kcol-color)!important;
-  box-shadow:0 8px 32px var(--kcol-glow),0 0 0 3px var(--kcol-soft);
-  transform:translateY(-2px);
-}
-
-/* === 列头 === */
-.v3-kcol-h{
-  position:relative;z-index:1;
-  display:flex;align-items:center;gap:10px;
-  padding:18px 20px 14px!important;
-  border-bottom:1px dashed var(--sk-line)!important;
-}
-.v3-kcol-icon{
-  font-size:24px;line-height:1;flex-shrink:0;
-  display:inline-flex;align-items:center;justify-content:center;
-  width:42px;height:42px;border-radius:12px;
-  background:var(--kcol-tint);color:var(--kcol-color);
-  box-shadow:inset 0 0 0 1.5px var(--kcol-glow);
-}
-.v3-kcol-name{
-  flex:1;font-family:'PingFang SC','Outfit',sans-serif!important;
-  font-size:17px!important;font-weight:800!important;color:var(--sk-ink)!important;
-  letter-spacing:.2px;
-}
-.v3-kcol-cnt{
-  font-family:'Outfit',ui-monospace,monospace!important;
-  font-size:18px!important;font-weight:800!important;
-  color:var(--kcol-color)!important;
-  background:var(--kcol-tint);
-  padding:3px 11px!important;border-radius:var(--sk-radius-pill)!important;
-  font-variant-numeric:tabular-nums;
-  border:1px solid var(--kcol-glow);
-  animation:cntIn .4s cubic-bezier(.2,1.4,.4,1) backwards;
-  min-width:32px;text-align:center;
-}
-.v3-kcol-sub{
-  position:absolute;left:60px;top:32px;
-  font-size:11px;color:var(--sk-ink-3);font-weight:600;letter-spacing:.3px;
-  text-transform:uppercase;
-}
-
-/* === 列体 · 卡片放置区 === */
-.v3-kcol-body{
-  padding:14px 14px 18px!important;
-  display:flex;flex-direction:column;gap:10px;
-  position:relative;z-index:1;
-  flex:1;min-height:160px;
-  background-image:radial-gradient(circle, var(--kcol-soft) 1px, transparent 1px);
-  background-size:18px 18px;background-position:0 0;
-  transition:.2s;
-}
-.v3-kcol-body.is-drag-over{
-  background-color:var(--kcol-tint);
-  box-shadow:inset 0 0 0 2px var(--kcol-color);
-}
-
-/* === 折叠态 · 列体收缩 === */
-.v3-kcol.collapsed .v3-kcol-body{
-  padding-top:6px;padding-bottom:6px;
-}
-.v3-kcol.collapsed .v3-kcol-body .v3-kcard{display:none}
-.v3-kcol.collapsed .v3-kcol-body .v3-kcol-empty{display:none}
-.v3-kcol.collapsed .v3-kcol-collapse-hint{display:flex!important}
-
-/* === 折叠提示 · 列体隐藏时显示 === */
-.v3-kcol-collapse-hint{
-  display:none!important;
-  padding:30px 12px!important;color:var(--sk-ink-3)!important;
-  font-size:13px!important;letter-spacing:.3px;
-  text-align:center;line-height:1.6;
-  align-items:center;justify-content:center;gap:6px;
-  flex-direction:column;
-}
-.v3-kcol-collapse-hint .ico{font-size:24px;opacity:.4}
-.v3-kcol-collapse-hint:hover{color:var(--kcol-color)!important}
-
-/* === 空列体 === */
-.v3-kcol-empty{
-  padding:34px 14px!important;
-  color:var(--sk-ink-3)!important;
-  font-size:13px!important;
-  text-align:center;line-height:1.6;
-  display:flex;flex-direction:column;align-items:center;gap:8px;
-  justify-content:center;
-  flex:1;min-height:120px;
-}
-.v3-kcol-empty .ico{font-size:32px;opacity:.3;animation:float 3s ease-in-out infinite}
-.v3-kcol-empty .txt{font-weight:500;letter-spacing:.3px}
-
-/* === 列内项目卡 · 升级版（信息更密集） === */
-.v3-kcard{
-  font-family:'PingFang SC','Outfit',sans-serif!important;
-  background:var(--sk-paper)!important;
-  border:1.5px solid var(--sk-line)!important;
-  border-left:4px solid var(--kcol-color)!important;
-  border-radius:14px!important;
-  padding:14px 16px!important;
-  text-decoration:none;color:inherit;
-  transition:.25s cubic-bezier(.2,.8,.2,1);
-  position:relative;overflow:hidden;
-  display:flex;flex-direction:column;gap:10px;
-  animation:cardIn .5s cubic-bezier(.2,.8,.2,1) backwards;
-  cursor:grab;
-}
-.v3-kcard:active{cursor:grabbing}
-.v3-kcard::after{
-  content:'';position:absolute;left:-20%;right:-20%;top:-50%;height:200%;
-  background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,0) 40%,rgba(255,255,255,0.65) 50%,rgba(255,255,255,0) 60%,transparent 70%);
-  transform:rotate(20deg) translateY(-100%);
-  animation:shimmerDown 4s ease-in-out infinite;
-  pointer-events:none;
-}
-.v3-kcard:hover{
-  background:var(--kcol-tint)!important;
-  border-color:var(--kcol-color)!important;
-  border-left-width:5px!important;
-  transform:translateX(4px) translateY(-2px);
-  box-shadow:0 8px 22px var(--kcol-glow);
-}
-.v3-kcard:hover .v3-kcard-emoji{transform:scale(1.12) rotate(-6deg)}
-
-/* 卡 · 行1：emoji + 名称 + 报告数 */
-.v3-kcard-row1{
-  display:flex;align-items:center;gap:10px;
-  position:relative;z-index:1;
-}
-.v3-kcard-emoji{
-  font-size:24px;line-height:1;flex-shrink:0;
-  display:inline-flex;align-items:center;justify-content:center;
-  width:38px;height:38px;border-radius:10px;
-  background:var(--sk-bg);
-  transition:.3s;
-}
-.v3-kcard-name{
-  flex:1;font-weight:800!important;font-size:15px!important;color:var(--sk-ink)!important;
-  letter-spacing:.2px;line-height:1.3;
-  overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
-  white-space:normal;
-}
-.v3-kcard-count{
-  font-family:'Outfit',ui-monospace,monospace!important;
-  font-size:11px!important;font-weight:800!important;
-  color:var(--kcol-color)!important;
-  background:var(--kcol-tint);
-  padding:2px 9px!important;border-radius:var(--sk-radius-pill)!important;
-  font-variant-numeric:tabular-nums;
-  flex-shrink:0;
-  border:1px solid var(--kcol-glow);
-  white-space:nowrap;
-}
-
-/* 卡 · 行2：行业 + 类型徽章 */
-.v3-kcard-row2{
-  display:flex;align-items:center;gap:6px;flex-wrap:wrap;
-  position:relative;z-index:1;
-}
-.v3-kcard-pill{
-  display:inline-flex;align-items:center;gap:4px;
-  padding:2px 8px;border-radius:var(--sk-radius-pill);
-  background:var(--sk-bg);
-  font-size:11px!important;font-weight:700;
-  color:var(--sk-ink-2);
-  border:1px solid var(--sk-line);
-  letter-spacing:.2px;
-}
-.v3-kcard-pill.iss{
-  background:var(--kcol-tint);color:var(--kcol-color);
-  border-color:var(--kcol-glow);
-}
-
-/* 卡 · 行3：进度条 */
-.v3-kcard-row3{
-  display:flex;align-items:center;gap:8px;
-  position:relative;z-index:1;
-}
-.v3-kcard-progress{
-  flex:1;height:5px;background:rgba(0,0,0,0.05);border-radius:3px;overflow:hidden;position:relative;
-}
-.v3-kcard-progress-fill{
-  height:100%;
-  background:linear-gradient(90deg,var(--kcol-color) 0%,var(--kcol-color-2) 100%);
-  border-radius:3px;
-  box-shadow:0 0 6px var(--kcol-glow);
-  position:relative;
-}
-.v3-kcard-progress-fill::after{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,0.5) 50%,transparent 100%);
-  background-size:200% 100%;
-  animation:flowRight 2s linear infinite;
-}
-.v3-kcard-progress-pct{
-  font-family:'Outfit',ui-monospace,monospace;
-  font-size:11px;font-weight:800;
-  color:var(--kcol-color)!important;
-  font-variant-numeric:tabular-nums;
-  min-width:32px;text-align:right;
-  flex-shrink:0;
-}
-
-/* === 工具按钮 · 激活态 === */
-.v3-btn.active{
-  background:var(--sk-blue)!important;color:#fff!important;border-color:var(--sk-blue)!important;
-  box-shadow:0 4px 12px rgba(0,121,221,0.30);
-}
-.v3-btn.active.danger{
-  background:#E53E3E!important;border-color:#E53E3E!important;box-shadow:0 4px 12px rgba(229,62,62,.30);
-}
-
-/* === 折叠列头右上角箭头 === */
-.v3-kcol-toggle{
-  position:absolute;right:18px;top:18px;
-  width:28px;height:28px;border-radius:50%;
-  background:var(--sk-bg);border:1px solid var(--sk-line);
-  display:inline-flex;align-items:center;justify-content:center;
-  font-size:12px;color:var(--sk-ink-3);
-  cursor:pointer;transition:.2s;z-index:2;
-}
-.v3-kcol-toggle:hover{background:var(--kcol-tint);color:var(--kcol-color);border-color:var(--kcol-color)}
-.v3-kcol.collapsed .v3-kcol-toggle{transform:rotate(180deg)}
-
-@media (max-width:1100px){
-  .v3-matrix-h{font-size:15px!important;padding:14px 12px!important}
-  .v3-matrix-row-h .row-name{font-size:18px}
-  .v3-cell{padding:14px!important;min-height:160px}
-}
-@media (max-width:960px){
-  .v3-kanban{
-    grid-template-columns:repeat(3, 280px);
-    overflow-x:auto;
-    overflow-y:visible;
-    padding-bottom:6px;
-    scroll-snap-type:x mandatory;
-  }
-  .v3-kcol{scroll-snap-align:start}
-}
 @media (max-width:760px){
   .v3-cat{padding:20px 16px 60px!important;gap:18px}
   .v3-cat-head h1{font-size:28px!important}
   .v3-cat-head h1::before{height:26px!important}
   .v3-cat-head .meta{font-size:14px!important;text-align:left}
-  .v3-kanban-wrap{padding:16px 16px 20px!important;overflow-x:hidden}
-  .v3-kanban{grid-template-columns:1fr;gap:14px}
-  .v3-iss-pills{padding:12px 14px!important;gap:6px}
-  .v3-iss-pill{padding:6px 12px!important;font-size:12px!important}
-  .v3-status-banner{padding:12px 16px!important;font-size:13px!important}
-  .v3-status-banner-close{padding:5px 12px!important;font-size:12px!important}
   .v3-stage-pills{padding:10px 14px!important;gap:8px}
   .v3-stage-pill{padding:8px 16px;font-size:13px!important}
   .v3-pill-cnt{min-width:20px;height:20px;font-size:12px}
@@ -1158,116 +752,73 @@ body{
   <!-- 矩阵筛选提示条 -->
   <div class="v3-matrix-bar">
     <div class="v3-matrix-bar-info">
-      <span><b id="matrixSize">3 × 1</b> 阶段看板</span>
+      <span><b id="matrixSize">3 × 3</b> 矩阵</span>
       <span>·</span>
       <span>共 <b id="totalCount">—</b> 个项目</span>
       <span>·</span>
       <span>已落位 <b id="placedCount">—</b> 个</span>
       <span>·</span>
-      <small id="foldState">全部展开</small>
+      <small id="foldState">全部折叠</small>
     </div>
     <div class="v3-matrix-bar-tools">
-      <button class="v3-btn" id="btnFocus" title="聚焦：只显示在推重点项目，其他阶段隐藏">◎ 聚焦重点 →</button>
-      <button class="v3-btn" id="btnFold" title="切换所有列的折叠/展开状态">📂 折叠/展开</button>
-      <button class="v3-btn" id="btnAll" title="退出聚焦模式并查看全部 3 个阶段">🌐 查看全部 ↺</button>
-      <button class="v3-btn danger" id="btnReset" title="清除浏览器内的拖拽覆盖状态，恢复源数据">↺ 重置拖拽</button>
+      <button class="v3-btn" id="btnFocus">◎ 聚焦重点</button>
+      <button class="v3-btn" id="btnFold">📂 折叠/展开</button>
+      <button class="v3-btn" id="btnAll">🌐 查看全部</button>
+      <button class="v3-btn danger" id="btnReset">↺ 重置拖拽</button>
     </div>
   </div>
 
-  <!-- 聚焦状态条 banner · 仅在 filter 激活时显示 -->
-  <div class="v3-status-banner" id="statusBanner" hidden aria-live="polite">
-    <span class="v3-status-banner-ico">🎯</span>
-    <span class="v3-status-banner-body">
-      已聚焦：<b id="bannerStage">在推重点</b> · 显示 <b id="bannerCount">0</b> 个项目 · 其他阶段已隐藏
-    </span>
-    <button class="v3-status-banner-close" id="bannerClose">查看全部 ↺</button>
-  </div>
-
-  <!-- ISS 横向过滤芯片 · 取代原 3×3 矩阵的"列"维度 -->
-  <div class="v3-iss-pills" id="issPills">
-    <span class="v3-iss-pills-label">类型</span>
-    <button class="v3-iss-pill active" data-iss-filter="__ALL__">
-      <span>全部</span>
-      <span class="v3-iss-pill-cnt" id="issPillAll">—</span>
-    </button>
-    <button class="v3-iss-pill" data-iss-filter="未上市">
-      <span>💼 未上市</span>
-      <span class="v3-iss-pill-cnt" id="issPillPre">—</span>
-    </button>
-    <button class="v3-iss-pill" data-iss-filter="上市">
-      <span>📈 上市</span>
-      <span class="v3-iss-pill-cnt" id="issPillPub">—</span>
-    </button>
-    <button class="v3-iss-pill" data-iss-filter="REITs">
-      <span>🖥️ REITs</span>
-      <span class="v3-iss-pill-cnt" id="issPillReit">—</span>
-    </button>
-    <span class="v3-iss-divider"></span>
-    <span class="v3-iss-pills-hint">💡 拖拽卡片可在 3 列间移动</span>
-  </div>
-
-  <!-- Kanban 3 列看板 -->
-  <section class="v3-kanban-wrap v3-hud">
+  <!-- 3×3 矩阵 -->
+  <section class="v3-matrix-wrap v3-hud">
     <span class="v3-mw-corner tl"></span>
     <span class="v3-mw-corner tr"></span>
     <span class="v3-mw-corner bl"></span>
     <span class="v3-mw-corner br"></span>
-    <div class="v3-kanban" id="kanban">
-
-      <!-- 列1：在推重点 -->
-      <div class="v3-kcol" data-stage="在推重点">
-        <div class="v3-kcol-h">
-          <span class="v3-kcol-icon">🏛️</span>
-          <span>
-            <div class="v3-kcol-name">在推重点</div>
-            <div class="v3-kcol-sub">重点推进</div>
-          </span>
-          <span class="v3-kcol-cnt" id="kcolCnt-在推重点">0</span>
-          <button class="v3-kcol-toggle" data-collapse="在推重点" title="折叠/展开此列" aria-label="折叠列">▾</button>
-        </div>
-        <div class="v3-kcol-body" data-drop-zone="在推重点"></div>
-        <div class="v3-kcol-collapse-hint" data-expand="在推重点">
-          <span class="ico">📂</span>
-          <span>已折叠 · 点击 ▴ 展开</span>
-        </div>
+    <div class="v3-matrix" id="matrix">
+      <!-- 顶行：表头 -->
+      <div class="v3-matrix-h col-tag"></div>
+      <div class="v3-matrix-h">
+        <span class="col-icon">💼</span>
+        <span class="col-label">未上市公司股权</span>
+      </div>
+      <div class="v3-matrix-h">
+        <span class="col-icon">📈</span>
+        <span class="col-label">上市公司</span>
+      </div>
+      <div class="v3-matrix-h">
+        <span class="col-icon">🖥️</span>
+        <span class="col-label">IDC · REITs</span>
       </div>
 
-      <!-- 列2：储备 -->
-      <div class="v3-kcol" data-stage="储备">
-        <div class="v3-kcol-h">
-          <span class="v3-kcol-icon">📂</span>
-          <span>
-            <div class="v3-kcol-name">储备</div>
-            <div class="v3-kcol-sub">意向项目</div>
-          </span>
-          <span class="v3-kcol-cnt" id="kcolCnt-储备">0</span>
-          <button class="v3-kcol-toggle" data-collapse="储备" title="折叠/展开此列" aria-label="折叠列">▾</button>
-        </div>
-        <div class="v3-kcol-body" data-drop-zone="储备"></div>
-        <div class="v3-kcol-collapse-hint" data-expand="储备">
-          <span class="ico">📂</span>
-          <span>已折叠 · 点击 ▴ 展开</span>
-        </div>
+      <!-- 行1：在推重点 -->
+      <div class="v3-matrix-row-h" data-stage="在推重点">
+        <span class="row-icon">🏛️</span>
+        <span class="row-name">在推重点</span>
+        <span class="row-sub">重点推进</span>
       </div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市公司股权</span><span class="v3-cell-cnt" data-cnt="在推重点|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市公司</span><span class="v3-cell-cnt" data-cnt="在推重点|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="在推重点" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">IDC · REITs</span><span class="v3-cell-cnt" data-cnt="在推重点|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
 
-      <!-- 列3：观察 -->
-      <div class="v3-kcol" data-stage="观察">
-        <div class="v3-kcol-h">
-          <span class="v3-kcol-icon">🔭</span>
-          <span>
-            <div class="v3-kcol-name">观察</div>
-            <div class="v3-kcol-sub">持续跟踪</div>
-          </span>
-          <span class="v3-kcol-cnt" id="kcolCnt-观察">0</span>
-          <button class="v3-kcol-toggle" data-collapse="观察" title="折叠/展开此列" aria-label="折叠列">▾</button>
-        </div>
-        <div class="v3-kcol-body" data-drop-zone="观察"></div>
-        <div class="v3-kcol-collapse-hint" data-expand="观察">
-          <span class="ico">📂</span>
-          <span>已折叠 · 点击 ▴ 展开</span>
-        </div>
+      <!-- 行2：储备 -->
+      <div class="v3-matrix-row-h" data-stage="储备">
+        <span class="row-icon">📂</span>
+        <span class="row-name">储备</span>
+        <span class="row-sub">意向项目</span>
       </div>
+      <div class="v3-cell" data-stage="储备" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市公司股权</span><span class="v3-cell-cnt" data-cnt="储备|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市公司</span><span class="v3-cell-cnt" data-cnt="储备|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="储备" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">IDC · REITs</span><span class="v3-cell-cnt" data-cnt="储备|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
 
+      <!-- 行3：观察 -->
+      <div class="v3-matrix-row-h" data-stage="观察">
+        <span class="row-icon">🔭</span>
+        <span class="row-name">观察</span>
+        <span class="row-sub">持续跟踪</span>
+      </div>
+      <div class="v3-cell" data-stage="观察" data-iss="未上市"><div class="v3-cell-h"><span class="v3-cell-title">未上市公司股权</span><span class="v3-cell-cnt" data-cnt="观察|未上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="上市"><div class="v3-cell-h"><span class="v3-cell-title">上市公司</span><span class="v3-cell-cnt" data-cnt="观察|上市">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
+      <div class="v3-cell" data-stage="观察" data-iss="REITs"><div class="v3-cell-h"><span class="v3-cell-title">IDC · REITs</span><span class="v3-cell-cnt" data-cnt="观察|REITs">0</span><span class="v3-cell-toggle">▾</span></div><div class="v3-cell-list"></div></div>
     </div>
   </section>
 
@@ -1295,7 +846,7 @@ body{
 <script src="assets/cmdK.js"></script>
 <script>
 /* ==============================
- * 分类页 v3.7.6 渲染器 · 3 列 Kanban + ISS 横向过滤 + 状态条
+ * 分类页 v3 渲染器 · 3×3 矩阵 + 阶段色板
  * ============================== */
 (function(){
   'use strict';
@@ -1304,10 +855,9 @@ body{
   const ISSES  = ['未上市', '上市', 'REITs'];
 
   let PROJECTS = [];
-  let ALL_PROJECTS = [];
+  let ALL_PROJECTS = [];   // 包含已归档的，用于归档区
   let FILTER_CAT = '__ALL__';
-  let PILL_FILTER = '__ALL__';   // 阶段芯片筛选
-  let ISS_FILTER  = '__ALL__';   // 类型芯片筛选
+  let PILL_FILTER = '__ALL__';  // 阶段芯片筛选
 
   function v2to3Cat(cat){
     const map = {
@@ -1323,32 +873,36 @@ body{
       const r = await fetch('data/projects.json', {cache:'no-store'});
       const obj = await r.json();
       ALL_PROJECTS = obj.projects || [];
+      // 过滤掉 archived 项目（仅入矩阵 + 顶部 KPI）
       PROJECTS = ALL_PROJECTS.filter(p => !p.archived);
     } catch(e){
       console.error('projects.json 加载失败', e);
-      PROJECTS = []; ALL_PROJECTS = [];
+      PROJECTS = [];
+      ALL_PROJECTS = [];
     }
+    // v3 dnd.js 应用 localStorage 覆盖
     if(window.dnd && dnd.applyOverrides){
       PROJECTS = dnd.applyOverrides(PROJECTS);
     }
     window.PROJECTS = PROJECTS;
     if(window.cmdK) window.cmdK.rebuildIndex();
+    renderArchiveInfo();
     bindFromUrl();
     renderAll();
     bindPills();
-    bindIssPills();
     initDnd();
     setupFold();
-    setupKcolToggles();
-    updateBtnFocusState();
+  }
+
+  function renderArchiveInfo(){
+    /* 底库备注不入 UI · 仅保留内部 archived_reason · 不向页面渲染 */
+    return;
   }
 
   function bindFromUrl(){
     const u = new URLSearchParams(location.search);
     const cat = u.get('cat');
-    const issQ = u.get('iss');
     FILTER_CAT = v2to3Cat(cat);
-    if(issQ && ISSES.includes(issQ)) ISS_FILTER = issQ;
 
     const h1 = document.getElementById('catH1');
     const meta = document.getElementById('catMeta');
@@ -1359,147 +913,160 @@ body{
       'kg':   'v2.2 旧分类「知识图谱」映射',
       'hub':  'v2.2 旧分类「中心·入口」映射',
       'course':'v2.2 旧分类「内训课件」映射',
-    }[cat||''] || `3 列看板 · 阶段 × ISS 双重过滤 · 共 ${PROJECTS.length} 个项目`;
+    }[cat||''] || `完整 3×3 矩阵 · 全部 ${PROJECTS.length} 个项目`;
 
     if(FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT)){
       h1.textContent = `${FILTER_CAT} · 项目分类`;
-      meta.innerHTML = `1 × 1 焦点列：<b>${FILTER_CAT}</b>（其他阶段已隐藏）<br>${legacyNote}`;
+      meta.innerHTML = `1 × 3 焦点行：<b>${FILTER_CAT}</b>（其他行已隐藏）<br>${legacyNote}`;
     } else {
-      h1.textContent = '项目分类矩阵 · 3 列看板';
-      meta.innerHTML = `全部 <b>${PROJECTS.length}</b> 个项目 · 3 阶段 × 3 类型<br>${legacyNote}`;
+      h1.textContent = '项目分类矩阵';
+      meta.innerHTML = `全部 <b>${PROJECTS.length}</b> 个项目 · 3 × 3 矩阵<br>${legacyNote}`;
     }
 
     document.getElementById('navActive').textContent = FILTER_CAT!=='__ALL__' ? `📂 ${FILTER_CAT}` : '📂 分类页';
   }
 
-  /* === 渲染卡片到 Kanban 列 === */
   function renderAll(){
-    const focused = PILL_FILTER !== '__ALL__' ? PILL_FILTER
-                  : (FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT) ? FILTER_CAT : '__ALL__');
-    const kanban = document.getElementById('kanban');
-    if(focused !== '__ALL__'){
-      kanban.classList.add('focus-mode');
-    } else {
-      kanban.classList.remove('focus-mode');
-    }
+    // 焦点模式 · 用 !important inline 覆盖移动端 .v3-matrix-row-h{display:flex!important}
+    const focused = FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT);
+    document.querySelectorAll('.v3-matrix-row-h').forEach(el=>{
+      const stage = el.dataset.stage;
+      const isOther = focused && stage !== FILTER_CAT;
+      el.style.opacity = isOther ? 0.25 : 1;
+      if(isOther){
+        el.style.setProperty('display', 'none', 'important');
+      } else {
+        el.style.removeProperty('display');
+      }
+    });
+    document.querySelectorAll('.v3-cell').forEach(cell=>{
+      cell.classList.add('to-reveal');
+      cell.dataset.revealDelay = String(Math.min(5, Array.from(document.querySelectorAll('.v3-cell')).indexOf(cell) + 1));
+      cell.classList.remove('is-revealed');
+      const stage = cell.dataset.stage;
+      const isOther = focused && stage !== FILTER_CAT;
+      cell.style.display = isOther ? 'none' : '';
+    });
 
-    document.querySelectorAll('.v3-kcol-body').forEach(el=>el.innerHTML='');
-
-    document.querySelectorAll('.v3-kcol').forEach((col, i)=>{
-      col.classList.remove('is-focused');
-      if(focused !== '__ALL__' && col.dataset.stage === focused){
-        col.classList.add('is-focused');
+    // 清空所有 cell-list
+    document.querySelectorAll('.v3-cell .v3-cell-list').forEach(el=>el.innerHTML='');
+    document.querySelectorAll('.v3-cell').forEach(c=>{
+      c.dataset.empty = 'true';
+      c.classList.remove('preview-limited');
+      c.classList.remove('preview-open');
+      c.classList.remove('empty-cell');
+      // 注入 HUD 4 角 + 扫描线（仅一次）
+      if(!c.querySelector('.v3-cell-corner')){
+        c.insertAdjacentHTML('beforeend',
+          '<span class="v3-cell-corner tl"></span>'+
+          '<span class="v3-cell-corner tr"></span>'+
+          '<span class="v3-cell-corner bl"></span>'+
+          '<span class="v3-cell-corner br"></span>'+
+          '<span class="v3-cell-scan"></span>'
+        );
       }
     });
 
-    let list = PROJECTS.slice();
-    if(focused !== '__ALL__') list = list.filter(p => p.stage_v3 === focused);
-    if(ISS_FILTER !== '__ALL__') list = list.filter(p => (p.iss || '未上市') === ISS_FILTER);
+    // 按 v3 stage_v3 / iss 分类（pill 筛选优先于 URL cat · 二者择一）
+    const activeFilter = PILL_FILTER !== '__ALL__' ? PILL_FILTER
+                       : FILTER_CAT !== '__ALL__' ? FILTER_CAT
+                       : '__ALL__';
+    const filtered = activeFilter==='__ALL__' ? PROJECTS : PROJECTS.filter(p=>p.stage_v3===activeFilter);
 
     let placed = 0;
-    list.forEach((p, idx)=>{
+    filtered.forEach((p, idx)=>{
       const stage = p.stage_v3 || '观察';
-      const body = document.querySelector(`.v3-kcol-body[data-drop-zone="${stage}"]`);
-      if(!body) return;
+      const iss = p.iss || '未上市';
+      const cell = document.querySelector(`.v3-cell[data-stage="${stage}"][data-iss="${iss}"]`);
+      if(!cell) return;
+      const list = cell.querySelector('.v3-cell-list');
+      if(!list) return;
       const card = makeCard(p);
-      card.style.animationDelay = (idx * 40) + 'ms';
-      body.appendChild(card);
+      card.style.animationDelay = (idx * 50) + 'ms';
+      list.appendChild(card);
       placed++;
-    });
-
-    document.querySelectorAll('.v3-kcol-body').forEach(body=>{
-      if(body.children.length === 0){
-        const empty = document.createElement('div');
-        empty.className = 'v3-kcol-empty';
-        empty.innerHTML = `<span class="ico">📭</span><span class="txt">该阶段暂无项目</span>`;
-        body.appendChild(empty);
+      cell.dataset.empty = 'false';
+      const cards = list.querySelectorAll('.v3-card');
+      if(cards.length > 2){
+        cell.classList.add('preview-limited');
+        if(!cell.querySelector('.v3-cell-more')){
+          const more = document.createElement('button');
+          more.className = 'v3-cell-more';
+          more.type = 'button';
+          more.textContent = `展开全部 ${cards.length} 项 ▾`;
+          more.addEventListener('click', (e)=>{
+            e.stopPropagation();
+            cell.classList.toggle('preview-open');
+            more.textContent = cell.classList.contains('preview-open') ? '收起 ▴' : `展开全部 ${cards.length} 项 ▾`;
+          });
+          list.appendChild(more);
+        }
       }
     });
 
-    document.getElementById('totalCount').textContent = list.length;
+    // 计数
+    document.getElementById('totalCount').textContent = filtered.length;
     document.getElementById('placedCount').textContent = placed;
-    document.getElementById('matrixSize').textContent = focused !== '__ALL__' ? '1 × 1 焦点' : '3 × 1 看板';
+    document.getElementById('matrixSize').textContent = focused ? '1 × 3' : '3 × 3';
+    // 阶段 pill 计数
     document.getElementById('pillAll').textContent = PROJECTS.length;
     document.getElementById('pillFocus').textContent = PROJECTS.filter(p=>p.stage_v3==='在推重点').length;
     document.getElementById('pillStore').textContent = PROJECTS.filter(p=>p.stage_v3==='储备').length;
     document.getElementById('pillWatch').textContent = PROJECTS.filter(p=>p.stage_v3==='观察').length;
-
-    STAGES.forEach(s=>{
-      const cnt = document.getElementById(`kcolCnt-${s}`);
-      if(cnt) cnt.textContent = PROJECTS.filter(p=>p.stage_v3===s).length;
+    // cell 内计数
+    document.querySelectorAll('.v3-cell-cnt').forEach(el=>{
+      const [s,i] = el.dataset.cnt.split('|');
+      const c = document.querySelector(`.v3-cell[data-stage="${s}"][data-iss="${i}"] .v3-cell-list`);
+      const n = c ? c.querySelectorAll('.v3-card').length : 0;
+      el.textContent = n;
     });
-
-    document.getElementById('issPillAll').textContent = PROJECTS.length;
-    document.getElementById('issPillPre').textContent = PROJECTS.filter(p=>(p.iss||'未上市')==='未上市').length;
-    document.getElementById('issPillPub').textContent = PROJECTS.filter(p=>(p.iss||'未上市')==='上市').length;
-    document.getElementById('issPillReit').textContent = PROJECTS.filter(p=>(p.iss||'未上市')==='REITs').length;
-
-    updateStatusBanner();
-
-    if(window.cmdK && window.cmdK.bindScrollReveal){
-      window.cmdK.bindScrollReveal(document.querySelector('.v3-kanban-wrap'));
-    }
-  }
-
-  function updateStatusBanner(){
-    const banner = document.getElementById('statusBanner');
-    const focused = PILL_FILTER !== '__ALL__' ? PILL_FILTER
-                  : (FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT) ? FILTER_CAT : null);
-    const focusedActive = focused && focused !== '__ALL__';
-    const issActive = ISS_FILTER !== '__ALL__';
-    if(!banner) return;
-    if(focusedActive || issActive){
-      let txt = '';
-      if(focusedActive){
-        const cnt = PROJECTS.filter(p=>p.stage_v3===focused && (ISS_FILTER==='__ALL__' || (p.iss||'未上市')===ISS_FILTER)).length;
-        txt += `已聚焦：<b>${focused}</b> · 共 <b>${cnt}</b> 个项目`;
+    // 未落位的 cell 显示 empty
+    document.querySelectorAll('.v3-cell').forEach(cell=>{
+      if(cell.style.display === 'none') return;
+      const list = cell.querySelector('.v3-cell-list');
+      if(list && list.querySelectorAll('.v3-card').length === 0 && !list.querySelector('.v3-cell-empty')){
+        const e = document.createElement('div');
+        e.className = 'v3-cell-empty';
+        e.innerHTML = `
+          <span class="v3-cell-empty-ico">📭</span>
+          <span class="v3-cell-empty-text">暂无项目</span>
+        `;
+        list.appendChild(e);
+        cell.classList.add('empty-cell');
       }
-      if(issActive){
-        if(focusedActive) txt += ' · ';
-        txt += `类型：<b>${ISS_FILTER}</b>`;
-      }
-      const bannerBody = banner.querySelector('.v3-status-banner-body');
-      if(bannerBody) bannerBody.innerHTML = txt;
-      banner.hidden = false;
-    } else {
-      banner.hidden = true;
-    }
+    });
+    bindStageToggle();
+    if(window.cmdK && window.cmdK.bindScrollReveal) window.cmdK.bindScrollReveal(document.querySelector('.v3-matrix'));
   }
 
   function makeCard(p){
     const a = document.createElement('a');
-    a.className = 'v3-kcard';
+    a.className = 'v3-card';
     a.draggable = true;
     a.dataset.code = p.code;
     a.href = 'detail.html?code='+encodeURIComponent(p.code);
     const emoji = getEmoji(p);
     const industry = p.industry || '—';
-    const iss = p.iss || '未上市';
     const progress = p.progress_pct || 0;
     a.innerHTML = `
-      <div class="v3-kcard-row1">
-        <span class="v3-kcard-emoji">${emoji}</span>
-        <span class="v3-kcard-name">${escapeHtml(p.name_cn||p.code)}</span>
-        <span class="v3-kcard-count">${p.report_count||0} 份</span>
+      <span class="v3-card-corner tl"></span>
+      <span class="v3-card-corner tr"></span>
+      <span class="v3-card-corner bl"></span>
+      <span class="v3-card-corner br"></span>
+      <div class="v3-card-row1">
+        <span class="v3-card-emoji">${emoji}</span>
+        <span class="v3-card-main">${p.name_cn||p.code}</span>
+        <span class="v3-card-count">${p.report_count||0} 份</span>
       </div>
-      <div class="v3-kcard-row2">
-        <span class="v3-kcard-pill">🏷️ ${escapeHtml(industry)}</span>
-        <span class="v3-kcard-pill iss">${issIcon(iss)} ${escapeHtml(iss)}</span>
-      </div>
-      <div class="v3-kcard-row3">
-        <span class="v3-kcard-progress">
-          <span class="v3-kcard-progress-fill" style="width:${progress}%"></span>
+      <div class="v3-card-row2">
+        <span class="v3-card-industry">🏷️ ${industry}</span>
+        <span class="v3-card-progress">
+          <span class="v3-card-progress-bar"><span class="v3-card-progress-fill" style="width:${progress}%"></span></span>
+          <span class="v3-card-progress-pct">${progress}%</span>
         </span>
-        <span class="v3-kcard-progress-pct">${progress}%</span>
       </div>
     `;
     return a;
-  }
-
-  function issIcon(iss){
-    if(iss === '上市') return '📈';
-    if(iss === 'REITs') return '🖥️';
-    return '💼';
   }
 
   function getEmoji(p){
@@ -1512,12 +1079,10 @@ body{
     if(ind.includes('智能体')) return '🧠';
     if(ind.includes('基建')) return '🏗️';
     if(ind.includes('化工') || ind.includes('碳')) return '🧪';
-    if(ind.includes('稀土')) return '⛓️';
+    if(ind.includes('稀土')) return '⛏️';
     if(ind.includes('电源') || ind.includes('锂')) return '⚡';
     return '🏢';
   }
-
-  function escapeHtml(s){return (s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 
   /* === 阶段筛选芯片 === */
   function bindPills(){
@@ -1527,89 +1092,62 @@ body{
         document.querySelectorAll('.v3-stage-pill').forEach(p=>p.classList.remove('active'));
         pill.classList.add('active');
         PILL_FILTER = f;
+        // 同步 URL · 让浏览器后退/前进/刷新都保留当前筛选
         try {
-          const params = new URLSearchParams();
-          if(f !== '__ALL__') params.set('cat', f);
-          if(ISS_FILTER !== '__ALL__') params.set('iss', ISS_FILTER);
-          const newSearch = params.toString();
-          const newUrl = `${location.pathname}${newSearch ? '?' + newSearch : ''}`;
+          const newSearch = f === '__ALL__' ? '' : `?cat=${encodeURIComponent(f)}`;
+          const newUrl = `${location.pathname}${newSearch}`;
           history.replaceState(null, '', newUrl);
+          // 同步 FILTER_CAT，让 bindFromUrl 渲染的标题/计数与 pill 一致
           FILTER_CAT = f;
           bindFromUrl();
         } catch(e){}
-        updateBtnFocusState();
-        renderAll();
+        applyPillFilter();
+        renderAll();  // 关键：pill 切换需重新填充 cell-list（否则空 cell）
       });
     });
-    // 同步初始 stage filter 状态（从 URL 加载时）
-    if(FILTER_CAT !== '__ALL__'){
-      const target = document.querySelector(`.v3-stage-pill[data-stage-filter="${FILTER_CAT}"]`);
-      if(target){
-        document.querySelectorAll('.v3-stage-pill').forEach(p=>p.classList.remove('active'));
-        target.classList.add('active');
-      }
-    }
   }
 
-  /* === ISS 横向过滤芯片 === */
-  function bindIssPills(){
-    document.querySelectorAll('.v3-iss-pill').forEach(pill=>{
-      pill.addEventListener('click', ()=>{
-        const f = pill.dataset.issFilter;
-        document.querySelectorAll('.v3-iss-pill').forEach(p=>p.classList.remove('active'));
-        pill.classList.add('active');
-        ISS_FILTER = f;
-        try {
-          const params = new URLSearchParams();
-          if(PILL_FILTER !== '__ALL__') params.set('cat', PILL_FILTER);
-          if(f !== '__ALL__') params.set('iss', f);
-          const newSearch = params.toString();
-          const newUrl = `${location.pathname}${newSearch ? '?' + newSearch : ''}`;
-          history.replaceState(null, '', newUrl);
-        } catch(e){}
-        renderAll();
-      });
-    });
-    if(ISS_FILTER !== '__ALL__'){
-      const target = document.querySelector(`.v3-iss-pill[data-iss-filter="${ISS_FILTER}"]`);
-      if(target){
-        document.querySelectorAll('.v3-iss-pill').forEach(p=>p.classList.remove('active'));
-        target.classList.add('active');
-      }
+  function applyPillFilter(){
+    // 阶段芯片筛选：与 URL 的 cat 参数叠加（都过滤）
+    let showRows = STAGES;
+    if(PILL_FILTER !== '__ALL__'){
+      showRows = [PILL_FILTER];
+    } else if(FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT)){
+      showRows = [FILTER_CAT];
     }
-  }
-
-  function updateBtnFocusState(){
-    const focused = PILL_FILTER !== '__ALL__' ? PILL_FILTER
-                  : (FILTER_CAT !== '__ALL__' && STAGES.includes(FILTER_CAT) ? FILTER_CAT : null);
-    const btnFocus = document.getElementById('btnFocus');
-    if(btnFocus){
-      if(focused && focused === '在推重点'){
-        btnFocus.classList.add('active');
-        btnFocus.textContent = '✓ 已聚焦重点';
+    document.querySelectorAll('.v3-matrix-row-h').forEach(row=>{
+      const visible = showRows.includes(row.dataset.stage);
+      if(visible){
+        row.style.removeProperty('display');
       } else {
-        btnFocus.classList.remove('active');
-        btnFocus.textContent = '◎ 聚焦重点 →';
+        row.style.setProperty('display', 'none', 'important');
       }
-    }
+    });
+    document.querySelectorAll('.v3-cell').forEach(cell=>{
+      const visible = showRows.includes(cell.dataset.stage);
+      if(visible){
+        cell.style.removeProperty('display');
+      } else {
+        cell.style.setProperty('display', 'none', 'important');
+      }
+    });
   }
 
-  /* === 拖拽（Kanban 列体为 drop zone） === */
+  /* === 拖拽 === */
   function initDnd(){
     if(!window.dnd || !dnd.bind){
       console.error('dnd.js 未加载');
       return;
     }
-    dnd.bind('.v3-kcard', '.v3-kcol-body', (card, body)=>{
+    dnd.bind('.v3-card', '.v3-cell', (card, cell)=>{
       const code = card.dataset.code;
-      const stage = body.dataset.dropZone;
-      const proj = PROJECTS.find(x=>x.code===code);
-      const iss = proj ? (proj.iss || '未上市') : '未上市';
-      if(!confirm(`确认将「${card.querySelector('.v3-kcard-name').textContent}」移动到「${stage}」？\n当前类型保持：${iss}`)) return;
+      const stage = cell.dataset.stage;
+      const iss = cell.dataset.iss;
+      if(!confirm(`确认将「${card.querySelector('.v3-card-main').textContent}」移动到「${stage}·${iss}」？`)) return;
       dnd.patchProject(code, {stage_v3: stage, iss: iss});
       const projs = JSON.parse(JSON.stringify(PROJECTS));
       const obj = projs.find(x=>x.code===code);
-      if(obj){ obj.stage_v3 = stage; }
+      if(obj){ obj.stage_v3 = stage; obj.iss = iss; }
       PROJECTS = projs;
       renderAll();
       initDnd();
@@ -1619,49 +1157,31 @@ body{
     });
   }
 
-  function setupFold(){
-    document.querySelectorAll('.v3-kcol').forEach(col=>{
-      col.classList.remove('collapsed');
-    });
-    updateFoldState();
-  }
-
-  function setupKcolToggles(){
-    document.querySelectorAll('.v3-kcol-toggle').forEach(btn=>{
-      btn.addEventListener('click', (e)=>{
-        e.stopPropagation();
-        const stage = btn.dataset.collapse;
-        const col = btn.closest('.v3-kcol');
-        col.classList.toggle('collapsed');
-        updateFoldState();
-      });
-    });
-    document.querySelectorAll('.v3-kcol-collapse-hint').forEach(hint=>{
-      hint.addEventListener('click', ()=>{
-        const stage = hint.dataset.expand;
-        const col = hint.closest('.v3-kcol');
-        col.classList.remove('collapsed');
-        updateFoldState();
+  function bindStageToggle(){
+    document.querySelectorAll('.v3-matrix-row-h').forEach(row=>{
+      if(row.dataset.bound === '1') return;
+      row.dataset.bound = '1';
+      row.addEventListener('click', ()=>{
+        if(!isMobile()) return;
+        row.classList.toggle('stage-collapsed');
+        const stage = row.dataset.stage;
+        document.querySelectorAll('.v3-cell').forEach(cell=>{
+          if(cell.dataset.stage === stage){
+            cell.classList.toggle('mobile-stage-hidden', row.classList.contains('stage-collapsed'));
+          }
+        });
       });
     });
   }
 
-  function updateFoldState(){
-    const cols = document.querySelectorAll('.v3-kcol');
-    const allCollapsed = Array.from(cols).every(c=>c.classList.contains('collapsed'));
-    const anyCollapsed = Array.from(cols).some(c=>c.classList.contains('collapsed'));
-    const lbl = document.getElementById('foldState');
-    if(lbl){
-      lbl.textContent = allCollapsed ? '全部折叠' : (anyCollapsed ? '部分展开' : '全部展开');
-    }
+  function isMobile(){
+    return window.matchMedia && window.matchMedia('(max-width:760px)').matches;
   }
 
   /* === 工具按钮 === */
   function bindTools(){
     document.getElementById('btnAll').addEventListener('click',()=>{
-      const allPill = document.querySelector('.v3-stage-pill[data-stage-filter="__ALL__"]');
-      if(allPill) allPill.click();
-      else location.href = 'page.html';
+      location.href = 'page.html';
     });
     document.getElementById('btnReset').addEventListener('click',()=>{
       if(!confirm('确认重置全部拖拽状态？此操作仅清空浏览器缓存，不影响源数据。')) return;
@@ -1676,19 +1196,39 @@ body{
     });
     const foldBtn = document.getElementById('btnFold');
     if(foldBtn) foldBtn.addEventListener('click', ()=>{
-      const cols = document.querySelectorAll('.v3-kcol');
-      const allCollapsed = Array.from(cols).every(c=>c.classList.contains('collapsed'));
-      cols.forEach(c=>c.classList.toggle('collapsed', !allCollapsed));
+      const cells = document.querySelectorAll('.v3-cell:not([style*="display: none"])');
+      const allCollapsed = Array.from(cells).every(c=>c.classList.contains('collapsed'));
+      cells.forEach(c=>c.classList.toggle('collapsed', !allCollapsed));
       updateFoldState();
     });
+  }
 
-    const bannerClose = document.getElementById('bannerClose');
-    if(bannerClose) bannerClose.addEventListener('click',()=>{
-      const allPill = document.querySelector('.v3-stage-pill[data-stage-filter="__ALL__"]');
-      if(allPill) allPill.click();
+  /* === 折叠 === */
+  function setupFold(){
+    const cells = document.querySelectorAll('.v3-cell');
+    cells.forEach(c=>{
+      const has = c.dataset.empty === 'false';
+      c.classList.toggle('collapsed', !has);
     });
-
-    updateBtnFocusState();
+    updateFoldState();
+    cells.forEach(cell=>{
+      const h = cell.querySelector('.v3-cell-h');
+      if(!h) return;
+      h.addEventListener('click', (e)=>{
+        if(e.target.closest('.v3-card')) return;
+        cell.classList.toggle('collapsed');
+        updateFoldState();
+      });
+    });
+  }
+  function updateFoldState(){
+    const cells = document.querySelectorAll('.v3-cell:not([style*="display: none"])');
+    const allCollapsed = Array.from(cells).every(c=>c.classList.contains('collapsed'));
+    const anyCollapsed = Array.from(cells).some(c=>c.classList.contains('collapsed'));
+    const lbl = document.getElementById('foldState');
+    if(lbl){
+      lbl.textContent = allCollapsed ? '全部折叠' : (anyCollapsed ? '部分展开' : '全部展开');
+    }
   }
 
   function init(){
@@ -1702,7 +1242,5 @@ body{
   }
 })();
 </script>
-</body>
-</html>
 </body>
 </html>
