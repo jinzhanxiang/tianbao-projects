@@ -65,10 +65,10 @@
 
 *{box-sizing:border-box}
 body{
-  background:var(--sk-bg)!important;
   font-family:'PingFang SC','Outfit',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Source Han Sans SC','Noto Sans SC',sans-serif!important;
   font-size:17px!important;color:var(--sk-ink)!important;line-height:1.55;
 }
+/* 背景层由 tianbao.css 统一提供（多径向渐变 + 蓝图点纹 + 慢漂移） */
 
 /* 导航 · R179 同步 */
 .nav{background:rgba(255,255,255,0.85)!important;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--sk-line)!important}
@@ -588,25 +588,29 @@ body{
     <aside class="v3-detail-side">
 
       <!-- 项目元 -->
-      <div class="v3-side-card">
+      <div class="v3-side-card v3-hud to-reveal" data-reveal-delay="1">
+        <span class="v3-hud-scan"></span>
         <h3>📌 项目元 <span class="badge" id="sideBadgeCode">—</span></h3>
         <div id="sideMeta"></div>
       </div>
 
       <!-- 6 阶段进度（紧凑纵向）-->
-      <div class="v3-side-card">
+      <div class="v3-side-card v3-hud to-reveal" data-reveal-delay="2">
+        <span class="v3-hud-scan"></span>
         <h3>📊 进度 <span class="badge" id="sideProgressPct">0%</span></h3>
         <div class="v3-side-progress" id="sideProgress"></div>
       </div>
 
       <!-- 联系人 -->
-      <div class="v3-side-card">
+      <div class="v3-side-card v3-hud to-reveal" data-reveal-delay="3">
+        <span class="v3-hud-scan"></span>
         <h3>👤 联系人</h3>
         <div class="v3-side-contacts" id="sideContacts"></div>
       </div>
 
       <!-- 同类项目 -->
-      <div class="v3-side-card">
+      <div class="v3-side-card v3-hud to-reveal" data-reveal-delay="4">
+        <span class="v3-hud-scan"></span>
         <h3>🔗 同类项目 <span class="badge" id="sideRelatedCnt">—</span></h3>
         <div class="v3-side-related" id="sideRelated">
           <div class="v3-empty" style="padding:12px 0">暂无</div>
@@ -619,7 +623,8 @@ body{
     <main class="v3-detail-main">
 
       <!-- ① 项目简介 -->
-      <section class="v3-section" id="secBrief">
+      <section class="v3-section v3-hud to-reveal" data-reveal-delay="1" id="secBrief">
+        <span class="v3-hud-scan"></span>
         <h2>① 项目简介 <small>公文版 · 仿宋 17px</small></h2>
         <div class="v3-brief" id="briefBody"></div>
         <div class="v3-brief-tags" id="briefTags"></div>
@@ -627,7 +632,8 @@ body{
       </section>
 
       <!-- ② 原始材料 -->
-      <section class="v3-section" id="secMaterials">
+      <section class="v3-section v3-hud to-reveal" data-reveal-delay="2" id="secMaterials">
+        <span class="v3-hud-scan"></span>
         <h2>② 原始材料 <small>本地项目文件夹 · 公网仅展示路径</small></h2>
         <div class="v3-mat-empty" id="matEmpty">正在检查本地文件夹绑定...</div>
         <div class="v3-mats" id="matList" style="display:none"></div>
@@ -639,7 +645,8 @@ body{
       </section>
 
       <!-- ③ 报告时间线 -->
-      <section class="v3-section" id="secReports">
+      <section class="v3-section v3-hud to-reveal" data-reveal-delay="3" id="secReports">
+        <span class="v3-hud-scan"></span>
         <h2>③ 报告时间线 <small>按日期倒序 · 自动从 research 输出扫描</small></h2>
         <div class="v3-reports-tl" id="reportsTl">
           <div class="v3-rtl-empty">载入中...</div>
