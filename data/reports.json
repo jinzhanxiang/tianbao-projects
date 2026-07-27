@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T11:13:49+08:00",
-  "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 43,
+  "generated_at": "2026-07-27T15:08:00+08:00",
+  "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects) + manual HTML",
+  "total": 44,
   "by_code": {
     "innoshine": [
       {
@@ -553,6 +553,24 @@
         "mtime": "2026-04-28T18:00:17+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html"
+      }
+    ],
+    "aodian": [
+      {
+        "code": "aodian",
+        "date": "2026-07-27",
+        "category": "决策模式",
+        "title": "奥联电子（300585.SZ）投资可行性研究报告 · 决策模式 V25",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/aodian_v25_decision.html",
+        "file": "奥联电子_决策模式_V25_20260727.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/奥联电子/output/奥联电子_决策模式_V25_20260727.html",
+        "size": 130512,
+        "mtime": "2026-07-27T12:07:00+08:00",
+        "version": "V25.1.5i",
+        "version_md": "V25.1.5i",
+        "industry": "汽车电子",
+        "stage": "在推重点",
+        "summary": "决策模式 25 章完整 · 6 张图表盲点全部修复 · 5 校验器 + Playwright 视觉全 PASS"
       }
     ]
   },
