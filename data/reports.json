@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T23:49:17+08:00",
+  "generated_at": "2026-07-27T11:05:43+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 44,
+  "total": 38,
   "by_code": {
     "huadong-sk": [
       {
@@ -46,32 +46,6 @@
         "_archived": true
       }
     ],
-    "aodian": [
-      {
-        "code": "aodian",
-        "date": "2026-07-23",
-        "category": "商业研究",
-        "title": "奥联电子（300585.SZ）V4.1 完整版投资可行性研究报告",
-        "file": "奥联电子_V4.1_完整报告_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/奥联电子/output/奥联电子_V4.1_完整报告_20260722.md",
-        "size": 43279,
-        "mtime": "2026-07-23T06:05:54+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/report_main.html"
-      },
-      {
-        "code": "aodian",
-        "date": "2026-07-22",
-        "category": "商业研究",
-        "title": "【奥联电子】（300585.SZ）深度分析报告",
-        "file": "奥联电子_主报告_起点_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/奥联电子/output/奥联电子_主报告_起点_20260722.md",
-        "size": 22425,
-        "mtime": "2026-07-22T14:27:29+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/aodian_full_report.html"
-      }
-    ],
     "hongyuan": [
       {
         "code": "hongyuan",
@@ -86,42 +60,16 @@
         "url": "https://jinzhanxiang.github.io/hongyuan-report/report_main.html"
       }
     ],
-    "jngd": [
-      {
-        "code": "jngd",
-        "date": "2026-07-22",
-        "category": "商业研究",
-        "title": "晶能光电（江西）有限公司 商业尽调深度分析报告",
-        "file": "晶能光电_商业尽调报告_v4_1_deep_主报告_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/晶能光电/output/晶能光电_商业尽调报告_v4_1_deep_主报告_20260722.md",
-        "size": 154335,
-        "mtime": "2026-07-22T13:14:22+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
-        "title": "晶能光电尽调报告 — 横纵分析法（HV-Analysis）",
-        "file": "jneng_hv_analysis_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_hv_analysis_20260703.md",
-        "size": 21768,
-        "mtime": "2026-07-03T22:00:58+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
-      }
-    ],
     "huitian": [
       {
         "code": "huitian",
-        "date": "2026-07-14",
-        "category": "行业研究",
-        "title": "汇天网络 IDC 项目 - 三网节点+REITs+34% 并表 市场化决策报告 V5.3",
-        "file": "汇天IDC_v5_三网REITs并表_市场化决策报告_20260713.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/汇天网络科技/output/汇天IDC_v5_三网REITs并表_市场化决策报告_20260713.md",
-        "size": 102525,
-        "mtime": "2026-07-14T10:40:05+08:00",
+        "date": "2026-07-09",
+        "category": "未分类",
+        "title": "汇天网络科技有限公司可行性分析报告",
+        "file": "汇天网络可行性分析_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
+        "size": 42394,
+        "mtime": "2026-07-09T16:16:48+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/huitian-network-report/huitian_cooperation.html"
       },
@@ -153,61 +101,13 @@
     "unicom-sx": [
       {
         "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "商业研究",
-        "title": "联通云 V2.0 主报告骨架 — §8-§13 横向/交叉/决策章节（重新生成版）",
-        "file": "联通云_V2.0_主报告_骨架_§8-13_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云_V2.0_主报告_骨架_§8-13_20260724.md",
-        "size": 11698,
-        "mtime": "2026-07-24T22:34:27+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 HTML 版式问题根因调查（2026-07-24 22:46 GMT+8）",
-        "file": "联通云V2.0_HTML版式问题_根因调查_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云V2.0_HTML版式问题_根因调查_20260724.md",
-        "size": 7981,
-        "mtime": "2026-07-24T22:44:24+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 vs V4.1 内容对比测试报告（2026-07-24 23:21 GMT+8）",
-        "file": "联通云V2.0_V4.1vsV2.0_对比报告_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云V2.0_V4.1vsV2.0_对比报告_20260724.md",
-        "size": 7340,
-        "mtime": "2026-07-24T23:20:06+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 骨架诊断报告（重新生成版）",
-        "file": "联通云_V2.0_诊断_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云_V2.0_诊断_20260724.md",
-        "size": 7461,
-        "mtime": "2026-07-24T22:32:56+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-22",
-        "category": "估值建模",
-        "title": "联通云（山西）项目 Phase 2 估值底稿",
-        "file": "联通云山西_Phase2估值底稿_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_Phase2估值底稿_20260722.md",
-        "size": 12725,
-        "mtime": "2026-07-22T11:17:43+08:00",
+        "date": "2026-07-25",
+        "category": "上会材料",
+        "title": "联通云山西 IDC 投资可行性分析 — 决策模式 V25+",
+        "file": "联通云山西_决策模式_v1_完整版.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v1_完整版.md",
+        "size": 60155,
+        "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
       }
@@ -529,6 +429,32 @@
         "url": "https://jinzhanxiang.github.io/xingheng-report/appendix_a.html"
       }
     ],
+    "jngd": [
+      {
+        "code": "jngd",
+        "date": "2026-07-03",
+        "category": "商业研究",
+        "title": "晶能光电商业尽调报告",
+        "file": "jneng_photoelectric_商业尽调报告_v1_20260703.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md",
+        "size": 17055,
+        "mtime": "2026-07-03T15:47:25+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
+      },
+      {
+        "code": "jngd",
+        "date": "2026-07-03",
+        "category": "商业研究",
+        "title": "晶能光电尽调报告 — 横纵分析法（HV-Analysis）",
+        "file": "jneng_hv_analysis_20260703.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_hv_analysis_20260703.md",
+        "size": 21768,
+        "mtime": "2026-07-03T22:00:58+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
+      }
+    ],
     "acquisition-listed": [
       {
         "code": "acquisition-listed",
@@ -608,13 +534,13 @@
       },
       {
         "code": "jngd",
-        "date": "2026-07-22",
+        "date": "2026-07-03",
         "category": "商业研究",
-        "title": "晶能光电（江西）有限公司 商业尽调深度分析报告",
-        "file": "晶能光电_商业尽调报告_v4_1_deep_主报告_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/晶能光电/output/晶能光电_商业尽调报告_v4_1_deep_主报告_20260722.md",
-        "size": 154335,
-        "mtime": "2026-07-22T13:14:22+08:00",
+        "title": "晶能光电商业尽调报告",
+        "file": "jneng_photoelectric_商业尽调报告_v1_20260703.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md",
+        "size": 17055,
+        "mtime": "2026-07-03T15:47:25+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
       },
@@ -672,13 +598,13 @@
       },
       {
         "code": "jngd",
-        "date": "2026-07-22",
+        "date": "2026-07-03",
         "category": "商业研究",
-        "title": "晶能光电（江西）有限公司 商业尽调深度分析报告",
-        "file": "晶能光电_商业尽调报告_v4_1_deep_主报告_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/晶能光电/output/晶能光电_商业尽调报告_v4_1_deep_主报告_20260722.md",
-        "size": 154335,
-        "mtime": "2026-07-22T13:14:22+08:00",
+        "title": "晶能光电商业尽调报告",
+        "file": "jneng_photoelectric_商业尽调报告_v1_20260703.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md",
+        "size": 17055,
+        "mtime": "2026-07-03T15:47:25+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
       },
@@ -725,42 +651,16 @@
         "_archived": true
       }
     ],
-    "汽车电子": [
-      {
-        "code": "aodian",
-        "date": "2026-07-23",
-        "category": "商业研究",
-        "title": "奥联电子（300585.SZ）V4.1 完整版投资可行性研究报告",
-        "file": "奥联电子_V4.1_完整报告_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/奥联电子/output/奥联电子_V4.1_完整报告_20260722.md",
-        "size": 43279,
-        "mtime": "2026-07-23T06:05:54+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/report_main.html"
-      },
-      {
-        "code": "aodian",
-        "date": "2026-07-22",
-        "category": "商业研究",
-        "title": "【奥联电子】（300585.SZ）深度分析报告",
-        "file": "奥联电子_主报告_起点_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/奥联电子/output/奥联电子_主报告_起点_20260722.md",
-        "size": 22425,
-        "mtime": "2026-07-22T14:27:29+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/aodian_full_report.html"
-      }
-    ],
     "数据": [
       {
         "code": "huitian",
-        "date": "2026-07-14",
-        "category": "行业研究",
-        "title": "汇天网络 IDC 项目 - 三网节点+REITs+34% 并表 市场化决策报告 V5.3",
-        "file": "汇天IDC_v5_三网REITs并表_市场化决策报告_20260713.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/汇天网络科技/output/汇天IDC_v5_三网REITs并表_市场化决策报告_20260713.md",
-        "size": 102525,
-        "mtime": "2026-07-14T10:40:05+08:00",
+        "date": "2026-07-09",
+        "category": "未分类",
+        "title": "汇天网络科技有限公司可行性分析报告",
+        "file": "汇天网络可行性分析_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
+        "size": 42394,
+        "mtime": "2026-07-09T16:16:48+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/huitian-network-report/huitian_cooperation.html"
       },
@@ -790,61 +690,13 @@
       },
       {
         "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "商业研究",
-        "title": "联通云 V2.0 主报告骨架 — §8-§13 横向/交叉/决策章节（重新生成版）",
-        "file": "联通云_V2.0_主报告_骨架_§8-13_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云_V2.0_主报告_骨架_§8-13_20260724.md",
-        "size": 11698,
-        "mtime": "2026-07-24T22:34:27+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 HTML 版式问题根因调查（2026-07-24 22:46 GMT+8）",
-        "file": "联通云V2.0_HTML版式问题_根因调查_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云V2.0_HTML版式问题_根因调查_20260724.md",
-        "size": 7981,
-        "mtime": "2026-07-24T22:44:24+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 vs V4.1 内容对比测试报告（2026-07-24 23:21 GMT+8）",
-        "file": "联通云V2.0_V4.1vsV2.0_对比报告_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云V2.0_V4.1vsV2.0_对比报告_20260724.md",
-        "size": 7340,
-        "mtime": "2026-07-24T23:20:06+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 骨架诊断报告（重新生成版）",
-        "file": "联通云_V2.0_诊断_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云_V2.0_诊断_20260724.md",
-        "size": 7461,
-        "mtime": "2026-07-24T22:32:56+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-22",
-        "category": "估值建模",
-        "title": "联通云（山西）项目 Phase 2 估值底稿",
-        "file": "联通云山西_Phase2估值底稿_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_Phase2估值底稿_20260722.md",
-        "size": 12725,
-        "mtime": "2026-07-22T11:17:43+08:00",
+        "date": "2026-07-25",
+        "category": "上会材料",
+        "title": "联通云山西 IDC 投资可行性分析 — 决策模式 V25+",
+        "file": "联通云山西_决策模式_v1_完整版.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v1_完整版.md",
+        "size": 60155,
+        "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
       }
@@ -852,13 +704,13 @@
     "云": [
       {
         "code": "huitian",
-        "date": "2026-07-14",
-        "category": "行业研究",
-        "title": "汇天网络 IDC 项目 - 三网节点+REITs+34% 并表 市场化决策报告 V5.3",
-        "file": "汇天IDC_v5_三网REITs并表_市场化决策报告_20260713.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/汇天网络科技/output/汇天IDC_v5_三网REITs并表_市场化决策报告_20260713.md",
-        "size": 102525,
-        "mtime": "2026-07-14T10:40:05+08:00",
+        "date": "2026-07-09",
+        "category": "未分类",
+        "title": "汇天网络科技有限公司可行性分析报告",
+        "file": "汇天网络可行性分析_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
+        "size": 42394,
+        "mtime": "2026-07-09T16:16:48+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/huitian-network-report/huitian_cooperation.html"
       },
@@ -888,61 +740,13 @@
       },
       {
         "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "商业研究",
-        "title": "联通云 V2.0 主报告骨架 — §8-§13 横向/交叉/决策章节（重新生成版）",
-        "file": "联通云_V2.0_主报告_骨架_§8-13_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云_V2.0_主报告_骨架_§8-13_20260724.md",
-        "size": 11698,
-        "mtime": "2026-07-24T22:34:27+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 HTML 版式问题根因调查（2026-07-24 22:46 GMT+8）",
-        "file": "联通云V2.0_HTML版式问题_根因调查_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云V2.0_HTML版式问题_根因调查_20260724.md",
-        "size": 7981,
-        "mtime": "2026-07-24T22:44:24+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 vs V4.1 内容对比测试报告（2026-07-24 23:21 GMT+8）",
-        "file": "联通云V2.0_V4.1vsV2.0_对比报告_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云V2.0_V4.1vsV2.0_对比报告_20260724.md",
-        "size": 7340,
-        "mtime": "2026-07-24T23:20:06+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 骨架诊断报告（重新生成版）",
-        "file": "联通云_V2.0_诊断_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云_V2.0_诊断_20260724.md",
-        "size": 7461,
-        "mtime": "2026-07-24T22:32:56+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-22",
-        "category": "估值建模",
-        "title": "联通云（山西）项目 Phase 2 估值底稿",
-        "file": "联通云山西_Phase2估值底稿_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_Phase2估值底稿_20260722.md",
-        "size": 12725,
-        "mtime": "2026-07-22T11:17:43+08:00",
+        "date": "2026-07-25",
+        "category": "上会材料",
+        "title": "联通云山西 IDC 投资可行性分析 — 决策模式 V25+",
+        "file": "联通云山西_决策模式_v1_完整版.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v1_完整版.md",
+        "size": 60155,
+        "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
       }
@@ -950,13 +754,13 @@
     "IDC": [
       {
         "code": "huitian",
-        "date": "2026-07-14",
-        "category": "行业研究",
-        "title": "汇天网络 IDC 项目 - 三网节点+REITs+34% 并表 市场化决策报告 V5.3",
-        "file": "汇天IDC_v5_三网REITs并表_市场化决策报告_20260713.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/汇天网络科技/output/汇天IDC_v5_三网REITs并表_市场化决策报告_20260713.md",
-        "size": 102525,
-        "mtime": "2026-07-14T10:40:05+08:00",
+        "date": "2026-07-09",
+        "category": "未分类",
+        "title": "汇天网络科技有限公司可行性分析报告",
+        "file": "汇天网络可行性分析_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
+        "size": 42394,
+        "mtime": "2026-07-09T16:16:48+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/huitian-network-report/huitian_cooperation.html"
       },
@@ -986,61 +790,13 @@
       },
       {
         "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "商业研究",
-        "title": "联通云 V2.0 主报告骨架 — §8-§13 横向/交叉/决策章节（重新生成版）",
-        "file": "联通云_V2.0_主报告_骨架_§8-13_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云_V2.0_主报告_骨架_§8-13_20260724.md",
-        "size": 11698,
-        "mtime": "2026-07-24T22:34:27+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 HTML 版式问题根因调查（2026-07-24 22:46 GMT+8）",
-        "file": "联通云V2.0_HTML版式问题_根因调查_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云V2.0_HTML版式问题_根因调查_20260724.md",
-        "size": 7981,
-        "mtime": "2026-07-24T22:44:24+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 vs V4.1 内容对比测试报告（2026-07-24 23:21 GMT+8）",
-        "file": "联通云V2.0_V4.1vsV2.0_对比报告_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云V2.0_V4.1vsV2.0_对比报告_20260724.md",
-        "size": 7340,
-        "mtime": "2026-07-24T23:20:06+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-24",
-        "category": "未分类",
-        "title": "联通云 V2.0 骨架诊断报告（重新生成版）",
-        "file": "联通云_V2.0_诊断_20260724.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云_V2.0_诊断_20260724.md",
-        "size": 7461,
-        "mtime": "2026-07-24T22:32:56+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-07-22",
-        "category": "估值建模",
-        "title": "联通云（山西）项目 Phase 2 估值底稿",
-        "file": "联通云山西_Phase2估值底稿_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_Phase2估值底稿_20260722.md",
-        "size": 12725,
-        "mtime": "2026-07-22T11:17:43+08:00",
+        "date": "2026-07-25",
+        "category": "上会材料",
+        "title": "联通云山西 IDC 投资可行性分析 — 决策模式 V25+",
+        "file": "联通云山西_决策模式_v1_完整版.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v1_完整版.md",
+        "size": 60155,
+        "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
       }
@@ -1760,20 +1516,16 @@
     "qiyuanxin",
     "未归类"
   ],
-  "_last_cleanup": "2026-07-24T23:49:17.358784",
+  "_last_cleanup": "2026-07-27T11:05:43.136232",
   "_cleanup_stats": {
     "intermediate:phase_execution_plan": 1,
-    "quarantine_full": 2,
-    "intermediate:self_check": 1,
-    "superseded": 11,
+    "quarantine_full": 3,
+    "superseded": 6,
+    "intermediate:chapter_mapping": 1,
     "dup_title_date": 2,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
-    "intermediate:v_standard_mode": 1,
-    "intermediate:chapter_mapping": 1,
-    "intermediate:progress_snapshot": 1,
-    "intermediate:cooperation_package": 1,
-    "intermediate:incremental_chapter": 1
+    "intermediate:v_standard_mode": 1
   }
 }
