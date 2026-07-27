@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T11:05:43+08:00",
+  "generated_at": "2026-07-27T11:13:49+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 19,
   "stage_v3_enum": [
@@ -253,7 +253,7 @@
       "repo": "innoshine-report",
       "local_folder": "~/Documents/OpenClaw-workspace-Projects/元旭半导体/",
       "folder_alias": "",
-      "report_count": 0,
+      "report_count": 5,
       "progress_pct": 35,
       "contacts": "天保控股投资部",
       "brief_md": "元旭半导体（硬科技·芯片）· 已立项阶段 · 详见报告库",
@@ -443,21 +443,21 @@
       "stage_v3": "在推重点",
       "iss": "上市",
       "industry": "汽车电子",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/report_main.html",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/aodian_v25_decision.html",
       "dashboard_url": "",
-      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/report_main.html",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/aodian_v25_decision.html",
       "repo": "",
       "local_folder": "~/Desktop/储备项目/奥联电子/",
       "folder_alias": "",
-      "report_count": 0,
+      "report_count": 1,
       "progress_pct": 35,
       "contacts": "天保控股投资部",
       "brief_md": "奥联电子（汽车电子）· 已立项阶段 · 详见报告库",
       "estimation": "9.40 亿（DCF 8.16 + PS 13.30 + PB 6.67）",
       "downgrade_reason": "—",
-      "deploy_date": "2026-07-22",
-      "last_update": "2026-07-23",
-      "notes": "R176 新增：3 份 V4.1 报告 + 自检报告",
+      "deploy_date": "2026-07-27",
+      "last_update": "2026-07-27",
+      "notes": "R176+：V25 决策模式报告已推送（5 校验器 + Playwright 视觉全过）2026-07-27",
       "pending_tasks": "需以最新股价重测估值区间",
       "archived": false
     },
@@ -590,7 +590,7 @@
       {
         "code": "innoshine",
         "name_cn": "元旭半导体",
-        "count": 0
+        "count": 5
       },
       {
         "code": "huayt",
@@ -641,7 +641,7 @@
       {
         "code": "innoshine",
         "name_cn": "元旭半导体",
-        "count": 0
+        "count": 5
       }
     ],
     "航天遥感": [
