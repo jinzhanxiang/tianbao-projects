@@ -1,8 +1,70 @@
 {
-  "generated_at": "2026-07-27T11:05:43+08:00",
+  "generated_at": "2026-07-27T11:13:49+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 38,
+  "total": 43,
   "by_code": {
+    "innoshine": [
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "北京中科恒远投资管理中心（有限合伙）— 穿透查询报告",
+        "file": "中科恒远穿透查询报告.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/中科恒远穿透查询报告.md",
+        "size": 12890,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "商业研究",
+        "title": "元旭半导体（Innoshine）纵横分析法尽调报告",
+        "file": "元旭半导体_纵横分析法尽调报告_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体_纵横分析法尽调报告_v1.md",
+        "size": 31562,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "商业研究",
+        "title": "元旭半导体（BP自称Innoshine，官方英文名Novoshine）纵横分析法尽调报告",
+        "file": "元旭半导体_纵横分析法尽调报告_v2.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体_纵横分析法尽调报告_v2.md",
+        "size": 143191,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "元旭半导体（Innoshine/Novoshine）拜访谈判要点",
+        "file": "元旭半导体拜访谈参_20260622.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体拜访谈参_20260622.md",
+        "size": 14896,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "元旭半导体科技股份有限公司 — 背景调查报告",
+        "file": "元旭半导体背景调查报告.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体背景调查报告.md",
+        "size": 21845,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      }
+    ],
     "huadong-sk": [
       {
         "code": "huadong-sk",
@@ -497,6 +559,66 @@
   "by_industry": {
     "硬科技": [
       {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "北京中科恒远投资管理中心（有限合伙）— 穿透查询报告",
+        "file": "中科恒远穿透查询报告.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/中科恒远穿透查询报告.md",
+        "size": 12890,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "商业研究",
+        "title": "元旭半导体（Innoshine）纵横分析法尽调报告",
+        "file": "元旭半导体_纵横分析法尽调报告_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体_纵横分析法尽调报告_v1.md",
+        "size": 31562,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "商业研究",
+        "title": "元旭半导体（BP自称Innoshine，官方英文名Novoshine）纵横分析法尽调报告",
+        "file": "元旭半导体_纵横分析法尽调报告_v2.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体_纵横分析法尽调报告_v2.md",
+        "size": 143191,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "元旭半导体（Innoshine/Novoshine）拜访谈判要点",
+        "file": "元旭半导体拜访谈参_20260622.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体拜访谈参_20260622.md",
+        "size": 14896,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "元旭半导体科技股份有限公司 — 背景调查报告",
+        "file": "元旭半导体背景调查报告.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体背景调查报告.md",
+        "size": 21845,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
         "code": "huadong-sk",
         "date": "2026-07-22",
         "category": "上会材料",
@@ -555,6 +677,68 @@
         "mtime": "2026-07-03T22:00:58+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
+      }
+    ],
+    "芯片": [
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "北京中科恒远投资管理中心（有限合伙）— 穿透查询报告",
+        "file": "中科恒远穿透查询报告.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/中科恒远穿透查询报告.md",
+        "size": 12890,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "商业研究",
+        "title": "元旭半导体（Innoshine）纵横分析法尽调报告",
+        "file": "元旭半导体_纵横分析法尽调报告_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体_纵横分析法尽调报告_v1.md",
+        "size": 31562,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "商业研究",
+        "title": "元旭半导体（BP自称Innoshine，官方英文名Novoshine）纵横分析法尽调报告",
+        "file": "元旭半导体_纵横分析法尽调报告_v2.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体_纵横分析法尽调报告_v2.md",
+        "size": 143191,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "元旭半导体（Innoshine/Novoshine）拜访谈判要点",
+        "file": "元旭半导体拜访谈参_20260622.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体拜访谈参_20260622.md",
+        "size": 14896,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+      },
+      {
+        "code": "innoshine",
+        "date": "2026-07-27",
+        "category": "未分类",
+        "title": "元旭半导体科技股份有限公司 — 背景调查报告",
+        "file": "元旭半导体背景调查报告.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/元旭半导体/output/元旭半导体背景调查报告.md",
+        "size": 21845,
+        "mtime": "2026-07-27T11:13:32+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
       }
     ],
     "资本运作": [
@@ -1516,7 +1700,7 @@
     "qiyuanxin",
     "未归类"
   ],
-  "_last_cleanup": "2026-07-27T11:05:43.136232",
+  "_last_cleanup": "2026-07-27T11:13:49.114509",
   "_cleanup_stats": {
     "intermediate:phase_execution_plan": 1,
     "quarantine_full": 3,
