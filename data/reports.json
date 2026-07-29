@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T19:35:00",
+  "generated_at": "2026-07-29T20:41:30",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects) + manual HTML",
-  "total": 50,
+  "total": 51,
   "by_code": {
     "innoshine": [
       {
@@ -655,6 +655,20 @@
         "mtime": "2026-07-29T19:00:00+08:00",
         "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
         "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html"
+      }
+    ],
+    "chuangdu": [
+      {
+        "code": "chuangdu",
+        "date": "2026-07-29",
+        "category": "决策模式",
+        "title": "乘杜科技 V25.1.13 决策模式研究报告（Type B 合作模式 + 投资方案）",
+        "file": "chuangdu_v25_1_13_decision.html",
+        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/chuangdu/chuangdu_v25_1_13_decision.html",
+        "size": 100946,
+        "mtime": "2026-07-29T20:41:30",
+        "summary": "V25.1.13 决策模式报告 · 100,946 bytes · 5 FATAL 全过 · 1 咨询项（HC-34 IRR 现金流序列） · V25.1.14 skill 优化已落（chain_compliance .progress-checkpoint 白名单 + SKILL.md 部署前 grep 清单 + financial.md §23 HC-34 两种合规写法）",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v25_1_13_decision.html"
       }
     ]
   },
