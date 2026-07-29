@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T15:08:00+08:00",
+  "generated_at": "2026-07-29T19:08:30",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects) + manual HTML",
-  "total": 44,
+  "total": 45,
   "by_code": {
     "innoshine": [
       {
@@ -571,6 +571,20 @@
         "industry": "汽车电子",
         "stage": "在推重点",
         "summary": "决策模式 25 章完整 · 6 张图表盲点全部修复 · 5 校验器 + Playwright 视觉全 PASS"
+      }
+    ],
+    "chuangdu": [
+      {
+        "code": "chuangdu",
+        "date": "2026-07-29",
+        "category": "决策模式",
+        "title": "乘杜科技（天保×神悦可信数据空间）合作模式 V14",
+        "file": "chuangdu_v14_decision_20260729.html",
+        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/chuangdu/chuangdu_v14_decision_20260729.html",
+        "size": 123491,
+        "mtime": "2026-07-29T17:37:00+08:00",
+        "summary": "V14 合作模式决策报告 · Type B 通用化样本 · V25.1.12 验证占位",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v14_decision_20260729.html"
       }
     ]
   },

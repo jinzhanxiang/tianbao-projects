@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:47:56",
+  "generated_at": "2026-07-29T19:08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 20,
   "stage_v3_enum": [
@@ -571,6 +571,34 @@
       "last_update": "2026-07-29",
       "notes": "V25.1.5z 决策模式报告已部署，108,502 bytes；hv-analysis V25.1.11.1 升级后待 V15 重跑验证",
       "pending_tasks": "V25.1.11.1 V15 重跑验证后更新决策",
+      "archived": false
+    },
+    {
+      "code": "chuangdu",
+      "name_cn": "乘杜科技",
+      "name_full": "乘杜科技（天保×神悦可信数据空间）",
+      "archived_reason": "",
+      "category": "重大并购",
+      "stage": "初步分析",
+      "stage_v3": "在推重点",
+      "iss": "未上市",
+      "industry": "数据空间·可信数据",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v14_decision_20260729.html",
+      "dashboard_url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=chuangdu",
+      "online_index": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/",
+      "repo": "tianbao-projects",
+      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/乘杜科技/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 50,
+      "contacts": "天保控股投资部",
+      "brief_md": "乘杜科技（天保×神悦可信数据空间合作）· 合作模式 + 投资方案（Type B）· 已生成 V14 决策模式（123,491 bytes）",
+      "estimation": "v8 DOCX 投资金额 3,500/4,800/3,000 万矛盾待核实 · V15 重跑验证 V25.1.12 通用化",
+      "downgrade_reason": "—",
+      "deploy_date": "2026-07-29",
+      "last_update": "2026-07-29",
+      "notes": "Type B 合作模式 + 投资方案 · V25.1.12 通用化验证样本 · V14 已归档至 _archive_v14_v25_1_11_1_failed/ · output/ 已清空待 Research 重跑 V15",
+      "pending_tasks": "V15 重跑 + 5 项致命阻断 pre_commit_check 验证 V25.1.12 通用性",
       "archived": false
     }
   ],
