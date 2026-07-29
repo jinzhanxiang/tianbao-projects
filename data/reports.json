@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T19:11:00",
+  "generated_at": "2026-07-29T19:35:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects) + manual HTML",
-  "total": 45,
+  "total": 50,
   "by_code": {
     "innoshine": [
       {
@@ -585,6 +585,76 @@
         "mtime": "2026-07-28T20:15:00+08:00",
         "summary": "V25.1.5z 决策模式报告 · hv-analysis V25.1.11.1 升级后待 V15 重跑验证",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/sumai/sumai_v25_1_5z_decision.html"
+      }
+    ],
+    "kedu": [
+      {
+        "code": "kedu",
+        "date": "2026-06-26",
+        "category": "商业尽调",
+        "title": "上海柯渡医学 商业尽调分析报告",
+        "file": "report_main.html",
+        "path": "https://jinzhanxiang.github.io/kedu-report/report_main.html",
+        "size": 41953,
+        "mtime": "2026-06-26T19:00:00+08:00",
+        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
+        "url": "https://jinzhanxiang.github.io/kedu-report/report_main.html"
+      }
+    ],
+    "zhongfu": [
+      {
+        "code": "zhongfu",
+        "date": "2026-07-21",
+        "category": "商业尽调",
+        "title": "中复神鹰碳纤维芯电缆项目 商业尽调分析报告",
+        "file": "report_main.html",
+        "path": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html",
+        "size": 53562,
+        "mtime": "2026-07-21T19:00:00+08:00",
+        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
+        "url": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html"
+      }
+    ],
+    "xinhong": [
+      {
+        "code": "xinhong",
+        "date": "2026-07-25",
+        "category": "商业尽调",
+        "title": "天津信鸿医疗科技股份有限公司 商业尽调分析报告",
+        "file": "report_main.html",
+        "path": "https://jinzhanxiang.github.io/xinhong-report/report_main.html",
+        "size": 37700,
+        "mtime": "2026-07-25T19:00:00+08:00",
+        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
+        "url": "https://jinzhanxiang.github.io/xinhong-report/report_main.html"
+      }
+    ],
+    "xunchao": [
+      {
+        "code": "xunchao",
+        "date": "2026-07-25",
+        "category": "商业尽调",
+        "title": "迅巢换电（XCHS Energon）商业尽调分析报告",
+        "file": "report_main.html",
+        "path": "https://jinzhanxiang.github.io/xunchao-report/report_main.html",
+        "size": 40571,
+        "mtime": "2026-07-25T19:00:00+08:00",
+        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
+        "url": "https://jinzhanxiang.github.io/xunchao-report/report_main.html"
+      }
+    ],
+    "unicom-idc": [
+      {
+        "code": "unicom-idc",
+        "date": "2026-07-29",
+        "category": "商业尽调",
+        "title": "联通云数据中心 IDC 项目 商业尽调分析报告",
+        "file": "report_main.html",
+        "path": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
+        "size": 25218,
+        "mtime": "2026-07-29T19:00:00+08:00",
+        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
+        "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html"
       }
     ]
   },
