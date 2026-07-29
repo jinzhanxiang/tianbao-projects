@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T19:08:30",
+  "generated_at": "2026-07-29T19:11:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects) + manual HTML",
   "total": 45,
   "by_code": {
@@ -573,18 +573,18 @@
         "summary": "决策模式 25 章完整 · 6 张图表盲点全部修复 · 5 校验器 + Playwright 视觉全 PASS"
       }
     ],
-    "chuangdu": [
+    "sumai": [
       {
-        "code": "chuangdu",
-        "date": "2026-07-29",
+        "code": "sumai",
+        "date": "2026-07-28",
         "category": "决策模式",
-        "title": "乘杜科技（天保×神悦可信数据空间）合作模式 V14",
-        "file": "chuangdu_v14_decision_20260729.html",
-        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/chuangdu/chuangdu_v14_decision_20260729.html",
-        "size": 123491,
-        "mtime": "2026-07-29T17:37:00+08:00",
-        "summary": "V14 合作模式决策报告 · Type B 通用化样本 · V25.1.12 验证占位",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v14_decision_20260729.html"
+        "title": "速迈医疗 V25.1.5z 决策模式报告",
+        "file": "sumai_v25_1_5z_decision.html",
+        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/sumai/sumai_v25_1_5z_decision.html",
+        "size": 108502,
+        "mtime": "2026-07-28T20:15:00+08:00",
+        "summary": "V25.1.5z 决策模式报告 · hv-analysis V25.1.11.1 升级后待 V15 重跑验证",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/sumai/sumai_v25_1_5z_decision.html"
       }
     ]
   },
