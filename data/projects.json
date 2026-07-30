@@ -266,34 +266,6 @@
       "archived": false
     },
     {
-      "code": "htco",
-      "name_cn": "航天宏图",
-      "name_full": "航天宏图（HTCO IRE）",
-      "archived_reason": "",
-      "category": "储备·上市",
-      "stage": "已部署",
-      "stage_v3": "储备",
-      "iss": "上市",
-      "industry": "航天遥感",
-      "online_url": "https://jinzhanxiang.github.io/htco-ire-delivery-plan/",
-      "dashboard_url": "",
-      "online_index": "https://jinzhanxiang.github.io/htco-ire-delivery-plan/",
-      "repo": "htco-ire-delivery-plan",
-      "local_folder": "~/Desktop/储备项目/航天宏图/",
-      "folder_alias": "",
-      "report_count": 0,
-      "progress_pct": 70,
-      "contacts": "天保控股投资部",
-      "brief_md": "航天宏图（航天遥感）· 已部署阶段 · 详见报告库",
-      "estimation": "—（已交付方案阶段，不涉及估值口径）",
-      "downgrade_reason": "—",
-      "deploy_date": "2026",
-      "last_update": "2026-07",
-      "notes": "上市公司对口交付方案 v4（口令保护），源在桌面（2.4M / 1 PDF）",
-      "pending_tasks": "上市公司对口交付方案 v4 已部署（口令保护）",
-      "archived": false
-    },
-    {
       "code": "acquisition-listed",
       "name_cn": "收购上市公司研究",
       "name_full": "收购上市公司标的研究",
@@ -429,7 +401,7 @@
       "downgrade_reason": "市值管理合规敏感，建议仅作内部参考",
       "deploy_date": "2026",
       "last_update": "2026-07-23",
-      "notes": "R176 新增：与航天宏图同名不同公司，原 13 份 HTCO_IRE/创新方案报告从 htco 迁出单独归档",
+      "notes": "R176 新增：与航天宏图同名不同公司，13 份 HTCO_IRE/创新方案报告单独归档",
       "pending_tasks": "需与投资部确认是否纳入主中心",
       "archived": true
     },
@@ -700,13 +672,7 @@
         "count": 5
       }
     ],
-    "航天遥感": [
-      {
-        "code": "htco",
-        "name_cn": "航天宏图",
-        "count": 0
-      }
-    ],
+    "航天遥感": [],
     "收购研究": [
       {
         "code": "acquisition-listed",
@@ -809,7 +775,6 @@
         "innoshine"
       ],
       "上市": [
-        "htco",
         "acquisition-listed",
         "huayt"
       ],
