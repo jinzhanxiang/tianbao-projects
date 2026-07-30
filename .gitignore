@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Screenshots (临时)
+screenshots/
+
+# 临时文件
+*.tmp
+*.bak

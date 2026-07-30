@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T20:41:30",
+  "generated_at": "2026-07-30T14:30:44",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects) + manual HTML",
-  "total": 51,
+  "total": 52,
   "by_code": {
     "innoshine": [
       {
@@ -669,6 +669,20 @@
         "mtime": "2026-07-29T20:41:30",
         "summary": "V25.1.13 决策模式报告 · 100,946 bytes · 5 FATAL 全过 · 1 咨询项（HC-34 IRR 现金流序列） · V25.1.14 skill 优化已落（chain_compliance .progress-checkpoint 白名单 + SKILL.md 部署前 grep 清单 + financial.md §23 HC-34 两种合规写法）",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v25_1_13_decision.html"
+      }
+    ],
+    "hangtianhongtu": [
+      {
+        "code": "hangtianhongtu",
+        "date": "2026-07-30",
+        "category": "决策模式",
+        "title": "航天宏图（688066.SH）破产重整投资可行性 V25 决策研究报告（Type C · V25.1.14 P2 A1+A3 强化）",
+        "file": "hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
+        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
+        "size": 107568,
+        "mtime": "2026-07-30T14:29:20.285577",
+        "summary": "V25.1.14 P2 A1+A3 强化 · Type C 决策模式 · 107,568 bytes · 5 FATAL 全过 · 8 校验器 PASS · 主体识别准确（688066.SH/PIESAT/航天宏图信息技术股份有限公司三标签齐全） · §1 含客户痛点+价值主张+差异化（Type C 适配） · 7 chart-figure + 7 解读卡 · STORM §15 完整 · framework 跨 Type A/B/C 普适性首次实证（与乘杜 V26 对称验证）",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html"
       }
     ]
   },
@@ -1809,6 +1823,20 @@
         "mtime": "2026-04-28T18:00:17+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html"
+      }
+    ],
+    "卫星遥感": [
+      {
+        "code": "hangtianhongtu",
+        "date": "2026-07-30",
+        "category": "决策模式",
+        "title": "航天宏图（688066.SH）破产重整投资可行性 V25 决策研究报告（Type C · V25.1.14 P2 A1+A3 强化）",
+        "file": "hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
+        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
+        "size": 107568,
+        "mtime": "2026-07-30T14:29:20.285577",
+        "summary": "V25.1.14 P2 A1+A3 强化 · Type C 决策模式 · 107,568 bytes · 5 FATAL 全过 · 8 校验器 PASS · 主体识别准确（688066.SH/PIESAT/航天宏图信息技术股份有限公司三标签齐全） · §1 含客户痛点+价值主张+差异化（Type C 适配） · 7 chart-figure + 7 解读卡 · STORM §15 完整 · framework 跨 Type A/B/C 普适性首次实证（与乘杜 V26 对称验证）",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html"
       }
     ]
   },
