@@ -1036,7 +1036,9 @@ body{
   function renderKPI(){
     /* ===== 数据计算 ===== */
     const allReports = Object.values(REPORTS).flat();
-    const totalR = allReports.length;
+    /* total 只算 https:// 实际部署的活跃报告（剔除 file:// 滞留 MD + _archived 占位）。
+       reports.json 同时落 total_active / total_archived_cached 两个辅助字段，前端可做诊断。 */
+    const totalR = allReports.filter(r => !r._archived && (r.url||'').startsWith('https://')).length;
 
     /* 行业（主+细分） */
     const mainIndMap = new Map();
