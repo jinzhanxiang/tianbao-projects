@@ -1,206 +1,36 @@
 {
-  "generated_at": "2026-08-01T07:37:41+08:00",
+  "generated_at": "2026-08-01T07:45:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 8,
+  "total": 1,
   "by_industry": {
     "硬科技": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "zhongfu",
+        "company": "中复碳芯",
         "industry": "硬科技",
-        "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
-        "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
-        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
-        "source": "finance.sina.com.cn",
+        "title": "发改委放大招!2026年 两新 政策升级,万亿资本剑指硬科技_财富号_东方财富网",
+        "summary": "1000亿超长期特别国债启动国家创业投资引导基金,目标万亿规模,投早、投小、投硬科技,存续期拉到20年,取消返投限制.这背后逻辑很清晰:政策红...",
+        "url": "https://caifuhao.eastmoney.com/news/20251231210930016165890",
+        "source": "caifuhao.eastmoney.com",
         "date": "2026-08-01",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "顺风清洁能源收购晶能光电控股权_中证网",
-        "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
-        "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
-        "source": "www.cs.com.cn",
-        "date": "2026-08-01",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
-        "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
-        "url": "https://www.sohu.com/a/15891578_114737",
-        "source": "www.sohu.com",
-        "date": "2026-08-01",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "半导体照明产品应用示范工程项目(LED道路/隧道照明产品)中标入围结果公示",
-        "summary": "晶能光电(江西)有限公司.半导体照明产品应用示范工程项目(LED道路/隧道照明产品)中标入围结果公示 ...",
-        "url": "http://www.ccgp.gov.cn/cggg/zybx/zbgg/201011/t20101124_1424334.shtml",
-        "source": "www.ccgp.gov.cn",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      }
-    ],
-    "低空经济": [
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
-        "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
-        "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
-        "source": "www.163.com",
-        "date": "2026-08-01",
-        "score": 5.5,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
-        "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
-        "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
-        "source": "ggzyjyzx.shandong.gov.cn",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
-        "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
-        "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
-        "source": "www.jianyu360.cn",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "青岛直升机中标结果-直升机招标采购 - 采招网",
-        "summary": "2025年10月28日 - 2025年直升机航材大修项目中标公告救援支队2025年直升机航材大修项目 品目 服务/商务服务/维修和保养服务/其他维修和保养服务,货物/设备/航空器及其配...",
-        "url": "https://m.bidcenter.com.cn/zhaobiao/zbkeyw-24902-370200-4.html",
-        "source": "m.bidcenter.com.cn",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
+        "score": 3.5,
+        "query": "硬科技 行业 政策 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "zhongfu",
+      "company": "中复碳芯",
       "industry": "硬科技",
-      "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
-      "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
-      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
-      "source": "finance.sina.com.cn",
+      "title": "发改委放大招!2026年 两新 政策升级,万亿资本剑指硬科技_财富号_东方财富网",
+      "summary": "1000亿超长期特别国债启动国家创业投资引导基金,目标万亿规模,投早、投小、投硬科技,存续期拉到20年,取消返投限制.这背后逻辑很清晰:政策红...",
+      "url": "https://caifuhao.eastmoney.com/news/20251231210930016165890",
+      "source": "caifuhao.eastmoney.com",
       "date": "2026-08-01",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "硬科技",
-      "title": "顺风清洁能源收购晶能光电控股权_中证网",
-      "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
-      "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
-      "source": "www.cs.com.cn",
-      "date": "2026-08-01",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "硬科技",
-      "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
-      "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
-      "url": "https://www.sohu.com/a/15891578_114737",
-      "source": "www.sohu.com",
-      "date": "2026-08-01",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
-      "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
-      "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
-      "source": "www.163.com",
-      "date": "2026-08-01",
-      "score": 5.5,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "硬科技",
-      "title": "半导体照明产品应用示范工程项目(LED道路/隧道照明产品)中标入围结果公示",
-      "summary": "晶能光电(江西)有限公司.半导体照明产品应用示范工程项目(LED道路/隧道照明产品)中标入围结果公示 ...",
-      "url": "http://www.ccgp.gov.cn/cggg/zybx/zbgg/201011/t20101124_1424334.shtml",
-      "source": "www.ccgp.gov.cn",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
-      "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
-      "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
-      "source": "ggzyjyzx.shandong.gov.cn",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
-      "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
-      "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
-      "source": "www.jianyu360.cn",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "青岛直升机中标结果-直升机招标采购 - 采招网",
-      "summary": "2025年10月28日 - 2025年直升机航材大修项目中标公告救援支队2025年直升机航材大修项目 品目 服务/商务服务/维修和保养服务/其他维修和保养服务,货物/设备/航空器及其配...",
-      "url": "https://m.bidcenter.com.cn/zhaobiao/zbkeyw-24902-370200-4.html",
-      "source": "m.bidcenter.com.cn",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
+      "score": 3.5,
+      "query": "硬科技 行业 政策 2026"
     }
   ]
 }
