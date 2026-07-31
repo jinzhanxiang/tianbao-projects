@@ -1,182 +1,60 @@
 {
-  "generated_at": "2026-08-01T04:04:17+08:00",
+  "generated_at": "2026-08-01T04:11:51+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 7,
+  "total": 2,
   "by_industry": {
-    "数据": [
+    "美国中概股": [
       {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "数据",
-        "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-        "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-        "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-        "source": "news.qq.com",
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
+        "summary": "",
+        "url": "https://quote.eastmoney.com/us/HTCO.html",
+        "source": "quote.eastmoney.com",
         "date": "2026-08-01",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
+        "score": 4.5,
+        "query": "High-Trend International 新闻 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "数据",
-        "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-        "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-        "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-        "source": "k.sina.com.cn",
-        "date": "2026-08-01",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "数据",
-        "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-        "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-        "url": "https://www.ifnews.com/news.html?aid=769436",
-        "source": "www.ifnews.com",
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
+        "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
+        "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
+        "source": "www.eeo.com.cn",
         "date": "2026-08-01",
         "score": 4.0,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "数据",
-        "title": "汇天陆地航母2026年量产交付- DoNews快讯",
-        "summary": "432:汇天 陆地航母 将于2026年启动规模化量产并交付.此次量产计划位于中国,由汇天公司主导推进,旨在推动智能出行与高端装备制造融合发展...",
-        "url": "https://www.donews.com/news/detail/8/6233624.html",
-        "source": "www.donews.com",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "汇天 新闻 2026"
-      }
-    ],
-    "基建": [
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "建筑行业周报:2026基建投资需求充足 地产政策宽松释放积极信号__新浪财经_新浪网",
-        "summary": "2026年2月8日 - 2026 年,基建需求端仍较为充足,财政部门将继续实施更加积极的财政政策,为基建需求端提供支撑,叠加2025 年多数企业新签订单实现同比正向增长,建筑企业...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/823907521169/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "2026-08-01",
-        "score": 3.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "超4000亿重大基建项目获批,2026年稳投资政策靠前发力_腾讯新闻",
-        "summary": "21世纪经济报道记者 周潇枭 北京报道为了推动2026年良好开局,促消费、稳投资等系列政策在加快落地。",
-        "url": "https://news.qq.com/rain/a/20260102A0262V00",
-        "source": "news.qq.com",
-        "date": "2026-08-01",
-        "score": 3.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "3000亿投资砸向基建!国家发改委放大招,2026年这些领域要变天_财富号_东方财富网",
-        "summary": "光是批复的重大项目总投资就超4000亿,广州新机场、湛海跨海轮渡、特高压电网、大型水库一个接一个,基建脉络越来越清晰.先说这个 两新 政策,...",
-        "url": "https://caifuhao.eastmoney.com/news/20260103103230016899970?from=guba&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCxjanBsXzQuaHRtbA%3D%3D&name=6LSi57uP6K%2BE6K665ZCn",
-        "source": "caifuhao.eastmoney.com",
-        "date": "2026-08-01",
-        "score": 3.5,
-        "query": "基建 行业 政策 2026"
+        "query": "High-Trend International 新闻 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-      "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-      "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-      "source": "news.qq.com",
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
+      "summary": "",
+      "url": "https://quote.eastmoney.com/us/HTCO.html",
+      "source": "quote.eastmoney.com",
       "date": "2026-08-01",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
+      "score": 4.5,
+      "query": "High-Trend International 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-      "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-      "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-      "source": "k.sina.com.cn",
-      "date": "2026-08-01",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-      "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-      "url": "https://www.ifnews.com/news.html?aid=769436",
-      "source": "www.ifnews.com",
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
+      "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
+      "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
+      "source": "www.eeo.com.cn",
       "date": "2026-08-01",
       "score": 4.0,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "汇天陆地航母2026年量产交付- DoNews快讯",
-      "summary": "432:汇天 陆地航母 将于2026年启动规模化量产并交付.此次量产计划位于中国,由汇天公司主导推进,旨在推动智能出行与高端装备制造融合发展...",
-      "url": "https://www.donews.com/news/detail/8/6233624.html",
-      "source": "www.donews.com",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "建筑行业周报:2026基建投资需求充足 地产政策宽松释放积极信号__新浪财经_新浪网",
-      "summary": "2026年2月8日 - 2026 年,基建需求端仍较为充足,财政部门将继续实施更加积极的财政政策,为基建需求端提供支撑,叠加2025 年多数企业新签订单实现同比正向增长,建筑企业...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/823907521169/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "2026-08-01",
-      "score": 3.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "超4000亿重大基建项目获批,2026年稳投资政策靠前发力_腾讯新闻",
-      "summary": "21世纪经济报道记者 周潇枭 北京报道为了推动2026年良好开局,促消费、稳投资等系列政策在加快落地。",
-      "url": "https://news.qq.com/rain/a/20260102A0262V00",
-      "source": "news.qq.com",
-      "date": "2026-08-01",
-      "score": 3.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "3000亿投资砸向基建!国家发改委放大招,2026年这些领域要变天_财富号_东方财富网",
-      "summary": "光是批复的重大项目总投资就超4000亿,广州新机场、湛海跨海轮渡、特高压电网、大型水库一个接一个,基建脉络越来越清晰.先说这个 两新 政策,...",
-      "url": "https://caifuhao.eastmoney.com/news/20260103103230016899970?from=guba&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCxjanBsXzQuaHRtbA%3D%3D&name=6LSi57uP6K%2BE6K665ZCn",
-      "source": "caifuhao.eastmoney.com",
-      "date": "2026-08-01",
-      "score": 3.5,
-      "query": "基建 行业 政策 2026"
+      "query": "High-Trend International 新闻 2026"
     }
   ]
 }
