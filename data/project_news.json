@@ -1,59 +1,9 @@
 {
-  "generated_at": "2026-07-31T16:16:19+08:00",
+  "generated_at": "2026-07-31T17:26:06+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 79,
+  "total": 48,
   "by_industry": {
-    "基建": [
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
-        "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
-        "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "2026-07-31",
-        "score": 6.5,
-        "query": "天保基建 新闻 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "天保基建:关于公司对外投资暨签署《合作框架协议》公告_天保基建(000965)股吧_东方财富网股吧",
-        "summary": "2016年7月19日 - 证券代码:000965证券简称:天保基建公告编号:2016-26 天津天保基建股份有限公司 关于对外投资暨签署《合作框架协议》的公告 本公司及董事会全体成员保...",
-        "url": "http://gubaf10.eastmoney.com/news,000965,455337814.html",
-        "source": "gubaf10.eastmoney.com",
-        "date": "2026-07-31",
-        "score": 6.5,
-        "query": "\"天保基建\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "天保基建:全资子公司签订4.99亿元重大合同|天津市_新浪财经_新浪网",
-        "summary": "天保基建海量资讯、精准解读,尽在新浪财经APP.新浪财经APP缩小字体放大字体收藏微博微信分享公告,公司全资子公司天津天保房地产开发有限公...",
-        "url": "https://finance.sina.com.cn/videoroll/2025-01-02/doc-inecqnpx5629534.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "2026-07-31",
-        "score": 6.5,
-        "query": "\"天保基建\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
-        "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
-        "url": "https://finance.eastmoney.com/a/202607133803760816.html",
-        "source": "finance.eastmoney.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "天保基建 新闻 2026"
-      }
-    ],
     "动力电池": [
       {
         "code": "xingheng",
@@ -226,54 +176,6 @@
         "query": "\"华阳\" 公告 签约 中标 投资"
       },
       {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "硬科技",
-        "title": "华东数控 8.43(-0.47%)_个股资讯_新浪财经_新浪网",
-        "summary": "2026年7月17日 - 华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目.2026-07-06 10:27.华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首...",
-        "url": "http://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002248.phtml",
-        "source": "vip.stock.finance.sina.com.cn",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "硬科技",
-        "title": "华东数控(002248)_重大事项提醒与新闻公告_投资提醒_新浪财经_新浪网",
-        "summary": "2026年7月22日 - (002248) 华东数控:2026年一季度报告.(002248) 华东数控:拟披露中报...",
-        "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllMemordDetail.php?stockid=002248",
-        "source": "money.finance.sina.com.cn",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "硬科技",
-        "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
-        "summary": "2026年4月20日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
-        "url": "https://news.qq.com/rain/a/20260417A090QP00",
-        "source": "news.qq.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "硬科技",
-        "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目 实现首次小批量订单 _ 东方财富网",
-        "summary": "2026年6月29日 - 炒股第一步,先开个股票账户华东数控6月29日在互动平台表示,公司新产品圆台磨床已成功中标.郑重声明:东方财富发布此内容旨在传播更多信息,与本站立场无...",
-        "url": "https://finance.eastmoney.com/a/202606293786573457.html",
-        "source": "finance.eastmoney.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"华东数控\" 公告 签约 中标 投资"
-      },
-      {
         "code": "zhongfu",
         "company": "中复碳芯",
         "industry": "硬科技",
@@ -334,18 +236,6 @@
         "query": "元旭半导体 新闻 2026"
       },
       {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "硬科技",
-        "title": "四川迅巢建筑有限公司中标公告",
-        "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
-        "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
-        "source": "m.zhaobiao.cn",
-        "date": "2026-07-31",
-        "score": 4.0,
-        "query": "\"迅巢\" 公告 签约 中标 投资"
-      },
-      {
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "硬科技",
@@ -392,6 +282,18 @@
         "date": "2026-07-31",
         "score": 4.0,
         "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "四川迅巢建筑有限公司中标公告",
+        "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
+        "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
+        "source": "m.zhaobiao.cn",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "\"迅巢\" 公告 签约 中标 投资"
       },
       {
         "code": "innoshine",
@@ -480,30 +382,6 @@
         "query": "\"信鸿医疗\" 公告 签约 中标 投资"
       },
       {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
-        "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
-        "url": "https://36kr.com/p/2843424921541510",
-        "source": "36kr.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
-        "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
-        "url": "https://www.sohu.com/a/607343524_120629259",
-        "source": "www.sohu.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      },
-      {
         "code": "kedu",
         "company": "柯渡医学",
         "industry": "医疗健康",
@@ -526,18 +404,6 @@
         "date": "2026-07-31",
         "score": 4.5,
         "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-        "url": "https://new.qq.com/rain/a/20221011A07M2700",
-        "source": "new.qq.com",
-        "date": "2026-07-31",
-        "score": 4.5,
-        "query": "速迈医疗 新闻 2026"
       },
       {
         "code": "kedu",
@@ -574,18 +440,32 @@
         "date": "2026-07-31",
         "score": 4.0,
         "query": "信鸿医疗 新闻 2026"
+      }
+    ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
+        "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
+        "url": "http://news.sohu.com/a/611143183_121123915",
+        "source": "news.sohu.com",
+        "date": "2026-07-31",
+        "score": 5.5,
+        "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
       },
       {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-        "summary": "北京速迈医疗科技有限公司前身为清华大学超声医疗仪器研究中心,从事高能超声刀医疗设备的研发和推广,提供超声手术系统、超声止血刀、超声骨刀、超声微创骨刀、超声吸引刀、...",
-        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-        "source": "www.pharnexcloud.com",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "中诚信-城投企业收购上市公司研究-11.18-20页 - 道客巴巴",
+        "summary": "上市公司收购中的诚信义务研究论文. 被收购上市公司的资产和收入规模在 2019~2021 年的主要统计指标上实现了不同程度的增长,但盈利指标表现一般;同时,上市公司个...",
+        "url": "https://www.doc88.com/p-94659608141337.html",
+        "source": "www.doc88.com",
         "date": "2026-07-31",
         "score": 4.0,
-        "query": "速迈医疗 新闻 2026"
+        "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
       }
     ],
     "数据": [
@@ -629,12 +509,12 @@
         "code": "huitian",
         "company": "汇天科技",
         "industry": "数据",
-        "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-        "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-        "url": "https://www.ifnews.com/news.html?aid=769436",
-        "source": "www.ifnews.com",
+        "title": "飞行汽车来了!买车 送飞机 小鹏汇天 陆地航母 2026年交付、单价不超200万|汇天|飞行汽车|航母_新浪新闻",
+        "summary": "赵德力表示,小鹏汇天 陆地航母 飞行汽车于今年3月提交审批进入适航审定阶段,计划明年下半年取证,目前正在密切协调关注中。. 公司黄埔(飞行器)...",
+        "url": "https://k.sina.com.cn/article_1704103183_65928d0f02004p0jy.html",
+        "source": "k.sina.com.cn",
         "date": "2026-07-31",
-        "score": 4.0,
+        "score": 4.5,
         "query": "汇天 新闻 2026"
       },
       {
@@ -662,44 +542,6 @@
         "query": "数据 行业 政策 2026"
       }
     ],
-    "收购研究": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
-        "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
-        "url": "http://news.sohu.com/a/611143183_121123915",
-        "source": "news.sohu.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "中诚信-城投企业收购上市公司研究-11.18-20页 - 道客巴巴",
-        "summary": "上市公司收购中的诚信义务研究论文. 被收购上市公司的资产和收入规模在 2019~2021 年的主要统计指标上实现了不同程度的增长,但盈利指标表现一般;同时,上市公司个...",
-        "url": "https://www.doc88.com/p-94659608141337.html",
-        "source": "www.doc88.com",
-        "date": "2026-07-31",
-        "score": 4.0,
-        "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "北京研究院还能注册吗?2026最新政策解答_申报_主体_经营",
-        "summary": "结合北京最新工商登记政策,目前北京地区已经暂停纯后缀研究院、研究所类主体的新设登记,这类无后缀的传统研究院执照,现阶段无法直接新注册。 针对北京...",
-        "url": "https://www.sohu.com/a/1031481746_122877783",
-        "source": "www.sohu.com",
-        "date": "2026-07-31",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      }
-    ],
     "卫星遥感": [
       {
         "code": "hangtianhongtu",
@@ -717,303 +559,41 @@
         "code": "hangtianhongtu",
         "company": "航天宏图",
         "industry": "卫星遥感",
-        "title": "航天宏图:发布公司中标公告_ 东方财富网",
-        "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-        "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-        "source": "finance.eastmoney.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图又签约29亿元卫星项目|李欢|遥感|巴基斯坦|东风商业航天_网易订阅",
-        "summary": "航天宏图又签约29亿元卫星项目,李欢,遥感,航天宏图,巴基斯坦,卫星项目,东风商业航天",
-        "url": "https://www.163.com/dy/article/K90RJDHE05119QTF.html",
-        "source": "www.163.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图中标结果:空间数据高效可视化引擎研发服务结果公告_招标_内容_整理",
-        "summary": "证券之星消息,根据天眼查APP信息整理,7月15日公布的《空间数据高效可视化引擎研发服务结果公告》中显示航天宏图信息技术股份有限公司中标...",
-        "url": "https://it.sohu.com/a/914202599_121319643",
-        "source": "it.sohu.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      }
-    ],
-    "汽车电子": [
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "独家|被指公告信息造假,奥联电子相关负责人:钙钛矿业务暂不受影响,进度将会正常推进|华能|董秘_网易订阅",
-        "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....华能清能院指奥联电子钙钛矿电池合作方信息披露造假上证报中国证券网讯2月21...",
-        "url": "https://www.163.com/dy/article/HU3SCU3S05198CJN.html",
-        "source": "www.163.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "奥联电子:关于董事会换届选举的公告 - 天眼查",
-        "summary": "证券代码:300585 证券简称:奥联电子 公告编号:2022-050 南京奥联汽车电子电器股份有限公司 关于董事会换届选举的公告 本公司及董事会全体成员保证信息披露内容的真实、准确、完整,没有虚假记载...",
-        "url": "https://news.tianyancha.com/ll_gg7fqimw5g.html",
-        "source": "news.tianyancha.com",
-        "date": "2026-07-31",
-        "score": 5.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
-        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
-        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "2026-07-31",
-        "score": 4.5,
-        "query": "奥联电子 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-        "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-        "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-        "source": "stock.stockstar.com",
-        "date": "2026-07-31",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      }
-    ],
-    "美国中概股": [
-      {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2%_区间_战略_公司",
-        "summary": "经济观察网 High-Trend International Group近期股价大幅波动,战略转型锂资源运输业务,2025财年营收同比近翻倍。截至6月5日,股价(2.90美元)...",
-        "url": "https://www.sohu.com/a/1033504487_122014422",
-        "source": "www.sohu.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"High-Trend International\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
-        "summary": "",
-        "url": "https://quote.eastmoney.com/us/HTCO.html",
-        "source": "quote.eastmoney.com",
-        "date": "2026-07-31",
-        "score": 4.5,
-        "query": "High-Trend International 新闻 2026"
-      },
-      {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
-        "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
-        "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
-        "source": "www.eeo.com.cn",
-        "date": "2026-07-31",
-        "score": 4.0,
-        "query": "High-Trend International 新闻 2026"
-      },
-      {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "[美股财报]:High-Trend International Group-A 2025年年度报告和过渡报告 - 发现报告",
-        "summary": "2025年2月27日 - 财报/招股书/报告详情/High-Trend International Group-A 2025年年度报告和过渡报告 2025-02-27 美股财报张***你可能感兴趣 WF International Ltd ",
-        "url": "https://www.fxbaogao.com/detail/4712677",
-        "source": "www.fxbaogao.com",
-        "date": "2026-07-31",
-        "score": 3.0,
-        "query": "\"High-Trend International\" 公告 签约 中标 投资"
-      }
-    ],
-    "航空维修": [
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "航空维修",
-        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-        "source": "fund.eastmoney.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "航空维修",
-        "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
-        "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:12.75元)4月27日晚间发布公告称,公司第九届董事会第七次会议于2026年4月26日在成都市科园南一路9号公司四楼会...",
-        "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
-        "source": "www.163.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "航空维修",
-        "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
-        "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
-        "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
-        "source": "news.qq.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"海特高新\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "航空维修",
-        "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
-        "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
-        "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"海特高新\" 公告 签约 中标 投资"
-      }
-    ],
-    "低空经济": [
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
-        "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
-        "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
-        "source": "www.163.com",
-        "date": "2026-07-31",
-        "score": 5.5,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-        "summary": "简介：#空中1",
-        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-        "source": "k.sina.com.cn",
-        "date": "2026-07-31",
-        "score": 4.5,
-        "query": "青岛直升机 新闻 2026"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
-        "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
-        "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
-        "source": "ggzyjyzx.shandong.gov.cn",
-        "date": "2026-07-31",
-        "score": 4.0,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
-        "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
-        "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
-        "source": "www.jianyu360.cn",
-        "date": "2026-07-31",
-        "score": 4.0,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      }
-    ],
-    "工业 AI": [
-      {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "工信部连发工业互联网+AI制造政策,明确推动数据治理与工业AI落地,2026年工_财富号_东方财富网",
-        "summary": "工信部连发工业互联网 + AI 制造政策,明确推动数据治理与工业 AI 落地,2026 年工业大数据市场将达数千亿元,零点有数正精准踩中风口!.政策力推...",
-        "url": "https://caifuhao.eastmoney.com/news/20260114093646813829000",
+        "title": "航天宏图2026年卫星发射时间节点全解析一、核心发射计划总览截至2026年1月1_财富号_东方财富网",
+        "summary": "第四批 PIESAT-2 系列后续卫星 8-10 颗 2026 年 Q1 末 - Q2 初 高分宽幅成像,星上智能处理 同轨 90 等相位编队,重访周期最快 6 小时 第五批 PI...",
+        "url": "https://caifuhao.eastmoney.com/news/20260113230128785257660",
         "source": "caifuhao.eastmoney.com",
         "date": "2026-07-31",
-        "score": 3.5,
-        "query": "工业 AI 行业 政策 2026"
+        "score": 4.5,
+        "query": "航天宏图 新闻 2026"
       },
       {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-        "source": "www.chinabidding.cn",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+        "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+        "url": "https://m.jiemian.com/article/14365628_sina.html",
+        "source": "m.jiemian.com",
         "date": "2026-07-31",
-        "score": 3.0,
-        "query": "乘杜 新闻 2026"
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图:2026年度 提质增效重回报 行动方案-公司公告-慧博投研资讯",
+        "summary": "2026年4月30日 - 航天宏图信息技术股份有限公司2026年度 提质增效重回报 行动方案航天宏图信息技术股份有限公司(以下简称 航天宏图 或 公司 )为践行 以投资者为本 的上...",
+        "url": "http://www.hibor.com.cn/report/816ad7b940c1616e4375aa0700205299.html",
+        "source": "www.hibor.com.cn",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
       }
     ]
   },
   "items": [
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
-      "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
-      "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "2026-07-31",
-      "score": 6.5,
-      "query": "天保基建 新闻 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "天保基建:关于公司对外投资暨签署《合作框架协议》公告_天保基建(000965)股吧_东方财富网股吧",
-      "summary": "2016年7月19日 - 证券代码:000965证券简称:天保基建公告编号:2016-26 天津天保基建股份有限公司 关于对外投资暨签署《合作框架协议》的公告 本公司及董事会全体成员保...",
-      "url": "http://gubaf10.eastmoney.com/news,000965,455337814.html",
-      "source": "gubaf10.eastmoney.com",
-      "date": "2026-07-31",
-      "score": 6.5,
-      "query": "\"天保基建\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "天保基建:全资子公司签订4.99亿元重大合同|天津市_新浪财经_新浪网",
-      "summary": "天保基建海量资讯、精准解读,尽在新浪财经APP.新浪财经APP缩小字体放大字体收藏微博微信分享公告,公司全资子公司天津天保房地产开发有限公...",
-      "url": "https://finance.sina.com.cn/videoroll/2025-01-02/doc-inecqnpx5629534.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "2026-07-31",
-      "score": 6.5,
-      "query": "\"天保基建\" 公告 签约 中标 投资"
-    },
     {
       "code": "xingheng",
       "company": "星恒电源",
@@ -1147,40 +727,16 @@
       "query": "元旭半导体 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-      "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-      "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-      "source": "news.qq.com",
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
+      "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
+      "url": "http://news.sohu.com/a/611143183_121123915",
+      "source": "news.sohu.com",
       "date": "2026-07-31",
       "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-      "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-      "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-      "source": "k.sina.com.cn",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "小鹏汇天:飞行汽车2026年量产交付 先飞码用户尝鲜起飞_腾讯新闻",
-      "summary": "2024年12月14日 - 快科技12月14日消息,小鹏汇天今日在上海陆家嘴举办了 陆地航母 飞行汽车首飞活动。.飞行汽车预计在2025年10月末取得中国民航的型号合格证,并在2026年...",
-      "url": "https://news.qq.com/rain/a/20241214A05Z2T00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
+      "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -1231,16 +787,40 @@
       "query": "\"华阳\" 公告 签约 中标 投资"
     },
     {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
-      "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
-      "url": "http://news.sohu.com/a/611143183_121123915",
-      "source": "news.sohu.com",
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "数据",
+      "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
+      "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
+      "url": "https://news.qq.com/rain/a/20260120V06GGM00",
+      "source": "news.qq.com",
       "date": "2026-07-31",
       "score": 5.5,
-      "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
+      "query": "汇天 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "数据",
+      "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
+      "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
+      "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
+      "source": "k.sina.com.cn",
+      "date": "2026-07-31",
+      "score": 5.5,
+      "query": "汇天 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "数据",
+      "title": "小鹏汇天:飞行汽车2026年量产交付 先飞码用户尝鲜起飞_腾讯新闻",
+      "summary": "2024年12月14日 - 快科技12月14日消息,小鹏汇天今日在上海陆家嘴举办了 陆地航母 飞行汽车首飞活动。.飞行汽车预计在2025年10月末取得中国民航的型号合格证,并在2026年...",
+      "url": "https://news.qq.com/rain/a/20241214A05Z2T00?media_id&suid",
+      "source": "news.qq.com",
+      "date": "2026-07-31",
+      "score": 5.5,
+      "query": "汇天 新闻 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -1255,210 +835,6 @@
       "query": "航天宏图 新闻 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图:发布公司中标公告_ 东方财富网",
-      "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-      "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-      "source": "finance.eastmoney.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图又签约29亿元卫星项目|李欢|遥感|巴基斯坦|东风商业航天_网易订阅",
-      "summary": "航天宏图又签约29亿元卫星项目,李欢,遥感,航天宏图,巴基斯坦,卫星项目,东风商业航天",
-      "url": "https://www.163.com/dy/article/K90RJDHE05119QTF.html",
-      "source": "www.163.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图中标结果:空间数据高效可视化引擎研发服务结果公告_招标_内容_整理",
-      "summary": "证券之星消息,根据天眼查APP信息整理,7月15日公布的《空间数据高效可视化引擎研发服务结果公告》中显示航天宏图信息技术股份有限公司中标...",
-      "url": "https://it.sohu.com/a/914202599_121319643",
-      "source": "it.sohu.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "独家|被指公告信息造假,奥联电子相关负责人:钙钛矿业务暂不受影响,进度将会正常推进|华能|董秘_网易订阅",
-      "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....华能清能院指奥联电子钙钛矿电池合作方信息披露造假上证报中国证券网讯2月21...",
-      "url": "https://www.163.com/dy/article/HU3SCU3S05198CJN.html",
-      "source": "www.163.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "硬科技",
-      "title": "华东数控 8.43(-0.47%)_个股资讯_新浪财经_新浪网",
-      "summary": "2026年7月17日 - 华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目.2026-07-06 10:27.华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首...",
-      "url": "http://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sz002248.phtml",
-      "source": "vip.stock.finance.sina.com.cn",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "硬科技",
-      "title": "华东数控(002248)_重大事项提醒与新闻公告_投资提醒_新浪财经_新浪网",
-      "summary": "2026年7月22日 - (002248) 华东数控:2026年一季度报告.(002248) 华东数控:拟披露中报...",
-      "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllMemordDetail.php?stockid=002248",
-      "source": "money.finance.sina.com.cn",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "硬科技",
-      "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
-      "summary": "2026年4月20日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
-      "url": "https://news.qq.com/rain/a/20260417A090QP00",
-      "source": "news.qq.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "硬科技",
-      "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目 实现首次小批量订单 _ 东方财富网",
-      "summary": "2026年6月29日 - 炒股第一步,先开个股票账户华东数控6月29日在互动平台表示,公司新产品圆台磨床已成功中标.郑重声明:东方财富发布此内容旨在传播更多信息,与本站立场无...",
-      "url": "https://finance.eastmoney.com/a/202606293786573457.html",
-      "source": "finance.eastmoney.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"华东数控\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2%_区间_战略_公司",
-      "summary": "经济观察网 High-Trend International Group近期股价大幅波动,战略转型锂资源运输业务,2025财年营收同比近翻倍。截至6月5日,股价(2.90美元)...",
-      "url": "https://www.sohu.com/a/1033504487_122014422",
-      "source": "www.sohu.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"High-Trend International\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
-      "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
-      "url": "https://finance.eastmoney.com/a/202607133803760816.html",
-      "source": "finance.eastmoney.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "天保基建 新闻 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
-      "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
-      "url": "https://36kr.com/p/2843424921541510",
-      "source": "36kr.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
-      "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
-      "url": "https://www.sohu.com/a/607343524_120629259",
-      "source": "www.sohu.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "航空维修",
-      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-      "source": "fund.eastmoney.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "航空维修",
-      "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
-      "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:12.75元)4月27日晚间发布公告称,公司第九届董事会第七次会议于2026年4月26日在成都市科园南一路9号公司四楼会...",
-      "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
-      "source": "www.163.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "航空维修",
-      "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
-      "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
-      "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
-      "source": "news.qq.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"海特高新\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "航空维修",
-      "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
-      "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
-      "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"海特高新\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
-      "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
-      "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
-      "source": "www.163.com",
-      "date": "2026-07-31",
-      "score": 5.5,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
-    },
-    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "动力电池",
@@ -1469,18 +845,6 @@
       "date": "2026-07-31",
       "score": 5.0,
       "query": "\"星恒电源\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "奥联电子:关于董事会换届选举的公告 - 天眼查",
-      "summary": "证券代码:300585 证券简称:奥联电子 公告编号:2022-050 南京奥联汽车电子电器股份有限公司 关于董事会换届选举的公告 本公司及董事会全体成员保证信息披露内容的真实、准确、完整,没有虚假记载...",
-      "url": "https://news.tianyancha.com/ll_gg7fqimw5g.html",
-      "source": "news.tianyancha.com",
-      "date": "2026-07-31",
-      "score": 5.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
     },
     {
       "code": "zhongfu",
@@ -1567,52 +931,28 @@
       "query": "元旭半导体 新闻 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
-      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
-      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "2026-07-31",
-      "score": 4.5,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
-      "summary": "",
-      "url": "https://quote.eastmoney.com/us/HTCO.html",
-      "source": "quote.eastmoney.com",
-      "date": "2026-07-31",
-      "score": 4.5,
-      "query": "High-Trend International 新闻 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-      "url": "https://new.qq.com/rain/a/20221011A07M2700",
-      "source": "new.qq.com",
-      "date": "2026-07-31",
-      "score": 4.5,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-      "summary": "简介：#空中1",
-      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "数据",
+      "title": "飞行汽车来了!买车 送飞机 小鹏汇天 陆地航母 2026年交付、单价不超200万|汇天|飞行汽车|航母_新浪新闻",
+      "summary": "赵德力表示,小鹏汇天 陆地航母 飞行汽车于今年3月提交审批进入适航审定阶段,计划明年下半年取证,目前正在密切协调关注中。. 公司黄埔(飞行器)...",
+      "url": "https://k.sina.com.cn/article_1704103183_65928d0f02004p0jy.html",
       "source": "k.sina.com.cn",
       "date": "2026-07-31",
       "score": 4.5,
-      "query": "青岛直升机 新闻 2026"
+      "query": "汇天 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图2026年卫星发射时间节点全解析一、核心发射计划总览截至2026年1月1_财富号_东方财富网",
+      "summary": "第四批 PIESAT-2 系列后续卫星 8-10 颗 2026 年 Q1 末 - Q2 初 高分宽幅成像,星上智能处理 同轨 90 等相位编队,重访周期最快 6 小时 第五批 PI...",
+      "url": "https://caifuhao.eastmoney.com/news/20260113230128785257660",
+      "source": "caifuhao.eastmoney.com",
+      "date": "2026-07-31",
+      "score": 4.5,
+      "query": "航天宏图 新闻 2026"
     },
     {
       "code": "xingheng",
@@ -1663,18 +1003,6 @@
       "query": "信鸿医疗 新闻 2026"
     },
     {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "硬科技",
-      "title": "四川迅巢建筑有限公司中标公告",
-      "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
-      "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
-      "source": "m.zhaobiao.cn",
-      "date": "2026-07-31",
-      "score": 4.0,
-      "query": "\"迅巢\" 公告 签约 中标 投资"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "硬科技",
@@ -1723,6 +1051,18 @@
       "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "硬科技",
+      "title": "四川迅巢建筑有限公司中标公告",
+      "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
+      "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
+      "source": "m.zhaobiao.cn",
+      "date": "2026-07-31",
+      "score": 4.0,
+      "query": "\"迅巢\" 公告 签约 中标 投资"
+    },
+    {
       "code": "innoshine",
       "company": "元旭半导体",
       "industry": "硬科技",
@@ -1747,18 +1087,6 @@
       "query": "元旭半导体 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-      "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-      "url": "https://www.ifnews.com/news.html?aid=769436",
-      "source": "www.ifnews.com",
-      "date": "2026-07-31",
-      "score": 4.0,
-      "query": "汇天 新闻 2026"
-    },
-    {
       "code": "acquisition-listed",
       "company": "收购上市公司研究",
       "industry": "收购研究",
@@ -1771,64 +1099,28 @@
       "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-      "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-      "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-      "source": "stock.stockstar.com",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+      "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+      "url": "https://m.jiemian.com/article/14365628_sina.html",
+      "source": "m.jiemian.com",
       "date": "2026-07-31",
       "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "航天宏图 新闻 2026"
     },
     {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
-      "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
-      "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
-      "source": "www.eeo.com.cn",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图:2026年度 提质增效重回报 行动方案-公司公告-慧博投研资讯",
+      "summary": "2026年4月30日 - 航天宏图信息技术股份有限公司2026年度 提质增效重回报 行动方案航天宏图信息技术股份有限公司(以下简称 航天宏图 或 公司 )为践行 以投资者为本 的上...",
+      "url": "http://www.hibor.com.cn/report/816ad7b940c1616e4375aa0700205299.html",
+      "source": "www.hibor.com.cn",
       "date": "2026-07-31",
       "score": 4.0,
-      "query": "High-Trend International 新闻 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-      "summary": "北京速迈医疗科技有限公司前身为清华大学超声医疗仪器研究中心,从事高能超声刀医疗设备的研发和推广,提供超声手术系统、超声止血刀、超声骨刀、超声微创骨刀、超声吸引刀、...",
-      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-      "source": "www.pharnexcloud.com",
-      "date": "2026-07-31",
-      "score": 4.0,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
-      "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
-      "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
-      "source": "ggzyjyzx.shandong.gov.cn",
-      "date": "2026-07-31",
-      "score": 4.0,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
-      "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
-      "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
-      "source": "www.jianyu360.cn",
-      "date": "2026-07-31",
-      "score": 4.0,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
+      "query": "航天宏图 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -1867,18 +1159,6 @@
       "query": "硬科技 行业 政策 2026"
     },
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "工信部连发工业互联网+AI制造政策,明确推动数据治理与工业AI落地,2026年工_财富号_东方财富网",
-      "summary": "工信部连发工业互联网 + AI 制造政策,明确推动数据治理与工业 AI 落地,2026 年工业大数据市场将达数千亿元,零点有数正精准踩中风口!.政策力推...",
-      "url": "https://caifuhao.eastmoney.com/news/20260114093646813829000",
-      "source": "caifuhao.eastmoney.com",
-      "date": "2026-07-31",
-      "score": 3.5,
-      "query": "工业 AI 行业 政策 2026"
-    },
-    {
       "code": "xunchao",
       "company": "迅巢科技",
       "industry": "硬科技",
@@ -1889,42 +1169,6 @@
       "date": "2026-07-31",
       "score": 3.0,
       "query": "\"迅巢\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "[美股财报]:High-Trend International Group-A 2025年年度报告和过渡报告 - 发现报告",
-      "summary": "2025年2月27日 - 财报/招股书/报告详情/High-Trend International Group-A 2025年年度报告和过渡报告 2025-02-27 美股财报张***你可能感兴趣 WF International Ltd ",
-      "url": "https://www.fxbaogao.com/detail/4712677",
-      "source": "www.fxbaogao.com",
-      "date": "2026-07-31",
-      "score": 3.0,
-      "query": "\"High-Trend International\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-      "source": "www.chinabidding.cn",
-      "date": "2026-07-31",
-      "score": 3.0,
-      "query": "乘杜 新闻 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "北京研究院还能注册吗?2026最新政策解答_申报_主体_经营",
-      "summary": "结合北京最新工商登记政策,目前北京地区已经暂停纯后缀研究院、研究所类主体的新设登记,这类无后缀的传统研究院执照,现阶段无法直接新注册。 针对北京...",
-      "url": "https://www.sohu.com/a/1031481746_122877783",
-      "source": "www.sohu.com",
-      "date": "2026-07-31",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
     }
   ]
 }
