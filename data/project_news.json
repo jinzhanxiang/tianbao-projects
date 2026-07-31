@@ -1,8 +1,302 @@
 {
-  "generated_at": "2026-07-31T20:22:00+08:00",
+  "generated_at": "2026-07-31T20:32:18+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 0,
-  "by_industry": {},
-  "items": []
+  "total": 12,
+  "by_industry": {
+    "动力电池": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+        "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+        "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+        "source": "ggjd.cnstock.com",
+        "date": "2026-07-31",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+        "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+        "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+        "source": "data.eastmoney.com",
+        "date": "2026-07-31",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "【 天奇股份:与星恒电源拟共同打造废旧动力电池回收再生利用闭环产业链】天奇股份公告,公司与星恒电源股份有限公司签署战略... - 雪球",
+        "summary": "2022年4月14日 - 风险提示:雪球里任何用户或者嘉宾的发言,都有其特定立场,投资决策需要建立在独立思考之上.天奇股份公告,公司与星恒电源股份有限公司签署战略合作框架...",
+        "url": "https://xueqiu.com/5124430882/217025889",
+        "source": "xueqiu.com",
+        "date": "2026-07-31",
+        "score": 5.0,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "15亿元!星恒电源获新一轮战略投资",
+        "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+        "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+        "source": "www.dldcw.cn",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      }
+    ],
+    "硬科技": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+        "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "2026-07-31",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "顺风清洁能源收购晶能光电控股权_中证网",
+        "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+        "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+        "source": "www.cs.com.cn",
+        "date": "2026-07-31",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+        "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+        "url": "https://www.sohu.com/a/15891578_114737",
+        "source": "www.sohu.com",
+        "date": "2026-07-31",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "破晓 芯 纪元丨元旭半导体全球首款玻璃基Micro-LED产品引爆显示革__财经头条__新浪财经",
+        "summary": "发布会结束后,元旭半导体MOG技术以及新一代玻璃基Micro-LED显示屏迅速 出圈 ,在显示行业内外引发热烈讨论。.MOG显示技术研发成功的背后,是元...",
+        "url": "https://t.cj.sina.com.cn/articles/view/2589663582/9a5b215e00102a2wc",
+        "source": "t.cj.sina.com.cn",
+        "date": "2026-07-31",
+        "score": 5.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+        "source": "www.thepaper.cn",
+        "date": "2026-07-31",
+        "score": 4.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "半导体照明产品应用示范工程项目(LED道路/隧道照明产品)中标入围结果公示",
+        "summary": "晶能光电(江西)有限公司.半导体照明产品应用示范工程项目(LED道路/隧道照明产品)中标入围结果公示 ...",
+        "url": "http://www.ccgp.gov.cn/cggg/zybx/zbgg/201011/t20101124_1424334.shtml",
+        "source": "www.ccgp.gov.cn",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
+        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
+        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "元旭半导体首创玻璃基像素级集成封装技术 全球首款量产MOG显示屏在津发布-新闻中心-北方网",
+        "summary": "昨日,滨海高新区企业元旭半导体对外发布了其在半导体显示领域的重大突破——企业开发出了全球首款量产采用玻璃基像素级集成封装技术的Micr...",
+        "url": "http://news.enorth.com.cn/system/2025/10/22/058830636.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "元旭半导体 新闻 2026"
+      }
+    ]
+  },
+  "items": [
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+      "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+      "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+      "source": "ggjd.cnstock.com",
+      "date": "2026-07-31",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+      "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+      "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+      "source": "data.eastmoney.com",
+      "date": "2026-07-31",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+      "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "2026-07-31",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "顺风清洁能源收购晶能光电控股权_中证网",
+      "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+      "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+      "source": "www.cs.com.cn",
+      "date": "2026-07-31",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+      "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+      "url": "https://www.sohu.com/a/15891578_114737",
+      "source": "www.sohu.com",
+      "date": "2026-07-31",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "硬科技",
+      "title": "破晓 芯 纪元丨元旭半导体全球首款玻璃基Micro-LED产品引爆显示革__财经头条__新浪财经",
+      "summary": "发布会结束后,元旭半导体MOG技术以及新一代玻璃基Micro-LED显示屏迅速 出圈 ,在显示行业内外引发热烈讨论。.MOG显示技术研发成功的背后,是元...",
+      "url": "https://t.cj.sina.com.cn/articles/view/2589663582/9a5b215e00102a2wc",
+      "source": "t.cj.sina.com.cn",
+      "date": "2026-07-31",
+      "score": 5.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "【 天奇股份:与星恒电源拟共同打造废旧动力电池回收再生利用闭环产业链】天奇股份公告,公司与星恒电源股份有限公司签署战略... - 雪球",
+      "summary": "2022年4月14日 - 风险提示:雪球里任何用户或者嘉宾的发言,都有其特定立场,投资决策需要建立在独立思考之上.天奇股份公告,公司与星恒电源股份有限公司签署战略合作框架...",
+      "url": "https://xueqiu.com/5124430882/217025889",
+      "source": "xueqiu.com",
+      "date": "2026-07-31",
+      "score": 5.0,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "硬科技",
+      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+      "source": "www.thepaper.cn",
+      "date": "2026-07-31",
+      "score": 4.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "15亿元!星恒电源获新一轮战略投资",
+      "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+      "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+      "source": "www.dldcw.cn",
+      "date": "2026-07-31",
+      "score": 4.0,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "半导体照明产品应用示范工程项目(LED道路/隧道照明产品)中标入围结果公示",
+      "summary": "晶能光电(江西)有限公司.半导体照明产品应用示范工程项目(LED道路/隧道照明产品)中标入围结果公示 ...",
+      "url": "http://www.ccgp.gov.cn/cggg/zybx/zbgg/201011/t20101124_1424334.shtml",
+      "source": "www.ccgp.gov.cn",
+      "date": "2026-07-31",
+      "score": 4.0,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "硬科技",
+      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
+      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
+      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "2026-07-31",
+      "score": 4.0,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "硬科技",
+      "title": "元旭半导体首创玻璃基像素级集成封装技术 全球首款量产MOG显示屏在津发布-新闻中心-北方网",
+      "summary": "昨日,滨海高新区企业元旭半导体对外发布了其在半导体显示领域的重大突破——企业开发出了全球首款量产采用玻璃基像素级集成封装技术的Micr...",
+      "url": "http://news.enorth.com.cn/system/2025/10/22/058830636.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "2026-07-31",
+      "score": 4.0,
+      "query": "元旭半导体 新闻 2026"
+    }
+  ]
 }
