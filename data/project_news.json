@@ -1,36 +1,208 @@
 {
-  "generated_at": "2026-07-31T20:53:01+08:00",
+  "generated_at": "2026-07-31T21:03:14+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 1,
+  "total": 8,
   "by_industry": {
-    "汽车电子": [
+    "医疗健康": [
       {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "2026年中国汽车电子行业市场深度分析:政策、市场规模、细分市场结构、产业链及竞争格局|电子产品|核心部件_网易订阅",
-        "summary": "政策、市场规模、细分市场结构、产业链及竞争格局,产业链,电子产品,市场结构,核心部件,中国汽车电子行业市",
-        "url": "https://www.163.com/dy/article/KPGK7SQ205387IEF.html",
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "医疗健康",
+        "title": "筹划重组信鸿医疗东方海洋落子大健康产业财经门户,提供专业的财经、股票、基金资讯及数据",
+        "summary": "天津信鸿医疗科技股份有限公司(下称“信鸿医疗”),后者曾在新三板挂牌,是一家体外诊断行业医学实验室综合服务商。公司此番拟以发行股份购买资产及支付...",
+        "url": "https://emwap.eastmoney.com/news/info/detail/20180625894291711",
+        "source": "emwap.eastmoney.com",
+        "date": "2026-07-31",
+        "score": 4.5,
+        "query": "信鸿医疗 新闻 2026"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "医疗健康",
+        "title": "ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损-中国质量新闻网",
+        "summary": "您当前位置: 新闻中心财经公司 ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损",
+        "url": "https://www.cqn.com.cn/cj/content/2020-04/13/content_8510131.htm",
+        "source": "www.cqn.com.cn",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "信鸿医疗 新闻 2026"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "医疗健康",
+        "title": "信鸿医疗专题报道",
+        "summary": "作为一家医疗器械行业新三板上市企业,近年来,信鸿医疗在提供体外诊断产品的同时,更加关注产品贮存、配送过程中的质量要求.信鸿医疗采用封闭...",
+        "url": "http://www.tj-joinscience.com/xinwenzixun/qiyexinwen/2017/0303/307.html",
+        "source": "www.tj-joinscience.com",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "信鸿医疗 新闻 2026"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "医疗健康",
+        "title": "信鸿医疗(832941)新闻公告_个股行情_同花顺财经",
+        "summary": "2010年1月5日 - 提供信鸿医疗(832941)五档盘口、逐笔交易等实时行情数据;汇总信鸿医疗(832941)基本资料及重大新闻、研究报告及行业资讯,解读信鸿医疗(832941)主力资金...",
+        "url": "https://stockpage.10jqka.com.cn/832941/news/",
+        "source": "stockpage.10jqka.com.cn",
+        "date": "2026-07-31",
+        "score": 4.0,
+        "query": "信鸿医疗 新闻 2026"
+      }
+    ],
+    "硬科技": [
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "北京迅巢科技申请一种电池全生命周期远程监控方法专利,提高了电池状态评估与退役决策的准确性|科技有限公司_网易订阅",
+        "summary": "国家知识产权局信息显示,北京迅巢科技有限公司申请一项名为 一种电池全生命周期远程监控方法 的专利,公开号CN121596128A,申请日期为2026年1...",
+        "url": "https://www.163.com/dy/article/KN4B7IFF0519QIKK.html",
         "source": "www.163.com",
         "date": "2026-07-31",
+        "score": 4.5,
+        "query": "迅巢 新闻 2026"
+      }
+    ],
+    "数据": [
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "数据",
+        "title": "2026年我国将在数据领域 发布不少于30项重点标准 _ 东方财富网",
+        "summary": "记者1月6日从全国数据标准化技术委员会获悉,2026年,全国数标委将聚焦数据要素价值释放,研制不少于80项国家标准和技术文件,发布不少于30项重...",
+        "url": "https://finance.eastmoney.com/a/202601073610617287.html",
+        "source": "finance.eastmoney.com",
+        "date": "2026-07-31",
         "score": 3.5,
-        "query": "汽车电子 行业 政策 2026"
+        "query": "数据 行业 政策 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "数据",
+        "title": "【政策发布】六部门发文:2026年基本建成国家数据标准体系_腾讯新闻",
+        "summary": "2024年10月10日 - 《指南》明确,到2026年底,基本建成国家数据标准体系,围绕数据流通利用基础设施、数据管理、数据服务、训练数据集、公共数据授权运营、数据确权、数据...",
+        "url": "https://news.qq.com/rain/a/20241010A04KNA00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "2026-07-31",
+        "score": 3.5,
+        "query": "数据 行业 政策 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "数据",
+        "title": "2026年我国将推出30余项数据领域国家标准_腾讯新闻",
+        "summary": "2026年1月7日 - 2026年是 数据要素价值释放年 。2025年全国数据工作会议在部署2026年工作时提到,要着力畅通数据流动和资源配置渠道,进一步推动数据 供得出、流得动、...",
+        "url": "https://news.qq.com/rain/a/20260107A0199Q00",
+        "source": "news.qq.com",
+        "date": "2026-07-31",
+        "score": 2.5,
+        "query": "数据 行业 政策 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "2026年中国汽车电子行业市场深度分析:政策、市场规模、细分市场结构、产业链及竞争格局|电子产品|核心部件_网易订阅",
-      "summary": "政策、市场规模、细分市场结构、产业链及竞争格局,产业链,电子产品,市场结构,核心部件,中国汽车电子行业市",
-      "url": "https://www.163.com/dy/article/KPGK7SQ205387IEF.html",
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "筹划重组信鸿医疗东方海洋落子大健康产业财经门户,提供专业的财经、股票、基金资讯及数据",
+      "summary": "天津信鸿医疗科技股份有限公司(下称“信鸿医疗”),后者曾在新三板挂牌,是一家体外诊断行业医学实验室综合服务商。公司此番拟以发行股份购买资产及支付...",
+      "url": "https://emwap.eastmoney.com/news/info/detail/20180625894291711",
+      "source": "emwap.eastmoney.com",
+      "date": "2026-07-31",
+      "score": 4.5,
+      "query": "信鸿医疗 新闻 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "硬科技",
+      "title": "北京迅巢科技申请一种电池全生命周期远程监控方法专利,提高了电池状态评估与退役决策的准确性|科技有限公司_网易订阅",
+      "summary": "国家知识产权局信息显示,北京迅巢科技有限公司申请一项名为 一种电池全生命周期远程监控方法 的专利,公开号CN121596128A,申请日期为2026年1...",
+      "url": "https://www.163.com/dy/article/KN4B7IFF0519QIKK.html",
       "source": "www.163.com",
       "date": "2026-07-31",
+      "score": 4.5,
+      "query": "迅巢 新闻 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损-中国质量新闻网",
+      "summary": "您当前位置: 新闻中心财经公司 ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损",
+      "url": "https://www.cqn.com.cn/cj/content/2020-04/13/content_8510131.htm",
+      "source": "www.cqn.com.cn",
+      "date": "2026-07-31",
+      "score": 4.0,
+      "query": "信鸿医疗 新闻 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "信鸿医疗专题报道",
+      "summary": "作为一家医疗器械行业新三板上市企业,近年来,信鸿医疗在提供体外诊断产品的同时,更加关注产品贮存、配送过程中的质量要求.信鸿医疗采用封闭...",
+      "url": "http://www.tj-joinscience.com/xinwenzixun/qiyexinwen/2017/0303/307.html",
+      "source": "www.tj-joinscience.com",
+      "date": "2026-07-31",
+      "score": 4.0,
+      "query": "信鸿医疗 新闻 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "信鸿医疗(832941)新闻公告_个股行情_同花顺财经",
+      "summary": "2010年1月5日 - 提供信鸿医疗(832941)五档盘口、逐笔交易等实时行情数据;汇总信鸿医疗(832941)基本资料及重大新闻、研究报告及行业资讯,解读信鸿医疗(832941)主力资金...",
+      "url": "https://stockpage.10jqka.com.cn/832941/news/",
+      "source": "stockpage.10jqka.com.cn",
+      "date": "2026-07-31",
+      "score": 4.0,
+      "query": "信鸿医疗 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "数据",
+      "title": "2026年我国将在数据领域 发布不少于30项重点标准 _ 东方财富网",
+      "summary": "记者1月6日从全国数据标准化技术委员会获悉,2026年,全国数标委将聚焦数据要素价值释放,研制不少于80项国家标准和技术文件,发布不少于30项重...",
+      "url": "https://finance.eastmoney.com/a/202601073610617287.html",
+      "source": "finance.eastmoney.com",
+      "date": "2026-07-31",
       "score": 3.5,
-      "query": "汽车电子 行业 政策 2026"
+      "query": "数据 行业 政策 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "数据",
+      "title": "【政策发布】六部门发文:2026年基本建成国家数据标准体系_腾讯新闻",
+      "summary": "2024年10月10日 - 《指南》明确,到2026年底,基本建成国家数据标准体系,围绕数据流通利用基础设施、数据管理、数据服务、训练数据集、公共数据授权运营、数据确权、数据...",
+      "url": "https://news.qq.com/rain/a/20241010A04KNA00?media_id&suid",
+      "source": "news.qq.com",
+      "date": "2026-07-31",
+      "score": 3.5,
+      "query": "数据 行业 政策 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "数据",
+      "title": "2026年我国将推出30余项数据领域国家标准_腾讯新闻",
+      "summary": "2026年1月7日 - 2026年是 数据要素价值释放年 。2025年全国数据工作会议在部署2026年工作时提到,要着力畅通数据流动和资源配置渠道,进一步推动数据 供得出、流得动、...",
+      "url": "https://news.qq.com/rain/a/20260107A0199Q00",
+      "source": "news.qq.com",
+      "date": "2026-07-31",
+      "score": 2.5,
+      "query": "数据 行业 政策 2026"
     }
   ]
 }
