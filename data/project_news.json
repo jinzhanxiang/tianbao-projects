@@ -1,108 +1,86 @@
 {
-  "generated_at": "2026-08-01T02:41:15+08:00",
+  "generated_at": "2026-08-01T02:48:53+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 4,
+  "total": 3,
   "by_industry": {
-    "医疗健康": [
+    "硬科技": [
       {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "筹划重组信鸿医疗东方海洋落子大健康产业财经门户,提供专业的财经、股票、基金资讯及数据",
-        "summary": "天津信鸿医疗科技股份有限公司(下称“信鸿医疗”),后者曾在新三板挂牌,是一家体外诊断行业医学实验室综合服务商。公司此番拟以发行股份购买资产及支付...",
-        "url": "https://emwap.eastmoney.com/news/info/detail/20180625894291711",
-        "source": "emwap.eastmoney.com",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "深圳市平板显示行业协会 - 企查查",
+        "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+        "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+        "source": "www.qcc.com",
         "date": "2026-08-01",
-        "score": 4.5,
-        "query": "信鸿医疗 新闻 2026"
+        "score": 2.5,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      }
+    ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "北京研究院还能注册吗?2026最新政策解答_申报_主体_经营",
+        "summary": "结合北京最新工商登记政策,目前北京地区已经暂停纯后缀研究院、研究所类主体的新设登记,这类无后缀的传统研究院执照,现阶段无法直接新注册。 针对北京...",
+        "url": "https://www.sohu.com/a/1031481746_122877783",
+        "source": "www.sohu.com",
+        "date": "2026-08-01",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
       },
       {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损-中国质量新闻网",
-        "summary": "您当前位置: 新闻中心财经公司 ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损",
-        "url": "https://www.cqn.com.cn/cj/content/2020-04/13/content_8510131.htm",
-        "source": "www.cqn.com.cn",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "关于2025-2026年小麦最低收购价有关政策的通知",
+        "summary": "国粮粮〔2024〕204号 各省、自治区、直辖市发展改革委、粮食和物资储备局(粮食局)、财政厅(局)、农业农村(农牧)厅(局、委),中国农业发展银行各省级分...",
+        "url": "https://www.lswz.gov.cn/html/ywpd/lstk/2024-09/24/content_283622.shtml",
+        "source": "www.lswz.gov.cn",
         "date": "2026-08-01",
-        "score": 4.0,
-        "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "信鸿医疗专题报道",
-        "summary": "作为一家医疗器械行业新三板上市企业,近年来,信鸿医疗在提供体外诊断产品的同时,更加关注产品贮存、配送过程中的质量要求.信鸿医疗采用封闭...",
-        "url": "http://www.tj-joinscience.com/xinwenzixun/qiyexinwen/2017/0303/307.html",
-        "source": "www.tj-joinscience.com",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "信鸿医疗(832941)新闻公告_个股行情_同花顺财经",
-        "summary": "2010年1月5日 - 提供信鸿医疗(832941)五档盘口、逐笔交易等实时行情数据;汇总信鸿医疗(832941)基本资料及重大新闻、研究报告及行业资讯,解读信鸿医疗(832941)主力资金...",
-        "url": "https://stockpage.10jqka.com.cn/832941/news/",
-        "source": "stockpage.10jqka.com.cn",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "信鸿医疗 新闻 2026"
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "筹划重组信鸿医疗东方海洋落子大健康产业财经门户,提供专业的财经、股票、基金资讯及数据",
-      "summary": "天津信鸿医疗科技股份有限公司(下称“信鸿医疗”),后者曾在新三板挂牌,是一家体外诊断行业医学实验室综合服务商。公司此番拟以发行股份购买资产及支付...",
-      "url": "https://emwap.eastmoney.com/news/info/detail/20180625894291711",
-      "source": "emwap.eastmoney.com",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "硬科技",
+      "title": "深圳市平板显示行业协会 - 企查查",
+      "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+      "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+      "source": "www.qcc.com",
       "date": "2026-08-01",
-      "score": 4.5,
-      "query": "信鸿医疗 新闻 2026"
+      "score": 2.5,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损-中国质量新闻网",
-      "summary": "您当前位置: 新闻中心财经公司 ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损",
-      "url": "https://www.cqn.com.cn/cj/content/2020-04/13/content_8510131.htm",
-      "source": "www.cqn.com.cn",
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "北京研究院还能注册吗?2026最新政策解答_申报_主体_经营",
+      "summary": "结合北京最新工商登记政策,目前北京地区已经暂停纯后缀研究院、研究所类主体的新设登记,这类无后缀的传统研究院执照,现阶段无法直接新注册。 针对北京...",
+      "url": "https://www.sohu.com/a/1031481746_122877783",
+      "source": "www.sohu.com",
       "date": "2026-08-01",
-      "score": 4.0,
-      "query": "信鸿医疗 新闻 2026"
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "信鸿医疗专题报道",
-      "summary": "作为一家医疗器械行业新三板上市企业,近年来,信鸿医疗在提供体外诊断产品的同时,更加关注产品贮存、配送过程中的质量要求.信鸿医疗采用封闭...",
-      "url": "http://www.tj-joinscience.com/xinwenzixun/qiyexinwen/2017/0303/307.html",
-      "source": "www.tj-joinscience.com",
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "关于2025-2026年小麦最低收购价有关政策的通知",
+      "summary": "国粮粮〔2024〕204号 各省、自治区、直辖市发展改革委、粮食和物资储备局(粮食局)、财政厅(局)、农业农村(农牧)厅(局、委),中国农业发展银行各省级分...",
+      "url": "https://www.lswz.gov.cn/html/ywpd/lstk/2024-09/24/content_283622.shtml",
+      "source": "www.lswz.gov.cn",
       "date": "2026-08-01",
-      "score": 4.0,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "信鸿医疗(832941)新闻公告_个股行情_同花顺财经",
-      "summary": "2010年1月5日 - 提供信鸿医疗(832941)五档盘口、逐笔交易等实时行情数据;汇总信鸿医疗(832941)基本资料及重大新闻、研究报告及行业资讯,解读信鸿医疗(832941)主力资金...",
-      "url": "https://stockpage.10jqka.com.cn/832941/news/",
-      "source": "stockpage.10jqka.com.cn",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "信鸿医疗 新闻 2026"
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
     }
   ]
 }
