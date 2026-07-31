@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T15:17:40+08:00",
+  "generated_at": "2026-07-31T16:16:19+08:00",
   "source": "project_ledger.csv (v3 schema)",
-  "rows": 21,
+  "rows": 22,
   "stage_v3_enum": [
     "在推重点",
     "储备",
@@ -600,6 +600,34 @@
       "notes": "V25.1.18 控股并购可行性研究（天津海特飞机工程 MRO / A321 客改货）",
       "pending_tasks": "stage_v3 待主公确认（暂置储备）",
       "archived": false
+    },
+    {
+      "code": "qingdao-heli",
+      "name_cn": "青岛直升机",
+      "name_full": "青岛直升机有限公司 · 67% 控股收购（未上市）",
+      "archived_reason": "",
+      "category": "重大并购",
+      "stage": "立项",
+      "stage_v3": "储备",
+      "iss": "未上市",
+      "industry": "低空经济·通用航空",
+      "online_url": "",
+      "dashboard_url": "",
+      "online_index": "",
+      "repo": "tianbao-projects",
+      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/青岛直升机收购/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 35,
+      "contacts": "天保控股投资部",
+      "brief_md": "青岛直升机（低空经济·通用航空）· 总办会立项 · 67% 控股收购",
+      "estimation": "",
+      "downgrade_reason": "",
+      "deploy_date": "2026-07-31",
+      "last_update": "2026-07-31",
+      "notes": "V25.1.8 Type C 汇总报告 V1（100,101 bytes · 25 章）· 下一步中介机构进场",
+      "pending_tasks": "stage_v3 待主公确认（总办会已立项，暂置储备）",
+      "archived": false
     }
   ],
   "industries": {
@@ -838,6 +866,20 @@
         "name_cn": "海特高新",
         "count": 1
       }
+    ],
+    "低空经济": [
+      {
+        "code": "qingdao-heli",
+        "name_cn": "青岛直升机",
+        "count": 1
+      }
+    ],
+    "通用航空": [
+      {
+        "code": "qingdao-heli",
+        "name_cn": "青岛直升机",
+        "count": 1
+      }
     ]
   },
   "stage_matrix": {
@@ -863,7 +905,8 @@
         "xinhong",
         "xunchao",
         "innoshine",
-        "sumai"
+        "sumai",
+        "qingdao-heli"
       ],
       "上市": [
         "acquisition-listed",
