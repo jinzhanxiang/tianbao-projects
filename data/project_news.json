@@ -1,84 +1,108 @@
 {
-  "generated_at": "2026-08-01T02:17:07+08:00",
+  "generated_at": "2026-08-01T02:25:07+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 3,
+  "total": 4,
   "by_industry": {
-    "美国中概股": [
+    "卫星遥感": [
       {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2%_区间_战略_公司",
-        "summary": "经济观察网 High-Trend International Group近期股价大幅波动,战略转型锂资源运输业务,2025财年营收同比近翻倍。截至6月5日,股价(2.90美元)...",
-        "url": "https://www.sohu.com/a/1033504487_122014422",
-        "source": "www.sohu.com",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
+        "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
+        "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
+        "source": "caifuhao.eastmoney.com",
         "date": "2026-08-01",
         "score": 5.5,
-        "query": "\"High-Trend International\" 公告 签约 中标 投资"
+        "query": "航天宏图 新闻 2026"
       },
       {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
-        "summary": "",
-        "url": "https://quote.eastmoney.com/us/HTCO.html",
-        "source": "quote.eastmoney.com",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图2026年卫星发射时间节点全解析一、核心发射计划总览截至2026年1月1_财富号_东方财富网",
+        "summary": "第四批 PIESAT-2 系列后续卫星 8-10 颗 2026 年 Q1 末 - Q2 初 高分宽幅成像,星上智能处理 同轨 90 等相位编队,重访周期最快 6 小时 第五批 PI...",
+        "url": "https://caifuhao.eastmoney.com/news/20260113230128785257660",
+        "source": "caifuhao.eastmoney.com",
         "date": "2026-08-01",
         "score": 4.5,
-        "query": "\"High-Trend International\" 公告 签约 中标 投资"
+        "query": "航天宏图 新闻 2026"
       },
       {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "[美股财报]:High-Trend International Group-A 2025年年度报告和过渡报告 - 发现报告",
-        "summary": "2025年2月27日 - 财报/招股书/报告详情/High-Trend International Group-A 2025年年度报告和过渡报告 2025-02-27 美股财报张***你可能感兴趣 WF International Ltd ",
-        "url": "https://www.fxbaogao.com/detail/4712677",
-        "source": "www.fxbaogao.com",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+        "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+        "url": "https://m.jiemian.com/article/14365628_sina.html",
+        "source": "m.jiemian.com",
         "date": "2026-08-01",
-        "score": 3.0,
-        "query": "\"High-Trend International\" 公告 签约 中标 投资"
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图:关于召开2026年第一次临时股东会的通知-慧博投研资讯",
+        "summary": "2026年3月2日 - 1.证券代码:688066证券简称:航天宏图公告编号:2026-011债券代码:118027债券简称:宏图转债航天宏图信息技术股份有限公司关于召开2026年第一次临时股东...",
+        "url": "https://www.hibor.com.cn/repinfodetail_4926383.html",
+        "source": "www.hibor.com.cn",
+        "date": "2026-08-01",
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2%_区间_战略_公司",
-      "summary": "经济观察网 High-Trend International Group近期股价大幅波动,战略转型锂资源运输业务,2025财年营收同比近翻倍。截至6月5日,股价(2.90美元)...",
-      "url": "https://www.sohu.com/a/1033504487_122014422",
-      "source": "www.sohu.com",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
+      "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
+      "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
+      "source": "caifuhao.eastmoney.com",
       "date": "2026-08-01",
       "score": 5.5,
-      "query": "\"High-Trend International\" 公告 签约 中标 投资"
+      "query": "航天宏图 新闻 2026"
     },
     {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
-      "summary": "",
-      "url": "https://quote.eastmoney.com/us/HTCO.html",
-      "source": "quote.eastmoney.com",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图2026年卫星发射时间节点全解析一、核心发射计划总览截至2026年1月1_财富号_东方财富网",
+      "summary": "第四批 PIESAT-2 系列后续卫星 8-10 颗 2026 年 Q1 末 - Q2 初 高分宽幅成像,星上智能处理 同轨 90 等相位编队,重访周期最快 6 小时 第五批 PI...",
+      "url": "https://caifuhao.eastmoney.com/news/20260113230128785257660",
+      "source": "caifuhao.eastmoney.com",
       "date": "2026-08-01",
       "score": 4.5,
-      "query": "\"High-Trend International\" 公告 签约 中标 投资"
+      "query": "航天宏图 新闻 2026"
     },
     {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "[美股财报]:High-Trend International Group-A 2025年年度报告和过渡报告 - 发现报告",
-      "summary": "2025年2月27日 - 财报/招股书/报告详情/High-Trend International Group-A 2025年年度报告和过渡报告 2025-02-27 美股财报张***你可能感兴趣 WF International Ltd ",
-      "url": "https://www.fxbaogao.com/detail/4712677",
-      "source": "www.fxbaogao.com",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+      "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+      "url": "https://m.jiemian.com/article/14365628_sina.html",
+      "source": "m.jiemian.com",
       "date": "2026-08-01",
-      "score": 3.0,
-      "query": "\"High-Trend International\" 公告 签约 中标 投资"
+      "score": 4.0,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图:关于召开2026年第一次临时股东会的通知-慧博投研资讯",
+      "summary": "2026年3月2日 - 1.证券代码:688066证券简称:航天宏图公告编号:2026-011债券代码:118027债券简称:宏图转债航天宏图信息技术股份有限公司关于召开2026年第一次临时股东...",
+      "url": "https://www.hibor.com.cn/repinfodetail_4926383.html",
+      "source": "www.hibor.com.cn",
+      "date": "2026-08-01",
+      "score": 4.0,
+      "query": "航天宏图 新闻 2026"
     }
   ]
 }
