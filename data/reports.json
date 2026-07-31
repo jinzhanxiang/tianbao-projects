@@ -1,8 +1,22 @@
 {
-  "generated_at": "2026-07-30T14:30:44",
-  "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects) + manual HTML",
-  "total": 52,
+  "generated_at": "2026-07-31T15:17:09+08:00",
+  "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
+  "total": 58,
   "by_code": {
+    "chuangdu": [
+      {
+        "code": "chuangdu",
+        "date": "2026-07-30",
+        "category": "上会材料",
+        "title": "乘杜科技 × 天保控股 · 数据空间与物理AI合作项目 · 决策模式投资可行性研究报告 V26（乘杜科技/神悦铸造均未上市）",
+        "file": "乘杜科技_决策模式报告_V26.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/乘杜科技/output/乘杜科技_决策模式报告_V26.html",
+        "size": 121658,
+        "mtime": "2026-07-30T08:20:42+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v25_1_14_p2_a1a3_decision.html"
+      }
+    ],
     "innoshine": [
       {
         "code": "innoshine",
@@ -14,7 +28,7 @@
         "size": 12890,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -26,7 +40,7 @@
         "size": 31562,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -38,7 +52,7 @@
         "size": 143191,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -50,7 +64,7 @@
         "size": 14896,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -62,7 +76,7 @@
         "size": 21845,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       }
     ],
     "huadong-sk": [
@@ -71,10 +85,10 @@
         "date": "2026-07-22",
         "category": "上会材料",
         "title": "华东数控（002248.SZ）并购及资本运作平台可行性研究",
-        "file": "华东数控_决策模式_v34210_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华东数控-资本运作平台/output/华东数控_决策模式_v34210_20260722.md",
-        "size": 18852,
-        "mtime": "2026-07-22T11:44:28+08:00",
+        "file": "华东数控_决策模式_v34210_20260722.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华东数控-资本运作平台/output/华东数控_决策模式_v34210_20260722.html",
+        "size": 1539976,
+        "mtime": "2026-07-22T11:54:41+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huadong/report_main.html"
       }
@@ -84,16 +98,29 @@
         "code": "huayt",
         "date": "2026-07-19",
         "category": "商业研究",
-        "title": "惠州市华阳集团股份有限公司（002906.SZ）投资可行性研究报告",
-        "file": "华阳集团_投资可行性分析报告_v2_20260719.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华阳集团/output/华阳集团_投资可行性分析报告_v2_20260719.md",
-        "size": 132989,
-        "mtime": "2026-07-19T19:59:44+08:00",
+        "title": "华阳集团(002906.SZ)投资可行性研究报告 V2",
+        "file": "华阳集团_投资可行性分析报告_v2_20260719.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华阳集团/output/华阳集团_投资可行性分析报告_v2_20260719.html",
+        "size": 87894,
+        "mtime": "2026-07-19T19:34:37+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huayt/report_main.html"
       }
     ],
     "tianbao-jijian": [
+      {
+        "code": "tianbao-jijian",
+        "date": "2026-07-13",
+        "category": "商业研究",
+        "title": "天保基建（000965.SZ）独立深度尽调报告 V1",
+        "file": "天保基建_V1_final.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天保基建/output/天保基建_V1_final.html",
+        "size": 1000072,
+        "mtime": "2026-07-13T16:36:53+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
+        "_archived": true
+      },
       {
         "code": "tianbao-jijian",
         "date": "2026-07-13",
@@ -104,8 +131,22 @@
         "size": 45306,
         "mtime": "2026-07-13T16:35:51+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天保基建/output/天保基建_V1_独立深度尽调_20260713.md",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
         "_archived": true
+      }
+    ],
+    "aodian": [
+      {
+        "code": "aodian",
+        "date": "2026-07-27",
+        "category": "上会材料",
+        "title": "奥联电子（300585.SZ）投资可行性研究报告 · 决策模式 V25.1.5i · 2026-07-27",
+        "file": "奥联电子_决策模式_V25_20260727.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/奥联电子/output/奥联电子_决策模式_V25_20260727.html",
+        "size": 130512,
+        "mtime": "2026-07-27T12:07:40+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/aodian_v25_decision.html"
       }
     ],
     "hongyuan": [
@@ -119,7 +160,71 @@
         "size": 29454,
         "mtime": "2026-07-23T15:47:43+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/hongyuan-report/report_main.html"
+        "url": "https://jinzhanxiang.github.io/hongyuan-report/"
+      },
+      {
+        "code": "hongyuan",
+        "date": "2026-07-23",
+        "category": "上会材料",
+        "title": "联通云（山西）IDC 项目 V4.1 + 决策模式 v3.51",
+        "file": "宏远创信_主报告_V6_20260723_prechart.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/宏远创信/output/宏远创信_主报告_V6_20260723_prechart.html",
+        "size": 857268,
+        "mtime": "2026-07-23T18:20:58+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/hongyuan-report/"
+      }
+    ],
+    "jngd": [
+      {
+        "code": "jngd",
+        "date": "2026-07-03",
+        "category": "商业研究",
+        "title": "晶能光电商业尽调报告",
+        "file": "jneng_photoelectric_商业尽调报告_v1_20260703.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md",
+        "size": 17055,
+        "mtime": "2026-07-03T15:47:25+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
+      },
+      {
+        "code": "jngd",
+        "date": "2026-07-22",
+        "category": "上会材料",
+        "title": "联通云（山西）IDC 项目 V4.1 + 决策模式 v3.51",
+        "file": "晶能光电_V18_v351基线_章节锚点_6图智能_3优化_20260722.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/晶能光电/output/晶能光电_V18_v351基线_章节锚点_6图智能_3优化_20260722.html",
+        "size": 779119,
+        "mtime": "2026-07-23T04:42:14+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
+      },
+      {
+        "code": "jngd",
+        "date": "2026-07-03",
+        "category": "商业研究",
+        "title": "晶能光电尽调报告 — 横纵分析法（HV-Analysis）",
+        "file": "jneng_hv_analysis_20260703.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_hv_analysis_20260703.md",
+        "size": 21768,
+        "mtime": "2026-07-03T22:00:58+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
+      }
+    ],
+    "kedu": [
+      {
+        "code": "kedu",
+        "date": "2026-07-30",
+        "category": "商业研究",
+        "title": "柯渡医学（未上市 · 拟控股并购）投资可行性研究报告 V3.0",
+        "file": "柯渡医学_投资可行性研究报告_V3.1_20260730.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/柯渡医学/output/柯渡医学_投资可行性研究报告_V3.1_20260730.html",
+        "size": 150900,
+        "mtime": "2026-07-30T17:30:51+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/kedu-report/report_main.html"
       }
     ],
     "huitian": [
@@ -160,6 +265,20 @@
         "url": "https://jinzhanxiang.github.io/huitian-network-report/huitian_cooperation.html"
       }
     ],
+    "haite": [
+      {
+        "code": "haite",
+        "date": "2026-07-31",
+        "category": "商业研究",
+        "title": "天津海特飞机工程有限公司（未上市 · 海特高新 A 股 100% 控股子公司）控股并购可行性研究报告 V25.1.18",
+        "file": "海特_天津海特飞机工程_控股并购可行性研究_V25.1.18.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特/output/海特_天津海特飞机工程_控股并购可行性研究_V25.1.18.html",
+        "size": 105073,
+        "mtime": "2026-07-31T12:04:05+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/haite_v25_1_18_decision.html"
+      }
+    ],
     "unicom-sx": [
       {
         "code": "unicom-sx",
@@ -171,7 +290,61 @@
         "size": 60155,
         "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/联通云山西_V3_prechart_20260725.html"
+      },
+      {
+        "code": "unicom-sx",
+        "date": "2026-07-30",
+        "category": "上会材料",
+        "title": "联通云（山西）数据中心",
+        "file": "联通云山西_决策模式_v13_TypeB_完整版.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v13_TypeB_完整版.html",
+        "size": 124798,
+        "mtime": "2026-07-30T18:23:44+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/联通云山西_V3_prechart_20260725.html"
+      }
+    ],
+    "hangtianhongtu": [
+      {
+        "code": "hangtianhongtu",
+        "date": "2026-07-30",
+        "category": "商业研究",
+        "title": "航天宏图（688066.SH · 破产重整中）投资可行性研究 V25.1.14",
+        "file": "航天宏图_破产重整投资可行性_V25.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天宏图/output/航天宏图_破产重整投资可行性_V25.html",
+        "size": 107568,
+        "mtime": "2026-07-30T10:52:05+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html"
+      }
+    ],
+    "sumai": [
+      {
+        "code": "sumai",
+        "date": "2026-07-29",
+        "category": "上会材料",
+        "title": "速迈医疗（未上市 · 科创板拟申报）研究报告 V25.1.5z · 决策模式",
+        "file": "速迈医疗_决策模式_V25.1.5z_20260729.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/速迈医疗/output/速迈医疗_决策模式_V25.1.5z_20260729.html",
+        "size": 108502,
+        "mtime": "2026-07-29T07:51:40+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/sumai/sumai_v25_1_5z_decision.html"
+      }
+    ],
+    "青岛直升机收购": [
+      {
+        "code": "青岛直升机收购",
+        "date": "2026-07-29",
+        "category": "未分类",
+        "title": "天保控股收购青岛直升机公司（未上市）67%股权项目 · 汇总报告 V1 · 国资版",
+        "file": "青岛直升机收购_汇总报告_V1_20260729.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/青岛直升机收购/output/青岛直升机收购_汇总报告_V1_20260729.html",
+        "size": 100101,
+        "mtime": "2026-07-29T11:18:28+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/青岛直升机收购/output/青岛直升机收购_汇总报告_V1_20260729.html"
       }
     ],
     "htco-us": [
@@ -356,7 +529,7 @@
         "size": 12857,
         "mtime": "2026-06-11T18:29:41+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -368,7 +541,7 @@
         "size": 10472,
         "mtime": "2026-06-11T18:32:34+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -380,7 +553,7 @@
         "size": 12650,
         "mtime": "2026-06-11T18:08:25+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -392,7 +565,7 @@
         "size": 9710,
         "mtime": "2026-06-11T18:05:34+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -404,7 +577,7 @@
         "size": 6946,
         "mtime": "2026-06-02T17:48:15+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -491,32 +664,6 @@
         "url": "https://jinzhanxiang.github.io/xingheng-report/appendix_a.html"
       }
     ],
-    "jngd": [
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
-        "title": "晶能光电商业尽调报告",
-        "file": "jneng_photoelectric_商业尽调报告_v1_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_photoelectric_商业尽调报告_v1_20260703.md",
-        "size": 17055,
-        "mtime": "2026-07-03T15:47:25+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
-      },
-      {
-        "code": "jngd",
-        "date": "2026-07-03",
-        "category": "商业研究",
-        "title": "晶能光电尽调报告 — 横纵分析法（HV-Analysis）",
-        "file": "jneng_hv_analysis_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/jneng_hv_analysis_20260703.md",
-        "size": 21768,
-        "mtime": "2026-07-03T22:00:58+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
-      }
-    ],
     "acquisition-listed": [
       {
         "code": "acquisition-listed",
@@ -555,138 +702,111 @@
         "url": "https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html"
       }
     ],
-    "aodian": [
-      {
-        "code": "aodian",
-        "date": "2026-07-27",
-        "category": "决策模式",
-        "title": "奥联电子（300585.SZ）投资可行性研究报告 · 决策模式 V25",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/aodian_v25_decision.html",
-        "file": "奥联电子_决策模式_V25_20260727.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/奥联电子/output/奥联电子_决策模式_V25_20260727.html",
-        "size": 130512,
-        "mtime": "2026-07-27T12:07:00+08:00",
-        "version": "V25.1.5i",
-        "version_md": "V25.1.5i",
-        "industry": "汽车电子",
-        "stage": "在推重点",
-        "summary": "决策模式 25 章完整 · 6 张图表盲点全部修复 · 5 校验器 + Playwright 视觉全 PASS"
-      }
-    ],
-    "sumai": [
-      {
-        "code": "sumai",
-        "date": "2026-07-28",
-        "category": "决策模式",
-        "title": "速迈医疗 V25.1.5z 决策模式报告",
-        "file": "sumai_v25_1_5z_decision.html",
-        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/sumai/sumai_v25_1_5z_decision.html",
-        "size": 108502,
-        "mtime": "2026-07-28T20:15:00+08:00",
-        "summary": "V25.1.5z 决策模式报告 · hv-analysis V25.1.11.1 升级后待 V15 重跑验证",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/sumai/sumai_v25_1_5z_decision.html"
-      }
-    ],
-    "kedu": [
-      {
-        "code": "kedu",
-        "date": "2026-06-26",
-        "category": "商业尽调",
-        "title": "上海柯渡医学 商业尽调分析报告",
-        "file": "report_main.html",
-        "path": "https://jinzhanxiang.github.io/kedu-report/report_main.html",
-        "size": 41953,
-        "mtime": "2026-06-26T19:00:00+08:00",
-        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
-        "url": "https://jinzhanxiang.github.io/kedu-report/report_main.html"
-      }
-    ],
     "zhongfu": [
       {
         "code": "zhongfu",
-        "date": "2026-07-21",
-        "category": "商业尽调",
-        "title": "中复神鹰碳纤维芯电缆项目 商业尽调分析报告",
-        "file": "report_main.html",
-        "path": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html",
-        "size": 53562,
-        "mtime": "2026-07-21T19:00:00+08:00",
-        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
-        "url": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html"
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "中复神鹰碳纤维芯电缆项目",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html",
+        "_from_ledger": true
       }
     ],
     "xinhong": [
       {
         "code": "xinhong",
-        "date": "2026-07-25",
-        "category": "商业尽调",
-        "title": "天津信鸿医疗科技股份有限公司 商业尽调分析报告",
-        "file": "report_main.html",
-        "path": "https://jinzhanxiang.github.io/xinhong-report/report_main.html",
-        "size": 37700,
-        "mtime": "2026-07-25T19:00:00+08:00",
-        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
-        "url": "https://jinzhanxiang.github.io/xinhong-report/report_main.html"
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "天津信鸿医疗科技股份有限公司",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/xinhong-report/report_main.html",
+        "_from_ledger": true
       }
     ],
     "xunchao": [
       {
         "code": "xunchao",
-        "date": "2026-07-25",
-        "category": "商业尽调",
-        "title": "迅巢换电（XCHS Energon）商业尽调分析报告",
-        "file": "report_main.html",
-        "path": "https://jinzhanxiang.github.io/xunchao-report/report_main.html",
-        "size": 40571,
-        "mtime": "2026-07-25T19:00:00+08:00",
-        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
-        "url": "https://jinzhanxiang.github.io/xunchao-report/report_main.html"
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "迅巢换电（XCHS Energon）",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/xunchao-report/report_main.html",
+        "_from_ledger": true
       }
     ],
     "unicom-idc": [
       {
         "code": "unicom-idc",
         "date": "2026-07-29",
-        "category": "商业尽调",
-        "title": "联通云数据中心 IDC 项目 商业尽调分析报告",
-        "file": "report_main.html",
-        "path": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
-        "size": 25218,
-        "mtime": "2026-07-29T19:00:00+08:00",
-        "summary": "V25.1.12 验证阶段商业尽调报告 · 实际部署健康 · 此前元数据 rc=0 是错位",
-        "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html"
-      }
-    ],
-    "chuangdu": [
-      {
-        "code": "chuangdu",
-        "date": "2026-07-29",
-        "category": "决策模式",
-        "title": "乘杜科技 V25.1.13 决策模式研究报告（Type B 合作模式 + 投资方案）",
-        "file": "chuangdu_v25_1_13_decision.html",
-        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/chuangdu/chuangdu_v25_1_13_decision.html",
-        "size": 100946,
-        "mtime": "2026-07-29T20:41:30",
-        "summary": "V25.1.13 决策模式报告 · 100,946 bytes · 5 FATAL 全过 · 1 咨询项（HC-34 IRR 现金流序列） · V25.1.14 skill 优化已落（chain_compliance .progress-checkpoint 白名单 + SKILL.md 部署前 grep 清单 + financial.md §23 HC-34 两种合规写法）",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v25_1_13_decision.html"
-      }
-    ],
-    "hangtianhongtu": [
-      {
-        "code": "hangtianhongtu",
-        "date": "2026-07-30",
-        "category": "决策模式",
-        "title": "航天宏图（688066.SH）破产重整投资可行性 V25 决策研究报告（Type C · V25.1.14 P2 A1+A3 强化）",
-        "file": "hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
-        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
-        "size": 107568,
-        "mtime": "2026-07-30T14:29:20.285577",
-        "summary": "V25.1.14 P2 A1+A3 强化 · Type C 决策模式 · 107,568 bytes · 5 FATAL 全过 · 8 校验器 PASS · 主体识别准确（688066.SH/PIESAT/航天宏图信息技术股份有限公司三标签齐全） · §1 含客户痛点+价值主张+差异化（Type C 适配） · 7 chart-figure + 7 解读卡 · STORM §15 完整 · framework 跨 Type A/B/C 普适性首次实证（与乘杜 V26 对称验证）",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html"
+        "category": "商业研究",
+        "title": "四川数据中心 IDC 项目",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
+        "_from_ledger": true,
+        "_archived": true
       }
     ]
   },
   "by_industry": {
+    "工业": [
+      {
+        "code": "chuangdu",
+        "date": "2026-07-30",
+        "category": "上会材料",
+        "title": "乘杜科技 × 天保控股 · 数据空间与物理AI合作项目 · 决策模式投资可行性研究报告 V26（乘杜科技/神悦铸造均未上市）",
+        "file": "乘杜科技_决策模式报告_V26.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/乘杜科技/output/乘杜科技_决策模式报告_V26.html",
+        "size": 121658,
+        "mtime": "2026-07-30T08:20:42+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v25_1_14_p2_a1a3_decision.html"
+      }
+    ],
+    "AI": [
+      {
+        "code": "chuangdu",
+        "date": "2026-07-30",
+        "category": "上会材料",
+        "title": "乘杜科技 × 天保控股 · 数据空间与物理AI合作项目 · 决策模式投资可行性研究报告 V26（乘杜科技/神悦铸造均未上市）",
+        "file": "乘杜科技_决策模式报告_V26.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/乘杜科技/output/乘杜科技_决策模式报告_V26.html",
+        "size": 121658,
+        "mtime": "2026-07-30T08:20:42+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v25_1_14_p2_a1a3_decision.html"
+      }
+    ],
+    "数据要素": [
+      {
+        "code": "chuangdu",
+        "date": "2026-07-30",
+        "category": "上会材料",
+        "title": "乘杜科技 × 天保控股 · 数据空间与物理AI合作项目 · 决策模式投资可行性研究报告 V26（乘杜科技/神悦铸造均未上市）",
+        "file": "乘杜科技_决策模式报告_V26.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/乘杜科技/output/乘杜科技_决策模式报告_V26.html",
+        "size": 121658,
+        "mtime": "2026-07-30T08:20:42+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/chuangdu/chuangdu_v25_1_14_p2_a1a3_decision.html"
+      }
+    ],
     "硬科技": [
       {
         "code": "innoshine",
@@ -698,7 +818,7 @@
         "size": 12890,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -710,7 +830,7 @@
         "size": 31562,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -722,7 +842,7 @@
         "size": 143191,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -734,7 +854,7 @@
         "size": 14896,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -746,17 +866,17 @@
         "size": 21845,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "huadong-sk",
         "date": "2026-07-22",
         "category": "上会材料",
         "title": "华东数控（002248.SZ）并购及资本运作平台可行性研究",
-        "file": "华东数控_决策模式_v34210_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华东数控-资本运作平台/output/华东数控_决策模式_v34210_20260722.md",
-        "size": 18852,
-        "mtime": "2026-07-22T11:44:28+08:00",
+        "file": "华东数控_决策模式_v34210_20260722.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华东数控-资本运作平台/output/华东数控_决策模式_v34210_20260722.html",
+        "size": 1539976,
+        "mtime": "2026-07-22T11:54:41+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huadong/report_main.html"
       },
@@ -764,11 +884,11 @@
         "code": "huayt",
         "date": "2026-07-19",
         "category": "商业研究",
-        "title": "惠州市华阳集团股份有限公司（002906.SZ）投资可行性研究报告",
-        "file": "华阳集团_投资可行性分析报告_v2_20260719.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华阳集团/output/华阳集团_投资可行性分析报告_v2_20260719.md",
-        "size": 132989,
-        "mtime": "2026-07-19T19:59:44+08:00",
+        "title": "华阳集团(002906.SZ)投资可行性研究报告 V2",
+        "file": "华阳集团_投资可行性分析报告_v2_20260719.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华阳集团/output/华阳集团_投资可行性分析报告_v2_20260719.html",
+        "size": 87894,
+        "mtime": "2026-07-19T19:34:37+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huayt/report_main.html"
       },
@@ -782,7 +902,19 @@
         "size": 29454,
         "mtime": "2026-07-23T15:47:43+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/hongyuan-report/report_main.html"
+        "url": "https://jinzhanxiang.github.io/hongyuan-report/"
+      },
+      {
+        "code": "hongyuan",
+        "date": "2026-07-23",
+        "category": "上会材料",
+        "title": "联通云（山西）IDC 项目 V4.1 + 决策模式 v3.51",
+        "file": "宏远创信_主报告_V6_20260723_prechart.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/宏远创信/output/宏远创信_主报告_V6_20260723_prechart.html",
+        "size": 857268,
+        "mtime": "2026-07-23T18:20:58+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/hongyuan-report/"
       },
       {
         "code": "jngd",
@@ -794,7 +926,19 @@
         "size": 17055,
         "mtime": "2026-07-03T15:47:25+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
+      },
+      {
+        "code": "jngd",
+        "date": "2026-07-22",
+        "category": "上会材料",
+        "title": "联通云（山西）IDC 项目 V4.1 + 决策模式 v3.51",
+        "file": "晶能光电_V18_v351基线_章节锚点_6图智能_3优化_20260722.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/晶能光电/output/晶能光电_V18_v351基线_章节锚点_6图智能_3优化_20260722.html",
+        "size": 779119,
+        "mtime": "2026-07-23T04:42:14+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
       },
       {
         "code": "jngd",
@@ -806,7 +950,33 @@
         "size": 21768,
         "mtime": "2026-07-03T22:00:58+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
+      },
+      {
+        "code": "zhongfu",
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "中复神鹰碳纤维芯电缆项目",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html",
+        "_from_ledger": true
+      },
+      {
+        "code": "xunchao",
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "迅巢换电（XCHS Energon）",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/xunchao-report/report_main.html",
+        "_from_ledger": true
       }
     ],
     "芯片": [
@@ -820,7 +990,7 @@
         "size": 12890,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -832,7 +1002,7 @@
         "size": 31562,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -844,7 +1014,7 @@
         "size": 143191,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -856,7 +1026,7 @@
         "size": 14896,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       },
       {
         "code": "innoshine",
@@ -868,7 +1038,7 @@
         "size": 21845,
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/innoshine-report/innoshine_dd.html"
+        "url": "https://jinzhanxiang.github.io/innoshine-report/"
       }
     ],
     "资本运作": [
@@ -877,10 +1047,10 @@
         "date": "2026-07-22",
         "category": "上会材料",
         "title": "华东数控（002248.SZ）并购及资本运作平台可行性研究",
-        "file": "华东数控_决策模式_v34210_20260722.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华东数控-资本运作平台/output/华东数控_决策模式_v34210_20260722.md",
-        "size": 18852,
-        "mtime": "2026-07-22T11:44:28+08:00",
+        "file": "华东数控_决策模式_v34210_20260722.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华东数控-资本运作平台/output/华东数控_决策模式_v34210_20260722.html",
+        "size": 1539976,
+        "mtime": "2026-07-22T11:54:41+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huadong/report_main.html"
       }
@@ -890,11 +1060,11 @@
         "code": "huayt",
         "date": "2026-07-19",
         "category": "商业研究",
-        "title": "惠州市华阳集团股份有限公司（002906.SZ）投资可行性研究报告",
-        "file": "华阳集团_投资可行性分析报告_v2_20260719.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华阳集团/output/华阳集团_投资可行性分析报告_v2_20260719.md",
-        "size": 132989,
-        "mtime": "2026-07-19T19:59:44+08:00",
+        "title": "华阳集团(002906.SZ)投资可行性研究报告 V2",
+        "file": "华阳集团_投资可行性分析报告_v2_20260719.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/华阳集团/output/华阳集团_投资可行性分析报告_v2_20260719.html",
+        "size": 87894,
+        "mtime": "2026-07-19T19:34:37+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huayt/report_main.html"
       },
@@ -908,7 +1078,19 @@
         "size": 29454,
         "mtime": "2026-07-23T15:47:43+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/hongyuan-report/report_main.html"
+        "url": "https://jinzhanxiang.github.io/hongyuan-report/"
+      },
+      {
+        "code": "hongyuan",
+        "date": "2026-07-23",
+        "category": "上会材料",
+        "title": "联通云（山西）IDC 项目 V4.1 + 决策模式 v3.51",
+        "file": "宏远创信_主报告_V6_20260723_prechart.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/宏远创信/output/宏远创信_主报告_V6_20260723_prechart.html",
+        "size": 857268,
+        "mtime": "2026-07-23T18:20:58+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/hongyuan-report/"
       },
       {
         "code": "jngd",
@@ -920,7 +1102,19 @@
         "size": 17055,
         "mtime": "2026-07-03T15:47:25+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
+      },
+      {
+        "code": "jngd",
+        "date": "2026-07-22",
+        "category": "上会材料",
+        "title": "联通云（山西）IDC 项目 V4.1 + 决策模式 v3.51",
+        "file": "晶能光电_V18_v351基线_章节锚点_6图智能_3优化_20260722.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/晶能光电/output/晶能光电_V18_v351基线_章节锚点_6图智能_3优化_20260722.html",
+        "size": 779119,
+        "mtime": "2026-07-23T04:42:14+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
       },
       {
         "code": "jngd",
@@ -932,10 +1126,36 @@
         "size": 21768,
         "mtime": "2026-07-03T22:00:58+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/jngd-report/report_v3_43_1_deep.html"
+        "url": "https://jinzhanxiang.github.io/jngd-report/"
+      },
+      {
+        "code": "zhongfu",
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "中复神鹰碳纤维芯电缆项目",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html",
+        "_from_ledger": true
       }
     ],
     "基建": [
+      {
+        "code": "tianbao-jijian",
+        "date": "2026-07-13",
+        "category": "商业研究",
+        "title": "天保基建（000965.SZ）独立深度尽调报告 V1",
+        "file": "天保基建_V1_final.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天保基建/output/天保基建_V1_final.html",
+        "size": 1000072,
+        "mtime": "2026-07-13T16:36:53+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
+        "_archived": true
+      },
       {
         "code": "tianbao-jijian",
         "date": "2026-07-13",
@@ -946,7 +1166,7 @@
         "size": 45306,
         "mtime": "2026-07-13T16:35:51+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天保基建/output/天保基建_V1_独立深度尽调_20260713.md",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
         "_archived": true
       }
     ],
@@ -955,14 +1175,80 @@
         "code": "tianbao-jijian",
         "date": "2026-07-13",
         "category": "商业研究",
+        "title": "天保基建（000965.SZ）独立深度尽调报告 V1",
+        "file": "天保基建_V1_final.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天保基建/output/天保基建_V1_final.html",
+        "size": 1000072,
+        "mtime": "2026-07-13T16:36:53+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
+        "_archived": true
+      },
+      {
+        "code": "tianbao-jijian",
+        "date": "2026-07-13",
+        "category": "商业研究",
         "title": "天保基建（000965.SZ）独立深度尽调报告",
         "file": "天保基建_V1_独立深度尽调_20260713.md",
         "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天保基建/output/天保基建_V1_独立深度尽调_20260713.md",
         "size": 45306,
         "mtime": "2026-07-13T16:35:51+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天保基建/output/天保基建_V1_独立深度尽调_20260713.md",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
         "_archived": true
+      }
+    ],
+    "汽车电子": [
+      {
+        "code": "aodian",
+        "date": "2026-07-27",
+        "category": "上会材料",
+        "title": "奥联电子（300585.SZ）投资可行性研究报告 · 决策模式 V25.1.5i · 2026-07-27",
+        "file": "奥联电子_决策模式_V25_20260727.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/奥联电子/output/奥联电子_决策模式_V25_20260727.html",
+        "size": 130512,
+        "mtime": "2026-07-27T12:07:40+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/aodian/aodian_v25_decision.html"
+      }
+    ],
+    "医疗健康": [
+      {
+        "code": "kedu",
+        "date": "2026-07-30",
+        "category": "商业研究",
+        "title": "柯渡医学（未上市 · 拟控股并购）投资可行性研究报告 V3.0",
+        "file": "柯渡医学_投资可行性研究报告_V3.1_20260730.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/柯渡医学/output/柯渡医学_投资可行性研究报告_V3.1_20260730.html",
+        "size": 150900,
+        "mtime": "2026-07-30T17:30:51+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/kedu-report/report_main.html"
+      },
+      {
+        "code": "sumai",
+        "date": "2026-07-29",
+        "category": "上会材料",
+        "title": "速迈医疗（未上市 · 科创板拟申报）研究报告 V25.1.5z · 决策模式",
+        "file": "速迈医疗_决策模式_V25.1.5z_20260729.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/速迈医疗/output/速迈医疗_决策模式_V25.1.5z_20260729.html",
+        "size": 108502,
+        "mtime": "2026-07-29T07:51:40+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/sumai/sumai_v25_1_5z_decision.html"
+      },
+      {
+        "code": "xinhong",
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "天津信鸿医疗科技股份有限公司",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/xinhong-report/report_main.html",
+        "_from_ledger": true
       }
     ],
     "数据": [
@@ -1012,7 +1298,33 @@
         "size": 60155,
         "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/联通云山西_V3_prechart_20260725.html"
+      },
+      {
+        "code": "unicom-sx",
+        "date": "2026-07-30",
+        "category": "上会材料",
+        "title": "联通云（山西）数据中心",
+        "file": "联通云山西_决策模式_v13_TypeB_完整版.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v13_TypeB_完整版.html",
+        "size": 124798,
+        "mtime": "2026-07-30T18:23:44+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/联通云山西_V3_prechart_20260725.html"
+      },
+      {
+        "code": "unicom-idc",
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "四川数据中心 IDC 项目",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
+        "_from_ledger": true,
+        "_archived": true
       }
     ],
     "云": [
@@ -1062,7 +1374,33 @@
         "size": 60155,
         "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/联通云山西_V3_prechart_20260725.html"
+      },
+      {
+        "code": "unicom-sx",
+        "date": "2026-07-30",
+        "category": "上会材料",
+        "title": "联通云（山西）数据中心",
+        "file": "联通云山西_决策模式_v13_TypeB_完整版.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v13_TypeB_完整版.html",
+        "size": 124798,
+        "mtime": "2026-07-30T18:23:44+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/联通云山西_V3_prechart_20260725.html"
+      },
+      {
+        "code": "unicom-idc",
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "四川数据中心 IDC 项目",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
+        "_from_ledger": true,
+        "_archived": true
       }
     ],
     "IDC": [
@@ -1112,7 +1450,103 @@
         "size": 60155,
         "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/report_main.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/联通云山西_V3_prechart_20260725.html"
+      },
+      {
+        "code": "unicom-sx",
+        "date": "2026-07-30",
+        "category": "上会材料",
+        "title": "联通云（山西）数据中心",
+        "file": "联通云山西_决策模式_v13_TypeB_完整版.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v13_TypeB_完整版.html",
+        "size": 124798,
+        "mtime": "2026-07-30T18:23:44+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/联通云山西_V3_prechart_20260725.html"
+      }
+    ],
+    "航空维修": [
+      {
+        "code": "haite",
+        "date": "2026-07-31",
+        "category": "商业研究",
+        "title": "天津海特飞机工程有限公司（未上市 · 海特高新 A 股 100% 控股子公司）控股并购可行性研究报告 V25.1.18",
+        "file": "海特_天津海特飞机工程_控股并购可行性研究_V25.1.18.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特/output/海特_天津海特飞机工程_控股并购可行性研究_V25.1.18.html",
+        "size": 105073,
+        "mtime": "2026-07-31T12:04:05+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/haite_v25_1_18_decision.html"
+      }
+    ],
+    "高端装备": [
+      {
+        "code": "haite",
+        "date": "2026-07-31",
+        "category": "商业研究",
+        "title": "天津海特飞机工程有限公司（未上市 · 海特高新 A 股 100% 控股子公司）控股并购可行性研究报告 V25.1.18",
+        "file": "海特_天津海特飞机工程_控股并购可行性研究_V25.1.18.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特/output/海特_天津海特飞机工程_控股并购可行性研究_V25.1.18.html",
+        "size": 105073,
+        "mtime": "2026-07-31T12:04:05+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/haite_v25_1_18_decision.html"
+      }
+    ],
+    "卫星遥感": [
+      {
+        "code": "hangtianhongtu",
+        "date": "2026-07-30",
+        "category": "商业研究",
+        "title": "航天宏图（688066.SH · 破产重整中）投资可行性研究 V25.1.14",
+        "file": "航天宏图_破产重整投资可行性_V25.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天宏图/output/航天宏图_破产重整投资可行性_V25.html",
+        "size": 107568,
+        "mtime": "2026-07-30T10:52:05+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html"
+      }
+    ],
+    "航天科技": [
+      {
+        "code": "hangtianhongtu",
+        "date": "2026-07-30",
+        "category": "商业研究",
+        "title": "航天宏图（688066.SH · 破产重整中）投资可行性研究 V25.1.14",
+        "file": "航天宏图_破产重整投资可行性_V25.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天宏图/output/航天宏图_破产重整投资可行性_V25.html",
+        "size": 107568,
+        "mtime": "2026-07-30T10:52:05+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html"
+      }
+    ],
+    "地理信息": [
+      {
+        "code": "hangtianhongtu",
+        "date": "2026-07-30",
+        "category": "商业研究",
+        "title": "航天宏图（688066.SH · 破产重整中）投资可行性研究 V25.1.14",
+        "file": "航天宏图_破产重整投资可行性_V25.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天宏图/output/航天宏图_破产重整投资可行性_V25.html",
+        "size": 107568,
+        "mtime": "2026-07-30T10:52:05+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html"
+      }
+    ],
+    "光电治疗": [
+      {
+        "code": "sumai",
+        "date": "2026-07-29",
+        "category": "上会材料",
+        "title": "速迈医疗（未上市 · 科创板拟申报）研究报告 V25.1.5z · 决策模式",
+        "file": "速迈医疗_决策模式_V25.1.5z_20260729.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/速迈医疗/output/速迈医疗_决策模式_V25.1.5z_20260729.html",
+        "size": 108502,
+        "mtime": "2026-07-29T07:51:40+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/sumai/sumai_v25_1_5z_decision.html"
       }
     ],
     "美国中概股": [
@@ -1468,7 +1902,7 @@
         "size": 12857,
         "mtime": "2026-06-11T18:29:41+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1480,7 +1914,7 @@
         "size": 10472,
         "mtime": "2026-06-11T18:32:34+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1492,7 +1926,7 @@
         "size": 12650,
         "mtime": "2026-06-11T18:08:25+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1504,7 +1938,7 @@
         "size": 9710,
         "mtime": "2026-06-11T18:05:34+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1516,7 +1950,7 @@
         "size": 6946,
         "mtime": "2026-06-02T17:48:15+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1614,7 +2048,7 @@
         "size": 12857,
         "mtime": "2026-06-11T18:29:41+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1626,7 +2060,7 @@
         "size": 10472,
         "mtime": "2026-06-11T18:32:34+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1638,7 +2072,7 @@
         "size": 12650,
         "mtime": "2026-06-11T18:08:25+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1650,7 +2084,7 @@
         "size": 9710,
         "mtime": "2026-06-11T18:05:34+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1662,7 +2096,7 @@
         "size": 6946,
         "mtime": "2026-06-02T17:48:15+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/report_main_v15213.html"
+        "url": "https://jinzhanxiang.github.io/xingheng-report/"
       },
       {
         "code": "xingheng",
@@ -1747,6 +2181,19 @@
         "mtime": "2026-05-18T17:50:06+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/xingheng-report/appendix_a.html"
+      },
+      {
+        "code": "xunchao",
+        "date": "2026-07-29",
+        "category": "商业研究",
+        "title": "迅巢换电（XCHS Energon）",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-29T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/xunchao-report/report_main.html",
+        "_from_ledger": true
       }
     ],
     "收购研究": [
@@ -1824,36 +2271,20 @@
         "summary": "",
         "url": "https://jinzhanxiang.github.io/7projects-summary/projects/acquisition-listed-co.html"
       }
-    ],
-    "卫星遥感": [
-      {
-        "code": "hangtianhongtu",
-        "date": "2026-07-30",
-        "category": "决策模式",
-        "title": "航天宏图（688066.SH）破产重整投资可行性 V25 决策研究报告（Type C · V25.1.14 P2 A1+A3 强化）",
-        "file": "hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
-        "path": "/Users/jinzhanxiang/Documents/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
-        "size": 107568,
-        "mtime": "2026-07-30T14:29:20.285577",
-        "summary": "V25.1.14 P2 A1+A3 强化 · Type C 决策模式 · 107,568 bytes · 5 FATAL 全过 · 8 校验器 PASS · 主体识别准确（688066.SH/PIESAT/航天宏图信息技术股份有限公司三标签齐全） · §1 含客户痛点+价值主张+差异化（Type C 适配） · 7 chart-figure + 7 解读卡 · STORM §15 完整 · framework 跨 Type A/B/C 普适性首次实证（与乘杜 V26 对称验证）",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html"
-      }
     ]
   },
   "quarantine_codes": [
-    "qiyuanxin",
     "未归类"
   ],
-  "_last_cleanup": "2026-07-27T11:13:49.114509",
+  "_last_cleanup": "2026-07-31T15:17:30.452662",
   "_cleanup_stats": {
-    "intermediate:phase_execution_plan": 1,
-    "quarantine_full": 3,
-    "superseded": 6,
-    "intermediate:chapter_mapping": 1,
-    "dup_title_date": 2,
+    "dup_title_date": 3,
+    "superseded": 7,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
-    "intermediate:v_standard_mode": 1
+    "intermediate:v_standard_mode": 1,
+    "intermediate:cooperation_package": 1,
+    "quarantine_full": 2
   }
 }
