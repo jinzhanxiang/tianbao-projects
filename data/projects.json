@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T16:16:19+08:00",
+  "generated_at": "2026-07-31T17:26:06+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 22,
   "stage_v3_enum": [
@@ -356,7 +356,7 @@
       "archived_reason": "",
       "category": "储备·上市",
       "stage": "决策模式",
-      "stage_v3": "在推重点",
+      "stage_v3": "观察",
       "iss": "上市",
       "industry": "卫星遥感 · 航天科技 · 地理信息",
       "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/hangtianhongtu_v25_1_14_p2_a1a3_decision.html",
@@ -890,7 +890,6 @@
         "chuangdu"
       ],
       "上市": [
-        "hangtianhongtu",
         "aodian",
         "huadong-sk"
       ],
@@ -919,7 +918,9 @@
       "未上市": [
         "xingheng"
       ],
-      "上市": [],
+      "上市": [
+        "hangtianhongtu"
+      ],
       "REITs": [
         "huitian"
       ]
