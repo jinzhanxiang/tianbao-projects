@@ -1,8 +1,60 @@
 {
-  "generated_at": "2026-08-02T05:01:25+08:00",
+  "generated_at": "2026-08-02T05:09:15+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 0,
-  "by_industry": {},
-  "items": []
+  "total": 2,
+  "by_industry": {
+    "医疗健康": [
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "医疗健康",
+        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
+        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
+        "url": "https://new.qq.com/rain/a/20221011A07M2700",
+        "source": "new.qq.com",
+        "date": "2026-08-02",
+        "score": 4.5,
+        "query": "速迈医疗 新闻 2026"
+      },
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "医疗健康",
+        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
+        "summary": "北京速迈医疗科技有限公司前身为清华大学超声医疗仪器研究中心,从事高能超声刀医疗设备的研发和推广,提供超声手术系统、超声止血刀、超声骨刀、超声微创骨刀、超声吸引刀、...",
+        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
+        "source": "www.pharnexcloud.com",
+        "date": "2026-08-02",
+        "score": 4.0,
+        "query": "速迈医疗 新闻 2026"
+      }
+    ]
+  },
+  "items": [
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "医疗健康",
+      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
+      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
+      "url": "https://new.qq.com/rain/a/20221011A07M2700",
+      "source": "new.qq.com",
+      "date": "2026-08-02",
+      "score": 4.5,
+      "query": "速迈医疗 新闻 2026"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "医疗健康",
+      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
+      "summary": "北京速迈医疗科技有限公司前身为清华大学超声医疗仪器研究中心,从事高能超声刀医疗设备的研发和推广,提供超声手术系统、超声止血刀、超声骨刀、超声微创骨刀、超声吸引刀、...",
+      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
+      "source": "www.pharnexcloud.com",
+      "date": "2026-08-02",
+      "score": 4.0,
+      "query": "速迈医疗 新闻 2026"
+    }
+  ]
 }
