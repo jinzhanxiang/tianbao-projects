@@ -1,134 +1,84 @@
 {
-  "generated_at": "2026-08-01T08:44:58+08:00",
+  "generated_at": "2026-08-01T08:52:38+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 5,
+  "total": 3,
   "by_industry": {
-    "卫星遥感": [
+    "美国中概股": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图:发布公司中标公告_ 东方财富网",
-        "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-        "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-        "source": "finance.eastmoney.com",
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2%_区间_战略_公司",
+        "summary": "经济观察网 High-Trend International Group近期股价大幅波动,战略转型锂资源运输业务,2025财年营收同比近翻倍。截至6月5日,股价(2.90美元)...",
+        "url": "https://www.sohu.com/a/1033504487_122014422",
+        "source": "www.sohu.com",
         "date": "2026-08-01",
         "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "query": "\"High-Trend International\" 公告 签约 中标 投资"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图又签约29亿元卫星项目|李欢|遥感|巴基斯坦|东风商业航天_网易订阅",
-        "summary": "航天宏图又签约29亿元卫星项目,李欢,遥感,航天宏图,巴基斯坦,卫星项目,东风商业航天",
-        "url": "https://www.163.com/dy/article/K90RJDHE05119QTF.html",
-        "source": "www.163.com",
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
+        "summary": "",
+        "url": "https://quote.eastmoney.com/us/HTCO.html",
+        "source": "quote.eastmoney.com",
         "date": "2026-08-01",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 4.5,
+        "query": "\"High-Trend International\" 公告 签约 中标 投资"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图信息技术股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-        "summary": "航天宏图信息技术股份有限公司中标业绩.航天宏图信息技术股份有限公司中标公示173个,四库一平台业绩0个,2025年中标5个,中标金额76271.76万元,常中标地区为北京市,中标173个。 首页帮助中心产品...",
-        "url": "https://www.cbi360.net/hhb/sg_1861534/zb",
-        "source": "www.cbi360.net",
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "[美股财报]:High-Trend International Group-A 2025年年度报告和过渡报告 - 发现报告",
+        "summary": "2025年2月27日 - 财报/招股书/报告详情/High-Trend International Group-A 2025年年度报告和过渡报告 2025-02-27 美股财报张***你可能感兴趣 WF International Ltd ",
+        "url": "https://www.fxbaogao.com/detail/4712677",
+        "source": "www.fxbaogao.com",
         "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图(688066):中标航天规划设计集团有限公司采购项目,中标金额为431.80万元 _中金在线财经号",
-        "summary": "989:同壁财经讯,企查查数据显示,根据《海上突发事件应急观测体系技术方案编制项目中标公告》,航天宏图信息技术股份有限公司于2025年3月28日公...",
-        "url": "http://mp.cnfol.com/57306/article/1743137905-141724304.html",
-        "source": "mp.cnfol.com",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      }
-    ],
-    "汽车电子": [
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "2026年中国汽车电子行业市场深度分析:政策、市场规模、细分市场结构、产业链及竞争格局|电子产品|核心部件_网易订阅",
-        "summary": "政策、市场规模、细分市场结构、产业链及竞争格局,产业链,电子产品,市场结构,核心部件,中国汽车电子行业市",
-        "url": "https://www.163.com/dy/article/KPGK7SQ205387IEF.html",
-        "source": "www.163.com",
-        "date": "2026-08-01",
-        "score": 3.5,
-        "query": "汽车电子 行业 政策 2026"
+        "score": 3.0,
+        "query": "\"High-Trend International\" 公告 签约 中标 投资"
       }
     ]
   },
   "items": [
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图:发布公司中标公告_ 东方财富网",
-      "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-      "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-      "source": "finance.eastmoney.com",
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2%_区间_战略_公司",
+      "summary": "经济观察网 High-Trend International Group近期股价大幅波动,战略转型锂资源运输业务,2025财年营收同比近翻倍。截至6月5日,股价(2.90美元)...",
+      "url": "https://www.sohu.com/a/1033504487_122014422",
+      "source": "www.sohu.com",
       "date": "2026-08-01",
       "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
+      "query": "\"High-Trend International\" 公告 签约 中标 投资"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图又签约29亿元卫星项目|李欢|遥感|巴基斯坦|东风商业航天_网易订阅",
-      "summary": "航天宏图又签约29亿元卫星项目,李欢,遥感,航天宏图,巴基斯坦,卫星项目,东风商业航天",
-      "url": "https://www.163.com/dy/article/K90RJDHE05119QTF.html",
-      "source": "www.163.com",
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
+      "summary": "",
+      "url": "https://quote.eastmoney.com/us/HTCO.html",
+      "source": "quote.eastmoney.com",
       "date": "2026-08-01",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
+      "score": 4.5,
+      "query": "\"High-Trend International\" 公告 签约 中标 投资"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图信息技术股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-      "summary": "航天宏图信息技术股份有限公司中标业绩.航天宏图信息技术股份有限公司中标公示173个,四库一平台业绩0个,2025年中标5个,中标金额76271.76万元,常中标地区为北京市,中标173个。 首页帮助中心产品...",
-      "url": "https://www.cbi360.net/hhb/sg_1861534/zb",
-      "source": "www.cbi360.net",
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "[美股财报]:High-Trend International Group-A 2025年年度报告和过渡报告 - 发现报告",
+      "summary": "2025年2月27日 - 财报/招股书/报告详情/High-Trend International Group-A 2025年年度报告和过渡报告 2025-02-27 美股财报张***你可能感兴趣 WF International Ltd ",
+      "url": "https://www.fxbaogao.com/detail/4712677",
+      "source": "www.fxbaogao.com",
       "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图(688066):中标航天规划设计集团有限公司采购项目,中标金额为431.80万元 _中金在线财经号",
-      "summary": "989:同壁财经讯,企查查数据显示,根据《海上突发事件应急观测体系技术方案编制项目中标公告》,航天宏图信息技术股份有限公司于2025年3月28日公...",
-      "url": "http://mp.cnfol.com/57306/article/1743137905-141724304.html",
-      "source": "mp.cnfol.com",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "2026年中国汽车电子行业市场深度分析:政策、市场规模、细分市场结构、产业链及竞争格局|电子产品|核心部件_网易订阅",
-      "summary": "政策、市场规模、细分市场结构、产业链及竞争格局,产业链,电子产品,市场结构,核心部件,中国汽车电子行业市",
-      "url": "https://www.163.com/dy/article/KPGK7SQ205387IEF.html",
-      "source": "www.163.com",
-      "date": "2026-08-01",
-      "score": 3.5,
-      "query": "汽车电子 行业 政策 2026"
+      "score": 3.0,
+      "query": "\"High-Trend International\" 公告 签约 中标 投资"
     }
   ]
 }
