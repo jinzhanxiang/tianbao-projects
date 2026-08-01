@@ -1,134 +1,108 @@
 {
-  "generated_at": "2026-08-01T13:12:56+08:00",
+  "generated_at": "2026-08-01T13:22:39+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 5,
+  "total": 4,
   "by_industry": {
-    "硬科技": [
+    "医疗健康": [
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "建筑体检固本 维保提质赋能——物业经营创新专题座谈会共议 第二增长曲线 -新浪地产网",
-        "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
-        "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
-        "source": "news.dichan.sina.com.cn",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "鼓楼区疾病预防控制中心关于委托上海柯渡医学科技股份有限公司维修帝肯酶标仪sunrise的公告 _ 中标公告_疾控中心_ 福州市鼓楼区政府",
+        "summary": "经鼓楼区疾控中心会议研究议定计划委托厂家(帝肯上海实验器材有限公司)的售后服务商(上海柯渡医学科技股份有限公司)进行维修.中标公告_疾控...",
+        "url": "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/zfcg/zhbgg/zbgg_jkzx/202511/t20251112_5230886.htm",
+        "source": "www.gl.gov.cn",
         "date": "2026-08-01",
-        "score": 4.0,
-        "query": "宏远创信 新闻 2026"
+        "score": 5.5,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 与北京宏远创信能源科技有限公司有关的项目共71条,分别是锦江绿道公司2026年直购电供电服务成交结果公告,2026年直购电采购项目二次,成都印钞有限公司-...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
+        "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+        "url": "https://www.sohu.com/a/360741883_118792",
+        "source": "www.sohu.com",
         "date": "2026-08-01",
-        "score": 4.0,
-        "query": "宏远创信 新闻 2026"
+        "score": 5.5,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源科技有限公司 - 企查查",
-        "summary": "简介:北京宏远创信能源科技有限公司成立于2015年11月11日,法定代表人孙鹏,位于北京市通州区.2026-07-03 参与投标:阿勒泰公路事业发展中心电力市场化交易代理服务项目中标候选人公示2026-06-21 ...",
-        "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
-        "source": "www.qcc.com",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+        "source": "hainan.bidizhaobiao.com",
         "date": "2026-08-01",
         "score": 4.0,
-        "query": "宏远创信 新闻 2026"
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源管理有限公司新闻资讯_企业动态-企查查",
-        "summary": "2021年10月6日 - 企查查为您提供北京宏远创信能源管理有限公司新闻动态查询,助您了解北京宏远创信能源管理有限公司最新舆情动态,让您全面掌握北京宏远创信能源管理有限...",
-        "url": "https://www.qcc.com/cnews/58608d152e69d9e3b2a66667c759b27d.html",
-        "source": "www.qcc.com",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "印江自治县人民医院医学装备维修保养服务项目中标(成交)公告",
+        "summary": "2025年3月20日 - 据本项目采购文件规定,评标委员会推荐的中标供应商为:贵州柯渡医学科技有限公司;评审总得分:91.49 分。.采购公告发布日期:2025-2-27;定标日期:2025-3-...",
+        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1062623946177073152",
+        "source": "ggzy.guizhou.gov.cn",
         "date": "2026-08-01",
-        "score": 3.0,
-        "query": "宏远创信 新闻 2026"
-      }
-    ],
-    "美国中概股": [
-      {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "2026投资主线浮现!中概股狂涨4%百度飙15%,黄金跳水藏玄机?_政策_昆仑_核心",
-        "summary": "中概股4%狂飙:政策+分拆双引擎发力.2026投资主线:跟着政策找 确定性 .而且它的商业化已经跑通了,除了中国移动的大单,还在互联网、金融、能源...",
-        "url": "https://business.sohu.com/a/972161456_122024453",
-        "source": "business.sohu.com",
-        "date": "2026-08-01",
-        "score": 2.5,
-        "query": "美国中概股 行业 政策 2026"
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       }
     ]
   },
   "items": [
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "建筑体检固本 维保提质赋能——物业经营创新专题座谈会共议 第二增长曲线 -新浪地产网",
-      "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
-      "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
-      "source": "news.dichan.sina.com.cn",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "鼓楼区疾病预防控制中心关于委托上海柯渡医学科技股份有限公司维修帝肯酶标仪sunrise的公告 _ 中标公告_疾控中心_ 福州市鼓楼区政府",
+      "summary": "经鼓楼区疾控中心会议研究议定计划委托厂家(帝肯上海实验器材有限公司)的售后服务商(上海柯渡医学科技股份有限公司)进行维修.中标公告_疾控...",
+      "url": "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/zfcg/zhbgg/zbgg_jkzx/202511/t20251112_5230886.htm",
+      "source": "www.gl.gov.cn",
+      "date": "2026-08-01",
+      "score": 5.5,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
+      "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+      "url": "https://www.sohu.com/a/360741883_118792",
+      "source": "www.sohu.com",
+      "date": "2026-08-01",
+      "score": 5.5,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+      "source": "hainan.bidizhaobiao.com",
       "date": "2026-08-01",
       "score": 4.0,
-      "query": "宏远创信 新闻 2026"
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 与北京宏远创信能源科技有限公司有关的项目共71条,分别是锦江绿道公司2026年直购电供电服务成交结果公告,2026年直购电采购项目二次,成都印钞有限公司-...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "印江自治县人民医院医学装备维修保养服务项目中标(成交)公告",
+      "summary": "2025年3月20日 - 据本项目采购文件规定,评标委员会推荐的中标供应商为:贵州柯渡医学科技有限公司;评审总得分:91.49 分。.采购公告发布日期:2025-2-27;定标日期:2025-3-...",
+      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1062623946177073152",
+      "source": "ggzy.guizhou.gov.cn",
       "date": "2026-08-01",
       "score": 4.0,
-      "query": "宏远创信 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源科技有限公司 - 企查查",
-      "summary": "简介:北京宏远创信能源科技有限公司成立于2015年11月11日,法定代表人孙鹏,位于北京市通州区.2026-07-03 参与投标:阿勒泰公路事业发展中心电力市场化交易代理服务项目中标候选人公示2026-06-21 ...",
-      "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
-      "source": "www.qcc.com",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "宏远创信 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源管理有限公司新闻资讯_企业动态-企查查",
-      "summary": "2021年10月6日 - 企查查为您提供北京宏远创信能源管理有限公司新闻动态查询,助您了解北京宏远创信能源管理有限公司最新舆情动态,让您全面掌握北京宏远创信能源管理有限...",
-      "url": "https://www.qcc.com/cnews/58608d152e69d9e3b2a66667c759b27d.html",
-      "source": "www.qcc.com",
-      "date": "2026-08-01",
-      "score": 3.0,
-      "query": "宏远创信 新闻 2026"
-    },
-    {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "2026投资主线浮现!中概股狂涨4%百度飙15%,黄金跳水藏玄机?_政策_昆仑_核心",
-      "summary": "中概股4%狂飙:政策+分拆双引擎发力.2026投资主线:跟着政策找 确定性 .而且它的商业化已经跑通了,除了中国移动的大单,还在互联网、金融、能源...",
-      "url": "https://business.sohu.com/a/972161456_122024453",
-      "source": "business.sohu.com",
-      "date": "2026-08-01",
-      "score": 2.5,
-      "query": "美国中概股 行业 政策 2026"
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     }
   ]
 }
