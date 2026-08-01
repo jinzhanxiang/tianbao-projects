@@ -1,8 +1,86 @@
 {
-  "generated_at": "2026-08-01T12:15:00+08:00",
+  "generated_at": "2026-08-01T12:24:50+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 0,
-  "by_industry": {},
-  "items": []
+  "total": 3,
+  "by_industry": {
+    "硬科技": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "2026-08-01",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "2026-08-01",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      }
+    ],
+    "卫星遥感": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "2026年政策东风频吹,卫星产业驶入 黄金赛道 (附下载)_商业_航天_火箭",
+        "summary": "美国在航天领域建立了一套全要素战斗力框架,商业航天技术为美军情报处 理提供了关键支撑,包括光学成像卫星、SAR 成像卫星、电子侦察卫星、...",
+        "url": "https://news.sohu.com/a/980165987_121123901",
+        "source": "news.sohu.com",
+        "date": "2026-08-01",
+        "score": 2.5,
+        "query": "卫星遥感 行业 政策 2026"
+      }
+    ]
+  },
+  "items": [
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "硬科技",
+      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+      "source": "www.bidizhaobiao.com",
+      "date": "2026-08-01",
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "硬科技",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "2026-08-01",
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "2026年政策东风频吹,卫星产业驶入 黄金赛道 (附下载)_商业_航天_火箭",
+      "summary": "美国在航天领域建立了一套全要素战斗力框架,商业航天技术为美军情报处 理提供了关键支撑,包括光学成像卫星、SAR 成像卫星、电子侦察卫星、...",
+      "url": "https://news.sohu.com/a/980165987_121123901",
+      "source": "news.sohu.com",
+      "date": "2026-08-01",
+      "score": 2.5,
+      "query": "卫星遥感 行业 政策 2026"
+    }
+  ]
 }
