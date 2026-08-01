@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-02T01:16:35+08:00",
+  "generated_at": "2026-08-02T01:27:16+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 1,
   "by_industry": {
-    "美国中概股": [
+    "硬科技": [
       {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "2026投资主线浮现!中概股狂涨4%百度飙15%,黄金跳水藏玄机?_政策_昆仑_核心",
-        "summary": "中概股4%狂飙:政策+分拆双引擎发力.2026投资主线:跟着政策找 确定性 .而且它的商业化已经跑通了,除了中国移动的大单,还在互联网、金融、能源...",
-        "url": "https://business.sohu.com/a/972161456_122024453",
-        "source": "business.sohu.com",
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "北京迅巢科技申请一种电池全生命周期远程监控方法专利,提高了电池状态评估与退役决策的准确性|科技有限公司_网易订阅",
+        "summary": "国家知识产权局信息显示,北京迅巢科技有限公司申请一项名为 一种电池全生命周期远程监控方法 的专利,公开号CN121596128A,申请日期为2026年1...",
+        "url": "https://www.163.com/dy/article/KN4B7IFF0519QIKK.html",
+        "source": "www.163.com",
         "date": "2026-08-02",
-        "score": 2.5,
-        "query": "美国中概股 行业 政策 2026"
+        "score": 4.5,
+        "query": "迅巢 新闻 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "2026投资主线浮现!中概股狂涨4%百度飙15%,黄金跳水藏玄机?_政策_昆仑_核心",
-      "summary": "中概股4%狂飙:政策+分拆双引擎发力.2026投资主线:跟着政策找 确定性 .而且它的商业化已经跑通了,除了中国移动的大单,还在互联网、金融、能源...",
-      "url": "https://business.sohu.com/a/972161456_122024453",
-      "source": "business.sohu.com",
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "硬科技",
+      "title": "北京迅巢科技申请一种电池全生命周期远程监控方法专利,提高了电池状态评估与退役决策的准确性|科技有限公司_网易订阅",
+      "summary": "国家知识产权局信息显示,北京迅巢科技有限公司申请一项名为 一种电池全生命周期远程监控方法 的专利,公开号CN121596128A,申请日期为2026年1...",
+      "url": "https://www.163.com/dy/article/KN4B7IFF0519QIKK.html",
+      "source": "www.163.com",
       "date": "2026-08-02",
-      "score": 2.5,
-      "query": "美国中概股 行业 政策 2026"
+      "score": 4.5,
+      "query": "迅巢 新闻 2026"
     }
   ]
 }
