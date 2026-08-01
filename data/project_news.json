@@ -1,96 +1,24 @@
 {
-  "generated_at": "2026-08-01T14:03:19+08:00",
+  "generated_at": "2026-08-01T14:18:32+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 9,
+  "total": 2,
   "by_industry": {
-    "卫星遥感": [
+    "低空经济": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
-        "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
-        "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
-        "source": "caifuhao.eastmoney.com",
-        "date": "2026-08-01",
-        "score": 5.5,
-        "query": "航天宏图 新闻 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图2026年卫星发射时间节点全解析一、核心发射计划总览截至2026年1月1_财富号_东方财富网",
-        "summary": "第四批 PIESAT-2 系列后续卫星 8-10 颗 2026 年 Q1 末 - Q2 初 高分宽幅成像,星上智能处理 同轨 90 等相位编队,重访周期最快 6 小时 第五批 PI...",
-        "url": "https://caifuhao.eastmoney.com/news/20260113230128785257660",
-        "source": "caifuhao.eastmoney.com",
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
+        "summary": "简介：#空中1",
+        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+        "source": "k.sina.com.cn",
         "date": "2026-08-01",
         "score": 4.5,
-        "query": "航天宏图 新闻 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
-        "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
-        "url": "https://m.jiemian.com/article/14365628_sina.html",
-        "source": "m.jiemian.com",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "航天宏图 新闻 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "卫星遥感",
-        "title": "航天宏图:关于召开2026年第一次临时股东会的通知-慧博投研资讯",
-        "summary": "2026年3月2日 - 1.证券代码:688066证券简称:航天宏图公告编号:2026-011债券代码:118027债券简称:宏图转债航天宏图信息技术股份有限公司关于召开2026年第一次临时股东...",
-        "url": "https://www.hibor.com.cn/repinfodetail_4926383.html",
-        "source": "www.hibor.com.cn",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "航天宏图 新闻 2026"
+        "query": "青岛直升机 新闻 2026"
       }
     ],
     "硬科技": [
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告",
-        "summary": "2023年7月10日 - 请中标单位及时与业主相关负责人联系,及时签署相关商务合同;未中标供应商也可及时向业主提出相关质疑.受业主*委托,招标网于2023年07月10日发布中标公...",
-        "url": "https://jiangsu.zhaobiao.cn/succeed_v_75158842.html",
-        "source": "jiangsu.zhaobiao.cn",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "中材科技全资子公司收购中复连众100%股权并增资扩股 增强业务协同_叶片_交易_中国",
-        "summary": "将所持中复科金89.93%股权转让给中材科技(苏州)有限公司,将所持中复碳芯30.18%股权转让....中材科技(002080)6月9日晚间公告,公司所属全资子公司...",
-        "url": "https://business.sohu.com/a/683692518_115433",
-        "source": "business.sohu.com",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "中材科技股份有限公司2024年日常关联交易预计公告_新浪财经_新浪网",
-        "summary": "(4)中复碳芯电缆科技有限公司(以下简称 中复碳芯 ).本公司及董事会全体成员保证公告内容的真实、准确和完整,对公告的虚假记载、误导性陈述或...",
-        "url": "https://finance.sina.com.cn/roll/2024-03-22/doc-inapcivz8592894.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "2026-08-01",
-        "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
-      },
       {
         "code": "hongyuan",
         "company": "宏远创信",
@@ -102,105 +30,21 @@
         "date": "2026-08-01",
         "score": 3.5,
         "query": "硬科技 行业 政策 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "(连云港市)中复碳芯电缆科技有限公司: 拉挤车间项目_招标_江苏省工程项目_江苏省工程信息_工程信息_建筑工程项目线索",
-        "summary": "2023年4月4日 - 更多推荐工程信息(吴忠)盐池县污水处理有限公司: 盐池县污水处理厂扩建项目普洱市金波食品有限责任公司肉制品规范化流水生产线建设项目(苏州市)广州追...",
-        "url": "http://gc.buildnet.cn/Home/ProjectDetail?date=2023-04-04&id=67365100",
-        "source": "gc.buildnet.cn",
-        "date": "2026-08-01",
-        "score": 3.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
       }
     ]
   },
   "items": [
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
-      "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
-      "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
-      "source": "caifuhao.eastmoney.com",
-      "date": "2026-08-01",
-      "score": 5.5,
-      "query": "航天宏图 新闻 2026"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图2026年卫星发射时间节点全解析一、核心发射计划总览截至2026年1月1_财富号_东方财富网",
-      "summary": "第四批 PIESAT-2 系列后续卫星 8-10 颗 2026 年 Q1 末 - Q2 初 高分宽幅成像,星上智能处理 同轨 90 等相位编队,重访周期最快 6 小时 第五批 PI...",
-      "url": "https://caifuhao.eastmoney.com/news/20260113230128785257660",
-      "source": "caifuhao.eastmoney.com",
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
+      "summary": "简介：#空中1",
+      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+      "source": "k.sina.com.cn",
       "date": "2026-08-01",
       "score": 4.5,
-      "query": "航天宏图 新闻 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告",
-      "summary": "2023年7月10日 - 请中标单位及时与业主相关负责人联系,及时签署相关商务合同;未中标供应商也可及时向业主提出相关质疑.受业主*委托,招标网于2023年07月10日发布中标公...",
-      "url": "https://jiangsu.zhaobiao.cn/succeed_v_75158842.html",
-      "source": "jiangsu.zhaobiao.cn",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "中材科技全资子公司收购中复连众100%股权并增资扩股 增强业务协同_叶片_交易_中国",
-      "summary": "将所持中复科金89.93%股权转让给中材科技(苏州)有限公司,将所持中复碳芯30.18%股权转让....中材科技(002080)6月9日晚间公告,公司所属全资子公司...",
-      "url": "https://business.sohu.com/a/683692518_115433",
-      "source": "business.sohu.com",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "中材科技股份有限公司2024年日常关联交易预计公告_新浪财经_新浪网",
-      "summary": "(4)中复碳芯电缆科技有限公司(以下简称 中复碳芯 ).本公司及董事会全体成员保证公告内容的真实、准确和完整,对公告的虚假记载、误导性陈述或...",
-      "url": "https://finance.sina.com.cn/roll/2024-03-22/doc-inapcivz8592894.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
-      "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
-      "url": "https://m.jiemian.com/article/14365628_sina.html",
-      "source": "m.jiemian.com",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "航天宏图 新闻 2026"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "卫星遥感",
-      "title": "航天宏图:关于召开2026年第一次临时股东会的通知-慧博投研资讯",
-      "summary": "2026年3月2日 - 1.证券代码:688066证券简称:航天宏图公告编号:2026-011债券代码:118027债券简称:宏图转债航天宏图信息技术股份有限公司关于召开2026年第一次临时股东...",
-      "url": "https://www.hibor.com.cn/repinfodetail_4926383.html",
-      "source": "www.hibor.com.cn",
-      "date": "2026-08-01",
-      "score": 4.0,
-      "query": "航天宏图 新闻 2026"
+      "query": "青岛直升机 新闻 2026"
     },
     {
       "code": "hongyuan",
@@ -213,18 +57,6 @@
       "date": "2026-08-01",
       "score": 3.5,
       "query": "硬科技 行业 政策 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "(连云港市)中复碳芯电缆科技有限公司: 拉挤车间项目_招标_江苏省工程项目_江苏省工程信息_工程信息_建筑工程项目线索",
-      "summary": "2023年4月4日 - 更多推荐工程信息(吴忠)盐池县污水处理有限公司: 盐池县污水处理厂扩建项目普洱市金波食品有限责任公司肉制品规范化流水生产线建设项目(苏州市)广州追...",
-      "url": "http://gc.buildnet.cn/Home/ProjectDetail?date=2023-04-04&id=67365100",
-      "source": "gc.buildnet.cn",
-      "date": "2026-08-01",
-      "score": 3.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
     }
   ]
 }
