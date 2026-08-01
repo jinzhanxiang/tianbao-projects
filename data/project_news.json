@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-08-02T03:27:47+08:00",
+  "generated_at": "2026-08-02T03:36:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 1,
-  "by_industry": {
-    "低空经济": [
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-        "summary": "简介：#空中1",
-        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-        "source": "k.sina.com.cn",
-        "date": "2026-08-02",
-        "score": 4.5,
-        "query": "青岛直升机 新闻 2026"
-      }
-    ]
-  },
-  "items": [
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-      "summary": "简介：#空中1",
-      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-      "source": "k.sina.com.cn",
-      "date": "2026-08-02",
-      "score": 4.5,
-      "query": "青岛直升机 新闻 2026"
-    }
-  ]
+  "total": 0,
+  "by_industry": {},
+  "items": []
 }
