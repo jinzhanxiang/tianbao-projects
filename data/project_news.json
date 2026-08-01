@@ -1,210 +1,158 @@
 {
-  "generated_at": "2026-08-02T04:00:50+08:00",
+  "generated_at": "2026-08-02T04:08:34+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 8,
+  "total": 6,
   "by_industry": {
-    "美国中概股": [
-      {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
-        "summary": "",
-        "url": "https://quote.eastmoney.com/us/HTCO.html",
-        "source": "quote.eastmoney.com",
-        "date": "2026-08-02",
-        "score": 4.5,
-        "query": "High-Trend International 新闻 2026"
-      },
-      {
-        "code": "htco-us",
-        "company": "High-Trend International",
-        "industry": "美国中概股",
-        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
-        "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
-        "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
-        "source": "www.eeo.com.cn",
-        "date": "2026-08-02",
-        "score": 4.0,
-        "query": "High-Trend International 新闻 2026"
-      }
-    ],
-    "医疗健康": [
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-        "url": "https://new.qq.com/rain/a/20221011A07M2700",
-        "source": "new.qq.com",
-        "date": "2026-08-02",
-        "score": 4.5,
-        "query": "速迈医疗 新闻 2026"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-        "summary": "北京速迈医疗科技有限公司前身为清华大学超声医疗仪器研究中心,从事高能超声刀医疗设备的研发和推广,提供超声手术系统、超声止血刀、超声骨刀、超声微创骨刀、超声吸引刀、...",
-        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-        "source": "www.pharnexcloud.com",
-        "date": "2026-08-02",
-        "score": 4.0,
-        "query": "速迈医疗 新闻 2026"
-      }
-    ],
     "硬科技": [
       {
-        "code": "zhongfu",
-        "company": "中复碳芯",
+        "code": "huadong-sk",
+        "company": "华东数控",
         "industry": "硬科技",
-        "title": "发改委放大招!2026年 两新 政策升级,万亿资本剑指硬科技_财富号_东方财富网",
-        "summary": "1000亿超长期特别国债启动国家创业投资引导基金,目标万亿规模,投早、投小、投硬科技,存续期拉到20年,取消返投限制.这背后逻辑很清晰:政策红...",
-        "url": "https://caifuhao.eastmoney.com/news/20251231210930016165890",
+        "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
+        "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
+        "url": "https://news.qq.com/rain/a/20260417A090QP00",
+        "source": "news.qq.com",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
+        "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
+        "url": "https://news.qq.com/rain/a/20260419A02IN100",
+        "source": "news.qq.com",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
+        "summary": "9:同花顺1118:数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有...",
+        "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
+        "source": "finance.sina.com.cn",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
+        "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
+        "url": "https://news.qq.com/rain/a/20260418A054BV00",
+        "source": "news.qq.com",
+        "date": "2026-08-02",
+        "score": 4.5,
+        "query": "华东数控 新闻 2026"
+      }
+    ],
+    "低空经济": [
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "【独家发布】2026年中国低空经济行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+        "summary": "注:本文节选出自智研咨询发布的《研判2026!中国低空经济行业概述、相关政策、产业链、市场规模及相关企业分析:空地一体格局初显,立体交通网...",
+        "url": "https://caifuhao.eastmoney.com/news/20260522103707420013550",
         "source": "caifuhao.eastmoney.com",
         "date": "2026-08-02",
         "score": 3.5,
-        "query": "硬科技 行业 政策 2026"
-      }
-    ],
-    "数据": [
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "数据",
-        "title": "2026年我国将在数据领域 发布不少于30项重点标准 _ 东方财富网",
-        "summary": "记者1月6日从全国数据标准化技术委员会获悉,2026年,全国数标委将聚焦数据要素价值释放,研制不少于80项国家标准和技术文件,发布不少于30项重...",
-        "url": "https://finance.eastmoney.com/a/202601073610617287.html",
-        "source": "finance.eastmoney.com",
-        "date": "2026-08-02",
-        "score": 3.5,
-        "query": "数据 行业 政策 2026"
+        "query": "低空经济 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "数据",
-        "title": "【政策发布】六部门发文:2026年基本建成国家数据标准体系_腾讯新闻",
-        "summary": "2024年10月10日 - 《指南》明确,到2026年底,基本建成国家数据标准体系,围绕数据流通利用基础设施、数据管理、数据服务、训练数据集、公共数据授权运营、数据确权、数据...",
-        "url": "https://news.qq.com/rain/a/20241010A04KNA00?media_id&suid",
-        "source": "news.qq.com",
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "2026年全国省级低空经济扶持政策(附汇总表)_发展_产业_建设",
+        "summary": "全国省级低空经济帮扶政策呈现三大特征:一是全覆盖布局,30余个省区市已将低空经济纳入发展规划或出台专项政策,形成 中央统筹、地方联动 的发展格局;二...",
+        "url": "https://news.sohu.com/a/979491585_468661",
+        "source": "news.sohu.com",
         "date": "2026-08-02",
         "score": 3.5,
-        "query": "数据 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "数据",
-        "title": "2026年我国将推出30余项数据领域国家标准_腾讯新闻",
-        "summary": "2026年1月7日 - 2026年是 数据要素价值释放年 。2025年全国数据工作会议在部署2026年工作时提到,要着力畅通数据流动和资源配置渠道,进一步推动数据 供得出、流得动、...",
-        "url": "https://news.qq.com/rain/a/20260107A0199Q00",
-        "source": "news.qq.com",
-        "date": "2026-08-02",
-        "score": 2.5,
-        "query": "数据 行业 政策 2026"
+        "query": "低空经济 行业 政策 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
-      "summary": "",
-      "url": "https://quote.eastmoney.com/us/HTCO.html",
-      "source": "quote.eastmoney.com",
-      "date": "2026-08-02",
-      "score": 4.5,
-      "query": "High-Trend International 新闻 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-      "url": "https://new.qq.com/rain/a/20221011A07M2700",
-      "source": "new.qq.com",
-      "date": "2026-08-02",
-      "score": 4.5,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "htco-us",
-      "company": "High-Trend International",
-      "industry": "美国中概股",
-      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
-      "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
-      "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
-      "source": "www.eeo.com.cn",
-      "date": "2026-08-02",
-      "score": 4.0,
-      "query": "High-Trend International 新闻 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-      "summary": "北京速迈医疗科技有限公司前身为清华大学超声医疗仪器研究中心,从事高能超声刀医疗设备的研发和推广,提供超声手术系统、超声止血刀、超声骨刀、超声微创骨刀、超声吸引刀、...",
-      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-      "source": "www.pharnexcloud.com",
-      "date": "2026-08-02",
-      "score": 4.0,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
+      "code": "huadong-sk",
+      "company": "华东数控",
       "industry": "硬科技",
-      "title": "发改委放大招!2026年 两新 政策升级,万亿资本剑指硬科技_财富号_东方财富网",
-      "summary": "1000亿超长期特别国债启动国家创业投资引导基金,目标万亿规模,投早、投小、投硬科技,存续期拉到20年,取消返投限制.这背后逻辑很清晰:政策红...",
-      "url": "https://caifuhao.eastmoney.com/news/20251231210930016165890",
+      "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
+      "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
+      "url": "https://news.qq.com/rain/a/20260417A090QP00",
+      "source": "news.qq.com",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
+      "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
+      "url": "https://news.qq.com/rain/a/20260419A02IN100",
+      "source": "news.qq.com",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
+      "summary": "9:同花顺1118:数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有...",
+      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
+      "source": "finance.sina.com.cn",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
+      "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
+      "url": "https://news.qq.com/rain/a/20260418A054BV00",
+      "source": "news.qq.com",
+      "date": "2026-08-02",
+      "score": 4.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "【独家发布】2026年中国低空经济行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+      "summary": "注:本文节选出自智研咨询发布的《研判2026!中国低空经济行业概述、相关政策、产业链、市场规模及相关企业分析:空地一体格局初显,立体交通网...",
+      "url": "https://caifuhao.eastmoney.com/news/20260522103707420013550",
       "source": "caifuhao.eastmoney.com",
       "date": "2026-08-02",
       "score": 3.5,
-      "query": "硬科技 行业 政策 2026"
+      "query": "低空经济 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "数据",
-      "title": "2026年我国将在数据领域 发布不少于30项重点标准 _ 东方财富网",
-      "summary": "记者1月6日从全国数据标准化技术委员会获悉,2026年,全国数标委将聚焦数据要素价值释放,研制不少于80项国家标准和技术文件,发布不少于30项重...",
-      "url": "https://finance.eastmoney.com/a/202601073610617287.html",
-      "source": "finance.eastmoney.com",
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "2026年全国省级低空经济扶持政策(附汇总表)_发展_产业_建设",
+      "summary": "全国省级低空经济帮扶政策呈现三大特征:一是全覆盖布局,30余个省区市已将低空经济纳入发展规划或出台专项政策,形成 中央统筹、地方联动 的发展格局;二...",
+      "url": "https://news.sohu.com/a/979491585_468661",
+      "source": "news.sohu.com",
       "date": "2026-08-02",
       "score": 3.5,
-      "query": "数据 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "数据",
-      "title": "【政策发布】六部门发文:2026年基本建成国家数据标准体系_腾讯新闻",
-      "summary": "2024年10月10日 - 《指南》明确,到2026年底,基本建成国家数据标准体系,围绕数据流通利用基础设施、数据管理、数据服务、训练数据集、公共数据授权运营、数据确权、数据...",
-      "url": "https://news.qq.com/rain/a/20241010A04KNA00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "2026-08-02",
-      "score": 3.5,
-      "query": "数据 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "数据",
-      "title": "2026年我国将推出30余项数据领域国家标准_腾讯新闻",
-      "summary": "2026年1月7日 - 2026年是 数据要素价值释放年 。2025年全国数据工作会议在部署2026年工作时提到,要着力畅通数据流动和资源配置渠道,进一步推动数据 供得出、流得动、...",
-      "url": "https://news.qq.com/rain/a/20260107A0199Q00",
-      "source": "news.qq.com",
-      "date": "2026-08-02",
-      "score": 2.5,
-      "query": "数据 行业 政策 2026"
+      "query": "低空经济 行业 政策 2026"
     }
   ]
 }
