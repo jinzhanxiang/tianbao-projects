@@ -1,8 +1,60 @@
 {
-  "generated_at": "2026-08-01T10:56:12+08:00",
+  "generated_at": "2026-08-01T11:04:33+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 0,
-  "by_industry": {},
-  "items": []
+  "total": 2,
+  "by_industry": {
+    "美国中概股": [
+      {
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
+        "summary": "",
+        "url": "https://quote.eastmoney.com/us/HTCO.html",
+        "source": "quote.eastmoney.com",
+        "date": "2026-08-01",
+        "score": 4.5,
+        "query": "High-Trend International 新闻 2026"
+      },
+      {
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
+        "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
+        "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
+        "source": "www.eeo.com.cn",
+        "date": "2026-08-01",
+        "score": 4.0,
+        "query": "High-Trend International 新闻 2026"
+      }
+    ]
+  },
+  "items": [
+    {
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
+      "summary": "",
+      "url": "https://quote.eastmoney.com/us/HTCO.html",
+      "source": "quote.eastmoney.com",
+      "date": "2026-08-01",
+      "score": 4.5,
+      "query": "High-Trend International 新闻 2026"
+    },
+    {
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
+      "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
+      "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
+      "source": "www.eeo.com.cn",
+      "date": "2026-08-01",
+      "score": 4.0,
+      "query": "High-Trend International 新闻 2026"
+    }
+  ]
 }
