@@ -1,60 +1,84 @@
 {
-  "generated_at": "2026-08-01T22:48:50+08:00",
+  "generated_at": "2026-08-01T22:58:50+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 2,
+  "total": 3,
   "by_industry": {
-    "医疗健康": [
+    "硬科技": [
       {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-        "url": "https://new.qq.com/rain/a/20221011A07M2700",
-        "source": "new.qq.com",
-        "date": "2026-08-01",
-        "score": 4.5,
-        "query": "速迈医疗 新闻 2026"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-        "summary": "北京速迈医疗科技有限公司前身为清华大学超声医疗仪器研究中心,从事高能超声刀医疗设备的研发和推广,提供超声手术系统、超声止血刀、超声骨刀、超声微创骨刀、超声吸引刀、...",
-        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-        "source": "www.pharnexcloud.com",
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "四川迅巢建筑有限公司中标公告",
+        "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
+        "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
+        "source": "m.zhaobiao.cn",
         "date": "2026-08-01",
         "score": 4.0,
-        "query": "速迈医疗 新闻 2026"
+        "query": "\"迅巢\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
+        "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
+        "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
+        "source": "www.biaozhaozhao.com",
+        "date": "2026-08-01",
+        "score": 3.0,
+        "query": "\"迅巢\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "硬科技",
+        "title": "苏州迅巢项目管理有限公司 - 迅巢项目 - 爱企查",
+        "summary": "苏州迅巢项目管理有限公司成立于2024年12月05日,位于苏州市相城区高铁新城相融路600号CCF大厦4层-A区-39工位(集群登记),目前处于开业状态,经营范围包括一般项目:项目策划与公关服务;技术服务、...",
+        "url": "https://www.aiqicha.com/company_detail_56685143413591",
+        "source": "www.aiqicha.com",
+        "date": "2026-08-01",
+        "score": 3.0,
+        "query": "\"迅巢\" 公告 签约 中标 投资"
       }
     ]
   },
   "items": [
     {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-      "url": "https://new.qq.com/rain/a/20221011A07M2700",
-      "source": "new.qq.com",
-      "date": "2026-08-01",
-      "score": 4.5,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-      "summary": "北京速迈医疗科技有限公司前身为清华大学超声医疗仪器研究中心,从事高能超声刀医疗设备的研发和推广,提供超声手术系统、超声止血刀、超声骨刀、超声微创骨刀、超声吸引刀、...",
-      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-      "source": "www.pharnexcloud.com",
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "硬科技",
+      "title": "四川迅巢建筑有限公司中标公告",
+      "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
+      "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
+      "source": "m.zhaobiao.cn",
       "date": "2026-08-01",
       "score": 4.0,
-      "query": "速迈医疗 新闻 2026"
+      "query": "\"迅巢\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "硬科技",
+      "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
+      "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
+      "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
+      "source": "www.biaozhaozhao.com",
+      "date": "2026-08-01",
+      "score": 3.0,
+      "query": "\"迅巢\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "硬科技",
+      "title": "苏州迅巢项目管理有限公司 - 迅巢项目 - 爱企查",
+      "summary": "苏州迅巢项目管理有限公司成立于2024年12月05日,位于苏州市相城区高铁新城相融路600号CCF大厦4层-A区-39工位(集群登记),目前处于开业状态,经营范围包括一般项目:项目策划与公关服务;技术服务、...",
+      "url": "https://www.aiqicha.com/company_detail_56685143413591",
+      "source": "www.aiqicha.com",
+      "date": "2026-08-01",
+      "score": 3.0,
+      "query": "\"迅巢\" 公告 签约 中标 投资"
     }
   ]
 }
