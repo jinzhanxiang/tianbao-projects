@@ -1,36 +1,108 @@
 {
-  "generated_at": "2026-08-01T14:38:40+08:00",
+  "generated_at": "2026-08-01T14:48:51+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 1,
+  "total": 4,
   "by_industry": {
-    "硬科技": [
+    "动力电池": [
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "深圳市平板显示行业协会 - 企查查",
-        "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
-        "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
-        "source": "www.qcc.com",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
+        "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
+        "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
+        "source": "www.worldmr.net",
         "date": "2026-08-01",
-        "score": 2.5,
-        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
+        "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
+        "url": "https://www.jobui.com/company/12781277/news/",
+        "source": "www.jobui.com",
+        "date": "2026-08-01",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "星恒电源完成数亿元融资 年产4GWh锂电池项目已封顶_电池网",
+        "summary": "近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。 近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。",
+        "url": "https://www.itdcw.com/news/focus/110Q44P92024.html",
+        "source": "www.itdcw.com",
+        "date": "2026-08-01",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动三轮车用户谁没被 电池沉 绊过手?搬48V50Ah的电池得憋足劲,赶上拉满货,电池占重...",
+        "summary": "12:查看全文126:星恒电源.30:星恒电源股份有限公司1073:法定代表人:冯笑 | 注册资本:32157.5068万人民币 | 成立日期:2003-12-18...",
+        "url": "https://news.tianyancha.com/ll_7gt16ep98l.html",
+        "source": "news.tianyancha.com",
+        "date": "2026-08-01",
+        "score": 3.0,
+        "query": "星恒电源 新闻 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "硬科技",
-      "title": "深圳市平板显示行业协会 - 企查查",
-      "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
-      "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
-      "source": "www.qcc.com",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
+      "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
+      "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
+      "source": "www.worldmr.net",
       "date": "2026-08-01",
-      "score": 2.5,
-      "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      "score": 4.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
+      "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
+      "url": "https://www.jobui.com/company/12781277/news/",
+      "source": "www.jobui.com",
+      "date": "2026-08-01",
+      "score": 4.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "星恒电源完成数亿元融资 年产4GWh锂电池项目已封顶_电池网",
+      "summary": "近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。 近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。",
+      "url": "https://www.itdcw.com/news/focus/110Q44P92024.html",
+      "source": "www.itdcw.com",
+      "date": "2026-08-01",
+      "score": 4.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动三轮车用户谁没被 电池沉 绊过手?搬48V50Ah的电池得憋足劲,赶上拉满货,电池占重...",
+      "summary": "12:查看全文126:星恒电源.30:星恒电源股份有限公司1073:法定代表人:冯笑 | 注册资本:32157.5068万人民币 | 成立日期:2003-12-18...",
+      "url": "https://news.tianyancha.com/ll_7gt16ep98l.html",
+      "source": "news.tianyancha.com",
+      "date": "2026-08-01",
+      "score": 3.0,
+      "query": "星恒电源 新闻 2026"
     }
   ]
 }
