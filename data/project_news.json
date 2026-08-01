@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-08-01T21:14:09+08:00",
+  "generated_at": "2026-08-01T21:24:59+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 1,
-  "by_industry": {
-    "工业 AI": [
-      {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "工信部连发工业互联网+AI制造政策,明确推动数据治理与工业AI落地,2026年工_财富号_东方财富网",
-        "summary": "工信部连发工业互联网 + AI 制造政策,明确推动数据治理与工业 AI 落地,2026 年工业大数据市场将达数千亿元,零点有数正精准踩中风口!.政策力推...",
-        "url": "https://caifuhao.eastmoney.com/news/20260114093646813829000",
-        "source": "caifuhao.eastmoney.com",
-        "date": "2026-08-01",
-        "score": 3.5,
-        "query": "工业 AI 行业 政策 2026"
-      }
-    ]
-  },
-  "items": [
-    {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "工信部连发工业互联网+AI制造政策,明确推动数据治理与工业AI落地,2026年工_财富号_东方财富网",
-      "summary": "工信部连发工业互联网 + AI 制造政策,明确推动数据治理与工业 AI 落地,2026 年工业大数据市场将达数千亿元,零点有数正精准踩中风口!.政策力推...",
-      "url": "https://caifuhao.eastmoney.com/news/20260114093646813829000",
-      "source": "caifuhao.eastmoney.com",
-      "date": "2026-08-01",
-      "score": 3.5,
-      "query": "工业 AI 行业 政策 2026"
-    }
-  ]
+  "total": 0,
+  "by_industry": {},
+  "items": []
 }
