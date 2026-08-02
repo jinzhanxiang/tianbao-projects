@@ -665,6 +665,15 @@ body{
         </div>
       </section>
 
+      <!-- ②.5 行业 + 公司新闻（2026-08-02 新增 · 个性化事件流） -->
+      <section class="v3-section v3-hud to-reveal" data-reveal-delay="25" id="secProjectNews">
+        <span class="v3-hud-scan"></span>
+        <h2>②.5 行业 + 公司动态 <small>按本项目行业筛选 · 来自 industry_news.json + project_news.json</small></h2>
+        <div class="v3-reports-tl" id="projectNewsTl">
+          <div class="v3-rtl-empty">载入中...</div>
+        </div>
+      </section>
+
       <!-- ③ 报告时间线 -->
       <section class="v3-section v3-hud to-reveal" data-reveal-delay="3" id="secReports">
         <span class="v3-hud-scan"></span>
@@ -726,6 +735,8 @@ body{
 
   let PROJECTS = [];
   let REPORTS = {};
+  let INDUSTRY_NEWS = {};  // 2026-08-02 加载行业新闻（按项目行业筛选）
+  let PROJECT_NEWS = [];   // 2026-08-02 加载公司新闻（按 code 筛选）
   let CURRENT_PROJ = null;
   let CURRENT_REPORTS = [];
 
@@ -754,9 +765,11 @@ body{
 
   async function loadData(){
     try {
-      const [p, r] = await Promise.all([
+      const [p, r, n, pn] = await Promise.all([
         fetch('data/projects.json', {cache:'no-store'}),
         fetch('data/reports.json', {cache:'no-store'}),
+        fetch('data/industry_news.json', {cache:'no-store'}).catch(()=>null),
+        fetch('data/project_news.json', {cache:'no-store'}).catch(()=>null),
       ]);
       const proj = await p.json();
       PROJECTS = proj.projects || [];
@@ -765,6 +778,13 @@ body{
       /* 隔离区过滤 */
       const _qc = rp.quarantine_codes || [];
       _qc.forEach(c => { delete REPORTS[c]; });
+      /* 2026-08-02 新增：项目详情加载行业新闻 + 公司新闻（个性化事件流） */
+      if (n) {
+        try { INDUSTRY_NEWS = (await n.json()).industries || {}; } catch (_) {}
+      }
+      if (pn) {
+        try { PROJECT_NEWS = (await pn.json()).items || []; } catch (_) {}
+      }
     } catch(e){
       console.error('数据加载失败', e);
       PROJECTS = []; REPORTS = {};
@@ -820,6 +840,7 @@ body{
     renderBrief(p);
     renderMaterials(p);
     renderTimeline(p);
+    renderProjectNews(p);
   }
 
   /* ---- sidebar ---- */
@@ -1116,6 +1137,68 @@ body{
         host.appendChild(moreBtn);
       }
     }
+    host.querySelectorAll('.v3-rtl-i').forEach(el=>{
+      const url = el.dataset.url;
+      if(url && url!=='#'){
+        el.style.cursor = 'pointer';
+        el.addEventListener('click',(e)=>{
+          if(e.target.tagName!=='A') window.open(url,'_blank');
+        });
+      }
+    });
+  }
+
+  /* 2026-08-02 新增：渲染项目个性化新闻（行业 + 公司） */
+  function renderProjectNews(p){
+    const host = document.getElementById('projectNewsTl');
+    if(!host) return;
+    const indKw = (p.industry || '').split(/[·\/ ]+/).filter(Boolean);
+    const seen = new Set();
+    const items = [];
+    /* 1. 行业新闻（按本项目所有行业词命中） */
+    Object.entries(INDUSTRY_NEWS).forEach(([ind, list])=>{
+      const isMatch = indKw.some(k => ind.includes(k) || k.includes(ind));
+      if(!isMatch) return;
+      list.forEach(it=>{
+        if(it._placeholder) return;
+        const id = (it.url || '') + '|' + (it.title || '');
+        if(seen.has(id)) return; seen.add(id);
+        items.push({...it, kind: '行业', displayDate: it.date || it.fetched_at || ''});
+      });
+    });
+    /* 2. 公司新闻（按本项目 code 匹配） */
+    PROJECT_NEWS.forEach(it=>{
+      if(it.code !== p.code) return;
+      const id = (it.url || '') + '|' + (it.title || '');
+      if(seen.has(id)) return;
+      seen.add(id);
+      items.push({...it, kind: '公司', displayDate: it.date || it.fetched_at || ''});
+    });
+    if(!items.length){
+      host.innerHTML = '<div class="v3-rtl-empty">该项目所在行业暂无公开新闻 · 等待下次 --fetch 抓取</div>';
+      return;
+    }
+    items.sort((a,b)=>(b.displayDate||'').localeCompare(a.displayDate||''));
+    const top = items.slice(0, 10);
+    const html = top.map(it=>{
+      const date = it.displayDate || '—';
+      const title = escapeHtml(it.title || '');
+      const url = it.url || '#';
+      const kindTag = it.kind === '公司' ? '<span class="v3-rtl-cat-tag cat-公司">公司</span>' : '<span class="v3-rtl-cat-tag cat-行业">行业</span>';
+      const summary = it.summary ? `<div style="font-size:12px;color:var(--ink-2);margin-top:4px;font-family:var(--fsong);line-height:1.6;text-indent:0">${escapeHtml((it.summary||'').slice(0,180))}</div>` : '';
+      return `
+        <div class="v3-rtl-i" data-url="${url}">
+          <div class="v3-rtl-cat"></div>
+          <div class="v3-rtl-date">${date}</div>
+          ${kindTag}
+          <div class="v3-rtl-title">
+            <a href="${url}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;border-bottom:1px dashed var(--border);padding-bottom:1px">${title}</a>
+            <span style="font-size:11px;color:var(--ink-3);margin-left:8px">${escapeHtml(it.industry || it.company || '')}</span>
+          </div>
+          ${summary}
+        </div>`;
+    }).join('');
+    host.innerHTML = html + (items.length > 10 ? `<div style="text-align:center;padding:12px;font-size:13px;color:var(--ink-3)">共 ${items.length} 条 · 仅显示前 10 条</div>` : '');
     host.querySelectorAll('.v3-rtl-i').forEach(el=>{
       const url = el.dataset.url;
       if(url && url!=='#'){
