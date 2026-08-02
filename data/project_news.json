@@ -1,60 +1,134 @@
 {
-  "generated_at": "2026-08-02T12:22:14+08:00",
+  "generated_at": "2026-08-02T12:31:00+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 2,
+  "total": 5,
   "by_industry": {
-    "工业 AI": [
+    "低空经济": [
       {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "工信部连发工业互联网+AI制造政策,明确推动数据治理与工业AI落地,2026年工_财富号_东方财富网",
-        "summary": "工信部连发工业互联网 + AI 制造政策,明确推动数据治理与工业 AI 落地,2026 年工业大数据市场将达数千亿元,零点有数正精准踩中风口!.政策力推...",
-        "url": "https://caifuhao.eastmoney.com/news/20260114093646813829000",
-        "source": "caifuhao.eastmoney.com",
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
+        "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
+        "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
+        "source": "www.163.com",
         "date": "2026-08-02",
-        "score": 3.5,
-        "query": "工业 AI 行业 政策 2026"
+        "score": 5.5,
+        "query": "\"青岛直升机\" 公告 签约 中标 投资"
       },
       {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "两部门发文实施2026年 模数共振 行动 推动人工智能高水平赋能新型工业化",
-        "summary": "通知提出,面向钢铁、石化化工、有色金属等20个重点行业或领域,通过行动牵引,推动产出一批推广价值高、技术可行性强的人工智能应用场景,攻关...",
-        "url": "http://www.whwx.gov.cn/xxh/hyfzyw/202604/t20260430_2759564.shtml",
-        "source": "www.whwx.gov.cn",
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
+        "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
+        "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
+        "source": "ggzyjyzx.shandong.gov.cn",
         "date": "2026-08-02",
-        "score": 1.5,
-        "query": "工业 AI 行业 政策 2026"
+        "score": 4.0,
+        "query": "\"青岛直升机\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
+        "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
+        "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
+        "source": "www.jianyu360.cn",
+        "date": "2026-08-02",
+        "score": 4.0,
+        "query": "\"青岛直升机\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "青岛直升机中标结果-直升机招标采购 - 采招网",
+        "summary": "2025年10月28日 - 2025年直升机航材大修项目中标公告救援支队2025年直升机航材大修项目 品目 服务/商务服务/维修和保养服务/其他维修和保养服务,货物/设备/航空器及其配...",
+        "url": "https://m.bidcenter.com.cn/zhaobiao/zbkeyw-24902-370200-4.html",
+        "source": "m.bidcenter.com.cn",
+        "date": "2026-08-02",
+        "score": 4.0,
+        "query": "\"青岛直升机\" 公告 签约 中标 投资"
+      }
+    ],
+    "硬科技": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "硬科技",
+        "title": "深圳市平板显示行业协会 - 企查查",
+        "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+        "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+        "source": "www.qcc.com",
+        "date": "2026-08-02",
+        "score": 2.5,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
       }
     ]
   },
   "items": [
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "工信部连发工业互联网+AI制造政策,明确推动数据治理与工业AI落地,2026年工_财富号_东方财富网",
-      "summary": "工信部连发工业互联网 + AI 制造政策,明确推动数据治理与工业 AI 落地,2026 年工业大数据市场将达数千亿元,零点有数正精准踩中风口!.政策力推...",
-      "url": "https://caifuhao.eastmoney.com/news/20260114093646813829000",
-      "source": "caifuhao.eastmoney.com",
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
+      "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
+      "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
+      "source": "www.163.com",
       "date": "2026-08-02",
-      "score": 3.5,
-      "query": "工业 AI 行业 政策 2026"
+      "score": 5.5,
+      "query": "\"青岛直升机\" 公告 签约 中标 投资"
     },
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "两部门发文实施2026年 模数共振 行动 推动人工智能高水平赋能新型工业化",
-      "summary": "通知提出,面向钢铁、石化化工、有色金属等20个重点行业或领域,通过行动牵引,推动产出一批推广价值高、技术可行性强的人工智能应用场景,攻关...",
-      "url": "http://www.whwx.gov.cn/xxh/hyfzyw/202604/t20260430_2759564.shtml",
-      "source": "www.whwx.gov.cn",
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
+      "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
+      "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
+      "source": "ggzyjyzx.shandong.gov.cn",
       "date": "2026-08-02",
-      "score": 1.5,
-      "query": "工业 AI 行业 政策 2026"
+      "score": 4.0,
+      "query": "\"青岛直升机\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
+      "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
+      "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
+      "source": "www.jianyu360.cn",
+      "date": "2026-08-02",
+      "score": 4.0,
+      "query": "\"青岛直升机\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "青岛直升机中标结果-直升机招标采购 - 采招网",
+      "summary": "2025年10月28日 - 2025年直升机航材大修项目中标公告救援支队2025年直升机航材大修项目 品目 服务/商务服务/维修和保养服务/其他维修和保养服务,货物/设备/航空器及其配...",
+      "url": "https://m.bidcenter.com.cn/zhaobiao/zbkeyw-24902-370200-4.html",
+      "source": "m.bidcenter.com.cn",
+      "date": "2026-08-02",
+      "score": 4.0,
+      "query": "\"青岛直升机\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "硬科技",
+      "title": "深圳市平板显示行业协会 - 企查查",
+      "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+      "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+      "source": "www.qcc.com",
+      "date": "2026-08-02",
+      "score": 2.5,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     }
   ]
 }
