@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T13:03:05+08:00",
+  "generated_at": "2026-08-02T13:09:43+08:00",
   "source": "build_industry_news.py v3.7 + 人工维护",
   "note": "本数据基于 projects.json + reports.json 自动汇总 ledger 行业集合。已存在行业不覆盖；新行业可加 --fetch 启用 SearXNG 抓取（默认占位）。具体数据请以官方公告为准。",
   "industries": {
@@ -540,29 +540,53 @@
         "score": 1.5
       }
     ],
-    "航空维修": [
-      {
-        "title": "航空维修行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
-        "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
-      }
-    ],
     "资本运作": [
       {
-        "title": "资本运作行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
-        "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
+        "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
+        "_auto": true,
+        "score": 1.5
       }
     ],
     "跨境物流": [
       {
-        "title": "跨境物流行业 · 待补充近期动态",
+        "title": "国际_资讯_凤凰网",
+        "summary": "5 小时之前 · 凤凰网资讯·国际是国际相关内容优质内容入口，从全球要闻到时政新闻全面覆盖，服务关注时事的读者的深度阅读需求，助力搜索引擎收录与用户 ...",
+        "source": "news.ifeng.com",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://news.ifeng.com/shanklist/3-35198-/",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "全球速报_澎湃新闻-The Paper",
+        "summary": "澎湃，澎湃新闻，澎湃新闻网，新闻与思想，澎湃是植根于中国上海的时政思想类互联网平台，以最活跃的原创新闻与最冷静的思想分析为两翼，是互联网技术创新与新闻价值传承的结合体，致力于问答式 …",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://www.thepaper.cn/list_25429",
+        "_auto": true,
+        "score": 1.5
+      }
+    ],
+    "航空维修": [
+      {
+        "title": "航空维修行业 · 待补充近期动态",
         "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
         "source": "待补充",
         "date": "2026-08-02",
