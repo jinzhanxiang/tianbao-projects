@@ -1,182 +1,108 @@
 {
-  "generated_at": "2026-08-02T09:58:01+08:00",
+  "generated_at": "2026-08-02T10:05:35+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 7,
+  "total": 4,
   "by_industry": {
-    "医疗健康": [
+    "美国中概股": [
       {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2%_区间_战略_公司",
+        "summary": "经济观察网 High-Trend International Group近期股价大幅波动,战略转型锂资源运输业务,2025财年营收同比近翻倍。截至6月5日,股价(2.90美元)...",
+        "url": "https://www.sohu.com/a/1033504487_122014422",
+        "source": "www.sohu.com",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "\"High-Trend International\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
+        "summary": "",
+        "url": "https://quote.eastmoney.com/us/HTCO.html",
+        "source": "quote.eastmoney.com",
         "date": "2026-08-02",
         "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
+        "query": "High-Trend International 新闻 2026"
       },
       {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-        "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-        "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-        "source": "www.myrb.net",
-        "date": "2026-08-02",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "健康频道_最新健康_深度报道 - 搜狐",
-        "summary": "连夜奔赴的 芯片救援 : PET-CT故障12小时极速修复,节省超20万!柯渡医学科技 · 2026.2.26.搜狐健康频道,提供最新健康资讯、深度报道与热点解读。 健康频道 昨晚喝了酒,今天开车算酒驾吗?搜狐城...",
-        "url": "http://mt.sohu.com/kindfeed/health/20260226/17",
-        "source": "mt.sohu.com",
-        "date": "2026-08-02",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      }
-    ],
-    "硬科技": [
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告",
-        "summary": "2023年7月10日 - 请中标单位及时与业主相关负责人联系,及时签署相关商务合同;未中标供应商也可及时向业主提出相关质疑.受业主*委托,招标网于2023年07月10日发布中标公...",
-        "url": "https://jiangsu.zhaobiao.cn/succeed_v_75158842.html",
-        "source": "jiangsu.zhaobiao.cn",
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
+        "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
+        "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
+        "source": "www.eeo.com.cn",
         "date": "2026-08-02",
         "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+        "query": "High-Trend International 新闻 2026"
       },
       {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "中材科技全资子公司收购中复连众100%股权并增资扩股 增强业务协同_叶片_交易_中国",
-        "summary": "将所持中复科金89.93%股权转让给中材科技(苏州)有限公司,将所持中复碳芯30.18%股权转让....中材科技(002080)6月9日晚间公告,公司所属全资子公司...",
-        "url": "https://business.sohu.com/a/683692518_115433",
-        "source": "business.sohu.com",
-        "date": "2026-08-02",
-        "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "中材科技股份有限公司2024年日常关联交易预计公告_新浪财经_新浪网",
-        "summary": "(4)中复碳芯电缆科技有限公司(以下简称 中复碳芯 ).本公司及董事会全体成员保证公告内容的真实、准确和完整,对公告的虚假记载、误导性陈述或...",
-        "url": "https://finance.sina.com.cn/roll/2024-03-22/doc-inapcivz8592894.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "2026-08-02",
-        "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "硬科技",
-        "title": "(连云港市)中复碳芯电缆科技有限公司: 拉挤车间项目_招标_江苏省工程项目_江苏省工程信息_工程信息_建筑工程项目线索",
-        "summary": "2023年4月4日 - 更多推荐工程信息(吴忠)盐池县污水处理有限公司: 盐池县污水处理厂扩建项目普洱市金波食品有限责任公司肉制品规范化流水生产线建设项目(苏州市)广州追...",
-        "url": "http://gc.buildnet.cn/Home/ProjectDetail?date=2023-04-04&id=67365100",
-        "source": "gc.buildnet.cn",
+        "code": "htco-us",
+        "company": "High-Trend International",
+        "industry": "美国中概股",
+        "title": "[美股财报]:High-Trend International Group-A 2025年年度报告和过渡报告 - 发现报告",
+        "summary": "2025年2月27日 - 财报/招股书/报告详情/High-Trend International Group-A 2025年年度报告和过渡报告 2025-02-27 美股财报张***你可能感兴趣 WF International Ltd ",
+        "url": "https://www.fxbaogao.com/detail/4712677",
+        "source": "www.fxbaogao.com",
         "date": "2026-08-02",
         "score": 3.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+        "query": "\"High-Trend International\" 公告 签约 中标 投资"
       }
     ]
   },
   "items": [
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2%_区间_战略_公司",
+      "summary": "经济观察网 High-Trend International Group近期股价大幅波动,战略转型锂资源运输业务,2025财年营收同比近翻倍。截至6月5日,股价(2.90美元)...",
+      "url": "https://www.sohu.com/a/1033504487_122014422",
+      "source": "www.sohu.com",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "\"High-Trend International\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group-(HTCO)最新价格_行情_走势图—东方财富网",
+      "summary": "",
+      "url": "https://quote.eastmoney.com/us/HTCO.html",
+      "source": "quote.eastmoney.com",
       "date": "2026-08-02",
       "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
+      "query": "High-Trend International 新闻 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告",
-      "summary": "2023年7月10日 - 请中标单位及时与业主相关负责人联系,及时签署相关商务合同;未中标供应商也可及时向业主提出相关质疑.受业主*委托,招标网于2023年07月10日发布中标公...",
-      "url": "https://jiangsu.zhaobiao.cn/succeed_v_75158842.html",
-      "source": "jiangsu.zhaobiao.cn",
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "High-Trend International Group近一周股价震荡 营收同比增98.2% - 经济观察网 - 专业财经新闻网站",
+      "summary": "2026年4月,公司宣布战略性拓展锂资源运输业务,旨在切入全球电动汽车电池材料供应链,优化货物结构.经济观察网 High-Trend International Grou...",
+      "url": "http://www.eeo.com.cn/2026/0608/906631.shtml",
+      "source": "www.eeo.com.cn",
       "date": "2026-08-02",
       "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      "query": "High-Trend International 新闻 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "中材科技全资子公司收购中复连众100%股权并增资扩股 增强业务协同_叶片_交易_中国",
-      "summary": "将所持中复科金89.93%股权转让给中材科技(苏州)有限公司,将所持中复碳芯30.18%股权转让....中材科技(002080)6月9日晚间公告,公司所属全资子公司...",
-      "url": "https://business.sohu.com/a/683692518_115433",
-      "source": "business.sohu.com",
-      "date": "2026-08-02",
-      "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "中材科技股份有限公司2024年日常关联交易预计公告_新浪财经_新浪网",
-      "summary": "(4)中复碳芯电缆科技有限公司(以下简称 中复碳芯 ).本公司及董事会全体成员保证公告内容的真实、准确和完整,对公告的虚假记载、误导性陈述或...",
-      "url": "https://finance.sina.com.cn/roll/2024-03-22/doc-inapcivz8592894.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "2026-08-02",
-      "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-      "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-      "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-      "source": "www.myrb.net",
+      "code": "htco-us",
+      "company": "High-Trend International",
+      "industry": "美国中概股",
+      "title": "[美股财报]:High-Trend International Group-A 2025年年度报告和过渡报告 - 发现报告",
+      "summary": "2025年2月27日 - 财报/招股书/报告详情/High-Trend International Group-A 2025年年度报告和过渡报告 2025-02-27 美股财报张***你可能感兴趣 WF International Ltd ",
+      "url": "https://www.fxbaogao.com/detail/4712677",
+      "source": "www.fxbaogao.com",
       "date": "2026-08-02",
       "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "健康频道_最新健康_深度报道 - 搜狐",
-      "summary": "连夜奔赴的 芯片救援 : PET-CT故障12小时极速修复,节省超20万!柯渡医学科技 · 2026.2.26.搜狐健康频道,提供最新健康资讯、深度报道与热点解读。 健康频道 昨晚喝了酒,今天开车算酒驾吗?搜狐城...",
-      "url": "http://mt.sohu.com/kindfeed/health/20260226/17",
-      "source": "mt.sohu.com",
-      "date": "2026-08-02",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "硬科技",
-      "title": "(连云港市)中复碳芯电缆科技有限公司: 拉挤车间项目_招标_江苏省工程项目_江苏省工程信息_工程信息_建筑工程项目线索",
-      "summary": "2023年4月4日 - 更多推荐工程信息(吴忠)盐池县污水处理有限公司: 盐池县污水处理厂扩建项目普洱市金波食品有限责任公司肉制品规范化流水生产线建设项目(苏州市)广州追...",
-      "url": "http://gc.buildnet.cn/Home/ProjectDetail?date=2023-04-04&id=67365100",
-      "source": "gc.buildnet.cn",
-      "date": "2026-08-02",
-      "score": 3.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      "query": "\"High-Trend International\" 公告 签约 中标 投资"
     }
   ]
 }
