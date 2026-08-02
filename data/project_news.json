@@ -1,21 +1,107 @@
 {
-  "generated_at": "2026-08-02T08:03:00+08:00",
+  "generated_at": "2026-08-02T08:10:46+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 2,
+  "total": 12,
   "by_industry": {
-    "低空经济": [
+    "基建": [
       {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-        "summary": "简介：#空中1",
-        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-        "source": "k.sina.com.cn",
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
+        "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
+        "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
+        "source": "finance.sina.com.cn",
         "date": "2026-08-02",
-        "score": 4.5,
-        "query": "青岛直升机 新闻 2026"
+        "score": 6.5,
+        "query": "天保基建 新闻 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
+        "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
+        "url": "https://finance.eastmoney.com/a/202607133803760816.html",
+        "source": "finance.eastmoney.com",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "天保基建 新闻 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "天保基建(000965.SZ):2026年一季报净利润为6393.34万元、同比较去年同期下降36.29% | 界面新闻",
+        "summary": "2026年4月29日 - 年4月29日,天保基建(000965.SZ)发布2026年一季报,营业总收入为14.88亿元,同比较去年同期上涨777.93%,归母净利润为6393.34万元,同比较去年同期下降36.2...",
+        "url": "https://m.jiemian.com/article/14351866_sina.html",
+        "source": "m.jiemian.com",
+        "date": "2026-08-02",
+        "score": 5.0,
+        "query": "天保基建 新闻 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "天保基建(000965)相关新闻_证券之星",
+        "summary": "2026年2月15日 - 天保基建(000965)2月13日主力资金净买入157.01万元2026-02-13 15:53:51.天保基建:2月12日融资买入1572.03万元,融资融券余额1.81亿元2026-02-13 09:44:..",
+        "url": "https://news.stockstar.com/info/dstock_000965.shtml",
+        "source": "news.stockstar.com",
+        "date": "2026-08-02",
+        "score": 5.0,
+        "query": "天保基建 新闻 2026"
+      }
+    ],
+    "卫星遥感": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图:发布公司中标公告_ 东方财富网",
+        "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
+        "url": "https://finance.eastmoney.com/a/202406243112042552.html",
+        "source": "finance.eastmoney.com",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "\"航天宏图\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图又签约29亿元卫星项目|李欢|遥感|巴基斯坦|东风商业航天_网易订阅",
+        "summary": "航天宏图又签约29亿元卫星项目,李欢,遥感,航天宏图,巴基斯坦,卫星项目,东风商业航天",
+        "url": "https://www.163.com/dy/article/K90RJDHE05119QTF.html",
+        "source": "www.163.com",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "\"航天宏图\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图信息技术股份有限公司最新中标项目 - 中标公示信息 - 建设通",
+        "summary": "航天宏图信息技术股份有限公司中标业绩.航天宏图信息技术股份有限公司中标公示173个,四库一平台业绩0个,2025年中标5个,中标金额76271.76万元,常中标地区为北京市,中标173个。 首页帮助中心产品...",
+        "url": "https://www.cbi360.net/hhb/sg_1861534/zb",
+        "source": "www.cbi360.net",
+        "date": "2026-08-02",
+        "score": 4.0,
+        "query": "\"航天宏图\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图(688066):中标航天规划设计集团有限公司采购项目,中标金额为431.80万元 _中金在线财经号",
+        "summary": "989:同壁财经讯,企查查数据显示,根据《海上突发事件应急观测体系技术方案编制项目中标公告》,航天宏图信息技术股份有限公司于2025年3月28日公...",
+        "url": "http://mp.cnfol.com/57306/article/1743137905-141724304.html",
+        "source": "mp.cnfol.com",
+        "date": "2026-08-02",
+        "score": 4.0,
+        "query": "\"航天宏图\" 公告 签约 中标 投资"
       }
     ],
     "硬科技": [
@@ -23,40 +109,196 @@
         "code": "huadong-sk",
         "company": "华东数控",
         "industry": "硬科技",
-        "title": "发改委放大招!2026年 两新 政策升级,万亿资本剑指硬科技_财富号_东方财富网",
-        "summary": "1000亿超长期特别国债启动国家创业投资引导基金,目标万亿规模,投早、投小、投硬科技,存续期拉到20年,取消返投限制.这背后逻辑很清晰:政策红...",
-        "url": "https://caifuhao.eastmoney.com/news/20251231210930016165890",
-        "source": "caifuhao.eastmoney.com",
+        "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
+        "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
+        "url": "https://news.qq.com/rain/a/20260417A090QP00",
+        "source": "news.qq.com",
         "date": "2026-08-02",
-        "score": 3.5,
-        "query": "硬科技 行业 政策 2026"
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
+        "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
+        "url": "https://news.qq.com/rain/a/20260419A02IN100",
+        "source": "news.qq.com",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
+        "summary": "9:同花顺1118:数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有...",
+        "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
+        "source": "finance.sina.com.cn",
+        "date": "2026-08-02",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
+        "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
+        "url": "https://news.qq.com/rain/a/20260418A054BV00",
+        "source": "news.qq.com",
+        "date": "2026-08-02",
+        "score": 4.5,
+        "query": "华东数控 新闻 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-      "summary": "简介：#空中1",
-      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-      "source": "k.sina.com.cn",
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
+      "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
+      "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
+      "source": "finance.sina.com.cn",
       "date": "2026-08-02",
-      "score": 4.5,
-      "query": "青岛直升机 新闻 2026"
+      "score": 6.5,
+      "query": "天保基建 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图:发布公司中标公告_ 东方财富网",
+      "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
+      "url": "https://finance.eastmoney.com/a/202406243112042552.html",
+      "source": "finance.eastmoney.com",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "\"航天宏图\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图又签约29亿元卫星项目|李欢|遥感|巴基斯坦|东风商业航天_网易订阅",
+      "summary": "航天宏图又签约29亿元卫星项目,李欢,遥感,航天宏图,巴基斯坦,卫星项目,东风商业航天",
+      "url": "https://www.163.com/dy/article/K90RJDHE05119QTF.html",
+      "source": "www.163.com",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "\"航天宏图\" 公告 签约 中标 投资"
     },
     {
       "code": "huadong-sk",
       "company": "华东数控",
       "industry": "硬科技",
-      "title": "发改委放大招!2026年 两新 政策升级,万亿资本剑指硬科技_财富号_东方财富网",
-      "summary": "1000亿超长期特别国债启动国家创业投资引导基金,目标万亿规模,投早、投小、投硬科技,存续期拉到20年,取消返投限制.这背后逻辑很清晰:政策红...",
-      "url": "https://caifuhao.eastmoney.com/news/20251231210930016165890",
-      "source": "caifuhao.eastmoney.com",
+      "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
+      "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
+      "url": "https://news.qq.com/rain/a/20260417A090QP00",
+      "source": "news.qq.com",
       "date": "2026-08-02",
-      "score": 3.5,
-      "query": "硬科技 行业 政策 2026"
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
+      "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
+      "url": "https://news.qq.com/rain/a/20260419A02IN100",
+      "source": "news.qq.com",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
+      "summary": "9:同花顺1118:数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有...",
+      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
+      "source": "finance.sina.com.cn",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
+      "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
+      "url": "https://finance.eastmoney.com/a/202607133803760816.html",
+      "source": "finance.eastmoney.com",
+      "date": "2026-08-02",
+      "score": 5.5,
+      "query": "天保基建 新闻 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "天保基建(000965.SZ):2026年一季报净利润为6393.34万元、同比较去年同期下降36.29% | 界面新闻",
+      "summary": "2026年4月29日 - 年4月29日,天保基建(000965.SZ)发布2026年一季报,营业总收入为14.88亿元,同比较去年同期上涨777.93%,归母净利润为6393.34万元,同比较去年同期下降36.2...",
+      "url": "https://m.jiemian.com/article/14351866_sina.html",
+      "source": "m.jiemian.com",
+      "date": "2026-08-02",
+      "score": 5.0,
+      "query": "天保基建 新闻 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "天保基建(000965)相关新闻_证券之星",
+      "summary": "2026年2月15日 - 天保基建(000965)2月13日主力资金净买入157.01万元2026-02-13 15:53:51.天保基建:2月12日融资买入1572.03万元,融资融券余额1.81亿元2026-02-13 09:44:..",
+      "url": "https://news.stockstar.com/info/dstock_000965.shtml",
+      "source": "news.stockstar.com",
+      "date": "2026-08-02",
+      "score": 5.0,
+      "query": "天保基建 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
+      "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
+      "url": "https://news.qq.com/rain/a/20260418A054BV00",
+      "source": "news.qq.com",
+      "date": "2026-08-02",
+      "score": 4.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图信息技术股份有限公司最新中标项目 - 中标公示信息 - 建设通",
+      "summary": "航天宏图信息技术股份有限公司中标业绩.航天宏图信息技术股份有限公司中标公示173个,四库一平台业绩0个,2025年中标5个,中标金额76271.76万元,常中标地区为北京市,中标173个。 首页帮助中心产品...",
+      "url": "https://www.cbi360.net/hhb/sg_1861534/zb",
+      "source": "www.cbi360.net",
+      "date": "2026-08-02",
+      "score": 4.0,
+      "query": "\"航天宏图\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图(688066):中标航天规划设计集团有限公司采购项目,中标金额为431.80万元 _中金在线财经号",
+      "summary": "989:同壁财经讯,企查查数据显示,根据《海上突发事件应急观测体系技术方案编制项目中标公告》,航天宏图信息技术股份有限公司于2025年3月28日公...",
+      "url": "http://mp.cnfol.com/57306/article/1743137905-141724304.html",
+      "source": "mp.cnfol.com",
+      "date": "2026-08-02",
+      "score": 4.0,
+      "query": "\"航天宏图\" 公告 签约 中标 投资"
     }
   ]
 }
