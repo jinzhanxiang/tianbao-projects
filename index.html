@@ -1000,14 +1000,22 @@ body{
       NEWS_BY_IND = newsRaw.industries || {};
       NEWS = [];
       Object.entries(NEWS_BY_IND).forEach(([ind, items])=>{
-        items.forEach(it=>NEWS.push({...it, industry:ind}));
+        // 2026-08-02 修复：自动抓取条目无 publishedDate → fallback 到 fetched_at
+        // 否则 Bing 抓的"今天抓到"会排到最末（空日期 < 任意旧日期）
+        items.forEach(it=>{
+          const displayDate = it.date || it.fetched_at || '';
+          NEWS.push({...it, date: displayDate, industry: ind});
+        });
       });
       /* 合并「每日自动抓取的公司新闻」project_news.json → 按行业并入事件流 */
       const projNews = (pn && pn.items) || [];
       projNews.forEach(it=>{
         const ind = it.industry || '资讯';
+        // 2026-08-02 修复：Bing 抓取无 publishedDate，date 留空 → fallback 到 fetched_at
+        // 避免空日期被排序到底部（事件流中明明是最新抓的却排最末）
+        const displayDate = it.date || it.fetched_at || '';
         const norm = {
-          title: it.title, url: it.url, date: it.date,
+          title: it.title, url: it.url, date: displayDate,
           source: it.company || it.source, summary: it.summary || '',
           industry: ind, company: it.company || '', _auto: true,
         };
