@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T12:40:08+08:00",
-  "source": "build_industry_news.py v3.7 + 人工维护",
+  "generated_at": "2026-08-02T12:49:28+08:00",
+  "source": "build_industry_news.py v3.7 + SearXNG 自动抓取",
   "note": "本数据基于 projects.json + reports.json 自动汇总 ledger 行业集合。已存在行业不覆盖；新行业可加 --fetch 启用 SearXNG 抓取（默认占位）。具体数据请以官方公告为准。",
   "industries": {
     "综合智慧能源": [
@@ -235,42 +235,100 @@
     ],
     "AI": [
       {
-        "title": "AI行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全",
+        "summary": "1 天前 · AI工具集官网收录了国内外数百个AI工具，该导航网站包括AI写作工具、AI图像生成和背景移除、AI视频制作、AI音频转录 …",
+        "source": "ai-bot.cn",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://ai-bot.cn/",
+        "_auto": true,
+        "score": 3.0
+      },
+      {
+        "title": "免费AI工具 - 在线使用免费AI工具大全 | AIGC工具导航",
+        "summary": "4 小时之前 · 免费AI工具 AIGC 工具导航汇聚全网最全的 免费AI 工具集合，无论是AI智能助手、 AI写作 工具、 AI绘画 工具、AI PPT …",
+        "source": "www.aigc.cn",
+        "date": "2026-08-02",
+        "url": "https://www.aigc.cn/free-ai-tools",
+        "_auto": true,
+        "score": 3.0
+      },
+      {
+        "title": "即梦AI - 一站式AI创作平台",
+        "summary": "即梦AI是一个AI创作平台，可激发艺术创意、提升绘画和视频创作体验。 您可以利用AI智能，将想象变为现实。 即梦AI支持文字绘图 …",
+        "source": "jimeng.jianying.com",
+        "date": "2026-08-02",
+        "url": "https://jimeng.jianying.com/ai-tool/image/generate",
+        "_auto": true,
+        "score": 3.0
       }
     ],
     "上市公司": [
       {
-        "title": "上市公司行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "关于发布《深圳证券交易所股票上市规则（2026年修订 ...",
+        "summary": "2026年4月24日 · 现将新旧规则衔接安排通知如下： 1.根据中国证监会《上市公司董事会秘书监管规则》，本规则第4.4.1条至第4.4.6条、第4.4.10条至第4.4.13条自2026年5月24日起实施。 在此之前，上市 …",
+        "source": "www.szse.cn",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://www.szse.cn/lawrules/rule/allrules/bussiness/t20260424_620193.html",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "首页 | 上海证券交易所",
+        "summary": "2026年7月22日 · 上市公司公告 债券公告 基金公告 衍生品公告 清除 [605199] 海南葫芦娃药业集团股份有限公司关于董事会秘书离任暨董事长代行董事会秘书职责的公告 2026-08-01",
+        "source": "www.sse.com.cn",
+        "date": "2026-08-02",
+        "url": "https://www.sse.com.cn/?c=index",
+        "_auto": true,
+        "score": 3.0
+      },
+      {
+        "title": "巨潮资讯网",
+        "summary": "2 天之前 · 深物业控股股东解决同业竞争承诺两次延后最终期限，请问在中国证券市场可供参考的案例有哪些？ 如其他A股上市公司效仿深物业控股股东，会否对现行的证券制度造成重大影响？",
+        "source": "www.cninfo.com.cn",
+        "date": "2026-08-02",
+        "url": "http://www.cninfo.com.cn/",
+        "_auto": true,
+        "score": 2.0
       }
     ],
     "低空经济": [
       {
-        "title": "低空经济行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "六所高校申请增设“低空技术与工程”专业——布局低空经济 ...",
+        "summary": "2025年1月6日 · 在他看来，当前发展低空经济还有许多科学问题和关键技术需要突破。 通过低空经济相关产业的产学研结合，一方面可以满足低空产业需求，服务国家战略；另一方面可以结合产业发展， …",
+        "source": "gaokao.chsi.com.cn",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://gaokao.chsi.com.cn/gkxx/zybk/202501/20250106/2293350561.html",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "【专家观点】我国低空经济发展面临的问题与政策建议",
+        "summary": "2024年12月30日 · 加快制定低空经济发展规划和实施方案，明晰路线图，编制低空数字空域图，促进低空资源高效配置。 优化布局低空交通网络，构建通用航空和无人机低空航路航线网络，加快形成服务 …",
+        "source": "gaokao.chsi.com.cn",
+        "date": "2026-08-02",
+        "url": "https://gaokao.chsi.com.cn/gkxx/xkck/hydc/202412/20241230/2293385698.html",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "加快培育低空经济人才 - 阳光高考",
+        "summary": "2025年2月6日 · 低空经济是指在3000米以下，以低空空域为依托，由民用有人或无人驾驶航空器低空飞行活动衍生出的经济形态。 低空经济作为战略性新兴产业，具有链条长、辐射面广、带动性强等特 …",
+        "source": "gaokao.chsi.com.cn",
+        "date": "2026-08-02",
+        "url": "https://gaokao.chsi.com.cn/gkxx/xkck/hydc/202502/20250206/2293384817.html",
+        "_auto": true,
+        "score": 3.0
       }
     ],
     "光电治疗": [
       {
-        "title": "光电治疗行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "2026年光电行业发展现状、竞争格局及未来发展趋势与前景分析",
+        "summary": "2025年10月27日 · 光电行业的长期增长前景光明。 除了现有驱动力的持续作用外，元宇宙、脑机接口、光计算等更具前瞻性的应用， …",
+        "source": "www.sohu.com",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://www.sohu.com/a/947866562_121825394",
+        "_auto": true,
+        "score": 1.5
       }
     ],
     "卫星遥感": [
@@ -285,52 +343,147 @@
     ],
     "地理信息": [
       {
-        "title": "地理信息行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "国家地理信息公共服务平台 天地图",
+        "summary": "",
+        "source": "www.tianditu.gov.cn",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://www.tianditu.gov.cn/",
+        "_auto": true,
+        "score": 4.5
+      },
+      {
+        "title": "国家地理信息公共服务平台",
+        "summary": "2026年1月20日 · Web site created using create-react-app",
+        "source": "www.tianditu.gov.cn",
+        "date": "2026-08-02",
+        "url": "https://www.tianditu.gov.cn/portal/index.html",
+        "_auto": true,
+        "score": 4.5
+      },
+      {
+        "title": "天地图·在线地图",
+        "summary": "2026年7月14日 · 天地图是国家地理信息公共服务平台，提供在线地图和多种地理信息服务。",
+        "source": "map.tianditu.gov.cn",
+        "date": "2026-08-02",
+        "url": "https://map.tianditu.gov.cn/",
+        "_auto": true,
+        "score": 3.0
       }
     ],
     "基建": [
       {
-        "title": "基建行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
+        "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这不是简单的数量扩张，而是发展理念的深刻变革，是从规模速度型向质量 …",
+        "source": "www.sohu.com",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://www.sohu.com/a/994678899_122316869",
+        "_auto": true,
+        "score": 5.5
+      },
+      {
+        "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
+        "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大道交通改造工程） 深圳滨海大道是深圳最南端的一条城市快速路，该项 …",
+        "source": "www.sohu.com",
+        "date": "2026-08-02",
+        "url": "https://www.sohu.com/a/477545891_100237201",
+        "_auto": true,
+        "score": 4.5
+      },
+      {
+        "title": "十五五进行时·新基建 | 从规模扩张到体系重构——“十五五 ...",
+        "summary": "2026年6月12日 · 基建投资新时代理念之变—— 从规模扩张到体系重构 “十五五”基建与过往最根本的区别，是兼顾短期增长和长期经济转型，并且从“单点规模 ...",
+        "source": "finance.sina.com.cn",
+        "date": "2026-08-02",
+        "url": "https://finance.sina.com.cn/wm/2026-06-12/doc-inicazrx3570154.shtml",
+        "_auto": true,
+        "score": 4.5
       }
     ],
     "工业": [
       {
-        "title": "工业行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "工业 - 国家统计局",
+        "summary": "2019年12月2日 · 具体包括：（1）对自然资源的开采，如采矿、晒盐等（但不包括禽兽捕猎和水产捕捞）；（2）对农副产品的加工、 …",
+        "source": "www.stats.gov.cn",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://www.stats.gov.cn/sj/zbjs/202302/t20230202_1897098.html",
+        "_auto": true,
+        "score": 4.5
+      },
+      {
+        "title": "中华人民共和国工业和信息化部",
+        "summary": "2 天之前 · 工业和信息化部等七部门办公厅（办公室）关于开展2026年工业和信息化领域创新任务揭榜挂帅工作的通知 2026-07-28 工 …",
+        "source": "wap.miit.gov.cn",
+        "date": "2026-08-02",
+        "url": "https://wap.miit.gov.cn/",
+        "_auto": true,
+        "score": 4.5
+      },
+      {
+        "title": "中国工业底气何在？解码全球唯一的41类完整工业体系",
+        "summary": "2025年6月26日 · 那么，什么是完整的工业体系？ 有何重要意义?41 个工业大类又包含哪些行业？ 『制造前沿』本文将为您全面解 …",
+        "source": "www.thepaper.cn",
+        "date": "2026-08-02",
+        "url": "https://www.thepaper.cn/newsDetail_forward_31045841",
+        "_auto": true,
+        "score": 4.5
       }
     ],
     "收购研究": [
       {
-        "title": "收购研究行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
+        "source": "news.qq.com",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
+        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
+        "source": "www.sohu.com",
+        "date": "2026-08-02",
+        "url": "https://www.sohu.com/a/902656138_122063492",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "并购重组\"资产收购\"和\"股权收购\"中必须注意的10大问题 (附 ...",
+        "summary": "2024年12月15日 · 两种基本的并购模式，即“资产收购”和“股权收购”的区别及利弊进行分析，以供交易双方结合项目实际选择适用，确 …",
+        "source": "www.sohu.com",
+        "date": "2026-08-02",
+        "url": "https://www.sohu.com/a/837382251_121123886",
+        "_auto": true,
+        "score": 1.5
       }
     ],
     "数据要素": [
       {
-        "title": "数据要素行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。",
-        "source": "待补充",
+        "title": "《全国数据资源调查报告（2025年）》正式发布-国家数据局",
+        "summary": "2026年4月29日 · 调查结果显示，我国数据要素市场化价值化进程显著提速，数据资源供给体系、数据流通体系和数据开发利用体系协同演进，正由数据资源规模扩张向数据要素价值释放跃升，呈现以下显 …",
+        "source": "www.nda.gov.cn",
         "date": "2026-08-02",
-        "url": "",
-        "_placeholder": true
+        "url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0429/20260429164803571173880_pc.html",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "数据 - 国家统计局",
+        "summary": "数据发布 2026年7月中国采购经理指数运行情况 2025年我国“三新”经济增加值占国内生产总值比重为18.39% 2026-07-30 2026年上半年全国规模以上文化及相关产业企业营业收入... 2026-07-30 2026 …",
+        "source": "www.stats.gov.cn",
+        "date": "2026-08-02",
+        "url": "https://www.stats.gov.cn/sj/",
+        "_auto": true,
+        "score": 2.5
+      },
+      {
+        "title": "国家数据局",
+        "summary": "1 天前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC数字周数据领域系列活动在成都举办 APEC数据促进增长高级别圆桌会主席声 …",
+        "source": "www.nda.gov.cn",
+        "date": "2026-08-02",
+        "url": "https://www.nda.gov.cn/sjj/index_pc.html",
+        "_auto": true,
+        "score": 1.5
       }
     ],
     "母公司": [
