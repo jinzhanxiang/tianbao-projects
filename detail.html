@@ -546,9 +546,21 @@ body{
   .v3-brief-grid{grid-template-columns:minmax(0,1fr)!important}
   .v3-brief-cell{flex-direction:row!important;align-items:center!important;gap:8px;min-width:0!important}
   .v3-brief-cell .val{text-align:right!important;min-width:0!important;word-break:break-all;overflow-wrap:anywhere}
-  .v3-rtl-i{grid-template-columns:6px 80px 1fr;gap:10px;padding:12px 14px!important}
-  .v3-rtl-cat-tag{grid-column:3;font-size:12px!important}
-  .v3-rtl-title{font-size:15px!important}
+  .v3-rtl-i{grid-template-columns:6px 80px 1fr;gap:10px 12px;padding:14px 16px!important}
+  .v3-rtl-cat{grid-row:1;grid-column:1;align-self:start;margin-top:8px}
+  .v3-rtl-date{grid-row:1;grid-column:2;align-self:start;margin-top:6px;font-size:13px!important}
+  .v3-rtl-cat-tag{grid-row:1;grid-column:3;align-self:start;margin-top:6px;font-size:12px!important;justify-self:start}
+  .v3-rtl-title{grid-row:2;grid-column:2/-1;font-size:15px!important;line-height:1.55;margin-top:8px}
+  .v3-rtl-i>div[style*="font-size:12px"]{grid-row:3;grid-column:1/-1;font-size:14px!important;color:var(--ink-2)!important;margin-top:8px!important;line-height:1.6!important}
+  /* desktop 复位：title 与 tag 同排 */
+  @media (min-width:761px){
+    .v3-rtl-i{grid-template-columns:auto 90px auto 1fr!important;gap:14px!important;padding:16px 18px!important}
+    .v3-rtl-cat{grid-row:1!important;grid-column:1!important;align-self:start!important;margin-top:8px!important}
+    .v3-rtl-date{grid-row:1!important;grid-column:2!important;align-self:start!important;margin-top:6px!important;font-size:14px!important}
+    .v3-rtl-cat-tag{grid-row:1!important;grid-column:3!important;align-self:start!important;margin-top:4px!important;font-size:13px!important}
+    .v3-rtl-title{grid-row:1!important;grid-column:4!important;align-self:start!important;margin-top:6px!important;font-size:16px!important;line-height:1.5}
+    .v3-rtl-i>div[style*="font-size:12px"]{grid-row:2!important;grid-column:1/-1!important}
+  }
   .v3-side-card{padding:14px 16px!important}
   .v3-side-card h3{font-size:15px!important}
   .v3-mat{flex-direction:column;align-items:flex-start}
