@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T11:09:57+08:00",
+  "generated_at": "2026-08-02T11:18:49+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 2,
+  "total": 3,
   "by_industry": {
     "硬科技": [
       {
@@ -18,18 +18,30 @@
         "query": "硬科技 行业 政策 2026"
       }
     ],
-    "工业 AI": [
+    "收购研究": [
       {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-        "source": "www.chinabidding.cn",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "北京研究院还能注册吗?2026最新政策解答_申报_主体_经营",
+        "summary": "结合北京最新工商登记政策,目前北京地区已经暂停纯后缀研究院、研究所类主体的新设登记,这类无后缀的传统研究院执照,现阶段无法直接新注册。 针对北京...",
+        "url": "https://www.sohu.com/a/1031481746_122877783",
+        "source": "www.sohu.com",
         "date": "2026-08-02",
-        "score": 3.0,
-        "query": "乘杜 新闻 2026"
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "关于2025-2026年小麦最低收购价有关政策的通知",
+        "summary": "国粮粮〔2024〕204号 各省、自治区、直辖市发展改革委、粮食和物资储备局(粮食局)、财政厅(局)、农业农村(农牧)厅(局、委),中国农业发展银行各省级分...",
+        "url": "https://www.lswz.gov.cn/html/ywpd/lstk/2024-09/24/content_283622.shtml",
+        "source": "www.lswz.gov.cn",
+        "date": "2026-08-02",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
       }
     ]
   },
@@ -47,16 +59,28 @@
       "query": "硬科技 行业 政策 2026"
     },
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-      "source": "www.chinabidding.cn",
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "北京研究院还能注册吗?2026最新政策解答_申报_主体_经营",
+      "summary": "结合北京最新工商登记政策,目前北京地区已经暂停纯后缀研究院、研究所类主体的新设登记,这类无后缀的传统研究院执照,现阶段无法直接新注册。 针对北京...",
+      "url": "https://www.sohu.com/a/1031481746_122877783",
+      "source": "www.sohu.com",
       "date": "2026-08-02",
-      "score": 3.0,
-      "query": "乘杜 新闻 2026"
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "关于2025-2026年小麦最低收购价有关政策的通知",
+      "summary": "国粮粮〔2024〕204号 各省、自治区、直辖市发展改革委、粮食和物资储备局(粮食局)、财政厅(局)、农业农村(农牧)厅(局、委),中国农业发展银行各省级分...",
+      "url": "https://www.lswz.gov.cn/html/ywpd/lstk/2024-09/24/content_283622.shtml",
+      "source": "www.lswz.gov.cn",
+      "date": "2026-08-02",
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
     }
   ]
 }
