@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T14:42:43+08:00",
-  "source": "build_industry_news.py + 人工维护（已存在行业不覆盖）",
-  "note": "本数据基于 projects.json + reports.json 自动汇总 ledger 行业集合，通过 alias 映射复用已有人工编辑的真实新闻。无新闻条目的行业填充占位（_placeholder=true）。具体数据请以官方公告为准。",
+  "generated_at": "2026-08-03T07:17:09+08:00",
+  "source": "build_industry_news.py v3.7 + 人工维护",
+  "note": "本数据基于 projects.json + reports.json 自动汇总 ledger 行业集合。已存在行业不覆盖；新行业可加 --fetch 启用 SearXNG 抓取（默认占位）。具体数据请以官方公告为准。",
   "industries": {
     "综合智慧能源": [
       {
@@ -233,94 +233,399 @@
         "url": "https://www.ccidgroup.com"
       }
     ],
+    "AI": [
+      {
+        "title": "免费AI工具 - 在线使用免费AI工具大全 | AIGC工具导航",
+        "summary": "4 小时之前 · 免费AI工具 AIGC 工具导航汇聚全网最全的 免费AI 工具集合，无论是AI智能助手、 AI写作 工具、 AI绘画 工具、AI PPT …",
+        "source": "www.aigc.cn",
+        "date": "",
+        "url": "https://www.aigc.cn/free-ai-tools",
+        "_auto": true,
+        "score": 3.0
+      },
+      {
+        "title": "即梦AI - 一站式AI创作平台",
+        "summary": "即梦AI是一个AI创作平台，可激发艺术创意、提升绘画和视频创作体验。 您可以利用AI智能，将想象变为现实。 即梦AI支持文字绘图 …",
+        "source": "jimeng.jianying.com",
+        "date": "",
+        "url": "https://jimeng.jianying.com/ai-tool/image/generate",
+        "_auto": true,
+        "score": 3.0
+      },
+      {
+        "title": "AI网站汇总（免费chatgpt）（70个持续增加中） - 知乎",
+        "summary": "2024年1月9日 · 本文总结了八大类AI工具，包括：聊天AI、绘画AI、AI提示词、图像处理、UI设计和3D设计，汇总60个AI网站，一键 …",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "url": "https://zhuanlan.zhihu.com/p/622871383",
+        "_auto": true,
+        "score": 3.0
+      }
+    ],
     "上市公司": [
       {
-        "title": "上市公司行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "关于发布《深圳证券交易所股票上市规则（2026年修订 ...",
+        "summary": "2026年4月24日 · 现将新旧规则衔接安排通知如下： 1.根据中国证监会《上市公司董事会秘书监管规则》，本规则第4.4.1条至第4.4.6条、第4.4.10条至第4.4.13条自2026年5月24日起实施。 在此之前，上市 …",
+        "source": "www.szse.cn",
+        "date": "",
+        "url": "https://www.szse.cn/lawrules/rule/allrules/bussiness/t20260424_620193.html",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "首页 | IPO信息专区",
+        "summary": "2 天之前 · 信息披露 全部 主板 科创板 [688836] 宇树科技首次公开发行股票并在科创板上市发行安排及初步询价公告 2026-07-31 [688836] 宇树科技首次公开发行股票并在科创板上市招股意向书 2026-07-31",
+        "source": "www.sse.com.cn",
+        "date": "",
+        "url": "https://www.sse.com.cn/ipo/home/",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "发行上市 - 深圳证券交易所",
+        "summary": "2025年4月25日 · 2026-07-21 关于终止对中达安再融资审核的决定 2026-07-18 关于终止对千分一首次公开发行股票并在创业板上市审核的决定 2026-07-11 关于终止对金桥德克首次公开发行股票并在创业 …",
+        "source": "www.szse.cn",
+        "date": "",
+        "url": "https://www.szse.cn/listing/",
+        "_auto": true,
+        "score": 1.5
+      }
+    ],
+    "低空经济": [
+      {
+        "title": "六所高校申请增设“低空技术与工程”专业——布局低空经济 ...",
+        "summary": "2025年1月6日 · 在他看来，当前发展低空经济还有许多科学问题和关键技术需要突破。 通过低空经济相关产业的产学研结合，一方面可以满足低空产业需求，服务国家战略；另一方面可以结合产业发展， …",
+        "source": "gaokao.chsi.com.cn",
+        "date": "",
+        "url": "https://gaokao.chsi.com.cn/gkxx/zybk/202501/20250106/2293350561.html",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "【专家观点】我国低空经济发展面临的问题与政策建议",
+        "summary": "2024年12月30日 · 加快制定低空经济发展规划和实施方案，明晰路线图，编制低空数字空域图，促进低空资源高效配置。 优化布局低空交通网络，构建通用航空和无人机低空航路航线网络，加快形成服务 …",
+        "source": "gaokao.chsi.com.cn",
+        "date": "",
+        "url": "https://gaokao.chsi.com.cn/gkxx/xkck/hydc/202412/20241230/2293385698.html",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "加快培育低空经济人才 - 阳光高考",
+        "summary": "2025年2月6日 · 低空经济是指在3000米以下，以低空空域为依托，由民用有人或无人驾驶航空器低空飞行活动衍生出的经济形态。 低空经济作为战略性新兴产业，具有链条长、辐射面广、带动性强等特 …",
+        "source": "gaokao.chsi.com.cn",
+        "date": "",
+        "url": "https://gaokao.chsi.com.cn/gkxx/xkck/hydc/202502/20250206/2293384817.html",
+        "_auto": true,
+        "score": 3.0
       }
     ],
     "光电治疗": [
       {
-        "title": "光电治疗行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "2026年光电行业发展现状、竞争格局及未来发展趋势与前景分析",
+        "summary": "2025年10月27日 · 光电行业的长期增长前景光明。 除了现有驱动力的持续作用外，元宇宙、脑机接口、光计算等更具前瞻性的应用， …",
+        "source": "www.sohu.com",
+        "date": "",
+        "url": "https://www.sohu.com/a/947866562_121825394",
+        "_auto": true,
+        "score": 1.5
+      }
+    ],
+    "卫星遥感": [
+      {
+        "title": "风云卫星 - NSMC",
+        "summary": "2 天之前 · 国家空间天气监测预警中心成立于2002年6月1日，与国家卫星气象中心是一个机构，两块牌子。 国家卫星气象中心（国家空间天气监测预警中心）是国内卫星遥感发展最早的单位，主要负责风 …",
+        "source": "www.nsmc.org.cn",
+        "date": "",
+        "url": "https://www.nsmc.org.cn/nsmc/cn/home/index.html",
+        "_auto": true,
+        "score": 1.5
+      }
+    ],
+    "地理信息": [
+      {
+        "title": "国家地理信息公共服务平台",
+        "summary": "2026年1月20日 · Web site created using create-react-app",
+        "source": "www.tianditu.gov.cn",
+        "date": "",
+        "url": "https://www.tianditu.gov.cn/portal/index.html",
+        "_auto": true,
+        "score": 4.5
       }
     ],
     "基建": [
       {
-        "title": "基建行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
+        "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这不是简单的数量扩张，而是发展理念的深刻变革，是从规模速度型向质量 …",
+        "source": "www.sohu.com",
+        "date": "",
+        "url": "https://www.sohu.com/a/994678899_122316869",
+        "_auto": true,
+        "score": 5.5
+      },
+      {
+        "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
+        "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大道交通改造工程） 深圳滨海大道是深圳最南端的一条城市快速路，该项 …",
+        "source": "www.sohu.com",
+        "date": "",
+        "url": "https://www.sohu.com/a/477545891_100237201",
+        "_auto": true,
+        "score": 4.5
+      },
+      {
+        "title": "十五五进行时·新基建 | 从规模扩张到体系重构——“十五五 ...",
+        "summary": "2026年6月12日 · 基建投资新时代理念之变—— 从规模扩张到体系重构 “十五五”基建与过往最根本的区别，是兼顾短期增长和长期经济转型，并且从“单点规模 ...",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "url": "https://finance.sina.com.cn/wm/2026-06-12/doc-inicazrx3570154.shtml",
+        "_auto": true,
+        "score": 4.5
+      }
+    ],
+    "工业": [
+      {
+        "title": "工业 - 国家统计局",
+        "summary": "2019年12月2日 · 具体包括：（1）对自然资源的开采，如采矿、晒盐等（但不包括禽兽捕猎和水产捕捞）；（2）对农副产品的加工、 …",
+        "source": "www.stats.gov.cn",
+        "date": "",
+        "url": "https://www.stats.gov.cn/sj/zbjs/202302/t20230202_1897098.html",
+        "_auto": true,
+        "score": 4.5
+      },
+      {
+        "title": "中国工业底气何在？解码全球唯一的41类完整工业体系",
+        "summary": "2025年6月26日 · 那么，什么是完整的工业体系？ 有何重要意义?41 个工业大类又包含哪些行业？ 『制造前沿』本文将为您全面解 …",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "url": "https://www.thepaper.cn/newsDetail_forward_31045841",
+        "_auto": true,
+        "score": 4.5
+      },
+      {
+        "title": "到底什么是工业？ - 知乎",
+        "summary": "2022年5月27日 · 图片源自网络 工业是对自然资源的开采、采集和对各种原材料进行加工的社会物质生产部门。 工业 (industry)是加工 …",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "url": "https://zhuanlan.zhihu.com/p/520630592",
+        "_auto": true,
+        "score": 3.0
       }
     ],
     "收购研究": [
       {
-        "title": "收购研究行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对双方产生拘束，同时协议亦是 ...",
+        "source": "news.qq.com",
+        "date": "",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
+        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同接受的价格和支付条件下一次性实现资产收购，如果收购的是公营部门或 …",
+        "source": "www.sohu.com",
+        "date": "",
+        "url": "https://www.sohu.com/a/902656138_122063492",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "并购重组\"资产收购\"和\"股权收购\"中必须注意的10大问题 (附 ...",
+        "summary": "2024年12月15日 · 两种基本的并购模式，即“资产收购”和“股权收购”的区别及利弊进行分析，以供交易双方结合项目实际选择适用，确保交易安全、经济、可行。 资产收购和股权收购在交易主体、收购标 …",
+        "source": "www.sohu.com",
+        "date": "",
+        "url": "https://www.sohu.com/a/837382251_121123886",
+        "_auto": true,
+        "score": 1.5
+      }
+    ],
+    "数据要素": [
+      {
+        "title": "重磅!2026年中国及31省市数据要素行业政策汇总及解读(全)_经济学人 - 手机前瞻网",
+        "summary": "2026年6月19日 - 国家层面以《关于培育数据流通服务机构加快推进数据要素市场化价值化的意见》为标志,首次系统构建起数据交易所、流通服务平台企业、数据商三类主体的...",
+        "source": "xw.qianzhan.com",
+        "date": "",
+        "url": "https://xw.qianzhan.com/analyst/detail/220/260612-1f3a5ff3.html",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "上海汇正财经:数据要素 价值释放年 启幕 2026 年 3 月,数据要素领域迎来政策 超级周 。国家数据局将 2026 年定义为 数据要素价值释放年 ,《中华人民... - 雪球",
+        "summary": "年 3 月,数据要素领域迎来政策 超级周 。国家数据局将 2026 年定义为 数据要素价值释放年 ,《中华人民共和国国有资产法(草案)》首次将 数据资...",
+        "source": "xueqiu.com",
+        "date": "",
+        "url": "https://xueqiu.com/2329623752/380190318",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "2026中国大数据行业:政策红利持续释放,数据要素市场化加速_中研普华_中研网",
+        "summary": "2026年3月16日 - 在数字经济浪潮席卷全球的当下,大数据已成为驱动社会变革的核心引擎。从智慧城市到工业互联网,从金融科技到医疗健康,数据要素正以前所未有的深度渗透...",
+        "source": "www.chinairn.com",
+        "date": "",
+        "url": "http://www.chinairn.com/hyzx/20260316/175704946.shtml",
+        "_auto": true,
+        "score": 4.0
       }
     ],
     "母公司": [
       {
-        "title": "母公司行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "“母”字三读_宝应_方言_读音",
+        "summary": "2025年8月17日 · 虽然当今普通话“母”与“某”已不同音，但宝应方言“母”与“某”却仍然同音同读一个mǒ音，由此我们有理由相信：“母”字的宝应方言读音mǒ是保留了宋元时代官话的读音。 “母”字宝应方言 …",
+        "source": "www.sohu.com",
+        "date": "",
+        "url": "https://www.sohu.com/a/925003580_121124735",
+        "_auto": true,
+        "score": 1.5
       }
     ],
     "美国中概股": [
       {
-        "title": "美国中概股行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "国家概况_中华人民共和国外交部",
+        "summary": "2025年，美国前五大货物贸易伙伴为墨西哥、加拿大、中国、德国、日本。 美国前五大货物和服务出口市场为加拿大、墨西哥、英国 …",
+        "source": "www.mfa.gov.cn",
+        "date": "",
+        "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/bmz_679954/1206_680528/1206x0_680530/",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "国家趣谈：美国是什么样的国家？十个方面读懂这个超级大国 ...",
+        "summary": "2026年5月12日 · 美国全称美利坚合众国（the United States of America，缩写USA），面积约937万平方公里，是世界上第四大的国 …",
+        "source": "news.qq.com",
+        "date": "",
+        "url": "https://news.qq.com/rain/a/20260512A01MIA00",
+        "_auto": true,
+        "score": 1.5
       }
     ],
-    "航天遥感": [
+    "航天科技": [
       {
-        "title": "航天遥感行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "中国航天科技集团有限公司_中国航天科技集团有限公司 ...",
+        "summary": "2 天之前 · 航天科技集团党组与驻航天科技纪检监察组开展专题... [07-28] 航天科技集团党组理论学习中心组专题学习习近平党... [07 …",
+        "source": "www.spacechina.com",
+        "date": "",
+        "url": "https://www.spacechina.com/n25/index.html",
+        "_auto": true,
+        "score": 3.0
+      },
+      {
+        "title": "航天精神_中国航天科技集团有限公司 - spacechina.com",
+        "summary": "2026年6月5日 · 载人航天精神源自航天科技工作者在1986年出台“863”计划、着手开展载人航天关键技术的预先研究和1992年以来实施 …",
+        "source": "www.spacechina.com",
+        "date": "",
+        "url": "https://www.spacechina.com/n25/n142/n154/n178/index.html",
+        "_auto": true,
+        "score": 3.0
+      },
+      {
+        "title": "中国航天",
+        "summary": "2022年1月28日，国务院新闻办公室发布《2021中国的航天》白皮书，介绍2016年以来中国航天活动主要进展、未来五年主要任务， …",
+        "source": "www.cnsa.gov.cn",
+        "date": "",
+        "url": "https://www.cnsa.gov.cn/n6758824/index.html",
+        "_auto": true,
+        "score": 1.5
+      }
+    ],
+    "高端装备": [
+      {
+        "title": "什么是高端制造业？ - 知乎",
+        "summary": "2021年2月15日 · 在整个经济层面，高端装备产业都是至关重要的一环，在经济和产业链条上发挥着「“承上启下”」 的作用。 随着中国 …",
+        "source": "www.zhihu.com",
+        "date": "",
+        "url": "https://www.zhihu.com/question/439558073",
+        "_auto": true,
+        "score": 1.5
       }
     ],
     "资本运作": [
       {
-        "title": "资本运作行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
+        "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
+        "_auto": true,
+        "score": 1.5
       }
     ],
     "跨境物流": [
       {
-        "title": "跨境物流行业 · 待补充近期动态",
-        "summary": "暂无该行业近期重要新闻条目。建议：① 监控行业协会发布 ② 跟踪头部公司公告 ③ 关注政策变化。后续可通过人工补充或 build_industry_news.py 维护。",
-        "source": "待补充",
-        "date": "2026-07-31",
-        "url": "",
-        "_placeholder": true
+        "title": "国际_资讯_凤凰网",
+        "summary": "5 小时之前 · 凤凰网资讯·国际是国际相关内容优质内容入口，从全球要闻到时政新闻全面覆盖，服务关注时事的读者的深度阅读需求，助力搜索引擎收录与用户 ...",
+        "source": "news.ifeng.com",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://news.ifeng.com/shanklist/3-35198-/",
+        "_auto": true,
+        "score": 1.5
+      },
+      {
+        "title": "全球速报_澎湃新闻-The Paper",
+        "summary": "澎湃，澎湃新闻，澎湃新闻网，新闻与思想，澎湃是植根于中国上海的时政思想类互联网平台，以最活跃的原创新闻与最冷静的思想分析为两翼，是互联网技术创新与新闻价值传承的结合体，致力于问答式 …",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://www.thepaper.cn/list_25429",
+        "_auto": true,
+        "score": 1.5
+      }
+    ],
+    "航空维修": [
+      {
+        "title": "【核心议题发布】聚焦深度维修与AI智慧革新!2026中国民用航...",
+        "summary": "",
+        "source": "mp.weixin.qq.com",
+        "date": "2026-07-21",
+        "fetched_at": "2026-08-02",
+        "url": "http://mp.weixin.qq.com/s?src=11&timestamp=1785656587&ver=6879&signature=nNin258rGzcbuWsu7L0Vn6NGUD6bEf9dqvOMW80l39LAg1C-XtmQNrd3VG8VsDQqL0%2AnxA8CbTSXHuJljSB7qaRPzhcIQEu7J6Iw-EVhY-yBGWmoxg2-H5kPbUB-Dcbz&new=1",
+        "_auto": true,
+        "score": 5.5
+      },
+      {
+        "title": "海外订单再突破！海航技术旗下海航斯提斯拿下大韩航空4架宽体机喷...",
+        "summary": "此次喷涂项目可享受海南自贸港优惠政策，标志着海南自贸港的国际航空维修喷涂业务实现新突破。 自建立合作关系以来，海航斯提斯与大韩航空始终保持稳健...",
+        "source": "new.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://new.qq.com/rain/a/20260729A0AQ7500",
+        "_auto": true,
+        "score": 4.0
+      },
+      {
+        "title": "怎么选 无人机培训及相关航空职业成长方向_就业_民航_机构",
+        "summary": "据公开数据资料，近年来国家先后出台多项政策推动产教融合发展，鼓励职业... 打通了356家航空公司、8大铁路局直通就业通道，年输送行业人才1.5万+，...",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://www.sohu.com/a/1057343474_122655346",
+        "_auto": true,
+        "score": 2.5
+      }
+    ],
+    "通用航空": [
+      {
+        "title": "大中小微型企业划分标准是什么 - 国家统计局",
+        "summary": "2025年3月24日 · 据此，国家统计局随后印发《统计上大中小型企业划分办法（暂行）》。 2011年6月，工业和信息化部、国家统计局、发展改革委、财政部研究制定了《中小企业划型标准规定》（以下 …",
+        "source": "www.stats.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-02",
+        "url": "https://www.stats.gov.cn/zs/tjws/tjbz/202301/t20230101_1903367.html",
+        "_auto": true,
+        "score": 2.5
       }
     ]
   }
