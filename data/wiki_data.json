@@ -1,9 +1,9 @@
 {
   "counts": {
-    "reports": 139,
-    "relations": 7119,
-    "indicators": 16560,
     "entities": 4836,
+    "relations": 7119,
+    "reports": 139,
+    "indicators": 16560,
     "chunks": 32481
   },
   "industries": [
@@ -364,7 +364,7 @@
       "count": 98
     }
   ],
-  "updated_at": "2026-08-02 17:51:21",
+  "updated_at": "2026-08-03 02:00:46",
   "total_relations": 7119,
   "total_entities": 4836,
   "total_reports": 139
