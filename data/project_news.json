@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-04T04:06:58+08:00",
+  "generated_at": "2026-08-04T04:14:21+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 33,
+  "total": 28,
   "by_industry": {
+    "基建": [
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
+        "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
+        "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 6.5,
+        "query": "天保基建 新闻 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
+        "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
+        "url": "https://finance.eastmoney.com/a/202607133803760816.html",
+        "source": "finance.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 5.5,
+        "query": "天保基建 新闻 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "天保基建(000965.SZ):2026年一季报净利润为6393.34万元、同比较去年同期下降36.29% | 界面新闻",
+        "summary": "2026年4月29日 - 年4月29日,天保基建(000965.SZ)发布2026年一季报,营业总收入为14.88亿元,同比较去年同期上涨777.93%,归母净利润为6393.34万元,同比较去年同期下降36.2...",
+        "url": "https://m.jiemian.com/article/14351866_sina.html",
+        "source": "m.jiemian.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 5.0,
+        "query": "天保基建 新闻 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "天保基建(000965)相关新闻_证券之星",
+        "summary": "2026年2月15日 - 天保基建(000965)2月13日主力资金净买入157.01万元2026-02-13 15:53:51.天保基建:2月12日融资买入1572.03万元,融资融券余额1.81亿元2026-02-13 09:44:..",
+        "url": "https://news.stockstar.com/info/dstock_000965.shtml",
+        "source": "news.stockstar.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 5.0,
+        "query": "天保基建 新闻 2026"
+      }
+    ],
     "硬科技": [
       {
         "code": "huayt",
@@ -58,58 +112,58 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "汽车电子": [
+    "收购研究": [
       {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-        "summary": "奥联电子公告,全资子公司奥联投资近期与自然人胥明军共同出资设立 南京奥联光能科技有限公司 并签署《投资合作协议》,协议约定奥联光能主要从事钙钛矿...",
-        "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-        "source": "cj.sina.com.cn",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
+        "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
+        "url": "http://news.sohu.com/a/611143183_121123915",
+        "source": "news.sohu.com",
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 5.5,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
       },
       {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "[收购]奥联电子:关于对外投资收购南京博融汽车电子有限公司19%股权的公告- CFi.CN 中财网",
-        "summary": "2018年11月26日 - 奥联电子:关于对外投资收购南京博融汽车电子有限公司19%股权的公告 [收购]奥联电子:关于对外投资收购南京博融汽车电子有限公司19%股权的公告 时间:20...",
-        "url": "https://stock.cfi.cn/p20181126001960.html",
-        "source": "stock.cfi.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 5.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-        "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-        "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-        "source": "stock.stockstar.com",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "中诚信-城投企业收购上市公司研究-11.18-20页 - 道客巴巴",
+        "summary": "上市公司收购中的诚信义务研究论文. 被收购上市公司的资产和收入规模在 2019~2021 年的主要统计指标上实现了不同程度的增长,但盈利指标表现一般;同时,上市公司个...",
+        "url": "https://www.doc88.com/p-94659608141337.html",
+        "source": "www.doc88.com",
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
       },
       {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "A股开盘速递| 沪指跌0.35% 抗原检测、 辅助生殖等概念股活跃_新浪财经_新浪网",
-        "summary": "4、奥联电子:签署钙钛矿投资合作协议,计划2023年50MW钙钛矿中试线投产.偏正面方面,自选哥提示关注祥鑫科技、长盈精密等与宁德时代签战略合...",
-        "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2022-12-12/doc-imxwkrqv2056582.shtml",
-        "source": "finance.sina.com.cn",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-04",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
+        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
+        "url": "https://www.sohu.com/a/902656138_122063492",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
       }
     ],
     "数据": [
@@ -220,6 +274,21 @@
         "query": "低空经济 行业 政策 2026"
       }
     ],
+    "动力电池": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "中国动力 (600482)_最新价格_行情_走势图—东方财富网",
+        "summary": "提供中国动力 (600482)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及中国动力 (600482)的新闻资讯、公司公告、研究报 …",
+        "url": "https://quote.eastmoney.com/sh600482.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 2.5,
+        "query": "动力电池 行业 政策 2026"
+      }
+    ],
     "医疗健康": [
       {
         "code": "kedu",
@@ -274,116 +343,6 @@
         "query": "医疗健康 行业 政策 2026"
       }
     ],
-    "动力电池": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "动力电池",
-        "title": "中国动力 (600482)_最新价格_行情_走势图—东方财富网",
-        "summary": "提供中国动力 (600482)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及中国动力 (600482)的新闻资讯、公司公告、研究报 …",
-        "url": "https://quote.eastmoney.com/sh600482.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "动力电池 行业 政策 2026"
-      }
-    ],
-    "收购研究": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-        "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
-        "url": "https://news.qq.com/rain/a/20241106A08NP500",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-        "url": "https://www.sohu.com/a/902656138_122063492",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "并购重组\"资产收购\"和\"股权收购\"中必须注意的10大问题 (附 ...",
-        "summary": "2024年12月15日 · 两种基本的并购模式，即“资产收购”和“股权收购”的区别及利弊进行分析，以供交易双方结合项目实际选择适用，确 …",
-        "url": "https://www.sohu.com/a/837382251_121123886",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
-        "summary": "2026年5月14日 · 举例：如果甲上市公司收购了乙上市公司的一条生产线（只买资产，不碰股权），这是 “并购” 但不是 “收购”；而如果 …",
-        "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      }
-    ],
-    "基建": [
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
-        "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大 …",
-        "url": "https://www.sohu.com/a/477545891_100237201",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
-        "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这 …",
-        "url": "https://www.sohu.com/a/994678899_122316869",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "十五五进行时·新基建 | 从规模扩张到体系重构——“十五五 ...",
-        "summary": "2026年6月12日 · 基建投资新时代理念之变—— 从规模扩张到体系重构 “十五五”基建与过往最根本的区别，是兼顾短期增长和长期经济 …",
-        "url": "https://finance.sina.com.cn/wm/2026-06-12/doc-inicazrx3570154.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
-      }
-    ],
     "美国中概股": [
       {
         "code": "htco-us",
@@ -412,49 +371,36 @@
         "query": "美国中概股 行业 政策 2026"
       }
     ],
-    "工业 AI": [
+    "汽车电子": [
       {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "工业 - 国家统计局",
-        "summary": "2019年12月2日 · 具体包括：（1）对自然资源的开采，如采矿、晒盐等（但不包括禽兽捕猎和水产捕捞）；（2）对农副产品的加工、 …",
-        "url": "https://www.stats.gov.cn/sj/zbjs/202302/t20230202_1897098.html",
-        "source": "www.stats.gov.cn",
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "汽车电子",
+        "title": "新浪汽车 - 汽车生活源动力！",
+        "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原因进行专业鉴定的情况下，仅以 ...",
+        "url": "https://auto.sina.com.cn/",
+        "source": "auto.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 1.5,
-        "query": "工业 AI 行业 政策 2026"
-      },
-      {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "中华人民共和国工业和信息化部",
-        "summary": "3 天之前 · 工业和信息化部等七部门办公厅（办公室）关于开展2026年工业和信息化领域创新任务揭榜挂帅工作的通知 2026-07-28 工 …",
-        "url": "https://wap.miit.gov.cn/",
-        "source": "wap.miit.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "工业 AI 行业 政策 2026"
-      },
-      {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "浙江省11个城市大工业实力排行：杭州与嘉兴很强，温州 ...",
-        "summary": "2026年3月20日 · 对于浙江省的工业发展概况，太多人可能还停留在中小微企业为主力军的固有印象中吧，谁能想到它的规模以上工业 …",
-        "url": "https://news.qq.com/rain/a/20260320A0450X00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "工业 AI 行业 政策 2026"
+        "query": "汽车电子 行业 政策 2026"
       }
     ]
   },
   "items": [
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
+      "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
+      "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 6.5,
+      "query": "天保基建 新闻 2026"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -482,56 +428,69 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-      "summary": "奥联电子公告,全资子公司奥联投资近期与自然人胥明军共同出资设立 南京奥联光能科技有限公司 并签署《投资合作协议》,协议约定奥联光能主要从事钙钛矿...",
-      "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-      "source": "cj.sina.com.cn",
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
+      "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
+      "url": "http://news.sohu.com/a/611143183_121123915",
+      "source": "news.sohu.com",
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 5.5,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "[收购]奥联电子:关于对外投资收购南京博融汽车电子有限公司19%股权的公告- CFi.CN 中财网",
-      "summary": "2018年11月26日 - 奥联电子:关于对外投资收购南京博融汽车电子有限公司19%股权的公告 [收购]奥联电子:关于对外投资收购南京博融汽车电子有限公司19%股权的公告 时间:20...",
-      "url": "https://stock.cfi.cn/p20181126001960.html",
-      "source": "stock.cfi.cn",
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
+      "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
+      "url": "https://finance.eastmoney.com/a/202607133803760816.html",
+      "source": "finance.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 5.5,
+      "query": "天保基建 新闻 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "天保基建(000965.SZ):2026年一季报净利润为6393.34万元、同比较去年同期下降36.29% | 界面新闻",
+      "summary": "2026年4月29日 - 年4月29日,天保基建(000965.SZ)发布2026年一季报,营业总收入为14.88亿元,同比较去年同期上涨777.93%,归母净利润为6393.34万元,同比较去年同期下降36.2...",
+      "url": "https://m.jiemian.com/article/14351866_sina.html",
+      "source": "m.jiemian.com",
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 5.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "天保基建 新闻 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-      "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-      "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-      "source": "stock.stockstar.com",
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "天保基建(000965)相关新闻_证券之星",
+      "summary": "2026年2月15日 - 天保基建(000965)2月13日主力资金净买入157.01万元2026-02-13 15:53:51.天保基建:2月12日融资买入1572.03万元,融资融券余额1.81亿元2026-02-13 09:44:..",
+      "url": "https://news.stockstar.com/info/dstock_000965.shtml",
+      "source": "news.stockstar.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 5.0,
+      "query": "天保基建 新闻 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "中诚信-城投企业收购上市公司研究-11.18-20页 - 道客巴巴",
+      "summary": "上市公司收购中的诚信义务研究论文. 被收购上市公司的资产和收入规模在 2019~2021 年的主要统计指标上实现了不同程度的增长,但盈利指标表现一般;同时,上市公司个...",
+      "url": "https://www.doc88.com/p-94659608141337.html",
+      "source": "www.doc88.com",
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "A股开盘速递| 沪指跌0.35% 抗原检测、 辅助生殖等概念股活跃_新浪财经_新浪网",
-      "summary": "4、奥联电子:签署钙钛矿投资合作协议,计划2023年50MW钙钛矿中试线投产.偏正面方面,自选哥提示关注祥鑫科技、长盈精密等与宁德时代签战略合...",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2022-12-12/doc-imxwkrqv2056582.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
     },
     {
       "code": "unicom-idc",
@@ -599,19 +558,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "四川省医疗保障局",
-      "summary": "【泸州】做实医保数据发布 赋能医药机构高质量发展 07-10 【宜宾】筠连县抓实生育医疗保障 赋能生育友好型社会建设 07-03 【雅安 …",
-      "url": "https://ylbzj.sc.gov.cn/",
-      "source": "ylbzj.sc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "医疗健康 行业 政策 2026"
-    },
-    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "动力电池",
@@ -623,6 +569,19 @@
       "fetched_at": "2026-08-04",
       "score": 2.5,
       "query": "动力电池 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "四川省医疗保障局",
+      "summary": "【泸州】做实医保数据发布 赋能医药机构高质量发展 07-10 【宜宾】筠连县抓实生育医疗保障 赋能生育友好型社会建设 07-03 【雅安 …",
+      "url": "https://ylbzj.sc.gov.cn/",
+      "source": "ylbzj.sc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 2.5,
+      "query": "医疗健康 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -662,71 +621,6 @@
       "fetched_at": "2026-08-04",
       "score": 2.5,
       "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "并购重组\"资产收购\"和\"股权收购\"中必须注意的10大问题 (附 ...",
-      "summary": "2024年12月15日 · 两种基本的并购模式，即“资产收购”和“股权收购”的区别及利弊进行分析，以供交易双方结合项目实际选择适用，确 …",
-      "url": "https://www.sohu.com/a/837382251_121123886",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
-      "summary": "2026年5月14日 · 举例：如果甲上市公司收购了乙上市公司的一条生产线（只买资产，不碰股权），这是 “并购” 但不是 “收购”；而如果 …",
-      "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
-      "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大 …",
-      "url": "https://www.sohu.com/a/477545891_100237201",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
-      "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这 …",
-      "url": "https://www.sohu.com/a/994678899_122316869",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "十五五进行时·新基建 | 从规模扩张到体系重构——“十五五 ...",
-      "summary": "2026年6月12日 · 基建投资新时代理念之变—— 从规模扩张到体系重构 “十五五”基建与过往最根本的区别，是兼顾短期增长和长期经济 …",
-      "url": "https://finance.sina.com.cn/wm/2026-06-12/doc-inicazrx3570154.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "基建 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
@@ -846,43 +740,17 @@
       "query": "美国中概股 行业 政策 2026"
     },
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "工业 - 国家统计局",
-      "summary": "2019年12月2日 · 具体包括：（1）对自然资源的开采，如采矿、晒盐等（但不包括禽兽捕猎和水产捕捞）；（2）对农副产品的加工、 …",
-      "url": "https://www.stats.gov.cn/sj/zbjs/202302/t20230202_1897098.html",
-      "source": "www.stats.gov.cn",
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "汽车电子",
+      "title": "新浪汽车 - 汽车生活源动力！",
+      "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原因进行专业鉴定的情况下，仅以 ...",
+      "url": "https://auto.sina.com.cn/",
+      "source": "auto.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 1.5,
-      "query": "工业 AI 行业 政策 2026"
-    },
-    {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "中华人民共和国工业和信息化部",
-      "summary": "3 天之前 · 工业和信息化部等七部门办公厅（办公室）关于开展2026年工业和信息化领域创新任务揭榜挂帅工作的通知 2026-07-28 工 …",
-      "url": "https://wap.miit.gov.cn/",
-      "source": "wap.miit.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 1.5,
-      "query": "工业 AI 行业 政策 2026"
-    },
-    {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "浙江省11个城市大工业实力排行：杭州与嘉兴很强，温州 ...",
-      "summary": "2026年3月20日 · 对于浙江省的工业发展概况，太多人可能还停留在中小微企业为主力军的固有印象中吧，谁能想到它的规模以上工业 …",
-      "url": "https://news.qq.com/rain/a/20260320A0450X00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 1.5,
-      "query": "工业 AI 行业 政策 2026"
+      "query": "汽车电子 行业 政策 2026"
     }
   ]
 }
