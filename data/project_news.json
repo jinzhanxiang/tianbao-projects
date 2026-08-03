@@ -1,9 +1,208 @@
 {
-  "generated_at": "2026-08-04T00:55:23+08:00",
+  "generated_at": "2026-08-04T01:04:31+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 35,
+  "total": 45,
   "by_industry": {
+    "动力电池": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+        "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+        "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+        "source": "ggjd.cnstock.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "【 天奇股份:与星恒电源拟共同打造废旧动力电池回收再生利用闭环产业链】天奇股份公告,公司与星恒电源股份有限公司签署战略... - 雪球",
+        "summary": "2022年4月14日 - 风险提示:雪球里任何用户或者嘉宾的发言,都有其特定立场,投资决策需要建立在独立思考之上.天奇股份公告,公司与星恒电源股份有限公司签署战略合作框架...",
+        "url": "https://xueqiu.com/5124430882/217025889",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 5.0,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+        "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+        "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 4.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "15亿元!星恒电源获新一轮战略投资",
+        "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+        "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+        "source": "www.dldcw.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 4.0,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      }
+    ],
+    "医疗健康": [
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "医疗健康",
+        "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
+        "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
+        "url": "http://guba.eastmoney.com/news,832941,540069822.html",
+        "source": "guba.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 5.5,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "医疗健康",
+        "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
+        "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
+        "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
+        "source": "www.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "医疗健康",
+        "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
+        "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
+        "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
+        "source": "www.ccgp.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "医疗健康",
+        "title": "天津信鸿医疗科技股份有限公司中标数据|供应商版中标报告",
+        "summary": "2024年2月21日 - 天津信鸿医疗科技股份有限公司供应商版企业报告为您提供天津信鸿医疗科技股份有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/212098665321676801S.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "2026年医疗健康行业报告:行业发展趋势与政策影响-20260724005522.docx-原创力文档",
+        "summary": "根据国家卫生健康委员会发布的数据,我国医疗健康行业市场规模逐年增长,预计到2026年将达到10万亿元.政府高度重视医疗健康行业发展,出台了一系列政策措施,如深化...",
+        "url": "https://max.book118.com/html/2026/0724/5024241301013244.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 2.0,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "2026年医疗健康产业政策解读报告.docx-原创力文档",
+        "summary": "2026年医疗健康产业政策解读报告参考模板 一、2026年医疗健康产业政策解读报告 1.1 政策背景 1.2 政策目标 1.3 政策内容 二、医疗健康产业政策实施现状与挑战 2...",
+        "url": "https://max.book118.com/html/2026/0414/8124021137010062.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 2.0,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "2026年医疗健康行业政策报告及未来五至十年监管优化报告.docx-原创力文档",
+        "summary": "2026年4月13日 - 医疗健康行业政策报告及未来五至十年监管优化报告模板 一、2026年医疗健康行业政策报告及未来五至十年监管优化报告 1.1 政策环境宏观背景与战略导向 1...",
+        "url": "https://max.book118.com/html/2026/0410/5111221344013144.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 2.0,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "国家医疗保障局",
+        "summary": "17 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
+        "url": "https://www.nhsa.gov.cn/",
+        "source": "www.nhsa.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "医疗健康",
+        "title": "中华人民共和国国家卫生健康委员会",
+        "summary": "4 天之前 · 国家卫生健康委 国家中医药管理局 国家疾病预防控制局关于进一步做好公立医疗卫生机构医用设备集中采购工作的通知 …",
+        "url": "https://www.nhc.gov.cn/",
+        "source": "www.nhc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "医疗健康",
+        "title": "中共中央办公厅 国务院办公厅印发《关于进一步完善医疗卫生 ...",
+        "summary": "2023年3月23日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，把保障人民健康放在优先发展的战略位 …",
+        "url": "https://www.gov.cn/zhengce/2023-03/23/content_5748063.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "医疗健康",
+        "title": "国家医疗保障局",
+        "summary": "1 天前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管等政务 …",
+        "url": "https://www.nhsa.gov.cn/?isPreloadWebView=1",
+        "source": "www.nhsa.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "医疗健康 行业 政策 2026"
+      }
+    ],
     "硬科技": [
       {
         "code": "huayt",
@@ -16,7 +215,7 @@
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
@@ -29,7 +228,7 @@
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
@@ -42,7 +241,7 @@
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 3.0,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
@@ -55,113 +254,61 @@
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 3.0,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "query": "华阳 新闻 2026"
       }
     ],
-    "医疗健康": [
+    "卫星遥感": [
       {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
+        "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
+        "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 5.5,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图2026年卫星发射时间节点全解析一、核心发射计划总览截至2026年1月1_财富号_东方财富网",
+        "summary": "第四批 PIESAT-2 系列后续卫星 8-10 颗 2026 年 Q1 末 - Q2 初 高分宽幅成像,星上智能处理 同轨 90 等相位编队,重访周期最快 6 小时 第五批 PI...",
+        "url": "https://caifuhao.eastmoney.com/news/20260113230128785257660",
+        "source": "caifuhao.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
+        "query": "航天宏图 新闻 2026"
       },
       {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-        "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-        "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-        "source": "www.myrb.net",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+        "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+        "url": "https://m.jiemian.com/article/14365628_sina.html",
+        "source": "m.jiemian.com",
         "date": "",
         "fetched_at": "2026-08-04",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
       },
       {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "健康频道_最新健康_深度报道 - 搜狐",
-        "summary": "连夜奔赴的 芯片救援 : PET-CT故障12小时极速修复,节省超20万!柯渡医学科技 · 2026.2.26.搜狐健康频道,提供最新健康资讯、深度报道与热点解读。 健康频道 昨晚喝了酒,今天开车算酒驾吗?搜狐城...",
-        "url": "http://mt.sohu.com/kindfeed/health/20260226/17",
-        "source": "mt.sohu.com",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "卫星遥感",
+        "title": "航天宏图:关于召开2026年第一次临时股东会的通知-慧博投研资讯",
+        "summary": "2026年3月2日 - 1.证券代码:688066证券简称:航天宏图公告编号:2026-011债券代码:118027债券简称:宏图转债航天宏图信息技术股份有限公司关于召开2026年第一次临时股东...",
+        "url": "https://www.hibor.com.cn/repinfodetail_4926383.html",
+        "source": "www.hibor.com.cn",
         "date": "",
         "fetched_at": "2026-08-04",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "实干开新局建设“驶快道”",
-        "summary": "据了解,柯渡医学科技美安产业园项目占地面积20.05亩,总建筑面积45681.82平方米,将建设5层标准化厂房及11层商务办公楼,可提供约200个就业岗位...",
-        "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
-        "source": "www.hi.chinanews.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "国家医疗保障局",
-        "summary": "16 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
-        "url": "https://www.nhsa.gov.cn/",
-        "source": "www.nhsa.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "中华人民共和国国家卫生健康委员会",
-        "summary": "4 天之前 · 国家卫生健康委 国家中医药管理局 国家疾病预防控制局关于进一步做好公立医疗卫生机构医用设备集中采购工作的通知 …",
-        "url": "https://www.nhc.gov.cn/",
-        "source": "www.nhc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "中共中央办公厅 国务院办公厅印发《关于进一步完善医疗卫生 ...",
-        "summary": "2023年3月23日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，把保障人民健康放在优先发展的战略位 …",
-        "url": "https://www.gov.cn/zhengce/2023-03/23/content_5748063.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "国家医疗保障局",
-        "summary": "1 天前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管等政务 …",
-        "url": "https://www.nhsa.gov.cn/?isPreloadWebView=1",
-        "source": "www.nhsa.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "医疗健康 行业 政策 2026"
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
       }
     ],
     "数据": [
@@ -196,7 +343,7 @@
         "company": "四川 IDC",
         "industry": "数据",
         "title": "国家数据局",
-        "summary": "16 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC数字周数据领域系列活动在成都举办 APEC数据促进增长高级别圆桌会 …",
+        "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC数字周数据领域系列活动在成都举办 APEC数据促进增长高级别圆桌会 …",
         "url": "https://www.nda.gov.cn/sjj/index_pc.html",
         "source": "www.nda.gov.cn",
         "date": "",
@@ -270,21 +417,6 @@
         "fetched_at": "2026-08-04",
         "score": 2.5,
         "query": "低空经济 行业 政策 2026"
-      }
-    ],
-    "动力电池": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "动力电池",
-        "title": "中国动力 (600482)_最新价格_行情_走势图—东方财富网",
-        "summary": "提供中国动力 (600482)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及中国动力 (600482)的新闻资讯、公司公告、研究报告、行业研报、F10资料、行业资讯、资金流分析、阶段涨幅、所属板 …",
-        "url": "https://quote.eastmoney.com/sh600482.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "动力电池 行业 政策 2026"
       }
     ],
     "收购研究": [
@@ -382,6 +514,47 @@
         "query": "基建 行业 政策 2026"
       }
     ],
+    "工业 AI": [
+      {
+        "code": "chuangdu",
+        "company": "乘杜科技",
+        "industry": "工业 AI",
+        "title": "中华人民共和国工业和信息化部",
+        "summary": "17 小时之前 · 工业和信息化部办公厅关于组织开展国家级零碳工厂建设工作的通知 工业和信息化部组织开展国家级零碳工厂建设工作 一图读懂2026年度智能工厂梯度培育行动通知 2026-07-17 政策 工业 …",
+        "url": "https://wap.miit.gov.cn/index.html",
+        "source": "wap.miit.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 2.5,
+        "query": "工业 AI 行业 政策 2026"
+      },
+      {
+        "code": "chuangdu",
+        "company": "乘杜科技",
+        "industry": "工业 AI",
+        "title": "工业 - 国家统计局",
+        "summary": "2019年12月2日 · 具体包括：（1）对自然资源的开采，如采矿、晒盐等（但不包括禽兽捕猎和水产捕捞）；（2）对农副产品的加工、再加工，如粮油加工、食品加工、缫丝、纺织、制革等；（3）对采掘 …",
+        "url": "https://www.stats.gov.cn/sj/zbjs/202302/t20230202_1897098.html",
+        "source": "www.stats.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "工业 AI 行业 政策 2026"
+      },
+      {
+        "code": "chuangdu",
+        "company": "乘杜科技",
+        "industry": "工业 AI",
+        "title": "中华人民共和国工业和信息化部",
+        "summary": "3 天之前 · 工业和信息化部等七部门办公厅（办公室）关于开展2026年工业和信息化领域创新任务揭榜挂帅工作的通知 2026-07-28 工业和信息化部办公厅关于印发《“小快轻准” 数字化产品和服务培育指 …",
+        "url": "https://wap.miit.gov.cn/",
+        "source": "wap.miit.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "工业 AI 行业 政策 2026"
+      }
+    ],
     "美国中概股": [
       {
         "code": "htco-us",
@@ -429,7 +602,7 @@
         "company": "奥联电子",
         "industry": "汽车电子",
         "title": "新浪汽车 - 汽车生活源动力！",
-        "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原 …",
+        "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原因进行专业鉴定的情况下，仅以 ...",
         "url": "https://auto.sina.com.cn/",
         "source": "auto.sina.com.cn",
         "date": "",
@@ -437,50 +610,35 @@
         "score": 1.5,
         "query": "汽车电子 行业 政策 2026"
       }
-    ],
-    "工业 AI": [
-      {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "工业 - 国家统计局",
-        "summary": "2019年12月2日 · 具体包括：（1）对自然资源的开采，如采矿、晒盐等（但不包括禽兽捕猎和水产捕捞）；（2）对农副产品的加工、 …",
-        "url": "https://www.stats.gov.cn/sj/zbjs/202302/t20230202_1897098.html",
-        "source": "www.stats.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "工业 AI 行业 政策 2026"
-      },
-      {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "中华人民共和国工业和信息化部",
-        "summary": "3 天之前 · 工业和信息化部等七部门办公厅（办公室）关于开展2026年工业和信息化领域创新任务揭榜挂帅工作的通知 2026-07-28 工 …",
-        "url": "https://wap.miit.gov.cn/",
-        "source": "wap.miit.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "工业 AI 行业 政策 2026"
-      },
-      {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "工业 AI",
-        "title": "中华人民共和国工业和信息化部",
-        "summary": "16 小时之前 · 工业和信息化部办公厅关于组织开展国家级零碳工厂建设工作的通知 工业和信息化部组织开展国家级零碳工厂建设工作 …",
-        "url": "https://wap.miit.gov.cn/index.html",
-        "source": "wap.miit.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "工业 AI 行业 政策 2026"
-      }
     ]
   },
   "items": [
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+      "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+      "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+      "source": "ggjd.cnstock.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
+      "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
+      "url": "http://guba.eastmoney.com/news,832941,540069822.html",
+      "source": "guba.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 5.5,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -492,7 +650,7 @@
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "huayt",
@@ -505,20 +663,137 @@
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "query": "华阳 新闻 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
+      "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
+      "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 5.5,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "【 天奇股份:与星恒电源拟共同打造废旧动力电池回收再生利用闭环产业链】天奇股份公告,公司与星恒电源股份有限公司签署战略... - 雪球",
+      "summary": "2022年4月14日 - 风险提示:雪球里任何用户或者嘉宾的发言,都有其特定立场,投资决策需要建立在独立思考之上.天奇股份公告,公司与星恒电源股份有限公司签署战略合作框架...",
+      "url": "https://xueqiu.com/5124430882/217025889",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 5.0,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+      "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+      "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+      "source": "www.163.com",
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图2026年卫星发射时间节点全解析一、核心发射计划总览截至2026年1月1_财富号_东方财富网",
+      "summary": "第四批 PIESAT-2 系列后续卫星 8-10 颗 2026 年 Q1 末 - Q2 初 高分宽幅成像,星上智能处理 同轨 90 等相位编队,重访周期最快 6 小时 第五批 PI...",
+      "url": "https://caifuhao.eastmoney.com/news/20260113230128785257660",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 4.5,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "15亿元!星恒电源获新一轮战略投资",
+      "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+      "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+      "source": "www.dldcw.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 4.0,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
+      "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
+      "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
+      "source": "www.zhiliaobiaoxun.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
+      "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
+      "source": "www.ccgp.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "医疗健康",
+      "title": "天津信鸿医疗科技股份有限公司中标数据|供应商版中标报告",
+      "summary": "2024年2月21日 - 天津信鸿医疗科技股份有限公司供应商版企业报告为您提供天津信鸿医疗科技股份有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/212098665321676801S.html",
+      "source": "www.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+      "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+      "url": "https://m.jiemian.com/article/14365628_sina.html",
+      "source": "m.jiemian.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 4.0,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "卫星遥感",
+      "title": "航天宏图:关于召开2026年第一次临时股东会的通知-慧博投研资讯",
+      "summary": "2026年3月2日 - 1.证券代码:688066证券简称:航天宏图公告编号:2026-011债券代码:118027债券简称:宏图转债航天宏图信息技术股份有限公司关于召开2026年第一次临时股东...",
+      "url": "https://www.hibor.com.cn/repinfodetail_4926383.html",
+      "source": "www.hibor.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 4.0,
+      "query": "航天宏图 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -560,32 +835,6 @@
       "query": "低空经济 行业 政策 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-      "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-      "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-      "source": "www.myrb.net",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "健康频道_最新健康_深度报道 - 搜狐",
-      "summary": "连夜奔赴的 芯片救援 : PET-CT故障12小时极速修复,节省超20万!柯渡医学科技 · 2026.2.26.搜狐健康频道,提供最新健康资讯、深度报道与热点解读。 健康频道 昨晚喝了酒,今天开车算酒驾吗?搜狐城...",
-      "url": "http://mt.sohu.com/kindfeed/health/20260226/17",
-      "source": "mt.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "硬科技",
@@ -596,7 +845,7 @@
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 3.0,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "huayt",
@@ -609,27 +858,14 @@
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 3.0,
-      "query": "\"华阳\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "动力电池",
-      "title": "中国动力 (600482)_最新价格_行情_走势图—东方财富网",
-      "summary": "提供中国动力 (600482)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及中国动力 (600482)的新闻资讯、公司公告、研究报告、行业研报、F10资料、行业资讯、资金流分析、阶段涨幅、所属板 …",
-      "url": "https://quote.eastmoney.com/sh600482.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "动力电池 行业 政策 2026"
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "数据",
       "title": "国家数据局",
-      "summary": "16 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC数字周数据领域系列活动在成都举办 APEC数据促进增长高级别圆桌会 …",
+      "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC数字周数据领域系列活动在成都举办 APEC数据促进增长高级别圆桌会 …",
       "url": "https://www.nda.gov.cn/sjj/index_pc.html",
       "source": "www.nda.gov.cn",
       "date": "",
@@ -729,6 +965,19 @@
       "query": "基建 行业 政策 2026"
     },
     {
+      "code": "chuangdu",
+      "company": "乘杜科技",
+      "industry": "工业 AI",
+      "title": "中华人民共和国工业和信息化部",
+      "summary": "17 小时之前 · 工业和信息化部办公厅关于组织开展国家级零碳工厂建设工作的通知 工业和信息化部组织开展国家级零碳工厂建设工作 一图读懂2026年度智能工厂梯度培育行动通知 2026-07-17 政策 工业 …",
+      "url": "https://wap.miit.gov.cn/index.html",
+      "source": "wap.miit.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 2.5,
+      "query": "工业 AI 行业 政策 2026"
+    },
+    {
       "code": "qingdao-heli",
       "company": "青岛直升机",
       "industry": "低空经济",
@@ -768,6 +1017,45 @@
       "query": "低空经济 行业 政策 2026"
     },
     {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "2026年医疗健康行业报告:行业发展趋势与政策影响-20260724005522.docx-原创力文档",
+      "summary": "根据国家卫生健康委员会发布的数据,我国医疗健康行业市场规模逐年增长,预计到2026年将达到10万亿元.政府高度重视医疗健康行业发展,出台了一系列政策措施,如深化...",
+      "url": "https://max.book118.com/html/2026/0724/5024241301013244.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 2.0,
+      "query": "医疗健康 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "2026年医疗健康产业政策解读报告.docx-原创力文档",
+      "summary": "2026年医疗健康产业政策解读报告参考模板 一、2026年医疗健康产业政策解读报告 1.1 政策背景 1.2 政策目标 1.3 政策内容 二、医疗健康产业政策实施现状与挑战 2...",
+      "url": "https://max.book118.com/html/2026/0414/8124021137010062.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 2.0,
+      "query": "医疗健康 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "医疗健康",
+      "title": "2026年医疗健康行业政策报告及未来五至十年监管优化报告.docx-原创力文档",
+      "summary": "2026年4月13日 - 医疗健康行业政策报告及未来五至十年监管优化报告模板 一、2026年医疗健康行业政策报告及未来五至十年监管优化报告 1.1 政策环境宏观背景与战略导向 1...",
+      "url": "https://max.book118.com/html/2026/0410/5111221344013144.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 2.0,
+      "query": "医疗健康 行业 政策 2026"
+    },
+    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "数据",
@@ -784,61 +1072,9 @@
       "code": "kedu",
       "company": "柯渡医学",
       "industry": "医疗健康",
-      "title": "实干开新局建设“驶快道”",
-      "summary": "据了解,柯渡医学科技美安产业园项目占地面积20.05亩,总建筑面积45681.82平方米,将建设5层标准化厂房及11层商务办公楼,可提供约200个就业岗位...",
-      "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
-      "source": "www.hi.chinanews.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
       "title": "国家医疗保障局",
-      "summary": "16 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
+      "summary": "17 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
       "url": "https://www.nhsa.gov.cn/",
-      "source": "www.nhsa.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 1.5,
-      "query": "医疗健康 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "中华人民共和国国家卫生健康委员会",
-      "summary": "4 天之前 · 国家卫生健康委 国家中医药管理局 国家疾病预防控制局关于进一步做好公立医疗卫生机构医用设备集中采购工作的通知 …",
-      "url": "https://www.nhc.gov.cn/",
-      "source": "www.nhc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 1.5,
-      "query": "医疗健康 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "中共中央办公厅 国务院办公厅印发《关于进一步完善医疗卫生 ...",
-      "summary": "2023年3月23日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，把保障人民健康放在优先发展的战略位 …",
-      "url": "https://www.gov.cn/zhengce/2023-03/23/content_5748063.htm",
-      "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 1.5,
-      "query": "医疗健康 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "医疗健康",
-      "title": "国家医疗保障局",
-      "summary": "1 天前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管等政务 …",
-      "url": "https://www.nhsa.gov.cn/?isPreloadWebView=1",
       "source": "www.nhsa.gov.cn",
       "date": "",
       "fetched_at": "2026-08-04",
@@ -889,7 +1125,7 @@
       "company": "奥联电子",
       "industry": "汽车电子",
       "title": "新浪汽车 - 汽车生活源动力！",
-      "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原 …",
+      "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原因进行专业鉴定的情况下，仅以 ...",
       "url": "https://auto.sina.com.cn/",
       "source": "auto.sina.com.cn",
       "date": "",
@@ -898,11 +1134,50 @@
       "query": "汽车电子 行业 政策 2026"
     },
     {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "医疗健康",
+      "title": "中华人民共和国国家卫生健康委员会",
+      "summary": "4 天之前 · 国家卫生健康委 国家中医药管理局 国家疾病预防控制局关于进一步做好公立医疗卫生机构医用设备集中采购工作的通知 …",
+      "url": "https://www.nhc.gov.cn/",
+      "source": "www.nhc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 1.5,
+      "query": "医疗健康 行业 政策 2026"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "医疗健康",
+      "title": "中共中央办公厅 国务院办公厅印发《关于进一步完善医疗卫生 ...",
+      "summary": "2023年3月23日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，把保障人民健康放在优先发展的战略位 …",
+      "url": "https://www.gov.cn/zhengce/2023-03/23/content_5748063.htm",
+      "source": "www.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 1.5,
+      "query": "医疗健康 行业 政策 2026"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "医疗健康",
+      "title": "国家医疗保障局",
+      "summary": "1 天前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管等政务 …",
+      "url": "https://www.nhsa.gov.cn/?isPreloadWebView=1",
+      "source": "www.nhsa.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 1.5,
+      "query": "医疗健康 行业 政策 2026"
+    },
+    {
       "code": "chuangdu",
       "company": "乘杜科技",
       "industry": "工业 AI",
       "title": "工业 - 国家统计局",
-      "summary": "2019年12月2日 · 具体包括：（1）对自然资源的开采，如采矿、晒盐等（但不包括禽兽捕猎和水产捕捞）；（2）对农副产品的加工、 …",
+      "summary": "2019年12月2日 · 具体包括：（1）对自然资源的开采，如采矿、晒盐等（但不包括禽兽捕猎和水产捕捞）；（2）对农副产品的加工、再加工，如粮油加工、食品加工、缫丝、纺织、制革等；（3）对采掘 …",
       "url": "https://www.stats.gov.cn/sj/zbjs/202302/t20230202_1897098.html",
       "source": "www.stats.gov.cn",
       "date": "",
@@ -915,21 +1190,8 @@
       "company": "乘杜科技",
       "industry": "工业 AI",
       "title": "中华人民共和国工业和信息化部",
-      "summary": "3 天之前 · 工业和信息化部等七部门办公厅（办公室）关于开展2026年工业和信息化领域创新任务揭榜挂帅工作的通知 2026-07-28 工 …",
+      "summary": "3 天之前 · 工业和信息化部等七部门办公厅（办公室）关于开展2026年工业和信息化领域创新任务揭榜挂帅工作的通知 2026-07-28 工业和信息化部办公厅关于印发《“小快轻准” 数字化产品和服务培育指 …",
       "url": "https://wap.miit.gov.cn/",
-      "source": "wap.miit.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 1.5,
-      "query": "工业 AI 行业 政策 2026"
-    },
-    {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "工业 AI",
-      "title": "中华人民共和国工业和信息化部",
-      "summary": "16 小时之前 · 工业和信息化部办公厅关于组织开展国家级零碳工厂建设工作的通知 工业和信息化部组织开展国家级零碳工厂建设工作 …",
-      "url": "https://wap.miit.gov.cn/index.html",
       "source": "wap.miit.gov.cn",
       "date": "",
       "fetched_at": "2026-08-04",
