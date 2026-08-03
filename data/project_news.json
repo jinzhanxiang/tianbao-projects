@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-04T03:21:53+08:00",
+  "generated_at": "2026-08-04T03:29:51+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 38,
+  "total": 31,
   "by_industry": {
     "硬科技": [
       {
@@ -32,32 +32,6 @@
         "query": "华阳 新闻 2026"
       },
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "元旭半导体科技(北京)有限公司_最新招标采购公告_采招网",
-        "summary": "2023年10月23日 - 结果公告滨州市新闻传媒中心融媒体平台建设项目融媒体户外发布系统项目中标(成交)结果公告 一、项目编号:BZGP-2022-0671 二、项目名称:滨州市新闻传媒...",
-        "url": "https://www.bidcenter.com.cn/enterprise/yxbdtkjbjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 4.0,
-        "query": "\"元旭半导体\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "融资丨「元旭半导体」完成C轮数亿元融资,打造 第三代半导体IDM集成设计制造创新平台 _凤凰网财经_凤凰网",
-        "summary": "元旭半导体是一家从事新一代Micro LED集成显示芯片的科创领军企业,全资子公司「星璨视觉」致力于打造Micro LED显示芯片场景化、智能化应...",
-        "url": "https://finance.ifeng.com/c/8GHUn0cEw9r",
-        "source": "finance.ifeng.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 4.0,
-        "query": "\"元旭半导体\" 公告 签约 中标 投资"
-      },
-      {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "硬科技",
@@ -82,131 +56,12 @@
         "fetched_at": "2026-08-04",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "元旭总投资10亿元的第三代半导体显示芯片项目签约天津学术资讯- 科技工作者之家",
-        "summary": "2022年4月13日 - 其中,元旭半导体科技股份有限公司(以下简称:元旭半导体)拟在天津高新区设立全资子公司作为项目主体,新建第三代半导体高端显示芯片研发中心和垂直整合...",
-        "url": "https://www.scimall.org.cn/article/detail?id=6096519",
-        "source": "www.scimall.org.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "\"元旭半导体\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "硬科技",
-        "title": "深圳市平板显示行业协会 - 企查查",
-        "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
-        "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
-        "source": "www.qcc.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "\"元旭半导体\" 公告 签约 中标 投资"
-      }
-    ],
-    "医疗健康": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-        "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-        "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-        "source": "www.myrb.net",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "健康频道_最新健康_深度报道 - 搜狐",
-        "summary": "连夜奔赴的 芯片救援 : PET-CT故障12小时极速修复,节省超20万!柯渡医学科技 · 2026.2.26.搜狐健康频道,提供最新健康资讯、深度报道与热点解读。 健康频道 昨晚喝了酒,今天开车算酒驾吗?搜狐城...",
-        "url": "http://mt.sohu.com/kindfeed/health/20260226/17",
-        "source": "mt.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "四川省医疗保障局",
-        "summary": "【泸州】做实医保数据发布 赋能医药机构高质量发展 07-10 【宜宾】筠连县抓实生育医疗保障 赋能生育友好型社会建设 07-03 【雅安 …",
-        "url": "https://ylbzj.sc.gov.cn/",
-        "source": "ylbzj.sc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 2.5,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "国家医疗保障局",
-        "summary": "19 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
-        "url": "https://www.nhsa.gov.cn/",
-        "source": "www.nhsa.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "中华人民共和国国家卫生健康委员会",
-        "summary": "4 天之前 · 国家卫生健康委 国家中医药管理局 国家疾病预防控制局关于进一步做好公立医疗卫生机构医用设备集中采购工作的通知 …",
-        "url": "https://www.nhc.gov.cn/",
-        "source": "www.nhc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "医疗健康",
-        "title": "中共中央办公厅 国务院办公厅印发《关于进一步完善医疗卫生 ...",
-        "summary": "2023年3月23日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，把保障人民健康放在优先发展的战略位 …",
-        "url": "https://www.gov.cn/zhengce/2023-03/23/content_5748063.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "医疗健康 行业 政策 2026"
       }
     ],
     "数据": [
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "数据",
         "title": "数据 - 国家统计局",
         "summary": "数据发布 2026年7月中国采购经理指数运行情况 2025年我国“三新”经济增加值占国内生产总值比重为18.39% 2026-07-30 2026年上半年全国规模以上文化及相关产业企业营业收入... 2026-07-30 2026 …",
@@ -218,8 +73,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "数据",
         "title": "《全国数据资源调查报告（2025年）》正式发布-国家数据局",
         "summary": "2026年4月29日 · 调查结果显示，我国数据要素市场化价值化进程显著提速，数据资源供给体系、数据流通体系和数据开发利用体系协同演进，正由数据资源规模扩张向数据要素价值释放跃升，呈现以下显 …",
@@ -231,8 +86,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "数据",
         "title": "国家数据局",
         "summary": "19 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC数字周数据领域系列活动在成都举办 APEC数据促进增长高级别圆桌会 …",
@@ -244,8 +99,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "数据",
         "title": "马克数据网—社科数据共享平台",
         "summary": "包括论文复刻、上市公司数据、世界经济数据、省级面板数据、地级市面板数据、县域面板数据、工具变量!热门主题包括新质生产力水平、数字化转型、数字经济指数、环境规制、ESG等！",
@@ -317,13 +172,67 @@
         "company": "星恒电源",
         "industry": "动力电池",
         "title": "中国动力 (600482)_最新价格_行情_走势图—东方财富网",
-        "summary": "提供中国动力 (600482)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及中国动力 (600482)的新闻资讯、公司公告、研究报 …",
+        "summary": "提供中国动力 (600482)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及中国动力 (600482)的新闻资讯、公司公告、研究报告、行业研报、F10资料、行业资讯、资金流分析、阶段涨幅、所属板 …",
         "url": "https://quote.eastmoney.com/sh600482.html",
         "source": "quote.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 2.5,
         "query": "动力电池 行业 政策 2026"
+      }
+    ],
+    "医疗健康": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "四川省医疗保障局",
+        "summary": "【泸州】做实医保数据发布 赋能医药机构高质量发展 07-10 【宜宾】筠连县抓实生育医疗保障 赋能生育友好型社会建设 07-03 【雅安 …",
+        "url": "https://ylbzj.sc.gov.cn/",
+        "source": "ylbzj.sc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 2.5,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "国家医疗保障局",
+        "summary": "19 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
+        "url": "https://www.nhsa.gov.cn/",
+        "source": "www.nhsa.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "中华人民共和国国家卫生健康委员会",
+        "summary": "4 天之前 · 国家卫生健康委 国家中医药管理局 国家疾病预防控制局关于进一步做好公立医疗卫生机构医用设备集中采购工作的通知 …",
+        "url": "https://www.nhc.gov.cn/",
+        "source": "www.nhc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "医疗健康 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "中共中央办公厅 国务院办公厅印发《关于进一步完善医疗卫生 ...",
+        "summary": "2023年3月23日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，把保障人民健康放在优先发展的战略位 …",
+        "url": "https://www.gov.cn/zhengce/2023-03/23/content_5748063.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "医疗健康 行业 政策 2026"
       }
     ],
     "收购研究": [
@@ -434,13 +343,28 @@
         "query": "基建 行业 政策 2026"
       }
     ],
+    "汽车电子": [
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "汽车电子",
+        "title": "新浪汽车 - 汽车生活源动力！",
+        "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原 …",
+        "url": "https://auto.sina.com.cn/",
+        "source": "auto.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-04",
+        "score": 1.5,
+        "query": "汽车电子 行业 政策 2026"
+      }
+    ],
     "美国中概股": [
       {
         "code": "htco-us",
         "company": "High-Trend International",
         "industry": "美国中概股",
         "title": "国家概况_中华人民共和国外交部",
-        "summary": "2025年，美国前五大货物贸易伙伴为墨西哥、加拿大、中国、德国、日本。 美国前五大货物和服务出口市场为加拿大、墨西哥、英国、中国、日本。 美国前五大货物和服务进口来源地为墨西哥、中国、 …",
+        "summary": "2025年，美国前五大货物贸易伙伴为墨西哥、加拿大、中国、德国、日本。 美国前五大货物和服务出口市场为加拿大、墨西哥、英国 …",
         "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/bmz_679954/1206_680528/1206x0_680530/",
         "source": "www.mfa.gov.cn",
         "date": "",
@@ -453,28 +377,13 @@
         "company": "High-Trend International",
         "industry": "美国中概股",
         "title": "国家趣谈：美国是什么样的国家？十个方面读懂这个超级大国 ...",
-        "summary": "2026年5月12日 · 美国全称美利坚合众国（the United States of America，缩写USA），面积约937万平方公里，是世界上第四大的国家，行政上划分为50个州和1个哥伦比亚特区...",
+        "summary": "2026年5月12日 · 美国全称美利坚合众国（the United States of America，缩写USA），面积约937万平方公里，是世界上第四大的国 …",
         "url": "https://news.qq.com/rain/a/20260512A01MIA00",
         "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-04",
         "score": 1.5,
         "query": "美国中概股 行业 政策 2026"
-      }
-    ],
-    "汽车电子": [
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "新浪汽车 - 汽车生活源动力！",
-        "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原因进行专业鉴定的情况下，仅以 ...",
-        "url": "https://auto.sina.com.cn/",
-        "source": "auto.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-04",
-        "score": 1.5,
-        "query": "汽车电子 行业 政策 2026"
       }
     ],
     "工业 AI": [
@@ -547,47 +456,8 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "硬科技",
-      "title": "元旭半导体科技(北京)有限公司_最新招标采购公告_采招网",
-      "summary": "2023年10月23日 - 结果公告滨州市新闻传媒中心融媒体平台建设项目融媒体户外发布系统项目中标(成交)结果公告 一、项目编号:BZGP-2022-0671 二、项目名称:滨州市新闻传媒...",
-      "url": "https://www.bidcenter.com.cn/enterprise/yxbdtkjbjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 4.0,
-      "query": "\"元旭半导体\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "硬科技",
-      "title": "融资丨「元旭半导体」完成C轮数亿元融资,打造 第三代半导体IDM集成设计制造创新平台 _凤凰网财经_凤凰网",
-      "summary": "元旭半导体是一家从事新一代Micro LED集成显示芯片的科创领军企业,全资子公司「星璨视觉」致力于打造Micro LED显示芯片场景化、智能化应...",
-      "url": "https://finance.ifeng.com/c/8GHUn0cEw9r",
-      "source": "finance.ifeng.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 4.0,
-      "query": "\"元旭半导体\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
       "industry": "数据",
       "title": "数据 - 国家统计局",
       "summary": "数据发布 2026年7月中国采购经理指数运行情况 2025年我国“三新”经济增加值占国内生产总值比重为18.39% 2026-07-30 2026年上半年全国规模以上文化及相关产业企业营业收入... 2026-07-30 2026 …",
@@ -599,8 +469,8 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
       "industry": "数据",
       "title": "《全国数据资源调查报告（2025年）》正式发布-国家数据局",
       "summary": "2026年4月29日 · 调查结果显示，我国数据要素市场化价值化进程显著提速，数据资源供给体系、数据流通体系和数据开发利用体系协同演进，正由数据资源规模扩张向数据要素价值释放跃升，呈现以下显 …",
@@ -623,32 +493,6 @@
       "fetched_at": "2026-08-04",
       "score": 3.5,
       "query": "低空经济 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-      "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-      "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-      "source": "www.myrb.net",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "医疗健康",
-      "title": "健康频道_最新健康_深度报道 - 搜狐",
-      "summary": "连夜奔赴的 芯片救援 : PET-CT故障12小时极速修复,节省超20万!柯渡医学科技 · 2026.2.26.搜狐健康频道,提供最新健康资讯、深度报道与热点解读。 健康频道 昨晚喝了酒,今天开车算酒驾吗?搜狐城...",
-      "url": "http://mt.sohu.com/kindfeed/health/20260226/17",
-      "source": "mt.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "huayt",
@@ -681,7 +525,7 @@
       "company": "星恒电源",
       "industry": "动力电池",
       "title": "中国动力 (600482)_最新价格_行情_走势图—东方财富网",
-      "summary": "提供中国动力 (600482)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及中国动力 (600482)的新闻资讯、公司公告、研究报 …",
+      "summary": "提供中国动力 (600482)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及中国动力 (600482)的新闻资讯、公司公告、研究报告、行业研报、F10资料、行业资讯、资金流分析、阶段涨幅、所属板 …",
       "url": "https://quote.eastmoney.com/sh600482.html",
       "source": "quote.eastmoney.com",
       "date": "",
@@ -703,8 +547,8 @@
       "query": "医疗健康 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
       "industry": "数据",
       "title": "国家数据局",
       "summary": "19 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC数字周数据领域系列活动在成都举办 APEC数据促进增长高级别圆桌会 …",
@@ -714,32 +558,6 @@
       "fetched_at": "2026-08-04",
       "score": 2.5,
       "query": "数据 行业 政策 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "硬科技",
-      "title": "元旭总投资10亿元的第三代半导体显示芯片项目签约天津学术资讯- 科技工作者之家",
-      "summary": "2022年4月13日 - 其中,元旭半导体科技股份有限公司(以下简称:元旭半导体)拟在天津高新区设立全资子公司作为项目主体,新建第三代半导体高端显示芯片研发中心和垂直整合...",
-      "url": "https://www.scimall.org.cn/article/detail?id=6096519",
-      "source": "www.scimall.org.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "\"元旭半导体\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "硬科技",
-      "title": "深圳市平板显示行业协会 - 企查查",
-      "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
-      "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
-      "source": "www.qcc.com",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 2.5,
-      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     },
     {
       "code": "acquisition-listed",
@@ -872,8 +690,8 @@
       "query": "低空经济 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
       "industry": "数据",
       "title": "马克数据网—社科数据共享平台",
       "summary": "包括论文复刻、上市公司数据、世界经济数据、省级面板数据、地级市面板数据、县域面板数据、工具变量!热门主题包括新质生产力水平、数字化转型、数字经济指数、环境规制、ESG等！",
@@ -898,8 +716,8 @@
       "query": "基建 行业 政策 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
+      "code": "kedu",
+      "company": "柯渡医学",
       "industry": "医疗健康",
       "title": "国家医疗保障局",
       "summary": "19 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
@@ -911,8 +729,8 @@
       "query": "医疗健康 行业 政策 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
+      "code": "kedu",
+      "company": "柯渡医学",
       "industry": "医疗健康",
       "title": "中华人民共和国国家卫生健康委员会",
       "summary": "4 天之前 · 国家卫生健康委 国家中医药管理局 国家疾病预防控制局关于进一步做好公立医疗卫生机构医用设备集中采购工作的通知 …",
@@ -924,8 +742,8 @@
       "query": "医疗健康 行业 政策 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
+      "code": "kedu",
+      "company": "柯渡医学",
       "industry": "医疗健康",
       "title": "中共中央办公厅 国务院办公厅印发《关于进一步完善医疗卫生 ...",
       "summary": "2023年3月23日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，把保障人民健康放在优先发展的战略位 …",
@@ -937,11 +755,24 @@
       "query": "医疗健康 行业 政策 2026"
     },
     {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "汽车电子",
+      "title": "新浪汽车 - 汽车生活源动力！",
+      "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原 …",
+      "url": "https://auto.sina.com.cn/",
+      "source": "auto.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-04",
+      "score": 1.5,
+      "query": "汽车电子 行业 政策 2026"
+    },
+    {
       "code": "htco-us",
       "company": "High-Trend International",
       "industry": "美国中概股",
       "title": "国家概况_中华人民共和国外交部",
-      "summary": "2025年，美国前五大货物贸易伙伴为墨西哥、加拿大、中国、德国、日本。 美国前五大货物和服务出口市场为加拿大、墨西哥、英国、中国、日本。 美国前五大货物和服务进口来源地为墨西哥、中国、 …",
+      "summary": "2025年，美国前五大货物贸易伙伴为墨西哥、加拿大、中国、德国、日本。 美国前五大货物和服务出口市场为加拿大、墨西哥、英国 …",
       "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/bmz_679954/1206_680528/1206x0_680530/",
       "source": "www.mfa.gov.cn",
       "date": "",
@@ -954,26 +785,13 @@
       "company": "High-Trend International",
       "industry": "美国中概股",
       "title": "国家趣谈：美国是什么样的国家？十个方面读懂这个超级大国 ...",
-      "summary": "2026年5月12日 · 美国全称美利坚合众国（the United States of America，缩写USA），面积约937万平方公里，是世界上第四大的国家，行政上划分为50个州和1个哥伦比亚特区...",
+      "summary": "2026年5月12日 · 美国全称美利坚合众国（the United States of America，缩写USA），面积约937万平方公里，是世界上第四大的国 …",
       "url": "https://news.qq.com/rain/a/20260512A01MIA00",
       "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-04",
       "score": 1.5,
       "query": "美国中概股 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "新浪汽车 - 汽车生活源动力！",
-      "summary": "2018年12月13日 · 问题详情： 正常行驶途中汽车爆出故障码，全车断电，无法启动，拖至4s在未出具任何书面检测报告，未对故障原因进行专业鉴定的情况下，仅以 ...",
-      "url": "https://auto.sina.com.cn/",
-      "source": "auto.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-04",
-      "score": 1.5,
-      "query": "汽车电子 行业 政策 2026"
     },
     {
       "code": "chuangdu",
