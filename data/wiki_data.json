@@ -1,7 +1,7 @@
 {
   "counts": {
     "reports": 191,
-    "relations": 9602,
+    "relations": 9651,
     "entities": 6771,
     "indicators": 22872,
     "chunks": 41680
@@ -9,7 +9,7 @@
   "industries": [
     {
       "name": "unknown",
-      "count": 2855
+      "count": 2862
     },
     {
       "name": "新能源电池行业",
@@ -25,7 +25,7 @@
     },
     {
       "name": "人工智能",
-      "count": 356
+      "count": 357
     },
     {
       "name": "消费",
@@ -57,7 +57,7 @@
     },
     {
       "name": "汽车零部件",
-      "count": 78
+      "count": 79
     },
     {
       "name": "机械/军工",
@@ -72,12 +72,12 @@
       "count": 73
     },
     {
-      "name": "机械设备",
-      "count": 71
-    },
-    {
       "name": "高端装备制造",
       "count": 64
+    },
+    {
+      "name": "机械设备",
+      "count": 62
     },
     {
       "name": "环保",
@@ -333,15 +333,15 @@
   "relations": [
     {
       "name": "对比",
-      "count": 2900
+      "count": 2901
     },
     {
       "name": "合作",
-      "count": 1120
+      "count": 1121
     },
     {
       "name": "供应",
-      "count": 1112
+      "count": 1119
     },
     {
       "name": "监管",
@@ -349,15 +349,15 @@
     },
     {
       "name": "竞争",
-      "count": 907
+      "count": 923
     },
     {
       "name": "上下游",
-      "count": 892
+      "count": 900
     },
     {
       "name": "客户",
-      "count": 469
+      "count": 470
     },
     {
       "name": "投资",
@@ -369,7 +369,7 @@
     },
     {
       "name": "子公司",
-      "count": 184
+      "count": 187
     },
     {
       "name": "股东",
@@ -377,11 +377,11 @@
     },
     {
       "name": "技术链",
-      "count": 121
+      "count": 126
     }
   ],
-  "updated_at": "2026-08-03 22:03:21",
-  "total_relations": 9602,
+  "updated_at": "2026-08-03 22:32:23",
+  "total_relations": 9651,
   "total_entities": 6771,
   "total_reports": 191
 }
