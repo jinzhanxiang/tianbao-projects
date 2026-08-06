@@ -8,71 +8,103 @@
   },
   "industries": [
     {
-      "name": "unknown",
-      "count": 3205
-    },
-    {
       "name": "新能源电池行业",
-      "count": 546
+      "count": 870
     },
     {
       "name": "半导体",
-      "count": 378
+      "count": 574
     },
     {
       "name": "人工智能",
-      "count": 364
+      "count": 529
     },
     {
       "name": "金融",
-      "count": 353
+      "count": 508
     },
     {
       "name": "消费",
-      "count": 294
+      "count": 450
+    },
+    {
+      "name": "医疗健康",
+      "count": 360
+    },
+    {
+      "name": "新能源",
+      "count": 281
+    },
+    {
+      "name": "计算机",
+      "count": 265
     },
     {
       "name": "电力设备",
-      "count": 231
+      "count": 260
+    },
+    {
+      "name": "电子",
+      "count": 250
+    },
+    {
+      "name": "汽车零部件",
+      "count": 212
+    },
+    {
+      "name": "高端装备制造",
+      "count": 197
+    },
+    {
+      "name": "unknown",
+      "count": 187
+    },
+    {
+      "name": "新能源汽车",
+      "count": 179
     },
     {
       "name": "医药/医疗",
       "count": 161
     },
     {
-      "name": "新能源",
-      "count": 120
-    },
-    {
-      "name": "新能源汽车",
-      "count": 113
+      "name": "交通运输",
+      "count": 148
     },
     {
       "name": "新材料",
-      "count": 98
-    },
-    {
-      "name": "汽车零部件",
-      "count": 82
-    },
-    {
-      "name": "大数据",
-      "count": 82
+      "count": 141
     },
     {
       "name": "有色金属",
-      "count": 76
+      "count": 136
     },
     {
-      "name": "交通运输",
-      "count": 72
+      "name": "机械设备",
+      "count": 122
     },
     {
-      "name": "高端装备制造",
-      "count": 64
+      "name": "军工",
+      "count": 96
+    },
+    {
+      "name": "大数据",
+      "count": 95
+    },
+    {
+      "name": "化工",
+      "count": 87
+    },
+    {
+      "name": "汽车",
+      "count": 85
     },
     {
       "name": "环保",
+      "count": 79
+    },
+    {
+      "name": "轻工制造",
       "count": 61
     },
     {
@@ -80,75 +112,67 @@
       "count": 51
     },
     {
-      "name": "医疗健康",
-      "count": 51
-    },
-    {
       "name": "光伏设备",
       "count": 49
     },
     {
-      "name": "机械设备",
-      "count": 47
+      "name": "食品饮料",
+      "count": 45
+    },
+    {
+      "name": "房地产",
+      "count": 43
     },
     {
       "name": "宏观经济与汇率",
       "count": 39
     },
     {
-      "name": "军工",
-      "count": 33
+      "name": "建筑建材",
+      "count": 37
     },
     {
       "name": "低空经济",
       "count": 31
     },
     {
+      "name": "钢铁",
+      "count": 30
+    },
+    {
       "name": "医药",
       "count": 30
     },
     {
-      "name": "计算机",
-      "count": 26
+      "name": "商贸零售",
+      "count": 23
     },
     {
-      "name": "汽车",
-      "count": 22
-    },
-    {
-      "name": "房地产",
-      "count": 17
+      "name": "农业",
+      "count": 15
     },
     {
       "name": "地产",
       "count": 15
     },
     {
-      "name": "钢铁",
-      "count": 13
-    },
-    {
       "name": "政策与政府",
       "count": 12
     },
     {
-      "name": "食品饮料",
-      "count": 11
-    },
-    {
-      "name": "农业",
-      "count": 10
-    },
-    {
-      "name": "地缘政治与区域",
-      "count": 7
+      "name": "农林牧渔",
+      "count": 8
     },
     {
       "name": "产业政策",
       "count": 7
     },
     {
-      "name": "电子",
+      "name": "地缘政治与区域",
+      "count": 7
+    },
+    {
+      "name": "煤炭",
       "count": 6
     },
     {
@@ -164,27 +188,15 @@
       "count": 2
     },
     {
-      "name": "轻工制造",
-      "count": 2
-    },
-    {
-      "name": "能源",
-      "count": 1
-    },
-    {
-      "name": "商贸零售",
-      "count": 1
-    },
-    {
       "name": "金融/银行",
       "count": 1
     },
     {
-      "name": "建筑建材",
+      "name": "纺织服装",
       "count": 1
     },
     {
-      "name": "煤炭",
+      "name": "能源",
       "count": 1
     }
   ],
@@ -276,7 +288,7 @@
     {
       "name": "芯碁微装",
       "type": "ORG",
-      "industry": "unknown",
+      "industry": "半导体",
       "connections": 65
     },
     {
@@ -288,19 +300,19 @@
     {
       "name": "天赐材料",
       "type": "ORG",
-      "industry": "unknown",
+      "industry": "新能源电池行业",
       "connections": 55
     },
     {
       "name": "英伟达",
       "type": "ORG",
-      "industry": "unknown",
+      "industry": "半导体",
       "connections": 55
     },
     {
       "name": "华为",
       "type": "ORG",
-      "industry": "unknown",
+      "industry": "电子",
       "connections": 47
     },
     {
@@ -380,7 +392,7 @@
       "count": 162
     }
   ],
-  "updated_at": "2026-08-06 02:01:07",
+  "updated_at": "2026-08-07 02:01:05",
   "total_relations": 10049,
   "total_entities": 6794,
   "total_reports": 193
