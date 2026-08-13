@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T22:41:27+08:00",
+  "generated_at": "2026-08-13T22:57:10+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 31,
+  "total": 32,
   "by_industry": {
     "硬科技": [
       {
@@ -386,6 +386,21 @@
         "query": "医疗健康 行业 政策 2026"
       }
     ],
+    "汽车电子": [
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "汽车电子",
+        "title": "新浪汽车 - 汽车生活源动力！",
+        "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
+        "url": "https://auto.sina.com.cn/",
+        "source": "auto.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 1.5,
+        "query": "汽车电子 行业 政策 2026"
+      }
+    ],
     "工业 AI": [
       {
         "code": "chuangdu",
@@ -766,6 +781,19 @@
       "fetched_at": "2026-08-13",
       "score": 1.5,
       "query": "智能体软件 行业 政策 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "汽车电子",
+      "title": "新浪汽车 - 汽车生活源动力！",
+      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
+      "url": "https://auto.sina.com.cn/",
+      "source": "auto.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 1.5,
+      "query": "汽车电子 行业 政策 2026"
     },
     {
       "code": "chuangdu",
