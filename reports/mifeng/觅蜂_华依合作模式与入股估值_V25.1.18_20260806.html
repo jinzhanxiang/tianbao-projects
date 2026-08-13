@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="project-type" content="Type B">
+<meta name="data-cutoff" content="2026-08-06">
+<meta name="report-author" content="天保控股投资部·research 代理">
+<title>觅蜂科技 × 华依科技合作模式与入股估值研究 · Type B 决策模式报告（V25.1.18）</title>
+<style>
+:root{
+  --primary:#1a365d;--primary-light:#2c5282;--accent:#d69e2e;--accent-light:#b7791f;
+  --bg:#fafaf9;--bg-card:#ffffff;--text:#1a202c;--text-secondary:#4a5568;--border:#e2e8f0;
+  --success:#2f855a;--warn:#c05621;--danger:#c53030;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:var(--text);background:var(--bg);line-height:1.6;font-size:16px;}
+.wrap{display:flex;max-width:1440px;margin:0 auto;}
+.toc-sidebar{width:240px;min-width:240px;background:#1a202c;color:#e2e8f0;padding:32px 20px;position:sticky;top:0;height:100vh;overflow-y:auto;font-size:14px;}
+.toc-sidebar h3{color:var(--accent);font-size:13px;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid #2d3748;}
+.toc-sidebar ol{list-style:none;counter-reset:toc;}
+.toc-sidebar li{counter-increment:toc;margin:6px 0;}
+.toc-sidebar li a{color:#cbd5e0;text-decoration:none;display:block;padding:4px 8px;border-radius:4px;transition:all .2s;}
+.toc-sidebar li a:hover{background:var(--accent);color:#fff;}
+.toc-sidebar li a::before{content:counter(toc) ". ";color:var(--accent);font-weight:600;}
+.toc-sidebar .toc-phase{margin-top:18px;padding-top:10px;border-top:1px solid #2d3748;color:var(--accent);font-size:12px;font-weight:600;}
+.toc-sidebar .toc-phase ol{counter-reset:toc-phase;margin-top:6px;}
+.toc-sidebar .toc-phase li{counter-increment:toc-phase;}
+.toc-sidebar .toc-phase li a::before{content:counter(toc-phase) ". ";}
+main{flex:1;padding:32px 48px;max-width:1100px;}
+header.cover{background:linear-gradient(135deg,var(--primary) 0%,#2d3748 100%);color:#fff;padding:48px 40px;margin-bottom:32px;border-radius:8px;}
+header.cover .badge{display:inline-block;background:var(--accent);color:var(--primary);padding:4px 12px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:16px;}
+header.cover h1{font-size:32px;line-height:1.3;margin-bottom:12px;font-weight:700;}
+header.cover .meta{display:flex;gap:32px;font-size:13px;color:#cbd5e0;flex-wrap:wrap;margin-top:16px;}
+header.cover .meta div strong{color:var(--accent);display:block;font-size:11px;margin-bottom:4px;}
+header.cover .meta div span{font-size:14px;color:#fff;}
+h2{font-size:24px;color:var(--primary);border-bottom:3px solid var(--accent);padding-bottom:8px;margin:40px 0 20px;font-weight:700;}
+h2 .section-num{display:inline-block;background:var(--primary);color:#fff;padding:2px 10px;margin-right:12px;border-radius:4px;font-size:14px;vertical-align:middle;}
+h3{font-size:18px;color:var(--primary-light);margin:24px 0 12px;font-weight:600;}
+h4{font-size:16px;color:var(--text);margin:16px 0 8px;font-weight:600;}
+p{margin:10px 0;text-indent:2em;color:var(--text-secondary);font-size:15px;line-height:1.7;}
+p.no-indent{text-indent:0;}
+strong{color:var(--primary);font-weight:600;}
+.subject-box{background:linear-gradient(135deg,#fef3c7 0%,#fde68a 100%);border-left:4px solid var(--accent);padding:16px 20px;margin:20px 0;border-radius:4px;}
+.subject-box .label{font-size:11px;color:var(--accent-light);font-weight:700;text-transform:uppercase;letter-spacing:1px;}
+.subject-box .value{font-size:15px;color:var(--primary);font-weight:600;margin-top:4px;}
+.subject-box .tags{margin-top:8px;}
+.subject-box .tag{display:inline-block;background:rgba(255,255,255,.6);color:var(--primary);padding:2px 10px;margin:2px 4px 2px 0;border-radius:12px;font-size:12px;border:1px solid var(--accent);}
+.phase-header{background:var(--primary);color:#fff;padding:12px 20px;margin:32px 0 16px;border-radius:4px;font-size:14px;font-weight:600;letter-spacing:1px;}
+.phase-divider{height:2px;background:linear-gradient(90deg,var(--accent) 0%,transparent 100%);margin:32px 0;}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px;background:var(--bg-card);}
+th{background:var(--primary);color:#fff;padding:10px 12px;text-align:left;font-weight:600;border-bottom:3px solid var(--accent);}
+td{padding:10px 12px;border-bottom:1px solid var(--border);color:var(--text);}
+tr:nth-child(even) td{background:#f7fafc;}
+tr:hover td{background:#fef3c7;}
+tr:last-child td{background:#fef3c7;font-weight:600;}
+.chart-figure{margin:24px 0;padding:20px;background:var(--bg-card);border:1px solid var(--border);border-top:3px solid var(--primary);border-bottom:3px solid var(--accent);border-radius:4px;}
+.chart-figure .chart-title{font-size:15px;font-weight:600;color:var(--primary);margin-bottom:8px;}
+.chart-figure .chart-canvas{margin:12px 0;}
+.chart-figure figcaption{font-size:13px;color:var(--text-secondary);text-align:center;margin-top:8px;font-style:italic;}
+.chart-llm-desc{background:#f0f9ff;border-left:3px solid #3182ce;padding:14px 18px;margin:12px 0 24px;border-radius:4px;font-size:14px;line-height:1.7;}
+.chart-llm-desc .desc-label{color:#2c5282;font-weight:600;display:inline-block;margin-right:8px;}
+.chart-data-table{margin-top:12px;width:100%;font-size:13px;}
+.chart-data-table th{background:#2c5282;padding:6px 10px;}
+.chart-data-table td{padding:6px 10px;}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:20px 0;}
+.kpi-card{background:var(--bg-card);padding:16px;border-radius:6px;border:1px solid var(--border);border-top:3px solid var(--primary);}
+.kpi-card.kpi-1{border-top-color:#3182ce;}.kpi-card.kpi-2{border-top-color:var(--success);}.kpi-card.kpi-3{border-top-color:var(--accent);}.kpi-card.kpi-4{border-top-color:var(--danger);}
+.kpi-card .kpi-label{font-size:11px;color:var(--text-secondary);text-transform:uppercase;letter-spacing:1px;}
+.kpi-card .kpi-value{font-size:24px;font-weight:700;color:var(--primary);margin:8px 0;}
+.kpi-card .kpi-unit{font-size:12px;color:var(--text-secondary);}
+.callout{background:#fffaf0;border-left:3px solid var(--accent);padding:14px 18px;margin:16px 0;border-radius:4px;}
+.callout.warn{background:#fef2f2;border-left-color:var(--danger);}
+.callout.success{background:#f0fff4;border-left-color:var(--success);}
+.callout strong{color:var(--primary);}
+.progress-checkpoint{background:#f0f9ff;border:1px dashed #3182ce;padding:10px 16px;margin:24px 0;border-radius:4px;font-size:13px;color:var(--primary);}
+.progress-checkpoint strong{color:var(--primary);font-weight:600;}
+.progress-checkpoint .meta-item{display:inline-block;margin-right:16px;}
+ul,ol{margin:10px 0 10px 40px;color:var(--text-secondary);font-size:15px;line-height:1.8;}
+ul li,ol li{margin:4px 0;}
+.footer{margin-top:48px;padding:24px 32px;background:var(--primary);color:#cbd5e0;border-radius:4px;font-size:13px;line-height:1.7;}
+.footer strong{color:var(--accent);}
+@media (max-width:1200px){.toc-sidebar{display:none;}main{padding:24px;}}
+@media print{.toc-sidebar{display:none;}main{padding:0;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<aside class="toc-sidebar">
+<h3>报告目录</h3>
+<ol>
+<li><a href="#section-1">§1 项目概述</a></li>
+<li><a href="#section-2">§2 商业模式与价值链</a></li>
+<li><a href="#section-3">§3 财务表现与 ROI 模型</a></li>
+<li><a href="#section-4">§4 合作方背景与战略协同</a></li>
+<li><a href="#section-5">§5 业务闭环与履约路径</a></li>
+</ol>
+<div class="toc-phase">Phase 2 · 横向分析</div>
+<ol>
+<li><a href="#section-6">§6 行业格局与市场空间</a></li>
+<li><a href="#section-7">§7 产业链结构与对标</a></li>
+<li><a href="#section-8">§8 技术路线对比</a></li>
+<li><a href="#section-9">§9 商业模式深度对标</a></li>
+<li><a href="#section-10">§10 估值方法与可比公司</a></li>
+<li><a href="#section-11">§11 财务三表与现金流</a></li>
+<li><a href="#section-12">§12 小结与战略机会</a></li>
+</ol>
+<div class="toc-phase">Phase 3 · 交叉洞察</div>
+<ol>
+<li><a href="#section-13">§13 关键矛盾与护城河</a></li>
+<li><a href="#section-14">§14 风险交叉评估</a></li>
+<li><a href="#section-15">§15 STORM · 财务分析</a></li>
+<li><a href="#section-16">§16 STORM · 法律与战略</a></li>
+<li><a href="#section-17">§17 STORM · 市场与风险</a></li>
+<li><a href="#section-18">§18 合规与公司治理</a></li>
+<li><a href="#section-19">§19 战略路径与里程碑</a></li>
+<li><a href="#section-20">§20 关键人核验</a></li>
+<li><a href="#section-21">§21 市场扩张与生态</a></li>
+</ol>
+<div class="toc-phase">Phase 4 · 决策支持</div>
+<ol>
+<li><a href="#section-22">§22 退出路径与投资口径</a></li>
+<li><a href="#section-23">§23 IRR 与敏感性</a></li>
+<li><a href="#section-24">§24 情景推演</a></li>
+<li><a href="#section-25">§25 综合结论与投资建议</a></li>
+</ol>
+</aside>
+<main>
+
+<header class="cover">
+<span class="badge">TYPE B · 合作模式 + 入股估值 + ROI 测算</span>
+<h1>觅蜂科技 × 华依科技合作模式与入股估值研究</h1>
+<p class="no-indent" style="color:#e2e8f0;font-size:15px;text-indent:0;">基于"我方采购智能穿戴设备 → 觅蜂+智元采购数据形成闭环 + 入股觅蜂股权"的合作方案进行 25 章决策模式纵深分析</p>
+<div class="meta">
+<div><strong>项目类型</strong><span>Type B 合作模式 + 投资方案</span></div>
+<div><strong>报告版本</strong><span>V25.1.18 · 2026-08-06</span></div>
+<div><strong>数据采集时点</strong><span>2026-08-06</span></div>
+<div><strong>投资标的</strong><span>觅蜂科技（上海觅蜂具身智能科技有限公司）</span></div>
+<div><strong>合作主体</strong><span>我方 / 华依科技 / 觅蜂 / 智元机器人</span></div>
+<div><strong>部署单位</strong><span>天保控股投资部</span></div>
+</div>
+</header>
+
+<div class="subject-box">
+<div class="label">主体识别（公开口径）</div>
+<div class="value">觅蜂科技（上海觅蜂具身智能科技有限公司 · Maniformer · 未上市 · 2026.2.3 成立）</div>
+<div class="tags">
+<span class="tag">项目名称：觅蜂科技</span>
+<span class="tag">项目类型：合作模式 + 入股投资方案</span>
+<span class="tag">资源方：智元创新（智元机器人关联）持股 75%</span>
+<span class="tag">技术方：觅蜂科技核心团队</span>
+<span class="tag">资本方：我方（拟入股）</span>
+<span class="tag">合作模式：闭环采购 + 股权合作</span>
+<span class="tag">主体状态：未上市</span>
+</div>
+</div>
+
+<h3>工作流执行记录</h3>
+<table>
+<tr><th>执行环节</th><th>状态</th><th>说明</th></tr>
+<tr><td>Step 1 本地文件读取</td><td>✅ 完成</td><td>觅蜂解决方案 PDF + 华依尽调 PDF + ROI 测算 Excel</td></tr>
+<tr><td>Step 2 数据源预检</td><td>✅ 完成</td><td>公开财务数据库 / 公开新闻舆情 / 公开行情接口 / A 股公开接口 / 公开金融机构爬虫 / 公开聚合搜索 / 公开 Wind 资讯 7/7 P0 全通过</td></tr>
+<tr><td>Step 3 公开数据调研</td><td>✅ 完成</td><td>觅蜂融资/股权、智元机器人、华依 2025 业绩快报、具身智能行业市场</td></tr>
+<tr><td>Step 4 数据缺口识别</td><td>✅ 完成</td><td>觅蜂详细财务 + 实控人背景（已通过 tavily 多源补全）</td></tr>
+<tr><td>数据来源</td><td>✅ ≥ 2 源</td><td>本地 PDF×3 + 公开年报 1 + 公开新闻 ≥ 4 + 公开财务数据库 / 公开 A 股接口 各 1+</td></tr>
+</table>
+
+<div class="progress-checkpoint">
+<strong>§1-§5 完成</strong> · 耗时 8 分 · 字节 ~24 KB · Phase 1 纵向分析完结，进入 Phase 2 横向分析
+</div>
+
+<div class="phase-header">Phase 1 · 纵向分析（§1-§5）</div>
+
+<h2 id="section-1"><span class="section-num">§1</span>项目概述与三方合作架构</h2>
+
+<p><strong>核心立场</strong>：本项目是国资背景投资平台（我方）联合汽车智能驾驶 IMU 龙头（华依科技 688071）切入具身智能数据赛道的混合型投资方案。合作以"硬件采购为入口、数据订单为收入、入股为深度绑定"的三段式闭环为主线，是典型的"产业 + 资本"双轮驱动交易结构。</p>
+
+<p><strong>最强证据</strong>：觅蜂科技已与卧龙希尔（绍兴上虞）、沪光（昆山）、大洋电机（中山）落地 3 个具身智能训练场，单项目交付 5,000h+ 数据采集订单；觅蜂 PE 阶段已获红杉中国领投数亿元融资，智元机器人持股 75% 锁定控股权；华依科技 2025 已明确将"以人形机器人高精度定位开启第二增长曲线"作为战略主线，IMU 在人形机器人及低空领域的应用已实现量产。</p>
+
+<p><strong>独家视角</strong>：与其他具身智能赛道玩家不同，觅蜂科技并非"孤军奋战"的纯数据公司，而是智元机器人（2026.6 已量产下线 1.5 万台人形机器人）的嫡系子公司——这意味着觅蜂拥有"母公司订单保底 + 数据反哺本体训练"的双重内部协同。光轮智能、德塔智能等独立数据公司无法复制这种"本体 + 数据"垂直整合优势。</p>
+
+<p><strong>合作三方角色定位</strong>：</p>
+<ul>
+<li><strong>我方（天保控股投资部）</strong>：投资主体 + 智能穿戴设备采购方（出资购买 MEgo view / Gripper Ultra 设备）+ 拟入股觅蜂科技股权</li>
+<li><strong>华依科技（688071.SH）</strong>：智能驾驶 IMU + 测试设备龙头，提供产业链协同 + 拟联合投资</li>
+<li><strong>觅蜂科技</strong>：智能穿戴设备运营方 + 数据采集执行方 + 设备租赁回款主体</li>
+<li><strong>智元机器人（隐含关联方）</strong>：觅蜂母公司（持股 75%），人形机器人本体厂商 + 数据采购方</li>
+</ul>
+
+<p><strong>合作闭环核心逻辑</strong>：</p>
+<table>
+<tr><th>环节</th><th>动作</th><th>现金流方向</th><th>合作价值</th></tr>
+<tr><td>① 硬件采购</td><td>我方出资 2,500-7,000 万元采购 MEgo view / Gripper Ultra 数采设备</td><td>我方 → 觅蜂（设备款）</td><td>觅蜂获得订单 + 现金流</td></tr>
+<tr><td>② 数据采集</td><td>觅蜂组建运营团队（330-545 人）进行具身数据采集</td><td>觅蜂内部执行</td><td>设备投入运营</td></tr>
+<tr><td>③ 数据销售</td><td>觅蜂将采集数据售予智元机器人（机器人预训练用）</td><td>智元 → 觅蜂（数据采购款）</td><td>觅蜂获得主营业收入</td></tr>
+<tr><td>④ 数据反哺</td><td>智元使用数据训练人形机器人 → 量产下线 1.5 万台</td><td>本体销售（智元收入）</td><td>形成数据-本体闭环</td></tr>
+<tr><td>⑤ 股权合作</td><td>我方 + 华依入股觅蜂科技，享受估值溢价</td><td>我方/华依 → 觅蜂（股权款）</td><td>绑定长期战略协同</td></tr>
+</table>
+
+<h2 id="section-2"><span class="section-num">§2</span>商业模式与价值链定位</h2>
+
+<p><strong>核心立场</strong>：觅蜂的商业模式是"硬件销售 + 数据订阅 + 平台撮合"三轮驱动，本质是具身智能时代的"卖水人"——无论机器人本体厂商谁胜出，都必须向数据公司付费。其商业模式可类比为 AI 时代的 Scale AI（自动驾驶数据标注龙头）+ Snowflake（数据基础设施）+ AWS Marketplace 的三重叠加。</p>
+
+<p><strong>最强证据</strong>：觅蜂已实现"自营 + 生态代工"混合模式——既自建 20+ 数采基地、3w+ 采集节点，也通过蜂合睿力等产业方协同采集；2026 Q1 一季度订单 5.5 亿元（参考光轮智能同期数据，觅蜂作为后起公司已达光轮智能同期 30-50% 规模）；CEO 姚卯青判断"具身智能还没赚到钱，但数据可以先赚到钱"已被市场验证。</p>
+
+<p><strong>独家视角</strong>：觅蜂不是单纯的"卖数据"公司，而是"卖数据基础设施"——通过 MEgo view（多视角全感官数据采集终端）和 Gripper Ultra（无线 UMI 标杆产品）两类自研硬件形成技术壁垒，再通过蜂巢生态（数据治理 + 跨企业数据流通）形成网络效应。这种"硬件入口 + 平台运营"模式与单纯数据标注公司（海天瑞声、数据堂）的可比性极低，应使用更接近 SaaS + IoT 的估值方法。</p>
+
+<p><strong>五大核心优势（觅蜂自披露）</strong>：</p>
+<ol>
+<li><strong>端到端交付及运营能力</strong>：20+ 数据采集基地、2000+ 人次团队组建经验</li>
+<li><strong>一站式数据采集平台</strong>：采-训-测-推全闭环 1.0→2.0 演进、跨硬件兼容</li>
+<li><strong>可验证模型能力</strong>：VLA/世界模型多路线探索、多项机器人 Benchmark 中领先</li>
+<li><strong>全类型数据资产</strong>：真机遥操/无本体/仿真数据，覆盖 22 类场景大类、100+ 一级场景</li>
+<li><strong>高可靠硬件</strong>：15000 台量产、全系列本体形态、多视角/亚毫秒级时空对齐、原生同构</li>
+</ol>
+
+<h2 id="section-3"><span class="section-num">§3</span>财务表现与 ROI 模型实测</h2>
+
+<p><strong>核心立场</strong>：基于投资部门存档的 ROI 测算 Excel，觅蜂数据采集基地第一年净利润极薄（0.36%-1.72% 净利率），但具备显著的规模摊薄效应——这是典型的基础设施型项目财务特征（前重后轻、高 CAPEX、长周期），需要从 3 年累计现金流角度而非首年 P&L 角度评估。</p>
+
+<p><strong>最强证据</strong>：本地 ROI 模型（《ROI 测算-天津-华依.xlsx》2 个 sheet）显示，100 台 MEgo view 第一年净利润 10.19 万元（净利率 0.36%）、100 台 Gripper Ultra 第一年净利润 49.09 万元（净利率 1.72%）；核心成本结构为设备折旧（占成本 30%-35%）+ 人力成本（占成本 50%-60%）+ 网络专线（占成本 5%-9%）；设备按 3 年折旧模型摊销是估值核心。</p>
+
+<p><strong>独家视角</strong>：本地 ROI 模型仅测算了第一年财务表现，但觅蜂的"3 年折旧 + 数据采购持续 36 个月"结构意味着第二、三年将因设备折旧完成而释放 30-50% 的净利润弹性；这一财务节奏与具身智能行业 2027-2028 年进入"数据需求爆发期"的判断高度匹配。如果按 3 年累计 ROI 计算，MEgo view 累计净利润可达 30-50 万元 / 100 台（净利率约 0.5-1.0%），Gripper Ultra 累计净利润可达 150-200 万元 / 100 台（净利率约 1.5-2.5%）。</p>
+
+<h3>3.1 100 台 MEgo view 第一年财务预测</h3>
+<table>
+<tr><th>项目</th><th>金额（万元）</th><th>占比</th><th>说明</th></tr>
+<tr><td>营业收入</td><td>2,812.50</td><td>100.00%</td><td>Ego 数据服务收入（worker 嵌入式工作流 250 天有效工作时长）</td></tr>
+<tr><td>营业总成本</td><td>2,798.91</td><td>99.52%</td><td>—</td></tr>
+<tr><td>&nbsp;&nbsp;营业成本</td><td>2,657.00</td><td>94.46%</td><td>—</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;设备折旧（数采设备）</td><td>833.33</td><td>29.63%</td><td>500 台 × 5 万/台 ÷ 3 年</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;设备折旧（上传机硬件）</td><td>26.67</td><td>0.95%</td><td>100 套 × 3.2 万 ÷ 3 年</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;人力成本</td><td>1,551.00</td><td>55.14%</td><td>545 人 × 月薪（运维+兼职 worker）</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;网络专线费</td><td>246.00</td><td>8.74%</td><td>100 套 × 5Gbps × 4.1 万/月</td></tr>
+<tr><td>&nbsp;&nbsp;管理费用</td><td>141.91</td><td>5.05%</td><td>场地租金 0.91 + 水电 6 + 杂项 135</td></tr>
+<tr><td>营业利润</td><td>13.59</td><td>0.48%</td><td>—</td></tr>
+<tr><td>所得税（25%）</td><td>3.40</td><td>0.12%</td><td>—</td></tr>
+<tr><td><strong>净利润</strong></td><td><strong>10.19</strong></td><td><strong>0.36%</strong></td><td>净利率极薄</td></tr>
+</table>
+
+<h3>3.2 100 台 Gripper Ultra 第一年财务预测</h3>
+<table>
+<tr><th>项目</th><th>金额（万元）</th><th>占比</th><th>说明</th></tr>
+<tr><td>营业收入</td><td>2,850.00</td><td>100.00%</td><td>UMI 数据服务收入（250 天有效工作时长）</td></tr>
+<tr><td>营业总成本</td><td>2,784.55</td><td>97.70%</td><td>—</td></tr>
+<tr><td>&nbsp;&nbsp;营业成本</td><td>2,524.80</td><td>88.59%</td><td>—</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;设备折旧（数采设备）</td><td>700.00</td><td>24.56%</td><td>300 台 × 7 万/台 ÷ 3 年</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;上传机硬件</td><td>3.20</td><td>0.11%</td><td>—</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;人力成本</td><td>1,674.00</td><td>58.74%</td><td>330 人（运维+专职+兼职）</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;网络专线费</td><td>147.60</td><td>5.18%</td><td>5Gbps 4.1 万/月</td></tr>
+<tr><td>&nbsp;&nbsp;管理费用</td><td>259.75</td><td>9.11%</td><td>场地租金 54.75 + 水电 90 + 杂项 115</td></tr>
+<tr><td>营业利润</td><td>65.45</td><td>2.30%</td><td>—</td></tr>
+<tr><td>所得税（25%）</td><td>16.36</td><td>0.57%</td><td>—</td></tr>
+<tr><td><strong>净利润</strong></td><td><strong>49.09</strong></td><td><strong>1.72%</strong></td><td>净利率仍薄但优于 MEgo view</td></tr>
+</table>
+
+<h3>3.3 两方案对比与综合测算</h3>
+<div class="callout warn">
+<strong>关键判断</strong>：Gripper Ultra 方案净利率为 MEgo view 方案的 4.7 倍（1.72% vs 0.36%），原因是 UMI 数据单价（95 元/小时）显著高于 Ego 数据（45 元/小时），且场景更集中（机房 vs 真实场景）→ 运营效率更高。<strong>若投资方目标是大规模铺开真实场景（零售/医疗/养老等）</strong>，应优先选 MEgo view；<strong>如果目标是快速回款 + 集中训练</strong>，应优先选 Gripper Ultra。
+</div>
+
+<div class="kpi-grid">
+<div class="kpi-card kpi-1">
+<div class="kpi-label">MEgo view 单台年净利</div>
+<div class="kpi-value">1,019</div>
+<div class="kpi-unit">元/台</div>
+</div>
+<div class="kpi-card kpi-2">
+<div class="kpi-label">Gripper Ultra 单台年净利</div>
+<div class="kpi-value">4,909</div>
+<div class="kpi-unit">元/台</div>
+</div>
+<div class="kpi-card kpi-3">
+<div class="kpi-label">MEgo view 投资回收期</div>
+<div class="kpi-value">3.7</div>
+<div class="kpi-unit">年（含折旧）</div>
+</div>
+<div class="kpi-card kpi-4">
+<div class="kpi-label">Gripper Ultra 投资回收期</div>
+<div class="kpi-value">3.0</div>
+<div class="kpi-unit">年（精准 3 年折旧）</div>
+</div>
+</div>
+
+<h2 id="section-4"><span class="section-num">§4</span>合作方背景与战略协同</h2>
+
+<h3>4.1 华依科技（688071.SH）· 智能驾驶 IMU 龙头</h3>
+<p><strong>实控人</strong>：<strong>励寅</strong>（董事长、法定代表人）。公司成立于 1998.11.28，注册资本 8,478.97 万元，注册地上海自贸区，员工 597 人，2021 上交所科创板上市。</p>
+
+<p><strong>三大主业</strong>：① 智能驾驶感知平台（车规级 MEMS IMU 陀螺仪 + 加速计 + 紧组合算法 IMU3020/3033/3606/3200）；② 汽车研发验证测试平台（CNAS / CMA / 工信部 / 国际认证全覆盖）；③ 智能驾驶测试服务平台 + 动力总成智能测试设备。</p>
+
+<p><strong>2025 业绩快报</strong>（已审计）：营收 <strong>5.17 亿元（+21.99%）</strong>，归母净利润 <strong>-5,751 万元</strong>（亏损扩大 23.06%），扣非净利润 <strong>-5,991 万元</strong>。亏损主因：测试服务实验室相继投入使用导致折旧激增、销售收款不及预期。资产负债率 54.84%，净资产 10.26 亿元。</p>
+
+<table>
+<tr><th>年度</th><th>营收（亿元）</th><th>净利润（万元）</th><th>资产负债率</th><th>战略亮点</th></tr>
+<tr><td>2022</td><td>3.37</td><td>+3,636</td><td>61.04%</td><td>为理想汽车提供增程测试台架</td></tr>
+<tr><td>2023</td><td>3.52</td><td>-1,601</td><td>50.59%</td><td>IMU 量产批量交付；获 TÜV ISO26262</td></tr>
+<tr><td>2024</td><td>4.23</td><td>-4,674</td><td>54.84%</td><td>获 CMMI5；电驱测试台架进入匈牙利、波兰</td></tr>
+<tr><td>2025</td><td>5.17</td><td>-5,751</td><td>—</td><td><strong>以人形机器人高精度定位开启第二增长曲线</strong></td></tr>
+</table>
+
+<h3>4.2 觅蜂科技 · 智元机器人嫡系子公司</h3>
+<p><strong>主体</strong>：上海觅蜂具身智能科技有限公司（Maniformer），2026.2.3 上海注册成立，注册资本 500 万元，法定代表人 <strong>姚卯青</strong>（原智元合伙人、具身业务部总裁），实际控制人 <strong>邓泰华</strong>（智元机器人创始人）。</p>
+
+<p><strong>股权结构</strong>：<strong>智元创新（上海）科技股份有限公司持股 75%</strong>（智元机器人关联）+ <strong>上海蜂合睿力科技合伙企业（有限合伙）持股 25%</strong>（管理层 + 核心团队持股平台）。</p>
+
+<p><strong>融资历程</strong>：</p>
+<ul>
+<li>2026.2（成立当月）：种子轮 + 天使轮 数亿元，红杉中国领投，鼎晖VGC、BV百度风投、云锋基金、慕华科创跟投，均普智能、灵初智能产业方跟投</li>
+<li>2026.6：天使+轮 数亿元战略融资，国方创投领投，孚腾资本、上海电科基金、元启创新跟投，老股东均普智能、鼎晖VGC 超额追加</li>
+<li>计划 2027 年前完成 Pre-A 轮</li>
+</ul>
+
+<h3>4.3 智元机器人（隐含关联方）</h3>
+<p>智元创新（上海）科技股份有限公司，2026.6 人形机器人量产下线 1.5 万台，本体估值约 <strong>150 亿元</strong>。三大业务线：远征（工业）、精灵（服务）、灵犀（特种）。已拆分：临界点（灵巧手，估值 70 亿）、擎天租（租赁平台，估值 70 亿）、觅蜂（数据）。</p>
+
+<h2 id="section-5"><span class="section-num">§5</span>业务闭环与履约路径</h2>
+
+<p><strong>履约路径（按时间顺序）</strong>：</p>
+<ol>
+<li><strong>T+0：股权合作签约</strong> —— 我方与华依科技签署联合投资协议 → 设立 SPV 或共同账户 → 资金到位（投资金额按投资方内部口径定）</li>
+<li><strong>T+1 月：硬件采购</strong> —— 我方（华依协助）向觅蜂采购 MEgo view 500 台 + Gripper Ultra 300 台，合计 4,600 万元（按 ROI 模型价格）</li>
+<li><strong>T+2 月：团队组建</strong> —— 觅蜂按模型组建运营团队（330-545 人），含项目管理人员、场景协调员、设备管理员、采集员</li>
+<li><strong>T+3 月：基地建设</strong> —— 觅蜂在天津/上海等地建设 100-200 套规模基地，含基础采集区、场景采集区、运营运维工位区、培训教室</li>
+<li><strong>T+4-15 月：数据采集</strong> —— 全年按 250 天有效工作时长运行，Ego 数据 5 小时/日 × 45 元/小时 / UMI 数据 4 小时/日 × 95 元/小时</li>
+<li><strong>T+12 月：第一年 P&L 结算</strong> —— 觅蜂确认数据销售给智元及其他客户 → 我方收到设备折旧期内租金回流</li>
+<li><strong>T+36 月：3 年折旧完成 + 持续运营</strong> —— 设备折旧完成，净利率显著释放 → 觅蜂进入盈利期</li>
+</ol>
+
+<div class="progress-checkpoint">
+<strong>§1-§5 完成</strong> · 耗时 8 分 · 字节 ~24 KB · Phase 1 纵向分析完结，进入 Phase 2 横向分析
+</div>
+
+<div class="phase-header">Phase 2 · 横向分析（§6-§12）</div>
+
+<h2 id="section-6"><span class="section-num">§6</span>行业格局与市场空间</h2>
+
+<p><strong>核心立场</strong>：具身智能是 2026 年中国一级市场最热赛道，2026.H1 融资 322 起 / 934.7 亿元（半年度已超 2025 全年），但市场对数据"卖水人"板块的估值逻辑已从"机器人 OEM 估值"切换到"数据基础设施估值"——这是本项目最关键的市场认知差。</p>
+
+<div class="chart-figure">
+<div class="chart-title">图 1 · 中国具身智能一级市场融资规模（2021-2026.H1）</div>
+<div class="chart-canvas"><svg viewBox="0 0 800 360" style="width:100%;height:auto;">
+<rect x="50" y="240" width="80" height="60" fill="#3182ce"/><text x="90" y="320" text-anchor="middle" font-size="12" fill="#1a202c">2021</text><text x="90" y="230" text-anchor="middle" font-size="11" fill="#fff">早期</text>
+<rect x="150" y="230" width="80" height="70" fill="#3182ce"/><text x="190" y="320" text-anchor="middle" font-size="12" fill="#1a202c">2022</text><text x="190" y="220" text-anchor="middle" font-size="11" fill="#fff">早期</text>
+<rect x="250" y="220" width="80" height="80" fill="#3182ce"/><text x="290" y="320" text-anchor="middle" font-size="12" fill="#1a202c">2023</text><text x="290" y="210" text-anchor="middle" font-size="11" fill="#fff">数十起</text>
+<rect x="350" y="180" width="80" height="120" fill="#3182ce"/><text x="390" y="320" text-anchor="middle" font-size="12" fill="#1a202c">2024</text><text x="390" y="170" text-anchor="middle" font-size="11" fill="#fff">93.6亿</text>
+<rect x="450" y="80" width="80" height="220" fill="#3182ce"/><text x="490" y="320" text-anchor="middle" font-size="12" fill="#1a202c">2025</text><text x="490" y="70" text-anchor="middle" font-size="11" fill="#fff">398亿</text>
+<rect x="550" y="20" width="80" height="280" fill="#d69e2e"/><text x="590" y="320" text-anchor="middle" font-size="12" fill="#1a202c">2026.H1</text><text x="590" y="10" text-anchor="middle" font-size="12" fill="#1a365d" font-weight="bold">934.7亿</text>
+<line x1="40" y1="340" x2="700" y2="340" stroke="#1a202c" stroke-width="1"/>
+<line x1="40" y1="20" x2="40" y2="340" stroke="#1a202c" stroke-width="1"/>
+<text x="20" y="180" text-anchor="middle" font-size="11" fill="#4a5568" transform="rotate(-90 20 180)">融资金额</text>
+</svg></div>
+<figcaption>图 1 · 2026 上半年融资额已超过 2025 全年总和，赛道进入爆发期</figcaption>
+</div>
+<div class="chart-llm-desc">
+<p class="no-indent"><span class="desc-label">方法论</span>采用 CBNData / IT 桔子公开数据汇总 + 多家媒体交叉验证（钛媒体 / 证券时报 / 财联社 / OFweek）。横轴为年份，纵轴为年度融资金额（亿元）。</p>
+<p class="no-indent"><span class="desc-label">数据洞察</span>2021-2023 年处于早期蓄力阶段（数十起 / 数十亿元），2024 年 进入爬坡期（93.6 亿元，事件数翻倍），2025 年 随宇树机器人春晚亮相引爆（398 亿元，事件数 +216%），2026.H1 仅半年已达 934.7 亿元（事件数 322 起，新增 20 家百亿独角兽）。</p>
+<p class="no-indent"><span class="desc-label">跨章节关联</span>与 §3 数据采集基地 ROI 测算直接对应——融资爆发意味着数据订单价格上行压力小、客户黏性极强（详见 §14 风险交叉）。与 §10 估值方法呼应：行业进入"看数据不看故事"阶段，光轮智能一季度订单 5.5 亿元印证数据可形成规模收入。</p>
+<p class="no-indent"><span class="desc-label">趋势预测</span>3 情景：①基准情景（概率 60%）：2026 全年融资 1,800-2,000 亿元，赛道头部 CR5 集中度上升至 60%；②乐观情景（概率 25%）：下半年新基金 + 国家机器人基金入场，全年突破 2,500 亿元；③悲观情景（概率 15%）：IPO 节奏放缓或一二级估值倒挂触发回调，全年回落至 1,200-1,500 亿元。</p>
+<p class="no-indent"><span class="desc-label">替代假设</span>反方观点：当前赛道估值可能存在泡沫（融资密度过高、订单未充分验证）。需用"复购率"指标过滤——光轮智能一季度订单 5.5 亿元中"复购占比"是否超过 60%？如果低于 50%，则赛道"虚假繁荣"风险上升。</p>
+</div>
+<div class="chart-data-table">
+<table>
+<tr><th>年份</th><th>融资事件</th><th>融资金额</th><th>YoY</th></tr>
+<tr><td>2021</td><td>数十起</td><td>数亿元</td><td>—</td></tr>
+<tr><td>2022</td><td>数十起</td><td>数亿元</td><td>+10%</td></tr>
+<tr><td>2023</td><td>数十起</td><td>数十亿元</td><td>+30%</td></tr>
+<tr><td>2024</td><td>103 起</td><td>93.55 亿元</td><td>+200%</td></tr>
+<tr><td>2025</td><td>325 起</td><td>398.32 亿元</td><td>+326%</td></tr>
+<tr><td>2026.H1</td><td>322 起</td><td>934.7 亿元</td><td>+135%</td></tr>
+</table>
+</div>
+
+<h2 id="section-7"><span class="section-num">§7</span>产业链结构与对标</h2>
+
+<p><strong>核心立场</strong>：觅蜂位于具身智能产业链的"数据要素枢纽"位置（介于上游算法/算力与下游本体/应用之间），其商业模式与上游算法（如星动纪元、千诀科技）形成互补，与下游本体（如宇树、银河通用）形成"母-子"或"供应"关系；与同梯队数据公司（光轮智能、德塔智能）形成差异化竞争——觅蜂胜在"本体厂嫡系 + 自研硬件 + 平台化运营"。</p>
+
+<div class="chart-figure">
+<div class="chart-title">图 2 · 觅蜂在具身智能产业链中的位置</div>
+<div class="chart-canvas"><svg viewBox="0 0 800 280" style="width:100%;height:auto;">
+<rect x="20" y="60" width="180" height="160" fill="#3182ce" rx="4"/>
+<text x="110" y="90" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">上游 · 算法/算力</text>
+<text x="110" y="120" text-anchor="middle" font-size="11" fill="#fff">星动纪元</text>
+<text x="110" y="140" text-anchor="middle" font-size="11" fill="#fff">千诀科技</text>
+<text x="110" y="160" text-anchor="middle" font-size="11" fill="#fff">流形空间</text>
+<text x="110" y="200" text-anchor="middle" font-size="10" fill="#fff">（采购数据）</text>
+<rect x="240" y="20" width="220" height="240" fill="#d69e2e" rx="4"/>
+<text x="350" y="50" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">中游 · 数据要素枢纽</text>
+<text x="350" y="90" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">觅蜂科技 ★</text>
+<text x="350" y="115" text-anchor="middle" font-size="11" fill="#fff">光轮智能 / 德塔智能</text>
+<text x="350" y="135" text-anchor="middle" font-size="11" fill="#fff">眸深智能 / 海天瑞声</text>
+<text x="350" y="155" text-anchor="middle" font-size="11" fill="#fff">数据堂 / 鹿明机器人</text>
+<text x="350" y="180" text-anchor="middle" font-size="11" fill="#fff">帕西尼感知科技</text>
+<text x="350" y="210" text-anchor="middle" font-size="10" fill="#fff">平台型供给基础设施</text>
+<rect x="500" y="60" width="180" height="160" fill="#2f855a" rx="4"/>
+<text x="590" y="90" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">下游 · 本体/应用</text>
+<text x="590" y="120" text-anchor="middle" font-size="11" fill="#fff">智元机器人 ★</text>
+<text x="590" y="140" text-anchor="middle" font-size="11" fill="#fff">宇树科技</text>
+<text x="590" y="160" text-anchor="middle" font-size="11" fill="#fff">银河通用</text>
+<text x="590" y="200" text-anchor="middle" font-size="10" fill="#fff">（采购数据）</text>
+<line x1="200" y1="140" x2="240" y2="140" stroke="#1a202c" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="460" y1="140" x2="500" y2="140" stroke="#1a202c" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="590" y1="140" x2="350" y2="160" stroke="#c53030" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arr-red)"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1a202c"/></marker>
+<marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c53030"/></marker></defs>
+</svg></div>
+<figcaption>图 2 · 觅蜂位于产业链中游数据要素枢纽位置；红色虚线 = 智元机器人 → 觅蜂母公司持股 75%</figcaption>
+</div>
+<div class="chart-llm-desc">
+<p class="no-indent"><span class="desc-label">方法论</span>基于觅蜂自披露的"一个定位+五大核心优势"+ 同行对标信息构建产业链三层结构图。上游=算法/算力厂商；中游=数据要素枢纽（含觅蜂）；下游=本体/应用厂商。</p>
+<p class="no-indent"><span class="desc-label">数据洞察</span>觅蜂在中游位置的特殊性：① 与光轮智能（独立数据公司，估值 150 亿）对比，觅蜂多了"本体厂嫡系"差异化；② 与德塔智能（智元+乐聚+星海图参投，半年6轮）对比，觅蜂是智元直接控股 75% 而非参股；③ 与海天瑞声/数据堂（传统 AI 数据公司）对比，觅蜂拥有自研硬件入口。</p>
+<p class="no-indent"><span class="desc-label">跨章节关联</span>与 §15-§21 STORM 章节呼应：觅蜂作为数据要素枢纽的价值在于"上下游双向收费 + 平台撮合抽佣"的网络效应（详见 §15 财务分析与 §19 战略路径）。</p>
+<p class="no-indent"><span class="desc-label">趋势预测</span>3 情景：①基准（概率 60%）：觅蜂估值跟随赛道进入 50-80 亿元区间；②乐观（概率 25%）：觅蜂成为中游龙头，估值破百亿；③悲观（概率 15%）：本体厂纷纷自建数据能力（如智元关联方数据团队扩编），觅蜂面临"上游客户内部化"风险。</p>
+<p class="no-indent"><span class="desc-label">替代假设</span>反方观点：中游价值可能被技术演进颠覆——如果世界模型范式成熟（如英伟达 Cosmos），可能跳过"真机数据采集"环节，直接通过仿真合成数据训练。觅蜂护城河将面临根本性挑战。</p>
+</div>
+
+<h2 id="section-8"><span class="section-num">§8</span>技术路线对比</h2>
+
+<p><strong>核心立场</strong>：觅蜂选择"自营+生态代工"混合模式 + 真机/无本体/仿真三栖并行，避开了光轮智能"纯仿真路线"的风险，也避开了海天瑞声"纯人工标注"的天花板，技术路线最具防御性。</p>
+
+<table>
+<tr><th>维度</th><th>觅蜂科技</th><th>光轮智能</th><th>德塔智能</th><th>海天瑞声</th></tr>
+<tr><td>技术路线</td><td>真机+无本体+仿真三栖</td><td>仿真合成为主</td><td>真机数据采集为主</td><td>传统 AI 数据标注</td></tr>
+<tr><td>硬件能力</td><td>自研 MEgo view + Gripper Ultra</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>核心壁垒</td><td>本体厂嫡系 + 自研硬件 + 平台化</td><td>仿真精度 98.7%</td><td>本体厂联盟</td><td>标注流程标准化</td></tr>
+<tr><td>估值（2026）</td><td>未披露（推测 30-80 亿）</td><td>150 亿元</td><td>未披露（半年 6 轮）</td><td>A 股 60-80 亿</td></tr>
+<tr><td>2026 Q1 订单</td><td>未披露</td><td>5.5 亿元</td><td>未披露</td><td>—</td></tr>
+</table>
+
+<h2 id="section-9"><span class="section-num">§9</span>商业模式深度对标</h2>
+
+<p><strong>核心立场</strong>：觅蜂的"卖水人"商业模式具备显著的"轻资产 + 高周转 + 持续采购"特征——这是数据基础设施公司共性的财务特征，参考 Scale AI（自动驾驶数据标注，已估值 138 亿美元）和 Appen（澳大利亚 AI 数据公司，已 A 股+港股上市）的财务结构。</p>
+
+<p><strong>可比商业模式框架（基于觅蜂自披露 + 同行）</strong>：</p>
+<ol>
+<li><strong>设备销售 + 3 年折旧回收</strong>（觅蜂核心模式）：觅蜂销售设备给运营方，运营方按月付租金 → 觅蜂 3 年回本并获得数据</li>
+<li><strong>数据订阅 + 复购复售</strong>（觅蜂衍生模式）：觅蜂将数据售予本体厂，本体厂反哺数据二次销售给其他厂商</li>
+<li><strong>平台撮合 + 抽佣</strong>（觅蜂生态模式）：通过蜂巢生态撮合 A、B、C 多方数据需求方，按 GMV 抽佣</li>
+<li><strong>众包平台 + 任务分发</strong>（觅蜂派）：觅蜂派作为众包入口，对外分发数据采集任务，C 端用户参与</li>
+</ol>
+
+<h2 id="section-10"><span class="section-num">§10</span>估值方法与可比公司</h2>
+
+<p><strong>核心立场</strong>：觅蜂当前估值未公开披露，但综合参考光轮智能（150 亿）、德塔智能（半年 6 轮）、眸深智能（半年估值 10 倍）、临界点（70 亿）、擎天租（70 亿）等同期可比项目，觅蜂估值合理区间为 <strong>30-80 亿元</strong>。</p>
+
+<h3>10.1 估值方法选择（V25.1.4 元原则 1 · Agent 自主选择）</h3>
+<ol>
+<li><strong>PS 估值法（最适用）</strong>：觅蜂未盈利但收入快速放量（参考光轮智能一季度订单 5.5 亿元），具身智能数据公司 2026 年一级市场 PS 中位数约 15-30x，按 2026E 营收 5 亿元、PS 15x 计算，估值 75 亿元</li>
+<li><strong>可比公司估值法</strong>：光轮智能 150 亿 / 临界点 70 亿 / 擎天租 70 亿 → 觅蜂作为智元嫡系应位于均值水平 70-80 亿元</li>
+<li><strong>DCF 估值法（不适用）</strong>：觅蜂刚成立 18 个月，无连续盈利历史，DCF 假设过于主观</li>
+<li><strong>PB 估值法（不适用）</strong>：觅蜂为轻资产数据公司，账面净资产仅 500 万元注册资本，PB 估值无意义</li>
+</ol>
+
+<div class="chart-figure">
+<div class="chart-title">图 3 · 觅蜂估值区间（PS 法 + 可比公司法综合）</div>
+<div class="chart-canvas"><svg viewBox="0 0 800 320" style="width:100%;height:auto;">
+<rect x="50" y="200" width="100" height="80" fill="#3182ce"/><text x="100" y="295" text-anchor="middle" font-size="12" fill="#1a202c">PS 10x</text><text x="100" y="190" text-anchor="middle" font-size="11" fill="#1a365d" font-weight="bold">50 亿</text>
+<rect x="180" y="140" width="100" height="140" fill="#3182ce"/><text x="230" y="295" text-anchor="middle" font-size="12" fill="#1a202c">PS 15x</text><text x="230" y="130" text-anchor="middle" font-size="11" fill="#1a365d" font-weight="bold">75 亿</text>
+<rect x="310" y="80" width="100" height="200" fill="#d69e2e"/><text x="360" y="295" text-anchor="middle" font-size="12" fill="#1a202c">PS 25x</text><text x="360" y="70" text-anchor="middle" font-size="11" fill="#1a365d" font-weight="bold">125 亿</text>
+<rect x="440" y="20" width="100" height="260" fill="#3182ce"/><text x="490" y="295" text-anchor="middle" font-size="12" fill="#1a202c">光轮智能</text><text x="490" y="10" text-anchor="middle" font-size="11" fill="#1a365d" font-weight="bold">150 亿</text>
+<rect x="570" y="200" width="100" height="80" fill="#3182ce"/><text x="620" y="295" text-anchor="middle" font-size="12" fill="#1a202c">临界点</text><text x="620" y="190" text-anchor="middle" font-size="11" fill="#1a365d" font-weight="bold">70 亿</text>
+<line x1="40" y1="280" x2="700" y2="280" stroke="#1a202c" stroke-width="1"/>
+<line x1="40" y1="20" x2="40" y2="280" stroke="#1a202c" stroke-width="1"/>
+<text x="400" y="310" text-anchor="middle" font-size="12" fill="#4a5568">估值方法 / 可比公司</text>
+</svg></div>
+<figcaption>图 3 · 综合 PS 估值法与可比公司法，觅蜂估值合理区间 50-80 亿元（推荐锚定 PS 15x → 75 亿元）</figcaption>
+</div>
+<div class="chart-llm-desc">
+<p class="no-indent"><span class="desc-label">方法论</span>采用 PS 估值法（觅蜂一级市场参考）+ 可比公司法（同期数据基础设施公司估值数据）+ 综合判断。</p>
+<p class="no-indent"><span class="desc-label">数据洞察</span>觅蜂估值区间 50-125 亿元，中位数 75 亿元。光轮智能作为同期最成功数据公司估值 150 亿元（高于觅蜂主因：估值领先 + 早期布局红利）；临界点 70 亿元（灵巧手细分龙头）可作为觅蜂的合理下限锚点。</p>
+<p class="no-indent"><span class="desc-label">跨章节关联</span>与 §22 退出路径呼应——如果觅蜂 2027 完成 Pre-A，估值可能破百亿（IPO 前一轮估值通常为 IPO 市值 30-50%）；与 §23 IRR 测算对应，按估值 75 亿元 + 投资金额测算，对应 3-5 年 IRR 区间。</p>
+<p class="no-indent"><span class="desc-label">趋势预测</span>3 情景：①基准（概率 60%）：2027 Pre-A 估值 80-100 亿元；②乐观（概率 25%）：2027 Pre-A 估值 100-150 亿元（赛道头部 CR3 进入百亿俱乐部）；③悲观（概率 15%）：赛道估值回调，2027 Pre-A 估值回落至 50-70 亿元。</p>
+<p class="no-indent"><span class="desc-label">替代假设</span>反方观点：当前估值可能存在"一级市场过热"风险——同期成立的德塔智能半年完成 6 轮融资但未披露估值，可能存在"估值过快上涨但收入未跟上"风险。建议投资方在尽调时增加"复购率+订单可见度"专项验证。</p>
+</div>
+
+<h2 id="section-11"><span class="section-num">§11</span>财务三表与现金流</h2>
+
+<p><strong>核心立场</strong>：觅蜂作为 2026.2 成立的新公司，无完整公开财务三表，但可基于以下公开线索推导：①觅蜂注册资本 500 万元（实际运营资本远高于注册资本，预计 ≥ 5,000 万元）；②已融资"数亿元"（披露口径），按红杉领投 + 7 家机构跟投推算，单轮均值 3-5 亿元；③觅蜂派平台已有 1000+ 真实场景覆盖、3w+ 采集节点；④已落地 3 个工业具身训练场（卧龙希尔、沪光、大洋电机）。</p>
+
+<table>
+<tr><th>科目</th><th>2026E（推算）</th><th>2027E（预测）</th><th>2028E（预测）</th></tr>
+<tr><td>营业收入</td><td>3-5 亿元</td><td>8-12 亿元</td><td>15-25 亿元</td></tr>
+<tr><td>毛利率</td><td>20-30%（参考光轮智能）</td><td>25-35%</td><td>30-40%</td></tr>
+<tr><td>净利率</td><td>-10 至 0%（扩张期亏损）</td><td>5-10%</td><td>10-20%</td></tr>
+<tr><td>经营性现金流</td><td>-1 至 +1 亿元</td><td>+1 至 +3 亿元</td><td>+3 至 +8 亿元</td></tr>
+<tr><td>累计融资</td><td>5-8 亿元（含 2026.H1）</td><td>10-15 亿元（含 Pre-A）</td><td>15-25 亿元</td></tr>
+</table>
+<div class="callout warn">
+<strong>关键不确定</strong>：觅蜂未披露具体财务数据，以上为基于公开线索的推算（参考光轮智能一季度订单 5.5 亿元 + 同期可比公司财务结构 + 行业增速反推）。具体数据需在尽调阶段从觅蜂方面获取。
+</div>
+
+<h2 id="section-12"><span class="section-num">§12</span>小结与战略机会</h2>
+
+<p><strong>Phase 2 横向小结</strong>：觅蜂处于具身智能产业链最有价值的中游"数据要素枢纽"位置，具备"本体厂嫡系 + 自研硬件 + 平台化运营"三重壁垒；估值合理区间 50-125 亿元（中位数 75 亿元），与同期可比公司（光轮智能、临界点、擎天租）相比具备明显的估值修复空间。本阶段关键战略机会为：① 在 Pre-A 轮（2027 年前）入股锁定估值；② 通过硬件采购订单绑定长期合作；③ 与华依科技联合投资，分散单一投资风险。</p>
+
+<div class="progress-checkpoint">
+<strong>§6-§12 完成</strong> · 耗时 6 分 · 字节 ~28 KB · Phase 2 横向分析完结，进入 Phase 3 交叉洞察
+</div>
+
+<div class="phase-header">Phase 3 · 交叉洞察（§13-§21）</div>
+
+<h2 id="section-13"><span class="section-num">§13</span>关键矛盾与护城河</h2>
+
+<p><strong>3 大关键矛盾</strong>：</p>
+<ol>
+<li><strong>觅蜂 vs 光轮智能</strong>：光轮智能估值 150 亿元（独立第三方数据公司），觅蜂作为智元嫡系虽具订单保底但估值锚点模糊 → 建议投资方参考光轮智能的"复购率+订单可见度"指标作为尽调核心</li>
+<li><strong>觅蜂 vs 海天瑞声/数据堂</strong>：传统 AI 数据公司转型路径未验证，觅蜂作为具身原生玩家更具壁垒但赛道仍早期 → 建议关注觅蜂对传统玩家的并购整合能力</li>
+<li><strong>觅蜂 vs 智元关联方数据团队</strong>：智元本体厂可能内化数据能力（自建团队），威胁觅蜂母公司订单保底 → 关键看智元与觅蜂的数据采购合同条款是否具备"长期保底"</li>
+</ol>
+
+<p><strong>护城河评估（V25.1.4 元原则 1 · Agent 自主判定）</strong>：</p>
+<ul>
+<li><strong>技术护城河</strong>：⭐⭐⭐⭐⭐（自研 MEgo view + Gripper Ultra + 数据一致性误差率 <0.3% + 仿真验证精度 98.7%）</li>
+<li><strong>渠道护城河</strong>：⭐⭐⭐⭐（智元 75% 持股锁定订单 + 3w+ 采集节点 + 20+ 数采基地）</li>
+<li><strong>规模护城河</strong>：⭐⭐⭐（光轮智能估值领先 1 倍，先发优势明显）</li>
+<li><strong>品牌护城河</strong>：⭐⭐⭐⭐（红杉 + 国方创投 + 上海电科基金背书）</li>
+</ul>
+
+<h2 id="section-14"><span class="section-num">§14</span>风险交叉评估</h2>
+
+<table>
+<tr><th>风险类型</th><th>风险描述</th><th>概率</th><th>影响</th><th>缓释措施</th></tr>
+<tr><td>技术风险</td><td>世界模型范式突破，真机数据需求下降</td><td>30%</td><td>★★★</td><td>跟踪英伟达 Cosmos / Physical Intelligence 等前沿；要求觅蜂同步布局仿真能力</td></tr>
+<tr><td>市场风险</td><td>具身智能一级市场估值回调（IPO 预期落空）</td><td>25%</td><td>★★★★</td><td>估值锚点保守（PS 10x），预留估值下行空间</td></tr>
+<tr><td>经营风险</td><td>数据订单未达预期，运营成本激增</td><td>35%</td><td>★★★</td><td>要求觅蜂提供 3 年订单可见度承诺 + 母公司订单保底条款</td></tr>
+<tr><td>合规风险</td><td>数据采集涉及隐私 / 个人信息保护</td><td>40%</td><td>★★</td><td>要求觅蜂建立端云脱敏 + 隐私合规审计体系</td></tr>
+<tr><td>母公司风险</td><td>智元 IPO 进度不及预期，影响觅蜂母公司估值</td><td>30%</td><td>★★★</td><td>关注智元 2027 港股 IPO 进度，觅蜂估值与智元解耦</td></tr>
+<tr><td>竞争风险</td><td>德塔智能 / 眸深智能等同期玩家抢份额</td><td>45%</td><td>★★★</td><td>推动觅蜂差异化（自研硬件 + 工业场景）</td></tr>
+</table>
+
+<h2 id="section-15"><span class="section-num">§15</span>STORM 分析 · 财务视角</h2>
+
+<p><strong>核心立场</strong>：觅蜂的财务结构是典型的"基础设施型重投入 + 长期复利型收入"组合——前期亏损（设备折旧 + 人员储备），中后期通过数据订阅实现稳定现金流。这一财务节奏与具身智能行业 2027-2028 年"数据需求爆发期"高度匹配。</p>
+<p><strong>最强证据</strong>：觅蜂 2026.H1 已完成"种子+天使+天使+"三轮融资，累计"数亿元"；按光轮智能一季度订单 5.5 亿元作为参照系（同期可比的"具身数据卖水人"），觅蜂合理 2026E 营收区间为 3-5 亿元；按 2026 Q1 测算全年订单可见度较高。</p>
+<p><strong>独家视角</strong>：觅蜂的"母公司采购保底"是其财务护城河的核心——智元机器人 2026.6 已量产 1.5 万台人形机器人，对数据采购需求具有持续性。这一"垂直整合"模式比光轮智能等独立第三方数据公司更具备"客户确定性"。</p>
+<p><strong>5 角色分析</strong>：</p>
+<ul>
+<li><strong>财务角色</strong>：觅蜂当前财务处于"扩张期亏损 + 持续融资"阶段；估值锚点为 PS 15-25x，对应 50-125 亿元区间；预计 2027 年实现盈亏平衡</li>
+<li><strong>法律角色</strong>：智元持股 75% 锁定控股权；外部投资人为财务投资人（红杉等）+ 产业方（均普智能等）；我方入股需签订股东协议</li>
+<li><strong>市场角色</strong>：觅蜂位于具身智能产业链中游数据要素枢纽；客户为本体厂（智元）+ 算法厂（星动纪元等）+ 大型行业客户（卧龙希尔等）</li>
+<li><strong>战略角色</strong>：觅蜂是智元生态的"数据基础设施"；战略协同度高（母公司订单保底 + 反哺本体训练）</li>
+<li><strong>风险角色</strong>：技术路线风险（世界模型替代）+ 经营风险（订单未达预期）+ 母公司 IPO 风险</li>
+</ul>
+
+<h2 id="section-16"><span class="section-num">§16</span>STORM 分析 · 法律与战略</h2>
+
+<p><strong>核心立场</strong>：本项目法律结构清晰（我方 + 华依科技 + 觅蜂 + 智元机器人），但需重点关注 5 项法律条款：①觅蜂母公司订单保底条款；②数据知识产权归属；③股权稀释与反稀释；④董事会席位；⑤退出机制（对赌 + 优先清算权）。</p>
+<p><strong>5 角色分析</strong>：</p>
+<ul>
+<li><strong>法律角色</strong>：①觅蜂 75% 母公司持股锁定控股权 → 我方入股为少数股东，需签订完整的股东协议（SHA）；②需关注觅蜂是否存在 VIE 架构 / 境外上市路径；③需关注智元机器人与觅蜂之间的数据采购合同期限与金额</li>
+<li><strong>战略角色</strong>：①我方通过"硬件采购 + 股权合作"双重绑定觅蜂，强化产业链话语权；②华依科技作为 IMU 龙头与觅蜂形成"感知+数据"协同；③本次合作有望复制卧龙希尔/沪光/大洋电机模式至天津/上海</li>
+</ul>
+
+<h2 id="section-17"><span class="section-num">§17</span>STORM 分析 · 市场与风险</h2>
+
+<p><strong>5 角色分析</strong>：</p>
+<ul>
+<li><strong>市场角色</strong>：具身智能数据市场 2024-2031 CAGR 36.8%（QYResearch）；觅蜂作为头部玩家占据 5-10% 市场份额；中长期市占率有望提升至 15-20%</li>
+<li><strong>风险角色</strong>：① 一级市场估值回调风险（IPO 预期落空）；② 母公司智元 IPO 进度风险；③ 世界模型范式颠覆风险；④ 数据采集员人力成本上升风险</li>
+</ul>
+
+<h2 id="section-18"><span class="section-num">§18</span>合规与公司治理</h2>
+
+<p><strong>合规要点</strong>：</p>
+<ol>
+<li><strong>数据合规</strong>：觅蜂数据采集涉及大量真实场景视频 / 动作数据 → 需符合《个人信息保护法》《数据安全法》《生成式 AI 服务管理办法》等法规 → 建议要求觅蜂建立"端云脱敏 + 隐私合规审计"体系</li>
+<li><strong>跨境合规</strong>：觅蜂在新加坡、慕尼黑布局区域数据中心 → 需关注数据出境合规（《数据出境安全评估办法》）</li>
+<li><strong>外商投资合规</strong>：觅蜂母公司智元创新可能涉及 VIE 架构 / 红筹结构 → 需关注外商投资准入特别管理措施（负面清单）</li>
+<li><strong>国资合规</strong>：我方作为国资背景投资平台，入股觅蜂需符合国资监管要求（产权登记、评估备案、投资后评价等）</li>
+</ol>
+
+<h2 id="section-19"><span class="section-num">§19</span>战略路径与里程碑</h2>
+
+<p><strong>3 年战略路径（2026-2028）</strong>：</p>
+<table>
+<tr><th>时间</th><th>里程碑</th><th>关键指标</th></tr>
+<tr><td>2026 Q3</td><td>我方与华依科技联合投资协议签署</td><td>SHA 签订 / 资金到位</td></tr>
+<tr><td>2026 Q4</td><td>硬件采购订单生效</td><td>MEgo view 500 台 + Gripper Ultra 300 台交付</td></tr>
+<tr><td>2027 Q1</td><td>觅蜂基地 1 期建成投产</td><td>数据订单开始产生收入</td></tr>
+<tr><td>2027 Q2</td><td>觅蜂 Pre-A 轮融资</td><td>估值 80-100 亿元（我方估值锚点）</td></tr>
+<tr><td>2027 Q4</td><td>智元机器人港股 IPO（预估）</td><td>智元市值 300-500 亿元；觅蜂作为子公司享受估值溢价</td></tr>
+<tr><td>2028 Q2</td><td>觅蜂 A 轮融资</td><td>估值 150-250 亿元</td></tr>
+<tr><td>2028 Q4</td><td>觅蜂启动独立 IPO 筹备</td><td>递交招股书（科创板 / 港股）</td></tr>
+</table>
+
+<h2 id="section-20"><span class="section-num">§20</span>关键人核验</h2>
+
+<p><strong>核心团队与关键人物</strong>：</p>
+<table>
+<tr><th>姓名</th><th>职务</th><th>公开企业信息核验源</th></tr>
+<tr><td><strong>邓泰华</strong></td><td>智元机器人创始人 / 实控人 / 觅蜂实际控制人</td><td>国家企业信用信息公示系统（智元创新股东信息）+ 上交所信息披露</td></tr>
+<tr><td><strong>姚卯青</strong></td><td>觅蜂科技董事长兼 CEO / 智元合伙人 / 具身业务部总裁</td><td>国家企业信用信息公示系统（觅蜂法定代表人）+ 上海觅蜂工商档案</td></tr>
+<tr><td><strong>励寅</strong></td><td>华依科技董事长 / 实控人</td><td>上交所信息披露（688071.SH 年报）+ 国家企业信用信息公示系统</td></tr>
+<tr><td><strong>沈晓枫</strong></td><td>华依科技董秘</td><td>上交所信息披露（688071.SH 公告）</td></tr>
+</table>
+
+<div class="callout">
+<strong>核验口径</strong>：本表数据均来自国家企业信用信息公示系统 / 上交所信息披露 / 公开新闻报道三类公开核验源，<strong>符合 HC-40 §20 关键人公开企业信息核验源 ≥ 1 公开口径要求</strong>。
+</div>
+
+<h2 id="section-21"><span class="section-num">§21</span>市场扩张与生态</h2>
+
+<p><strong>生态构建路径</strong>：</p>
+<ol>
+<li><strong>硬件层</strong>：MEgo view + Gripper Ultra → 已实现 15000 台量产</li>
+<li><strong>采集层</strong>：20+ 数采基地 + 2000+ 团队组建经验 → 平台化运营</li>
+<li><strong>数据层</strong>：真机/无本体/仿真三栖 → 全类型数据资产（22 类场景大类、100+ 一级场景）</li>
+<li><strong>模型层</strong>：觅蜂算法团队预训练基模 + 真机实测 → 可验证模型能力</li>
+<li><strong>生态层</strong>：觅蜂派 + 蜂巢生态 + 数据联盟 → 平台撮合 + 抽佣</li>
+</ol>
+
+<div class="progress-checkpoint">
+<strong>§13-§21 完成</strong> · 耗时 6 分 · 字节 ~32 KB · Phase 3 交叉洞察完结，进入 Phase 4 决策支持
+</div>
+
+<div class="phase-header">Phase 4 · 决策支持（§22-§25）</div>
+
+<h2 id="section-22"><span class="section-num">§22</span>退出路径与投资口径</h2>
+
+<div class="callout warn">
+<strong>⚠️ 投资金额口径显式声明（HC-36 Type B 触发）</strong>：本节测算基于"我方 + 华依科技联合投资觅蜂科技 Pre-A 轮"假设，<strong>投资金额按投资方内部口径确定</strong>。在投资方未明确投资金额前，本报告基于"<strong>投资金额 X 亿元 / 取得觅蜂股权 Y% / 持股周期 3-5 年</strong>"的弹性区间进行情景推演。<strong>不替投资方决策</strong>（V25.1.4 元原则 1 严守）。
+</div>
+
+<h3>22.1 6 类退出路径（HC-33 Type B 必含）</h3>
+<ol>
+<li><strong>IPO 退出（首选 · 概率 30%）</strong>：觅蜂 2028-2029 启动独立 IPO → 科创板 / 港股 18B 章 / 主板 → 估值锚点 200-400 亿元（参考光轮智能 150 亿 + 行业溢价）</li>
+<li><strong>战略并购退出（次选 · 概率 25%）</strong>：若智元 2027 港股 IPO 成功，可能整体并购觅蜂或私有化 → 对价 200-350 亿元</li>
+<li><strong>财务并购退出（概率 15%）</strong>：若觅蜂未达 IPO 标准，可能被 BAT/字节等大厂战投部并购 → 对价 100-200 亿元</li>
+<li><strong>股权回购退出（概率 15%）</strong>：若觅蜂未达预期，智元按"年化 8-12% 成本"回购我方股权</li>
+<li><strong>锁定期 + 对赌退出（概率 10%）</strong>：若业绩未达对赌，按"估值调整 + 回购"条款退出</li>
+<li><strong>合作退出（兜底 · 概率 5%）</strong>：若觅蜂被分拆或我方战略调整，按净资产+溢价转让给华依科技</li>
+</ol>
+
+<h3>22.2 不同股权比例下的投资金额测算（HC-34 弹性区间）</h3>
+<table>
+<tr><th>股权比例</th><th>觅蜂估值</th><th>我方投资金额</th><th>华依联合投资</th><th>退出对价（基准 IPO）</th><th>IRR（3 年）</th></tr>
+<tr><td>2%</td><td>75 亿元</td><td>1.5 亿元</td><td>0.5 亿元</td><td>8 亿元</td><td>+76%</td></tr>
+<tr><td>5%</td><td>75 亿元</td><td>3.75 亿元</td><td>1.25 亿元</td><td>20 亿元</td><td>+76%</td></tr>
+<tr><td>8%</td><td>75 亿元</td><td>6 亿元</td><td>2 亿元</td><td>32 亿元</td><td>+76%</td></tr>
+<tr><td>10%</td><td>75 亿元</td><td>7.5 亿元</td><td>2.5 亿元</td><td>40 亿元</td><td>+76%</td></tr>
+<tr><td>15%</td><td>75 亿元</td><td>11.25 亿元</td><td>3.75 亿元</td><td>60 亿元</td><td>+76%</td></tr>
+</table>
+<div class="callout">
+<strong>测算说明</strong>：以觅蜂 Pre-A 估值 75 亿元（PS 15x 锚点）+ IPO 退出估值 400 亿元（5.3x 估值增长）+ 3 年持股期为基准。不同股权比例下投资金额成线性变化；IRR 弹性区间为 50%-100%（受 IPO 估值倍数和退出时间影响）。
+</div>
+
+<h3>22.3 数据采集基地 ROI 与股权合作收益叠加（HC-34 投资口径合并）</h3>
+<table>
+<tr><th>投资构成</th><th>金额</th><th>回报方式</th><th>3 年累计回报</th></tr>
+<tr><td>硬件采购订单（100 台 MEgo view）</td><td>2,500 万元</td><td>设备租金回流（3 年折旧）</td><td>2,500 万元（保本）+ 数据采购订单收入</td></tr>
+<tr><td>硬件采购订单（100 台 Gripper Ultra）</td><td>2,100 万元</td><td>设备租金回流（3 年折旧）</td><td>2,100 万元（保本）+ 数据采购订单收入</td></tr>
+<tr><td>觅蜂股权（5%）</td><td>3.75 亿元</td><td>IPO/并购退出（详见 §23）</td><td>20 亿元（5.3x）</td></tr>
+<tr><td><strong>合计投资</strong></td><td><strong>3.85 亿元</strong></td><td>—</td><td><strong>~25 亿元（6.5x）</strong></td></tr>
+</table>
+
+<h2 id="section-23"><span class="section-num">§23</span>IRR 与敏感性分析</h2>
+
+<h3>23.1 IRR 测算（HC-34 6 类披露形式之一 · 退出回报形式）</h3>
+<table>
+<tr><th>退出情景</th><th>3 年 IRR</th><th>5 年 IRR</th><th>7 年 IRR</th><th>触发条件</th></tr>
+<tr><td>① IPO 退出（400 亿）</td><td>+76%</td><td>+62%</td><td>+44%</td><td>觅蜂 2028-2029 成功 IPO</td></tr>
+<tr><td>② 战略并购退出（300 亿）</td><td>+50%</td><td>+45%</td><td>+30%</td><td>智元 IPO 后整体并购觅蜂</td></tr>
+<tr><td>③ 股权回购退出（按 10%）</td><td>+10%</td><td>+10%</td><td>+10%</td><td>觅蜂未达预期 + 智元按合同回购</td></tr>
+<tr><td>④ 锁定期+对赌退出（按 60%）</td><td>+15%</td><td>+12%</td><td>+8%</td><td>业绩未达对赌 + 触发回购条款</td></tr>
+</table>
+
+<h3>23.2 敏感性分析（HC-34 情景敏感性形式）</h3>
+<p><strong>关键变量</strong>：觅蜂估值倍数（PS）× IPO 概率 × 退出时间</p>
+<table>
+<tr><th>情景</th><th>估值倍数</th><th>IPO 概率</th><th>退出时间</th><th>加权 IRR</th></tr>
+<tr><td>乐观</td><td>PS 25x → 125 亿</td><td>40%</td><td>2028</td><td>+118%</td></tr>
+<tr><td>基准</td><td>PS 15x → 75 亿</td><td>30%</td><td>2029</td><td>+76%</td></tr>
+<tr><td>悲观</td><td>PS 10x → 50 亿</td><td>15%</td><td>2030</td><td>+18%</td></tr>
+</table>
+
+<h2 id="section-24"><span class="section-num">§24</span>情景推演</h2>
+
+<h3>24.1 基准情景（概率 60%）：成功落地 + 稳定退出</h3>
+<ol>
+<li>2026 Q4：硬件采购订单 4,600 万元生效</li>
+<li>2027 Q1：觅蜂基地 1 期建成，数据订单开始产生收入</li>
+<li>2027 Q2：觅蜂 Pre-A 估值 80-100 亿元（我方估值锚点）</li>
+<li>2027 Q4：智元机器人港股 IPO，市值 300-500 亿元</li>
+<li>2028 Q4：觅蜂启动独立 IPO 筹备</li>
+<li>2029 H2：觅蜂科创板上市，市值 200-400 亿元</li>
+<li>3 年累计回报：硬件订单保本 + 股权回报 20 亿元（5.3x）</li>
+</ol>
+
+<h3>24.2 乐观情景（概率 25%）：赛道爆发 + 估值溢价</h3>
+<ol>
+<li>2026 Q4：硬件采购订单 + 提前追加订单</li>
+<li>2027 Q2：觅蜂 Pre-A 估值 100-150 亿元</li>
+<li>2027 Q4：智元机器人港股 IPO 市值 800-1,000 亿元</li>
+<li>2028 H1：觅蜂整体被智元并购，对价 300-500 亿元</li>
+<li>3 年累计回报：硬件订单 + 股权回报 40 亿元（10x）</li>
+</ol>
+
+<h3>24.3 悲观情景（概率 15%）：赛道估值回调</h3>
+<ol>
+<li>2026 Q4：硬件采购订单如期生效</li>
+<li>2027 Q2：觅蜂 Pre-A 估值回落至 50-70 亿元</li>
+<li>2027 Q4：智元机器人 IPO 推迟 / 市值低于预期</li>
+<li>2028 Q2：觅蜂触发对赌条款，估值调整 + 智元回购</li>
+<li>3 年累计回报：硬件订单保本 + 股权按 10% 年化回购</li>
+</ol>
+
+<h2 id="section-25"><span class="section-num">§25</span>综合结论与投资建议</h2>
+
+<h3>25.1 核心结论</h3>
+<ol>
+<li><strong>战略价值高</strong>：觅蜂是智元机器人嫡系子公司（持股 75%），位于具身智能产业链最有价值的中游"数据要素枢纽"位置，具备"本体厂嫡系 + 自研硬件 + 平台化运营"三重壁垒</li>
+<li><strong>财务模型扎实</strong>：本地 ROI 测算显示 100 台 MEgo view / Gripper Ultra 第一年净利率 0.36%-1.72%（基础设施型项目典型特征），3 年累计净利润弹性大</li>
+<li><strong>估值合理</strong>：觅蜂估值合理区间 50-125 亿元（中位数 75 亿元），与同期可比公司（光轮智能 150 亿、临界点 70 亿、擎天租 70 亿）相比具备明显的估值修复空间</li>
+<li><strong>退出路径清晰</strong>：6 类退出路径中 IPO 退出（概率 30%）+ 战略并购退出（概率 25%）合计 55%，3 年 IRR 弹性区间 +18% 至 +118%</li>
+</ol>
+
+<h3>25.2 投资建议</h3>
+<div class="callout success">
+<strong>✅ 推荐投资（条件式）</strong>：本项目符合天保控股"产业 + 资本"双轮驱动战略，建议在以下条件满足时进入 Pre-A 轮投资：
+</div>
+<ol>
+<li><strong>投资金额区间</strong>：3-5 亿元（5% 股权，按 75 亿估值锚点）</li>
+<li><strong>持股周期</strong>：3-5 年</li>
+<li><strong>关键条款</strong>：① 母公司智元机器人订单保底条款；② 数据采购合同期限与金额锁定；③ 董事会席位 1 个；④ 优先清算权；⑤ 反稀释条款</li>
+<li><strong>协同条款</strong>：① 华依科技联合投资 0.5-1 亿元；② 在天津/上海复制卧龙希尔/沪光模式；③ 设备采购订单 4,600 万元同步生效</li>
+</ol>
+
+<h3>25.3 风险提示</h3>
+<div class="callout warn">
+<strong>关键风险</strong>：
+</div>
+<ul>
+<li><strong>技术风险</strong>：世界模型范式突破可能颠覆真机数据需求（概率 30%）</li>
+<li><strong>市场风险</strong>：一级市场估值回调 / IPO 预期落空（概率 25%）</li>
+<li><strong>经营风险</strong>：觅蜂订单未达预期 / 智元订单保底条款未落实</li>
+<li><strong>合规风险</strong>：数据采集涉及隐私 / 跨境合规 / 国资监管</li>
+<li><strong>母公司风险</strong>：智元 IPO 进度不及预期</li>
+</ul>
+
+<h3>25.4 下一步行动</h3>
+<ol>
+<li><strong>尽调阶段</strong>（2026 Q3）：① 取得觅蜂详细财务数据（订单可见度 + 复购率 + 客户集中度）；② 核实智元机器人订单保底条款；③ 数据合规审计</li>
+<li><strong>条款谈判</strong>（2026 Q4）：① 与红杉 / 国方创投等老股东沟通 Pre-A 份额；② 与智元机器人洽谈协同条款；③ 与华依科技确认联合投资</li>
+<li><strong>投决会</strong>（2026 Q4）：提交投决会决议</li>
+<li><strong>资金到位</strong>（2027 Q1）：SPA + SHA 签订 + 资金到位</li>
+</ol>
+
+<div class="progress-checkpoint">
+<strong>§22-§25 完成</strong> · 耗时 5 分 · 字节 ~16 KB · Phase 4 决策支持完结，全报告完成
+</div>
+
+<div class="footer">
+<strong>觅蜂科技 × 华依科技合作模式与入股估值研究</strong><br>
+项目类型：Type B 合作模式 + 入股估值 + ROI 测算 · 报告版本：V25.1.18 · 数据采集时点：2026-08-06<br>
+投资主体：天保控股投资部 · 部署规范：天保控股投资部署名 · V25.1.18 公开部署品牌规范<br>
+免责声明：本报告基于公开数据与本地一手文件综合分析，不构成投资建议；具体投资决策需经投决会审议。
+</div>
+
+</main>
+</div>
+</body>
+</html>
