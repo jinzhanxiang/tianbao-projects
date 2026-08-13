@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T19:19:09+08:00",
+  "generated_at": "2026-08-13T19:32:53+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 36,
+  "total": 32,
   "by_industry": {
     "硬科技": [
       {
@@ -166,60 +166,6 @@
         "fetched_at": "2026-08-13",
         "score": 3.5,
         "query": "可信数据空间 行业 政策 2026"
-      }
-    ],
-    "基建": [
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "7万亿开局，中国基建进入“六张网”时代_腾讯新闻",
-        "summary": "4 天之前 · 内容来源：本文来自公众号吴晓波频道（ID：wuxiaobopd）原创首发，笔记侠经原公号授权发布，转载请联系原公号。责编 …",
-        "url": "https://news.qq.com/rain/a/20260809A0B5R400",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 3.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
-        "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大 …",
-        "url": "https://www.sohu.com/a/477545891_100237201",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "7万亿投资，是什么样的新一轮超级大基建？财富机会在哪？",
-        "summary": "2026年3月，发.改.委表示推出7万亿投资！这与2008年11月推出的4万亿基建投资，有什么不同？ 当年的4万亿基建，是以“铁公基”等 …",
-        "url": "https://news.qq.com/rain/a/20260311A06FT400",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
-        "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这 …",
-        "url": "https://www.sohu.com/a/994678899_122316869",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
       }
     ],
     "收购研究": [
@@ -562,19 +508,6 @@
       "query": "可信数据空间 行业 政策 2026"
     },
     {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "7万亿开局，中国基建进入“六张网”时代_腾讯新闻",
-      "summary": "4 天之前 · 内容来源：本文来自公众号吴晓波频道（ID：wuxiaobopd）原创首发，笔记侠经原公号授权发布，转载请联系原公号。责编 …",
-      "url": "https://news.qq.com/rain/a/20260809A0B5R400",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 3.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "硬科技",
@@ -690,45 +623,6 @@
       "fetched_at": "2026-08-13",
       "score": 2.5,
       "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
-      "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大 …",
-      "url": "https://www.sohu.com/a/477545891_100237201",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "7万亿投资，是什么样的新一轮超级大基建？财富机会在哪？",
-      "summary": "2026年3月，发.改.委表示推出7万亿投资！这与2008年11月推出的4万亿基建投资，有什么不同？ 当年的4万亿基建，是以“铁公基”等 …",
-      "url": "https://news.qq.com/rain/a/20260311A06FT400",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
-      "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这 …",
-      "url": "https://www.sohu.com/a/994678899_122316869",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "基建 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
