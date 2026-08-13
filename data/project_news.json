@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T01:08:27+08:00",
+  "generated_at": "2026-08-14T01:22:54+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 36,
@@ -60,8 +60,8 @@
     ],
     "数据": [
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "huitian",
+        "company": "汇天科技",
         "industry": "数据",
         "title": "数据 - 国家统计局",
         "summary": "数据发布 2026年7月份居民消费价格同比上涨0.5% 2026年7月份工业生产者出厂价格同比上涨3.5% 2026-08-09 2026年7月下旬流通 …",
@@ -73,8 +73,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "huitian",
+        "company": "汇天科技",
         "industry": "数据",
         "title": "《全国数据资源调查报告（2025年）》正式发布-国家数据局",
         "summary": "2026年4月29日 · 调查结果显示，我国数据要素市场化价值化进程显著提速，数据资源供给体系、数据流通体系和数据开发利用体系协 …",
@@ -86,8 +86,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "huitian",
+        "company": "汇天科技",
         "industry": "数据",
         "title": "国家数据局",
         "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
@@ -99,8 +99,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "huitian",
+        "company": "汇天科技",
         "industry": "数据",
         "title": "马克数据网—社科数据共享平台",
         "summary": "包括论文复刻、上市公司数据、世界经济数据、省级面板数据、地级市面板数据、县域面板数据、工具变量!热门主题包括新质生产力 …",
@@ -263,47 +263,6 @@
         "query": "收购研究 行业 政策 2026"
       }
     ],
-    "基建": [
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
-        "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大 …",
-        "url": "https://www.sohu.com/a/477545891_100237201",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "7万亿投资，是什么样的新一轮超级大基建？财富机会在哪？",
-        "summary": "2026年3月，发.改.委表示推出7万亿投资！这与2008年11月推出的4万亿基建投资，有什么不同？ 当年的4万亿基建，是以“铁公基”等 …",
-        "url": "https://news.qq.com/rain/a/20260311A06FT400",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
-        "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这 …",
-        "url": "https://www.sohu.com/a/994678899_122316869",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "基建 行业 政策 2026"
-      }
-    ],
     "智能体软件": [
       {
         "code": "hongyi",
@@ -343,6 +302,47 @@
         "fetched_at": "2026-08-14",
         "score": 1.5,
         "query": "智能体软件 行业 政策 2026"
+      }
+    ],
+    "基建": [
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
+        "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大 …",
+        "url": "https://www.sohu.com/a/477545891_100237201",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "基建 行业 政策 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "7万亿投资，是什么样的新一轮超级大基建？财富机会在哪？",
+        "summary": "2026年3月，发.改.委表示推出7万亿投资！这与2008年11月推出的4万亿基建投资，有什么不同？ 当年的4万亿基建，是以“铁公基”等 …",
+        "url": "https://news.qq.com/rain/a/20260311A06FT400",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "基建 行业 政策 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
+        "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这 …",
+        "url": "https://www.sohu.com/a/994678899_122316869",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "基建 行业 政策 2026"
       }
     ],
     "并购标的汇总": [
@@ -512,8 +512,8 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
+      "code": "huitian",
+      "company": "汇天科技",
       "industry": "数据",
       "title": "数据 - 国家统计局",
       "summary": "数据发布 2026年7月份居民消费价格同比上涨0.5% 2026年7月份工业生产者出厂价格同比上涨3.5% 2026-08-09 2026年7月下旬流通 …",
@@ -525,8 +525,8 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
+      "code": "huitian",
+      "company": "汇天科技",
       "industry": "数据",
       "title": "《全国数据资源调查报告（2025年）》正式发布-国家数据局",
       "summary": "2026年4月29日 · 调查结果显示，我国数据要素市场化价值化进程显著提速，数据资源供给体系、数据流通体系和数据开发利用体系协 …",
@@ -616,19 +616,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "数据",
-      "title": "国家数据局",
-      "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
-      "url": "https://www.nda.gov.cn/sjj/index_pc.html",
-      "source": "www.nda.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "数据 行业 政策 2026"
-    },
-    {
       "code": "acquisition-listed",
       "company": "收购上市公司研究",
       "industry": "收购研究",
@@ -668,6 +655,19 @@
       "query": "收购研究 行业 政策 2026"
     },
     {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "数据",
+      "title": "国家数据局",
+      "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
+      "url": "https://www.nda.gov.cn/sjj/index_pc.html",
+      "source": "www.nda.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "数据 行业 政策 2026"
+    },
+    {
       "code": "hangtianjings",
       "company": "航天精工",
       "industry": "军工",
@@ -679,6 +679,19 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "军工 行业 政策 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "智能体软件",
+      "title": "【【专家观点】政府工作报告首提“智能经济”，是什么？怎么 ...",
+      "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
+      "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
+      "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "智能体软件 行业 政策 2026"
     },
     {
       "code": "tianbao-jijian",
@@ -718,19 +731,6 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "基建 行业 政策 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "智能体软件",
-      "title": "【【专家观点】政府工作报告首提“智能经济”，是什么？怎么 ...",
-      "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
-      "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
-      "source": "www.ndrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "智能体软件 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
@@ -785,8 +785,8 @@
       "query": "并购标的汇总 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
+      "code": "huitian",
+      "company": "汇天科技",
       "industry": "数据",
       "title": "马克数据网—社科数据共享平台",
       "summary": "包括论文复刻、上市公司数据、世界经济数据、省级面板数据、地级市面板数据、县域面板数据、工具变量!热门主题包括新质生产力 …",
@@ -876,19 +876,6 @@
       "query": "军工 行业 政策 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "新浪汽车 - 汽车生活源动力！",
-      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
-      "url": "https://auto.sina.com.cn/",
-      "source": "auto.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "汽车电子 行业 政策 2026"
-    },
-    {
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
@@ -913,6 +900,19 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "智能体软件 行业 政策 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "汽车电子",
+      "title": "新浪汽车 - 汽车生活源动力！",
+      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
+      "url": "https://auto.sina.com.cn/",
+      "source": "auto.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "汽车电子 行业 政策 2026"
     },
     {
       "code": "chuangdu",
