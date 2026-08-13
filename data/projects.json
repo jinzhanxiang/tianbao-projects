@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T17:36:13+08:00",
+  "generated_at": "2026-08-13T17:47:24+08:00",
   "source": "project_ledger.csv (v3 schema)",
-  "rows": 24,
+  "rows": 25,
   "stage_v3_enum": [
     "在推重点",
     "储备",
@@ -684,6 +684,34 @@
       "notes": "V25.1.8 Type C 汇总报告 V1（100,101 bytes · 25 章）· 下一步中介机构进场",
       "pending_tasks": "stage_v3 待主公确认（总办会已立项，暂置储备）",
       "archived": false
+    },
+    {
+      "code": "fxpp",
+      "name_cn": "5个标的反向匹配汇总",
+      "name_full": "5个潜在并购标的反向匹配汇总",
+      "archived_reason": "跨标的汇总报告 · 非单一项目 · 底库留存",
+      "category": "研究汇总",
+      "stage": "已完成",
+      "stage_v3": "储备",
+      "iss": "上市",
+      "industry": "并购标的汇总",
+      "online_url": "",
+      "dashboard_url": "",
+      "online_index": "",
+      "repo": "tianbao-projects",
+      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/",
+      "folder_alias": "",
+      "report_count": 1,
+      "progress_pct": 100,
+      "contacts": "天保控股投资部",
+      "brief_md": "5个标的反向匹配汇总（华阳集团/华设集团/捷安高科/中国通号/金运激光）",
+      "estimation": "",
+      "downgrade_reason": "",
+      "deploy_date": "2026-08-13",
+      "last_update": "2026-08-13",
+      "notes": "天保投研〔2026〕第015号 · TB-2026-0813-007 · V3纯化版（11045B）",
+      "pending_tasks": "",
+      "archived": true
     }
   ],
   "industries": {
