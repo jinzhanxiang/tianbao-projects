@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T06:05:07+08:00",
+  "generated_at": "2026-08-14T06:15:17+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 31,
+  "total": 32,
   "by_industry": {
     "硬科技": [
       {
@@ -112,47 +112,6 @@
         "query": "数据 行业 政策 2026"
       }
     ],
-    "军工": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
-        "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
-        "url": "https://news.qq.com/rain/a/20251020A07WSC00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.5,
-        "query": "军工 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "军工 (BK0490)_行情中心_东方财富网",
-        "summary": "提供军工 (BK0490)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与军工 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK0490.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "军工 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "国家国防科技工业局",
-        "summary": "2 天之前 · 国家国防科技工业局是中国政府负责管理国防科技工业的行政管理机关，负责核、航天、航空、船舶、兵器、电子等领域武 …",
-        "url": "https://www.sastind.gov.cn/",
-        "source": "www.sastind.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "军工 行业 政策 2026"
-      }
-    ],
     "可信数据空间": [
       {
         "code": "mifeng",
@@ -220,6 +179,60 @@
         "fetched_at": "2026-08-14",
         "score": 2.0,
         "query": "低空经济 行业 政策 2026"
+      }
+    ],
+    "军工": [
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "2026年军工行业年度投资策略:迎接 十五五 需求有望高景气__新浪财经_新浪网",
+        "summary": "2025年11月30日 - 2)出口方向:出口是军工企业打开业绩天花板的重要发展方向,在地缘政治变化影响下,全球出口供需格局将发生变化.2、2026年策略:重视内需、出口、改革三大...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/817837260408/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.5,
+        "query": "军工 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "军工行业2026年度投资策略:承上启下 内外共振__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 2026 年展望:内需持续修复,外贸市场有望成为新增量展望2026 年,作为 十五五 规划开局之年,军工订单确定性有望显著增强。.同时,印巴冲突等区域摩擦也验...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/815491089682/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.5,
+        "query": "军工 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
+        "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
+        "url": "https://news.qq.com/rain/a/20251020A07WSC00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.5,
+        "query": "军工 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "国防军工2026年策略报告: 十五五 启幕,陆海空天全域加速_财富号_东方财富网",
+        "summary": "短期看,2026年作为 十五五 首年,主机端有望开启新一轮备货周期,军工产业链上游或将率先受益,订单端牵引最早于25年末启动.1)航发领域,受益于新...",
+        "url": "https://caifuhao.eastmoney.com/news/20251212112214613599690",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.5,
+        "query": "军工 行业 政策 2026"
       }
     ],
     "智能体软件": [
@@ -480,19 +493,6 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
-      "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
-      "url": "https://news.qq.com/rain/a/20251020A07WSC00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 3.5,
-      "query": "军工 行业 政策 2026"
-    },
-    {
       "code": "mifeng",
       "company": "觅蜂",
       "industry": "可信数据空间",
@@ -517,6 +517,58 @@
       "fetched_at": "2026-08-14",
       "score": 3.5,
       "query": "低空经济 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "2026年军工行业年度投资策略:迎接 十五五 需求有望高景气__新浪财经_新浪网",
+      "summary": "2025年11月30日 - 2)出口方向:出口是军工企业打开业绩天花板的重要发展方向,在地缘政治变化影响下,全球出口供需格局将发生变化.2、2026年策略:重视内需、出口、改革三大...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/817837260408/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.5,
+      "query": "军工 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "军工行业2026年度投资策略:承上启下 内外共振__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 2026 年展望:内需持续修复,外贸市场有望成为新增量展望2026 年,作为 十五五 规划开局之年,军工订单确定性有望显著增强。.同时,印巴冲突等区域摩擦也验...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/815491089682/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.5,
+      "query": "军工 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
+      "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
+      "url": "https://news.qq.com/rain/a/20251020A07WSC00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.5,
+      "query": "军工 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "国防军工2026年策略报告: 十五五 启幕,陆海空天全域加速_财富号_东方财富网",
+      "summary": "短期看,2026年作为 十五五 首年,主机端有望开启新一轮备货周期,军工产业链上游或将率先受益,订单端牵引最早于25年末启动.1)航发领域,受益于新...",
+      "url": "https://caifuhao.eastmoney.com/news/20251212112214613599690",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.5,
+      "query": "军工 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -558,19 +610,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "军工 (BK0490)_行情中心_东方财富网",
-      "summary": "提供军工 (BK0490)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与军工 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK0490.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "军工 行业 政策 2026"
-    },
-    {
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
@@ -582,32 +621,6 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-      "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-      "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-      "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "低空经济 行业 政策 2026"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "低空司-国家发展和改革委员会",
-      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-      "source": "www.ndrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "低空经济 行业 政策 2026"
     },
     {
       "code": "fxpp",
@@ -647,6 +660,32 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+      "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+      "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+      "source": "www.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "低空经济 行业 政策 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "低空司-国家发展和改革委员会",
+      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+      "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "低空经济 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
@@ -725,19 +764,6 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "数据 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "国家国防科技工业局",
-      "summary": "2 天之前 · 国家国防科技工业局是中国政府负责管理国防科技工业的行政管理机关，负责核、航天、航空、船舶、兵器、电子等领域武 …",
-      "url": "https://www.sastind.gov.cn/",
-      "source": "www.sastind.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "军工 行业 政策 2026"
     },
     {
       "code": "hongyi",
