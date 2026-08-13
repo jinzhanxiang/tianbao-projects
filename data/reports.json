@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T17:36:08+08:00",
+  "generated_at": "2026-08-13T17:47:20+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 47,
   "total_active": 42,
   "total_archived_cached": 5,
   "by_code": {
-    "5个标的反向匹配汇总": [
+    "fxpp": [
       {
-        "code": "5个标的反向匹配汇总",
+        "code": "fxpp",
         "date": "2026-08-13",
         "category": "未分类",
         "title": "5 个潜在并购标的公司反向匹配汇总",
@@ -16,7 +16,8 @@
         "size": 11045,
         "mtime": "2026-08-13T16:38:36+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md",
+        "_archived": true
       }
     ],
     "chuangdu": [
@@ -381,11 +382,11 @@
         "code": "hangtianjings",
         "date": "2026-08-13",
         "category": "商业研究",
-        "title": "航天精工股份有限公司（A03297.SH）投资可行性研究报告",
+        "title": "航天精工股份有限公司（A03297.SH）投资可行性综合研究报告 · 2026-08-13",
         "file": "航天精工_综合研究报告_20260813.html",
         "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
-        "size": 75417,
-        "mtime": "2026-08-13T17:29:03+08:00",
+        "size": 60363,
+        "mtime": "2026-08-13T17:44:34+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
         "_archived": true
@@ -743,6 +744,21 @@
     ]
   },
   "by_industry": {
+    "并购标的汇总": [
+      {
+        "code": "fxpp",
+        "date": "2026-08-13",
+        "category": "未分类",
+        "title": "5 个潜在并购标的公司反向匹配汇总",
+        "file": "5个标的反向匹配汇总_V3_纯化版_20260813.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md",
+        "size": 11045,
+        "mtime": "2026-08-13T16:38:36+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md",
+        "_archived": true
+      }
+    ],
     "工业": [
       {
         "code": "chuangdu",
@@ -1559,11 +1575,11 @@
         "code": "hangtianjings",
         "date": "2026-08-13",
         "category": "商业研究",
-        "title": "航天精工股份有限公司（A03297.SH）投资可行性研究报告",
+        "title": "航天精工股份有限公司（A03297.SH）投资可行性综合研究报告 · 2026-08-13",
         "file": "航天精工_综合研究报告_20260813.html",
         "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
-        "size": 75417,
-        "mtime": "2026-08-13T17:29:03+08:00",
+        "size": 60363,
+        "mtime": "2026-08-13T17:44:34+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
         "_archived": true
@@ -1574,11 +1590,11 @@
         "code": "hangtianjings",
         "date": "2026-08-13",
         "category": "商业研究",
-        "title": "航天精工股份有限公司（A03297.SH）投资可行性研究报告",
+        "title": "航天精工股份有限公司（A03297.SH）投资可行性综合研究报告 · 2026-08-13",
         "file": "航天精工_综合研究报告_20260813.html",
         "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
-        "size": 75417,
-        "mtime": "2026-08-13T17:29:03+08:00",
+        "size": 60363,
+        "mtime": "2026-08-13T17:44:34+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
         "_archived": true
@@ -2026,7 +2042,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-13T17:36:08.788313",
+  "_last_cleanup": "2026-08-13T17:47:20.483731",
   "_cleanup_stats": {
     "dup_title_date": 3,
     "superseded": 8,
