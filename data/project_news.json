@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T17:36:12+08:00",
+  "generated_at": "2026-08-13T17:47:24+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 33,
+  "total": 36,
   "by_industry": {
     "硬科技": [
       {
@@ -341,6 +341,47 @@
         "fetched_at": "2026-08-13",
         "score": 2.0,
         "query": "低空经济 行业 政策 2026"
+      }
+    ],
+    "并购标的汇总": [
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
+        "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
+        "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
+        "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.5,
+        "query": "并购标的汇总 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
+        "title": "AI正重塑产业并购格局_腾讯新闻",
+        "summary": "2026年7月3日 · 2026年第二季度全球科技产业接连落地三笔标志性大额收购，其中，高通宣布以39.2亿美元收购AI基础设施企 …",
+        "url": "https://news.qq.com/rain/a/20260703A02E2F00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.5,
+        "query": "并购标的汇总 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
+        "title": "我国并购市场深度变革与高质量发展路径-新华网",
+        "summary": "2026年3月10日 · 完善跨境并购外汇管理便利化措施，对符合国家战略的跨境并购实行“白名单”管理，简化资金出境审批流程。 建立技 …",
+        "url": "https://www3.xinhuanet.com/finance/20260310/b9195496c93847eaab1a03982248fd73/c.html",
+        "source": "www3.xinhuanet.com",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 1.5,
+        "query": "并购标的汇总 行业 政策 2026"
       }
     ],
     "医疗健康": [
@@ -703,6 +744,32 @@
       "query": "低空经济 行业 政策 2026"
     },
     {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
+      "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
+      "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
+      "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 2.5,
+      "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
+      "title": "AI正重塑产业并购格局_腾讯新闻",
+      "summary": "2026年7月3日 · 2026年第二季度全球科技产业接连落地三笔标志性大额收购，其中，高通宣布以39.2亿美元收购AI基础设施企 …",
+      "url": "https://news.qq.com/rain/a/20260703A02E2F00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 2.5,
+      "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "数据",
@@ -883,6 +950,19 @@
       "fetched_at": "2026-08-13",
       "score": 1.5,
       "query": "工业 AI 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
+      "title": "我国并购市场深度变革与高质量发展路径-新华网",
+      "summary": "2026年3月10日 · 完善跨境并购外汇管理便利化措施，对符合国家战略的跨境并购实行“白名单”管理，简化资金出境审批流程。 建立技 …",
+      "url": "https://www3.xinhuanet.com/finance/20260310/b9195496c93847eaab1a03982248fd73/c.html",
+      "source": "www3.xinhuanet.com",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 1.5,
+      "query": "并购标的汇总 行业 政策 2026"
     }
   ]
 }
