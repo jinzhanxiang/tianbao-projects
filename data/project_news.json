@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T22:57:10+08:00",
+  "generated_at": "2026-08-13T23:12:51+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 32,
+  "total": 31,
   "by_industry": {
     "硬科技": [
       {
@@ -90,7 +90,7 @@
         "company": "四川 IDC",
         "industry": "数据",
         "title": "国家数据局",
-        "summary": "14 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
+        "summary": "15 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
         "url": "https://www.nda.gov.cn/sjj/index_pc.html",
         "source": "www.nda.gov.cn",
         "date": "",
@@ -168,88 +168,6 @@
         "query": "可信数据空间 行业 政策 2026"
       }
     ],
-    "低空经济": [
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 3.5,
-        "query": "低空经济 行业 政策 2026"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "低空经济 行业 政策 2026"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "低空经济 行业 政策 2026"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空经济",
-        "title": "什么是低空经济，一篇就看明白!（附：产业链政策汇总）",
-        "summary": "2025年1月3日 · 01 低空经济是什么 低空经济是指以低空空域为依托，以 通用航空产业 为主导，以民用有人驾驶和无人驾驶航空器为 …",
-        "url": "https://zhuanlan.zhihu.com/p/16221276059",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.0,
-        "query": "低空经济 行业 政策 2026"
-      }
-    ],
-    "收购研究": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-        "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
-        "url": "https://news.qq.com/rain/a/20241106A08NP500",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-        "url": "https://www.sohu.com/a/902656138_122063492",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      }
-    ],
     "智能体软件": [
       {
         "code": "hongyi",
@@ -291,7 +209,74 @@
         "query": "智能体软件 行业 政策 2026"
       }
     ],
+    "低空经济": [
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.5,
+        "query": "低空经济 行业 政策 2026"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.5,
+        "query": "低空经济 行业 政策 2026"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "《中国低空经济发展指数报告 (2026)》（全文正式发布版）",
+        "summary": "2026年4月29日 · 报告综合运用遥感与测绘、地理信息与社会感知、知识产权与企业运营、位置服务与文本语义等多源统计与非统计数 …",
+        "url": "http://www.lrsd.org.cn/sylb/202604/t20260424_834843.html",
+        "source": "www.lrsd.org.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.0,
+        "query": "低空经济 行业 政策 2026"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空经济",
+        "title": "什么是低空经济，一篇就看明白!（附：产业链政策汇总）",
+        "summary": "2025年1月3日 · 01 低空经济是什么 低空经济是指以低空空域为依托，以 通用航空产业 为主导，以民用有人驾驶和无人驾驶航空器为 …",
+        "url": "https://zhuanlan.zhihu.com/p/16221276059",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.0,
+        "query": "低空经济 行业 政策 2026"
+      }
+    ],
     "并购标的汇总": [
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.5,
+        "query": "并购标的汇总 行业 政策 2026"
+      },
       {
         "code": "fxpp",
         "company": "5个标的反向匹配汇总",
@@ -351,7 +336,7 @@
         "company": "柯渡医学",
         "industry": "医疗健康",
         "title": "国家医疗保障局",
-        "summary": "14 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
+        "summary": "15 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
         "url": "https://www.nhsa.gov.cn/",
         "source": "www.nhsa.gov.cn",
         "date": "",
@@ -510,19 +495,6 @@
       "query": "可信数据空间 行业 政策 2026"
     },
     {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-      "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-      "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-      "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 3.5,
-      "query": "低空经济 行业 政策 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "硬科技",
@@ -566,39 +538,13 @@
       "company": "四川 IDC",
       "industry": "数据",
       "title": "国家数据局",
-      "summary": "14 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
+      "summary": "15 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
       "url": "https://www.nda.gov.cn/sjj/index_pc.html",
       "source": "www.nda.gov.cn",
       "date": "",
       "fetched_at": "2026-08-13",
       "score": 2.5,
       "query": "数据 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-      "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
-      "url": "https://news.qq.com/rain/a/20241106A08NP500",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-      "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-      "url": "https://www.sohu.com/a/902656138_122063492",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
     },
     {
       "code": "hangtianjings",
@@ -630,6 +576,19 @@
       "code": "qingdao-heli",
       "company": "青岛直升机",
       "industry": "低空经济",
+      "title": "低空司-国家发展和改革委员会",
+      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+      "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 2.5,
+      "query": "低空经济 行业 政策 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
       "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
@@ -640,17 +599,17 @@
       "query": "低空经济 行业 政策 2026"
     },
     {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "低空司-国家发展和改革委员会",
-      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-      "source": "www.ndrc.gov.cn",
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
+      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+      "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+      "url": "https://news.qq.com/rain/a/20241106A08NP500",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-13",
       "score": 2.5,
-      "query": "低空经济 行业 政策 2026"
+      "query": "并购标的汇总 行业 政策 2026"
     },
     {
       "code": "fxpp",
@@ -677,6 +636,19 @@
       "fetched_at": "2026-08-13",
       "score": 2.0,
       "query": "数据 行业 政策 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "《中国低空经济发展指数报告 (2026)》（全文正式发布版）",
+      "summary": "2026年4月29日 · 报告综合运用遥感与测绘、地理信息与社会感知、知识产权与企业运营、位置服务与文本语义等多源统计与非统计数 …",
+      "url": "http://www.lrsd.org.cn/sylb/202604/t20260424_834843.html",
+      "source": "www.lrsd.org.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 2.0,
+      "query": "低空经济 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
@@ -709,7 +681,7 @@
       "company": "柯渡医学",
       "industry": "医疗健康",
       "title": "国家医疗保障局",
-      "summary": "14 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
+      "summary": "15 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
       "url": "https://www.nhsa.gov.cn/",
       "source": "www.nhsa.gov.cn",
       "date": "",
