@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T18:30:00+08:00",
+  "generated_at": "2026-08-13T18:41:20+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 25,
   "stage_v3_enum": [
@@ -381,7 +381,7 @@
       "code": "hangtianjings",
       "name_cn": "航天精工",
       "name_full": "航天精工（军工/航空航天）",
-      "archived_reason": "2026-08-13 新增：研究报告已存在于 reports/ 目录，纳入台账管理",
+      "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
@@ -391,25 +391,25 @@
       "dashboard_url": "",
       "online_index": "",
       "repo": "",
-      "local_folder": "1",
-      "folder_alias": "20",
+      "local_folder": "",
+      "folder_alias": "",
       "report_count": 1,
       "progress_pct": 20,
-      "contacts": "—",
-      "brief_md": "—",
-      "estimation": "2026",
-      "downgrade_reason": "2026-08-13",
+      "contacts": "天保控股投资部",
+      "brief_md": "航天精工（军工/航空航天）· 初步分析阶段 · 详见报告库",
+      "estimation": "—",
+      "downgrade_reason": "—",
       "deploy_date": "2026",
       "last_update": "2026-08-13",
-      "notes": "",
+      "notes": "2026-08-13 新增：研究报告已存在于 reports/ 目录，纳入台账管理",
       "pending_tasks": "",
-      "archived": true
+      "archived": false
     },
     {
       "code": "mifeng",
       "name_cn": "觅蜂",
       "name_full": "觅蜂_华依合作（可信数据空间）",
-      "archived_reason": "2026-08-13 新增：华依科技合作方，业务关联；研究报告已存在于 reports/ 目录",
+      "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
@@ -419,25 +419,25 @@
       "dashboard_url": "",
       "online_index": "",
       "repo": "",
-      "local_folder": "1",
-      "folder_alias": "20",
+      "local_folder": "",
+      "folder_alias": "",
       "report_count": 3,
       "progress_pct": 20,
-      "contacts": "—",
-      "brief_md": "觅蜂为华依科技介绍项目，与华依科技存在业务合作",
-      "estimation": "2026",
-      "downgrade_reason": "2026-08-13",
+      "contacts": "天保控股投资部",
+      "brief_md": "觅蜂（可信数据空间）· 初步分析阶段 · 详见报告库",
+      "estimation": "—",
+      "downgrade_reason": "觅蜂为华依科技介绍项目，与华依科技存在业务合作",
       "deploy_date": "2026",
       "last_update": "2026-08-13",
-      "notes": "",
+      "notes": "2026-08-13 新增：华依科技合作方，业务关联；研究报告已存在于 reports/ 目录",
       "pending_tasks": "",
-      "archived": true
+      "archived": false
     },
     {
       "code": "hongyi",
       "name_cn": "鸿翼",
       "name_full": "鸿翼（智能体软件）",
-      "archived_reason": "2026-08-13 新增：htco-us 已归档，用新的鸿翼（智能体软件）代替；2 份报告已存在于 reports/ 目录",
+      "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
@@ -447,19 +447,19 @@
       "dashboard_url": "",
       "online_index": "",
       "repo": "",
-      "local_folder": "2",
-      "folder_alias": "20",
+      "local_folder": "",
+      "folder_alias": "",
       "report_count": 1,
       "progress_pct": 20,
-      "contacts": "—",
-      "brief_md": "—",
-      "estimation": "2026",
-      "downgrade_reason": "2026-08-13",
+      "contacts": "天保控股投资部",
+      "brief_md": "鸿翼（智能体软件）· 初步分析阶段 · 详见报告库",
+      "estimation": "—",
+      "downgrade_reason": "—",
       "deploy_date": "2026",
       "last_update": "2026-08-13",
-      "notes": "",
+      "notes": "2026-08-13 新增：htco-us 已归档，用新的鸿翼（智能体软件）代替；2 份报告已存在于 reports/ 目录",
       "pending_tasks": "",
-      "archived": true
+      "archived": false
     },
     {
       "code": "aodian",
@@ -802,6 +802,27 @@
         "count": 1
       }
     ],
+    "军工/航空航天": [
+      {
+        "code": "hangtianjings",
+        "name_cn": "航天精工",
+        "count": 1
+      }
+    ],
+    "可信数据空间": [
+      {
+        "code": "mifeng",
+        "name_cn": "觅蜂",
+        "count": 3
+      }
+    ],
+    "智能体软件": [
+      {
+        "code": "hongyi",
+        "name_cn": "鸿翼",
+        "count": 1
+      }
+    ],
     "汽车电子": [
       {
         "code": "aodian",
@@ -853,6 +874,9 @@
         "xinhong",
         "xunchao",
         "innoshine",
+        "hangtianjings",
+        "mifeng",
+        "hongyi",
         "sumai",
         "qingdao-heli"
       ],
