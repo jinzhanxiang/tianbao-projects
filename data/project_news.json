@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T21:42:17+08:00",
+  "generated_at": "2026-08-13T21:56:47+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 36,
+  "total": 31,
   "by_industry": {
     "硬科技": [
       {
@@ -17,58 +17,6 @@
         "fetched_at": "2026-08-13",
         "score": 5.5,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2026年2月2日 - 北京宏远创信能源科技有限公司 与北京宏远创信能源科技有限公司有关的项目共85条,分别是宏远创信办公室装修项目,宏远创信办公室装修项目-固资审批公开...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源科技有限公司-北京宏远",
-        "summary": "2025年1月20日 - 北京宏远创信能源科技有限公司招标采购专栏,每天实时更新有关北京宏远创信能源科技有限公司招标公告、企业采购、拟在建项目等一系列商业信息,查询更多...",
-        "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -164,6 +112,21 @@
         "query": "数据 行业 政策 2026"
       }
     ],
+    "可信数据空间": [
+      {
+        "code": "mifeng",
+        "company": "觅蜂",
+        "industry": "可信数据空间",
+        "title": "《可信数据空间创新发展报告（2025）》发布-国家数据局",
+        "summary": "2025年8月29日 · 可信数据空间发展联盟秘书长、中国信息通信研究院总工程师敖立对报告进行解读。 今年，国家数据局组织开展了首 …",
+        "url": "https://www.nda.gov.cn/sjj/ywpd/sjzy/0901/20250829085131590048920_pc.html",
+        "source": "www.nda.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 3.5,
+        "query": "可信数据空间 行业 政策 2026"
+      }
+    ],
     "军工": [
       {
         "code": "hangtianjings",
@@ -205,21 +168,6 @@
         "query": "军工 行业 政策 2026"
       }
     ],
-    "可信数据空间": [
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "可信数据空间",
-        "title": "《可信数据空间创新发展报告（2025）》发布-国家数据局",
-        "summary": "2025年8月29日 · 可信数据空间发展联盟秘书长、中国信息通信研究院总工程师敖立对报告进行解读。 今年，国家数据局组织开展了首 …",
-        "url": "https://www.nda.gov.cn/sjj/ywpd/sjzy/0901/20250829085131590048920_pc.html",
-        "source": "www.nda.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 3.5,
-        "query": "可信数据空间 行业 政策 2026"
-      }
-    ],
     "收购研究": [
       {
         "code": "acquisition-listed",
@@ -246,6 +194,47 @@
         "fetched_at": "2026-08-13",
         "score": 2.5,
         "query": "收购研究 行业 政策 2026"
+      }
+    ],
+    "智能体软件": [
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "智能体软件",
+        "title": "【【专家观点】政府工作报告首提“智能经济”，是什么？怎么 ...",
+        "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
+        "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.5,
+        "query": "智能体软件 行业 政策 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "智能体软件",
+        "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
+        "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
+        "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 1.5,
+        "query": "智能体软件 行业 政策 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "智能体软件",
+        "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知 ...",
+        "summary": "2026年4月2日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会、全国教育大会精神，全面贯 …",
+        "url": "https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
+        "source": "www.moe.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 1.5,
+        "query": "智能体软件 行业 政策 2026"
       }
     ],
     "低空经济": [
@@ -397,60 +386,6 @@
         "query": "医疗健康 行业 政策 2026"
       }
     ],
-    "智能体软件": [
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "智能体软件",
-        "title": "国家税务总局电子税务局",
-        "summary": "2026年7月28日 · 对纳税人提供涉税事项办理进度及结果的查询界面，纳税人可以通过该功能快速查看业务办理情况。 对符合条件的增 …",
-        "url": "https://etax.shenzhen.chinatax.gov.cn:8443/",
-        "source": "etax.shenzhen.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 1.5,
-        "query": "智能体软件 行业 政策 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "智能体软件",
-        "title": "国家税务总局电子税务局",
-        "summary": "2026年7月28日 · We're sorry but 国家税务总局电子税务局 doesn't work properly without JavaScript enabled. Please enable it to …",
-        "url": "https://etax.shenzhen.chinatax.gov.cn:8443/loginb/",
-        "source": "etax.shenzhen.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 1.5,
-        "query": "智能体软件 行业 政策 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "智能体软件",
-        "title": "国家税务总局深圳市税务局",
-        "summary": "",
-        "url": "https://shenzhen.chinatax.gov.cn/",
-        "source": "shenzhen.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 1.5,
-        "query": "智能体软件 行业 政策 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "智能体软件",
-        "title": "国家税务总局深圳市税务局",
-        "summary": "2026年7月28日 · 国家税务总局深圳市税务局官方网站，为纳税人和社会公众提供信息公开、税费办理、互动交流、税收宣传服务。",
-        "url": "https://shenzhen.chinatax.gov.cn/?callback=jQuery09684806807464788_1669204512184",
-        "source": "shenzhen.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 1.5,
-        "query": "智能体软件 行业 政策 2026"
-      }
-    ],
     "工业 AI": [
       {
         "code": "chuangdu",
@@ -508,58 +443,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2026年2月2日 - 北京宏远创信能源科技有限公司 与北京宏远创信能源科技有限公司有关的项目共85条,分别是宏远创信办公室装修项目,宏远创信办公室装修项目-固资审批公开...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源科技有限公司-北京宏远",
-      "summary": "2025年1月20日 - 北京宏远创信能源科技有限公司招标采购专栏,每天实时更新有关北京宏远创信能源科技有限公司招标公告、企业采购、拟在建项目等一系列商业信息,查询更多...",
-      "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "数据",
@@ -586,19 +469,6 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
-      "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
-      "url": "https://news.qq.com/rain/a/20251020A07WSC00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 3.5,
-      "query": "军工 行业 政策 2026"
-    },
-    {
       "code": "mifeng",
       "company": "觅蜂",
       "industry": "可信数据空间",
@@ -610,6 +480,19 @@
       "fetched_at": "2026-08-13",
       "score": 3.5,
       "query": "可信数据空间 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
+      "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
+      "url": "https://news.qq.com/rain/a/20251020A07WSC00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 3.5,
+      "query": "军工 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -701,6 +584,19 @@
       "fetched_at": "2026-08-13",
       "score": 2.5,
       "query": "军工 行业 政策 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "智能体软件",
+      "title": "【【专家观点】政府工作报告首提“智能经济”，是什么？怎么 ...",
+      "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
+      "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
+      "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 2.5,
+      "query": "智能体软件 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
@@ -849,10 +745,10 @@
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
-      "title": "国家税务总局电子税务局",
-      "summary": "2026年7月28日 · 对纳税人提供涉税事项办理进度及结果的查询界面，纳税人可以通过该功能快速查看业务办理情况。 对符合条件的增 …",
-      "url": "https://etax.shenzhen.chinatax.gov.cn:8443/",
-      "source": "etax.shenzhen.chinatax.gov.cn",
+      "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
+      "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
+      "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
+      "source": "www.gov.cn",
       "date": "",
       "fetched_at": "2026-08-13",
       "score": 1.5,
@@ -862,36 +758,10 @@
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
-      "title": "国家税务总局电子税务局",
-      "summary": "2026年7月28日 · We're sorry but 国家税务总局电子税务局 doesn't work properly without JavaScript enabled. Please enable it to …",
-      "url": "https://etax.shenzhen.chinatax.gov.cn:8443/loginb/",
-      "source": "etax.shenzhen.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 1.5,
-      "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "智能体软件",
-      "title": "国家税务总局深圳市税务局",
-      "summary": "",
-      "url": "https://shenzhen.chinatax.gov.cn/",
-      "source": "shenzhen.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 1.5,
-      "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "智能体软件",
-      "title": "国家税务总局深圳市税务局",
-      "summary": "2026年7月28日 · 国家税务总局深圳市税务局官方网站，为纳税人和社会公众提供信息公开、税费办理、互动交流、税收宣传服务。",
-      "url": "https://shenzhen.chinatax.gov.cn/?callback=jQuery09684806807464788_1669204512184",
-      "source": "shenzhen.chinatax.gov.cn",
+      "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知 ...",
+      "summary": "2026年4月2日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会、全国教育大会精神，全面贯 …",
+      "url": "https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
+      "source": "www.moe.gov.cn",
       "date": "",
       "fetched_at": "2026-08-13",
       "score": 1.5,
