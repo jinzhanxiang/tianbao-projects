@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T06:35:54+08:00",
+  "generated_at": "2026-08-14T06:46:48+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 33,
+  "total": 31,
   "by_industry": {
     "硬科技": [
       {
@@ -371,34 +371,6 @@
         "query": "医疗健康 行业 政策 2026"
       }
     ],
-    "收购研究": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "【豆包下载】2026年最新官方正式版豆包 免费下载 - 腾讯 ...",
-        "summary": "6 天之前 · 软件详情 豆包全新办公任务模式，搭载豆包 2.1 系列模型，可操作本地电脑、调用浏览器与 Skills 技能，支持定时任务，内 …",
-        "url": "https://pc.qq.com/detail/13/detail_43073.html",
-        "source": "pc.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "豆包app-官方正版软件2026最新版本免费下载-应用宝官网",
-        "summary": "2 天之前 · 豆包是随时帮忙的AI助手。 看不懂的信息它能解释，遇到疑问随时提问，想做一道菜、了解新概念或获取灵感，都能快速得 …",
-        "url": "https://sj.qq.com/appdetail/com.larus.nova",
-        "source": "sj.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "收购研究 行业 政策 2026"
-      }
-    ],
     "工业 AI": [
       {
         "code": "chuangdu",
@@ -753,32 +725,6 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "数据 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "【豆包下载】2026年最新官方正式版豆包 免费下载 - 腾讯 ...",
-      "summary": "6 天之前 · 软件详情 豆包全新办公任务模式，搭载豆包 2.1 系列模型，可操作本地电脑、调用浏览器与 Skills 技能，支持定时任务，内 …",
-      "url": "https://pc.qq.com/detail/13/detail_43073.html",
-      "source": "pc.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "豆包app-官方正版软件2026最新版本免费下载-应用宝官网",
-      "summary": "2 天之前 · 豆包是随时帮忙的AI助手。 看不懂的信息它能解释，遇到疑问随时提问，想做一道菜、了解新概念或获取灵感，都能快速得 …",
-      "url": "https://sj.qq.com/appdetail/com.larus.nova",
-      "source": "sj.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "收购研究 行业 政策 2026"
     },
     {
       "code": "hangtianjings",
