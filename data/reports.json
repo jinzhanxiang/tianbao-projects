@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T06:09:00+08:00",
+  "generated_at": "2026-08-13T15:41:51+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 44,
-  "total_active": 41,
-  "total_archived_cached": 4,
+  "total": 47,
+  "total_active": 42,
+  "total_archived_cached": 5,
   "by_code": {
     "chuangdu": [
       {
@@ -107,6 +107,47 @@
         "mtime": "2026-07-19T19:34:37+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huayt/%E5%8D%8E%E9%98%B3%E9%9B%86%E5%9B%A2_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A_v2_20260719.html"
+      }
+    ],
+    "mifeng": [
+      {
+        "code": "mifeng",
+        "date": "2026-08-10",
+        "category": "商业研究",
+        "title": "天保控股 × 乘杜科技 × 觅蜂科技 × 数据跨境（天津电信）",
+        "file": "天保乘杜+觅蜂+数据跨境_可信数据空间业务合作整合方案_V2.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保乘杜+觅蜂+数据跨境_可信数据空间业务合作整合方案_V2.md",
+        "size": 36143,
+        "mtime": "2026-08-10T15:55:30+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保乘杜+觅蜂+数据跨境_可信数据空间业务合作整合方案_V2.md",
+        "_archived": true
+      },
+      {
+        "code": "mifeng",
+        "date": "2026-08-10",
+        "category": "商业研究",
+        "title": "天保控股 × 乘杜科技 × 觅蜂科技",
+        "file": "天保乘杜+觅蜂_可信数据空间业务合作整合方案_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保乘杜+觅蜂_可信数据空间业务合作整合方案_v1.md",
+        "size": 20646,
+        "mtime": "2026-08-10T15:50:08+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保乘杜+觅蜂_可信数据空间业务合作整合方案_v1.md",
+        "_archived": true
+      },
+      {
+        "code": "mifeng",
+        "date": "2026-08-06",
+        "category": "上会材料",
+        "title": "觅蜂科技 × 华依科技合作模式与入股估值研究 · Type B 决策模式报告（V25.1.18）",
+        "file": "觅蜂_华依合作模式与入股估值_V25.1.18_20260806.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/觅蜂_华依合作/output/觅蜂_华依合作模式与入股估值_V25.1.18_20260806.html",
+        "size": 68064,
+        "mtime": "2026-08-06T22:30:44+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/mifeng/%E8%A7%85%E8%9C%82_%E5%8D%8E%E4%BE%9D%E5%90%88%E4%BD%9C%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%85%A5%E8%82%A1%E4%BC%B0%E5%80%BC_V25.1.18_20260806.html",
+        "_archived": true
       }
     ],
     "tianbao-jijian": [
@@ -278,9 +319,7 @@
         "size": 105073,
         "mtime": "2026-07-31T12:04:05+08:00",
         "summary": "",
-        "url": "",
-        "_archived": true,
-        "archived_reason": "天津海特飞机工程为非上市·研究对象已迁移至储备项目"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9_%E5%A4%A9%E6%B4%A5%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA%E5%B7%A5%E7%A8%8B_%E6%8E%A7%E8%82%A1%E5%B9%B6%E8%B4%AD%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_V25.1.18.html"
       }
     ],
     "unicom-sx": [
@@ -351,111 +390,22 @@
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/qingdao-heli/%E9%9D%92%E5%B2%9B%E7%9B%B4%E5%8D%87%E6%9C%BA%E6%94%B6%E8%B4%AD_%E6%B1%87%E6%80%BB%E6%8A%A5%E5%91%8A_V1_20260729.html"
       }
     ],
+    "hongyi": [
+      {
+        "code": "hongyi",
+        "date": "2026-08-04",
+        "category": "商业研究",
+        "title": "鸿翼（未上市 · 新三板 834807）投资可行性研究报告 V25.1.18.10",
+        "file": "鸿翼_投资可行性研究_V1_20260804.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/鸿翼/output/鸿翼_投资可行性研究_V1_20260804.html",
+        "size": 120344,
+        "mtime": "2026-08-04T14:09:25+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hongyi/%E9%B8%BF%E7%BF%BC_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_V1_20260804.html",
+        "_archived": true
+      }
+    ],
     "htco-us": [
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 外围创新可行性方案：第三方视角下的 8 层创新具体运作机制",
-        "file": "HTCO_外围创新可行性方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_外围创新可行性方案_20260701.md",
-        "size": 40235,
-        "mtime": "2026-07-01T19:02:19+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_外围创新可行性方案_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 辅助类工具深度展开：1/2/3 + 22/23/24 详细操作逻辑与真实案例",
-        "file": "HTCO_工具深度展开_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_工具深度展开_20260701.md",
-        "size": 46370,
-        "mtime": "2026-07-01T20:28:29+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_工具深度展开_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "行业研究",
-        "title": "HTCO 股票安全推量策略与全方位资金安全保障方案",
-        "file": "HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "size": 23427,
-        "mtime": "2026-07-01T18:50:51+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "行业研究",
-        "title": "HTCO 机构持仓深度追踪 + 核心做市商策略提取：操作指南与实战方法",
-        "file": "HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "size": 35758,
-        "mtime": "2026-07-01T20:53:04+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 机构落地版外围创新可行性方案：服务机构身份下的 8 层创新操作手册",
-        "file": "HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "size": 73774,
-        "mtime": "2026-07-01T19:09:33+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 结构性创新专题：超越交易策略的全方位创新方式",
-        "file": "HTCO_结构性创新专题_研究报告_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_结构性创新专题_研究报告_20260701.md",
-        "size": 26280,
-        "mtime": "2026-07-01T18:56:32+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_结构性创新专题_研究报告_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 辅助类创新工具：直接辅助交易量与盈利安全的创新工具箱",
-        "file": "HTCO_辅助类创新工具_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_辅助类创新工具_20260701.md",
-        "size": 38130,
-        "mtime": "2026-07-01T19:44:34+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_辅助类创新工具_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 非交易创新方案：超越交易策略的全维度创新工具箱",
-        "file": "HTCO_非交易创新方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_非交易创新方案_20260701.md",
-        "size": 41016,
-        "mtime": "2026-07-01T19:36:44+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_非交易创新方案_20260701.md",
-        "_archived": true
-      },
       {
         "code": "htco-us",
         "date": "2026-06-29",
@@ -466,8 +416,7 @@
         "size": 23363,
         "mtime": "2026-06-29T10:16:00+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "_archived": true
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v1.md"
       },
       {
         "code": "htco-us",
@@ -479,8 +428,7 @@
         "size": 36416,
         "mtime": "2026-06-29T10:25:10+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "_archived": true
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v2.md"
       },
       {
         "code": "htco-us",
@@ -492,8 +440,7 @@
         "size": 44004,
         "mtime": "2026-06-29T10:40:23+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "_archived": true
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v3.md"
       },
       {
         "code": "htco-us",
@@ -505,8 +452,7 @@
         "size": 70557,
         "mtime": "2026-06-29T10:47:48+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "_archived": true
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v4.md"
       },
       {
         "code": "htco-us",
@@ -518,8 +464,7 @@
         "size": 7232,
         "mtime": "2026-06-29T14:25:01+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md",
-        "_archived": true
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md"
       }
     ],
     "xingheng": [
@@ -1146,6 +1091,47 @@
         "_from_ledger": true
       }
     ],
+    "可信数据空间": [
+      {
+        "code": "mifeng",
+        "date": "2026-08-10",
+        "category": "商业研究",
+        "title": "天保控股 × 乘杜科技 × 觅蜂科技 × 数据跨境（天津电信）",
+        "file": "天保乘杜+觅蜂+数据跨境_可信数据空间业务合作整合方案_V2.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保乘杜+觅蜂+数据跨境_可信数据空间业务合作整合方案_V2.md",
+        "size": 36143,
+        "mtime": "2026-08-10T15:55:30+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保乘杜+觅蜂+数据跨境_可信数据空间业务合作整合方案_V2.md",
+        "_archived": true
+      },
+      {
+        "code": "mifeng",
+        "date": "2026-08-10",
+        "category": "商业研究",
+        "title": "天保控股 × 乘杜科技 × 觅蜂科技",
+        "file": "天保乘杜+觅蜂_可信数据空间业务合作整合方案_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保乘杜+觅蜂_可信数据空间业务合作整合方案_v1.md",
+        "size": 20646,
+        "mtime": "2026-08-10T15:50:08+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保乘杜+觅蜂_可信数据空间业务合作整合方案_v1.md",
+        "_archived": true
+      },
+      {
+        "code": "mifeng",
+        "date": "2026-08-06",
+        "category": "上会材料",
+        "title": "觅蜂科技 × 华依科技合作模式与入股估值研究 · Type B 决策模式报告（V25.1.18）",
+        "file": "觅蜂_华依合作模式与入股估值_V25.1.18_20260806.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/觅蜂_华依合作/output/觅蜂_华依合作模式与入股估值_V25.1.18_20260806.html",
+        "size": 68064,
+        "mtime": "2026-08-06T22:30:44+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/mifeng/%E8%A7%85%E8%9C%82_%E5%8D%8E%E4%BE%9D%E5%90%88%E4%BD%9C%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%85%A5%E8%82%A1%E4%BC%B0%E5%80%BC_V25.1.18_20260806.html",
+        "_archived": true
+      }
+    ],
     "基建": [
       {
         "code": "tianbao-jijian",
@@ -1480,9 +1466,7 @@
         "size": 105073,
         "mtime": "2026-07-31T12:04:05+08:00",
         "summary": "",
-        "url": "",
-        "_archived": true,
-        "archived_reason": "天津海特飞机工程为非上市·研究对象已迁移至储备项目"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9_%E5%A4%A9%E6%B4%A5%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA%E5%B7%A5%E7%A8%8B_%E6%8E%A7%E8%82%A1%E5%B9%B6%E8%B4%AD%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_V25.1.18.html"
       }
     ],
     "高端装备": [
@@ -1496,9 +1480,7 @@
         "size": 105073,
         "mtime": "2026-07-31T12:04:05+08:00",
         "summary": "",
-        "url": "",
-        "_archived": true,
-        "archived_reason": "天津海特飞机工程为非上市·研究对象已迁移至储备项目"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9_%E5%A4%A9%E6%B4%A5%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA%E5%B7%A5%E7%A8%8B_%E6%8E%A7%E8%82%A1%E5%B9%B6%E8%B4%AD%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_V25.1.18.html"
       }
     ],
     "卫星遥感": [
@@ -1585,345 +1567,18 @@
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/qingdao-heli/%E9%9D%92%E5%B2%9B%E7%9B%B4%E5%8D%87%E6%9C%BA%E6%94%B6%E8%B4%AD_%E6%B1%87%E6%80%BB%E6%8A%A5%E5%91%8A_V1_20260729.html"
       }
     ],
-    "美国中概股": [
+    "智能体软件": [
       {
-        "code": "htco-us",
-        "date": "2026-07-01",
+        "code": "hongyi",
+        "date": "2026-08-04",
         "category": "商业研究",
-        "title": "HTCO 外围创新可行性方案：第三方视角下的 8 层创新具体运作机制",
-        "file": "HTCO_外围创新可行性方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_外围创新可行性方案_20260701.md",
-        "size": 40235,
-        "mtime": "2026-07-01T19:02:19+08:00",
+        "title": "鸿翼（未上市 · 新三板 834807）投资可行性研究报告 V25.1.18.10",
+        "file": "鸿翼_投资可行性研究_V1_20260804.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/鸿翼/output/鸿翼_投资可行性研究_V1_20260804.html",
+        "size": 120344,
+        "mtime": "2026-08-04T14:09:25+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_外围创新可行性方案_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 辅助类工具深度展开：1/2/3 + 22/23/24 详细操作逻辑与真实案例",
-        "file": "HTCO_工具深度展开_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_工具深度展开_20260701.md",
-        "size": 46370,
-        "mtime": "2026-07-01T20:28:29+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_工具深度展开_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "行业研究",
-        "title": "HTCO 股票安全推量策略与全方位资金安全保障方案",
-        "file": "HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "size": 23427,
-        "mtime": "2026-07-01T18:50:51+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "行业研究",
-        "title": "HTCO 机构持仓深度追踪 + 核心做市商策略提取：操作指南与实战方法",
-        "file": "HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "size": 35758,
-        "mtime": "2026-07-01T20:53:04+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 机构落地版外围创新可行性方案：服务机构身份下的 8 层创新操作手册",
-        "file": "HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "size": 73774,
-        "mtime": "2026-07-01T19:09:33+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 结构性创新专题：超越交易策略的全方位创新方式",
-        "file": "HTCO_结构性创新专题_研究报告_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_结构性创新专题_研究报告_20260701.md",
-        "size": 26280,
-        "mtime": "2026-07-01T18:56:32+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_结构性创新专题_研究报告_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 辅助类创新工具：直接辅助交易量与盈利安全的创新工具箱",
-        "file": "HTCO_辅助类创新工具_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_辅助类创新工具_20260701.md",
-        "size": 38130,
-        "mtime": "2026-07-01T19:44:34+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_辅助类创新工具_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 非交易创新方案：超越交易策略的全维度创新工具箱",
-        "file": "HTCO_非交易创新方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_非交易创新方案_20260701.md",
-        "size": 41016,
-        "mtime": "2026-07-01T19:36:44+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_非交易创新方案_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v1",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "size": 23363,
-        "mtime": "2026-06-29T10:16:00+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v2（细化版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "size": 36416,
-        "mtime": "2026-06-29T10:25:10+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v3（最严格证据版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "size": 44004,
-        "mtime": "2026-06-29T10:40:23+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v4（最终溯源版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "size": 70557,
-        "mtime": "2026-06-29T10:47:48+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v5（精简结论版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v5.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md",
-        "size": 7232,
-        "mtime": "2026-06-29T14:25:01+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md",
-        "_archived": true
-      }
-    ],
-    "跨境物流": [
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 外围创新可行性方案：第三方视角下的 8 层创新具体运作机制",
-        "file": "HTCO_外围创新可行性方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_外围创新可行性方案_20260701.md",
-        "size": 40235,
-        "mtime": "2026-07-01T19:02:19+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_外围创新可行性方案_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 辅助类工具深度展开：1/2/3 + 22/23/24 详细操作逻辑与真实案例",
-        "file": "HTCO_工具深度展开_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_工具深度展开_20260701.md",
-        "size": 46370,
-        "mtime": "2026-07-01T20:28:29+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_工具深度展开_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "行业研究",
-        "title": "HTCO 股票安全推量策略与全方位资金安全保障方案",
-        "file": "HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "size": 23427,
-        "mtime": "2026-07-01T18:50:51+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_推量与全方位保障方案_研究报告_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "行业研究",
-        "title": "HTCO 机构持仓深度追踪 + 核心做市商策略提取：操作指南与实战方法",
-        "file": "HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "size": 35758,
-        "mtime": "2026-07-01T20:53:04+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构持仓与做市商策略追踪_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 机构落地版外围创新可行性方案：服务机构身份下的 8 层创新操作手册",
-        "file": "HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "size": 73774,
-        "mtime": "2026-07-01T19:09:33+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_机构落地版外围创新可行性方案_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 结构性创新专题：超越交易策略的全方位创新方式",
-        "file": "HTCO_结构性创新专题_研究报告_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_结构性创新专题_研究报告_20260701.md",
-        "size": 26280,
-        "mtime": "2026-07-01T18:56:32+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_结构性创新专题_研究报告_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 辅助类创新工具：直接辅助交易量与盈利安全的创新工具箱",
-        "file": "HTCO_辅助类创新工具_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_辅助类创新工具_20260701.md",
-        "size": 38130,
-        "mtime": "2026-07-01T19:44:34+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_辅助类创新工具_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-07-01",
-        "category": "商业研究",
-        "title": "HTCO 非交易创新方案：超越交易策略的全维度创新工具箱",
-        "file": "HTCO_非交易创新方案_20260701.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_非交易创新方案_20260701.md",
-        "size": 41016,
-        "mtime": "2026-07-01T19:36:44+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/company/HTCO_非交易创新方案_20260701.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v1",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "size": 23363,
-        "mtime": "2026-06-29T10:16:00+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v2（细化版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "size": 36416,
-        "mtime": "2026-06-29T10:25:10+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v3（最严格证据版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "size": 44004,
-        "mtime": "2026-06-29T10:40:23+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v4（最终溯源版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "size": 70557,
-        "mtime": "2026-06-29T10:47:48+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "_archived": true
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v5（精简结论版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v5.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md",
-        "size": 7232,
-        "mtime": "2026-06-29T14:25:01+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hongyi/%E9%B8%BF%E7%BF%BC_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_V1_20260804.html",
         "_archived": true
       }
     ],
@@ -2310,17 +1965,28 @@
     ]
   },
   "quarantine_codes": [
-    "未归类"
+    "hongyi",
+    "htco-us",
+    "mifeng",
+    "tianbao-jijian",
+    "unicom-idc"
   ],
-  "_last_cleanup": "2026-08-04T06:09:00.323134",
+  "_last_cleanup": "2026-08-13T15:41:51.809862",
   "_cleanup_stats": {
     "dup_title_date": 3,
-    "superseded": 7,
+    "superseded": 8,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
     "intermediate:v_standard_mode": 1,
     "intermediate:cooperation_package": 1,
     "quarantine_full": 2
+  },
+  "quarantine_reasons": {
+    "hongyi": "已归档/无台账记录",
+    "htco-us": "已归档/无台账记录",
+    "mifeng": "已归档/无台账记录",
+    "tianbao-jijian": "已归档/无台账记录",
+    "unicom-idc": "已归档/无台账记录"
   }
 }
