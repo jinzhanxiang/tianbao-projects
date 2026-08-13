@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T21:11:48+08:00",
+  "generated_at": "2026-08-13T21:27:23+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 30,
+  "total": 31,
   "by_industry": {
     "硬科技": [
       {
@@ -110,47 +110,6 @@
         "fetched_at": "2026-08-13",
         "score": 2.0,
         "query": "数据 行业 政策 2026"
-      }
-    ],
-    "军工": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
-        "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
-        "url": "https://news.qq.com/rain/a/20251020A07WSC00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 3.5,
-        "query": "军工 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "军工 (BK0490)_行情中心_东方财富网",
-        "summary": "提供军工 (BK0490)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与军工 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK0490.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "军工 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "国家国防科技工业局",
-        "summary": "2 天之前 · 国家国防科技工业局是中国政府负责管理国防科技工业的行政管理机关，负责核、航天、航空、船舶、兵器、电子等领域武 …",
-        "url": "https://www.sastind.gov.cn/",
-        "source": "www.sastind.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 1.5,
-        "query": "军工 行业 政策 2026"
       }
     ],
     "可信数据空间": [
@@ -371,6 +330,60 @@
         "query": "医疗健康 行业 政策 2026"
       }
     ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "国家税务总局电子税务局",
+        "summary": "对纳税人提供涉税事项办理进度及结果的查询界面，纳税人可以通过该功能快速查看业务办理情况。 对符合条件的增值税一般纳税人 …",
+        "url": "https://etax.jiangsu.chinatax.gov.cn/sso/login",
+        "source": "etax.jiangsu.chinatax.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 1.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "国家税务总局江苏省电子税务局",
+        "summary": "2022年12月28日 · 新办企业综合申请套餐 跨区域涉税事项报验管理套餐 发票限额票量变更套餐 小规模转一般纳税人套餐 非居民企业 …",
+        "url": "https://etax.jiangsu.chinatax.gov.cn/jx/index.html",
+        "source": "etax.jiangsu.chinatax.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 1.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "国家税务总局江苏省税务局网站",
+        "summary": "1 天前 · 电子税务局操作使用的这些风险点要注意 08-11.",
+        "url": "https://jiangsu.chinatax.gov.cn/",
+        "source": "jiangsu.chinatax.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 1.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "国家税务总局电子税务局",
+        "summary": "2026年5月6日 · We're sorry but 国家税务总局电子税务局 doesn't work properly without JavaScript enabled. Please enable it to …",
+        "url": "https://etax.jiangsu.chinatax.gov.cn:8443/",
+        "source": "etax.jiangsu.chinatax.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 1.5,
+        "query": "收购研究 行业 政策 2026"
+      }
+    ],
     "工业 AI": [
       {
         "code": "chuangdu",
@@ -454,19 +467,6 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
-      "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
-      "url": "https://news.qq.com/rain/a/20251020A07WSC00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 3.5,
-      "query": "军工 行业 政策 2026"
-    },
-    {
       "code": "mifeng",
       "company": "觅蜂",
       "industry": "可信数据空间",
@@ -530,19 +530,6 @@
       "fetched_at": "2026-08-13",
       "score": 2.5,
       "query": "数据 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "军工 (BK0490)_行情中心_东方财富网",
-      "summary": "提供军工 (BK0490)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与军工 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK0490.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "军工 行业 政策 2026"
     },
     {
       "code": "hongyi",
@@ -701,17 +688,56 @@
       "query": "医疗健康 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "国家国防科技工业局",
-      "summary": "2 天之前 · 国家国防科技工业局是中国政府负责管理国防科技工业的行政管理机关，负责核、航天、航空、船舶、兵器、电子等领域武 …",
-      "url": "https://www.sastind.gov.cn/",
-      "source": "www.sastind.gov.cn",
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "国家税务总局电子税务局",
+      "summary": "对纳税人提供涉税事项办理进度及结果的查询界面，纳税人可以通过该功能快速查看业务办理情况。 对符合条件的增值税一般纳税人 …",
+      "url": "https://etax.jiangsu.chinatax.gov.cn/sso/login",
+      "source": "etax.jiangsu.chinatax.gov.cn",
       "date": "",
       "fetched_at": "2026-08-13",
       "score": 1.5,
-      "query": "军工 行业 政策 2026"
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "国家税务总局江苏省电子税务局",
+      "summary": "2022年12月28日 · 新办企业综合申请套餐 跨区域涉税事项报验管理套餐 发票限额票量变更套餐 小规模转一般纳税人套餐 非居民企业 …",
+      "url": "https://etax.jiangsu.chinatax.gov.cn/jx/index.html",
+      "source": "etax.jiangsu.chinatax.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 1.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "国家税务总局江苏省税务局网站",
+      "summary": "1 天前 · 电子税务局操作使用的这些风险点要注意 08-11.",
+      "url": "https://jiangsu.chinatax.gov.cn/",
+      "source": "jiangsu.chinatax.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 1.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "国家税务总局电子税务局",
+      "summary": "2026年5月6日 · We're sorry but 国家税务总局电子税务局 doesn't work properly without JavaScript enabled. Please enable it to …",
+      "url": "https://etax.jiangsu.chinatax.gov.cn:8443/",
+      "source": "etax.jiangsu.chinatax.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 1.5,
+      "query": "收购研究 行业 政策 2026"
     },
     {
       "code": "hongyi",
