@@ -1048,13 +1048,11 @@ body{
        reports.json 同时落 total_active / total_archived_cached 两个辅助字段，前端可做诊断。 */
     const totalR = allReports.filter(r => !r._archived && (r.url||'').startsWith('https://')).length;
 
-    /* 行业（主+细分） */
+    /* 行业（主行业 · 与 aggregateIndustries 同一口径：首个「·」之前为主行业） */
     const mainIndMap = new Map();
-    const subIndMap = new Map();
     PROJECTS.forEach(p=>{
-      const inds = (p.industry||'').split(/[·\/ ]+/).map(t=>t.trim()).filter(Boolean);
-      if(inds.length) mainIndMap.set(inds[0], (mainIndMap.get(inds[0])||0)+1);
-      inds.forEach(t=>{ if(t!==inds[0]) subIndMap.set(t, (subIndMap.get(t)||0)+1); });
+      const main = (p.industry||'').split('·')[0].trim();
+      if(main) mainIndMap.set(main, (mainIndMap.get(main)||0)+1);
     });
     const industries = [...mainIndMap.entries()].sort((a,b)=>b[1]-a[1]);
 
@@ -1083,15 +1081,13 @@ body{
     /* 同时构建「行业 → 企业清单」用于在卡上标注具体公司名 */
     const mainIndCompanies = new Map();
     PROJECTS.forEach(p=>{
-      const inds = (p.industry||'').split(/[·\/ ]+/).map(t=>t.trim()).filter(Boolean);
-      if(!inds.length) return;
-      const main = inds[0];
+      const main = (p.industry||'').split('·')[0].trim();
+      if(!main) return;
       if(!mainIndCompanies.has(main)) mainIndCompanies.set(main, []);
       mainIndCompanies.get(main).push({code: p.code, name_cn: p.name_cn, iss: p.iss});
     });
-    const topN = Math.min(6, industries.length);
     const barsListEl = document.getElementById('holoBarsList');
-    const maxN = Math.max(1, ...industries.slice(0, topN).map(([_,c])=>c));
+    const maxN = Math.max(1, ...industries.map(([_,c])=>c));
     function indEmoji(name){
       const n = name || '';
       if(n.includes('电池')||n.includes('锂')) return '🔋';
@@ -1112,7 +1108,7 @@ body{
       return '🏢';
     }
     function escHtml(s){return (s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-    barsListEl.innerHTML = industries.slice(0, topN).map(([n,c], i)=>{
+    barsListEl.innerHTML = industries.map(([n,c], i)=>{
       const col = IND_PALETTE[i % IND_PALETTE.length];
       const col2 = IND_PALETTE[(i+1) % IND_PALETTE.length];
       const glow = col.match(/var\((--[\w-]+)\)/) ? `var(${col.match(/var\((--[\w-]+)\)/)[1]}-soft, transparent)` : col + '55';
@@ -1144,7 +1140,7 @@ body{
         <div class="v3-bar-tags">${tagsHtml}</div>
       </div>`;
     }).join('');
-    document.getElementById('holoBarsTotal').textContent = `Top ${topN} · ${industries.length} 行业 · 已标注 ${Array.from(mainIndCompanies.values()).reduce((s,v)=>s+v.length,0)} 家企业`;
+    document.getElementById('holoBarsTotal').textContent = `${industries.length} 行业 · ${PROJECTS.length} 项目 · 已标注 ${Array.from(mainIndCompanies.values()).reduce((s,v)=>s+v.length,0)} 家企业`;
 
     /* === 条形图点击 · 联动 CLOUD 筛选 + 统一事件流 === */
     barsListEl.querySelectorAll('.v3-bar-row, .v3-holo-bar-row').forEach(row=>{
