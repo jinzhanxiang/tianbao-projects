@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T01:36:52+08:00",
+  "generated_at": "2026-08-14T01:50:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 37,
+  "total": 36,
   "by_industry": {
     "硬科技": [
       {
@@ -281,23 +281,10 @@
         "code": "hongyi",
         "company": "鸿翼",
         "industry": "智能体软件",
-        "title": "2026年5月8日,国家网信办、发改委、工信部联合印发《智能体规范应用与创新发展_财富号_东方财富网",
-        "summary": "3. 公司被市场归类为 AI 智能体 标的 券商 / 行情软件已将捷成股份纳入AI 智能体板块,政策落地后资金关注度与流动性有望提升. 2. 政策直接利好...",
-        "url": "https://caifuhao.eastmoney.com/news/20260508195911842616260?from=guba&gubaurl=aHR0cDovL2d1YmFmMTAuZWFzdG1vbmV5LmNvbS9saXN0LDMwMDE4Mi5odG1s&name=5o235oiQ6IKh5Lu95ZCn",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "智能体软件 行业 政策 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "智能体软件",
-        "title": "2026新政解读:智能体与AI终端的 双向奔赴 ,AIoT产业迎来三大价值重构-36氪",
-        "summary": "《实施意见》明确把智能体定义为人工智能产品及服务的重要形态,并强调引导整机、软件等企业基于智能体研发产品和服务.第一枚,是国家网信办、国家发展改革委、工业和信息化部联合印发的《智能体...",
-        "url": "https://36kr.com/p/3806082901122568",
-        "source": "36kr.com",
+        "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
+        "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
+        "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
+        "source": "www.gov.cn",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 1.5,
@@ -307,10 +294,10 @@
         "code": "hongyi",
         "company": "鸿翼",
         "industry": "智能体软件",
-        "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
-        "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
-        "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
-        "source": "www.gov.cn",
+        "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知 ...",
+        "summary": "2026年4月2日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会、全国教育大会精神，全面贯 …",
+        "url": "https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
+        "source": "www.moe.gov.cn",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 1.5,
@@ -707,19 +694,6 @@
       "query": "智能体软件 行业 政策 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "智能体软件",
-      "title": "2026年5月8日,国家网信办、发改委、工信部联合印发《智能体规范应用与创新发展_财富号_东方财富网",
-      "summary": "3. 公司被市场归类为 AI 智能体 标的 券商 / 行情软件已将捷成股份纳入AI 智能体板块,政策落地后资金关注度与流动性有望提升. 2. 政策直接利好...",
-      "url": "https://caifuhao.eastmoney.com/news/20260508195911842616260?from=guba&gubaurl=aHR0cDovL2d1YmFmMTAuZWFzdG1vbmV5LmNvbS9saXN0LDMwMDE4Mi5odG1s&name=5o235oiQ6IKh5Lu95ZCn",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "智能体软件 行业 政策 2026"
-    },
-    {
       "code": "tianbao-jijian",
       "company": "天保基建",
       "industry": "基建",
@@ -902,32 +876,6 @@
       "query": "军工 行业 政策 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "新浪汽车 - 汽车生活源动力！",
-      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
-      "url": "https://auto.sina.com.cn/",
-      "source": "auto.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "汽车电子 行业 政策 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "智能体软件",
-      "title": "2026新政解读:智能体与AI终端的 双向奔赴 ,AIoT产业迎来三大价值重构-36氪",
-      "summary": "《实施意见》明确把智能体定义为人工智能产品及服务的重要形态,并强调引导整机、软件等企业基于智能体研发产品和服务.第一枚,是国家网信办、国家发展改革委、工业和信息化部联合印发的《智能体...",
-      "url": "https://36kr.com/p/3806082901122568",
-      "source": "36kr.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "智能体软件 行业 政策 2026"
-    },
-    {
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
@@ -939,6 +887,32 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "智能体软件 行业 政策 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "智能体软件",
+      "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知 ...",
+      "summary": "2026年4月2日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会、全国教育大会精神，全面贯 …",
+      "url": "https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
+      "source": "www.moe.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "智能体软件 行业 政策 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "汽车电子",
+      "title": "新浪汽车 - 汽车生活源动力！",
+      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
+      "url": "https://auto.sina.com.cn/",
+      "source": "auto.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "汽车电子 行业 政策 2026"
     },
     {
       "code": "chuangdu",
