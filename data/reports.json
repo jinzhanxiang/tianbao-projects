@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:12:38+08:00",
+  "generated_at": "2026-08-13T23:28:20+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 48,
   "total_active": 45,
@@ -318,20 +318,6 @@
         "mtime": "2026-06-29T07:33:08+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
-      }
-    ],
-    "haite": [
-      {
-        "code": "haite",
-        "date": "2026-08-13",
-        "category": "商业研究",
-        "title": "天津海特飞机工程（未上市 · 海特高新全资子公司）· 控股权收购可行性研究报告 · 2026-08-13",
-        "file": "海特_可行性研究报告_20260813.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特/output/海特_可行性研究报告_20260813.html",
-        "size": 128466,
-        "mtime": "2026-08-13T22:42:14+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9_%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260813.html"
       }
     ],
     "unicom-sx": [
@@ -735,6 +721,21 @@
         "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
         "_from_ledger": true,
         "_archived": true
+      }
+    ],
+    "haite": [
+      {
+        "code": "haite",
+        "date": "2026-07-31",
+        "category": "商业研究",
+        "title": "海特高新（002023.SZ）· 天津海特飞机工程控股并购",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-31T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/haite_v25_1_18_decision.html",
+        "_from_ledger": true
       }
     ]
   },
@@ -1492,34 +1493,6 @@
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom-sx/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v13_TypeB_%E5%AE%8C%E6%95%B4%E7%89%88.html"
       }
     ],
-    "航空维修": [
-      {
-        "code": "haite",
-        "date": "2026-08-13",
-        "category": "商业研究",
-        "title": "天津海特飞机工程（未上市 · 海特高新全资子公司）· 控股权收购可行性研究报告 · 2026-08-13",
-        "file": "海特_可行性研究报告_20260813.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特/output/海特_可行性研究报告_20260813.html",
-        "size": 128466,
-        "mtime": "2026-08-13T22:42:14+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9_%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260813.html"
-      }
-    ],
-    "高端装备": [
-      {
-        "code": "haite",
-        "date": "2026-08-13",
-        "category": "商业研究",
-        "title": "天津海特飞机工程（未上市 · 海特高新全资子公司）· 控股权收购可行性研究报告 · 2026-08-13",
-        "file": "海特_可行性研究报告_20260813.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特/output/海特_可行性研究报告_20260813.html",
-        "size": 128466,
-        "mtime": "2026-08-13T22:42:14+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9_%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260813.html"
-      }
-    ],
     "卫星遥感": [
       {
         "code": "hangtianhongtu",
@@ -2026,12 +1999,42 @@
         "summary": "",
         "url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html"
       }
+    ],
+    "航空维修": [
+      {
+        "code": "haite",
+        "date": "2026-07-31",
+        "category": "商业研究",
+        "title": "海特高新（002023.SZ）· 天津海特飞机工程控股并购",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-31T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/haite_v25_1_18_decision.html",
+        "_from_ledger": true
+      }
+    ],
+    "高端装备": [
+      {
+        "code": "haite",
+        "date": "2026-07-31",
+        "category": "商业研究",
+        "title": "海特高新（002023.SZ）· 天津海特飞机工程控股并购",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-31T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/haite_v25_1_18_decision.html",
+        "_from_ledger": true
+      }
     ]
   },
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-13T23:12:38.849637",
+  "_last_cleanup": "2026-08-13T23:28:20.238638",
   "_cleanup_stats": {
     "dup_title_date": 3,
     "superseded": 8,
