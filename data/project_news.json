@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T18:30:00+08:00",
+  "generated_at": "2026-08-13T18:41:20+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 36,
+  "total": 34,
   "by_industry": {
     "硬科技": [
       {
@@ -56,6 +56,60 @@
         "fetched_at": "2026-08-13",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "军工": [
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
+        "summary": "2024年9月19日 - 月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
+        "url": "https://new.qq.com/rain/a/20240919A09S0W00",
+        "source": "new.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 4.5,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
+        "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
+        "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 4.5,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "航天精工本部泛微协同办公平台2026年第一批运维服务项目-今日招标",
+        "summary": "2026年5月21日 - 航天精工股份有限公司2026-05-21发布了航天精工本部泛微协同办公平台2026年第一批运维服务项目的招标的公告 千万级信息查询 实时搜索海量招投标信息 ...",
+        "url": "https://www.jrzb.cn/bidDetail/01D93A75837C43CD91C792631ED3B204.html",
+        "source": "www.jrzb.cn",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 4.0,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
+        "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
+        "url": "https://news.qq.com/rain/a/20251020A07WSC00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 3.5,
+        "query": "军工 行业 政策 2026"
       }
     ],
     "数据": [
@@ -112,47 +166,6 @@
         "query": "数据 行业 政策 2026"
       }
     ],
-    "军工": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
-        "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
-        "url": "https://news.qq.com/rain/a/20251020A07WSC00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 3.5,
-        "query": "军工 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "军工 (BK0490)_行情中心_东方财富网",
-        "summary": "提供军工 (BK0490)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与军工 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK0490.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "军工 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "军工",
-        "title": "国家国防科技工业局",
-        "summary": "2 天之前 · 国家国防科技工业局是中国政府负责管理国防科技工业的行政管理机关，负责核、航天、航空、船舶、兵器、电子等领域武 …",
-        "url": "https://www.sastind.gov.cn/",
-        "source": "www.sastind.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 1.5,
-        "query": "军工 行业 政策 2026"
-      }
-    ],
     "基建": [
       {
         "code": "tianbao-jijian",
@@ -205,47 +218,6 @@
         "fetched_at": "2026-08-13",
         "score": 2.5,
         "query": "基建 行业 政策 2026"
-      }
-    ],
-    "收购研究": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-        "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
-        "url": "https://news.qq.com/rain/a/20241106A08NP500",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-        "url": "https://www.sohu.com/a/902656138_122063492",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "上市公司收购管理办法_中国证券监督管理委员会",
-        "summary": "2002年9月28日 · 在改正前，收购人不得对其持有或者支配的股份行使表决权。 发出收购要约的收购人在收购要约期限届满，不按照约 …",
-        "url": "https://www.csrc.gov.cn/csrc/c106256/c1653983/content.shtml",
-        "source": "www.csrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
       }
     ],
     "智能体软件": [
@@ -348,6 +320,19 @@
         "code": "fxpp",
         "company": "5个标的反向匹配汇总",
         "industry": "并购标的汇总",
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-13",
+        "score": 2.5,
+        "query": "并购标的汇总 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
         "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
         "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
         "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
@@ -438,21 +423,6 @@
         "query": "医疗健康 行业 政策 2026"
       }
     ],
-    "汽车电子": [
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "新浪汽车 - 汽车生活源动力！",
-        "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
-        "url": "https://auto.sina.com.cn/",
-        "source": "auto.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-13",
-        "score": 1.5,
-        "query": "汽车电子 行业 政策 2026"
-      }
-    ],
     "工业 AI": [
       {
         "code": "chuangdu",
@@ -508,6 +478,45 @@
       "fetched_at": "2026-08-13",
       "score": 4.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
+      "summary": "2024年9月19日 - 月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
+      "url": "https://new.qq.com/rain/a/20240919A09S0W00",
+      "source": "new.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 4.5,
+      "query": "航天精工 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
+      "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
+      "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
+      "source": "www.thepaper.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 4.5,
+      "query": "航天精工 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "航天精工本部泛微协同办公平台2026年第一批运维服务项目-今日招标",
+      "summary": "2026年5月21日 - 航天精工股份有限公司2026-05-21发布了航天精工本部泛微协同办公平台2026年第一批运维服务项目的招标的公告 千万级信息查询 实时搜索海量招投标信息 ...",
+      "url": "https://www.jrzb.cn/bidDetail/01D93A75837C43CD91C792631ED3B204.html",
+      "source": "www.jrzb.cn",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 4.0,
+      "query": "航天精工 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -614,58 +623,6 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-      "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
-      "url": "https://news.qq.com/rain/a/20241106A08NP500",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-      "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-      "url": "https://www.sohu.com/a/902656138_122063492",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "上市公司收购管理办法_中国证券监督管理委员会",
-      "summary": "2002年9月28日 · 在改正前，收购人不得对其持有或者支配的股份行使表决权。 发出收购要约的收购人在收购要约期限届满，不按照约 …",
-      "url": "https://www.csrc.gov.cn/csrc/c106256/c1653983/content.shtml",
-      "source": "www.csrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "军工 (BK0490)_行情中心_东方财富网",
-      "summary": "提供军工 (BK0490)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与军工 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK0490.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 2.5,
-      "query": "军工 行业 政策 2026"
-    },
-    {
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
@@ -742,6 +699,19 @@
       "fetched_at": "2026-08-13",
       "score": 2.5,
       "query": "低空经济 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
+      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+      "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+      "url": "https://news.qq.com/rain/a/20241106A08NP500",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-13",
+      "score": 2.5,
+      "query": "并购标的汇总 行业 政策 2026"
     },
     {
       "code": "fxpp",
@@ -861,19 +831,6 @@
       "query": "医疗健康 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "军工",
-      "title": "国家国防科技工业局",
-      "summary": "2 天之前 · 国家国防科技工业局是中国政府负责管理国防科技工业的行政管理机关，负责核、航天、航空、船舶、兵器、电子等领域武 …",
-      "url": "https://www.sastind.gov.cn/",
-      "source": "www.sastind.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 1.5,
-      "query": "军工 行业 政策 2026"
-    },
-    {
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
@@ -898,19 +855,6 @@
       "fetched_at": "2026-08-13",
       "score": 1.5,
       "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "新浪汽车 - 汽车生活源动力！",
-      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
-      "url": "https://auto.sina.com.cn/",
-      "source": "auto.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-13",
-      "score": 1.5,
-      "query": "汽车电子 行业 政策 2026"
     },
     {
       "code": "chuangdu",
