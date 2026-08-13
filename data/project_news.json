@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T07:49:42+08:00",
+  "generated_at": "2026-08-14T07:58:28+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 34,
+  "total": 36,
   "by_industry": {
     "硬科技": [
       {
@@ -19,43 +19,56 @@
         "query": "华阳 新闻 2026"
       },
       {
-        "code": "xunchao",
-        "company": "迅巢科技",
+        "code": "huadong-sk",
+        "company": "华东数控",
         "industry": "硬科技",
-        "title": "北京迅巢科技有限公司 - 企业股权结构图谱 - 爱企查",
-        "summary": "2025年2月15日 - 爱企查为您提供北京迅巢科技有限公司2026年股权结构图谱查询,让您更快速的了解北京迅巢科技有限公司股权结构图谱,查询更多关于北京迅巢科技有限公司企...",
-        "url": "https://aiqicha.baidu.com/relations/stockstructure?pid=96178514978184",
-        "source": "aiqicha.baidu.com",
+        "title": "华东数控中标结果:郑煤机综机公司东五西活柱自动上下料结果公告_采购_招标_整理",
+        "summary": "证券之星消息,根据天眼查APP信息整理,7月26日公布的《郑煤机综机公司东五西活柱自动上下料结果公告》中显示威海华东数控股份有限公司中标...",
+        "url": "http://business.sohu.com/a/919220870_121319643",
+        "source": "business.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "硬科技",
+        "title": "华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+        "summary": "2026年6月29日 - 华东数控(002248)提问, 公司有产品用于.公司回答表示,您好!公司新产品圆台磨床近日已成功中标...",
+        "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+        "source": "yuanchuang.10jqka.com.cn",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 4.0,
-        "query": "迅巢 新闻 2026"
+        "query": "\"华东数控\" 公告 签约 中标 投资"
       },
       {
-        "code": "xunchao",
-        "company": "迅巢科技",
+        "code": "huadong-sk",
+        "company": "华东数控",
         "industry": "硬科技",
-        "title": "北京迅巢科技有限公司经营信息 - 企查查",
-        "summary": "2026-07-24 被投资企业:天津迅巢项目管理有限公司 投资比例:100%2026-07-19 经营范围变更:从 一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;充电桩销售;集中式快速充电...",
-        "url": "https://www.qcc.com/crun/a2d48e819fd5f30aed0d71df0d4f3346.html",
-        "source": "www.qcc.com",
+        "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首次小批量订单",
+        "summary": "2026年6月29日 - 查看股票机会,下载客户端华东数控(002248)6月29日在互动平台表示,公司新产品圆台磨床已成功中标.如有投资者据此操作,风险自担,同花顺对此不承担任何责...",
+        "url": "http://stock.10jqka.com.cn/20260629/c677796714.shtml",
+        "source": "stock.10jqka.com.cn",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "迅巢 新闻 2026"
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
       },
       {
-        "code": "xunchao",
-        "company": "迅巢科技",
+        "code": "huadong-sk",
+        "company": "华东数控",
         "industry": "硬科技",
-        "title": "李晶 - 北京迅巢科技有限公司 - 法定代表人/高管/股东 - 爱企查",
-        "summary": "北京迅巢科技有限公司市场资讯2026-03-06 09:31.序号 企业名称 职务 法定代表人 注册资本 成立时间 地区 状态 1 迅巢科技...",
-        "url": "https://www.aiqicha.com/person?personId=b662a38baa70b960243c6c3125df9e22&subtab=personal-allenterprises",
-        "source": "www.aiqicha.com",
+        "title": "华东数控中标:高端数控磨床装备数字化工厂建设项目_惠水厂区老旧生产线改造提升工程-数控龙门导轨磨床采购(二次)招标采购公告_股票频道_证券之星",
+        "summary": "2025年8月22日 - 通过天眼查大数据分析,威海华东数控股份有限公司共对外投资了19家企业,参与招投标项目67次;财产线索方面有商标信息27条,专利信息281条,著作权信息4条;...",
+        "url": "https://stock.stockstar.com/RB2025082200020866.shtml",
+        "source": "stock.stockstar.com",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "迅巢 新闻 2026"
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -149,6 +162,47 @@
         "fetched_at": "2026-08-14",
         "score": 2.0,
         "query": "数据 行业 政策 2026"
+      }
+    ],
+    "军工": [
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
+        "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
+        "url": "https://news.qq.com/rain/a/20251020A07WSC00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.5,
+        "query": "军工 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "军工 (BK0490)_行情中心_东方财富网",
+        "summary": "提供军工 (BK0490)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与军工 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK0490.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "军工 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "军工",
+        "title": "国家国防科技工业局",
+        "summary": "2 天之前 · 国家国防科技工业局是中国政府负责管理国防科技工业的行政管理机关，负责核、航天、航空、船舶、兵器、电子等领域武 …",
+        "url": "https://www.sastind.gov.cn/",
+        "source": "www.sastind.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "军工 行业 政策 2026"
       }
     ],
     "可信数据空间": [
@@ -369,21 +423,6 @@
         "query": "医疗健康 行业 政策 2026"
       }
     ],
-    "收购研究": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "近期上映的五部菲律宾剧情电影推荐，题材丰富，熬夜看完了 ...",
-        "summary": "2025年菲律宾电影《Sex on Phone》《Sipsipan》《Hipak》聚焦主角在手机、卡车和店铺中的矛盾与成长，展现生活中的真实与挣扎。",
-        "url": "https://www.sohu.com/a/918699378_122487542",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "收购研究 行业 政策 2026"
-      }
-    ],
     "汽车电子": [
       {
         "code": "aodian",
@@ -397,21 +436,6 @@
         "fetched_at": "2026-08-14",
         "score": 1.5,
         "query": "汽车电子 行业 政策 2026"
-      }
-    ],
-    "基建": [
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "入殓师（原声版）_电影_高清完整版视频在线观看_腾讯视频",
-        "summary": "2021年10月29日 · 《入殓师》高清在线观看，领衔主演:本木雅弘,广末凉子,山崎努,吉行和子,笹野高史,电影简介:买了昂贵的大提琴， …",
-        "url": "https://v.qq.com/x/cover/t3wqrzw91qazceg/v004538katc.html",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "基建 行业 政策 2026"
       }
     ],
     "工业 AI": [
@@ -484,17 +508,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "xunchao",
-      "company": "迅巢科技",
+      "code": "huadong-sk",
+      "company": "华东数控",
       "industry": "硬科技",
-      "title": "北京迅巢科技有限公司 - 企业股权结构图谱 - 爱企查",
-      "summary": "2025年2月15日 - 爱企查为您提供北京迅巢科技有限公司2026年股权结构图谱查询,让您更快速的了解北京迅巢科技有限公司股权结构图谱,查询更多关于北京迅巢科技有限公司企...",
-      "url": "https://aiqicha.baidu.com/relations/stockstructure?pid=96178514978184",
-      "source": "aiqicha.baidu.com",
+      "title": "华东数控中标结果:郑煤机综机公司东五西活柱自动上下料结果公告_采购_招标_整理",
+      "summary": "证券之星消息,根据天眼查APP信息整理,7月26日公布的《郑煤机综机公司东五西活柱自动上下料结果公告》中显示威海华东数控股份有限公司中标...",
+      "url": "http://business.sohu.com/a/919220870_121319643",
+      "source": "business.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+      "summary": "2026年6月29日 - 华东数控(002248)提问, 公司有产品用于.公司回答表示,您好!公司新产品圆台磨床近日已成功中标...",
+      "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+      "source": "yuanchuang.10jqka.com.cn",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 4.0,
-      "query": "迅巢 新闻 2026"
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首次小批量订单",
+      "summary": "2026年6月29日 - 查看股票机会,下载客户端华东数控(002248)6月29日在互动平台表示,公司新产品圆台磨床已成功中标.如有投资者据此操作,风险自担,同花顺对此不承担任何责...",
+      "url": "http://stock.10jqka.com.cn/20260629/c677796714.shtml",
+      "source": "stock.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "硬科技",
+      "title": "华东数控中标:高端数控磨床装备数字化工厂建设项目_惠水厂区老旧生产线改造提升工程-数控龙门导轨磨床采购(二次)招标采购公告_股票频道_证券之星",
+      "summary": "2025年8月22日 - 通过天眼查大数据分析,威海华东数控股份有限公司共对外投资了19家企业,参与招投标项目67次;财产线索方面有商标信息27条,专利信息281条,著作权信息4条;...",
+      "url": "https://stock.stockstar.com/RB2025082200020866.shtml",
+      "source": "stock.stockstar.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
     },
     {
       "code": "unicom-idc",
@@ -508,6 +571,19 @@
       "fetched_at": "2026-08-14",
       "score": 3.5,
       "query": "数据 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "全球十大军工制造商，谁才是军火之王，我国三家上榜_腾讯新闻",
+      "summary": "2025年10月22日 · 洛克希德·马丁，年营收646.5亿美元，由洛克希德公司与马丁玛丽埃塔于1995年合并而成，先后吞并了80余家防务 …",
+      "url": "https://news.qq.com/rain/a/20251020A07WSC00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.5,
+      "query": "军工 行业 政策 2026"
     },
     {
       "code": "mifeng",
@@ -534,32 +610,6 @@
       "fetched_at": "2026-08-14",
       "score": 3.5,
       "query": "低空经济 行业 政策 2026"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "硬科技",
-      "title": "北京迅巢科技有限公司经营信息 - 企查查",
-      "summary": "2026-07-24 被投资企业:天津迅巢项目管理有限公司 投资比例:100%2026-07-19 经营范围变更:从 一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;充电桩销售;集中式快速充电...",
-      "url": "https://www.qcc.com/crun/a2d48e819fd5f30aed0d71df0d4f3346.html",
-      "source": "www.qcc.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 3.0,
-      "query": "迅巢 新闻 2026"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "硬科技",
-      "title": "李晶 - 北京迅巢科技有限公司 - 法定代表人/高管/股东 - 爱企查",
-      "summary": "北京迅巢科技有限公司市场资讯2026-03-06 09:31.序号 企业名称 职务 法定代表人 注册资本 成立时间 地区 状态 1 迅巢科技...",
-      "url": "https://www.aiqicha.com/person?personId=b662a38baa70b960243c6c3125df9e22&subtab=personal-allenterprises",
-      "source": "www.aiqicha.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 3.0,
-      "query": "迅巢 新闻 2026"
     },
     {
       "code": "huayt",
@@ -612,6 +662,19 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "数据 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "军工 (BK0490)_行情中心_东方财富网",
+      "summary": "提供军工 (BK0490)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与军工 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK0490.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "军工 行业 政策 2026"
     },
     {
       "code": "hongyi",
@@ -783,17 +846,17 @@
       "query": "医疗健康 行业 政策 2026"
     },
     {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "近期上映的五部菲律宾剧情电影推荐，题材丰富，熬夜看完了 ...",
-      "summary": "2025年菲律宾电影《Sex on Phone》《Sipsipan》《Hipak》聚焦主角在手机、卡车和店铺中的矛盾与成长，展现生活中的真实与挣扎。",
-      "url": "https://www.sohu.com/a/918699378_122487542",
-      "source": "www.sohu.com",
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "军工",
+      "title": "国家国防科技工业局",
+      "summary": "2 天之前 · 国家国防科技工业局是中国政府负责管理国防科技工业的行政管理机关，负责核、航天、航空、船舶、兵器、电子等领域武 …",
+      "url": "https://www.sastind.gov.cn/",
+      "source": "www.sastind.gov.cn",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 1.5,
-      "query": "收购研究 行业 政策 2026"
+      "query": "军工 行业 政策 2026"
     },
     {
       "code": "hongyi",
@@ -833,19 +896,6 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "汽车电子 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "入殓师（原声版）_电影_高清完整版视频在线观看_腾讯视频",
-      "summary": "2021年10月29日 · 《入殓师》高清在线观看，领衔主演:本木雅弘,广末凉子,山崎努,吉行和子,笹野高史,电影简介:买了昂贵的大提琴， …",
-      "url": "https://v.qq.com/x/cover/t3wqrzw91qazceg/v004538katc.html",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "基建 行业 政策 2026"
     },
     {
       "code": "chuangdu",
