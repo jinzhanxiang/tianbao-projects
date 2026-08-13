@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T02:01:52+08:00",
+  "generated_at": "2026-08-14T02:15:20+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 33,
+  "total": 34,
   "by_industry": {
     "硬科技": [
       {
@@ -56,6 +56,47 @@
         "fetched_at": "2026-08-14",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
+        "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
+        "url": "http://news.sohu.com/a/611143183_121123915",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
+        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
+        "url": "https://www.sohu.com/a/902656138_122063492",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "2026年收购大潮真来了？这2类房子可能被集中收购，手里有 ...",
+        "summary": "2 天之前 · 2026年8月，市场上关于\"房子将被大量收购\"的说法再次升温。 最容易出现的误判，是把政策性收购理解成社会资本到处扫 …",
+        "url": "https://news.qq.com/rain/a/20260811A0C3P700",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
       }
     ],
     "数据": [
@@ -222,47 +263,6 @@
         "query": "低空经济 行业 政策 2026"
       }
     ],
-    "收购研究": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-        "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
-        "url": "https://news.qq.com/rain/a/20241106A08NP500",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-        "url": "https://www.sohu.com/a/902656138_122063492",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "2026年收购大潮真来了？这2类房子可能被集中收购，手里有 ...",
-        "summary": "2 天之前 · 2026年8月，市场上关于\"房子将被大量收购\"的说法再次升温。 最容易出现的误判，是把政策性收购理解成社会资本到处扫 …",
-        "url": "https://news.qq.com/rain/a/20260811A0C3P700",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      }
-    ],
     "智能体软件": [
       {
         "code": "hongyi",
@@ -305,6 +305,19 @@
       }
     ],
     "并购标的汇总": [
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "并购标的汇总 行业 政策 2026"
+      },
       {
         "code": "fxpp",
         "company": "5个标的反向匹配汇总",
@@ -471,6 +484,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
+      "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
+      "url": "http://news.sohu.com/a/611143183_121123915",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
+    },
+    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "数据",
@@ -588,45 +614,6 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-      "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
-      "url": "https://news.qq.com/rain/a/20241106A08NP500",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-      "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-      "url": "https://www.sohu.com/a/902656138_122063492",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "2026年收购大潮真来了？这2类房子可能被集中收购，手里有 ...",
-      "summary": "2 天之前 · 2026年8月，市场上关于\"房子将被大量收购\"的说法再次升温。 最容易出现的误判，是把政策性收购理解成社会资本到处扫 …",
-      "url": "https://news.qq.com/rain/a/20260811A0C3P700",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
       "code": "hangtianjings",
       "company": "航天精工",
       "industry": "军工",
@@ -682,6 +669,19 @@
       "code": "fxpp",
       "company": "5个标的反向匹配汇总",
       "industry": "并购标的汇总",
+      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+      "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+      "url": "https://news.qq.com/rain/a/20241106A08NP500",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
       "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
       "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
       "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
@@ -703,6 +703,32 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
+      "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
+      "url": "https://www.sohu.com/a/902656138_122063492",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "2026年收购大潮真来了？这2类房子可能被集中收购，手里有 ...",
+      "summary": "2 天之前 · 2026年8月，市场上关于\"房子将被大量收购\"的说法再次升温。 最容易出现的误判，是把政策性收购理解成社会资本到处扫 …",
+      "url": "https://news.qq.com/rain/a/20260811A0C3P700",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
