@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T03:22:33+08:00",
+  "generated_at": "2026-08-14T03:34:37+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 36,
+  "total": 33,
   "by_industry": {
     "硬科技": [
       {
@@ -112,21 +112,6 @@
         "query": "数据 行业 政策 2026"
       }
     ],
-    "可信数据空间": [
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "可信数据空间",
-        "title": "《可信数据空间创新发展报告（2025）》发布-国家数据局",
-        "summary": "2025年8月29日 · 可信数据空间发展联盟秘书长、中国信息通信研究院总工程师敖立对报告进行解读。 今年，国家数据局组织开展了首 …",
-        "url": "https://www.nda.gov.cn/sjj/ywpd/sjzy/0901/20250829085131590048920_pc.html",
-        "source": "www.nda.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.5,
-        "query": "可信数据空间 行业 政策 2026"
-      }
-    ],
     "军工": [
       {
         "code": "hangtianjings",
@@ -166,6 +151,21 @@
         "fetched_at": "2026-08-14",
         "score": 1.5,
         "query": "军工 行业 政策 2026"
+      }
+    ],
+    "可信数据空间": [
+      {
+        "code": "mifeng",
+        "company": "觅蜂",
+        "industry": "可信数据空间",
+        "title": "《可信数据空间创新发展报告（2025）》发布-国家数据局",
+        "summary": "2025年8月29日 · 可信数据空间发展联盟秘书长、中国信息通信研究院总工程师敖立对报告进行解读。 今年，国家数据局组织开展了首 …",
+        "url": "https://www.nda.gov.cn/sjj/ywpd/sjzy/0901/20250829085131590048920_pc.html",
+        "source": "www.nda.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.5,
+        "query": "可信数据空间 行业 政策 2026"
       }
     ],
     "低空经济": [
@@ -309,6 +309,19 @@
         "code": "fxpp",
         "company": "5个标的反向匹配汇总",
         "industry": "并购标的汇总",
+        "title": "“并购六条”新政落地,助力产业整合_腾讯新闻",
+        "summary": "2024年9月27日 - 政策支持传统行业上市公司并购同行业或上下游资产,以提升产业集中度和资源配置效率.数据显示,自9月24日至26日,A股公司发起的64单并购项目涵盖了汽车零...",
+        "url": "https://new.qq.com/rain/a/20240927A02BOH00",
+        "source": "new.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "并购标的汇总 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
         "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
         "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
         "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
@@ -329,19 +342,6 @@
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 2.5,
-        "query": "并购标的汇总 行业 政策 2026"
-      },
-      {
-        "code": "fxpp",
-        "company": "5个标的反向匹配汇总",
-        "industry": "并购标的汇总",
-        "title": "我国并购市场深度变革与高质量发展路径-新华网",
-        "summary": "2026年3月10日 · 完善跨境并购外汇管理便利化措施，对符合国家战略的跨境并购实行“白名单”管理，简化资金出境审批流程。 建立技 …",
-        "url": "https://www3.xinhuanet.com/finance/20260310/b9195496c93847eaab1a03982248fd73/c.html",
-        "source": "www3.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
         "query": "并购标的汇总 行业 政策 2026"
       }
     ],
@@ -397,49 +397,6 @@
         "fetched_at": "2026-08-14",
         "score": 1.5,
         "query": "医疗健康 行业 政策 2026"
-      }
-    ],
-    "汽车电子": [
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "汽车电子",
-        "title": "新浪汽车 - 汽车生活源动力！",
-        "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
-        "url": "https://auto.sina.com.cn/",
-        "source": "auto.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "汽车电子 行业 政策 2026"
-      }
-    ],
-    "基建": [
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "帮了别人忙，对方说 “谢谢”，千万别说 “不用谢”，这是情商",
-        "summary": "2026年5月7日 · 小结 当你下次帮了别人的忙，听到真挚的“谢谢”，不再用习惯的“不用谢”敷衍，而用心地回应几句话。 这一刻，你的人 …",
-        "url": "https://www.sohu.com/a/1019316039_122483438",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "基建 行业 政策 2026"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "好心帮学弟，对方转手把帮忙包装成商品，收了第三方费 ...",
-        "summary": "2026年8月6日 · 昨天，村里一个近十年的老会员向我咨询——好心帮学弟，对方转手把她的帮忙包装成商品，收了第三方费，连谢谢 …",
-        "url": "https://news.qq.com/rain/a/20260806A0E8FK00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "基建 行业 政策 2026"
       }
     ],
     "工业 AI": [
@@ -551,19 +508,6 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "可信数据空间",
-      "title": "《可信数据空间创新发展报告（2025）》发布-国家数据局",
-      "summary": "2025年8月29日 · 可信数据空间发展联盟秘书长、中国信息通信研究院总工程师敖立对报告进行解读。 今年，国家数据局组织开展了首 …",
-      "url": "https://www.nda.gov.cn/sjj/ywpd/sjzy/0901/20250829085131590048920_pc.html",
-      "source": "www.nda.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 3.5,
-      "query": "可信数据空间 行业 政策 2026"
-    },
-    {
       "code": "hangtianjings",
       "company": "航天精工",
       "industry": "军工",
@@ -575,6 +519,19 @@
       "fetched_at": "2026-08-14",
       "score": 3.5,
       "query": "军工 行业 政策 2026"
+    },
+    {
+      "code": "mifeng",
+      "company": "觅蜂",
+      "industry": "可信数据空间",
+      "title": "《可信数据空间创新发展报告（2025）》发布-国家数据局",
+      "summary": "2025年8月29日 · 可信数据空间发展联盟秘书长、中国信息通信研究院总工程师敖立对报告进行解读。 今年，国家数据局组织开展了首 …",
+      "url": "https://www.nda.gov.cn/sjj/ywpd/sjzy/0901/20250829085131590048920_pc.html",
+      "source": "www.nda.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.5,
+      "query": "可信数据空间 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
@@ -723,6 +680,19 @@
       "code": "fxpp",
       "company": "5个标的反向匹配汇总",
       "industry": "并购标的汇总",
+      "title": "“并购六条”新政落地,助力产业整合_腾讯新闻",
+      "summary": "2024年9月27日 - 政策支持传统行业上市公司并购同行业或上下游资产,以提升产业集中度和资源配置效率.数据显示,自9月24日至26日,A股公司发起的64单并购项目涵盖了汽车零...",
+      "url": "https://new.qq.com/rain/a/20240927A02BOH00",
+      "source": "new.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
       "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
       "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
       "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
@@ -863,45 +833,6 @@
       "query": "智能体软件 行业 政策 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "新浪汽车 - 汽车生活源动力！",
-      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
-      "url": "https://auto.sina.com.cn/",
-      "source": "auto.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "汽车电子 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "帮了别人忙，对方说 “谢谢”，千万别说 “不用谢”，这是情商",
-      "summary": "2026年5月7日 · 小结 当你下次帮了别人的忙，听到真挚的“谢谢”，不再用习惯的“不用谢”敷衍，而用心地回应几句话。 这一刻，你的人 …",
-      "url": "https://www.sohu.com/a/1019316039_122483438",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "好心帮学弟，对方转手把帮忙包装成商品，收了第三方费 ...",
-      "summary": "2026年8月6日 · 昨天，村里一个近十年的老会员向我咨询——好心帮学弟，对方转手把她的帮忙包装成商品，收了第三方费，连谢谢 …",
-      "url": "https://news.qq.com/rain/a/20260806A0E8FK00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "基建 行业 政策 2026"
-    },
-    {
       "code": "chuangdu",
       "company": "乘杜科技",
       "industry": "工业 AI",
@@ -952,19 +883,6 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "工业 AI 行业 政策 2026"
-    },
-    {
-      "code": "fxpp",
-      "company": "5个标的反向匹配汇总",
-      "industry": "并购标的汇总",
-      "title": "我国并购市场深度变革与高质量发展路径-新华网",
-      "summary": "2026年3月10日 · 完善跨境并购外汇管理便利化措施，对符合国家战略的跨境并购实行“白名单”管理，简化资金出境审批流程。 建立技 …",
-      "url": "https://www3.xinhuanet.com/finance/20260310/b9195496c93847eaab1a03982248fd73/c.html",
-      "source": "www3.xinhuanet.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "并购标的汇总 行业 政策 2026"
     }
   ]
 }
