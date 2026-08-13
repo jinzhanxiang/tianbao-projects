@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T01:22:54+08:00",
+  "generated_at": "2026-08-14T01:36:52+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 36,
+  "total": 37,
   "by_industry": {
     "硬科技": [
       {
@@ -60,8 +60,8 @@
     ],
     "数据": [
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "数据",
         "title": "数据 - 国家统计局",
         "summary": "数据发布 2026年7月份居民消费价格同比上涨0.5% 2026年7月份工业生产者出厂价格同比上涨3.5% 2026-08-09 2026年7月下旬流通 …",
@@ -73,8 +73,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "数据",
         "title": "《全国数据资源调查报告（2025年）》正式发布-国家数据局",
         "summary": "2026年4月29日 · 调查结果显示，我国数据要素市场化价值化进程显著提速，数据资源供给体系、数据流通体系和数据开发利用体系协 …",
@@ -86,8 +86,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "数据",
         "title": "国家数据局",
         "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
@@ -99,8 +99,8 @@
         "query": "数据 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "数据",
         "title": "马克数据网—社科数据共享平台",
         "summary": "包括论文复刻、上市公司数据、世界经济数据、省级面板数据、地级市面板数据、县域面板数据、工具变量!热门主题包括新质生产力 …",
@@ -281,10 +281,23 @@
         "code": "hongyi",
         "company": "鸿翼",
         "industry": "智能体软件",
-        "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
-        "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
-        "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
-        "source": "www.gov.cn",
+        "title": "2026年5月8日,国家网信办、发改委、工信部联合印发《智能体规范应用与创新发展_财富号_东方财富网",
+        "summary": "3. 公司被市场归类为 AI 智能体 标的 券商 / 行情软件已将捷成股份纳入AI 智能体板块,政策落地后资金关注度与流动性有望提升. 2. 政策直接利好...",
+        "url": "https://caifuhao.eastmoney.com/news/20260508195911842616260?from=guba&gubaurl=aHR0cDovL2d1YmFmMTAuZWFzdG1vbmV5LmNvbS9saXN0LDMwMDE4Mi5odG1s&name=5o235oiQ6IKh5Lu95ZCn",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "智能体软件 行业 政策 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "智能体软件",
+        "title": "2026新政解读:智能体与AI终端的 双向奔赴 ,AIoT产业迎来三大价值重构-36氪",
+        "summary": "《实施意见》明确把智能体定义为人工智能产品及服务的重要形态,并强调引导整机、软件等企业基于智能体研发产品和服务.第一枚,是国家网信办、国家发展改革委、工业和信息化部联合印发的《智能体...",
+        "url": "https://36kr.com/p/3806082901122568",
+        "source": "36kr.com",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 1.5,
@@ -294,10 +307,10 @@
         "code": "hongyi",
         "company": "鸿翼",
         "industry": "智能体软件",
-        "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知 ...",
-        "summary": "2026年4月2日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会、全国教育大会精神，全面贯 …",
-        "url": "https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
-        "source": "www.moe.gov.cn",
+        "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
+        "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
+        "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
+        "source": "www.gov.cn",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 1.5,
@@ -512,8 +525,8 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
       "industry": "数据",
       "title": "数据 - 国家统计局",
       "summary": "数据发布 2026年7月份居民消费价格同比上涨0.5% 2026年7月份工业生产者出厂价格同比上涨3.5% 2026-08-09 2026年7月下旬流通 …",
@@ -525,8 +538,8 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
       "industry": "数据",
       "title": "《全国数据资源调查报告（2025年）》正式发布-国家数据局",
       "summary": "2026年4月29日 · 调查结果显示，我国数据要素市场化价值化进程显著提速，数据资源供给体系、数据流通体系和数据开发利用体系协 …",
@@ -616,6 +629,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "数据",
+      "title": "国家数据局",
+      "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
+      "url": "https://www.nda.gov.cn/sjj/index_pc.html",
+      "source": "www.nda.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "数据 行业 政策 2026"
+    },
+    {
       "code": "acquisition-listed",
       "company": "收购上市公司研究",
       "industry": "收购研究",
@@ -655,19 +681,6 @@
       "query": "收购研究 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "国家数据局",
-      "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
-      "url": "https://www.nda.gov.cn/sjj/index_pc.html",
-      "source": "www.nda.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "数据 行业 政策 2026"
-    },
-    {
       "code": "hangtianjings",
       "company": "航天精工",
       "industry": "军工",
@@ -688,6 +701,19 @@
       "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
       "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
       "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "智能体软件 行业 政策 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "智能体软件",
+      "title": "2026年5月8日,国家网信办、发改委、工信部联合印发《智能体规范应用与创新发展_财富号_东方财富网",
+      "summary": "3. 公司被市场归类为 AI 智能体 标的 券商 / 行情软件已将捷成股份纳入AI 智能体板块,政策落地后资金关注度与流动性有望提升. 2. 政策直接利好...",
+      "url": "https://caifuhao.eastmoney.com/news/20260508195911842616260?from=guba&gubaurl=aHR0cDovL2d1YmFmMTAuZWFzdG1vbmV5LmNvbS9saXN0LDMwMDE4Mi5odG1s&name=5o235oiQ6IKh5Lu95ZCn",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 2.5,
@@ -785,8 +811,8 @@
       "query": "并购标的汇总 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
       "industry": "数据",
       "title": "马克数据网—社科数据共享平台",
       "summary": "包括论文复刻、上市公司数据、世界经济数据、省级面板数据、地级市面板数据、县域面板数据、工具变量!热门主题包括新质生产力 …",
@@ -876,32 +902,6 @@
       "query": "军工 行业 政策 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "智能体软件",
-      "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
-      "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
-      "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
-      "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "智能体软件",
-      "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知 ...",
-      "summary": "2026年4月2日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会、全国教育大会精神，全面贯 …",
-      "url": "https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
-      "source": "www.moe.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "智能体软件 行业 政策 2026"
-    },
-    {
       "code": "aodian",
       "company": "奥联电子",
       "industry": "汽车电子",
@@ -913,6 +913,32 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "汽车电子 行业 政策 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "智能体软件",
+      "title": "2026新政解读:智能体与AI终端的 双向奔赴 ,AIoT产业迎来三大价值重构-36氪",
+      "summary": "《实施意见》明确把智能体定义为人工智能产品及服务的重要形态,并强调引导整机、软件等企业基于智能体研发产品和服务.第一枚,是国家网信办、国家发展改革委、工业和信息化部联合印发的《智能体...",
+      "url": "https://36kr.com/p/3806082901122568",
+      "source": "36kr.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "智能体软件 行业 政策 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "智能体软件",
+      "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
+      "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
+      "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
+      "source": "www.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "智能体软件 行业 政策 2026"
     },
     {
       "code": "chuangdu",
