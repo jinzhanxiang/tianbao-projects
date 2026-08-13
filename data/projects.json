@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T00:03:55+08:00",
+  "generated_at": "2026-08-14T00:20:57+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 25,
   "stage_v3_enum": [
@@ -639,7 +639,7 @@
       "stage_v3": "储备",
       "iss": "上市",
       "industry": "航空维修·高端装备",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9_%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260813.html",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260814.html",
       "dashboard_url": "",
       "online_index": "",
       "repo": "tianbao-projects",
@@ -652,7 +652,7 @@
       "estimation": "",
       "downgrade_reason": "",
       "deploy_date": "2026-07-31",
-      "last_update": "2026-07-31",
+      "last_update": "2026-08-14",
       "notes": "V25.1.18 控股并购可行性研究（天津海特飞机工程 MRO / A321 客改货）",
       "pending_tasks": "stage_v3 待主公确认（暂置储备）",
       "archived": false
