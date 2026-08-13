@@ -1,10 +1,24 @@
 {
-  "generated_at": "2026-08-13T15:41:51+08:00",
+  "generated_at": "2026-08-13T17:36:08+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 47,
   "total_active": 42,
   "total_archived_cached": 5,
   "by_code": {
+    "5个标的反向匹配汇总": [
+      {
+        "code": "5个标的反向匹配汇总",
+        "date": "2026-08-13",
+        "category": "未分类",
+        "title": "5 个潜在并购标的公司反向匹配汇总",
+        "file": "5个标的反向匹配汇总_V3_纯化版_20260813.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md",
+        "size": 11045,
+        "mtime": "2026-08-13T16:38:36+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md"
+      }
+    ],
     "chuangdu": [
       {
         "code": "chuangdu",
@@ -360,6 +374,21 @@
         "mtime": "2026-07-30T10:52:05+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/%E8%88%AA%E5%A4%A9%E5%AE%8F%E5%9B%BE_%E7%A0%B4%E4%BA%A7%E9%87%8D%E6%95%B4%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7_V25.html"
+      }
+    ],
+    "hangtianjings": [
+      {
+        "code": "hangtianjings",
+        "date": "2026-08-13",
+        "category": "商业研究",
+        "title": "航天精工股份有限公司（A03297.SH）投资可行性研究报告",
+        "file": "航天精工_综合研究报告_20260813.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
+        "size": 75417,
+        "mtime": "2026-08-13T17:29:03+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
+        "_archived": true
       }
     ],
     "sumai": [
@@ -1525,6 +1554,36 @@
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hangtianhongtu/%E8%88%AA%E5%A4%A9%E5%AE%8F%E5%9B%BE_%E7%A0%B4%E4%BA%A7%E9%87%8D%E6%95%B4%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7_V25.html"
       }
     ],
+    "军工": [
+      {
+        "code": "hangtianjings",
+        "date": "2026-08-13",
+        "category": "商业研究",
+        "title": "航天精工股份有限公司（A03297.SH）投资可行性研究报告",
+        "file": "航天精工_综合研究报告_20260813.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
+        "size": 75417,
+        "mtime": "2026-08-13T17:29:03+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
+        "_archived": true
+      }
+    ],
+    "航空航天": [
+      {
+        "code": "hangtianjings",
+        "date": "2026-08-13",
+        "category": "商业研究",
+        "title": "航天精工股份有限公司（A03297.SH）投资可行性研究报告",
+        "file": "航天精工_综合研究报告_20260813.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
+        "size": 75417,
+        "mtime": "2026-08-13T17:29:03+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/航天精工/output/航天精工_综合研究报告_20260813.html",
+        "_archived": true
+      }
+    ],
     "光电治疗": [
       {
         "code": "sumai",
@@ -1965,13 +2024,9 @@
     ]
   },
   "quarantine_codes": [
-    "hongyi",
-    "htco-us",
-    "mifeng",
-    "tianbao-jijian",
-    "unicom-idc"
+    "未归类"
   ],
-  "_last_cleanup": "2026-08-13T15:41:51.809862",
+  "_last_cleanup": "2026-08-13T17:36:08.788313",
   "_cleanup_stats": {
     "dup_title_date": 3,
     "superseded": 8,
@@ -1981,12 +2036,5 @@
     "intermediate:v_standard_mode": 1,
     "intermediate:cooperation_package": 1,
     "quarantine_full": 2
-  },
-  "quarantine_reasons": {
-    "hongyi": "已归档/无台账记录",
-    "htco-us": "已归档/无台账记录",
-    "mifeng": "已归档/无台账记录",
-    "tianbao-jijian": "已归档/无台账记录",
-    "unicom-idc": "已归档/无台账记录"
   }
 }
