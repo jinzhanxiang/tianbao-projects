@@ -1,67 +1,67 @@
 {
   "counts": {
     "reports": 227,
-    "relations": 11712,
+    "relations": 11614,
     "indicators": 26528,
-    "entities": 7958,
+    "entities": 7845,
     "chunks": 49086
   },
   "industries": [
     {
       "name": "新能源电池行业",
-      "count": 1024
+      "count": 999
     },
     {
       "name": "半导体",
-      "count": 702
+      "count": 700
     },
     {
       "name": "人工智能",
-      "count": 651
+      "count": 643
     },
     {
       "name": "消费",
-      "count": 600
+      "count": 594
     },
     {
       "name": "金融",
-      "count": 541
-    },
-    {
-      "name": "电力设备",
-      "count": 397
+      "count": 536
     },
     {
       "name": "医疗健康",
-      "count": 394
+      "count": 386
     },
     {
-      "name": "电子",
-      "count": 287
-    },
-    {
-      "name": "计算机",
-      "count": 286
+      "name": "电力设备",
+      "count": 381
     },
     {
       "name": "机械设备",
-      "count": 286
+      "count": 285
+    },
+    {
+      "name": "计算机",
+      "count": 284
+    },
+    {
+      "name": "电子",
+      "count": 283
     },
     {
       "name": "新能源",
-      "count": 281
+      "count": 278
     },
     {
       "name": "汽车零部件",
-      "count": 259
+      "count": 256
     },
     {
       "name": "高端装备制造",
-      "count": 232
+      "count": 228
     },
     {
       "name": "新能源汽车",
-      "count": 174
+      "count": 171
     },
     {
       "name": "医药/医疗",
@@ -69,19 +69,19 @@
     },
     {
       "name": "交通运输",
-      "count": 146
-    },
-    {
-      "name": "新材料",
-      "count": 139
+      "count": 141
     },
     {
       "name": "有色金属",
       "count": 139
     },
     {
+      "name": "新材料",
+      "count": 138
+    },
+    {
       "name": "化工",
-      "count": 132
+      "count": 131
     },
     {
       "name": "军工",
@@ -89,31 +89,31 @@
     },
     {
       "name": "轻工制造",
-      "count": 94
+      "count": 91
     },
     {
       "name": "大数据",
-      "count": 92
+      "count": 91
     },
     {
       "name": "汽车",
-      "count": 87
-    },
-    {
-      "name": "低空经济",
       "count": 82
     },
     {
-      "name": "环保",
-      "count": 80
+      "name": "低空经济",
+      "count": 81
     },
     {
-      "name": "机械/军工",
-      "count": 63
+      "name": "环保",
+      "count": 78
     },
     {
       "name": "食品饮料",
       "count": 63
+    },
+    {
+      "name": "机械/军工",
+      "count": 62
     },
     {
       "name": "光伏设备",
@@ -140,11 +140,11 @@
       "count": 35
     },
     {
-      "name": "医药",
-      "count": 31
+      "name": "钢铁",
+      "count": 30
     },
     {
-      "name": "钢铁",
+      "name": "医药",
       "count": 30
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "name": "农业",
-      "count": 19
+      "count": 18
     },
     {
       "name": "地产",
@@ -204,12 +204,16 @@
       "count": 4
     },
     {
-      "name": "证券",
+      "name": "宏观分析",
       "count": 2
     },
     {
-      "name": "宏观分析",
-      "count": 2
+      "name": "制造-主题研究",
+      "count": 1
+    },
+    {
+      "name": "证券",
+      "count": 1
     },
     {
       "name": "科技/互联网",
@@ -226,36 +230,32 @@
     {
       "name": "能源",
       "count": 1
-    },
-    {
-      "name": "制造-主题研究",
-      "count": 1
     }
   ],
   "entity_types": [
     {
       "type": "ORG",
-      "count": 2893
+      "count": 2818
     },
     {
       "type": "PRODUCT",
-      "count": 1524
+      "count": 1516
     },
     {
       "type": "TECH",
-      "count": 1142
+      "count": 1140
     },
     {
       "type": "INDUSTRY",
-      "count": 871
+      "count": 863
     },
     {
       "type": "POLICY",
-      "count": 582
+      "count": 564
     },
     {
       "type": "PERSON",
-      "count": 521
+      "count": 519
     },
     {
       "type": "PLACE",
@@ -333,7 +333,7 @@
       "name": "华为",
       "type": "ORG",
       "industry": "半导体/芯片",
-      "connections": 63
+      "connections": 62
     },
     {
       "name": "百奥赛图",
@@ -377,55 +377,55 @@
   "relations": [
     {
       "name": "对比",
-      "count": 3593
+      "count": 3583
     },
     {
       "name": "合作",
-      "count": 1471
+      "count": 1438
     },
     {
       "name": "供应",
-      "count": 1336
+      "count": 1328
     },
     {
       "name": "竞争",
-      "count": 1128
+      "count": 1121
     },
     {
       "name": "监管",
-      "count": 1110
+      "count": 1100
     },
     {
       "name": "上下游",
-      "count": 1043
+      "count": 1042
     },
     {
       "name": "客户",
-      "count": 535
+      "count": 530
     },
     {
       "name": "投资",
-      "count": 440
+      "count": 429
     },
     {
       "name": "战略联盟",
-      "count": 257
+      "count": 253
     },
     {
       "name": "股东",
-      "count": 205
+      "count": 204
     },
     {
       "name": "子公司",
-      "count": 204
+      "count": 198
     },
     {
       "name": "技术链",
       "count": 178
     }
   ],
-  "updated_at": "2026-08-12 02:01:06",
-  "total_relations": 11712,
-  "total_entities": 7958,
+  "updated_at": "2026-08-14 02:01:23",
+  "total_relations": 11614,
+  "total_entities": 7845,
   "total_reports": 227
 }
