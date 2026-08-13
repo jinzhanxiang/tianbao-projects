@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T00:53:18+08:00",
+  "generated_at": "2026-08-14T01:08:27+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 36,
@@ -90,7 +90,7 @@
         "company": "四川 IDC",
         "industry": "数据",
         "title": "国家数据局",
-        "summary": "16 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
+        "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
         "url": "https://www.nda.gov.cn/sjj/index_pc.html",
         "source": "www.nda.gov.cn",
         "date": "",
@@ -263,47 +263,6 @@
         "query": "收购研究 行业 政策 2026"
       }
     ],
-    "智能体软件": [
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "智能体软件",
-        "title": "【【专家观点】政府工作报告首提“智能经济”，是什么？怎么 ...",
-        "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
-        "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "智能体软件 行业 政策 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "智能体软件",
-        "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
-        "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
-        "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "智能体软件 行业 政策 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "智能体软件",
-        "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知 ...",
-        "summary": "2026年4月2日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会、全国教育大会精神，全面贯 …",
-        "url": "https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
-        "source": "www.moe.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "智能体软件 行业 政策 2026"
-      }
-    ],
     "基建": [
       {
         "code": "tianbao-jijian",
@@ -345,6 +304,47 @@
         "query": "基建 行业 政策 2026"
       }
     ],
+    "智能体软件": [
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "智能体软件",
+        "title": "【【专家观点】政府工作报告首提“智能经济”，是什么？怎么 ...",
+        "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
+        "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "智能体软件 行业 政策 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "智能体软件",
+        "title": "国务院关于深入实施“人工智能+”行动的意见__2025年第25号 ...",
+        "summary": "2025年8月21日 · 为深入实施“人工智能+”行动，推动人工智能与经济社会各行业各领域广泛深度融合，重塑人类生产生活范式，促进生 …",
+        "url": "https://www.gov.cn/gongbao/2025/issue_12266/202509/content_7039598.html",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "智能体软件 行业 政策 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "智能体软件",
+        "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知 ...",
+        "summary": "2026年4月2日 · 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会、全国教育大会精神，全面贯 …",
+        "url": "https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",
+        "source": "www.moe.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "智能体软件 行业 政策 2026"
+      }
+    ],
     "并购标的汇总": [
       {
         "code": "fxpp",
@@ -363,13 +363,13 @@
         "code": "fxpp",
         "company": "5个标的反向匹配汇总",
         "industry": "并购标的汇总",
-        "title": "年内A股并购重组规模达1.29万亿元_腾讯新闻",
-        "summary": "2 天之前 · 今年以来，A股市场并购重组交易热度持续。据Wind数据统计，以首次披露日期为口径，截至目前，年内A股新增并购重组 …",
-        "url": "https://news.qq.com/rain/a/20260811A041U400",
+        "title": "一次性说清公司并购过程中的15大流程129个细节_腾讯新闻",
+        "summary": "2024年8月30日 · 在纵向收购时，由于收购方对于本行业的相关情况及运作模式都有较充分的理解，且在行业发展研究、人力资源、管 …",
+        "url": "https://news.qq.com/rain/a/20240830A082B300",
         "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 1.5,
+        "score": 2.5,
         "query": "并购标的汇总 行业 政策 2026"
       },
       {
@@ -405,7 +405,7 @@
         "company": "柯渡医学",
         "industry": "医疗健康",
         "title": "国家医疗保障局",
-        "summary": "16 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
+        "summary": "17 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
         "url": "https://www.nhsa.gov.cn/",
         "source": "www.nhsa.gov.cn",
         "date": "",
@@ -620,7 +620,7 @@
       "company": "四川 IDC",
       "industry": "数据",
       "title": "国家数据局",
-      "summary": "16 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
+      "summary": "17 小时之前 · 文字实录 | 2026中国国际大数据产业博览会新闻发布会 新闻发布会 | 2026中国国际大数据产业博览会新闻发布会 APEC …",
       "url": "https://www.nda.gov.cn/sjj/index_pc.html",
       "source": "www.nda.gov.cn",
       "date": "",
@@ -681,19 +681,6 @@
       "query": "军工 行业 政策 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "智能体软件",
-      "title": "【【专家观点】政府工作报告首提“智能经济”，是什么？怎么 ...",
-      "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
-      "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
-      "source": "www.ndrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "智能体软件 行业 政策 2026"
-    },
-    {
       "code": "tianbao-jijian",
       "company": "天保基建",
       "industry": "基建",
@@ -733,6 +720,19 @@
       "query": "基建 行业 政策 2026"
     },
     {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "智能体软件",
+      "title": "【【专家观点】政府工作报告首提“智能经济”，是什么？怎么 ...",
+      "summary": "2026年3月13日 · 在朱克力看来，智能经济是数字经济的更高形态，把“智能”作为新一代经济形态的核心特征，意味着我们的政策重 …",
+      "url": "https://www.ndrc.gov.cn/wsdwhfz/202603/t20260313_1404128.html",
+      "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "智能体软件 行业 政策 2026"
+    },
+    {
       "code": "qingdao-heli",
       "company": "青岛直升机",
       "industry": "低空经济",
@@ -766,6 +766,19 @@
       "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
       "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
       "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
+      "title": "一次性说清公司并购过程中的15大流程129个细节_腾讯新闻",
+      "summary": "2024年8月30日 · 在纵向收购时，由于收购方对于本行业的相关情况及运作模式都有较充分的理解，且在行业发展研究、人力资源、管 …",
+      "url": "https://news.qq.com/rain/a/20240830A082B300",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 2.5,
@@ -815,7 +828,7 @@
       "company": "柯渡医学",
       "industry": "医疗健康",
       "title": "国家医疗保障局",
-      "summary": "16 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
+      "summary": "17 小时之前 · 中华人民共和国国家医疗保障局官方网站，权威发布医疗保障政策法规、医保药品目录、异地就医结算、医保基金监管 …",
       "url": "https://www.nhsa.gov.cn/",
       "source": "www.nhsa.gov.cn",
       "date": "",
@@ -863,6 +876,19 @@
       "query": "军工 行业 政策 2026"
     },
     {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "汽车电子",
+      "title": "新浪汽车 - 汽车生活源动力！",
+      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
+      "url": "https://auto.sina.com.cn/",
+      "source": "auto.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "汽车电子 行业 政策 2026"
+    },
+    {
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
@@ -887,19 +913,6 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "新浪汽车 - 汽车生活源动力！",
-      "summary": "2026年7月25日 · 销售告知我们，可以利用我名下的车辆办理置换补贴，具体操作方式为：不需要真实卖车，只需花费600元去二手车 …",
-      "url": "https://auto.sina.com.cn/",
-      "source": "auto.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "汽车电子 行业 政策 2026"
     },
     {
       "code": "chuangdu",
@@ -939,19 +952,6 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "工业 AI 行业 政策 2026"
-    },
-    {
-      "code": "fxpp",
-      "company": "5个标的反向匹配汇总",
-      "industry": "并购标的汇总",
-      "title": "年内A股并购重组规模达1.29万亿元_腾讯新闻",
-      "summary": "2 天之前 · 今年以来，A股市场并购重组交易热度持续。据Wind数据统计，以首次披露日期为口径，截至目前，年内A股新增并购重组 …",
-      "url": "https://news.qq.com/rain/a/20260811A041U400",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "并购标的汇总 行业 政策 2026"
     },
     {
       "code": "fxpp",
