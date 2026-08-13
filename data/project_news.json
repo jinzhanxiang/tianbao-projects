@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T02:15:20+08:00",
+  "generated_at": "2026-08-14T02:28:59+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 34,
+  "total": 37,
   "by_industry": {
     "硬科技": [
       {
@@ -58,45 +58,58 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "收购研究": [
+    "航空维修": [
       {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
-        "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
-        "url": "http://news.sohu.com/a/611143183_121123915",
-        "source": "news.sohu.com",
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "航空维修",
+        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
+        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
+        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
+        "source": "fund.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 5.5,
-        "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
+        "query": "海特高新 新闻 2026"
       },
       {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-        "url": "https://www.sohu.com/a/902656138_122063492",
-        "source": "www.sohu.com",
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "航空维修",
+        "title": "海特高新:将于2026年05月22日召开2025年年度股东大会 _ 东方财富网",
+        "summary": "2026年5月22日 - 海特高新将于2026年05月22日(星期五)下午14:00,在四川省成都市高新区科园南路1号海特国际广场3号楼1楼会议室召开2025年年度股东大会。",
+        "url": "https://finance.eastmoney.com/a/202605213745183414.html",
+        "source": "finance.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
+        "score": 4.5,
+        "query": "海特高新 新闻 2026"
       },
       {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "2026年收购大潮真来了？这2类房子可能被集中收购，手里有 ...",
-        "summary": "2 天之前 · 2026年8月，市场上关于\"房子将被大量收购\"的说法再次升温。 最容易出现的误判，是把政策性收购理解成社会资本到处扫 …",
-        "url": "https://news.qq.com/rain/a/20260811A0C3P700",
-        "source": "news.qq.com",
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "航空维修",
+        "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
+        "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
+        "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
+        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
+        "score": 4.5,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "航空维修",
+        "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
+        "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
+        "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
+        "source": "finance.sina.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "海特高新 新闻 2026"
       }
     ],
     "数据": [
@@ -263,6 +276,47 @@
         "query": "低空经济 行业 政策 2026"
       }
     ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
+        "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
+        "url": "https://www.sohu.com/a/902656138_122063492",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "2026年收购大潮真来了？这2类房子可能被集中收购，手里有 ...",
+        "summary": "2 天之前 · 2026年8月，市场上关于\"房子将被大量收购\"的说法再次升温。 最容易出现的误判，是把政策性收购理解成社会资本到处扫 …",
+        "url": "https://news.qq.com/rain/a/20260811A0C3P700",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "收购研究 行业 政策 2026"
+      }
+    ],
     "智能体软件": [
       {
         "code": "hongyi",
@@ -305,19 +359,6 @@
       }
     ],
     "并购标的汇总": [
-      {
-        "code": "fxpp",
-        "company": "5个标的反向匹配汇总",
-        "industry": "并购标的汇总",
-        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-        "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
-        "url": "https://news.qq.com/rain/a/20241106A08NP500",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "并购标的汇总 行业 政策 2026"
-      },
       {
         "code": "fxpp",
         "company": "5个标的反向匹配汇总",
@@ -484,17 +525,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "中诚信国际:城投企业收购上市公司研究_股权_浙江省_广东省",
-      "summary": "单独采用协议收购的样本占比最高(数量占比31.58%、金额占比39.24%),实现控制时的股权持股比例一般接近30%;其次是协议收购+转让方表决权委托(数量占比3...",
-      "url": "http://news.sohu.com/a/611143183_121123915",
-      "source": "news.sohu.com",
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "航空维修",
+      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
+      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
+      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
+      "source": "fund.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 5.5,
-      "query": "\"收购上市公司研究\" 公告 签约 中标 投资"
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "航空维修",
+      "title": "海特高新:将于2026年05月22日召开2025年年度股东大会 _ 东方财富网",
+      "summary": "2026年5月22日 - 海特高新将于2026年05月22日(星期五)下午14:00,在四川省成都市高新区科园南路1号海特国际广场3号楼1楼会议室召开2025年年度股东大会。",
+      "url": "https://finance.eastmoney.com/a/202605213745183414.html",
+      "source": "finance.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.5,
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "航空维修",
+      "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
+      "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
+      "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.5,
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "航空维修",
+      "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
+      "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
+      "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
+      "source": "finance.sina.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "海特高新 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -614,6 +694,45 @@
       "query": "数据 行业 政策 2026"
     },
     {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+      "summary": "2024年11月6日 · 收购协议必然要对收购所涉及的所有问题作出统一安排，协议一旦签署，在无须审批生效的情况，协议立即生效并对 …",
+      "url": "https://news.qq.com/rain/a/20241106A08NP500",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
+      "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
+      "url": "https://www.sohu.com/a/902656138_122063492",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "2026年收购大潮真来了？这2类房子可能被集中收购，手里有 ...",
+      "summary": "2 天之前 · 2026年8月，市场上关于\"房子将被大量收购\"的说法再次升温。 最容易出现的误判，是把政策性收购理解成社会资本到处扫 …",
+      "url": "https://news.qq.com/rain/a/20260811A0C3P700",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
       "code": "hangtianjings",
       "company": "航天精工",
       "industry": "军工",
@@ -669,19 +788,6 @@
       "code": "fxpp",
       "company": "5个标的反向匹配汇总",
       "industry": "并购标的汇总",
-      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-      "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
-      "url": "https://news.qq.com/rain/a/20241106A08NP500",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "并购标的汇总 行业 政策 2026"
-    },
-    {
-      "code": "fxpp",
-      "company": "5个标的反向匹配汇总",
-      "industry": "并购标的汇总",
       "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
       "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
       "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
@@ -703,32 +809,6 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "并购标的汇总 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "企业收购全流程拆解：核心步骤、方式对比与风险规避策略",
-      "summary": "2025年6月9日 · 如果收购的是上市公司或集团子公司、分支机构，则目标公司的管理团队直接向目标公司发出收购要约，在双方共同 …",
-      "url": "https://www.sohu.com/a/902656138_122063492",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "2026年收购大潮真来了？这2类房子可能被集中收购，手里有 ...",
-      "summary": "2 天之前 · 2026年8月，市场上关于\"房子将被大量收购\"的说法再次升温。 最容易出现的误判，是把政策性收购理解成社会资本到处扫 …",
-      "url": "https://news.qq.com/rain/a/20260811A0C3P700",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
