@@ -1,25 +1,10 @@
 {
-  "generated_at": "2026-08-14T09:21:22+08:00",
+  "generated_at": "2026-08-14T09:29:08+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 48,
   "total_active": 45,
   "total_archived_cached": 3,
   "by_code": {
-    "fxpp": [
-      {
-        "code": "fxpp",
-        "date": "2026-08-13",
-        "category": "未分类",
-        "title": "5 个潜在并购标的公司反向匹配汇总",
-        "file": "5个标的反向匹配汇总_V3_纯化版_20260813.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md",
-        "size": 11045,
-        "mtime": "2026-08-13T16:38:36+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md",
-        "_archived": true
-      }
-    ],
     "chuangdu": [
       {
         "code": "chuangdu",
@@ -351,13 +336,13 @@
         "code": "海特飞机",
         "date": "2026-08-14",
         "category": "商业研究",
-        "title": "天保控股低空公司收购天津海特飞机工程有限公司控股权可行性研究 · §22-§26 决策支持 · 2026-08-14",
-        "file": "海特飞机_§22-§26决策支持_20260814.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§22-§26决策支持_20260814.html",
-        "size": 25269,
-        "mtime": "2026-08-14T09:20:59+08:00",
+        "title": "天保控股低空公司收购天津海特飞机工程有限公司控股权可行性研究 · §6-§12 横向分析 · 2026-08-14",
+        "file": "海特飞机_§6-§12横向分析_20260814.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§6-§12横向分析_20260814.html",
+        "size": 29710,
+        "mtime": "2026-08-14T09:17:34+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§22-§26决策支持_20260814.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§6-§12横向分析_20260814.html"
       },
       {
         "code": "海特飞机",
@@ -792,21 +777,6 @@
     ]
   },
   "by_industry": {
-    "并购标的汇总": [
-      {
-        "code": "fxpp",
-        "date": "2026-08-13",
-        "category": "未分类",
-        "title": "5 个潜在并购标的公司反向匹配汇总",
-        "file": "5个标的反向匹配汇总_V3_纯化版_20260813.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md",
-        "size": 11045,
-        "mtime": "2026-08-13T16:38:36+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/5个标的反向匹配汇总/output/5个标的反向匹配汇总_V3_纯化版_20260813.md",
-        "_archived": true
-      }
-    ],
     "工业": [
       {
         "code": "chuangdu",
@@ -2086,10 +2056,10 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-14T09:21:22.322963",
+  "_last_cleanup": "2026-08-14T09:29:08.266541",
   "_cleanup_stats": {
-    "dup_title_date": 3,
-    "superseded": 10,
+    "dup_title_date": 4,
+    "superseded": 11,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
