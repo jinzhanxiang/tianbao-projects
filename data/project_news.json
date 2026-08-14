@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:36:42+08:00",
+  "generated_at": "2026-08-14T08:49:38+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 33,
@@ -19,56 +19,17 @@
         "query": "华阳 新闻 2026"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
+        "code": "huayt",
+        "company": "华阳集团",
         "industry": "硬科技",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2026年2月2日 - 北京宏远创信能源科技有限公司 与北京宏远创信能源科技有限公司有关的项目共85条,分别是宏远创信办公室装修项目,宏远创信办公室装修项目-固资审批公开...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
-        "source": "www.bidcenter.com.cn",
+        "title": "发改委放大招!2026年 两新 政策升级,万亿资本剑指硬科技_财富号_东方财富网",
+        "summary": "1000亿超长期特别国债启动国家创业投资引导基金,目标万亿规模,投早、投小、投硬科技,存续期拉到20年,取消返投限制.这背后逻辑很清晰:政策红...",
+        "url": "https://caifuhao.eastmoney.com/news/20251231210930016165890",
+        "source": "caifuhao.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "硬科技",
-        "title": "北京宏远创信能源科技有限公司-北京宏远",
-        "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
-        "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
+        "score": 3.5,
+        "query": "硬科技 行业 政策 2026"
       },
       {
         "code": "huayt",
@@ -95,19 +56,60 @@
         "fetched_at": "2026-08-14",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "动力电池": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
+        "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
+        "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
+        "source": "www.worldmr.net",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
       },
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "硬科技",
-        "title": "公司简介-惠州华阳通用电子有限公司官方网站",
-        "summary": "惠州华阳通用电子有限公司成立于2002年，是惠州市华阳集团股份有限公司（股票代码：002906）的全资子公司。 公司深耕汽车电子 …",
-        "url": "https://www.foryouge.com/company_profile.html",
-        "source": "www.foryouge.com",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
+        "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
+        "url": "https://www.jobui.com/company/12781277/news/",
+        "source": "www.jobui.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "星恒电源完成数亿元融资 年产4GWh锂电池项目已封顶_电池网",
+        "summary": "近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。 近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。",
+        "url": "https://www.itdcw.com/news/focus/110Q44P92024.html",
+        "source": "www.itdcw.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "动力电池",
+        "title": "星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动三轮车用户谁没被 电池沉 绊过手?搬48V50Ah的电池得憋足劲,赶上拉满货,电池占重...",
+        "summary": "星恒电源股份有限公司法定代表人:冯笑 | 注册资本:32157.5068万人民币 | 成立日期:2003-12-18.星恒电源股份有限公司怎么了?星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动...",
+        "url": "https://news.tianyancha.com/ll_7gt16ep98l.html",
+        "source": "news.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "query": "星恒电源 新闻 2026"
       }
     ],
     "数据": [
@@ -469,56 +471,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2026年2月2日 - 北京宏远创信能源科技有限公司 与北京宏远创信能源科技有限公司有关的项目共85条,分别是宏远创信办公室装修项目,宏远创信办公室装修项目-固资审批公开...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
-      "source": "www.bidcenter.com.cn",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
+      "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
+      "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
+      "source": "www.worldmr.net",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
+      "query": "星恒电源 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-      "source": "www.bidizhaobiao.com",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
+      "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
+      "url": "https://www.jobui.com/company/12781277/news/",
+      "source": "www.jobui.com",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
+      "query": "星恒电源 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "星恒电源完成数亿元融资 年产4GWh锂电池项目已封顶_电池网",
+      "summary": "近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。 近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。",
+      "url": "https://www.itdcw.com/news/focus/110Q44P92024.html",
+      "source": "www.itdcw.com",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "硬科技",
-      "title": "北京宏远创信能源科技有限公司-北京宏远",
-      "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
-      "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
+      "query": "星恒电源 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -560,6 +549,19 @@
       "query": "可信数据空间 行业 政策 2026"
     },
     {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "硬科技",
+      "title": "发改委放大招!2026年 两新 政策升级,万亿资本剑指硬科技_财富号_东方财富网",
+      "summary": "1000亿超长期特别国债启动国家创业投资引导基金,目标万亿规模,投早、投小、投硬科技,存续期拉到20年,取消返投限制.这背后逻辑很清晰:政策红...",
+      "url": "https://caifuhao.eastmoney.com/news/20251231210930016165890",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.5,
+      "query": "硬科技 行业 政策 2026"
+    },
+    {
       "code": "qingdao-heli",
       "company": "青岛直升机",
       "industry": "低空经济",
@@ -571,6 +573,19 @@
       "fetched_at": "2026-08-14",
       "score": 3.5,
       "query": "低空经济 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "动力电池",
+      "title": "星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动三轮车用户谁没被 电池沉 绊过手?搬48V50Ah的电池得憋足劲,赶上拉满货,电池占重...",
+      "summary": "星恒电源股份有限公司法定代表人:冯笑 | 注册资本:32157.5068万人民币 | 成立日期:2003-12-18.星恒电源股份有限公司怎么了?星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动...",
+      "url": "https://news.tianyancha.com/ll_7gt16ep98l.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.0,
+      "query": "星恒电源 新闻 2026"
     },
     {
       "code": "huayt",
@@ -592,19 +607,6 @@
       "title": "惠州华阳通用电子有限公司官方网站",
       "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
       "url": "https://www.foryouge.com/",
-      "source": "www.foryouge.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "硬科技",
-      "title": "公司简介-惠州华阳通用电子有限公司官方网站",
-      "summary": "惠州华阳通用电子有限公司成立于2002年，是惠州市华阳集团股份有限公司（股票代码：002906）的全资子公司。 公司深耕汽车电子 …",
-      "url": "https://www.foryouge.com/company_profile.html",
       "source": "www.foryouge.com",
       "date": "",
       "fetched_at": "2026-08-14",
@@ -651,32 +653,6 @@
       "query": "智能体软件 行业 政策 2026"
     },
     {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-      "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-      "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-      "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "低空经济 行业 政策 2026"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空经济",
-      "title": "低空司-国家发展和改革委员会",
-      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-      "source": "www.ndrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "低空经济 行业 政策 2026"
-    },
-    {
       "code": "fxpp",
       "company": "5个标的反向匹配汇总",
       "industry": "并购标的汇总",
@@ -701,6 +677,32 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+      "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+      "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+      "source": "www.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "低空经济 行业 政策 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空经济",
+      "title": "低空司-国家发展和改革委员会",
+      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+      "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "低空经济 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -768,6 +770,19 @@
       "query": "军工 行业 政策 2026"
     },
     {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "汽车电子",
+      "title": "新浪汽车 - 汽车生活源动力！",
+      "summary": "2025年12月9日 · 问题详情： 一、车辆基本情况，本人于2023年购买广汽埃安AIONS魅580]，车辆性质为合法合规的网络预约出租汽 …",
+      "url": "https://auto.sina.com.cn/",
+      "source": "auto.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "汽车电子 行业 政策 2026"
+    },
+    {
       "code": "hongyi",
       "company": "鸿翼",
       "industry": "智能体软件",
@@ -805,19 +820,6 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "汽车电子",
-      "title": "新浪汽车 - 汽车生活源动力！",
-      "summary": "2025年12月9日 · 问题详情： 一、车辆基本情况，本人于2023年购买广汽埃安AIONS魅580]，车辆性质为合法合规的网络预约出租汽 …",
-      "url": "https://auto.sina.com.cn/",
-      "source": "auto.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "汽车电子 行业 政策 2026"
     },
     {
       "code": "chuangdu",
