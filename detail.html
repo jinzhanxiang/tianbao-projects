@@ -941,12 +941,15 @@ body{
 
   function getEmoji(industry){
     if(!industry) return '🏢';
-    if(industry.includes('电池')) return '🔋';
-    if(industry.includes('医疗')) return '🏥';
-    if(industry.includes('芯片')) return '💎';
-    if(industry.includes('航天')) return '🛰️';
-    if(industry.includes('数据')) return '🖥️';
-    if(industry.includes('智能体')) return '🧠';
+    // 8 大硬性分类（2026-08-14 行业统一化）
+    if(industry.includes('生物')||industry.includes('医疗')||industry.includes('医药')||industry.includes('健康')) return '🏥';
+    if(industry.includes('航空')||industry.includes('航天')||industry.includes('低空')||industry.includes('卫星')||industry.includes('遥感')) return '🛰️';
+    if(industry.includes('新能源')||industry.includes('电池')||industry.includes('锂')||industry.includes('能源')) return '🔋';
+    if(industry.includes('半导体')||industry.includes('芯片')) return '💎';
+    if(industry.includes('AI')||industry.includes('智能')) return '🧠';
+    if(industry.includes('REIT')||industry.includes('IDC')||industry.includes('云')||industry.includes('数据中心')) return '🖥️';
+    if(industry.includes('制造')||industry.includes('装备')||industry.includes('材料')||industry.includes('数控')) return '⚙️';
+    if(industry.includes('其他')) return '🏢';
     return '🏢';
   }
 
