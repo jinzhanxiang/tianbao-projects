@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:29:21+08:00",
+  "generated_at": "2026-08-14T08:36:38+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 48,
   "total_active": 45,
@@ -188,6 +188,32 @@
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/detail.html?code=tianbao-jijian",
         "_archived": true
+      }
+    ],
+    "天创天保创投基金": [
+      {
+        "code": "天创天保创投基金",
+        "date": "2026-08-14",
+        "category": "未分类",
+        "title": "天创天保创投基金 · 专题会正式发言稿（v2 · 润色版）",
+        "file": "天创天保创投基金_专题会发言稿_v2_20260814.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天创天保创投基金/output/天创天保创投基金_专题会发言稿_v2_20260814.md",
+        "size": 11890,
+        "mtime": "2026-08-14T08:36:00+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天创天保创投基金/output/天创天保创投基金_专题会发言稿_v2_20260814.md"
+      },
+      {
+        "code": "天创天保创投基金",
+        "date": "2026-08-14",
+        "category": "未分类",
+        "title": "天创天保创投基金专题会 · 投资部负责人意见",
+        "file": "天创天保创投基金_专题会意见_20260814.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天创天保创投基金/output/天创天保创投基金_专题会意见_20260814.md",
+        "size": 13568,
+        "mtime": "2026-08-14T08:32:19+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/天创天保创投基金/output/天创天保创投基金_专题会意见_20260814.md"
       }
     ],
     "aodian": [
@@ -2034,7 +2060,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-14T08:29:21.154083",
+  "_last_cleanup": "2026-08-14T08:36:38.335425",
   "_cleanup_stats": {
     "dup_title_date": 3,
     "superseded": 8,
