@@ -1,64 +1,62 @@
 {
-  "generated_at": "2026-08-14T09:41:37+08:00",
+  "generated_at": "2026-08-14T09:55:40+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 36,
   "by_industry": {
-    "基建": [
+    "硬科技": [
       {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
-        "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
-        "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+        "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
         "source": "finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 6.5,
-        "query": "天保基建 新闻 2026"
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
       },
       {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
-        "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
-        "url": "https://finance.eastmoney.com/a/202607133803760816.html",
-        "source": "finance.eastmoney.com",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+        "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+        "url": "https://www.sohu.com/a/15891578_114737",
+        "source": "www.sohu.com",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 5.5,
-        "query": "天保基建 新闻 2026"
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
       },
       {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "天保基建(000965.SZ):2026年一季报净利润为6393.34万元、同比较去年同期下降36.29% | 界面新闻",
-        "summary": "2026年4月29日 - 年4月29日,天保基建(000965.SZ)发布2026年一季报,营业总收入为14.88亿元,同比较去年同期上涨777.93%,归母净利润为6393.34万元,同比较去年同期下降36.2...",
-        "url": "https://m.jiemian.com/article/14351866_sina.html",
-        "source": "m.jiemian.com",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "顺风清洁能源收购晶能光电控股权_中证网",
+        "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+        "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+        "source": "www.cs.com.cn",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 5.0,
-        "query": "天保基建 新闻 2026"
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
       },
       {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "基建",
-        "title": "天保基建:公司无法对天津空客总装公司2026年度的经营业绩进行预测",
-        "summary": "2025年12月15日 - 天保基建:公司无法对天津空客总装公司2026年度的经营业绩进行预测 2025-12-15 22:09:13来源: 15:证券日报网1706:分享 文章提及标的天保基建-- 证券日...",
-        "url": "https://news.10jqka.com.cn/20251215/c673229026.shtml",
-        "source": "news.10jqka.com.cn",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "硬科技",
+        "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
+        "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
+        "url": "https://www.elecfans.com/d/1450934.html",
+        "source": "www.elecfans.com",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 5.0,
-        "query": "天保基建 新闻 2026"
-      }
-    ],
-    "硬科技": [
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -110,6 +108,60 @@
         "fetched_at": "2026-08-14",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "可信数据空间": [
+      {
+        "code": "mifeng",
+        "company": "觅蜂",
+        "industry": "可信数据空间",
+        "title": "觅蜂科技宣布完成数亿元种子轮与天使轮 红杉中国领投_新浪科技_新浪网",
+        "summary": "此次融资将重点用于技术研发、产能扩充与全球化布局,以及构建全球顶尖数据质量管理体系及数据联盟,助力觅蜂科技夯实具身智能数据基础设施核...",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-02-13/doc-inhmrtim6161003.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"觅蜂\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "mifeng",
+        "company": "觅蜂",
+        "industry": "可信数据空间",
+        "title": "智元旗下觅蜂发布一站式物理 AI 数据服务平台|最前线-36氪",
+        "summary": "在发布会上,觅蜂宣布与京东云、百度云、阿里云、猎聘及贵州大数据集团等多家企业举行战略签约,各方将在数据生态、场景协同、算力支撑等领域...",
+        "url": "https://36kr.com/p/3769501816439555",
+        "source": "36kr.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"觅蜂\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "mifeng",
+        "company": "觅蜂",
+        "industry": "可信数据空间",
+        "title": "打造产业 宇宙 2月13日,智元控股的觅蜂科技宣布完成数亿元种子轮与天使轮融资,_财富号_东方财富网",
+        "summary": "2026年2月15日 - 龙旗科技、上汽金控等产业资本共同投资.举报郑重声明:用户在社区发表的所有信息将由本网站记录保存,仅代表作者个人观点,与本网站立场无关,不对您构成...",
+        "url": "https://caifuhao.eastmoney.com/news/20260215090030797657980",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"觅蜂\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "mifeng",
+        "company": "觅蜂",
+        "industry": "可信数据空间",
+        "title": "商道创投网·会员动态|觅蜂科技·完成数亿元种子轮与天使轮融资|投融资动态_网易订阅",
+        "summary": "2026年2月14日 - 觅蜂科技(Maniformer)是智元机器人体系内孵化并独立运作的具身智能数据平台企业,以 破解具身时代数据困局 为战略使命.技术层面,觅蜂科技已建立显著的...",
+        "url": "https://www.163.com/dy/article/KLOJCRHP0538700Y.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"觅蜂\" 公告 签约 中标 投资"
       }
     ],
     "数据": [
@@ -207,60 +259,6 @@
         "query": "军工 行业 政策 2026"
       }
     ],
-    "收购研究": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "创始人“开黄腔”争议刷屏，比格比萨被吐槽全是碳水，IPO何时 ...",
-        "summary": "1 天前 · IP流量是双刃剑。” 作者｜刘俊群 编辑｜刘钦文 8月12日晚上，比格比萨创始人赵志强被自己的一条评论送上了热搜。 此前， …",
-        "url": "https://news.qq.com/rain/a/20260813A0CSZM00?adChannelId=finance",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "“一看你照片破戒了”被质疑“开黄腔”，比格比萨创始人回应 ...",
-        "summary": "1 天前 · 近日，网传比格比萨创始人赵志强在抖音评论区回复一句“一看你照片破戒了”引发争议，被网友质疑“开黄腔”。 随后，赵志强 …",
-        "url": "https://www.sohu.com/a/1062255655_115479",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "比格比萨创始人评论“一看你照片破戒了”被质疑“开黄腔 ...",
-        "summary": "1 天前 · 8月12日晚， 比格比萨 创始人 赵志强 因抖音评论区一句“一看你照片破戒了”引发争议。面对网友关于其言论是否合适、是否“ …",
-        "url": "https://www.163.com/dy/article/L472Q1SJ05561G0D.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "收购研究 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "收购研究",
-        "title": "董事长评论“一看你照片破戒了”，被指“开黄腔”，品牌最新 ...",
-        "summary": "50 分钟之前 · 董事长评论“一看你照片破戒了”，被指“开黄腔”，品牌最新回应,比萨,比格,赵志强,招股书 8月12日，连锁比萨品牌比格比 …",
-        "url": "https://www.163.com/dy/article/L49G6CVV05129QAF.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "收购研究 行业 政策 2026"
-      }
-    ],
     "智能体软件": [
       {
         "code": "hongyi",
@@ -315,47 +313,6 @@
         "query": "智能体软件 行业 政策 2026"
       }
     ],
-    "并购标的汇总": [
-      {
-        "code": "fxpp",
-        "company": "5个标的反向匹配汇总",
-        "industry": "并购标的汇总",
-        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-        "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
-        "url": "https://news.qq.com/rain/a/20241106A08NP500",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "并购标的汇总 行业 政策 2026"
-      },
-      {
-        "code": "fxpp",
-        "company": "5个标的反向匹配汇总",
-        "industry": "并购标的汇总",
-        "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
-        "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
-        "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "并购标的汇总 行业 政策 2026"
-      },
-      {
-        "code": "fxpp",
-        "company": "5个标的反向匹配汇总",
-        "industry": "并购标的汇总",
-        "title": "我国并购市场深度变革与高质量发展路径-新华网",
-        "summary": "2026年3月10日 · 完善跨境并购外汇管理便利化措施，对符合国家战略的跨境并购实行“白名单”管理，简化资金出境审批流程。 建立技 …",
-        "url": "https://www3.xinhuanet.com/finance/20260310/b9195496c93847eaab1a03982248fd73/c.html",
-        "source": "www3.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "并购标的汇总 行业 政策 2026"
-      }
-    ],
     "低空经济": [
       {
         "code": "qingdao-heli",
@@ -408,6 +365,47 @@
         "fetched_at": "2026-08-14",
         "score": 2.0,
         "query": "低空经济 行业 政策 2026"
+      }
+    ],
+    "并购标的汇总": [
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
+        "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+        "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+        "url": "https://news.qq.com/rain/a/20241106A08NP500",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "并购标的汇总 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
+        "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
+        "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
+        "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "并购标的汇总 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "并购标的汇总",
+        "title": "我国并购市场深度变革与高质量发展路径-新华网",
+        "summary": "2026年3月10日 · 完善跨境并购外汇管理便利化措施，对符合国家战略的跨境并购实行“白名单”管理，简化资金出境审批流程。 建立技 …",
+        "url": "https://www3.xinhuanet.com/finance/20260310/b9195496c93847eaab1a03982248fd73/c.html",
+        "source": "www3.xinhuanet.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "并购标的汇总 行业 政策 2026"
       }
     ],
     "医疗健康": [
@@ -497,17 +495,56 @@
   },
   "items": [
     {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
-      "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
-      "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+      "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
       "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-14",
-      "score": 6.5,
-      "query": "天保基建 新闻 2026"
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+      "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+      "url": "https://www.sohu.com/a/15891578_114737",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "顺风清洁能源收购晶能光电控股权_中证网",
+      "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+      "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+      "source": "www.cs.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "硬科技",
+      "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
+      "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
+      "url": "https://www.elecfans.com/d/1450934.html",
+      "source": "www.elecfans.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -523,43 +560,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
-      "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
-      "url": "https://finance.eastmoney.com/a/202607133803760816.html",
-      "source": "finance.eastmoney.com",
+      "code": "mifeng",
+      "company": "觅蜂",
+      "industry": "可信数据空间",
+      "title": "觅蜂科技宣布完成数亿元种子轮与天使轮 红杉中国领投_新浪科技_新浪网",
+      "summary": "此次融资将重点用于技术研发、产能扩充与全球化布局,以及构建全球顶尖数据质量管理体系及数据联盟,助力觅蜂科技夯实具身智能数据基础设施核...",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-02-13/doc-inhmrtim6161003.shtml",
+      "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 5.5,
-      "query": "天保基建 新闻 2026"
+      "query": "\"觅蜂\" 公告 签约 中标 投资"
     },
     {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "天保基建(000965.SZ):2026年一季报净利润为6393.34万元、同比较去年同期下降36.29% | 界面新闻",
-      "summary": "2026年4月29日 - 年4月29日,天保基建(000965.SZ)发布2026年一季报,营业总收入为14.88亿元,同比较去年同期上涨777.93%,归母净利润为6393.34万元,同比较去年同期下降36.2...",
-      "url": "https://m.jiemian.com/article/14351866_sina.html",
-      "source": "m.jiemian.com",
+      "code": "mifeng",
+      "company": "觅蜂",
+      "industry": "可信数据空间",
+      "title": "智元旗下觅蜂发布一站式物理 AI 数据服务平台|最前线-36氪",
+      "summary": "在发布会上,觅蜂宣布与京东云、百度云、阿里云、猎聘及贵州大数据集团等多家企业举行战略签约,各方将在数据生态、场景协同、算力支撑等领域...",
+      "url": "https://36kr.com/p/3769501816439555",
+      "source": "36kr.com",
       "date": "",
       "fetched_at": "2026-08-14",
-      "score": 5.0,
-      "query": "天保基建 新闻 2026"
+      "score": 5.5,
+      "query": "\"觅蜂\" 公告 签约 中标 投资"
     },
     {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "基建",
-      "title": "天保基建:公司无法对天津空客总装公司2026年度的经营业绩进行预测",
-      "summary": "2025年12月15日 - 天保基建:公司无法对天津空客总装公司2026年度的经营业绩进行预测 2025-12-15 22:09:13来源: 15:证券日报网1706:分享 文章提及标的天保基建-- 证券日...",
-      "url": "https://news.10jqka.com.cn/20251215/c673229026.shtml",
-      "source": "news.10jqka.com.cn",
+      "code": "mifeng",
+      "company": "觅蜂",
+      "industry": "可信数据空间",
+      "title": "打造产业 宇宙 2月13日,智元控股的觅蜂科技宣布完成数亿元种子轮与天使轮融资,_财富号_东方财富网",
+      "summary": "2026年2月15日 - 龙旗科技、上汽金控等产业资本共同投资.举报郑重声明:用户在社区发表的所有信息将由本网站记录保存,仅代表作者个人观点,与本网站立场无关,不对您构成...",
+      "url": "https://caifuhao.eastmoney.com/news/20260215090030797657980",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-14",
-      "score": 5.0,
-      "query": "天保基建 新闻 2026"
+      "score": 5.5,
+      "query": "\"觅蜂\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "mifeng",
+      "company": "觅蜂",
+      "industry": "可信数据空间",
+      "title": "商道创投网·会员动态|觅蜂科技·完成数亿元种子轮与天使轮融资|投融资动态_网易订阅",
+      "summary": "2026年2月14日 - 觅蜂科技(Maniformer)是智元机器人体系内孵化并独立运作的具身智能数据平台企业,以 破解具身时代数据困局 为战略使命.技术层面,觅蜂科技已建立显著的...",
+      "url": "https://www.163.com/dy/article/KLOJCRHP0538700Y.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"觅蜂\" 公告 签约 中标 投资"
     },
     {
       "code": "unicom-idc",
@@ -640,19 +690,6 @@
       "query": "数据 行业 政策 2026"
     },
     {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "创始人“开黄腔”争议刷屏，比格比萨被吐槽全是碳水，IPO何时 ...",
-      "summary": "1 天前 · IP流量是双刃剑。” 作者｜刘俊群 编辑｜刘钦文 8月12日晚上，比格比萨创始人赵志强被自己的一条评论送上了热搜。 此前， …",
-      "url": "https://news.qq.com/rain/a/20260813A0CSZM00?adChannelId=finance",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
       "code": "hangtianjings",
       "company": "航天精工",
       "industry": "军工",
@@ -679,32 +716,6 @@
       "query": "智能体软件 行业 政策 2026"
     },
     {
-      "code": "fxpp",
-      "company": "5个标的反向匹配汇总",
-      "industry": "并购标的汇总",
-      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
-      "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
-      "url": "https://news.qq.com/rain/a/20241106A08NP500",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "并购标的汇总 行业 政策 2026"
-    },
-    {
-      "code": "fxpp",
-      "company": "5个标的反向匹配汇总",
-      "industry": "并购标的汇总",
-      "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
-      "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
-      "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "并购标的汇总 行业 政策 2026"
-    },
-    {
       "code": "qingdao-heli",
       "company": "青岛直升机",
       "industry": "低空经济",
@@ -729,6 +740,32 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "低空经济 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
+      "title": "一文读懂公司收购、兼并、合并与并购的区别！_腾讯新闻",
+      "summary": "2024年11月6日 · 如果以公司合并形式进行并购，根据《中华人民共和国公司法》（中华人民共和主席令第63号）第一百七十四条的规 …",
+      "url": "https://news.qq.com/rain/a/20241106A08NP500",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "并购标的汇总 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "并购标的汇总",
+      "title": "上市公司并购 VS 收购，一文看透本质！|并购_新浪财经_新浪网",
+      "summary": "2026年5月14日 · 对企业来说，搞清楚两者的区别，能更精准地选择交易方式：想快速拿到某公司的渠道和团队，可以考虑 “收购”（拿 …",
+      "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayx4157391.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "并购标的汇总 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -794,45 +831,6 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "医疗健康 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "“一看你照片破戒了”被质疑“开黄腔”，比格比萨创始人回应 ...",
-      "summary": "1 天前 · 近日，网传比格比萨创始人赵志强在抖音评论区回复一句“一看你照片破戒了”引发争议，被网友质疑“开黄腔”。 随后，赵志强 …",
-      "url": "https://www.sohu.com/a/1062255655_115479",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "比格比萨创始人评论“一看你照片破戒了”被质疑“开黄腔 ...",
-      "summary": "1 天前 · 8月12日晚， 比格比萨 创始人 赵志强 因抖音评论区一句“一看你照片破戒了”引发争议。面对网友关于其言论是否合适、是否“ …",
-      "url": "https://www.163.com/dy/article/L472Q1SJ05561G0D.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "收购研究 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "收购研究",
-      "title": "董事长评论“一看你照片破戒了”，被指“开黄腔”，品牌最新 ...",
-      "summary": "50 分钟之前 · 董事长评论“一看你照片破戒了”，被指“开黄腔”，品牌最新回应,比萨,比格,赵志强,招股书 8月12日，连锁比萨品牌比格比 …",
-      "url": "https://www.163.com/dy/article/L49G6CVV05129QAF.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 1.5,
-      "query": "收购研究 行业 政策 2026"
     },
     {
       "code": "hangtianjings",
