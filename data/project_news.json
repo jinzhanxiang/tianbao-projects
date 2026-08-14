@@ -1,62 +1,10 @@
 {
-  "generated_at": "2026-08-14T09:55:40+08:00",
+  "generated_at": "2026-08-14T10:11:18+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 36,
   "by_industry": {
     "硬科技": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
-        "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
-        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
-        "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
-        "url": "https://www.sohu.com/a/15891578_114737",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "顺风清洁能源收购晶能光电控股权_中证网",
-        "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
-        "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
-        "source": "www.cs.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "硬科技",
-        "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
-        "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
-        "url": "https://www.elecfans.com/d/1450934.html",
-        "source": "www.elecfans.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -108,60 +56,6 @@
         "fetched_at": "2026-08-14",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "可信数据空间": [
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "可信数据空间",
-        "title": "觅蜂科技宣布完成数亿元种子轮与天使轮 红杉中国领投_新浪科技_新浪网",
-        "summary": "此次融资将重点用于技术研发、产能扩充与全球化布局,以及构建全球顶尖数据质量管理体系及数据联盟,助力觅蜂科技夯实具身智能数据基础设施核...",
-        "url": "https://finance.sina.com.cn/tech/roll/2026-02-13/doc-inhmrtim6161003.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"觅蜂\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "可信数据空间",
-        "title": "智元旗下觅蜂发布一站式物理 AI 数据服务平台|最前线-36氪",
-        "summary": "在发布会上,觅蜂宣布与京东云、百度云、阿里云、猎聘及贵州大数据集团等多家企业举行战略签约,各方将在数据生态、场景协同、算力支撑等领域...",
-        "url": "https://36kr.com/p/3769501816439555",
-        "source": "36kr.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"觅蜂\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "可信数据空间",
-        "title": "打造产业 宇宙 2月13日,智元控股的觅蜂科技宣布完成数亿元种子轮与天使轮融资,_财富号_东方财富网",
-        "summary": "2026年2月15日 - 龙旗科技、上汽金控等产业资本共同投资.举报郑重声明:用户在社区发表的所有信息将由本网站记录保存,仅代表作者个人观点,与本网站立场无关,不对您构成...",
-        "url": "https://caifuhao.eastmoney.com/news/20260215090030797657980",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"觅蜂\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "可信数据空间",
-        "title": "商道创投网·会员动态|觅蜂科技·完成数亿元种子轮与天使轮融资|投融资动态_网易订阅",
-        "summary": "2026年2月14日 - 觅蜂科技(Maniformer)是智元机器人体系内孵化并独立运作的具身智能数据平台企业,以 破解具身时代数据困局 为战略使命.技术层面,觅蜂科技已建立显著的...",
-        "url": "https://www.163.com/dy/article/KLOJCRHP0538700Y.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"觅蜂\" 公告 签约 中标 投资"
       }
     ],
     "数据": [
@@ -257,6 +151,60 @@
         "fetched_at": "2026-08-14",
         "score": 1.5,
         "query": "军工 行业 政策 2026"
+      }
+    ],
+    "基建": [
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "7万亿开局，中国基建进入“六张网”时代_腾讯新闻",
+        "summary": "5 天之前 · 内容来源：本文来自公众号吴晓波频道（ID：wuxiaobopd）原创首发，笔记侠经原公号授权发布，转载请联系原公号。责编 …",
+        "url": "https://news.qq.com/rain/a/20260809A0B5R400",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.5,
+        "query": "基建 行业 政策 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
+        "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大 …",
+        "url": "https://www.sohu.com/a/477545891_100237201",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "基建 行业 政策 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "7万亿投资，是什么样的新一轮超级大基建？财富机会在哪？",
+        "summary": "2026年3月，发.改.委表示推出7万亿投资！这与2008年11月推出的4万亿基建投资，有什么不同？ 当年的4万亿基建，是以“铁公基”等 …",
+        "url": "https://news.qq.com/rain/a/20260311A06FT400",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "基建 行业 政策 2026"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "基建",
+        "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
+        "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这 …",
+        "url": "https://www.sohu.com/a/994678899_122316869",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "基建 行业 政策 2026"
       }
     ],
     "智能体软件": [
@@ -423,6 +371,60 @@
         "query": "医疗健康 行业 政策 2026"
       }
     ],
+    "收购研究": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "广西南宁市西乡塘区人民政府 - www.xxtq.gov.cn",
+        "summary": "2026年8月7日 · 西乡塘区是2005年3月南宁市区划调整，撤销城北区、永新区后新组建的城区，位于广西首府——绿城南宁的西北方 …",
+        "url": "http://www.xxtq.gov.cn/",
+        "source": "www.xxtq.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "广西南宁市西乡塘区人民政府 - www.xxtq.gov.cn",
+        "summary": "3 天之前 · 西乡塘区是2005年3月南宁市区划调整，撤销城北区、永新区后新组建的城区，位于广西首府——绿城南宁的西北方向，东 …",
+        "url": "http://www.xxtq.gov.cn/?ro2yz",
+        "source": "www.xxtq.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "西乡塘区政务服务网",
+        "summary": "2024年5月9日 · 视频解读丨《关于强化标准引领和质量支撑加快构建广西现代化产业体系...",
+        "url": "https://nnxxt.zwfw.gxzf.gov.cn/",
+        "source": "nnxxt.zwfw.gxzf.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "收购研究 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "收购研究",
+        "title": "广西南宁市西乡塘区人民政府门户网站 - 政府网站年度报表 -",
+        "summary": "2025年1月15日 · 填报单位（盖章）：广西南宁市西乡塘区人民政府. 单位负责人: 闭海涛 审核人: 刘智琴 填报人: 徐小荣 联系电话: …",
+        "url": "http://www.gxzf.gov.cn/zfndbb/ndgzb/nns_98550/gxnnsxxtqrmzfmhwz/t19539918.shtml",
+        "source": "www.gxzf.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "收购研究 行业 政策 2026"
+      }
+    ],
     "汽车电子": [
       {
         "code": "aodian",
@@ -495,58 +497,6 @@
   },
   "items": [
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "硬科技",
-      "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
-      "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
-      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "硬科技",
-      "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
-      "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
-      "url": "https://www.sohu.com/a/15891578_114737",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "硬科技",
-      "title": "顺风清洁能源收购晶能光电控股权_中证网",
-      "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
-      "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
-      "source": "www.cs.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "硬科技",
-      "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
-      "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
-      "url": "https://www.elecfans.com/d/1450934.html",
-      "source": "www.elecfans.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "硬科技",
@@ -558,58 +508,6 @@
       "fetched_at": "2026-08-14",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "可信数据空间",
-      "title": "觅蜂科技宣布完成数亿元种子轮与天使轮 红杉中国领投_新浪科技_新浪网",
-      "summary": "此次融资将重点用于技术研发、产能扩充与全球化布局,以及构建全球顶尖数据质量管理体系及数据联盟,助力觅蜂科技夯实具身智能数据基础设施核...",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-02-13/doc-inhmrtim6161003.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"觅蜂\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "可信数据空间",
-      "title": "智元旗下觅蜂发布一站式物理 AI 数据服务平台|最前线-36氪",
-      "summary": "在发布会上,觅蜂宣布与京东云、百度云、阿里云、猎聘及贵州大数据集团等多家企业举行战略签约,各方将在数据生态、场景协同、算力支撑等领域...",
-      "url": "https://36kr.com/p/3769501816439555",
-      "source": "36kr.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"觅蜂\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "可信数据空间",
-      "title": "打造产业 宇宙 2月13日,智元控股的觅蜂科技宣布完成数亿元种子轮与天使轮融资,_财富号_东方财富网",
-      "summary": "2026年2月15日 - 龙旗科技、上汽金控等产业资本共同投资.举报郑重声明:用户在社区发表的所有信息将由本网站记录保存,仅代表作者个人观点,与本网站立场无关,不对您构成...",
-      "url": "https://caifuhao.eastmoney.com/news/20260215090030797657980",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"觅蜂\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "可信数据空间",
-      "title": "商道创投网·会员动态|觅蜂科技·完成数亿元种子轮与天使轮融资|投融资动态_网易订阅",
-      "summary": "2026年2月14日 - 觅蜂科技(Maniformer)是智元机器人体系内孵化并独立运作的具身智能数据平台企业,以 破解具身时代数据困局 为战略使命.技术层面,觅蜂科技已建立显著的...",
-      "url": "https://www.163.com/dy/article/KLOJCRHP0538700Y.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"觅蜂\" 公告 签约 中标 投资"
     },
     {
       "code": "unicom-idc",
@@ -636,6 +534,19 @@
       "fetched_at": "2026-08-14",
       "score": 3.5,
       "query": "军工 行业 政策 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "7万亿开局，中国基建进入“六张网”时代_腾讯新闻",
+      "summary": "5 天之前 · 内容来源：本文来自公众号吴晓波频道（ID：wuxiaobopd）原创首发，笔记侠经原公号授权发布，转载请联系原公号。责编 …",
+      "url": "https://news.qq.com/rain/a/20260809A0B5R400",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 3.5,
+      "query": "基建 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -714,6 +625,45 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "智能体软件 行业 政策 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "哪些项目属于基建项目？基建项目要怎么做？_生产",
+      "summary": "2021年9月17日 · 四、基建项目案例介绍 基建项目要怎么做？ 下面，我们一起来看几个基建项目的详细介绍吧。 1.公路（深圳滨海大 …",
+      "url": "https://www.sohu.com/a/477545891_100237201",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "基建 行业 政策 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "7万亿投资，是什么样的新一轮超级大基建？财富机会在哪？",
+      "summary": "2026年3月，发.改.委表示推出7万亿投资！这与2008年11月推出的4万亿基建投资，有什么不同？ 当年的4万亿基建，是以“铁公基”等 …",
+      "url": "https://news.qq.com/rain/a/20260311A06FT400",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "基建 行业 政策 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "基建",
+      "title": "7万亿新基建工程全面启动：国家发改委详解\"六张网\"投资战略",
+      "summary": "2026年3月10日 · 结语：开启高质量发展新篇章 7万亿\"六张网\"投资计划的实施，标志着中国基础设施建设进入\"新基建工程\"时代。 这 …",
+      "url": "https://www.sohu.com/a/994678899_122316869",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.5,
+      "query": "基建 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
@@ -831,6 +781,58 @@
       "fetched_at": "2026-08-14",
       "score": 1.5,
       "query": "医疗健康 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "广西南宁市西乡塘区人民政府 - www.xxtq.gov.cn",
+      "summary": "2026年8月7日 · 西乡塘区是2005年3月南宁市区划调整，撤销城北区、永新区后新组建的城区，位于广西首府——绿城南宁的西北方 …",
+      "url": "http://www.xxtq.gov.cn/",
+      "source": "www.xxtq.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "广西南宁市西乡塘区人民政府 - www.xxtq.gov.cn",
+      "summary": "3 天之前 · 西乡塘区是2005年3月南宁市区划调整，撤销城北区、永新区后新组建的城区，位于广西首府——绿城南宁的西北方向，东 …",
+      "url": "http://www.xxtq.gov.cn/?ro2yz",
+      "source": "www.xxtq.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "西乡塘区政务服务网",
+      "summary": "2024年5月9日 · 视频解读丨《关于强化标准引领和质量支撑加快构建广西现代化产业体系...",
+      "url": "https://nnxxt.zwfw.gxzf.gov.cn/",
+      "source": "nnxxt.zwfw.gxzf.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "收购研究 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "收购研究",
+      "title": "广西南宁市西乡塘区人民政府门户网站 - 政府网站年度报表 -",
+      "summary": "2025年1月15日 · 填报单位（盖章）：广西南宁市西乡塘区人民政府. 单位负责人: 闭海涛 审核人: 刘智琴 填报人: 徐小荣 联系电话: …",
+      "url": "http://www.gxzf.gov.cn/zfndbb/ndgzb/nns_98550/gxnnsxxtqrmzfmhwz/t19539918.shtml",
+      "source": "www.gxzf.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "收购研究 行业 政策 2026"
     },
     {
       "code": "hangtianjings",
