@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T18:05:13+08:00",
+  "generated_at": "2026-08-14T18:19:08+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 12,
   "by_industry": {
     "高端制造": [
       {
@@ -56,73 +56,6 @@
         "fetched_at": "2026-08-14",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "其他行业",
-        "title": "天保基建:全资子公司签订4.99亿元重大合同_网易订阅",
-        "summary": "天保基建公告,公司全资子公司天津天保房地产开发有限公司与天津自贸试验区新兴科技产业有限公司签订《房屋销售合同》及《房屋销售合同之补...",
-        "url": "https://www.163.com/dy/article/JKTPP41K0519QIKK.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 5.5,
-        "query": "\"天保基建\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "其他行业",
-        "title": "天保基建招标结果:2025-2027年天津天保基建股份有限公司产商项目定制化装修监理服务中标结果公告_股票频道_证券之星",
-        "summary": "2025年11月2日 - 通过天眼查大数据分析,天津天保基建股份有限公司共对外投资了12家企业,参与招投标项目44次;财产线索方面有商标信息24条,著作权信息3条;此外企业还拥有...",
-        "url": "http://stock.stockstar.com/RB2025110200002857.shtml",
-        "source": "stock.stockstar.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"天保基建\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "其他行业",
-        "title": "天保基建最新公告:成功竞得天津滨海新区两宗地块_股市要闻_市场_中金在线",
-        "summary": "天保基建公告,为满足公司未来发展战略对土地的需求,2024年12月31日,天公司全资子公司天津天保德源房地产开发有限公司参加了 津滨开(挂)2024-3...",
-        "url": "http://sc.stock.cnfol.com/gushiyaowen/20250102/31090702.shtml",
-        "source": "sc.stock.cnfol.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"天保基建\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianbao-jijian",
-        "company": "天保基建",
-        "industry": "其他行业",
-        "title": "天保基建未来社区运营平台开发实施项目中标结果公示丨光速招标海量免费标讯",
-        "summary": "2024年9月27日 - 天保基建未来社区运营平台开发实施项目中标结果公示招标采购信息免费查看,该招标项目相关工程招标、货物招标、服务招标等招标公告信息在光速招标免费...",
-        "url": "https://www.guangsuzb.com/succeed_v_1839414905814265866.html",
-        "source": "www.guangsuzb.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"天保基建\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -194,6 +127,21 @@
         "query": "新能源 行业 政策 2026"
       }
     ],
+    "其他行业": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -236,58 +184,6 @@
       "fetched_at": "2026-08-14",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "其他行业",
-      "title": "天保基建:全资子公司签订4.99亿元重大合同_网易订阅",
-      "summary": "天保基建公告,公司全资子公司天津天保房地产开发有限公司与天津自贸试验区新兴科技产业有限公司签订《房屋销售合同》及《房屋销售合同之补...",
-      "url": "https://www.163.com/dy/article/JKTPP41K0519QIKK.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 5.5,
-      "query": "\"天保基建\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "其他行业",
-      "title": "天保基建招标结果:2025-2027年天津天保基建股份有限公司产商项目定制化装修监理服务中标结果公告_股票频道_证券之星",
-      "summary": "2025年11月2日 - 通过天眼查大数据分析,天津天保基建股份有限公司共对外投资了12家企业,参与招投标项目44次;财产线索方面有商标信息24条,著作权信息3条;此外企业还拥有...",
-      "url": "http://stock.stockstar.com/RB2025110200002857.shtml",
-      "source": "stock.stockstar.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 4.0,
-      "query": "\"天保基建\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "其他行业",
-      "title": "天保基建最新公告:成功竞得天津滨海新区两宗地块_股市要闻_市场_中金在线",
-      "summary": "天保基建公告,为满足公司未来发展战略对土地的需求,2024年12月31日,天公司全资子公司天津天保德源房地产开发有限公司参加了 津滨开(挂)2024-3...",
-      "url": "http://sc.stock.cnfol.com/gushiyaowen/20250102/31090702.shtml",
-      "source": "sc.stock.cnfol.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 4.0,
-      "query": "\"天保基建\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianbao-jijian",
-      "company": "天保基建",
-      "industry": "其他行业",
-      "title": "天保基建未来社区运营平台开发实施项目中标结果公示丨光速招标海量免费标讯",
-      "summary": "2024年9月27日 - 天保基建未来社区运营平台开发实施项目中标结果公示招标采购信息免费查看,该招标项目相关工程招标、货物招标、服务招标等招标公告信息在光速招标免费...",
-      "url": "https://www.guangsuzb.com/succeed_v_1839414905814265866.html",
-      "source": "www.guangsuzb.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 4.0,
-      "query": "\"天保基建\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
