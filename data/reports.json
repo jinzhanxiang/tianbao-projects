@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:13:40+08:00",
+  "generated_at": "2026-08-14T09:21:22+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 48,
   "total_active": 45,
@@ -347,6 +347,18 @@
       }
     ],
     "海特飞机": [
+      {
+        "code": "海特飞机",
+        "date": "2026-08-14",
+        "category": "商业研究",
+        "title": "天保控股低空公司收购天津海特飞机工程有限公司控股权可行性研究 · §22-§26 决策支持 · 2026-08-14",
+        "file": "海特飞机_§22-§26决策支持_20260814.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§22-§26决策支持_20260814.html",
+        "size": 25269,
+        "mtime": "2026-08-14T09:20:59+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§22-§26决策支持_20260814.html"
+      },
       {
         "code": "海特飞机",
         "date": "2026-08-14",
@@ -2074,10 +2086,10 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-14T09:13:40.344087",
+  "_last_cleanup": "2026-08-14T09:21:22.322963",
   "_cleanup_stats": {
     "dup_title_date": 3,
-    "superseded": 8,
+    "superseded": 10,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
