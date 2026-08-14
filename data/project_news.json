@@ -1,62 +1,64 @@
 {
-  "generated_at": "2026-08-14T16:41:51+08:00",
+  "generated_at": "2026-08-14T16:55:06+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 14,
   "by_industry": {
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+        "url": "https://quote.eastmoney.com/sz002906.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团人力资源招聘系统",
+        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+        "url": "https://zhaopin.ymjt.com.cn/index.html",
+        "source": "zhaopin.ymjt.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
     "REITS类资产": [
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-        "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-        "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-        "source": "bj.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-        "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-        "url": "https://www.szmhzs.com/news/14.html",
-        "source": "www.szmhzs.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中汇天合工程管理有限公司最新中标公告|招标网",
-        "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
-        "source": "qy.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -108,75 +110,6 @@
         "fetched_at": "2026-08-14",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
-    "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "集团简介-吉林省华阳集团有限公司",
-        "summary": "华阳起步于1992年，2006年经资产整合后成立吉林省华阳集团有限公司，注册资金1亿元人民币，是一家集汽车经销、汽车储运、建筑 …",
-        "url": "http://www.huayangjituan.cn/about.html",
-        "source": "www.huayangjituan.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "吉林省华阳集团有限公司_吉林华阳_华阳集团",
-        "summary": "历经20余年汽车市 场的博弃，今天的华阳现已发展成为集汽车经销、汽车物流、汽车教育建筑施工、地产开发、酒店管理、新型复合 …",
-        "url": "http://www.huayangjituan.cn/",
-        "source": "www.huayangjituan.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年1月22日 · 新能源 全新红旗H7开启预售 首发诚意价18.18万起 上汽大众ID. ERA 5X将于成都车展首发 定位超能纯电SUV 享 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -233,6 +166,21 @@
         "query": "低空航空 行业 政策 2026"
       }
     ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年11月16日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -251,81 +199,16 @@
   },
   "items": [
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-      "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-      "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-      "source": "bj.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-      "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-      "url": "https://www.szmhzs.com/news/14.html",
-      "source": "www.szmhzs.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中汇天合工程管理有限公司最新中标公告|招标网",
-      "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
-      "source": "qy.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "集团简介-吉林省华阳集团有限公司",
-      "summary": "华阳起步于1992年，2006年经资产整合后成立吉林省华阳集团有限公司，注册资金1亿元人民币，是一家集汽车经销、汽车储运、建筑 …",
-      "url": "http://www.huayangjituan.cn/about.html",
-      "source": "www.huayangjituan.cn",
+      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+      "url": "https://quote.eastmoney.com/sz002906.html",
+      "source": "quote.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-14",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "吉林省华阳集团有限公司_吉林华阳_华阳集团",
-      "summary": "历经20余年汽车市 场的博弃，今天的华阳现已发展成为集汽车经销、汽车物流、汽车教育建筑施工、地产开发、酒店管理、新型复合 …",
-      "url": "http://www.huayangjituan.cn/",
-      "source": "www.huayangjituan.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 3.0,
+      "score": 5.5,
       "query": "华阳 新闻 2026"
     },
     {
@@ -355,17 +238,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年1月22日 · 新能源 全新红旗H7开启预售 首发诚意价18.18万起 上汽大众ID. ERA 5X将于成都车展首发 定位超能纯电SUV 享 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团人力资源招聘系统",
+      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+      "url": "https://zhaopin.ymjt.com.cn/index.html",
+      "source": "zhaopin.ymjt.com.cn",
       "date": "",
       "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -405,6 +288,19 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年11月16日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
