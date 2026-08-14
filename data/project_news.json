@@ -1,9 +1,182 @@
 {
-  "generated_at": "2026-08-14T23:09:24+08:00",
+  "generated_at": "2026-08-14T23:20:19+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 14,
+  "total": 23,
   "by_industry": {
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+        "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+        "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+        "source": "ggjd.cnstock.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+        "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+        "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+        "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+        "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "15亿元!星恒电源获新一轮战略投资",
+        "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+        "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+        "source": "www.dldcw.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 重罚台 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "高端制造": [
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控中标结果:郑煤机综机公司东五西活柱自动上下料结果公告_采购_招标_整理",
+        "summary": "证券之星消息,根据天眼查APP信息整理,7月26日公布的《郑煤机综机公司东五西活柱自动上下料结果公告》中显示威海华东数控股份有限公司中标...",
+        "url": "http://business.sohu.com/a/919220870_121319643",
+        "source": "business.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 5.5,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+        "summary": "2026年6月29日 - 华东数控(002248)提问, 公司有产品用于.公司回答表示,您好!公司新产品圆台磨床近日已成功中标...",
+        "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+        "source": "yuanchuang.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首次小批量订单",
+        "summary": "2026年6月29日 - 查看股票机会,下载客户端华东数控(002248)6月29日在互动平台表示,公司新产品圆台磨床已成功中标.如有投资者据此操作,风险自担,同花顺对此不承担任何责...",
+        "url": "http://stock.10jqka.com.cn/20260629/c677796714.shtml",
+        "source": "stock.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控中标:高端数控磨床装备数字化工厂建设项目_惠水厂区老旧生产线改造提升工程-数控龙门导轨磨床采购(二次)招标采购公告_股票频道_证券之星",
+        "summary": "2025年8月22日 - 通过天眼查大数据分析,威海华东数控股份有限公司共对外投资了19家企业,参与招投标项目67次;财产线索方面有商标信息27条,专利信息281条,著作权信息4条;...",
+        "url": "https://stock.stockstar.com/RB2025082200020866.shtml",
+        "source": "stock.stockstar.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "集团简介-吉林省华阳集团有限公司",
+        "summary": "华阳起步于1992年，2006年经资产整合后成立吉林省华阳集团有限公司，注册资金1亿元人民币，是一家集汽车经销、汽车储运、建筑 …",
+        "url": "http://www.huayangjituan.cn/about.html",
+        "source": "www.huayangjituan.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "吉林省华阳集团有限公司_吉林华阳_华阳集团",
+        "summary": "历经20余年汽车市 场的博弃，今天的华阳现已发展成为集汽车经销、汽车物流、汽车教育建筑施工、地产开发、酒店管理、新型复合 …",
+        "url": "http://www.huayangjituan.cn/",
+        "source": "www.huayangjituan.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
     "低空航空": [
       {
         "code": "haite",
@@ -58,58 +231,19 @@
         "query": "\"海特高新\" 公告 签约 中标 投资"
       }
     ],
-    "高端制造": [
+    "生物医药": [
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "集团简介-吉林省华阳集团有限公司",
-        "summary": "华阳起步于1992年，2006年经资产整合后成立吉林省华阳集团有限公司，注册资金1亿元人民币，是一家集汽车经销、汽车储运、建筑 …",
-        "url": "http://www.huayangjituan.cn/about.html",
-        "source": "www.huayangjituan.cn",
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
+        "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
+        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
+        "source": "www.pharnexcloud.com",
         "date": "",
         "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "吉林省华阳集团有限公司_吉林华阳_华阳集团",
-        "summary": "历经20余年汽车市 场的博弃，今天的华阳现已发展成为集汽车经销、汽车物流、汽车教育建筑施工、地产开发、酒店管理、新型复合 …",
-        "url": "http://www.huayangjituan.cn/",
-        "source": "www.huayangjituan.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 4.0,
+        "query": "速迈医疗 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -166,21 +300,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 重罚台 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -198,6 +317,45 @@
     ]
   },
   "items": [
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+      "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+      "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+      "source": "ggjd.cnstock.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+      "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+      "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控中标结果:郑煤机综机公司东五西活柱自动上下料结果公告_采购_招标_整理",
+      "summary": "证券之星消息,根据天眼查APP信息整理,7月26日公布的《郑煤机综机公司东五西活柱自动上下料结果公告》中显示威海华东数控股份有限公司中标...",
+      "url": "http://business.sohu.com/a/919220870_121319643",
+      "source": "business.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 5.5,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
     {
       "code": "haite",
       "company": "海特高新",
@@ -249,6 +407,84 @@
       "fetched_at": "2026-08-14",
       "score": 5.5,
       "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+      "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+      "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "15亿元!星恒电源获新一轮战略投资",
+      "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+      "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+      "source": "www.dldcw.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+      "summary": "2026年6月29日 - 华东数控(002248)提问, 公司有产品用于.公司回答表示,您好!公司新产品圆台磨床近日已成功中标...",
+      "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+      "source": "yuanchuang.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首次小批量订单",
+      "summary": "2026年6月29日 - 查看股票机会,下载客户端华东数控(002248)6月29日在互动平台表示,公司新产品圆台磨床已成功中标.如有投资者据此操作,风险自担,同花顺对此不承担任何责...",
+      "url": "http://stock.10jqka.com.cn/20260629/c677796714.shtml",
+      "source": "stock.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控中标:高端数控磨床装备数字化工厂建设项目_惠水厂区老旧生产线改造提升工程-数控龙门导轨磨床采购(二次)招标采购公告_股票频道_证券之星",
+      "summary": "2025年8月22日 - 通过天眼查大数据分析,威海华东数控股份有限公司共对外投资了19家企业,参与招投标项目67次;财产线索方面有商标信息27条,专利信息281条,著作权信息4条;...",
+      "url": "https://stock.stockstar.com/RB2025082200020866.shtml",
+      "source": "stock.stockstar.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
+      "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
+      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
+      "source": "www.pharnexcloud.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "速迈医疗 新闻 2026"
     },
     {
       "code": "huayt",
@@ -316,8 +552,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 重罚台 …",
