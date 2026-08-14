@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T05:51:48+08:00",
+  "generated_at": "2026-08-15T06:00:01+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 12,
   "by_industry": {
     "高端制造": [
       {
@@ -58,177 +58,19 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "生物医药": [
+    "AI智能": [
       {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
-        "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
-        "url": "http://guba.eastmoney.com/news,832941,540069822.html",
-        "source": "guba.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
-        "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
-        "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
-        "source": "www.zhiliaobiaoxun.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
-        "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
-        "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
-        "source": "www.ccgp.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
-        "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
-        "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
-        "source": "ccgp-beijing.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年生物医药政策分析报告.docx - 人人文库",
-        "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-        "url": "https://www.renrendoc.com/paper/517081205.html",
-        "source": "www.renrendoc.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
-        "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
-        "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
-        "source": "www.worldmr.net",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.0,
-        "query": "星恒电源 新闻 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
-        "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
-        "url": "https://www.jobui.com/company/12781277/news/",
-        "source": "www.jobui.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "星恒电源 新闻 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "星恒电源完成数亿元融资 年产4GWh锂电池项目已封顶_电池网",
-        "summary": "近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。 近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。",
-        "url": "https://www.itdcw.com/news/focus/110Q44P92024.html",
-        "source": "www.itdcw.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "星恒电源 新闻 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动三轮车用户谁没被 电池沉 绊过手?搬48V50Ah的电池得憋足劲,赶上拉满货,电池占重...",
-        "summary": "星恒电源股份有限公司法定代表人:冯笑 | 注册资本:32157.5068万人民币 | 成立日期:2003-12-18.星恒电源股份有限公司怎么了?星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动...",
-        "url": "https://news.tianyancha.com/ll_7gt16ep98l.html",
-        "source": "news.tianyancha.com",
+        "code": "chuangdu",
+        "company": "乘杜科技",
+        "industry": "AI智能",
+        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
+        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
+        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
+        "source": "www.chinabidding.cn",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 3.0,
-        "query": "星恒电源 新闻 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年11月16日 · 新赛季91！ 詹姆斯历年2K能力值：14次联盟第一 连续22年90+ 2K能力值20-11：恩比德/詹姆斯/布朗91+马克西92 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "乘杜 新闻 2026"
       }
     ],
     "半导体": [
@@ -300,6 +142,21 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年11月16日 · 新赛季91！ 詹姆斯历年2K能力值：14次联盟第一 连续22年90+ 2K能力值20-11：恩比德/詹姆斯/布朗91+马克西92 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -329,110 +186,6 @@
       "fetched_at": "2026-08-15",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
-      "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
-      "url": "http://guba.eastmoney.com/news,832941,540069822.html",
-      "source": "guba.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
-      "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
-      "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
-      "source": "www.worldmr.net",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.0,
-      "query": "星恒电源 新闻 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
-      "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
-      "url": "https://www.jobui.com/company/12781277/news/",
-      "source": "www.jobui.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "星恒电源 新闻 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "星恒电源完成数亿元融资 年产4GWh锂电池项目已封顶_电池网",
-      "summary": "近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。 近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。",
-      "url": "https://www.itdcw.com/news/focus/110Q44P92024.html",
-      "source": "www.itdcw.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "星恒电源 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
-      "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
-      "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
-      "source": "www.zhiliaobiaoxun.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
-      "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
-      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
-      "source": "www.ccgp.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
-      "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
-      "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
-      "source": "ccgp-beijing.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动三轮车用户谁没被 电池沉 绊过手?搬48V50Ah的电池得憋足劲,赶上拉满货,电池占重...",
-      "summary": "星恒电源股份有限公司法定代表人:冯笑 | 注册资本:32157.5068万人民币 | 成立日期:2003-12-18.星恒电源股份有限公司怎么了?星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动...",
-      "url": "https://news.tianyancha.com/ll_7gt16ep98l.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "星恒电源 新闻 2026"
     },
     {
       "code": "huayt",
@@ -474,6 +227,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "chuangdu",
+      "company": "乘杜科技",
+      "industry": "AI智能",
+      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
+      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
+      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
+      "source": "www.chinabidding.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "乘杜 新闻 2026"
+    },
+    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -500,56 +266,17 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年11月16日 · 新赛季91！ 詹姆斯历年2K能力值：14次联盟第一 连续22年90+ 2K能力值20-11：恩比德/詹姆斯/布朗91+马克西92 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年生物医药政策分析报告.docx - 人人文库",
-      "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-      "url": "https://www.renrendoc.com/paper/517081205.html",
-      "source": "www.renrendoc.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -589,19 +316,6 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年11月16日 · 新赛季91！ 詹姆斯历年2K能力值：14次联盟第一 连续22年90+ 2K能力值20-11：恩比德/詹姆斯/布朗91+马克西92 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "acquisition-listed",
