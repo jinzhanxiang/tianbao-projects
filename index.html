@@ -1090,6 +1090,16 @@ body{
     const maxN = Math.max(1, ...industries.map(([_,c])=>c));
     function indEmoji(name){
       const n = name || '';
+      // 8 大硬性分类优先（2026-08-14 行业统一化）
+      if(n.includes('生物')||n.includes('医疗')||n.includes('医药')||n.includes('健康')) return '🏥';
+      if(n.includes('航空')||n.includes('航天')||n.includes('低空')||n.includes('卫星')||n.includes('遥感')) return '🛰️';
+      if(n.includes('新能源')||n.includes('电池')||n.includes('锂')||n.includes('能源')) return '🔋';
+      if(n.includes('半导体')||n.includes('芯片')) return '💎';
+      if(n.includes('AI')||n.includes('智能')) return '🧠';
+      if(n.includes('REIT')||n.includes('IDC')||n.includes('云')||n.includes('数据中心')) return '🖥️';
+      if(n.includes('制造')||n.includes('装备')||n.includes('材料')||n.includes('数控')) return '⚙️';
+      if(n.includes('其他')) return '🏢';
+      // 兜底（旧细分标签残留）
       if(n.includes('电池')||n.includes('锂')) return '🔋';
       if(n.includes('医疗')||n.includes('健康')) return '🏥';
       if(n.includes('芯片')||n.includes('半导体')) return '💎';
