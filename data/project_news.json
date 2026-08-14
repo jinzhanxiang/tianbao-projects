@@ -1,9 +1,115 @@
 {
-  "generated_at": "2026-08-14T16:32:23+08:00",
+  "generated_at": "2026-08-14T16:41:51+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 18,
   "by_industry": {
+    "REITS类资产": [
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
+        "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
+        "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
+        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
+        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
+        "source": "bj.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
+        "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
+        "url": "https://www.szmhzs.com/news/14.html",
+        "source": "www.szmhzs.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "中汇天合工程管理有限公司最新中标公告|招标网",
+        "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "REITs专栏 | 上海证券交易所",
+        "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "url": "https://www.sse.com.cn/reits/home/",
+        "source": "www.sse.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+        "source": "www.csrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -73,92 +179,10 @@
         "query": "新能源 行业 政策 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "REITS类资产": [
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
-        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
-        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "REITs专栏 | 上海证券交易所",
-        "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
-        "url": "https://www.sse.com.cn/reits/home/",
-        "source": "www.sse.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
-        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
-        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
-        "source": "www.csrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -170,8 +194,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "重庆市人民政府办公厅关于印发《重庆市推动低空经济高质量 ...",
         "summary": "2025年11月22日 · （责任单位：市人力社保局、市教委、市公安局） 本政策措施所称低空经济领域相关企业，是指具有独立法人资 …",
@@ -183,8 +207,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -196,8 +220,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -226,6 +250,58 @@
     ]
   },
   "items": [
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
+      "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
+      "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
+      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
+      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
+      "source": "bj.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
+      "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
+      "url": "https://www.szmhzs.com/news/14.html",
+      "source": "www.szmhzs.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "中汇天合工程管理有限公司最新中标公告|招标网",
+      "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -292,19 +368,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -318,8 +381,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -331,8 +394,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "重庆市人民政府办公厅关于印发《重庆市推动低空经济高质量 ...",
       "summary": "2025年11月22日 · （责任单位：市人力社保局、市教委、市公安局） 本政策措施所称低空经济领域相关企业，是指具有独立法人资 …",
@@ -342,19 +405,6 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-      "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-      "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-      "source": "www.deloitte.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -409,8 +459,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -422,8 +472,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
