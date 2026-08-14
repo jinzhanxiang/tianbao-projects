@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T03:57:27+08:00",
+  "generated_at": "2026-08-15T04:06:06+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 16,
   "by_industry": {
     "高端制造": [
       {
@@ -58,75 +58,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "湖北鸿翼建筑工程有限责任公司最新中标项目 - 中标公示信息 - 建设通",
-        "summary": "湖北鸿翼建筑工程有限责任公司中标业绩25诚信信息0荣誉信息5企业人员46项目经理13资质等级7信用评价1工商信息司法与经营风险0中标公示23四库一平台2历史数据.湖北鸿翼建筑工程有限责任公司中标...",
-        "url": "https://www.cbi360.net/hhb/sg_2422835/zb",
-        "source": "www.cbi360.net",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"鸿翼\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "山东1.17亿可信数据平台项目落定:鸿翼软件携手山东移动联合体中标 - 天眼查",
-        "summary": "591:近日,由山东省公用资产运营服务有限公司组织招标的 《智能可信数据公共服务平台项目》 完成采购程序,这一总投资预算达1.17亿元的重大信息化建设项目正式确定了实施方。项目招标于2025年12月...",
-        "url": "https://mnews.tianyancha.com/ll_10jle529ff.html",
-        "source": "mnews.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"鸿翼\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "山东省1.16亿可信数据平台项目落定,上海鸿翼软件中标-其他_ 天眼查新闻",
-        "summary": "2026年1月15日 - 上海鸿翼软件技术股份有限公司法人代表:.上海鸿翼软件技术股份有限公司怎么了?山东省公用资产运营服务有限公司《智能可信数据公共服务平台项目》中标...",
-        "url": "https://mnews.tianyancha.com/ll_8mqn5ba3tn.html",
-        "source": "mnews.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"鸿翼\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "鸿翼ECM(中标公告)-广东招标网",
-        "summary": "2025年12月1日 - 申购主题:鸿翼ECM文档云软件V6.0 送货时间:发布竞价结果后7天内送达.您当天剩余次查看公告原文链接,是否消耗一次...",
-        "url": "https://gd.bidizhaobiao.com/info-347155966.html",
-        "source": "gd.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"鸿翼\" 公告 签约 中标 投资"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "新能源": [
       {
         "code": "xingheng",
@@ -146,7 +77,7 @@
         "company": "星恒电源",
         "industry": "新能源",
         "title": "铜川市耀州区人民政府",
-        "summary": "19 小时之前 · [2026-08-14]【乡村振兴】铜川义丰农业打造照金生态循环农业经济新样板 [2026-08-14]【乡村振兴】早熟“秦阳”未采先 …",
+        "summary": "20 小时之前 · [2026-08-14]【乡村振兴】铜川义丰农业打造照金生态循环农业经济新样板 [2026-08-14]【乡村振兴】早熟“秦阳”未采先 …",
         "url": "https://www.yaozhou.gov.cn/",
         "source": "www.yaozhou.gov.cn",
         "date": "",
@@ -155,7 +86,48 @@
         "query": "新能源 行业 政策 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "REITS类资产": [
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -173,6 +145,19 @@
         "code": "unicom-idc",
         "company": "四川 IDC",
         "industry": "REITS类资产",
+        "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
+        "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
+        "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
         "title": "REITs专栏 | 上海证券交易所",
         "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
         "url": "https://www.sse.com.cn/reits/home/",
@@ -183,8 +168,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "huitian",
+        "company": "汇天科技",
         "industry": "REITS类资产",
         "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
         "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
@@ -196,8 +181,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "huitian",
+        "company": "汇天科技",
         "industry": "REITS类资产",
         "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
         "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
@@ -253,58 +238,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "湖北鸿翼建筑工程有限责任公司最新中标项目 - 中标公示信息 - 建设通",
-      "summary": "湖北鸿翼建筑工程有限责任公司中标业绩25诚信信息0荣誉信息5企业人员46项目经理13资质等级7信用评价1工商信息司法与经营风险0中标公示23四库一平台2历史数据.湖北鸿翼建筑工程有限责任公司中标...",
-      "url": "https://www.cbi360.net/hhb/sg_2422835/zb",
-      "source": "www.cbi360.net",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"鸿翼\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "山东1.17亿可信数据平台项目落定:鸿翼软件携手山东移动联合体中标 - 天眼查",
-      "summary": "591:近日,由山东省公用资产运营服务有限公司组织招标的 《智能可信数据公共服务平台项目》 完成采购程序,这一总投资预算达1.17亿元的重大信息化建设项目正式确定了实施方。项目招标于2025年12月...",
-      "url": "https://mnews.tianyancha.com/ll_10jle529ff.html",
-      "source": "mnews.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"鸿翼\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "山东省1.16亿可信数据平台项目落定,上海鸿翼软件中标-其他_ 天眼查新闻",
-      "summary": "2026年1月15日 - 上海鸿翼软件技术股份有限公司法人代表:.上海鸿翼软件技术股份有限公司怎么了?山东省公用资产运营服务有限公司《智能可信数据公共服务平台项目》中标...",
-      "url": "https://mnews.tianyancha.com/ll_8mqn5ba3tn.html",
-      "source": "mnews.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"鸿翼\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "鸿翼ECM(中标公告)-广东招标网",
-      "summary": "2025年12月1日 - 申购主题:鸿翼ECM文档云软件V6.0 送货时间:发布竞价结果后7天内送达.您当天剩余次查看公告原文链接,是否消耗一次...",
-      "url": "https://gd.bidizhaobiao.com/info-347155966.html",
-      "source": "gd.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"鸿翼\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -344,6 +277,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -357,17 +303,30 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 2.5,
-      "query": "新能源 行业 政策 2026"
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -383,56 +342,30 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
+      "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
+      "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
       "title": "铜川市耀州区人民政府",
-      "summary": "19 小时之前 · [2026-08-14]【乡村振兴】铜川义丰农业打造照金生态循环农业经济新样板 [2026-08-14]【乡村振兴】早熟“秦阳”未采先 …",
+      "summary": "20 小时之前 · [2026-08-14]【乡村振兴】铜川义丰农业打造照金生态循环农业经济新样板 [2026-08-14]【乡村振兴】早熟“秦阳”未采先 …",
       "url": "https://www.yaozhou.gov.cn/",
       "source": "www.yaozhou.gov.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "REITs专栏 | 上海证券交易所",
-      "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
-      "url": "https://www.sse.com.cn/reits/home/",
-      "source": "www.sse.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
-      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
-      "source": "www.csrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "acquisition-listed",
@@ -459,6 +392,45 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "REITs专栏 | 上海证券交易所",
+      "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "url": "https://www.sse.com.cn/reits/home/",
+      "source": "www.sse.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+      "url": "https://www.sohu.com/a/960605326_121140836",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+      "source": "www.csrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
