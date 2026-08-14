@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T00:57:26+08:00",
+  "generated_at": "2026-08-15T01:07:32+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 17,
@@ -17,6 +17,58 @@
         "fetched_at": "2026-08-15",
         "score": 5.5,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控中标结果:郑煤机综机公司东五西活柱自动上下料结果公告_采购_招标_整理",
+        "summary": "证券之星消息,根据天眼查APP信息整理,7月26日公布的《郑煤机综机公司东五西活柱自动上下料结果公告》中显示威海华东数控股份有限公司中标...",
+        "url": "http://business.sohu.com/a/919220870_121319643",
+        "source": "business.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+        "summary": "2026年6月29日 - 华东数控(002248)提问, 公司有产品用于.公司回答表示,您好!公司新产品圆台磨床近日已成功中标...",
+        "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+        "source": "yuanchuang.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首次小批量订单",
+        "summary": "2026年6月29日 - 查看股票机会,下载客户端华东数控(002248)6月29日在互动平台表示,公司新产品圆台磨床已成功中标.如有投资者据此操作,风险自担,同花顺对此不承担任何责...",
+        "url": "http://stock.10jqka.com.cn/20260629/c677796714.shtml",
+        "source": "stock.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控中标:高端数控磨床装备数字化工厂建设项目_惠水厂区老旧生产线改造提升工程-数控龙门导轨磨床采购(二次)招标采购公告_股票频道_证券之星",
+        "summary": "2025年8月22日 - 通过天眼查大数据分析,威海华东数控股份有限公司共对外投资了19家企业,参与招投标项目67次;财产线索方面有商标信息27条,专利信息281条,著作权信息4条;...",
+        "url": "https://stock.stockstar.com/RB2025082200020866.shtml",
+        "source": "stock.stockstar.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -58,59 +110,35 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "新能源": [
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "铜川市耀州区人民政府",
+        "summary": "17 小时之前 · [2026-08-14]【乡村振兴】铜川义丰农业打造照金生态循环农业经济新样板 [2026-08-14]【乡村振兴】早熟“秦阳”未采先 …",
+        "url": "https://www.yaozhou.gov.cn/",
+        "source": "www.yaozhou.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "REITS类资产": [
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-        "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-        "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-        "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-        "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-        "source": "k.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "小鹏汇天:飞行汽车2026年量产交付 先飞码用户尝鲜起飞_腾讯新闻",
-        "summary": "2024年12月14日 - 快科技12月14日消息,小鹏汇天今日在上海陆家嘴举办了 陆地航母 飞行汽车首飞活动。.飞行汽车预计在2025年10月末取得中国民航的型号合格证,并在2026年...",
-        "url": "https://news.qq.com/rain/a/20241214A05Z2T00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-        "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-        "url": "https://www.ifnews.com/news.html?aid=769436",
-        "source": "www.ifnews.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "汇天 新闻 2026"
-      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -166,8 +194,8 @@
     ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "半导体 (BK1036)_行情中心_东方财富网",
         "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -177,34 +205,6 @@
         "fetched_at": "2026-08-15",
         "score": 2.5,
         "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "铜川市耀州区人民政府",
-        "summary": "16 小时之前 · [2026-08-14]【乡村振兴】铜川义丰农业打造照金生态循环农业经济新样板 [2026-08-14]【乡村振兴】早熟“秦阳”未采先 …",
-        "url": "https://www.yaozhou.gov.cn/",
-        "source": "www.yaozhou.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -251,56 +251,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-      "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-      "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-      "source": "news.qq.com",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控中标结果:郑煤机综机公司东五西活柱自动上下料结果公告_采购_招标_整理",
+      "summary": "证券之星消息,根据天眼查APP信息整理,7月26日公布的《郑煤机综机公司东五西活柱自动上下料结果公告》中显示威海华东数控股份有限公司中标...",
+      "url": "http://business.sohu.com/a/919220870_121319643",
+      "source": "business.sohu.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 5.5,
-      "query": "汇天 新闻 2026"
+      "query": "\"华东数控\" 公告 签约 中标 投资"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-      "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-      "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-      "source": "k.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "小鹏汇天:飞行汽车2026年量产交付 先飞码用户尝鲜起飞_腾讯新闻",
-      "summary": "2024年12月14日 - 快科技12月14日消息,小鹏汇天今日在上海陆家嘴举办了 陆地航母 飞行汽车首飞活动。.飞行汽车预计在2025年10月末取得中国民航的型号合格证,并在2026年...",
-      "url": "https://news.qq.com/rain/a/20241214A05Z2T00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-      "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-      "url": "https://www.ifnews.com/news.html?aid=769436",
-      "source": "www.ifnews.com",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+      "summary": "2026年6月29日 - 华东数控(002248)提问, 公司有产品用于.公司回答表示,您好!公司新产品圆台磨床近日已成功中标...",
+      "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+      "source": "yuanchuang.10jqka.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.0,
-      "query": "汇天 新闻 2026"
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首次小批量订单",
+      "summary": "2026年6月29日 - 查看股票机会,下载客户端华东数控(002248)6月29日在互动平台表示,公司新产品圆台磨床已成功中标.如有投资者据此操作,风险自担,同花顺对此不承担任何责...",
+      "url": "http://stock.10jqka.com.cn/20260629/c677796714.shtml",
+      "source": "stock.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控中标:高端数控磨床装备数字化工厂建设项目_惠水厂区老旧生产线改造提升工程-数控龙门导轨磨床采购(二次)招标采购公告_股票频道_证券之星",
+      "summary": "2025年8月22日 - 通过天眼查大数据分析,威海华东数控股份有限公司共对外投资了19家企业,参与招投标项目67次;财产线索方面有商标信息27条,专利信息281条,著作权信息4条;...",
+      "url": "https://stock.stockstar.com/RB2025082200020866.shtml",
+      "source": "stock.stockstar.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"华东数控\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -342,19 +342,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "xunchao",
       "company": "迅巢科技",
       "industry": "新能源",
@@ -381,11 +368,24 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
       "code": "xunchao",
       "company": "迅巢科技",
       "industry": "新能源",
       "title": "铜川市耀州区人民政府",
-      "summary": "16 小时之前 · [2026-08-14]【乡村振兴】铜川义丰农业打造照金生态循环农业经济新样板 [2026-08-14]【乡村振兴】早熟“秦阳”未采先 …",
+      "summary": "17 小时之前 · [2026-08-14]【乡村振兴】铜川义丰农业打造照金生态循环农业经济新样板 [2026-08-14]【乡村振兴】早熟“秦阳”未采先 …",
       "url": "https://www.yaozhou.gov.cn/",
       "source": "www.yaozhou.gov.cn",
       "date": "",
