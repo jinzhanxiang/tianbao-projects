@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T01:27:30+08:00",
+  "generated_at": "2026-08-15T01:36:55+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 15,
   "by_industry": {
     "高端制造": [
       {
@@ -58,19 +58,19 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "半导体": [
       {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "AI智能",
-        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-        "source": "www.chinabidding.cn",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "乘杜 新闻 2026"
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -99,21 +99,6 @@
         "fetched_at": "2026-08-15",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -170,33 +155,35 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "生物医药": [
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "全职法师：开棺有奖全部章节_全职法师：开棺有奖最新章节—云起书 …",
+        "summary": "第470章 亡灵铠袍不收埃及亡灵的魂灵 第469章 真龙出世 第468章 空白王座（求订阅） 第467章 第四次打开血棺 第466章 情报交易 …",
+        "url": "https://yunqi.qq.com/chapter/58199614",
+        "source": "yunqi.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "全职法师开棺有奖最新章节全集,在线阅读_创世中文网",
+        "summary": "简介： 穿越全职法师，开局一口血棺，献祭精魄，打开棺材板，获得奖励 奖励1：成长型修魂魔器；奖励2：魔法噬种 奖励3：半魂 …",
+        "url": "https://chuangshi.qq.com/bqq/skamwzkg",
+        "source": "chuangshi.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      }
+    ],
     "其他行业": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
-        "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
-        "source": "www.shantou.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
       {
         "code": "acquisition-listed",
         "company": "收购上市公司研究",
@@ -222,60 +209,6 @@
         "fetched_at": "2026-08-15",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年生物医药政策分析报告.docx - 人人文库",
-        "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-        "url": "https://www.renrendoc.com/paper/517081205.html",
-        "source": "www.renrendoc.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
       }
     ]
   },
@@ -333,17 +266,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "AI智能",
-      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-      "source": "www.chinabidding.cn",
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "乘杜 新闻 2026"
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "xingheng",
@@ -359,19 +292,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -385,84 +305,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
-      "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
-      "source": "www.shantou.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年生物医药政策分析报告.docx - 人人文库",
-      "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-      "url": "https://www.renrendoc.com/paper/517081205.html",
-      "source": "www.renrendoc.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -474,6 +316,32 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "全职法师：开棺有奖全部章节_全职法师：开棺有奖最新章节—云起书 …",
+      "summary": "第470章 亡灵铠袍不收埃及亡灵的魂灵 第469章 真龙出世 第468章 空白王座（求订阅） 第467章 第四次打开血棺 第466章 情报交易 …",
+      "url": "https://yunqi.qq.com/chapter/58199614",
+      "source": "yunqi.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "全职法师开棺有奖最新章节全集,在线阅读_创世中文网",
+      "summary": "简介： 穿越全职法师，开局一口血棺，献祭精魄，打开棺材板，获得奖励 奖励1：成长型修魂魔器；奖励2：魔法噬种 奖励3：半魂 …",
+      "url": "https://chuangshi.qq.com/bqq/skamwzkg",
+      "source": "chuangshi.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
