@@ -1,10 +1,62 @@
 {
-  "generated_at": "2026-08-15T00:02:56+08:00",
+  "generated_at": "2026-08-15T00:13:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 10,
+  "total": 22,
   "by_industry": {
     "高端制造": [
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯张家口公司投产仪式顺利举行_生产_项目_复合材料",
+        "summary": "出席此次投产仪式的有张家口宣化区区委、区政府领导,三一重能、张宣科技、中复碳芯等公司领导。.张家口公司项目位于张宣科技厂区,是中复碳芯...",
+        "url": "http://news.sohu.com/a/648906414_121124370",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯:国家级 专精特新 小巨人是如何炼成的_腾讯新闻",
+        "summary": "作为拉挤碳纤维复合材料领域的领军者,中国建材集团所属企业中复碳芯电缆科技有限公司(简称中复碳芯)是近年来中国建材集团聚焦主业进行科技...",
+        "url": "https://news.qq.com/rain/a/20240719A02G7P00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "三一重能入股中复碳芯_腾讯新闻",
+        "summary": "2024年11月26日 - 天眼查App显示,近日,中复碳芯电缆科技有限公司(以下简称 中复碳芯 )发生工商变更,新增三一重能(688349)为股东,同时注册资本由8880万人民币增至9346万...",
+        "url": "https://news.qq.com/rain/a/20241126A09Q8400?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯2026年T300级别碳纤维采购(招标公告)-江苏招标网",
+        "summary": "2025年12月1日 - 中复碳芯电缆科技有限公司 数据获取中.江苏连云港连云2026-04-17分享打开微信 扫一扫 打开网页后点击屏幕右上角 分享 按钮...",
+        "url": "https://js.bidizhaobiao.com/info-761486343.html",
+        "source": "js.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "中复碳芯 新闻 2026"
+      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -56,6 +108,127 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "航天宏图2026年发展瓶颈全解析:团队管理与业务发展双重困局航天宏图(68806_财富号_东方财富网",
+        "summary": "规划发射 114 颗卫星,单颗卫星研制与发射成本达数千万元,2026 年计划发射 50 + 颗卫星,资金需求超 20 亿元.河南基地投产,液氧甲烷 后羿一号 火...",
+        "url": "https://caifuhao.eastmoney.com/news/20251230221607204252780",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
+        "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
+        "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+        "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+        "url": "https://m.jiemian.com/article/14365628_sina.html",
+        "source": "m.jiemian.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "航天宏图:2026年度 提质增效重回报 行动方案-公司公告-慧博投研资讯",
+        "summary": "2026年4月30日 - 为进一步提升经营质效、改善盈利水平、完善投资者回报机制,公司制定了《2026年度 提质增效重回报 行动方案》(以下简称 2026年行动方案 )。.现将2025年...",
+        "url": "http://www.hibor.com.cn/report/816ad7b940c1616e4375aa0700205299.html",
+        "source": "www.hibor.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2026年2月2日 - 北京宏远创信能源科技有限公司 与北京宏远创信能源科技有限公司有关的项目共85条,分别是宏远创信办公室装修项目,宏远创信办公室装修项目-固资审批公开...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司-北京宏远",
+        "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
+        "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 重罚台 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -112,21 +285,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 重罚台 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -144,6 +302,162 @@
     ]
   },
   "items": [
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯张家口公司投产仪式顺利举行_生产_项目_复合材料",
+      "summary": "出席此次投产仪式的有张家口宣化区区委、区政府领导,三一重能、张宣科技、中复碳芯等公司领导。.张家口公司项目位于张宣科技厂区,是中复碳芯...",
+      "url": "http://news.sohu.com/a/648906414_121124370",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "中复碳芯 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "航天宏图2026年发展瓶颈全解析:团队管理与业务发展双重困局航天宏图(68806_财富号_东方财富网",
+      "summary": "规划发射 114 颗卫星,单颗卫星研制与发射成本达数千万元,2026 年计划发射 50 + 颗卫星,资金需求超 20 亿元.河南基地投产,液氧甲烷 后羿一号 火...",
+      "url": "https://caifuhao.eastmoney.com/news/20251230221607204252780",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
+      "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
+      "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯:国家级 专精特新 小巨人是如何炼成的_腾讯新闻",
+      "summary": "作为拉挤碳纤维复合材料领域的领军者,中国建材集团所属企业中复碳芯电缆科技有限公司(简称中复碳芯)是近年来中国建材集团聚焦主业进行科技...",
+      "url": "https://news.qq.com/rain/a/20240719A02G7P00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "中复碳芯 新闻 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "三一重能入股中复碳芯_腾讯新闻",
+      "summary": "2024年11月26日 - 天眼查App显示,近日,中复碳芯电缆科技有限公司(以下简称 中复碳芯 )发生工商变更,新增三一重能(688349)为股东,同时注册资本由8880万人民币增至9346万...",
+      "url": "https://news.qq.com/rain/a/20241126A09Q8400?media_id&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "中复碳芯 新闻 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯2026年T300级别碳纤维采购(招标公告)-江苏招标网",
+      "summary": "2025年12月1日 - 中复碳芯电缆科技有限公司 数据获取中.江苏连云港连云2026-04-17分享打开微信 扫一扫 打开网页后点击屏幕右上角 分享 按钮...",
+      "url": "https://js.bidizhaobiao.com/info-761486343.html",
+      "source": "js.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "中复碳芯 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2026年2月2日 - 北京宏远创信能源科技有限公司 与北京宏远创信能源科技有限公司有关的项目共85条,分别是宏远创信办公室装修项目,宏远创信办公室装修项目-固资审批公开...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+      "source": "www.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司-北京宏远",
+      "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
+      "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
+      "source": "www.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+      "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+      "url": "https://m.jiemian.com/article/14365628_sina.html",
+      "source": "m.jiemian.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "航天宏图:2026年度 提质增效重回报 行动方案-公司公告-慧博投研资讯",
+      "summary": "2026年4月30日 - 为进一步提升经营质效、改善盈利水平、完善投资者回报机制,公司制定了《2026年度 提质增效重回报 行动方案》(以下简称 2026年行动方案 )。.现将2025年...",
+      "url": "http://www.hibor.com.cn/report/816ad7b940c1616e4375aa0700205299.html",
+      "source": "www.hibor.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "航天宏图 新闻 2026"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
