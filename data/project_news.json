@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T12:26:56+08:00",
+  "generated_at": "2026-08-14T12:41:03+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 14,
   "by_industry": {
     "高端制造": [
       {
@@ -70,6 +70,19 @@
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 2.0,
         "query": "半导体 行业 政策 2026"
       }
     ],
@@ -264,6 +277,19 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+      "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+      "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+      "source": "www.deloitte.com",
+      "date": "",
+      "fetched_at": "2026-08-14",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "xingheng",
