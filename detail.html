@@ -215,6 +215,7 @@ body{
   font-family:'Outfit','PingFang SC',sans-serif!important;
   font-size:13px!important;letter-spacing:.2px;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  min-width:0;
 }
 .v3-side-meta-row .val.warn{color:var(--sk-red)!important}
 
@@ -454,12 +455,14 @@ body{
   display:flex;justify-content:space-between;align-items:center;gap:10px;
   padding:10px 14px!important;background:var(--sk-bg)!important;
   border-radius:10px!important;border-left:3px solid var(--sk-blue)!important;
+  min-width:0;
 }
 .v3-brief-cell .lbl{color:var(--sk-ink-3)!important;font-size:13px!important;flex-shrink:0;font-weight:500}
 .v3-brief-cell .val{
   color:var(--sk-ink)!important;font-weight:700!important;text-align:right;
   font-family:'Outfit','PingFang SC',sans-serif!important;font-size:14px!important;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  min-width:0;
 }
 .v3-brief-lead{
   font-size:15px!important;color:var(--sk-ink-2)!important;line-height:1.7!important;
@@ -970,13 +973,17 @@ body{
     const hasDowngrade = !!downgrade && downgrade !== '—';
     const parts = [];
 
+    const vName = escapeHtml(p.name_full || p.name_cn || '—');
+    const vIndustry = escapeHtml(p.industry || '—');
+    const vEstimation = escapeHtml(estimation || '—');
+    const vStage3 = escapeHtml((p.stage_v3||'—') + ' · ' + (p.iss||'—'));
     parts.push(`<div class="v3-brief-section v3-brief-basic">
       <div class="v3-brief-h">📋 项目基本信息</div>
       <div class="v3-brief-grid">
-        <div class="v3-brief-cell"><span class="lbl">项目名称</span><span class="val">${escapeHtml(p.name_full || p.name_cn || '—')}</span></div>
-        <div class="v3-brief-cell"><span class="lbl">主要行业</span><span class="val">${escapeHtml(p.industry || '—')}</span></div>
-        <div class="v3-brief-cell"><span class="lbl">估值口径</span><span class="val">${escapeHtml(estimation || '—')}</span></div>
-        <div class="v3-brief-cell"><span class="lbl">v3 分类</span><span class="val">${escapeHtml((p.stage_v3||'—') + ' · ' + (p.iss||'—'))}</span></div>
+        <div class="v3-brief-cell"><span class="lbl">项目名称</span><span class="val" title="${vName}">${vName}</span></div>
+        <div class="v3-brief-cell"><span class="lbl">主要行业</span><span class="val" title="${vIndustry}">${vIndustry}</span></div>
+        <div class="v3-brief-cell"><span class="lbl">估值口径</span><span class="val" title="${vEstimation}">${vEstimation}</span></div>
+        <div class="v3-brief-cell"><span class="lbl">v3 分类</span><span class="val" title="${vStage3}">${vStage3}</span></div>
       </div>
       <p class="v3-brief-lead">${escapeHtml(brief)}</p>
     </div>`);
