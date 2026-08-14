@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T08:29:25+08:00",
+  "generated_at": "2026-08-14T08:36:42+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 36,
+  "total": 33,
   "by_industry": {
     "硬科技": [
       {
@@ -17,6 +17,58 @@
         "fetched_at": "2026-08-14",
         "score": 5.5,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2026年2月2日 - 北京宏远创信能源科技有限公司 与北京宏远创信能源科技有限公司有关的项目共85条,分别是宏远创信办公室装修项目,宏远创信办公室装修项目-固资审批公开...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "硬科技",
+        "title": "北京宏远创信能源科技有限公司-北京宏远",
+        "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
+        "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -48,10 +100,10 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "硬科技",
-        "title": "华阳电子科技（平湖）有限公司 - 华阳电子 - 爱企查",
-        "summary": "2026年7月29日 · 华阳电子科技（平湖）有限公司是一家高新技术企业 (2024)，该公司成立于2011年04月22日，位于浙江省平湖经济 …",
-        "url": "https://aiqicha.baidu.com/company_detail_66212819933297",
-        "source": "aiqicha.baidu.com",
+        "title": "公司简介-惠州华阳通用电子有限公司官方网站",
+        "summary": "惠州华阳通用电子有限公司成立于2002年，是惠州市华阳集团股份有限公司（股票代码：002906）的全资子公司。 公司深耕汽车电子 …",
+        "url": "https://www.foryouge.com/company_profile.html",
+        "source": "www.foryouge.com",
         "date": "",
         "fetched_at": "2026-08-14",
         "score": 3.0,
@@ -59,58 +111,6 @@
       }
     ],
     "数据": [
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "数据",
-        "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-        "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-        "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "数据",
-        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-        "source": "bj.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "数据",
-        "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-        "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-        "url": "https://www.szmhzs.com/news/14.html",
-        "source": "www.szmhzs.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "数据",
-        "title": "中汇天合工程管理有限公司最新中标公告|招标网",
-        "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
-        "source": "qy.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -328,60 +328,6 @@
         "query": "智能体软件 行业 政策 2026"
       }
     ],
-    "医疗健康": [
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "2026年国家在卫生健康领域的补贴政策",
-        "summary": "2026年6月29日 - 提供免费疗休养、健康体检、医疗互助、心理讲座等服务.2026年政府工作报告明确的任务,属于全国性政策。...",
-        "url": "https://www.sandu.gov.cn/zfbm/xwsjkj_5712982/zfxxgk_5712953/fdzdgknr_5712956/wsjkbt1/202606/t20260629_90565715.html",
-        "source": "www.sandu.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.5,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "2026年医疗健康行业政策解读报告:行业发展与政策红利分析-20260725092818.docx-原创力文档",
-        "summary": "二、政策对医疗健康行业的影响与挑战.2.1政策对医疗健康行业的影响...",
-        "url": "https://max.book118.com/html/2026/0725/8114052003010113.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.0,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "医疗健康",
-        "title": "2026年医疗健康行业报告:行业发展趋势与政策影响-20260724005522.docx-原创力文档",
-        "summary": "根据国家卫生健康委员会发布的数据,我国医疗健康行业市场规模逐年增长,预计到2026年将达到10万亿元.政府高度重视医疗健康行业发展,出台了一系列政策措施,如深化...",
-        "url": "https://max.book118.com/html/2026/0724/5024241301013244.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 2.0,
-        "query": "医疗健康 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "医疗健康",
-        "title": "[视频]国家巡回医疗队开展驻点帮扶 优质诊疗下沉中西部县域",
-        "summary": "主要内容 央视网消息 （新闻联播）：按照国家卫生健康委、国家中医药管理局常态化巡回医疗部署，今年，全国共组建89支国家医疗 …",
-        "url": "https://tv.cctv.com/2026/08/13/VIDEoOS3PLWKRCbtyTyRLkKD260813.shtml",
-        "source": "tv.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-14",
-        "score": 1.5,
-        "query": "医疗健康 行业 政策 2026"
-      }
-    ],
     "并购标的汇总": [
       {
         "code": "fxpp",
@@ -421,6 +367,21 @@
         "fetched_at": "2026-08-14",
         "score": 1.5,
         "query": "并购标的汇总 行业 政策 2026"
+      }
+    ],
+    "医疗健康": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "医疗健康",
+        "title": "[视频]国家巡回医疗队开展驻点帮扶 优质诊疗下沉中西部县域",
+        "summary": "主要内容 央视网消息 （新闻联播）：按照国家卫生健康委、国家中医药管理局常态化巡回医疗部署，今年，全国共组建89支国家医疗 …",
+        "url": "https://tv.cctv.com/2026/08/13/VIDEoOS3PLWKRCbtyTyRLkKD260813.shtml",
+        "source": "tv.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-14",
+        "score": 1.5,
+        "query": "医疗健康 行业 政策 2026"
       }
     ],
     "汽车电子": [
@@ -508,56 +469,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-      "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-      "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "硬科技",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2026年2月2日 - 北京宏远创信能源科技有限公司 与北京宏远创信能源科技有限公司有关的项目共85条,分别是宏远创信办公室装修项目,宏远创信办公室装修项目-固资审批公开...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
       "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-      "source": "bj.bidizhaobiao.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "硬科技",
+      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+      "source": "www.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-      "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-      "url": "https://www.szmhzs.com/news/14.html",
-      "source": "www.szmhzs.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "硬科技",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "数据",
-      "title": "中汇天合工程管理有限公司最新中标公告|招标网",
-      "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
-      "source": "qy.zhaobiao.cn",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "硬科技",
+      "title": "北京宏远创信能源科技有限公司-北京宏远",
+      "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
+      "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
+      "source": "www.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
       "code": "unicom-idc",
@@ -641,10 +602,10 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "硬科技",
-      "title": "华阳电子科技（平湖）有限公司 - 华阳电子 - 爱企查",
-      "summary": "2026年7月29日 · 华阳电子科技（平湖）有限公司是一家高新技术企业 (2024)，该公司成立于2011年04月22日，位于浙江省平湖经济 …",
-      "url": "https://aiqicha.baidu.com/company_detail_66212819933297",
-      "source": "aiqicha.baidu.com",
+      "title": "公司简介-惠州华阳通用电子有限公司官方网站",
+      "summary": "惠州华阳通用电子有限公司成立于2002年，是惠州市华阳集团股份有限公司（股票代码：002906）的全资子公司。 公司深耕汽车电子 …",
+      "url": "https://www.foryouge.com/company_profile.html",
+      "source": "www.foryouge.com",
       "date": "",
       "fetched_at": "2026-08-14",
       "score": 3.0,
@@ -688,19 +649,6 @@
       "fetched_at": "2026-08-14",
       "score": 2.5,
       "query": "智能体软件 行业 政策 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "2026年国家在卫生健康领域的补贴政策",
-      "summary": "2026年6月29日 - 提供免费疗休养、健康体检、医疗互助、心理讲座等服务.2026年政府工作报告明确的任务,属于全国性政策。...",
-      "url": "https://www.sandu.gov.cn/zfbm/xwsjkj_5712982/zfxxgk_5712953/fdzdgknr_5712956/wsjkbt1/202606/t20260629_90565715.html",
-      "source": "www.sandu.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.5,
-      "query": "医疗健康 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
@@ -779,32 +727,6 @@
       "fetched_at": "2026-08-14",
       "score": 2.0,
       "query": "数据 行业 政策 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "2026年医疗健康行业政策解读报告:行业发展与政策红利分析-20260725092818.docx-原创力文档",
-      "summary": "二、政策对医疗健康行业的影响与挑战.2.1政策对医疗健康行业的影响...",
-      "url": "https://max.book118.com/html/2026/0725/8114052003010113.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.0,
-      "query": "医疗健康 行业 政策 2026"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "医疗健康",
-      "title": "2026年医疗健康行业报告:行业发展趋势与政策影响-20260724005522.docx-原创力文档",
-      "summary": "根据国家卫生健康委员会发布的数据,我国医疗健康行业市场规模逐年增长,预计到2026年将达到10万亿元.政府高度重视医疗健康行业发展,出台了一系列政策措施,如深化...",
-      "url": "https://max.book118.com/html/2026/0724/5024241301013244.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-14",
-      "score": 2.0,
-      "query": "医疗健康 行业 政策 2026"
     },
     {
       "code": "qingdao-heli",
