@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T00:35:27+08:00",
+  "generated_at": "2026-08-15T00:45:53+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 12,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -58,19 +58,73 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "生物医药": [
       {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "AI智能",
-        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-        "source": "www.chinabidding.cn",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
+        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
+        "url": "https://news.qq.com/rain/a/20250526A01GR200",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "柯渡医学 新闻 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
+        "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
+        "url": "http://www.myrb.net/html/2025/news/3/412188.html",
+        "source": "www.myrb.net",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 3.0,
-        "query": "乘杜 新闻 2026"
+        "query": "柯渡医学 新闻 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "实干开新局建设“驶快道”",
+        "summary": "航拍正在加快建设的柯渡医学科技美安产业园项目.本报2月19日讯(记者王子豪)2月19日,在位于海口国家高新区美安生态科技新城的柯渡医学科技美...",
+        "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
+        "source": "www.hi.chinanews.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "柯渡医学 新闻 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "第十五届健康中国论坛聚焦公立医院高质量发展 医学装备数智化管理极大提升医院装备管理质量效益",
+        "summary": "2024年5月29日 - 上海柯渡医学科技股份有限公司CEO张建以《医学装备数智化管理助力医院高质量发展》为题作了主旨发言。.张建介绍,上海柯渡医学科技股份有限公司成立于2...",
+        "url": "https://news.10jqka.com.cn/20240529/c658304247.shtml",
+        "source": "news.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "柯渡医学 新闻 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -127,22 +181,33 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "新能源": [
+    "其他行业": [
       {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 重罚台 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "其他行业": [
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+        "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+        "source": "www.shantou.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
       {
         "code": "acquisition-listed",
         "company": "收购上市公司研究",
@@ -169,6 +234,73 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
+    ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+        "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+        "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2026年新能源产业政策解读及行业发展报告-20260725094253.docx-原创力文档",
+        "summary": "2026年,我国新能源产业政策及行业发展呈现出以下特点。.2026年,政府继续加大政策扶持力度,从财政补贴、税收优惠、技术创新等多个方面为新能源产业发展提供支持。...",
+        "url": "https://max.book118.com/html/2026/0725/8134020004010113.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+        "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+        "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2026年新能源行业市场趋势与政策法规解读报告-20260723100751.docx-原创力文档",
+        "summary": "2026年,新能源行业将继续保持高速增长态势,市场前景广阔。.近年来,我国政府高度重视新能源产业的发展,出台了一系列政策法规,以推动新能源产业的快速发展...",
+        "url": "https://max.book118.com/html/2026/0723/7140115116011134.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 重罚台 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -184,6 +316,32 @@
       "fetched_at": "2026-08-15",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
+      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
+      "url": "https://news.qq.com/rain/a/20250526A01GR200",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "柯渡医学 新闻 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
+      "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
+      "url": "http://www.myrb.net/html/2025/news/3/412188.html",
+      "source": "www.myrb.net",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "huayt",
@@ -225,17 +383,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "AI智能",
-      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-      "source": "www.chinabidding.cn",
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "乘杜 新闻 2026"
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -251,8 +409,112 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+      "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+      "source": "www.shantou.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+      "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+      "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026年新能源产业政策解读及行业发展报告-20260725094253.docx-原创力文档",
+      "summary": "2026年,我国新能源产业政策及行业发展呈现出以下特点。.2026年,政府继续加大政策扶持力度,从财政补贴、税收优惠、技术创新等多个方面为新能源产业发展提供支持。...",
+      "url": "https://max.book118.com/html/2026/0725/8134020004010113.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+      "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+      "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026年新能源行业市场趋势与政策法规解读报告-20260723100751.docx-原创力文档",
+      "summary": "2026年,新能源行业将继续保持高速增长态势,市场前景广阔。.近年来,我国政府高度重视新能源产业的发展,出台了一系列政策法规,以推动新能源产业的快速发展...",
+      "url": "https://max.book118.com/html/2026/0723/7140115116011134.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "实干开新局建设“驶快道”",
+      "summary": "航拍正在加快建设的柯渡医学科技美安产业园项目.本报2月19日讯(记者王子豪)2月19日,在位于海口国家高新区美安生态科技新城的柯渡医学科技美...",
+      "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
+      "source": "www.hi.chinanews.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "柯渡医学 新闻 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "第十五届健康中国论坛聚焦公立医院高质量发展 医学装备数智化管理极大提升医院装备管理质量效益",
+      "summary": "2024年5月29日 - 上海柯渡医学科技股份有限公司CEO张建以《医学装备数智化管理助力医院高质量发展》为题作了主旨发言。.张建介绍,上海柯渡医学科技股份有限公司成立于2...",
+      "url": "https://news.10jqka.com.cn/20240529/c658304247.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "柯渡医学 新闻 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 重罚台 …",
