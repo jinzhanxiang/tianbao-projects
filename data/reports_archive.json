@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-08-02T17:47:26.729459",
+  "generated_at": "2026-08-14T10:32:31.767948",
   "source": "data/reports.json · cleanup v2",
   "stats": {
-    "dup_title_date": 3,
-    "superseded": 7,
+    "dup_title_date": 4,
+    "superseded": 8,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
     "intermediate:v_standard_mode": 1,
     "intermediate:cooperation_package": 1,
+    "intermediate:section_synthesis": 3,
     "quarantine_full": 2
   },
-  "total_archived": 17,
+  "total_archived": 22,
   "archived_reports": [
     {
       "code": "huadong-sk",
@@ -25,8 +26,8 @@
       "summary": "",
       "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huadong-sk/%E5%8D%8E%E4%B8%9C%E6%95%B0%E6%8E%A7_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v34210_20260722_prechart.html",
       "_archive_reason": "duplicate_title_date",
-      "_archive_note": "与已有报告 title+date 完全相同",
-      "_archived_at": "2026-08-02T17:47:26.728252"
+      "_archive_note": "与更大版本 title+date 相同（保留 1539976B，归档 50406B）",
+      "_archived_at": "2026-08-14T10:32:31.766986"
     },
     {
       "code": "hongyuan",
@@ -41,7 +42,7 @@
       "url": "https://jinzhanxiang.github.io/hongyuan-report/index.html",
       "_archive_reason": "superseded_version",
       "_archive_note": "被最新版替代：宏远创信投资可行性研究分析报告（V5） (2026-07-23)",
-      "_archived_at": "2026-08-02T17:47:26.728318"
+      "_archived_at": "2026-08-14T10:32:31.767075"
     },
     {
       "code": "hongyuan",
@@ -56,7 +57,7 @@
       "url": "https://jinzhanxiang.github.io/hongyuan-report/index.html",
       "_archive_reason": "superseded_version",
       "_archive_note": "被最新版替代：宏远创信投资可行性研究分析报告（V5） (2026-07-23)",
-      "_archived_at": "2026-08-02T17:47:26.728320"
+      "_archived_at": "2026-08-14T10:32:31.767077"
     },
     {
       "code": "jngd",
@@ -70,8 +71,8 @@
       "summary": "",
       "url": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
       "_archive_reason": "duplicate_title_date",
-      "_archive_note": "与已有报告 title+date 完全相同",
-      "_archived_at": "2026-08-02T17:47:26.728323"
+      "_archive_note": "与更大版本 title+date 相同（保留 24970B，归档 12783B）",
+      "_archived_at": "2026-08-14T10:32:31.767081"
     },
     {
       "code": "jngd",
@@ -86,7 +87,7 @@
       "url": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
       "_archive_reason": "intermediate:v_redo",
       "_archive_note": "中间产物：v_redo",
-      "_archived_at": "2026-08-02T17:47:26.728329"
+      "_archived_at": "2026-08-14T10:32:31.767088"
     },
     {
       "code": "jngd",
@@ -101,7 +102,7 @@
       "url": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
       "_archive_reason": "intermediate:v_appendix",
       "_archive_note": "中间产物：v_appendix",
-      "_archived_at": "2026-08-02T17:47:26.728333"
+      "_archived_at": "2026-08-14T10:32:31.767092"
     },
     {
       "code": "jngd",
@@ -116,7 +117,7 @@
       "url": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
       "_archive_reason": "intermediate:v_deep_mode",
       "_archive_note": "中间产物：v_deep_mode",
-      "_archived_at": "2026-08-02T17:47:26.728336"
+      "_archived_at": "2026-08-14T10:32:31.767094"
     },
     {
       "code": "jngd",
@@ -131,7 +132,7 @@
       "url": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
       "_archive_reason": "intermediate:v_standard_mode",
       "_archive_note": "中间产物：v_standard_mode",
-      "_archived_at": "2026-08-02T17:47:26.728338"
+      "_archived_at": "2026-08-14T10:32:31.767096"
     },
     {
       "code": "jngd",
@@ -146,7 +147,7 @@
       "url": "https://jinzhanxiang.github.io/jngd-report/dashboard.html",
       "_archive_reason": "superseded_version",
       "_archive_note": "被最新版替代：晶能光电商业尽调报告 (2026-07-03)",
-      "_archived_at": "2026-08-02T17:47:26.728347"
+      "_archived_at": "2026-08-14T10:32:31.767106"
     },
     {
       "code": "kedu",
@@ -161,7 +162,7 @@
       "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/kedu/%E6%9F%AF%E6%B8%A1%E5%8C%BB%E5%AD%A6_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F%E6%8A%A5%E5%91%8A_V1_20260730.html",
       "_archive_reason": "superseded_version",
       "_archive_note": "被最新版替代：柯渡医学（未上市 · 拟控股并购）投资可行性研究报告 V3.0 (2026-07-30)",
-      "_archived_at": "2026-08-02T17:47:26.728359"
+      "_archived_at": "2026-08-14T10:32:31.767118"
     },
     {
       "code": "huitian",
@@ -176,7 +177,67 @@
       "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huitian/prechart_v421.html",
       "_archive_reason": "intermediate:cooperation_package",
       "_archive_note": "中间产物：cooperation_package",
-      "_archived_at": "2026-08-02T17:47:26.728364"
+      "_archived_at": "2026-08-14T10:32:31.767123"
+    },
+    {
+      "code": "haite",
+      "date": "2026-08-14",
+      "category": "商业研究",
+      "title": "天保控股低空公司收购天津海特飞机工程有限公司控股权可行性研究 · 2026-08-14",
+      "file": "天津海特飞机_控股收购可行性研究_20260814.html",
+      "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/天津海特飞机_控股收购可行性研究_20260814.html",
+      "size": 22913,
+      "mtime": "2026-08-14T09:15:30+08:00",
+      "summary": "",
+      "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E5%A4%A9%E6%B4%A5%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA_%E6%8E%A7%E8%82%A1%E6%94%B6%E8%B4%AD%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_20260814.html",
+      "_archive_reason": "duplicate_title_date",
+      "_archive_note": "与更大版本 title+date 相同（保留 140858B，归档 22913B）",
+      "_archived_at": "2026-08-14T10:32:31.767135"
+    },
+    {
+      "code": "haite",
+      "date": "2026-08-14",
+      "category": "商业研究",
+      "title": "天保控股低空公司收购天津海特飞机工程有限公司控股权可行性研究 · §13-§21 交叉洞察 · 2026-08-14",
+      "file": "海特飞机_§13-§21交叉洞察_20260814.html",
+      "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§13-§21交叉洞察_20260814.html",
+      "size": 27932,
+      "mtime": "2026-08-14T09:19:22+08:00",
+      "summary": "",
+      "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA_%C2%A713-%C2%A721%E4%BA%A4%E5%8F%89%E6%B4%9E%E5%AF%9F_20260814.html",
+      "_archive_reason": "intermediate:section_synthesis",
+      "_archive_note": "中间产物：section_synthesis",
+      "_archived_at": "2026-08-14T10:32:31.767144"
+    },
+    {
+      "code": "haite",
+      "date": "2026-08-14",
+      "category": "商业研究",
+      "title": "天保控股低空公司收购天津海特飞机工程有限公司控股权可行性研究 · §22-§26 决策支持 · 2026-08-14",
+      "file": "海特飞机_§22-§26决策支持_20260814.html",
+      "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§22-§26决策支持_20260814.html",
+      "size": 25269,
+      "mtime": "2026-08-14T09:20:59+08:00",
+      "summary": "",
+      "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA_%C2%A722-%C2%A726%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81_20260814.html",
+      "_archive_reason": "intermediate:section_synthesis",
+      "_archive_note": "中间产物：section_synthesis",
+      "_archived_at": "2026-08-14T10:32:31.767147"
+    },
+    {
+      "code": "haite",
+      "date": "2026-08-14",
+      "category": "商业研究",
+      "title": "天保控股低空公司收购天津海特飞机工程有限公司控股权可行性研究 · §6-§12 横向分析 · 2026-08-14",
+      "file": "海特飞机_§6-§12横向分析_20260814.html",
+      "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特飞机/output/海特飞机_§6-§12横向分析_20260814.html",
+      "size": 29710,
+      "mtime": "2026-08-14T09:17:34+08:00",
+      "summary": "",
+      "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA_%C2%A76-%C2%A712%E6%A8%AA%E5%90%91%E5%88%86%E6%9E%90_20260814.html",
+      "_archive_reason": "intermediate:section_synthesis",
+      "_archive_note": "中间产物：section_synthesis",
+      "_archived_at": "2026-08-14T10:32:31.767150"
     },
     {
       "code": "unicom-sx",
@@ -190,8 +251,8 @@
       "summary": "",
       "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_V3_prechart_20260725.html",
       "_archive_reason": "duplicate_title_date",
-      "_archive_note": "与已有报告 title+date 完全相同",
-      "_archived_at": "2026-08-02T17:47:26.728379"
+      "_archive_note": "与更大版本 title+date 相同（保留 60155B，归档 20438B）",
+      "_archived_at": "2026-08-14T10:32:31.767153"
     },
     {
       "code": "unicom-sx",
@@ -206,7 +267,7 @@
       "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_V3_prechart_20260725.html",
       "_archive_reason": "superseded_version",
       "_archive_note": "被最新版替代：联通云山西 IDC 投资可行性分析 — 决策模式 V25+ (2026-07-25)",
-      "_archived_at": "2026-08-02T17:47:26.728395"
+      "_archived_at": "2026-08-14T10:32:31.767170"
     },
     {
       "code": "unicom-sx",
@@ -221,7 +282,7 @@
       "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_V3_prechart_20260725.html",
       "_archive_reason": "superseded_version",
       "_archive_note": "被最新版替代：联通云山西 IDC 投资可行性分析 — 决策模式 V25+ (2026-07-25)",
-      "_archived_at": "2026-08-02T17:47:26.728396"
+      "_archived_at": "2026-08-14T10:32:31.767171"
     },
     {
       "code": "unicom-sx",
@@ -236,7 +297,22 @@
       "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_V3_prechart_20260725.html",
       "_archive_reason": "superseded_version",
       "_archive_note": "被最新版替代：联通云山西 IDC 投资可行性分析 — 决策模式 V25+ (2026-07-25)",
-      "_archived_at": "2026-08-02T17:47:26.728397"
+      "_archived_at": "2026-08-14T10:32:31.767172"
+    },
+    {
+      "code": "hongyi",
+      "date": "2026-08-04",
+      "category": "商业研究",
+      "title": "鸿翼（未上市 · 新三板 834807）投资可行性研究报告 V2 · 国资战略入股 · 商业模式深化版 · 2026-08-04",
+      "file": "鸿翼_投资可行性研究_V2_20260804.html",
+      "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/鸿翼/output/鸿翼_投资可行性研究_V2_20260804.html",
+      "size": 145615,
+      "mtime": "2026-08-04T19:58:59+08:00",
+      "summary": "",
+      "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hongyi/%E9%B8%BF%E7%BF%BC_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_V2_20260804.html",
+      "_archive_reason": "superseded_version",
+      "_archive_note": "被最新版替代：鸿翼（未上市 · 新三板 834807）投资可行性研究报告 V25.1.18.10 (2026-08-04)",
+      "_archived_at": "2026-08-14T10:32:31.767199"
     },
     {
       "code": "未归类",
@@ -251,7 +327,7 @@
       "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/data_audit_20260727/投资业务可比公司数据核查报告_20260727.md",
       "_archive_reason": "wrong_project_quarantine",
       "_archive_note": "原归属 未归类 (?)，实际属于其他项目或汇总页",
-      "_archived_at": "2026-08-02T17:47:26.728443"
+      "_archived_at": "2026-08-14T10:32:31.767215"
     },
     {
       "code": "未归类",
@@ -266,7 +342,7 @@
       "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/LLM_Wiki_研究报告_20260512.md",
       "_archive_reason": "wrong_project_quarantine",
       "_archive_note": "原归属 未归类 (?)，实际属于其他项目或汇总页",
-      "_archived_at": "2026-08-02T17:47:26.728445"
+      "_archived_at": "2026-08-14T10:32:31.767216"
     }
   ]
 }
