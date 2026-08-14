@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T04:44:59+08:00",
+  "generated_at": "2026-08-15T04:53:57+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 20,
@@ -19,95 +19,43 @@
         "query": "华阳 新闻 2026"
       },
       {
-        "code": "aodian",
-        "company": "奥联电子",
+        "code": "huayt",
+        "company": "华阳集团",
         "industry": "高端制造",
-        "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-        "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-        "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-        "source": "cj.sina.com.cn",
+        "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
+        "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
+        "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
+        "source": "stock.jrj.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 5.5,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "\"华阳\" 公告 签约 中标 投资"
       },
       {
-        "code": "aodian",
-        "company": "奥联电子",
+        "code": "huayt",
+        "company": "华阳集团",
         "industry": "高端制造",
-        "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-        "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-        "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-        "source": "stock.stockstar.com",
+        "title": "华阳国际收到EPC总承包项目《中标通知书》 中标价15.46亿元-股票-金融界",
+        "summary": "中标单位:深圳市华阳国际工程设计股份有限公司、深圳市市政工程总公司;.公告显示,《中标通知书》的主要内容如下:.招标人:深圳市龙华区建筑工...",
+        "url": "https://stock.jrj.com.cn/2020/04/13210629277012.shtml",
+        "source": "stock.jrj.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "score": 5.5,
+        "query": "\"华阳\" 公告 签约 中标 投资"
       },
       {
-        "code": "aodian",
-        "company": "奥联电子",
+        "code": "huayt",
+        "company": "华阳集团",
         "industry": "高端制造",
-        "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-        "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-        "url": "https://xueqiu.com/2866092708/292230062",
+        "title": "总金额超30亿!山西华阳集团旗下这一重点项目再推进,央企中铝深度助力 12月3日, 中铝国际 工程股份有限公司(以下简称 中铝国际 )发布中标公告。公告显示, ...",
+        "summary": "月3日, 中铝国际 工程股份有限公司(以下简称 中铝国际 )发布中标公告。公告显示, 中铝国际 控股子公司沈阳铝镁设计研究院有限公司作为牵头方,...",
+        "url": "https://xueqiu.com/4199016830/364921870",
         "source": "xueqiu.com",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "A股开盘速递| 沪指跌0.35% 抗原检测、 辅助生殖等概念股活跃_新浪财经_新浪网",
-        "summary": "4、奥联电子:签署钙钛矿投资合作协议,计划2023年50MW钙钛矿中试线投产.偏正面方面,自选哥提示关注祥鑫科技、长盈精密等与宁德时代签战略合...",
-        "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2022-12-12/doc-imxwkrqv2056582.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团人力资源招聘系统",
-        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-        "url": "https://zhaopin.ymjt.com.cn/index.html",
-        "source": "zhaopin.ymjt.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "query": "\"华阳\" 公告 签约 中标 投资"
       }
     ],
     "新能源": [
@@ -155,8 +103,8 @@
     ],
     "REITS类资产": [
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "REITS类资产",
         "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
         "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
@@ -168,8 +116,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "unicom-sx",
+        "company": "联通云山西",
         "industry": "REITS类资产",
         "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
         "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
@@ -181,8 +129,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "unicom-sx",
+        "company": "联通云山西",
         "industry": "REITS类资产",
         "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
         "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
@@ -194,8 +142,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "unicom-sx",
+        "company": "联通云山西",
         "industry": "REITS类资产",
         "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
         "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
@@ -207,8 +155,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "REITS类资产",
         "title": "REITs专栏 | 上海证券交易所",
         "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
@@ -220,8 +168,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "REITS类资产",
         "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
         "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
@@ -233,8 +181,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "REITS类资产",
         "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
         "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
@@ -244,6 +192,60 @@
         "fetched_at": "2026-08-15",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "2026年生物医药政策分析报告.docx - 人人文库",
+        "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
+        "url": "https://www.renrendoc.com/paper/517081205.html",
+        "source": "www.renrendoc.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
+        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
+        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -290,95 +292,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
+      "code": "huayt",
+      "company": "华阳集团",
       "industry": "高端制造",
-      "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-      "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-      "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-      "source": "cj.sina.com.cn",
+      "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
+      "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
+      "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
+      "source": "stock.jrj.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 5.5,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "\"华阳\" 公告 签约 中标 投资"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
+      "code": "huayt",
+      "company": "华阳集团",
       "industry": "高端制造",
-      "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-      "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-      "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-      "source": "stock.stockstar.com",
+      "title": "华阳国际收到EPC总承包项目《中标通知书》 中标价15.46亿元-股票-金融界",
+      "summary": "中标单位:深圳市华阳国际工程设计股份有限公司、深圳市市政工程总公司;.公告显示,《中标通知书》的主要内容如下:.招标人:深圳市龙华区建筑工...",
+      "url": "https://stock.jrj.com.cn/2020/04/13210629277012.shtml",
+      "source": "stock.jrj.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "score": 5.5,
+      "query": "\"华阳\" 公告 签约 中标 投资"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
+      "code": "huayt",
+      "company": "华阳集团",
       "industry": "高端制造",
-      "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-      "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-      "url": "https://xueqiu.com/2866092708/292230062",
+      "title": "总金额超30亿!山西华阳集团旗下这一重点项目再推进,央企中铝深度助力 12月3日, 中铝国际 工程股份有限公司(以下简称 中铝国际 )发布中标公告。公告显示, ...",
+      "summary": "月3日, 中铝国际 工程股份有限公司(以下简称 中铝国际 )发布中标公告。公告显示, 中铝国际 控股子公司沈阳铝镁设计研究院有限公司作为牵头方,...",
+      "url": "https://xueqiu.com/4199016830/364921870",
       "source": "xueqiu.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "A股开盘速递| 沪指跌0.35% 抗原检测、 辅助生殖等概念股活跃_新浪财经_新浪网",
-      "summary": "4、奥联电子:签署钙钛矿投资合作协议,计划2023年50MW钙钛矿中试线投产.偏正面方面,自选哥提示关注祥鑫科技、长盈精密等与宁德时代签战略合...",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2022-12-12/doc-imxwkrqv2056582.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团人力资源招聘系统",
-      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-      "url": "https://zhaopin.ymjt.com.cn/index.html",
-      "source": "zhaopin.ymjt.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州华阳通用电子有限公司官方网站",
-      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-      "url": "https://www.foryouge.com/",
-      "source": "www.foryouge.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
+      "query": "\"华阳\" 公告 签约 中标 投资"
     },
     {
       "code": "xingheng",
@@ -407,8 +357,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
       "industry": "REITS类资产",
       "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
@@ -420,8 +370,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
+      "code": "unicom-sx",
+      "company": "联通云山西",
       "industry": "REITS类资产",
       "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
       "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
@@ -433,8 +383,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
+      "code": "unicom-sx",
+      "company": "联通云山西",
       "industry": "REITS类资产",
       "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
       "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
@@ -446,8 +396,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
+      "code": "unicom-sx",
+      "company": "联通云山西",
       "industry": "REITS类资产",
       "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
       "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
@@ -457,6 +407,58 @@
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "2026年生物医药政策分析报告.docx - 人人文库",
+      "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
+      "url": "https://www.renrendoc.com/paper/517081205.html",
+      "source": "www.renrendoc.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
+      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
+      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "xingheng",
@@ -470,6 +472,45 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "REITs专栏 | 上海证券交易所",
+      "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "url": "https://www.sse.com.cn/reits/home/",
+      "source": "www.sse.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+      "url": "https://www.sohu.com/a/960605326_121140836",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+      "source": "www.csrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "acquisition-listed",
@@ -496,45 +537,6 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "REITs专栏 | 上海证券交易所",
-      "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
-      "url": "https://www.sse.com.cn/reits/home/",
-      "source": "www.sse.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
-      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
-      "source": "www.csrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
