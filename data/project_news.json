@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T06:07:11+08:00",
+  "generated_at": "2026-08-15T06:15:37+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 12,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -17,6 +17,58 @@
         "fetched_at": "2026-08-15",
         "score": 5.5,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
+        "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
+        "url": "https://news.qq.com/rain/a/20260417A090QP00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
+        "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
+        "url": "https://news.qq.com/rain/a/20260419A02IN100",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
+        "summary": "同花顺数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有主力资金...",
+        "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
+        "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
+        "url": "https://news.qq.com/rain/a/20260418A054BV00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "华东数控 新闻 2026"
       },
       {
         "code": "huayt",
@@ -58,19 +110,71 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "其他行业": [
       {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "AI智能",
-        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-        "source": "www.chinabidding.cn",
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "其他行业",
+        "title": "天保基建:全资子公司签订4.99亿元重大合同_网易订阅",
+        "summary": "天保基建公告,公司全资子公司天津天保房地产开发有限公司与天津自贸试验区新兴科技产业有限公司签订《房屋销售合同》及《房屋销售合同之补...",
+        "url": "https://www.163.com/dy/article/JKTPP41K0519QIKK.html",
+        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "乘杜 新闻 2026"
+        "score": 5.5,
+        "query": "\"天保基建\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "其他行业",
+        "title": "天保基建:关于公司对外投资暨签署《合作框架协议》公告_天保基建(000965)股吧_东方财富网股吧",
+        "summary": "2016年7月19日 - 证券代码:000965证券简称:天保基建公告编号:2016-26 天津天保基建股份有限公司 关于对外投资暨签署《合作框架协议》的公告 本公司及董事会全体成员保...",
+        "url": "http://gubaf10.eastmoney.com/news,000965,455337814.html",
+        "source": "gubaf10.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"天保基建\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "其他行业",
+        "title": "天保基建招标结果:2025-2027年天津天保基建股份有限公司产商项目定制化装修监理服务中标结果公告_股票频道_证券之星",
+        "summary": "2025年11月2日 - 通过天眼查大数据分析,天津天保基建股份有限公司共对外投资了12家企业,参与招投标项目44次;财产线索方面有商标信息24条,著作权信息3条;此外企业还拥有...",
+        "url": "http://stock.stockstar.com/RB2025110200002857.shtml",
+        "source": "stock.stockstar.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"天保基建\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "tianbao-jijian",
+        "company": "天保基建",
+        "industry": "其他行业",
+        "title": "天保基建最新公告:成功竞得天津滨海新区两宗地块_股票频道_证券之星",
+        "summary": "天保基建公告,为满足公司未来发展战略对土地的需求,2024年12月31日,天公司全资子公司天津天保德源房地产开发有限公司参加了 津滨开(挂)2024-3...",
+        "url": "http://stock.stockstar.com/RB2025010100007867.shtml",
+        "source": "stock.stockstar.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"天保基建\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ],
     "半导体": [
@@ -97,6 +201,45 @@
         "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
         "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-sx",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-sx",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-sx",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
+        "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
+        "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 2.5,
@@ -156,21 +299,6 @@
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -186,6 +314,110 @@
       "fetched_at": "2026-08-15",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
+      "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
+      "url": "https://news.qq.com/rain/a/20260417A090QP00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
+      "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
+      "url": "https://news.qq.com/rain/a/20260419A02IN100",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
+      "summary": "同花顺数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有主力资金...",
+      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "其他行业",
+      "title": "天保基建:全资子公司签订4.99亿元重大合同_网易订阅",
+      "summary": "天保基建公告,公司全资子公司天津天保房地产开发有限公司与天津自贸试验区新兴科技产业有限公司签订《房屋销售合同》及《房屋销售合同之补...",
+      "url": "https://www.163.com/dy/article/JKTPP41K0519QIKK.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"天保基建\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "其他行业",
+      "title": "天保基建:关于公司对外投资暨签署《合作框架协议》公告_天保基建(000965)股吧_东方财富网股吧",
+      "summary": "2016年7月19日 - 证券代码:000965证券简称:天保基建公告编号:2016-26 天津天保基建股份有限公司 关于对外投资暨签署《合作框架协议》的公告 本公司及董事会全体成员保...",
+      "url": "http://gubaf10.eastmoney.com/news,000965,455337814.html",
+      "source": "gubaf10.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"天保基建\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
+      "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
+      "url": "https://news.qq.com/rain/a/20260418A054BV00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "其他行业",
+      "title": "天保基建招标结果:2025-2027年天津天保基建股份有限公司产商项目定制化装修监理服务中标结果公告_股票频道_证券之星",
+      "summary": "2025年11月2日 - 通过天眼查大数据分析,天津天保基建股份有限公司共对外投资了12家企业,参与招投标项目44次;财产线索方面有商标信息24条,著作权信息3条;此外企业还拥有...",
+      "url": "http://stock.stockstar.com/RB2025110200002857.shtml",
+      "source": "stock.stockstar.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"天保基建\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "其他行业",
+      "title": "天保基建最新公告:成功竞得天津滨海新区两宗地块_股票频道_证券之星",
+      "summary": "天保基建公告,为满足公司未来发展战略对土地的需求,2024年12月31日,天公司全资子公司天津天保德源房地产开发有限公司参加了 津滨开(挂)2024-3...",
+      "url": "http://stock.stockstar.com/RB2025010100007867.shtml",
+      "source": "stock.stockstar.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"天保基建\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -227,19 +459,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "AI智能",
-      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-      "source": "www.chinabidding.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "乘杜 新闻 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -260,6 +479,45 @@
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-sx",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-sx",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-sx",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
+      "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
+      "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
+      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 2.5,
