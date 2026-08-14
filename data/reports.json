@@ -1,10 +1,24 @@
 {
-  "generated_at": "2026-08-14T12:15:10+08:00",
+  "generated_at": "2026-08-14T12:26:52+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 49,
   "total_active": 46,
   "total_archived_cached": 3,
   "by_code": {
+    "000711-ST京蓝": [
+      {
+        "code": "000711-ST京蓝",
+        "date": "2026-08-14",
+        "category": "商业研究",
+        "title": "ST 京蓝(000711.SZ) 投资可行性综合研究报告 · 2026-08-14",
+        "file": "ST京蓝_投资可行性综合研究报告_20260814.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/000711-ST京蓝/output/ST京蓝_投资可行性综合研究报告_20260814.html",
+        "size": 69996,
+        "mtime": "2026-08-14T12:26:50+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/000711-ST京蓝/output/ST京蓝_投资可行性综合研究报告_20260814.html"
+      }
+    ],
     "chuangdu": [
       {
         "code": "chuangdu",
@@ -1401,7 +1415,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-14T12:15:10.995207",
+  "_last_cleanup": "2026-08-14T12:26:52.553695",
   "_cleanup_stats": {
     "dup_title_date": 4,
     "superseded": 8,
