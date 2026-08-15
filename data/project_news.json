@@ -1,23 +1,10 @@
 {
-  "generated_at": "2026-08-15T19:53:18+08:00",
+  "generated_at": "2026-08-15T19:59:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 20,
   "by_industry": {
     "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
-        "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
-        "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
-        "source": "cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "华阳 新闻 2026"
-      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -35,30 +22,95 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
-        "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
-        "url": "https://finance.eastmoney.com/a/202604153706194839.html",
-        "source": "finance.eastmoney.com",
+        "title": "华阳集团的前世今生：2025年营收130.48亿行业排第四，净 ...",
+        "summary": "2026年4月29日 · 华阳集团成立于1993年1月16日，于2017年10月13日在深圳证券交易所上市，注册地址和办公地址均为广东省惠州市 …",
+        "url": "https://finance.sina.cn/2026-04-29/detail-inhweskw7580390.d.html?vt=4",
+        "source": "finance.sina.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.5,
+        "score": 4.0,
         "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳绽放,舞彩童年|米兰华阳中文学校 2026 六一汇演暨毕业典礼圆满举行|中意|文脉|青少年_新浪新闻",
-        "summary": "当地时间 5 月 30 日,米兰华阳中文学校 2026 年六一儿童节暨毕业典礼 在热烈欢快的氛围中隆重举行.每日新闻摘录缩小字体放大字体收藏微博微信...",
-        "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906746i.html",
-        "source": "k.sina.com.cn",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.5,
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团人力资源招聘系统",
+        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+        "url": "https://zhaopin.ymjt.com.cn/index.html",
+        "source": "zhaopin.ymjt.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.0,
         "query": "华阳 新闻 2026"
       }
     ],
     "REITS类资产": [
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
+        "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
+        "url": "https://news.qq.com/rain/a/20260120V06GGM00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "汇天 新闻 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
+        "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
+        "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
+        "source": "k.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "汇天 新闻 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "小鹏汇天:飞行汽车2026年量产交付 先飞码用户尝鲜起飞_腾讯新闻",
+        "summary": "2024年12月14日 - 快科技12月14日消息,小鹏汇天今日在上海陆家嘴举办了 陆地航母 飞行汽车首飞活动。.飞行汽车预计在2025年10月末取得中国民航的型号合格证,并在2026年...",
+        "url": "https://news.qq.com/rain/a/20241214A05Z2T00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "汇天 新闻 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
+        "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
+        "url": "https://www.ifnews.com/news.html?aid=769436",
+        "source": "www.ifnews.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "汇天 新闻 2026"
+      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -112,78 +164,59 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "半导体": [
+    "低空航空": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "庸才_电影_高清完整版视频在线观看_腾讯视频",
-        "summary": "《庸才》高清在线观看，领衔主演:染谷将太,二阶堂富美,渡边哲,吹越满,神乐坂惠,电影简介:前所未有的东日本大地震以及随之引发的海 …",
-        "url": "https://v.qq.com/x/cover/u13h878wzjc85jt/m0017c8f7gk.html",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "庸才_高清1080P在线观看平台_腾讯视频",
-        "summary": "2022年9月6日 · 腾讯公司 版权所有.",
-        "url": "https://v.qq.com/x/page/a3355s80cf1.html",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "麦田电影院第30期：《庸才》_电影_高清完整版视频在线观看 ...",
-        "summary": "2015年9月29日 · 《麦田电影院第30期：《庸才》》高清在线观看，电影简介:本期《麦田电影院》将为您带来园子温的《庸才》。 这 …",
-        "url": "https://v.qq.com/x/cover/aduvphbil5dyljl.html",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
+        "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
+        "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
         "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
+        "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
+        "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
+        "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
+        "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
+        "source": "guba.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新(002023)-公司公告-海特高新:中签结果公告-股票行情中心-搜狐证券",
+        "summary": "2022年7月25日 - 海特高新:中签结果公告2004-07-08 公司首次公开发行股票向二级市场投资者定价配售发行摇号中签号码如下:末四位数:7059 2059 3933末五位数:60220 7272...",
+        "url": "https://q.stock.sohu.com/cn,gg,002023,14444486.shtml",
+        "source": "q.stock.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -210,22 +243,39 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
     ]
   },
   "items": [
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
-      "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
-      "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "华阳 新闻 2026"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -240,29 +290,146 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
+      "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
+      "url": "https://news.qq.com/rain/a/20260120V06GGM00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "汇天 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
+      "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
+      "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
+      "source": "k.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "汇天 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "小鹏汇天:飞行汽车2026年量产交付 先飞码用户尝鲜起飞_腾讯新闻",
+      "summary": "2024年12月14日 - 快科技12月14日消息,小鹏汇天今日在上海陆家嘴举办了 陆地航母 飞行汽车首飞活动。.飞行汽车预计在2025年10月末取得中国民航的型号合格证,并在2026年...",
+      "url": "https://news.qq.com/rain/a/20241214A05Z2T00?media_id&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "汇天 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
+      "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
+      "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
+      "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
+      "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
+      "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
+      "source": "guba.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新(002023)-公司公告-海特高新:中签结果公告-股票行情中心-搜狐证券",
+      "summary": "2022年7月25日 - 海特高新:中签结果公告2004-07-08 公司首次公开发行股票向二级市场投资者定价配售发行摇号中签号码如下:末四位数:7059 2059 3933末五位数:60220 7272...",
+      "url": "https://q.stock.sohu.com/cn,gg,002023,14444486.shtml",
+      "source": "q.stock.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
-      "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
-      "url": "https://finance.eastmoney.com/a/202604153706194839.html",
-      "source": "finance.eastmoney.com",
+      "title": "华阳集团的前世今生：2025年营收130.48亿行业排第四，净 ...",
+      "summary": "2026年4月29日 · 华阳集团成立于1993年1月16日，于2017年10月13日在深圳证券交易所上市，注册地址和办公地址均为广东省惠州市 …",
+      "url": "https://finance.sina.cn/2026-04-29/detail-inhweskw7580390.d.html?vt=4",
+      "source": "finance.sina.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 4.5,
+      "score": 4.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
+      "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
+      "url": "https://www.ifnews.com/news.html?aid=769436",
+      "source": "www.ifnews.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "汇天 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
       "query": "华阳 新闻 2026"
     },
     {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "华阳绽放,舞彩童年|米兰华阳中文学校 2026 六一汇演暨毕业典礼圆满举行|中意|文脉|青少年_新浪新闻",
-      "summary": "当地时间 5 月 30 日,米兰华阳中文学校 2026 年六一儿童节暨毕业典礼 在热烈欢快的氛围中隆重举行.每日新闻摘录缩小字体放大字体收藏微博微信...",
-      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906746i.html",
-      "source": "k.sina.com.cn",
+      "title": "华阳集团人力资源招聘系统",
+      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+      "url": "https://zhaopin.ymjt.com.cn/index.html",
+      "source": "zhaopin.ymjt.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 4.5,
+      "score": 3.0,
       "query": "华阳 新闻 2026"
     },
     {
@@ -329,45 +496,6 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "庸才_电影_高清完整版视频在线观看_腾讯视频",
-      "summary": "《庸才》高清在线观看，领衔主演:染谷将太,二阶堂富美,渡边哲,吹越满,神乐坂惠,电影简介:前所未有的东日本大地震以及随之引发的海 …",
-      "url": "https://v.qq.com/x/cover/u13h878wzjc85jt/m0017c8f7gk.html",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "庸才_高清1080P在线观看平台_腾讯视频",
-      "summary": "2022年9月6日 · 腾讯公司 版权所有.",
-      "url": "https://v.qq.com/x/page/a3355s80cf1.html",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "麦田电影院第30期：《庸才》_电影_高清完整版视频在线观看 ...",
-      "summary": "2015年9月29日 · 《麦田电影院第30期：《庸才》》高清在线观看，电影简介:本期《麦田电影院》将为您带来园子温的《庸才》。 这 …",
-      "url": "https://v.qq.com/x/cover/aduvphbil5dyljl.html",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "acquisition-listed",
