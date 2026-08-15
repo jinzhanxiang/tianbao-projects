@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T14:08:41+08:00",
+  "generated_at": "2026-08-15T14:30:07+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -58,6 +58,34 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "新能源": [
       {
         "code": "xingheng",
@@ -86,32 +114,58 @@
         "query": "新能源 行业 政策 2026"
       }
     ],
-    "半导体": [
+    "生物医药": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "全新视界 探索无限 - 我的世界Minecraft中国版官方网站",
+        "summary": "公告 《我的世界》铜器时代版本更新内容一览 《我的世界》铜器时代版本更新内容一览 07-24 > 详情 公告 关于游戏内作弊等违规行为 …",
+        "url": "https://mc.163.com/news/update/index.html",
+        "source": "mc.163.com",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 2.5,
-        "query": "半导体 行业 政策 2026"
+        "query": "生物医药 行业 政策 2026"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "全新视界 探索无限 - 我的世界Minecraft中国版官方网站",
+        "summary": "01-22 > 详情 新闻 《我的世界》12月违规行为处罚公告 为保障《我的世界》游戏环境公平与健康，维护广大冒险家的共同利益，我们 …",
+        "url": "https://mc.163.com/news/index_3.html",
+        "source": "mc.163.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
+        "score": 2.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "我的世界开发者官网",
+        "summary": "《我的世界》中国版创造者计划，邀请开发者加入我的世界中国版，注册成为开发者，在开发者平台投稿内容，加入开发者社区与众多 …",
+        "url": "https://mc.163.com/dev/",
+        "source": "mc.163.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "我的世界游戏体验区——我的世界中国版 自由创造 从一个方块 ...",
+        "summary": "× 您所访问的网页内容被缩放可能影响正常使用，可以使用键盘快捷键 Ctrl 和 0 恢复正常。",
+        "url": "https://mc.163.com/exp/",
+        "source": "mc.163.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -266,6 +320,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -279,17 +346,30 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "全新视界 探索无限 - 我的世界Minecraft中国版官方网站",
+      "summary": "公告 《我的世界》铜器时代版本更新内容一览 《我的世界》铜器时代版本更新内容一览 07-24 > 详情 公告 关于游戏内作弊等违规行为 …",
+      "url": "https://mc.163.com/news/update/index.html",
+      "source": "mc.163.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 2.5,
-      "query": "半导体 行业 政策 2026"
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "全新视界 探索无限 - 我的世界Minecraft中国版官方网站",
+      "summary": "01-22 > 详情 新闻 《我的世界》12月违规行为处罚公告 为保障《我的世界》游戏环境公平与健康，维护广大冒险家的共同利益，我们 …",
+      "url": "https://mc.163.com/news/index_3.html",
+      "source": "mc.163.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -329,6 +409,32 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "我的世界开发者官网",
+      "summary": "《我的世界》中国版创造者计划，邀请开发者加入我的世界中国版，注册成为开发者，在开发者平台投稿内容，加入开发者社区与众多 …",
+      "url": "https://mc.163.com/dev/",
+      "source": "mc.163.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "我的世界游戏体验区——我的世界中国版 自由创造 从一个方块 ...",
+      "summary": "× 您所访问的网页内容被缩放可能影响正常使用，可以使用键盘快捷键 Ctrl 和 0 恢复正常。",
+      "url": "https://mc.163.com/exp/",
+      "source": "mc.163.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
