@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T09:33:48+08:00",
+  "generated_at": "2026-08-15T09:42:22+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 49,
   "total_active": 46,
@@ -148,6 +148,18 @@
       }
     ],
     "合邦新能源": [
+      {
+        "code": "合邦新能源",
+        "date": "2026-08-15",
+        "category": "商业研究",
+        "title": "大同新荣区合邦新能源有限公司 投资可行性研究报告 · 2026-08-15",
+        "file": "合邦新能源_研究报告_20260815.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/合邦新能源/output/合邦新能源_研究报告_20260815.html",
+        "size": 65014,
+        "mtime": "2026-08-15T09:34:27+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/合邦新能源/output/合邦新能源_研究报告_20260815.html"
+      },
       {
         "code": "合邦新能源",
         "date": "2026-08-15",
@@ -1415,10 +1427,10 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-15T09:33:48.542829",
+  "_last_cleanup": "2026-08-15T09:42:22.784323",
   "_cleanup_stats": {
     "dup_title_date": 4,
-    "intermediate:section_synthesis": 6,
+    "intermediate:section_synthesis": 7,
     "superseded": 8,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
