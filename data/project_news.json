@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T23:58:29+08:00",
+  "generated_at": "2026-08-16T00:10:03+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 14,
   "by_industry": {
     "高端制造": [
       {
@@ -14,7 +14,7 @@
         "url": "https://quote.eastmoney.com/sz002906.html",
         "source": "quote.eastmoney.com",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 5.5,
         "query": "华阳 新闻 2026"
       },
@@ -27,7 +27,7 @@
         "url": "https://www.foryougroup.com/",
         "source": "www.foryougroup.com",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 3.0,
         "query": "华阳 新闻 2026"
       },
@@ -40,7 +40,7 @@
         "url": "https://www.foryouge.com/",
         "source": "www.foryouge.com",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 3.0,
         "query": "华阳 新闻 2026"
       },
@@ -53,63 +53,9 @@
         "url": "https://www.foryouge.com/company_profile.html",
         "source": "www.foryouge.com",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "湖北鸿翼建筑工程有限责任公司最新中标项目 - 中标公示信息 - 建设通",
-        "summary": "湖北鸿翼建筑工程有限责任公司中标业绩25诚信信息0荣誉信息5企业人员46项目经理13资质等级7信用评价1工商信息司法与经营风险0中标公示23四库一平台2历史数据.湖北鸿翼建筑工程有限责任公司中标...",
-        "url": "https://www.cbi360.net/hhb/sg_2422835/zb",
-        "source": "www.cbi360.net",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"鸿翼\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "山东1.17亿可信数据平台项目落定:鸿翼软件携手山东移动联合体中标 - 天眼查",
-        "summary": "591:近日,由山东省公用资产运营服务有限公司组织招标的 《智能可信数据公共服务平台项目》 完成采购程序,这一总投资预算达1.17亿元的重大信息化建设项目正式确定了实施方。项目招标于2025年12月...",
-        "url": "https://mnews.tianyancha.com/ll_10jle529ff.html",
-        "source": "mnews.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"鸿翼\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "山东省1.16亿可信数据平台项目落定,上海鸿翼软件中标-其他_ 天眼查新闻",
-        "summary": "2026年1月15日 - 上海鸿翼软件技术股份有限公司法人代表:.上海鸿翼软件技术股份有限公司怎么了?山东省公用资产运营服务有限公司《智能可信数据公共服务平台项目》中标...",
-        "url": "https://mnews.tianyancha.com/ll_8mqn5ba3tn.html",
-        "source": "mnews.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"鸿翼\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "鸿翼ECM(中标公告)-广东招标网",
-        "summary": "2025年12月1日 - 申购主题:鸿翼ECM文档云软件V6.0 送货时间:发布竞价结果后7天内送达.您当天剩余次查看公告原文链接,是否消耗一次...",
-        "url": "https://gd.bidizhaobiao.com/info-347155966.html",
-        "source": "gd.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"鸿翼\" 公告 签约 中标 投资"
       }
     ],
     "新能源": [
@@ -122,7 +68,7 @@
         "url": "https://news.sina.com.cn/",
         "source": "news.sina.com.cn",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 2.5,
         "query": "新能源 行业 政策 2026"
       },
@@ -135,7 +81,7 @@
         "url": "https://www.bjhd.gov.cn/",
         "source": "www.bjhd.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
       }
@@ -150,7 +96,7 @@
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
         "source": "finance.sina.com.cn",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 2.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -163,7 +109,7 @@
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -176,7 +122,7 @@
         "url": "https://www.sohu.com/a/960605326_121140836",
         "source": "www.sohu.com",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -189,7 +135,7 @@
         "url": "https://reits.szse.cn/",
         "source": "reits.szse.cn",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
@@ -204,7 +150,7 @@
         "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
         "source": "www.deloitte.com",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 2.0,
         "query": "半导体 行业 政策 2026"
       }
@@ -219,7 +165,7 @@
         "url": "https://news.qq.com/rain/a/20241213A044ZE00",
         "source": "news.qq.com",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
@@ -234,7 +180,7 @@
         "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
         "source": "www.ndrc.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       },
@@ -247,7 +193,7 @@
         "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
         "source": "www.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-15",
+        "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
@@ -263,61 +209,9 @@
       "url": "https://quote.eastmoney.com/sz002906.html",
       "source": "quote.eastmoney.com",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "湖北鸿翼建筑工程有限责任公司最新中标项目 - 中标公示信息 - 建设通",
-      "summary": "湖北鸿翼建筑工程有限责任公司中标业绩25诚信信息0荣誉信息5企业人员46项目经理13资质等级7信用评价1工商信息司法与经营风险0中标公示23四库一平台2历史数据.湖北鸿翼建筑工程有限责任公司中标...",
-      "url": "https://www.cbi360.net/hhb/sg_2422835/zb",
-      "source": "www.cbi360.net",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"鸿翼\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "山东1.17亿可信数据平台项目落定:鸿翼软件携手山东移动联合体中标 - 天眼查",
-      "summary": "591:近日,由山东省公用资产运营服务有限公司组织招标的 《智能可信数据公共服务平台项目》 完成采购程序,这一总投资预算达1.17亿元的重大信息化建设项目正式确定了实施方。项目招标于2025年12月...",
-      "url": "https://mnews.tianyancha.com/ll_10jle529ff.html",
-      "source": "mnews.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"鸿翼\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "山东省1.16亿可信数据平台项目落定,上海鸿翼软件中标-其他_ 天眼查新闻",
-      "summary": "2026年1月15日 - 上海鸿翼软件技术股份有限公司法人代表:.上海鸿翼软件技术股份有限公司怎么了?山东省公用资产运营服务有限公司《智能可信数据公共服务平台项目》中标...",
-      "url": "https://mnews.tianyancha.com/ll_8mqn5ba3tn.html",
-      "source": "mnews.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"鸿翼\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "鸿翼ECM(中标公告)-广东招标网",
-      "summary": "2025年12月1日 - 申购主题:鸿翼ECM文档云软件V6.0 送货时间:发布竞价结果后7天内送达.您当天剩余次查看公告原文链接,是否消耗一次...",
-      "url": "https://gd.bidizhaobiao.com/info-347155966.html",
-      "source": "gd.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -328,7 +222,7 @@
       "url": "https://www.foryougroup.com/",
       "source": "www.foryougroup.com",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 3.0,
       "query": "华阳 新闻 2026"
     },
@@ -341,7 +235,7 @@
       "url": "https://www.foryouge.com/",
       "source": "www.foryouge.com",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 3.0,
       "query": "华阳 新闻 2026"
     },
@@ -354,7 +248,7 @@
       "url": "https://www.foryouge.com/company_profile.html",
       "source": "www.foryouge.com",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 3.0,
       "query": "华阳 新闻 2026"
     },
@@ -367,7 +261,7 @@
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
     },
@@ -380,7 +274,7 @@
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
     },
@@ -393,7 +287,7 @@
       "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
       "source": "www.deloitte.com",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
     },
@@ -406,7 +300,7 @@
       "url": "https://www.bjhd.gov.cn/",
       "source": "www.bjhd.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
     },
@@ -419,7 +313,7 @@
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
     },
@@ -432,7 +326,7 @@
       "url": "https://www.sohu.com/a/960605326_121140836",
       "source": "www.sohu.com",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
     },
@@ -445,7 +339,7 @@
       "url": "https://reits.szse.cn/",
       "source": "reits.szse.cn",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
     },
@@ -458,7 +352,7 @@
       "url": "https://news.qq.com/rain/a/20241213A044ZE00",
       "source": "news.qq.com",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
     },
@@ -471,7 +365,7 @@
       "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
       "source": "www.ndrc.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
     },
@@ -484,7 +378,7 @@
       "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
       "source": "www.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-15",
+      "fetched_at": "2026-08-16",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
     }
