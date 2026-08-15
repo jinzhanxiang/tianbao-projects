@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T20:15:45+08:00",
+  "generated_at": "2026-08-15T20:20:14+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 18,
   "by_industry": {
     "高端制造": [
       {
@@ -19,19 +19,6 @@
         "query": "华阳 新闻 2026"
       },
       {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-        "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-        "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-        "source": "cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
@@ -43,45 +30,6 @@
         "fetched_at": "2026-08-15",
         "score": 4.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-        "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-        "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-        "source": "stock.stockstar.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-        "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-        "url": "https://xueqiu.com/2866092708/292230062",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "A股开盘速递| 沪指跌0.35% 抗原检测、 辅助生殖等概念股活跃_新浪财经_新浪网",
-        "summary": "4、奥联电子:签署钙钛矿投资合作协议,计划2023年50MW钙钛矿中试线投产.偏正面方面,自选哥提示关注祥鑫科技、长盈精密等与宁德时代签战略合...",
-        "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2022-12-12/doc-imxwkrqv2056582.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -164,6 +112,47 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "其他行业": [
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+        "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+        "source": "www.shantou.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
     "半导体": [
       {
         "code": "jngd",
@@ -179,19 +168,58 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
-    "其他行业": [
+    "新能源": [
       {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
+        "summary": "腾讯视频官方网站，腾讯视频提供最新热门电视剧、电影、综艺、动漫、纪录片等高清正版视频在线观看。海量独家内容持续更新，涵 …",
+        "url": "https://v.qq.com/",
+        "source": "v.qq.com",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "腾讯视频官方最新版下载",
+        "summary": "4 天之前 · 腾讯视频PC客户端、腾讯视频Mac版、手机版、iPad版、TV版官方最新版下载，腾讯视频微信小程序二维码扫一扫入口。 …",
+        "url": "https://v.qq.com/download.html",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "电影频道-经典高分电影大全-正版高清电影在线观看-腾讯视频",
+        "summary": "腾讯视频电影频道提供最新热门电影大全，涵盖动作片、爱情片、喜剧片、科幻片等多种类型，院线同步更新，支持高清在线观看，当 …",
+        "url": "https://v.qq.com/channel/movie",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看 ...",
+        "summary": "腾讯视频电视剧频道提供最新热门电视剧在线观看，涵盖国产剧、古装剧、都市剧、悬疑剧、爱情剧、谍战剧、军旅剧等多种类型，独 …",
+        "url": "https://v.qq.com/channel/tv",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -238,19 +266,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-      "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-      "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -262,45 +277,6 @@
       "fetched_at": "2026-08-15",
       "score": 4.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-      "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-      "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-      "source": "stock.stockstar.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-      "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-      "url": "https://xueqiu.com/2866092708/292230062",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "A股开盘速递| 沪指跌0.35% 抗原检测、 辅助生殖等概念股活跃_新浪财经_新浪网",
-      "summary": "4、奥联电子:签署钙钛矿投资合作协议,计划2023年50MW钙钛矿中试线投产.偏正面方面,自选哥提示关注祥鑫科技、长盈精密等与宁德时代签战略合...",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2022-12-12/doc-imxwkrqv2056582.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -340,6 +316,32 @@
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+      "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+      "source": "www.shantou.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "jngd",
@@ -392,6 +394,58 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
+      "summary": "腾讯视频官方网站，腾讯视频提供最新热门电视剧、电影、综艺、动漫、纪录片等高清正版视频在线观看。海量独家内容持续更新，涵 …",
+      "url": "https://v.qq.com/",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "腾讯视频官方最新版下载",
+      "summary": "4 天之前 · 腾讯视频PC客户端、腾讯视频Mac版、手机版、iPad版、TV版官方最新版下载，腾讯视频微信小程序二维码扫一扫入口。 …",
+      "url": "https://v.qq.com/download.html",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "电影频道-经典高分电影大全-正版高清电影在线观看-腾讯视频",
+      "summary": "腾讯视频电影频道提供最新热门电影大全，涵盖动作片、爱情片、喜剧片、科幻片等多种类型，院线同步更新，支持高清在线观看，当 …",
+      "url": "https://v.qq.com/channel/movie",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看 ...",
+      "summary": "腾讯视频电视剧频道提供最新热门电视剧在线观看，涵盖国产剧、古装剧、都市剧、悬疑剧、爱情剧、谍战剧、军旅剧等多种类型，独 …",
+      "url": "https://v.qq.com/channel/tv",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "acquisition-listed",
