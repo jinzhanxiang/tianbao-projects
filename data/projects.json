@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:17:43+08:00",
+  "generated_at": "2026-08-15T21:24:19+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 25,
   "stage_v3_enum": [
@@ -591,14 +591,14 @@
       "repo": "",
       "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/",
       "folder_alias": "",
-      "report_count": 3,
+      "report_count": 2,
       "progress_pct": 35,
       "contacts": "天保控股投资部",
       "brief_md": "联通云山西（数据·云 · IDC）· 已立项阶段 · 详见报告库",
       "estimation": "—",
       "downgrade_reason": "—",
       "deploy_date": "2026-07-22",
-      "last_update": "2026-08-15",
+      "last_update": "2026-07-30",
       "notes": "R176 新增：5 份报告（Phase 2 估值底稿 + V4.1 主报告 + v3.51 主报告 + 增量章节 + 完整版）",
       "pending_tasks": "需补充机柜上架率与客户结构",
       "archived": false
@@ -834,7 +834,7 @@
       {
         "code": "unicom-sx",
         "name_cn": "联通云山西",
-        "count": 3
+        "count": 2
       }
     ],
     "低空航空": [
