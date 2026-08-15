@@ -1,61 +1,35 @@
 {
-  "generated_at": "2026-08-15T10:52:41+08:00",
+  "generated_at": "2026-08-15T11:01:13+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 24,
+  "total": 14,
   "by_industry": {
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
         "industry": "低空航空",
-        "title": "独家 | 航天宏图签约9.9亿元卫星项目__财经头条__新浪财经",
-        "summary": "泰伯网泰伯网讯,8月29日,航天宏图发布公告称,公司与客户A签署了卫星及地面系统采购合同,合同订单金额约为9.9亿元人民币(不含税).因本合同属于...",
-        "url": "https://cj.sina.com.cn/articles/view/1877503207/6fe86ce700101f50u",
-        "source": "cj.sina.com.cn",
+        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
+        "summary": "简介：#空中1",
+        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+        "source": "k.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 4.5,
+        "query": "青岛直升机 新闻 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
         "industry": "低空航空",
-        "title": "航天宏图:发布公司中标公告_ 东方财富网",
-        "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-        "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-        "source": "finance.eastmoney.com",
+        "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
+        "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
+        "url": "https://weibo.com/1931238691/QsYmN46mr",
+        "source": "weibo.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图又签约29亿元卫星项目!|遥感|星座|巴基斯坦|东风商业航天_网易订阅",
-        "summary": "航天宏图又签约29亿元卫星项目!,遥感,星座,航天宏图,巴基斯坦,卫星项目,东风商业航天 据鹤壁新闻网消息,9月4日,航天宏图在北京举行的第二届中国-巴基...",
-        "url": "https://www.163.com/dy/article/K972NVMP05319UN7.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图中标结果:空间数据高效可视化引擎研发服务结果公告_招标_内容_整理",
-        "summary": "证券之星消息,根据天眼查APP信息整理,7月15日公布的《空间数据高效可视化引擎研发服务结果公告》中显示航天宏图信息技术股份有限公司中标...",
-        "url": "https://it.sohu.com/a/914202599_121319643",
-        "source": "it.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 3.0,
+        "query": "青岛直升机 新闻 2026"
       },
       {
         "code": "hangtianjings",
@@ -85,19 +59,6 @@
       }
     ],
     "高端制造": [
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
-        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
-        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.5,
-        "query": "奥联电子 新闻 2026"
-      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -149,45 +110,6 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
-        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
-        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
-        "source": "app.myzaker.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "奥联电子 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
-        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
-        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "奥联电子 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子(截止2026年2月27日)股东人数为16142户 环比增加3.75%",
-        "summary": "2026年2月27日 - 月4日,奥联电子披露公司股东人数最新情况,截止2月27日,公司股东人数为16142人,较上期(2026-02-13)增加584户,环比增长3.75%。",
-        "url": "https://news.10jqka.com.cn/20260304/c675067859.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "奥联电子 新闻 2026"
       }
     ],
     "新能源": [
@@ -259,60 +181,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年生物医药政策分析报告.docx - 人人文库",
-        "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-        "url": "https://www.renrendoc.com/paper/517081205.html",
-        "source": "www.renrendoc.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -331,69 +199,17 @@
   },
   "items": [
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
       "industry": "低空航空",
-      "title": "独家 | 航天宏图签约9.9亿元卫星项目__财经头条__新浪财经",
-      "summary": "泰伯网泰伯网讯,8月29日,航天宏图发布公告称,公司与客户A签署了卫星及地面系统采购合同,合同订单金额约为9.9亿元人民币(不含税).因本合同属于...",
-      "url": "https://cj.sina.com.cn/articles/view/1877503207/6fe86ce700101f50u",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图:发布公司中标公告_ 东方财富网",
-      "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-      "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-      "source": "finance.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图又签约29亿元卫星项目!|遥感|星座|巴基斯坦|东风商业航天_网易订阅",
-      "summary": "航天宏图又签约29亿元卫星项目!,遥感,星座,航天宏图,巴基斯坦,卫星项目,东风商业航天 据鹤壁新闻网消息,9月4日,航天宏图在北京举行的第二届中国-巴基...",
-      "url": "https://www.163.com/dy/article/K972NVMP05319UN7.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图中标结果:空间数据高效可视化引擎研发服务结果公告_招标_内容_整理",
-      "summary": "证券之星消息,根据天眼查APP信息整理,7月15日公布的《空间数据高效可视化引擎研发服务结果公告》中显示航天宏图信息技术股份有限公司中标...",
-      "url": "https://it.sohu.com/a/914202599_121319643",
-      "source": "it.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
-      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
-      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
-      "source": "finance.sina.com.cn",
+      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
+      "summary": "简介：#空中1",
+      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+      "source": "k.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.5,
-      "query": "奥联电子 新闻 2026"
+      "query": "青岛直升机 新闻 2026"
     },
     {
       "code": "huayt",
@@ -448,43 +264,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
-      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
-      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
-      "source": "app.myzaker.com",
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
+      "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
+      "url": "https://weibo.com/1931238691/QsYmN46mr",
+      "source": "weibo.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 3.0,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
-      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
-      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子(截止2026年2月27日)股东人数为16142户 环比增加3.75%",
-      "summary": "2026年2月27日 - 月4日,奥联电子披露公司股东人数最新情况,截止2月27日,公司股东人数为16142人,较上期(2026-02-13)增加584户,环比增长3.75%。",
-      "url": "https://news.10jqka.com.cn/20260304/c675067859.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "奥联电子 新闻 2026"
+      "query": "青岛直升机 新闻 2026"
     },
     {
       "code": "xingheng",
@@ -511,58 +301,6 @@
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年生物医药政策分析报告.docx - 人人文库",
-      "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-      "url": "https://www.renrendoc.com/paper/517081205.html",
-      "source": "www.renrendoc.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
