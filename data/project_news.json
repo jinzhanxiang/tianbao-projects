@@ -1,61 +1,48 @@
 {
-  "generated_at": "2026-08-16T04:52:25+08:00",
+  "generated_at": "2026-08-16T05:00:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 15,
   "by_industry": {
-    "AI智能": [
+    "新能源": [
       {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-        "source": "news.tianyancha.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+        "source": "www.bidizhaobiao.com",
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-        "source": "news.tianyancha.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "喜讯!鸿翼承担的国家档案局重点科技项目荣获2025年度国家档案局优秀科技成果二等奖 - 天眼查",
-        "summary": "93:档案管理迈入智能新纪元!新毅东×鸿翼档案,解锁合规与效率双重密码47:来源:微信发布时间:2026年01月23日.由国家档案局档案科学技术研究所牵头,上海鸿翼档案信息技术有限公司、中国人民大学档...",
-        "url": "https://news.tianyancha.com/ll_269hq25ux4.html",
-        "source": "news.tianyancha.com",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年1月22日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "高端制造": [
@@ -110,21 +97,6 @@
         "fetched_at": "2026-08-16",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年1月22日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -242,56 +214,30 @@
   },
   "items": [
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 5.5,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-      "source": "news.tianyancha.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+      "source": "www.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-      "source": "news.tianyancha.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "喜讯!鸿翼承担的国家档案局重点科技项目荣获2025年度国家档案局优秀科技成果二等奖 - 天眼查",
-      "summary": "93:档案管理迈入智能新纪元!新毅东×鸿翼档案,解锁合规与效率双重密码47:来源:微信发布时间:2026年01月23日.由国家档案局档案科学技术研究所牵头,上海鸿翼档案信息技术有限公司、中国人民大学档...",
-      "url": "https://news.tianyancha.com/ll_269hq25ux4.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
