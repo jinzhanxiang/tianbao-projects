@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T20:09:21+08:00",
+  "generated_at": "2026-08-15T20:15:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 16,
   "by_industry": {
     "高端制造": [
       {
@@ -16,7 +16,20 @@
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
+        "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
+        "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
+        "source": "cj.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"奥联电子\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -29,7 +42,46 @@
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 4.0,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
+        "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
+        "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
+        "source": "stock.stockstar.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"奥联电子\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
+        "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
+        "url": "https://xueqiu.com/2866092708/292230062",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"奥联电子\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "A股开盘速递| 沪指跌0.35% 抗原检测、 辅助生殖等概念股活跃_新浪财经_新浪网",
+        "summary": "4、奥联电子:签署钙钛矿投资合作协议,计划2023年50MW钙钛矿中试线投产.偏正面方面,自选哥提示关注祥鑫科技、长盈精密等与宁德时代签战略合...",
+        "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2022-12-12/doc-imxwkrqv2056582.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"奥联电子\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -42,7 +94,7 @@
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 3.0,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
@@ -55,115 +107,7 @@
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 3.0,
-        "query": "\"华阳\" 公告 签约 中标 投资"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "觅蜂科技宣布完成数亿元种子轮与天使轮 红杉中国领投_新浪科技_新浪网",
-        "summary": "此次融资将重点用于技术研发、产能扩充与全球化布局,以及构建全球顶尖数据质量管理体系及数据联盟,助力觅蜂科技夯实具身智能数据基础设施核...",
-        "url": "https://finance.sina.com.cn/tech/roll/2026-02-13/doc-inhmrtim6161003.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"觅蜂\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "智元旗下觅蜂发布一站式物理 AI 数据服务平台|最前线-36氪",
-        "summary": "在发布会上,觅蜂宣布与京东云、百度云、阿里云、猎聘及贵州大数据集团等多家企业举行战略签约,各方将在数据生态、场景协同、算力支撑等领域...",
-        "url": "https://36kr.com/p/3769501816439555",
-        "source": "36kr.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"觅蜂\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "打造产业 宇宙 2月13日,智元控股的觅蜂科技宣布完成数亿元种子轮与天使轮融资,_财富号_东方财富网",
-        "summary": "2026年2月15日 - 龙旗科技、上汽金控等产业资本共同投资.举报郑重声明:用户在社区发表的所有信息将由本网站记录保存,仅代表作者个人观点,与本网站立场无关,不对您构成...",
-        "url": "https://caifuhao.eastmoney.com/news/20260215090030797657980",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"觅蜂\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "商道创投网·会员动态|觅蜂科技·完成数亿元种子轮与天使轮融资|投融资动态_网易订阅",
-        "summary": "2026年2月14日 - 觅蜂科技(Maniformer)是智元机器人体系内孵化并独立运作的具身智能数据平台企业,以 破解具身时代数据困局 为战略使命.技术层面,觅蜂科技已建立显著的...",
-        "url": "https://www.163.com/dy/article/KLOJCRHP0538700Y.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"觅蜂\" 公告 签约 中标 投资"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
-        "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
-        "url": "https://36kr.com/p/2843424921541510",
-        "source": "36kr.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
-        "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
-        "url": "https://www.sohu.com/a/607343524_120629259",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "北京速迈医疗科技有限公司 - 中标信息 - 铁耙云",
-        "summary": "2024年9月5日 - 你好,欢迎来到北京速迈医疗科技有限公司网站首页北京速迈医疗科技有限公司铁耙云登录 | 注册森林消防物资铁耙云 全国供应商列表 北京速迈医疗科技有限...",
-        "url": "https://www.tiepayun.com/sment-2-56324.html",
-        "source": "www.tiepayun.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "北京速迈医疗科技有限公司-首页",
-        "summary": "2025年1月16日 - 四川绵阳四0四医院超声骨动力系统(超声骨刀)中标(成交)结果公告中标公告.提供北京速迈医疗科技有限公司招标采购信息,涵盖北京速迈医疗科技有限公司招...",
-        "url": "https://www.zbytb.com/c-AYEFj/",
-        "source": "www.zbytb.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
+        "query": "华阳 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -175,45 +119,6 @@
         "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
         "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-sx",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
-        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-sx",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
-        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-sx",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
-        "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
-        "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
-        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 2.5,
@@ -330,85 +235,20 @@
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "query": "华阳 新闻 2026"
     },
     {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "觅蜂科技宣布完成数亿元种子轮与天使轮 红杉中国领投_新浪科技_新浪网",
-      "summary": "此次融资将重点用于技术研发、产能扩充与全球化布局,以及构建全球顶尖数据质量管理体系及数据联盟,助力觅蜂科技夯实具身智能数据基础设施核...",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-02-13/doc-inhmrtim6161003.shtml",
-      "source": "finance.sina.com.cn",
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
+      "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
+      "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
+      "source": "cj.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 5.5,
-      "query": "\"觅蜂\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "智元旗下觅蜂发布一站式物理 AI 数据服务平台|最前线-36氪",
-      "summary": "在发布会上,觅蜂宣布与京东云、百度云、阿里云、猎聘及贵州大数据集团等多家企业举行战略签约,各方将在数据生态、场景协同、算力支撑等领域...",
-      "url": "https://36kr.com/p/3769501816439555",
-      "source": "36kr.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"觅蜂\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "打造产业 宇宙 2月13日,智元控股的觅蜂科技宣布完成数亿元种子轮与天使轮融资,_财富号_东方财富网",
-      "summary": "2026年2月15日 - 龙旗科技、上汽金控等产业资本共同投资.举报郑重声明:用户在社区发表的所有信息将由本网站记录保存,仅代表作者个人观点,与本网站立场无关,不对您构成...",
-      "url": "https://caifuhao.eastmoney.com/news/20260215090030797657980",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"觅蜂\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "商道创投网·会员动态|觅蜂科技·完成数亿元种子轮与天使轮融资|投融资动态_网易订阅",
-      "summary": "2026年2月14日 - 觅蜂科技(Maniformer)是智元机器人体系内孵化并独立运作的具身智能数据平台企业,以 破解具身时代数据困局 为战略使命.技术层面,觅蜂科技已建立显著的...",
-      "url": "https://www.163.com/dy/article/KLOJCRHP0538700Y.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"觅蜂\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
-      "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
-      "url": "https://36kr.com/p/2843424921541510",
-      "source": "36kr.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
-      "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
-      "url": "https://www.sohu.com/a/607343524_120629259",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      "query": "\"奥联电子\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -421,33 +261,46 @@
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.0,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "query": "华阳 新闻 2026"
     },
     {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "北京速迈医疗科技有限公司 - 中标信息 - 铁耙云",
-      "summary": "2024年9月5日 - 你好,欢迎来到北京速迈医疗科技有限公司网站首页北京速迈医疗科技有限公司铁耙云登录 | 注册森林消防物资铁耙云 全国供应商列表 北京速迈医疗科技有限...",
-      "url": "https://www.tiepayun.com/sment-2-56324.html",
-      "source": "www.tiepayun.com",
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
+      "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
+      "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
+      "source": "stock.stockstar.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.0,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      "query": "\"奥联电子\" 公告 签约 中标 投资"
     },
     {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "北京速迈医疗科技有限公司-首页",
-      "summary": "2025年1月16日 - 四川绵阳四0四医院超声骨动力系统(超声骨刀)中标(成交)结果公告中标公告.提供北京速迈医疗科技有限公司招标采购信息,涵盖北京速迈医疗科技有限公司招...",
-      "url": "https://www.zbytb.com/c-AYEFj/",
-      "source": "www.zbytb.com",
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
+      "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
+      "url": "https://xueqiu.com/2866092708/292230062",
+      "source": "xueqiu.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.0,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      "query": "\"奥联电子\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "A股开盘速递| 沪指跌0.35% 抗原检测、 辅助生殖等概念股活跃_新浪财经_新浪网",
+      "summary": "4、奥联电子:签署钙钛矿投资合作协议,计划2023年50MW钙钛矿中试线投产.偏正面方面,自选哥提示关注祥鑫科技、长盈精密等与宁德时代签战略合...",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2022-12-12/doc-imxwkrqv2056582.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"奥联电子\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -460,7 +313,7 @@
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 3.0,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "huayt",
@@ -473,7 +326,7 @@
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 3.0,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -483,45 +336,6 @@
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-sx",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
-      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-sx",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
-      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-sx",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
-      "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
-      "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
-      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 2.5,
