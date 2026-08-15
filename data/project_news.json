@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T17:13:28+08:00",
+  "generated_at": "2026-08-15T17:22:43+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 13,
   "by_industry": {
     "高端制造": [
       {
@@ -56,58 +56,6 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "腾讯视频创作平台 - 开放 共赢 创作好时光",
-        "summary": "腾讯视频创作平台是面向长中短各类视频创作者开放的内容合作平台，平台围绕入驻、上线、运营、结算等核心环节，搭建了全流程的 …",
-        "url": "https://mp.v.qq.com/",
-        "source": "mp.v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "高端制造 行业 政策 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
-        "summary": "腾讯视频官方网站，腾讯视频提供最新热门电视剧、电影、综艺、动漫、纪录片等高清正版视频在线观看。海量独家内容持续更新，涵 …",
-        "url": "https://v.qq.com/",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "高端制造 行业 政策 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "腾讯视频官方最新版下载",
-        "summary": "4 天之前 · 腾讯视频PC客户端、腾讯视频Mac版、手机版、iPad版、TV版官方最新版下载，腾讯视频微信小程序二维码扫一扫入口。 …",
-        "url": "https://v.qq.com/download.html",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "高端制造 行业 政策 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看 ...",
-        "summary": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看-腾讯视频 腾讯视频电视剧频道提供最新热播电视剧，涵盖都市、古装、 …",
-        "url": "https://v.qq.com/channel/tv",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "高端制造 行业 政策 2026"
       }
     ],
     "半导体": [
@@ -316,19 +264,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "腾讯视频创作平台 - 开放 共赢 创作好时光",
-      "summary": "腾讯视频创作平台是面向长中短各类视频创作者开放的内容合作平台，平台围绕入驻、上线、运营、结算等核心环节，搭建了全流程的 …",
-      "url": "https://mp.v.qq.com/",
-      "source": "mp.v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -418,45 +353,6 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
-      "summary": "腾讯视频官方网站，腾讯视频提供最新热门电视剧、电影、综艺、动漫、纪录片等高清正版视频在线观看。海量独家内容持续更新，涵 …",
-      "url": "https://v.qq.com/",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "腾讯视频官方最新版下载",
-      "summary": "4 天之前 · 腾讯视频PC客户端、腾讯视频Mac版、手机版、iPad版、TV版官方最新版下载，腾讯视频微信小程序二维码扫一扫入口。 …",
-      "url": "https://v.qq.com/download.html",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看 ...",
-      "summary": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看-腾讯视频 腾讯视频电视剧频道提供最新热播电视剧，涵盖都市、古装、 …",
-      "url": "https://v.qq.com/channel/tv",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "高端制造 行业 政策 2026"
     }
   ]
 }
