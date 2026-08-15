@@ -1,9 +1,76 @@
 {
-  "generated_at": "2026-08-15T21:02:43+08:00",
+  "generated_at": "2026-08-15T21:08:02+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 24,
   "by_industry": {
+    "半导体": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
+        "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
+        "url": "https://www.tht.gov.cn/contents/16930/610355.html",
+        "source": "www.tht.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 6.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "破晓 芯 纪元丨元旭半导体全球首款玻璃基Micro-LED产品引爆显示革__财经头条__新浪财经",
+        "summary": "这项命名为MOG(Micro-LED on Glass)的突破性技术,正在以 破竹之势 重新定义高端显示市场的竞争格局,不仅彰显了元旭半导体在技术创新上的卓...",
+        "url": "https://t.cj.sina.com.cn/articles/view/2589663582/9a5b215e00102a2wc",
+        "source": "t.cj.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
+        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
+        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.0,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -56,6 +123,140 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "AI智能",
+        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
+        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
+        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "鸿翼 新闻 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "AI智能",
+        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
+        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
+        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "AI智能",
+        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
+        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
+        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "AI智能",
+        "title": "喜讯!鸿翼承担的国家档案局重点科技项目荣获2025年度国家档案局优秀科技成果二等奖 - 天眼查",
+        "summary": "93:档案管理迈入智能新纪元!新毅东×鸿翼档案,解锁合规与效率双重密码47:来源:微信发布时间:2026年01月23日.由国家档案局档案科学技术研究所牵头,上海鸿翼档案信息技术有限公司、中国人民大学档...",
+        "url": "https://news.tianyancha.com/ll_269hq25ux4.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
+        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
+        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
+        "source": "fund.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
+        "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
+        "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新2026年1月8日涨停分析:净利润增长+装备研制进展+航空服务|海特高新_新浪财经_新浪网",
+        "summary": "年1月8日,海特高新(sz002023)触及涨停,涨停价15.04元,涨幅10.02%,总市值111.43亿元,流通市值111.43亿元,截止发稿,总成交额11.20亿元。",
+        "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqpsp5356332.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
+        "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
+        "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
+        "source": "finance.sina.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -112,100 +313,7 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "低空航空": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
-        "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
-        "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
-        "source": "m.163.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "民航局敲定2026年三件大事:整治过低票价、加码低空和推进国产化_腾讯新闻",
-        "summary": "2026年1月6日 - 月6日,2026年全国民航工作会议在京召开。",
-        "url": "https://news.qq.com/rain/a/20260106A07HKJ00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
     "其他行业": [
-      {
-        "code": "fxpp",
-        "company": "5个标的反向匹配汇总",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "fxpp",
-        "company": "5个标的反向匹配汇总",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
-        "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
-        "source": "www.shantou.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
       {
         "code": "acquisition-listed",
         "company": "收购上市公司研究",
@@ -219,39 +327,48 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "斗罗大陆:宁荣荣使岀第九魂技震撼全场，宁风致:终于可以 ...",
-        "summary": "2021年6月13日 · 斗罗大陆: 宁荣荣使岀第九魂技震撼全场，宁风致: 终于可以退休了！",
-        "url": "https://v.qq.com/x/page/v3252k6we66.html",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
     ]
   },
   "items": [
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
+      "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
+      "url": "https://www.tht.gov.cn/contents/16930/610355.html",
+      "source": "www.tht.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 6.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "破晓 芯 纪元丨元旭半导体全球首款玻璃基Micro-LED产品引爆显示革__财经头条__新浪财经",
+      "summary": "这项命名为MOG(Micro-LED on Glass)的突破性技术,正在以 破竹之势 重新定义高端显示市场的竞争格局,不仅彰显了元旭半导体在技术创新上的卓...",
+      "url": "https://t.cj.sina.com.cn/articles/view/2589663582/9a5b215e00102a2wc",
+      "source": "t.cj.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+      "source": "www.thepaper.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "元旭半导体 新闻 2026"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -264,6 +381,123 @@
       "fetched_at": "2026-08-15",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "AI智能",
+      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
+      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
+      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
+      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
+      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
+      "source": "fund.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
+      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
+      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.0,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
+      "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
+      "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新2026年1月8日涨停分析:净利润增长+装备研制进展+航空服务|海特高新_新浪财经_新浪网",
+      "summary": "年1月8日,海特高新(sz002023)触及涨停,涨停价15.04元,涨幅10.02%,总市值111.43亿元,流通市值111.43亿元,截止发稿,总成交额11.20亿元。",
+      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqpsp5356332.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "AI智能",
+      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
+      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
+      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "AI智能",
+      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
+      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
+      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "AI智能",
+      "title": "喜讯!鸿翼承担的国家档案局重点科技项目荣获2025年度国家档案局优秀科技成果二等奖 - 天眼查",
+      "summary": "93:档案管理迈入智能新纪元!新毅东×鸿翼档案,解锁合规与效率双重密码47:来源:微信发布时间:2026年01月23日.由国家档案局档案科学技术研究所牵头,上海鸿翼档案信息技术有限公司、中国人民大学档...",
+      "url": "https://news.tianyancha.com/ll_269hq25ux4.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
+      "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
+      "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
+      "source": "finance.sina.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "海特高新 新闻 2026"
     },
     {
       "code": "huayt",
@@ -318,58 +552,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
-      "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
-      "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
-      "source": "m.163.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "fxpp",
-      "company": "5个标的反向匹配汇总",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "fxpp",
-      "company": "5个标的反向匹配汇总",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
-      "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
-      "source": "www.shantou.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -381,19 +563,6 @@
       "fetched_at": "2026-08-15",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "斗罗大陆:宁荣荣使岀第九魂技震撼全场，宁风致:终于可以 ...",
-      "summary": "2021年6月13日 · 斗罗大陆: 宁荣荣使岀第九魂技震撼全场，宁风致: 终于可以退休了！",
-      "url": "https://v.qq.com/x/page/v3252k6we66.html",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -468,19 +637,6 @@
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
       "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
       "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "民航局敲定2026年三件大事:整治过低票价、加码低空和推进国产化_腾讯新闻",
-      "summary": "2026年1月6日 - 月6日,2026年全国民航工作会议在京召开。",
-      "url": "https://news.qq.com/rain/a/20260106A07HKJ00?media_id&suid",
-      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 1.5,
