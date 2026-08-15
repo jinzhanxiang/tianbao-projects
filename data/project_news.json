@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T22:31:00+08:00",
+  "generated_at": "2026-08-15T23:01:31+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 14,
   "by_industry": {
     "高端制造": [
       {
@@ -56,32 +56,6 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-        "source": "data.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "高端制造 行业 政策 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "财政部:2026年进一步增加财政科技投入,实施制造业重点产业链高质量发展行动-36氪",
-        "summary": "2025年12月28日 - 实施制造业重点产业链高质量发展行动,开展新一批制造业新型技术改造城市试点,加快构建现代化产业体系。.会议要求,2026年财政工作抓好以下重点任务...",
-        "url": "https://36kr.com/newsflashes/3614690816197632?f=rss",
-        "source": "36kr.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "高端制造 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -305,19 +279,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-      "source": "data.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -420,19 +381,6 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "财政部:2026年进一步增加财政科技投入,实施制造业重点产业链高质量发展行动-36氪",
-      "summary": "2025年12月28日 - 实施制造业重点产业链高质量发展行动,开展新一批制造业新型技术改造城市试点,加快构建现代化产业体系。.会议要求,2026年财政工作抓好以下重点任务...",
-      "url": "https://36kr.com/newsflashes/3614690816197632?f=rss",
-      "source": "36kr.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "高端制造 行业 政策 2026"
     }
   ]
 }
