@@ -1,9 +1,76 @@
 {
-  "generated_at": "2026-08-15T21:49:51+08:00",
+  "generated_at": "2026-08-15T22:00:00+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 19,
   "by_industry": {
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+        "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+        "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+        "source": "ggjd.cnstock.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+        "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+        "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+        "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+        "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "15亿元!星恒电源获新一轮战略投资",
+        "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+        "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+        "source": "www.dldcw.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -22,109 +89,40 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
-        "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
-        "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
-        "source": "cj.sina.com.cn",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 5.5,
+        "score": 3.0,
         "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
-        "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
-        "url": "https://finance.eastmoney.com/a/202604153706194839.html",
-        "source": "finance.eastmoney.com",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.5,
+        "score": 3.0,
         "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳绽放,舞彩童年|米兰华阳中文学校 2026 六一汇演暨毕业典礼圆满举行|中意|文脉|青少年_新浪新闻",
-        "summary": "当地时间 5 月 30 日,米兰华阳中文学校 2026 年六一儿童节暨毕业典礼 在热烈欢快的氛围中隆重举行.每日新闻摘录缩小字体放大字体收藏微博微信...",
-        "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906746i.html",
-        "source": "k.sina.com.cn",
+        "title": "公司简介-惠州华阳通用电子有限公司官方网站",
+        "summary": "惠州华阳通用电子有限公司成立于2002年，是惠州市华阳集团股份有限公司（股票代码：002906）的全资子公司。 公司深耕汽车电子 …",
+        "url": "https://www.foryouge.com/company_profile.html",
+        "source": "www.foryouge.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.5,
+        "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "觅蜂科技将推出一站式物理AI数据服务平台,2026年目标千万小时年产能_腾讯新闻",
-        "summary": "2026年4月14日 - 4月14日,界面新闻获悉,觅蜂科技(Maniformer)将于4月16日在上海发布一站式物理AI数据服务平台.该平台主要打造具身智能数据的 平台型供给 基础设施,具备...",
-        "url": "https://news.qq.com/rain/a/20260414A05BSJ00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "觅蜂 新闻 2026"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "数据限制具身?觅蜂杀进场破局:高质量数据水电一样即取即用_腾讯新闻",
-        "summary": "2026年4月16日 - 2026 年 4 月 16 日,以 蜂行天下,数驱智能 为主题的觅蜂(Maniformer)一站式物理 AI 数据服务平台发布会在上海张江科学会堂成功举办.姚卯青介绍,依托全...",
-        "url": "https://news.qq.com/rain/a/20260416A06MQ600",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "觅蜂 新闻 2026"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "智元生态再扩容,旗下觅蜂科技抢滩具身智能数据赛道_腾讯新闻",
-        "summary": "2026年4月17日 - 4月16日,智元旗下公司觅蜂科技相继发布一站式物理AI数据服务平台、MEgo系列无本体采集硬件,同时宣布将在2026年实现千万小时级数据产能。.依托全流程质...",
-        "url": "https://news.qq.com/rain/a/20260417A02EPB00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "觅蜂 新闻 2026"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "觅蜂科技完成数亿元种子轮与天使轮融资_腾讯新闻",
-        "summary": "2026年2月13日 - 2026-02-13 10:17发布于上海财联社旗下《科创板日报》官方账号 【觅蜂科技完成数亿元种子轮与天使轮融资】《科创板日报》13日讯,具身智能数据平台觅蜂...",
-        "url": "https://news.qq.com/rain/a/20260213A0235B00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "觅蜂 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -181,6 +179,47 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "其他行业": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+        "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+        "source": "www.shantou.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
     "半导体": [
       {
         "code": "jngd",
@@ -194,21 +233,6 @@
         "fetched_at": "2026-08-15",
         "score": 2.0,
         "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -242,6 +266,32 @@
   },
   "items": [
     {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+      "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+      "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+      "source": "ggjd.cnstock.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+      "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+      "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -255,99 +305,73 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
-      "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
-      "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "觅蜂科技将推出一站式物理AI数据服务平台,2026年目标千万小时年产能_腾讯新闻",
-      "summary": "2026年4月14日 - 4月14日,界面新闻获悉,觅蜂科技(Maniformer)将于4月16日在上海发布一站式物理AI数据服务平台.该平台主要打造具身智能数据的 平台型供给 基础设施,具备...",
-      "url": "https://news.qq.com/rain/a/20260414A05BSJ00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "觅蜂 新闻 2026"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "数据限制具身?觅蜂杀进场破局:高质量数据水电一样即取即用_腾讯新闻",
-      "summary": "2026年4月16日 - 2026 年 4 月 16 日,以 蜂行天下,数驱智能 为主题的觅蜂(Maniformer)一站式物理 AI 数据服务平台发布会在上海张江科学会堂成功举办.姚卯青介绍,依托全...",
-      "url": "https://news.qq.com/rain/a/20260416A06MQ600",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "觅蜂 新闻 2026"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "智元生态再扩容,旗下觅蜂科技抢滩具身智能数据赛道_腾讯新闻",
-      "summary": "2026年4月17日 - 4月16日,智元旗下公司觅蜂科技相继发布一站式物理AI数据服务平台、MEgo系列无本体采集硬件,同时宣布将在2026年实现千万小时级数据产能。.依托全流程质...",
-      "url": "https://news.qq.com/rain/a/20260417A02EPB00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "觅蜂 新闻 2026"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "觅蜂科技完成数亿元种子轮与天使轮融资_腾讯新闻",
-      "summary": "2026年2月13日 - 2026-02-13 10:17发布于上海财联社旗下《科创板日报》官方账号 【觅蜂科技完成数亿元种子轮与天使轮融资】《科创板日报》13日讯,具身智能数据平台觅蜂...",
-      "url": "https://news.qq.com/rain/a/20260213A0235B00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "觅蜂 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
-      "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
-      "url": "https://finance.eastmoney.com/a/202604153706194839.html",
-      "source": "finance.eastmoney.com",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+      "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+      "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+      "source": "www.163.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.5,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳绽放,舞彩童年|米兰华阳中文学校 2026 六一汇演暨毕业典礼圆满举行|中意|文脉|青少年_新浪新闻",
-      "summary": "当地时间 5 月 30 日,米兰华阳中文学校 2026 年六一儿童节暨毕业典礼 在热烈欢快的氛围中隆重举行.每日新闻摘录缩小字体放大字体收藏微博微信...",
-      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906746i.html",
-      "source": "k.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.5,
-      "query": "华阳 新闻 2026"
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
     },
     {
       "code": "xingheng",
       "company": "星恒电源",
+      "industry": "新能源",
+      "title": "15亿元!星恒电源获新一轮战略投资",
+      "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+      "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+      "source": "www.dldcw.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州华阳通用电子有限公司官方网站",
+      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+      "url": "https://www.foryouge.com/",
+      "source": "www.foryouge.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "公司简介-惠州华阳通用电子有限公司官方网站",
+      "summary": "惠州华阳通用电子有限公司成立于2002年，是惠州市华阳集团股份有限公司（股票代码：002906）的全资子公司。 公司深耕汽车电子 …",
+      "url": "https://www.foryouge.com/company_profile.html",
+      "source": "www.foryouge.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
@@ -370,6 +394,32 @@
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+      "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+      "source": "www.shantou.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "jngd",
