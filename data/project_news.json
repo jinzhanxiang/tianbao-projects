@@ -1,116 +1,90 @@
 {
-  "generated_at": "2026-08-15T20:26:49+08:00",
+  "generated_at": "2026-08-15T20:35:05+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 20,
   "by_industry": {
-    "高端制造": [
+    "生物医药": [
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
-        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
-        "url": "https://quote.eastmoney.com/sz002906.html",
-        "source": "quote.eastmoney.com",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
+        "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+        "url": "https://www.sohu.com/a/360741883_118792",
+        "source": "www.sohu.com",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 5.5,
-        "query": "华阳 新闻 2026"
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       },
       {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "高端制造",
-        "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
-        "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
-        "url": "https://news.qq.com/rain/a/20260417A090QP00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "高端制造",
-        "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
-        "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
-        "url": "https://news.qq.com/rain/a/20260419A02IN100",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "高端制造",
-        "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
-        "summary": "同花顺数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有主力资金...",
-        "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "高端制造",
-        "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
-        "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
-        "url": "https://news.qq.com/rain/a/20260418A054BV00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团的前世今生：2025年营收130.48亿行业排第四，净 ...",
-        "summary": "2026年4月29日 · 华阳集团成立于1993年1月16日，于2017年10月13日在深圳证券交易所上市，注册地址和办公地址均为广东省惠州市 …",
-        "url": "https://finance.sina.cn/2026-04-29/detail-inhweskw7580390.d.html?vt=4",
-        "source": "finance.sina.cn",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
+        "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
+        "source": "qy.zhaobiao.cn",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 4.0,
-        "query": "华阳 新闻 2026"
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       },
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+        "source": "hainan.bidizhaobiao.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       },
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团人力资源招聘系统",
-        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-        "url": "https://zhaopin.ymjt.com.cn/index.html",
-        "source": "zhaopin.ymjt.com.cn",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "中标蒲公英助力上海柯渡医学科技顺利通过标准化试点项目验收-产品_ 天眼查新闻",
+        "summary": "上海柯渡医学科技股份有限公司怎么了? 发展 共赢 未来中标蒲公英助力上海柯渡医学科技顺利通过标准化试点项目验收近日,上海柯渡医学...",
+        "url": "https://mnews.tianyancha.com/ll_jm20115h0z.html",
+        "source": "mnews.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
       }
     ],
     "REITS类资产": [
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -138,8 +112,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "huitian",
+        "company": "汇天科技",
         "industry": "REITS类资产",
         "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
         "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
@@ -151,8 +125,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
+        "code": "huitian",
+        "company": "汇天科技",
         "industry": "REITS类资产",
         "title": "REITs价格深度调整，类固收滤镜不再，如何挑选？",
         "summary": "4 天之前 · 近期两只REITs因价格深度下调触发临时停牌，凸显其投资风险。REITs全称Real Estate Investment Trusts，是投资不动产 …",
@@ -164,37 +138,33 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
-    ],
     "低空航空": [
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+        "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+        "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+        "source": "m.163.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -220,113 +190,169 @@
         "fetched_at": "2026-08-15",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "民航局敲定2026年三件大事:整治过低票价、加码低空和推进国产化_腾讯新闻",
+        "summary": "2026年1月6日 - 月6日,2026年全国民航工作会议在京召开。",
+        "url": "https://news.qq.com/rain/a/20260106A07HKJ00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "QQ邮箱 - 第一步：选择邮箱账号 - 注册邮箱账号",
+        "summary": "注：邮箱账号注册成功后将不能更改。 您的邮箱账号应该由a～z的英文字母（不区分大小写）开头； 可由英文字母、0～9的数字（但 …",
+        "url": "https://mail.qq.com/cgi-bin/loginpage?t=reg_mailaddress",
+        "source": "mail.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "QQ邮箱帮助系统",
+        "summary": "重要提示 1、授权码 ≠ 邮箱密码：第三方客户端登录时， 用户名 填您的完整邮箱地址， 密码 栏请填写这串16位的 授权码，而非您 …",
+        "url": "https://help.mail.qq.com/detail/0/1087",
+        "source": "help.mail.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "QQ邮箱帮助系统",
+        "summary": "我怎样更改QQ邮箱的密码？ 我怎样发送邮件？ 我的“已删除”邮件夹中的邮件会占用邮箱空间吗？ 怎样确保我的QQ邮箱的使用安全？ …",
+        "url": "https://service.mail.qq.com/",
+        "source": "service.mail.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "QQ邮箱帮助系统",
+        "summary": "个性化邮箱地址是QQ邮箱用户将自己的域名作为邮箱后缀添加的邮箱地址，用于收发邮件。 举例：你购买了一个 example.com 域 …",
+        "url": "https://help.mail.qq.com/detail/106/999",
+        "source": "help.mail.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ]
   },
   "items": [
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
-      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
-      "url": "https://quote.eastmoney.com/sz002906.html",
-      "source": "quote.eastmoney.com",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
+      "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+      "url": "https://www.sohu.com/a/360741883_118792",
+      "source": "www.sohu.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 5.5,
-      "query": "华阳 新闻 2026"
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "高端制造",
-      "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
-      "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
-      "url": "https://news.qq.com/rain/a/20260417A090QP00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "高端制造",
-      "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
-      "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
-      "url": "https://news.qq.com/rain/a/20260419A02IN100",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "高端制造",
-      "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
-      "summary": "同花顺数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有主力资金...",
-      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "高端制造",
-      "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
-      "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
-      "url": "https://news.qq.com/rain/a/20260418A054BV00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团的前世今生：2025年营收130.48亿行业排第四，净 ...",
-      "summary": "2026年4月29日 · 华阳集团成立于1993年1月16日，于2017年10月13日在深圳证券交易所上市，注册地址和办公地址均为广东省惠州市 …",
-      "url": "https://finance.sina.cn/2026-04-29/detail-inhweskw7580390.d.html?vt=4",
-      "source": "finance.sina.cn",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
+      "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
+      "source": "qy.zhaobiao.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.0,
-      "query": "华阳 新闻 2026"
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+      "source": "hainan.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团人力资源招聘系统",
-      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-      "url": "https://zhaopin.ymjt.com.cn/index.html",
-      "source": "zhaopin.ymjt.com.cn",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "中标蒲公英助力上海柯渡医学科技顺利通过标准化试点项目验收-产品_ 天眼查新闻",
+      "summary": "上海柯渡医学科技股份有限公司怎么了? 发展 共赢 未来中标蒲公英助力上海柯渡医学科技顺利通过标准化试点项目验收近日,上海柯渡医学...",
+      "url": "https://mnews.tianyancha.com/ll_jm20115h0z.html",
+      "source": "mnews.tianyancha.com",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -340,6 +366,32 @@
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+      "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+      "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+      "source": "m.163.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
     },
     {
       "code": "jngd",
@@ -368,8 +420,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
+      "code": "huitian",
+      "company": "汇天科技",
       "industry": "REITS类资产",
       "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
       "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
@@ -381,8 +433,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
+      "code": "huitian",
+      "company": "汇天科技",
       "industry": "REITS类资产",
       "title": "REITs价格深度调整，类固收滤镜不再，如何挑选？",
       "summary": "4 天之前 · 近期两只REITs因价格深度下调触发临时停牌，凸显其投资风险。REITs全称Real Estate Investment Trusts，是投资不动产 …",
@@ -392,19 +444,6 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "其他行业",
-      "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-      "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-      "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -431,6 +470,71 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "民航局敲定2026年三件大事:整治过低票价、加码低空和推进国产化_腾讯新闻",
+      "summary": "2026年1月6日 - 月6日,2026年全国民航工作会议在京召开。",
+      "url": "https://news.qq.com/rain/a/20260106A07HKJ00?media_id&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "QQ邮箱 - 第一步：选择邮箱账号 - 注册邮箱账号",
+      "summary": "注：邮箱账号注册成功后将不能更改。 您的邮箱账号应该由a～z的英文字母（不区分大小写）开头； 可由英文字母、0～9的数字（但 …",
+      "url": "https://mail.qq.com/cgi-bin/loginpage?t=reg_mailaddress",
+      "source": "mail.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "QQ邮箱帮助系统",
+      "summary": "重要提示 1、授权码 ≠ 邮箱密码：第三方客户端登录时， 用户名 填您的完整邮箱地址， 密码 栏请填写这串16位的 授权码，而非您 …",
+      "url": "https://help.mail.qq.com/detail/0/1087",
+      "source": "help.mail.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "QQ邮箱帮助系统",
+      "summary": "我怎样更改QQ邮箱的密码？ 我怎样发送邮件？ 我的“已删除”邮件夹中的邮件会占用邮箱空间吗？ 怎样确保我的QQ邮箱的使用安全？ …",
+      "url": "https://service.mail.qq.com/",
+      "source": "service.mail.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "QQ邮箱帮助系统",
+      "summary": "个性化邮箱地址是QQ邮箱用户将自己的域名作为邮箱后缀添加的邮箱地址，用于收发邮件。 举例：你购买了一个 example.com 域 …",
+      "url": "https://help.mail.qq.com/detail/106/999",
+      "source": "help.mail.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
     }
   ]
 }
