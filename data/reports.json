@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T12:46:56+08:00",
+  "generated_at": "2026-08-15T12:56:37+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 49,
   "total_active": 46,
@@ -145,20 +145,6 @@
         "mtime": "2026-08-06T22:30:44+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/mifeng/%E8%A7%85%E8%9C%82_%E5%8D%8E%E4%BE%9D%E5%90%88%E4%BD%9C%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%85%A5%E8%82%A1%E4%BC%B0%E5%80%BC_V25.1.18_20260806.html"
-      }
-    ],
-    "合邦新能源": [
-      {
-        "code": "合邦新能源",
-        "date": "2026-08-15",
-        "category": "未分类",
-        "title": "合邦新能源研究报告-20260815",
-        "file": "合邦新能源_研究报告_20260815_part1.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/合邦新能源/output/合邦新能源_研究报告_20260815_part1.html",
-        "size": 37515,
-        "mtime": "2026-08-15T11:57:27+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/合邦新能源/output/合邦新能源_研究报告_20260815_part1.html"
       }
     ],
     "tianbao-jijian": [
@@ -1415,16 +1401,16 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-15T12:46:56.742928",
+  "_last_cleanup": "2026-08-15T12:56:37.936262",
   "_cleanup_stats": {
     "dup_title_date": 4,
-    "intermediate:section_synthesis": 5,
     "superseded": 8,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
     "intermediate:v_standard_mode": 1,
     "intermediate:cooperation_package": 1,
+    "intermediate:section_synthesis": 3,
     "quarantine_full": 2
   }
 }
