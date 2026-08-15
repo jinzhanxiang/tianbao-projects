@@ -1,102 +1,74 @@
 {
-  "generated_at": "2026-08-16T03:54:42+08:00",
+  "generated_at": "2026-08-16T04:02:34+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 17,
   "by_industry": {
-    "低空航空": [
+    "半导体": [
       {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空航空",
-        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-        "summary": "简介：#空中1",
-        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-        "source": "k.sina.com.cn",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+        "source": "caifuhao.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "青岛直升机 新闻 2026"
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空航空",
-        "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
-        "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
-        "url": "https://weibo.com/1931238691/QsYmN46mr",
-        "source": "weibo.com",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 3.0,
-        "query": "青岛直升机 新闻 2026"
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+        "source": "www.vzkoo.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+        "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+        "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+        "source": "max.book118.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "四川迅巢建筑有限公司中标公告",
-        "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
-        "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
-        "source": "m.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"迅巢\" 公告 签约 中标 投资"
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
-        "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
-        "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
-        "source": "www.biaozhaozhao.com",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年半导体行业市场动态与税收政策解读报告.docx-原创力文档",
+        "summary": "一、:2026年半导体行业市场动态与税收政策解读报告.2026年的税收政策将继续延续和优化,以支持半导体企业的技术创新和产业升级。.2026年,随着5G、物联网、人工智...",
+        "url": "https://max.book118.com/html/2026/0723/8033050074010112.shtm",
+        "source": "max.book118.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 3.0,
-        "query": "\"迅巢\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年1月22日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "高端制造": [
@@ -153,6 +125,21 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年1月22日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "REITS类资产": [
       {
         "code": "unicom-idc",
@@ -207,21 +194,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -236,47 +208,49 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
     ]
   },
   "items": [
     {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空航空",
-      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-      "summary": "简介：#空中1",
-      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-      "source": "k.sina.com.cn",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "青岛直升机 新闻 2026"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "四川迅巢建筑有限公司中标公告",
-      "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
-      "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
-      "source": "m.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"迅巢\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
-      "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
-      "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
-      "source": "www.biaozhaozhao.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.0,
-      "query": "\"迅巢\" 公告 签约 中标 投资"
+      "score": 3.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -331,19 +305,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空航空",
-      "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
-      "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
-      "url": "https://weibo.com/1931238691/QsYmN46mr",
-      "source": "weibo.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.0,
-      "query": "青岛直升机 新闻 2026"
-    },
-    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -377,6 +338,45 @@
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
       "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
       "source": "www.deloitte.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+      "source": "www.vzkoo.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+      "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+      "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年半导体行业市场动态与税收政策解读报告.docx-原创力文档",
+      "summary": "一、:2026年半导体行业市场动态与税收政策解读报告.2026年的税收政策将继续延续和优化,以支持半导体企业的技术创新和产业升级。.2026年,随着5G、物联网、人工智...",
+      "url": "https://max.book118.com/html/2026/0723/8033050074010112.shtm",
+      "source": "max.book118.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 2.0,
