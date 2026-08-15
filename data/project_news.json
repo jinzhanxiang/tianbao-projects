@@ -1,10 +1,77 @@
 {
-  "generated_at": "2026-08-15T14:30:07+08:00",
+  "generated_at": "2026-08-15T14:41:24+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 19,
+  "total": 23,
   "by_industry": {
+    "生物医药": [
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
+        "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
+        "url": "https://36kr.com/p/2843424921541510",
+        "source": "36kr.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
+        "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
+        "url": "https://www.sohu.com/a/607343524_120629259",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "北京速迈医疗科技有限公司 - 中标信息 - 铁耙云",
+        "summary": "2024年9月5日 - 你好,欢迎来到北京速迈医疗科技有限公司网站首页北京速迈医疗科技有限公司铁耙云登录 | 注册森林消防物资铁耙云 全国供应商列表 北京速迈医疗科技有限...",
+        "url": "https://www.tiepayun.com/sment-2-56324.html",
+        "source": "www.tiepayun.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "北京速迈医疗科技有限公司-首页",
+        "summary": "2025年1月16日 - 四川绵阳四0四医院超声骨动力系统(超声骨刀)中标(成交)结果公告中标公告.提供北京速迈医疗科技有限公司招标采购信息,涵盖北京速迈医疗科技有限公司招...",
+        "url": "https://www.zbytb.com/c-AYEFj/",
+        "source": "www.zbytb.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      }
+    ],
     "高端制造": [
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "奥联电子 新闻 2026"
+      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -56,6 +123,45 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+        "source": "app.myzaker.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+        "source": "news.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子(截止2026年2月27日)股东人数为16142户 环比增加3.75%",
+        "summary": "2026年2月27日 - 月4日,奥联电子披露公司股东人数最新情况,截止2月27日,公司股东人数为16142人,较上期(2026-02-13)增加584户,环比增长3.75%。",
+        "url": "https://news.10jqka.com.cn/20260304/c675067859.shtml",
+        "source": "news.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
       }
     ],
     "半导体": [
@@ -112,60 +218,6 @@
         "fetched_at": "2026-08-15",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "全新视界 探索无限 - 我的世界Minecraft中国版官方网站",
-        "summary": "公告 《我的世界》铜器时代版本更新内容一览 《我的世界》铜器时代版本更新内容一览 07-24 > 详情 公告 关于游戏内作弊等违规行为 …",
-        "url": "https://mc.163.com/news/update/index.html",
-        "source": "mc.163.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "全新视界 探索无限 - 我的世界Minecraft中国版官方网站",
-        "summary": "01-22 > 详情 新闻 《我的世界》12月违规行为处罚公告 为保障《我的世界》游戏环境公平与健康，维护广大冒险家的共同利益，我们 …",
-        "url": "https://mc.163.com/news/index_3.html",
-        "source": "mc.163.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "我的世界开发者官网",
-        "summary": "《我的世界》中国版创造者计划，邀请开发者加入我的世界中国版，注册成为开发者，在开发者平台投稿内容，加入开发者社区与众多 …",
-        "url": "https://mc.163.com/dev/",
-        "source": "mc.163.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "我的世界游戏体验区——我的世界中国版 自由创造 从一个方块 ...",
-        "summary": "× 您所访问的网页内容被缩放可能影响正常使用，可以使用键盘快捷键 Ctrl 和 0 恢复正常。",
-        "url": "https://mc.163.com/exp/",
-        "source": "mc.163.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -268,6 +320,71 @@
   },
   "items": [
     {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
+      "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
+      "url": "https://36kr.com/p/2843424921541510",
+      "source": "36kr.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
+      "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
+      "url": "https://www.sohu.com/a/607343524_120629259",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "北京速迈医疗科技有限公司 - 中标信息 - 铁耙云",
+      "summary": "2024年9月5日 - 你好,欢迎来到北京速迈医疗科技有限公司网站首页北京速迈医疗科技有限公司铁耙云登录 | 注册森林消防物资铁耙云 全国供应商列表 北京速迈医疗科技有限...",
+      "url": "https://www.tiepayun.com/sment-2-56324.html",
+      "source": "www.tiepayun.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "北京速迈医疗科技有限公司-首页",
+      "summary": "2025年1月16日 - 四川绵阳四0四医院超声骨动力系统(超声骨刀)中标(成交)结果公告中标公告.提供北京速迈医疗科技有限公司招标采购信息,涵盖北京速迈医疗科技有限公司招...",
+      "url": "https://www.zbytb.com/c-AYEFj/",
+      "source": "www.zbytb.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -320,6 +437,45 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+      "source": "app.myzaker.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子(截止2026年2月27日)股东人数为16142户 环比增加3.75%",
+      "summary": "2026年2月27日 - 月4日,奥联电子披露公司股东人数最新情况,截止2月27日,公司股东人数为16142人,较上期(2026-02-13)增加584户,环比增长3.75%。",
+      "url": "https://news.10jqka.com.cn/20260304/c675067859.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -344,32 +500,6 @@
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "全新视界 探索无限 - 我的世界Minecraft中国版官方网站",
-      "summary": "公告 《我的世界》铜器时代版本更新内容一览 《我的世界》铜器时代版本更新内容一览 07-24 > 详情 公告 关于游戏内作弊等违规行为 …",
-      "url": "https://mc.163.com/news/update/index.html",
-      "source": "mc.163.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "全新视界 探索无限 - 我的世界Minecraft中国版官方网站",
-      "summary": "01-22 > 详情 新闻 《我的世界》12月违规行为处罚公告 为保障《我的世界》游戏环境公平与健康，维护广大冒险家的共同利益，我们 …",
-      "url": "https://mc.163.com/news/index_3.html",
-      "source": "mc.163.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -409,32 +539,6 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "我的世界开发者官网",
-      "summary": "《我的世界》中国版创造者计划，邀请开发者加入我的世界中国版，注册成为开发者，在开发者平台投稿内容，加入开发者社区与众多 …",
-      "url": "https://mc.163.com/dev/",
-      "source": "mc.163.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "我的世界游戏体验区——我的世界中国版 自由创造 从一个方块 ...",
-      "summary": "× 您所访问的网页内容被缩放可能影响正常使用，可以使用键盘快捷键 Ctrl 和 0 恢复正常。",
-      "url": "https://mc.163.com/exp/",
-      "source": "mc.163.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
