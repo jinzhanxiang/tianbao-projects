@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-08-15T19:42:38+08:00",
+  "generated_at": "2026-08-15T19:53:18+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 14,
+  "total": 15,
   "by_industry": {
     "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
+        "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
+        "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
+        "source": "cj.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -22,10 +35,10 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "成都华阳不是四川最大的镇，而是一座城",
-        "summary": "2021年1月10日 · 因此在习惯上，华阳依然被广泛地称为华阳镇。 这个时候称华阳为镇，几本也可以理解。 然而到了2013年以后，随 …",
-        "url": "https://www.163.com/dy/article/FVUQT6PK05452RSB.html",
-        "source": "www.163.com",
+        "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
+        "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
+        "url": "https://finance.eastmoney.com/a/202604153706194839.html",
+        "source": "finance.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 4.5,
@@ -35,96 +48,14 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
+        "title": "华阳绽放,舞彩童年|米兰华阳中文学校 2026 六一汇演暨毕业典礼圆满举行|中意|文脉|青少年_新浪新闻",
+        "summary": "当地时间 5 月 30 日,米兰华阳中文学校 2026 年六一儿童节暨毕业典礼 在热烈欢快的氛围中隆重举行.每日新闻摘录缩小字体放大字体收藏微博微信...",
+        "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906746i.html",
+        "source": "k.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 3.0,
+        "score": 4.5,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "中国高端装备制造行业深度洞察与发展趋势研究报告（2025）",
-        "summary": "2025年11月5日 · 高端装备制造业的“高端性”主要体现在三个方面：一是技术含量高，表现为知识、技术密集，体现多学科和多领域高 …",
-        "url": "https://www.sohu.com/a/951272528_120056153",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "高端制造 行业 政策 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "高端访谈_CCTV节目官网",
-        "summary": "《高端访谈》栏目专访各国元首、政府首脑和国际组织负责人，就全球热点话题发问，就焦点问题追问，就世界之变、时代之变、历史 …",
-        "url": "https://tv.cctv.com/lm/gdft/index.shtml",
-        "source": "tv.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "高端制造 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2025年1月29日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 限时权益价22.68-30.28万 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -171,14 +102,70 @@
         "code": "unicom-idc",
         "company": "四川 IDC",
         "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
+        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+        "source": "www.csrc.gov.cn",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "庸才_电影_高清完整版视频在线观看_腾讯视频",
+        "summary": "《庸才》高清在线观看，领衔主演:染谷将太,二阶堂富美,渡边哲,吹越满,神乐坂惠,电影简介:前所未有的东日本大地震以及随之引发的海 …",
+        "url": "https://v.qq.com/x/cover/u13h878wzjc85jt/m0017c8f7gk.html",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "庸才_高清1080P在线观看平台_腾讯视频",
+        "summary": "2022年9月6日 · 腾讯公司 版权所有.",
+        "url": "https://v.qq.com/x/page/a3355s80cf1.html",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "麦田电影院第30期：《庸才》_电影_高清完整版视频在线观看 ...",
+        "summary": "2015年9月29日 · 《麦田电影院第30期：《庸才》》高清在线观看，电影简介:本期《麦田电影院》将为您带来园子温的《庸才》。 这 …",
+        "url": "https://v.qq.com/x/cover/aduvphbil5dyljl.html",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -195,9 +182,50 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
     ]
   },
   "items": [
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
+      "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
+      "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
+      "source": "cj.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -215,10 +243,10 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "成都华阳不是四川最大的镇，而是一座城",
-      "summary": "2021年1月10日 · 因此在习惯上，华阳依然被广泛地称为华阳镇。 这个时候称华阳为镇，几本也可以理解。 然而到了2013年以后，随 …",
-      "url": "https://www.163.com/dy/article/FVUQT6PK05452RSB.html",
-      "source": "www.163.com",
+      "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
+      "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
+      "url": "https://finance.eastmoney.com/a/202604153706194839.html",
+      "source": "finance.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 4.5,
@@ -228,53 +256,14 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
+      "title": "华阳绽放,舞彩童年|米兰华阳中文学校 2026 六一汇演暨毕业典礼圆满举行|中意|文脉|青少年_新浪新闻",
+      "summary": "当地时间 5 月 30 日,米兰华阳中文学校 2026 年六一儿童节暨毕业典礼 在热烈欢快的氛围中隆重举行.每日新闻摘录缩小字体放大字体收藏微博微信...",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906746i.html",
+      "source": "k.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 3.0,
+      "score": 4.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州华阳通用电子有限公司官方网站",
-      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-      "url": "https://www.foryouge.com/",
-      "source": "www.foryouge.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2025年1月29日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 限时权益价22.68-30.28万 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -301,32 +290,6 @@
       "fetched_at": "2026-08-15",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "中国高端装备制造行业深度洞察与发展趋势研究报告（2025）",
-      "summary": "2025年11月5日 · 高端装备制造业的“高端性”主要体现在三个方面：一是技术含量高，表现为知识、技术密集，体现多学科和多领域高 …",
-      "url": "https://www.sohu.com/a/951272528_120056153",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "高端访谈_CCTV节目官网",
-      "summary": "《高端访谈》栏目专访各国元首、政府首脑和国际组织负责人，就全球热点话题发问，就焦点问题追问，就世界之变、时代之变、历史 …",
-      "url": "https://tv.cctv.com/lm/gdft/index.shtml",
-      "source": "tv.cctv.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -358,14 +321,53 @@
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
+      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+      "source": "www.csrc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "庸才_电影_高清完整版视频在线观看_腾讯视频",
+      "summary": "《庸才》高清在线观看，领衔主演:染谷将太,二阶堂富美,渡边哲,吹越满,神乐坂惠,电影简介:前所未有的东日本大地震以及随之引发的海 …",
+      "url": "https://v.qq.com/x/cover/u13h878wzjc85jt/m0017c8f7gk.html",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "庸才_高清1080P在线观看平台_腾讯视频",
+      "summary": "2022年9月6日 · 腾讯公司 版权所有.",
+      "url": "https://v.qq.com/x/page/a3355s80cf1.html",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "麦田电影院第30期：《庸才》_电影_高清完整版视频在线观看 ...",
+      "summary": "2015年9月29日 · 《麦田电影院第30期：《庸才》》高清在线观看，电影简介:本期《麦田电影院》将为您带来园子温的《庸才》。 这 …",
+      "url": "https://v.qq.com/x/cover/aduvphbil5dyljl.html",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "acquisition-listed",
@@ -379,6 +381,32 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "低空司-国家发展和改革委员会",
+      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+      "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+      "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+      "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+      "source": "www.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "低空航空 行业 政策 2026"
     }
   ]
 }
