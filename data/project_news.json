@@ -1,64 +1,62 @@
 {
-  "generated_at": "2026-08-15T07:55:36+08:00",
+  "generated_at": "2026-08-15T08:03:20+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 24,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
-        "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
-        "url": "https://36kr.com/p/2843424921541510",
-        "source": "36kr.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
-        "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
-        "url": "https://www.sohu.com/a/607343524_120629259",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "北京速迈医疗科技有限公司 - 中标信息 - 铁耙云",
-        "summary": "2024年9月5日 - 你好,欢迎来到北京速迈医疗科技有限公司网站首页北京速迈医疗科技有限公司铁耙云登录 | 注册森林消防物资铁耙云 全国供应商列表 北京速迈医疗科技有限...",
-        "url": "https://www.tiepayun.com/sment-2-56324.html",
-        "source": "www.tiepayun.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "sumai",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "北京速迈医疗科技有限公司-首页",
-        "summary": "2025年1月16日 - 四川绵阳四0四医院超声骨动力系统(超声骨刀)中标(成交)结果公告中标公告.提供北京速迈医疗科技有限公司招标采购信息,涵盖北京速迈医疗科技有限公司招...",
-        "url": "https://www.zbytb.com/c-AYEFj/",
-        "source": "www.zbytb.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "\"速迈医疗\" 公告 签约 中标 投资"
-      }
-    ],
     "高端制造": [
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
+        "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
+        "url": "https://news.qq.com/rain/a/20260417A090QP00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
+        "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
+        "url": "https://news.qq.com/rain/a/20260419A02IN100",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
+        "summary": "同花顺数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有主力资金...",
+        "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "华东数控 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
+        "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
+        "url": "https://news.qq.com/rain/a/20260418A054BV00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "华东数控 新闻 2026"
+      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -112,7 +110,87 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
+        "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
+        "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
+        "source": "news.dichan.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 与北京宏远创信能源科技有限公司有关的项目共71条,分别是锦江绿道公司2026年直购电供电服务成交结果公告,2026年直购电采购项目二次,成都印钞有限公司-...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司 - 企查查",
+        "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
+        "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
+        "source": "www.qcc.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "信息检索-雅安市人民政府",
+        "summary": "2023年5月11日 - 芦山县积极推进林业碳汇开发工作为加快推动芦山县林业碳汇开发有关工作,10月19日,芦山县委副书记、县长杨俊率队到成都考察招商,并与北京宏远创信能源...",
+        "url": "https://www.yaan.gov.cn/search.html?page=7&q=%E7%A2%B3%E6%B1%87%E9%A1%B9%E7%9B%AE",
+        "source": "www.yaan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年11月16日 · 新赛季91！ 詹姆斯历年2K能力值：14次联盟第一 连续22年90+ 2K能力值20-11：恩比德/詹姆斯/布朗91+马克西92 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
       {
         "code": "jngd",
         "company": "晶能光电",
@@ -124,6 +202,32 @@
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+        "source": "www.vzkoo.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+        "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+        "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
         "query": "半导体 行业 政策 2026"
       }
     ],
@@ -146,7 +250,7 @@
         "company": "四川 IDC",
         "industry": "REITS类资产",
         "title": "REITs专栏 | 上海证券交易所",
-        "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
         "date": "",
@@ -179,21 +283,6 @@
         "fetched_at": "2026-08-15",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年11月16日 · 新赛季91！ 詹姆斯历年2K能力值：14次联盟第一 连续22年90+ 2K能力值20-11：恩比德/詹姆斯/布朗91+马克西92 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -242,30 +331,95 @@
   },
   "items": [
     {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
-      "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
-      "url": "https://36kr.com/p/2843424921541510",
-      "source": "36kr.com",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
+      "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
+      "url": "https://news.qq.com/rain/a/20260417A090QP00",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 5.5,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      "query": "华东数控 新闻 2026"
     },
     {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
-      "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
-      "url": "https://www.sohu.com/a/607343524_120629259",
-      "source": "www.sohu.com",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
+      "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
+      "url": "https://news.qq.com/rain/a/20260419A02IN100",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 5.5,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
+      "summary": "同花顺数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有主力资金...",
+      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
+      "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
+      "url": "https://news.qq.com/rain/a/20260418A054BV00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "华东数控 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
+      "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
+      "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
+      "source": "news.dichan.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 与北京宏远创信能源科技有限公司有关的项目共71条,分别是锦江绿道公司2026年直购电供电服务成交结果公告,2026年直购电采购项目二次,成都印钞有限公司-...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司 - 企查查",
+      "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
+      "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
     },
     {
       "code": "huayt",
@@ -281,30 +435,30 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "北京速迈医疗科技有限公司 - 中标信息 - 铁耙云",
-      "summary": "2024年9月5日 - 你好,欢迎来到北京速迈医疗科技有限公司网站首页北京速迈医疗科技有限公司铁耙云登录 | 注册森林消防物资铁耙云 全国供应商列表 北京速迈医疗科技有限...",
-      "url": "https://www.tiepayun.com/sment-2-56324.html",
-      "source": "www.tiepayun.com",
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      "score": 3.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "sumai",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "北京速迈医疗科技有限公司-首页",
-      "summary": "2025年1月16日 - 四川绵阳四0四医院超声骨动力系统(超声骨刀)中标(成交)结果公告中标公告.提供北京速迈医疗科技有限公司招标采购信息,涵盖北京速迈医疗科技有限公司招...",
-      "url": "https://www.zbytb.com/c-AYEFj/",
-      "source": "www.zbytb.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "信息检索-雅安市人民政府",
+      "summary": "2023年5月11日 - 芦山县积极推进林业碳汇开发工作为加快推动芦山县林业碳汇开发有关工作,10月19日,芦山县委副书记、县长杨俊率队到成都考察招商,并与北京宏远创信能源...",
+      "url": "https://www.yaan.gov.cn/search.html?page=7&q=%E7%A2%B3%E6%B1%87%E9%A1%B9%E7%9B%AE",
+      "source": "www.yaan.gov.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      "score": 3.0,
+      "query": "宏远创信 新闻 2026"
     },
     {
       "code": "huayt",
@@ -372,6 +526,32 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+      "source": "www.vzkoo.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+      "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+      "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -389,7 +569,7 @@
       "company": "四川 IDC",
       "industry": "REITS类资产",
       "title": "REITs专栏 | 上海证券交易所",
-      "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
