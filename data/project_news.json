@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T16:47:04+08:00",
+  "generated_at": "2026-08-15T16:53:12+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 14,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -62,6 +62,84 @@
       {
         "code": "xingheng",
         "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
+        "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
+        "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
+        "source": "www.worldmr.net",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
+        "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
+        "url": "https://www.jobui.com/company/12781277/news/",
+        "source": "www.jobui.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源完成数亿元融资 年产4GWh锂电池项目已封顶_电池网",
+        "summary": "近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。 近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。",
+        "url": "https://www.itdcw.com/news/focus/110Q44P92024.html",
+        "source": "www.itdcw.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "四川迅巢建筑有限公司中标公告",
+        "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
+        "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
+        "source": "m.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"迅巢\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动三轮车用户谁没被 电池沉 绊过手?搬48V50Ah的电池得憋足劲,赶上拉满货,电池占重...",
+        "summary": "星恒电源股份有限公司法定代表人:冯笑 | 注册资本:32157.5068万人民币 | 成立日期:2003-12-18.星恒电源股份有限公司怎么了?星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动...",
+        "url": "https://news.tianyancha.com/ll_7gt16ep98l.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
+        "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
+        "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
+        "source": "www.biaozhaozhao.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.0,
+        "query": "\"迅巢\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
         "industry": "新能源",
         "title": "新闻中心首页_新浪网",
         "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
@@ -214,6 +292,58 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
+      "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
+      "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
+      "source": "www.worldmr.net",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
+      "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
+      "url": "https://www.jobui.com/company/12781277/news/",
+      "source": "www.jobui.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源完成数亿元融资 年产4GWh锂电池项目已封顶_电池网",
+      "summary": "近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。 近日,动力锂电池高新技术企业星恒电源宣布完成数亿元融资。",
+      "url": "https://www.itdcw.com/news/focus/110Q44P92024.html",
+      "source": "www.itdcw.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "新能源",
+      "title": "四川迅巢建筑有限公司中标公告",
+      "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
+      "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
+      "source": "m.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"迅巢\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -225,6 +355,32 @@
       "fetched_at": "2026-08-15",
       "score": 4.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动三轮车用户谁没被 电池沉 绊过手?搬48V50Ah的电池得憋足劲,赶上拉满货,电池占重...",
+      "summary": "星恒电源股份有限公司法定代表人:冯笑 | 注册资本:32157.5068万人民币 | 成立日期:2003-12-18.星恒电源股份有限公司怎么了?星恒电源磷酸铁锂电池升级!重量减轻20%,2026年装新款电动三轮车 电动...",
+      "url": "https://news.tianyancha.com/ll_7gt16ep98l.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "新能源",
+      "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
+      "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
+      "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
+      "source": "www.biaozhaozhao.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "\"迅巢\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -253,19 +409,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -277,6 +420,19 @@
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
