@@ -1,9 +1,76 @@
 {
-  "generated_at": "2026-08-15T22:11:04+08:00",
+  "generated_at": "2026-08-15T22:20:39+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 27,
   "by_industry": {
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
+        "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
+        "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 6.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
+        "summary": "2026年7月3日 - 6月26日,2026长安汽车创新技术与生态合作展系列活动圆满收官。该活动自2023年创办以来,已吸引300余家优质企业深度参与,2026年全面升级,聚焦研发与采购...",
+        "url": "https://m.elecfans.com/article/8045816.html",
+        "source": "m.elecfans.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电拟冲刺A股IPO:曾获金沙江资本等投资,股权稳定性受关注_腾讯新闻",
+        "summary": "瑞财经 吴文婷近日,晶能光电股份有限公司(以下简称 晶能光电 )披露IPO辅导工作进展情况报告(第七期),辅导机构为国投证券股份有限公司。",
+        "url": "https://news.qq.com/rain/a/20250221A06AEY00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "真棒!晶能光电获国家认定!_澎湃号·政务_澎湃新闻-The Paper",
+        "summary": "受益于国家创新体系建设,自2006年创立以来,晶能光电始终坚持自主核心技术创新,承担的《硅衬底高光效GaN基蓝色发光二极管》项目获得2015年度...",
+        "url": "https://www.thepaper.cn/newsDetail_forward_22053656",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -17,6 +84,19 @@
         "fetched_at": "2026-08-15",
         "score": 5.5,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "奥联电子 新闻 2026"
       },
       {
         "code": "huayt",
@@ -56,63 +136,61 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "鸿翼 新闻 2026"
       },
       {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-        "source": "news.tianyancha.com",
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+        "source": "app.myzaker.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
       },
       {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-        "source": "news.tianyancha.com",
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+        "source": "news.10jqka.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
       },
       {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "喜讯!鸿翼承担的国家档案局重点科技项目荣获2025年度国家档案局优秀科技成果二等奖 - 天眼查",
-        "summary": "93:档案管理迈入智能新纪元!新毅东×鸿翼档案,解锁合规与效率双重密码47:来源:微信发布时间:2026年01月23日.由国家档案局档案科学技术研究所牵头,上海鸿翼档案信息技术有限公司、中国人民大学档...",
-        "url": "https://news.tianyancha.com/ll_269hq25ux4.html",
-        "source": "news.tianyancha.com",
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "奥联电子(截止2026年2月27日)股东人数为16142户 环比增加3.75%",
+        "summary": "2026年2月27日 - 月4日,奥联电子披露公司股东人数最新情况,截止2月27日,公司股东人数为16142人,较上期(2026-02-13)增加584户,环比增长3.75%。",
+        "url": "https://news.10jqka.com.cn/20260304/c675067859.shtml",
+        "source": "news.10jqka.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
       }
     ],
     "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
+      },
       {
         "code": "xingheng",
         "company": "星恒电源",
@@ -124,6 +202,45 @@
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+        "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+        "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+        "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+        "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "北京市海淀区人民政府门户网站",
+        "summary": "2026年8月7日 · 以一流营商环境聚势赋能推动经济持续向新向优发展 区领导到科技企业、科创园区调研 关于海淀区深化巩固创建“基本 …",
+        "url": "https://www.bjhd.gov.cn/",
+        "source": "www.bjhd.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
         "query": "新能源 行业 政策 2026"
       }
     ],
@@ -181,22 +298,33 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "半导体": [
+    "其他行业": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "其他行业": [
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+        "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+        "source": "www.shantou.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
       {
         "code": "acquisition-listed",
         "company": "收购上市公司研究",
@@ -242,6 +370,45 @@
   },
   "items": [
     {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
+      "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
+      "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 6.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
+      "summary": "2026年7月3日 - 6月26日,2026长安汽车创新技术与生态合作展系列活动圆满收官。该活动自2023年创办以来,已吸引300余家优质企业深度参与,2026年全面升级,聚焦研发与采购...",
+      "url": "https://m.elecfans.com/article/8045816.html",
+      "source": "m.elecfans.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电拟冲刺A股IPO:曾获金沙江资本等投资,股权稳定性受关注_腾讯新闻",
+      "summary": "瑞财经 吴文婷近日,晶能光电股份有限公司(以下简称 晶能光电 )披露IPO辅导工作进展情况报告(第七期),辅导机构为国投证券股份有限公司。",
+      "url": "https://news.qq.com/rain/a/20250221A06AEY00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -255,56 +422,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-      "source": "news.qq.com",
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "真棒!晶能光电获国家认定!_澎湃号·政务_澎湃新闻-The Paper",
+      "summary": "受益于国家创新体系建设,自2006年创立以来,晶能光电始终坚持自主核心技术创新,承担的《硅衬底高光效GaN基蓝色发光二极管》项目获得2015年度...",
+      "url": "https://www.thepaper.cn/newsDetail_forward_22053656",
+      "source": "www.thepaper.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "鸿翼 新闻 2026"
+      "score": 4.5,
+      "query": "晶能光电 新闻 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-      "source": "news.tianyancha.com",
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+      "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "score": 4.5,
+      "query": "奥联电子 新闻 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-      "source": "news.tianyancha.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+      "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "喜讯!鸿翼承担的国家档案局重点科技项目荣获2025年度国家档案局优秀科技成果二等奖 - 天眼查",
-      "summary": "93:档案管理迈入智能新纪元!新毅东×鸿翼档案,解锁合规与效率双重密码47:来源:微信发布时间:2026年01月23日.由国家档案局档案科学技术研究所牵头,上海鸿翼档案信息技术有限公司、中国人民大学档...",
-      "url": "https://news.tianyancha.com/ll_269hq25ux4.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -346,6 +500,45 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+      "source": "app.myzaker.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "奥联电子(截止2026年2月27日)股东人数为16142户 环比增加3.75%",
+      "summary": "2026年2月27日 - 月4日,奥联电子披露公司股东人数最新情况,截止2月27日,公司股东人数为16142人,较上期(2026-02-13)增加584户,环比增长3.75%。",
+      "url": "https://news.10jqka.com.cn/20260304/c675067859.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -372,8 +565,60 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "acquisition-listed",
+      "company": "收购上市公司研究",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+      "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+      "source": "www.shantou.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+      "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+      "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+      "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+      "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -383,6 +628,19 @@
       "fetched_at": "2026-08-15",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "北京市海淀区人民政府门户网站",
+      "summary": "2026年8月7日 · 以一流营商环境聚势赋能推动经济持续向新向优发展 区领导到科技企业、科创园区调研 关于海淀区深化巩固创建“基本 …",
+      "url": "https://www.bjhd.gov.cn/",
+      "source": "www.bjhd.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
