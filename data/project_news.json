@@ -1,35 +1,167 @@
 {
-  "generated_at": "2026-08-15T09:17:29+08:00",
+  "generated_at": "2026-08-15T09:25:28+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 32,
   "by_industry": {
+    "AI智能": [
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "AI智能",
+        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
+        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
+        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "鸿翼 新闻 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "AI智能",
+        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
+        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
+        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "AI智能",
+        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
+        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
+        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
+      },
+      {
+        "code": "hongyi",
+        "company": "鸿翼",
+        "industry": "AI智能",
+        "title": "喜讯!鸿翼承担的国家档案局重点科技项目荣获2025年度国家档案局优秀科技成果二等奖 - 天眼查",
+        "summary": "93:档案管理迈入智能新纪元!新毅东×鸿翼档案,解锁合规与效率双重密码47:来源:微信发布时间:2026年01月23日.由国家档案局档案科学技术研究所牵头,上海鸿翼档案信息技术有限公司、中国人民大学档...",
+        "url": "https://news.tianyancha.com/ll_269hq25ux4.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
+      }
+    ],
     "低空航空": [
       {
         "code": "qingdao-heli",
         "company": "青岛直升机",
         "industry": "低空航空",
-        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-        "summary": "简介：#空中1",
-        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-        "source": "k.sina.com.cn",
+        "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
+        "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
+        "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
+        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 4.5,
-        "query": "青岛直升机 新闻 2026"
+        "score": 5.5,
+        "query": "\"青岛直升机\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
+        "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
+        "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
+        "source": "www.chinamae.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标结果公示丨光速招标海量免费标讯",
+        "summary": "2026年1月8日 - 信息标题:河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标结果公示 所属地区:河南省 发布时间:2026-01-08..中标公告河...",
+        "url": "https://www.guangsuzb.com/succeed_v_2009423944810942470.html",
+        "source": "www.guangsuzb.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
+        "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
+        "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
+        "source": "www.jrzb.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "贵州航天精工制造有限公司原材料采购中标公告",
+        "summary": "2025年8月17日 - [中标结果]哈尔滨市DL09-C-11、DL09-D-04地块项目续建工程施工预拌混凝土采购成交公告2025-11-22.各有关单位请与公告中招标负责人接洽联系,及时开展投...",
+        "url": "https://www.okcis.cn/20250817-n3-20250817162347401780.html",
+        "source": "www.okcis.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
       },
       {
         "code": "qingdao-heli",
         "company": "青岛直升机",
         "industry": "低空航空",
-        "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
-        "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
-        "url": "https://weibo.com/1931238691/QsYmN46mr",
-        "source": "weibo.com",
+        "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
+        "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
+        "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
+        "source": "ggzyjyzx.shandong.gov.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 3.0,
-        "query": "青岛直升机 新闻 2026"
+        "score": 4.0,
+        "query": "\"青岛直升机\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
+        "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
+        "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
+        "source": "www.jianyu360.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"青岛直升机\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "青岛直升机中标结果-直升机招标采购 - 采招网",
+        "summary": "2025年10月28日 - 2025年直升机航材大修项目中标公告救援支队2025年直升机航材大修项目 品目 服务/商务服务/维修和保养服务/其他维修和保养服务,货物/设备/航空器及其配...",
+        "url": "https://m.bidcenter.com.cn/zhaobiao/zbkeyw-24902-370200-4.html",
+        "source": "m.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"青岛直升机\" 公告 签约 中标 投资"
       },
       {
         "code": "hangtianhongtu",
@@ -110,47 +242,6 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-        "source": "data.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "高端制造 行业 政策 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "财政部:2026年进一步增加财政科技投入,实施制造业重点产业链高质量发展行动-36氪",
-        "summary": "2025年12月28日 - 实施制造业重点产业链高质量发展行动,开展新一批制造业新型技术改造城市试点,加快构建现代化产业体系。.会议要求,2026年财政工作抓好以下重点任务...",
-        "url": "https://36kr.com/newsflashes/3614690816197632?f=rss",
-        "source": "36kr.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "高端制造 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -166,6 +257,60 @@
         "fetched_at": "2026-08-15",
         "score": 2.5,
         "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+        "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+        "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "2026年新能源产业政策解读及行业发展报告-20260725094253.docx-原创力文档",
+        "summary": "2026年,我国新能源产业政策及行业发展呈现出以下特点。.2026年,政府继续加大政策扶持力度,从财政补贴、税收优惠、技术创新等多个方面为新能源产业发展提供支持。...",
+        "url": "https://max.book118.com/html/2026/0725/8134020004010113.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+        "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+        "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -294,17 +439,30 @@
   },
   "items": [
     {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "AI智能",
+      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
+      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
+      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
       "code": "qingdao-heli",
       "company": "青岛直升机",
       "industry": "低空航空",
-      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-      "summary": "简介：#空中1",
-      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-      "source": "k.sina.com.cn",
+      "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
+      "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
+      "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
+      "source": "www.163.com",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 4.5,
-      "query": "青岛直升机 新闻 2026"
+      "score": 5.5,
+      "query": "\"青岛直升机\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -318,6 +476,136 @@
       "fetched_at": "2026-08-15",
       "score": 4.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
+      "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
+      "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
+      "source": "www.chinamae.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标结果公示丨光速招标海量免费标讯",
+      "summary": "2026年1月8日 - 信息标题:河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标结果公示 所属地区:河南省 发布时间:2026-01-08..中标公告河...",
+      "url": "https://www.guangsuzb.com/succeed_v_2009423944810942470.html",
+      "source": "www.guangsuzb.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
+      "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
+      "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
+      "source": "www.jrzb.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "贵州航天精工制造有限公司原材料采购中标公告",
+      "summary": "2025年8月17日 - [中标结果]哈尔滨市DL09-C-11、DL09-D-04地块项目续建工程施工预拌混凝土采购成交公告2025-11-22.各有关单位请与公告中招标负责人接洽联系,及时开展投...",
+      "url": "https://www.okcis.cn/20250817-n3-20250817162347401780.html",
+      "source": "www.okcis.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "AI智能",
+      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
+      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
+      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "AI智能",
+      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
+      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
+      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "hongyi",
+      "company": "鸿翼",
+      "industry": "AI智能",
+      "title": "喜讯!鸿翼承担的国家档案局重点科技项目荣获2025年度国家档案局优秀科技成果二等奖 - 天眼查",
+      "summary": "93:档案管理迈入智能新纪元!新毅东×鸿翼档案,解锁合规与效率双重密码47:来源:微信发布时间:2026年01月23日.由国家档案局档案科学技术研究所牵头,上海鸿翼档案信息技术有限公司、中国人民大学档...",
+      "url": "https://news.tianyancha.com/ll_269hq25ux4.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
+      "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
+      "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
+      "source": "ggzyjyzx.shandong.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"青岛直升机\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
+      "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
+      "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
+      "source": "www.jianyu360.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"青岛直升机\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "青岛直升机中标结果-直升机招标采购 - 采招网",
+      "summary": "2025年10月28日 - 2025年直升机航材大修项目中标公告救援支队2025年直升机航材大修项目 品目 服务/商务服务/维修和保养服务/其他维修和保养服务,货物/设备/航空器及其配...",
+      "url": "https://m.bidcenter.com.cn/zhaobiao/zbkeyw-24902-370200-4.html",
+      "source": "m.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"青岛直升机\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -359,17 +647,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空航空",
-      "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
-      "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
-      "url": "https://weibo.com/1931238691/QsYmN46mr",
-      "source": "weibo.com",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "新华网_让新闻离你更近",
+      "summary": "晋式消夏文旅新体验 《开心消消乐》12周年庆大同站启幕 《2026中国智能经济议题涌现报告》在2026世界人工智能大会上发布 新华 …",
+      "url": "https://www.xinhuanet.com/",
+      "source": "www.xinhuanet.com",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 3.0,
-      "query": "青岛直升机 新闻 2026"
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "jngd",
@@ -385,19 +673,6 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新华网_让新闻离你更近",
-      "summary": "晋式消夏文旅新体验 《开心消消乐》12周年庆大同站启幕 《2026中国智能经济议题涌现报告》在2026世界人工智能大会上发布 新华 …",
-      "url": "https://www.xinhuanet.com/",
-      "source": "www.xinhuanet.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -409,19 +684,6 @@
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-      "source": "data.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 2.5,
-      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "kedu",
@@ -474,6 +736,45 @@
       "fetched_at": "2026-08-15",
       "score": 2.0,
       "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+      "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+      "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "2026年新能源产业政策解读及行业发展报告-20260725094253.docx-原创力文档",
+      "summary": "2026年,我国新能源产业政策及行业发展呈现出以下特点。.2026年,政府继续加大政策扶持力度,从财政补贴、税收优惠、技术创新等多个方面为新能源产业发展提供支持。...",
+      "url": "https://max.book118.com/html/2026/0725/8134020004010113.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+      "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+      "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -552,19 +853,6 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "财政部:2026年进一步增加财政科技投入,实施制造业重点产业链高质量发展行动-36氪",
-      "summary": "2025年12月28日 - 实施制造业重点产业链高质量发展行动,开展新一批制造业新型技术改造城市试点,加快构建现代化产业体系。.会议要求,2026年财政工作抓好以下重点任务...",
-      "url": "https://36kr.com/newsflashes/3614690816197632?f=rss",
-      "source": "36kr.com",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "高端制造 行业 政策 2026"
     }
   ]
 }
