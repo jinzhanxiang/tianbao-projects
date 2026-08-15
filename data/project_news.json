@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-16T01:40:47+08:00",
+  "generated_at": "2026-08-16T01:49:49+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 13,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-        "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-        "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-        "source": "www.myrb.net",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "实干开新局建设“驶快道”",
-        "summary": "航拍正在加快建设的柯渡医学科技美安产业园项目.本报2月19日讯(记者王子豪)2月19日,在位于海口国家高新区美安生态科技新城的柯渡医学科技美...",
-        "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
-        "source": "www.hi.chinanews.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "第十五届健康中国论坛聚焦公立医院高质量发展 医学装备数智化管理极大提升医院装备管理质量效益",
-        "summary": "2024年5月29日 - 上海柯渡医学科技股份有限公司CEO张建以《医学装备数智化管理助力医院高质量发展》为题作了主旨发言。.张建介绍,上海柯渡医学科技股份有限公司成立于2...",
-        "url": "https://news.10jqka.com.cn/20240529/c658304247.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -242,32 +188,6 @@
   },
   "items": [
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-      "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-      "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-      "source": "www.myrb.net",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -357,32 +277,6 @@
       "fetched_at": "2026-08-16",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "实干开新局建设“驶快道”",
-      "summary": "航拍正在加快建设的柯渡医学科技美安产业园项目.本报2月19日讯(记者王子豪)2月19日,在位于海口国家高新区美安生态科技新城的柯渡医学科技美...",
-      "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
-      "source": "www.hi.chinanews.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "第十五届健康中国论坛聚焦公立医院高质量发展 医学装备数智化管理极大提升医院装备管理质量效益",
-      "summary": "2024年5月29日 - 上海柯渡医学科技股份有限公司CEO张建以《医学装备数智化管理助力医院高质量发展》为题作了主旨发言。.张建介绍,上海柯渡医学科技股份有限公司成立于2...",
-      "url": "https://news.10jqka.com.cn/20240529/c658304247.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "unicom-idc",
