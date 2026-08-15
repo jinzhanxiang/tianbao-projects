@@ -1,169 +1,9 @@
 {
-  "generated_at": "2026-08-16T01:22:14+08:00",
+  "generated_at": "2026-08-16T01:31:14+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 17,
   "by_industry": {
-    "REITS类资产": [
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-        "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-        "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-        "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-        "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-        "source": "k.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "小鹏汇天:飞行汽车2026年量产交付 先飞码用户尝鲜起飞_腾讯新闻",
-        "summary": "2024年12月14日 - 快科技12月14日消息,小鹏汇天今日在上海陆家嘴举办了 陆地航母 飞行汽车首飞活动。.飞行汽车预计在2025年10月末取得中国民航的型号合格证,并在2026年...",
-        "url": "https://news.qq.com/rain/a/20241214A05Z2T00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-        "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-        "url": "https://www.ifnews.com/news.html?aid=769436",
-        "source": "www.ifnews.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
-        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
-        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "REITs专栏 | 上海证券交易所",
-        "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
-        "url": "https://www.sse.com.cn/reits/home/",
-        "source": "www.sse.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "北京市海淀区人民政府门户网站",
-        "summary": "2026年8月7日 · 以一流营商环境聚势赋能推动经济持续向新向优发展 区领导到科技企业、科创园区调研 关于海淀区深化巩固创建“基本 …",
-        "url": "https://www.bjhd.gov.cn/",
-        "source": "www.bjhd.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -218,6 +58,75 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年1月22日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "REITS类资产": [
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "REITs专栏 | 上海证券交易所",
+        "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "url": "https://www.sse.com.cn/reits/home/",
+        "source": "www.sse.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "公募REITs信息平台-首页",
+        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+        "url": "https://reits.szse.cn/",
+        "source": "reits.szse.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
     "半导体": [
       {
         "code": "jngd",
@@ -231,6 +140,60 @@
         "fetched_at": "2026-08-16",
         "score": 2.0,
         "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "2026年生物医药政策分析报告.docx - 人人文库",
+        "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
+        "url": "https://www.renrendoc.com/paper/517081205.html",
+        "source": "www.renrendoc.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
+        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
+        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -278,84 +241,6 @@
     ]
   },
   "items": [
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-      "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-      "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-      "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-      "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-      "source": "k.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "小鹏汇天:飞行汽车2026年量产交付 先飞码用户尝鲜起飞_腾讯新闻",
-      "summary": "2024年12月14日 - 快科技12月14日消息,小鹏汇天今日在上海陆家嘴举办了 陆地航母 飞行汽车首飞活动。.飞行汽车预计在2025年10月末取得中国民航的型号合格证,并在2026年...",
-      "url": "https://news.qq.com/rain/a/20241214A05Z2T00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-      "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-      "url": "https://www.ifnews.com/news.html?aid=769436",
-      "source": "www.ifnews.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "汇天 新闻 2026"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -413,7 +298,7 @@
       "company": "星恒电源",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
-      "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "summary": "2023年1月22日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
       "date": "",
@@ -448,17 +333,56 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "北京市海淀区人民政府门户网站",
-      "summary": "2026年8月7日 · 以一流营商环境聚势赋能推动经济持续向新向优发展 区领导到科技企业、科创园区调研 关于海淀区深化巩固创建“基本 …",
-      "url": "https://www.bjhd.gov.cn/",
-      "source": "www.bjhd.gov.cn",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "2026年生物医药政策分析报告.docx - 人人文库",
+      "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
+      "url": "https://www.renrendoc.com/paper/517081205.html",
+      "source": "www.renrendoc.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
+      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
+      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
