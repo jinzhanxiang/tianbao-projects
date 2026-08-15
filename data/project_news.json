@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-15T15:40:05+08:00",
+  "generated_at": "2026-08-15T15:49:19+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 16,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-        "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-        "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-        "source": "www.tht.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "破晓 芯 纪元丨元旭半导体全球首款玻璃基Micro-LED产品引爆显示革__财经头条__新浪财经",
-        "summary": "这项命名为MOG(Micro-LED on Glass)的突破性技术,正在以 破竹之势 重新定义高端显示市场的竞争格局,不仅彰显了元旭半导体在技术创新上的卓...",
-        "url": "https://t.cj.sina.com.cn/articles/view/2589663582/9a5b215e00102a2wc",
-        "source": "t.cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-        "source": "www.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 5.0,
-        "query": "元旭半导体 新闻 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -110,6 +56,32 @@
         "fetched_at": "2026-08-15",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "财政部:2026年进一步增加财政科技投入,实施制造业重点产业链高质量发展行动-36氪",
+        "summary": "2025年12月28日 - 实施制造业重点产业链高质量发展行动,开展新一批制造业新型技术改造城市试点,加快构建现代化产业体系。.会议要求,2026年财政工作抓好以下重点任务...",
+        "url": "https://36kr.com/newsflashes/3614690816197632?f=rss",
+        "source": "36kr.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "高端制造 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -117,27 +89,42 @@
         "code": "xingheng",
         "company": "星恒电源",
         "industry": "新能源",
-        "title": "新华网_让新闻离你更近",
-        "summary": "晋式消夏文旅新体验 《开心消消乐》12周年庆大同站启幕 《2026中国智能经济议题涌现报告》在2026世界人工智能大会上发布 新华 …",
-        "url": "https://www.xinhuanet.com/",
-        "source": "www.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
         "title": "新闻中心首页_新浪网",
-        "summary": "2023年11月16日 · 和谐共生｜底色 [把伟大抗战精神一代代传下去 美丽中国 新思想引领新征程] 81年前的今天，日本无条件投降！ 俄 …",
+        "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
         "url": "https://news.sina.com.cn/",
         "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
-        "score": 1.5,
+        "score": 2.5,
         "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -184,10 +171,10 @@
         "code": "unicom-idc",
         "company": "四川 IDC",
         "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
+        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+        "source": "www.csrc.gov.cn",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 1.5,
@@ -239,58 +226,6 @@
     ]
   },
   "items": [
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-      "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-      "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-      "source": "www.tht.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "破晓 芯 纪元丨元旭半导体全球首款玻璃基Micro-LED产品引爆显示革__财经头条__新浪财经",
-      "summary": "这项命名为MOG(Micro-LED on Glass)的突破性技术,正在以 破竹之势 重新定义高端显示市场的竞争格局,不仅彰显了元旭半导体在技术创新上的卓...",
-      "url": "https://t.cj.sina.com.cn/articles/view/2589663582/9a5b215e00102a2wc",
-      "source": "t.cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-15",
-      "score": 5.0,
-      "query": "元旭半导体 新闻 2026"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -347,14 +282,27 @@
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
-      "title": "新华网_让新闻离你更近",
-      "summary": "晋式消夏文旅新体验 《开心消消乐》12周年庆大同站启幕 《2026中国智能经济议题涌现报告》在2026世界人工智能大会上发布 新华 …",
-      "url": "https://www.xinhuanet.com/",
-      "source": "www.xinhuanet.com",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -370,17 +318,30 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年11月16日 · 和谐共生｜底色 [把伟大抗战精神一代代传下去 美丽中国 新思想引领新征程] 81年前的今天，日本无条件投降！ 俄 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+      "source": "data.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+      "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+      "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+      "source": "www.deloitte.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -412,10 +373,10 @@
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
+      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+      "source": "www.csrc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-15",
       "score": 1.5,
@@ -459,6 +420,19 @@
       "fetched_at": "2026-08-15",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "财政部:2026年进一步增加财政科技投入,实施制造业重点产业链高质量发展行动-36氪",
+      "summary": "2025年12月28日 - 实施制造业重点产业链高质量发展行动,开展新一批制造业新型技术改造城市试点,加快构建现代化产业体系。.会议要求,2026年财政工作抓好以下重点任务...",
+      "url": "https://36kr.com/newsflashes/3614690816197632?f=rss",
+      "source": "36kr.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 1.5,
+      "query": "高端制造 行业 政策 2026"
     }
   ]
 }
