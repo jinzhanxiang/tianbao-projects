@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T09:30:34+08:00",
+  "generated_at": "2026-08-15T09:33:48+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 49,
   "total_active": 46,
@@ -1415,16 +1415,16 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-15T09:30:34.507353",
+  "_last_cleanup": "2026-08-15T09:33:48.542829",
   "_cleanup_stats": {
     "dup_title_date": 4,
+    "intermediate:section_synthesis": 6,
     "superseded": 8,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
     "intermediate:v_standard_mode": 1,
     "intermediate:cooperation_package": 1,
-    "intermediate:section_synthesis": 3,
     "quarantine_full": 2
   }
 }
