@@ -1,9 +1,117 @@
 {
-  "generated_at": "2026-08-15T11:38:10+08:00",
+  "generated_at": "2026-08-15T11:45:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 21,
   "by_industry": {
+    "生物医药": [
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
+        "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
+        "url": "http://guba.eastmoney.com/news,832941,540069822.html",
+        "source": "guba.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 5.5,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
+        "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
+        "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
+        "source": "www.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
+        "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
+        "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
+        "source": "www.ccgp.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
+        "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
+        "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
+        "source": "ccgp-beijing.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
+        "summary": "简介：#空中1",
+        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+        "source": "k.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 4.5,
+        "query": "青岛直升机 新闻 2026"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
+        "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
+        "url": "https://weibo.com/1931238691/QsYmN46mr",
+        "source": "weibo.com",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 3.0,
+        "query": "青岛直升机 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -71,45 +179,6 @@
         "fetched_at": "2026-08-15",
         "score": 2.5,
         "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
-        "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
-        "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "2026年新能源产业政策解读及行业发展报告-20260725094253.docx-原创力文档",
-        "summary": "2026年,我国新能源产业政策及行业发展呈现出以下特点。.2026年,政府继续加大政策扶持力度,从财政补贴、税收优惠、技术创新等多个方面为新能源产业发展提供支持。...",
-        "url": "https://max.book118.com/html/2026/0725/8134020004010113.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
-        "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
-        "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -121,6 +190,45 @@
         "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
         "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-15",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
+        "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
+        "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-15",
         "score": 2.5,
@@ -180,37 +288,74 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-15",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
     ]
   },
   "items": [
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
+      "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
+      "url": "http://guba.eastmoney.com/news,832941,540069822.html",
+      "source": "guba.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 5.5,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
+      "summary": "简介：#空中1",
+      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+      "source": "k.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.5,
+      "query": "青岛直升机 新闻 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
+      "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
+      "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
+      "source": "www.zhiliaobiaoxun.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
+      "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
+      "source": "www.ccgp.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
+      "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
+      "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
+      "source": "ccgp-beijing.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -264,6 +409,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
+      "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
+      "url": "https://weibo.com/1931238691/QsYmN46mr",
+      "source": "weibo.com",
+      "date": "",
+      "fetched_at": "2026-08-15",
+      "score": 3.0,
+      "query": "青岛直升机 新闻 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -290,43 +448,43 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
-      "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
-      "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
-      "source": "max.book118.com",
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "2026年新能源产业政策解读及行业发展报告-20260725094253.docx-原创力文档",
-      "summary": "2026年,我国新能源产业政策及行业发展呈现出以下特点。.2026年,政府继续加大政策扶持力度,从财政补贴、税收优惠、技术创新等多个方面为新能源产业发展提供支持。...",
-      "url": "https://max.book118.com/html/2026/0725/8134020004010113.shtm",
-      "source": "max.book118.com",
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
-      "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
-      "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
-      "source": "max.book118.com",
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
+      "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
+      "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
+      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-15",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
