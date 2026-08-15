@@ -1,9 +1,143 @@
 {
-  "generated_at": "2026-08-16T00:10:03+08:00",
+  "generated_at": "2026-08-16T00:21:23+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 14,
+  "total": 22,
   "by_industry": {
+    "生物医药": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
+        "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+        "url": "https://www.sohu.com/a/360741883_118792",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
+        "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+        "source": "hainan.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "中标蒲公英助力上海柯渡医学科技顺利通过标准化试点项目验收-产品_ 天眼查新闻",
+        "summary": "上海柯渡医学科技股份有限公司怎么了? 发展 共赢 未来中标蒲公英助力上海柯渡医学科技顺利通过标准化试点项目验收近日,上海柯渡医学...",
+        "url": "https://mnews.tianyancha.com/ll_jm20115h0z.html",
+        "source": "mnews.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+        "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+        "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+        "source": "ggjd.cnstock.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+        "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+        "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+        "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+        "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "15亿元!星恒电源获新一轮战略投资",
+        "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+        "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+        "source": "www.dldcw.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "北京市海淀区人民政府门户网站",
+        "summary": "2026年8月7日 · 以一流营商环境聚势赋能推动经济持续向新向优发展 区领导到科技企业、科创园区调研 关于海淀区深化巩固创建“基本 …",
+        "url": "https://www.bjhd.gov.cn/",
+        "source": "www.bjhd.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -56,34 +190,6 @@
         "fetched_at": "2026-08-16",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "北京市海淀区人民政府门户网站",
-        "summary": "2026年8月7日 · 以一流营商环境聚势赋能推动经济持续向新向优发展 区领导到科技企业、科创园区调研 关于海淀区深化巩固创建“基本 …",
-        "url": "https://www.bjhd.gov.cn/",
-        "source": "www.bjhd.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -201,6 +307,45 @@
   },
   "items": [
     {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
+      "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+      "url": "https://www.sohu.com/a/360741883_118792",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+      "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+      "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+      "source": "ggjd.cnstock.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+      "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+      "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -212,6 +357,71 @@
       "fetched_at": "2026-08-16",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+      "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+      "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
+      "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+      "source": "hainan.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "中标蒲公英助力上海柯渡医学科技顺利通过标准化试点项目验收-产品_ 天眼查新闻",
+      "summary": "上海柯渡医学科技股份有限公司怎么了? 发展 共赢 未来中标蒲公英助力上海柯渡医学科技顺利通过标准化试点项目验收近日,上海柯渡医学...",
+      "url": "https://mnews.tianyancha.com/ll_jm20115h0z.html",
+      "source": "mnews.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "15亿元!星恒电源获新一轮战略投资",
+      "summary": "日前,星恒电源获新一轮战略投资,由深创投制造业转型升级新材料基金(有限合伙)领投9.5亿元,预计本轮总融资金额达15亿元。",
+      "url": "http://www.dldcw.cn/Rediantuijian/128697.html",
+      "source": "www.dldcw.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -253,8 +463,8 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "2023年11月16日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
@@ -292,8 +502,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "北京市海淀区人民政府门户网站",
       "summary": "2026年8月7日 · 以一流营商环境聚势赋能推动经济持续向新向优发展 区领导到科技企业、科创园区调研 关于海淀区深化巩固创建“基本 …",
