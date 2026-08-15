@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T21:17:39+08:00",
+  "generated_at": "2026-08-15T21:24:15+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 50,
-  "total_active": 47,
+  "total": 49,
+  "total_active": 46,
   "total_archived_cached": 3,
   "by_code": {
     "chuangdu": [
@@ -383,18 +383,6 @@
         "mtime": "2026-07-25T14:26:40+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_V3_prechart_20260725.html"
-      },
-      {
-        "code": "unicom-sx",
-        "date": "2026-08-15",
-        "category": "未分类",
-        "title": "联通云山西 IDC 项目（朗源股份 300175.SZ 综合研究报告）· 2026-08-15",
-        "file": "联通云山西_研究报告_20260815.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云山西/output/联通云山西_研究报告_20260815.html",
-        "size": 49651,
-        "mtime": "2026-08-15T21:07:09+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom-sx/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260815.html"
       },
       {
         "code": "unicom-sx",
@@ -1336,18 +1324,6 @@
       },
       {
         "code": "unicom-sx",
-        "date": "2026-08-15",
-        "category": "未分类",
-        "title": "联通云山西 IDC 项目（朗源股份 300175.SZ 综合研究报告）· 2026-08-15",
-        "file": "联通云山西_研究报告_20260815.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云山西/output/联通云山西_研究报告_20260815.html",
-        "size": 49651,
-        "mtime": "2026-08-15T21:07:09+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/unicom-sx/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260815.html"
-      },
-      {
-        "code": "unicom-sx",
         "date": "2026-07-30",
         "category": "上会材料",
         "title": "联通云（山西）数据中心",
@@ -1439,7 +1415,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-15T21:17:39.182053",
+  "_last_cleanup": "2026-08-15T21:24:15.375487",
   "_cleanup_stats": {
     "dup_title_date": 4,
     "superseded": 8,
