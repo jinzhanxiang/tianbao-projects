@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T06:24:27+08:00",
+  "generated_at": "2026-08-16T06:32:07+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 20,
   "by_industry": {
     "其他行业": [
       {
@@ -69,60 +69,6 @@
         "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-        "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-        "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-        "source": "www.myrb.net",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "实干开新局建设“驶快道”",
-        "summary": "航拍正在加快建设的柯渡医学科技美安产业园项目.本报2月19日讯(记者王子豪)2月19日,在位于海口国家高新区美安生态科技新城的柯渡医学科技美...",
-        "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
-        "source": "www.hi.chinanews.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "第十五届健康中国论坛聚焦公立医院高质量发展 医学装备数智化管理极大提升医院装备管理质量效益",
-        "summary": "2024年5月29日 - 上海柯渡医学科技股份有限公司CEO张建以《医学装备数智化管理助力医院高质量发展》为题作了主旨发言。.张建介绍,上海柯渡医学科技股份有限公司成立于2...",
-        "url": "https://news.10jqka.com.cn/20240529/c658304247.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
       }
     ],
     "高端制造": [
@@ -248,22 +194,33 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "半导体": [
+    "低空航空": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+        "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+        "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+        "source": "m.163.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -289,6 +246,34 @@
         "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "民航局敲定2026年三件大事:整治过低票价、加码低空和推进国产化_腾讯新闻",
+        "summary": "2026年1月6日 - 月6日,2026年全国民航工作会议在京召开。",
+        "url": "https://news.qq.com/rain/a/20260106A07HKJ00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ]
   },
@@ -305,19 +290,6 @@
       "fetched_at": "2026-08-16",
       "score": 5.5,
       "query": "天保基建 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "tianbao-jijian",
@@ -357,19 +329,6 @@
       "fetched_at": "2026-08-16",
       "score": 4.0,
       "query": "天保基建 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-      "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-      "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-      "source": "www.myrb.net",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "huayt",
@@ -450,6 +409,32 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+      "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+      "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+      "source": "m.163.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -461,32 +446,6 @@
       "fetched_at": "2026-08-16",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "实干开新局建设“驶快道”",
-      "summary": "航拍正在加快建设的柯渡医学科技美安产业园项目.本报2月19日讯(记者王子豪)2月19日,在位于海口国家高新区美安生态科技新城的柯渡医学科技美...",
-      "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
-      "source": "www.hi.chinanews.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "第十五届健康中国论坛聚焦公立医院高质量发展 医学装备数智化管理极大提升医院装备管理质量效益",
-      "summary": "2024年5月29日 - 上海柯渡医学科技股份有限公司CEO张建以《医学装备数智化管理助力医院高质量发展》为题作了主旨发言。.张建介绍,上海柯渡医学科技股份有限公司成立于2...",
-      "url": "https://news.10jqka.com.cn/20240529/c658304247.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -561,6 +520,19 @@
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
       "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
       "source": "www.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 1.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "民航局敲定2026年三件大事:整治过低票价、加码低空和推进国产化_腾讯新闻",
+      "summary": "2026年1月6日 - 月6日,2026年全国民航工作会议在京召开。",
+      "url": "https://news.qq.com/rain/a/20260106A07HKJ00?media_id&suid",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 1.5,
