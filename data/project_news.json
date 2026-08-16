@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T22:43:39+08:00",
+  "generated_at": "2026-08-16T22:54:13+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 26,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -19,6 +19,19 @@
         "query": "华阳 新闻 2026"
       },
       {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控中标结果:郑煤机综机公司东五西活柱自动上下料结果公告_采购_招标_整理",
+        "summary": "证券之星消息,根据天眼查APP信息整理,7月26日公布的《郑煤机综机公司东五西活柱自动上下料结果公告》中显示威海华东数控股份有限公司中标...",
+        "url": "http://business.sohu.com/a/919220870_121319643",
+        "source": "business.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
@@ -30,6 +43,45 @@
         "fetched_at": "2026-08-16",
         "score": 4.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+        "summary": "2026年6月29日 - 华东数控(002248)提问, 公司有产品用于.公司回答表示,您好!公司新产品圆台磨床近日已成功中标...",
+        "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+        "source": "yuanchuang.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首次小批量订单",
+        "summary": "2026年6月29日 - 查看股票机会,下载客户端华东数控(002248)6月29日在互动平台表示,公司新产品圆台磨床已成功中标.如有投资者据此操作,风险自担,同花顺对此不承担任何责...",
+        "url": "http://stock.10jqka.com.cn/20260629/c677796714.shtml",
+        "source": "stock.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "华东数控中标:高端数控磨床装备数字化工厂建设项目_惠水厂区老旧生产线改造提升工程-数控龙门导轨磨床采购(二次)招标采购公告_股票频道_证券之星",
+        "summary": "2025年8月22日 - 通过天眼查大数据分析,威海华东数控股份有限公司共对外投资了19家企业,参与招投标项目67次;财产线索方面有商标信息27条,专利信息281条,著作权信息4条;...",
+        "url": "https://stock.stockstar.com/RB2025082200020866.shtml",
+        "source": "stock.stockstar.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"华东数控\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -58,74 +110,7 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-        "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-        "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      }
-    ],
     "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 3.5,
-        "query": "新能源 行业 政策 2026"
-      },
       {
         "code": "xingheng",
         "company": "星恒电源",
@@ -137,32 +122,6 @@
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
-        "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
-        "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
-        "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
-        "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
         "query": "新能源 行业 政策 2026"
       },
       {
@@ -289,60 +248,6 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年生物医药政策分析报告.docx - 人人文库",
-        "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-        "url": "https://www.renrendoc.com/paper/517081205.html",
-        "source": "www.renrendoc.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -374,17 +279,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-      "source": "news.qq.com",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控中标结果:郑煤机综机公司东五西活柱自动上下料结果公告_采购_招标_整理",
+      "summary": "证券之星消息,根据天眼查APP信息整理,7月26日公布的《郑煤机综机公司东五西活柱自动上下料结果公告》中显示威海华东数控股份有限公司中标...",
+      "url": "http://business.sohu.com/a/919220870_121319643",
+      "source": "business.sohu.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 5.5,
-      "query": "鸿翼 新闻 2026"
+      "query": "\"华东数控\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -400,56 +305,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-      "source": "news.tianyancha.com",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控:公司新产品圆台磨床近日已成功中标半导体行业客户采购项目",
+      "summary": "2026年6月29日 - 华东数控(002248)提问, 公司有产品用于.公司回答表示,您好!公司新产品圆台磨床近日已成功中标...",
+      "url": "http://yuanchuang.10jqka.com.cn/20260629/c677796634.shtml",
+      "source": "yuanchuang.10jqka.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "query": "\"华东数控\" 公告 签约 中标 投资"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-      "source": "news.tianyancha.com",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控:新产品圆台磨床已中标半导体行业客户采购项目,实现首次小批量订单",
+      "summary": "2026年6月29日 - 查看股票机会,下载客户端华东数控(002248)6月29日在互动平台表示,公司新产品圆台磨床已成功中标.如有投资者据此操作,风险自担,同花顺对此不承担任何责...",
+      "url": "http://stock.10jqka.com.cn/20260629/c677796714.shtml",
+      "source": "stock.10jqka.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "query": "\"华东数控\" 公告 签约 中标 投资"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-      "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-      "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-      "source": "news.tianyancha.com",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "华东数控中标:高端数控磨床装备数字化工厂建设项目_惠水厂区老旧生产线改造提升工程-数控龙门导轨磨床采购(二次)招标采购公告_股票频道_证券之星",
+      "summary": "2025年8月22日 - 通过天眼查大数据分析,威海华东数控股份有限公司共对外投资了19家企业,参与招投标项目67次;财产线索方面有商标信息27条,专利信息281条,著作权信息4条;...",
+      "url": "https://stock.stockstar.com/RB2025082200020866.shtml",
+      "source": "stock.stockstar.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.5,
-      "query": "新能源 行业 政策 2026"
+      "query": "\"华东数控\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -528,84 +420,6 @@
       "fetched_at": "2026-08-16",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年生物医药政策分析报告.docx - 人人文库",
-      "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-      "url": "https://www.renrendoc.com/paper/517081205.html",
-      "source": "www.renrendoc.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
-      "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
-      "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
-      "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
-      "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "xingheng",
