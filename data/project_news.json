@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T23:25:22+08:00",
+  "generated_at": "2026-08-16T23:35:24+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -17,6 +17,58 @@
         "fetched_at": "2026-08-16",
         "score": 5.5,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "三一重能入股中复碳芯-新闻频道-和讯网",
+        "summary": "2024年11月26日 - 中复碳芯电缆科技有限公司成立于2011年12月,法定代表人为陈雨,经营范围含碳纤维复合材料芯及导线产品的开发、生产、安装(电力设施除外)及技术咨询、技...",
+        "url": "https://news.hexun.com/2024-11-26/215796887.html",
+        "source": "news.hexun.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.5,
+        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯电缆科技有限公司 - 企查查",
+        "summary": "简介:中复碳芯电缆科技有限公司成立于2011年12月,董事长为陈志斌.2026-06-12 发布中标公告:复合材料数字化智造项目6#、7#车间地基加固工程中标公告2026-06-12 授权发明专利,可更换索体的插接式...",
+        "url": "https://www.qcc.com/firm/f82a85a3272795b93e5f09c6fcef5a40.html",
+        "source": "www.qcc.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告 - 铁耙云",
+        "summary": "2023年7月11日 - 中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告是铁耙云2023年07月11日发布的项目信息,该项目相关工程招标、货物招标、服务招标等成交...",
+        "url": "https://www.tiepayun.com/object-9c5b0b9190893ff2795363eda97ab3a8.html",
+        "source": "www.tiepayun.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告",
+        "summary": "2023年7月10日 - 请中标单位及时与业主相关负责人联系,及时签署相关商务合同;未中标供应商也可及时向业主提出相关质疑.受业主*委托,招标网于2023年07月10日发布中标公...",
+        "url": "https://jiangsu.zhaobiao.cn/succeed_v_75158842.html",
+        "source": "jiangsu.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"中复碳芯\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -59,32 +111,6 @@
       }
     ],
     "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
       {
         "code": "xingheng",
         "company": "星恒电源",
@@ -253,30 +279,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-      "source": "www.bidizhaobiao.com",
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "三一重能入股中复碳芯-新闻频道-和讯网",
+      "summary": "2024年11月26日 - 中复碳芯电缆科技有限公司成立于2011年12月,法定代表人为陈雨,经营范围含碳纤维复合材料芯及导线产品的开发、生产、安装(电力设施除外)及技术咨询、技...",
+      "url": "https://news.hexun.com/2024-11-26/215796887.html",
+      "source": "news.hexun.com",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
+      "score": 4.5,
+      "query": "\"中复碳芯\" 公告 签约 中标 投资"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯电缆科技有限公司 - 企查查",
+      "summary": "简介:中复碳芯电缆科技有限公司成立于2011年12月,董事长为陈志斌.2026-06-12 发布中标公告:复合材料数字化智造项目6#、7#车间地基加固工程中标公告2026-06-12 授权发明专利,可更换索体的插接式...",
+      "url": "https://www.qcc.com/firm/f82a85a3272795b93e5f09c6fcef5a40.html",
+      "source": "www.qcc.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
+      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告 - 铁耙云",
+      "summary": "2023年7月11日 - 中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告是铁耙云2023年07月11日发布的项目信息,该项目相关工程招标、货物招标、服务招标等成交...",
+      "url": "https://www.tiepayun.com/object-9c5b0b9190893ff2795363eda97ab3a8.html",
+      "source": "www.tiepayun.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告",
+      "summary": "2023年7月10日 - 请中标单位及时与业主相关负责人联系,及时签署相关商务合同;未中标供应商也可及时向业主提出相关质疑.受业主*委托,招标网于2023年07月10日发布中标公...",
+      "url": "https://jiangsu.zhaobiao.cn/succeed_v_75158842.html",
+      "source": "jiangsu.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"中复碳芯\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
