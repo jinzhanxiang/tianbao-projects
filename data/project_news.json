@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-16T13:32:15+08:00",
+  "generated_at": "2026-08-16T13:42:42+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 19,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
-        "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
-        "url": "http://guba.eastmoney.com/news,832941,540069822.html",
-        "source": "guba.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
-        "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
-        "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
-        "source": "www.zhiliaobiaoxun.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
-        "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
-        "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
-        "source": "www.ccgp.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
-        "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
-        "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
-        "source": "ccgp-beijing.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -112,6 +58,73 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年12月29日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司-北京宏远",
+        "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
+        "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 小型SUV全能选手 试驾全 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "半导体": [
       {
         "code": "jngd",
@@ -138,21 +151,6 @@
         "fetched_at": "2026-08-16",
         "score": 2.0,
         "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 小型SUV全能选手 试驾全 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -268,19 +266,6 @@
   },
   "items": [
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
-      "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
-      "url": "http://guba.eastmoney.com/news,832941,540069822.html",
-      "source": "guba.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 5.5,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -294,43 +279,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
-      "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
-      "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
-      "source": "www.zhiliaobiaoxun.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+      "source": "www.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
-      "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
-      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
-      "source": "www.ccgp.gov.cn",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
-      "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
-      "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
-      "source": "ccgp-beijing.gov.cn",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年12月29日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司-北京宏远",
+      "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
+      "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
+      "source": "www.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -372,19 +370,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -396,6 +381,19 @@
       "fetched_at": "2026-08-16",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
