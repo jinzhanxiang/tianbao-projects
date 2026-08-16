@@ -1,141 +1,74 @@
 {
-  "generated_at": "2026-08-16T09:49:48+08:00",
+  "generated_at": "2026-08-16T09:57:32+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 27,
+  "total": 20,
   "by_industry": {
     "AI智能": [
       {
-        "code": "hongyi",
-        "company": "鸿翼",
+        "code": "mifeng",
+        "company": "觅蜂",
         "industry": "AI智能",
-        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+        "title": "觅蜂科技将推出一站式物理AI数据服务平台,2026年目标千万小时年产能_腾讯新闻",
+        "summary": "2026年4月14日 - 4月14日,界面新闻获悉,觅蜂科技(Maniformer)将于4月16日在上海发布一站式物理AI数据服务平台.该平台主要打造具身智能数据的 平台型供给 基础设施,具备...",
+        "url": "https://news.qq.com/rain/a/20260414A05BSJ00?media_id&suid",
         "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 5.5,
-        "query": "鸿翼 新闻 2026"
+        "query": "觅蜂 新闻 2026"
       },
       {
-        "code": "hongyi",
-        "company": "鸿翼",
+        "code": "mifeng",
+        "company": "觅蜂",
         "industry": "AI智能",
-        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "hongyi",
-        "company": "鸿翼",
-        "industry": "AI智能",
-        "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-        "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-        "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-        "source": "fund.eastmoney.com",
+        "title": "数据限制具身?觅蜂杀进场破局:高质量数据水电一样即取即用_腾讯新闻",
+        "summary": "2026年4月16日 - 2026 年 4 月 16 日,以 蜂行天下,数驱智能 为主题的觅蜂(Maniformer)一站式物理 AI 数据服务平台发布会在上海张江科学会堂成功举办.姚卯青介绍,依托全...",
+        "url": "https://news.qq.com/rain/a/20260416A06MQ600",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 5.5,
-        "query": "海特高新 新闻 2026"
+        "query": "觅蜂 新闻 2026"
       },
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
-        "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
-        "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
-        "source": "www.163.com",
+        "code": "mifeng",
+        "company": "觅蜂",
+        "industry": "AI智能",
+        "title": "觅蜂科技完成数亿元种子轮与天使轮融资_腾讯新闻",
+        "summary": "2026年2月13日 - 2026-02-13 10:17发布于上海财联社旗下《科创板日报》官方账号 【觅蜂科技完成数亿元种子轮与天使轮融资】《科创板日报》13日讯,具身智能数据平台觅蜂...",
+        "url": "https://news.qq.com/rain/a/20260213A0235B00",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "海特高新 新闻 2026"
+        "score": 5.5,
+        "query": "觅蜂 新闻 2026"
       },
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新2026年1月8日涨停分析:净利润增长+装备研制进展+航空服务|海特高新_新浪财经_新浪网",
-        "summary": "年1月8日,海特高新(sz002023)触及涨停,涨停价15.04元,涨幅10.02%,总市值111.43亿元,流通市值111.43亿元,截止发稿,总成交额11.20亿元。",
-        "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqpsp5356332.shtml",
-        "source": "finance.sina.com.cn",
+        "code": "mifeng",
+        "company": "觅蜂",
+        "industry": "AI智能",
+        "title": "觅蜂科技发布MEgo系列无本体数采新品_腾讯新闻",
+        "summary": "2026年4月16日 - 2026-04-16 15:52发布于上海财联社旗下《科创板日报》官方账号.【觅蜂科技发布MEgo系列无本体数采新品】《科创板日报》16日讯,觅蜂科技发布MEgo系列无...",
+        "url": "https://news.qq.com/rain/a/20260416A05EAW00",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "海特高新 新闻 2026"
+        "score": 5.5,
+        "query": "觅蜂 新闻 2026"
       },
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-        "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-        "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-        "source": "finance.sina.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
+        "code": "chuangdu",
+        "company": "乘杜科技",
+        "industry": "AI智能",
+        "title": "5本主角沉稳睿智冷静的小说，有头脑有实力，一口气读完 ...",
+        "summary": "2020年10月13日 · 大家好，我是小马哥，今天推荐 5本主角沉稳睿智冷静的小说，有头脑有实力，一口气读完酣畅淋漓. 第一本：《无 …",
+        "url": "https://www.sohu.com/a/424324780_120090965",
+        "source": "www.sohu.com",
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
+        "query": "AI智能 行业 政策 2026"
       }
     ],
     "半导体": [
@@ -289,60 +222,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年生物医药政策分析报告.docx - 人人文库",
-        "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-        "url": "https://www.renrendoc.com/paper/517081205.html",
-        "source": "www.renrendoc.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -370,112 +249,88 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
     ]
   },
   "items": [
     {
-      "code": "hongyi",
-      "company": "鸿翼",
+      "code": "mifeng",
+      "company": "觅蜂",
       "industry": "AI智能",
-      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+      "title": "觅蜂科技将推出一站式物理AI数据服务平台,2026年目标千万小时年产能_腾讯新闻",
+      "summary": "2026年4月14日 - 4月14日,界面新闻获悉,觅蜂科技(Maniformer)将于4月16日在上海发布一站式物理AI数据服务平台.该平台主要打造具身智能数据的 平台型供给 基础设施,具备...",
+      "url": "https://news.qq.com/rain/a/20260414A05BSJ00?media_id&suid",
       "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 5.5,
-      "query": "鸿翼 新闻 2026"
+      "query": "觅蜂 新闻 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-      "source": "fund.eastmoney.com",
+      "code": "mifeng",
+      "company": "觅蜂",
+      "industry": "AI智能",
+      "title": "数据限制具身?觅蜂杀进场破局:高质量数据水电一样即取即用_腾讯新闻",
+      "summary": "2026年4月16日 - 2026 年 4 月 16 日,以 蜂行天下,数驱智能 为主题的觅蜂(Maniformer)一站式物理 AI 数据服务平台发布会在上海张江科学会堂成功举办.姚卯青介绍,依托全...",
+      "url": "https://news.qq.com/rain/a/20260416A06MQ600",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 5.5,
-      "query": "海特高新 新闻 2026"
+      "query": "觅蜂 新闻 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
-      "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
-      "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新2026年1月8日涨停分析:净利润增长+装备研制进展+航空服务|海特高新_新浪财经_新浪网",
-      "summary": "年1月8日,海特高新(sz002023)触及涨停,涨停价15.04元,涨幅10.02%,总市值111.43亿元,流通市值111.43亿元,截止发稿,总成交额11.20亿元。",
-      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqpsp5356332.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
+      "code": "mifeng",
+      "company": "觅蜂",
       "industry": "AI智能",
-      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-      "source": "news.tianyancha.com",
+      "title": "觅蜂科技完成数亿元种子轮与天使轮融资_腾讯新闻",
+      "summary": "2026年2月13日 - 2026-02-13 10:17发布于上海财联社旗下《科创板日报》官方账号 【觅蜂科技完成数亿元种子轮与天使轮融资】《科创板日报》13日讯,具身智能数据平台觅蜂...",
+      "url": "https://news.qq.com/rain/a/20260213A0235B00",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "score": 5.5,
+      "query": "觅蜂 新闻 2026"
     },
     {
-      "code": "hongyi",
-      "company": "鸿翼",
+      "code": "mifeng",
+      "company": "觅蜂",
       "industry": "AI智能",
-      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-      "source": "news.tianyancha.com",
+      "title": "觅蜂科技发布MEgo系列无本体数采新品_腾讯新闻",
+      "summary": "2026年4月16日 - 2026-04-16 15:52发布于上海财联社旗下《科创板日报》官方账号.【觅蜂科技发布MEgo系列无本体数采新品】《科创板日报》16日讯,觅蜂科技发布MEgo系列无...",
+      "url": "https://news.qq.com/rain/a/20260416A05EAW00",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "hongyi",
-      "company": "鸿翼",
-      "industry": "AI智能",
-      "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-      "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-      "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-      "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-      "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-      "source": "finance.sina.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "海特高新 新闻 2026"
+      "score": 5.5,
+      "query": "觅蜂 新闻 2026"
     },
     {
       "code": "jngd",
@@ -582,58 +437,6 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年生物医药政策分析报告.docx - 人人文库",
-      "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-      "url": "https://www.renrendoc.com/paper/517081205.html",
-      "source": "www.renrendoc.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -723,6 +526,19 @@
       "fetched_at": "2026-08-16",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "chuangdu",
+      "company": "乘杜科技",
+      "industry": "AI智能",
+      "title": "5本主角沉稳睿智冷静的小说，有头脑有实力，一口气读完 ...",
+      "summary": "2020年10月13日 · 大家好，我是小马哥，今天推荐 5本主角沉稳睿智冷静的小说，有头脑有实力，一口气读完酣畅淋漓. 第一本：《无 …",
+      "url": "https://www.sohu.com/a/424324780_120090965",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
     }
   ]
 }
