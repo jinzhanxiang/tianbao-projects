@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T20:08:10+08:00",
+  "generated_at": "2026-08-16T20:17:47+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 15,
   "by_industry": {
     "高端制造": [
       {
@@ -58,10 +58,25 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "生物医药": [
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
+        "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
+        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
+        "source": "www.pharnexcloud.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "速迈医疗 新闻 2026"
+      }
+    ],
     "新能源": [
       {
-        "code": "xunchao",
-        "company": "迅巢科技",
+        "code": "xingheng",
+        "company": "星恒电源",
         "industry": "新能源",
         "title": "新闻中心首页_新浪网",
         "summary": "2023年10月26日 · 试驾东风风神L8Y 十万级家用SUV该有的样子 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚 …",
@@ -183,60 +198,6 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年生物医药政策分析报告.docx - 人人文库",
-        "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-        "url": "https://www.renrendoc.com/paper/517081205.html",
-        "source": "www.renrendoc.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -266,6 +227,19 @@
       "fetched_at": "2026-08-16",
       "score": 4.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
+      "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
+      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
+      "source": "www.pharnexcloud.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "速迈医疗 新闻 2026"
     },
     {
       "code": "huayt",
@@ -307,8 +281,8 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "xunchao",
-      "company": "迅巢科技",
+      "code": "xingheng",
+      "company": "星恒电源",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "2023年10月26日 · 试驾东风风神L8Y 十万级家用SUV该有的样子 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚 …",
@@ -357,58 +331,6 @@
       "fetched_at": "2026-08-16",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年生物医药政策分析报告.docx - 人人文库",
-      "summary": "2026年4月6日 - 11.4对政策制定者的建议一、2026年生物医药政策分析报告1.1政策环境宏观背景2026年全球生物医药产业正处于前所未有的变革与重构期,这一时期的政策环境...",
-      "url": "https://www.renrendoc.com/paper/517081205.html",
-      "source": "www.renrendoc.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
-      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
-      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
