@@ -1,9 +1,76 @@
 {
-  "generated_at": "2026-08-16T20:50:24+08:00",
+  "generated_at": "2026-08-16T21:00:49+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 14,
+  "total": 18,
   "by_industry": {
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+        "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
+        "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
+        "url": "https://www.elecfans.com/d/1450934.html",
+        "source": "www.elecfans.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "顺风清洁能源收购晶能光电控股权_中证网",
+        "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+        "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+        "source": "www.cs.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+        "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+        "url": "https://www.sohu.com/a/15891578_114737",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -168,21 +235,6 @@
         "query": "低空航空 行业 政策 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -200,6 +252,58 @@
     ]
   },
   "items": [
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+      "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
+      "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
+      "url": "https://www.elecfans.com/d/1450934.html",
+      "source": "www.elecfans.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "顺风清洁能源收购晶能光电控股权_中证网",
+      "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+      "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+      "source": "www.cs.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+      "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+      "url": "https://www.sohu.com/a/15891578_114737",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -292,8 +396,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
