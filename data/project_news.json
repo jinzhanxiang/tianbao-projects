@@ -1,102 +1,9 @@
 {
-  "generated_at": "2026-08-17T01:57:46+08:00",
+  "generated_at": "2026-08-17T02:02:37+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 15,
   "by_industry": {
-    "低空航空": [
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空航空",
-        "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
-        "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
-        "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 5.5,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空航空",
-        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-        "summary": "简介：#空中1",
-        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-        "source": "k.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.5,
-        "query": "青岛直升机 新闻 2026"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空航空",
-        "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
-        "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
-        "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
-        "source": "ggzyjyzx.shandong.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.0,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "qingdao-heli",
-        "company": "青岛直升机",
-        "industry": "低空航空",
-        "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
-        "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
-        "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
-        "source": "www.jianyu360.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.0,
-        "query": "\"青岛直升机\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -205,22 +112,74 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "新能源": [
+    "低空航空": [
       {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 市场资讯：针对多次延期的新一代Roadster跑车，特斯拉已研究过多种设计方案，包括改造Model S Plaid，以及借 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
+        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
         "date": "",
         "fetched_at": "2026-08-17",
         "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
       }
     ],
     "其他行业": [
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+        "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+        "source": "www.shantou.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
       {
         "code": "acquisition-listed",
         "company": "收购上市公司研究",
@@ -235,62 +194,23 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "AI智能": [
+    "新能源": [
       {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "麋鹿、驯鹿、驼鹿、马鹿：这些套“鹿”你分得清楚吗？_澎湃号 ...",
-        "summary": "2019年7月22日 · 不瞒各位，看到这串名字的象妹当时就眉头一皱，觉得事情并不简单：这么多名字到底哪个对应哪种鹿呢？ 一些图片 …",
-        "url": "https://www.thepaper.cn/newsDetail_forward_3958018",
-        "source": "www.thepaper.cn",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 市场资讯：针对多次延期的新一代Roadster跑车，特斯拉已研究过多种设计方案，包括改造Model S Plaid，以及借 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-17",
         "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "探秘中国鹿科动物：从神话传说到保护动物_马鹿_我国_驼鹿",
-        "summary": "2024年12月27日 · 坡鹿的视觉和听觉非常敏锐，善于跳跃，因此民间流传出许多关于它会“飞”的传说。 在我国，坡鹿仅分布于海南西 …",
-        "url": "https://www.sohu.com/a/842582171_121124518",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "mifeng",
-        "company": "觅蜂",
-        "industry": "AI智能",
-        "title": "麋鹿、驯鹿、驼鹿、马鹿：这些套“鹿”你分得清楚吗？",
-        "summary": "2019年7月22日 · 不瞒各位，看到这串名字的象妹当时就眉头一皱，觉得事情并不简单：这么多名字到底哪个对应哪种鹿呢？ 一些图片 …",
-        "url": "https://m.thepaper.cn/baijiahao_3958018",
-        "source": "m.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       }
     ]
   },
   "items": [
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空航空",
-      "title": "航企|飞龙通航、青岛直升机、重庆通航等9家航企中标了!中标金额是....|飞机|航空|黑河市_网易订阅",
-      "summary": "9专区新品热卖人气好物居家生活服饰鞋包母婴亲子美食酒水一....公告显示,中国飞龙通用航空有限公司为该项目合同包1(飞机租赁服务(一包))中标...",
-      "url": "https://www.163.com/dy/article/H8AQBFOM0514873V.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 5.5,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -303,45 +223,6 @@
       "fetched_at": "2026-08-17",
       "score": 4.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空航空",
-      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
-      "summary": "简介：#空中1",
-      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
-      "source": "k.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.5,
-      "query": "青岛直升机 新闻 2026"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空航空",
-      "title": "山东省公共资源交易中心 中标公示 山东省应急管理厅2026年山东省航空应急救援直升机租赁服务项目中标结果公告",
-      "summary": "2026年1月31日 - 青岛直升机航空有限公司.在中标公告发布后5个工作日内由中标人向代理机构支付。.二、项目名称:山东省应急管理厅2026年山东省航空应急救援直升机租赁服...",
-      "url": "https://ggzyjyzx.shandong.gov.cn/art/2026/1/31/art_347672_11215553.html",
-      "source": "ggzyjyzx.shandong.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.0,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "qingdao-heli",
-      "company": "青岛直升机",
-      "industry": "低空航空",
-      "title": "青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告",
-      "summary": "2026年5月18日 - 青岛直升机股权收购项目(暂定名)立项前中介机构服务采购项目中标公告,项目所属地区是山东青岛市,项目发布时间是2026年05月18日,查看该项目信息详情请...",
-      "url": "https://www.jianyu360.cn/nologin/content/SEEY1cEdi4eJys7JHN2ZGIdIzM_QCBgZmh9KS8nKz0weFJzdDNUCew.html",
-      "source": "www.jianyu360.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.0,
-      "query": "\"青岛直升机\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -407,6 +288,32 @@
       "fetched_at": "2026-08-17",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "国家发展改革委 财政部关于2026年实施大规模设备更新和消费品以旧换新政策的通知.综合不同行业设备平均折旧年限、技术更新周期等因素,分领...",
+      "url": "https://www.shantou.gov.cn/stsswbj/gkmlpt/content/2/2505/mpost_2505630.html",
+      "source": "www.shantou.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "xingheng",
@@ -498,45 +405,6 @@
       "fetched_at": "2026-08-17",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "麋鹿、驯鹿、驼鹿、马鹿：这些套“鹿”你分得清楚吗？_澎湃号 ...",
-      "summary": "2019年7月22日 · 不瞒各位，看到这串名字的象妹当时就眉头一皱，觉得事情并不简单：这么多名字到底哪个对应哪种鹿呢？ 一些图片 …",
-      "url": "https://www.thepaper.cn/newsDetail_forward_3958018",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "探秘中国鹿科动物：从神话传说到保护动物_马鹿_我国_驼鹿",
-      "summary": "2024年12月27日 · 坡鹿的视觉和听觉非常敏锐，善于跳跃，因此民间流传出许多关于它会“飞”的传说。 在我国，坡鹿仅分布于海南西 …",
-      "url": "https://www.sohu.com/a/842582171_121124518",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "mifeng",
-      "company": "觅蜂",
-      "industry": "AI智能",
-      "title": "麋鹿、驯鹿、驼鹿、马鹿：这些套“鹿”你分得清楚吗？",
-      "summary": "2019年7月22日 · 不瞒各位，看到这串名字的象妹当时就眉头一皱，觉得事情并不简单：这么多名字到底哪个对应哪种鹿呢？ 一些图片 …",
-      "url": "https://m.thepaper.cn/baijiahao_3958018",
-      "source": "m.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
     }
   ]
 }
