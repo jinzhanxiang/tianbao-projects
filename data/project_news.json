@@ -1,9 +1,102 @@
 {
-  "generated_at": "2026-08-17T02:44:20+08:00",
+  "generated_at": "2026-08-17T02:52:20+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 19,
+  "total": 17,
   "by_industry": {
+    "低空航空": [
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
+        "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
+        "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
+        "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
+        "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
+        "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
+        "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
+        "source": "guba.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新(002023)-公司公告-海特高新:中签结果公告-股票行情中心-搜狐证券",
+        "summary": "2022年7月25日 - 海特高新:中签结果公告2004-07-08 公司首次公开发行股票向二级市场投资者定价配售发行摇号中签号码如下:末四位数:7059 2059 3933末五位数:60220 7272...",
+        "url": "https://q.stock.sohu.com/cn,gg,002023,14444486.shtml",
+        "source": "q.stock.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
+        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -58,100 +151,7 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "四川迅巢建筑有限公司中标公告",
-        "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
-        "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
-        "source": "m.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.0,
-        "query": "\"迅巢\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
-        "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
-        "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
-        "source": "www.biaozhaozhao.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 3.0,
-        "query": "\"迅巢\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 市场资讯：针对多次延期的新一代Roadster跑车，特斯拉已研究过多种设计方案，包括改造Model S Plaid，以及借 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "REITS类资产": [
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
-        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
-        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -179,8 +179,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "REITS类资产",
         "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
         "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
@@ -192,8 +192,8 @@
         "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
         "industry": "REITS类资产",
         "title": "公募REITs信息平台-首页",
         "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
@@ -205,45 +205,19 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "低空航空": [
+    "新能源": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 市场资讯：针对多次延期的新一代Roadster跑车，特斯拉已研究过多种设计方案，包括改造Model S Plaid，以及借 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-17",
         "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -264,6 +238,58 @@
   },
   "items": [
     {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
+      "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
+      "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
+      "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
+      "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
+      "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
+      "source": "guba.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新(002023)-公司公告-海特高新:中签结果公告-股票行情中心-搜狐证券",
+      "summary": "2022年7月25日 - 海特高新:中签结果公告2004-07-08 公司首次公开发行股票向二级市场投资者定价配售发行摇号中签号码如下:末四位数:7059 2059 3933末五位数:60220 7272...",
+      "url": "https://q.stock.sohu.com/cn,gg,002023,14444486.shtml",
+      "source": "q.stock.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -275,58 +301,6 @@
       "fetched_at": "2026-08-17",
       "score": 4.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "四川迅巢建筑有限公司中标公告",
-      "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
-      "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
-      "source": "m.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.0,
-      "query": "\"迅巢\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
-      "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
-      "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
-      "source": "www.biaozhaozhao.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 3.0,
-      "query": "\"迅巢\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -371,32 +345,6 @@
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
-      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
-      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
-      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
       "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
@@ -407,8 +355,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -446,6 +394,32 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+      "url": "https://www.sohu.com/a/960605326_121140836",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "公募REITs信息平台-首页",
+      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+      "url": "https://reits.szse.cn/",
+      "source": "reits.szse.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
       "code": "acquisition-listed",
       "company": "收购上市公司研究",
       "industry": "其他行业",
@@ -459,34 +433,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -498,8 +446,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
