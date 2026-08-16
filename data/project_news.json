@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T03:31:50+08:00",
+  "generated_at": "2026-08-17T03:39:12+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 21,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,127 @@
         "fetched_at": "2026-08-17",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
+        "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
+        "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
+        "source": "www.zs.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "aodian",
+        "company": "奥联电子",
+        "industry": "高端制造",
+        "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+        "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+        "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.0,
+        "query": "高端制造 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "sumai",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
+        "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
+        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
+        "source": "www.pharnexcloud.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 4.0,
+        "query": "速迈医疗 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+        "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+        "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+        "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+        "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2026年新能源行业市场趋势与政策法规解读报告-20260723100751.docx-原创力文档",
+        "summary": "2026年,新能源行业将继续保持高速增长态势,市场前景广阔。.近年来,我国政府高度重视新能源产业的发展,出台了一系列政策法规,以推动新能源产业的快速发展...",
+        "url": "https://max.book118.com/html/2026/0723/7140115116011134.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 市场资讯：针对多次延期的新一代Roadster跑车，特斯拉已研究过多种设计方案，包括改造Model S Plaid，以及借 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -153,25 +274,10 @@
         "query": "低空航空 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 市场资讯：针对多次延期的新一代Roadster跑车，特斯拉已研究过多种设计方案，包括改造Model S Plaid，以及借 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
+        "code": "tianbao-jijian",
+        "company": "天保基建",
         "industry": "其他行业",
         "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
         "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
@@ -197,6 +303,32 @@
       "fetched_at": "2026-08-17",
       "score": 4.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "sumai",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
+      "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
+      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
+      "source": "www.pharnexcloud.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 4.0,
+      "query": "速迈医疗 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -264,8 +396,86 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
+      "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
+      "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
+      "source": "www.zs.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+      "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+      "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+      "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+      "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026年新能源行业市场趋势与政策法规解读报告-20260723100751.docx-原创力文档",
+      "summary": "2026年,新能源行业将继续保持高速增长态势,市场前景广阔。.近年来,我国政府高度重视新能源产业的发展,出台了一系列政策法规,以推动新能源产业的快速发展...",
+      "url": "https://max.book118.com/html/2026/0723/7140115116011134.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "aodian",
+      "company": "奥联电子",
+      "industry": "高端制造",
+      "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+      "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+      "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.0,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "2023年10月26日 · 市场资讯：针对多次延期的新一代Roadster跑车，特斯拉已研究过多种设计方案，包括改造Model S Plaid，以及借 …",
@@ -316,19 +526,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "acquisition-listed",
-      "company": "收购上市公司研究",
-      "industry": "其他行业",
-      "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-      "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-      "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 1.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -353,6 +550,19 @@
       "fetched_at": "2026-08-17",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "tianbao-jijian",
+      "company": "天保基建",
+      "industry": "其他行业",
+      "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+      "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+      "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
     }
   ]
 }
