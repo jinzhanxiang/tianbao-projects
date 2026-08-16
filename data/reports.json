@@ -1,10 +1,48 @@
 {
-  "generated_at": "2026-08-16T12:24:58+08:00",
+  "generated_at": "2026-08-16T12:29:06+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 49,
   "total_active": 46,
   "total_archived_cached": 3,
   "by_code": {
+    "sexual-harassment-rights-path": [
+      {
+        "code": "sexual-harassment-rights-path",
+        "date": "2026-08-16",
+        "category": "未分类",
+        "title": "国企/事业单位性骚扰处理案例补充集（2023-2026 匿名化）",
+        "file": "case_research_supplement_20260816.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/sexual-harassment-rights-path/output/case_research_supplement_20260816.md",
+        "size": 11730,
+        "mtime": "2026-08-16T12:28:24+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/sexual-harassment-rights-path/output/case_research_supplement_20260816.md"
+      },
+      {
+        "code": "sexual-harassment-rights-path",
+        "date": "2026-08-16",
+        "category": "未分类",
+        "title": "国企职场性骚扰维权补充材料（research 代理为 report 代理整合用）",
+        "file": "research_supplements_for_report_20260816.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/sexual-harassment-rights-path/output/research_supplements_for_report_20260816.md",
+        "size": 16113,
+        "mtime": "2026-08-16T12:26:32+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/sexual-harassment-rights-path/output/research_supplements_for_report_20260816.md"
+      },
+      {
+        "code": "sexual-harassment-rights-path",
+        "date": "2026-08-16",
+        "category": "未分类",
+        "title": "国企职场性骚扰维权路径研究报告（通用化）",
+        "file": "sexual-harassment-rights-path_research_report_20260816.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/sexual-harassment-rights-path/output/sexual-harassment-rights-path_research_report_20260816.md",
+        "size": 17821,
+        "mtime": "2026-08-16T12:25:18+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/sexual-harassment-rights-path/output/sexual-harassment-rights-path_research_report_20260816.md"
+      }
+    ],
     "chuangdu": [
       {
         "code": "chuangdu",
@@ -1429,7 +1467,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-16T12:24:58.652164",
+  "_last_cleanup": "2026-08-16T12:29:06.860272",
   "_cleanup_stats": {
     "dup_title_date": 4,
     "superseded": 8,
