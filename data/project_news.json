@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T22:03:16+08:00",
+  "generated_at": "2026-08-16T22:13:13+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 19,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -58,60 +58,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "筹划重组信鸿医疗东方海洋落子大健康产业财经门户,提供专业的财经、股票、基金资讯及数据",
-        "summary": "天津信鸿医疗科技股份有限公司(下称“信鸿医疗”),后者曾在新三板挂牌,是一家体外诊断行业医学实验室综合服务商。公司此番拟以发行股份购买资产及支付...",
-        "url": "https://emwap.eastmoney.com/news/info/detail/20180625894291711",
-        "source": "emwap.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损-中国质量新闻网",
-        "summary": "您当前位置: 新闻中心财经公司 ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损",
-        "url": "https://www.cqn.com.cn/cj/content/2020-04/13/content_8510131.htm",
-        "source": "www.cqn.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "信鸿医疗(832941)新闻公告_个股行情_同花顺财经",
-        "summary": "2010年1月5日 - 提供信鸿医疗(832941)五档盘口、逐笔交易等实时行情数据;汇总信鸿医疗(832941)基本资料及重大新闻、研究报告及行业资讯,解读信鸿医疗(832941)主力资金...",
-        "url": "https://stockpage.10jqka.com.cn/832941/news/",
-        "source": "stockpage.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "信鸿医疗专题报道",
-        "summary": "作为一家医疗器械行业新三板上市企业,近年来,信鸿医疗在提供体外诊断产品的同时,更加关注产品贮存、配送过程中的质量要求.信鸿医疗采用封闭...",
-        "url": "http://www.tj-joinscience.com/xinwenzixun/qiyexinwen/2017/0303/307.html",
-        "source": "www.tj-joinscience.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "信鸿医疗 新闻 2026"
-      }
-    ],
     "新能源": [
       {
         "code": "xingheng",
@@ -149,6 +95,32 @@
         "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
         "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-sx",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-sx",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 2.5,
@@ -281,58 +253,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "筹划重组信鸿医疗东方海洋落子大健康产业财经门户,提供专业的财经、股票、基金资讯及数据",
-      "summary": "天津信鸿医疗科技股份有限公司(下称“信鸿医疗”),后者曾在新三板挂牌,是一家体外诊断行业医学实验室综合服务商。公司此番拟以发行股份购买资产及支付...",
-      "url": "https://emwap.eastmoney.com/news/info/detail/20180625894291711",
-      "source": "emwap.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损-中国质量新闻网",
-      "summary": "您当前位置: 新闻中心财经公司 ST东海洋失败收购藏猫腻信鸿医疗董事内幕交易亏损",
-      "url": "https://www.cqn.com.cn/cj/content/2020-04/13/content_8510131.htm",
-      "source": "www.cqn.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "信鸿医疗(832941)新闻公告_个股行情_同花顺财经",
-      "summary": "2010年1月5日 - 提供信鸿医疗(832941)五档盘口、逐笔交易等实时行情数据;汇总信鸿医疗(832941)基本资料及重大新闻、研究报告及行业资讯,解读信鸿医疗(832941)主力资金...",
-      "url": "https://stockpage.10jqka.com.cn/832941/news/",
-      "source": "stockpage.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "信鸿医疗专题报道",
-      "summary": "作为一家医疗器械行业新三板上市企业,近年来,信鸿医疗在提供体外诊断产品的同时,更加关注产品贮存、配送过程中的质量要求.信鸿医疗采用封闭...",
-      "url": "http://www.tj-joinscience.com/xinwenzixun/qiyexinwen/2017/0303/307.html",
-      "source": "www.tj-joinscience.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -409,6 +329,32 @@
       "fetched_at": "2026-08-16",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "unicom-sx",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-sx",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "jngd",
