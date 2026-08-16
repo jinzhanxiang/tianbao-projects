@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T18:40:24+08:00",
+  "generated_at": "2026-08-16T18:50:24+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -17,19 +17,6 @@
         "fetched_at": "2026-08-16",
         "score": 4.5,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
-        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
-        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "奥联电子 新闻 2026"
       },
       {
         "code": "huayt",
@@ -69,45 +56,6 @@
         "fetched_at": "2026-08-16",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
-        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
-        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
-        "source": "app.myzaker.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 3.0,
-        "query": "奥联电子 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
-        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
-        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 3.0,
-        "query": "奥联电子 新闻 2026"
-      },
-      {
-        "code": "aodian",
-        "company": "奥联电子",
-        "industry": "高端制造",
-        "title": "奥联电子(截止2026年2月27日)股东人数为16142户 环比增加3.75%",
-        "summary": "2026年2月27日 - 月4日,奥联电子披露公司股东人数最新情况,截止2月27日,公司股东人数为16142人,较上期(2026-02-13)增加584户,环比增长3.75%。",
-        "url": "https://news.10jqka.com.cn/20260304/c675067859.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 3.0,
-        "query": "奥联电子 新闻 2026"
       }
     ],
     "新能源": [
@@ -115,14 +63,53 @@
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "新能源",
-        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-        "source": "finance.sina.com.cn",
+        "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
+        "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
+        "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
+        "source": "news.dichan.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 3.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 与北京宏远创信能源科技有限公司有关的项目共71条,分别是锦江绿道公司2026年直购电供电服务成交结果公告,2026年直购电采购项目二次,成都印钞有限公司-...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司 - 企查查",
+        "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
+        "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
+        "source": "www.qcc.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "信息检索-雅安市人民政府",
+        "summary": "2023年5月11日 - 芦山县积极推进林业碳汇开发工作为加快推动芦山县林业碳汇开发有关工作,10月19日,芦山县委副书记、县长杨俊率队到成都考察招商,并与北京宏远创信能源...",
+        "url": "https://www.yaan.gov.cn/search.html?page=7&q=%E7%A2%B3%E6%B1%87%E9%A1%B9%E7%9B%AE",
+        "source": "www.yaan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 3.0,
+        "query": "宏远创信 新闻 2026"
       },
       {
         "code": "xingheng",
@@ -136,32 +123,6 @@
         "fetched_at": "2026-08-16",
         "score": 2.5,
         "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
-        "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
-        "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
-        "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
-        "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -173,6 +134,32 @@
         "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
         "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 2.5,
@@ -305,30 +292,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
-      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
-      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
-      "source": "finance.sina.com.cn",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
+      "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
+      "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
+      "source": "news.dichan.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "奥联电子 新闻 2026"
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
     },
     {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-      "source": "finance.sina.com.cn",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 与北京宏远创信能源科技有限公司有关的项目共71条,分别是锦江绿道公司2026年直购电供电服务成交结果公告,2026年直购电采购项目二次,成都印钞有限公司-...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 3.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司 - 企查查",
+      "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
+      "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "信息检索-雅安市人民政府",
+      "summary": "2023年5月11日 - 芦山县积极推进林业碳汇开发工作为加快推动芦山县林业碳汇开发有关工作,10月19日,芦山县委副书记、县长杨俊率队到成都考察招商,并与北京宏远创信能源...",
+      "url": "https://www.yaan.gov.cn/search.html?page=7&q=%E7%A2%B3%E6%B1%87%E9%A1%B9%E7%9B%AE",
+      "source": "www.yaan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 3.0,
+      "query": "宏远创信 新闻 2026"
     },
     {
       "code": "huayt",
@@ -370,45 +383,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
-      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
-      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
-      "source": "app.myzaker.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.0,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
-      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
-      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.0,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
-      "code": "aodian",
-      "company": "奥联电子",
-      "industry": "高端制造",
-      "title": "奥联电子(截止2026年2月27日)股东人数为16142户 环比增加3.75%",
-      "summary": "2026年2月27日 - 月4日,奥联电子披露公司股东人数最新情况,截止2月27日,公司股东人数为16142人,较上期(2026-02-13)增加584户,环比增长3.75%。",
-      "url": "https://news.10jqka.com.cn/20260304/c675067859.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.0,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -429,6 +403,32 @@
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 2.5,
@@ -459,32 +459,6 @@
       "fetched_at": "2026-08-16",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
-      "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
-      "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
-      "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
-      "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
