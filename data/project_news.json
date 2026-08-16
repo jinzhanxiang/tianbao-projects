@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T23:35:24+08:00",
+  "generated_at": "2026-08-16T23:45:16+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 19,
@@ -17,58 +17,6 @@
         "fetched_at": "2026-08-16",
         "score": 5.5,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "三一重能入股中复碳芯-新闻频道-和讯网",
-        "summary": "2024年11月26日 - 中复碳芯电缆科技有限公司成立于2011年12月,法定代表人为陈雨,经营范围含碳纤维复合材料芯及导线产品的开发、生产、安装(电力设施除外)及技术咨询、技...",
-        "url": "https://news.hexun.com/2024-11-26/215796887.html",
-        "source": "news.hexun.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "中复碳芯电缆科技有限公司 - 企查查",
-        "summary": "简介:中复碳芯电缆科技有限公司成立于2011年12月,董事长为陈志斌.2026-06-12 发布中标公告:复合材料数字化智造项目6#、7#车间地基加固工程中标公告2026-06-12 授权发明专利,可更换索体的插接式...",
-        "url": "https://www.qcc.com/firm/f82a85a3272795b93e5f09c6fcef5a40.html",
-        "source": "www.qcc.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告 - 铁耙云",
-        "summary": "2023年7月11日 - 中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告是铁耙云2023年07月11日发布的项目信息,该项目相关工程招标、货物招标、服务招标等成交...",
-        "url": "https://www.tiepayun.com/object-9c5b0b9190893ff2795363eda97ab3a8.html",
-        "source": "www.tiepayun.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告",
-        "summary": "2023年7月10日 - 请中标单位及时与业主相关负责人联系,及时签署相关商务合同;未中标供应商也可及时向业主提出相关质疑.受业主*委托,招标网于2023年07月10日发布中标公...",
-        "url": "https://jiangsu.zhaobiao.cn/succeed_v_75158842.html",
-        "source": "jiangsu.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"中复碳芯\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
@@ -110,35 +58,59 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "新能源": [
+    "REITS类资产": [
       {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
+        "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
+        "url": "https://news.qq.com/rain/a/20260120V06GGM00",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 5.5,
+        "query": "汇天 新闻 2026"
       },
       {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "微信，是一个生活方式",
-        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-        "url": "https://weixin.qq.com/",
-        "source": "weixin.qq.com",
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
+        "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
+        "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
+        "source": "k.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "REITS类资产": [
+        "score": 5.5,
+        "query": "汇天 新闻 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "小鹏汇天:飞行汽车将在2026年量产交付_腾讯新闻",
+        "summary": "2025年1月8日 - 小鹏汇天官方表示,目前,小鹏汇天飞行汽车智造基地已在建设中,这是全球首个利用现代化流水线进行大规模量产的飞行汽车工厂。 该工厂将用于生产分体式飞...",
+        "url": "https://news.qq.com/rain/a/20250108A02B1C00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "汇天 新闻 2026"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
+        "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
+        "url": "https://www.ifnews.com/news.html?aid=769436",
+        "source": "www.ifnews.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "汇天 新闻 2026"
+      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -190,6 +162,34 @@
         "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "微信，是一个生活方式",
+        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+        "url": "https://weixin.qq.com/",
+        "source": "weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -279,56 +279,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "三一重能入股中复碳芯-新闻频道-和讯网",
-      "summary": "2024年11月26日 - 中复碳芯电缆科技有限公司成立于2011年12月,法定代表人为陈雨,经营范围含碳纤维复合材料芯及导线产品的开发、生产、安装(电力设施除外)及技术咨询、技...",
-      "url": "https://news.hexun.com/2024-11-26/215796887.html",
-      "source": "news.hexun.com",
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
+      "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
+      "url": "https://news.qq.com/rain/a/20260120V06GGM00",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      "score": 5.5,
+      "query": "汇天 新闻 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "中复碳芯电缆科技有限公司 - 企查查",
-      "summary": "简介:中复碳芯电缆科技有限公司成立于2011年12月,董事长为陈志斌.2026-06-12 发布中标公告:复合材料数字化智造项目6#、7#车间地基加固工程中标公告2026-06-12 授权发明专利,可更换索体的插接式...",
-      "url": "https://www.qcc.com/firm/f82a85a3272795b93e5f09c6fcef5a40.html",
-      "source": "www.qcc.com",
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
+      "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
+      "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
+      "source": "k.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      "score": 5.5,
+      "query": "汇天 新闻 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告 - 铁耙云",
-      "summary": "2023年7月11日 - 中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告是铁耙云2023年07月11日发布的项目信息,该项目相关工程招标、货物招标、服务招标等成交...",
-      "url": "https://www.tiepayun.com/object-9c5b0b9190893ff2795363eda97ab3a8.html",
-      "source": "www.tiepayun.com",
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "小鹏汇天:飞行汽车将在2026年量产交付_腾讯新闻",
+      "summary": "2025年1月8日 - 小鹏汇天官方表示,目前,小鹏汇天飞行汽车智造基地已在建设中,这是全球首个利用现代化流水线进行大规模量产的飞行汽车工厂。 该工厂将用于生产分体式飞...",
+      "url": "https://news.qq.com/rain/a/20250108A02B1C00?media_id&suid",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "中复碳芯电缆科技有限公司拉挤车间及附属工程施工-中标结果公告",
-      "summary": "2023年7月10日 - 请中标单位及时与业主相关负责人联系,及时签署相关商务合同;未中标供应商也可及时向业主提出相关质疑.受业主*委托,招标网于2023年07月10日发布中标公...",
-      "url": "https://jiangsu.zhaobiao.cn/succeed_v_75158842.html",
-      "source": "jiangsu.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      "score": 5.5,
+      "query": "汇天 新闻 2026"
     },
     {
       "code": "huayt",
@@ -342,6 +329,19 @@
       "fetched_at": "2026-08-16",
       "score": 4.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
+      "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
+      "url": "https://www.ifnews.com/news.html?aid=769436",
+      "source": "www.ifnews.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "汇天 新闻 2026"
     },
     {
       "code": "huayt",
