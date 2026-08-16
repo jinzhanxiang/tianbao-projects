@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T21:11:31+08:00",
+  "generated_at": "2026-08-16T21:21:41+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 19,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -58,59 +58,141 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "低空航空": [
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
+        "summary": "简介：#空中1",
+        "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+        "source": "k.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.5,
+        "query": "青岛直升机 新闻 2026"
+      },
+      {
+        "code": "qingdao-heli",
+        "company": "青岛直升机",
+        "industry": "低空航空",
+        "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
+        "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
+        "url": "https://weibo.com/1931238691/QsYmN46mr",
+        "source": "weibo.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 3.0,
+        "query": "青岛直升机 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
+        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+        "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+        "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+        "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+        "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "微信，是一个生活方式",
+        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+        "url": "https://weixin.qq.com/",
+        "source": "weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "REITS类资产": [
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-        "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-        "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-        "source": "bj.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-        "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-        "url": "https://www.szmhzs.com/news/14.html",
-        "source": "www.szmhzs.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中汇天合工程管理有限公司最新中标公告|招标网",
-        "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
-        "source": "qy.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -164,75 +246,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "微信，是一个生活方式",
-        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-        "url": "https://weixin.qq.com/",
-        "source": "weixin.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
     "半导体": [
       {
         "code": "jngd",
@@ -279,56 +292,30 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-      "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-      "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-      "source": "www.bidcenter.com.cn",
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "青岛直升机大年初一紧急起飞|青岛市|山东省|春节|山东青岛|航空医疗救援_新浪新闻",
+      "summary": "简介：#空中1",
+      "url": "https://k.sina.com.cn/article_1931238691_m731c5d23033026jwa.html",
+      "source": "k.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "score": 4.5,
+      "query": "青岛直升机 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-      "source": "bj.bidizhaobiao.com",
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "新能源",
+      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+      "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-      "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-      "url": "https://www.szmhzs.com/news/14.html",
-      "source": "www.szmhzs.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中汇天合工程管理有限公司最新中标公告|招标网",
-      "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
-      "source": "qy.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -368,6 +355,19 @@
       "fetched_at": "2026-08-16",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "qingdao-heli",
+      "company": "青岛直升机",
+      "industry": "低空航空",
+      "title": "#空中120抢出90分钟黄金窗口##青岛直升机... 来自先锋新闻 - 微博",
+      "summary": "2026年2月22日 - #青岛直升机大年初一紧急起飞#】近日,山东青岛.L先锋新闻的微博视频小窗口û收藏评论同时转发到我的微博.当青岛人春节期间正忙着走亲访友时,一场万米...",
+      "url": "https://weibo.com/1931238691/QsYmN46mr",
+      "source": "weibo.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 3.0,
+      "query": "青岛直升机 新闻 2026"
     },
     {
       "code": "xingheng",
@@ -420,6 +420,32 @@
       "fetched_at": "2026-08-16",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告-20260724010629.docx-原创力文档",
+      "summary": "2026年,我国政府针对新能源行业出台了一系列政策,旨在推动新能源产业的健康发展.本报告将从政策背景、主要内容、影响分析等方面对2026年新能源行业政策进行解读...",
+      "url": "https://max.book118.com/html/2026/0724/6152241204012202.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "新能源",
+      "title": "2026年新能源行业政策解读报告及市场前景预测-20260725100146.docx-原创力文档",
+      "summary": "一、2026年新能源行业政策解读.2026年,我国新能源行业政策将更加完善,市场前景广阔。.2026年新能源政策将继续为行业提供有力支持,推动新能源产业持续发展。...",
+      "url": "https://max.book118.com/html/2026/0725/7201056005011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "xingheng",
