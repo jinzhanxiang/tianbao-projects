@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T13:42:42+08:00",
+  "generated_at": "2026-08-16T13:52:31+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 19,
+  "total": 15,
   "by_industry": {
     "高端制造": [
       {
@@ -59,58 +59,6 @@
       }
     ],
     "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年12月29日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司-北京宏远",
-        "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
-        "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
       {
         "code": "xingheng",
         "company": "星恒电源",
@@ -277,58 +225,6 @@
       "fetched_at": "2026-08-16",
       "score": 4.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年12月29日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司-北京宏远",
-      "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
-      "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
