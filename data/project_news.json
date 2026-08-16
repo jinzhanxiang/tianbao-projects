@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T13:03:31+08:00",
+  "generated_at": "2026-08-16T13:21:53+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 15,
   "by_industry": {
     "高端制造": [
       {
@@ -58,28 +58,13 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "chuangdu",
-        "company": "乘杜科技",
-        "industry": "AI智能",
-        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-        "source": "www.chinabidding.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 3.0,
-        "query": "乘杜 新闻 2026"
-      }
-    ],
     "新能源": [
       {
         "code": "xingheng",
         "company": "星恒电源",
         "industry": "新能源",
         "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 小型SUV全能选手 试驾全 …",
         "url": "https://news.sina.com.cn/",
         "source": "news.sina.com.cn",
         "date": "",
@@ -281,24 +266,11 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "chuangdu",
-      "company": "乘杜科技",
-      "industry": "AI智能",
-      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-      "source": "www.chinabidding.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 3.0,
-      "query": "乘杜 新闻 2026"
-    },
-    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 小型SUV全能选手 试驾全 …",
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
       "date": "",
