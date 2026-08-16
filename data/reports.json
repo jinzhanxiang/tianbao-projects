@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:49:43+08:00",
+  "generated_at": "2026-08-16T09:57:28+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 49,
   "total_active": 46,
@@ -279,6 +279,18 @@
         "mtime": "2026-08-16T08:59:49+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/山西联动云/output/山西联通云数据中心_综合研究报告_v2_深化_20260816.html"
+      },
+      {
+        "code": "山西联动云",
+        "date": "2026-08-16",
+        "category": "未分类",
+        "title": "山西联通云数据中心 · 综合研究报告 v3（深度版·注入 Alice）· V25.1.44",
+        "file": "山西联通云数据中心_综合研究报告_v3_深度_20260816.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/山西联动云/output/山西联通云数据中心_综合研究报告_v3_深度_20260816.html",
+        "size": 25995,
+        "mtime": "2026-08-16T09:51:34+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/山西联动云/output/山西联通云数据中心_综合研究报告_v3_深度_20260816.html"
       }
     ],
     "jngd": [
@@ -1441,7 +1453,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-16T09:49:43.898141",
+  "_last_cleanup": "2026-08-16T09:57:28.587310",
   "_cleanup_stats": {
     "dup_title_date": 4,
     "superseded": 8,
