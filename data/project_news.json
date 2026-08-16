@@ -1,49 +1,10 @@
 {
-  "generated_at": "2026-08-17T03:17:46+08:00",
+  "generated_at": "2026-08-17T03:24:46+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 13,
   "by_industry": {
     "高端制造": [
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "高端制造",
-        "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
-        "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
-        "url": "https://news.qq.com/rain/a/20260417A090QP00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "高端制造",
-        "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
-        "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
-        "url": "https://news.qq.com/rain/a/20260419A02IN100",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "高端制造",
-        "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
-        "summary": "同花顺数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有主力资金...",
-        "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 5.5,
-        "query": "华东数控 新闻 2026"
-      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -56,19 +17,6 @@
         "fetched_at": "2026-08-17",
         "score": 4.5,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huadong-sk",
-        "company": "华东数控",
-        "industry": "高端制造",
-        "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
-        "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
-        "url": "https://news.qq.com/rain/a/20260418A054BV00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.5,
-        "query": "华东数控 新闻 2026"
       },
       {
         "code": "huayt",
@@ -238,45 +186,6 @@
   },
   "items": [
     {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "高端制造",
-      "title": "华东数控2026年一季度营收7621万元,同比下降4.90%_腾讯新闻",
-      "summary": "2026年4月17日 - 时代财经AI快讯,4月17日,华东数控(002248.SZ)发布公告,2026年一季度营业收入7621万元,同比下降4.90%;归属于上市公司股东的净利润为812.81万元,同比增...",
-      "url": "https://news.qq.com/rain/a/20260417A090QP00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "高端制造",
-      "title": "华东数控(002248)2026年一季报简析:净利润同比增长2.07%,盈利能力上升_腾讯新闻",
-      "summary": "2026年4月19日 - 本报告期华东数控盈利能力上升,毛利率同比增幅10.88%,净利率同比增幅7.34%。.据证券之星公开数据整理,近期华东数控(002248)发布2026年一季报。截至本...",
-      "url": "https://news.qq.com/rain/a/20260419A02IN100",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "高端制造",
-      "title": "华东数控2026年1月8日涨停分析:业绩改善+债务重组+治理优化_新浪财经_新浪网",
-      "summary": "同花顺数据显示,在1月8日当天,机床概念股多有活跃表现,华东数控的涨停也受到板块整体氛围影响. 4、技术形态上,结合资金流向,若当日有主力资金...",
-      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-01-08/doc-inhfqcat5479772.shtml?cref=cj",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 5.5,
-      "query": "华东数控 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -288,19 +197,6 @@
       "fetched_at": "2026-08-17",
       "score": 4.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huadong-sk",
-      "company": "华东数控",
-      "industry": "高端制造",
-      "title": "华东数控2026年一季度净利润812.81万元_腾讯新闻",
-      "summary": "2026年4月18日 - 天眼查资料显示,华东数控全称为威海华东数控股份有限公司,成立于2002年03月04日,注册资本30749.56万人民币,法定代表人连小明,注册地址为山东省威海市...",
-      "url": "https://news.qq.com/rain/a/20260418A054BV00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.5,
-      "query": "华东数控 新闻 2026"
     },
     {
       "code": "huayt",
