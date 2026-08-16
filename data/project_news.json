@@ -1,9 +1,89 @@
 {
-  "generated_at": "2026-08-16T13:52:31+08:00",
+  "generated_at": "2026-08-16T14:01:28+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 22,
   "by_industry": {
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+        "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
+        "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
+        "url": "https://www.elecfans.com/d/1450934.html",
+        "source": "www.elecfans.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "顺风清洁能源收购晶能光电控股权_中证网",
+        "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+        "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+        "source": "www.cs.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+        "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+        "url": "https://www.sohu.com/a/15891578_114737",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -56,6 +136,45 @@
         "fetched_at": "2026-08-16",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
+        "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
+        "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
+        "source": "www.zs.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "huadong-sk",
+        "company": "华东数控",
+        "industry": "高端制造",
+        "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+        "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+        "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "高端制造 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -71,34 +190,6 @@
         "fetched_at": "2026-08-16",
         "score": 2.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -214,6 +305,58 @@
   },
   "items": [
     {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+      "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
+      "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
+      "url": "https://www.elecfans.com/d/1450934.html",
+      "source": "www.elecfans.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "顺风清洁能源收购晶能光电控股权_中证网",
+      "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+      "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+      "source": "www.cs.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+      "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+      "url": "https://www.sohu.com/a/15891578_114737",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -279,19 +422,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -303,6 +433,19 @@
       "fetched_at": "2026-08-16",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -318,8 +461,34 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
+      "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
+      "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
+      "source": "www.zs.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -329,6 +498,19 @@
       "fetched_at": "2026-08-16",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "huadong-sk",
+      "company": "华东数控",
+      "industry": "高端制造",
+      "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+      "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+      "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 2.0,
+      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
