@@ -1,87 +1,61 @@
 {
-  "generated_at": "2026-08-16T10:10:34+08:00",
+  "generated_at": "2026-08-16T10:18:37+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 23,
   "by_industry": {
-    "半导体": [
+    "生物医药": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-        "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-        "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 6.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-        "summary": "2026年7月3日 - 6月26日,2026长安汽车创新技术与生态合作展系列活动圆满收官。该活动自2023年创办以来,已吸引300余家优质企业深度参与,2026年全面升级,聚焦研发与采购...",
-        "url": "https://m.elecfans.com/article/8045816.html",
-        "source": "m.elecfans.com",
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
+        "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
+        "url": "http://guba.eastmoney.com/news,832941,540069822.html",
+        "source": "guba.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-16",
         "score": 5.5,
-        "query": "晶能光电 新闻 2026"
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电拟冲刺A股IPO:曾获金沙江资本等投资,股权稳定性受关注_腾讯新闻",
-        "summary": "瑞财经 吴文婷近日,晶能光电股份有限公司(以下简称 晶能光电 )披露IPO辅导工作进展情况报告(第七期),辅导机构为国投证券股份有限公司。",
-        "url": "https://news.qq.com/rain/a/20250221A06AEY00",
-        "source": "news.qq.com",
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
+        "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
+        "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
+        "source": "www.zhiliaobiaoxun.com",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "真棒!晶能光电获国家认定!_澎湃号·政务_澎湃新闻-The Paper",
-        "summary": "受益于国家创新体系建设,自2006年创立以来,晶能光电始终坚持自主核心技术创新,承担的《硅衬底高光效GaN基蓝色发光二极管》项目获得2015年度...",
-        "url": "https://www.thepaper.cn/newsDetail_forward_22053656",
-        "source": "www.thepaper.cn",
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
+        "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
+        "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
+        "source": "www.ccgp.gov.cn",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 4.5,
-        "query": "晶能光电 新闻 2026"
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
       },
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "通俗理解半导体行业基础知识（入门或转行必备）|信号|晶体管 ...",
-        "summary": "2024年6月6日 · 作者：胡独巍，北京大学微电子本硕，中国电源学会会员、北京大学半导体校友会成员，在半导体上市公司战略部工 …",
-        "url": "https://www.163.com/dy/article/J3V754L105566SXC.html",
-        "source": "www.163.com",
+        "code": "xinhong",
+        "company": "信鸿医疗",
+        "industry": "生物医药",
+        "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
+        "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
+        "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
+        "source": "ccgp-beijing.gov.cn",
         "date": "",
         "fetched_at": "2026-08-16",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
+        "score": 4.0,
+        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
       }
     ],
     "其他行业": [
@@ -162,6 +136,34 @@
         "fetched_at": "2026-08-16",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "通俗理解半导体行业基础知识（入门或转行必备）|信号|晶体管 ...",
+        "summary": "2024年6月6日 · 作者：胡独巍，北京大学微电子本硕，中国电源学会会员、北京大学半导体校友会成员，在半导体上市公司战略部工 …",
+        "url": "https://www.163.com/dy/article/J3V754L105566SXC.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "高端制造": [
@@ -289,8 +291,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -302,8 +304,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -318,43 +320,17 @@
   },
   "items": [
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-      "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-      "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 6.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-      "summary": "2026年7月3日 - 6月26日,2026长安汽车创新技术与生态合作展系列活动圆满收官。该活动自2023年创办以来,已吸引300余家优质企业深度参与,2026年全面升级,聚焦研发与采购...",
-      "url": "https://m.elecfans.com/article/8045816.html",
-      "source": "m.elecfans.com",
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
+      "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
+      "url": "http://guba.eastmoney.com/news,832941,540069822.html",
+      "source": "guba.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电拟冲刺A股IPO:曾获金沙江资本等投资,股权稳定性受关注_腾讯新闻",
-      "summary": "瑞财经 吴文婷近日,晶能光电股份有限公司(以下简称 晶能光电 )披露IPO辅导工作进展情况报告(第七期),辅导机构为国投证券股份有限公司。",
-      "url": "https://news.qq.com/rain/a/20250221A06AEY00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
     },
     {
       "code": "tianbao-jijian",
@@ -370,19 +346,6 @@
       "query": "天保基建 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "真棒!晶能光电获国家认定!_澎湃号·政务_澎湃新闻-The Paper",
-      "summary": "受益于国家创新体系建设,自2006年创立以来,晶能光电始终坚持自主核心技术创新,承担的《硅衬底高光效GaN基蓝色发光二极管》项目获得2015年度...",
-      "url": "https://www.thepaper.cn/newsDetail_forward_22053656",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-16",
-      "score": 4.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
       "code": "tianbao-jijian",
       "company": "天保基建",
       "industry": "其他行业",
@@ -394,6 +357,45 @@
       "fetched_at": "2026-08-16",
       "score": 4.5,
       "query": "天保基建 新闻 2026"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
+      "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
+      "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
+      "source": "www.zhiliaobiaoxun.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
+      "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
+      "source": "www.ccgp.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xinhong",
+      "company": "信鸿医疗",
+      "industry": "生物医药",
+      "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
+      "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
+      "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
+      "source": "ccgp-beijing.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 4.0,
+      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
     },
     {
       "code": "tianbao-jijian",
@@ -422,8 +424,8 @@
       "query": "天保基建 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "通俗理解半导体行业基础知识（入门或转行必备）|信号|晶体管 ...",
       "summary": "2024年6月6日 · 作者：胡独巍，北京大学微电子本硕，中国电源学会会员、北京大学半导体校友会成员，在半导体上市公司战略部工 …",
@@ -513,8 +515,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -591,8 +593,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -604,8 +606,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
