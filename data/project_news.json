@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T23:14:20+08:00",
+  "generated_at": "2026-08-16T23:25:22+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -22,32 +22,6 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
-        "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
-        "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
-        "source": "stock.jrj.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳国际收到EPC总承包项目《中标通知书》 中标价15.46亿元-股票-金融界",
-        "summary": "中标单位:深圳市华阳国际工程设计股份有限公司、深圳市市政工程总公司;.公告显示,《中标通知书》的主要内容如下:.招标人:深圳市龙华区建筑工...",
-        "url": "https://stock.jrj.com.cn/2020/04/13210629277012.shtml",
-        "source": "stock.jrj.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-16",
-        "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
         "title": "华阳集团的前世今生：2025年营收130.48亿行业排第四，净 ...",
         "summary": "2026年4月29日 · 华阳集团成立于1993年1月16日，于2017年10月13日在深圳证券交易所上市，注册地址和办公地址均为广东省惠州市 …",
         "url": "https://finance.sina.cn/2026-04-29/detail-inhweskw7580390.d.html?vt=4",
@@ -56,9 +30,61 @@
         "fetched_at": "2026-08-16",
         "score": 4.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团人力资源招聘系统",
+        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+        "url": "https://zhaopin.ymjt.com.cn/index.html",
+        "source": "zhaopin.ymjt.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
       }
     ],
     "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+        "source": "www.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-16",
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
       {
         "code": "xingheng",
         "company": "星恒电源",
@@ -142,8 +168,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -155,8 +181,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -168,8 +194,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -227,30 +253,30 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
-      "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
-      "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
-      "source": "stock.jrj.com.cn",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+      "source": "www.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳国际收到EPC总承包项目《中标通知书》 中标价15.46亿元-股票-金融界",
-      "summary": "中标单位:深圳市华阳国际工程设计股份有限公司、深圳市市政工程总公司;.公告显示,《中标通知书》的主要内容如下:.招标人:深圳市龙华区建筑工...",
-      "url": "https://stock.jrj.com.cn/2020/04/13210629277012.shtml",
-      "source": "stock.jrj.com.cn",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 成都印钞有限公司-成都印钞有限公司2026年直购电采购竞争性谈判-中标/成交公示内容下载- 内容下载- 成交结果公告.pdf ,成都(北京宏远创信能源科技有限...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-16",
-      "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -263,6 +289,32 @@
       "date": "",
       "fetched_at": "2026-08-16",
       "score": 4.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团人力资源招聘系统",
+      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+      "url": "https://zhaopin.ymjt.com.cn/index.html",
+      "source": "zhaopin.ymjt.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-16",
+      "score": 3.0,
       "query": "华阳 新闻 2026"
     },
     {
@@ -292,8 +344,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -383,8 +435,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -396,8 +448,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
