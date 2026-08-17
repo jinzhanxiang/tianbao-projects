@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:22:31+08:00",
+  "generated_at": "2026-08-18T02:00:33+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 23,
@@ -125,6 +125,112 @@
         "query": "低空航空 行业 政策 2026"
       }
     ],
+    "REITS类资产": [
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
+        "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
+        "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
+        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
+        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
+        "source": "bj.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
+        "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
+        "url": "https://www.szmhzs.com/news/14.html",
+        "source": "www.szmhzs.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "中汇天合工程管理有限公司最新中标公告|招标网",
+        "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "REITs专栏 | 上海证券交易所",
+        "summary": "18 小时之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产 …",
+        "url": "https://www.sse.com.cn/reits/home/",
+        "source": "www.sse.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "公募REITs信息平台-首页",
+        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+        "url": "https://reits.szse.cn/",
+        "source": "reits.szse.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -168,113 +274,35 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
-    "REITS类资产": [
+    "新能源": [
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
-        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
-        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
-        "source": "finance.sina.com.cn",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-18",
         "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "REITs专栏 | 上海证券交易所",
-        "summary": "17 小时之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产 …",
-        "url": "https://www.sse.com.cn/reits/home/",
-        "source": "www.sse.com.cn",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "18 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-18",
         "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
-      {
-        "code": "天创天保创投基金",
-        "company": "天创天保创投基金",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "天创天保创投基金",
-        "company": "天创天保创投基金",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-        "source": "znyncj.qiannan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "天创天保创投基金",
-        "company": "天创天保创投基金",
-        "industry": "其他行业",
-        "title": "2026年汽车行业政策调整:新能源车购置税恢复征收5%_新浪财经_新浪网",
-        "summary": "全国性的以旧换新补贴得以优化延续,但新能源汽车免征车辆购置税的政策自2026年1月1日起部分退坡,预计将恢复征收5%的购置税(设减免上限).根据...",
-        "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtah5796670.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "天创天保创投基金",
-        "company": "天创天保创投基金",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "明确2026年 两新 政策的.《关于2026年实施大规模设备更新...",
-        "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202512/t20251231_2704779.shtml",
-        "source": "sw.wuhan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
       {
         "code": "acquisition-listed",
         "company": "收购上市公司研究",
@@ -287,34 +315,6 @@
         "fetched_at": "2026-08-18",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "17 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ]
   },
@@ -357,6 +357,58 @@
       "fetched_at": "2026-08-18",
       "score": 4.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
+      "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
+      "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
+      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
+      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
+      "source": "bj.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
+      "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
+      "url": "https://www.szmhzs.com/news/14.html",
+      "source": "www.szmhzs.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "中汇天合工程管理有限公司最新中标公告|招标网",
+      "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -424,6 +476,19 @@
       "query": "半导体 行业 政策 2026"
     },
     {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -435,58 +500,6 @@
       "fetched_at": "2026-08-18",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "天创天保创投基金",
-      "company": "天创天保创投基金",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "天创天保创投基金",
-      "company": "天创天保创投基金",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-      "source": "znyncj.qiannan.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "天创天保创投基金",
-      "company": "天创天保创投基金",
-      "industry": "其他行业",
-      "title": "2026年汽车行业政策调整:新能源车购置税恢复征收5%_新浪财经_新浪网",
-      "summary": "全国性的以旧换新补贴得以优化延续,但新能源汽车免征车辆购置税的政策自2026年1月1日起部分退坡,预计将恢复征收5%的购置税(设减免上限).根据...",
-      "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtah5796670.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "天创天保创投基金",
-      "company": "天创天保创投基金",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "明确2026年 两新 政策的.《关于2026年实施大规模设备更新...",
-      "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202512/t20251231_2704779.shtml",
-      "source": "sw.wuhan.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "海特飞机",
@@ -519,22 +532,9 @@
       "company": "星恒电源",
       "industry": "新能源",
       "title": "新浪网",
-      "summary": "17 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+      "summary": "18 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
       "url": "https://www.sina.com.cn/",
       "source": "www.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-18",
       "score": 1.5,
@@ -545,7 +545,7 @@
       "company": "四川 IDC",
       "industry": "REITS类资产",
       "title": "REITs专栏 | 上海证券交易所",
-      "summary": "17 小时之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产 …",
+      "summary": "18 小时之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
