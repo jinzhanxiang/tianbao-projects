@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T04:18:03+08:00",
+  "generated_at": "2026-08-18T04:27:21+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 24,
   "by_industry": {
     "高端制造": [
       {
@@ -19,45 +19,6 @@
         "query": "华阳 新闻 2026"
       },
       {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "中复碳芯张家口公司投产仪式顺利举行_生产_项目_复合材料",
-        "summary": "出席此次投产仪式的有张家口宣化区区委、区政府领导,三一重能、张宣科技、中复碳芯等公司领导。.张家口公司项目位于张宣科技厂区,是中复碳芯...",
-        "url": "http://news.sohu.com/a/648906414_121124370",
-        "source": "news.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "中复碳芯 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "中复碳芯:国家级 专精特新 小巨人是如何炼成的_腾讯新闻",
-        "summary": "作为拉挤碳纤维复合材料领域的领军者,中国建材集团所属企业中复碳芯电缆科技有限公司(简称中复碳芯)是近年来中国建材集团聚焦主业进行科技...",
-        "url": "https://news.qq.com/rain/a/20240719A02G7P00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "中复碳芯 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "三一重能入股中复碳芯_腾讯新闻",
-        "summary": "2024年11月26日 - 天眼查App显示,近日,中复碳芯电缆科技有限公司(以下简称 中复碳芯 )发生工商变更,新增三一重能(688349)为股东,同时注册资本由8880万人民币增至9346万...",
-        "url": "https://news.qq.com/rain/a/20241126A09Q8400?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "中复碳芯 新闻 2026"
-      },
-      {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
@@ -69,19 +30,6 @@
         "fetched_at": "2026-08-18",
         "score": 4.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "中复碳芯2026年T300级别碳纤维采购(招标公告)-江苏招标网",
-        "summary": "2025年12月1日 - 中复碳芯电缆科技有限公司 数据获取中.江苏连云港连云2026-04-17分享打开微信 扫一扫 打开网页后点击屏幕右上角 分享 按钮...",
-        "url": "https://js.bidizhaobiao.com/info-761486343.html",
-        "source": "js.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "中复碳芯 新闻 2026"
       },
       {
         "code": "huayt",
@@ -110,22 +58,33 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "新能源": [
       {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "2025年11月21日市政府新闻发布会问答实录 ——上海市人民政府新闻办公室",
+        "summary": "我们构建了以美丽大健康、绿色新能源、通用新材料、数智新装备为代表的四大特色产业集群,2024年规上工业产值达2277亿元,支撑作用日益强劲...",
+        "url": "https://www.shio.gov.cn/TrueCMS////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////shxwbgs/2025n_11y_wdsl/content/7c1e0d1a-5a78-4df5-a4b6-ae3abb6a12af.html",
+        "source": "www.shio.gov.cn",
         "date": "",
         "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "新能源": [
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "人民网_网上的人民日报",
+        "summary": "茶树施肥管护忙行进中国高质量发展故事汇人民日报图文数据库(1946-2026....把握好货币政策的力度与节奏澎湃电能为发展添动力金融精准助力外...",
+        "url": "http://www.people.com.cn/",
+        "source": "www.people.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
       {
         "code": "xingheng",
         "company": "星恒电源",
@@ -143,6 +102,19 @@
         "code": "xingheng",
         "company": "星恒电源",
         "industry": "新能源",
+        "title": "2026-2031年中国新能源产业发展分析及前景趋势预测与发展战略研究报告_51行业报告网",
+        "summary": "本新能源市场分析报告,首先是新能源相关概述,然后是新能源细分行业分析,接着是新能源行业重点企业经营状况分析,最后是新能源行业政策法规环境、新能源行业投资策... 仅限所...",
+        "url": "https://www.51baogao.cn/xinnengyuan/xinnengyuan.shtml",
+        "source": "www.51baogao.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
         "title": "新浪网",
         "summary": "20 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
         "url": "https://www.sina.com.cn/",
@@ -151,6 +123,21 @@
         "fetched_at": "2026-08-18",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "半导体": [
@@ -235,22 +222,20 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "其他行业": [
+    "低空航空": [
       {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -277,6 +262,73 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
+    ],
+    "其他行业": [
+      {
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+        "source": "znyncj.qiannan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "2026年汽车行业政策调整:新能源车购置税恢复征收5%_新浪财经_新浪网",
+        "summary": "全国性的以旧换新补贴得以优化延续,但新能源汽车免征车辆购置税的政策自2026年1月1日起部分退坡,预计将恢复征收5%的购置税(设减免上限).根据...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtah5796670.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "明确2026年 两新 政策的.《关于2026年实施大规模设备更新...",
+        "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202512/t20251231_2704779.shtml",
+        "source": "sw.wuhan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -294,45 +346,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "中复碳芯张家口公司投产仪式顺利举行_生产_项目_复合材料",
-      "summary": "出席此次投产仪式的有张家口宣化区区委、区政府领导,三一重能、张宣科技、中复碳芯等公司领导。.张家口公司项目位于张宣科技厂区,是中复碳芯...",
-      "url": "http://news.sohu.com/a/648906414_121124370",
-      "source": "news.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "中复碳芯 新闻 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "中复碳芯:国家级 专精特新 小巨人是如何炼成的_腾讯新闻",
-      "summary": "作为拉挤碳纤维复合材料领域的领军者,中国建材集团所属企业中复碳芯电缆科技有限公司(简称中复碳芯)是近年来中国建材集团聚焦主业进行科技...",
-      "url": "https://news.qq.com/rain/a/20240719A02G7P00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "中复碳芯 新闻 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "三一重能入股中复碳芯_腾讯新闻",
-      "summary": "2024年11月26日 - 天眼查App显示,近日,中复碳芯电缆科技有限公司(以下简称 中复碳芯 )发生工商变更,新增三一重能(688349)为股东,同时注册资本由8880万人民币增至9346万...",
-      "url": "https://news.qq.com/rain/a/20241126A09Q8400?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "中复碳芯 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -346,17 +359,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "中复碳芯2026年T300级别碳纤维采购(招标公告)-江苏招标网",
-      "summary": "2025年12月1日 - 中复碳芯电缆科技有限公司 数据获取中.江苏连云港连云2026-04-17分享打开微信 扫一扫 打开网页后点击屏幕右上角 分享 按钮...",
-      "url": "https://js.bidizhaobiao.com/info-761486343.html",
-      "source": "js.bidizhaobiao.com",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2025年11月21日市政府新闻发布会问答实录 ——上海市人民政府新闻办公室",
+      "summary": "我们构建了以美丽大健康、绿色新能源、通用新材料、数智新装备为代表的四大特色产业集群,2024年规上工业产值达2277亿元,支撑作用日益强劲...",
+      "url": "https://www.shio.gov.cn/TrueCMS////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////shxwbgs/2025n_11y_wdsl/content/7c1e0d1a-5a78-4df5-a4b6-ae3abb6a12af.html",
+      "source": "www.shio.gov.cn",
       "date": "",
       "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "中复碳芯 新闻 2026"
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -398,19 +411,6 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -424,6 +424,32 @@
       "query": "半导体 行业 政策 2026"
     },
     {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "人民网_网上的人民日报",
+      "summary": "茶树施肥管护忙行进中国高质量发展故事汇人民日报图文数据库(1946-2026....把握好货币政策的力度与节奏澎湃电能为发展添动力金融精准助力外...",
+      "url": "http://www.people.com.cn/",
+      "source": "www.people.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -435,6 +461,71 @@
       "fetched_at": "2026-08-18",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+      "source": "znyncj.qiannan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "2026年汽车行业政策调整:新能源车购置税恢复征收5%_新浪财经_新浪网",
+      "summary": "全国性的以旧换新补贴得以优化延续,但新能源汽车免征车辆购置税的政策自2026年1月1日起部分退坡,预计将恢复征收5%的购置税(设减免上限).根据...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtah5796670.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "明确2026年 两新 政策的.《关于2026年实施大规模设备更新...",
+      "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202512/t20251231_2704779.shtml",
+      "source": "sw.wuhan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "jngd",
@@ -452,6 +543,19 @@
     {
       "code": "xingheng",
       "company": "星恒电源",
+      "industry": "新能源",
+      "title": "2026-2031年中国新能源产业发展分析及前景趋势预测与发展战略研究报告_51行业报告网",
+      "summary": "本新能源市场分析报告,首先是新能源相关概述,然后是新能源细分行业分析,接着是新能源行业重点企业经营状况分析,最后是新能源行业政策法规环境、新能源行业投资策... 仅限所...",
+      "url": "https://www.51baogao.cn/xinnengyuan/xinnengyuan.shtml",
+      "source": "www.51baogao.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新浪网",
       "summary": "20 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
