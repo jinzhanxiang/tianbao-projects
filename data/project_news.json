@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T07:05:24+08:00",
+  "generated_at": "2026-08-18T07:18:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -56,86 +56,6 @@
         "fetched_at": "2026-08-18",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "北京迅巢科技有限公司 - 企业股权结构图谱 - 爱企查",
-        "summary": "2025年2月15日 - 爱企查为您提供北京迅巢科技有限公司2026年股权结构图谱查询,让您更快速的了解北京迅巢科技有限公司股权结构图谱,查询更多关于北京迅巢科技有限公司企...",
-        "url": "https://aiqicha.baidu.com/relations/stockstructure?pid=96178514978184",
-        "source": "aiqicha.baidu.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "迅巢 新闻 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "北京迅巢科技有限公司 - 企查查",
-        "summary": ") 2026-07-24 被投资企业:天津迅巢项目管理有限公司 投资比例:100%2026-07-19 经营范围变更:从 一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;充电桩销售;集中式快速充...",
-        "url": "https://www.qcc.com/firm/a2d48e819fd5f30aed0d71df0d4f3346.html",
-        "source": "www.qcc.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "迅巢 新闻 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "李晶 - 北京迅巢科技有限公司 - 法定代表人/高管/股东 - 爱企查",
-        "summary": "北京迅巢科技有限公司市场资讯2026-03-06 09:31.序号 企业名称 职务 法定代表人 注册资本 成立时间 地区 状态 1 迅巢科技...",
-        "url": "https://www.aiqicha.com/person?personId=b662a38baa70b960243c6c3125df9e22&subtab=personal-allenterprises",
-        "source": "www.aiqicha.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "迅巢 新闻 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "23 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 华为鸿蒙 HarmonyOS 7.0.0.102 版本新特性曝光，支持端侧 AI 机型可查看本地模型版本等 曝苹果 iPhone 17 系列 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "微信，是一个生活方式",
-        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-        "url": "https://weixin.qq.com/",
-        "source": "weixin.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -235,20 +155,63 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "低空航空": [
+    "新能源": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-        "source": "www.163.com",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "23 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 华为鸿蒙 HarmonyOS 7.0.0.102 版本新特性曝光，支持端侧 AI 机型可查看本地模型版本等 曝苹果 iPhone 17 系列 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "微信，是一个生活方式",
+        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+        "url": "https://weixin.qq.com/",
+        "source": "weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "低空航空": [
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -275,21 +238,6 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -305,45 +253,6 @@
       "fetched_at": "2026-08-18",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "北京迅巢科技有限公司 - 企业股权结构图谱 - 爱企查",
-      "summary": "2025年2月15日 - 爱企查为您提供北京迅巢科技有限公司2026年股权结构图谱查询,让您更快速的了解北京迅巢科技有限公司股权结构图谱,查询更多关于北京迅巢科技有限公司企...",
-      "url": "https://aiqicha.baidu.com/relations/stockstructure?pid=96178514978184",
-      "source": "aiqicha.baidu.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "迅巢 新闻 2026"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "北京迅巢科技有限公司 - 企查查",
-      "summary": ") 2026-07-24 被投资企业:天津迅巢项目管理有限公司 投资比例:100%2026-07-19 经营范围变更:从 一般项目:技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广;充电桩销售;集中式快速充...",
-      "url": "https://www.qcc.com/firm/a2d48e819fd5f30aed0d71df0d4f3346.html",
-      "source": "www.qcc.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "迅巢 新闻 2026"
-    },
-    {
-      "code": "xunchao",
-      "company": "迅巢科技",
-      "industry": "新能源",
-      "title": "李晶 - 北京迅巢科技有限公司 - 法定代表人/高管/股东 - 爱企查",
-      "summary": "北京迅巢科技有限公司市场资讯2026-03-06 09:31.序号 企业名称 职务 法定代表人 注册资本 成立时间 地区 状态 1 迅巢科技...",
-      "url": "https://www.aiqicha.com/person?personId=b662a38baa70b960243c6c3125df9e22&subtab=personal-allenterprises",
-      "source": "www.aiqicha.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "迅巢 新闻 2026"
     },
     {
       "code": "huayt",
@@ -422,19 +331,6 @@
       "fetched_at": "2026-08-18",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
     },
     {
       "code": "jngd",
