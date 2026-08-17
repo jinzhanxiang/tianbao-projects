@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T16:59:32+08:00",
+  "generated_at": "2026-08-17T17:10:14+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 54,
-  "total_active": 49,
+  "total": 53,
+  "total_active": 48,
   "total_archived_cached": 5,
   "by_code": {
     "sexual-harassment-rights-path": [
@@ -297,20 +297,6 @@
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hongyuan/%E5%AE%8F%E8%BF%9C%E5%88%9B%E4%BF%A1_%E4%B8%BB%E6%8A%A5%E5%91%8A_V6_20260723_prechart.html"
       }
     ],
-    "山西联动云": [
-      {
-        "code": "山西联动云",
-        "date": "2026-08-16",
-        "category": "未分类",
-        "title": "山西联动云 IDC 项目 · 综合研究报告 · 2026-08-16",
-        "file": "山西联动云_综合研究报告_20260816.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/山西联动云/output/山西联动云_综合研究报告_20260816.html",
-        "size": 102809,
-        "mtime": "2026-08-16T11:22:11+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260816.html"
-      }
-    ],
     "jngd": [
       {
         "code": "jngd",
@@ -425,32 +411,6 @@
         "mtime": "2026-08-14T09:13:15+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA/%E5%A4%A9%E6%B4%A5%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA_%E6%8E%A7%E8%82%A1%E6%94%B6%E8%B4%AD%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260814.html"
-      }
-    ],
-    "联通云项目-山西": [
-      {
-        "code": "联通云项目-山西",
-        "date": "2026-07-25",
-        "category": "上会材料",
-        "title": "联通云山西 IDC 投资可行性分析 — 决策模式 V25+",
-        "file": "联通云山西_决策模式_v1_完整版.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v1_完整版.md",
-        "size": 60155,
-        "mtime": "2026-07-25T14:26:40+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v13_TypeB_%E5%AE%8C%E6%95%B4%E7%89%88.html"
-      },
-      {
-        "code": "联通云项目-山西",
-        "date": "2026-07-30",
-        "category": "上会材料",
-        "title": "联通云（山西）数据中心",
-        "file": "联通云山西_决策模式_v13_TypeB_完整版.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v13_TypeB_完整版.html",
-        "size": 124798,
-        "mtime": "2026-07-30T18:23:44+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v13_TypeB_%E5%AE%8C%E6%95%B4%E7%89%88.html"
       }
     ],
     "hangtianhongtu": [
@@ -843,6 +803,36 @@
         "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
         "_from_ledger": true,
         "_archived": true
+      }
+    ],
+    "山西联动云": [
+      {
+        "code": "山西联动云",
+        "date": "2026-08-16",
+        "category": "商业研究",
+        "title": "山西联动云",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-08-16T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260816.html",
+        "_from_ledger": true
+      }
+    ],
+    "联通云项目-山西": [
+      {
+        "code": "联通云项目-山西",
+        "date": "2026-07-30",
+        "category": "商业研究",
+        "title": "联通云项目-山西",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-30T00:00:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v13_TypeB_%E5%AE%8C%E6%95%B4%E7%89%88.html",
+        "_from_ledger": true
       }
     ],
     "kexin": [
@@ -1290,38 +1280,28 @@
       {
         "code": "山西联动云",
         "date": "2026-08-16",
-        "category": "未分类",
-        "title": "山西联动云 IDC 项目 · 综合研究报告 · 2026-08-16",
-        "file": "山西联动云_综合研究报告_20260816.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/山西联动云/output/山西联动云_综合研究报告_20260816.html",
-        "size": 102809,
-        "mtime": "2026-08-16T11:22:11+08:00",
+        "category": "商业研究",
+        "title": "山西联动云",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-08-16T00:00:00+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260816.html"
-      },
-      {
-        "code": "联通云项目-山西",
-        "date": "2026-07-25",
-        "category": "上会材料",
-        "title": "联通云山西 IDC 投资可行性分析 — 决策模式 V25+",
-        "file": "联通云山西_决策模式_v1_完整版.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v1_完整版.md",
-        "size": 60155,
-        "mtime": "2026-07-25T14:26:40+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v13_TypeB_%E5%AE%8C%E6%95%B4%E7%89%88.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260816.html",
+        "_from_ledger": true
       },
       {
         "code": "联通云项目-山西",
         "date": "2026-07-30",
-        "category": "上会材料",
-        "title": "联通云（山西）数据中心",
-        "file": "联通云山西_决策模式_v13_TypeB_完整版.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/output/联通云山西_决策模式_v13_TypeB_完整版.html",
-        "size": 124798,
-        "mtime": "2026-07-30T18:23:44+08:00",
+        "category": "商业研究",
+        "title": "联通云项目-山西",
+        "file": "",
+        "path": "",
+        "size": 0,
+        "mtime": "2026-07-30T00:00:00+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v13_TypeB_%E5%AE%8C%E6%95%B4%E7%89%88.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v13_TypeB_%E5%AE%8C%E6%95%B4%E7%89%88.html",
+        "_from_ledger": true
       },
       {
         "code": "kexin",
@@ -1703,10 +1683,10 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-17T16:59:32.918506",
+  "_last_cleanup": "2026-08-17T17:10:14.454940",
   "_cleanup_stats": {
-    "dup_title_date": 4,
-    "superseded": 8,
+    "dup_title_date": 3,
+    "superseded": 5,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
     "intermediate:v_deep_mode": 1,
