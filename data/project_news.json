@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T03:49:37+08:00",
+  "generated_at": "2026-08-18T03:58:54+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 16,
   "by_industry": {
     "高端制造": [
       {
@@ -63,81 +63,14 @@
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "首批智驾数据产品上架汽车行业可信数据空间,如祺上榜_腾讯新闻",
-        "summary": "2026年7月26日 - 此前,国家数据局发布《可信数据空间发展行动计划(2024-2028年)》,为汽车行业数据要素合规高效流通提供了清晰政策指引与有力支撑. 智能网联新能源汽车...",
-        "url": "https://news.qq.com/rain/a/20260726A066AL00?app=news&id=20260726A066AL00&path=a&redirect_pc=1&suid",
-        "source": "news.qq.com",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-18",
-        "score": 5.5,
+        "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
-        "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
-        "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "《山东新闻联播》关注东营:打造可信数据空间 让数据 跑起来 产业 活起来 |东营|山东新闻联播|工业互联网平台|数据空间_手机网易网",
-        "summary": "依托 十五五 可信数据空间发展行动计划,东营广饶华泰集团率先落地企业级可信数据空间,通过区块链、隐私计算、数字合约等技术解决产业链数据...",
-        "url": "http://m.163.com/dy/article/L3VH0U090514CFC7.html",
-        "source": "m.163.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "赞同科技可信数据空间平台入选2026年度上海书上企业优秀产品名单",
-        "summary": "该平台聚焦IPO核查等金融合规场景,依托上海数据集团可信数据空间实现银行数据的 可用不可见、全程可追溯 ,为金融合规领域的数据可信流通提...",
-        "url": "https://www.360kuai.com/pc/9955a5e556394d88c?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
-        "source": "www.360kuai.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-        "url": "https://new.qq.com/rain/a/20221011A07M2700",
-        "source": "new.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "速迈医疗 新闻 2026"
-      },
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-        "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
-        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-        "source": "www.pharnexcloud.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "速迈医疗 新闻 2026"
       }
     ],
     "新能源": [
@@ -309,58 +242,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "首批智驾数据产品上架汽车行业可信数据空间,如祺上榜_腾讯新闻",
-      "summary": "2026年7月26日 - 此前,国家数据局发布《可信数据空间发展行动计划(2024-2028年)》,为汽车行业数据要素合规高效流通提供了清晰政策指引与有力支撑. 智能网联新能源汽车...",
-      "url": "https://news.qq.com/rain/a/20260726A066AL00?app=news&id=20260726A066AL00&path=a&redirect_pc=1&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-      "url": "https://new.qq.com/rain/a/20221011A07M2700",
-      "source": "new.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
-      "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
-      "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "《山东新闻联播》关注东营:打造可信数据空间 让数据 跑起来 产业 活起来 |东营|山东新闻联播|工业互联网平台|数据空间_手机网易网",
-      "summary": "依托 十五五 可信数据空间发展行动计划,东营广饶华泰集团率先落地企业级可信数据空间,通过区块链、隐私计算、数字合约等技术解决产业链数据...",
-      "url": "http://m.163.com/dy/article/L3VH0U090514CFC7.html",
-      "source": "m.163.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -372,32 +253,6 @@
       "fetched_at": "2026-08-18",
       "score": 4.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-      "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
-      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-      "source": "www.pharnexcloud.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "赞同科技可信数据空间平台入选2026年度上海书上企业优秀产品名单",
-      "summary": "该平台聚焦IPO核查等金融合规场景,依托上海数据集团可信数据空间实现银行数据的 可用不可见、全程可追溯 ,为金融合规领域的数据可信流通提...",
-      "url": "https://www.360kuai.com/pc/9955a5e556394d88c?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
-      "source": "www.360kuai.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "huayt",
@@ -424,6 +279,19 @@
       "fetched_at": "2026-08-18",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 3.0,
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "xingheng",
