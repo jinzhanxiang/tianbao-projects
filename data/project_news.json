@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-17T22:46:33+08:00",
+  "generated_at": "2026-08-17T23:11:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 18,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
-        "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
-        "url": "http://guba.eastmoney.com/news,832941,540069822.html",
-        "source": "guba.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 5.5,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
-        "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
-        "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
-        "source": "www.zhiliaobiaoxun.com",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
-        "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
-        "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
-        "source": "www.ccgp.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
-        "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
-        "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
-        "source": "ccgp-beijing.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-17",
-        "score": 4.0,
-        "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -241,7 +187,7 @@
         "company": "星恒电源",
         "industry": "新能源",
         "title": "新浪网",
-        "summary": "14 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+        "summary": "15 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
         "url": "https://www.sina.com.cn/",
         "source": "www.sina.com.cn",
         "date": "",
@@ -309,19 +255,6 @@
   },
   "items": [
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "信鸿医疗:对外投资公告(对子公司增资情况)_信鸿医疗(832941)股吧_东方财富网股吧",
-      "summary": "2016年8月24日 - 根据《天津信鸿医疗科技股份有限公司章程》、《天津信鸿医疗科技股份有限公司对外投资管理办法》的相关规定:.对外投资的公告(对控股子公司增资)...",
-      "url": "http://guba.eastmoney.com/news,832941,540069822.html",
-      "source": "guba.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 5.5,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -346,45 +279,6 @@
       "fetched_at": "2026-08-17",
       "score": 5.5,
       "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "天津信鸿医疗科技股份有限公司中标4043万元项目",
-      "summary": "信鸿医疗此次中标的流式细胞仪项目,是清华长庚医院开办费其他.该项目的中标,不仅展示了信鸿医疗在医疗设备领域的强大实力,也为其进一步拓展...",
-      "url": "https://www.zhiliaobiaoxun.com/news/report/60349.html",
-      "source": "www.zhiliaobiaoxun.com",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "中国医学科学院血液病医院(中国医学科学院血液学研究所)医疗设备更新项目第八批采购项目(项目编号:TJBD-2025-A-316)中标公告",
-      "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 天津信鸿医疗科技股份有限公司 详见附件 详见附件 详见附件 详见附件 详...",
-      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202512/t20251208_25877498.htm",
-      "source": "www.ccgp.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "[公开]清华长庚医院开办费其他医疗设备采购项目(检验类)-中标公告",
-      "summary": "2024年11月1日 - 中标成交供应商名称:天津信鸿医疗科技股份有限公司.二、项目名称:清华长庚医院开办费其他医疗设备采购项目...",
-      "url": "http://ccgp-beijing.gov.cn/xxgg/sjzfcggg/sjzbjggg/t20241101_1627401.html",
-      "source": "ccgp-beijing.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 4.0,
-      "query": "\"信鸿医疗\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -478,24 +372,11 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "High-end 高端，高档 - Chinadaily.com.cn",
-      "summary": "2022年4月26日 · 今日短语 High-end 高端，高档 今日短语 合成形容词 “high-end” 的意思是 “高端的，高档的”，这类产品往往面向寻求 …",
-      "url": "https://language.chinadaily.com.cn/a/202204/26/WS62678a5ba310fd2b29e5966c.html",
-      "source": "language.chinadaily.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-17",
-      "score": 1.5,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
       "title": "新浪网",
-      "summary": "14 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+      "summary": "15 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
       "url": "https://www.sina.com.cn/",
       "source": "www.sina.com.cn",
       "date": "",
@@ -515,6 +396,19 @@
       "fetched_at": "2026-08-17",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "High-end 高端，高档 - Chinadaily.com.cn",
+      "summary": "2022年4月26日 · 今日短语 High-end 高端，高档 今日短语 合成形容词 “high-end” 的意思是 “高端的，高档的”，这类产品往往面向寻求 …",
+      "url": "https://language.chinadaily.com.cn/a/202204/26/WS62678a5ba310fd2b29e5966c.html",
+      "source": "language.chinadaily.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 1.5,
+      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
