@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T09:26:59+08:00",
+  "generated_at": "2026-08-17T09:40:50+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 49,
-  "total_active": 46,
+  "total": 50,
+  "total_active": 47,
   "total_archived_cached": 3,
   "by_code": {
     "sexual-harassment-rights-path": [
@@ -148,6 +148,18 @@
       }
     ],
     "mifeng": [
+      {
+        "code": "mifeng",
+        "date": "2026-08-17",
+        "category": "商业研究",
+        "title": "天保人力 · 可信数据空间业务 · 综合研究报告（V25.1.44 · 27 章）",
+        "file": "天保人力_可信数据空间业务_综合研究报告_20260817.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保人力_可信数据空间业务_综合研究报告_20260817.html",
+        "size": 40953,
+        "mtime": "2026-08-17T09:33:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/mifeng/%E5%A4%A9%E4%BF%9D%E4%BA%BA%E5%8A%9B_%E5%8F%AF%E4%BF%A1%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E4%B8%9A%E5%8A%A1_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260817.html"
+      },
       {
         "code": "mifeng",
         "date": "2026-08-10",
@@ -843,6 +855,18 @@
       },
       {
         "code": "mifeng",
+        "date": "2026-08-17",
+        "category": "商业研究",
+        "title": "天保人力 · 可信数据空间业务 · 综合研究报告（V25.1.44 · 27 章）",
+        "file": "天保人力_可信数据空间业务_综合研究报告_20260817.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/可信数据空间_整合方案_乘杜+觅蜂/output/天保人力_可信数据空间业务_综合研究报告_20260817.html",
+        "size": 40953,
+        "mtime": "2026-08-17T09:33:00+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/mifeng/%E5%A4%A9%E4%BF%9D%E4%BA%BA%E5%8A%9B_%E5%8F%AF%E4%BF%A1%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E4%B8%9A%E5%8A%A1_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260817.html"
+      },
+      {
+        "code": "mifeng",
         "date": "2026-08-10",
         "category": "商业研究",
         "title": "天保控股 × 乘杜科技 × 觅蜂科技 × 数据跨境（天津电信）",
@@ -1467,7 +1491,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-17T09:26:59.734486",
+  "_last_cleanup": "2026-08-17T09:40:50.309225",
   "_cleanup_stats": {
     "dup_title_date": 4,
     "superseded": 8,
