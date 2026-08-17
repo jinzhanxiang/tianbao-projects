@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-17T17:43:20+08:00",
+  "generated_at": "2026-08-17T18:45:45+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 53,
+  "total": 54,
   "total_active": 48,
-  "total_archived_cached": 5,
+  "total_archived_cached": 6,
   "by_code": {
     "sexual-harassment-rights-path": [
       {
@@ -442,6 +442,19 @@
       }
     ],
     "觅蜂_华依合作": [
+      {
+        "code": "觅蜂_华依合作",
+        "date": "2026-08-17",
+        "category": "未分类",
+        "title": "华依科技来访谈参 · 精简版 · 2026-08-19",
+        "file": "华依科技来访谈参_20260817.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/觅蜂_华依合作/output/华依科技来访谈参_20260817.html",
+        "size": 27036,
+        "mtime": "2026-08-17T18:27:26+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%A7%85%E8%9C%82_%E5%8D%8E%E4%BE%9D%E5%90%88%E4%BD%9C/%E8%A7%85%E8%9C%82_%E5%8D%8E%E4%BE%9D%E5%90%88%E4%BD%9C%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%85%A5%E8%82%A1%E4%BC%B0%E5%80%BC_V25.1.18_20260806.html",
+        "_archived": true
+      },
       {
         "code": "觅蜂_华依合作",
         "date": "2026-08-06",
@@ -977,6 +990,19 @@
         "mtime": "2026-07-27T12:07:40+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%A5%A5%E8%81%94%E7%94%B5%E5%AD%90/%E5%A5%A5%E8%81%94%E7%94%B5%E5%AD%90_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_V25_20260727.html"
+      },
+      {
+        "code": "觅蜂_华依合作",
+        "date": "2026-08-17",
+        "category": "未分类",
+        "title": "华依科技来访谈参 · 精简版 · 2026-08-19",
+        "file": "华依科技来访谈参_20260817.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/觅蜂_华依合作/output/华依科技来访谈参_20260817.html",
+        "size": 27036,
+        "mtime": "2026-08-17T18:27:26+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%A7%85%E8%9C%82_%E5%8D%8E%E4%BE%9D%E5%90%88%E4%BD%9C/%E8%A7%85%E8%9C%82_%E5%8D%8E%E4%BE%9D%E5%90%88%E4%BD%9C%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%85%A5%E8%82%A1%E4%BC%B0%E5%80%BC_V25.1.18_20260806.html",
+        "_archived": true
       },
       {
         "code": "觅蜂_华依合作",
@@ -1683,7 +1709,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-17T17:43:20.796320",
+  "_last_cleanup": "2026-08-17T18:45:45.979355",
   "_cleanup_stats": {
     "dup_title_date": 3,
     "superseded": 5,
