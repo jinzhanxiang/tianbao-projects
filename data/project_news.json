@@ -1,9 +1,89 @@
 {
-  "generated_at": "2026-08-18T05:22:58+08:00",
+  "generated_at": "2026-08-18T05:32:16+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 20,
   "by_industry": {
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "纳川股份(300198)-公司公告-纳川股份:关于公司参与设立新能源产业股权投资基金收购星恒电源股份有限公司部分股权的公告-股票行情中心-搜狐证券",
+        "summary": "2019年6月5日 - 现将产业股权投资基金投资情况公告如下:一、产业股权投资基金对外投资的基本情况启源纳川与星恒电源股份有限公司(以下简称“星恒电源”、 “标的公司...",
+        "url": "http://q.stock.sohu.com/cn,gg,300198,2563038186.shtml",
+        "source": "q.stock.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 6.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+        "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+        "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+        "source": "ggjd.cnstock.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+        "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+        "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 5.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+        "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+        "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.5,
+        "query": "\"星恒电源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "21 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -58,34 +138,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-        "url": "https://new.qq.com/rain/a/20221011A07M2700",
-        "source": "new.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "速迈医疗 新闻 2026"
-      },
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-        "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
-        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-        "source": "www.pharnexcloud.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "速迈医疗 新闻 2026"
-      }
-    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -99,34 +151,6 @@
         "fetched_at": "2026-08-18",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "21 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "半导体": [
@@ -257,6 +281,45 @@
   },
   "items": [
     {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "纳川股份(300198)-公司公告-纳川股份:关于公司参与设立新能源产业股权投资基金收购星恒电源股份有限公司部分股权的公告-股票行情中心-搜狐证券",
+      "summary": "2019年6月5日 - 现将产业股权投资基金投资情况公告如下:一、产业股权投资基金对外投资的基本情况启源纳川与星恒电源股份有限公司(以下简称“星恒电源”、 “标的公司...",
+      "url": "http://q.stock.sohu.com/cn,gg,300198,2563038186.shtml",
+      "source": "q.stock.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 6.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "常州锂源与星恒电源签约磷酸锰铁锂项目战略合作协议-公告解读-上市公司-上海证券报·中国证券网",
+      "summary": "上证报中国证券网讯来自龙蟠科技的消息显示,公司旗下常州锂源公司与星恒电源在苏州市高新区就磷酸锰铁锂正极材料项目签署战略合作协议。根据协议,常州...",
+      "url": "https://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj/202204/4867718.htm",
+      "source": "ggjd.cnstock.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源(A21355)公告列表 _ 数据中心 _ 东方财富网",
+      "summary": "2006年1月1日 - 东方财富网研报中心提供沪深两市最全面的上市公司公告信息,第一时间提供各上市公司最新公告,深入解析上市公司最新变化、重大事项。最大程度减少个人投...",
+      "url": "https://data.eastmoney.com/notices/stock/A21355.html",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 5.5,
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -270,17 +333,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-      "url": "https://new.qq.com/rain/a/20221011A07M2700",
-      "source": "new.qq.com",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "CMC资本、金通资本对滁州星恒电源进行战略投资|锂电池|cmc_网易订阅",
+      "summary": "此次投资,将有助于滁州星恒电源进一步扩大产能、提升技术实力,以及加速市场拓展.更多文中提及企业信息请点击链接:滁州星恒电源...",
+      "url": "https://www.163.com/dy/article/JGGMCE7J05118K7K.html",
+      "source": "www.163.com",
       "date": "",
       "fetched_at": "2026-08-18",
       "score": 4.5,
-      "query": "速迈医疗 新闻 2026"
+      "query": "\"星恒电源\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -294,19 +357,6 @@
       "fetched_at": "2026-08-18",
       "score": 4.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-      "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
-      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-      "source": "www.pharnexcloud.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "速迈医疗 新闻 2026"
     },
     {
       "code": "huayt",
@@ -348,19 +398,6 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -372,6 +409,19 @@
       "fetched_at": "2026-08-18",
       "score": 2.5,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -400,8 +450,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新浪网",
       "summary": "21 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
