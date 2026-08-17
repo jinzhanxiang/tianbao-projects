@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T02:36:33+08:00",
+  "generated_at": "2026-08-18T02:48:31+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -58,6 +58,73 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+        "source": "www.vzkoo.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -99,34 +166,6 @@
         "fetched_at": "2026-08-18",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -255,6 +294,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 3.5,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -340,6 +392,32 @@
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
       "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
       "source": "www.deloitte.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+      "source": "www.vzkoo.com",
       "date": "",
       "fetched_at": "2026-08-18",
       "score": 2.0,
