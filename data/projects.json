@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:27:12+08:00",
+  "generated_at": "2026-08-17T09:40:54+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 25,
   "stage_v3_enum": [
@@ -440,20 +440,20 @@
       "iss": "未上市",
       "industry": "AI智能",
       "industry_detail": "可信数据空间",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/mifeng/%E8%A7%85%E8%9C%82_%E5%8D%8E%E4%BE%9D%E5%90%88%E4%BD%9C%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%85%A5%E8%82%A1%E4%BC%B0%E5%80%BC_V25.1.18_20260806.html",
+      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/mifeng/%E5%A4%A9%E4%BF%9D%E4%BA%BA%E5%8A%9B_%E5%8F%AF%E4%BF%A1%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E4%B8%9A%E5%8A%A1_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260817.html",
       "dashboard_url": "",
       "online_index": "",
       "repo": "",
       "local_folder": "",
       "folder_alias": "",
-      "report_count": 3,
+      "report_count": 4,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "觅蜂（可信数据空间）· 初步分析阶段 · 详见报告库",
       "estimation": "—",
       "downgrade_reason": "觅蜂为华依科技介绍项目，与华依科技存在业务合作",
       "deploy_date": "2026",
-      "last_update": "2026-08-10",
+      "last_update": "2026-08-17",
       "notes": "2026-08-13 新增：华依科技合作方，业务关联；研究报告已存在于 reports/ 目录",
       "pending_tasks": "",
       "archived": false
@@ -863,7 +863,7 @@
       {
         "code": "mifeng",
         "name_cn": "觅蜂",
-        "count": 3
+        "count": 4
       },
       {
         "code": "hongyi",
