@@ -1,35 +1,61 @@
 {
-  "generated_at": "2026-08-17T09:54:19+08:00",
+  "generated_at": "2026-08-17T10:06:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 12,
+  "total": 20,
   "by_industry": {
-    "新能源": [
+    "高端制造": [
       {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+        "url": "https://quote.eastmoney.com/sz002906.html",
+        "source": "quote.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-17",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
       },
       {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "2 天之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
         "date": "",
         "fetched_at": "2026-08-17",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团人力资源招聘系统",
+        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+        "url": "https://zhaopin.ymjt.com.cn/index.html",
+        "source": "zhaopin.ymjt.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
       }
     ],
     "半导体": [
@@ -58,6 +84,34 @@
         "fetched_at": "2026-08-17",
         "score": 2.0,
         "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "2 天之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -116,8 +170,8 @@
     ],
     "低空航空": [
       {
-        "code": "haite",
-        "company": "海特高新",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
         "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
@@ -129,8 +183,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -142,8 +196,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -156,6 +210,58 @@
       }
     ],
     "其他行业": [
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+        "source": "znyncj.qiannan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "2026年汽车行业政策调整:新能源车购置税恢复征收5%_新浪财经_新浪网",
+        "summary": "全国性的以旧换新补贴得以优化延续,但新能源汽车免征车辆购置税的政策自2026年1月1日起部分退坡,预计将恢复征收5%的购置税(设减免上限).根据...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtah5796670.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "fxpp",
+        "company": "5个标的反向匹配汇总",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "明确2026年 两新 政策的.《关于2026年实施大规模设备更新...",
+        "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202512/t20251231_2704779.shtml",
+        "source": "sw.wuhan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
       {
         "code": "acquisition-listed",
         "company": "收购上市公司研究",
@@ -173,17 +279,56 @@
   },
   "items": [
     {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+      "url": "https://quote.eastmoney.com/sz002906.html",
+      "source": "quote.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-17",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州华阳通用电子有限公司官方网站",
+      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+      "url": "https://www.foryouge.com/",
+      "source": "www.foryouge.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团人力资源招聘系统",
+      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+      "url": "https://zhaopin.ymjt.com.cn/index.html",
+      "source": "zhaopin.ymjt.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "jngd",
@@ -199,6 +344,19 @@
       "query": "半导体 行业 政策 2026"
     },
     {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -212,8 +370,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
       "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
@@ -223,6 +381,58 @@
       "fetched_at": "2026-08-17",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+      "source": "znyncj.qiannan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "2026年汽车行业政策调整:新能源车购置税恢复征收5%_新浪财经_新浪网",
+      "summary": "全国性的以旧换新补贴得以优化延续,但新能源汽车免征车辆购置税的政策自2026年1月1日起部分退坡,预计将恢复征收5%的购置税(设减免上限).根据...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtah5796670.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "fxpp",
+      "company": "5个标的反向匹配汇总",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "明确2026年 两新 政策的.《关于2026年实施大规模设备更新...",
+      "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202512/t20251231_2704779.shtml",
+      "source": "sw.wuhan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "jngd",
@@ -303,8 +513,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -316,8 +526,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
