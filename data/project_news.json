@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T03:19:54+08:00",
+  "generated_at": "2026-08-18T03:30:27+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -185,6 +185,58 @@
     ],
     "其他行业": [
       {
+        "code": "sexual-harassment-rights-path",
+        "company": "sexual-harassment-rights-path",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "sexual-harassment-rights-path",
+        "company": "sexual-harassment-rights-path",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+        "source": "znyncj.qiannan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "sexual-harassment-rights-path",
+        "company": "sexual-harassment-rights-path",
+        "industry": "其他行业",
+        "title": "2026年汽车行业政策调整:新能源车购置税恢复征收5%_新浪财经_新浪网",
+        "summary": "全国性的以旧换新补贴得以优化延续,但新能源汽车免征车辆购置税的政策自2026年1月1日起部分退坡,预计将恢复征收5%的购置税(设减免上限).根据...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtah5796670.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "sexual-harassment-rights-path",
+        "company": "sexual-harassment-rights-path",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "明确2026年 两新 政策的.《关于2026年实施大规模设备更新...",
+        "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202512/t20251231_2704779.shtml",
+        "source": "sw.wuhan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
         "code": "acquisition-listed",
         "company": "收购上市公司研究",
         "industry": "其他行业",
@@ -331,6 +383,58 @@
       "fetched_at": "2026-08-18",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "sexual-harassment-rights-path",
+      "company": "sexual-harassment-rights-path",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "sexual-harassment-rights-path",
+      "company": "sexual-harassment-rights-path",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+      "source": "znyncj.qiannan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "sexual-harassment-rights-path",
+      "company": "sexual-harassment-rights-path",
+      "industry": "其他行业",
+      "title": "2026年汽车行业政策调整:新能源车购置税恢复征收5%_新浪财经_新浪网",
+      "summary": "全国性的以旧换新补贴得以优化延续,但新能源汽车免征车辆购置税的政策自2026年1月1日起部分退坡,预计将恢复征收5%的购置税(设减免上限).根据...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtah5796670.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "sexual-harassment-rights-path",
+      "company": "sexual-harassment-rights-path",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "明确2026年 两新 政策的.《关于2026年实施大规模设备更新...",
+      "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202512/t20251231_2704779.shtml",
+      "source": "sw.wuhan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "jngd",
