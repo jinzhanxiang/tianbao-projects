@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T08:15:56+08:00",
+  "generated_at": "2026-08-17T08:25:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 16,
   "by_industry": {
     "高端制造": [
       {
@@ -147,6 +147,19 @@
         "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
         "url": "https://reits.szse.cn/",
         "source": "reits.szse.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-sx",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "离婚后我有了读心术by一颗奶糖最新章节全集,在线阅读 ...",
+        "summary": "【宿主大大，今天您还是不打算离婚吗？您的奖励已经叠满了哦，现在离婚，您就能瞬间成为全宇宙最厉害的存在哦~】 蓝星，大夏国 …",
+        "url": "https://yunqi.qq.com/bqq/skwzurzf",
+        "source": "yunqi.qq.com",
         "date": "",
         "fetched_at": "2026-08-17",
         "score": 1.5,
@@ -405,6 +418,19 @@
       "fetched_at": "2026-08-17",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "unicom-sx",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "离婚后我有了读心术by一颗奶糖最新章节全集,在线阅读 ...",
+      "summary": "【宿主大大，今天您还是不打算离婚吗？您的奖励已经叠满了哦，现在离婚，您就能瞬间成为全宇宙最厉害的存在哦~】 蓝星，大夏国 …",
+      "url": "https://yunqi.qq.com/bqq/skwzurzf",
+      "source": "yunqi.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
