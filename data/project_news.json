@@ -1,115 +1,9 @@
 {
-  "generated_at": "2026-08-18T04:36:43+08:00",
+  "generated_at": "2026-08-18T04:46:01+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 26,
+  "total": 19,
   "by_industry": {
-    "REITS类资产": [
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-        "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-        "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-        "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-        "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-        "source": "k.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "小鹏汇天:飞行汽车将在2026年量产交付_腾讯新闻",
-        "summary": "2025年1月8日 - 小鹏汇天官方表示,目前,小鹏汇天飞行汽车智造基地已在建设中,这是全球首个利用现代化流水线进行大规模量产的飞行汽车工厂。 该工厂将用于生产分体式飞...",
-        "url": "https://news.qq.com/rain/a/20250108A02B1C00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-        "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-        "url": "https://www.ifnews.com/news.html?aid=769436",
-        "source": "www.ifnews.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "汇天 新闻 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
-        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
-        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "REITs专栏 | 上海证券交易所",
-        "summary": "20 小时之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产 …",
-        "url": "https://www.sse.com.cn/reits/home/",
-        "source": "www.sse.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -164,77 +58,10 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
-        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
-        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
-        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
-        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
-        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
-        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
-        "source": "www.vzkoo.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "新能源": [
       {
-        "code": "大同新荣合邦新能源",
-        "company": "大同新荣合邦新能源",
+        "code": "xunchao",
+        "company": "迅巢科技",
         "industry": "新能源",
         "title": "2025年11月21日市政府新闻发布会问答实录 ——上海市人民政府新闻办公室",
         "summary": "我们构建了以美丽大健康、绿色新能源、通用新材料、数智新装备为代表的四大特色产业集群,2024年规上工业产值达2277亿元,支撑作用日益强劲...",
@@ -259,8 +86,8 @@
         "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "大同新荣合邦新能源",
-        "company": "大同新荣合邦新能源",
+        "code": "xunchao",
+        "company": "迅巢科技",
         "industry": "新能源",
         "title": "人民网_网上的人民日报",
         "summary": "茶树施肥管护忙行进中国高质量发展故事汇人民日报图文数据库(1946-2026....把握好货币政策的力度与节奏澎湃电能为发展添动力金融精准助力外...",
@@ -272,8 +99,8 @@
         "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "大同新荣合邦新能源",
-        "company": "大同新荣合邦新能源",
+        "code": "xunchao",
+        "company": "迅巢科技",
         "industry": "新能源",
         "title": "2026-2031年中国新能源产业发展分析及前景趋势预测与发展战略研究报告_51行业报告网",
         "summary": "本新能源市场分析报告,首先是新能源相关概述,然后是新能源细分行业分析,接着是新能源行业重点企业经营状况分析,最后是新能源行业政策法规环境、新能源行业投资策... 仅限所...",
@@ -311,6 +138,88 @@
         "fetched_at": "2026-08-18",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "REITS类资产": [
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "REITs专栏 | 上海证券交易所",
+        "summary": "20 小时之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产 …",
+        "url": "https://www.sse.com.cn/reits/home/",
+        "source": "www.sse.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "公募REITs信息平台-首页",
+        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+        "url": "https://reits.szse.cn/",
+        "source": "reits.szse.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -359,45 +268,6 @@
   },
   "items": [
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付_腾讯新闻",
-      "summary": "2026年1月20日 - 鹅动鸾飞!小鹏汇天A868首飞成功,2026量产交付",
-      "url": "https://news.qq.com/rain/a/20260120V06GGM00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "小鹏汇天发布全倾转混电飞行汽车,陆地航母2026年规模化交付|小鹏汽车|小鹏汇天陆地航母|出行|飞行器|便利性_新浪新闻",
-      "summary": "同时,低空飞行商业化运营布局已经进入关键时期,汇天计划于2026年内在全国布局超过200家飞行营地.如今随着A868飞行器的亮相,汇天正式迈出了...",
-      "url": "http://k.sina.com.cn/article_5787187353_158f1789902001zurk.html",
-      "source": "k.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "小鹏汇天:飞行汽车将在2026年量产交付_腾讯新闻",
-      "summary": "2025年1月8日 - 小鹏汇天官方表示,目前,小鹏汇天飞行汽车智造基地已在建设中,这是全球首个利用现代化流水线进行大规模量产的飞行汽车工厂。 该工厂将用于生产分体式飞...",
-      "url": "https://news.qq.com/rain/a/20250108A02B1C00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "汇天 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -409,19 +279,6 @@
       "fetched_at": "2026-08-18",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中国飞行汽车闯迪拜!汇天签下中东600台订单,2026年开启量产交付--国际金融报社",
-      "summary": "同时,汇天宣布其位于中国广州的飞行汽车智造基地已于9月底全面竣工,为2026年量产交付做好生产准备。.10月12日,汇天在迪拜举办了 陆地航母 首...",
-      "url": "https://www.ifnews.com/news.html?aid=769436",
-      "source": "www.ifnews.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "汇天 新闻 2026"
     },
     {
       "code": "huayt",
@@ -437,21 +294,8 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
-      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
-      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "大同新荣合邦新能源",
-      "company": "大同新荣合邦新能源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "2025年11月21日市政府新闻发布会问答实录 ——上海市人民政府新闻办公室",
       "summary": "我们构建了以美丽大健康、绿色新能源、通用新材料、数智新装备为代表的四大特色产业集群,2024年规上工业产值达2277亿元,支撑作用日益强劲...",
@@ -541,8 +385,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "大同新荣合邦新能源",
-      "company": "大同新荣合邦新能源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "人民网_网上的人民日报",
       "summary": "茶树施肥管护忙行进中国高质量发展故事汇人民日报图文数据库(1946-2026....把握好货币政策的力度与节奏澎湃电能为发展添动力金融精准助力外...",
@@ -567,34 +411,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
-      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
-      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
-      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
-      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
-      "source": "www.vzkoo.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "大同新荣合邦新能源",
-      "company": "大同新荣合邦新能源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "2026-2031年中国新能源产业发展分析及前景趋势预测与发展战略研究报告_51行业报告网",
       "summary": "本新能源市场分析报告,首先是新能源相关概述,然后是新能源细分行业分析,接着是新能源行业重点企业经营状况分析,最后是新能源行业政策法规环境、新能源行业投资策... 仅限所...",
