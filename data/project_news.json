@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T02:00:33+08:00",
+  "generated_at": "2026-08-18T02:13:48+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -58,126 +58,130 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
+    "新能源": [
       {
-        "code": "海特飞机",
-        "company": "海特飞机",
-        "industry": "低空航空",
-        "title": "海特高新在第55届航展期间签约了多个重要合作项目。海特高新旗下的天津海特飞机工程_财富号_东方财富网",
-        "summary": "天津海特飞机工程有限公司的签约情况:天津海特飞机工程有限公司在航展期间与Airbus、Embraer、Panasonic Aviation、 Comac 等合作客户进行...",
-        "url": "https://caifuhao.eastmoney.com/news/20250623203235253546040",
-        "source": "caifuhao.eastmoney.com",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
+        "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
+        "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
+        "source": "www.worldmr.net",
         "date": "",
         "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "\"海特飞机\" 公告 签约 中标 投资"
+        "score": 5.0,
+        "query": "星恒电源 新闻 2026"
       },
       {
-        "code": "海特飞机",
-        "company": "海特飞机",
-        "industry": "低空航空",
-        "title": "中证解读:海特高新定增募集16.7亿投多个航空项目_中证网",
-        "summary": "海特高新表示,此次定增将主要投向如下几个项目分别为天津海特飞机维修基地2号维修机库建设项目、新型航空动力控制系统的研发与制造项目、新...",
-        "url": "https://www.cs.com.cn/ssgs/gsxw/201501/t20150114_4618219.html",
-        "source": "www.cs.com.cn",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "V观财报|三木集团:星恒电源等创投项目正在积极退出中_腾讯新闻",
+        "summary": "2025年12月31日 - 【V观财报|三木集团:星恒电源等创投项目正在积极退出中】三木集团在深交所互动易平台表示,公司近期向关联方福州保税港国利集团出售75套房产,主要目的...",
+        "url": "https://news.qq.com/rain/a/20251231A044C200",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "\"海特飞机\" 公告 签约 中标 投资"
+        "score": 4.5,
+        "query": "星恒电源 新闻 2026"
       },
       {
-        "code": "海特飞机",
-        "company": "海特飞机",
-        "industry": "低空航空",
-        "title": "签约交付!海特、安胜珠海航展达成多项重要签约-齐鲁晚报网",
-        "summary": "海特集团子公司天津海特飞机工程有限公司(以下简称 天津海特 )、安胜(天津)飞行模拟系统有限公司(以下简称 安胜公司 )一起亮相本届航展,达成多...",
-        "url": "http://www.qlwb.com.cn/detail/25103746.html",
-        "source": "www.qlwb.com.cn",
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "星恒电源-北极星电力新闻网",
+        "summary": "北极星电力新闻网为您提供星恒电源相关新闻,了解星恒电源最新相关的报道政策招投标等相关信息,就来北极星电力新闻网。 北极星为您找到 星恒电...",
+        "url": "https://news.bjx.com.cn/topics/xinghengdianyuan/",
+        "source": "news.bjx.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
+        "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
+        "url": "https://www.jobui.com/company/12781277/news/",
+        "source": "www.jobui.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "星恒电源 新闻 2026"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-18",
         "score": 2.5,
-        "query": "\"海特飞机\" 公告 签约 中标 投资"
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "18 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-18",
         "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-        "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-        "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-        "source": "bj.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-        "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-        "url": "https://www.szmhzs.com/news/14.html",
-        "source": "www.szmhzs.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中汇天合工程管理有限公司最新中标公告|招标网",
-        "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
-        "source": "qy.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
-      },
       {
         "code": "unicom-idc",
         "company": "四川 IDC",
@@ -231,77 +235,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "18 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -315,6 +248,34 @@
         "fetched_at": "2026-08-18",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
       }
     ]
   },
@@ -333,17 +294,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "海特飞机",
-      "company": "海特飞机",
-      "industry": "低空航空",
-      "title": "海特高新在第55届航展期间签约了多个重要合作项目。海特高新旗下的天津海特飞机工程_财富号_东方财富网",
-      "summary": "天津海特飞机工程有限公司的签约情况:天津海特飞机工程有限公司在航展期间与Airbus、Embraer、Panasonic Aviation、 Comac 等合作客户进行...",
-      "url": "https://caifuhao.eastmoney.com/news/20250623203235253546040",
-      "source": "caifuhao.eastmoney.com",
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
+      "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
+      "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
+      "source": "www.worldmr.net",
       "date": "",
       "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "\"海特飞机\" 公告 签约 中标 投资"
+      "score": 5.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "V观财报|三木集团:星恒电源等创投项目正在积极退出中_腾讯新闻",
+      "summary": "2025年12月31日 - 【V观财报|三木集团:星恒电源等创投项目正在积极退出中】三木集团在深交所互动易平台表示,公司近期向关联方福州保税港国利集团出售75套房产,主要目的...",
+      "url": "https://news.qq.com/rain/a/20251231A044C200",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.5,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "星恒电源-北极星电力新闻网",
+      "summary": "北极星电力新闻网为您提供星恒电源相关新闻,了解星恒电源最新相关的报道政策招投标等相关信息,就来北极星电力新闻网。 北极星为您找到 星恒电...",
+      "url": "https://news.bjx.com.cn/topics/xinghengdianyuan/",
+      "source": "news.bjx.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "星恒电源 新闻 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
+      "industry": "新能源",
+      "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
+      "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
+      "url": "https://www.jobui.com/company/12781277/news/",
+      "source": "www.jobui.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "星恒电源 新闻 2026"
     },
     {
       "code": "huayt",
@@ -357,58 +357,6 @@
       "fetched_at": "2026-08-18",
       "score": 4.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-      "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-      "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-      "source": "bj.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-      "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-      "url": "https://www.szmhzs.com/news/14.html",
-      "source": "www.szmhzs.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中汇天合工程管理有限公司最新中标公告|招标网",
-      "summary": "2026年4月3日 - 招标网提供有关中汇天合工程管理有限公司的最新招标结果,每天实时更新中标信息,想了解中汇天合工程管理有限公司更多详细动态,精准匹配供应商需求,尽在...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_d3b79844dadf1631005f66a147b9f35a_zhongbiao_1.html",
-      "source": "qy.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -437,19 +385,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "海特飞机",
-      "company": "海特飞机",
-      "industry": "低空航空",
-      "title": "中证解读:海特高新定增募集16.7亿投多个航空项目_中证网",
-      "summary": "海特高新表示,此次定增将主要投向如下几个项目分别为天津海特飞机维修基地2号维修机库建设项目、新型航空动力控制系统的研发与制造项目、新...",
-      "url": "https://www.cs.com.cn/ssgs/gsxw/201501/t20150114_4618219.html",
-      "source": "www.cs.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "\"海特飞机\" 公告 签约 中标 投资"
-    },
-    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -476,8 +411,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
@@ -502,19 +437,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "海特飞机",
-      "company": "海特飞机",
-      "industry": "低空航空",
-      "title": "签约交付!海特、安胜珠海航展达成多项重要签约-齐鲁晚报网",
-      "summary": "海特集团子公司天津海特飞机工程有限公司(以下简称 天津海特 )、安胜(天津)飞行模拟系统有限公司(以下简称 安胜公司 )一起亮相本届航展,达成多...",
-      "url": "http://www.qlwb.com.cn/detail/25103746.html",
-      "source": "www.qlwb.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "\"海特飞机\" 公告 签约 中标 投资"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -528,8 +450,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "xingheng",
-      "company": "星恒电源",
+      "code": "xunchao",
+      "company": "迅巢科技",
       "industry": "新能源",
       "title": "新浪网",
       "summary": "18 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
