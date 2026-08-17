@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T18:46:28+08:00",
+  "generated_at": "2026-08-17T19:23:16+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 16,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,47 @@
         "fetched_at": "2026-08-17",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "High-end 高端，高档 - Chinadaily.com.cn",
+        "summary": "2022年4月26日 · 今日短语 High-end 高端，高档 今日短语 合成形容词 “high-end” 的意思是 “高端的，高档的”，这类产品往往面向寻求 …",
+        "url": "https://language.chinadaily.com.cn/a/202204/26/WS62678a5ba310fd2b29e5966c.html",
+        "source": "language.chinadaily.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 1.5,
+        "query": "高端制造 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "《可信数据空间创新发展报告（2025）》发布-国家数据局",
+        "summary": "2025年8月29日 · 可信数据空间发展联盟秘书长、中国信息通信研究院总工程师敖立对报告进行解读。 今年，国家数据局组织开展了首 …",
+        "url": "https://www.nda.gov.cn/sjj/ywpd/sjzy/0901/20250829085131590048920_pc.html",
+        "source": "www.nda.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 5.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-17",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -118,7 +159,7 @@
         "company": "星恒电源",
         "industry": "新能源",
         "title": "新浪网",
-        "summary": "10 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+        "summary": "11 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
         "url": "https://www.sina.com.cn/",
         "source": "www.sina.com.cn",
         "date": "",
@@ -199,6 +240,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "《可信数据空间创新发展报告（2025）》发布-国家数据局",
+      "summary": "2025年8月29日 · 可信数据空间发展联盟秘书长、中国信息通信研究院总工程师敖立对报告进行解读。 今年，国家数据局组织开展了首 …",
+      "url": "https://www.nda.gov.cn/sjj/ywpd/sjzy/0901/20250829085131590048920_pc.html",
+      "source": "www.nda.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 5.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -238,6 +292,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 3.0,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -255,7 +322,7 @@
       "company": "星恒电源",
       "industry": "新能源",
       "title": "新浪网",
-      "summary": "10 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
+      "summary": "11 小时之前 · 新能源 全新宝马iX3、比亚迪海狮08……部分热门SUV前瞻 10万级新能源SUV深度实测，五菱星光L和长安启源Q07表现 …",
       "url": "https://www.sina.com.cn/",
       "source": "www.sina.com.cn",
       "date": "",
@@ -275,6 +342,19 @@
       "fetched_at": "2026-08-17",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "High-end 高端，高档 - Chinadaily.com.cn",
+      "summary": "2022年4月26日 · 今日短语 High-end 高端，高档 今日短语 合成形容词 “high-end” 的意思是 “高端的，高档的”，这类产品往往面向寻求 …",
+      "url": "https://language.chinadaily.com.cn/a/202204/26/WS62678a5ba310fd2b29e5966c.html",
+      "source": "language.chinadaily.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-17",
+      "score": 1.5,
+      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
