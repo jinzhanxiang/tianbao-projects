@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T04:08:44+08:00",
+  "generated_at": "2026-08-18T04:18:03+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -19,6 +19,45 @@
         "query": "华阳 新闻 2026"
       },
       {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯张家口公司投产仪式顺利举行_生产_项目_复合材料",
+        "summary": "出席此次投产仪式的有张家口宣化区区委、区政府领导,三一重能、张宣科技、中复碳芯等公司领导。.张家口公司项目位于张宣科技厂区,是中复碳芯...",
+        "url": "http://news.sohu.com/a/648906414_121124370",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 5.5,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯:国家级 专精特新 小巨人是如何炼成的_腾讯新闻",
+        "summary": "作为拉挤碳纤维复合材料领域的领军者,中国建材集团所属企业中复碳芯电缆科技有限公司(简称中复碳芯)是近年来中国建材集团聚焦主业进行科技...",
+        "url": "https://news.qq.com/rain/a/20240719A02G7P00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.5,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "三一重能入股中复碳芯_腾讯新闻",
+        "summary": "2024年11月26日 - 天眼查App显示,近日,中复碳芯电缆科技有限公司(以下简称 中复碳芯 )发生工商变更,新增三一重能(688349)为股东,同时注册资本由8880万人民币增至9346万...",
+        "url": "https://news.qq.com/rain/a/20241126A09Q8400?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.5,
+        "query": "中复碳芯 新闻 2026"
+      },
+      {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
@@ -30,6 +69,19 @@
         "fetched_at": "2026-08-18",
         "score": 4.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯2026年T300级别碳纤维采购(招标公告)-江苏招标网",
+        "summary": "2025年12月1日 - 中复碳芯电缆科技有限公司 数据获取中.江苏连云港连云2026-04-17分享打开微信 扫一扫 打开网页后点击屏幕右上角 分享 按钮...",
+        "url": "https://js.bidizhaobiao.com/info-761486343.html",
+        "source": "js.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "中复碳芯 新闻 2026"
       },
       {
         "code": "huayt",
@@ -242,6 +294,45 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯张家口公司投产仪式顺利举行_生产_项目_复合材料",
+      "summary": "出席此次投产仪式的有张家口宣化区区委、区政府领导,三一重能、张宣科技、中复碳芯等公司领导。.张家口公司项目位于张宣科技厂区,是中复碳芯...",
+      "url": "http://news.sohu.com/a/648906414_121124370",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 5.5,
+      "query": "中复碳芯 新闻 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯:国家级 专精特新 小巨人是如何炼成的_腾讯新闻",
+      "summary": "作为拉挤碳纤维复合材料领域的领军者,中国建材集团所属企业中复碳芯电缆科技有限公司(简称中复碳芯)是近年来中国建材集团聚焦主业进行科技...",
+      "url": "https://news.qq.com/rain/a/20240719A02G7P00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.5,
+      "query": "中复碳芯 新闻 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "三一重能入股中复碳芯_腾讯新闻",
+      "summary": "2024年11月26日 - 天眼查App显示,近日,中复碳芯电缆科技有限公司(以下简称 中复碳芯 )发生工商变更,新增三一重能(688349)为股东,同时注册资本由8880万人民币增至9346万...",
+      "url": "https://news.qq.com/rain/a/20241126A09Q8400?media_id&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.5,
+      "query": "中复碳芯 新闻 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -253,6 +344,19 @@
       "fetched_at": "2026-08-18",
       "score": 4.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯2026年T300级别碳纤维采购(招标公告)-江苏招标网",
+      "summary": "2025年12月1日 - 中复碳芯电缆科技有限公司 数据获取中.江苏连云港连云2026-04-17分享打开微信 扫一扫 打开网页后点击屏幕右上角 分享 按钮...",
+      "url": "https://js.bidizhaobiao.com/info-761486343.html",
+      "source": "js.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "中复碳芯 新闻 2026"
     },
     {
       "code": "huayt",
