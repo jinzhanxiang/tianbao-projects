@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:06:26+08:00",
+  "generated_at": "2026-08-17T10:15:04+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 25,
   "stage_v3_enum": [
@@ -446,14 +446,14 @@
       "repo": "",
       "local_folder": "",
       "folder_alias": "",
-      "report_count": 4,
+      "report_count": 3,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "觅蜂（可信数据空间）· 初步分析阶段 · 详见报告库",
       "estimation": "—",
       "downgrade_reason": "觅蜂为华依科技介绍项目，与华依科技存在业务合作",
       "deploy_date": "2026",
-      "last_update": "2026-08-17",
+      "last_update": "2026-08-10",
       "notes": "2026-08-13 新增：华依科技合作方，业务关联；研究报告已存在于 reports/ 目录",
       "pending_tasks": "",
       "archived": false
@@ -863,7 +863,7 @@
       {
         "code": "mifeng",
         "name_cn": "觅蜂",
-        "count": 4
+        "count": 3
       },
       {
         "code": "hongyi",
