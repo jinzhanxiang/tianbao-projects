@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T21:27:16+08:00",
+  "generated_at": "2026-08-18T21:40:18+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,99 @@
         "fetched_at": "2026-08-18",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
+        "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
+        "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
+        "source": "www.chinamae.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标结果公示丨光速招标海量免费标讯",
+        "summary": "2026年1月8日 - 信息标题:河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标结果公示 所属地区:河南省 发布时间:2026-01-08..中标公告河...",
+        "url": "https://www.guangsuzb.com/succeed_v_2009423944810942470.html",
+        "source": "www.guangsuzb.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
+        "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
+        "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
+        "source": "www.jrzb.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "贵州航天精工制造有限公司原材料采购中标公告",
+        "summary": "2025年8月17日 - [中标结果]哈尔滨市DL09-C-11、DL09-D-04地块项目续建工程施工预拌混凝土采购成交公告2025-11-22.各有关单位请与公告中招标负责人接洽联系,及时开展投...",
+        "url": "https://www.okcis.cn/20250817-n3-20250817162347401780.html",
+        "source": "www.okcis.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
+        "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
+        "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
+        "source": "www.xinhuanet.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
       }
     ],
     "半导体": [
@@ -166,47 +259,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "低空航空": [
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
-        "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
-        "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
-        "source": "www.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
     "新能源": [
       {
         "code": "xingheng",
@@ -231,6 +283,19 @@
         "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
         "url": "https://news.qq.com/rain/a/20241213A044ZE00",
         "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "天保基建",
+        "company": "天保基建",
+        "industry": "其他行业",
+        "title": "两性科普:见的错误手淫方式，你中招了吗?_射精_摩擦_阴茎",
+        "summary": "2021年12月26日 · 错误的撸管方式有哪些? 一、错误自慰：男子自慰式比较简单，基本都是采取前后摩擦的方式，有的男子从开始自慰 …",
+        "url": "https://www.sohu.com/a/511722095_120099902",
+        "source": "www.sohu.com",
         "date": "",
         "fetched_at": "2026-08-18",
         "score": 1.5,
@@ -264,6 +329,58 @@
       "fetched_at": "2026-08-18",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
+      "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
+      "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
+      "source": "www.chinamae.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标结果公示丨光速招标海量免费标讯",
+      "summary": "2026年1月8日 - 信息标题:河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标结果公示 所属地区:河南省 发布时间:2026-01-08..中标公告河...",
+      "url": "https://www.guangsuzb.com/succeed_v_2009423944810942470.html",
+      "source": "www.guangsuzb.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
+      "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
+      "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
+      "source": "www.jrzb.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "贵州航天精工制造有限公司原材料采购中标公告",
+      "summary": "2025年8月17日 - [中标结果]哈尔滨市DL09-C-11、DL09-D-04地块项目续建工程施工预拌混凝土采购成交公告2025-11-22.各有关单位请与公告中招标负责人接洽联系,及时开展投...",
+      "url": "https://www.okcis.cn/20250817-n3-20250817162347401780.html",
+      "source": "www.okcis.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
     },
     {
       "code": "jngd",
@@ -459,6 +576,19 @@
       "fetched_at": "2026-08-18",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "天保基建",
+      "company": "天保基建",
+      "industry": "其他行业",
+      "title": "两性科普:见的错误手淫方式，你中招了吗?_射精_摩擦_阴茎",
+      "summary": "2021年12月26日 · 错误的撸管方式有哪些? 一、错误自慰：男子自慰式比较简单，基本都是采取前后摩擦的方式，有的男子从开始自慰 …",
+      "url": "https://www.sohu.com/a/511722095_120099902",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
     }
   ]
 }
