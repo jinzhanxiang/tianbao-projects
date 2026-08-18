@@ -1,37 +1,9 @@
 {
-  "generated_at": "2026-08-19T02:31:28+08:00",
+  "generated_at": "2026-08-19T02:45:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 20,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-        "url": "https://new.qq.com/rain/a/20221011A07M2700",
-        "source": "new.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.5,
-        "query": "速迈医疗 新闻 2026"
-      },
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-        "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
-        "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-        "source": "www.pharnexcloud.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.0,
-        "query": "速迈医疗 新闻 2026"
-      }
-    ],
     "半导体": [
       {
         "code": "jngd",
@@ -306,32 +278,6 @@
     ]
   },
   "items": [
-    {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-      "url": "https://new.qq.com/rain/a/20221011A07M2700",
-      "source": "new.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 4.5,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "北京速迈医疗科技有限公司投融资最新情况_摩熵医药",
-      "summary": "公司全称:北京速迈医疗科技有限公司.更多北京Biotech三闯IPO,领先罗氏拿下全球首款肾病单抗奥妥珠单抗系统性红斑狼疮肾病北京天广实生物技术股份有限公司动脉网-最新2026-0...",
-      "url": "https://www.pharnexcloud.com/trz/trz_50a2aa6d5cacea18d234f8c6b2f1f873",
-      "source": "www.pharnexcloud.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 4.0,
-      "query": "速迈医疗 新闻 2026"
-    },
     {
       "code": "jngd",
       "company": "晶能光电",
