@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-18T14:29:39+08:00",
+  "generated_at": "2026-08-18T14:42:05+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 19,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "筹划重组信鸿医疗东方海洋落子大健康产业财经门户,提供专业的财经、股票、基金资讯及数据",
-        "summary": "天津信鸿医疗科技股份有限公司(下称“信鸿医疗”),后者曾在新三板挂牌,是一家体外诊断行业医学实验室综合服务商。公司此番拟以发行股份购买资产及支付...",
-        "url": "https://emwap.eastmoney.com/news/info/detail/20180625894291711",
-        "source": "emwap.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "信鸿医疗(832941)新闻公告_个股行情_同花顺财经",
-        "summary": "2010年1月5日 - 提供信鸿医疗(832941)五档盘口、逐笔交易等实时行情数据;汇总信鸿医疗(832941)基本资料及重大新闻、研究报告及行业资讯,解读信鸿医疗(832941)主力资金...",
-        "url": "https://stockpage.10jqka.com.cn/832941/news/",
-        "source": "stockpage.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "信鸿医疗专题报道",
-        "summary": "作为一家医疗器械行业新三板上市企业,近年来,信鸿医疗在提供体外诊断产品的同时,更加关注产品贮存、配送过程中的质量要求.信鸿医疗采用封闭...",
-        "url": "http://www.tj-joinscience.com/xinwenzixun/qiyexinwen/2017/0303/307.html",
-        "source": "www.tj-joinscience.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "信鸿医疗 新闻 2026"
-      },
-      {
-        "code": "xinhong",
-        "company": "信鸿医疗",
-        "industry": "生物医药",
-        "title": "天津市东丽区市场监管局公示天津信鸿医疗科技股份有限公司飞行检查情况-中国质量新闻网",
-        "summary": "信息显示,经查,天津信鸿医疗科技股份有限公司经营质量管理体系存在不符合项。.天津瑞康盛世医疗科技有限公司飞行检查情况...",
-        "url": "https://www.cqn.com.cn/ms/content/2019-02/22/content_6801817.htm",
-        "source": "www.cqn.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "信鸿医疗 新闻 2026"
-      }
-    ],
     "半导体": [
       {
         "code": "jngd",
@@ -322,45 +268,6 @@
   },
   "items": [
     {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "筹划重组信鸿医疗东方海洋落子大健康产业财经门户,提供专业的财经、股票、基金资讯及数据",
-      "summary": "天津信鸿医疗科技股份有限公司(下称“信鸿医疗”),后者曾在新三板挂牌,是一家体外诊断行业医学实验室综合服务商。公司此番拟以发行股份购买资产及支付...",
-      "url": "https://emwap.eastmoney.com/news/info/detail/20180625894291711",
-      "source": "emwap.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "信鸿医疗(832941)新闻公告_个股行情_同花顺财经",
-      "summary": "2010年1月5日 - 提供信鸿医疗(832941)五档盘口、逐笔交易等实时行情数据;汇总信鸿医疗(832941)基本资料及重大新闻、研究报告及行业资讯,解读信鸿医疗(832941)主力资金...",
-      "url": "https://stockpage.10jqka.com.cn/832941/news/",
-      "source": "stockpage.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "信鸿医疗专题报道",
-      "summary": "作为一家医疗器械行业新三板上市企业,近年来,信鸿医疗在提供体外诊断产品的同时,更加关注产品贮存、配送过程中的质量要求.信鸿医疗采用封闭...",
-      "url": "http://www.tj-joinscience.com/xinwenzixun/qiyexinwen/2017/0303/307.html",
-      "source": "www.tj-joinscience.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "信鸿医疗 新闻 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -411,19 +318,6 @@
       "fetched_at": "2026-08-18",
       "score": 3.5,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "xinhong",
-      "company": "信鸿医疗",
-      "industry": "生物医药",
-      "title": "天津市东丽区市场监管局公示天津信鸿医疗科技股份有限公司飞行检查情况-中国质量新闻网",
-      "summary": "信息显示,经查,天津信鸿医疗科技股份有限公司经营质量管理体系存在不符合项。.天津瑞康盛世医疗科技有限公司飞行检查情况...",
-      "url": "https://www.cqn.com.cn/ms/content/2019-02/22/content_6801817.htm",
-      "source": "www.cqn.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "信鸿医疗 新闻 2026"
     },
     {
       "code": "huayt",
