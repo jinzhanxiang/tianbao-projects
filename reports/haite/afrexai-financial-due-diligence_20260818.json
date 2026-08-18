@@ -1,0 +1,252 @@
+{
+  "skill_slug": "afrexai-financial-due-diligence",
+  "report_date": "20260818",
+  "subject": "海特高新（002023.SZ）",
+  "data_cutoff": "2026-08-18",
+  "key_data_points": [
+    {
+      "id": "KPI-01",
+      "label": "2025 营业总收入",
+      "value": "15.5865 亿元",
+      "yoy": "+18.13%",
+      "source": "iFind Finance F9 财务摘要 + MX Data D1"
+    },
+    {
+      "id": "KPI-02",
+      "label": "2025 归母净利润",
+      "value": "-5.3451 亿元",
+      "yoy": "-854.08%",
+      "source": "iFind Finance F9 + MX Data D1"
+    },
+    {
+      "id": "KPI-03",
+      "label": "2025 经营性现金流净额",
+      "value": "+5.8437 亿元",
+      "yoy": "+38.18%",
+      "source": "iFind Finance F9 + MX Data D1"
+    },
+    {
+      "id": "KPI-04",
+      "label": "2025 销售毛利率",
+      "value": "31.59%",
+      "yoy": "+0.59pp",
+      "source": "iFind Finance F9 + MX Data D1"
+    },
+    {
+      "id": "KPI-05",
+      "label": "2025 资产负债率",
+      "value": "38.64%",
+      "yoy": "+0.64pp",
+      "source": "iFind Finance F9 + MX Data D1"
+    },
+    {
+      "id": "KPI-06",
+      "label": "2026Q1 营业总收入",
+      "value": "3.577 亿元",
+      "yoy": "+35.53%",
+      "source": "iFind Finance + MX Data D1"
+    },
+    {
+      "id": "KPI-07",
+      "label": "2026Q1 归母净利润",
+      "value": "+0.2551 亿元",
+      "yoy": "扭亏（+420%）",
+      "source": "iFind Finance + MX Data D1"
+    },
+    {
+      "id": "KPI-08",
+      "label": "2025 三季报归母",
+      "value": "+1.19 亿元",
+      "yoy": "+92.26%",
+      "source": "MX Data D1"
+    },
+    {
+      "id": "KPI-09",
+      "label": "Q4 单季倒推归母",
+      "value": "-6.54 亿元",
+      "yoy": "-1850%",
+      "source": "倒推：年报 -5.35 - 三季报 +1.19"
+    },
+    {
+      "id": "KPI-10",
+      "label": "总股本",
+      "value": "5.66 亿股",
+      "yoy": "—",
+      "source": "iFind Finance F9"
+    },
+    {
+      "id": "KPI-11",
+      "label": "股价（2026-04-27）",
+      "value": "12.75 元",
+      "yoy": "—",
+      "source": "Tushare daily_basic"
+    },
+    {
+      "id": "KPI-12",
+      "label": "总市值",
+      "value": "94.46 亿元",
+      "yoy": "—",
+      "source": "Tushare daily_basic"
+    },
+    {
+      "id": "KPI-13",
+      "label": "实控人持股",
+      "value": "13.16%（李飚）",
+      "yoy": "—",
+      "source": "iFind Finance F9 实际控制人持股"
+    },
+    {
+      "id": "KPI-14",
+      "label": "实控人质押",
+      "value": "1,780 万股 / 2022-07-06",
+      "yoy": "—",
+      "source": "iFind Finance FinQuery 关联交易明细"
+    },
+    {
+      "id": "KPI-15",
+      "label": "2025 销售商品收到现金",
+      "value": "18.01 亿元",
+      "yoy": "+21.69%",
+      "source": "iFind Finance F9"
+    },
+    {
+      "id": "KPI-16",
+      "label": "2025 折旧摊销",
+      "value": "2.27 亿元",
+      "yoy": "—",
+      "source": "iFind Finance F9"
+    },
+    {
+      "id": "KPI-17",
+      "label": "2025 CapEx",
+      "value": "1.27 亿元",
+      "yoy": "—",
+      "source": "iFind Finance F9"
+    },
+    {
+      "id": "KPI-18",
+      "label": "子公司穿透",
+      "value": "39 家",
+      "yoy": "—",
+      "source": "iFind Finance F9 控股参股公司 + KB 海特高新.md（38 关联实体）"
+    },
+    {
+      "id": "KPI-19",
+      "label": "关联交易 2024 实际",
+      "value": "1,876.15 万元",
+      "yoy": "—",
+      "source": "iFind Finance FinQuery"
+    },
+    {
+      "id": "KPI-20",
+      "label": "关联交易 2025 预计",
+      "value": "3,798 万元",
+      "yoy": "+102%",
+      "source": "iFind Finance FinQuery"
+    },
+    {
+      "id": "KPI-21",
+      "label": "正威金融仲裁胜诉",
+      "value": "12.89 亿元",
+      "yoy": "—",
+      "source": "iFind Finance FinQuery + KB 海特高新.md"
+    }
+  ],
+  "evidence_chain": [
+    {
+      "stage": "财务穿透",
+      "conclusion": "2025 巨亏 = Q4 集中计提一次性事件",
+      "evidence": "Q4 占比 84-100%（资产减值 3.20 + 公允价值 1.20 + 投资收益 2.10 + 营业外 0.45）"
+    },
+    {
+      "stage": "风险扫描",
+      "conclusion": "6 项严重红旗 + 7 项一般 + 9 项提示 = 23 项",
+      "evidence": "海威华芯持续亏损 / 应收账款激增 / 关联交易规模 / 实控人股权偏低 / 质押存在 / 客户结构高度集中"
+    },
+    {
+      "stage": "估值结论",
+      "conclusion": "建议收购对价 60-75 亿（基准 70 亿）",
+      "evidence": "DCF 71.4 + Comps 78-92 + Precedents 60-85 = 三路综合 70-95 亿（中枢 83 亿），扣除 30-35% 控制溢价 + 风险调整"
+    },
+    {
+      "stage": "穿透条件",
+      "conclusion": "5 项前置穿透条件",
+      "evidence": "(1) 2025Q4 资产减值明细；(2) 实控人股权质押变化；(3) 对外担保余额；(4) 境外 SPV 融资规模；(5) 关联交易公允性"
+    }
+  ],
+  "source_ref": "afrexai-financial-due-diligence_20260818.html（37,856 字节）",
+  "investment_thesis": {
+    "rating": "P1 谨慎推荐",
+    "target_price": "60-75 亿元（中枢 70 亿）",
+    "key_catalysts": [
+      "海威华芯重组",
+      "2026Q1 拐点持续验证",
+      "国资协同价值释放",
+      "低空经济政策落地"
+    ]
+  },
+  "skill_version": "V25.1.46",
+  "sections": {
+    "§3财务披露": {
+      "core_position": "2025 巨亏 = Q4 集中计提一次性事件，已出清；2026Q1 拐点 4 维验证",
+      "key_data_points": [
+        "2025 营收 15.59 亿 +18.13%",
+        "2025 归母 -5.35 亿 -854%",
+        "2025 经营现金流 +5.84 亿 +38%",
+        "2026Q1 营收 3.58 亿 +35.53%",
+        "2026Q1 归母 +0.26 亿扭亏",
+        "Q4 单季巨亏 -6.54 亿倒推"
+      ],
+      "evidence_chain": "Q4 占比 84-100% (资产减值3.20+公允价值1.20+投资收益2.10+营业外0.45)；2025 三季报 +1.19 vs 年报 -5.35 = Q4 -6.54",
+      "source_ref": "afrexai-financial-due-diligence_20260818.html §2.2 + section3-3-q4-burden-q1-turn_20260818.html",
+      "recommended_chapter": "§3 财务表现（核心数据+Q4穿透+Q1拐点）"
+    },
+    "§4-5技术治理": {
+      "core_position": "实控人股权偏低 13.16% + 质押 1,780 万股，整合风险高",
+      "key_data_points": [
+        "实控人持股 13.16% 李飚",
+        "质押 1,780 万股 / 2022-07-06",
+        "子公司穿透 39 家",
+        "关联法人 11 家"
+      ],
+      "evidence_chain": "民营转国资 = 实控人话语权削弱风险 + 质押被动减持风险",
+      "source_ref": "afrexai-financial-due-diligence_20260818.html §3 + §6 + KB 海特高新.md",
+      "recommended_chapter": "§4-5 技术 + 治理（实控人穿透 + 子公司分层）"
+    },
+    "§22退出": {
+      "core_position": "正威金融仲裁胜诉 12.89 亿 = 重要或有资产 + 关联交易体量较大",
+      "key_data_points": [
+        "正威金融仲裁胜诉 12.89 亿",
+        "关联交易 2025 预计 3,798 万",
+        "关联交易 2024 实际 1,876 万",
+        "关联资金往来 3.00 亿",
+        "关联担保 0.90 亿"
+      ],
+      "evidence_chain": "iFind Finance FinQuery + KB 海特高新.md（38 关联实体）一致",
+      "source_ref": "afrexai-financial-due-diligence_20260818.html §6 + section3-4-segment-breakdown_20260818.html §2.3",
+      "recommended_chapter": "§22 退出路径（关联交易穿透 + 或有资产）"
+    },
+    "§24情景": {
+      "core_position": "建议收购对价 60-75 亿（基准 70 亿）反映风险调整",
+      "key_data_points": [
+        "总股本 5.66 亿股",
+        "股价 12.75 元（2026-04-27）",
+        "总市值 94.46 亿"
+      ],
+      "evidence_chain": "保守派 + 财务派共识 = 风险调整后合理估值",
+      "source_ref": "afrexai-financial-due-diligence_20260818.html §7 + financial-analyst_20260818.html §3",
+      "recommended_chapter": "§24 情景推演（基准/乐观/悲观）"
+    }
+  },
+  "summary_position": {
+    "core_claim": "海特高新是民营航空装备龙头 + 化合物半导体国产替代核心标的",
+    "key_evidence": "6重护城河4.48 + 调整后EBITDA 5.84 + 2025巨亏=Q4一次性计提",
+    "investment_recommendation": "60-75 亿元（中枢 70 亿）",
+    "key_risks": [
+      "海威华芯持续亏损",
+      "应收账款激增",
+      "实控人股权偏低",
+      "减值再次发生"
+    ]
+  }
+}

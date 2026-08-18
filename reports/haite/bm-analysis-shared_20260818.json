@@ -1,0 +1,162 @@
+{
+  "skill_slug": "bm-analysis-shared",
+  "report_date": "20260818",
+  "subject": "海特高新（002023.SZ）",
+  "data_cutoff": "2026-08-18",
+  "key_data_points": [
+    {
+      "id": "KPI-01",
+      "label": "5 模型加权得分",
+      "value": "8.5/10（优秀）",
+      "yoy": "—",
+      "source": "魏朱六要素 + Osterwalder 9 要素 + 投资 3 维度 + AI 时代 4 过程 + 商业模式组合"
+    },
+    {
+      "id": "KPI-02",
+      "label": "魏朱六要素",
+      "value": "战略定位 9 + 业务系统 8 + 盈利模式 7 + 关键资源 8 + 现金流 7 + 企业价值 8 = 加权 7.8",
+      "yoy": "—",
+      "source": "魏朱六要素模型"
+    },
+    {
+      "id": "KPI-03",
+      "label": "Osterwalder 9 要素画布",
+      "value": "8.6/10（优秀）",
+      "yoy": "—",
+      "source": "Osterwalder 模型"
+    },
+    {
+      "id": "KPI-04",
+      "label": "投资 3 维度",
+      "value": "可持续性 9 + 安全性 9 + 弹性 6 = 加权 8.0",
+      "yoy": "—",
+      "source": "投资 3 维度模型"
+    },
+    {
+      "id": "KPI-05",
+      "label": "AI 时代 4 过程 6 要素",
+      "value": "数据 7 + 算法 6 + 算力 8 + 应用 9 = 加权 7.5",
+      "yoy": "—",
+      "source": "AI 时代模型"
+    },
+    {
+      "id": "KPI-06",
+      "label": "商业模式组合",
+      "value": "核心（航空维修）+ 防御（化合物半导体）+ 战略期权（eVTOL 模拟机）= 9.0",
+      "yoy": "—",
+      "source": "商业模式组合模型"
+    },
+    {
+      "id": "KPI-07",
+      "label": "产业控股集团定位",
+      "value": "天津国资旗下航空装备 + 化合物半导体双轮驱动",
+      "yoy": "—",
+      "source": "bm-analysis 综合判断"
+    },
+    {
+      "id": "KPI-08",
+      "label": "护城河综合得分",
+      "value": "4.48/5.0（极强）",
+      "yoy": "—",
+      "source": "6 重护城河加权（详见 §16）"
+    }
+  ],
+  "evidence_chain": [
+    {
+      "stage": "5 模型加权",
+      "conclusion": "8.5/10（优秀）",
+      "evidence": "5 模型 ≥ 3 交叉验证"
+    },
+    {
+      "stage": "投资 3 维度",
+      "conclusion": "可持续性 9 + 安全性 9 + 弹性 6",
+      "evidence": "可持续性源于护城河 + 现金流；安全性源于资产负债率 38.64%；弹性源于 eVTOL 战略期权"
+    },
+    {
+      "stage": "商业模式组合",
+      "conclusion": "核心 + 防御 + 战略期权 = 9.0",
+      "evidence": "对应 6 大业务板块（板块 1+2 = 核心 / 板块 3 = 防御 / 板块 4+5 = 战略期权）"
+    },
+    {
+      "stage": "产业控股定位",
+      "conclusion": "天津国资旗下航空装备 + 化合物半导体双轮驱动",
+      "evidence": "天保控股天津航空产业资源 + 海特高新天津基地 + 双业务轮动"
+    }
+  ],
+  "source_ref": "bm-analysis-shared_20260818.html（26,486 字节）",
+  "investment_thesis": {
+    "rating": "P0 推荐",
+    "target_price": "75-85 亿元（中枢 80 亿，含战略期权溢价）",
+    "key_catalysts": [
+      "5 模型交叉验证",
+      "投资 3 维度全部 ≥ 6",
+      "商业模式组合 9.0",
+      "产业控股定位清晰"
+    ]
+  },
+  "skill_version": "V25.1.46",
+  "sections": {
+    "§11商业模式": {
+      "core_position": "5 模型加权 8.5/10（优秀），投资 3 维度（可持续性 9 + 安全性 9 + 弹性 6）",
+      "key_data_points": [
+        "5 模型加权 8.5",
+        "魏朱六要素 7.8",
+        "Osterwalder 8.6",
+        "投资 3 维度 8.0",
+        "AI 时代 7.5",
+        "商业模式组合 9.0"
+      ],
+      "evidence_chain": "5 模型 ≥ 3 交叉验证 → 优秀",
+      "source_ref": "bm-analysis-shared_20260818.html §5 + section16-moat_20260818.html §7",
+      "recommended_chapter": "§11 商业模式（5 模型加权 + 投资 3 维度）"
+    },
+    "§12治理": {
+      "core_position": "产业控股集团定位 + 6 重护城河 4.48（极强）",
+      "key_data_points": [
+        "产业控股集团定位",
+        "护城河 4.48",
+        "军方资质 4.75",
+        "客户深度 4.75",
+        "航空维修 4.50"
+      ],
+      "evidence_chain": "天津国资 + 航空装备 + 化合物半导体双轮驱动",
+      "source_ref": "bm-analysis-shared_20260818.html §6 + section16-moat_20260818.html",
+      "recommended_chapter": "§12 治理（产业定位 + 护城河）"
+    },
+    "§13矛盾": {
+      "core_position": "商业模式组合（核心+防御+战略期权）= 9.0",
+      "key_data_points": [
+        "核心 9.0",
+        "防御 8.5",
+        "战略期权 9.0",
+        "组合得分 9.0"
+      ],
+      "evidence_chain": "对应 6 大业务板块（1+2核心 / 3防御 / 4+5期权）",
+      "source_ref": "bm-analysis-shared_20260818.html §5.2",
+      "recommended_chapter": "§13 矛盾（业务结构矛盾化解）"
+    },
+    "§19战略": {
+      "core_position": "天津国资旗下航空装备 + 化合物半导体双轮驱动 = 战略定位",
+      "key_data_points": [
+        "产业控股集团",
+        "双轮驱动",
+        "国资协同 +6 亿",
+        "战略期权 +15.35 亿"
+      ],
+      "evidence_chain": "天保控股天津航空产业资源 + 海特高新天津基地",
+      "source_ref": "bm-analysis-shared_20260818.html §6 + section18-storm-19-strategy_20260818.html §19",
+      "recommended_chapter": "§19 战略路径（产业控股 + 双轮驱动）"
+    }
+  },
+  "summary_position": {
+    "core_claim": "海特高新是民营航空装备龙头 + 化合物半导体国产替代核心标的",
+    "key_evidence": "6重护城河4.48 + 调整后EBITDA 5.84 + 2025巨亏=Q4一次性计提",
+    "investment_recommendation": "75-85 亿元（中枢 80 亿，含战略期权溢价）",
+    "key_risks": [
+      "海威华芯持续亏损",
+      "应收账款激增",
+      "实控人股权偏低",
+      "减值再次发生"
+    ]
+  }
+}

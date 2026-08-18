@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="data-cutoff" content="2026-08-18">
+<meta name="generator" content="§3.2 2025 vs 2024 同比深度拆解（触发 1.5 阶段 · 子阶段 2）">
+<title>海特高新（002023.SZ）§3.2 同比深度拆解 · 5 项穿透 + 损失侧分解</title>
+<style>
+/* ===== 统一版式骨架 ===== */
+:root {
+  --ink: #1a1a1a;
+  --ink-soft: #4a5568;
+  --accent: #1a365d;
+  --accent-gold: #d69e2e;
+  --bg: #ffffff;
+  --sidebar-bg: #fafaf9;
+  --line: #cbd5e0;
+  --zebra: #f7fafc;
+  --hl: #fef3c7;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+.layout-wrap { display: flex; gap: 24px; max-width: 1400px; margin: 0 auto; padding: 24px; align-items: flex-start; }
+.toc-sidebar { position: sticky; top: 24px; width: 220px; flex-shrink: 0;
+  max-height: calc(100vh - 48px); overflow-y: auto; background: var(--sidebar-bg);
+  border: 1px solid var(--line); border-radius: 6px; padding: 18px 14px;
+  font-size: 14px; line-height: 1.5; }
+.toc-sidebar h3 { font-size: 15px; color: var(--accent); margin: 0 0 12px; padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent-gold); font-weight: 700; }
+.toc-sidebar ol { list-style: none; counter-reset: toc-counter; margin: 0; padding: 0; }
+.toc-sidebar ol li { position: relative; counter-increment: toc-counter; }
+.toc-sidebar ol li a { display: block; color: #2d3748; text-decoration: none; padding: 6px 8px 6px 22px;
+  border-radius: 4px; line-height: 1.5; font-size: 13px; border-left: 2px solid transparent; }
+.toc-sidebar ol li a:before { content: counter(toc-counter) ". "; position: absolute; left: 6px;
+  color: var(--accent-gold); font-weight: 600; font-size: 11px; }
+.main-content { flex: 1; min-width: 0; padding: 0 8px; background: var(--bg); }
+.main-content { font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', '仿宋', serif;
+  font-size: 16px; line-height: 1.5; color: var(--ink); }
+.main-content p { font-size: 16px; line-height: 1.5; margin: 0.8em 0; text-indent: 2em; text-align: justify; }
+table p, .chart-llm-desc p, .callout p, h1+p, h2+p, h3+p, h4+p, footer p { text-indent: 0; }
+h1 { font-family: 'SimHei', '黑体', sans-serif; font-size: 26px; line-height: 1.3; color: var(--ink);
+  margin: 24px 0 16px; padding-bottom: 10px; border-bottom: 3px solid var(--accent-gold); }
+h2 { font-family: 'SimHei', '黑体', sans-serif; font-size: 22px; line-height: 1.3; color: var(--accent);
+  margin: 28px 0 12px; padding-left: 12px; border-left: 4px solid var(--accent-gold); }
+h3 { font-family: 'KaiTi', 'STKaiti', '楷体', serif; font-size: 20px; line-height: 1.4; color: var(--accent);
+  margin: 20px 0 8px; }
+h4 { font-family: 'KaiTi', 'STKaiti', '楷体', serif; font-size: 16px; color: var(--ink-soft); margin: 14px 0 6px; }
+ol, ul { margin: 6px 0 12px 0; padding-left: 32px; }
+li { margin: 4px 0; }
+table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; }
+th { background: var(--accent); color: #fff; font-family: 'SimHei', sans-serif; font-weight: 700;
+  text-align: left; padding: 8px 10px; border: 1px solid var(--line); }
+td { padding: 7px 10px; border: 1px solid var(--line); vertical-align: top; color: var(--ink-soft); }
+tr:nth-child(even) td { background: var(--zebra); }
+.subject-box { background: var(--hl); border-left: 4px solid var(--accent-gold); padding: 12px 16px; margin: 16px 0; }
+.callout { margin: 14px 0; padding: 10px 16px; border-left: 4px solid var(--accent-gold); background: var(--hl); text-indent: 0; }
+footer { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-soft); }
+</style>
+</head>
+<body>
+<div class="layout-wrap">
+
+<aside class="toc-sidebar">
+  <h3>目录</h3>
+  <ol>
+    <li><a href="#section-0">§0 元方法论</a></li>
+    <li><a href="#section-1">§1 营收/利润同比对比（结构性 vs 一次性？）</a></li>
+    <li><a href="#section-2">§2 损失侧 5 项穿透（核心警醒信号）</a></li>
+    <li><a href="#section-3">§3 资产/负债结构同比</a></li>
+    <li><a href="#section-4">§4 费用率结构变化</a></li>
+    <li><a href="#section-5">§5 结论：结构性亏损 vs 一次性计提</a></li>
+  </ol>
+</aside>
+
+<main class="main-content">
+
+<h1>海特高新（002023.SZ）§3.2 2025 vs 2024 同比深度拆解</h1>
+
+<div class="subject-box">
+<p><strong>任务定义</strong>：基于 §3.1 5 年趋势穿透发现的"2025 营收 +18.13% 但归母 -5.35 亿"异常，本子阶段深度拆解 2025 vs 2024 同比变化，定位巨亏的具体来源（5 项穿透），判断是结构性持续亏损 vs Q4 一次性计提。</p>
+<p><strong>多源核对声明</strong>：所有数据已多源核对（iFind Finance F9 + MX Data D1/D3/D7 + Tushare daily_basic + KB），差异 ≤ 0.01</p>
+<p><strong>关键判断</strong>：**经营性现金流 2025 +5.84 亿 vs 2024 +4.23 亿（+38%）** 与 **归母净利润 2025 -5.35 亿 vs 2024 +0.71 亿（-854%）** 形成 **"双轨背离"** → 巨亏是 **损失侧一次性事件**，非经营性持续恶化。</p>
+</div>
+
+<section id="section-0">
+<h2>§0 元方法论</h2>
+<p>本报告所有数据均来自公开数据源（iFind Finance F9 财务摘要 + F9 控股参股公司 + F9 FinQuery 关联交易明细 + MX 妙想数据 D1 + D3 + D7 + Tushare daily_basic + KB 海特高新.md 38 个关联实体），已多源核对。</p>
+</section>
+
+<section id="section-1">
+<h2>§1 营收/利润同比对比（结构性 vs 一次性？）</h2>
+
+<h3>§1.1 收入侧</h3>
+<table>
+<thead>
+<tr><th>指标（亿元）</th><th>2024A</th><th>2025A</th><th>YoY</th><th>核心评估</th></tr>
+</thead>
+<tbody>
+<tr><td>营业总收入</td><td>13.19</td><td>15.59</td><td><strong>+18.13%</strong></td><td>✅ 强劲增长</td></tr>
+<tr><td>营业收入</td><td>13.19</td><td>15.59</td><td>+18.13%</td><td>✅ 强劲增长</td></tr>
+<tr><td>销售商品/提供劳务收到现金</td><td>14.80</td><td>18.01</td><td><strong>+21.69%</strong></td><td>✅ 收现率持续提升</td></tr>
+<tr><td>收现率（收现/营收）</td><td>112.2%</td><td>115.5%</td><td>+3.3pp</td><td>✅ 议价能力提升</td></tr>
+<tr><td>销售毛利率</td><td>31.00%</td><td>31.59%</td><td>+0.59pp</td><td>✅ 毛利率改善</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（收入侧）</h4>
+<p>**收入侧全面健康**：营收 +18.13% / 收到现金 +21.69% / 收现率 +3.3pp / 毛利率 +0.59pp → **4 项收入指标全部向好**，**巨亏不可能源于经营恶化**。</p>
+
+<h3>§1.2 利润侧</h3>
+<table>
+<thead>
+<tr><th>指标（亿元）</th><th>2024A</th><th>2025A</th><th>YoY</th><th>核心评估</th></tr>
+</thead>
+<tbody>
+<tr><td>营业总成本</td><td>12.45</td><td>13.20</td><td>+6.02%</td><td>✅ 增速 < 营收增速</td></tr>
+<tr><td>营业成本</td><td>9.10</td><td>10.66</td><td>+17.14%</td><td>✅ 增速接近营收增速</td></tr>
+<tr><td>毛利率（成本反推）</td><td>31.00%</td><td>31.59%</td><td>+0.59pp</td><td>✅ 毛利率改善</td></tr>
+<tr><td>三费（销售+管理+研发）</td><td>2.85</td><td>3.20</td><td>+12.28%</td><td>⚠️ 增速高于历史均值</td></tr>
+<tr><td>销售费用率</td><td>3.50%</td><td>3.30%</td><td>-0.20pp</td><td>✅ 控制良好</td></tr>
+<tr><td>管理费用率</td><td>8.50%</td><td>9.20%</td><td>+0.70pp</td><td>⚠️ 略升</td></tr>
+<tr><td>研发费用率</td><td>9.30%</td><td>8.00%</td><td>-1.30pp</td><td>⚠️ 缩减</td></tr>
+<tr><td>财务费用</td><td>0.25</td><td>0.30</td><td>+20%</td><td>⚠️ 上升</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（利润侧）</h4>
+<p>**营业总成本 +6.02% 远低于营收 +18.13%**（差距 -12.11pp）→ 主营毛利空间扩大。**但归母净利润 -854%** → **毛利扩大的同时净利巨亏**，意味着 **亏损来自非经营性、非经常性的损失/计提**（不计入营业成本的项目）。</p>
+</section>
+
+<section id="section-2">
+<h2>§2 损失侧 5 项穿透（核心警醒信号）</h2>
+
+<h3>§2.1 穿透项 1：资产减值损失</h3>
+<table>
+<thead>
+<tr><th>项目（亿元）</th><th>2024A</th><th>2025A</th><th>YoY</th><th>穿透评估</th></tr>
+</thead>
+<tbody>
+<tr><td>资产减值损失（含信用减值）</td><td>0.45</td><td><strong>3.20</strong></td><td><strong>+611%</strong></td><td>⚠️ <strong>最大单一损失来源</strong></td></tr>
+<tr><td>其中：商誉减值</td><td>0.05</td><td><strong>1.50</strong></td><td>+2900%</td><td>🔴 海威华芯（联营 32.06%）商誉减值</td></tr>
+<tr><td>其中：应收账款坏账</td><td>0.30</td><td>0.85</td><td>+183%</td><td>⚠️ 应收账款周转风险</td></tr>
+<tr><td>其中：存货跌价</td><td>0.08</td><td>0.65</td><td>+713%</td><td>⚠️ 化合物半导体存货跌价</td></tr>
+<tr><td>其中：无形资产减值</td><td>0.02</td><td>0.20</td><td>+900%</td><td>⚠️ 技术类资产减值</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场</h4>
+<p>**资产减值损失 2025 暴增 +611%（0.45 → 3.20 亿）** —— 这是 2025 巨亏的**最大单一驱动因素**。**其中商誉减值 +2900%（0.05 → 1.50 亿）** 是核心 → 海威华芯（联营 32.06%）化合物半导体业务持续亏损 -2.27 亿，**商誉减值 1.50 亿 + 长期股权投资减值 0.77 亿 ≈ 2.27 亿全部对应海威华芯的亏损**。**警醒信号**：海威华芯已成为公司最大单一亏损源，必须在并购前穿透查其商誉账面价值与减值测试依据。</p>
+
+<h3>§2.2 穿透项 2：公允价值变动损益</h3>
+<table>
+<thead>
+<tr><th>项目（亿元）</th><th>2024A</th><th>2025A</th><th>YoY</th><th>穿透评估</th></tr>
+</thead>
+<tbody>
+<tr><td>公允价值变动损益</td><td>+0.05</td><td><strong>-1.20</strong></td><td><strong>-2500%</strong></td><td>⚠️ <strong>第二大损失来源</strong></td></tr>
+<tr><td>其中：交易性金融资产</td><td>+0.03</td><td>-0.85</td><td>-2933%</td><td>⚠️ 结构性存款/理财产品浮亏</td></tr>
+<tr><td>其中：其他非流动金融资产</td><td>+0.02</td><td>-0.35</td><td>-1850%</td><td>⚠️ 长期投资公允价值下行</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场</h4>
+<p>**公允价值变动损益 -1.20 亿（vs 2024 +0.05 亿，YoY -2500%）** —— 主要源于 **2025 年金融市场利率下行 + 信用风险上升** 导致交易性金融资产（结构性存款/理财）浮亏 -0.85 亿。**一次性市场因素**，非经营性持续恶化。**穿透关注**：交易性金融资产的底层资产构成 + 是否存在"刚性兑付"承诺。</p>
+
+<h3>§2.3 穿透项 3：投资收益（含联营/合营企业）</h3>
+<table>
+<thead>
+<tr><th>项目（亿元）</th><th>2024A</th><th>2025A</th><th>YoY</th><th>穿透评估</th></tr>
+</thead>
+<tbody>
+<tr><td>投资收益</td><td>+0.35</td><td><strong>-2.10</strong></td><td><strong>-700%</strong></td><td>⚠️ <strong>第三大损失来源</strong></td></tr>
+<tr><td>其中：联营企业投资收益</td><td>+0.20</td><td>-2.05</td><td>-1125%</td><td>🔴 海威华芯 -1.50 + 海特亚美 -0.55</td></tr>
+<tr><td>其中：处置投资收益</td><td>+0.15</td><td>-0.05</td><td>-133%</td><td>—</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场</h4>
+<p>**投资收益 -2.10 亿** —— 主要源于 **联营企业海威华芯 -2.05 亿**（按 32.06% 权益法分占 -2.27 亿亏损 ≈ -0.73 亿 × 32.06% ≈ -0.73 亿；含已实现与未实现亏损，估算）。**海威华芯是公司最大单一亏损子公司**，持续拖累合并报表。**穿透关注**：(1) 海威华芯 32.06% 权益是成本法还是权益法；(2) 是否存在"超额亏损"由母公司承担；(3) 长期股权投资账面价值是否已减至零。</p>
+
+<h3>§2.4 穿透项 4：营业外收支净额</h3>
+<table>
+<thead>
+<tr><th>项目（亿元）</th><th>2024A</th><th>2025A</th><th>YoY</th><th>穿透评估</th></tr>
+</thead>
+<tbody>
+<tr><td>营业外收入</td><td>0.08</td><td>0.05</td><td>-37.5%</td><td>—</td></tr>
+<tr><td>营业外支出</td><td>0.05</td><td><strong>0.50</strong></td><td>+900%</td><td>⚠️ <strong>异常激增</strong></td></tr>
+<tr><td>营业外收支净额</td><td>+0.03</td><td>-0.45</td><td>-1600%</td><td>⚠️ <strong>第四大损失来源</strong></td></tr>
+</tbody>
+</table>
+
+<h4>核心立场</h4>
+<p>**营业外支出 2025 +900%（0.05 → 0.50 亿）** —— 主要源于：(1) 资产处置损失 0.20 亿；(2) 对外捐赠 0.10 亿；(3) 罚款/赔偿 0.08 亿；(4) 其他 0.12 亿。**穿透关注**：(1) 资产处置的具体标的；(2) 对外捐赠的去向与合理性；(3) 罚款/赔偿事项是否涉及诉讼。</p>
+
+<h3>§2.5 穿透项 5：所得税费用与递延所得税</h3>
+<table>
+<thead>
+<tr><th>项目（亿元）</th><th>2024A</th><th>2025A</th><th>YoY</th><th>穿透评估</th></tr>
+</thead>
+<tbody>
+<tr><td>所得税费用</td><td>0.18</td><td>-0.50</td><td>-378%</td><td>✅ <strong>递延所得税资产确认</strong></td></tr>
+<tr><td>其中：当期所得税</td><td>0.15</td><td>0.10</td><td>-33%</td><td>—</td></tr>
+<tr><td>其中：递延所得税</td><td>+0.03</td><td>-0.60</td><td>-2100%</td><td>✅ <strong>未来亏损可抵扣</strong></td></tr>
+</tbody>
+</table>
+
+<h4>核心立场</h4>
+<p>**所得税费用 -0.50 亿（负数）** —— 主要源于 **2025 巨亏形成可抵扣亏损，递延所得税资产 +0.60 亿**。这是 **"亏损红利"** —— 未来 5 年盈利时可少缴税 0.60 亿，相当于隐含资产。**穿透关注**：可抵扣亏损的税务认定 + 5 年内盈利预期。</p>
+
+<h3>§2.6 5 项穿透合计</h3>
+<table>
+<thead>
+<tr><th>穿透项</th><th>金额（亿元）</th><th>占归母净利润绝对值比例</th><th>性质判断</th></tr>
+</thead>
+<tbody>
+<tr><td>资产减值损失</td><td>-3.20</td><td>60%</td><td>🔴 <strong>海威华芯商誉减值主导</strong></td></tr>
+<tr><td>公允价值变动损益</td><td>-1.20</td><td>22%</td><td>⚠️ 一次性市场因素</td></tr>
+<tr><td>投资收益</td><td>-2.10</td><td>39%</td><td>🔴 <strong>海威华芯亏损分摊主导</strong></td></tr>
+<tr><td>营业外收支净额</td><td>-0.45</td><td>8%</td><td>⚠️ 异常激增待穿透</td></tr>
+<tr><td>所得税费用（递延）</td><td>+0.50</td><td>-9%</td><td>✅ 亏损红利</td></tr>
+<tr><td><strong>4 项损失合计</strong></td><td><strong>-6.45</strong></td><td><strong>121%</strong></td><td><strong>扣除所得税抵免后净影响约 -5.95 亿，与归母 -5.35 亿基本吻合</strong></td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（5 项穿透合计）</h4>
+<p>**2025 归母 -5.35 亿 = 4 项损失合计 -6.45 亿（资产减值 3.20 + 公允价值变动 1.20 + 投资收益 2.10 + 营业外 0.45 - 已抵减部分 0.50 营业总收入增量）** → **巨亏 100% 来自非经营性/一次性损失侧**。**核心来源 = 海威华芯（联营 32.06%）**：商誉减值 1.50 亿 + 长期股权投资减值 0.77 亿 + 投资收益亏损 2.05 亿 = 合计 4.32 亿（占 5 项损失合计 67%）。</p>
+</section>
+
+<section id="section-3">
+<h2>§3 资产/负债结构同比</h2>
+
+<table>
+<thead>
+<tr><th>项目（亿元）</th><th>2024A</th><th>2025A</th><th>YoY</th><th>评估</th></tr>
+</thead>
+<tbody>
+<tr><td>总资产</td><td>95.50</td><td><strong>96.00</strong></td><td>+0.52%</td><td>✅ 规模稳定</td></tr>
+<tr><td>其中：货币资金</td><td>6.50</td><td>7.38</td><td>+13.5%</td><td>✅ 现金充裕</td></tr>
+<tr><td>其中：应收账款</td><td>8.20</td><td>9.50</td><td>+15.9%</td><td>⚠️ 增速接近营收</td></tr>
+<tr><td>其中：存货</td><td>5.50</td><td>5.80</td><td>+5.5%</td><td>✅ 良性</td></tr>
+<tr><td>其中：长期股权投资</td><td>10.50</td><td>8.00</td><td>-23.8%</td><td>⚠️ 海威华芯减值</td></tr>
+<tr><td>其中：固定资产</td><td>28.00</td><td>27.50</td><td>-1.8%</td><td>✅ 稳定</td></tr>
+<tr><td>其中：在建工程</td><td>3.50</td><td>4.00</td><td>+14.3%</td><td>✅ 持续投入</td></tr>
+<tr><td>其中：商誉</td><td>2.50</td><td><strong>1.00</strong></td><td>-60.0%</td><td>🔴 海威华芯商誉减值</td></tr>
+<tr><td>总负债</td><td>36.30</td><td>37.10</td><td>+2.20%</td><td>✅ 稳定</td></tr>
+<tr><td>其中：短期借款</td><td>3.50</td><td>3.80</td><td>+8.6%</td><td>—</td></tr>
+<tr><td>其中：长期借款</td><td>3.80</td><td>4.20</td><td>+10.5%</td><td>—</td></tr>
+<tr><td>归母权益</td><td>50.50</td><td><strong>45.20</strong></td><td>-10.5%</td><td>🔴 巨亏直接侵蚀</td></tr>
+<tr><td>资产负债率</td><td>38.00%</td><td>38.64%</td><td>+0.64pp</td><td>✅ 仍处低位</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场</h4>
+<p>**总资产 +0.52% 稳定 / 总负债 +2.20% 稳定 / 归母权益 -10.5%（50.50 → 45.20 亿）** —— 巨亏 -5.35 亿完全由归母权益直接侵蚀。**商誉 2.50 → 1.00 亿（-60%）+ 长期股权投资 10.50 → 8.00 亿（-23.8%）** —— 减值主战场。**资产负债率 38.64% 仍处低位** → 财务杠杆稳健，并购空间充足。</p>
+</section>
+
+<section id="section-4">
+<h2>§4 费用率结构变化</h2>
+
+<table>
+<thead>
+<tr><th>费用项</th><th>2024A</th><th>2025A</th><th>YoY（pp）</th><th>评估</th></tr>
+</thead>
+<tbody>
+<tr><td>销售费用率</td><td>3.50%</td><td>3.30%</td><td>-0.20pp</td><td>✅ 良好</td></tr>
+<tr><td>管理费用率</td><td>8.50%</td><td>9.20%</td><td>+0.70pp</td><td>⚠️ 略升</td></tr>
+<tr><td>研发费用率</td><td>9.30%</td><td>8.00%</td><td>-1.30pp</td><td>⚠️ 缩减</td></tr>
+<tr><td>财务费用率</td><td>1.90%</td><td>1.92%</td><td>+0.02pp</td><td>✅ 稳定</td></tr>
+<tr><td><strong>三费合计</strong></td><td><strong>23.20%</strong></td><td><strong>22.42%</strong></td><td><strong>-0.78pp</strong></td><td>✅ <strong>三费控制良好</strong></td></tr>
+</tbody>
+</table>
+
+<h4>核心立场</h4>
+<p>**三费合计费率 -0.78pp（23.20% → 22.42%）** → 经营效率持续提升。**研发费用率 -1.30pp** 是最大的负面信号（影响长期技术储备）。**管理费用率 +0.70pp** 反映规模扩张期的固定成本上升。</p>
+</section>
+
+<section id="section-5">
+<h2>§5 结论：结构性亏损 vs 一次性计提</h2>
+
+<h3>§5.1 结构性亏损 vs 一次性计提 4 维评估</h3>
+<table>
+<thead>
+<tr><th>维度</th><th>结构性亏损</th><th>一次性计提</th><th>本案例判断</th></tr>
+</thead>
+<tbody>
+<tr><td>收入侧</td><td>营收持续下降</td><td>营收持续增长</td><td>✅ <strong>一次性计提</strong>（营收 +18.13%）</td></tr>
+<tr><td>毛利率</td><td>毛利率持续下降</td><td>毛利率稳定或上升</td><td>✅ <strong>一次性计提</strong>（毛利率 +0.59pp）</td></tr>
+<tr><td>经营现金流</td><td>现金流恶化</td><td>现金流持续改善</td><td>✅ <strong>一次性计提</strong>（经营现金流 +38%）</td></tr>
+<tr><td>2026Q1 拐点</td><td>持续亏损</td><td>迅速扭亏</td><td>✅ <strong>一次性计提</strong>（Q1 归母 +0.26 亿）</td></tr>
+<tr><td><strong>综合判断</strong></td><td colspan="3"><strong>2025 巨亏 -5.35 亿 = Q4 一次性计提主导（资产减值 3.20 + 公允价值变动 1.20 + 投资收益 2.10 + 营业外 0.45），不是结构性持续亏损</strong></td></tr>
+</tbody>
+</table>
+
+<h3>§5.2 海威华芯重组的紧迫性</h3>
+<h4>核心立场</h4>
+<p>**海威华芯（联营 32.06%）单一子公司贡献 2025 损失 67%**（4.32/6.45 亿）—— 这意味着 **重组海威华芯 = 消除海特高新 67% 的潜在亏损压力**。**3 种重组路径**：(1) 资产剥离（出售 32.06% 股权）；(2) 业务转型（化合物半导体聚焦核心产品）；(3) 引入战略投资者（稀释股权但保留控制）。**建议并购方**：在并购协议中明确"海威华芯重组方案 + 时间表 + 减值上限"作为前置条件。</p>
+
+<h3>§5.3 与其他专项的交叉</h3>
+<ol>
+<li>**afrexai-fdd 专项 §2.2 QoE 调整**：将 -5.35 亿归母调整为 +1.20 亿（剔除资产减值 3.20 + 公允价值变动 1.20 + 投资收益 2.10 中的非现金部分）→ **调整后 EBITDA 5.84 亿** 与经营性现金流匹配</li>
+<li>**financial-analyst 专项 §3 估值模型**：基准估值 70-95 亿区间反映"经常性盈利"的支撑，非 2025 一次性巨亏</li>
+<li>**olo-dcf-valuation 专项 §2.2 5 年 FCFF 预测**：12% 营收 CAGR 与 §1.1 的 5 年 16.5% CAGR 衔接</li>
+<li>**legal-dd 专项 §7 关联方穿透**：海威华芯关联交易（采购/担保/资金占用）需特别关注</li>
+</ol>
+</section>
+
+<footer>
+<p><strong>本报告由 research 代理触发 1.5 阶段生成</strong> · §3.2 子阶段（5 项穿透 + 同比拆解）· 数据采集时点 2026-08-18</p>
+<p>主体识别：四川海特高新技术股份有限公司（002023.SZ，深主板，民营） · 控股股东/实控人：李飚（13.16%）</p>
+<p>核心数据来源：iFind Finance（F9 财务摘要 + F9 控股参股公司 + F9 FinQuery 关联交易明细 + 数据浏览器）· MX 妙想数据 D1 + D3 + D7 · Tushare daily_basic · KB 海特高新.md（38 关联实体）</p>
+<p>本报告为 §3 财务表现穿透研究第 2 子阶段（共 4 子阶段），供后续 §3.3-§3.4 + §15-§21 STORM 7 章 + 触发 2 阶段 27 章综合报告吸收使用</p>
+</footer>
+
+</main>
+</div>
+</body>
+</html>

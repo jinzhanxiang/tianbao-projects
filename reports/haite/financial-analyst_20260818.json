@@ -1,0 +1,192 @@
+{
+  "skill_slug": "financial-analyst",
+  "report_date": "20260818",
+  "subject": "海特高新（002023.SZ）",
+  "data_cutoff": "2026-08-18",
+  "key_data_points": [
+    {
+      "id": "KPI-01",
+      "label": "三路估值综合区间",
+      "value": "70-95 亿元（中位 83 亿）",
+      "yoy": "—",
+      "source": "DCF + Comps + Precedents 三路加权"
+    },
+    {
+      "id": "KPI-02",
+      "label": "DCF 基准估值",
+      "value": "71.4 亿元",
+      "yoy": "—",
+      "source": "WACC 9.70% / 12% CAGR"
+    },
+    {
+      "id": "KPI-03",
+      "label": "DCF 上沿估值",
+      "value": "92.0 亿元",
+      "yoy": "—",
+      "source": "WACC 8.5% / 16% CAGR"
+    },
+    {
+      "id": "KPI-04",
+      "label": "DCF 下沿估值",
+      "value": "55.0 亿元",
+      "yoy": "—",
+      "source": "WACC 11.5% / 8% CAGR"
+    },
+    {
+      "id": "KPI-05",
+      "label": "Comps PB 2.35x",
+      "value": "87.20 亿元",
+      "yoy": "—",
+      "source": "可比公司 PB 中位数"
+    },
+    {
+      "id": "KPI-06",
+      "label": "Comps PS 2.94x",
+      "value": "45.80 亿元",
+      "yoy": "—",
+      "source": "可比公司 PS 中位数"
+    },
+    {
+      "id": "KPI-07",
+      "label": "Comps EV/EBITDA 11.94x",
+      "value": "69.70 亿元",
+      "yoy": "—",
+      "source": "可比公司 EV/EBITDA 中位数"
+    },
+    {
+      "id": "KPI-08",
+      "label": "Precedents EV/EBITDA 12x + 30% 控制溢价",
+      "value": "91.10 亿元",
+      "yoy": "—",
+      "source": "Precedents 路"
+    },
+    {
+      "id": "KPI-09",
+      "label": "Precedents PB 2.50x",
+      "value": "92.75 亿元",
+      "yoy": "—",
+      "source": "Precedents 路"
+    },
+    {
+      "id": "KPI-10",
+      "label": "调整后 EBITDA",
+      "value": "5.84 亿元",
+      "yoy": "+38%",
+      "source": "QoE 调整：剔除资产减值 3.20 + 公允价值变动 1.20 + 投资收益 2.10"
+    },
+    {
+      "id": "KPI-11",
+      "label": "WACC 基准",
+      "value": "9.70%",
+      "yoy": "—",
+      "source": "CAPM（Ke 11.70%）+ 税后债务（4.25%）"
+    },
+    {
+      "id": "KPI-12",
+      "label": "5 年 FCFF 预测合计",
+      "value": "11.55 亿元",
+      "yoy": "—",
+      "source": "12% 营收 + 32% EBITDA Margin + 8% CapEx × Revenue"
+    },
+    {
+      "id": "KPI-13",
+      "label": "终值（Gordon）",
+      "value": "29.5 亿元",
+      "yoy": "—",
+      "source": "g=2.5%"
+    },
+    {
+      "id": "KPI-14",
+      "label": "终值（Exit Multiple）",
+      "value": "105 亿元",
+      "yoy": "—",
+      "source": "Exit Multiple 12x"
+    }
+  ],
+  "evidence_chain": [
+    {
+      "stage": "三路估值",
+      "conclusion": "DCF 71.4 + Comps 78-92 + Precedents 60-85 = 综合 70-95 亿（中位 83 亿）",
+      "evidence": "三路估值方法独立计算，加权综合"
+    },
+    {
+      "stage": "QoE 调整",
+      "conclusion": "调整后 EBITDA 5.84 亿 vs 报表 EBITDA -2.85 亿",
+      "evidence": "剔除 5 项穿透合计 -6.45 亿 + 所得税抵免 0.50 亿"
+    },
+    {
+      "stage": "敏感性矩阵",
+      "conclusion": "估值区间 55-110 亿元（WACC × TV Growth 双向敏感性）",
+      "evidence": "3 个矩阵 × 5-7 档 = 估值分布"
+    },
+    {
+      "stage": "投资建议",
+      "conclusion": "建议最终对价 65-80 亿元（中枢 72.5 亿）",
+      "evidence": "对应当前市值 94.46 亿的 68.4%-84.8%（中枢 76.7%）"
+    }
+  ],
+  "source_ref": "financial-analyst_20260818.html（33,562 字节）",
+  "investment_thesis": {
+    "rating": "P1 推荐",
+    "target_price": "65-80 亿元（中枢 72.5 亿）",
+    "key_catalysts": [
+      "三路估值综合验证",
+      "QoE 调整清晰",
+      "敏感性矩阵充分",
+      "对赌条款设计合理"
+    ]
+  },
+  "skill_version": "V25.1.46",
+  "sections": {
+    "§10估值方法": {
+      "core_position": "三路估值综合 70-95 亿（中位 83 亿），建议对价 65-80 亿（中枢 72.5 亿）",
+      "key_data_points": [
+        "三路综合 70-95 亿",
+        "DCF 基准 71.4 亿",
+        "DCF 上沿 92.0 亿",
+        "DCF 下沿 55.0 亿",
+        "Comps PB 87.20 亿",
+        "Comps PS 45.80 亿",
+        "Comps EV/EBITDA 69.70 亿",
+        "Precedents EV/EBITDA+30% 91.10 亿",
+        "Precedents PB 92.75 亿"
+      ],
+      "evidence_chain": "DCF (WACC 9.70% / 12% CAGR) + Comps (PB/PS/EV-EBITDA) + Precedents (控溢价 30%) 三路加权",
+      "source_ref": "financial-analyst_20260818.html §3 + olo-dcf-valuation_20260818.html §4",
+      "recommended_chapter": "§10 估值方法（三路加权 + 敏感性矩阵）"
+    },
+    "§11商业模式": {
+      "core_position": "调整后 EBITDA 5.84 亿（QoE 调整后）反映主营造血能力",
+      "key_data_points": [
+        "调整后 EBITDA 5.84 亿",
+        "WACC 9.70%",
+        "5 年 FCFF 11.55 亿"
+      ],
+      "evidence_chain": "QoE 调整 = 剔除资产减值 3.20 + 公允价值 1.20 + 投资收益 2.10 = 调整后经营性盈利",
+      "source_ref": "financial-analyst_20260818.html §2 + section3-2-yoy-deepdive_20260818.html §2",
+      "recommended_chapter": "§11 商业模式（经常性盈利识别）"
+    },
+    "§22退出": {
+      "core_position": "终值双方法（Gordon 29.5 + Exit Multiple 105）+ 5 年 FCFF 11.55 亿 = 估值锚",
+      "key_data_points": [
+        "5 年 FCFF 11.55 亿",
+        "终值 Gordon 29.5 亿",
+        "终值 Exit Multiple 105 亿"
+      ],
+      "evidence_chain": "12% CAGR + 32% EBITDA Margin + 8% CapEx + WACC 9.70% 折现",
+      "source_ref": "financial-analyst_20260818.html §3.3 + olo-dcf-valuation_20260818.html §2",
+      "recommended_chapter": "§22 退出路径（终值方法 + 5 年 FCFF）"
+    }
+  },
+  "summary_position": {
+    "core_claim": "海特高新是民营航空装备龙头 + 化合物半导体国产替代核心标的",
+    "key_evidence": "6重护城河4.48 + 调整后EBITDA 5.84 + 2025巨亏=Q4一次性计提",
+    "investment_recommendation": "65-80 亿元（中枢 72.5 亿）",
+    "key_risks": [
+      "海威华芯持续亏损",
+      "应收账款激增",
+      "实控人股权偏低",
+      "减值再次发生"
+    ]
+  }
+}

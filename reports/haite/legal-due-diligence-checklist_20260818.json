@@ -1,0 +1,176 @@
+{
+  "skill_slug": "legal-due-diligence-checklist",
+  "report_date": "20260818",
+  "subject": "海特高新（002023.SZ）",
+  "data_cutoff": "2026-08-18",
+  "key_data_points": [
+    {
+      "id": "KPI-01",
+      "label": "10 模块法律 DD 清单",
+      "value": "公司治理 / 重大资产 / 关联交易 / 对外担保 / 诉讼仲裁 / 知识产权 / 劳动人事 / 税务 / 环保安全 / 境外投资",
+      "yoy": "—",
+      "source": "legal-dd 框架"
+    },
+    {
+      "id": "KPI-02",
+      "label": "红旗扫描（合计 23 项）",
+      "value": "1 项已解除 + 6 项严重 + 7 项一般 + 9 项提示",
+      "yoy": "—",
+      "source": "legal-dd 红旗扫描"
+    },
+    {
+      "id": "KPI-03",
+      "label": "关联法人",
+      "value": "11 家",
+      "yoy": "—",
+      "source": "iFind Finance FinQuery"
+    },
+    {
+      "id": "KPI-04",
+      "label": "关联交易合计",
+      "value": "8.60 亿元（占营收 55.2%）",
+      "yoy": "—",
+      "source": "iFind Finance FinQuery"
+    },
+    {
+      "id": "KPI-05",
+      "label": "关联资金往来",
+      "value": "3.00 亿元",
+      "yoy": "—",
+      "source": "iFind Finance FinQuery"
+    },
+    {
+      "id": "KPI-06",
+      "label": "关联担保",
+      "value": "0.90 亿元",
+      "yoy": "—",
+      "source": "iFind Finance FinQuery"
+    },
+    {
+      "id": "KPI-07",
+      "label": "正威金融仲裁胜诉",
+      "value": "12.89 亿元",
+      "yoy": "—",
+      "source": "iFind Finance FinQuery + KB 海特高新.md"
+    },
+    {
+      "id": "KPI-08",
+      "label": "8 项前置穿透条件",
+      "value": "(1) 海威华芯商誉减值；(2) 实控人股权；(3) 担保；(4) 境外 SPV；(5) 关联交易公允性；(6) 知识产权；(7) 税务；(8) 环保安全",
+      "yoy": "—",
+      "source": "legal-dd 前置条件"
+    }
+  ],
+  "evidence_chain": [
+    {
+      "stage": "红旗扫描",
+      "conclusion": "23 项红旗（1 已解除 + 6 严重 + 7 一般 + 9 提示）",
+      "evidence": "海威华芯商誉减值 / 实控人股权偏低 / 质押存在 / 担保规模 / 资金往来 / 应收账款激增 / 关联交易规模"
+    },
+    {
+      "stage": "法律合规时间表",
+      "conclusion": "9-18 个月（国资委 + 证监会 + 交易所 + 军方）",
+      "evidence": "国资并购审批链"
+    },
+    {
+      "stage": "8 项前置穿透条件",
+      "conclusion": "必须前置完成",
+      "evidence": "海威华芯商誉 / 实控人股权 / 担保 / 境外 SPV / 关联交易 / 知识产权 / 税务 / 环保安全"
+    },
+    {
+      "stage": "11 家关联法人穿透",
+      "conclusion": "海特亚美（境外）资金往来 2.50 亿 = 最大单一风险",
+      "evidence": "需穿透查资金占用"
+    }
+  ],
+  "source_ref": "legal-due-diligence-checklist_20260818.html（33,343 字节）",
+  "investment_thesis": {
+    "rating": "P0 前置条件必查",
+    "target_price": "—",
+    "key_catalysts": [
+      "8 项前置穿透条件",
+      "23 项红旗扫描",
+      "11 家关联法人穿透",
+      "9-18 个月合规时间表"
+    ]
+  },
+  "skill_version": "V25.1.46",
+  "sections": {
+    "§12治理": {
+      "core_position": "10 模块法律 DD + 11 家关联法人 = 治理结构穿透",
+      "key_data_points": [
+        "10 模块 DD 清单",
+        "关联法人 11 家",
+        "关联交易 8.60 亿",
+        "资金往来 3.00 亿",
+        "担保 0.90 亿"
+      ],
+      "evidence_chain": "iFind Finance FinQuery + 11 家关联法人穿透",
+      "source_ref": "legal-due-diligence-checklist_20260818.html §3-§7",
+      "recommended_chapter": "§12 治理（10 模块 + 关联法人）"
+    },
+    "§16合规": {
+      "core_position": "8 项前置穿透条件 + 9-18 个月合规时间表",
+      "key_data_points": [
+        "8 项前置穿透条件",
+        "9-18 个月合规",
+        "国资委+证监会+交易所+军方"
+      ],
+      "evidence_chain": "国资并购审批链 + 军工资质转移",
+      "source_ref": "legal-due-diligence-checklist_20260818.html §10",
+      "recommended_chapter": "§16 合规（时间表 + 8 项穿透）"
+    },
+    "§17风险": {
+      "core_position": "23 项红旗（1+6+7+9）= 法律风险完整图谱",
+      "key_data_points": [
+        "23 项红旗",
+        "1 项已解除",
+        "6 项严重",
+        "7 项一般",
+        "9 项提示"
+      ],
+      "evidence_chain": "海威华芯商誉 + 实控人股权 + 担保 + 资金往来 + 应收账款 + 关联交易",
+      "source_ref": "legal-due-diligence-checklist_20260818.html §6 + section17-risks_20260818.html",
+      "recommended_chapter": "§17 风险（23 项红旗）"
+    },
+    "§22退出": {
+      "core_position": "8 项前置穿透条件必须前置完成",
+      "key_data_points": [
+        "8 项前置穿透",
+        "海威华芯商誉减值",
+        "实控人股权",
+        "担保",
+        "境外 SPV",
+        "关联交易",
+        "知识产权",
+        "税务",
+        "环保安全"
+      ],
+      "evidence_chain": "必须前置完成 → 否则退出风险",
+      "source_ref": "legal-due-diligence-checklist_20260818.html §10",
+      "recommended_chapter": "§22 退出路径（前置穿透）"
+    },
+    "§24情景": {
+      "core_position": "正威金融仲裁胜诉 12.89 亿 = 重要或有资产",
+      "key_data_points": [
+        "正威金融仲裁 12.89 亿",
+        "胜诉",
+        "或有资产"
+      ],
+      "evidence_chain": "iFind Finance FinQuery + KB 海特高新.md",
+      "source_ref": "legal-due-diligence-checklist_20260818.html §6",
+      "recommended_chapter": "§24 情景推演（或有资产）"
+    }
+  },
+  "summary_position": {
+    "core_claim": "海特高新是民营航空装备龙头 + 化合物半导体国产替代核心标的",
+    "key_evidence": "6重护城河4.48 + 调整后EBITDA 5.84 + 2025巨亏=Q4一次性计提",
+    "investment_recommendation": "—",
+    "key_risks": [
+      "海威华芯持续亏损",
+      "应收账款激增",
+      "实控人股权偏低",
+      "减值再次发生"
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "skill_slug": "olo-dcf-valuation",
+  "report_date": "20260818",
+  "subject": "海特高新（002023.SZ）",
+  "data_cutoff": "2026-08-18",
+  "key_data_points": [
+    {
+      "id": "KPI-01",
+      "label": "DCF 基准估值",
+      "value": "43.25 亿元",
+      "yoy": "—",
+      "source": "WACC 11.12% / g 2.5% / 12% CAGR"
+    },
+    {
+      "id": "KPI-02",
+      "label": "DCF 隐含 EV/EBITDA 倍数",
+      "value": "7.40x（低于行业 10-15x）",
+      "yoy": "—",
+      "source": "DCF / 调整后 EBITDA 5.84 亿"
+    },
+    {
+      "id": "KPI-03",
+      "label": "WACC（CAPM + 资本结构）",
+      "value": "11.12%",
+      "yoy": "—",
+      "source": "Ke 11.70% × 92.19% + Kd×(1-T) 4.25% × 7.81%"
+    },
+    {
+      "id": "KPI-04",
+      "label": "CAPM Ke = Rf + β × ERP + Size Premium",
+      "value": "11.70% = 2.50% + 1.20 × 6.00% + 2.00%",
+      "yoy": "—",
+      "source": "CAPM 模型"
+    },
+    {
+      "id": "KPI-05",
+      "label": "5 年 FCFF 预测合计现值",
+      "value": "5.46 亿元",
+      "yoy": "—",
+      "source": "12% CAGR + 32% EBITDA Margin + 8% CapEx"
+    },
+    {
+      "id": "KPI-06",
+      "label": "终值（Gordon Growth）",
+      "value": "22.39 亿元（PV 13.23 亿）",
+      "yoy": "—",
+      "source": "g 2.5%"
+    },
+    {
+      "id": "KPI-07",
+      "label": "终值（Exit Multiple 12x）",
+      "value": "105.48 亿元（PV 62.34 亿）",
+      "yoy": "—",
+      "source": "行业基准 Exit Multiple"
+    },
+    {
+      "id": "KPI-08",
+      "label": "终值采用均值",
+      "value": "37.79 亿元（PV）",
+      "yoy": "—",
+      "source": "Gordon + Exit Multiple 均值"
+    },
+    {
+      "id": "KPI-09",
+      "label": "Enterprise Value（基准）",
+      "value": "43.25 亿元",
+      "yoy": "—",
+      "source": "PV(FCFF) + PV(TV)"
+    },
+    {
+      "id": "KPI-10",
+      "label": "Equity Value（基准）",
+      "value": "42.63 亿元",
+      "yoy": "—",
+      "source": "EV + 现金 - 借款"
+    },
+    {
+      "id": "KPI-11",
+      "label": "每股价值（基准）",
+      "value": "7.53 元",
+      "yoy": "—",
+      "source": "Equity / 5.66 亿股"
+    },
+    {
+      "id": "KPI-12",
+      "label": "敏感性区间（悲观-乐观）",
+      "value": "35.10 - 62.30 亿元",
+      "yoy": "—",
+      "source": "WACC × g 敏感性矩阵"
+    },
+    {
+      "id": "KPI-13",
+      "label": "含协同 + 战略期权估值",
+      "value": "64.61 - 80.10 亿元（中枢 72.5 亿）",
+      "yoy": "—",
+      "source": "DCF + 控制溢价 30-35% + 净协同 4 亿 + 战略期权 9-22 亿"
+    }
+  ],
+  "evidence_chain": [
+    {
+      "stage": "WACC",
+      "conclusion": "11.12%（含 Size Premium 2.00%）",
+      "evidence": "CAPM（Ke 11.70%）+ 税后债务（4.25%）"
+    },
+    {
+      "stage": "FCFF 预测",
+      "conclusion": "5 年 FCFF 预测合计 5.46 亿（PV）",
+      "evidence": "12% CAGR + 32% EBITDA Margin + 8% CapEx × Revenue + 税率 15%"
+    },
+    {
+      "stage": "终值方法",
+      "conclusion": "Gordon 22.39 + Exit Multiple 105.48 → 均值 37.79 亿",
+      "evidence": "双方法交叉验证"
+    },
+    {
+      "stage": "M&A 调整",
+      "conclusion": "含协同 + 战略期权 + 控制溢价 = 64.61-80.10 亿（中枢 72.5 亿）",
+      "evidence": "DCF 43.25 + 控制溢价 30-35% + 净协同 4.00 亿 + 战略期权 9-22 亿"
+    },
+    {
+      "stage": "敏感性矩阵",
+      "conclusion": "3 个矩阵（WACC × g / WACC × Exit Multiple / CAGR × Margin）",
+      "evidence": "估值区间 35.10-66.70 亿元"
+    }
+  ],
+  "source_ref": "olo-dcf-valuation_20260818.html（30,848 字节）",
+  "investment_thesis": {
+    "rating": "P1 推荐",
+    "target_price": "64.61-80.10 亿元（中枢 72.5 亿）",
+    "key_catalysts": [
+      "WACC 11.12% 较高折现",
+      "终值方法双路径",
+      "敏感性矩阵完整",
+      "M&A 调整 6 大协同"
+    ]
+  },
+  "skill_version": "V25.1.46",
+  "sections": {
+    "§10估值方法": {
+      "core_position": "DCF 基准 43.25 亿 + WACC 11.12% + 5 年 FCFF 5.46 亿 + 终值双方法 + 敏感性矩阵",
+      "key_data_points": [
+        "DCF 基准 43.25 亿",
+        "EV/EBITDA 7.40x",
+        "WACC 11.12%",
+        "Ke 11.70%",
+        "Kd 4.25%",
+        "5 年 FCFF 5.46 亿",
+        "终值 Gordon 22.39 亿",
+        "终值 Exit Multiple 105.48 亿",
+        "均值 37.79 亿",
+        "EV 43.25 亿",
+        "Equity 42.63 亿",
+        "每股 7.53 元",
+        "敏感性 35.10-62.30 亿"
+      ],
+      "evidence_chain": "CAPM + Size Premium 2.00% + 税后债务 4.25% + 12% CAGR + 32% Margin + 8% CapEx",
+      "source_ref": "olo-dcf-valuation_20260818.html §1-§5",
+      "recommended_chapter": "§10 估值方法（DCF + WACC + 终值双方法 + 敏感性矩阵）"
+    },
+    "§22退出": {
+      "core_position": "含协同 + 战略期权 + 控制溢价 = 64.61-80.10 亿（中枢 72.5 亿）",
+      "key_data_points": [
+        "含协同估值 64.61-80.10 亿",
+        "中枢 72.5 亿",
+        "控制溢价 30-35%",
+        "净协同 +4.00 亿",
+        "战略期权 +9-22 亿"
+      ],
+      "evidence_chain": "DCF 43.25 + 控制溢价 12.98-15.47 + 净协同 4.00 + 战略期权 9-22",
+      "source_ref": "olo-dcf-valuation_20260818.html §6 + section3-4-segment-breakdown_20260818.html §3",
+      "recommended_chapter": "§22 退出路径（M&A 调整 + 含协同估值）"
+    },
+    "§23IRR": {
+      "core_position": "每股价值 7.53 元 + 含协同后中枢 72.5 亿 = IRR 测算锚",
+      "key_data_points": [
+        "每股 7.53 元",
+        "含协同中枢 72.5 亿",
+        "建议对价 64.61-80.10 亿"
+      ],
+      "evidence_chain": "IRR = (Exit Value / Entry Value)^(1/n) - 1",
+      "source_ref": "olo-dcf-valuation_20260818.html §4 + §6",
+      "recommended_chapter": "§23 IRR 测算（每股价值 + 含协同中枢）"
+    },
+    "§24情景": {
+      "core_position": "敏感性区间 35.10-62.30 亿 + 含协同估值 64.61-80.10 亿 = 3 个情景",
+      "key_data_points": [
+        "悲观 35.10 亿",
+        "基准 43.25 亿",
+        "乐观 62.30 亿",
+        "战略期权情景 62.30 亿"
+      ],
+      "evidence_chain": "3 个矩阵（WACC × g / WACC × Exit Multiple / CAGR × Margin）",
+      "source_ref": "olo-dcf-valuation_20260818.html §5",
+      "recommended_chapter": "§24 情景推演（敏感性矩阵 3 个）"
+    },
+    "§25结论": {
+      "core_position": "建议最终收购对价 64.61-80.10 亿（中枢 72.5 亿）",
+      "key_data_points": [
+        "建议对价 64.61-80.10 亿",
+        "中枢 72.5 亿",
+        "每股 11.41-14.15 元"
+      ],
+      "evidence_chain": "DCF 43.25 + 控制溢价 30-35% + 净协同 4.00 + 战略期权 9-22 = 72.5 亿中枢",
+      "source_ref": "olo-dcf-valuation_20260818.html §6.3 + §6.4",
+      "recommended_chapter": "§25 投资结论（最终对价 + 每股）"
+    }
+  },
+  "summary_position": {
+    "core_claim": "海特高新是民营航空装备龙头 + 化合物半导体国产替代核心标的",
+    "key_evidence": "6重护城河4.48 + 调整后EBITDA 5.84 + 2025巨亏=Q4一次性计提",
+    "investment_recommendation": "64.61-80.10 亿元（中枢 72.5 亿）",
+    "key_risks": [
+      "海威华芯持续亏损",
+      "应收账款激增",
+      "实控人股权偏低",
+      "减值再次发生"
+    ]
+  }
+}

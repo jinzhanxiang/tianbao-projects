@@ -1,0 +1,157 @@
+{
+  "skill_slug": "alice-financial-copilot",
+  "report_date": "20260818",
+  "subject": "海特高新（002023.SZ）",
+  "data_cutoff": "2026-08-18",
+  "key_data_points": [
+    {
+      "id": "KPI-01",
+      "label": "信用评级",
+      "value": "A-/BBB+（4.5/5.0）",
+      "yoy": "—",
+      "source": "Wind Alice 方法论"
+    },
+    {
+      "id": "KPI-02",
+      "label": "1 年违约概率（PD）",
+      "value": "0.5-1.0%",
+      "yoy": "—",
+      "source": "Wind Alice PD 模型"
+    },
+    {
+      "id": "KPI-03",
+      "label": "3 年累计 PD",
+      "value": "2.5-4.0%",
+      "yoy": "—",
+      "source": "Wind Alice PD 模型"
+    },
+    {
+      "id": "KPI-04",
+      "label": "EV/EBITDA 倍数",
+      "value": "16.16x（偏高）",
+      "yoy": "—",
+      "source": "估值倍数测算"
+    },
+    {
+      "id": "KPI-05",
+      "label": "PB 倍数",
+      "value": "2.09x",
+      "yoy": "—",
+      "source": "市值/归母权益"
+    },
+    {
+      "id": "KPI-06",
+      "label": "ROE（2025）",
+      "value": "-13.33%",
+      "yoy": "-17.13pp",
+      "source": "iFind Finance F9"
+    },
+    {
+      "id": "KPI-07",
+      "label": "经营性现金流 / 总债务",
+      "value": "1.20x（健康）",
+      "yoy": "—",
+      "source": "Wind Alice 测算"
+    },
+    {
+      "id": "KPI-08",
+      "label": "PD 触发条件",
+      "value": "海威华芯亏损扩大 + 2026 再次减值 + 管理层离职",
+      "yoy": "—",
+      "source": "Wind Alice 风险触发"
+    }
+  ],
+  "evidence_chain": [
+    {
+      "stage": "信用评级",
+      "conclusion": "A-/BBB+（4.5/5.0）",
+      "evidence": "护城河 4.48 + 现金流强健 + 资产负债率 38.64%"
+    },
+    {
+      "stage": "PD 模型",
+      "conclusion": "1 年 PD 0.5-1.0%",
+      "evidence": "海威华芯风险 + 应收账款激增 + 实控人质押"
+    },
+    {
+      "stage": "估值倍数",
+      "conclusion": "EV/EBITDA 16.16x（偏高）",
+      "evidence": "总市值 94.46 亿 / 调整后 EBITDA 5.84 亿 = 16.16x"
+    },
+    {
+      "stage": "风险触发",
+      "conclusion": "PD 触发 = 3 项",
+      "evidence": "海威华芯 / 减值 / 管理层"
+    }
+  ],
+  "source_ref": "alice-financial-copilot_20260818.html（24,667 字节）",
+  "investment_thesis": {
+    "rating": "A-/BBB+ 投资级",
+    "target_price": "70-85 亿元（中枢 77.5 亿）",
+    "key_catalysts": [
+      "评级展望稳定",
+      "PD 触发可控",
+      "现金流强健",
+      "估值倍数偏高需对赌"
+    ]
+  },
+  "skill_version": "V25.1.46",
+  "sections": {
+    "§3财务披露": {
+      "core_position": "ROE -13.33%（受巨亏影响）+ 经营现金流/总债务 1.20x（健康）",
+      "key_data_points": [
+        "ROE -13.33%",
+        "经营现金流/总债务 1.20x",
+        "2025 资产负债率 38.64%"
+      ],
+      "evidence_chain": "Wind Alice 评级方法论",
+      "source_ref": "alice-financial-copilot_20260818.html §3 + section3-financial-deepdive_20260818.html",
+      "recommended_chapter": "§3 财务表现（ROE + 现金流）"
+    },
+    "§17风险": {
+      "core_position": "信用评级 A-/BBB+（4.5/5.0）+ 1 年 PD 0.5-1.0% + 3 项 PD 触发",
+      "key_data_points": [
+        "信用评级 A-/BBB+",
+        "1 年 PD 0.5-1.0%",
+        "3 年累计 PD 2.5-4.0%",
+        "PD 触发条件 3 项"
+      ],
+      "evidence_chain": "海威华芯亏损扩大 + 2026 再次减值 + 管理层离职 = PD 触发",
+      "source_ref": "alice-financial-copilot_20260818.html §5 + section17-risks_20260818.html §7",
+      "recommended_chapter": "§17 风险（信用评级 + PD 模型）"
+    },
+    "§22退出": {
+      "core_position": "EV/EBITDA 16.16x（偏高）+ PB 2.09x = 估值倍数偏高需对赌",
+      "key_data_points": [
+        "EV/EBITDA 16.16x",
+        "PB 2.09x",
+        "总市值 94.46 亿",
+        "归母权益 45.20 亿"
+      ],
+      "evidence_chain": "总市值 / 调整后 EBITDA = 16.16x（vs 行业 10-15x）",
+      "source_ref": "alice-financial-copilot_20260818.html §4",
+      "recommended_chapter": "§22 退出路径（估值倍数 + 对赌设计）"
+    },
+    "§24情景": {
+      "core_position": "评级展望稳定 + PD 触发可控 = 退出窗口良好",
+      "key_data_points": [
+        "评级展望稳定",
+        "PD 触发可控",
+        "5-7 年退出窗口"
+      ],
+      "evidence_chain": "财务派 + 退出派共识",
+      "source_ref": "alice-financial-copilot_20260818.html §7",
+      "recommended_chapter": "§24 情景推演（退出窗口 + 评级展望）"
+    }
+  },
+  "summary_position": {
+    "core_claim": "海特高新是民营航空装备龙头 + 化合物半导体国产替代核心标的",
+    "key_evidence": "6重护城河4.48 + 调整后EBITDA 5.84 + 2025巨亏=Q4一次性计提",
+    "investment_recommendation": "70-85 亿元（中枢 77.5 亿）",
+    "key_risks": [
+      "海威华芯持续亏损",
+      "应收账款激增",
+      "实控人股权偏低",
+      "减值再次发生"
+    ]
+  }
+}

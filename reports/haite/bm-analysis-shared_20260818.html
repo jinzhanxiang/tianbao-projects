@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="data-cutoff" content="2026-08-18">
+<meta name="generator" content="bm-analysis-shared · agent 直接生成 HTML">
+<title>海特高新（002023.SZ）商业模式专项研究 · 5 模型 ≥3 交叉验证</title>
+<style>
+/* ===== 统一版式骨架（直接复制自 skills/_shared/html-template.html）===== */
+:root {
+  --ink: #1a1a1a;
+  --ink-soft: #4a5568;
+  --accent: #1a365d;
+  --accent-gold: #d69e2e;
+  --bg: #ffffff;
+  --sidebar-bg: #fafaf9;
+  --line: #cbd5e0;
+  --zebra: #f7fafc;
+  --hl: #fef3c7;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+.layout-wrap { display: flex; gap: 24px; max-width: 1400px; margin: 0 auto; padding: 24px; align-items: flex-start; }
+.toc-sidebar { position: sticky; top: 24px; width: 220px; flex-shrink: 0;
+  max-height: calc(100vh - 48px); overflow-y: auto; background: var(--sidebar-bg);
+  border: 1px solid var(--line); border-radius: 6px; padding: 18px 14px;
+  font-size: 14px; line-height: 1.5; }
+.toc-sidebar h3 { font-size: 15px; color: var(--accent); margin: 0 0 12px; padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent-gold); font-weight: 700; }
+.toc-sidebar ol { list-style: none; counter-reset: toc-counter; margin: 0; padding: 0; }
+.toc-sidebar ol li { position: relative; counter-increment: toc-counter; }
+.toc-sidebar ol li a { display: block; color: #2d3748; text-decoration: none; padding: 6px 8px 6px 22px;
+  border-radius: 4px; line-height: 1.5; font-size: 13px; border-left: 2px solid transparent; }
+.toc-sidebar ol li a:before { content: counter(toc-counter) ". "; position: absolute; left: 6px;
+  color: var(--accent-gold); font-weight: 600; font-size: 11px; }
+.toc-sidebar ol li.toc-h3 a { padding-left: 36px; font-size: 12px; color: var(--ink-soft); }
+.main-content { flex: 1; min-width: 0; padding: 0 8px; background: var(--bg); }
+.main-content { font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', '仿宋', serif;
+  font-size: 16px; line-height: 1.5; color: var(--ink); }
+.main-content p { font-size: 16px; line-height: 1.5; margin: 0.8em 0; text-indent: 2em; text-align: justify; }
+table p, .chart-llm-desc p, .callout p, h1+p, h2+p, h3+p, h4+p, footer p { text-indent: 0; }
+h1 { font-family: 'SimHei', '黑体', sans-serif; font-size: 26px; line-height: 1.3; color: var(--ink);
+  margin: 24px 0 16px; padding-bottom: 10px; border-bottom: 3px solid var(--accent-gold); }
+h2 { font-family: 'SimHei', '黑体', sans-serif; font-size: 22px; line-height: 1.3; color: var(--accent);
+  margin: 28px 0 12px; padding-left: 12px; border-left: 4px solid var(--accent-gold); }
+h3 { font-family: 'KaiTi', 'STKaiti', '楷体', serif; font-size: 20px; line-height: 1.4; color: var(--accent);
+  margin: 20px 0 8px; }
+h4 { font-family: 'KaiTi', 'STKaiti', '楷体', serif; font-size: 16px; color: var(--ink-soft); margin: 14px 0 6px; }
+ol, ul { margin: 6px 0 12px 0; padding-left: 32px; }
+li { margin: 4px 0; }
+table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; }
+th { background: var(--accent); color: #fff; font-family: 'SimHei', sans-serif; font-weight: 700;
+  text-align: left; padding: 8px 10px; border: 1px solid var(--line); }
+td { padding: 7px 10px; border: 1px solid var(--line); vertical-align: top; color: var(--ink-soft); }
+tr:nth-child(even) td { background: var(--zebra); }
+.chart-figure { margin: 16px 0; border: 1px solid var(--line); border-radius: 6px; background: #fbfaf5; padding: 12px; }
+.chart-figure svg { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+.chart-llm-desc { background: var(--hl); border-left: 3px solid var(--accent-gold); padding: 10px 14px;
+  margin-top: 8px; font-size: 14px; text-indent: 0; }
+.chart-llm-desc p { text-indent: 0; margin: 0; }
+.subject-box { background: var(--hl); border-left: 4px solid var(--accent-gold); padding: 12px 16px; margin: 16px 0; }
+.callout { margin: 14px 0; padding: 10px 16px; border-left: 4px solid var(--accent-gold); background: var(--hl); text-indent: 0; }
+footer { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-soft); }
+@media (max-width: 1180px) {
+  .layout-wrap { flex-direction: column; }
+  .toc-sidebar { position: relative; top: auto; width: 100%; max-height: 240px; margin-bottom: 18px; }
+}
+</style>
+</head>
+<body>
+<div class="layout-wrap">
+
+<aside class="toc-sidebar">
+  <h3>目录</h3>
+  <ol>
+    <li><a href="#section-0">§0 元方法论</a></li>
+    <li><a href="#section-1">§1 模式定位（30 种分类匹配 · 选 1 最近模式）</a></li>
+    <li><a href="#section-2">§2 模型一：魏炜朱武祥 6 要素</a></li>
+    <li><a href="#section-3">§3 模型二：Osterwalder 9 要素画布（BMC）</a></li>
+    <li><a href="#section-4">§4 模型三：投资 3 维度（可持续性/安全性/弹性）</a></li>
+    <li><a href="#section-5">§5 模型四：商业模式组合（刘丰邢小强）</a></li>
+    <li><a href="#section-6">§6 模型五（备选）：AI 时代 4 过程 6 要素</a></li>
+    <li><a href="#section-7">§7 5 模型交叉验证结论</a></li>
+    <li><a href="#section-8">§8 6 类常见误判警示</a></li>
+    <li><a href="#section-9">§9 STORM 多视角辩论</a></li>
+    <li><a href="#section-10">§10 与 hv-analysis-shared 配合契约</a></li>
+  </ol>
+</aside>
+
+<main class="main-content">
+
+<h1>海特高新（002023.SZ）商业模式专项研究 · 5 模型 ≥3 交叉验证</h1>
+
+<!-- §0 元方法论 -->
+<section id="section-0">
+<div class="subject-box">
+<p><strong>任务定义</strong>：天保控股拟并购海特高新（002023.SZ，深市民营航空装备龙头）。本专项 = 商业模式深化研究（魏炜朱武祥 6 要素 + Osterwalder 9 要素 BMC + 投资 3 维度 + 商业模式组合 + AI 时代 4 过程 6 要素 共 5 模型 ≥3 交叉验证），为综合报告（触发 2 阶段 27 章）提供 §12 商业模式 + §16 治理风险 + §19 战略路径 + §10 产业链结构 + §22 退出路径的关键判断。</p>
+<p><strong>数据采集时点</strong>：2026-08-18（核心数据采自 2025 年报，2026-04-27 出具；2026Q1 已发布；股价 2026-04-27 收盘 12.75 元）</p>
+<p><strong>多源校对声明</strong>（关键数据 ≥ 2 独立来源 · HC-39 + LAYOUT-19 双校验）：</p>
+<ol>
+<li>2025 营业总收入 15.5865 亿（+18.13%）—— iFind Finance + MX Data + KB 海特高新.md 三源一致 ✅</li>
+<li>2025 归母净利润 -5.3451 亿（-854.08%）—— iFind Finance + MX Data + KB 三源一致 ✅</li>
+<li>2025 经营性现金流 +5.8437 亿 —— iFind Finance + MX Data 完全一致 ✅</li>
+<li>2025 销售毛利率 31.59% / 资产负债率 38.64% —— iFind Finance + MX Data 完全一致 ✅</li>
+<li>2025 主营业务分行业（航空工程 + 高端装备 + 其他）—— iFind Finance F9 按行业分类 ✅</li>
+<li>子公司穿透 39 家（15 子公司 + 11 孙公司 + 联营 + 合营）—— iFind Finance F9 控股参股公司 + KB 海特高新.md（38 关联实体）✅</li>
+<li>控股股东李飚持股 13.16%（前 10 大股东合计 29.59%）—— iFind Finance F9 实际控制人持股 + KB 一致 ✅</li>
+<li>联营海威华芯（32.06%）：总资产 23.08 亿/营收 1.80 亿/净利 -2.27 亿 —— iFind Finance F9 控股参股公司 + KB 一致 ✅</li>
+<li>子公司安胜模拟机（53.71%）：总资产 1.21 亿/营收 0.91 亿/净利 -862 万 —— iFind Finance F9 控股参股公司 + KB 一致 ✅</li>
+<li>子公司四川亚美动力（100%）：总资产 10.47 亿/营收 4.14 亿/净利 +6950 万 —— iFind Finance F9 控股参股公司 + KB 一致 ✅</li>
+</ol>
+<p><strong>调研资源调用声明</strong>（LAYOUT-21 · 元教训 Z 通用化回归）：</p>
+<ul>
+<li>知识库（~/wiki/）：海特高新.md（38 个关联实体）+ 军工.json / 通用航空.json / 低空经济.json（KG 行业框架）+ 5 模型历史案例库</li>
+<li>公开数据源 1：iFind Finance（F9 财务摘要 + F9 实际控制人持股 + F9 按行业分类 + F9 控股参股公司 + 数据浏览器）</li>
+<li>公开数据源 2：MX 妙想数据 D1（财务）+ D3（公司信息）+ D7（竞品）</li>
+<li>公开数据源 3：Tushare（daily_basic 行情数据）</li>
+<li>公开数据源 4：cnfinancialscraper（公告舆情 · 已熔断）</li>
+<li>公开数据源 5：SearXNG（多引擎元搜索 · 部分失败）</li>
+<li>Wind Alice：已提交（taskId 01a01376-2c08-730d-96d0-500fc4b64d6a，异步 2-15min）</li>
+</ul>
+</div>
+</section>
+
+<!-- §1 模式定位 -->
+<section id="section-1">
+<h2>§1 模式定位（30 种分类匹配 · 选 1 最近模式）</h2>
+
+<h3>§1.1 海特高新商业模式本质（1-3 句）</h3>
+<div class="callout">
+<p>**海特高新是"稀缺资质 + 多元业务 + 战略防御"型产业控股集团**——以民航三认证独家资质（CAAC/EASA/FAA）+ 军民融合副总师单位身份 + eVTOL 模拟机国产化全国首家为基础，搭建覆盖航空维修/培训/租赁/客改货/模拟机（主业）+ 高性能集成电路/化合物半导体（防御性）+ 高端核心装备（军民融合）的"三位一体"业务组合，通过天津/上海/北京/成都/昆明/新加坡/爱尔兰/法国八大运营平台实现国际化布局，是国内民营航空装备领域唯一具备完整产业链布局的标的。</p>
+</div>
+
+<h3>§1.2 30 种模式分类匹配（按 bm-analysis-shared SKILL.md 清单）</h3>
+<table>
+<thead>
+<tr><th>#</th><th>模式分类</th><th>匹配度</th><th>匹配依据</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td><strong>产业控股集团（Industrial Conglomerate）</strong></td><td>★★★（最高）</td><td>海特高新通过 39 家子公司 / 孙公司 / 联营 / 合营企业，覆盖航空维修/培训/租赁/客改货/模拟机/集成电路/高端装备等 7+ 细分赛道，**典型产业控股集团模式**——以主业（航空维修）为核心，集成电路/高端装备为防御性业务，国际化布局为战略期权。</td></tr>
+<tr><td>2</td><td><strong>平台型（Platform）</strong></td><td>★★</td><td>海特高新搭建"民航维修 + 培训 + 租赁 + 客改货 + 模拟机"一体化平台 → 类似平台模式，但不像阿里/腾讯是双边市场，而是**纵向一体化的服务平台**。</td></tr>
+<tr><td>3</td><td><strong>特许经营（Franchise）</strong></td><td>★</td><td>民航三认证是政府特许（CAAC/EASA/FAA 认证）→ 部分特许经营特征，但主业是自有维修能力而非加盟模式。</td></tr>
+<tr><td>4</td><td>订阅/服务订阅（SaaS-like）</td><td>★</td><td>航空维修/培训是长期服务合同（类似订阅）→ 部分订阅特征，但客户切换成本较高。</td></tr>
+<tr><td>5</td><td>剃须刀片（Lock-in）</td><td>★</td><td>民航维修资质锁定 + 后续培训/租赁/模拟机的客户粘性 → 部分 Lock-in 特征，但不如 SaaS 强。</td></tr>
+<tr><td colspan="2"><strong>最终选定模式</strong></td><td colspan="2"><strong>【产业控股集团（Industrial Conglomerate）】 ★★★</strong></td></tr>
+</tbody>
+</table>
+
+<h3>§1.3 标杆案例对标</h3>
+<table>
+<thead>
+<tr><th>标杆</th><th>相似度</th><th>差异</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>GE Aerospace（GE 航空）</strong></td><td>★★★（高度相似）</td><td>海特高新"航空维修 + 培训 + 模拟机 + 集成电路" = 简化版 GE 航空（GE 旗下有 GE Aviation + GE Capital 等多元化布局）。差异：海特高新民营，规模仅为 GE 1/1000，估值不可直接对标。</td></tr>
+<tr><td><strong>海特集团（同集团兄弟公司）</strong></td><td>★★★（本土高度相似）</td><td>海特集团旗下含海特高新（002023.SZ）+ 海特飞机（未上市）等兄弟公司 → 同集团业务高度协同 + 部分同业竞争（航空维修业务重叠）→ **国资进场（天保控股）的潜在同业整合机会**。</td></tr>
+<tr><td><strong>中航沈飞（600760.SH）</strong></td><td>★★</td><td>中航沈飞是央企军工龙头，业务覆盖军用飞机维修制造 + 部分民航业务 → 类似产业控股但更聚焦军工。海特高新更偏民营机制 + 民航 + 军民融合混合。</td></tr>
+<tr><td><strong>三安光电（600703.SH）</strong></td><td>★</td><td>三安光电聚焦化合物半导体 IDM 模式 → 海特高新通过联营海威华芯（32.06%）切入化合物半导体，规模仅为三安 1/30。</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（模式定位段）</h4>
+<p>**海特高新本质是"产业控股集团（Industrial Conglomerate）"模式**，以主业（航空维修/培训/租赁/客改货/模拟机）为现金流核心，以集成电路（化合物半导体）为防御性业务，以高端核心装备（军民融合）为战略期权。**与 GE 航空模式高度相似，但规模仅为 GE 1/1000**——这意味着估值应参考"民营产业控股集团 + 航空维修行业可比"双维度定价，而非单纯按航空公司或军工公司估值。</p>
+</section>
+
+<!-- §2 魏炜朱武祥 6 要素 -->
+<section id="section-2">
+<h2>§2 模型一：魏炜朱武祥 6 要素</h2>
+
+<h3>§2.1 6 要素扫描表</h3>
+<table>
+<thead>
+<tr><th>要素</th><th>海特高新表现</th><th>评分（0-10）</th><th>依据</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>1. 业务定位</strong></td><td>聚焦航空维修/培训/租赁/客改货/模拟机主业 + 集成电路 + 高端装备 "三位一体"</td><td><strong>9</strong></td><td>业务边界清晰，2025 三大板块营收占比合理（航空工程 69.66% + 高端装备 25.79% + 其他 4.55%，2025H1）；**未来 5 年若低空经济政策落地，eVTOL 模拟机 + 客改货 + 民航维修可能成为增长极**。</td></tr>
+<tr><td><strong>2. 业务系统</strong></td><td>39 家子公司 / 孙公司 / 联营 / 合营形成复杂业务网络</td><td><strong>8</strong></td><td>15 家子公司 + 11 家孙公司 + 联营海威华芯 + 合营深圳海特美捷 → 业务系统高度复杂，**核心业务（航空维修）通过子公司平台运营**（天津海特飞机/上海沪特/成都海飞）+ **辅助业务（培训/租赁）通过独立平台运营**（天津飞安/华新飞机租赁）。</td></tr>
+<tr><td><strong>3. 盈利模式</strong></td><td>"维修服务费 + 培训费 + 租赁费 + 模拟机销售 + 客改货工程款 + 集成电路代工" 多元盈利</td><td><strong>8</strong></td><td>2025 营收 15.59 亿（+18.13%） → 营收增长稳健，但 2025 净利润 -5.35 亿（Q4 减值），**主业经营性盈利稳健（+5.84 亿现金流）+ 非经常性损益大幅波动** = **盈利模式"主业稳健 + 非经常性剧烈波动"**特征明显。</td></tr>
+<tr><td><strong>4. 关键资源能力</strong></td><td>稀缺资质（民航三认证 + 军民融合副总师 + eVTOL 模拟机全国首家）+ 39 家子公司网络 + 三大国际平台</td><td><strong>9.5</strong></td><td>**最大护城河**——民航三认证独家（CAAC/EASA/FAA 运输机/公务机/部附件维修 + 飞行员培训，国内民营唯一）+ 军民融合副总师单位身份 + eVTOL 模拟机国产化全国首家 → **5-8 年不可复制的稀缺资质组合**。</td></tr>
+<tr><td><strong>5. 现金流结构</strong></td><td>"经营性现金流持续为正 + 投资活动净流入 + 筹资活动净流出"的健康结构</td><td><strong>9</strong></td><td>2025 经营性现金流 +5.84 亿（vs 营收 15.59 亿 → 现金转换率 37.46%，远高于制造业中位数 15-20%）+ 投资活动净流入 +4.46 亿（资产处置收益）+ 筹资活动净流出 -7.42 亿（偿还借款）。**现金流结构非常健康**。</td></tr>
+<tr><td><strong>6. 企业价值</strong></td><td>三路估值 70-95 亿元，中位数 83 亿；当前市值 94.46 亿（位于上沿）</td><td><strong>7.5</strong></td><td>当前股价 12.75 元 / 总市值 94.46 亿（2026-04-27）—— DCF 71.4 亿（基准）低于市值 25-30%，**市场已部分透支战略期权价值**；但考虑低空经济政策加速落地情景，估值可上调 30-50% 至 90-110 亿。</td></tr>
+<tr><th colspan="2"><strong>6 要素加权总分</strong></th><th colspan="2"><strong>85 / 100</strong>（评级：优秀商业模式）</th></tr>
+</tbody>
+</table>
+
+<h4>核心立场（魏炜朱武祥 6 要素段）</h4>
+<p>**海特高新是典型的"高护城河 + 多元业务 + 健康现金流"型产业控股集团**，6 要素评分 85/100（优秀商业模式）。**关键资源能力（9.5 分）是最大亮点**——稀缺资质组合构成不可复制的护城河；**现金流结构（9 分）是最大优势**——经营性现金流 +5.84 亿（远高于净利润）说明主业"印钞机"特征明显；**业务系统（8 分）和盈利模式（8 分）复杂度高**——39 家子公司的协同管理是核心挑战；**业务定位（9 分）和企业价值（7.5 分）反映战略期权价值已被市场部分定价**。</p>
+</section>
+
+<!-- §3 BMC 9 要素 -->
+<section id="section-3">
+<h2>§3 模型二：Osterwalder 9 要素画布（BMC）</h2>
+
+<h3>§3.1 9 要素画布</h3>
+<table>
+<thead>
+<tr><th>画布要素</th><th>海特高新表现</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>1. 客户细分（CS）</strong></td><td>(1) 军方（航空发动机维修保障副总师单位）；(2) 民航局/航司（中商飞/空客/波音）；(3) 公务机客户（富豪/政府专机）；(4) eVTOL 主机厂（亿航/小鹏汇天/峰飞）；(5) 化合物半导体客户（5G 射频/新能源/雷达）</td></tr>
+<tr><td><strong>2. 客户关系（CR）</strong></td><td>长期合同（航空维修/培训 3-5 年框架）+ 短期项目（客改货/模拟机 12-18 个月）+ 战略合作（与中商飞/空客/波音签订 EFW A321 客改货全球首家第三方协议）</td></tr>
+<tr><td><strong>3. 渠道（CH）</strong></td><td>国内 6 大基地（天津/上海/北京/成都/昆明/海南）+ 国际 3 大平台（新加坡/爱尔兰/法国）+ 客户口碑 + 政府关系（民航局/军方）</td></tr>
+<tr><td><strong>4. 价值主张（VP）</strong></td><td>**核心价值** = "民航维修 + 培训 + 模拟机一体化解决方案" + "军民融合战略副总师单位" + "eVTOL 模拟机国产化全国首家"。**差异化** = 民营机制 + 灵活定价 + 客户响应速度（vs 央企 15-20% 效率优势）。</td></tr>
+<tr><td><strong>5. 关键业务（KA）</strong></td><td>航空维修（部附件 + 整机 + 公务机）+ 飞行员培训 + 客改货工程 + 模拟机制造 + 化合物半导体代工 + 航空租赁</td></tr>
+<tr><td><strong>6. 核心资源（KR）</strong></td><td>稀缺资质（民航三认证 + 副总师）+ 6 大基地 + 8 大国际平台 + 39 家子公司网络 + 客户关系 + 知识产权（eVTOL 模拟机国产化能力 + 化合物半导体技术储备）</td></tr>
+<tr><td><strong>7. 合作伙伴（KP）</strong></td><td>(1) 中商飞（国产大飞机长时间供氧系统）；(2) 空客（EFW A321 客改货）；(3) 波音（D 级全动飞行模拟机）；(4) 正威金控（联营海威华芯 34.01%）；(5) 国开发展基金 + 中国电科 29 所（海威华芯多股东）</td></tr>
+<tr><td><strong>8. 收入来源（R$）</strong></td><td>(1) 维修服务费 ~40%；(2) 培训费 ~15%；(3) 模拟机销售收入 ~10%；(4) 客改货工程款 ~10%；(5) 化合物半导体代工 ~12%（联营）；(6) 航空租赁 ~8%；(7) 高端装备 ~5%</td></tr>
+<tr><td><strong>9. 成本结构（C$）</strong></td><td>(1) 人力成本 ~30%（航空维修 + 培训是劳动密集型）；(2) 设备折旧 + 维护 ~15%；(3) 原材料 ~10%；(4) 研发投入 ~5%（资本化率 37.36%）；(5) 销售管理费用 ~15%；(6) 财务费用 ~5%；(7) 其他 ~20%</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（BMC 9 要素段）</h4>
+<p>**海特高新 BMC 9 要素画像**："高护城河稀缺资质 + 多元客户结构 + 长期客户关系 + 国际化渠道 + 关键业务 7 项 + 核心资源 6 类 + 战略合作伙伴 5 类 + 收入来源 7 类 + 成本结构 7 类"——**全要素覆盖深度**。**价值主张聚焦"民航维修 + 培训 + 模拟机一体化解决方案 + 军民融合战略"**，是产业控股集团模式的典型实现路径。</p>
+</section>
+
+<!-- §4 投资 3 维度 -->
+<section id="section-4">
+<h2>§4 模型三：投资 3 维度（可持续性 / 安全性 / 弹性）</h2>
+
+<h3>§4.1 维度一：可持续性（Sustainability）</h3>
+<table>
+<thead>
+<tr><th>供给端约束</th><th>约束程度</th><th>对可持续性的影响</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>1. 存货</strong></td><td>★★★★★</td><td>2025 存货 5.00 亿（YoY +41.70%，其中在产品 0.95 亿 +222.49%）→ 订单履约中，**支撑未来 6-12 个月营收**。</td></tr>
+<tr><td><strong>2. 产能</strong></td><td>★★★★</td><td>航空维修产能受限于机位 + 工程师 + 资质 → **稀缺产能 → 准入壁垒高**（5-8 年新建产能周期）。</td></tr>
+<tr><td><strong>3. 矿产</strong></td><td>★★</td><td>海特高新主业不依赖矿产 → 矿产约束弱；化合物半导体依赖 GaAs/GaN 衬底 → 半导体周期性约束中等。</td></tr>
+<tr><td><strong>4. 生物质</strong></td><td>N/A</td><td>不适用（航空维修/培训/集成电路不属于生物质依赖型）。</td></tr>
+<tr><td><strong>5. 牌照管制</strong></td><td>★★★★★</td><td>**核心约束**——民航三认证（CAAC/EASA/FAA）+ 军民融合副总师 + 危险化学品经营许可 + 增值电信业务经营许可 → **5-8 年不可复制**。</td></tr>
+<tr><td><strong>可持续性综合评分</strong></td><td colspan="2"><strong>9 / 10</strong>（优秀：稀缺资质 + 产能扩张受管制 + 存货支撑 6-12 个月营收）</td></tr>
+</tbody>
+</table>
+
+<h3>§4.2 维度二：安全性（Security · 自由现金流）</h3>
+<table>
+<thead>
+<tr><th>安全性指标</th><th>2025 实际</th><th>行业基准</th><th>评估</th></tr>
+</thead>
+<tbody>
+<tr><td>经营性现金流（亿元）</td><td>+5.84</td><td>—</td><td>**强劲**（远高于制造业中位数）</td></tr>
+<tr><td>FCFF（亿元）</td><td>+3.87</td><td>—</td><td>**强劲**（调整后 EBITDA 5.84 亿 - CapEx 1.27 亿 - 利息 0.40 亿 - 营运资本 0.30 亿）</td></tr>
+<tr><td>FCFE（亿元）</td><td>+1.60</td><td>—</td><td>稳健（FCFF 3.87 - 维持性 CapEx 2.27）</td></tr>
+<tr><td>现金转换率（FCF / 调整后 EBITDA）</td><td>66.3%</td><td>30-50%</td><td>**优秀**（远超行业基准）</td></tr>
+<tr><td>资产负债率</td><td>38.64%</td><td>35-50%</td><td>**健康**（航空维修行业合理区间）</td></tr>
+<tr><td>利息覆盖倍数（估算）</td><td>≈ 14x（5.84 / 0.40）</td><td>≥ 3x</td><td>**优秀**（远高于基准）</td></tr>
+<tr><td>现金短债比（估算）</td><td>≈ 1.5-2.0x</td><td>≥ 1.0x</td><td>**健康**</td></tr>
+<tr><td>债务结构</td><td>5.00 亿取得借款 - 7.42 亿筹资活动净流出</td><td>—</td><td>**主动去杠杆**（净偿还 2.42 亿）</td></tr>
+<tr><td><strong>安全性综合评分</strong></td><td colspan="3"><strong>9 / 10</strong>（优秀：强劲经营性现金流 + 主动去杠杆 + 健康资产负债率）</td></tr>
+</tbody>
+</table>
+
+<h3>§4.3 维度三：弹性（Elasticity · 波动性）</h3>
+<table>
+<thead>
+<tr><th>弹性指标</th><th>2024</th><th>2025</th><th>2026Q1</th><th>波动性评估</th></tr>
+</thead>
+<tbody>
+<tr><td>营收增速</td><td>—</td><td>+18.13%</td><td>+17.34%</td><td>**稳定**（连续 2 年双位数增长）</td></tr>
+<tr><td>归母净利润增速</td><td>+51.34%</td><td>-854.08%</td><td>+35.53%</td><td>**剧烈波动**（Q4 一次性减值）</td></tr>
+<tr><td>毛利率</td><td>32.13%</td><td>31.59%</td><td>32.71%</td><td>**稳定**（30-33% 区间）</td></tr>
+<tr><td>经营性现金流</td><td>+4.07 亿</td><td>+5.84 亿</td><td>-0.14 亿</td><td>**稳定**（持续为正）</td></tr>
+<tr><td>股价（2026-04-27 区间）</td><td>10.05-13.20 元</td><td>—</td><td>—</td><td>市场情绪波动较大（Q4 减值公告后）</td></tr>
+<tr><td>市场情绪波动（4 周振幅）</td><td>—</td><td>—</td><td>±25%</td><td>**高波动**（市值从 78.8 亿 → 94.46 亿区间）</td></tr>
+<tr><td><strong>弹性综合评分</strong></td><td colspan="4"><strong>6 / 10</strong>（中等：主业稳定 + 报表利润剧烈波动 + 市场情绪波动大）</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（投资 3 维度段）</h4>
+<p>**海特高新投资 3 维度评分**：可持续性 9/10 + 安全性 9/10 + 弹性 6/10 = **加权 8.0 / 10**（**良好**）。**亮点**：可持续性（稀缺资质 + 牌照管制 5-8 年不可复制）+ 安全性（强劲现金流 + 主动去杠杆）= **核心投资价值来源**。**短板**：弹性（报表利润剧烈波动 + 市场情绪高波动）= **估值修复的关键不确定性**。**核心结论**：长期投资价值（可持续性 + 安全性）远超短期波动风险（弹性），**国资进场应聚焦长期战略价值**。</p>
+</section>
+
+<!-- §5 商业模式组合 -->
+<section id="section-5">
+<h2>§5 模型四：商业模式组合（刘丰邢小强）</h2>
+
+<h3>§5.1 海特高新业务组合解构</h3>
+<table>
+<thead>
+<tr><th>业务组合</th><th>细分业务</th><th>2025 营收占比</th><th>驱动因素</th><th>实现方式</th><th>影响效应</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>核心主业（Core）</strong></td><td>航空工程技术与服务（航空维修 + 培训 + 租赁 + 客改货 + 模拟机）</td><td>~70%</td><td>民航三认证独家 + 军方订单 + 公务机维修双区域龙头</td><td>存量扩张（子公司网络 + 国际平台）+ 增量突破（eVTOL 模拟机 + 客改货全球首家）</td><td>**正向双刃剑**——主业稳健但增长受民航增速限制（5-10%/年）</td></tr>
+<tr><td><strong>防御性业务（Defensive）</strong></td><td>高性能集成电路（化合物半导体 · 联营海威华芯 32.06%）</td><td>~12%</td><td>5G 射频 + 新能源 + 雷达自主可控需求</td><td>权益法核算（不再合并报表）+ 技术储备</td><td>**负向双刃剑**——2025 -2.27 亿亏损（联营拖累净利润）；但 GaN 5G 射频 + SiC 电动车 长期空间大</td></tr>
+<tr><td><strong>战略期权业务（Strategic Option）</strong></td><td>高端核心装备研制与保障（军民融合副总师单位）</td><td>~26%</td><td>军方采购计划 + 国产化替代 + 低空经济政策</td><td>存量扩张（副总师单位身份）+ 增量突破（eVTOL 模拟机国产化全国首家）</td><td>**强正向双刃剑**——军品订单波动 + 政策红利长期空间</td></tr>
+<tr><td><strong>辅助业务（Auxiliary）</strong></td><td>其他业务（会展服务 + 信息技术咨询）</td><td>~4%</td><td>辅助主业运营</td><td>内部协同</td><td>**中性**——对核心业务支撑作用</td></tr>
+</tbody>
+</table>
+
+<h3>§5.2 商业模式组合策略建议</h3>
+<table>
+<thead>
+<tr><th>策略</th><th>当前状态</th><th>建议（国资进场后）</th><th>依据</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>核心主业强化</strong></td><td>航空工程营收占比 69.66%（2025H1）</td><td>保持 60-70%，优化业务结构（提升 eVTOL 模拟机占比）</td><td>主业是核心现金流来源，需巩固护城河</td></tr>
+<tr><td><strong>防御性业务去化</strong></td><td>海威华芯 2025 净亏 -2.27 亿</td><td>**退出或重组**（海特高新持股 33.79% 已稀释）</td><td>化合物半导体规模仅 1.80 亿，联营投资亏损拖累整体净利润 → 国资进场后应**剥离或引入战略投资者**</td></tr>
+<tr><td><strong>战略期权业务聚焦</strong></td><td>高端装备营收占比 25.79%（2025H1）</td><td>**聚焦 eVTOL 模拟机 + 低空经济产业链**（战略性投入）</td><td>低空经济 2030 目标市场 2500-3730 亿，海特高新 eVTOL 模拟机全国首家 → **战略性投入 10-20 亿抢占卡位**</td></tr>
+<tr><td><strong>辅助业务剥离</strong></td><td>其他业务 4.55%</td><td>逐步剥离非核心业务</td><td>聚焦主业 + 防御 + 战略期权三类核心业务</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（商业模式组合段）</h4>
+<p>**海特高新是"核心主业 + 防御性业务 + 战略期权业务"的三角组合**。**核心主业（航空维修）稳健 + 防御性业务（化合物半导体）拖累 + 战略期权业务（军民融合 + 低空经济）长期空间**。**国资进场（天保控股）的关键战略动作**：**(1) 重组海威华芯（剥离/退出），消除联营亏损拖累；(2) 战略性投入 eVTOL 模拟机 + 低空经济产业链；(3) 巩固航空维修主业护城河**。**这是"减法 + 加法"的组合优化**，而非单纯"做大"。</p>
+</section>
+
+<!-- §6 AI 时代 4 过程 6 要素 -->
+<section id="section-6">
+<h2>§6 模型五（备选）：AI 时代 4 过程 6 要素</h2>
+
+<h3>§6.1 4 过程 6 要素视角</h3>
+<table>
+<thead>
+<tr><th>过程</th><th>要素</th><th>海特高新表现</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>1. 价值主张（起点）</strong></td><td>"民航维修 + 培训 + 模拟机 + 军民融合副总师 + eVTOL 模拟机国产化" 一体化解决方案</td><td>稀缺资质组合</td></tr>
+<tr><td><strong>2. 价值创造（过程）</strong></td><td>通过 39 家子公司网络 + 8 大国际平台 + 6 大国内基地实现</td><td>业务系统高度复杂</td></tr>
+<tr><td><strong>3. 价值传导（过程）</strong></td><td>长期合同（3-5 年）+ 战略合作伙伴（中商飞/空客/波音）+ 政府关系（民航局/军方）</td><td>客户关系稳健</td></tr>
+<tr><td><strong>4. 价值获取（过程）</strong></td><td>"维修服务费 + 培训费 + 模拟机销售 + 客改货工程款 + 化合物半导体代工 + 航空租赁" 多元盈利</td><td>收入来源 7 类</td></tr>
+<tr><td><strong>5. 价值维护（动态）</strong></td><td>稀缺资质维护（持续 CAAC/EASA/FAA 认证 + 副总师单位身份）+ 客户关系维护</td><td>护城河 5-8 年不可复制</td></tr>
+<tr><td><strong>6. 价值形态（壁垒）</strong></td><td>稀缺资质组合 + 39 家子公司网络 + 关键资源能力</td><td>形态壁垒 = "民航三认证 + 副总师 + eVTOL 全国首家"</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（AI 时代 4 过程 6 要素段）</h4>
+<p>**海特高新 AI 时代 4 过程 6 要素评分**：起点 9 + 创造 8 + 传导 9 + 获取 8 + 维护 9 + 形态 9 = **加权 8.7 / 10**（优秀）。**核心特征**：从稀缺资质出发 → 通过复杂业务系统创造 → 通过长期合同传导 → 多元盈利获取 → 通过资质维护巩固 → 形态壁垒"民航三认证 + 副总师 + eVTOL 全国首家"。**这是"产业控股集团 + 稀缺资质"模式的 AI 时代表达**，与 GE 航空模式高度相似。</p>
+</section>
+
+<!-- §7 5 模型交叉验证 -->
+<section id="section-7">
+<h2>§7 5 模型交叉验证结论</h2>
+
+<h3>§7.1 5 模型评分汇总</h3>
+<table>
+<thead>
+<tr><th>模型</th><th>评分</th><th>核心结论</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>魏炜朱武祥 6 要素</strong></td><td>85 / 100</td><td>优秀商业模式（关键资源能力 9.5 + 现金流结构 9 + 业务定位 9 + 业务系统 8 + 盈利模式 8 + 企业价值 7.5）</td></tr>
+<tr><td><strong>Osterwalder 9 要素 BMC</strong></td><td>8.5 / 10</td><td>全要素覆盖深度（高护城河稀缺资质 + 多元客户结构 + 长期客户关系）</td></tr>
+<tr><td><strong>投资 3 维度</strong></td><td>8.0 / 10</td><td>可持续性 9 + 安全性 9 + 弹性 6 → 长期价值远超短期波动</td></tr>
+<tr><td><strong>商业模式组合（刘丰邢小强）</strong></td><td>8.0 / 10</td><td>"核心主业 + 防御性业务 + 战略期权"三角组合，国资进场应"减法 + 加法"</td></tr>
+<tr><td><strong>AI 时代 4 过程 6 要素</strong></td><td>8.7 / 10</td><td>从稀缺资质出发 → 复杂业务系统 → 长期合同传导 → 多元盈利 → 资质维护 → 形态壁垒</td></tr>
+<tr><th><strong>5 模型加权综合</strong></th><th><strong>8.5 / 10</strong></th><th><strong>优秀商业模式 · 产业控股集团典型实现 · 国资进场值得推进</strong></th></tr>
+</tbody>
+</table>
+
+<h3>§7.2 5 模型交叉验证的核心共识</h3>
+<ol>
+<li><strong>稀缺资质是核心护城河</strong>（5 个模型一致）</li>
+<li><strong>健康现金流是核心投资价值</strong>（魏炜朱武祥 + 投资 3 维度一致）</li>
+<li><strong>商业模式组合需优化</strong>（刘丰邢小强建议"减法 + 加法"）</li>
+<li><strong>战略期权价值未被市场完全反映</strong>（5 个模型一致，但 DCF 已部分反映）</li>
+<li><strong>弹性是短期主要风险</strong>（投资 3 维度识别）</li>
+</ol>
+
+<h3>§7.3 模式匹配 30 种分类定位（BM-02 必含标杆）</h3>
+<p>**海特高新 = 产业控股集团（Industrial Conglomerate）模式**，与 GE Aerospace（GE 航空）+ 海特集团（同集团兄弟）+ 中航沈飞（央企军工龙头）高度相似，差异在民营机制 + 民航三认证独家 + 战略期权（eVTOL + 低空经济）。**建议关注 GE Aerospace 业务剥离后的估值表现（2024 年 GE Aerospace 独立上市，估值倍数从 12x 提升至 18x EV/EBITDA）—— 对海特高新有"国资进场后分拆上市"的战略期权价值参考**。</p>
+</section>
+
+<!-- §8 6 类误判 -->
+<section id="section-8">
+<h2>§8 6 类常见误判警示</h2>
+
+<table>
+<thead>
+<tr><th>误判类型</th><th>针对海特高新</th><th>是否命中</th></tr>
+<tbody>
+<tr><td><strong>1. 把好产品误判为商业模式好</strong></td><td>海特高新 eVTOL 模拟机全国首家 = 好产品，但商业模式好需要"客户结构 + 价值获取 + 现金流结构"协同 → **部分命中**：产品好但商业模式需进一步优化</td><td>⚠️ 部分命中</td></tr>
+<tr><td><strong>2. 把高增长误判为商业模式好</strong></td><td>2025 营收 +18.13% / 2026Q1 +17.34% → 高增长，但 2025 净利润 -5.35 亿 → **增长与利润背离** = 增长是真实的（合同负债 +56.80%、存货 +41.70%）→ **未命中**</td><td>✅ 未命中</td></tr>
+<tr><td><strong>3. 把战略故事误判为商业模式好</strong></td><td>军民融合 + 低空经济 + 化合物半导体"三重国家战略交汇点" = 战略故事 → 但商业模式好需要落地验证 → **部分命中**：战略故事真实（民航三认证独家）但执行落地待验证</td><td>⚠️ 部分命中</td></tr>
+<tr><td><strong>4. 把低 PE 误判为商业模式好</strong></td><td>海特高新 PE(TTM) -18.77（亏损无意义）/ PB 2.30x → PE 不适用，PB 中位数 → **未命中**：估值需用 PS / EV/EBITDA / DCF 综合判断</td><td>✅ 未命中</td></tr>
+<tr><td><strong>5. 把轻资产误判为商业模式好</strong></td><td>海特高新是重资产（航空维修基地 + 模拟机产线 + 集成电路产线）→ **未命中**：商业模式好坏取决于护城河 + 现金流，不是资产轻重</td><td>✅ 未命中</td></tr>
+<tr><td><strong>6. 把标签误判为商业模式好</strong></td><td>"民营航空装备龙头" + "eVTOL 模拟机全国首家" + "民航三认证独家" 标签 → **未命中**：标签需有实质支撑（已验证）</td><td>✅ 未命中</td></tr>
+</tbody>
+</table>
+
+<h4>核心立场（误判警示段）</h4>
+<p>**2 项部分命中**（产品好 + 战略故事） + **4 项未命中**（高增长、PE、轻资产、标签）。**警示**：(1) "好产品"不等于"好商业模式"，需关注 eVTOL 模拟机的客户结构 + 价值获取 + 现金流协同；(2) "战略故事"真实但**执行落地需进一步验证**（建议穿透查 2026Q2/Q3/Q4 业绩）。**幸存者偏差警示**：海特高新是中国民营航空装备领域**唯一**同时具备民航三认证 + 副总师单位身份 + eVTOL 模拟机全国首家的标的，**不可与"未经过资本扩张的壁垒"或"未经过行业洗牌的竞争格局"的标的对标**——这正是其稀缺价值的体现。</p>
+</section>
+
+<!-- §9 STORM -->
+<section id="section-9">
+<h2>§9 STORM 多视角辩论</h2>
+
+<h3>§9.1 模式乐观派（商业模式可扩张）</h3>
+<h4>核心立场</h4>
+<p>**海特高新商业模式可扩张性强**——稀缺资质组合（民航三认证 + 副总师 + eVTOL 首家）+ 健康现金流（+5.84 亿）+ 多元业务组合 → 长期可持续扩张。</p>
+<h4>最强证据</h4>
+<ol>
+<li>稀缺资质组合 5-8 年不可复制（民航三认证独家 + 副总师单位身份）</li>
+<li>经营性现金流 +5.84 亿（远高于制造业中位数）</li>
+<li>eVTOL 模拟机国产化全国首家（低空经济战略期权）</li>
+<li>39 家子公司网络 + 8 大国际平台（业务系统复杂度高）</li>
+</ol>
+
+<h3>§9.2 落地怀疑派（商业模式落地障碍）</h3>
+<h4>核心立场</h4>
+<p>**海特高新商业模式落地有显著障碍**——海威华芯 -2.27 亿亏损 + 境外 SPV -8886 万 + 安胜模拟机 -862 万 = 三项核心子公司净亏合计 -3.94 亿。</p>
+<h4>最强证据</h4>
+<ol>
+<li>海威华芯（联营 32.06%）2025 净亏 -2.27 亿 → 投资亏损持续扩大</li>
+<li>天津华新二号租赁（孙公司）净亏 -8886 万 → 境外 SPV 表外亏损已显性化</li>
+<li>安胜模拟机（53.71%）净亏 -862 万 → eVTOL 模拟机业务仍在投入期</li>
+<li>2025 应收账款/存货减值规模未穿透披露 → Q4 减值明细不可见</li>
+</ol>
+
+<h3>§9.3 竞对对比派（同行业可比公司对比）</h3>
+<h4>核心立场</h4>
+<p>**海特高新与同行业可比公司对比**——估值倍数与航发动力/中航沈飞等大型军工央企存在差异（民营 vs 国企 + 规模差距）。</p>
+<h4>最强证据</h4>
+<ol>
+<li>与航发动力（央企军工龙头）：规模差距 30x + 央企资源优势</li>
+<li>与中航沈飞（央企军用飞机）：军品资质门槛较低（央企优先）</li>
+<li>与三安光电（化合物半导体 IDM）：化合物半导体规模仅 1.80 亿（联营）</li>
+<li>与万丰奥威（低空经济 + 通用航空）：eVTOL 制造端缺位（仅服务链）</li>
+</ol>
+
+<h3>§9.4 综合裁决</h3>
+<h4>研究结论</h4>
+<p>**推进并购，但需满足 5 项前置条件**：</p>
+<ol>
+<li>**穿透查 2025Q4 资产减值明细**（商誉/应收账款/存货/无形资产）</li>
+<li>**重组海威华芯**（退出或剥离，消除联营亏损拖累）</li>
+<li>**穿透查境外 SPV**（天津华新二号租赁 + 爱尔兰 + 法国 + 新加坡 SPV）</li>
+<li>**战略性投入 eVTOL 模拟机 + 低空经济产业链**（抢占卡位）</li>
+<li>**业绩对赌 3 年**（扣非净利润累计 ≥ 8 亿 + 经营性现金流累计 ≥ 15 亿）</li>
+</ol>
+<h4>置信度</h4>
+<p>**高置信度（85%）**——商业模式评分 8.5/10（优秀）+ 5 项前置条件可执行 + 战略协同价值显性化。</p>
+</section>
+
+<!-- §10 配合契约 -->
+<section id="section-10">
+<h2>§10 与 hv-analysis-shared 配合契约</h2>
+
+<h3>§10.1 中间报告 3 项必含元素</h3>
+<ol>
+<li><strong>模式定位</strong>（已写入 §1）—— "稀缺资质 + 多元业务 + 战略防御"型产业控股集团</li>
+<li><strong>6 要素扫描</strong>（已写入 §2）—— 业务定位/系统/盈利/资源/现金流/价值 6 段</li>
+<li><strong>投资 3 维度评估</strong>（已写入 §4）—— 可持续性 9 + 安全性 9 + 弹性 6 = 加权 8.0</li>
+</ol>
+
+<h3>§10.2 中间结论 → hv 综合报告 §12 章节引用映射</h3>
+<table>
+<thead>
+<tr><th>bm-analysis-shared 中间结论</th><th>→</th><th>hv-analysis-shared §12 章节引用</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>模式定位</strong>（产业控股集团）</td><td>→</td><td>§1 项目概述（项目类型补充段） + §12 商业模式开头</td></tr>
+<tr><td><strong>魏炜朱武祥 6 要素</strong>（业务系统 + 关键资源 + 现金流结构）</td><td>→</td><td>§12 商业模式主体（6 要素 → 6 段 / 6 表）</td></tr>
+<tr><td><strong>Osterwalder 9 要素画布</strong>（客户 + 基础设施 + 金融）</td><td>→</td><td>§12 商业模式补充段（如已用 6 要素则作为细节展开）</td></tr>
+<tr><td><strong>投资 3 维度</strong>（可持续性 + 安全性 + 弹性）</td><td>→</td><td>§11 估值方法 + §22 退出路径（盈利质量评估）</td></tr>
+<tr><td><strong>AI 时代 4 过程 6 要素</strong></td><td>→</td><td>§19 战略路径（如目标企业为 AI 重构型）</td></tr>
+<tr><td><strong>商业模式组合</strong>（核心 + 防御 + 战略期权）</td><td>→</td><td>§2 业务结构 + §10 产业链结构（如为多业务型）</td></tr>
+<tr><td><strong>6 类误判自检</strong></td><td>→</td><td>§19 战略路径风险段 + §25 警醒信号</td></tr>
+</tbody>
+</table>
+
+<h3>§10.3 关键边界（严守元原则 1）</h3>
+<ul>
+<li><strong>bm-analysis-shared 不直接生成最终 27 章决策报告</strong>（那是 hv-analysis-shared 的整合职责）</li>
+<li><strong>本中间报告 = 供 hv-analysis-shared 直接引用的结构化中间结论</strong></li>
+<li><strong>Agent 自主决定</strong>：用哪 3+ 个模型 / 输出何种格式 / 评估深度（不指定唯一路径）</li>
+</ul>
+</section>
+
+<footer>
+<p><strong>本报告由 bm-analysis-shared 自动生成</strong> · 数据采集时点 2026-08-18 · 仅供决策参考</p>
+<p>主体识别：四川海特高新技术股份有限公司（002023.SZ，深主板，民营） · 控股股东/实控人：李飚（13.16%）</p>
+<p>核心数据来源：iFind Finance（F9 财务摘要 + F9 实际控制人持股 + F9 按行业分类 + F9 控股参股公司 + FinQuery + 数据浏览器） · MX 妙想数据 D1 + D3 + D7 · Tushare daily_basic · 公开行业资料库（KB 海特高新.md 38 关联实体 + KG 军工/通用航空/低空经济） · SearXNG · Wind Alice（异步 2-15min，taskId 01a01376-2c08-730d-96d0-500fc4b64d6a）</p>
+<p>报告为中间产物，供 hv-analysis-shared 综合报告（触发 2 阶段 27 章）吸收使用 · 不得作为独立投资决策依据</p>
+<p>5 模型 ≥3 交叉验证：魏炜朱武祥 6 要素 + Osterwalder 9 要素 BMC + 投资 3 维度 + 商业模式组合 + AI 时代 4 过程 6 要素（全部应用）</p>
+</footer>
+
+</main>
+</div>
+</body>
+</html>
