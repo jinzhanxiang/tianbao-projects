@@ -1,9 +1,156 @@
 {
-  "generated_at": "2026-08-18T16:39:03+08:00",
+  "generated_at": "2026-08-18T16:45:27+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 25,
   "by_industry": {
+    "低空航空": [
+      {
+        "code": "海特飞机",
+        "company": "海特飞机",
+        "industry": "低空航空",
+        "title": "海特高新在第55届航展期间签约了多个重要合作项目。海特高新旗下的天津海特飞机工程_财富号_东方财富网",
+        "summary": "天津海特飞机工程有限公司的签约情况:天津海特飞机工程有限公司在航展期间与Airbus、Embraer、Panasonic Aviation、 Comac 等合作客户进行...",
+        "url": "https://caifuhao.eastmoney.com/news/20250623203235253546040",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 5.5,
+        "query": "\"海特飞机\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "海特飞机",
+        "company": "海特飞机",
+        "industry": "低空航空",
+        "title": "中证解读:海特高新定增募集16.7亿投多个航空项目_中证网",
+        "summary": "海特高新表示,此次定增将主要投向如下几个项目分别为天津海特飞机维修基地2号维修机库建设项目、新型航空动力控制系统的研发与制造项目、新...",
+        "url": "https://www.cs.com.cn/ssgs/gsxw/201501/t20150114_4618219.html",
+        "source": "www.cs.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.0,
+        "query": "\"海特飞机\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
+        "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
+        "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
+        "source": "www.xinhuanet.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "海特飞机",
+        "company": "海特飞机",
+        "industry": "低空航空",
+        "title": "签约交付!海特、安胜珠海航展达成多项重要签约-齐鲁晚报网",
+        "summary": "海特集团子公司天津海特飞机工程有限公司(以下简称 天津海特 )、安胜(天津)飞行模拟系统有限公司(以下简称 安胜公司 )一起亮相本届航展,达成多...",
+        "url": "http://www.qlwb.com.cn/detail/25103746.html",
+        "source": "www.qlwb.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "\"海特飞机\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.5,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子明确2026经营方向,深耕主业推进新能源业务发展",
+        "summary": "2026年5月3日 - 2026年4月29日,奥联电子举行2025年度网上业绩说明会。公司表示将深耕汽车电子主业,推进新能源业务,优化业务结构。2025年归母净利润亏损因计提预计负债...",
+        "url": "https://laoyaoba.com/n/1030601",
+        "source": "laoyaoba.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 4.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+        "source": "app.myzaker.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+        "source": "news.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
     "半导体": [
       {
         "code": "jngd",
@@ -181,47 +328,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "低空航空": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
-        "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
-        "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
-        "source": "www.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
     "新能源": [
       {
         "code": "xingheng",
@@ -236,24 +342,48 @@
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
+    {
+      "code": "海特飞机",
+      "company": "海特飞机",
+      "industry": "低空航空",
+      "title": "海特高新在第55届航展期间签约了多个重要合作项目。海特高新旗下的天津海特飞机工程_财富号_东方财富网",
+      "summary": "天津海特飞机工程有限公司的签约情况:天津海特飞机工程有限公司在航展期间与Airbus、Embraer、Panasonic Aviation、 Comac 等合作客户进行...",
+      "url": "https://caifuhao.eastmoney.com/news/20250623203235253546040",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 5.5,
+      "query": "\"海特飞机\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.5,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子明确2026经营方向,深耕主业推进新能源业务发展",
+      "summary": "2026年5月3日 - 2026年4月29日,奥联电子举行2025年度网上业绩说明会。公司表示将深耕汽车电子主业,推进新能源业务,优化业务结构。2025年归母净利润亏损因计提预计负债...",
+      "url": "https://laoyaoba.com/n/1030601",
+      "source": "laoyaoba.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 4.0,
+      "query": "奥联电子 新闻 2026"
+    },
     {
       "code": "jngd",
       "company": "晶能光电",
@@ -359,6 +489,45 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+      "source": "app.myzaker.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "海特飞机",
+      "company": "海特飞机",
+      "industry": "低空航空",
+      "title": "中证解读:海特高新定增募集16.7亿投多个航空项目_中证网",
+      "summary": "海特高新表示,此次定增将主要投向如下几个项目分别为天津海特飞机维修基地2号维修机库建设项目、新型航空动力控制系统的研发与制造项目、新...",
+      "url": "https://www.cs.com.cn/ssgs/gsxw/201501/t20150114_4618219.html",
+      "source": "www.cs.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 3.0,
+      "query": "\"海特飞机\" 公告 签约 中标 投资"
+    },
+    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -385,8 +554,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
       "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
@@ -396,6 +565,19 @@
       "fetched_at": "2026-08-18",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "海特飞机",
+      "company": "海特飞机",
+      "industry": "低空航空",
+      "title": "签约交付!海特、安胜珠海航展达成多项重要签约-齐鲁晚报网",
+      "summary": "海特集团子公司天津海特飞机工程有限公司(以下简称 天津海特 )、安胜(天津)飞行模拟系统有限公司(以下简称 安胜公司 )一起亮相本届航展,达成多...",
+      "url": "http://www.qlwb.com.cn/detail/25103746.html",
+      "source": "www.qlwb.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "\"海特飞机\" 公告 签约 中标 投资"
     },
     {
       "code": "xingheng",
@@ -463,8 +645,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -476,8 +658,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
