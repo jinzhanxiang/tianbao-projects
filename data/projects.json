@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:16:54+08:00",
+  "generated_at": "2026-08-18T18:24:12+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 33,
   "stage_v3_enum": [
@@ -720,32 +720,32 @@
       "archived": false
     },
     {
-      "code": "海特飞机",
-      "name_cn": "海特飞机",
-      "name_full": "海特飞机",
+      "code": "haite",
+      "name_cn": "海特高新",
+      "name_full": "海特高新（002023.SZ）· 控股并购可行性研究（Type B）",
       "archived_reason": "",
-      "category": "储备·非上市",
+      "category": "重大并购",
       "stage": "初步分析",
-      "stage_v3": "储备",
-      "iss": "未上市",
+      "stage_v3": "在推重点",
+      "iss": "上市",
       "industry": "低空航空",
-      "industry_detail": "其他行业",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA/%E6%B5%B7%E7%89%B9%E9%AB%98%E6%96%B0_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260818.html",
-      "dashboard_url": "",
-      "online_index": "",
+      "industry_detail": "航空维修·航空制造·集成电路·低空经济",
+      "online_url": "https://jinzhanxiang.github.io/haite-report/",
+      "dashboard_url": "https://jinzhanxiang.github.io/haite-report/",
+      "online_index": "https://jinzhanxiang.github.io/haite-report/",
       "repo": "tianbao-projects",
-      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/海特飞机/",
+      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/海特高新/",
       "folder_alias": "海特飞机",
       "report_count": 1,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
-      "brief_md": "海特飞机 · 初步分析阶段 · 2 份报告",
-      "estimation": "",
+      "brief_md": "海特高新（002023.SZ）· 控股并购可行性研究（Type B）· 初步分析阶段 · 详见独立仓库",
+      "estimation": "—",
       "downgrade_reason": "",
       "deploy_date": "2026-08-17",
       "last_update": "2026-08-18",
-      "notes": "自动从 reports.json 补全 · 海特飞机 | 自动同步 2026-08-17 | 自动同步 2026-08-18",
-      "pending_tasks": "",
+      "notes": "2026-08-18 独立仓库 haite-report 部署：主报告（97K） + 6 专项报告；综合研究报告（27 章/118K）；原 tianbao-projects/reports/haite/ 继续保留历史版本 | 自动同步 2026-08-18",
+      "pending_tasks": "stage_v3 从储备升级为在推重点（2026-08-18）",
       "archived": false
     },
     {
@@ -1106,8 +1106,8 @@
         "count": 1
       },
       {
-        "code": "海特飞机",
-        "name_cn": "海特飞机",
+        "code": "haite",
+        "name_cn": "海特高新",
         "count": 1
       },
       {
@@ -1141,7 +1141,9 @@
         "hongyuan",
         "kexin"
       ],
-      "上市": [],
+      "上市": [
+        "haite"
+      ],
       "REITs": []
     },
     "储备": {
@@ -1159,7 +1161,6 @@
         "天创天保创投基金",
         "奥联电子",
         "山西联动云",
-        "海特飞机",
         "联通云项目-山西",
         "速迈医疗",
         "青岛直升机收购",
