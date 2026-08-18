@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:45:51+08:00",
+  "generated_at": "2026-08-18T11:01:14+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 54,
   "total_active": 48,
@@ -414,6 +414,18 @@
       }
     ],
     "海特高新": [
+      {
+        "code": "海特高新",
+        "date": "2026-08-18",
+        "category": "商业研究",
+        "title": "海特高新（002023.SZ）并购可行性研究报告",
+        "file": "海特高新_并购可行性研究报告_20260818.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特高新/output/海特高新_并购可行性研究报告_20260818.html",
+        "size": 33649,
+        "mtime": "2026-08-18T11:00:15+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特高新/output/海特高新_并购可行性研究报告_20260818.html"
+      },
       {
         "code": "海特高新",
         "date": "2026-08-18",
@@ -1735,7 +1747,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-18T10:45:51.384215",
+  "_last_cleanup": "2026-08-18T11:01:14.942888",
   "_cleanup_stats": {
     "dup_title_date": 3,
     "superseded": 5,
