@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T07:46:23+08:00",
+  "generated_at": "2026-08-19T07:56:47+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 18,
   "by_industry": {
     "半导体": [
       {
@@ -110,32 +110,6 @@
         "fetched_at": "2026-08-19",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-        "source": "data.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "高端制造 行业 政策 2026"
-      },
-      {
-        "code": "zhongfu",
-        "company": "中复碳芯",
-        "industry": "高端制造",
-        "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
-        "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
-        "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "高端制造 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -201,19 +175,6 @@
         "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
         "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
         "source": "www.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 2.5,
@@ -396,19 +357,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-      "source": "data.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.5,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -433,32 +381,6 @@
       "fetched_at": "2026-08-19",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "zhongfu",
-      "company": "中复碳芯",
-      "industry": "高端制造",
-      "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
-      "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
-      "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "xingheng",
