@@ -1,117 +1,9 @@
 {
-  "generated_at": "2026-08-18T13:14:08+08:00",
+  "generated_at": "2026-08-18T13:27:54+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 15,
   "by_industry": {
-    "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
-        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
-        "url": "https://quote.eastmoney.com/sz002906.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳社区简介_芜湖市政务公开平台",
-        "summary": "2026年4月30日 · 繁阳镇华阳社区正式成立于2023年9月，位于繁昌区北大门，总面积17.2平方公里，辖46个村民组和4个居民小组， …",
-        "url": "https://www.fanchang.gov.cn/openness/public/6605051/38847229.html",
-        "source": "www.fanchang.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "6250万元!高新区企业中标省外一可信数据空间基础设施项目",
-        "summary": "近日,总部位于贵阳市高新区的中电科大数据研究院有限公司(以下简称中电科大数据院)及联合体成员成功中标《唐山市路南区可信数据空间基础设...",
-        "url": "https://gxq.guiyang.gov.cn/gxqdt/gxqdtmtkgx/202510/t20251028_88735204.html",
-        "source": "gxq.guiyang.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "趣链科技近一年在城市可信数据空间赛道已落子长沙、温州、武汉。已落地城市(公开中标_财富号_东方财富网",
-        "summary": "长沙(2026-02):中标长沙市城市可信数据空间建设及运营项目,金额1610万元,与天河国云联合体。.- 2026-02-10:湖北数据集团发布询比采购公告.长...",
-        "url": "https://caifuhao.eastmoney.com/news/20260316231004111432530",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "神思电子:中标可信数据空间建设项目 | 每经网",
-        "summary": "每经AI快讯,神思电子10月21日晚间发布公告称,近日,济南市公共资源交易中心发布《济南城市可信数据空间建设项目中标候选人公示》,公司作为牵头单位与中...",
-        "url": "https://www.nbd.com.cn/articles/2025-10-21/4099501.html",
-        "source": "www.nbd.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "蚂蚁2162万、京东346万!中标山西可信数据空间建设项目",
-        "summary": "2026年4月4日 - 交付期限:自合同签订之日起,中标方需在6个月内完成可信数据空间的定制化开发、部署、测试及上线工作,确保系统稳定运行.项目名称:山西数据要素流通交易...",
-        "url": "https://www.jianyu360.cn/nologin/content/SEEY1xoYjIOBSs6Emd2ZGIdIzM_QCBgZmh9PB47ICEgXlVzZgFUCXw.html",
-        "source": "www.jianyu360.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      }
-    ],
     "半导体": [
       {
         "code": "jngd",
@@ -164,6 +56,21 @@
         "fetched_at": "2026-08-18",
         "score": 3.5,
         "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -307,84 +214,6 @@
   },
   "items": [
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
-      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
-      "url": "https://quote.eastmoney.com/sz002906.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "6250万元!高新区企业中标省外一可信数据空间基础设施项目",
-      "summary": "近日,总部位于贵阳市高新区的中电科大数据研究院有限公司(以下简称中电科大数据院)及联合体成员成功中标《唐山市路南区可信数据空间基础设...",
-      "url": "https://gxq.guiyang.gov.cn/gxqdt/gxqdtmtkgx/202510/t20251028_88735204.html",
-      "source": "gxq.guiyang.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "趣链科技近一年在城市可信数据空间赛道已落子长沙、温州、武汉。已落地城市(公开中标_财富号_东方财富网",
-      "summary": "长沙(2026-02):中标长沙市城市可信数据空间建设及运营项目,金额1610万元,与天河国云联合体。.- 2026-02-10:湖北数据集团发布询比采购公告.长...",
-      "url": "https://caifuhao.eastmoney.com/news/20260316231004111432530",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳社区简介_芜湖市政务公开平台",
-      "summary": "2026年4月30日 · 繁阳镇华阳社区正式成立于2023年9月，位于繁昌区北大门，总面积17.2平方公里，辖46个村民组和4个居民小组， …",
-      "url": "https://www.fanchang.gov.cn/openness/public/6605051/38847229.html",
-      "source": "www.fanchang.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "神思电子:中标可信数据空间建设项目 | 每经网",
-      "summary": "每经AI快讯,神思电子10月21日晚间发布公告称,近日,济南市公共资源交易中心发布《济南城市可信数据空间建设项目中标候选人公示》,公司作为牵头单位与中...",
-      "url": "https://www.nbd.com.cn/articles/2025-10-21/4099501.html",
-      "source": "www.nbd.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "蚂蚁2162万、京东346万!中标山西可信数据空间建设项目",
-      "summary": "2026年4月4日 - 交付期限:自合同签订之日起,中标方需在6个月内完成可信数据空间的定制化开发、部署、测试及上线工作,确保系统稳定运行.项目名称:山西数据要素流通交易...",
-      "url": "https://www.jianyu360.cn/nologin/content/SEEY1xoYjIOBSs6Emd2ZGIdIzM_QCBgZmh9PB47ICEgXlVzZgFUCXw.html",
-      "source": "www.jianyu360.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -437,30 +266,17 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
       "date": "",
       "fetched_at": "2026-08-18",
       "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州华阳通用电子有限公司官方网站",
-      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-      "url": "https://www.foryouge.com/",
-      "source": "www.foryouge.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "unicom-idc",
