@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T15:35:46+08:00",
+  "generated_at": "2026-08-18T15:43:50+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 19,
   "by_industry": {
     "半导体": [
       {
@@ -55,19 +55,6 @@
         "date": "",
         "fetched_at": "2026-08-18",
         "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
         "query": "半导体 行业 政策 2026"
       }
     ],
@@ -203,19 +190,6 @@
         "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
         "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
         "source": "www.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-18",
         "score": 2.5,
@@ -424,19 +398,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -444,19 +405,6 @@
       "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
       "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
       "source": "www.xinhuanet.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-      "source": "www.163.com",
       "date": "",
       "fetched_at": "2026-08-18",
       "score": 2.5,
