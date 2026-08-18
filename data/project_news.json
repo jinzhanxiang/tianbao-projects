@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T04:07:18+08:00",
+  "generated_at": "2026-08-19T04:17:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 21,
@@ -56,73 +56,6 @@
         "fetched_at": "2026-08-19",
         "score": 3.5,
         "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新能源汽车发展态势明确,2026年或实施三大政策",
-        "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
-        "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
-        "source": "ai.so.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
-        "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
-        "url": "https://www.toutiao.com/article/7616707417639813642/",
-        "source": "www.toutiao.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "2026年新能源政策核心调整速览-有驾",
-        "summary": "6天前 - 3.新能源汽车推广加码:延续购车补贴,扩大新能源车路权,城市公交全面电动化,充电桩覆盖县域。.储能配置作为光伏并网前置条件,光储一体化成行业标配.5...",
-        "url": "https://www.yoojia.com/dongtai/10765233002?from_src=biji_tab",
-        "source": "www.yoojia.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 懂球帝： #新赛季亚冠精英联赛抽签# 北京时间8月18日16:00，亚冠精英联赛 央视体育： 【来总台看#CMG群众篮 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "高端制造": [
@@ -235,8 +168,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
         "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
@@ -248,8 +181,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -261,8 +194,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -272,6 +205,75 @@
         "fetched_at": "2026-08-19",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 懂球帝： #新赛季亚冠精英联赛抽签# 北京时间8月18日16:00，亚冠精英联赛 央视体育： 【来总台看#CMG群众篮 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "别了水菜丽老师，日本著名爱情动作片女优水菜丽五月引退",
+        "summary": "2016年3月19日 · 其实水菜丽老师最近一两年已经很少出现在一线厂商的作品之中了，哪怕水菜丽老师的作品都已经下码，本人去出演 …",
+        "url": "https://www.163.com/dy/article/BIH4BRVQ05178QDO.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "魅力盘点大桥未久、水菜丽、樱井莉亚",
+        "summary": "2025年12月12日 · 中文名： 水菜丽 外文名：Mizuna Rei、みづなれい 呢称：れい様 生日：1987-05-20 星座：金牛座 出生地：东京都 …",
+        "url": "https://m.163.com/dy/article_cambrian/KGHO246T0545MJC6.html",
+        "source": "m.163.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "别了水菜丽老师，日本著名爱情动作片女优水菜丽五月引退",
+        "summary": "2016年3月19日 · 水菜丽（ ）老师今年 31 岁，作为爱情动作片女优已经有 7 年的职业历史，7 年对于任何一名爱情动作片女优来讲都 …",
+        "url": "https://www.sohu.com/a/777862779_121687421",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "水菜丽 _ 百科",
+        "summary": "生活中的水菜丽是一名深度二次元爱好者，收集了不少手办漫画和游戏，同时她也是游戏《怪物猎人》的死忠玩家。 水菜丽小姐对 …",
+        "url": "https://baike.weixin.qq.com/v60406028.htm?baike_inner=relationship",
+        "source": "baike.weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -344,19 +346,6 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -422,8 +411,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
       "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
@@ -433,45 +422,6 @@
       "fetched_at": "2026-08-19",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新能源汽车发展态势明确,2026年或实施三大政策",
-      "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
-      "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
-      "source": "ai.so.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
-      "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
-      "url": "https://www.toutiao.com/article/7616707417639813642/",
-      "source": "www.toutiao.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "2026年新能源政策核心调整速览-有驾",
-      "summary": "6天前 - 3.新能源汽车推广加码:延续购车补贴,扩大新能源车路权,城市公交全面电动化,充电桩覆盖县域。.储能配置作为光伏并网前置条件,光储一体化成行业标配.5...",
-      "url": "https://www.yoojia.com/dongtai/10765233002?from_src=biji_tab",
-      "source": "www.yoojia.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "xingheng",
@@ -485,6 +435,58 @@
       "fetched_at": "2026-08-19",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "别了水菜丽老师，日本著名爱情动作片女优水菜丽五月引退",
+      "summary": "2016年3月19日 · 其实水菜丽老师最近一两年已经很少出现在一线厂商的作品之中了，哪怕水菜丽老师的作品都已经下码，本人去出演 …",
+      "url": "https://www.163.com/dy/article/BIH4BRVQ05178QDO.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "魅力盘点大桥未久、水菜丽、樱井莉亚",
+      "summary": "2025年12月12日 · 中文名： 水菜丽 外文名：Mizuna Rei、みづなれい 呢称：れい様 生日：1987-05-20 星座：金牛座 出生地：东京都 …",
+      "url": "https://m.163.com/dy/article_cambrian/KGHO246T0545MJC6.html",
+      "source": "m.163.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "别了水菜丽老师，日本著名爱情动作片女优水菜丽五月引退",
+      "summary": "2016年3月19日 · 水菜丽（ ）老师今年 31 岁，作为爱情动作片女优已经有 7 年的职业历史，7 年对于任何一名爱情动作片女优来讲都 …",
+      "url": "https://www.sohu.com/a/777862779_121687421",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "水菜丽 _ 百科",
+      "summary": "生活中的水菜丽是一名深度二次元爱好者，收集了不少手办漫画和游戏，同时她也是游戏《怪物猎人》的死忠玩家。 水菜丽小姐对 …",
+      "url": "https://baike.weixin.qq.com/v60406028.htm?baike_inner=relationship",
+      "source": "baike.weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "unicom-idc",
@@ -539,8 +541,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -552,8 +554,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
