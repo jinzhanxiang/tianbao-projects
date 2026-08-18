@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:25:28+08:00",
+  "generated_at": "2026-08-18T16:37:39+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 33,
   "stage_v3_enum": [
@@ -446,7 +446,7 @@
       "repo": "",
       "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/sexual-harassment-rights-path/",
       "folder_alias": "sexual-harassment-rights-path",
-      "report_count": 3,
+      "report_count": 0,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "sexual-harassment-rights-path · 初步分析阶段 · 3 份报告",
@@ -620,7 +620,7 @@
       "repo": "tianbao-projects",
       "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/天保基建/",
       "folder_alias": "天保基建",
-      "report_count": 2,
+      "report_count": 1,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "天保基建 · 初步分析阶段 · 2 份报告",
@@ -628,7 +628,7 @@
       "downgrade_reason": "",
       "deploy_date": "2026-08-17",
       "last_update": "2026-07-13",
-      "notes": "自动从 reports.json 补全 · 天保基建 | 自动同步 2026-08-17",
+      "notes": "自动从 reports.json 补全 · 天保基建 | 自动同步 2026-08-17 | 自动同步 2026-08-18",
       "pending_tasks": "",
       "archived": false
     },
@@ -649,7 +649,7 @@
       "repo": "",
       "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/天创天保创投基金/",
       "folder_alias": "天创天保创投基金",
-      "report_count": 2,
+      "report_count": 0,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "天创天保创投基金 · 初步分析阶段 · 2 份报告",
@@ -1059,17 +1059,17 @@
       {
         "code": "sexual-harassment-rights-path",
         "name_cn": "sexual-harassment-rights-path",
-        "count": 3
+        "count": 0
       },
       {
         "code": "天保基建",
         "name_cn": "天保基建",
-        "count": 2
+        "count": 1
       },
       {
         "code": "天创天保创投基金",
         "name_cn": "天创天保创投基金",
-        "count": 2
+        "count": 0
       },
       {
         "code": "奥联电子",
