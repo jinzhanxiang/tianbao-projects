@@ -1,13 +1,65 @@
 {
-  "generated_at": "2026-08-19T01:21:37+08:00",
+  "generated_at": "2026-08-19T01:34:02+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 23,
   "by_industry": {
     "半导体": [
       {
         "code": "jngd",
         "company": "晶能光电",
+        "industry": "半导体",
+        "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
+        "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
+        "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 6.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
+        "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
+        "url": "https://www.elecfans.com/d/8045816.html",
+        "source": "www.elecfans.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
+        "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
+        "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
+        "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
+        "url": "http://www.yejibang.com/news-details-786.html",
+        "source": "www.yejibang.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "【锋行链盟】2026年1月中国及31省市半导体产业政策汇编及解读",
         "summary": "2026年3月12日 · 本汇编系统梳理了2026年1月中央及地方发布的芯片半导体相关政策文件，提炼核心内容、聚焦领域与关键指标，力 …",
@@ -19,8 +71,8 @@
         "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "2026年中国半导体行业展望：预计2026年精准有效的产业 ...",
         "summary": "行业基本面分析 中诚信国际预计，2026年精准有效的产业支持政策将为半导体行业发展提供支撑，国产替代进程持续加 速，行业整体 …",
@@ -32,8 +84,8 @@
         "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "政策红利密集释放，2026 半导体产业迎来全方位扶持周期",
         "summary": "2026年6月30日 · 2026 作为 “十五五” 开局之年，国家多部委联合出台集成电路配套新政，北京、上海、深圳、广州、杭州、佛山等全 …",
@@ -45,8 +97,8 @@
         "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "2026年中国集成电路行业最新政策汇总一览（图）",
         "summary": "2026年6月18日 · 2026年中国集成电路行业最新政策汇总一览（图）,电容,半导体,晶体管,元器件,二极管,纤维芯片 中商情报网讯：集成 …",
@@ -56,6 +108,47 @@
         "fetched_at": "2026-08-19",
         "score": 3.5,
         "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "四川迅巢建筑有限公司中标公告",
+        "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
+        "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
+        "source": "m.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "\"迅巢\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xunchao",
+        "company": "迅巢科技",
+        "industry": "新能源",
+        "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
+        "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
+        "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
+        "source": "www.biaozhaozhao.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "\"迅巢\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 懂球帝： #新赛季亚冠精英联赛抽签# 北京时间8月18日16:00，亚冠精英联赛 央视体育： 【来总台看#CMG群众篮 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "高端制造": [
@@ -110,21 +203,6 @@
         "fetched_at": "2026-08-19",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -222,21 +300,6 @@
         "query": "低空航空 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 懂球帝： #新赛季亚冠精英联赛抽签# 北京时间8月18日16:00，亚冠精英联赛 央视体育： 【来总台看#CMG群众篮 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -258,6 +321,71 @@
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
+      "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
+      "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
+      "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 6.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
+      "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
+      "url": "https://www.elecfans.com/d/8045816.html",
+      "source": "www.elecfans.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
+      "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
+      "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "新能源",
+      "title": "四川迅巢建筑有限公司中标公告",
+      "summary": "2024年8月20日 - \\ue601企业细览\\ue6e8首页搜索定制发现我的四川迅巢建筑有限公司中招口碑已赞过!企业信息企业信息招标公告招标公告中标公告中标公告招标预告招标预告...",
+      "url": "https://m.zhaobiao.cn/enterprise_l_54ff6f59b8cc68c21c78ec0e06b47ea3_0202_1.html",
+      "source": "m.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.0,
+      "query": "\"迅巢\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
+      "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
+      "url": "http://www.yejibang.com/news-details-786.html",
+      "source": "www.yejibang.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.0,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
       "title": "【锋行链盟】2026年1月中国及31省市半导体产业政策汇编及解读",
       "summary": "2026年3月12日 · 本汇编系统梳理了2026年1月中央及地方发布的芯片半导体相关政策文件，提炼核心内容、聚焦领域与关键指标，力 …",
       "url": "https://t.cj.sina.com.cn/articles/view/7730756972/1ccc9fd6c001017grk",
@@ -268,8 +396,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "2026年中国半导体行业展望：预计2026年精准有效的产业 ...",
       "summary": "行业基本面分析 中诚信国际预计，2026年精准有效的产业支持政策将为半导体行业发展提供支撑，国产替代进程持续加 速，行业整体 …",
@@ -281,8 +409,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "政策红利密集释放，2026 半导体产业迎来全方位扶持周期",
       "summary": "2026年6月30日 · 2026 作为 “十五五” 开局之年，国家多部委联合出台集成电路配套新政，北京、上海、深圳、广州、杭州、佛山等全 …",
@@ -294,8 +422,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "2026年中国集成电路行业最新政策汇总一览（图）",
       "summary": "2026年6月18日 · 2026年中国集成电路行业最新政策汇总一览（图）,电容,半导体,晶体管,元器件,二极管,纤维芯片 中商情报网讯：集成 …",
@@ -305,6 +433,19 @@
       "fetched_at": "2026-08-19",
       "score": 3.5,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "xunchao",
+      "company": "迅巢科技",
+      "industry": "新能源",
+      "title": "北京迅巢科技有限公司招投标信息查询 - 标找找",
+      "summary": "2021年6月3日 - 标找找为您提供北京迅巢科技有限公司历史招投标、客户、业主单位、竞争对手、入围供应商、成交供应商、联系方式等信息查询,以及历史招投标分析聚合,让...",
+      "url": "https://www.biaozhaozhao.com/company/a2d48e819fd5f30aed0d71df0d4f3346",
+      "source": "www.biaozhaozhao.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 3.0,
+      "query": "\"迅巢\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -357,19 +498,6 @@
       "fetched_at": "2026-08-19",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "unicom-idc",
