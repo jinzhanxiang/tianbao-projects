@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T18:48:35+08:00",
+  "generated_at": "2026-08-18T19:00:20+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 20,
   "by_industry": {
     "半导体": [
       {
@@ -207,6 +207,47 @@
         "query": "低空航空 行业 政策 2026"
       }
     ],
+    "AI智能": [
+      {
+        "code": "天保人力_数据空间业务_深度专项",
+        "company": "天保人力_数据空间业务_深度专项",
+        "industry": "AI智能",
+        "title": "广州市公安局增城分局政府信息公开平台",
+        "summary": "按照严格依法、真实有效、及时便民的原则，采取科学的编制方式，集中发布广州市公安局增城分局政府信息。",
+        "url": "https://www.zc.gov.cn/gzzcga/gkmlpt/index",
+        "source": "www.zc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "天保人力_数据空间业务_深度专项",
+        "company": "天保人力_数据空间业务_深度专项",
+        "industry": "AI智能",
+        "title": "广州市公安局增城区分局关于宁西街、中新镇、新塘镇辖内 ...",
+        "summary": "2023年12月29日 · 为顺应新形势下公安机关警务工作需要，进一步优化派出所警务运行机制，提升公安机关打击违法犯罪、维护社会 …",
+        "url": "https://www.zc.gov.cn/zx/tzgg/sgajzcqfj/content/post_9413339.html",
+        "source": "www.zc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "天保人力_数据空间业务_深度专项",
+        "company": "天保人力_数据空间业务_深度专项",
+        "industry": "AI智能",
+        "title": "[广东省]派出所查询",
+        "summary": "2020年1月7日 · 广东省政务服务旗舰店",
+        "url": "http://app.gjzwfw.gov.cn/jmopen/webapp/html5/gdpcscxpc/index.html",
+        "source": "app.gjzwfw.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      }
+    ],
     "新能源": [
       {
         "code": "xingheng",
@@ -383,6 +424,19 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
+      "code": "天保人力_数据空间业务_深度专项",
+      "company": "天保人力_数据空间业务_深度专项",
+      "industry": "AI智能",
+      "title": "广州市公安局增城分局政府信息公开平台",
+      "summary": "按照严格依法、真实有效、及时便民的原则，采取科学的编制方式，集中发布广州市公安局增城分局政府信息。",
+      "url": "https://www.zc.gov.cn/gzzcga/gkmlpt/index",
+      "source": "www.zc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -459,6 +513,32 @@
       "fetched_at": "2026-08-18",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "天保人力_数据空间业务_深度专项",
+      "company": "天保人力_数据空间业务_深度专项",
+      "industry": "AI智能",
+      "title": "广州市公安局增城区分局关于宁西街、中新镇、新塘镇辖内 ...",
+      "summary": "2023年12月29日 · 为顺应新形势下公安机关警务工作需要，进一步优化派出所警务运行机制，提升公安机关打击违法犯罪、维护社会 …",
+      "url": "https://www.zc.gov.cn/zx/tzgg/sgajzcqfj/content/post_9413339.html",
+      "source": "www.zc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "天保人力_数据空间业务_深度专项",
+      "company": "天保人力_数据空间业务_深度专项",
+      "industry": "AI智能",
+      "title": "[广东省]派出所查询",
+      "summary": "2020年1月7日 · 广东省政务服务旗舰店",
+      "url": "http://app.gjzwfw.gov.cn/jmopen/webapp/html5/gdpcscxpc/index.html",
+      "source": "app.gjzwfw.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
     }
   ]
 }
