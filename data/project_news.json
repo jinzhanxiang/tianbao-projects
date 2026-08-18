@@ -1,9 +1,115 @@
 {
-  "generated_at": "2026-08-19T01:45:28+08:00",
+  "generated_at": "2026-08-19T01:57:13+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 21,
   "by_industry": {
+    "高端制造": [
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "低碳领域投融资日报(11月26日):中复碳芯电缆科技有限公司获得战略投资|全生命周期_网易订阅",
+        "summary": "低碳领域投融资日报(11月26日):中复碳芯电缆科技有限公司获得战略投资,中复,低碳,碳芯电缆,投融资日报,全生命周期",
+        "url": "https://www.163.com/dy/article/JI0R76Q305118K7K.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.5,
+        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "三一重能入股中复碳芯-新闻频道-和讯网",
+        "summary": "2024年11月26日 - 中复碳芯电缆科技有限公司成立于2011年12月,法定代表人为陈雨,经营范围含碳纤维复合材料芯及导线产品的开发、生产、安装(电力设施除外)及技术咨询、技...",
+        "url": "https://news.hexun.com/2024-11-26/215796887.html",
+        "source": "news.hexun.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.5,
+        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中复碳芯电缆公布战略融资,投资方为三一重工",
+        "summary": "证券之星消息,根据天眼查APP于11月24日公布的信息整理,中复碳芯电缆科技有限公司公布战略融资,融资额未披露,参与投资的机构包括三一重工。中...",
+        "url": "https://www.360kuai.com/pc/9264d43e54f14cdbe?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
+        "source": "www.360kuai.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "zhongfu",
+        "company": "中复碳芯",
+        "industry": "高端制造",
+        "title": "中国建材公布中联投拟向中复连众收购中复碳芯总股权的30.18%_手机新浪网",
+        "summary": "(03323)发布公告,于2023年6月9日,该公司的附属公司中复连众与中联投订立中复碳芯协议,中联投已同意收购,而中复连众已同意出售其持有的中复碳芯...",
+        "url": "https://finance.sina.cn/hkstock/gsxw/2023-06-12/detail-imywyuir2625649.d.html?cid=76551&node_id=76551",
+        "source": "finance.sina.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "\"中复碳芯\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "宜都市华阳化工有限责任公司官方网站",
+        "summary": "2025年6月16日 · 宜都市华阳化工有限责任公司是一家专业从事紫外线吸收剂、新能源材料、化学工程原料系列产品的高新技术企业， …",
+        "url": "https://www.ydhyc.com/",
+        "source": "www.ydhyc.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "宜都市华阳化工有限责任公司 - 华阳化工 - 爱企查",
+        "summary": "2026年8月10日 · 宜都市华阳化工有限责任公司是一家专精特新小巨人的企业，该公司成立于1998年07月18日，位于宜都市枝城镇兴宜 …",
+        "url": "https://aiqicha.baidu.com/company_detail_30441113076322",
+        "source": "aiqicha.baidu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
     "半导体": [
       {
         "code": "jngd",
@@ -56,60 +162,6 @@
         "fetched_at": "2026-08-19",
         "score": 3.5,
         "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "宜都市华阳化工有限责任公司官方网站",
-        "summary": "2025年6月16日 · 宜都市华阳化工有限责任公司是一家专业从事紫外线吸收剂、新能源材料、化学工程原料系列产品的高新技术企业， …",
-        "url": "https://www.ydhyc.com/",
-        "source": "www.ydhyc.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "宜都市华阳化工有限责任公司 - 华阳化工 - 爱企查",
-        "summary": "2026年8月10日 · 宜都市华阳化工有限责任公司是一家专精特新小巨人的企业，该公司成立于1998年07月18日，位于宜都市枝城镇兴宜 …",
-        "url": "https://aiqicha.baidu.com/company_detail_30441113076322",
-        "source": "aiqicha.baidu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -239,6 +291,58 @@
     ]
   },
   "items": [
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "低碳领域投融资日报(11月26日):中复碳芯电缆科技有限公司获得战略投资|全生命周期_网易订阅",
+      "summary": "低碳领域投融资日报(11月26日):中复碳芯电缆科技有限公司获得战略投资,中复,低碳,碳芯电缆,投融资日报,全生命周期",
+      "url": "https://www.163.com/dy/article/JI0R76Q305118K7K.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.5,
+      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "三一重能入股中复碳芯-新闻频道-和讯网",
+      "summary": "2024年11月26日 - 中复碳芯电缆科技有限公司成立于2011年12月,法定代表人为陈雨,经营范围含碳纤维复合材料芯及导线产品的开发、生产、安装(电力设施除外)及技术咨询、技...",
+      "url": "https://news.hexun.com/2024-11-26/215796887.html",
+      "source": "news.hexun.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.5,
+      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中复碳芯电缆公布战略融资,投资方为三一重工",
+      "summary": "证券之星消息,根据天眼查APP于11月24日公布的信息整理,中复碳芯电缆科技有限公司公布战略融资,融资额未披露,参与投资的机构包括三一重工。中...",
+      "url": "https://www.360kuai.com/pc/9264d43e54f14cdbe?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
+      "source": "www.360kuai.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.0,
+      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "zhongfu",
+      "company": "中复碳芯",
+      "industry": "高端制造",
+      "title": "中国建材公布中联投拟向中复连众收购中复碳芯总股权的30.18%_手机新浪网",
+      "summary": "(03323)发布公告,于2023年6月9日,该公司的附属公司中复连众与中联投订立中复碳芯协议,中联投已同意收购,而中复连众已同意出售其持有的中复碳芯...",
+      "url": "https://finance.sina.cn/hkstock/gsxw/2023-06-12/detail-imywyuir2625649.d.html?cid=76551&node_id=76551",
+      "source": "finance.sina.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.0,
+      "query": "\"中复碳芯\" 公告 签约 中标 投资"
+    },
     {
       "code": "jngd",
       "company": "晶能光电",
