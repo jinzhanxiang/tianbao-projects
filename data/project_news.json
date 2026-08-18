@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-18T19:00:20+08:00",
+  "generated_at": "2026-08-18T19:11:03+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 18,
   "by_industry": {
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳新材料科技集团有限公司2026年校园招聘公告 - 山西省 ...",
+        "summary": "2026年5月28日 · 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企业——阳煤集团整体更 …",
+        "url": "https://www.shanxi.gov.cn/zfxxgk/tzgg/202605/t20260528_10135776.shtml",
+        "source": "www.shanxi.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳新材料科技集团有限公司2026年校园招聘公告",
+        "summary": "2026年5月28日 · 2026年校园招聘公告 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企 …",
+        "url": "https://gzw.shanxi.gov.cn/xwfb/gqzp/202605/t20260528_10135374.shtml",
+        "source": "gzw.shanxi.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团人力资源招聘系统",
+        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+        "url": "https://zhaopin.ymjt.com.cn/index.html",
+        "source": "zhaopin.ymjt.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
     "半导体": [
       {
         "code": "jngd",
@@ -58,58 +112,32 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
-    "高端制造": [
+    "其他行业": [
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
+        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
+        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
+        "source": "www.chinabidding.cn",
         "date": "",
         "fetched_at": "2026-08-18",
         "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "query": "乘杜 新闻 2026"
       },
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团人力资源招聘系统",
-        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-        "url": "https://zhaopin.ymjt.com.cn/index.html",
-        "source": "zhaopin.ymjt.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "ADAYO华阳多媒体官方网站-科技创造优质生活",
-        "summary": "2026年6月1日 · ADAYO华阳多媒体官方网站-科技创造优质生活公司主要致力于汽车抬头显示（HUD）、车载无线充电、车载翻转机 …",
-        "url": "https://www.adayome.com/",
-        "source": "www.adayome.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -207,47 +235,6 @@
         "query": "低空航空 行业 政策 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "天保人力_数据空间业务_深度专项",
-        "company": "天保人力_数据空间业务_深度专项",
-        "industry": "AI智能",
-        "title": "广州市公安局增城分局政府信息公开平台",
-        "summary": "按照严格依法、真实有效、及时便民的原则，采取科学的编制方式，集中发布广州市公安局增城分局政府信息。",
-        "url": "https://www.zc.gov.cn/gzzcga/gkmlpt/index",
-        "source": "www.zc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "天保人力_数据空间业务_深度专项",
-        "company": "天保人力_数据空间业务_深度专项",
-        "industry": "AI智能",
-        "title": "广州市公安局增城区分局关于宁西街、中新镇、新塘镇辖内 ...",
-        "summary": "2023年12月29日 · 为顺应新形势下公安机关警务工作需要，进一步优化派出所警务运行机制，提升公安机关打击违法犯罪、维护社会 …",
-        "url": "https://www.zc.gov.cn/zx/tzgg/sgajzcqfj/content/post_9413339.html",
-        "source": "www.zc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "天保人力_数据空间业务_深度专项",
-        "company": "天保人力_数据空间业务_深度专项",
-        "industry": "AI智能",
-        "title": "[广东省]派出所查询",
-        "summary": "2020年1月7日 · 广东省政务服务旗舰店",
-        "url": "http://app.gjzwfw.gov.cn/jmopen/webapp/html5/gdpcscxpc/index.html",
-        "source": "app.gjzwfw.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      }
-    ],
     "新能源": [
       {
         "code": "xingheng",
@@ -262,24 +249,35 @@
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳新材料科技集团有限公司2026年校园招聘公告 - 山西省 ...",
+      "summary": "2026年5月28日 · 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企业——阳煤集团整体更 …",
+      "url": "https://www.shanxi.gov.cn/zfxxgk/tzgg/202605/t20260528_10135776.shtml",
+      "source": "www.shanxi.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳新材料科技集团有限公司2026年校园招聘公告",
+      "summary": "2026年5月28日 · 2026年校园招聘公告 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企 …",
+      "url": "https://gzw.shanxi.gov.cn/xwfb/gqzp/202605/t20260528_10135374.shtml",
+      "source": "gzw.shanxi.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
     {
       "code": "jngd",
       "company": "晶能光电",
@@ -336,32 +334,6 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州华阳通用电子有限公司官方网站",
-      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-      "url": "https://www.foryouge.com/",
-      "source": "www.foryouge.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
       "title": "华阳集团人力资源招聘系统",
       "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
       "url": "https://zhaopin.ymjt.com.cn/index.html",
@@ -375,14 +347,27 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "ADAYO华阳多媒体官方网站-科技创造优质生活",
-      "summary": "2026年6月1日 · ADAYO华阳多媒体官方网站-科技创造优质生活公司主要致力于汽车抬头显示（HUD）、车载无线充电、车载翻转机 …",
-      "url": "https://www.adayome.com/",
-      "source": "www.adayome.com",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
       "date": "",
       "fetched_at": "2026-08-18",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "乘杜科技",
+      "company": "乘杜科技",
+      "industry": "其他行业",
+      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
+      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
+      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
+      "source": "www.chinabidding.cn",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 3.0,
+      "query": "乘杜 新闻 2026"
     },
     {
       "code": "unicom-idc",
@@ -422,19 +407,6 @@
       "fetched_at": "2026-08-18",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "天保人力_数据空间业务_深度专项",
-      "company": "天保人力_数据空间业务_深度专项",
-      "industry": "AI智能",
-      "title": "广州市公安局增城分局政府信息公开平台",
-      "summary": "按照严格依法、真实有效、及时便民的原则，采取科学的编制方式，集中发布广州市公安局增城分局政府信息。",
-      "url": "https://www.zc.gov.cn/gzzcga/gkmlpt/index",
-      "source": "www.zc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 2.5,
-      "query": "AI智能 行业 政策 2026"
     },
     {
       "code": "xingheng",
@@ -513,32 +485,6 @@
       "fetched_at": "2026-08-18",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "天保人力_数据空间业务_深度专项",
-      "company": "天保人力_数据空间业务_深度专项",
-      "industry": "AI智能",
-      "title": "广州市公安局增城区分局关于宁西街、中新镇、新塘镇辖内 ...",
-      "summary": "2023年12月29日 · 为顺应新形势下公安机关警务工作需要，进一步优化派出所警务运行机制，提升公安机关打击违法犯罪、维护社会 …",
-      "url": "https://www.zc.gov.cn/zx/tzgg/sgajzcqfj/content/post_9413339.html",
-      "source": "www.zc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "天保人力_数据空间业务_深度专项",
-      "company": "天保人力_数据空间业务_深度专项",
-      "industry": "AI智能",
-      "title": "[广东省]派出所查询",
-      "summary": "2020年1月7日 · 广东省政务服务旗舰店",
-      "url": "http://app.gjzwfw.gov.cn/jmopen/webapp/html5/gdpcscxpc/index.html",
-      "source": "app.gjzwfw.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
     }
   ]
 }
