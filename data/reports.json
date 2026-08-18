@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T17:57:44+08:00",
+  "generated_at": "2026-08-18T18:05:23+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 52,
   "total_active": 46,
@@ -295,6 +295,20 @@
         "mtime": "2026-06-29T07:33:08+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
+      }
+    ],
+    "海特高新": [
+      {
+        "code": "海特高新",
+        "date": "2026-08-18",
+        "category": "未分类",
+        "title": "海特高新（002023.SZ）并购可行性综合研究报告 · 2026-08-18",
+        "file": "海特高新_综合研究报告_20260818.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特高新/output/海特高新_综合研究报告_20260818.html",
+        "size": 74797,
+        "mtime": "2026-08-18T18:05:00+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特高新/output/海特高新_综合研究报告_20260818.html"
       }
     ],
     "hangtianhongtu": [
@@ -1541,7 +1555,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-18T17:57:44.837395",
+  "_last_cleanup": "2026-08-18T18:05:23.173590",
   "_cleanup_stats": {
     "dup_title_date": 2,
     "superseded": 5,
