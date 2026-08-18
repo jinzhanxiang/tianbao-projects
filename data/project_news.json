@@ -1,169 +1,9 @@
 {
-  "generated_at": "2026-08-18T18:24:12+08:00",
+  "generated_at": "2026-08-18T18:36:48+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 25,
+  "total": 19,
   "by_industry": {
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
-        "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
-        "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
-        "source": "www.worldmr.net",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.0,
-        "query": "星恒电源 新闻 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "V观财报|三木集团:星恒电源等创投项目正在积极退出中_腾讯新闻",
-        "summary": "2025年12月31日 - 【V观财报|三木集团:星恒电源等创投项目正在积极退出中】三木集团在深交所互动易平台表示,公司近期向关联方福州保税港国利集团出售75套房产,主要目的...",
-        "url": "https://news.qq.com/rain/a/20251231A044C200",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "星恒电源 新闻 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "星恒电源-北极星电力新闻网",
-        "summary": "北极星电力新闻网为您提供星恒电源相关新闻,了解星恒电源最新相关的报道政策招投标等相关信息,就来北极星电力新闻网。 北极星为您找到 星恒电...",
-        "url": "https://news.bjx.com.cn/topics/xinghengdianyuan/",
-        "source": "news.bjx.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "星恒电源 新闻 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
-        "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
-        "url": "https://www.jobui.com/company/12781277/news/",
-        "source": "www.jobui.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "星恒电源 新闻 2026"
-      },
-      {
-        "code": "xunchao",
-        "company": "迅巢科技",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 华为鸿蒙 HarmonyOS 7.0.0.102 版本新特性曝光，支持端侧 AI 机型可查看本地模型版本等 曝苹果 iPhone 17 系列 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
-        "summary": "2024年9月19日 - 月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
-        "url": "https://new.qq.com/rain/a/20240919A09S0W00",
-        "source": "new.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "航天精工 新闻 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
-        "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
-        "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
-        "source": "www.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "航天精工 新闻 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "天津大学-航天精工联合研究中心正式揭牌-天津大学新闻网",
-        "summary": "2026年6月2日 - 月29日,天津大学-航天精工联合研究中心揭牌仪式暨管委会第一次会议在航天精工股份有限公司召开。天津大学党委常委、常务副校长王天友,航天精工党委书...",
-        "url": "https://news.tju.edu.cn/info/1003/600549.htm",
-        "source": "news.tju.edu.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "航天精工 新闻 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
-        "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
-        "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
-        "source": "k.sina.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "航天精工 新闻 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
-        "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
-        "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
-        "source": "www.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
     "半导体": [
       {
         "code": "jngd",
@@ -270,6 +110,32 @@
         "fetched_at": "2026-08-18",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+        "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+        "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.0,
+        "query": "高端制造 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -326,6 +192,62 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
+        "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
+        "url": "https://www.xinhuanet.com/info/20260124/fa618b73c70d4a35b9c64bdc8412984f/c.html",
+        "source": "www.xinhuanet.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "xingheng",
+        "company": "星恒电源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 华为鸿蒙 HarmonyOS 7.0.0.102 版本新特性曝光，支持端侧 AI 机型可查看本地模型版本等 曝苹果 iPhone 17 系列 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -343,84 +265,6 @@
     ]
   },
   "items": [
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "星恒电源斩获锂电池大单_行业新闻_全球矿产资源网",
-      "summary": "资讯三、星恒电源斩获3GWh电摩锂电池大单,携手小牛电动深化技术战略合作.2026年新能源供给比重将12.17 ·.球两轮车锂电池领军企业星恒电源...",
-      "url": "https://www.worldmr.net/Industry/IndustryList/Info/2025-09-26/315623.shtml",
-      "source": "www.worldmr.net",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.0,
-      "query": "星恒电源 新闻 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "V观财报|三木集团:星恒电源等创投项目正在积极退出中_腾讯新闻",
-      "summary": "2025年12月31日 - 【V观财报|三木集团:星恒电源等创投项目正在积极退出中】三木集团在深交所互动易平台表示,公司近期向关联方福州保税港国利集团出售75套房产,主要目的...",
-      "url": "https://news.qq.com/rain/a/20251231A044C200",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "星恒电源 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
-      "summary": "2024年9月19日 - 月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
-      "url": "https://new.qq.com/rain/a/20240919A09S0W00",
-      "source": "new.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "航天精工 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
-      "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
-      "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "航天精工 新闻 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "星恒电源-北极星电力新闻网",
-      "summary": "北极星电力新闻网为您提供星恒电源相关新闻,了解星恒电源最新相关的报道政策招投标等相关信息,就来北极星电力新闻网。 北极星为您找到 星恒电...",
-      "url": "https://news.bjx.com.cn/topics/xinghengdianyuan/",
-      "source": "news.bjx.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "星恒电源 新闻 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "「星恒电源新闻动态」星恒电源股份有限公司最新消息 - 职友集",
-      "summary": "动力锂电池高新技术企业 星恒电源 完成数亿元融资.盈科资本领投 星恒电源启动pre-ipo融资...",
-      "url": "https://www.jobui.com/company/12781277/news/",
-      "source": "www.jobui.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "星恒电源 新闻 2026"
-    },
     {
       "code": "jngd",
       "company": "晶能光电",
@@ -526,32 +370,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "天津大学-航天精工联合研究中心正式揭牌-天津大学新闻网",
-      "summary": "2026年6月2日 - 月29日,天津大学-航天精工联合研究中心揭牌仪式暨管委会第一次会议在航天精工股份有限公司召开。天津大学党委常委、常务副校长王天友,航天精工党委书...",
-      "url": "https://news.tju.edu.cn/info/1003/600549.htm",
-      "source": "news.tju.edu.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "航天精工 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
-      "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
-      "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
-      "source": "k.sina.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "航天精工 新闻 2026"
-    },
-    {
       "code": "unicom-idc",
       "company": "四川 IDC",
       "industry": "REITS类资产",
@@ -591,8 +409,34 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "xunchao",
-      "company": "迅巢科技",
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+      "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+      "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-18",
+      "score": 2.0,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "xingheng",
+      "company": "星恒电源",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "2023年10月26日 · 华为鸿蒙 HarmonyOS 7.0.0.102 版本新特性曝光，支持端侧 AI 机型可查看本地模型版本等 曝苹果 iPhone 17 系列 …",
