@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T11:01:50+08:00",
+  "generated_at": "2026-08-18T11:21:08+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 27,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -58,127 +58,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "5家企业中标!天津电信1.5亿元通信工程施工项目开标_投标_服务_金额",
-        "summary": "可以看到,本次天津电信1.5亿元的通信工程施工服务采购项目,5个标包的投标报价,通信工程施工部分来到了47%,非开挖式通信管道部分来到了96%。...",
-        "url": "https://business.sohu.com/a/782118052_121124362",
-        "source": "business.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "2.4亿!天津电信通信工程施工项目开标,6家企业中标_投标人_折扣_资质",
-        "summary": "今日,天津电信公布了2022-2024年通信工程施工服务采购项目中标候选人,预估规模: 24000万元人民币(不含税), 6个标段,6家企业中标。 该项目为本招标项目...",
-        "url": "https://www.sohu.com/a/545320468_121124362",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信预算5200元的采购项目中标候选人公布 华为中兴拿下|标包|招标|投标人|中兴通讯_网易订阅",
-        "summary": "招标公告发布一个月后,项目中标候选人公布。.先来看一下项目情况,本项目为天津电信2024年-2026年室内分布系统施工服务采购,主要包括天津市市...",
-        "url": "https://www.163.com/dy/article/J6J66NGF0511BBQE.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信设备中标公告|结果_公示-比地招标网",
-        "summary": "2026年3月23日 - 天津电信设备中标栏目为您提供天津电信设备的中标信息、中标单位、中标价格、天津电信设备项目中标公示,价格走势,重点项目中标等信息。登录比地招标网...",
-        "url": "https://www.bidizhaobiao.com/clsbzb/16_8210_03.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.0,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-        "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-        "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-        "source": "www.myrb.net",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "实干开新局建设“驶快道”",
-        "summary": "航拍正在加快建设的柯渡医学科技美安产业园项目.本报2月19日讯(记者王子豪)2月19日,在位于海口国家高新区美安生态科技新城的柯渡医学科技美...",
-        "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
-        "source": "www.hi.chinanews.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "第十五届健康中国论坛聚焦公立医院高质量发展 医学装备数智化管理极大提升医院装备管理质量效益",
-        "summary": "2024年5月29日 - 上海柯渡医学科技股份有限公司CEO张建以《医学装备数智化管理助力医院高质量发展》为题作了主旨发言。.张建介绍,上海柯渡医学科技股份有限公司成立于2...",
-        "url": "https://news.10jqka.com.cn/20240529/c658304247.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-18",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
-      }
-    ],
     "半导体": [
       {
         "code": "jngd",
@@ -231,6 +110,21 @@
         "fetched_at": "2026-08-18",
         "score": 3.5,
         "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-18",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -387,58 +281,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "5家企业中标!天津电信1.5亿元通信工程施工项目开标_投标_服务_金额",
-      "summary": "可以看到,本次天津电信1.5亿元的通信工程施工服务采购项目,5个标包的投标报价,通信工程施工部分来到了47%,非开挖式通信管道部分来到了96%。...",
-      "url": "https://business.sohu.com/a/782118052_121124362",
-      "source": "business.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "2.4亿!天津电信通信工程施工项目开标,6家企业中标_投标人_折扣_资质",
-      "summary": "今日,天津电信公布了2022-2024年通信工程施工服务采购项目中标候选人,预估规模: 24000万元人民币(不含税), 6个标段,6家企业中标。 该项目为本招标项目...",
-      "url": "https://www.sohu.com/a/545320468_121124362",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信预算5200元的采购项目中标候选人公布 华为中兴拿下|标包|招标|投标人|中兴通讯_网易订阅",
-      "summary": "招标公告发布一个月后,项目中标候选人公布。.先来看一下项目情况,本项目为天津电信2024年-2026年室内分布系统施工服务采购,主要包括天津市市...",
-      "url": "https://www.163.com/dy/article/J6J66NGF0511BBQE.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -450,19 +292,6 @@
       "fetched_at": "2026-08-18",
       "score": 4.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信设备中标公告|结果_公示-比地招标网",
-      "summary": "2026年3月23日 - 天津电信设备中标栏目为您提供天津电信设备的中标信息、中标单位、中标价格、天津电信设备项目中标公示,价格走势,重点项目中标等信息。登录比地招标网...",
-      "url": "https://www.bidizhaobiao.com/clsbzb/16_8210_03.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 4.0,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
     },
     {
       "code": "jngd",
@@ -515,19 +344,6 @@
       "fetched_at": "2026-08-18",
       "score": 3.5,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型 _绵阳新闻网",
-      "summary": "展会上,柯渡以 AI+物联网,以智提质 为主题,携医学装备管理多场景解决方案亮相大会。.据了解,柯渡此次带来的 全院设备总揽与辅助决策、大型医学...",
-      "url": "http://www.myrb.net/html/2025/news/3/412188.html",
-      "source": "www.myrb.net",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "huayt",
@@ -619,32 +435,6 @@
       "fetched_at": "2026-08-18",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "实干开新局建设“驶快道”",
-      "summary": "航拍正在加快建设的柯渡医学科技美安产业园项目.本报2月19日讯(记者王子豪)2月19日,在位于海口国家高新区美安生态科技新城的柯渡医学科技美...",
-      "url": "http://www.hi.chinanews.com.cn/hnnew/2024-02-20/699035.html",
-      "source": "www.hi.chinanews.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "第十五届健康中国论坛聚焦公立医院高质量发展 医学装备数智化管理极大提升医院装备管理质量效益",
-      "summary": "2024年5月29日 - 上海柯渡医学科技股份有限公司CEO张建以《医学装备数智化管理助力医院高质量发展》为题作了主旨发言。.张建介绍,上海柯渡医学科技股份有限公司成立于2...",
-      "url": "https://news.10jqka.com.cn/20240529/c658304247.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-18",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "unicom-idc",
