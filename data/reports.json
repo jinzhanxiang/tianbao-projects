@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:16:49+08:00",
+  "generated_at": "2026-08-18T18:24:06+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 52,
   "total_active": 46,
@@ -297,9 +297,9 @@
         "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
       }
     ],
-    "海特高新": [
+    "haite": [
       {
-        "code": "海特高新",
+        "code": "haite",
         "date": "2026-08-18",
         "category": "未分类",
         "title": "海特高新（002023.SZ）并购可行性综合研究报告 · 2026-08-18",
@@ -308,7 +308,7 @@
         "size": 97798,
         "mtime": "2026-08-18T18:08:50+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特高新/output/海特高新_综合研究报告_20260818.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9%E9%AB%98%E6%96%B0_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260818.html"
       }
     ],
     "hangtianhongtu": [
@@ -743,21 +743,6 @@
         "mtime": "2026-08-16T00:00:00+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260816.html",
-        "_from_ledger": true
-      }
-    ],
-    "海特飞机": [
-      {
-        "code": "海特飞机",
-        "date": "2026-08-18",
-        "category": "商业研究",
-        "title": "海特飞机",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-08-18T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA/%E6%B5%B7%E7%89%B9%E9%AB%98%E6%96%B0_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260818.html",
         "_from_ledger": true
       }
     ],
@@ -1502,6 +1487,18 @@
     ],
     "低空航空": [
       {
+        "code": "haite",
+        "date": "2026-08-18",
+        "category": "未分类",
+        "title": "海特高新（002023.SZ）并购可行性综合研究报告 · 2026-08-18",
+        "file": "海特高新_综合研究报告_20260818.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/海特高新/output/海特高新_综合研究报告_20260818.html",
+        "size": 97798,
+        "mtime": "2026-08-18T18:08:50+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9%E9%AB%98%E6%96%B0_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260818.html"
+      },
+      {
         "code": "hangtianhongtu",
         "date": "2026-07-30",
         "category": "商业研究",
@@ -1536,26 +1533,13 @@
         "mtime": "2026-07-29T11:18:28+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E9%9D%92%E5%B2%9B%E7%9B%B4%E5%8D%87%E6%9C%BA%E6%94%B6%E8%B4%AD/%E9%9D%92%E5%B2%9B%E7%9B%B4%E5%8D%87%E6%9C%BA%E6%94%B6%E8%B4%AD_%E6%B1%87%E6%80%BB%E6%8A%A5%E5%91%8A_V1_20260729.html"
-      },
-      {
-        "code": "海特飞机",
-        "date": "2026-08-18",
-        "category": "商业研究",
-        "title": "海特飞机",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-08-18T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E6%B5%B7%E7%89%B9%E9%A3%9E%E6%9C%BA/%E6%B5%B7%E7%89%B9%E9%AB%98%E6%96%B0_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260818.html",
-        "_from_ledger": true
       }
     ]
   },
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-18T18:16:49.285294",
+  "_last_cleanup": "2026-08-18T18:24:07.021922",
   "_cleanup_stats": {
     "dup_title_date": 2,
     "superseded": 5,
