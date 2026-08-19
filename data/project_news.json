@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:54:07+08:00",
+  "generated_at": "2026-08-19T17:06:32+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 13,
@@ -116,34 +116,6 @@
         "query": "新能源 行业 政策 2026"
       }
     ],
-    "REITS类资产": [
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一部为新世纪写的新全球史——《企鹅全球史》_历史",
-        "summary": "2021年1月10日 · 受企鹅出版社重托，伦敦经济学院杰出教授、班克罗夫特奖得主和《剑桥冷战史》主编O.A.维斯塔德，从2007年开始 …",
-        "url": "https://www.sohu.com/a/443687808_276366",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "这套卖了50万套的全球史，到底有什么过人之处？_企鹅出版社",
-        "summary": "2021年6月24日 · 《企鹅全球史》自1976年初版甫一推出，就被称为“经典”和“当代无可匹敌的世界通史著作”，畅销全球。 四十年间， …",
-        "url": "https://www.sohu.com/a/473740486_121124718",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "acquisition-listed",
@@ -185,6 +157,34 @@
         "fetched_at": "2026-08-19",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "REITS类资产": [
+      {
+        "code": "山西联动云",
+        "company": "山西联动云",
+        "industry": "REITS类资产",
+        "title": "推荐动漫大赏202338部不容错过的3D动画佳作_作品_成为了 ...",
+        "summary": "2023年11月4日 · 随着科技的发展和人们对视觉体验的需求不断提高，3D动画已经成为了动漫领域的一股新兴力量。今天，我们就为大 …",
+        "url": "https://www.sohu.com/a/733818509_121769698",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "山西联动云",
+        "company": "山西联动云",
+        "industry": "REITS类资产",
+        "title": "《国漫热播》3D动漫番_动漫_高清完整版视频在线观看_腾讯视频",
+        "summary": "《《国漫热播》3D动漫番》高清在线观看，剧情简介:《国漫热播》3D动漫番，解读不一样的国漫新番。 《大猿魂》生死兄弟变杀戮 …",
+        "url": "https://v.qq.com/x/cover/mzc003gccqy22em.html",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
       }
     ]
   },
@@ -294,32 +294,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "一部为新世纪写的新全球史——《企鹅全球史》_历史",
-      "summary": "2021年1月10日 · 受企鹅出版社重托，伦敦经济学院杰出教授、班克罗夫特奖得主和《剑桥冷战史》主编O.A.维斯塔德，从2007年开始 …",
-      "url": "https://www.sohu.com/a/443687808_276366",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "这套卖了50万套的全球史，到底有什么过人之处？_企鹅出版社",
-      "summary": "2021年6月24日 · 《企鹅全球史》自1976年初版甫一推出，就被称为“经典”和“当代无可匹敌的世界通史著作”，畅销全球。 四十年间， …",
-      "url": "https://www.sohu.com/a/473740486_121124718",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
       "code": "acquisition-listed",
       "company": "收购上市公司研究",
       "industry": "其他行业",
@@ -357,6 +331,32 @@
       "fetched_at": "2026-08-19",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "山西联动云",
+      "company": "山西联动云",
+      "industry": "REITS类资产",
+      "title": "推荐动漫大赏202338部不容错过的3D动画佳作_作品_成为了 ...",
+      "summary": "2023年11月4日 · 随着科技的发展和人们对视觉体验的需求不断提高，3D动画已经成为了动漫领域的一股新兴力量。今天，我们就为大 …",
+      "url": "https://www.sohu.com/a/733818509_121769698",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "山西联动云",
+      "company": "山西联动云",
+      "industry": "REITS类资产",
+      "title": "《国漫热播》3D动漫番_动漫_高清完整版视频在线观看_腾讯视频",
+      "summary": "《《国漫热播》3D动漫番》高清在线观看，剧情简介:《国漫热播》3D动漫番，解读不一样的国漫新番。 《大猿魂》生死兄弟变杀戮 …",
+      "url": "https://v.qq.com/x/cover/mzc003gccqy22em.html",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
