@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T08:53:04+08:00",
+  "generated_at": "2026-08-19T09:04:32+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 33,
   "stage_v3_enum": [
@@ -693,29 +693,29 @@
     {
       "code": "山西联动云",
       "name_cn": "山西联动云",
-      "name_full": "山西联动云",
+      "name_full": "山西联动云 · 投资可行性研究报告（储备·非上市）",
       "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
       "iss": "未上市",
-      "industry": "AI智能",
-      "industry_detail": "AI智能",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91/%E5%B1%B1%E8%A5%BF%E8%81%94%E5%8A%A8%E4%BA%91_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260816.html",
-      "dashboard_url": "",
-      "online_index": "",
-      "repo": "tianbao-projects",
-      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/山西联动云/",
+      "industry": "REITS类资产",
+      "industry_detail": "IDC·云计算·央企国资",
+      "online_url": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/index.html",
+      "dashboard_url": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/",
+      "online_index": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/",
+      "repo": "shanxi-liandong-cloud",
+      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/联通云山西/",
       "folder_alias": "山西联动云",
       "report_count": 1,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
-      "brief_md": "山西联动云 · 初步分析阶段 · 1 份报告",
+      "brief_md": "山西联动云 · 储备阶段 · 7份报告（综合+6专项）",
       "estimation": "",
       "downgrade_reason": "",
-      "deploy_date": "2026-08-17",
-      "last_update": "2026-08-16",
-      "notes": "自动从 reports.json 补全 · 山西联动云 | 自动同步 2026-08-17",
+      "deploy_date": "2026-08-19",
+      "last_update": "2026-08-19",
+      "notes": "独立仓库 shanxi-liandong-cloud 部署（2026-08-19）：综合报告(141KB) + 6专项(525KB)",
       "pending_tasks": "",
       "archived": false
     },
@@ -751,29 +751,29 @@
     {
       "code": "联通云项目-山西",
       "name_cn": "联通云项目-山西",
-      "name_full": "联通云项目-山西",
+      "name_full": "联通云项目-山西（已合并至山西联动云）",
       "archived_reason": "",
       "category": "储备·非上市",
       "stage": "初步分析",
       "stage_v3": "储备",
       "iss": "未上市",
-      "industry": "AI智能",
-      "industry_detail": "AI智能",
-      "online_url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E8%81%94%E9%80%9A%E4%BA%91%E5%B1%B1%E8%A5%BF_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_v13_TypeB_%E5%AE%8C%E6%95%B4%E7%89%88.html",
-      "dashboard_url": "",
-      "online_index": "",
+      "industry": "REITS类资产",
+      "industry_detail": "IDC·云计算·央企国资",
+      "online_url": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/",
+      "dashboard_url": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/",
+      "online_index": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/",
       "repo": "tianbao-projects",
-      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/联通云项目-山西/",
+      "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/联通云山西/",
       "folder_alias": "联通云项目-山西",
       "report_count": 1,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
-      "brief_md": "联通云项目-山西 · 初步分析阶段 · 2 份报告",
+      "brief_md": "联通云项目-山西 · 储备阶段 · 7份报告（综合+6专项）",
       "estimation": "",
       "downgrade_reason": "",
-      "deploy_date": "2026-08-17",
-      "last_update": "2026-07-30",
-      "notes": "自动从 reports.json 补全 · 联通云项目-山西 | 自动同步 2026-08-17",
+      "deploy_date": "2026-08-19",
+      "last_update": "2026-08-19",
+      "notes": "独立仓库 shanxi-liandong-cloud 部署（2026-08-19）；原 tianbao-projects 旧报告保留历史版本 | 自动同步 2026-08-19",
       "pending_tasks": "",
       "archived": false
     },
@@ -1092,6 +1092,16 @@
         "code": "huitian",
         "name_cn": "汇天科技",
         "count": 3
+      },
+      {
+        "code": "山西联动云",
+        "name_cn": "山西联动云",
+        "count": 1
+      },
+      {
+        "code": "联通云项目-山西",
+        "name_cn": "联通云项目-山西",
+        "count": 1
       }
     ],
     "低空航空": [
@@ -1117,16 +1127,6 @@
       }
     ],
     "AI智能": [
-      {
-        "code": "山西联动云",
-        "name_cn": "山西联动云",
-        "count": 1
-      },
-      {
-        "code": "联通云项目-山西",
-        "name_cn": "联通云项目-山西",
-        "count": 1
-      },
       {
         "code": "kexin",
         "name_cn": "可信数据空间",
