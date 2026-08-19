@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T20:05:11+08:00",
+  "generated_at": "2026-08-19T20:17:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,45 @@
         "fetched_at": "2026-08-19",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "2026高端制造业产业升级关键要素研究及政策支持分析报告.docx - 人人文库",
+        "summary": "当前,全球高端制造业正经历深刻变革,中国作为核心参与者,面临2026年这一关键发展窗口期.数字化转型是提升制造效能的核心路径,智能工厂建设将遵循分级标准,从基础...",
+        "url": "https://www.renrendoc.com/paper/526333496.html",
+        "source": "www.renrendoc.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+        "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+        "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "高端制造 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -127,8 +166,8 @@
     ],
     "半导体": [
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
+        "code": "jngd",
+        "company": "晶能光电",
         "industry": "半导体",
         "title": "半导体 (BK1036)_行情中心_东方财富网",
         "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -262,60 +301,6 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
-    ],
-    "AI智能": [
-      {
-        "code": "可信数据空间_整合方案_乘杜+觅蜂",
-        "company": "可信数据空间_整合方案_乘杜+觅蜂",
-        "industry": "AI智能",
-        "title": "国家税务总局电子税务局",
-        "summary": "税务机关为证明纳税人已经缴纳税款或者已经退还纳税人税款而开具的凭证。 对纳税人提供涉税事项办理进度及结果的查询界面，纳 …",
-        "url": "https://etax.jiangsu.chinatax.gov.cn/sso/login",
-        "source": "etax.jiangsu.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "可信数据空间_整合方案_乘杜+觅蜂",
-        "company": "可信数据空间_整合方案_乘杜+觅蜂",
-        "industry": "AI智能",
-        "title": "国家税务总局江苏省电子税务局",
-        "summary": "2022年12月28日 · 新办企业综合申请套餐 跨区域涉税事项报验管理套餐 发票限额票量变更套餐 小规模转一般纳税人套餐 非居民企业 …",
-        "url": "https://etax.jiangsu.chinatax.gov.cn/jx/index.html",
-        "source": "etax.jiangsu.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "可信数据空间_整合方案_乘杜+觅蜂",
-        "company": "可信数据空间_整合方案_乘杜+觅蜂",
-        "industry": "AI智能",
-        "title": "国家税务总局江苏省税务局网站",
-        "summary": "12 小时之前 · 如何办理一般纳税人登记手续？ 08-18.",
-        "url": "https://jiangsu.chinatax.gov.cn/",
-        "source": "jiangsu.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "可信数据空间_整合方案_乘杜+觅蜂",
-        "company": "可信数据空间_整合方案_乘杜+觅蜂",
-        "industry": "AI智能",
-        "title": "国家税务总局电子税务局",
-        "summary": "2026年5月6日 · We're sorry but 国家税务总局电子税务局 doesn't work properly without JavaScript enabled. Please enable it to …",
-        "url": "https://etax.jiangsu.chinatax.gov.cn:8443/",
-        "source": "etax.jiangsu.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -424,8 +409,8 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "半导体 (BK1036)_行情中心_东方财富网",
       "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -463,6 +448,19 @@
       "query": "新能源 行业 政策 2026"
     },
     {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
@@ -474,6 +472,32 @@
       "fetched_at": "2026-08-19",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "2026高端制造业产业升级关键要素研究及政策支持分析报告.docx - 人人文库",
+      "summary": "当前,全球高端制造业正经历深刻变革,中国作为核心参与者,面临2026年这一关键发展窗口期.数字化转型是提升制造效能的核心路径,智能工厂建设将遵循分级标准,从基础...",
+      "url": "https://www.renrendoc.com/paper/526333496.html",
+      "source": "www.renrendoc.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.0,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+      "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+      "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.0,
+      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "hongyuan",
@@ -526,58 +550,6 @@
       "fetched_at": "2026-08-19",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "可信数据空间_整合方案_乘杜+觅蜂",
-      "company": "可信数据空间_整合方案_乘杜+觅蜂",
-      "industry": "AI智能",
-      "title": "国家税务总局电子税务局",
-      "summary": "税务机关为证明纳税人已经缴纳税款或者已经退还纳税人税款而开具的凭证。 对纳税人提供涉税事项办理进度及结果的查询界面，纳 …",
-      "url": "https://etax.jiangsu.chinatax.gov.cn/sso/login",
-      "source": "etax.jiangsu.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "可信数据空间_整合方案_乘杜+觅蜂",
-      "company": "可信数据空间_整合方案_乘杜+觅蜂",
-      "industry": "AI智能",
-      "title": "国家税务总局江苏省电子税务局",
-      "summary": "2022年12月28日 · 新办企业综合申请套餐 跨区域涉税事项报验管理套餐 发票限额票量变更套餐 小规模转一般纳税人套餐 非居民企业 …",
-      "url": "https://etax.jiangsu.chinatax.gov.cn/jx/index.html",
-      "source": "etax.jiangsu.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "可信数据空间_整合方案_乘杜+觅蜂",
-      "company": "可信数据空间_整合方案_乘杜+觅蜂",
-      "industry": "AI智能",
-      "title": "国家税务总局江苏省税务局网站",
-      "summary": "12 小时之前 · 如何办理一般纳税人登记手续？ 08-18.",
-      "url": "https://jiangsu.chinatax.gov.cn/",
-      "source": "jiangsu.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "可信数据空间_整合方案_乘杜+觅蜂",
-      "company": "可信数据空间_整合方案_乘杜+觅蜂",
-      "industry": "AI智能",
-      "title": "国家税务总局电子税务局",
-      "summary": "2026年5月6日 · We're sorry but 国家税务总局电子税务局 doesn't work properly without JavaScript enabled. Please enable it to …",
-      "url": "https://etax.jiangsu.chinatax.gov.cn:8443/",
-      "source": "etax.jiangsu.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
     },
     {
       "code": "联通云山西",
