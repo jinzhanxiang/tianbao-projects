@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-19T08:09:31+08:00",
+  "generated_at": "2026-08-19T08:14:53+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 18,
   "by_industry": {
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+        "url": "https://quote.eastmoney.com/sz002906.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "肥西华阳医院有限公司 - 华阳医院 - 爱企查",
+        "summary": "2026年8月5日 · 肥西华阳医院有限公司是一家小微企业，该公司成立于2017年10月19日，位于安徽省合肥市肥西县上派镇三河路与翡 …",
+        "url": "https://aiqicha.baidu.com/company_detail_32356552106530",
+        "source": "aiqicha.baidu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
     "半导体": [
       {
         "code": "jngd",
@@ -56,60 +110,6 @@
         "fetched_at": "2026-08-19",
         "score": 3.5,
         "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "宜都市华阳化工有限责任公司官方网站",
-        "summary": "2025年6月16日 · 宜都市华阳化工有限责任公司是一家专业从事紫外线吸收剂、新能源材料、化学工程原料系列产品的高新技术企业， …",
-        "url": "https://www.ydhyc.com/",
-        "source": "www.ydhyc.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "宜都市华阳化工有限责任公司 - 华阳化工 - 爱企查",
-        "summary": "2026年8月10日 · 宜都市华阳化工有限责任公司是一家专精特新小巨人的企业，该公司成立于1998年07月18日，位于宜都市枝城镇兴宜 …",
-        "url": "https://aiqicha.baidu.com/company_detail_30441113076322",
-        "source": "aiqicha.baidu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -253,6 +253,19 @@
   },
   "items": [
     {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+      "url": "https://quote.eastmoney.com/sz002906.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -334,22 +347,9 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "宜都市华阳化工有限责任公司官方网站",
-      "summary": "2025年6月16日 · 宜都市华阳化工有限责任公司是一家专业从事紫外线吸收剂、新能源材料、化学工程原料系列产品的高新技术企业， …",
-      "url": "https://www.ydhyc.com/",
-      "source": "www.ydhyc.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "宜都市华阳化工有限责任公司 - 华阳化工 - 爱企查",
-      "summary": "2026年8月10日 · 宜都市华阳化工有限责任公司是一家专精特新小巨人的企业，该公司成立于1998年07月18日，位于宜都市枝城镇兴宜 …",
-      "url": "https://aiqicha.baidu.com/company_detail_30441113076322",
+      "title": "肥西华阳医院有限公司 - 华阳医院 - 爱企查",
+      "summary": "2026年8月5日 · 肥西华阳医院有限公司是一家小微企业，该公司成立于2017年10月19日，位于安徽省合肥市肥西县上派镇三河路与翡 …",
+      "url": "https://aiqicha.baidu.com/company_detail_32356552106530",
       "source": "aiqicha.baidu.com",
       "date": "",
       "fetched_at": "2026-08-19",
