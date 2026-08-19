@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-20T07:26:44+08:00",
+  "generated_at": "2026-08-20T07:31:16+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 22,
   "by_industry": {
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+        "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "顺风清洁能源收购晶能光电控股权_中证网",
+        "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+        "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+        "source": "www.cs.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+        "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+        "url": "https://www.sohu.com/a/15891578_114737",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
+        "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
+        "url": "https://www.elecfans.com/d/1450934.html",
+        "source": "www.elecfans.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 5.5,
+        "query": "\"晶能光电\" 公告 签约 中标 投资"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -224,8 +278,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -237,8 +291,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -252,6 +306,58 @@
     ]
   },
   "items": [
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
+      "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
+      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "顺风清洁能源收购晶能光电控股权_中证网",
+      "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
+      "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
+      "source": "www.cs.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
+      "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
+      "url": "https://www.sohu.com/a/15891578_114737",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
+      "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
+      "url": "https://www.elecfans.com/d/1450934.html",
+      "source": "www.elecfans.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 5.5,
+      "query": "\"晶能光电\" 公告 签约 中标 投资"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -422,8 +528,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -435,8 +541,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
