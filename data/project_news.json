@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T03:37:55+08:00",
+  "generated_at": "2026-08-20T03:48:27+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 18,
   "by_industry": {
     "高端制造": [
       {
@@ -56,60 +56,6 @@
         "fetched_at": "2026-08-20",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "6250万元!高新区企业中标省外一可信数据空间基础设施项目",
-        "summary": "近日,总部位于贵阳市高新区的中电科大数据研究院有限公司(以下简称中电科大数据院)及联合体成员成功中标《唐山市路南区可信数据空间基础设...",
-        "url": "https://gxq.guiyang.gov.cn/gxqdt/gxqdtmtkgx/202510/t20251028_88735204.html",
-        "source": "gxq.guiyang.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "神思电子:中标约1.61亿元可信数据空间建设项目|中电|联合体_网易订阅",
-        "summary": "神思电子:中标约1.61亿元可信数据空间建设项目,中电,联合体,神思电子,数据空间 分享至 用微信扫码二维码 分享至好友和朋友圈 人民财讯10月21日电,神思...",
-        "url": "https://www.163.com/dy/article/KCDTL9CH053469RG.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "神思电子:中标可信数据空间建设项目 | 每经网",
-        "summary": "每经AI快讯,神思电子10月21日晚间发布公告称,近日,济南市公共资源交易中心发布《济南城市可信数据空间建设项目中标候选人公示》,公司作为牵头单位与中...",
-        "url": "https://www.nbd.com.cn/articles/2025-10-21/4099501.html",
-        "source": "www.nbd.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "德州市可信数据空间一期项目中标公告丨光速招标海量免费标讯",
-        "summary": "2026年3月11日 - 一、项目名称:德州市可信数据空间一期项目 二、招标项目编号:DZSLCGC-202600064001 三、招标公告发布日期:2026年02月11日 四、开标时间:2026年03月05...",
-        "url": "https://www.guangsuzb.com/succeed_v_2031568257418186760.html",
-        "source": "www.guangsuzb.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
       }
     ],
     "其他行业": [
@@ -177,6 +123,21 @@
         "fetched_at": "2026-08-20",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -263,8 +224,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -276,8 +237,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -305,32 +266,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "6250万元!高新区企业中标省外一可信数据空间基础设施项目",
-      "summary": "近日,总部位于贵阳市高新区的中电科大数据研究院有限公司(以下简称中电科大数据院)及联合体成员成功中标《唐山市路南区可信数据空间基础设...",
-      "url": "https://gxq.guiyang.gov.cn/gxqdt/gxqdtmtkgx/202510/t20251028_88735204.html",
-      "source": "gxq.guiyang.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "神思电子:中标约1.61亿元可信数据空间建设项目|中电|联合体_网易订阅",
-      "summary": "神思电子:中标约1.61亿元可信数据空间建设项目,中电,联合体,神思电子,数据空间 分享至 用微信扫码二维码 分享至好友和朋友圈 人民财讯10月21日电,神思...",
-      "url": "https://www.163.com/dy/article/KCDTL9CH053469RG.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
       "code": "凯茜",
       "company": "凯茜",
       "industry": "其他行业",
@@ -342,32 +277,6 @@
       "fetched_at": "2026-08-20",
       "score": 4.5,
       "query": "凯茜 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "神思电子:中标可信数据空间建设项目 | 每经网",
-      "summary": "每经AI快讯,神思电子10月21日晚间发布公告称,近日,济南市公共资源交易中心发布《济南城市可信数据空间建设项目中标候选人公示》,公司作为牵头单位与中...",
-      "url": "https://www.nbd.com.cn/articles/2025-10-21/4099501.html",
-      "source": "www.nbd.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "德州市可信数据空间一期项目中标公告丨光速招标海量免费标讯",
-      "summary": "2026年3月11日 - 一、项目名称:德州市可信数据空间一期项目 二、招标项目编号:DZSLCGC-202600064001 三、招标公告发布日期:2026年02月11日 四、开标时间:2026年03月05...",
-      "url": "https://www.guangsuzb.com/succeed_v_2031568257418186760.html",
-      "source": "www.guangsuzb.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -407,6 +316,19 @@
       "fetched_at": "2026-08-20",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 3.0,
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -487,8 +409,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -500,8 +422,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
