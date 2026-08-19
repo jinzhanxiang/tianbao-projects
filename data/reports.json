@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:05:14+08:00",
+  "generated_at": "2026-08-19T14:18:19+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 52,
   "total_active": 46,
@@ -80,6 +80,20 @@
         "mtime": "2026-07-27T11:13:32+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/innoshine-report/dashboard.html"
+      }
+    ],
+    "凯茜": [
+      {
+        "code": "凯茜",
+        "date": "2026-08-19",
+        "category": "行业研究",
+        "title": "北京凯茜航空技术有限公司 × 天保低空产业 · 控股合资可行性综合研究报告（2026-08-19）",
+        "file": "凯茜航空_天保低空合资项目_综合研究报告_20260819.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/凯茜/output/凯茜航空_天保低空合资项目_综合研究报告_20260819.html",
+        "size": 84839,
+        "mtime": "2026-08-19T14:10:58+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/凯茜/output/凯茜航空_天保低空合资项目_综合研究报告_20260819.html"
       }
     ],
     "华东数控-资本运作平台": [
@@ -1537,7 +1551,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-19T14:05:14.125908",
+  "_last_cleanup": "2026-08-19T14:18:19.958706",
   "_cleanup_stats": {
     "dup_title_date": 2,
     "superseded": 5,
