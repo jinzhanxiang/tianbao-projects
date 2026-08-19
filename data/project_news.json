@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-20T04:27:38+08:00",
+  "generated_at": "2026-08-20T04:36:22+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 22,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投|融资_新浪科技_新浪网",
-        "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
-        "url": "https://tech.sina.com.cn/roll/2019-12-16/doc-iihnzahi7918847.shtml",
-        "source": "tech.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-        "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
-        "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
-        "source": "www.cbi360.net",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
-        "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
-        "source": "qy.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
-        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
-        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
-        "source": "hainan.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -114,6 +60,19 @@
     ],
     "其他行业": [
       {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 4.5,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
         "code": "凯茜",
         "company": "凯茜",
         "industry": "其他行业",
@@ -125,6 +84,45 @@
         "fetched_at": "2026-08-20",
         "score": 4.5,
         "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子明确2026经营方向,深耕主业推进新能源业务发展",
+        "summary": "2026年5月3日 - 2026年4月29日,奥联电子举行2025年度网上业绩说明会。公司表示将深耕汽车电子主业,推进新能源业务,优化业务结构。2025年归母净利润亏损因计提预计负债...",
+        "url": "https://laoyaoba.com/n/1030601",
+        "source": "laoyaoba.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 4.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+        "source": "app.myzaker.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+        "source": "news.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
       },
       {
         "code": "凯茜",
@@ -166,8 +164,8 @@
         "query": "凯茜 新闻 2026"
       },
       {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
+        "code": "觅蜂_华依合作",
+        "company": "觅蜂_华依合作",
         "industry": "其他行业",
         "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
         "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
@@ -248,34 +246,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "微信，是一个生活方式",
-        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-        "url": "https://weixin.qq.com/",
-        "source": "weixin.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -303,22 +273,37 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
+    ],
+    "新能源": [
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "微信，是一个生活方式",
+        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+        "url": "https://weixin.qq.com/",
+        "source": "weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
     ]
   },
   "items": [
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投|融资_新浪科技_新浪网",
-      "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
-      "url": "https://tech.sina.com.cn/roll/2019-12-16/doc-iihnzahi7918847.shtml",
-      "source": "tech.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -331,6 +316,19 @@
       "fetched_at": "2026-08-20",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 4.5,
+      "query": "奥联电子 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -346,43 +344,17 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-      "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
-      "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
-      "source": "www.cbi360.net",
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子明确2026经营方向,深耕主业推进新能源业务发展",
+      "summary": "2026年5月3日 - 2026年4月29日,奥联电子举行2025年度网上业绩说明会。公司表示将深耕汽车电子主业,推进新能源业务,优化业务结构。2025年归母净利润亏损因计提预计负债...",
+      "url": "https://laoyaoba.com/n/1030601",
+      "source": "laoyaoba.com",
       "date": "",
       "fetched_at": "2026-08-20",
       "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
-      "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
-      "source": "qy.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
-      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
-      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
-      "source": "hainan.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      "query": "奥联电子 新闻 2026"
     },
     {
       "code": "huayt",
@@ -422,6 +394,32 @@
       "fetched_at": "2026-08-20",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+      "source": "app.myzaker.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
     },
     {
       "code": "kexin",
@@ -489,32 +487,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "微信，是一个生活方式",
-      "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-      "url": "https://weixin.qq.com/",
-      "source": "weixin.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -541,8 +513,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
+      "code": "觅蜂_华依合作",
+      "company": "觅蜂_华依合作",
       "industry": "其他行业",
       "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
       "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
@@ -552,6 +524,32 @@
       "fetched_at": "2026-08-20",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "微信，是一个生活方式",
+      "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+      "url": "https://weixin.qq.com/",
+      "source": "weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
