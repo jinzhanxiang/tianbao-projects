@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T17:50:18+08:00",
+  "generated_at": "2026-08-19T17:50:57+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
-  "total": 52,
-  "total_active": 46,
+  "total": 27,
+  "total_active": 21,
   "total_archived_cached": 6,
   "by_code": {
     "乘杜科技": [
@@ -93,7 +93,8 @@
         "size": 84839,
         "mtime": "2026-08-19T14:10:58+08:00",
         "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/凯茜/output/凯茜航空_天保低空合资项目_综合研究报告_20260819.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/凯茜/output/凯茜航空_天保低空合资项目_综合研究报告_20260819.html",
+        "_archived": true
       }
     ],
     "华东数控-资本运作平台": [
@@ -165,9 +166,9 @@
         "_archived": true
       }
     ],
-    "大同新荣合邦新能源": [
+    "合邦新能源": [
       {
-        "code": "大同新荣合邦新能源",
+        "code": "合邦新能源",
         "date": "2026-08-15",
         "category": "商业研究",
         "title": "合邦新能源 · 投资可行性研究报告 · V25.1.44",
@@ -176,7 +177,8 @@
         "size": 91361,
         "mtime": "2026-08-15T19:17:13+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%A4%A7%E5%90%8C%E6%96%B0%E8%8D%A3%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260815.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260815.html",
+        "_archived": true
       }
     ],
     "奥联电子": [
@@ -271,44 +273,7 @@
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/kedu/%E6%9F%AF%E6%B8%A1%E5%8C%BB%E5%AD%A6_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_V3.1_20260730.html"
       }
     ],
-    "huitian": [
-      {
-        "code": "huitian",
-        "date": "2026-07-09",
-        "category": "未分类",
-        "title": "汇天网络科技有限公司可行性分析报告",
-        "file": "汇天网络可行性分析_v1.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
-        "size": 42394,
-        "mtime": "2026-07-09T16:16:48+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
-      },
-      {
-        "code": "huitian",
-        "date": "2026-07-13",
-        "category": "行业研究",
-        "title": "NVIDIA 数据中心 GPU 历史价格曲线 + 中国租赁市场尽调报告",
-        "file": "NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "size": 33842,
-        "mtime": "2026-07-13T20:54:36+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
-      },
-      {
-        "code": "huitian",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "中国IDC行业核心数据汇编（2024-2026）",
-        "file": "IDC行业数据汇编_2024-2026_20260629.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
-        "size": 10563,
-        "mtime": "2026-06-29T07:33:08+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
-      }
-    ],
+    "汇天网络科技": [],
     "haite": [
       {
         "code": "haite",
@@ -323,9 +288,9 @@
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/haite/%E6%B5%B7%E7%89%B9%E9%AB%98%E6%96%B0_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260818.html"
       }
     ],
-    "联通云项目-山西": [
+    "联通云山西": [
       {
-        "code": "联通云项目-山西",
+        "code": "联通云山西",
         "date": "2026-08-19",
         "category": "商业研究",
         "title": "山西联通云投资可行性研究报告 · 2026-08-19",
@@ -334,7 +299,8 @@
         "size": 141414,
         "mtime": "2026-08-19T08:56:48+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A%E4%BA%91_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260819.html"
+        "url": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/index.html",
+        "_archived": true
       }
     ],
     "hangtianhongtu": [
@@ -497,6 +463,44 @@
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md"
       }
     ],
+    "huitian": [
+      {
+        "code": "huitian",
+        "date": "2026-07-09",
+        "category": "未分类",
+        "title": "汇天网络科技有限公司可行性分析报告",
+        "file": "汇天网络可行性分析_v1.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
+        "size": 42394,
+        "mtime": "2026-07-09T16:16:48+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md"
+      },
+      {
+        "code": "huitian",
+        "date": "2026-07-13",
+        "category": "行业研究",
+        "title": "NVIDIA 数据中心 GPU 历史价格曲线 + 中国租赁市场尽调报告",
+        "file": "NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
+        "size": 33842,
+        "mtime": "2026-07-13T20:54:36+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md"
+      },
+      {
+        "code": "huitian",
+        "date": "2026-06-29",
+        "category": "行业研究",
+        "title": "中国IDC行业核心数据汇编（2024-2026）",
+        "file": "IDC行业数据汇编_2024-2026_20260629.md",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
+        "size": 10563,
+        "mtime": "2026-06-29T07:33:08+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md"
+      }
+    ],
     "xingheng": [
       {
         "code": "xingheng",
@@ -508,7 +512,7 @@
         "size": 12857,
         "mtime": "2026-06-11T18:29:41+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/上市公司两轮车锂电财务数据_2021-2024_20260611.md"
       },
       {
         "code": "xingheng",
@@ -520,7 +524,7 @@
         "size": 10472,
         "mtime": "2026-06-11T18:32:34+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/博力威+CATL两轮车锂电_2022-2024_20260611.md"
       },
       {
         "code": "xingheng",
@@ -532,7 +536,7 @@
         "size": 12650,
         "mtime": "2026-06-11T18:08:25+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md"
       },
       {
         "code": "xingheng",
@@ -544,7 +548,7 @@
         "size": 9710,
         "mtime": "2026-06-11T18:05:34+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/电动两轮车锂电池市场份额_2022-2024_20260611.md"
       },
       {
         "code": "xingheng",
@@ -556,7 +560,7 @@
         "size": 6946,
         "mtime": "2026-06-02T17:48:15+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/policy/工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md"
       },
       {
         "code": "xingheng",
@@ -568,7 +572,7 @@
         "size": 10174,
         "mtime": "2026-05-25T13:43:04+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_13.73收购_诉讼解决逻辑分析_20260525.md"
       },
       {
         "code": "xingheng",
@@ -580,7 +584,7 @@
         "size": 10868,
         "mtime": "2026-05-25T13:34:14+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_启源纳川22.33亿元分项拆分_20260525.md"
       },
       {
         "code": "xingheng",
@@ -592,7 +596,7 @@
         "size": 15089,
         "mtime": "2026-05-23T15:41:39+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/financial/星恒电源_完整综合财务分析_20260523.md"
       },
       {
         "code": "xingheng",
@@ -604,7 +608,7 @@
         "size": 16085,
         "mtime": "2026-05-23T15:59:33+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/financial/星恒电源_技术路线深度分析_20260523.md"
       },
       {
         "code": "xingheng",
@@ -616,7 +620,7 @@
         "size": 15012,
         "mtime": "2026-05-23T15:55:40+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/financial/星恒电源_行业vs企业成因分析_20260523.md"
       },
       {
         "code": "xingheng",
@@ -628,7 +632,7 @@
         "size": 20990,
         "mtime": "2026-05-18T17:56:25+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_司法拍卖风险深度研究_20260518.md"
       },
       {
         "code": "xingheng",
@@ -640,7 +644,7 @@
         "size": 12991,
         "mtime": "2026-05-18T17:50:06+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_股权清晰性深度核实_20260518.md"
       }
     ],
     "acquisition-listed": [
@@ -654,7 +658,7 @@
         "size": 25099,
         "mtime": "2026-07-03T09:48:08+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md"
       },
       {
         "code": "acquisition-listed",
@@ -666,7 +670,7 @@
         "size": 24319,
         "mtime": "2026-06-07T12:30:29+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html"
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md"
       },
       {
         "code": "acquisition-listed",
@@ -678,114 +682,7 @@
         "size": 7515,
         "mtime": "2026-04-28T18:00:17+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html"
-      }
-    ],
-    "zhongfu": [
-      {
-        "code": "zhongfu",
-        "date": "2026-07-29",
-        "category": "商业研究",
-        "title": "中复神鹰碳纤维芯电缆项目",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-29T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html",
-        "_from_ledger": true
-      }
-    ],
-    "xinhong": [
-      {
-        "code": "xinhong",
-        "date": "2026-07-29",
-        "category": "商业研究",
-        "title": "天津信鸿医疗科技股份有限公司",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-29T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xinhong-report/report_main.html",
-        "_from_ledger": true
-      }
-    ],
-    "xunchao": [
-      {
-        "code": "xunchao",
-        "date": "2026-07-29",
-        "category": "商业研究",
-        "title": "迅巢换电（XCHS Energon）",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-29T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xunchao-report/report_main.html",
-        "_from_ledger": true
-      }
-    ],
-    "unicom-idc": [
-      {
-        "code": "unicom-idc",
-        "date": "2026-07-29",
-        "category": "商业研究",
-        "title": "四川数据中心 IDC 项目",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-29T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
-        "_from_ledger": true,
-        "_archived": true
-      }
-    ],
-    "天保人力_数据空间业务_深度专项": [
-      {
-        "code": "天保人力_数据空间业务_深度专项",
-        "date": "2026-08-17",
-        "category": "商业研究",
-        "title": "天保人力_数据空间业务_深度专项",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-08-17T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%A4%A9%E4%BF%9D%E4%BA%BA%E5%8A%9B_%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E4%B8%9A%E5%8A%A1_%E6%B7%B1%E5%BA%A6%E4%B8%93%E9%A1%B9/%E5%A4%A9%E4%BF%9D%E4%BA%BA%E5%8A%9B_%E5%8F%AF%E4%BF%A1%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E4%B8%9A%E5%8A%A1_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260817.html",
-        "_from_ledger": true,
-        "_archived": true
-      }
-    ],
-    "天保基建": [
-      {
-        "code": "天保基建",
-        "date": "2026-07-13",
-        "category": "商业研究",
-        "title": "天保基建",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-13T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%A4%A9%E4%BF%9D%E5%9F%BA%E5%BB%BA/%E5%A4%A9%E4%BF%9D%E5%9F%BA%E5%BB%BA_V1_final.html",
-        "_from_ledger": true
-      }
-    ],
-    "山西联动云": [
-      {
-        "code": "山西联动云",
-        "date": "2026-08-19",
-        "category": "商业研究",
-        "title": "山西联动云 · 投资可行性研究报告（储备·非上市）",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-08-19T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/",
-        "_from_ledger": true
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md"
       }
     ],
     "kexin": [
@@ -833,6 +730,19 @@
         "mtime": "2026-07-30T08:20:42+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E4%B9%98%E6%9D%9C%E7%A7%91%E6%8A%80/%E4%B9%98%E6%9D%9C%E7%A7%91%E6%8A%80_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F%E6%8A%A5%E5%91%8A_V26.html",
+        "_archived": true
+      },
+      {
+        "code": "凯茜",
+        "date": "2026-08-19",
+        "category": "行业研究",
+        "title": "北京凯茜航空技术有限公司 × 天保低空产业 · 控股合资可行性综合研究报告（2026-08-19）",
+        "file": "凯茜航空_天保低空合资项目_综合研究报告_20260819.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/凯茜/output/凯茜航空_天保低空合资项目_综合研究报告_20260819.html",
+        "size": 84839,
+        "mtime": "2026-08-19T14:10:58+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/凯茜/output/凯茜航空_天保低空合资项目_综合研究报告_20260819.html",
         "_archived": true
       },
       {
@@ -884,115 +794,6 @@
         "mtime": "2026-08-04T14:09:25+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E9%B8%BF%E7%BF%BC/%E9%B8%BF%E7%BF%BC_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6_V1_20260804.html"
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v1",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v1.md",
-        "size": 23363,
-        "mtime": "2026-06-29T10:16:00+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v1.md"
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v2（细化版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v2.md",
-        "size": 36416,
-        "mtime": "2026-06-29T10:25:10+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v2.md"
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v3（最严格证据版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v3.md",
-        "size": 44004,
-        "mtime": "2026-06-29T10:40:23+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v3.md"
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v4（最终溯源版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v4.md",
-        "size": 70557,
-        "mtime": "2026-06-29T10:47:48+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v4.md"
-      },
-      {
-        "code": "htco-us",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "HTCO IRE 100万股日成交量交付方案 v5（精简结论版）",
-        "file": "HTCO_IRE_100万股日成交量交付方案_v5.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md",
-        "size": 7232,
-        "mtime": "2026-06-29T14:25:01+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/HTCO_IRE_100万股日成交量交付方案_v5.md"
-      },
-      {
-        "code": "acquisition-listed",
-        "date": "2026-07-03",
-        "category": "未分类",
-        "title": "三维通信投资并购价值分析报告",
-        "file": "三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/三维通信_投资并购价值分析_v38_p0b_v4_20260703.md",
-        "size": 25099,
-        "mtime": "2026-07-03T09:48:08+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html"
-      },
-      {
-        "code": "acquisition-listed",
-        "date": "2026-06-07",
-        "category": "未分类",
-        "title": "私募 EB + 现金收购 + 资产注入\"三步走\"监管合规地图",
-        "file": "私募EB与国企资产注入监管合规地图_20260603.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/regulatory/私募EB与国企资产注入监管合规地图_20260603.md",
-        "size": 24319,
-        "mtime": "2026-06-07T12:30:29+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html"
-      },
-      {
-        "code": "acquisition-listed",
-        "date": "2026-04-28",
-        "category": "未分类",
-        "title": "飞马国际(002210)研究报告",
-        "file": "飞马国际002210研究报告_20260428.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/飞马国际002210研究报告_20260428.md",
-        "size": 7515,
-        "mtime": "2026-04-28T18:00:17+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/7projects-summary/dashboard.html"
-      },
-      {
-        "code": "天保基建",
-        "date": "2026-07-13",
-        "category": "商业研究",
-        "title": "天保基建",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-13T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%A4%A9%E4%BF%9D%E5%9F%BA%E5%BB%BA/%E5%A4%A9%E4%BF%9D%E5%9F%BA%E5%BB%BA_V1_final.html",
-        "_from_ledger": true
       }
     ],
     "半导体": [
@@ -1117,19 +918,6 @@
         "mtime": "2026-07-19T19:34:37+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/huayt/%E5%8D%8E%E9%98%B3%E9%9B%86%E5%9B%A2_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A_v2_20260719.html"
-      },
-      {
-        "code": "zhongfu",
-        "date": "2026-07-29",
-        "category": "商业研究",
-        "title": "中复神鹰碳纤维芯电缆项目",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-29T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/zhongfu-report/report_main.html",
-        "_from_ledger": true
       }
     ],
     "AI智能": [
@@ -1173,20 +961,6 @@
         "_archived": true
       },
       {
-        "code": "天保人力_数据空间业务_深度专项",
-        "date": "2026-08-17",
-        "category": "商业研究",
-        "title": "天保人力_数据空间业务_深度专项",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-08-17T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%A4%A9%E4%BF%9D%E4%BA%BA%E5%8A%9B_%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E4%B8%9A%E5%8A%A1_%E6%B7%B1%E5%BA%A6%E4%B8%93%E9%A1%B9/%E5%A4%A9%E4%BF%9D%E4%BA%BA%E5%8A%9B_%E5%8F%AF%E4%BF%A1%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E4%B8%9A%E5%8A%A1_%E7%BB%BC%E5%90%88%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260817.html",
-        "_from_ledger": true,
-        "_archived": true
-      },
-      {
         "code": "kexin",
         "date": "2026-08-17",
         "category": "商业研究",
@@ -1216,7 +990,7 @@
     ],
     "新能源": [
       {
-        "code": "大同新荣合邦新能源",
+        "code": "合邦新能源",
         "date": "2026-08-15",
         "category": "商业研究",
         "title": "合邦新能源 · 投资可行性研究报告 · V25.1.44",
@@ -1225,7 +999,8 @@
         "size": 91361,
         "mtime": "2026-08-15T19:17:13+08:00",
         "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%A4%A7%E5%90%8C%E6%96%B0%E8%8D%A3%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260815.html"
+        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260815.html",
+        "_archived": true
       },
       {
         "code": "hongyuan",
@@ -1250,163 +1025,6 @@
         "mtime": "2026-07-23T18:20:58+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/hongyuan/%E5%AE%8F%E8%BF%9C%E5%88%9B%E4%BF%A1_%E4%B8%BB%E6%8A%A5%E5%91%8A_V6_20260723_prechart.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-06-11",
-        "category": "财务分析",
-        "title": "电动两轮车锂电池上市公司财务数据汇编（2021-2024）",
-        "file": "上市公司两轮车锂电财务数据_2021-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/上市公司两轮车锂电财务数据_2021-2024_20260611.md",
-        "size": 12857,
-        "mtime": "2026-06-11T18:29:41+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-06-11",
-        "category": "财务分析",
-        "title": "博力威 + 宁德时代 电动两轮车锂电池 2022-2024 财务数据",
-        "file": "博力威+CATL两轮车锂电_2022-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/博力威+CATL两轮车锂电_2022-2024_20260611.md",
-        "size": 10472,
-        "mtime": "2026-06-11T18:32:34+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-06-11",
-        "category": "商业研究",
-        "title": "天能 / 超威 / 宁德时代 两轮车锂电池业务 2022-2024 财报与战略分析",
-        "file": "天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/天能_超威_宁德时代_两轮车锂电业务_2022-2024_20260611.md",
-        "size": 12650,
-        "mtime": "2026-06-11T18:08:25+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-06-11",
-        "category": "行业研究",
-        "title": "电动两轮车锂电池市场份额数据汇编（GGII / SPIR / 弗若斯特沙利文 / EVTank）",
-        "file": "电动两轮车锂电池市场份额_2022-2024_20260611.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/market/电动两轮车锂电池市场份额_2022-2024_20260611.md",
-        "size": 9710,
-        "mtime": "2026-06-11T18:05:34+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-06-02",
-        "category": "行业研究",
-        "title": "锂离子电池行业规范条件（2024年本）要点速览",
-        "file": "工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/policy/工信部_锂离子电池行业规范条件2024年本_要点速览_20260602.md",
-        "size": 6946,
-        "mtime": "2026-06-02T17:48:15+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-05-25",
-        "category": "法律分析",
-        "title": "星恒电源13.73%股权收购：诉讼解决逻辑分析",
-        "file": "星恒_13.73收购_诉讼解决逻辑分析_20260525.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_13.73收购_诉讼解决逻辑分析_20260525.md",
-        "size": 10174,
-        "mtime": "2026-05-25T13:43:04+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-05-25",
-        "category": "未分类",
-        "title": "启源纳川22.33亿元执行债务分项拆分报告",
-        "file": "星恒_启源纳川22.33亿元分项拆分_20260525.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_启源纳川22.33亿元分项拆分_20260525.md",
-        "size": 10868,
-        "mtime": "2026-05-25T13:34:14+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-05-23",
-        "category": "财务分析",
-        "title": "星恒电源 完整综合财务分析报告",
-        "file": "星恒电源_完整综合财务分析_20260523.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/financial/星恒电源_完整综合财务分析_20260523.md",
-        "size": 15089,
-        "mtime": "2026-05-23T15:41:39+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-05-23",
-        "category": "商业研究",
-        "title": "星恒电源 技术路线深度分析报告",
-        "file": "星恒电源_技术路线深度分析_20260523.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/financial/星恒电源_技术路线深度分析_20260523.md",
-        "size": 16085,
-        "mtime": "2026-05-23T15:59:33+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-05-23",
-        "category": "行业研究",
-        "title": "星恒电源 行业vs企业成因深度分析报告",
-        "file": "星恒电源_行业vs企业成因分析_20260523.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/financial/星恒电源_行业vs企业成因分析_20260523.md",
-        "size": 15012,
-        "mtime": "2026-05-23T15:55:40+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-05-18",
-        "category": "法律分析",
-        "title": "星恒电源司法拍卖风险深度研究报告",
-        "file": "星恒_司法拍卖风险深度研究_20260518.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_司法拍卖风险深度研究_20260518.md",
-        "size": 20990,
-        "mtime": "2026-05-18T17:56:25+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xingheng",
-        "date": "2026-05-18",
-        "category": "法律分析",
-        "title": "星恒电源收购项目 — 股权清晰性深度核实报告",
-        "file": "星恒_股权清晰性深度核实_20260518.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/星恒_股权清晰性深度核实_20260518.md",
-        "size": 12991,
-        "mtime": "2026-05-18T17:50:06+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xingheng-report/dashboard.html"
-      },
-      {
-        "code": "xunchao",
-        "date": "2026-07-29",
-        "category": "商业研究",
-        "title": "迅巢换电（XCHS Energon）",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-29T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xunchao-report/report_main.html",
-        "_from_ledger": true
       }
     ],
     "生物医药": [
@@ -1433,96 +1051,6 @@
         "mtime": "2026-07-29T07:51:40+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E9%80%9F%E8%BF%88%E5%8C%BB%E7%96%97/%E9%80%9F%E8%BF%88%E5%8C%BB%E7%96%97_%E5%86%B3%E7%AD%96%E6%A8%A1%E5%BC%8F_V25.1.5z_20260729.html"
-      },
-      {
-        "code": "xinhong",
-        "date": "2026-07-29",
-        "category": "商业研究",
-        "title": "天津信鸿医疗科技股份有限公司",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-29T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/xinhong-report/report_main.html",
-        "_from_ledger": true
-      }
-    ],
-    "REITS类资产": [
-      {
-        "code": "huitian",
-        "date": "2026-07-09",
-        "category": "未分类",
-        "title": "汇天网络科技有限公司可行性分析报告",
-        "file": "汇天网络可行性分析_v1.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/汇天网络/汇天网络可行性分析_v1.md",
-        "size": 42394,
-        "mtime": "2026-07-09T16:16:48+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
-      },
-      {
-        "code": "huitian",
-        "date": "2026-07-13",
-        "category": "行业研究",
-        "title": "NVIDIA 数据中心 GPU 历史价格曲线 + 中国租赁市场尽调报告",
-        "file": "NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/NVIDIA_GPU_价格曲线_中国租赁市场_20260713.md",
-        "size": 33842,
-        "mtime": "2026-07-13T20:54:36+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
-      },
-      {
-        "code": "huitian",
-        "date": "2026-06-29",
-        "category": "行业研究",
-        "title": "中国IDC行业核心数据汇编（2024-2026）",
-        "file": "IDC行业数据汇编_2024-2026_20260629.md",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/reports/IDC行业数据汇编_2024-2026_20260629.md",
-        "size": 10563,
-        "mtime": "2026-06-29T07:33:08+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/huitian-network-report/dashboard.html"
-      },
-      {
-        "code": "联通云项目-山西",
-        "date": "2026-08-19",
-        "category": "商业研究",
-        "title": "山西联通云投资可行性研究报告 · 2026-08-19",
-        "file": "山西联通云_投资可行性研究报告_20260819.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云山西/output/山西联通云_投资可行性研究报告_20260819.html",
-        "size": 141414,
-        "mtime": "2026-08-19T08:56:48+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E8%81%94%E9%80%9A%E4%BA%91%E9%A1%B9%E7%9B%AE-%E5%B1%B1%E8%A5%BF/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A%E4%BA%91_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260819.html"
-      },
-      {
-        "code": "unicom-idc",
-        "date": "2026-07-29",
-        "category": "商业研究",
-        "title": "四川数据中心 IDC 项目",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-07-29T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/unicom-idc-report/report_main.html",
-        "_from_ledger": true,
-        "_archived": true
-      },
-      {
-        "code": "山西联动云",
-        "date": "2026-08-19",
-        "category": "商业研究",
-        "title": "山西联动云 · 投资可行性研究报告（储备·非上市）",
-        "file": "",
-        "path": "",
-        "size": 0,
-        "mtime": "2026-08-19T00:00:00+08:00",
-        "summary": "",
-        "url": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/",
-        "_from_ledger": true
       }
     ],
     "低空航空": [
@@ -1574,12 +1102,27 @@
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E9%9D%92%E5%B2%9B%E7%9B%B4%E5%8D%87%E6%9C%BA%E6%94%B6%E8%B4%AD/%E9%9D%92%E5%B2%9B%E7%9B%B4%E5%8D%87%E6%9C%BA%E6%94%B6%E8%B4%AD_%E6%B1%87%E6%80%BB%E6%8A%A5%E5%91%8A_V1_20260729.html"
       }
+    ],
+    "REITS类资产": [
+      {
+        "code": "联通云山西",
+        "date": "2026-08-19",
+        "category": "商业研究",
+        "title": "山西联通云投资可行性研究报告 · 2026-08-19",
+        "file": "山西联通云_投资可行性研究报告_20260819.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/联通云山西/output/山西联通云_投资可行性研究报告_20260819.html",
+        "size": 141414,
+        "mtime": "2026-08-19T08:56:48+08:00",
+        "summary": "",
+        "url": "https://jinzhanxiang.github.io/shanxi-liandong-cloud/index.html",
+        "_archived": true
+      }
     ]
   },
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-19T17:50:18.052545",
+  "_last_cleanup": "2026-08-19T17:50:57.634460",
   "_cleanup_stats": {
     "dup_title_date": 2,
     "superseded": 5,
