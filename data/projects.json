@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:56:58+08:00",
+  "generated_at": "2026-08-19T18:03:26+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 24,
   "stage_v3_enum": [
@@ -30,7 +30,7 @@
       "archived_reason": "",
       "category": "重大并购",
       "stage": "初步分析",
-      "stage_v3": "在推重点",
+      "stage_v3": "观察",
       "iss": "未上市",
       "industry": "半导体",
       "industry_detail": "硬科技·新材料",
@@ -48,7 +48,7 @@
       "downgrade_reason": "—",
       "deploy_date": "2026-05",
       "last_update": "2026-07-22",
-      "notes": "3 份报告 + 2个过程 md；dashboard.html 已部署；Documents 旧文件夹待清理 | 2026-07-21 由投资部决定移到在推重点 | 自动同步 2026-08-17",
+      "notes": "2026-08-19 | 自动同步 2026-08-19",
       "pending_tasks": "待 v11h 切共享 CSS",
       "archived": false
     },
@@ -88,7 +88,7 @@
       "archived_reason": "",
       "category": "重大并购",
       "stage": "初步分析",
-      "stage_v3": "在推重点",
+      "stage_v3": "观察",
       "iss": "未上市",
       "industry": "新能源",
       "industry_detail": "硬科技·新材料",
@@ -106,7 +106,7 @@
       "downgrade_reason": "—",
       "deploy_date": "2026",
       "last_update": "2026-07-23",
-      "notes": "单报告项目，源在桌面（11M / 4文件：3 PDF + 1 docx） | 2026-07-21 由投资部决定移到在推重点（电力交易） | 自动同步 2026-08-17",
+      "notes": "2026-08-19 | 自动同步 2026-08-19",
       "pending_tasks": "单文件项目，待投资部部署指示",
       "archived": false
     },
@@ -117,7 +117,7 @@
       "archived_reason": "",
       "category": "储备·非上市",
       "stage": "已立项",
-      "stage_v3": "储备",
+      "stage_v3": "观察",
       "iss": "未上市",
       "industry": "半导体",
       "industry_detail": "硬科技·芯片",
@@ -135,7 +135,7 @@
       "downgrade_reason": "—",
       "deploy_date": "2026",
       "last_update": "2026-07-27",
-      "notes": "尽调报告 + 谈判简报 = 2份报告；dashboard.html 已部署；子目录:尽调分析/尽调报告/谈判准备/部署脚本 | 自动同步 2026-08-17",
+      "notes": "2026-08-19 | 自动同步 2026-08-19",
       "pending_tasks": "待 v11h 切共享 CSS",
       "archived": false
     },
@@ -146,7 +146,7 @@
       "archived_reason": "",
       "category": "储备·上市",
       "stage": "已立项",
-      "stage_v3": "储备",
+      "stage_v3": "观察",
       "iss": "上市",
       "industry": "高端制造",
       "industry_detail": "硬科技·新材料",
@@ -164,7 +164,7 @@
       "downgrade_reason": "—",
       "deploy_date": "2026-07-21",
       "last_update": "2026-07-19",
-      "notes": "2026-07-21 由投资部新增：上市公司（储备·上市公司），reports.json 中已有 1 份《华阳集团_投资可行性分析报告_v2_20260719》 | 自动同步 2026-08-17",
+      "notes": "2026-08-19 | 自动同步 2026-08-19",
       "pending_tasks": "部署独立仓库 + 整理本地原始材料",
       "archived": false
     },
@@ -193,7 +193,7 @@
       "downgrade_reason": "—",
       "deploy_date": "2026-07-30",
       "last_update": "2026-07-30",
-      "notes": "V25.1.14 P2 A1+A3 强化 · Type C 决策模式 · 主体识别（688066.SH/PIESAT/航天宏图信息技术股份有限公司）三标签齐全 · 7 chart-figure + 7 解读卡 · framework 跨 Type A/B/C 普适性首次实证（与乘杜 V26 对称验证） | 自动同步 2026-08-17",
+      "notes": "2026-08-19 | 自动同步 2026-08-19",
       "pending_tasks": "V25.1.15 Type B 修复后重跑验证 + chart-figure 充实（建议补 1-2 张）",
       "archived": false
     },
@@ -809,8 +809,6 @@
   "stage_matrix": {
     "在推重点": {
       "未上市": [
-        "jngd",
-        "hongyuan",
         "kexin"
       ],
       "上市": [
@@ -821,7 +819,6 @@
     "储备": {
       "未上市": [
         "kedu",
-        "innoshine",
         "hangtianjings",
         "华东数控-资本运作平台",
         "奥联电子",
@@ -829,14 +826,17 @@
         "青岛直升机收购",
         "鸿翼"
       ],
-      "上市": [
-        "huayt"
-      ],
+      "上市": [],
       "REITs": []
     },
     "观察": {
-      "未上市": [],
+      "未上市": [
+        "jngd",
+        "hongyuan",
+        "innoshine"
+      ],
       "上市": [
+        "huayt",
         "hangtianhongtu"
       ],
       "REITs": []
