@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T06:55:40+08:00",
+  "generated_at": "2026-08-20T07:05:33+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 18,
   "by_industry": {
     "高端制造": [
       {
@@ -56,86 +56,6 @@
         "fetched_at": "2026-08-20",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图:发布公司中标公告_ 东方财富网",
-        "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-        "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-        "source": "finance.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "独家 | 航天宏图签约9.9亿元卫星项目__财经头条__新浪财经",
-        "summary": "泰伯网泰伯网讯,8月29日,航天宏图发布公告称,公司与客户A签署了卫星及地面系统采购合同,合同订单金额约为9.9亿元人民币(不含税).因本合同属于...",
-        "url": "https://cj.sina.com.cn/articles/view/1877503207/6fe86ce700101f50u",
-        "source": "cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图:拟联合中标3.23亿元项目",
-        "summary": "航天宏图公告,公司与中国安能集团第二工程局有限公司组成的联合体拟中标山东省水利厅小型水库雨水工情自动测报和水库安全运行及防洪调度项目(包3),预...",
-        "url": "https://www.yicai.com/brief/101393874.html",
-        "source": "www.yicai.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图又签约29亿元卫星项目!|遥感|星座|巴基斯坦|东风商业航天_网易订阅",
-        "summary": "航天宏图又签约29亿元卫星项目!,遥感,星座,航天宏图,巴基斯坦,卫星项目,东风商业航天 据鹤壁新闻网消息,9月4日,航天宏图在北京举行的第二届中国-巴基...",
-        "url": "https://www.163.com/dy/article/K972NVMP05319UN7.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -301,6 +221,34 @@
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
       }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -316,58 +264,6 @@
       "fetched_at": "2026-08-20",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图:发布公司中标公告_ 东方财富网",
-      "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-      "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-      "source": "finance.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "独家 | 航天宏图签约9.9亿元卫星项目__财经头条__新浪财经",
-      "summary": "泰伯网泰伯网讯,8月29日,航天宏图发布公告称,公司与客户A签署了卫星及地面系统采购合同,合同订单金额约为9.9亿元人民币(不含税).因本合同属于...",
-      "url": "https://cj.sina.com.cn/articles/view/1877503207/6fe86ce700101f50u",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图:拟联合中标3.23亿元项目",
-      "summary": "航天宏图公告,公司与中国安能集团第二工程局有限公司组成的联合体拟中标山东省水利厅小型水库雨水工情自动测报和水库安全运行及防洪调度项目(包3),预...",
-      "url": "https://www.yicai.com/brief/101393874.html",
-      "source": "www.yicai.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图又签约29亿元卫星项目!|遥感|星座|巴基斯坦|东风商业航天_网易订阅",
-      "summary": "航天宏图又签约29亿元卫星项目!,遥感,星座,航天宏图,巴基斯坦,卫星项目,东风商业航天 据鹤壁新闻网消息,9月4日,航天宏图在北京举行的第二届中国-巴基...",
-      "url": "https://www.163.com/dy/article/K972NVMP05319UN7.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
     },
     {
       "code": "凯茜",
