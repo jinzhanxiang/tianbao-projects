@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T11:40:46+08:00",
+  "generated_at": "2026-08-19T11:53:22+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 14,
   "by_industry": {
     "高端制造": [
       {
@@ -58,60 +58,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "【锋行链盟】2026年1月中国及31省市半导体产业政策汇编及解读",
-        "summary": "2026年3月12日 · 本汇编系统梳理了2026年1月中央及地方发布的芯片半导体相关政策文件，提炼核心内容、聚焦领域与关键指标，力 …",
-        "url": "https://t.cj.sina.com.cn/articles/view/7730756972/1ccc9fd6c001017grk",
-        "source": "t.cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年中国半导体行业展望：预计2026年精准有效的产业 ...",
-        "summary": "行业基本面分析 中诚信国际预计，2026年精准有效的产业支持政策将为半导体行业发展提供支撑，国产替代进程持续加 速，行业整体 …",
-        "url": "https://www.sohu.com/a/989094810_121123901",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "政策红利密集释放，2026 半导体产业迎来全方位扶持周期",
-        "summary": "2026年6月30日 · 2026 作为 “十五五” 开局之年，国家多部委联合出台集成电路配套新政，北京、上海、深圳、广州、杭州、佛山等全 …",
-        "url": "https://www.sohu.com/a/1043571941_122491828",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年中国集成电路行业最新政策汇总一览（图）",
-        "summary": "2026年6月18日 · 2026年中国集成电路行业最新政策汇总一览（图）,电容,半导体,晶体管,元器件,二极管,纤维芯片 中商情报网讯：集成 …",
-        "url": "https://www.163.com/dy/article/KVMO4K8405198SOQ.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -127,64 +73,10 @@
         "query": "可信数据空间 新闻 2026"
       }
     ],
-    "REITS类资产": [
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
-        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
-        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "REITs专栏 | 上海证券交易所",
-        "summary": "2021年7月23日 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过 …",
-        "url": "https://www.sse.com.cn/reits/home/",
-        "source": "www.sse.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "unicom-idc",
-        "company": "四川 IDC",
-        "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
     "生物医药": [
       {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
+        "code": "kedu",
+        "company": "柯渡医学",
         "industry": "生物医药",
         "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
         "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
@@ -196,8 +88,8 @@
         "query": "生物医药 行业 政策 2026"
       },
       {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
+        "code": "kedu",
+        "company": "柯渡医学",
         "industry": "生物医药",
         "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
         "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
@@ -209,8 +101,8 @@
         "query": "生物医药 行业 政策 2026"
       },
       {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
+        "code": "kedu",
+        "company": "柯渡医学",
         "industry": "生物医药",
         "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
         "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
@@ -220,34 +112,6 @@
         "fetched_at": "2026-08-19",
         "score": 2.0,
         "query": "生物医药 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 懂球帝： #新赛季亚冠精英联赛抽签# 北京时间8月18日16:00，亚冠精英联赛 央视体育： 【来总台看#CMG群众篮 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "xingheng",
-        "company": "星恒电源",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -292,6 +156,47 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
+    ],
+    "新能源": [
+      {
+        "code": "大同新荣合邦新能源",
+        "company": "大同新荣合邦新能源",
+        "industry": "新能源",
+        "title": "微信，是一个生活方式",
+        "summary": "微信支付 公众号 小程序 视频号助手 小游戏 微信小店 表情开放平台 搜一搜开放平台 红包封面开放平台 对话开放平台 开放社区 服务市 …",
+        "url": "https://weixin.qq.com/",
+        "source": "weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "大同新荣合邦新能源",
+        "company": "大同新荣合邦新能源",
+        "industry": "新能源",
+        "title": "微信，是一个生活方式",
+        "summary": "微信支付 公众号 小程序 视频号助手 小游戏 微信小店 表情开放平台 搜一搜开放平台 红包封面开放平台 对话开放平台 开放社区 服务市 …",
+        "url": "https://weixin.qq.com/?rere=fa",
+        "source": "weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "大同新荣合邦新能源",
+        "company": "大同新荣合邦新能源",
+        "industry": "新能源",
+        "title": "微信 Windows 版",
+        "summary": "适用于 Windows7 及以上版本 下载 3.9.12 版本(32位) 该版本不再更新，建议使用64位系统电脑下载最新版本。 微信 Windows 版 图片 …",
+        "url": "https://pc.weixin.qq.com/?lang=en_US",
+        "source": "pc.weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -307,58 +212,6 @@
       "fetched_at": "2026-08-19",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "【锋行链盟】2026年1月中国及31省市半导体产业政策汇编及解读",
-      "summary": "2026年3月12日 · 本汇编系统梳理了2026年1月中央及地方发布的芯片半导体相关政策文件，提炼核心内容、聚焦领域与关键指标，力 …",
-      "url": "https://t.cj.sina.com.cn/articles/view/7730756972/1ccc9fd6c001017grk",
-      "source": "t.cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年中国半导体行业展望：预计2026年精准有效的产业 ...",
-      "summary": "行业基本面分析 中诚信国际预计，2026年精准有效的产业支持政策将为半导体行业发展提供支撑，国产替代进程持续加 速，行业整体 …",
-      "url": "https://www.sohu.com/a/989094810_121123901",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "政策红利密集释放，2026 半导体产业迎来全方位扶持周期",
-      "summary": "2026年6月30日 · 2026 作为 “十五五” 开局之年，国家多部委联合出台集成电路配套新政，北京、上海、深圳、广州、杭州、佛山等全 …",
-      "url": "https://www.sohu.com/a/1043571941_122491828",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年中国集成电路行业最新政策汇总一览（图）",
-      "summary": "2026年6月18日 · 2026年中国集成电路行业最新政策汇总一览（图）,电容,半导体,晶体管,元器件,二极管,纤维芯片 中商情报网讯：集成 …",
-      "url": "https://www.163.com/dy/article/KVMO4K8405198SOQ.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.5,
-      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -413,21 +266,8 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
-      "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
-      "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
+      "code": "kedu",
+      "company": "柯渡医学",
       "industry": "生物医药",
       "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
       "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
@@ -439,8 +279,8 @@
       "query": "生物医药 行业 政策 2026"
     },
     {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
+      "code": "kedu",
+      "company": "柯渡医学",
       "industry": "生物医药",
       "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
       "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
@@ -452,8 +292,8 @@
       "query": "生物医药 行业 政策 2026"
     },
     {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
+      "code": "kedu",
+      "company": "柯渡医学",
       "industry": "生物医药",
       "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
       "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
@@ -463,71 +303,6 @@
       "fetched_at": "2026-08-19",
       "score": 2.0,
       "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 懂球帝： #新赛季亚冠精英联赛抽签# 北京时间8月18日16:00，亚冠精英联赛 央视体育： 【来总台看#CMG群众篮 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "xingheng",
-      "company": "星恒电源",
-      "industry": "新能源",
-      "title": "网易新闻",
-      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-      "url": "https://news.163.com/",
-      "source": "news.163.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "REITs专栏 | 上海证券交易所",
-      "summary": "2021年7月23日 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过 …",
-      "url": "https://www.sse.com.cn/reits/home/",
-      "source": "www.sse.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "unicom-idc",
-      "company": "四川 IDC",
-      "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "acquisition-listed",
@@ -567,6 +342,45 @@
       "fetched_at": "2026-08-19",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "大同新荣合邦新能源",
+      "company": "大同新荣合邦新能源",
+      "industry": "新能源",
+      "title": "微信，是一个生活方式",
+      "summary": "微信支付 公众号 小程序 视频号助手 小游戏 微信小店 表情开放平台 搜一搜开放平台 红包封面开放平台 对话开放平台 开放社区 服务市 …",
+      "url": "https://weixin.qq.com/",
+      "source": "weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "大同新荣合邦新能源",
+      "company": "大同新荣合邦新能源",
+      "industry": "新能源",
+      "title": "微信，是一个生活方式",
+      "summary": "微信支付 公众号 小程序 视频号助手 小游戏 微信小店 表情开放平台 搜一搜开放平台 红包封面开放平台 对话开放平台 开放社区 服务市 …",
+      "url": "https://weixin.qq.com/?rere=fa",
+      "source": "weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "大同新荣合邦新能源",
+      "company": "大同新荣合邦新能源",
+      "industry": "新能源",
+      "title": "微信 Windows 版",
+      "summary": "适用于 Windows7 及以上版本 下载 3.9.12 版本(32位) 该版本不再更新，建议使用64位系统电脑下载最新版本。 微信 Windows 版 图片 …",
+      "url": "https://pc.weixin.qq.com/?lang=en_US",
+      "source": "pc.weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     }
   ]
 }
