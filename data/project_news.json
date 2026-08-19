@@ -1,115 +1,9 @@
 {
-  "generated_at": "2026-08-19T13:17:25+08:00",
+  "generated_at": "2026-08-19T13:30:42+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 18,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-        "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-        "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 6.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-        "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
-        "url": "https://www.elecfans.com/d/8045816.html",
-        "source": "www.elecfans.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
-        "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
-        "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
-        "source": "news.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
-        "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
-        "url": "http://www.yejibang.com/news-details-786.html",
-        "source": "www.yejibang.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.0,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "【锋行链盟】2026年1月中国及31省市半导体产业政策汇编及解读",
-        "summary": "2026年3月12日 · 本汇编系统梳理了2026年1月中央及地方发布的芯片半导体相关政策文件，提炼核心内容、聚焦领域与关键指标，力 …",
-        "url": "https://t.cj.sina.com.cn/articles/view/7730756972/1ccc9fd6c001017grk",
-        "source": "t.cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "2026年中国半导体行业展望：预计2026年精准有效的产业 ...",
-        "summary": "行业基本面分析 中诚信国际预计，2026年精准有效的产业支持政策将为半导体行业发展提供支撑，国产替代进程持续加 速，行业整体 …",
-        "url": "https://www.sohu.com/a/989094810_121123901",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "政策红利密集释放，2026 半导体产业迎来全方位扶持周期",
-        "summary": "2026年6月30日 · 2026 作为 “十五五” 开局之年，国家多部委联合出台集成电路配套新政，北京、上海、深圳、广州、杭州、佛山等全 …",
-        "url": "https://www.sohu.com/a/1043571941_122491828",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "2026年中国集成电路行业最新政策汇总一览（图）",
-        "summary": "2026年6月18日 · 2026年中国集成电路行业最新政策汇总一览（图）,电容,半导体,晶体管,元器件,二极管,纤维芯片 中商情报网讯：集成 …",
-        "url": "https://www.163.com/dy/article/KVMO4K8405198SOQ.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -162,6 +56,60 @@
         "fetched_at": "2026-08-19",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "【锋行链盟】2026年1月中国及31省市半导体产业政策汇编及解读",
+        "summary": "2026年3月12日 · 本汇编系统梳理了2026年1月中央及地方发布的芯片半导体相关政策文件，提炼核心内容、聚焦领域与关键指标，力 …",
+        "url": "https://t.cj.sina.com.cn/articles/view/7730756972/1ccc9fd6c001017grk",
+        "source": "t.cj.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年中国半导体行业展望：预计2026年精准有效的产业 ...",
+        "summary": "行业基本面分析 中诚信国际预计，2026年精准有效的产业支持政策将为半导体行业发展提供支撑，国产替代进程持续加 速，行业整体 …",
+        "url": "https://www.sohu.com/a/989094810_121123901",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "政策红利密集释放，2026 半导体产业迎来全方位扶持周期",
+        "summary": "2026年6月30日 · 2026 作为 “十五五” 开局之年，国家多部委联合出台集成电路配套新政，北京、上海、深圳、广州、杭州、佛山等全 …",
+        "url": "https://www.sohu.com/a/1043571941_122491828",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年中国集成电路行业最新政策汇总一览（图）",
+        "summary": "2026年6月18日 · 2026年中国集成电路行业最新政策汇总一览（图）,电容,半导体,晶体管,元器件,二极管,纤维芯片 中商情报网讯：集成 …",
+        "url": "https://www.163.com/dy/article/KVMO4K8405198SOQ.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -307,45 +255,6 @@
   },
   "items": [
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-      "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-      "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 6.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-      "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
-      "url": "https://www.elecfans.com/d/8045816.html",
-      "source": "www.elecfans.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
-      "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
-      "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
-      "source": "news.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -362,19 +271,6 @@
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
-      "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
-      "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
-      "url": "http://www.yejibang.com/news-details-786.html",
-      "source": "www.yejibang.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 4.0,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
       "title": "【锋行链盟】2026年1月中国及31省市半导体产业政策汇编及解读",
       "summary": "2026年3月12日 · 本汇编系统梳理了2026年1月中央及地方发布的芯片半导体相关政策文件，提炼核心内容、聚焦领域与关键指标，力 …",
       "url": "https://t.cj.sina.com.cn/articles/view/7730756972/1ccc9fd6c001017grk",
@@ -385,8 +281,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "2026年中国半导体行业展望：预计2026年精准有效的产业 ...",
       "summary": "行业基本面分析 中诚信国际预计，2026年精准有效的产业支持政策将为半导体行业发展提供支撑，国产替代进程持续加 速，行业整体 …",
@@ -398,8 +294,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "政策红利密集释放，2026 半导体产业迎来全方位扶持周期",
       "summary": "2026年6月30日 · 2026 作为 “十五五” 开局之年，国家多部委联合出台集成电路配套新政，北京、上海、深圳、广州、杭州、佛山等全 …",
@@ -411,8 +307,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "2026年中国集成电路行业最新政策汇总一览（图）",
       "summary": "2026年6月18日 · 2026年中国集成电路行业最新政策汇总一览（图）,电容,半导体,晶体管,元器件,二极管,纤维芯片 中商情报网讯：集成 …",
