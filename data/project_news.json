@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-08-19T21:55:54+08:00",
+  "generated_at": "2026-08-19T22:09:39+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 19,
   "by_industry": {
     "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
+        "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
+        "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
+        "source": "cj.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -35,26 +48,13 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳集团人力资源招聘系统",
-        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-        "url": "https://zhaopin.ymjt.com.cn/index.html",
-        "source": "zhaopin.ymjt.com.cn",
+        "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
+        "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
+        "url": "https://finance.eastmoney.com/a/202604153706194839.html",
+        "source": "finance.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 3.0,
+        "score": 4.5,
         "query": "华阳 新闻 2026"
       }
     ],
@@ -125,13 +125,28 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "新能源": [
       {
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "新能源",
         "title": "新浪财经_金融信息服务商",
-        "summary": "13 小时之前 · 业绩变动主要系产品销售结构变化，二季度主力车型处于产品迭代过渡期，产能及销售规模效应未充分释放，叠加新能 …",
+        "summary": "14 小时之前 · 业绩变动主要系产品销售结构变化，二季度主力车型处于产品迭代过渡期，产能及销售规模效应未充分释放，叠加新能 …",
         "url": "https://finance.sina.com.cn/",
         "source": "finance.sina.com.cn",
         "date": "",
@@ -164,21 +179,6 @@
         "fetched_at": "2026-08-19",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -235,47 +235,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -310,6 +269,19 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
+      "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
+      "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
+      "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
+      "source": "cj.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
       "title": "华阳新材料科技集团有限公司2026年校园招聘公告 - 山西省 ...",
       "summary": "2026年5月28日 · 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企业——阳煤集团整体更 …",
       "url": "https://www.shanxi.gov.cn/zfxxgk/tzgg/202605/t20260528_10135776.shtml",
@@ -333,6 +305,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
+      "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
+      "url": "https://finance.eastmoney.com/a/202604153706194839.html",
+      "source": "finance.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
       "code": "凯茜",
       "company": "凯茜",
       "industry": "其他行业",
@@ -344,32 +329,6 @@
       "fetched_at": "2026-08-19",
       "score": 4.5,
       "query": "凯茜 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团人力资源招聘系统",
-      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-      "url": "https://zhaopin.ymjt.com.cn/index.html",
-      "source": "zhaopin.ymjt.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -411,11 +370,24 @@
       "query": "凯茜 新闻 2026"
     },
     {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新浪财经_金融信息服务商",
-      "summary": "13 小时之前 · 业绩变动主要系产品销售结构变化，二季度主力车型处于产品迭代过渡期，产能及销售规模效应未充分释放，叠加新能 …",
+      "summary": "14 小时之前 · 业绩变动主要系产品销售结构变化，二季度主力车型处于产品迭代过渡期，产能及销售规模效应未充分释放，叠加新能 …",
       "url": "https://finance.sina.com.cn/",
       "source": "finance.sina.com.cn",
       "date": "",
@@ -437,19 +409,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
@@ -461,45 +420,6 @@
       "fetched_at": "2026-08-19",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
