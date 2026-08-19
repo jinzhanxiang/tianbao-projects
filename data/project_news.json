@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T14:52:06+08:00",
+  "generated_at": "2026-08-19T14:58:07+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 14,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,60 @@
         "fetched_at": "2026-08-19",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "REITS类资产": [
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
+        "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
+        "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
+        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
+        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
+        "source": "bj.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
+        "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
+        "url": "https://www.szmhzs.com/news/14.html",
+        "source": "www.szmhzs.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huitian",
+        "company": "汇天科技",
+        "industry": "REITS类资产",
+        "title": "公司无 深海科技 相关业务和产品!4连板人气牛股紧急发布异动公告|盘后公告集锦_腾讯新闻",
+        "summary": "2025年3月18日 - 亿纬锂能(300014.SZ)公告称,公司收到广东汇天航空航天科技有限公司(小鹏汇天)的供应商定点开发通知书,将为小鹏汇天提供下一代原理样机低压锂电池.【中...",
+        "url": "https://news.qq.com/rain/a/20250318A09ERH00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "\"汇天\" 公告 签约 中标 投资"
       }
     ],
     "半导体": [
@@ -153,6 +207,32 @@
         "fetched_at": "2026-08-19",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "炒股必看：为何卖股票要留100股底仓？老股民的3个实战心得",
+        "summary": "2025年8月23日 · 留100股底仓，看似“多此一举”，实则是用极低成本换取三大优势：持续跟踪的“信息权”、再次介入的“便利权”、情绪 …",
+        "url": "https://www.sohu.com/a/927060284_121409661",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "炒股留100股底仓？老股民都在玩这波“小心机”！",
+        "summary": "2026年1月4日 · 总的来说，留100股底仓不是“强迫症”，而是老股民总结的“灵活操作+心态管理”小技巧，适合那些想长期跟踪标的、又 …",
+        "url": "https://caifuhao.eastmoney.com/news/20260103192937235552050",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -212,6 +292,58 @@
       "fetched_at": "2026-08-19",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
+      "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
+      "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
+      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
+      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
+      "source": "bj.bidizhaobiao.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
+      "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
+      "url": "https://www.szmhzs.com/news/14.html",
+      "source": "www.szmhzs.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huitian",
+      "company": "汇天科技",
+      "industry": "REITS类资产",
+      "title": "公司无 深海科技 相关业务和产品!4连板人气牛股紧急发布异动公告|盘后公告集锦_腾讯新闻",
+      "summary": "2025年3月18日 - 亿纬锂能(300014.SZ)公告称,公司收到广东汇天航空航天科技有限公司(小鹏汇天)的供应商定点开发通知书,将为小鹏汇天提供下一代原理样机低压锂电池.【中...",
+      "url": "https://news.qq.com/rain/a/20250318A09ERH00?media_id&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.0,
+      "query": "\"汇天\" 公告 签约 中标 投资"
     },
     {
       "code": "jngd",
@@ -338,6 +470,32 @@
       "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
       "url": "https://news.163.com/",
       "source": "news.163.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "炒股必看：为何卖股票要留100股底仓？老股民的3个实战心得",
+      "summary": "2025年8月23日 · 留100股底仓，看似“多此一举”，实则是用极低成本换取三大优势：持续跟踪的“信息权”、再次介入的“便利权”、情绪 …",
+      "url": "https://www.sohu.com/a/927060284_121409661",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "炒股留100股底仓？老股民都在玩这波“小心机”！",
+      "summary": "2026年1月4日 · 总的来说，留100股底仓不是“强迫症”，而是老股民总结的“灵活操作+心态管理”小技巧，适合那些想长期跟踪标的、又 …",
+      "url": "https://caifuhao.eastmoney.com/news/20260103192937235552050",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 1.5,
