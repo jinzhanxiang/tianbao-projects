@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:19:32+08:00",
+  "generated_at": "2026-08-20T07:26:41+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 26,
   "total_active": 21,
@@ -163,21 +163,6 @@
         "mtime": "2026-08-15T19:17:13+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260815.html",
-        "_archived": true
-      }
-    ],
-    "国药器械": [
-      {
-        "code": "国药器械",
-        "date": "2026-08-19",
-        "category": "商业研究",
-        "title": "天保控股收购国药器械（中国科学器材有限公司）40%股权可行性研究综合报告_20260819_FINAL",
-        "file": "国药器械_收购可行性研究_综合报告_20260819_FINAL.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_收购可行性研究_综合报告_20260819_FINAL.html",
-        "size": 49396,
-        "mtime": "2026-08-20T07:19:22+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_收购可行性研究_综合报告_20260819_FINAL.html",
         "_archived": true
       }
     ],
@@ -1022,19 +1007,6 @@
     ],
     "生物医药": [
       {
-        "code": "国药器械",
-        "date": "2026-08-19",
-        "category": "商业研究",
-        "title": "天保控股收购国药器械（中国科学器材有限公司）40%股权可行性研究综合报告_20260819_FINAL",
-        "file": "国药器械_收购可行性研究_综合报告_20260819_FINAL.html",
-        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_收购可行性研究_综合报告_20260819_FINAL.html",
-        "size": 49396,
-        "mtime": "2026-08-20T07:19:22+08:00",
-        "summary": "",
-        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_收购可行性研究_综合报告_20260819_FINAL.html",
-        "_archived": true
-      },
-      {
         "code": "kedu",
         "date": "2026-07-30",
         "category": "商业研究",
@@ -1128,7 +1100,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-20T07:19:32.473819",
+  "_last_cleanup": "2026-08-20T07:26:41.153633",
   "_cleanup_stats": {
     "dup_title_date": 2,
     "superseded": 5,
