@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T06:08:27+08:00",
+  "generated_at": "2026-08-20T06:17:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -127,6 +127,32 @@
     ],
     "AI智能": [
       {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
+        "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
+        "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
+        "source": "www.iccsz.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 4.0,
+        "query": "天津电信 新闻 2026"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
+        "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
+        "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
+        "source": "www.cnr.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 4.0,
+        "query": "天津电信 新闻 2026"
+      },
+      {
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
@@ -138,6 +164,32 @@
         "fetched_at": "2026-08-20",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
+        "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
+        "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 3.0,
+        "query": "天津电信 新闻 2026"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
+        "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
+        "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 3.0,
+        "query": "天津电信 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -279,6 +331,32 @@
       "query": "凯茜 新闻 2026"
     },
     {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
+      "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
+      "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
+      "source": "www.iccsz.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 4.0,
+      "query": "天津电信 新闻 2026"
+    },
+    {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
+      "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
+      "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
+      "source": "www.cnr.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 4.0,
+      "query": "天津电信 新闻 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -329,6 +407,32 @@
       "fetched_at": "2026-08-20",
       "score": 3.0,
       "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
+      "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
+      "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 3.0,
+      "query": "天津电信 新闻 2026"
+    },
+    {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
+      "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
+      "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 3.0,
+      "query": "天津电信 新闻 2026"
     },
     {
       "code": "凯茜",
