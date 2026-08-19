@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-19T17:56:58+08:00",
+  "generated_at": "2026-08-19T18:03:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 11,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "鼓楼区疾病预防控制中心关于委托上海柯渡医学科技股份有限公司维修帝肯酶标仪sunrise的公告 _ 中标公告_疾控中心_ 福州市鼓楼区政府",
-        "summary": "经鼓楼区疾控中心会议研究议定计划委托厂家(帝肯上海实验器材有限公司)的售后服务商(上海柯渡医学科技股份有限公司)进行维修.中标公告_疾控...",
-        "url": "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/zfcg/zhbgg/zbgg_jkzx/202511/t20251112_5230886.htm",
-        "source": "www.gl.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 5.5,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
-        "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
-        "source": "qy.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
-        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
-        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
-        "source": "hainan.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "印江自治县人民医院医学装备维修保养服务项目中标(成交)公告",
-        "summary": "2025年3月20日 - 据本项目采购文件规定,评标委员会推荐的中标供应商为:贵州柯渡医学科技有限公司;评审总得分:91.49 分。.采购公告发布日期:2025-2-27;定标日期:2025-3-...",
-        "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1062623946177073152",
-        "source": "ggzy.guizhou.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -76,40 +22,40 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
+        "title": "华阳国际(002949):中标深圳市龙华高新技术产业园区开发投资有限公司采购项目,中标金额为662.13万元_财富号_东方财富网",
+        "summary": "7天前 - 为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。 同壁财经讯,企查查数据显示,根据《深圳市龙华高新技术产业园区开发投资有限公...",
+        "url": "https://caifuhao.eastmoney.com/news/20260812185831501653960",
+        "source": "caifuhao.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 5.5,
+        "query": "\"华阳\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
+        "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
+        "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
+        "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
+        "source": "stock.jrj.com.cn",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 5.5,
+        "query": "\"华阳\" 公告 签约 中标 投资"
       },
       {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳集团人力资源招聘系统",
-        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-        "url": "https://zhaopin.ymjt.com.cn/index.html",
-        "source": "zhaopin.ymjt.com.cn",
+        "title": "华阳国际收到EPC总承包项目《中标通知书》 中标价15.46亿元-股票-金融界",
+        "summary": "中标单位:深圳市华阳国际工程设计股份有限公司、深圳市市政工程总公司;.公告显示,《中标通知书》的主要内容如下:.招标人:深圳市龙华区建筑工...",
+        "url": "https://stock.jrj.com.cn/2020/04/13210629277012.shtml",
+        "source": "stock.jrj.com.cn",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 5.5,
+        "query": "\"华阳\" 公告 签约 中标 投资"
       }
     ],
     "AI智能": [
@@ -129,8 +75,8 @@
     ],
     "半导体": [
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
+        "code": "jngd",
+        "company": "晶能光电",
         "industry": "半导体",
         "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
         "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -216,19 +162,6 @@
   },
   "items": [
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "鼓楼区疾病预防控制中心关于委托上海柯渡医学科技股份有限公司维修帝肯酶标仪sunrise的公告 _ 中标公告_疾控中心_ 福州市鼓楼区政府",
-      "summary": "经鼓楼区疾控中心会议研究议定计划委托厂家(帝肯上海实验器材有限公司)的售后服务商(上海柯渡医学科技股份有限公司)进行维修.中标公告_疾控...",
-      "url": "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/zfcg/zhbgg/zbgg_jkzx/202511/t20251112_5230886.htm",
-      "source": "www.gl.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 5.5,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -242,82 +175,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
-      "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
-      "source": "qy.zhaobiao.cn",
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳国际(002949):中标深圳市龙华高新技术产业园区开发投资有限公司采购项目,中标金额为662.13万元_财富号_东方财富网",
+      "summary": "7天前 - 为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。 同壁财经讯,企查查数据显示,根据《深圳市龙华高新技术产业园区开发投资有限公...",
+      "url": "https://caifuhao.eastmoney.com/news/20260812185831501653960",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-19",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
-      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
-      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
-      "source": "hainan.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "印江自治县人民医院医学装备维修保养服务项目中标(成交)公告",
-      "summary": "2025年3月20日 - 据本项目采购文件规定,评标委员会推荐的中标供应商为:贵州柯渡医学科技有限公司;评审总得分:91.49 分。.采购公告发布日期:2025-2-27;定标日期:2025-3-...",
-      "url": "https://ggzy.guizhou.gov.cn/tradeInfo/detailHtml?metaId=1062623946177073152",
-      "source": "ggzy.guizhou.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      "score": 5.5,
+      "query": "\"华阳\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "2026年7月28日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
+      "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
+      "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
+      "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
+      "source": "stock.jrj.com.cn",
       "date": "",
       "fetched_at": "2026-08-19",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
+      "score": 5.5,
+      "query": "\"华阳\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "惠州华阳通用电子有限公司官方网站",
-      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-      "url": "https://www.foryouge.com/",
-      "source": "www.foryouge.com",
+      "title": "华阳国际收到EPC总承包项目《中标通知书》 中标价15.46亿元-股票-金融界",
+      "summary": "中标单位:深圳市华阳国际工程设计股份有限公司、深圳市市政工程总公司;.公告显示,《中标通知书》的主要内容如下:.招标人:深圳市龙华区建筑工...",
+      "url": "https://stock.jrj.com.cn/2020/04/13210629277012.shtml",
+      "source": "stock.jrj.com.cn",
       "date": "",
       "fetched_at": "2026-08-19",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团人力资源招聘系统",
-      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
-      "url": "https://zhaopin.ymjt.com.cn/index.html",
-      "source": "zhaopin.ymjt.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
+      "score": 5.5,
+      "query": "\"华阳\" 公告 签约 中标 投资"
     },
     {
       "code": "kexin",
@@ -333,8 +227,8 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
