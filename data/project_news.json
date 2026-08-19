@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T20:38:09+08:00",
+  "generated_at": "2026-08-19T20:50:29+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 25,
   "by_industry": {
     "高端制造": [
       {
@@ -58,84 +58,58 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "新能源": [
+    "半导体": [
       {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "潍坊兴合邦新能源有限公司【潍坊】EPC总承包中标结果公示",
-        "summary": "2024年9月30日 - 潍坊兴合邦新能源有限公司中标公司:、.查看完整信息三、招标公告发布日期:2024年9月4日.招标人:潍坊兴合邦新能源有限公司...",
-        "url": "https://sd.zhiliaobiaoxun.com/article/37071778",
-        "source": "sd.zhiliaobiaoxun.com",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "元旭半导体科技(北京)有限公司_最新招标采购公告_采招网",
+        "summary": "2023年10月23日 - 结果公告滨州市新闻传媒中心融媒体平台建设项目融媒体户外发布系统项目中标(成交)结果公告 一、项目编号:BZGP-2022-0671 二、项目名称:滨州市新闻传媒...",
+        "url": "https://www.bidcenter.com.cn/enterprise/yxbdtkjbjyxgs/",
+        "source": "www.bidcenter.com.cn",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 5.0,
-        "query": "\"合邦新能源\" 公告 签约 中标 投资"
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
       },
       {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "潍坊兴合邦新能源有限公司最新中标公告|招标网",
-        "summary": "2026年7月27日 - 招标网提供有关潍坊兴合邦新能源有限公司的最新招标结果,每天实时更新中标信息,想了解潍坊兴合邦新能源有限公司更多详细动态,精准匹配供应商需求,尽在...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_67b20238a13f65fc388169ccbc777168_zhongbiao.html",
-        "source": "qy.zhaobiao.cn",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "首发 | 清华学霸涌向光电芯片,元旭半导体完成了C轮数亿元融资",
+        "summary": "投资界(ID:pedaily2012)5月24日消息,近日,元旭半导体完成了C轮数亿元融资.「元旭半导体」是一家从事新一代Micro LED集成显示芯片科创领军企业,全资子公司「星璨视觉」致力于打造Micro LED显示芯...",
+        "url": "https://startup.aliyun.com/info/108656.html",
+        "source": "startup.aliyun.com",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 5.0,
-        "query": "\"合邦新能源\" 公告 签约 中标 投资"
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
       },
       {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "潍坊兴合邦新能源有限公司招投标信息查询 - 标找找",
-        "summary": "2024年3月21日 - 1 潍柴国际配套产业园(西区)5MW分布式光伏发电及新钢园区二期5.99MW屋面分布式光伏发电项目EPC总承包招标公告 山东省潍坊市奎文区 丛霖 0536-8191277 ...",
-        "url": "https://www.biaozhaozhao.com/owner/df3544743338fff930a1f9d54c28daea",
-        "source": "www.biaozhaozhao.com",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "深圳市平板显示行业协会 - 企查查",
+        "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+        "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+        "source": "www.qcc.com",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 5.0,
-        "query": "\"合邦新能源\" 公告 签约 中标 投资"
+        "score": 3.5,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪财经_金融信息服务商",
-        "summary": "12 小时之前 · 业绩变动主要系产品销售结构变化，二季度主力车型处于产品迭代过渡期，产能及销售规模效应未充分释放，叠加新能 …",
-        "url": "https://finance.sina.com.cn/",
-        "source": "finance.sina.com.cn",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新华网_让新闻离你更近",
-        "summary": "晋式消夏文旅新体验 《开心消消乐》12周年庆大同站启幕 《2026中国智能经济议题涌现报告》在2026世界人工智能大会上发布 新华 …",
-        "url": "https://www2.xinhuanet.com/",
-        "source": "www2.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -205,48 +179,48 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "半导体": [
+    "新能源": [
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪财经_金融信息服务商",
+        "summary": "12 小时之前 · 业绩变动主要系产品销售结构变化，二季度主力车型处于产品迭代过渡期，产能及销售规模效应未充分释放，叠加新能 …",
+        "url": "https://finance.sina.com.cn/",
+        "source": "finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 2.5,
-        "query": "半导体 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新华网_让新闻离你更近",
+        "summary": "晋式消夏文旅新体验 《开心消消乐》12周年庆大同站启幕 《2026中国智能经济议题涌现报告》在2026世界人工智能大会上发布 新华 …",
+        "url": "https://www2.xinhuanet.com/",
+        "source": "www2.xinhuanet.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
-        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
-        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
       {
         "code": "联通云山西",
         "company": "联通云山西",
@@ -272,6 +246,73 @@
         "fetched_at": "2026-08-19",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "公募REITs信息平台-首页",
+        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+        "url": "https://reits.szse.cn/",
+        "source": "reits.szse.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -318,43 +359,30 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "潍坊兴合邦新能源有限公司【潍坊】EPC总承包中标结果公示",
-      "summary": "2024年9月30日 - 潍坊兴合邦新能源有限公司中标公司:、.查看完整信息三、招标公告发布日期:2024年9月4日.招标人:潍坊兴合邦新能源有限公司...",
-      "url": "https://sd.zhiliaobiaoxun.com/article/37071778",
-      "source": "sd.zhiliaobiaoxun.com",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "元旭半导体科技(北京)有限公司_最新招标采购公告_采招网",
+      "summary": "2023年10月23日 - 结果公告滨州市新闻传媒中心融媒体平台建设项目融媒体户外发布系统项目中标(成交)结果公告 一、项目编号:BZGP-2022-0671 二、项目名称:滨州市新闻传媒...",
+      "url": "https://www.bidcenter.com.cn/enterprise/yxbdtkjbjyxgs/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 5.0,
-      "query": "\"合邦新能源\" 公告 签约 中标 投资"
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     },
     {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "潍坊兴合邦新能源有限公司最新中标公告|招标网",
-      "summary": "2026年7月27日 - 招标网提供有关潍坊兴合邦新能源有限公司的最新招标结果,每天实时更新中标信息,想了解潍坊兴合邦新能源有限公司更多详细动态,精准匹配供应商需求,尽在...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_67b20238a13f65fc388169ccbc777168_zhongbiao.html",
-      "source": "qy.zhaobiao.cn",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "首发 | 清华学霸涌向光电芯片,元旭半导体完成了C轮数亿元融资",
+      "summary": "投资界(ID:pedaily2012)5月24日消息,近日,元旭半导体完成了C轮数亿元融资.「元旭半导体」是一家从事新一代Micro LED集成显示芯片科创领军企业,全资子公司「星璨视觉」致力于打造Micro LED显示芯...",
+      "url": "https://startup.aliyun.com/info/108656.html",
+      "source": "startup.aliyun.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 5.0,
-      "query": "\"合邦新能源\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "潍坊兴合邦新能源有限公司招投标信息查询 - 标找找",
-      "summary": "2024年3月21日 - 1 潍柴国际配套产业园(西区)5MW分布式光伏发电及新钢园区二期5.99MW屋面分布式光伏发电项目EPC总承包招标公告 山东省潍坊市奎文区 丛霖 0536-8191277 ...",
-      "url": "https://www.biaozhaozhao.com/owner/df3544743338fff930a1f9d54c28daea",
-      "source": "www.biaozhaozhao.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 5.0,
-      "query": "\"合邦新能源\" 公告 签约 中标 投资"
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     },
     {
       "code": "凯茜",
@@ -368,6 +396,19 @@
       "fetched_at": "2026-08-19",
       "score": 4.5,
       "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "深圳市平板显示行业协会 - 企查查",
+      "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+      "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 3.5,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -448,6 +489,19 @@
       "query": "凯茜 新闻 2026"
     },
     {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -474,45 +528,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
-      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
-      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
@@ -524,6 +539,45 @@
       "fetched_at": "2026-08-19",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
@@ -585,6 +639,32 @@
       "summary": "6 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+      "url": "https://www.sohu.com/a/960605326_121140836",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "公募REITs信息平台-首页",
+      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+      "url": "https://reits.szse.cn/",
+      "source": "reits.szse.cn",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 1.5,
