@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:17:26+08:00",
+  "generated_at": "2026-08-19T20:38:09+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 22,
@@ -56,45 +56,86 @@
         "fetched_at": "2026-08-19",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "潍坊兴合邦新能源有限公司【潍坊】EPC总承包中标结果公示",
+        "summary": "2024年9月30日 - 潍坊兴合邦新能源有限公司中标公司:、.查看完整信息三、招标公告发布日期:2024年9月4日.招标人:潍坊兴合邦新能源有限公司...",
+        "url": "https://sd.zhiliaobiaoxun.com/article/37071778",
+        "source": "sd.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.0,
+        "query": "\"合邦新能源\" 公告 签约 中标 投资"
       },
       {
-        "code": "华东数控-资本运作平台",
-        "company": "华东数控-资本运作平台",
-        "industry": "高端制造",
-        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-        "source": "data.eastmoney.com",
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "潍坊兴合邦新能源有限公司最新中标公告|招标网",
+        "summary": "2026年7月27日 - 招标网提供有关潍坊兴合邦新能源有限公司的最新招标结果,每天实时更新中标信息,想了解潍坊兴合邦新能源有限公司更多详细动态,精准匹配供应商需求,尽在...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_67b20238a13f65fc388169ccbc777168_zhongbiao.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.0,
+        "query": "\"合邦新能源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "潍坊兴合邦新能源有限公司招投标信息查询 - 标找找",
+        "summary": "2024年3月21日 - 1 潍柴国际配套产业园(西区)5MW分布式光伏发电及新钢园区二期5.99MW屋面分布式光伏发电项目EPC总承包招标公告 山东省潍坊市奎文区 丛霖 0536-8191277 ...",
+        "url": "https://www.biaozhaozhao.com/owner/df3544743338fff930a1f9d54c28daea",
+        "source": "www.biaozhaozhao.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.0,
+        "query": "\"合邦新能源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪财经_金融信息服务商",
+        "summary": "12 小时之前 · 业绩变动主要系产品销售结构变化，二季度主力车型处于产品迭代过渡期，产能及销售规模效应未充分释放，叠加新能 …",
+        "url": "https://finance.sina.com.cn/",
+        "source": "finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 2.5,
-        "query": "高端制造 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "华东数控-资本运作平台",
-        "company": "华东数控-资本运作平台",
-        "industry": "高端制造",
-        "title": "2026高端制造业产业升级关键要素研究及政策支持分析报告.docx - 人人文库",
-        "summary": "当前,全球高端制造业正经历深刻变革,中国作为核心参与者,面临2026年这一关键发展窗口期.数字化转型是提升制造效能的核心路径,智能工厂建设将遵循分级标准,从基础...",
-        "url": "https://www.renrendoc.com/paper/526333496.html",
-        "source": "www.renrendoc.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新华网_让新闻离你更近",
+        "summary": "晋式消夏文旅新体验 《开心消消乐》12周年庆大同站启幕 《2026中国智能经济议题涌现报告》在2026世界人工智能大会上发布 新华 …",
+        "url": "https://www2.xinhuanet.com/",
+        "source": "www2.xinhuanet.com",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "高端制造 行业 政策 2026"
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "华东数控-资本运作平台",
-        "company": "华东数控-资本运作平台",
-        "industry": "高端制造",
-        "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
-        "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
-        "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
-        "source": "max.book118.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "高端制造 行业 政策 2026"
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -166,8 +207,8 @@
     ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "半导体 (BK1036)_行情中心_东方财富网",
         "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -179,48 +220,33 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪财经_金融信息服务商",
-        "summary": "12 小时之前 · 业绩变动主要系产品销售结构变化，二季度主力车型处于产品迭代过渡期，产能及销售规模效应未充分释放，叠加新能 …",
-        "url": "https://finance.sina.com.cn/",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新华网_让新闻离你更近",
-        "summary": "晋式消夏文旅新体验 《开心消消乐》12周年庆大同站启幕 《2026中国智能经济议题涌现报告》在2026世界人工智能大会上发布 新华 …",
-        "url": "https://www2.xinhuanet.com/",
-        "source": "www2.xinhuanet.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "REITS类资产": [
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
       {
         "code": "联通云山西",
         "company": "联通云山西",
@@ -242,32 +268,6 @@
         "summary": "6 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 1.5,
@@ -316,6 +316,45 @@
       "fetched_at": "2026-08-19",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "潍坊兴合邦新能源有限公司【潍坊】EPC总承包中标结果公示",
+      "summary": "2024年9月30日 - 潍坊兴合邦新能源有限公司中标公司:、.查看完整信息三、招标公告发布日期:2024年9月4日.招标人:潍坊兴合邦新能源有限公司...",
+      "url": "https://sd.zhiliaobiaoxun.com/article/37071778",
+      "source": "sd.zhiliaobiaoxun.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.0,
+      "query": "\"合邦新能源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "潍坊兴合邦新能源有限公司最新中标公告|招标网",
+      "summary": "2026年7月27日 - 招标网提供有关潍坊兴合邦新能源有限公司的最新招标结果,每天实时更新中标信息,想了解潍坊兴合邦新能源有限公司更多详细动态,精准匹配供应商需求,尽在...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_67b20238a13f65fc388169ccbc777168_zhongbiao.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.0,
+      "query": "\"合邦新能源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "潍坊兴合邦新能源有限公司招投标信息查询 - 标找找",
+      "summary": "2024年3月21日 - 1 潍柴国际配套产业园(西区)5MW分布式光伏发电及新钢园区二期5.99MW屋面分布式光伏发电项目EPC总承包招标公告 山东省潍坊市奎文区 丛霖 0536-8191277 ...",
+      "url": "https://www.biaozhaozhao.com/owner/df3544743338fff930a1f9d54c28daea",
+      "source": "www.biaozhaozhao.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.0,
+      "query": "\"合邦新能源\" 公告 签约 中标 投资"
     },
     {
       "code": "凯茜",
@@ -409,19 +448,6 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -448,17 +474,43 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "华东数控-资本运作平台",
-      "company": "华东数控-资本运作平台",
-      "industry": "高端制造",
-      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-      "source": "data.eastmoney.com",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 2.5,
-      "query": "高端制造 行业 政策 2026"
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -472,32 +524,6 @@
       "fetched_at": "2026-08-19",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "华东数控-资本运作平台",
-      "company": "华东数控-资本运作平台",
-      "industry": "高端制造",
-      "title": "2026高端制造业产业升级关键要素研究及政策支持分析报告.docx - 人人文库",
-      "summary": "当前,全球高端制造业正经历深刻变革,中国作为核心参与者,面临2026年这一关键发展窗口期.数字化转型是提升制造效能的核心路径,智能工厂建设将遵循分级标准,从基础...",
-      "url": "https://www.renrendoc.com/paper/526333496.html",
-      "source": "www.renrendoc.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
-      "code": "华东数控-资本运作平台",
-      "company": "华东数控-资本运作平台",
-      "industry": "高端制造",
-      "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
-      "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
-      "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "hongyuan",
@@ -559,32 +585,6 @@
       "summary": "6 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 1.5,
