@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:03:26+08:00",
+  "generated_at": "2026-08-19T18:09:57+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 24,
   "stage_v3_enum": [
@@ -388,7 +388,7 @@
       "repo": "tianbao-projects",
       "local_folder": "~/Documents/OpenClaw-Workspace-research/projects/觅蜂_华依合作/",
       "folder_alias": "觅蜂_华依合作",
-      "report_count": 2,
+      "report_count": 1,
       "progress_pct": 20,
       "contacts": "天保控股投资部",
       "brief_md": "觅蜂_华依合作 · 初步分析阶段 · 1 份报告",
@@ -396,7 +396,7 @@
       "downgrade_reason": "",
       "deploy_date": "2026-08-17",
       "last_update": "2026-08-17",
-      "notes": "自动从 reports.json 补全 · 觅蜂_华依合作 | 已归档合并至 kexin | 自动同步 2026-08-17",
+      "notes": "自动从 reports.json 补全 · 觅蜂_华依合作 | 已归档合并至 kexin | 自动同步 2026-08-17 | 自动同步 2026-08-19",
       "pending_tasks": "",
       "archived": true
     },
@@ -581,7 +581,7 @@
       "archived_reason": "2026-08-19",
       "category": "储备·非上市",
       "stage": "初步分析",
-      "stage_v3": "储备",
+      "stage_v3": "在推重点",
       "iss": "REITs",
       "industry": "REITS类资产",
       "industry_detail": "IDC·云计算·央企国资",
@@ -599,7 +599,7 @@
       "downgrade_reason": "",
       "deploy_date": "2026-08-19",
       "last_update": "2026-08-19",
-      "notes": "自动同步 2026-08-19",
+      "notes": "2026-08-19 | 自动同步 2026-08-19",
       "pending_tasks": "",
       "archived": true
     },
@@ -610,7 +610,7 @@
       "archived_reason": "2026-08-19",
       "category": "储备·非上市",
       "stage": "初步分析",
-      "stage_v3": "储备",
+      "stage_v3": "观察",
       "iss": "未上市",
       "industry": "其他行业",
       "industry_detail": "其他行业",
@@ -627,8 +627,8 @@
       "estimation": "",
       "downgrade_reason": "",
       "deploy_date": "2026-08-19",
-      "last_update": "本地有但在线没有 · 2026-08-19 补充",
-      "notes": "",
+      "last_update": "本地有但在线没有 · 2026-08-19 补充 | 2026-08-19 stage_v3 储备→观察（主公指令）",
+      "notes": "2026-08-19",
       "pending_tasks": "",
       "archived": true
     },
@@ -697,7 +697,7 @@
       "archived_reason": "2026-08-19",
       "category": "储备·非上市",
       "stage": "初步分析",
-      "stage_v3": "储备",
+      "stage_v3": "观察",
       "iss": "未上市",
       "industry": "AI智能",
       "industry_detail": "AI智能",
@@ -714,8 +714,8 @@
       "estimation": "",
       "downgrade_reason": "",
       "deploy_date": "2026-08-19",
-      "last_update": "本地有但在线没有 · 2026-08-19 补充",
-      "notes": "",
+      "last_update": "本地有但在线没有 · 2026-08-19 补充 | 2026-08-19 stage_v3 储备→观察（主公指令）",
+      "notes": "2026-08-19",
       "pending_tasks": "",
       "archived": true
     }
