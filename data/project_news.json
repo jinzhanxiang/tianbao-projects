@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T02:33:54+08:00",
+  "generated_at": "2026-08-20T02:45:05+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 21,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,47 @@
         "fetched_at": "2026-08-20",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "元旭半导体科技(北京)有限公司_最新招标采购公告_采招网",
+        "summary": "2023年10月23日 - 结果公告滨州市新闻传媒中心融媒体平台建设项目融媒体户外发布系统项目中标(成交)结果公告 一、项目编号:BZGP-2022-0671 二、项目名称:滨州市新闻传媒...",
+        "url": "https://www.bidcenter.com.cn/enterprise/yxbdtkjbjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 5.0,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "首发 | 清华学霸涌向光电芯片,元旭半导体完成了C轮数亿元融资",
+        "summary": "投资界(ID:pedaily2012)5月24日消息,近日,元旭半导体完成了C轮数亿元融资.「元旭半导体」是一家从事新一代Micro LED集成显示芯片科创领军企业,全资子公司「星璨视觉」致力于打造Micro LED显示芯...",
+        "url": "https://startup.aliyun.com/info/108656.html",
+        "source": "startup.aliyun.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 5.0,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "深圳市平板显示行业协会 - 企查查",
+        "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+        "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+        "source": "www.qcc.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 3.5,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
       }
     ],
     "其他行业": [
@@ -224,8 +265,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -237,8 +278,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -266,6 +307,32 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "元旭半导体科技(北京)有限公司_最新招标采购公告_采招网",
+      "summary": "2023年10月23日 - 结果公告滨州市新闻传媒中心融媒体平台建设项目融媒体户外发布系统项目中标(成交)结果公告 一、项目编号:BZGP-2022-0671 二、项目名称:滨州市新闻传媒...",
+      "url": "https://www.bidcenter.com.cn/enterprise/yxbdtkjbjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 5.0,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "首发 | 清华学霸涌向光电芯片,元旭半导体完成了C轮数亿元融资",
+      "summary": "投资界(ID:pedaily2012)5月24日消息,近日,元旭半导体完成了C轮数亿元融资.「元旭半导体」是一家从事新一代Micro LED集成显示芯片科创领军企业,全资子公司「星璨视觉」致力于打造Micro LED显示芯...",
+      "url": "https://startup.aliyun.com/info/108656.html",
+      "source": "startup.aliyun.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 5.0,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
+    },
+    {
       "code": "凯茜",
       "company": "凯茜",
       "industry": "其他行业",
@@ -277,6 +344,19 @@
       "fetched_at": "2026-08-20",
       "score": 4.5,
       "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "深圳市平板显示行业协会 - 企查查",
+      "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+      "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 3.5,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -409,8 +489,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -422,8 +502,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
