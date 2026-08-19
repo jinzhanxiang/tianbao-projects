@@ -1,9 +1,76 @@
 {
-  "generated_at": "2026-08-19T19:07:28+08:00",
+  "generated_at": "2026-08-19T19:18:27+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 19,
   "by_industry": {
+    "半导体": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
+        "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
+        "url": "https://www.tht.gov.cn/contents/16930/610355.html",
+        "source": "www.tht.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 6.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
+        "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
+        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 6.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
+        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
+        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 5.0,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -58,19 +125,71 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "其他行业": [
       {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "《凯茜，顺从的女孩》：前妓女凯茜寻新生，遇真爱却遭纠缠 ...",
+        "summary": "2025年8月30日 · 可就在凯茜以为日子能一直这么好下去的时候，噩梦又找上了门 —— 她以前的皮条客托尼，不知道怎么找到了这个 …",
+        "url": "https://www.sohu.com/a/929932432_122320834",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.5,
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
+        "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
+        "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
+        "source": "mzh.moegirl.org.cn",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "凯茜qaq的个人空间-凯茜qaq个人主页-哔哩哔哩视频",
+        "summary": "哔哩哔哩凯茜qaq的个人空间，提供凯茜qaq分享的视频、音频、文章、动态、收藏等内容，关注凯茜qaq账号，第一时间了解UP主动 …",
+        "url": "https://space.bilibili.com/18043692",
+        "source": "space.bilibili.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "凯茜·格拉汉姆 - 偶像大师灰姑娘女孩WIKI_BWIKI_哔哩哔哩",
+        "summary": "2026年8月10日 · 严格来说纽约出生的凯茜不算是「江户之子」，但是她生长的浅草是东京自江户以来的核心地区。 性格、文化上说， …",
+        "url": "https://wiki.biligame.com/imascg/%E5%87%AF%E8%8C%9C%C2%B7%E6%A0%BC%E6%8B%89%E6%B1%89%E5%A7%86",
+        "source": "wiki.biligame.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -114,62 +233,6 @@
         "query": "新能源 行业 政策 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -197,24 +260,48 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
+      "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
+      "url": "https://www.tht.gov.cn/contents/16930/610355.html",
+      "source": "www.tht.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 6.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
+      "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
+      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 6.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+      "source": "www.thepaper.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.5,
+      "query": "元旭半导体 新闻 2026"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -227,6 +314,32 @@
       "fetched_at": "2026-08-19",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
+      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
+      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 5.0,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "《凯茜，顺从的女孩》：前妓女凯茜寻新生，遇真爱却遭纠缠 ...",
+      "summary": "2025年8月30日 · 可就在凯茜以为日子能一直这么好下去的时候，噩梦又找上了门 —— 她以前的皮条客托尼，不知道怎么找到了这个 …",
+      "url": "https://www.sohu.com/a/929932432_122320834",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 4.5,
+      "query": "凯茜 新闻 2026"
     },
     {
       "code": "huayt",
@@ -268,17 +381,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
+      "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
+      "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
+      "source": "mzh.moegirl.org.cn",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
+      "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "凯茜qaq的个人空间-凯茜qaq个人主页-哔哩哔哩视频",
+      "summary": "哔哩哔哩凯茜qaq的个人空间，提供凯茜qaq分享的视频、音频、文章、动态、收藏等内容，关注凯茜qaq账号，第一时间了解UP主动 …",
+      "url": "https://space.bilibili.com/18043692",
+      "source": "space.bilibili.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "凯茜·格拉汉姆 - 偶像大师灰姑娘女孩WIKI_BWIKI_哔哩哔哩",
+      "summary": "2026年8月10日 · 严格来说纽约出生的凯茜不算是「江户之子」，但是她生长的浅草是东京自江户以来的核心地区。 性格、文化上说， …",
+      "url": "https://wiki.biligame.com/imascg/%E5%87%AF%E8%8C%9C%C2%B7%E6%A0%BC%E6%8B%89%E6%B1%89%E5%A7%86",
+      "source": "wiki.biligame.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
     },
     {
       "code": "hongyuan",
@@ -307,8 +446,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -318,45 +457,6 @@
       "fetched_at": "2026-08-19",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
