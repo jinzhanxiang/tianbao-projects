@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:05:33+08:00",
+  "generated_at": "2026-08-20T07:14:28+08:00",
   "source": "project_ledger.csv (v3 schema)",
   "rows": 24,
   "stage_v3_enum": [
@@ -686,7 +686,7 @@
       "downgrade_reason": "",
       "deploy_date": "2026-08-19",
       "last_update": "2026-08-19",
-      "notes": "自动同步 2026-08-19",
+      "notes": "自动同步 2026-08-19 | 自动同步 2026-08-20",
       "pending_tasks": "",
       "archived": true
     },
