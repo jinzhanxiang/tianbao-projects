@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T14:58:07+08:00",
+  "generated_at": "2026-08-19T15:04:08+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -58,58 +58,71 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "REITS类资产": [
+    "其他行业": [
       {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-        "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-        "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-        "source": "www.bidcenter.com.cn",
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "山东1.17亿可信数据平台项目落定:鸿翼软件携手山东移动联合体中标 - 天眼查",
+        "summary": "最终,由 上海鸿翼软件技术股份有限公司 作为牵头方, 中国移动通信集团山东有限公司 作为联合体成员所组成的投标联合体成功中标,中标金额为 1164....2026-03-04新增开庭公告.近日,由山东省公用资...",
+        "url": "https://news.tianyancha.com/ll_10jle529ff.html",
+        "source": "news.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
+        "query": "\"鸿翼\" 公告 签约 中标 投资"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-        "source": "bj.bidizhaobiao.com",
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "山东省1.16亿可信数据平台项目落定,上海鸿翼软件中标-其他_ 天眼查新闻",
+        "summary": "2026年1月15日 - 上海鸿翼软件技术股份有限公司法人代表:.上海鸿翼软件技术股份有限公司怎么了?山东省公用资产运营服务有限公司《智能可信数据公共服务平台项目》中标...",
+        "url": "https://mnews.tianyancha.com/ll_8mqn5ba3tn.html",
+        "source": "mnews.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
+        "query": "\"鸿翼\" 公告 签约 中标 投资"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-        "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-        "url": "https://www.szmhzs.com/news/14.html",
-        "source": "www.szmhzs.com",
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "鸿翼ECM(中标公告)-广东招标网",
+        "summary": "2025年12月1日 - 申购主题:鸿翼ECM文档云软件V6.0 送货时间:发布竞价结果后7天内送达.您当天剩余次查看公告原文链接,是否消耗一次...",
+        "url": "https://gd.bidizhaobiao.com/info-347155966.html",
+        "source": "gd.bidizhaobiao.com",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
+        "query": "\"鸿翼\" 公告 签约 中标 投资"
       },
       {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "公司无 深海科技 相关业务和产品!4连板人气牛股紧急发布异动公告|盘后公告集锦_腾讯新闻",
-        "summary": "2025年3月18日 - 亿纬锂能(300014.SZ)公告称,公司收到广东汇天航空航天科技有限公司(小鹏汇天)的供应商定点开发通知书,将为小鹏汇天提供下一代原理样机低压锂电池.【中...",
-        "url": "https://news.qq.com/rain/a/20250318A09ERH00?media_id&suid",
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "航天鸿翼数据要素产业园(霸州)项目中标结果公告",
+        "summary": "* 【 2025-01-07 09:00】航天鸿翼数据要素产业园(霸州)项目招标公告.鸿翼(霸州)数据科技有限公司中标公司:...",
+        "url": "https://hb.zhiliaobiaoxun.com/article/50635679",
+        "source": "hb.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 4.0,
+        "query": "\"鸿翼\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
         "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 4.0,
-        "query": "\"汇天\" 公告 签约 中标 投资"
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ],
     "半导体": [
@@ -207,47 +220,60 @@
         "fetched_at": "2026-08-19",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "炒股必看：为何卖股票要留100股底仓？老股民的3个实战心得",
-        "summary": "2025年8月23日 · 留100股底仓，看似“多此一举”，实则是用极低成本换取三大优势：持续跟踪的“信息权”、再次介入的“便利权”、情绪 …",
-        "url": "https://www.sohu.com/a/927060284_121409661",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "炒股留100股底仓？老股民都在玩这波“小心机”！",
-        "summary": "2026年1月4日 · 总的来说，留100股底仓不是“强迫症”，而是老股民总结的“灵活操作+心态管理”小技巧，适合那些想长期跟踪标的、又 …",
-        "url": "https://caifuhao.eastmoney.com/news/20260103192937235552050",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
-    "其他行业": [
+    "REITS类资产": [
       {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "网易云网页版 - 歌单 - 网易云音乐",
+        "summary": "2017年2月28日 · <div class=\"f-pr choose f-cb\"> <ul class=\"pics f-pr f-cb j-flag\"><li class=\"f-pr add j-flag u-icn2 u-icn2-a",
+        "url": "https://music.163.com/playlist?id=615267582",
+        "source": "music.163.com",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "网易天音 - 一站式AI音乐创作工具 - 官网",
+        "summary": "网易天音AI创作平台，提供免费丰富的歌词、曲调和演唱风格选择，激发音乐创作灵感。",
+        "url": "https://tianyin.music.163.com/",
+        "source": "tianyin.music.163.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "黑胶VIP学生暑期特惠 - 网易云音乐",
+        "summary": "网易云音乐黑胶VIP学生特惠，青春专享套餐，每月仅需￥5。",
+        "url": "https://y.music.163.com/g/m/at/daydayup230505Astudyup?page=2ade783a2638439591ca02a78c0f85ca&extChannel=sms-3",
+        "source": "y.music.163.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "网易云音乐开放平台",
+        "summary": "网易云音乐开放平台为开发者提供丰富的音乐API接口，助力打造创新的音乐应用和服务。",
+        "url": "https://developer.music.163.com/st/developer",
+        "source": "developer.music.163.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -294,56 +320,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "梅州市汇天低空科技有限公司_最新招标采购公告_采招网",
-      "summary": "2026年7月6日 - 梅县区无人机及配套服务招标代理服务中标结果项目业主名称梅州市汇天低空科技有限公司中介服务事项 无(属于非行政管理的中介服务项目采购) 投资审批项...",
-      "url": "https://www.bidcenter.com.cn/enterprise/mzshtdkkjyxgs/",
-      "source": "www.bidcenter.com.cn",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "山东1.17亿可信数据平台项目落定:鸿翼软件携手山东移动联合体中标 - 天眼查",
+      "summary": "最终,由 上海鸿翼软件技术股份有限公司 作为牵头方, 中国移动通信集团山东有限公司 作为联合体成员所组成的投标联合体成功中标,中标金额为 1164....2026-03-04新增开庭公告.近日,由山东省公用资...",
+      "url": "https://news.tianyancha.com/ll_10jle529ff.html",
+      "source": "news.tianyancha.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-      "source": "bj.bidizhaobiao.com",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "山东省1.16亿可信数据平台项目落定,上海鸿翼软件中标-其他_ 天眼查新闻",
+      "summary": "2026年1月15日 - 上海鸿翼软件技术股份有限公司法人代表:.上海鸿翼软件技术股份有限公司怎么了?山东省公用资产运营服务有限公司《智能可信数据公共服务平台项目》中标...",
+      "url": "https://mnews.tianyancha.com/ll_8mqn5ba3tn.html",
+      "source": "mnews.tianyancha.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "中标信息-茂华汇天新科技集团 | 铸造精品工程 创造企业价值",
-      "summary": "2025年1月15日 - 新年新气象,茂华开门红,接连中标多个项目,好巳莲莲;为2025精彩开局.部分中标项目中国石油大学(华东)古镇口校区第一学生餐厅项目中国石油大学(华东),是...",
-      "url": "https://www.szmhzs.com/news/14.html",
-      "source": "www.szmhzs.com",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "鸿翼ECM(中标公告)-广东招标网",
+      "summary": "2025年12月1日 - 申购主题:鸿翼ECM文档云软件V6.0 送货时间:发布竞价结果后7天内送达.您当天剩余次查看公告原文链接,是否消耗一次...",
+      "url": "https://gd.bidizhaobiao.com/info-347155966.html",
+      "source": "gd.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "公司无 深海科技 相关业务和产品!4连板人气牛股紧急发布异动公告|盘后公告集锦_腾讯新闻",
-      "summary": "2025年3月18日 - 亿纬锂能(300014.SZ)公告称,公司收到广东汇天航空航天科技有限公司(小鹏汇天)的供应商定点开发通知书,将为小鹏汇天提供下一代原理样机低压锂电池.【中...",
-      "url": "https://news.qq.com/rain/a/20250318A09ERH00?media_id&suid",
-      "source": "news.qq.com",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "航天鸿翼数据要素产业园(霸州)项目中标结果公告",
+      "summary": "* 【 2025-01-07 09:00】航天鸿翼数据要素产业园(霸州)项目招标公告.鸿翼(霸州)数据科技有限公司中标公司:...",
+      "url": "https://hb.zhiliaobiaoxun.com/article/50635679",
+      "source": "hb.zhiliaobiaoxun.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 4.0,
-      "query": "\"汇天\" 公告 签约 中标 投资"
+      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
       "code": "jngd",
@@ -476,30 +502,56 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "炒股必看：为何卖股票要留100股底仓？老股民的3个实战心得",
-      "summary": "2025年8月23日 · 留100股底仓，看似“多此一举”，实则是用极低成本换取三大优势：持续跟踪的“信息权”、再次介入的“便利权”、情绪 …",
-      "url": "https://www.sohu.com/a/927060284_121409661",
-      "source": "www.sohu.com",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "网易云网页版 - 歌单 - 网易云音乐",
+      "summary": "2017年2月28日 · <div class=\"f-pr choose f-cb\"> <ul class=\"pics f-pr f-cb j-flag\"><li class=\"f-pr add j-flag u-icn2 u-icn2-a",
+      "url": "https://music.163.com/playlist?id=615267582",
+      "source": "music.163.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 1.5,
-      "query": "新能源 行业 政策 2026"
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "炒股留100股底仓？老股民都在玩这波“小心机”！",
-      "summary": "2026年1月4日 · 总的来说，留100股底仓不是“强迫症”，而是老股民总结的“灵活操作+心态管理”小技巧，适合那些想长期跟踪标的、又 …",
-      "url": "https://caifuhao.eastmoney.com/news/20260103192937235552050",
-      "source": "caifuhao.eastmoney.com",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "网易天音 - 一站式AI音乐创作工具 - 官网",
+      "summary": "网易天音AI创作平台，提供免费丰富的歌词、曲调和演唱风格选择，激发音乐创作灵感。",
+      "url": "https://tianyin.music.163.com/",
+      "source": "tianyin.music.163.com",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 1.5,
-      "query": "新能源 行业 政策 2026"
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "黑胶VIP学生暑期特惠 - 网易云音乐",
+      "summary": "网易云音乐黑胶VIP学生特惠，青春专享套餐，每月仅需￥5。",
+      "url": "https://y.music.163.com/g/m/at/daydayup230505Astudyup?page=2ade783a2638439591ca02a78c0f85ca&extChannel=sms-3",
+      "source": "y.music.163.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "网易云音乐开放平台",
+      "summary": "网易云音乐开放平台为开发者提供丰富的音乐API接口，助力打造创新的音乐应用和服务。",
+      "url": "https://developer.music.163.com/st/developer",
+      "source": "developer.music.163.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "acquisition-listed",
