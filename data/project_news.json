@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T15:15:35+08:00",
+  "generated_at": "2026-08-19T15:26:58+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -56,73 +56,6 @@
         "fetched_at": "2026-08-19",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "天保基建",
-        "company": "天保基建",
-        "industry": "其他行业",
-        "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
-        "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
-        "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 5.5,
-        "query": "天保基建 新闻 2026"
-      },
-      {
-        "code": "天保基建",
-        "company": "天保基建",
-        "industry": "其他行业",
-        "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
-        "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
-        "url": "https://finance.eastmoney.com/a/202607133803760816.html",
-        "source": "finance.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.5,
-        "query": "天保基建 新闻 2026"
-      },
-      {
-        "code": "天保基建",
-        "company": "天保基建",
-        "industry": "其他行业",
-        "title": "天保基建(000965.SZ):2026年一季报净利润为6393.34万元、同比较去年同期下降36.29% | 界面新闻",
-        "summary": "2026年4月29日 - 年4月29日,天保基建(000965.SZ)发布2026年一季报,营业总收入为14.88亿元,同比较去年同期上涨777.93%,归母净利润为6393.34万元,同比较去年同期下降36.2...",
-        "url": "https://m.jiemian.com/article/14351866_sina.html",
-        "source": "m.jiemian.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.0,
-        "query": "天保基建 新闻 2026"
-      },
-      {
-        "code": "天保基建",
-        "company": "天保基建",
-        "industry": "其他行业",
-        "title": "天保基建:公司无法对天津空客总装公司2026年度的经营业绩进行预测",
-        "summary": "2025年12月15日 - 证券日报网讯12月15日,天保基建在互动平台回答投资者提问时表示,公司无法对天津空客总装公司2026年度的经营业绩进行预测。",
-        "url": "https://news.10jqka.com.cn/20251215/c673229026.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 4.0,
-        "query": "天保基建 新闻 2026"
-      },
-      {
-        "code": "acquisition-listed",
-        "company": "收购上市公司研究",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
       }
     ],
     "半导体": [
@@ -179,22 +112,59 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
-    "AI智能": [
+    "新能源": [
       {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "code": "大同新荣合邦新能源",
+        "company": "大同新荣合邦新能源",
+        "industry": "新能源",
+        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+        "source": "finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-19",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "新能源": [
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "大同新荣合邦新能源",
+        "company": "大同新荣合邦新能源",
+        "industry": "新能源",
+        "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+        "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+        "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+        "source": "ai.so.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "大同新荣合邦新能源",
+        "company": "大同新荣合邦新能源",
+        "industry": "新能源",
+        "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+        "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+        "url": "https://www.toutiao.com/article/7616707417639813642/",
+        "source": "www.toutiao.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "大同新荣合邦新能源",
+        "company": "大同新荣合邦新能源",
+        "industry": "新能源",
+        "title": "2026年新能源政策核心调整速览-有驾",
+        "summary": "6天前 - 3.新能源汽车推广加码:延续购车补贴,扩大新能源车路权,城市公交全面电动化,充电桩覆盖县域。.储能配置作为光伏并网前置条件,光储一体化成行业标配.5...",
+        "url": "https://www.yoojia.com/dongtai/10765233002?from_src=biji_tab",
+        "source": "www.yoojia.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
       {
         "code": "xingheng",
         "company": "星恒电源",
@@ -222,10 +192,94 @@
         "query": "新能源 行业 政策 2026"
       }
     ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "REITS类资产": [
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "东航发布新规：绝大多数散客票提前14天可免费退改签",
+        "summary": "2026年8月7日 · 其中最值得关注的一点是，自愿退票或变更时，手续费依据 航班规定离站时间 及 取消定座时间 计算，具体费率参照 …",
+        "url": "https://www.sohu.com/a/1060028237_484968",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "东航发布新规: 提前14天可免费退改签_客票_规定_第一财经",
+        "summary": "东航发布新版《国内客票自愿退票和自愿变更实施细则》，对于2026年8月6日（含）以后销售的2026年8月6日（含）以后开始旅行的 …",
+        "url": "https://www.sohu.com/a/1060027439_121425761",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "东航宣布：提前14天免费退票改签__财经头条__新浪财经",
+        "summary": "五档阶梯：14天前免费；7-14天大部分舱位免费或收取5%；7天至48小时前、48小时至4小时前、4小时内至起飞后，费率逐级上升， …",
+        "url": "https://cj.sina.com.cn/articles/view/7879996017/1d5af32710680167hi",
+        "source": "cj.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "东航宣布，所有舱位提前14天均可免费退改签，此前为提前30天，网 …",
+        "summary": "据新京报此前报道，按照民航相关规定，旅客自愿退票需遵循航司客票条款承担手续费，但各大航司收费标准差异悬殊：国航、东航等 …",
+        "url": "https://news.qq.com/rain/a/20260807A0CYN100",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "acquisition-listed",
+        "company": "收购上市公司研究",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -237,8 +291,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -264,58 +318,6 @@
       "fetched_at": "2026-08-19",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "天保基建",
-      "company": "天保基建",
-      "industry": "其他行业",
-      "title": "天保基建:预计2026年上半年净利润同比下降44.95%–6_7x24小时财经新闻_新浪网",
-      "summary": "2026年7月14日 - 新浪财经为您带来:天保基建公告,预计2026年1月1日至2026年6月30日归属于上市公司股东的净利润为盈利4500万元–6500万元,比上年同期下降44.95%–61.89%...",
-      "url": "https://finance.sina.com.cn/7x24/2026-07-14/doc-inihuhki8060347.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 5.5,
-      "query": "天保基建 新闻 2026"
-    },
-    {
-      "code": "天保基建",
-      "company": "天保基建",
-      "industry": "其他行业",
-      "title": "天保基建:将于2026年07月14日召开2026年第四次临时股东大会 _ 东方财富网",
-      "summary": "2026年7月14日 - 天保基建将于2026年07月14日(星期二)下午14:30,在天津空港经济区西五道35号汇津广场一号楼公司八楼会议室召开2026年第四次临时股东大会。",
-      "url": "https://finance.eastmoney.com/a/202607133803760816.html",
-      "source": "finance.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 4.5,
-      "query": "天保基建 新闻 2026"
-    },
-    {
-      "code": "天保基建",
-      "company": "天保基建",
-      "industry": "其他行业",
-      "title": "天保基建(000965.SZ):2026年一季报净利润为6393.34万元、同比较去年同期下降36.29% | 界面新闻",
-      "summary": "2026年4月29日 - 年4月29日,天保基建(000965.SZ)发布2026年一季报,营业总收入为14.88亿元,同比较去年同期上涨777.93%,归母净利润为6393.34万元,同比较去年同期下降36.2...",
-      "url": "https://m.jiemian.com/article/14351866_sina.html",
-      "source": "m.jiemian.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 4.0,
-      "query": "天保基建 新闻 2026"
-    },
-    {
-      "code": "天保基建",
-      "company": "天保基建",
-      "industry": "其他行业",
-      "title": "天保基建:公司无法对天津空客总装公司2026年度的经营业绩进行预测",
-      "summary": "2025年12月15日 - 证券日报网讯12月15日,天保基建在互动平台回答投资者提问时表示,公司无法对天津空客总装公司2026年度的经营业绩进行预测。",
-      "url": "https://news.10jqka.com.cn/20251215/c673229026.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 4.0,
-      "query": "天保基建 新闻 2026"
     },
     {
       "code": "jngd",
@@ -370,6 +372,19 @@
       "query": "半导体 行业 政策 2026"
     },
     {
+      "code": "大同新荣合邦新能源",
+      "company": "大同新荣合邦新能源",
+      "industry": "新能源",
+      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -422,6 +437,71 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "东航发布新规：绝大多数散客票提前14天可免费退改签",
+      "summary": "2026年8月7日 · 其中最值得关注的一点是，自愿退票或变更时，手续费依据 航班规定离站时间 及 取消定座时间 计算，具体费率参照 …",
+      "url": "https://www.sohu.com/a/1060028237_484968",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "东航发布新规: 提前14天可免费退改签_客票_规定_第一财经",
+      "summary": "东航发布新版《国内客票自愿退票和自愿变更实施细则》，对于2026年8月6日（含）以后销售的2026年8月6日（含）以后开始旅行的 …",
+      "url": "https://www.sohu.com/a/1060027439_121425761",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "大同新荣合邦新能源",
+      "company": "大同新荣合邦新能源",
+      "industry": "新能源",
+      "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+      "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+      "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+      "source": "ai.so.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "大同新荣合邦新能源",
+      "company": "大同新荣合邦新能源",
+      "industry": "新能源",
+      "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+      "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+      "url": "https://www.toutiao.com/article/7616707417639813642/",
+      "source": "www.toutiao.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "大同新荣合邦新能源",
+      "company": "大同新荣合邦新能源",
+      "industry": "新能源",
+      "title": "2026年新能源政策核心调整速览-有驾",
+      "summary": "6天前 - 3.新能源汽车推广加码:延续购车补贴,扩大新能源车路权,城市公交全面电动化,充电桩覆盖县域。.储能配置作为光伏并网前置条件,光储一体化成行业标配.5...",
+      "url": "https://www.yoojia.com/dongtai/10765233002?from_src=biji_tab",
+      "source": "www.yoojia.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "xingheng",
       "company": "星恒电源",
       "industry": "新能源",
@@ -448,6 +528,32 @@
       "query": "新能源 行业 政策 2026"
     },
     {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "东航宣布：提前14天免费退票改签__财经头条__新浪财经",
+      "summary": "五档阶梯：14天前免费；7-14天大部分舱位免费或收取5%；7天至48小时前、48小时至4小时前、4小时内至起飞后，费率逐级上升， …",
+      "url": "https://cj.sina.com.cn/articles/view/7879996017/1d5af32710680167hi",
+      "source": "cj.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "东航宣布，所有舱位提前14天均可免费退改签，此前为提前30天，网 …",
+      "summary": "据新京报此前报道，按照民航相关规定，旅客自愿退票需遵循航司客票条款承担手续费，但各大航司收费标准差异悬殊：国航、东航等 …",
+      "url": "https://news.qq.com/rain/a/20260807A0CYN100",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
       "code": "acquisition-listed",
       "company": "收购上市公司研究",
       "industry": "其他行业",
@@ -461,8 +567,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -474,8 +580,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
