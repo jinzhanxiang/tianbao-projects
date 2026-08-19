@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:26:41+08:00",
+  "generated_at": "2026-08-20T07:31:13+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 26,
   "total_active": 21,
@@ -166,6 +166,7 @@
         "_archived": true
       }
     ],
+    "国药器械": [],
     "奥联电子": [
       {
         "code": "奥联电子",
@@ -1100,9 +1101,10 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-20T07:26:41.153633",
+  "_last_cleanup": "2026-08-20T07:31:13.068062",
   "_cleanup_stats": {
     "dup_title_date": 2,
+    "intermediate:section_synthesis": 3,
     "superseded": 5,
     "intermediate:v_redo": 1,
     "intermediate:v_appendix": 1,
