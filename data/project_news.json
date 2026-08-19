@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T06:36:29+08:00",
+  "generated_at": "2026-08-20T06:46:02+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 29,
+  "total": 18,
   "by_industry": {
     "高端制造": [
       {
@@ -56,140 +56,6 @@
         "fetched_at": "2026-08-20",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-        "source": "fund.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
-        "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
-        "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.5,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
-        "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
-        "url": "https://xueqiu.com/9057196330/393340560",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-        "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-        "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-        "source": "finance.sina.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "6250万元!高新区企业中标省外一可信数据空间基础设施项目",
-        "summary": "近日,总部位于贵阳市高新区的中电科大数据研究院有限公司(以下简称中电科大数据院)及联合体成员成功中标《唐山市路南区可信数据空间基础设...",
-        "url": "https://gxq.guiyang.gov.cn/gxqdt/gxqdtmtkgx/202510/t20251028_88735204.html",
-        "source": "gxq.guiyang.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "神思电子:中标约1.61亿元可信数据空间建设项目|中电|联合体_网易订阅",
-        "summary": "神思电子:中标约1.61亿元可信数据空间建设项目,中电,联合体,神思电子,数据空间 分享至 用微信扫码二维码 分享至好友和朋友圈 人民财讯10月21日电,神思...",
-        "url": "https://www.163.com/dy/article/KCDTL9CH053469RG.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "神思电子:中标可信数据空间建设项目 | 每经网",
-        "summary": "每经AI快讯,神思电子10月21日晚间发布公告称,近日,济南市公共资源交易中心发布《济南城市可信数据空间建设项目中标候选人公示》,公司作为牵头单位与中...",
-        "url": "https://www.nbd.com.cn/articles/2025-10-21/4099501.html",
-        "source": "www.nbd.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "德州市可信数据空间一期项目中标公告丨光速招标海量免费标讯",
-        "summary": "2026年3月11日 - 一、项目名称:德州市可信数据空间一期项目 二、招标项目编号:DZSLCGC-202600064001 三、招标公告发布日期:2026年02月11日 四、开标时间:2026年03月05...",
-        "url": "https://www.guangsuzb.com/succeed_v_2031568257418186760.html",
-        "source": "www.guangsuzb.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
       }
     ],
     "其他行业": [
@@ -259,84 +125,19 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "新能源": [
+    "AI智能": [
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
-        "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
-        "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
-        "source": "news.dichan.sina.com.cn",
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "宏远创信 新闻 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 昆钢矿业板块2026年电力市场化采购电量及服务项目本昆钢矿业板块 2026 年电力市场化采购电量及服务项目(标段(包)编号:0721-2566D359-B13-757/01),经评...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "宏远创信 新闻 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司 - 企查查",
-        "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
-        "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
-        "source": "www.qcc.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "宏远创信 新闻 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "微信，是一个生活方式",
-        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-        "url": "https://weixin.qq.com/",
-        "source": "weixin.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -392,6 +193,62 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "微信，是一个生活方式",
+        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+        "url": "https://weixin.qq.com/",
+        "source": "weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -409,58 +266,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-      "source": "fund.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "6250万元!高新区企业中标省外一可信数据空间基础设施项目",
-      "summary": "近日,总部位于贵阳市高新区的中电科大数据研究院有限公司(以下简称中电科大数据院)及联合体成员成功中标《唐山市路南区可信数据空间基础设...",
-      "url": "https://gxq.guiyang.gov.cn/gxqdt/gxqdtmtkgx/202510/t20251028_88735204.html",
-      "source": "gxq.guiyang.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "神思电子:中标约1.61亿元可信数据空间建设项目|中电|联合体_网易订阅",
-      "summary": "神思电子:中标约1.61亿元可信数据空间建设项目,中电,联合体,神思电子,数据空间 分享至 用微信扫码二维码 分享至好友和朋友圈 人民财讯10月21日电,神思...",
-      "url": "https://www.163.com/dy/article/KCDTL9CH053469RG.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
-      "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
-      "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.5,
-      "query": "海特高新 新闻 2026"
-    },
-    {
       "code": "凯茜",
       "company": "凯茜",
       "industry": "其他行业",
@@ -472,110 +277,6 @@
       "fetched_at": "2026-08-20",
       "score": 4.5,
       "query": "凯茜 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
-      "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
-      "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
-      "source": "news.dichan.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "宏远创信 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 昆钢矿业板块2026年电力市场化采购电量及服务项目本昆钢矿业板块 2026 年电力市场化采购电量及服务项目(标段(包)编号:0721-2566D359-B13-757/01),经评...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "宏远创信 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司 - 企查查",
-      "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
-      "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
-      "source": "www.qcc.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "宏远创信 新闻 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
-      "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
-      "url": "https://xueqiu.com/9057196330/393340560",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-      "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-      "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-      "source": "finance.sina.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "神思电子:中标可信数据空间建设项目 | 每经网",
-      "summary": "每经AI快讯,神思电子10月21日晚间发布公告称,近日,济南市公共资源交易中心发布《济南城市可信数据空间建设项目中标候选人公示》,公司作为牵头单位与中...",
-      "url": "https://www.nbd.com.cn/articles/2025-10-21/4099501.html",
-      "source": "www.nbd.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "德州市可信数据空间一期项目中标公告丨光速招标海量免费标讯",
-      "summary": "2026年3月11日 - 一、项目名称:德州市可信数据空间一期项目 二、招标项目编号:DZSLCGC-202600064001 三、招标公告发布日期:2026年02月11日 四、开标时间:2026年03月05...",
-      "url": "https://www.guangsuzb.com/succeed_v_2031568257418186760.html",
-      "source": "www.guangsuzb.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -615,6 +316,19 @@
       "fetched_at": "2026-08-20",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 3.0,
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -682,6 +396,32 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "微信，是一个生活方式",
+      "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+      "url": "https://weixin.qq.com/",
+      "source": "weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -719,32 +459,6 @@
       "fetched_at": "2026-08-20",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "微信，是一个生活方式",
-      "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-      "url": "https://weixin.qq.com/",
-      "source": "weixin.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
