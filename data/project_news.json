@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:49:45+08:00",
+  "generated_at": "2026-08-19T10:00:54+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 18,
@@ -112,10 +112,64 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
+    "REITS类资产": [
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "REITs专栏 | 上海证券交易所",
+        "summary": "6 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "url": "https://www.sse.com.cn/reits/home/",
+        "source": "www.sse.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "unicom-idc",
+        "company": "四川 IDC",
+        "industry": "REITS类资产",
+        "title": "公募REITs信息平台-首页",
+        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+        "url": "https://reits.szse.cn/",
+        "source": "reits.szse.cn",
+        "date": "",
+        "fetched_at": "2026-08-19",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
         "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
@@ -127,8 +181,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -140,8 +194,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -194,60 +248,6 @@
         "fetched_at": "2026-08-19",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "REITS类资产": [
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "QQ邮箱 - 第一步：选择邮箱账号 - 注册邮箱账号",
-        "summary": "注：邮箱账号注册成功后将不能更改。 您的邮箱账号应该由a～z的英文字母（不区分大小写）开头； 可由英文字母、0～9的数字（但 …",
-        "url": "https://mail.qq.com/cgi-bin/loginpage?t=reg_mailaddress",
-        "source": "mail.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "QQ邮箱帮助系统",
-        "summary": "你微信中的「QQ邮箱提醒」绑定已失效，失效的原因可能是： 1.你曾经更改QQ邮箱的登录密码或者独立密码 2.你在QQ邮箱的设备管 …",
-        "url": "https://help.mail.qq.com/detail/0/1002",
-        "source": "help.mail.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "QQ邮箱 - 如何获得一个QQ邮箱？",
-        "summary": "该邮箱地址自动绑定一个由系统生成的新QQ号码，并且作为QQ主显账号，可用来登录QQ； 注意，申请的英文邮箱地址，不可与系统 …",
-        "url": "https://mail.qq.com/cgi-bin/loginpage?t=regist",
-        "source": "mail.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "huitian",
-        "company": "汇天科技",
-        "industry": "REITS类资产",
-        "title": "登录foxmail.com邮箱",
-        "summary": "安全、稳定、快速、便捷的免费电子邮箱。强大的反垃圾邮件过滤，10G超大附件发送，轻松管理所有电子发票，尽在QQ邮箱。 打开 …",
-        "url": "https://mail.qq.com/cgi-bin/loginpage?t=fox_loginpage",
-        "source": "mail.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
       }
     ]
   },
@@ -357,8 +357,21 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+      "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+      "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空经济观察｜《低空经济发展报告（2025-2026）》发布",
       "summary": "2026年1月24日 · 新华网组建低空经济产业创新研究院，定位低空经济产业高端交流协作平台，致力于打造国家级低空经济产业高端智 …",
@@ -396,6 +409,45 @@
       "query": "新能源 行业 政策 2026"
     },
     {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "REITs专栏 | 上海证券交易所",
+      "summary": "6 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "url": "https://www.sse.com.cn/reits/home/",
+      "source": "www.sse.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+      "url": "https://www.sohu.com/a/960605326_121140836",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "unicom-idc",
+      "company": "四川 IDC",
+      "industry": "REITS类资产",
+      "title": "公募REITs信息平台-首页",
+      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+      "url": "https://reits.szse.cn/",
+      "source": "reits.szse.cn",
+      "date": "",
+      "fetched_at": "2026-08-19",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
       "code": "acquisition-listed",
       "company": "收购上市公司研究",
       "industry": "其他行业",
@@ -409,60 +461,8 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "QQ邮箱 - 第一步：选择邮箱账号 - 注册邮箱账号",
-      "summary": "注：邮箱账号注册成功后将不能更改。 您的邮箱账号应该由a～z的英文字母（不区分大小写）开头； 可由英文字母、0～9的数字（但 …",
-      "url": "https://mail.qq.com/cgi-bin/loginpage?t=reg_mailaddress",
-      "source": "mail.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "QQ邮箱帮助系统",
-      "summary": "你微信中的「QQ邮箱提醒」绑定已失效，失效的原因可能是： 1.你曾经更改QQ邮箱的登录密码或者独立密码 2.你在QQ邮箱的设备管 …",
-      "url": "https://help.mail.qq.com/detail/0/1002",
-      "source": "help.mail.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "QQ邮箱 - 如何获得一个QQ邮箱？",
-      "summary": "该邮箱地址自动绑定一个由系统生成的新QQ号码，并且作为QQ主显账号，可用来登录QQ； 注意，申请的英文邮箱地址，不可与系统 …",
-      "url": "https://mail.qq.com/cgi-bin/loginpage?t=regist",
-      "source": "mail.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "huitian",
-      "company": "汇天科技",
-      "industry": "REITS类资产",
-      "title": "登录foxmail.com邮箱",
-      "summary": "安全、稳定、快速、便捷的免费电子邮箱。强大的反垃圾邮件过滤，10G超大附件发送，轻松管理所有电子发票，尽在QQ邮箱。 打开 …",
-      "url": "https://mail.qq.com/cgi-bin/loginpage?t=fox_loginpage",
-      "source": "mail.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -474,8 +474,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
