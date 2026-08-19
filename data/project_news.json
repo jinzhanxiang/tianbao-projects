@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T17:06:32+08:00",
+  "generated_at": "2026-08-19T17:19:53+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 11,
   "by_industry": {
     "高端制造": [
       {
@@ -48,10 +48,10 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "江苏华阳智能装备股份有限公司",
-        "summary": "2024年2月2日 · 江苏华阳智能装备股份有限公司, 企业主要以生产微电机，水泵，电子膨胀阀,离心泵,步进电机,同步电机,齿轮组件,PM …",
-        "url": "https://cn-huayang.com/",
-        "source": "cn-huayang.com",
+        "title": "华阳集团人力资源招聘系统",
+        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+        "url": "https://zhaopin.ymjt.com.cn/index.html",
+        "source": "zhaopin.ymjt.com.cn",
         "date": "",
         "fetched_at": "2026-08-19",
         "score": 3.0,
@@ -158,34 +158,6 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
-    ],
-    "REITS类资产": [
-      {
-        "code": "山西联动云",
-        "company": "山西联动云",
-        "industry": "REITS类资产",
-        "title": "推荐动漫大赏202338部不容错过的3D动画佳作_作品_成为了 ...",
-        "summary": "2023年11月4日 · 随着科技的发展和人们对视觉体验的需求不断提高，3D动画已经成为了动漫领域的一股新兴力量。今天，我们就为大 …",
-        "url": "https://www.sohu.com/a/733818509_121769698",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "山西联动云",
-        "company": "山西联动云",
-        "industry": "REITS类资产",
-        "title": "《国漫热播》3D动漫番_动漫_高清完整版视频在线观看_腾讯视频",
-        "summary": "《《国漫热播》3D动漫番》高清在线观看，剧情简介:《国漫热播》3D动漫番，解读不一样的国漫新番。 《大猿魂》生死兄弟变杀戮 …",
-        "url": "https://v.qq.com/x/cover/mzc003gccqy22em.html",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-19",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -232,10 +204,10 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "江苏华阳智能装备股份有限公司",
-      "summary": "2024年2月2日 · 江苏华阳智能装备股份有限公司, 企业主要以生产微电机，水泵，电子膨胀阀,离心泵,步进电机,同步电机,齿轮组件,PM …",
-      "url": "https://cn-huayang.com/",
-      "source": "cn-huayang.com",
+      "title": "华阳集团人力资源招聘系统",
+      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+      "url": "https://zhaopin.ymjt.com.cn/index.html",
+      "source": "zhaopin.ymjt.com.cn",
       "date": "",
       "fetched_at": "2026-08-19",
       "score": 3.0,
@@ -331,32 +303,6 @@
       "fetched_at": "2026-08-19",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "山西联动云",
-      "company": "山西联动云",
-      "industry": "REITS类资产",
-      "title": "推荐动漫大赏202338部不容错过的3D动画佳作_作品_成为了 ...",
-      "summary": "2023年11月4日 · 随着科技的发展和人们对视觉体验的需求不断提高，3D动画已经成为了动漫领域的一股新兴力量。今天，我们就为大 …",
-      "url": "https://www.sohu.com/a/733818509_121769698",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "山西联动云",
-      "company": "山西联动云",
-      "industry": "REITS类资产",
-      "title": "《国漫热播》3D动漫番_动漫_高清完整版视频在线观看_腾讯视频",
-      "summary": "《《国漫热播》3D动漫番》高清在线观看，剧情简介:《国漫热播》3D动漫番，解读不一样的国漫新番。 《大猿魂》生死兄弟变杀戮 …",
-      "url": "https://v.qq.com/x/cover/mzc003gccqy22em.html",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-19",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
