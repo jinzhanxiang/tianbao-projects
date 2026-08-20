@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T18:21:17+08:00",
+  "generated_at": "2026-08-20T18:32:35+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 15,
   "by_industry": {
     "高端制造": [
       {
@@ -198,45 +198,6 @@
     ],
     "其他行业": [
       {
-        "code": "000711-ST京蓝",
-        "company": "000711-ST京蓝",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "000711-ST京蓝",
-        "company": "000711-ST京蓝",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-        "source": "znyncj.qiannan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "000711-ST京蓝",
-        "company": "000711-ST京蓝",
-        "industry": "其他行业",
-        "title": "我国明确鼓励细胞治疗行业发展!2026年国家及多省市细胞治疗行业政策及解读_临床_应用_药品",
-        "summary": "2026年4月13日 - 新闻体育汽车房产旅游教育时尚科技财经娱乐我国明确鼓励细胞治疗行业发展!2026年国家及多省市细胞治疗行业政策及解读 卡森细胞文章 总阅读 查看TA的文...",
-        "url": "https://www.sohu.com/a/1008786421_121195515",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
         "code": "乘杜科技",
         "company": "乘杜科技",
         "industry": "其他行业",
@@ -355,45 +316,6 @@
       "fetched_at": "2026-08-20",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "000711-ST京蓝",
-      "company": "000711-ST京蓝",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "000711-ST京蓝",
-      "company": "000711-ST京蓝",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-      "source": "znyncj.qiannan.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "000711-ST京蓝",
-      "company": "000711-ST京蓝",
-      "industry": "其他行业",
-      "title": "我国明确鼓励细胞治疗行业发展!2026年国家及多省市细胞治疗行业政策及解读_临床_应用_药品",
-      "summary": "2026年4月13日 - 新闻体育汽车房产旅游教育时尚科技财经娱乐我国明确鼓励细胞治疗行业发展!2026年国家及多省市细胞治疗行业政策及解读 卡森细胞文章 总阅读 查看TA的文...",
-      "url": "https://www.sohu.com/a/1008786421_121195515",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "hongyuan",
