@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-21T04:37:57+08:00",
+  "generated_at": "2026-08-21T04:47:04+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 19,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投|融资_新浪科技_新浪网",
-        "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
-        "url": "https://tech.sina.com.cn/roll/2019-12-16/doc-iihnzahi7918847.shtml",
-        "source": "tech.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-        "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
-        "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
-        "source": "www.cbi360.net",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
-        "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
-        "source": "qy.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
-        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
-        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
-        "source": "hainan.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -320,19 +266,6 @@
   },
   "items": [
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投|融资_新浪科技_新浪网",
-      "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
-      "url": "https://tech.sina.com.cn/roll/2019-12-16/doc-iihnzahi7918847.shtml",
-      "source": "tech.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -344,45 +277,6 @@
       "fetched_at": "2026-08-21",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-      "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
-      "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
-      "source": "www.cbi360.net",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
-      "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
-      "source": "qy.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
-      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
-      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
-      "source": "hainan.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
