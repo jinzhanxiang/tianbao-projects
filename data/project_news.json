@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T17:35:18+08:00",
+  "generated_at": "2026-08-20T17:46:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 18,
   "by_industry": {
     "高端制造": [
       {
@@ -73,26 +73,39 @@
         "query": "可信数据空间 新闻 2026"
       },
       {
-        "code": "可信数据空间_整合方案_乘杜+觅蜂",
-        "company": "可信数据空间_整合方案_乘杜+觅蜂",
+        "code": "kexin",
+        "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "qq邮箱下载-腾讯qq邮箱官网版app下载-应用宝官网",
-        "summary": "9 小时之前 · 【QQ邮箱】是一款全面支持邮件通用协议的邮箱管理软件，可以协助你在电脑上管理你的所有邮箱。 你可以通过应用宝 …",
-        "url": "https://sj.qq.com/appdetail/com.tencent.androidqqmail",
-        "source": "sj.qq.com",
+        "title": "国家税务总局广东省电子税务局",
+        "summary": "广东省电子税务局提供在线税务服务，包括信息查询、业务办理和政策解读。",
+        "url": "https://etax.guangdong.chinatax.gov.cn/web-ssws/dzspController/dzsp/dzspCyInit.do",
+        "source": "etax.guangdong.chinatax.gov.cn",
         "date": "",
         "fetched_at": "2026-08-20",
-        "score": 1.5,
+        "score": 2.5,
         "query": "AI智能 行业 政策 2026"
       },
       {
-        "code": "可信数据空间_整合方案_乘杜+觅蜂",
-        "company": "可信数据空间_整合方案_乘杜+觅蜂",
+        "code": "kexin",
+        "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "QQ邮箱帮助系统",
-        "summary": "为什么我用Outlook客户端收信后网页端的收件箱里的邮件被删除了？",
-        "url": "https://service.mail.qq.com/",
-        "source": "service.mail.qq.com",
+        "title": "国家税务总局广东省电子税务局",
+        "summary": "2023年12月26日 · 广东省电子税务局是一个在线平台，提供税务办理、政策解读和相关服务，方便纳税人进行税务操作和信息查询。",
+        "url": "https://etax.guangdong.chinatax.gov.cn/xxmh/html/loading.html",
+        "source": "etax.guangdong.chinatax.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 2.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "国家税务总局电子税务局",
+        "summary": "2026年7月28日 · 居民企业（查账征收）企业所得税月（季）度申... 实行查账征收方式的企业在月或季度终了之日起15日内，进行月（ …",
+        "url": "https://etax.guangdong.chinatax.gov.cn:8443/",
+        "source": "etax.guangdong.chinatax.gov.cn",
         "date": "",
         "fetched_at": "2026-08-20",
         "score": 1.5,
@@ -129,8 +142,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -142,8 +155,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -155,8 +168,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -318,8 +331,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -329,6 +342,32 @@
       "fetched_at": "2026-08-20",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "国家税务总局广东省电子税务局",
+      "summary": "广东省电子税务局提供在线税务服务，包括信息查询、业务办理和政策解读。",
+      "url": "https://etax.guangdong.chinatax.gov.cn/web-ssws/dzspController/dzsp/dzspCyInit.do",
+      "source": "etax.guangdong.chinatax.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 2.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "国家税务总局广东省电子税务局",
+      "summary": "2023年12月26日 · 广东省电子税务局是一个在线平台，提供税务办理、政策解读和相关服务，方便纳税人进行税务操作和信息查询。",
+      "url": "https://etax.guangdong.chinatax.gov.cn/xxmh/html/loading.html",
+      "source": "etax.guangdong.chinatax.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 2.5,
+      "query": "AI智能 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -357,6 +396,32 @@
       "query": "新能源 行业 政策 2026"
     },
     {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "低空司-国家发展和改革委员会",
+      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+      "source": "www.ndrc.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 1.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+      "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+      "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+      "source": "www.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 1.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
       "code": "乘杜科技",
       "company": "乘杜科技",
       "industry": "其他行业",
@@ -370,52 +435,13 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "低空司-国家发展和改革委员会",
-      "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-      "source": "www.ndrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 1.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-      "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-      "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-      "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 1.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "可信数据空间_整合方案_乘杜+觅蜂",
-      "company": "可信数据空间_整合方案_乘杜+觅蜂",
+      "code": "kexin",
+      "company": "可信数据空间",
       "industry": "AI智能",
-      "title": "qq邮箱下载-腾讯qq邮箱官网版app下载-应用宝官网",
-      "summary": "9 小时之前 · 【QQ邮箱】是一款全面支持邮件通用协议的邮箱管理软件，可以协助你在电脑上管理你的所有邮箱。 你可以通过应用宝 …",
-      "url": "https://sj.qq.com/appdetail/com.tencent.androidqqmail",
-      "source": "sj.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "可信数据空间_整合方案_乘杜+觅蜂",
-      "company": "可信数据空间_整合方案_乘杜+觅蜂",
-      "industry": "AI智能",
-      "title": "QQ邮箱帮助系统",
-      "summary": "为什么我用Outlook客户端收信后网页端的收件箱里的邮件被删除了？",
-      "url": "https://service.mail.qq.com/",
-      "source": "service.mail.qq.com",
+      "title": "国家税务总局电子税务局",
+      "summary": "2026年7月28日 · 居民企业（查账征收）企业所得税月（季）度申... 实行查账征收方式的企业在月或季度终了之日起15日内，进行月（ …",
+      "url": "https://etax.guangdong.chinatax.gov.cn:8443/",
+      "source": "etax.guangdong.chinatax.gov.cn",
       "date": "",
       "fetched_at": "2026-08-20",
       "score": 1.5,
