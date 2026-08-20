@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T15:59:52+08:00",
+  "generated_at": "2026-08-20T16:11:12+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -58,20 +58,76 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "新能源": [
+    "生物医药": [
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-        "source": "finance.sina.com.cn",
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械项目落地嘉定签约仪式成功举行_腾讯新闻",
+        "summary": "11月18日下午,国药器械项目落地嘉定签约仪式成功举办.国药控股股份有限公司党委委员、副总裁、中国医疗器械有限公司董事长李杨,中国医疗器械...",
+        "url": "https://news.qq.com/rain/a/20241119A0962100",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-20",
-        "score": 3.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 5.5,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
       },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告丨光速招标海量免费标讯",
+        "summary": "2026年1月14日 - 国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告..中标公告重庆市合川区2026-01-14微信查看...",
+        "url": "https://www.guangsuzb.com/succeed_v_2011328649925414921.html",
+        "source": "www.guangsuzb.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械医药中标信息_知了标讯",
+        "summary": "2026年1月19日 - 知了标讯为您提供国药器械(山东)医药科技有限公司完善的历史中标信息,为您筛选展示包含中标类型,中标产品,项目地区等在内的详细采购信息。随时随地了...",
+        "url": "https://www.zhiliaobiaoxun.com/networkmap/b2/i480854429.html",
+        "source": "www.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械山东医学检验有限公司最新中标公告|招标网",
+        "summary": "2025年11月5日 - 招标网提供有关国药器械山东医学检验有限公司的最新招标结果,每天实时更新中标信息,想了解国药器械山东医学检验有限公司更多详细动态,精准匹配供应商...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_4d8b8efc558109cb68a0599584db6603_zhongbiao.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "新能源": [
       {
         "code": "hongyuan",
         "company": "宏远创信",
@@ -89,55 +145,14 @@
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "新能源",
-        "title": "新能源汽车发展态势明确,2026年或实施三大政策",
-        "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
-        "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
-        "source": "ai.so.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
-        "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
-        "url": "https://www.toutiao.com/article/7616707417639813642/",
-        "source": "www.toutiao.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
         "title": "新浪网",
-        "summary": "7 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
+        "summary": "8 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
         "url": "https://www.sina.com.cn/",
         "source": "www.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-20",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
       }
     ],
     "低空航空": [
@@ -237,8 +252,8 @@
     ],
     "其他行业": [
       {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
+        "code": "奥联电子",
+        "company": "奥联电子",
         "industry": "其他行业",
         "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
         "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
@@ -266,17 +281,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-      "source": "finance.sina.com.cn",
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械项目落地嘉定签约仪式成功举行_腾讯新闻",
+      "summary": "11月18日下午,国药器械项目落地嘉定签约仪式成功举办.国药控股股份有限公司党委委员、副总裁、中国医疗器械有限公司董事长李杨,中国医疗器械...",
+      "url": "https://news.qq.com/rain/a/20241119A0962100",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-20",
-      "score": 3.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 5.5,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告丨光速招标海量免费标讯",
+      "summary": "2026年1月14日 - 国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告..中标公告重庆市合川区2026-01-14微信查看...",
+      "url": "https://www.guangsuzb.com/succeed_v_2011328649925414921.html",
+      "source": "www.guangsuzb.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械医药中标信息_知了标讯",
+      "summary": "2026年1月19日 - 知了标讯为您提供国药器械(山东)医药科技有限公司完善的历史中标信息,为您筛选展示包含中标类型,中标产品,项目地区等在内的详细采购信息。随时随地了...",
+      "url": "https://www.zhiliaobiaoxun.com/networkmap/b2/i480854429.html",
+      "source": "www.zhiliaobiaoxun.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械山东医学检验有限公司最新中标公告|招标网",
+      "summary": "2025年11月5日 - 招标网提供有关国药器械山东医学检验有限公司的最新招标结果,每天实时更新中标信息,想了解国药器械山东医学检验有限公司更多详细动态,精准匹配供应商...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_4d8b8efc558109cb68a0599584db6603_zhongbiao.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -373,26 +427,13 @@
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "新能源汽车发展态势明确,2026年或实施三大政策",
-      "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
-      "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
-      "source": "ai.so.com",
+      "title": "新浪网",
+      "summary": "8 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-20",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
-      "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
-      "url": "https://www.toutiao.com/article/7616707417639813642/",
-      "source": "www.toutiao.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 2.0,
+      "score": 1.5,
       "query": "新能源 行业 政策 2026"
     },
     {
@@ -422,8 +463,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
+      "code": "奥联电子",
+      "company": "奥联电子",
       "industry": "其他行业",
       "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
       "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
@@ -433,19 +474,6 @@
       "fetched_at": "2026-08-20",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "新浪网",
-      "summary": "7 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
