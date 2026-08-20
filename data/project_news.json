@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T14:57:58+08:00",
+  "generated_at": "2026-08-20T15:10:41+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 15,
   "by_industry": {
     "高端制造": [
       {
@@ -58,34 +58,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "其他行业": [
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-        "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-        "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-        "source": "www.jiansheku.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "\"凯茜\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
-    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -120,7 +92,7 @@
         "company": "宏远创信",
         "industry": "新能源",
         "title": "新浪网",
-        "summary": "6 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
+        "summary": "7 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
         "url": "https://www.sina.com.cn/",
         "source": "www.sina.com.cn",
         "date": "",
@@ -214,14 +186,29 @@
         "code": "联通云山西",
         "company": "联通云山西",
         "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
+        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+        "source": "www.csrc.gov.cn",
         "date": "",
         "fetched_at": "2026-08-20",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ]
   },
@@ -238,19 +225,6 @@
       "fetched_at": "2026-08-20",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-      "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-      "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-      "source": "www.jiansheku.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "\"凯茜\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -348,7 +322,7 @@
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新浪网",
-      "summary": "6 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
+      "summary": "7 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
       "url": "https://www.sina.com.cn/",
       "source": "www.sina.com.cn",
       "date": "",
@@ -425,10 +399,10 @@
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
+      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+      "source": "www.csrc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-20",
       "score": 1.5,
