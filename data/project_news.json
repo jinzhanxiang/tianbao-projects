@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T00:52:54+08:00",
+  "generated_at": "2026-08-21T01:09:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -58,59 +58,117 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
+    "AI智能": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
-        "summary": "月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
-        "url": "https://news.qq.com/rain/a/20240919A09S0W00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.5,
-        "query": "航天精工 新闻 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
-        "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
-        "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
-        "source": "www.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.5,
-        "query": "航天精工 新闻 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "航天精工本部泛微协同办公平台2026年第一批运维服务项目-今日招标",
-        "summary": "2026年5月21日 - 航天精工股份有限公司2026-05-21发布了航天精工本部泛微协同办公平台2026年第一批运维服务项目的招标的公告 千万级信息查询 实时搜索海量招投标信息 ...",
-        "url": "https://www.jrzb.cn/bidDetail/01D93A75837C43CD91C792631ED3B204.html",
-        "source": "www.jrzb.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "航天精工 新闻 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
-        "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
-        "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
-        "source": "k.sina.cn",
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 3.0,
-        "query": "航天精工 新闻 2026"
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
+        "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
+        "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
+        "source": "mzh.moegirl.org.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "\"凯茜\" 公告 签约 中标 投资"
       },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "凯茜qaq的个人空间-凯茜qaq个人主页-哔哩哔哩视频",
+        "summary": "哔哩哔哩凯茜qaq的个人空间，提供凯茜qaq分享的视频、音频、文章、动态、收藏等内容，关注凯茜qaq账号，第一时间了解UP主动 …",
+        "url": "https://space.bilibili.com/18043692",
+        "source": "space.bilibili.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "\"凯茜\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "29岁女创始人要“设计婴儿”，中外科学界“紧急劝退”：别乱搞 ...",
+        "summary": "2025年11月4日 · 她叫凯茜·蒂（Cathy Tie），18岁辍学创业。如今，她将自己的新公司命名为“曼哈顿基因组”，毫不掩饰地将其与制造 …",
+        "url": "https://finance.sina.com.cn/stock/t/2025-11-04/doc-infwfawz5455331.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "\"凯茜\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+        "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+        "url": "https://zhuanlan.zhihu.com/p/608603193",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "\"凯茜\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "17 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "低空航空": [
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -149,116 +207,6 @@
         "fetched_at": "2026-08-21",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
-        "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
-        "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
-        "source": "mzh.moegirl.org.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
-      },
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "凯茜qaq的个人空间-凯茜qaq个人主页-哔哩哔哩视频",
-        "summary": "哔哩哔哩凯茜qaq的个人空间，提供凯茜qaq分享的视频、音频、文章、动态、收藏等内容，关注凯茜qaq账号，第一时间了解UP主动 …",
-        "url": "https://space.bilibili.com/18043692",
-        "source": "space.bilibili.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
-      },
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "29岁女创始人要“设计婴儿”，中外科学界“紧急劝退”：别乱搞 ...",
-        "summary": "2025年11月4日 · 她叫凯茜·蒂（Cathy Tie），18岁辍学创业。如今，她将自己的新公司命名为“曼哈顿基因组”，毫不掩饰地将其与制造 …",
-        "url": "https://finance.sina.com.cn/stock/t/2025-11-04/doc-infwfawz5455331.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
-      },
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
-        "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
-        "url": "https://zhuanlan.zhihu.com/p/608603193",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
-      },
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "16 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -331,45 +279,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
-      "summary": "月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
-      "url": "https://news.qq.com/rain/a/20240919A09S0W00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.5,
-      "query": "航天精工 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
-      "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
-      "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.5,
-      "query": "航天精工 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "航天精工本部泛微协同办公平台2026年第一批运维服务项目-今日招标",
-      "summary": "2026年5月21日 - 航天精工股份有限公司2026-05-21发布了航天精工本部泛微协同办公平台2026年第一批运维服务项目的招标的公告 千万级信息查询 实时搜索海量招投标信息 ...",
-      "url": "https://www.jrzb.cn/bidDetail/01D93A75837C43CD91C792631ED3B204.html",
-      "source": "www.jrzb.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "航天精工 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -409,19 +318,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
-      "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
-      "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
-      "source": "k.sina.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 3.0,
-      "query": "航天精工 新闻 2026"
-    },
-    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -445,7 +341,7 @@
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 3.0,
-      "query": "凯茜 新闻 2026"
+      "query": "\"凯茜\" 公告 签约 中标 投资"
     },
     {
       "code": "凯茜",
@@ -458,7 +354,7 @@
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 3.0,
-      "query": "凯茜 新闻 2026"
+      "query": "\"凯茜\" 公告 签约 中标 投资"
     },
     {
       "code": "凯茜",
@@ -471,7 +367,7 @@
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 3.0,
-      "query": "凯茜 新闻 2026"
+      "query": "\"凯茜\" 公告 签约 中标 投资"
     },
     {
       "code": "凯茜",
@@ -484,7 +380,7 @@
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 3.0,
-      "query": "凯茜 新闻 2026"
+      "query": "\"凯茜\" 公告 签约 中标 投资"
     },
     {
       "code": "hongyuan",
@@ -530,7 +426,7 @@
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新浪网",
-      "summary": "16 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
+      "summary": "17 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
       "url": "https://www.sina.com.cn/",
       "source": "www.sina.com.cn",
       "date": "",
