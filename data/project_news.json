@@ -1,115 +1,9 @@
 {
-  "generated_at": "2026-08-20T20:19:09+08:00",
+  "generated_at": "2026-08-20T20:31:27+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 15,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-        "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-        "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-        "source": "www.tht.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
-        "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
-        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-        "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-        "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 6.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-        "source": "www.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-        "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
-        "url": "https://www.elecfans.com/d/8045816.html",
-        "source": "www.elecfans.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
-        "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
-        "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
-        "source": "news.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 5.0,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
-        "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
-        "url": "http://www.yejibang.com/news-details-786.html",
-        "source": "www.yejibang.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 4.0,
-        "query": "晶能光电 新闻 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -304,8 +198,8 @@
     ],
     "其他行业": [
       {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
+        "code": "奥联电子",
+        "company": "奥联电子",
         "industry": "其他行业",
         "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
         "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
@@ -320,58 +214,6 @@
   },
   "items": [
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-      "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-      "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-      "source": "www.tht.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
-      "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
-      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-      "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-      "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 6.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -383,58 +225,6 @@
       "fetched_at": "2026-08-20",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-      "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
-      "url": "https://www.elecfans.com/d/8045816.html",
-      "source": "www.elecfans.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
-      "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
-      "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
-      "source": "news.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 5.0,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
-      "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
-      "url": "http://www.yejibang.com/news-details-786.html",
-      "source": "www.yejibang.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 4.0,
-      "query": "晶能光电 新闻 2026"
     },
     {
       "code": "huayt",
@@ -567,8 +357,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
+      "code": "奥联电子",
+      "company": "奥联电子",
       "industry": "其他行业",
       "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
       "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
