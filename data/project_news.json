@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T11:31:44+08:00",
+  "generated_at": "2026-08-20T11:43:59+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 16,
@@ -73,34 +73,6 @@
         "query": "可信数据空间 新闻 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "新能源": [
       {
         "code": "hongyuan",
@@ -127,6 +99,34 @@
         "fetched_at": "2026-08-20",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -185,8 +185,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -198,8 +198,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -294,19 +294,6 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -318,6 +305,19 @@
       "fetched_at": "2026-08-20",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -333,8 +333,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -359,8 +359,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -372,8 +372,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
