@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T05:15:18+08:00",
+  "generated_at": "2026-08-21T05:24:50+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -63,6 +63,19 @@
         "code": "凯茜",
         "company": "凯茜",
         "industry": "其他行业",
+        "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
+        "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
+        "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
+        "source": "www.jiansheku.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 4.0,
+        "query": "\"凯茜\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
         "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
         "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
         "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
@@ -99,17 +112,43 @@
         "query": "凯茜 新闻 2026"
       },
       {
-        "code": "凯茜",
-        "company": "凯茜",
+        "code": "鸿翼",
+        "company": "鸿翼",
         "industry": "其他行业",
-        "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
-        "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
-        "url": "https://zhuanlan.zhihu.com/p/608603193",
-        "source": "zhuanlan.zhihu.com",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+        "source": "znyncj.qiannan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "我国明确鼓励细胞治疗行业发展!2026年国家及多省市细胞治疗行业政策及解读_临床_应用_药品",
+        "summary": "2026年4月13日 - 新闻体育汽车房产旅游教育时尚科技财经娱乐我国明确鼓励细胞治疗行业发展!2026年国家及多省市细胞治疗行业政策及解读 卡森细胞文章 总阅读 查看TA的文...",
+        "url": "https://www.sohu.com/a/1008786421_121195515",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
       },
       {
         "code": "乘杜科技",
@@ -123,6 +162,21 @@
         "fetched_at": "2026-08-21",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "新能源": [
@@ -162,32 +216,6 @@
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
         "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
         "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "青岛直升机收购",
-        "company": "青岛直升机收购",
-        "industry": "低空航空",
-        "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
-        "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
-        "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
-        "source": "m.163.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "青岛直升机收购",
-        "company": "青岛直升机收购",
-        "industry": "低空航空",
-        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 2.5,
@@ -290,6 +318,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
+      "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
+      "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
+      "source": "www.jiansheku.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 4.0,
+      "query": "\"凯茜\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -327,6 +368,19 @@
       "fetched_at": "2026-08-21",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -368,19 +422,6 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
-      "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
-      "url": "https://zhuanlan.zhihu.com/p/608603193",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 3.0,
-      "query": "凯茜 新闻 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -407,30 +448,43 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "青岛直升机收购",
-      "company": "青岛直升机收购",
-      "industry": "低空航空",
-      "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
-      "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
-      "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
-      "source": "m.163.com",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
+      "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "青岛直升机收购",
-      "company": "青岛直升机收购",
-      "industry": "低空航空",
-      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-      "source": "www.163.com",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+      "source": "znyncj.qiannan.gov.cn",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "我国明确鼓励细胞治疗行业发展!2026年国家及多省市细胞治疗行业政策及解读_临床_应用_药品",
+      "summary": "2026年4月13日 - 新闻体育汽车房产旅游教育时尚科技财经娱乐我国明确鼓励细胞治疗行业发展!2026年国家及多省市细胞治疗行业政策及解读 卡森细胞文章 总阅读 查看TA的文...",
+      "url": "https://www.sohu.com/a/1008786421_121195515",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "联通云山西",
