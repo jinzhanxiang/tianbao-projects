@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T07:17:38+08:00",
+  "generated_at": "2026-08-21T07:28:02+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 19,
+  "total": 23,
   "by_industry": {
     "高端制造": [
       {
@@ -58,54 +58,123 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+        "source": "www.vzkoo.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+        "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+        "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
     "其他行业": [
       {
         "code": "凯茜",
         "company": "凯茜",
         "industry": "其他行业",
-        "title": "央视直播!2026女足亚洲杯小组赛赛程公布,韩国女足将迎战伊朗女足_比赛_中场_凯茜·费尔",
-        "summary": "主帅申相又采用4-2-3-1阵型,多名归国留洋球员保证了球队的深厚实力,核心中场池笑然和前锋凯茜·费尔发挥攻防带头作用.2026年女足亚洲杯的激...",
-        "url": "https://news.sohu.com/a/991830632_122376425",
-        "source": "news.sohu.com",
+        "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
+        "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
+        "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
+        "source": "mzh.moegirl.org.cn",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 4.5,
+        "score": 3.0,
         "query": "凯茜 新闻 2026"
       },
       {
         "code": "凯茜",
         "company": "凯茜",
         "industry": "其他行业",
-        "title": "《呼啸山庄》新片段曝光,凯茜接受林顿求婚却心系希斯克利夫|雅各布·艾洛蒂|玛格特·罗比|前程似锦的女孩|萨特本|埃默拉尔德·芬内尔_新浪新闻",
-        "summary": "简介：#呼啸山庄新片段# 由玛格特·罗比、雅各布·艾洛蒂主演的电影《呼啸山庄》今日释出新片段,凯茜(玛格特·罗比 饰)接受...",
-        "url": "https://k.sina.com.cn/article_1663735900_m632a985c03301l66u.html",
-        "source": "k.sina.com.cn",
+        "title": "凯茜qaq的个人空间-凯茜qaq个人主页-哔哩哔哩视频",
+        "summary": "哔哩哔哩凯茜qaq的个人空间，提供凯茜qaq分享的视频、音频、文章、动态、收藏等内容，关注凯茜qaq账号，第一时间了解UP主动 …",
+        "url": "https://space.bilibili.com/18043692",
+        "source": "space.bilibili.com",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 4.5,
+        "score": 3.0,
         "query": "凯茜 新闻 2026"
       },
       {
         "code": "凯茜",
         "company": "凯茜",
         "industry": "其他行业",
-        "title": "加拿大选手凯茜-夏普U池重摔受伤担架离场|体育比赛|米兰冬奥会|资格赛|u型场地技巧|冬奥会_新浪新闻",
-        "summary": "加拿大凯茜资格赛冬奥会权利保护声明页/Notice to Right Holders阅读排行榜评论排行榜01.2026年02月20日 03:41...",
-        "url": "http://k.sina.com.cn/article_6320391439_178b9850f040018e1q.html",
-        "source": "k.sina.com.cn",
+        "title": "29岁女创始人要“设计婴儿”，中外科学界“紧急劝退”：别乱搞 ...",
+        "summary": "2025年11月4日 · 她叫凯茜·蒂（Cathy Tie），18岁辍学创业。如今，她将自己的新公司命名为“曼哈顿基因组”，毫不掩饰地将其与制造 …",
+        "url": "https://finance.sina.com.cn/stock/t/2025-11-04/doc-infwfawz5455331.shtml",
+        "source": "finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 4.5,
+        "score": 3.0,
         "query": "凯茜 新闻 2026"
       },
       {
         "code": "凯茜",
         "company": "凯茜",
         "industry": "其他行业",
-        "title": "马年全球贸易和投资会发生什么?_腾讯新闻",
-        "summary": "最近看了一篇年近70岁的国际投资人凯茜·伍德针对2026年的投资演讲,觉得非常有意思.1.1 凯茜·伍德 伟大的加速 .站在2026年的门槛上回望与前...",
-        "url": "https://news.qq.com/rain/a/20260217A00BGB00",
-        "source": "news.qq.com",
+        "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+        "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+        "url": "https://zhuanlan.zhihu.com/p/608603193",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 3.0,
@@ -123,21 +192,6 @@
         "fetched_at": "2026-08-21",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
       }
     ],
     "新能源": [
@@ -279,43 +333,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "央视直播!2026女足亚洲杯小组赛赛程公布,韩国女足将迎战伊朗女足_比赛_中场_凯茜·费尔",
-      "summary": "主帅申相又采用4-2-3-1阵型,多名归国留洋球员保证了球队的深厚实力,核心中场池笑然和前锋凯茜·费尔发挥攻防带头作用.2026年女足亚洲杯的激...",
-      "url": "https://news.sohu.com/a/991830632_122376425",
-      "source": "news.sohu.com",
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-21",
-      "score": 4.5,
-      "query": "凯茜 新闻 2026"
-    },
-    {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "《呼啸山庄》新片段曝光,凯茜接受林顿求婚却心系希斯克利夫|雅各布·艾洛蒂|玛格特·罗比|前程似锦的女孩|萨特本|埃默拉尔德·芬内尔_新浪新闻",
-      "summary": "简介：#呼啸山庄新片段# 由玛格特·罗比、雅各布·艾洛蒂主演的电影《呼啸山庄》今日释出新片段,凯茜(玛格特·罗比 饰)接受...",
-      "url": "https://k.sina.com.cn/article_1663735900_m632a985c03301l66u.html",
-      "source": "k.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.5,
-      "query": "凯茜 新闻 2026"
-    },
-    {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "加拿大选手凯茜-夏普U池重摔受伤担架离场|体育比赛|米兰冬奥会|资格赛|u型场地技巧|冬奥会_新浪新闻",
-      "summary": "加拿大凯茜资格赛冬奥会权利保护声明页/Notice to Right Holders阅读排行榜评论排行榜01.2026年02月20日 03:41...",
-      "url": "http://k.sina.com.cn/article_6320391439_178b9850f040018e1q.html",
-      "source": "k.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.5,
-      "query": "凯茜 新闻 2026"
+      "score": 3.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -357,19 +385,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "马年全球贸易和投资会发生什么?_腾讯新闻",
-      "summary": "最近看了一篇年近70岁的国际投资人凯茜·伍德针对2026年的投资演讲,觉得非常有意思.1.1 凯茜·伍德 伟大的加速 .站在2026年的门槛上回望与前...",
-      "url": "https://news.qq.com/rain/a/20260217A00BGB00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 3.0,
-      "query": "凯茜 新闻 2026"
-    },
-    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -381,6 +396,58 @@
       "fetched_at": "2026-08-21",
       "score": 3.0,
       "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
+      "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
+      "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
+      "source": "mzh.moegirl.org.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "凯茜qaq的个人空间-凯茜qaq个人主页-哔哩哔哩视频",
+      "summary": "哔哩哔哩凯茜qaq的个人空间，提供凯茜qaq分享的视频、音频、文章、动态、收藏等内容，关注凯茜qaq账号，第一时间了解UP主动 …",
+      "url": "https://space.bilibili.com/18043692",
+      "source": "space.bilibili.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "29岁女创始人要“设计婴儿”，中外科学界“紧急劝退”：别乱搞 ...",
+      "summary": "2025年11月4日 · 她叫凯茜·蒂（Cathy Tie），18岁辍学创业。如今，她将自己的新公司命名为“曼哈顿基因组”，毫不掩饰地将其与制造 …",
+      "url": "https://finance.sina.com.cn/stock/t/2025-11-04/doc-infwfawz5455331.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+      "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+      "url": "https://zhuanlan.zhihu.com/p/608603193",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
     },
     {
       "code": "hongyuan",
@@ -420,6 +487,45 @@
       "fetched_at": "2026-08-21",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+      "source": "www.vzkoo.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+      "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+      "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "hongyuan",
