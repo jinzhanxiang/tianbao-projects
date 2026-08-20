@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T18:32:35+08:00",
+  "generated_at": "2026-08-20T18:44:12+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,47 @@
         "fetched_at": "2026-08-20",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
+        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
+        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
+        "source": "www.chinabidding.cn",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 3.0,
+        "query": "乘杜 新闻 2026"
+      },
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "他只对我乖 [重生]",
+        "summary": "周哲骁版本：上辈子作为盛星鸣，他拥有无数的爱，却发现那并不真实。 重生后，唯有夏驰逸这个少年，在成长的每一步都追逐着他 …",
+        "url": "https://weread.qq.com/web/bookDetail/f8c321a0811e82b7eg019d91",
+        "source": "weread.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -195,21 +236,6 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -264,6 +290,19 @@
       "fetched_at": "2026-08-20",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "乘杜科技",
+      "company": "乘杜科技",
+      "industry": "其他行业",
+      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
+      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
+      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
+      "source": "www.chinabidding.cn",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 3.0,
+      "query": "乘杜 新闻 2026"
     },
     {
       "code": "kexin",
@@ -364,6 +403,19 @@
       "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
       "url": "https://news.qq.com/rain/a/20241213A044ZE00",
       "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "他只对我乖 [重生]",
+      "summary": "周哲骁版本：上辈子作为盛星鸣，他拥有无数的爱，却发现那并不真实。 重生后，唯有夏驰逸这个少年，在成长的每一步都追逐着他 …",
+      "url": "https://weread.qq.com/web/bookDetail/f8c321a0811e82b7eg019d91",
+      "source": "weread.qq.com",
       "date": "",
       "fetched_at": "2026-08-20",
       "score": 1.5,
