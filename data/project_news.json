@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T01:44:51+08:00",
+  "generated_at": "2026-08-21T01:55:22+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 21,
   "by_industry": {
     "高端制造": [
       {
@@ -56,21 +56,6 @@
         "fetched_at": "2026-08-21",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
       }
     ],
     "其他行业": [
@@ -140,32 +125,19 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "新能源": [
+    "AI智能": [
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "17 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "低空航空": [
@@ -177,19 +149,6 @@
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
         "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
         "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-        "source": "www.163.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 2.5,
@@ -220,6 +179,60 @@
         "fetched_at": "2026-08-21",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "诡秘之主在线阅读最新章节全集,在线阅读_创世中文网",
+        "summary": "蒸汽与机械的浪潮中，谁能触及非凡？ 历史和黑暗的迷雾里，又是谁在耳语？ 我从诡秘中醒来，睁眼看见这个世界： 枪械，大炮，巨 …",
+        "url": "https://chuangshi.qq.com/bqq/njiqhvvx",
+        "source": "chuangshi.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "诡秘之主 最新章节全集,在线阅读_云起书院",
+        "summary": "诡秘之主 爱潜水的乌贼 玄幻异世大陆完结447万字 开始阅读 手机扫码读本书第一时间看更新 下载APP听真人演播",
+        "url": "https://yunqi.qq.com/bqq/clmirhamfo",
+        "source": "yunqi.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "17 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -331,19 +344,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
       "code": "凯茜",
       "company": "凯茜",
       "industry": "其他行业",
@@ -396,17 +396,17 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
       "date": "",
       "fetched_at": "2026-08-21",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 3.0,
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -422,17 +422,17 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-      "source": "www.163.com",
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -451,10 +451,23 @@
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "新浪网",
-      "summary": "17 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
+      "title": "诡秘之主在线阅读最新章节全集,在线阅读_创世中文网",
+      "summary": "蒸汽与机械的浪潮中，谁能触及非凡？ 历史和黑暗的迷雾里，又是谁在耳语？ 我从诡秘中醒来，睁眼看见这个世界： 枪械，大炮，巨 …",
+      "url": "https://chuangshi.qq.com/bqq/njiqhvvx",
+      "source": "chuangshi.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "诡秘之主 最新章节全集,在线阅读_云起书院",
+      "summary": "诡秘之主 爱潜水的乌贼 玄幻异世大陆完结447万字 开始阅读 手机扫码读本书第一时间看更新 下载APP听真人演播",
+      "url": "https://yunqi.qq.com/bqq/clmirhamfo",
+      "source": "yunqi.qq.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 1.5,
@@ -498,6 +511,19 @@
       "fetched_at": "2026-08-21",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "17 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
