@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T00:39:05+08:00",
+  "generated_at": "2026-08-21T00:52:54+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 23,
@@ -58,59 +58,115 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "其他行业": [
+    "低空航空": [
       {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
+        "summary": "月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
+        "url": "https://news.qq.com/rain/a/20240919A09S0W00",
         "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "鸿翼 新闻 2026"
+        "score": 4.5,
+        "query": "航天精工 新闻 2026"
       },
       {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-        "source": "news.tianyancha.com",
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
+        "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
+        "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 4.5,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "航天精工本部泛微协同办公平台2026年第一批运维服务项目-今日招标",
+        "summary": "2026年5月21日 - 航天精工股份有限公司2026-05-21发布了航天精工本部泛微协同办公平台2026年第一批运维服务项目的招标的公告 千万级信息查询 实时搜索海量招投标信息 ...",
+        "url": "https://www.jrzb.cn/bidDetail/01D93A75837C43CD91C792631ED3B204.html",
+        "source": "www.jrzb.cn",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "query": "航天精工 新闻 2026"
       },
       {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-        "source": "news.tianyancha.com",
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
+        "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
+        "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
+        "source": "k.sina.cn",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "score": 3.0,
+        "query": "航天精工 新闻 2026"
       },
       {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-        "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-        "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-        "source": "news.tianyancha.com",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
+        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
+        "source": "www.gov.cn",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
       },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "其他行业": [
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -177,21 +233,6 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
     "新能源": [
       {
         "code": "hongyuan",
@@ -218,47 +259,6 @@
         "fetched_at": "2026-08-21",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -331,56 +331,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
+      "summary": "月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
+      "url": "https://news.qq.com/rain/a/20240919A09S0W00",
       "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "鸿翼 新闻 2026"
+      "score": 4.5,
+      "query": "航天精工 新闻 2026"
     },
     {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-      "source": "news.tianyancha.com",
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
+      "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
+      "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
+      "source": "www.thepaper.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 4.5,
+      "query": "航天精工 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "航天精工本部泛微协同办公平台2026年第一批运维服务项目-今日招标",
+      "summary": "2026年5月21日 - 航天精工股份有限公司2026-05-21发布了航天精工本部泛微协同办公平台2026年第一批运维服务项目的招标的公告 千万级信息查询 实时搜索海量招投标信息 ...",
+      "url": "https://www.jrzb.cn/bidDetail/01D93A75837C43CD91C792631ED3B204.html",
+      "source": "www.jrzb.cn",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-      "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-      "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "query": "航天精工 新闻 2026"
     },
     {
       "code": "huayt",
@@ -420,6 +407,19 @@
       "fetched_at": "2026-08-21",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
+      "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
+      "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
+      "source": "k.sina.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "航天精工 新闻 2026"
     },
     {
       "code": "kexin",
@@ -500,8 +500,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -539,8 +539,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -552,8 +552,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
