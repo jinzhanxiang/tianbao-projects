@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T03:09:09+08:00",
+  "generated_at": "2026-08-21T03:19:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 30,
   "by_industry": {
     "高端制造": [
       {
@@ -58,70 +58,150 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "低空航空": [
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
+        "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
+        "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
+        "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
+        "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:子公司中标930万元项目|海特高新_新浪财经_新浪网",
+        "summary": "基金经理在线路演海特高新(002023)3月25日晚公告,公司控股子公司安胜(天津)飞行模拟系统有限公司(简称 安胜 )于近日收到中化商务有限公司发来...",
+        "url": "http://finance.sina.com.cn/stock/relnews/cn/2020-03-25/doc-iimxyqwa3167944.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
+        "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
+        "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
+        "source": "guba.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
+        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
     "AI智能": [
       {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
+        "code": "kexin",
+        "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "5家企业中标!天津电信1.5亿元通信工程施工项目开标_投标_服务_金额",
-        "summary": "可以看到,本次天津电信1.5亿元的通信工程施工服务采购项目,5个标包的投标报价,通信工程施工部分来到了47%,非开挖式通信管道部分来到了96%。...",
-        "url": "https://business.sohu.com/a/782118052_121124362",
-        "source": "business.sohu.com",
+        "title": "首批智驾数据产品上架汽车行业可信数据空间,如祺上榜_腾讯新闻",
+        "summary": "2026年7月26日 - 此前,国家数据局发布《可信数据空间发展行动计划(2024-2028年)》,为汽车行业数据要素合规高效流通提供了清晰政策指引与有力支撑. 智能网联新能源汽车...",
+        "url": "https://news.qq.com/rain/a/20260726A066AL00?app=news&id=20260726A066AL00&path=a&redirect_pc=1&suid",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "2.4亿!天津电信通信工程施工项目开标,6家企业中标_投标人_折扣_资质",
-        "summary": "今日,天津电信公布了2022-2024年通信工程施工服务采购项目中标候选人,预估规模: 24000万元人民币(不含税), 6个标段,6家企业中标。 该项目为本招标项目...",
-        "url": "https://www.sohu.com/a/545320468_121124362",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信预算5200元的采购项目中标候选人公布 华为中兴拿下|标包|招标|投标人|中兴通讯_网易订阅",
-        "summary": "招标公告发布一个月后,项目中标候选人公布。.先来看一下项目情况,本项目为天津电信2024年-2026年室内分布系统施工服务采购,主要包括天津市市...",
-        "url": "https://www.163.com/dy/article/J6J66NGF0511BBQE.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信设备中标公告|结果_公示-比地招标网",
-        "summary": "2026年3月23日 - 天津电信设备中标栏目为您提供天津电信设备的中标信息、中标单位、中标价格、天津电信设备项目中标公示,价格走势,重点项目中标等信息。登录比地招标网...",
-        "url": "https://www.bidizhaobiao.com/clsbzb/16_8210_03.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
+        "query": "可信数据空间 新闻 2026"
       },
       {
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+        "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+        "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+        "source": "caifuhao.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 3.0,
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "《山东新闻联播》关注东营:打造可信数据空间 让数据 跑起来 产业 活起来 |东营|山东新闻联播|工业互联网平台|数据空间_手机网易网",
+        "summary": "依托 十五五 可信数据空间发展行动计划,东营广饶华泰集团率先落地企业级可信数据空间,通过区块链、隐私计算、数字合约等技术解决产业链数据...",
+        "url": "http://m.163.com/dy/article/L3VH0U090514CFC7.html",
+        "source": "m.163.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "赞同科技可信数据空间平台入选2026年度上海书上企业优秀产品名单",
+        "summary": "该平台聚焦IPO核查等金融合规场景,依托上海数据集团可信数据空间实现银行数据的 可用不可见、全程可追溯 ,为金融合规领域的数据可信流通提...",
+        "url": "https://www.360kuai.com/pc/9955a5e556394d88c?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
+        "source": "www.360kuai.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 4.0,
         "query": "可信数据空间 新闻 2026"
       }
     ],
@@ -220,47 +300,6 @@
         "query": "新能源 行业 政策 2026"
       }
     ],
-    "低空航空": [
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
     "REITS类资产": [
       {
         "code": "联通云山西",
@@ -314,6 +353,60 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
+    ],
+    "生物医药": [
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
+        "summary": "腾讯视频频道页提供最新热门电影、电视剧、综艺、动漫、纪录片、体育等高清正版视频内容在线观看，海量资源持续更新，当前热播 …",
+        "url": "https://v.qq.com/",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "腾讯视频官方最新版下载",
+        "summary": "2026年8月11日 · 腾讯视频PC客户端、腾讯视频Mac版、手机版、iPad版、TV版官方最新版下载，腾讯视频微信小程序二维码扫一扫 …",
+        "url": "https://v.qq.com/download.html",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
+        "summary": "2014年4月22日 · 腾讯视频频道页提供最新热门电影、电视剧、综艺、动漫、纪录片、体育等高清正版视频内容在线观看，海量资源持 …",
+        "url": "http://cm.v.qq.com/",
+        "source": "cm.v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看 ...",
+        "summary": "腾讯视频电视剧频道提供最新热播电视剧，涵盖都市、古装、悬疑、爱情等多种类型，院线同步更新，支持高清在线观看，当前热播《 …",
+        "url": "https://v.qq.com/channel/tv",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -331,56 +424,108 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "5家企业中标!天津电信1.5亿元通信工程施工项目开标_投标_服务_金额",
-      "summary": "可以看到,本次天津电信1.5亿元的通信工程施工服务采购项目,5个标包的投标报价,通信工程施工部分来到了47%,非开挖式通信管道部分来到了96%。...",
-      "url": "https://business.sohu.com/a/782118052_121124362",
-      "source": "business.sohu.com",
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
+      "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
+      "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
+      "query": "\"海特高新\" 公告 签约 中标 投资"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "2.4亿!天津电信通信工程施工项目开标,6家企业中标_投标人_折扣_资质",
-      "summary": "今日,天津电信公布了2022-2024年通信工程施工服务采购项目中标候选人,预估规模: 24000万元人民币(不含税), 6个标段,6家企业中标。 该项目为本招标项目...",
-      "url": "https://www.sohu.com/a/545320468_121124362",
-      "source": "www.sohu.com",
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
+      "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
+      "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
+      "query": "\"海特高新\" 公告 签约 中标 投资"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信预算5200元的采购项目中标候选人公布 华为中兴拿下|标包|招标|投标人|中兴通讯_网易订阅",
-      "summary": "招标公告发布一个月后,项目中标候选人公布。.先来看一下项目情况,本项目为天津电信2024年-2026年室内分布系统施工服务采购,主要包括天津市市...",
-      "url": "https://www.163.com/dy/article/J6J66NGF0511BBQE.html",
-      "source": "www.163.com",
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:子公司中标930万元项目|海特高新_新浪财经_新浪网",
+      "summary": "基金经理在线路演海特高新(002023)3月25日晚公告,公司控股子公司安胜(天津)飞行模拟系统有限公司(简称 安胜 )于近日收到中化商务有限公司发来...",
+      "url": "http://finance.sina.com.cn/stock/relnews/cn/2020-03-25/doc-iimxyqwa3167944.shtml",
+      "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
+      "query": "\"海特高新\" 公告 签约 中标 投资"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
+      "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
+      "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
+      "source": "guba.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
       "industry": "AI智能",
-      "title": "天津电信设备中标公告|结果_公示-比地招标网",
-      "summary": "2026年3月23日 - 天津电信设备中标栏目为您提供天津电信设备的中标信息、中标单位、中标价格、天津电信设备项目中标公示,价格走势,重点项目中标等信息。登录比地招标网...",
-      "url": "https://www.bidizhaobiao.com/clsbzb/16_8210_03.html",
-      "source": "www.bidizhaobiao.com",
+      "title": "首批智驾数据产品上架汽车行业可信数据空间,如祺上榜_腾讯新闻",
+      "summary": "2026年7月26日 - 此前,国家数据局发布《可信数据空间发展行动计划(2024-2028年)》,为汽车行业数据要素合规高效流通提供了清晰政策指引与有力支撑. 智能网联新能源汽车...",
+      "url": "https://news.qq.com/rain/a/20260726A066AL00?app=news&id=20260726A066AL00&path=a&redirect_pc=1&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+      "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+      "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "《山东新闻联播》关注东营:打造可信数据空间 让数据 跑起来 产业 活起来 |东营|山东新闻联播|工业互联网平台|数据空间_手机网易网",
+      "summary": "依托 十五五 可信数据空间发展行动计划,东营广饶华泰集团率先落地企业级可信数据空间,通过区块链、隐私计算、数字合约等技术解决产业链数据...",
+      "url": "http://m.163.com/dy/article/L3VH0U090514CFC7.html",
+      "source": "m.163.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "赞同科技可信数据空间平台入选2026年度上海书上企业优秀产品名单",
+      "summary": "该平台聚焦IPO核查等金融合规场景,依托上海数据集团可信数据空间实现银行数据的 可用不可见、全程可追溯 ,为金融合规领域的数据可信流通提...",
+      "url": "https://www.360kuai.com/pc/9955a5e556394d88c?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
+      "source": "www.360kuai.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "huayt",
@@ -420,19 +565,6 @@
       "fetched_at": "2026-08-21",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -576,6 +708,58 @@
       "fetched_at": "2026-08-21",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
+      "summary": "腾讯视频频道页提供最新热门电影、电视剧、综艺、动漫、纪录片、体育等高清正版视频内容在线观看，海量资源持续更新，当前热播 …",
+      "url": "https://v.qq.com/",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "腾讯视频官方最新版下载",
+      "summary": "2026年8月11日 · 腾讯视频PC客户端、腾讯视频Mac版、手机版、iPad版、TV版官方最新版下载，腾讯视频微信小程序二维码扫一扫 …",
+      "url": "https://v.qq.com/download.html",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
+      "summary": "2014年4月22日 · 腾讯视频频道页提供最新热门电影、电视剧、综艺、动漫、纪录片、体育等高清正版视频内容在线观看，海量资源持 …",
+      "url": "http://cm.v.qq.com/",
+      "source": "cm.v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看 ...",
+      "summary": "腾讯视频电视剧频道提供最新热播电视剧，涵盖都市、古装、悬疑、爱情等多种类型，院线同步更新，支持高清在线观看，当前热播《 …",
+      "url": "https://v.qq.com/channel/tv",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "联通云山西",
