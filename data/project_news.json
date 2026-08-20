@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T10:17:08+08:00",
+  "generated_at": "2026-08-20T10:34:09+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 15,
   "by_industry": {
     "高端制造": [
       {
@@ -56,21 +56,6 @@
         "fetched_at": "2026-08-20",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
       }
     ],
     "半导体": [
@@ -147,19 +132,6 @@
         "code": "联通云山西",
         "company": "联通云山西",
         "industry": "REITS类资产",
-        "title": "基础设施领域不动产投资信托基金(REITs)项目申报要求",
-        "summary": "2024年7月25日 · 应对项目以100% 股权转让方式发行基础设施REITs 无异议。企业内部决策、 国资转让、 分拆上市、 融资限制条件 …",
-        "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202407/P020240726542821941373.pdf",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-20",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
         "title": "REITs专栏 | 上海证券交易所",
         "summary": "2026年8月13日 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过 …",
         "url": "https://www.sse.com.cn/reits/home/",
@@ -177,6 +149,19 @@
         "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
         "url": "https://www.sohu.com/a/960605326_121140836",
         "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-20",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+        "source": "www.csrc.gov.cn",
         "date": "",
         "fetched_at": "2026-08-20",
         "score": 1.5,
@@ -281,19 +266,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 可信数据空间 （Trusted Data Space）的本质是一次范式跃迁： 从“中心化数据管理”转向“可信生态协同”。 官方定义 …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -327,19 +299,6 @@
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-20",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "基础设施领域不动产投资信托基金(REITs)项目申报要求",
-      "summary": "2024年7月25日 · 应对项目以100% 股权转让方式发行基础设施REITs 无异议。企业内部决策、 国资转让、 分拆上市、 融资限制条件 …",
-      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202407/P020240726542821941373.pdf",
-      "source": "www.ndrc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-20",
       "score": 2.5,
@@ -431,6 +390,19 @@
       "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
       "url": "https://www.sohu.com/a/960605326_121140836",
       "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-20",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+      "source": "www.csrc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-20",
       "score": 1.5,
