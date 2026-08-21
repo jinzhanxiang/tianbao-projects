@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T07:31:07+08:00",
+  "generated_at": "2026-08-22T07:37:57+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -58,60 +58,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
-        "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
-        "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"海特高新\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
-        "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
-        "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"海特高新\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
-        "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
-        "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
-        "source": "guba.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"海特高新\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新(002023)-公司公告-海特高新:中签结果公告-股票行情中心-搜狐证券",
-        "summary": "2022年7月25日 - 海特高新:中签结果公告2004-07-08 公司首次公开发行股票向二级市场投资者定价配售发行摇号中签号码如下:末四位数:7059 2059 3933末五位数:60220 7272...",
-        "url": "https://q.stock.sohu.com/cn,gg,002023,14444486.shtml",
-        "source": "q.stock.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"海特高新\" 公告 签约 中标 投资"
-      }
-    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -125,34 +71,6 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -194,6 +112,34 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -250,48 +196,33 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "其他行业": [
+      {
+        "code": "000711-ST京蓝",
+        "company": "000711-ST京蓝",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "000711-ST京蓝",
+        "company": "000711-ST京蓝",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+        "source": "znyncj.qiannan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
       {
         "code": "乘杜科技",
         "company": "乘杜科技",
@@ -320,58 +251,6 @@
       "fetched_at": "2026-08-22",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
-      "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
-      "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"海特高新\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
-      "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
-      "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"海特高新\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
-      "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
-      "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
-      "source": "guba.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"海特高新\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新(002023)-公司公告-海特高新:中签结果公告-股票行情中心-搜狐证券",
-      "summary": "2022年7月25日 - 海特高新:中签结果公告2004-07-08 公司首次公开发行股票向二级市场投资者定价配售发行摇号中签号码如下:末四位数:7059 2059 3933末五位数:60220 7272...",
-      "url": "https://q.stock.sohu.com/cn,gg,002023,14444486.shtml",
-      "source": "q.stock.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"海特高新\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -426,19 +305,6 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -450,6 +316,19 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -478,6 +357,32 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "000711-ST京蓝",
+      "company": "000711-ST京蓝",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "000711-ST京蓝",
+      "company": "000711-ST京蓝",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+      "source": "znyncj.qiannan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -489,45 +394,6 @@
       "fetched_at": "2026-08-22",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
