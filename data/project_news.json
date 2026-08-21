@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T01:17:03+08:00",
+  "generated_at": "2026-08-22T01:24:35+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -58,6 +58,73 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "其他行业": [
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "新浪美股热点小时报丨2026年06月14日00时_今日实时美股热点速递|全球林木股ETF|航空航天ETF|纳斯达克基金|凯茜·伍德|Wood_新浪新闻",
+        "summary": "有 木头姐 之称的凯茜·伍德(Cathie Wood)旗下方舟投资(ARK)披露的最新交易数据显示,在SpaceX上市的首个交易日,ARK旗下四只主动管理ETF同...",
+        "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906qeao.html",
+        "source": "k.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.5,
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "央视直播!2026女足亚洲杯小组赛赛程公布,韩国女足将迎战伊朗女足_比赛_中场_凯茜·费尔",
+        "summary": "主帅申相又采用4-2-3-1阵型,多名归国留洋球员保证了球队的深厚实力,核心中场池笑然和前锋凯茜·费尔发挥攻防带头作用.2026年女足亚洲杯的激...",
+        "url": "https://news.sohu.com/a/991830632_122376425",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.5,
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "《呼啸山庄》新片段曝光,凯茜接受林顿求婚却心系希斯克利夫|雅各布·艾洛蒂|玛格特·罗比|前程似锦的女孩|萨特本|埃默拉尔德·芬内尔_新浪新闻",
+        "summary": "简介：#呼啸山庄新片段# 由玛格特·罗比、雅各布·艾洛蒂主演的电影《呼啸山庄》今日释出新片段,凯茜(玛格特·罗比 饰)接受...",
+        "url": "https://k.sina.com.cn/article_1663735900_m632a985c03301l66u.html",
+        "source": "k.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.5,
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "加拿大选手凯茜-夏普U池重摔受伤担架离场|体育比赛|米兰冬奥会|资格赛|u型场地技巧|冬奥会_新浪新闻",
+        "summary": "加拿大凯茜资格赛冬奥会权利保护声明页/Notice to Right Holders阅读排行榜评论排行榜01.2026年02月20日 03:41...",
+        "url": "http://k.sina.com.cn/article_6320391439_178b9850f040018e1q.html",
+        "source": "k.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.5,
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -71,6 +138,45 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "勾指起誓 - 洛天依Official/ilem - 单曲 - 网易云音乐",
+        "summary": "歌曲名《勾指起誓》，由 洛天依Official、ilem 演唱，收录于《2:3》专辑中。《勾指起誓》下载，《勾指起誓》在线试听，更多相关歌 …",
+        "url": "https://music.163.com/song?id=1345872140",
+        "source": "music.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "勾指起誓英文版（人声版） - A路人/葵花fa/封茗囧菌 - 单曲 ...",
+        "summary": "歌曲名《勾指起誓英文版（人声版）》，由 A路人、葵花fa、封茗囧菌 演唱，收录于《勾指起誓英文版》专辑中。《勾指起誓英文版（ …",
+        "url": "https://music.163.com/song?id=1346676131",
+        "source": "music.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "黑胶VIP学生暑期特惠 - 网易云音乐",
+        "summary": "网易云音乐黑胶VIP学生特惠，青春专享套餐，每月仅需￥5。",
+        "url": "https://y.music.163.com/g/m/at/daydayup230505Astudyup?page=2ade783a2638439591ca02a78c0f85ca&extChannel=sms-3",
+        "source": "y.music.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -119,32 +225,6 @@
         "code": "联通云山西",
         "company": "联通云山西",
         "industry": "REITS类资产",
-        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
-        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
-        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
-        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
         "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
         "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
@@ -158,29 +238,40 @@
         "code": "联通云山西",
         "company": "联通云山西",
         "industry": "REITS类资产",
-        "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
-        "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
-        "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
-        "source": "stock.finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
+        "title": "REITs专栏 | 上海证券交易所",
+        "summary": "1 天前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支持 …",
+        "url": "https://www.sse.com.cn/reits/home/",
+        "source": "www.sse.com.cn",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "公募REITs信息平台-首页",
+        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+        "url": "https://reits.szse.cn/",
+        "source": "reits.szse.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
       }
     ]
   },
@@ -197,6 +288,58 @@
       "fetched_at": "2026-08-22",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "新浪美股热点小时报丨2026年06月14日00时_今日实时美股热点速递|全球林木股ETF|航空航天ETF|纳斯达克基金|凯茜·伍德|Wood_新浪新闻",
+      "summary": "有 木头姐 之称的凯茜·伍德(Cathie Wood)旗下方舟投资(ARK)披露的最新交易数据显示,在SpaceX上市的首个交易日,ARK旗下四只主动管理ETF同...",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906qeao.html",
+      "source": "k.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.5,
+      "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "央视直播!2026女足亚洲杯小组赛赛程公布,韩国女足将迎战伊朗女足_比赛_中场_凯茜·费尔",
+      "summary": "主帅申相又采用4-2-3-1阵型,多名归国留洋球员保证了球队的深厚实力,核心中场池笑然和前锋凯茜·费尔发挥攻防带头作用.2026年女足亚洲杯的激...",
+      "url": "https://news.sohu.com/a/991830632_122376425",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.5,
+      "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "《呼啸山庄》新片段曝光,凯茜接受林顿求婚却心系希斯克利夫|雅各布·艾洛蒂|玛格特·罗比|前程似锦的女孩|萨特本|埃默拉尔德·芬内尔_新浪新闻",
+      "summary": "简介：#呼啸山庄新片段# 由玛格特·罗比、雅各布·艾洛蒂主演的电影《呼啸山庄》今日释出新片段,凯茜(玛格特·罗比 饰)接受...",
+      "url": "https://k.sina.com.cn/article_1663735900_m632a985c03301l66u.html",
+      "source": "k.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.5,
+      "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "加拿大选手凯茜-夏普U池重摔受伤担架离场|体育比赛|米兰冬奥会|资格赛|u型场地技巧|冬奥会_新浪新闻",
+      "summary": "加拿大凯茜资格赛冬奥会权利保护声明页/Notice to Right Holders阅读排行榜评论排行榜01.2026年02月20日 03:41...",
+      "url": "http://k.sina.com.cn/article_6320391439_178b9850f040018e1q.html",
+      "source": "k.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.5,
+      "query": "凯茜 新闻 2026"
     },
     {
       "code": "huayt",
@@ -267,49 +410,10 @@
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
-      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
-      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
-      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
-      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
-      "source": "stock.finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
       "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
-      "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
-      "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
-      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 2.5,
@@ -353,6 +457,84 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "勾指起誓 - 洛天依Official/ilem - 单曲 - 网易云音乐",
+      "summary": "歌曲名《勾指起誓》，由 洛天依Official、ilem 演唱，收录于《2:3》专辑中。《勾指起誓》下载，《勾指起誓》在线试听，更多相关歌 …",
+      "url": "https://music.163.com/song?id=1345872140",
+      "source": "music.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "勾指起誓英文版（人声版） - A路人/葵花fa/封茗囧菌 - 单曲 ...",
+      "summary": "歌曲名《勾指起誓英文版（人声版）》，由 A路人、葵花fa、封茗囧菌 演唱，收录于《勾指起誓英文版》专辑中。《勾指起誓英文版（ …",
+      "url": "https://music.163.com/song?id=1346676131",
+      "source": "music.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "黑胶VIP学生暑期特惠 - 网易云音乐",
+      "summary": "网易云音乐黑胶VIP学生特惠，青春专享套餐，每月仅需￥5。",
+      "url": "https://y.music.163.com/g/m/at/daydayup230505Astudyup?page=2ade783a2638439591ca02a78c0f85ca&extChannel=sms-3",
+      "source": "y.music.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITs专栏 | 上海证券交易所",
+      "summary": "1 天前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支持 …",
+      "url": "https://www.sse.com.cn/reits/home/",
+      "source": "www.sse.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+      "url": "https://www.sohu.com/a/960605326_121140836",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "公募REITs信息平台-首页",
+      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
+      "url": "https://reits.szse.cn/",
+      "source": "reits.szse.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
