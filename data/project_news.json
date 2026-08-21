@@ -1,61 +1,102 @@
 {
-  "generated_at": "2026-08-22T05:11:57+08:00",
+  "generated_at": "2026-08-22T05:18:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 15,
   "by_industry": {
-    "低空航空": [
+    "新能源": [
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:2026年半年度营业收入同比增长6.56% _ 东方财富网",
-        "summary": "2天前 - 月20日,海特高新发布2026年半年度报告称,公司2026年半年度实现营业收入751,325,329.04元,同比增长6.56%;归属于上市公司股东的净利润为51,244,270.51元...",
-        "url": "https://finance.eastmoney.com/a/202608203848143992.html",
-        "source": "finance.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-        "source": "fund.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
-        "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
-        "url": "https://xueqiu.com/9057196330/393340560",
-        "source": "xueqiu.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+        "source": "www.bidizhaobiao.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 4.0,
-        "query": "海特高新 新闻 2026"
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-        "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-        "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-        "source": "finance.sina.cn",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 4.0,
-        "query": "海特高新 新闻 2026"
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "天威园区直购电供电单位采购项目竞争性磋商结果公告-采招网",
+        "summary": "第三名:北京宏远创信能源管理有限公司;投标报价:0.2515 元/度。.采购人:成都空港科创投资集团有限公司...",
+        "url": "https://www.bidcenter.com.cn/newscontent-92239246-4.html",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "21 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "微信，是一个生活方式",
+        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+        "url": "https://weixin.qq.com/",
+        "source": "weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械2026二季度WMS需求定制研发汇总",
+        "summary": "2026年7月13日 - 招标采购导航网招标公告公示栏目,于2026年07月13日为您发布国药器械2026二季度WMS需求定制研发汇总,内容简介:中国医疗器械有限公司国药器械2026二季度...",
+        "url": "https://www.okcis.cn/20260713-n2-20260713121836314568.html",
+        "source": "www.okcis.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "国药器械 新闻 2026"
       }
     ],
     "AI智能": [
@@ -73,51 +114,10 @@
         "query": "可信数据空间 新闻 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "21 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "微信，是一个生活方式",
-        "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-        "url": "https://weixin.qq.com/",
-        "source": "weixin.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "半导体": [
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
+        "code": "jngd",
+        "company": "晶能光电",
         "industry": "半导体",
         "title": "半导体 (BK1036)_行情中心_东方财富网",
         "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -129,8 +129,8 @@
         "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
+        "code": "jngd",
+        "company": "晶能光电",
         "industry": "半导体",
         "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
         "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -210,88 +210,47 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
-    ],
-    "生物医药": [
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "60个一件代发各个领域的货源网址大全，建议收藏！_批发 ...",
-        "summary": "2023年6月12日 · 最近要做一件代发的小伙伴有福了，小编今天整理了60个一件代发各个领域的货源网址大全提供给大家参考。16、网 …",
-        "url": "https://www.sohu.com/a/684699180_121097420",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "28个电商常用批发货源网站，建议收藏！_www_com_义乌",
-        "summary": "2024年6月19日 · 新手卖家开网店做电商，很多卡在了第一步，如何去寻找优质的一手货源。今天《蚂蚁电商实用课堂》就给大家盘 …",
-        "url": "https://www.sohu.com/a/786945025_121123886",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      }
     ]
   },
   "items": [
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:2026年半年度营业收入同比增长6.56% _ 东方财富网",
-      "summary": "2天前 - 月20日,海特高新发布2026年半年度报告称,公司2026年半年度实现营业收入751,325,329.04元,同比增长6.56%;归属于上市公司股东的净利润为51,244,270.51元...",
-      "url": "https://finance.eastmoney.com/a/202608203848143992.html",
-      "source": "finance.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-      "source": "fund.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "海特高新 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
-      "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
-      "url": "https://xueqiu.com/9057196330/393340560",
-      "source": "xueqiu.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+      "source": "www.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "海特高新 新闻 2026"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-      "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-      "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-      "source": "finance.sina.cn",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "海特高新 新闻 2026"
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械2026二季度WMS需求定制研发汇总",
+      "summary": "2026年7月13日 - 招标采购导航网招标公告公示栏目,于2026年07月13日为您发布国药器械2026二季度WMS需求定制研发汇总,内容简介:中国医疗器械有限公司国药器械2026二季度...",
+      "url": "https://www.okcis.cn/20260713-n2-20260713121836314568.html",
+      "source": "www.okcis.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "国药器械 新闻 2026"
     },
     {
       "code": "kexin",
@@ -307,6 +266,32 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "天威园区直购电供电单位采购项目竞争性磋商结果公告-采招网",
+      "summary": "第三名:北京宏远创信能源管理有限公司;投标报价:0.2515 元/度。.采购人:成都空港科创投资集团有限公司...",
+      "url": "https://www.bidcenter.com.cn/newscontent-92239246-4.html",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -318,19 +303,6 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -359,8 +331,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -370,32 +342,6 @@
       "fetched_at": "2026-08-22",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新浪网",
-      "summary": "21 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "微信，是一个生活方式",
-      "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
-      "url": "https://weixin.qq.com/",
-      "source": "weixin.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "乘杜科技",
@@ -409,6 +355,32 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "21 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "微信，是一个生活方式",
+      "summary": "微信是一款跨平台通讯工具，支持单人和多人参与，可通过手机网络发送语音、图片、视频和文字。",
+      "url": "https://weixin.qq.com/",
+      "source": "weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -435,32 +407,6 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "60个一件代发各个领域的货源网址大全，建议收藏！_批发 ...",
-      "summary": "2023年6月12日 · 最近要做一件代发的小伙伴有福了，小编今天整理了60个一件代发各个领域的货源网址大全提供给大家参考。16、网 …",
-      "url": "https://www.sohu.com/a/684699180_121097420",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "28个电商常用批发货源网站，建议收藏！_www_com_义乌",
-      "summary": "2024年6月19日 · 新手卖家开网店做电商，很多卡在了第一步，如何去寻找优质的一手货源。今天《蚂蚁电商实用课堂》就给大家盘 …",
-      "url": "https://www.sohu.com/a/786945025_121123886",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
     }
   ]
 }
