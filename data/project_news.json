@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T01:47:39+08:00",
+  "generated_at": "2026-08-22T01:55:23+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -58,18 +58,111 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "航天宏图2026年发展瓶颈全解析:团队管理与业务发展双重困局航天宏图(68806_财富号_东方财富网",
+        "summary": "规划发射 114 颗卫星,单颗卫星研制与发射成本达数千万元,2026 年计划发射 50 + 颗卫星,资金需求超 20 亿元.河南基地投产,液氧甲烷 后羿一号 火...",
+        "url": "https://caifuhao.eastmoney.com/news/20251230221607204252780",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.5,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
+        "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
+        "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.5,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+        "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+        "url": "https://m.jiemian.com/article/14365628_sina.html",
+        "source": "m.jiemian.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "航天宏图:2026年度 提质增效重回报 行动方案-公司公告-慧博投研资讯",
+        "summary": "2026年4月30日 - 为进一步提升经营质效、改善盈利水平、完善投资者回报机制,公司制定了《2026年度 提质增效重回报 行动方案》(以下简称 2026年行动方案 )。.现将2025年...",
+        "url": "http://www.hibor.com.cn/report/816ad7b940c1616e4375aa0700205299.html",
+        "source": "www.hibor.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "航天宏图 新闻 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "title": "2026人工智能赋能可信数据空间发展研究报告-国家数据发展研究院_智能化_价值_动态化",
+        "summary": "2026 年 1 月编制的这份报告由火山引擎与国家数据发展研究院联合发布,聚焦人工智能对可信数据空间的赋能价值,剖析发展现状、挑战,构建赋能体...",
+        "url": "https://news.sohu.com/a/988800667_121752158",
+        "source": "news.sohu.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 3.0,
+        "score": 5.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "2026年城市可信数据空间发展趋势洞察|赛迪顾问:赋能城市全域数字化转型的数字新基建|元数据_网易订阅",
+        "summary": "2026年,随着数据空间技术体系成型,数据目录管理和区块链技术仍然是城市可信数据空间主流技术。.2026年,随着城市可信数据空间建设范围进一步...",
+        "url": "https://www.163.com/dy/article/KK6L8K0405118SRU.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+        "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+        "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "国家数据发展研究院:人工智能赋能可信数据空间发展研究报告 2026_智能化_模型_价值",
+        "summary": "这份由火山引擎与国家数据发展研究院 2026 年 1 月编制的《人工智能赋能可信数据空间发展研究报告》,聚焦数字经济背景下数据要素流通的核心...",
+        "url": "https://news.sohu.com/a/989043822_468661",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.5,
         "query": "可信数据空间 新闻 2026"
       }
     ],
@@ -112,75 +205,6 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
-        "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
-        "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
-        "source": "m.163.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-        "source": "znyncj.qiannan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -236,6 +260,21 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
+    ],
+    "其他行业": [
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -251,6 +290,110 @@
       "fetched_at": "2026-08-22",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "航天宏图2026年发展瓶颈全解析:团队管理与业务发展双重困局航天宏图(68806_财富号_东方财富网",
+      "summary": "规划发射 114 颗卫星,单颗卫星研制与发射成本达数千万元,2026 年计划发射 50 + 颗卫星,资金需求超 20 亿元.河南基地投产,液氧甲烷 后羿一号 火...",
+      "url": "https://caifuhao.eastmoney.com/news/20251230221607204252780",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.5,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "截至2026年4月22日,航天宏图(688066)并无30亿元国资一次性 进场 _财富号_东方财富网",
+      "summary": "2026年4月22日 - 合资公司(已实缴)- 河南航天宏图:国资持股40%,3亿元已到账. 三、当前股权结构(2026年一季报) - 实控人:王宇翔、张燕(合计约21.51%) - 第二大股东:百...",
+      "url": "https://caifuhao.eastmoney.com/news/20260422130835784231490",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.5,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "2026人工智能赋能可信数据空间发展研究报告-国家数据发展研究院_智能化_价值_动态化",
+      "summary": "2026 年 1 月编制的这份报告由火山引擎与国家数据发展研究院联合发布,聚焦人工智能对可信数据空间的赋能价值,剖析发展现状、挑战,构建赋能体...",
+      "url": "https://news.sohu.com/a/988800667_121752158",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "2026年城市可信数据空间发展趋势洞察|赛迪顾问:赋能城市全域数字化转型的数字新基建|元数据_网易订阅",
+      "summary": "2026年,随着数据空间技术体系成型,数据目录管理和区块链技术仍然是城市可信数据空间主流技术。.2026年,随着城市可信数据空间建设范围进一步...",
+      "url": "https://www.163.com/dy/article/KK6L8K0405118SRU.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+      "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+      "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "国家数据发展研究院:人工智能赋能可信数据空间发展研究报告 2026_智能化_模型_价值",
+      "summary": "这份由火山引擎与国家数据发展研究院 2026 年 1 月编制的《人工智能赋能可信数据空间发展研究报告》,聚焦数字经济背景下数据要素流通的核心...",
+      "url": "https://news.sohu.com/a/989043822_468661",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "航天宏图(688066.SH):2026年一季报净利润为-1.08亿元 | 界面新闻",
+      "summary": "2026年4月30日 - 2026年4月30日,航天宏图(688066.SH)发布2026年一季报。 公司营业总收入为1725.96万元,在已披露的同业公司中排名第130,较去年同报告期营业总收入减少1...",
+      "url": "https://m.jiemian.com/article/14365628_sina.html",
+      "source": "m.jiemian.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
+      "industry": "低空航空",
+      "title": "航天宏图:2026年度 提质增效重回报 行动方案-公司公告-慧博投研资讯",
+      "summary": "2026年4月30日 - 为进一步提升经营质效、改善盈利水平、完善投资者回报机制,公司制定了《2026年度 提质增效重回报 行动方案》(以下简称 2026年行动方案 )。.现将2025年...",
+      "url": "http://www.hibor.com.cn/report/816ad7b940c1616e4375aa0700205299.html",
+      "source": "www.hibor.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "航天宏图 新闻 2026"
     },
     {
       "code": "huayt",
@@ -292,19 +435,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -316,58 +446,6 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
-      "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
-      "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
-      "source": "m.163.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
-      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
-      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-      "source": "znyncj.qiannan.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "联通云山西",
