@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T22:09:59+08:00",
+  "generated_at": "2026-08-21T22:19:18+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -16,19 +16,6 @@
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 5.5,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团的前世今生：2025年营收130.48亿行业排第四，净 ...",
-        "summary": "2026年4月29日 · 华阳集团成立于1993年1月16日，于2017年10月13日在深圳证券交易所上市，注册地址和办公地址均为广东省惠州市 …",
-        "url": "https://finance.sina.cn/2026-04-29/detail-inhweskw7580390.d.html?vt=4",
-        "source": "finance.sina.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
         "query": "华阳 新闻 2026"
       },
       {
@@ -56,6 +43,19 @@
         "fetched_at": "2026-08-21",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "安徽省华阳河农场",
+        "summary": "2026年8月5日 · 《安徽科技报》《中国气象报》报道... 《粮油市场报》等多家媒体报道华阳... 《中国气象报》报道华阳河农场油菜... …",
+        "url": "http://hyhfarm.com/",
+        "source": "hyhfarm.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
       }
     ],
     "其他行业": [
@@ -63,53 +63,53 @@
         "code": "鸿翼",
         "company": "鸿翼",
         "industry": "其他行业",
-        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-        "source": "news.qq.com",
+        "title": "山东1.17亿可信数据平台项目落定:鸿翼软件携手山东移动联合体中标 - 天眼查",
+        "summary": "最终,由 上海鸿翼软件技术股份有限公司 作为牵头方, 中国移动通信集团山东有限公司 作为联合体成员所组成的投标联合体成功中标,中标金额为 1164....2026-03-04新增开庭公告.近日,由山东省公用资...",
+        "url": "https://news.tianyancha.com/ll_10jle529ff.html",
+        "source": "news.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "鸿翼 新闻 2026"
+        "score": 4.0,
+        "query": "\"鸿翼\" 公告 签约 中标 投资"
       },
       {
         "code": "鸿翼",
         "company": "鸿翼",
         "industry": "其他行业",
-        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-        "source": "news.tianyancha.com",
+        "title": "山东省1.16亿可信数据平台项目落定,上海鸿翼软件中标-其他_ 天眼查新闻",
+        "summary": "2026年1月15日 - 上海鸿翼软件技术股份有限公司法人代表:.上海鸿翼软件技术股份有限公司怎么了?山东省公用资产运营服务有限公司《智能可信数据公共服务平台项目》中标...",
+        "url": "https://mnews.tianyancha.com/ll_8mqn5ba3tn.html",
+        "source": "mnews.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "query": "\"鸿翼\" 公告 签约 中标 投资"
       },
       {
         "code": "鸿翼",
         "company": "鸿翼",
         "industry": "其他行业",
-        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-        "source": "news.tianyancha.com",
+        "title": "鸿翼ECM(中标公告)-广东招标网",
+        "summary": "2025年12月1日 - 申购主题:鸿翼ECM文档云软件V6.0 送货时间:发布竞价结果后7天内送达.您当天剩余次查看公告原文链接,是否消耗一次...",
+        "url": "https://gd.bidizhaobiao.com/info-347155966.html",
+        "source": "gd.bidizhaobiao.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "query": "\"鸿翼\" 公告 签约 中标 投资"
       },
       {
         "code": "鸿翼",
         "company": "鸿翼",
         "industry": "其他行业",
-        "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-        "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-        "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-        "source": "news.tianyancha.com",
+        "title": "航天鸿翼数据要素产业园(霸州)项目中标结果公告",
+        "summary": "* 【 2025-01-07 09:00】航天鸿翼数据要素产业园(霸州)项目招标公告.鸿翼(霸州)数据科技有限公司中标公司:...",
+        "url": "https://hb.zhiliaobiaoxun.com/article/50635679",
+        "source": "hb.zhiliaobiaoxun.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 4.0,
-        "query": "鸿翼 新闻 2026"
+        "query": "\"鸿翼\" 公告 签约 中标 投资"
       },
       {
         "code": "乘杜科技",
@@ -123,60 +123,6 @@
         "fetched_at": "2026-08-21",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
-        "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
-        "url": "https://xueqiu.com/8768643388/175415895",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型-新华网",
-        "summary": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型- 院长数字驾驶舱通过物联网实时获取设备运行数据,并对接院内其他系统,帮助医院领导层...",
-        "url": "https://www.news.cn/health/20250316/a6c2bb1337234794a15acf90500b15ec/c.html",
-        "source": "www.news.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "业界:医学装备数智化管理极大提升医院装备管理质量效益-中新社上海",
-        "summary": "刚出席第十五届健康中国论坛·公立医院高质量发展主题单元并做主旨发言的上海柯渡医学科技股份有限公司CEO张建29日接受采访时表示: 医学装备数智化管理不仅能通过数字化、智能化手段,精准监控装...",
-        "url": "http://www.sh.chinanews.com.cn/yljk/2024-05-29/124782.shtml",
-        "source": "www.sh.chinanews.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
       }
     ],
     "AI智能": [
@@ -336,105 +282,53 @@
       "code": "鸿翼",
       "company": "鸿翼",
       "industry": "其他行业",
-      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
-      "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
-      "url": "https://xueqiu.com/8768643388/175415895",
-      "source": "xueqiu.com",
+      "title": "山东1.17亿可信数据平台项目落定:鸿翼软件携手山东移动联合体中标 - 天眼查",
+      "summary": "最终,由 上海鸿翼软件技术股份有限公司 作为牵头方, 中国移动通信集团山东有限公司 作为联合体成员所组成的投标联合体成功中标,中标金额为 1164....2026-03-04新增开庭公告.近日,由山东省公用资...",
+      "url": "https://news.tianyancha.com/ll_10jle529ff.html",
+      "source": "news.tianyancha.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团的前世今生：2025年营收130.48亿行业排第四，净 ...",
-      "summary": "2026年4月29日 · 华阳集团成立于1993年1月16日，于2017年10月13日在深圳证券交易所上市，注册地址和办公地址均为广东省惠州市 …",
-      "url": "https://finance.sina.cn/2026-04-29/detail-inhweskw7580390.d.html?vt=4",
-      "source": "finance.sina.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "华阳 新闻 2026"
+      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
       "code": "鸿翼",
       "company": "鸿翼",
       "industry": "其他行业",
-      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-      "source": "news.tianyancha.com",
+      "title": "山东省1.16亿可信数据平台项目落定,上海鸿翼软件中标-其他_ 天眼查新闻",
+      "summary": "2026年1月15日 - 上海鸿翼软件技术股份有限公司法人代表:.上海鸿翼软件技术股份有限公司怎么了?山东省公用资产运营服务有限公司《智能可信数据公共服务平台项目》中标...",
+      "url": "https://mnews.tianyancha.com/ll_8mqn5ba3tn.html",
+      "source": "mnews.tianyancha.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
       "code": "鸿翼",
       "company": "鸿翼",
       "industry": "其他行业",
-      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-      "source": "news.tianyancha.com",
+      "title": "鸿翼ECM(中标公告)-广东招标网",
+      "summary": "2025年12月1日 - 申购主题:鸿翼ECM文档云软件V6.0 送货时间:发布竞价结果后7天内送达.您当天剩余次查看公告原文链接,是否消耗一次...",
+      "url": "https://gd.bidizhaobiao.com/info-347155966.html",
+      "source": "gd.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
       "code": "鸿翼",
       "company": "鸿翼",
       "industry": "其他行业",
-      "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-      "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-      "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-      "source": "news.tianyancha.com",
+      "title": "航天鸿翼数据要素产业园(霸州)项目中标结果公告",
+      "summary": "* 【 2025-01-07 09:00】航天鸿翼数据要素产业园(霸州)项目招标公告.鸿翼(霸州)数据科技有限公司中标公司:...",
+      "url": "https://hb.zhiliaobiaoxun.com/article/50635679",
+      "source": "hb.zhiliaobiaoxun.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型-新华网",
-      "summary": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型- 院长数字驾驶舱通过物联网实时获取设备运行数据,并对接院内其他系统,帮助医院领导层...",
-      "url": "https://www.news.cn/health/20250316/a6c2bb1337234794a15acf90500b15ec/c.html",
-      "source": "www.news.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
+      "query": "\"鸿翼\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -457,6 +351,19 @@
       "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
       "url": "https://www.foryouge.com/",
       "source": "www.foryouge.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "安徽省华阳河农场",
+      "summary": "2026年8月5日 · 《安徽科技报》《中国气象报》报道... 《粮油市场报》等多家媒体报道华阳... 《中国气象报》报道华阳河农场油菜... …",
+      "url": "http://hyhfarm.com/",
+      "source": "hyhfarm.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 3.0,
@@ -526,19 +433,6 @@
       "fetched_at": "2026-08-21",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "业界:医学装备数智化管理极大提升医院装备管理质量效益-中新社上海",
-      "summary": "刚出席第十五届健康中国论坛·公立医院高质量发展主题单元并做主旨发言的上海柯渡医学科技股份有限公司CEO张建29日接受采访时表示: 医学装备数智化管理不仅能通过数字化、智能化手段,精准监控装...",
-      "url": "http://www.sh.chinanews.com.cn/yljk/2024-05-29/124782.shtml",
-      "source": "www.sh.chinanews.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "hangtianhongtu",
