@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T12:25:27+08:00",
+  "generated_at": "2026-08-21T12:36:35+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -63,69 +63,17 @@
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "首批智驾数据产品上架汽车行业可信数据空间,如祺上榜_腾讯新闻",
-        "summary": "2026年7月26日 - 此前,国家数据局发布《可信数据空间发展行动计划(2024-2028年)》,为汽车行业数据要素合规高效流通提供了清晰政策指引与有力支撑. 智能网联新能源汽车...",
-        "url": "https://news.qq.com/rain/a/20260726A066AL00?app=news&id=20260726A066AL00&path=a&redirect_pc=1&suid",
-        "source": "news.qq.com",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
-        "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
-        "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.5,
-        "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "《山东新闻联播》关注东营:打造可信数据空间 让数据 跑起来 产业 活起来 |东营|山东新闻联播|工业互联网平台|数据空间_手机网易网",
-        "summary": "依托 十五五 可信数据空间发展行动计划,东营广饶华泰集团率先落地企业级可信数据空间,通过区块链、隐私计算、数字合约等技术解决产业链数据...",
-        "url": "http://m.163.com/dy/article/L3VH0U090514CFC7.html",
-        "source": "m.163.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.5,
-        "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "赞同科技可信数据空间平台入选2026年度上海书上企业优秀产品名单",
-        "summary": "该平台聚焦IPO核查等金融合规场景,依托上海数据集团可信数据空间实现银行数据的 可用不可见、全程可追溯 ,为金融合规领域的数据可信流通提...",
-        "url": "https://www.360kuai.com/pc/9955a5e556394d88c?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
-        "source": "www.360kuai.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
+        "score": 3.0,
         "query": "可信数据空间 新闻 2026"
       }
     ],
     "其他行业": [
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-        "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-        "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-        "source": "www.jiansheku.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "\"凯茜\" 公告 签约 中标 投资"
-      },
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -160,6 +108,19 @@
         "summary": "2025年11月4日 · 她叫凯茜·蒂（Cathy Tie），18岁辍学创业。如今，她将自己的新公司命名为“曼哈顿基因组”，毫不掩饰地将其与制造 …",
         "url": "https://finance.sina.com.cn/stock/t/2025-11-04/doc-infwfawz5455331.shtml",
         "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "凯茜 新闻 2026"
+      },
+      {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+        "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+        "url": "https://zhuanlan.zhihu.com/p/608603193",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 3.0,
@@ -222,8 +183,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -235,8 +196,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -248,8 +209,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -331,71 +292,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "首批智驾数据产品上架汽车行业可信数据空间,如祺上榜_腾讯新闻",
-      "summary": "2026年7月26日 - 此前,国家数据局发布《可信数据空间发展行动计划(2024-2028年)》,为汽车行业数据要素合规高效流通提供了清晰政策指引与有力支撑. 智能网联新能源汽车...",
-      "url": "https://news.qq.com/rain/a/20260726A066AL00?app=news&id=20260726A066AL00&path=a&redirect_pc=1&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
-      "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
-      "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.5,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "《山东新闻联播》关注东营:打造可信数据空间 让数据 跑起来 产业 活起来 |东营|山东新闻联播|工业互联网平台|数据空间_手机网易网",
-      "summary": "依托 十五五 可信数据空间发展行动计划,东营广饶华泰集团率先落地企业级可信数据空间,通过区块链、隐私计算、数字合约等技术解决产业链数据...",
-      "url": "http://m.163.com/dy/article/L3VH0U090514CFC7.html",
-      "source": "m.163.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.5,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "赞同科技可信数据空间平台入选2026年度上海书上企业优秀产品名单",
-      "summary": "该平台聚焦IPO核查等金融合规场景,依托上海数据集团可信数据空间实现银行数据的 可用不可见、全程可追溯 ,为金融合规领域的数据可信流通提...",
-      "url": "https://www.360kuai.com/pc/9955a5e556394d88c?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
-      "source": "www.360kuai.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-      "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-      "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-      "source": "www.jiansheku.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "\"凯茜\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -433,6 +329,19 @@
       "fetched_at": "2026-08-21",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -474,6 +383,19 @@
       "query": "凯茜 新闻 2026"
     },
     {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+      "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+      "url": "https://zhuanlan.zhihu.com/p/608603193",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -487,8 +409,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -539,8 +461,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -552,8 +474,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
