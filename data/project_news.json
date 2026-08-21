@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-22T02:46:15+08:00",
+  "generated_at": "2026-08-22T02:53:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 17,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-        "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-        "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 6.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-        "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
-        "url": "https://www.elecfans.com/d/8045816.html",
-        "source": "www.elecfans.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
-        "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
-        "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
-        "source": "news.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
-        "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
-        "url": "http://www.yejibang.com/news-details-786.html",
-        "source": "www.yejibang.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "晶能光电 新闻 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -112,58 +58,32 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
+    "其他行业": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "独家 | 航天宏图签约9.9亿元卫星项目__财经头条__新浪财经",
-        "summary": "泰伯网泰伯网讯,8月29日,航天宏图发布公告称,公司与客户A签署了卫星及地面系统采购合同,合同订单金额约为9.9亿元人民币(不含税).因本合同属于...",
-        "url": "https://cj.sina.com.cn/articles/view/1877503207/6fe86ce700101f50u",
-        "source": "cj.sina.com.cn",
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
+        "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
+        "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
+        "source": "www.jiansheku.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 4.0,
+        "query": "\"凯茜\" 公告 签约 中标 投资"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图:发布公司中标公告_ 东方财富网",
-        "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-        "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-        "source": "finance.eastmoney.com",
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图:拟联合中标3.23亿元项目",
-        "summary": "航天宏图公告,公司与中国安能集团第二工程局有限公司组成的联合体拟中标山东省水利厅小型水库雨水工情自动测报和水库安全运行及防洪调度项目(包3),预...",
-        "url": "https://www.yicai.com/brief/101393874.html",
-        "source": "www.yicai.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图又签约29亿元卫星项目!|遥感|星座|巴基斯坦|东风商业航天_网易订阅",
-        "summary": "航天宏图又签约29亿元卫星项目!,遥感,星座,航天宏图,巴基斯坦,卫星项目,东风商业航天 据鹤壁新闻网消息,9月4日,航天宏图在北京举行的第二届中国-巴基...",
-        "url": "https://www.163.com/dy/article/K972NVMP05319UN7.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -276,62 +196,49 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "其他行业": [
+    "生物医药": [
       {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
       }
     ]
   },
   "items": [
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-      "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-      "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 6.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-      "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
-      "url": "https://www.elecfans.com/d/8045816.html",
-      "source": "www.elecfans.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
-      "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
-      "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
-      "source": "news.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -346,69 +253,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "独家 | 航天宏图签约9.9亿元卫星项目__财经头条__新浪财经",
-      "summary": "泰伯网泰伯网讯,8月29日,航天宏图发布公告称,公司与客户A签署了卫星及地面系统采购合同,合同订单金额约为9.9亿元人民币(不含税).因本合同属于...",
-      "url": "https://cj.sina.com.cn/articles/view/1877503207/6fe86ce700101f50u",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图:发布公司中标公告_ 东方财富网",
-      "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-      "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-      "source": "finance.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图:拟联合中标3.23亿元项目",
-      "summary": "航天宏图公告,公司与中国安能集团第二工程局有限公司组成的联合体拟中标山东省水利厅小型水库雨水工情自动测报和水库安全运行及防洪调度项目(包3),预...",
-      "url": "https://www.yicai.com/brief/101393874.html",
-      "source": "www.yicai.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图又签约29亿元卫星项目!|遥感|星座|巴基斯坦|东风商业航天_网易订阅",
-      "summary": "航天宏图又签约29亿元卫星项目!,遥感,星座,航天宏图,巴基斯坦,卫星项目,东风商业航天 据鹤壁新闻网消息,9月4日,航天宏图在北京举行的第二届中国-巴基...",
-      "url": "https://www.163.com/dy/article/K972NVMP05319UN7.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
-      "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
-      "url": "http://www.yejibang.com/news-details-786.html",
-      "source": "www.yejibang.com",
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
+      "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
+      "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
+      "source": "www.jiansheku.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "晶能光电 新闻 2026"
+      "query": "\"凯茜\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -487,6 +342,45 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
