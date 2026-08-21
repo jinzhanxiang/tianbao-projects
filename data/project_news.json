@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T07:52:57+08:00",
+  "generated_at": "2026-08-21T08:01:50+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 26,
   "by_industry": {
     "高端制造": [
       {
@@ -58,59 +58,141 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "其他行业": [
+    "AI智能": [
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-        "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-        "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-        "source": "cj.sina.com.cn",
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "5家企业中标!天津电信1.5亿元通信工程施工项目开标_投标_服务_金额",
+        "summary": "可以看到,本次天津电信1.5亿元的通信工程施工服务采购项目,5个标包的投标报价,通信工程施工部分来到了47%,非开挖式通信管道部分来到了96%。...",
+        "url": "https://business.sohu.com/a/782118052_121124362",
+        "source": "business.sohu.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 5.5,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "\"天津电信\" 公告 签约 中标 投资"
       },
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-        "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-        "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-        "source": "stock.stockstar.com",
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "2.4亿!天津电信通信工程施工项目开标,6家企业中标_投标人_折扣_资质",
+        "summary": "今日,天津电信公布了2022-2024年通信工程施工服务采购项目中标候选人,预估规模: 24000万元人民币(不含税), 6个标段,6家企业中标。 该项目为本招标项目...",
+        "url": "https://www.sohu.com/a/545320468_121124362",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "\"天津电信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "天津电信预算5200元的采购项目中标候选人公布 华为中兴拿下|标包|招标|投标人|中兴通讯_网易订阅",
+        "summary": "招标公告发布一个月后,项目中标候选人公布。.先来看一下项目情况,本项目为天津电信2024年-2026年室内分布系统施工服务采购,主要包括天津市市...",
+        "url": "https://www.163.com/dy/article/J6J66NGF0511BBQE.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "\"天津电信\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "天津电信设备中标公告|结果_公示-比地招标网",
+        "summary": "2026年3月23日 - 天津电信设备中标栏目为您提供天津电信设备的中标信息、中标单位、中标价格、天津电信设备项目中标公示,价格走势,重点项目中标等信息。登录比地招标网...",
+        "url": "https://www.bidizhaobiao.com/clsbzb/16_8210_03.html",
+        "source": "www.bidizhaobiao.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "\"天津电信\" 公告 签约 中标 投资"
       },
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "1月4日晚间沪深上市公司重大事项公告最新快递_财经评论(cjpl)股吧_东方财富网股吧",
-        "summary": "2021年1月4日 - 奥联电子(300585)1月4日晚公告,持股比例18.22%的股东刘军胜,计划自本公告披露之日起15个交易日后的6个月内,以集中竞价方式、大宗交易方式等方式减持公...",
-        "url": "http://guba.eastmoney.com/news,cjpl,992756975.html",
-        "source": "guba.eastmoney.com",
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-        "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-        "url": "https://xueqiu.com/2866092708/292230062",
-        "source": "xueqiu.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
       },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+        "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+        "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+        "source": "ai.so.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+        "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+        "url": "https://www.toutiao.com/article/7616707417639813642/",
+        "source": "www.toutiao.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "1 天前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄金+”理 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "其他行业": [
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -177,49 +259,6 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "23 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -280,7 +319,7 @@
         "company": "联通云山西",
         "industry": "REITS类资产",
         "title": "REITs专栏 | 上海证券交易所",
-        "summary": "23 小时之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产 …",
+        "summary": "1 天前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支持 …",
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
         "date": "",
@@ -331,56 +370,69 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-      "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-      "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-      "source": "cj.sina.com.cn",
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "5家企业中标!天津电信1.5亿元通信工程施工项目开标_投标_服务_金额",
+      "summary": "可以看到,本次天津电信1.5亿元的通信工程施工服务采购项目,5个标包的投标报价,通信工程施工部分来到了47%,非开挖式通信管道部分来到了96%。...",
+      "url": "https://business.sohu.com/a/782118052_121124362",
+      "source": "business.sohu.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 5.5,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "\"天津电信\" 公告 签约 中标 投资"
     },
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-      "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-      "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-      "source": "stock.stockstar.com",
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "2.4亿!天津电信通信工程施工项目开标,6家企业中标_投标人_折扣_资质",
+      "summary": "今日,天津电信公布了2022-2024年通信工程施工服务采购项目中标候选人,预估规模: 24000万元人民币(不含税), 6个标段,6家企业中标。 该项目为本招标项目...",
+      "url": "https://www.sohu.com/a/545320468_121124362",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "\"天津电信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "天津电信预算5200元的采购项目中标候选人公布 华为中兴拿下|标包|招标|投标人|中兴通讯_网易订阅",
+      "summary": "招标公告发布一个月后,项目中标候选人公布。.先来看一下项目情况,本项目为天津电信2024年-2026年室内分布系统施工服务采购,主要包括天津市市...",
+      "url": "https://www.163.com/dy/article/J6J66NGF0511BBQE.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "\"天津电信\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "天津电信设备中标公告|结果_公示-比地招标网",
+      "summary": "2026年3月23日 - 天津电信设备中标栏目为您提供天津电信设备的中标信息、中标单位、中标价格、天津电信设备项目中标公示,价格走势,重点项目中标等信息。登录比地招标网...",
+      "url": "https://www.bidizhaobiao.com/clsbzb/16_8210_03.html",
+      "source": "www.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "\"天津电信\" 公告 签约 中标 投资"
     },
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "1月4日晚间沪深上市公司重大事项公告最新快递_财经评论(cjpl)股吧_东方财富网股吧",
-      "summary": "2021年1月4日 - 奥联电子(300585)1月4日晚公告,持股比例18.22%的股东刘军胜,计划自本公告披露之日起15个交易日后的6个月内,以集中竞价方式、大宗交易方式等方式减持公...",
-      "url": "http://guba.eastmoney.com/news,cjpl,992756975.html",
-      "source": "guba.eastmoney.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+      "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-      "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-      "url": "https://xueqiu.com/2866092708/292230062",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -529,13 +581,26 @@
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "新浪网",
-      "summary": "23 小时之前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
+      "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+      "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+      "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+      "source": "ai.so.com",
       "date": "",
       "fetched_at": "2026-08-21",
-      "score": 1.5,
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+      "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+      "url": "https://www.toutiao.com/article/7616707417639813642/",
+      "source": "www.toutiao.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 2.0,
       "query": "新能源 行业 政策 2026"
     },
     {
@@ -578,11 +643,24 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "1 天前 · 银行理财权益投资新考题：从“要不要做”到“如何做好” 宇树科技上市首日高开低走，53只理财打新浮盈一度过亿 多只“黄金+”理 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
       "title": "REITs专栏 | 上海证券交易所",
-      "summary": "23 小时之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产 …",
+      "summary": "1 天前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支持 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
