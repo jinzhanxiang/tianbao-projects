@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T03:28:30+08:00",
+  "generated_at": "2026-08-22T03:35:31+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -58,128 +58,33 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "其他行业": [
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-        "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-        "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-        "source": "news.tianyancha.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
-        "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
-        "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
-        "source": "www.chinamae.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
-        "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
-        "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
-        "source": "www.jrzb.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "航天精工股份有限公司电子会计档案项目技术开发中标结果公告_招标网",
-        "summary": "2025年4月11日 - 航天精工股份有限公司电子会计档案项目技术开发中标结果公告是招标网发布的中标公告信息,该中标公告相关中标公示、中标通知、中标公示、成交公告等中...",
-        "url": "https://m.zhaobiao.cn/zb/succeed_v_b6c4f45f81ca9514bc4d80475c97d429.html",
-        "source": "m.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "天津热转印烫印机招标公告",
-        "summary": "2024年9月9日 - 【产品】生产保障物资采购)基本信息 询价单编号:STC202408-00015 询价单名称:生产保障物资采购 发布时间:2024-09-09 15:20:19 采购企业:航天精工股份...",
-        "url": "https://www.qianlima.com/gjxx/496443_26_0",
-        "source": "www.qianlima.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      }
-    ],
     "AI智能": [
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
+        "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
+        "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
+        "source": "www.iccsz.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "天津电信 新闻 2026"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
+        "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
+        "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
+        "source": "www.cnr.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "天津电信 新闻 2026"
+      },
       {
         "code": "kexin",
         "company": "可信数据空间",
@@ -192,6 +97,32 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
+        "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
+        "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "天津电信 新闻 2026"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
+        "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
+        "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "天津电信 新闻 2026"
       }
     ],
     "新能源": [
@@ -288,6 +219,21 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
+    ],
+    "其他行业": [
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -305,95 +251,30 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
-      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
-      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
-      "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
-      "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
-      "source": "www.chinamae.com",
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
+      "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
+      "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
+      "source": "www.iccsz.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
+      "query": "天津电信 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
-      "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
-      "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
-      "source": "www.jrzb.cn",
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
+      "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
+      "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
+      "source": "www.cnr.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "航天精工股份有限公司电子会计档案项目技术开发中标结果公告_招标网",
-      "summary": "2025年4月11日 - 航天精工股份有限公司电子会计档案项目技术开发中标结果公告是招标网发布的中标公告信息,该中标公告相关中标公示、中标通知、中标公示、成交公告等中...",
-      "url": "https://m.zhaobiao.cn/zb/succeed_v_b6c4f45f81ca9514bc4d80475c97d429.html",
-      "source": "m.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
-      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
-      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
-      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
-      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
-      "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
-      "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
-      "source": "news.tianyancha.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "query": "天津电信 新闻 2026"
     },
     {
       "code": "huayt",
@@ -448,6 +329,32 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
+      "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
+      "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "天津电信 新闻 2026"
+    },
+    {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
+      "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
+      "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "天津电信 新闻 2026"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -459,19 +366,6 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "天津热转印烫印机招标公告",
-      "summary": "2024年9月9日 - 【产品】生产保障物资采购)基本信息 询价单编号:STC202408-00015 询价单名称:生产保障物资采购 发布时间:2024-09-09 15:20:19 采购企业:航天精工股份...",
-      "url": "https://www.qianlima.com/gjxx/496443_26_0",
-      "source": "www.qianlima.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
     },
     {
       "code": "联通云山西",
