@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T06:14:56+08:00",
+  "generated_at": "2026-08-22T06:21:48+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 27,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -60,84 +60,6 @@
     ],
     "AI智能": [
       {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
-        "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
-        "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
-        "source": "www.iccsz.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "天津电信 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
-        "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
-        "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
-        "source": "www.cnr.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "天津电信 新闻 2026"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告丨光速招标海量免费标讯",
-        "summary": "2026年3月9日 - 中标公告2026-03-09微信查看.自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告. 公告摘要: 公告摘要: 自采-汇天网络科技有...",
-        "url": "https://www.guangsuzb.com/succeed_v_2030860553833861123.html",
-        "source": "www.guangsuzb.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-        "source": "bj.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告-采招网",
-        "summary": "2023年9月6日 - 受业主委托,中国采招网于2023年09月06日发布【自采】-北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告;项目简介: 点击查看附件 ...",
-        "url": "https://m.bidcenter.com.cn/news-4-245659042.html",
-        "source": "m.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "北京市通州区人民法院发布汇天网络科技有限公司执行公告- DoNews",
-        "summary": "天眼查App显示,2025年1月2日,北京市通州区人民法院正式发布了关于汇天网络科技有限公司(以下简称 汇天网络 )的执行公告。根据案号为(2025)京0112执37号的执行文件,汇天网络因未履行相关法律义务...",
-        "url": "https://www.donews.com/news/detail/4/4672816.html",
-        "source": "www.donews.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
@@ -149,60 +71,6 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
-        "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
-        "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "天津电信 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
-        "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
-        "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "天津电信 新闻 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -244,6 +112,34 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -328,33 +224,48 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "生物医药": [
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      }
+    ],
     "其他行业": [
-      {
-        "code": "000711-ST京蓝",
-        "company": "000711-ST京蓝",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "000711-ST京蓝",
-        "company": "000711-ST京蓝",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-        "source": "znyncj.qiannan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
       {
         "code": "乘杜科技",
         "company": "乘杜科技",
@@ -383,84 +294,6 @@
       "fetched_at": "2026-08-22",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
-      "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
-      "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
-      "source": "www.iccsz.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "天津电信 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
-      "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
-      "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
-      "source": "www.cnr.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "天津电信 新闻 2026"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告丨光速招标海量免费标讯",
-      "summary": "2026年3月9日 - 中标公告2026-03-09微信查看.自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告. 公告摘要: 公告摘要: 自采-汇天网络科技有...",
-      "url": "https://www.guangsuzb.com/succeed_v_2030860553833861123.html",
-      "source": "www.guangsuzb.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-      "source": "bj.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告-采招网",
-      "summary": "2023年9月6日 - 受业主委托,中国采招网于2023年09月06日发布【自采】-北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告;项目简介: 点击查看附件 ...",
-      "url": "https://m.bidcenter.com.cn/news-4-245659042.html",
-      "source": "m.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "北京市通州区人民法院发布汇天网络科技有限公司执行公告- DoNews",
-      "summary": "天眼查App显示,2025年1月2日,北京市通州区人民法院正式发布了关于汇天网络科技有限公司(以下简称 汇天网络 )的执行公告。根据案号为(2025)京0112执37号的执行文件,汇天网络因未履行相关法律义务...",
-      "url": "https://www.donews.com/news/detail/4/4672816.html",
-      "source": "www.donews.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -515,45 +348,6 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
-      "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
-      "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "天津电信 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
-      "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
-      "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "天津电信 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -565,6 +359,19 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "半导体 (BK1036)_行情中心_东方财富网",
+      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -619,34 +426,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "000711-ST京蓝",
-      "company": "000711-ST京蓝",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "000711-ST京蓝",
-      "company": "000711-ST京蓝",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-      "source": "znyncj.qiannan.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -656,6 +437,45 @@
       "fetched_at": "2026-08-22",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
