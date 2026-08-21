@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-22T05:54:01+08:00",
+  "generated_at": "2026-08-22T06:00:46+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 19,
+  "total": 22,
   "by_industry": {
+    "生物医药": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投|融资_新浪科技_新浪网",
+        "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+        "url": "https://tech.sina.com.cn/roll/2019-12-16/doc-iihnzahi7918847.shtml",
+        "source": "tech.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.5,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
+        "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
+        "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
+        "source": "www.cbi360.net",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
+        "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+        "source": "hainan.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -58,58 +112,71 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
+    "半导体": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "独家 | 航天宏图签约9.9亿元卫星项目__财经头条__新浪财经",
-        "summary": "泰伯网泰伯网讯,8月29日,航天宏图发布公告称,公司与客户A签署了卫星及地面系统采购合同,合同订单金额约为9.9亿元人民币(不含税).因本合同属于...",
-        "url": "https://cj.sina.com.cn/articles/view/1877503207/6fe86ce700101f50u",
-        "source": "cj.sina.com.cn",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+        "source": "caifuhao.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图:发布公司中标公告_ 东方财富网",
-        "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-        "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-        "source": "finance.eastmoney.com",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图:拟联合中标3.23亿元项目",
-        "summary": "航天宏图公告,公司与中国安能集团第二工程局有限公司组成的联合体拟中标山东省水利厅小型水库雨水工情自动测报和水库安全运行及防洪调度项目(包3),预...",
-        "url": "https://www.yicai.com/brief/101393874.html",
-        "source": "www.yicai.com",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "航天宏图又签约29亿元卫星项目!|遥感|星座|巴基斯坦|东风商业航天_网易订阅",
-        "summary": "航天宏图又签约29亿元卫星项目!,遥感,星座,航天宏图,巴基斯坦,卫星项目,东风商业航天 据鹤壁新闻网消息,9月4日,航天宏图在北京举行的第二届中国-巴基...",
-        "url": "https://www.163.com/dy/article/K972NVMP05319UN7.html",
-        "source": "www.163.com",
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+        "source": "www.askci.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"航天宏图\" 公告 签约 中标 投资"
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+        "source": "www.vzkoo.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -146,7 +213,7 @@
         "company": "宏远创信",
         "industry": "新能源",
         "title": "新浪网",
-        "summary": "21 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
+        "summary": "22 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
         "url": "https://www.sina.com.cn/",
         "source": "www.sina.com.cn",
         "date": "",
@@ -166,34 +233,6 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -268,6 +307,19 @@
   },
   "items": [
     {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投|融资_新浪科技_新浪网",
+      "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+      "url": "https://tech.sina.com.cn/roll/2019-12-16/doc-iihnzahi7918847.shtml",
+      "source": "tech.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.5,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -281,56 +333,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "独家 | 航天宏图签约9.9亿元卫星项目__财经头条__新浪财经",
-      "summary": "泰伯网泰伯网讯,8月29日,航天宏图发布公告称,公司与客户A签署了卫星及地面系统采购合同,合同订单金额约为9.9亿元人民币(不含税).因本合同属于...",
-      "url": "https://cj.sina.com.cn/articles/view/1877503207/6fe86ce700101f50u",
-      "source": "cj.sina.com.cn",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
+      "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
+      "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
+      "source": "www.cbi360.net",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图:发布公司中标公告_ 东方财富网",
-      "summary": "证券日报网讯 6月24日晚间,航天宏图发布公告称,近日,公司参与了“河北省水文测报能力提升建设项目(张家口部分)水文仪器设备采购及安装”公开...",
-      "url": "https://finance.eastmoney.com/a/202406243112042552.html",
-      "source": "finance.eastmoney.com",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
+      "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
+      "source": "qy.zhaobiao.cn",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图:拟联合中标3.23亿元项目",
-      "summary": "航天宏图公告,公司与中国安能集团第二工程局有限公司组成的联合体拟中标山东省水利厅小型水库雨水工情自动测报和水库安全运行及防洪调度项目(包3),预...",
-      "url": "https://www.yicai.com/brief/101393874.html",
-      "source": "www.yicai.com",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+      "source": "hainan.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "航天宏图又签约29亿元卫星项目!|遥感|星座|巴基斯坦|东风商业航天_网易订阅",
-      "summary": "航天宏图又签约29亿元卫星项目!,遥感,星座,航天宏图,巴基斯坦,卫星项目,东风商业航天 据鹤壁新闻网消息,9月4日,航天宏图在北京举行的第二届中国-巴基...",
-      "url": "https://www.163.com/dy/article/K972NVMP05319UN7.html",
-      "source": "www.163.com",
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"航天宏图\" 公告 签约 中标 投资"
+      "score": 3.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -398,8 +450,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "半导体 (BK1036)_行情中心_东方财富网",
       "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -437,8 +489,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -450,11 +502,37 @@
       "query": "半导体 行业 政策 2026"
     },
     {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+      "source": "www.vzkoo.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新浪网",
-      "summary": "21 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
+      "summary": "22 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
       "url": "https://www.sina.com.cn/",
       "source": "www.sina.com.cn",
       "date": "",
