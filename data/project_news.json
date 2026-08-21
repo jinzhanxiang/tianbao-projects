@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T00:16:08+08:00",
+  "generated_at": "2026-08-22T00:25:24+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -56,60 +56,32 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
-        "summary": "月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
-        "url": "https://news.qq.com/rain/a/20240919A09S0W00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.5,
-        "query": "航天精工 新闻 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
-        "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
-        "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
-        "source": "www.thepaper.cn",
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+        "source": "data.eastmoney.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 4.5,
-        "query": "航天精工 新闻 2026"
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
-        "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
-        "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
-        "source": "k.sina.cn",
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+        "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+        "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+        "source": "max.book118.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "航天精工 新闻 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "天津大学-航天精工联合研究中心正式揭牌-天津大学新闻网",
-        "summary": "2026年6月2日 - 月29日,天津大学-航天精工联合研究中心揭牌仪式暨管委会第一次会议在航天精工股份有限公司召开。天津大学党委常委、常务副校长王天友,航天精工党委书...",
-        "url": "https://news.tju.edu.cn/info/1003/600549.htm",
-        "source": "news.tju.edu.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "航天精工 新闻 2026"
+        "score": 2.0,
+        "query": "高端制造 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -145,19 +117,6 @@
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "新能源",
-        "title": "新闻频道_央视网 (cctv.com)",
-        "summary": "我国消费市场保持向新向优发展态势 8月20日，商务部对外发布7月消费市场情况。 今年前7月，我国社会消费商品和服务零售总额同 …",
-        "url": "https://news.cctv.com/",
-        "source": "news.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
         "title": "新浪网",
         "summary": "16 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
         "url": "https://www.sina.com.cn/",
@@ -179,6 +138,34 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+        "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+        "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+        "source": "m.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -266,32 +253,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
-      "summary": "月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
-      "url": "https://news.qq.com/rain/a/20240919A09S0W00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.5,
-      "query": "航天精工 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
-      "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
-      "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.5,
-      "query": "航天精工 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -331,32 +292,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
-      "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
-      "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
-      "source": "k.sina.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "航天精工 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "天津大学-航天精工联合研究中心正式揭牌-天津大学新闻网",
-      "summary": "2026年6月2日 - 月29日,天津大学-航天精工联合研究中心揭牌仪式暨管委会第一次会议在航天精工股份有限公司召开。天津大学党委常委、常务副校长王天友,航天精工党委书...",
-      "url": "https://news.tju.edu.cn/info/1003/600549.htm",
-      "source": "news.tju.edu.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "航天精工 新闻 2026"
-    },
-    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -383,17 +318,43 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻频道_央视网 (cctv.com)",
-      "summary": "我国消费市场保持向新向优发展态势 8月20日，商务部对外发布7月消费市场情况。 今年前7月，我国社会消费商品和服务零售总额同 …",
-      "url": "https://news.cctv.com/",
-      "source": "news.cctv.com",
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+      "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+      "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+      "source": "m.163.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 2.5,
-      "query": "新能源 行业 政策 2026"
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -407,6 +368,19 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "2026年高端制造行业补贴申报指南与行业报告-20260725093319.docx-原创力文档",
+      "summary": "本报告旨在为2026年高端制造行业的企业提供一份详细的补贴申报指南,帮助企业准确把握政策方向,顺利获取补贴资金。.2026年,我国高端制造行业补贴政策将继续发挥重...",
+      "url": "https://max.book118.com/html/2026/0725/7015162004011135.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "hongyuan",
