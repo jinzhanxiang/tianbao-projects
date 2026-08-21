@@ -1,23 +1,10 @@
 {
-  "generated_at": "2026-08-21T15:31:14+08:00",
+  "generated_at": "2026-08-21T15:43:00+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 43,
   "by_industry": {
     "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-        "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-        "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 6.5,
-        "query": "晶能光电 新闻 2026"
-      },
       {
         "code": "innoshine",
         "company": "元旭半导体",
@@ -42,6 +29,19 @@
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 6.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
         "query": "元旭半导体 新闻 2026"
       },
       {
@@ -74,6 +74,19 @@
         "code": "jngd",
         "company": "晶能光电",
         "industry": "半导体",
+        "title": "晶能光电拟冲刺A股IPO:曾获金沙江资本等投资,股权稳定性受关注_腾讯新闻",
+        "summary": "辅导报告指出,2024年5月,晶能光电的实际控制人王敏持有的共青城致本投资有限公司的75%(750.00万元)的股权被深圳市坪山区人民法院冻结,冻结期...",
+        "url": "https://news.qq.com/rain/a/20250221A06AEY00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
         "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
         "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
         "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
@@ -82,19 +95,6 @@
         "fetched_at": "2026-08-21",
         "score": 5.5,
         "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-        "source": "www.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "元旭半导体 新闻 2026"
       },
       {
         "code": "innoshine",
@@ -141,6 +141,19 @@
         "code": "kedu",
         "company": "柯渡医学",
         "industry": "生物医药",
+        "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
+        "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
+        "url": "https://xueqiu.com/8768643388/175415895",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 4.0,
+        "query": "柯渡医学 新闻 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
         "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
         "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
         "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
@@ -149,73 +162,6 @@
         "fetched_at": "2026-08-21",
         "score": 4.0,
         "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
-        "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
-        "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
-        "source": "qy.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      }
-    ],
-    "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
-        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
-        "url": "https://quote.eastmoney.com/sz002906.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
-        "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
-        "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
-        "source": "cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳国际(002949):中标深圳市龙华高新技术产业园区开发投资有限公司采购项目,中标金额为662.13万元_财富号_东方财富网",
-        "summary": "2026年8月12日 - 为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。 同壁财经讯,企查查数据显示,根据《深圳市龙华高新技术产业园区开发投资有限公...",
-        "url": "https://caifuhao.eastmoney.com/news/20260812185831501653960",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
-        "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
-        "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
-        "source": "stock.jrj.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
       }
     ],
     "低空航空": [
@@ -361,6 +307,60 @@
         "fetched_at": "2026-08-21",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+        "url": "https://quote.eastmoney.com/sz002906.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
+        "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
+        "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
+        "source": "cj.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳国际(002949):中标深圳市龙华高新技术产业园区开发投资有限公司采购项目,中标金额为662.13万元_财富号_东方财富网",
+        "summary": "2026年8月12日 - 为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。 同壁财经讯,企查查数据显示,根据《深圳市龙华高新技术产业园区开发投资有限公...",
+        "url": "https://caifuhao.eastmoney.com/news/20260812185831501653960",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "\"华阳\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
+        "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
+        "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
+        "source": "stock.jrj.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 5.5,
+        "query": "\"华阳\" 公告 签约 中标 投资"
       }
     ],
     "新能源": [
@@ -582,19 +582,6 @@
   },
   "items": [
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
-      "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
-      "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 6.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
       "code": "innoshine",
       "company": "元旭半导体",
       "industry": "半导体",
@@ -634,6 +621,19 @@
       "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+      "source": "www.thepaper.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
@@ -663,6 +663,19 @@
       "code": "jngd",
       "company": "晶能光电",
       "industry": "半导体",
+      "title": "晶能光电拟冲刺A股IPO:曾获金沙江资本等投资,股权稳定性受关注_腾讯新闻",
+      "summary": "辅导报告指出,2024年5月,晶能光电的实际控制人王敏持有的共青城致本投资有限公司的75%(750.00万元)的股权被深圳市坪山区人民法院冻结,冻结期...",
+      "url": "https://news.qq.com/rain/a/20250221A06AEY00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
       "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
       "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
       "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
@@ -671,71 +684,6 @@
       "fetched_at": "2026-08-21",
       "score": 5.5,
       "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
-      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
-      "url": "https://quote.eastmoney.com/sz002906.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
-      "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
-      "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳国际(002949):中标深圳市龙华高新技术产业园区开发投资有限公司采购项目,中标金额为662.13万元_财富号_东方财富网",
-      "summary": "2026年8月12日 - 为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。 同壁财经讯,企查查数据显示,根据《深圳市龙华高新技术产业园区开发投资有限公...",
-      "url": "https://caifuhao.eastmoney.com/news/20260812185831501653960",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
-      "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
-      "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
-      "source": "stock.jrj.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
     },
     {
       "code": "hangtianhongtu",
@@ -790,6 +738,58 @@
       "query": "\"航天宏图\" 公告 签约 中标 投资"
     },
     {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+      "url": "https://quote.eastmoney.com/sz002906.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
+      "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
+      "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
+      "source": "cj.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳国际(002949):中标深圳市龙华高新技术产业园区开发投资有限公司采购项目,中标金额为662.13万元_财富号_东方财富网",
+      "summary": "2026年8月12日 - 为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。 同壁财经讯,企查查数据显示,根据《深圳市龙华高新技术产业园区开发投资有限公...",
+      "url": "https://caifuhao.eastmoney.com/news/20260812185831501653960",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "\"华阳\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
+      "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
+      "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
+      "source": "stock.jrj.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 5.5,
+      "query": "\"华阳\" 公告 签约 中标 投资"
+    },
+    {
       "code": "innoshine",
       "company": "元旭半导体",
       "industry": "半导体",
@@ -842,6 +842,32 @@
       "query": "航天精工 新闻 2026"
     },
     {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
+      "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
+      "url": "https://xueqiu.com/8768643388/175415895",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 4.0,
+      "query": "柯渡医学 新闻 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
+      "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
+      "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
+      "source": "www.cbi360.net",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -892,32 +918,6 @@
       "fetched_at": "2026-08-21",
       "score": 4.0,
       "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-      "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
-      "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
-      "source": "www.cbi360.net",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "上海柯渡医学科技股份有限公司最新中标公告|招标网",
-      "summary": "2026年7月1日 - 招标网提供有关上海柯渡医学科技股份有限公司的最新招标结果,每天实时更新中标信息,想了解上海柯渡医学科技股份有限公司更多详细动态,精准匹配供应商...",
-      "url": "https://qy.zhaobiao.cn/enterprise_v_b96543b974a7e7e4e2b9c6fc7af928c2_zhongbiao_1.html",
-      "source": "qy.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
       "code": "hangtianjings",
