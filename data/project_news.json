@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-21T22:01:00+08:00",
+  "generated_at": "2026-08-21T22:09:59+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 27,
+  "total": 23,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
-        "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
-        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "顺风清洁能源收购晶能光电控股权_中证网",
-        "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
-        "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
-        "source": "www.cs.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
-        "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
-        "url": "https://www.sohu.com/a/15891578_114737",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
-        "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
-        "url": "https://www.elecfans.com/d/1450934.html",
-        "source": "www.elecfans.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "\"晶能光电\" 公告 签约 中标 投资"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -112,59 +58,171 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
+    "其他行业": [
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:2026年半年度营业收入同比增长6.56% _ 东方财富网",
-        "summary": "1天前 - 月20日,海特高新发布2026年半年度报告称,公司2026年半年度实现营业收入751,325,329.04元,同比增长6.56%;归属于上市公司股东的净利润为51,244,270.51元...",
-        "url": "https://finance.eastmoney.com/a/202608203848143992.html",
-        "source": "finance.eastmoney.com",
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
+        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
+        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 5.5,
-        "query": "海特高新 新闻 2026"
+        "query": "鸿翼 新闻 2026"
       },
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-        "source": "fund.eastmoney.com",
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
+        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
+        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
+        "source": "news.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 5.5,
-        "query": "海特高新 新闻 2026"
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
       },
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
-        "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
-        "url": "https://xueqiu.com/9057196330/393340560",
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
+        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
+        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
+      },
+      {
+        "code": "鸿翼",
+        "company": "鸿翼",
+        "industry": "其他行业",
+        "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
+        "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
+        "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
+        "source": "news.tianyancha.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 4.0,
+        "query": "鸿翼 新闻 2026"
+      },
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
+        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
+        "url": "https://news.qq.com/rain/a/20250526A01GR200",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 4.5,
+        "query": "柯渡医学 新闻 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
+        "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
+        "url": "https://xueqiu.com/8768643388/175415895",
         "source": "xueqiu.com",
         "date": "",
         "fetched_at": "2026-08-21",
         "score": 4.0,
-        "query": "海特高新 新闻 2026"
+        "query": "柯渡医学 新闻 2026"
       },
       {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-        "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-        "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-        "source": "finance.sina.cn",
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型-新华网",
+        "summary": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型- 院长数字驾驶舱通过物联网实时获取设备运行数据,并对接院内其他系统,帮助医院领导层...",
+        "url": "https://www.news.cn/health/20250316/a6c2bb1337234794a15acf90500b15ec/c.html",
+        "source": "www.news.cn",
         "date": "",
         "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "海特高新 新闻 2026"
+        "score": 3.0,
+        "query": "柯渡医学 新闻 2026"
       },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "业界:医学装备数智化管理极大提升医院装备管理质量效益-中新社上海",
+        "summary": "刚出席第十五届健康中国论坛·公立医院高质量发展主题单元并做主旨发言的上海柯渡医学科技股份有限公司CEO张建29日接受采访时表示: 医学装备数智化管理不仅能通过数字化、智能化手段,精准监控装...",
+        "url": "http://www.sh.chinanews.com.cn/yljk/2024-05-29/124782.shtml",
+        "source": "www.sh.chinanews.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "柯渡医学 新闻 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "14 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-21",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "低空航空": [
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -203,101 +261,6 @@
         "fetched_at": "2026-08-21",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
-        "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
-        "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
-        "source": "www.iccsz.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "天津电信 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
-        "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
-        "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
-        "source": "www.cnr.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 4.0,
-        "query": "天津电信 新闻 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
-        "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
-        "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "天津电信 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
-        "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
-        "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 3.0,
-        "query": "天津电信 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 限时上市价22.99/24.99万元 新GL8陆尚上市 售9.99-14.39万元 比亚迪2027款秦MAX上市 大五座也能兼顾驾驶质感 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "14 小时之前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“ …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -353,76 +316,9 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-21",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "投资者提问:据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶...|LED照明_新浪财经_新浪网",
-      "summary": "据港股公告,南昌光谷集团购买了晶能光电(江西)100%股权,晶能光电专注于高端LED技术和产品开发与生产,是硅衬底氮化镓LED技术的主导者,正在将...",
-      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2021-02-01/doc-ikftpnny3270668.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "顺风清洁能源收购晶能光电控股权_中证网",
-      "summary": "此次投资使得顺风清洁能源向打造全球低碳解决方案供应商迈出重要一步,晶能光电的硅衬底GAN技术为全球独家拥有,与蓝宝石衬底技术LED相比具...",
-      "url": "https://www.cs.com.cn/ssgs/gsxw/201503/t20150324_4671268.html",
-      "source": "www.cs.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电获顺风清洁能源入主 总代价达20.4亿港元",
-      "summary": "月20日,顺风国际清洁能源有限公司(以下简称 顺风国际 )宣布公司已获港交所确认,以每股41.5592港元的价格收购晶能光电59%的股份,交易总额达20.4亿港元(...",
-      "url": "https://www.sohu.com/a/15891578_114737",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权-电子发烧友网",
-      "summary": "公告显示,晶能光电向南昌光谷集团出售LED产品业务—晶能光电(江西)100%股权,总代价为6.7亿元.彼时,顺风清洁能源认为此次投资使得顺风清洁能...",
-      "url": "https://www.elecfans.com/d/1450934.html",
-      "source": "www.elecfans.com",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "\"晶能光电\" 公告 签约 中标 投资"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -437,30 +333,43 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:2026年半年度营业收入同比增长6.56% _ 东方财富网",
-      "summary": "1天前 - 月20日,海特高新发布2026年半年度报告称,公司2026年半年度实现营业收入751,325,329.04元,同比增长6.56%;归属于上市公司股东的净利润为51,244,270.51元...",
-      "url": "https://finance.eastmoney.com/a/202608203848143992.html",
-      "source": "finance.eastmoney.com",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
+      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
+      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 5.5,
-      "query": "海特高新 新闻 2026"
+      "query": "鸿翼 新闻 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-      "source": "fund.eastmoney.com",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
+      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
+      "url": "https://news.qq.com/rain/a/20250526A01GR200",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-21",
-      "score": 5.5,
-      "query": "海特高新 新闻 2026"
+      "score": 4.5,
+      "query": "柯渡医学 新闻 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
+      "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
+      "url": "https://xueqiu.com/8768643388/175415895",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 4.0,
+      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "huayt",
@@ -476,56 +385,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
-      "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
-      "url": "https://xueqiu.com/9057196330/393340560",
-      "source": "xueqiu.com",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
+      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
+      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
+      "source": "news.tianyancha.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "海特高新 新闻 2026"
+      "query": "鸿翼 新闻 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-      "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-      "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-      "source": "finance.sina.cn",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
+      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
+      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
+      "source": "news.tianyancha.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "海特高新 新闻 2026"
+      "query": "鸿翼 新闻 2026"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
-      "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
-      "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
-      "source": "www.iccsz.com",
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
+      "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
+      "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
+      "source": "news.tianyancha.com",
       "date": "",
       "fetched_at": "2026-08-21",
       "score": 4.0,
-      "query": "天津电信 新闻 2026"
+      "query": "鸿翼 新闻 2026"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
-      "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
-      "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
-      "source": "www.cnr.cn",
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型-新华网",
+      "summary": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型- 院长数字驾驶舱通过物联网实时获取设备运行数据,并对接院内其他系统,帮助医院领导层...",
+      "url": "https://www.news.cn/health/20250316/a6c2bb1337234794a15acf90500b15ec/c.html",
+      "source": "www.news.cn",
       "date": "",
       "fetched_at": "2026-08-21",
-      "score": 4.0,
-      "query": "天津电信 新闻 2026"
+      "score": 3.0,
+      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "huayt",
@@ -565,32 +474,6 @@
       "fetched_at": "2026-08-21",
       "score": 3.0,
       "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
-      "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
-      "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 3.0,
-      "query": "天津电信 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
-      "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
-      "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-21",
-      "score": 3.0,
-      "query": "天津电信 新闻 2026"
     },
     {
       "code": "hongyuan",
@@ -643,6 +526,19 @@
       "fetched_at": "2026-08-21",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "业界:医学装备数智化管理极大提升医院装备管理质量效益-中新社上海",
+      "summary": "刚出席第十五届健康中国论坛·公立医院高质量发展主题单元并做主旨发言的上海柯渡医学科技股份有限公司CEO张建29日接受采访时表示: 医学装备数智化管理不仅能通过数字化、智能化手段,精准监控装...",
+      "url": "http://www.sh.chinanews.com.cn/yljk/2024-05-29/124782.shtml",
+      "source": "www.sh.chinanews.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-21",
+      "score": 1.5,
+      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "hangtianhongtu",
