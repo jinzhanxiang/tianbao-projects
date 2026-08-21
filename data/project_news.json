@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T01:24:35+08:00",
+  "generated_at": "2026-08-22T01:32:22+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 25,
   "by_industry": {
     "高端制造": [
       {
@@ -58,58 +58,112 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "其他行业": [
+    "生物医药": [
       {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "新浪美股热点小时报丨2026年06月14日00时_今日实时美股热点速递|全球林木股ETF|航空航天ETF|纳斯达克基金|凯茜·伍德|Wood_新浪新闻",
-        "summary": "有 木头姐 之称的凯茜·伍德(Cathie Wood)旗下方舟投资(ARK)披露的最新交易数据显示,在SpaceX上市的首个交易日,ARK旗下四只主动管理ETF同...",
-        "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906qeao.html",
-        "source": "k.sina.com.cn",
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械项目落地嘉定签约仪式成功举行_腾讯新闻",
+        "summary": "11月18日下午,国药器械项目落地嘉定签约仪式成功举办.国药控股股份有限公司党委委员、副总裁、中国医疗器械有限公司董事长李杨,中国医疗器械...",
+        "url": "https://news.qq.com/rain/a/20241119A0962100",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 5.5,
-        "query": "凯茜 新闻 2026"
+        "query": "\"国药器械\" 公告 签约 中标 投资"
       },
       {
-        "code": "凯茜",
-        "company": "凯茜",
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告丨光速招标海量免费标讯",
+        "summary": "2026年1月14日 - 国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告..中标公告重庆市合川区2026-01-14微信查看...",
+        "url": "https://www.guangsuzb.com/succeed_v_2011328649925414921.html",
+        "source": "www.guangsuzb.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械医药中标信息_知了标讯",
+        "summary": "2026年1月19日 - 知了标讯为您提供国药器械(山东)医药科技有限公司完善的历史中标信息,为您筛选展示包含中标类型,中标产品,项目地区等在内的详细采购信息。随时随地了...",
+        "url": "https://www.zhiliaobiaoxun.com/networkmap/b2/i480854429.html",
+        "source": "www.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械山东医学检验有限公司最新中标公告|招标网",
+        "summary": "2025年11月5日 - 招标网提供有关国药器械山东医学检验有限公司的最新招标结果,每天实时更新中标信息,想了解国药器械山东医学检验有限公司更多详细动态,精准匹配供应商...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_4d8b8efc558109cb68a0599584db6603_zhongbiao.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
         "industry": "其他行业",
-        "title": "央视直播!2026女足亚洲杯小组赛赛程公布,韩国女足将迎战伊朗女足_比赛_中场_凯茜·费尔",
-        "summary": "主帅申相又采用4-2-3-1阵型,多名归国留洋球员保证了球队的深厚实力,核心中场池笑然和前锋凯茜·费尔发挥攻防带头作用.2026年女足亚洲杯的激...",
-        "url": "https://news.sohu.com/a/991830632_122376425",
-        "source": "news.sohu.com",
+        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+        "source": "finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 4.5,
-        "query": "凯茜 新闻 2026"
+        "query": "奥联电子 新闻 2026"
       },
       {
-        "code": "凯茜",
-        "company": "凯茜",
+        "code": "奥联电子",
+        "company": "奥联电子",
         "industry": "其他行业",
-        "title": "《呼啸山庄》新片段曝光,凯茜接受林顿求婚却心系希斯克利夫|雅各布·艾洛蒂|玛格特·罗比|前程似锦的女孩|萨特本|埃默拉尔德·芬内尔_新浪新闻",
-        "summary": "简介：#呼啸山庄新片段# 由玛格特·罗比、雅各布·艾洛蒂主演的电影《呼啸山庄》今日释出新片段,凯茜(玛格特·罗比 饰)接受...",
-        "url": "https://k.sina.com.cn/article_1663735900_m632a985c03301l66u.html",
-        "source": "k.sina.com.cn",
+        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+        "source": "app.myzaker.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 4.5,
-        "query": "凯茜 新闻 2026"
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
       },
       {
-        "code": "凯茜",
-        "company": "凯茜",
+        "code": "奥联电子",
+        "company": "奥联电子",
         "industry": "其他行业",
-        "title": "加拿大选手凯茜-夏普U池重摔受伤担架离场|体育比赛|米兰冬奥会|资格赛|u型场地技巧|冬奥会_新浪新闻",
-        "summary": "加拿大凯茜资格赛冬奥会权利保护声明页/Notice to Right Holders阅读排行榜评论排行榜01.2026年02月20日 03:41...",
-        "url": "http://k.sina.com.cn/article_6320391439_178b9850f040018e1q.html",
-        "source": "k.sina.com.cn",
+        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+        "source": "news.10jqka.com.cn",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 4.5,
-        "query": "凯茜 新闻 2026"
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子(截止2026年7月20日)股东人数为12177户 环比减少1.66%",
+        "summary": "2026年7月20日 - 月23日,奥联电子披露公司股东人数最新情况,截止7月20日,公司股东人数为12177人,较上期(2026-07-10)减少205户,环比下降1.66%。从持仓来看,奥联电子人均...",
+        "url": "http://news.10jqka.com.cn/20260723/c678385480.shtml",
+        "source": "news.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
       },
       {
         "code": "乘杜科技",
@@ -125,6 +179,60 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+        "source": "www.vzkoo.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+        "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+        "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -138,45 +246,6 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "勾指起誓 - 洛天依Official/ilem - 单曲 - 网易云音乐",
-        "summary": "歌曲名《勾指起誓》，由 洛天依Official、ilem 演唱，收录于《2:3》专辑中。《勾指起誓》下载，《勾指起誓》在线试听，更多相关歌 …",
-        "url": "https://music.163.com/song?id=1345872140",
-        "source": "music.163.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "勾指起誓英文版（人声版） - A路人/葵花fa/封茗囧菌 - 单曲 ...",
-        "summary": "歌曲名《勾指起誓英文版（人声版）》，由 A路人、葵花fa、封茗囧菌 演唱，收录于《勾指起誓英文版》专辑中。《勾指起誓英文版（ …",
-        "url": "https://music.163.com/song?id=1346676131",
-        "source": "music.163.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "黑胶VIP学生暑期特惠 - 网易云音乐",
-        "summary": "网易云音乐黑胶VIP学生特惠，青春专享套餐，每月仅需￥5。",
-        "url": "https://y.music.163.com/g/m/at/daydayup230505Astudyup?page=2ade783a2638439591ca02a78c0f85ca&extChannel=sms-3",
-        "source": "y.music.163.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -290,56 +359,82 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "新浪美股热点小时报丨2026年06月14日00时_今日实时美股热点速递|全球林木股ETF|航空航天ETF|纳斯达克基金|凯茜·伍德|Wood_新浪新闻",
-      "summary": "有 木头姐 之称的凯茜·伍德(Cathie Wood)旗下方舟投资(ARK)披露的最新交易数据显示,在SpaceX上市的首个交易日,ARK旗下四只主动管理ETF同...",
-      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906qeao.html",
-      "source": "k.sina.com.cn",
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械项目落地嘉定签约仪式成功举行_腾讯新闻",
+      "summary": "11月18日下午,国药器械项目落地嘉定签约仪式成功举办.国药控股股份有限公司党委委员、副总裁、中国医疗器械有限公司董事长李杨,中国医疗器械...",
+      "url": "https://news.qq.com/rain/a/20241119A0962100",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 5.5,
-      "query": "凯茜 新闻 2026"
+      "query": "\"国药器械\" 公告 签约 中标 投资"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
+      "code": "奥联电子",
+      "company": "奥联电子",
       "industry": "其他行业",
-      "title": "央视直播!2026女足亚洲杯小组赛赛程公布,韩国女足将迎战伊朗女足_比赛_中场_凯茜·费尔",
-      "summary": "主帅申相又采用4-2-3-1阵型,多名归国留洋球员保证了球队的深厚实力,核心中场池笑然和前锋凯茜·费尔发挥攻防带头作用.2026年女足亚洲杯的激...",
-      "url": "https://news.sohu.com/a/991830632_122376425",
-      "source": "news.sohu.com",
+      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+      "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.5,
-      "query": "凯茜 新闻 2026"
+      "query": "奥联电子 新闻 2026"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "《呼啸山庄》新片段曝光,凯茜接受林顿求婚却心系希斯克利夫|雅各布·艾洛蒂|玛格特·罗比|前程似锦的女孩|萨特本|埃默拉尔德·芬内尔_新浪新闻",
-      "summary": "简介：#呼啸山庄新片段# 由玛格特·罗比、雅各布·艾洛蒂主演的电影《呼啸山庄》今日释出新片段,凯茜(玛格特·罗比 饰)接受...",
-      "url": "https://k.sina.com.cn/article_1663735900_m632a985c03301l66u.html",
-      "source": "k.sina.com.cn",
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告丨光速招标海量免费标讯",
+      "summary": "2026年1月14日 - 国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告..中标公告重庆市合川区2026-01-14微信查看...",
+      "url": "https://www.guangsuzb.com/succeed_v_2011328649925414921.html",
+      "source": "www.guangsuzb.com",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 4.5,
-      "query": "凯茜 新闻 2026"
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "加拿大选手凯茜-夏普U池重摔受伤担架离场|体育比赛|米兰冬奥会|资格赛|u型场地技巧|冬奥会_新浪新闻",
-      "summary": "加拿大凯茜资格赛冬奥会权利保护声明页/Notice to Right Holders阅读排行榜评论排行榜01.2026年02月20日 03:41...",
-      "url": "http://k.sina.com.cn/article_6320391439_178b9850f040018e1q.html",
-      "source": "k.sina.com.cn",
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械医药中标信息_知了标讯",
+      "summary": "2026年1月19日 - 知了标讯为您提供国药器械(山东)医药科技有限公司完善的历史中标信息,为您筛选展示包含中标类型,中标产品,项目地区等在内的详细采购信息。随时随地了...",
+      "url": "https://www.zhiliaobiaoxun.com/networkmap/b2/i480854429.html",
+      "source": "www.zhiliaobiaoxun.com",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 4.5,
-      "query": "凯茜 新闻 2026"
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械山东医学检验有限公司最新中标公告|招标网",
+      "summary": "2025年11月5日 - 招标网提供有关国药器械山东医学检验有限公司的最新招标结果,每天实时更新中标信息,想了解国药器械山东医学检验有限公司更多详细动态,精准匹配供应商...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_4d8b8efc558109cb68a0599584db6603_zhongbiao.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.5,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -381,6 +476,45 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+      "source": "app.myzaker.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子(截止2026年7月20日)股东人数为12177户 环比减少1.66%",
+      "summary": "2026年7月20日 - 月23日,奥联电子披露公司股东人数最新情况,截止7月20日,公司股东人数为12177人,较上期(2026-07-10)减少205户,环比下降1.66%。从持仓来看,奥联电子人均...",
+      "url": "http://news.10jqka.com.cn/20260723/c678385480.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -420,6 +554,45 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+      "source": "www.vzkoo.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+      "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+      "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -457,45 +630,6 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "勾指起誓 - 洛天依Official/ilem - 单曲 - 网易云音乐",
-      "summary": "歌曲名《勾指起誓》，由 洛天依Official、ilem 演唱，收录于《2:3》专辑中。《勾指起誓》下载，《勾指起誓》在线试听，更多相关歌 …",
-      "url": "https://music.163.com/song?id=1345872140",
-      "source": "music.163.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "勾指起誓英文版（人声版） - A路人/葵花fa/封茗囧菌 - 单曲 ...",
-      "summary": "歌曲名《勾指起誓英文版（人声版）》，由 A路人、葵花fa、封茗囧菌 演唱，收录于《勾指起誓英文版》专辑中。《勾指起誓英文版（ …",
-      "url": "https://music.163.com/song?id=1346676131",
-      "source": "music.163.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "黑胶VIP学生暑期特惠 - 网易云音乐",
-      "summary": "网易云音乐黑胶VIP学生特惠，青春专享套餐，每月仅需￥5。",
-      "url": "https://y.music.163.com/g/m/at/daydayup230505Astudyup?page=2ade783a2638439591ca02a78c0f85ca&extChannel=sms-3",
-      "source": "y.music.163.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
     },
     {
       "code": "联通云山西",
