@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-22T03:21:26+08:00",
+  "generated_at": "2026-08-22T03:28:30+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 25,
+  "total": 21,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-        "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-        "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-        "source": "www.tht.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
-        "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
-        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-        "source": "www.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.0,
-        "query": "元旭半导体 新闻 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -114,56 +60,56 @@
     ],
     "其他行业": [
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
+        "code": "鸿翼",
+        "company": "鸿翼",
         "industry": "其他行业",
-        "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-        "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-        "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-        "source": "cj.sina.com.cn",
+        "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
+        "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
+        "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 5.5,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "鸿翼 新闻 2026"
       },
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
+        "code": "鸿翼",
+        "company": "鸿翼",
         "industry": "其他行业",
-        "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-        "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-        "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-        "source": "stock.stockstar.com",
+        "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
+        "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
+        "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
+        "source": "news.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "鸿翼 新闻 2026"
       },
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
+        "code": "鸿翼",
+        "company": "鸿翼",
         "industry": "其他行业",
-        "title": "1月4日晚间沪深上市公司重大事项公告最新快递_财经评论(cjpl)股吧_东方财富网股吧",
-        "summary": "2021年1月4日 - 奥联电子(300585)1月4日晚公告,持股比例18.22%的股东刘军胜,计划自本公告披露之日起15个交易日后的6个月内,以集中竞价方式、大宗交易方式等方式减持公...",
-        "url": "http://guba.eastmoney.com/news,cjpl,992756975.html",
-        "source": "guba.eastmoney.com",
+        "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
+        "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
+        "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
+        "source": "news.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "鸿翼 新闻 2026"
       },
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
+        "code": "鸿翼",
+        "company": "鸿翼",
         "industry": "其他行业",
-        "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-        "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-        "url": "https://xueqiu.com/2866092708/292230062",
-        "source": "xueqiu.com",
+        "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
+        "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
+        "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
+        "source": "news.tianyancha.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
+        "query": "鸿翼 新闻 2026"
       },
       {
         "code": "乘杜科技",
@@ -177,6 +123,60 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
+        "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
+        "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
+        "source": "www.chinamae.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
+        "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
+        "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
+        "source": "www.jrzb.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "航天精工股份有限公司电子会计档案项目技术开发中标结果公告_招标网",
+        "summary": "2025年4月11日 - 航天精工股份有限公司电子会计档案项目技术开发中标结果公告是招标网发布的中标公告信息,该中标公告相关中标公示、中标通知、中标公示、成交公告等中...",
+        "url": "https://m.zhaobiao.cn/zb/succeed_v_b6c4f45f81ca9514bc4d80475c97d429.html",
+        "source": "m.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "天津热转印烫印机招标公告",
+        "summary": "2024年9月9日 - 【产品】生产保障物资采购)基本信息 询价单编号:STC202408-00015 询价单名称:生产保障物资采购 发布时间:2024-09-09 15:20:19 采购企业:航天精工股份...",
+        "url": "https://www.qianlima.com/gjxx/496443_26_0",
+        "source": "www.qianlima.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "\"航天精工\" 公告 签约 中标 投资"
       }
     ],
     "AI智能": [
@@ -288,102 +288,9 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
-    ],
-    "生物医药": [
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "国家税务总局全国增值税发票查验平台",
-        "summary": "2026年7月2日 · We're sorry but 国家税务总局全国增值税发票查验平台 doesn't work properly without JavaScript enabled. Please …",
-        "url": "https://inv-veri.chinatax.gov.cn/",
-        "source": "inv-veri.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "国家税务总局全国增值税发票查验平台",
-        "summary": "2025年8月25日 · 4、可查验最近5年内增值税发票管理系统或电子发票服务平台开具的发票。 5、如遇个别浏览器版本无法查验，建议 …",
-        "url": "https://inv-veri.chinatax.gov.cn/?p=51,42&a=cjfb",
-        "source": "inv-veri.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "国家税务总局全国增值税发票查验平台",
-        "summary": "2025年8月25日 · 1、 首次查验前请点此安装根证书。 2、当日开具发票当日可查验。 3、每份发票每天最多可查验5次。 4、可查验最 …",
-        "url": "https://inv-veri.chinatax.gov.cn/index.html?source=bdjj&e_keywordid2=66841379952",
-        "source": "inv-veri.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "国药器械",
-        "company": "国药器械",
-        "industry": "生物医药",
-        "title": "操作说明 - 国家税务总局全国增值税发票查验平台",
-        "summary": "2026年6月29日 · 国家税务总局全国增值税发票查验平台提供发票信息查验服务，支持多种类型发票的真伪查询。",
-        "url": "https://inv-veri.chinatax.gov.cn/czsm.html",
-        "source": "inv-veri.chinatax.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      }
     ]
   },
   "items": [
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-      "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-      "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-      "source": "www.tht.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
-      "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
-      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "元旭半导体 新闻 2026"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -398,69 +305,95 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
+      "code": "鸿翼",
+      "company": "鸿翼",
       "industry": "其他行业",
-      "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-      "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-      "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-      "source": "cj.sina.com.cn",
+      "title": "鸿翼芯亮相慕展|车规芯片「全家桶」登场,两轮车赛道引关注_腾讯新闻",
+      "summary": "2026年7月7日 - 广东鸿翼芯汽车电子科技有限公司(简称 鸿翼芯 )携完整车规级数模混合芯片矩阵重磅参展,覆盖汽车动力、智能底盘、车身系统及全新摩托车专用方案,以量产...",
+      "url": "https://news.qq.com/rain/a/20260707A09C6Q00",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 5.5,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "鸿翼 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.0,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-      "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-      "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-      "source": "stock.stockstar.com",
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
+      "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
+      "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
+      "source": "www.chinamae.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "\"航天精工\" 公告 签约 中标 投资"
     },
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "1月4日晚间沪深上市公司重大事项公告最新快递_财经评论(cjpl)股吧_东方财富网股吧",
-      "summary": "2021年1月4日 - 奥联电子(300585)1月4日晚公告,持股比例18.22%的股东刘军胜,计划自本公告披露之日起15个交易日后的6个月内,以集中竞价方式、大宗交易方式等方式减持公...",
-      "url": "http://guba.eastmoney.com/news,cjpl,992756975.html",
-      "source": "guba.eastmoney.com",
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
+      "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
+      "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
+      "source": "www.jrzb.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "\"航天精工\" 公告 签约 中标 投资"
     },
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-      "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-      "url": "https://xueqiu.com/2866092708/292230062",
-      "source": "xueqiu.com",
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "航天精工股份有限公司电子会计档案项目技术开发中标结果公告_招标网",
+      "summary": "2025年4月11日 - 航天精工股份有限公司电子会计档案项目技术开发中标结果公告是招标网发布的中标公告信息,该中标公告相关中标公示、中标通知、中标公示、成交公告等中...",
+      "url": "https://m.zhaobiao.cn/zb/succeed_v_b6c4f45f81ca9514bc4d80475c97d429.html",
+      "source": "m.zhaobiao.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
+      "query": "\"航天精工\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "嘉加投资加码鸿翼软件,估值破10亿再启新程-资金_ 天眼查新闻",
+      "summary": "01再融资收官,估值站上新台阶 近日, 上海鸿翼软件技术股份有限公司(简称 鸿翼软件 )顺利完成新一轮再融资.2026-05-08新增税务评级.上海鸿翼软件技术股份有限公司法定代表人:龙凌云 | 注册资本:1...",
+      "url": "https://news.tianyancha.com/ll_v69pmd4ts5.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "协同+内容双轮驱动,致远互联×鸿翼共筑企业数字化新底座-合作_ 天眼查新闻",
+      "summary": "01签约亮相:两大老牌软件厂商牵手 近日,致远互联与上海鸿翼软件技术股份有限公司在沪正式签署营销生态合作协议.2026-06-02新增上榜榜单...",
+      "url": "https://news.tianyancha.com/ll_f831q4ic72.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
+    },
+    {
+      "code": "鸿翼",
+      "company": "鸿翼",
+      "industry": "其他行业",
+      "title": "国内首颗!鸿翼芯HE9788获颁ISO26262 ASIL-D产品认证证书-产品_ 天眼查新闻",
+      "summary": "鸿翼芯亮相2026商用车产业发展会议,聚焦动力底盘助力供应链协同创新来源:爱集微发布时间:2026年04月13日.【深度报道】链通万物,智启新程—共筑商用车产业链协同创新生态来源:搜狐新闻发布时间:2...",
+      "url": "https://news.tianyancha.com/ll_jtojtgnsks.html",
+      "source": "news.tianyancha.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "鸿翼 新闻 2026"
     },
     {
       "code": "huayt",
@@ -526,6 +459,19 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "天津热转印烫印机招标公告",
+      "summary": "2024年9月9日 - 【产品】生产保障物资采购)基本信息 询价单编号:STC202408-00015 询价单名称:生产保障物资采购 发布时间:2024-09-09 15:20:19 采购企业:航天精工股份...",
+      "url": "https://www.qianlima.com/gjxx/496443_26_0",
+      "source": "www.qianlima.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "\"航天精工\" 公告 签约 中标 投资"
     },
     {
       "code": "联通云山西",
@@ -617,58 +563,6 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "国家税务总局全国增值税发票查验平台",
-      "summary": "2026年7月2日 · We're sorry but 国家税务总局全国增值税发票查验平台 doesn't work properly without JavaScript enabled. Please …",
-      "url": "https://inv-veri.chinatax.gov.cn/",
-      "source": "inv-veri.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "国家税务总局全国增值税发票查验平台",
-      "summary": "2025年8月25日 · 4、可查验最近5年内增值税发票管理系统或电子发票服务平台开具的发票。 5、如遇个别浏览器版本无法查验，建议 …",
-      "url": "https://inv-veri.chinatax.gov.cn/?p=51,42&a=cjfb",
-      "source": "inv-veri.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "国家税务总局全国增值税发票查验平台",
-      "summary": "2025年8月25日 · 1、 首次查验前请点此安装根证书。 2、当日开具发票当日可查验。 3、每份发票每天最多可查验5次。 4、可查验最 …",
-      "url": "https://inv-veri.chinatax.gov.cn/index.html?source=bdjj&e_keywordid2=66841379952",
-      "source": "inv-veri.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "国药器械",
-      "company": "国药器械",
-      "industry": "生物医药",
-      "title": "操作说明 - 国家税务总局全国增值税发票查验平台",
-      "summary": "2026年6月29日 · 国家税务总局全国增值税发票查验平台提供发票信息查验服务，支持多种类型发票的真伪查询。",
-      "url": "https://inv-veri.chinatax.gov.cn/czsm.html",
-      "source": "inv-veri.chinatax.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
     }
   ]
 }
