@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T09:19:01+08:00",
+  "generated_at": "2026-08-22T09:26:16+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,86 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
+        "summary": "月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
+        "url": "https://news.qq.com/rain/a/20240919A09S0W00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.5,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
+        "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
+        "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.5,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
+        "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
+        "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
+        "source": "k.sina.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "天津大学-航天精工联合研究中心正式揭牌-天津大学新闻网",
+        "summary": "2026年6月2日 - 月29日,天津大学-航天精工联合研究中心揭牌仪式暨管委会第一次会议在航天精工股份有限公司召开。天津大学党委常委、常务副校长王天友,航天精工党委书...",
+        "url": "https://news.tju.edu.cn/info/1003/600549.htm",
+        "source": "news.tju.edu.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "青岛直升机收购",
+        "company": "青岛直升机收购",
+        "industry": "低空航空",
+        "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+        "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+        "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+        "source": "m.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "青岛直升机收购",
+        "company": "青岛直升机收购",
+        "industry": "低空航空",
+        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -199,6 +279,32 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
+      "summary": "月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
+      "url": "https://news.qq.com/rain/a/20240919A09S0W00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.5,
+      "query": "航天精工 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
+      "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
+      "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
+      "source": "www.thepaper.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.5,
+      "query": "航天精工 新闻 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -238,6 +344,32 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "陈锡明调研航天精工|中国航天科工集团有限公司|智能制造|战略|科技创新|中国航天_新浪新闻",
+      "summary": "2026年7月30日 - 陈锡明调研航天精工,中国航天科工集团有限公司,智能制造,战略,科技创新,中国航天,策源地,定力,董事长,人工智能 7月29日,中国航天科工集团有限公司党组...",
+      "url": "https://k.sina.cn/article_2459025125_9291bee501901n20m.html?cre=wappage&kdurlshow=1&loc=4&mod=r&r=0&rfunc=27&tj=cx_wap_news_relate",
+      "source": "k.sina.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "航天精工 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "天津大学-航天精工联合研究中心正式揭牌-天津大学新闻网",
+      "summary": "2026年6月2日 - 月29日,天津大学-航天精工联合研究中心揭牌仪式暨管委会第一次会议在航天精工股份有限公司召开。天津大学党委常委、常务副校长王天友,航天精工党委书...",
+      "url": "https://news.tju.edu.cn/info/1003/600549.htm",
+      "source": "news.tju.edu.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "航天精工 新闻 2026"
+    },
+    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -262,6 +394,32 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "青岛直升机收购",
+      "company": "青岛直升机收购",
+      "industry": "低空航空",
+      "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+      "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+      "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+      "source": "m.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "青岛直升机收购",
+      "company": "青岛直升机收购",
+      "industry": "低空航空",
+      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
     },
     {
       "code": "联通云山西",
