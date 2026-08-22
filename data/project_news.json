@@ -1,9 +1,89 @@
 {
-  "generated_at": "2026-08-22T22:24:02+08:00",
+  "generated_at": "2026-08-22T22:32:52+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 25,
   "by_industry": {
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
+        "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
+        "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 6.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
+        "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
+        "url": "https://www.elecfans.com/d/8045816.html",
+        "source": "www.elecfans.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
+        "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
+        "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.5,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
+        "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
+        "url": "http://www.yejibang.com/news-details-786.html",
+        "source": "www.yejibang.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "晶能光电 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -56,32 +136,6 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "华东数控-资本运作平台",
-        "company": "华东数控-资本运作平台",
-        "industry": "高端制造",
-        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-        "source": "data.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "高端制造 行业 政策 2026"
-      },
-      {
-        "code": "华东数控-资本运作平台",
-        "company": "华东数控-资本运作平台",
-        "industry": "高端制造",
-        "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
-        "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
-        "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
-        "source": "www.zs.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "高端制造 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -164,34 +218,6 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -319,6 +345,58 @@
     ]
   },
   "items": [
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "星宇股份与欧冶半导体、晶能光电达成合作,共同开发IVISION智眸大灯_腾讯新闻",
+      "summary": "2025年4月24日 - 4月23日,界面新闻从上海车展获悉,星宇股份与欧冶半导体、晶能光电正式签署战略合作协议。三方将围绕 全系自主产业链生态 展开深度合作,共同开发IVISIO...",
+      "url": "https://news.qq.com/rain/a/20250424A084FL00?media_id&suid",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 6.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
+      "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
+      "url": "https://www.elecfans.com/d/8045816.html",
+      "source": "www.elecfans.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
+      "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
+      "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.5,
+      "query": "晶能光电 新闻 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "晶能光电推出光效超120lm/W硅基大功率LED芯片_行业新闻资讯_大屏幕显示业绩榜",
+      "summary": "晶能光电推出光效超120lm/W硅基大功率LED芯片,行业新闻资讯,大屏幕显示业绩榜(www.yejibang.com)提供。 欢迎来到大屏幕显示业绩榜 [ 业绩榜首页-网站地图] 手机客户端 业绩...",
+      "url": "http://www.yejibang.com/news-details-786.html",
+      "source": "www.yejibang.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "晶能光电 新闻 2026"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -474,32 +552,6 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "华东数控-资本运作平台",
-      "company": "华东数控-资本运作平台",
-      "industry": "高端制造",
-      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
-      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
-      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
-      "source": "data.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "高端制造 行业 政策 2026"
-    },
-    {
-      "code": "华东数控-资本运作平台",
-      "company": "华东数控-资本运作平台",
-      "industry": "高端制造",
-      "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
-      "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
-      "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
-      "source": "www.zs.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "innoshine",
