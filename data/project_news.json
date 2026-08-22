@@ -1,23 +1,172 @@
 {
-  "generated_at": "2026-08-23T02:52:02+08:00",
+  "generated_at": "2026-08-23T02:58:44+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 27,
   "by_industry": {
-    "其他行业": [
+    "半导体": [
       {
-        "code": "000711-ST京蓝",
-        "company": "000711-ST京蓝",
-        "industry": "其他行业",
-        "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
-        "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
-        "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
-        "source": "www.aijingu.com",
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
+        "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
+        "url": "https://www.tht.gov.cn/contents/16930/610355.html",
+        "source": "www.tht.gov.cn",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
+        "score": 6.5,
+        "query": "元旭半导体 新闻 2026"
       },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
+        "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
+        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 6.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.5,
+        "query": "元旭半导体 新闻 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
+        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
+        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
+        "source": "news.enorth.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.0,
+        "query": "元旭半导体 新闻 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "2026人工智能赋能可信数据空间发展研究报告-国家数据发展研究院_智能化_价值_动态化",
+        "summary": "2026 年 1 月编制的这份报告由火山引擎与国家数据发展研究院联合发布,聚焦人工智能对可信数据空间的赋能价值,剖析发展现状、挑战,构建赋能体...",
+        "url": "https://news.sohu.com/a/988800667_121752158",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "2026年城市可信数据空间发展趋势洞察|赛迪顾问:赋能城市全域数字化转型的数字新基建|元数据_网易订阅",
+        "summary": "2026年,随着数据空间技术体系成型,数据目录管理和区块链技术仍然是城市可信数据空间主流技术。.2026年,随着城市可信数据空间建设范围进一步...",
+        "url": "https://www.163.com/dy/article/KK6L8K0405118SRU.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+        "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+        "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "国家数据发展研究院:人工智能赋能可信数据空间发展研究报告 2026_智能化_模型_价值",
+        "summary": "这份由火山引擎与国家数据发展研究院 2026 年 1 月编制的《人工智能赋能可信数据空间发展研究报告》,聚焦数字经济背景下数据要素流通的核心...",
+        "url": "https://news.sohu.com/a/989043822_468661",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "5 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "湖北华阳汽车变速系统股份有限公司官网",
+        "summary": "2026年7月22日 · 湖北华阳汽车变速系统股份有限公司是中国汽车拨叉事业的奠基者和开拓者之一,中国汽车变速箱轻量化的先进者与领 …",
+        "url": "http://www.hybiansu.com/",
+        "source": "www.hybiansu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "湖北华阳医药有限公司 - 华阳医药 - 爱企查",
+        "summary": "2026年8月11日 · 湖北华阳医药有限公司成立于2002年11月22日，注册地位于湖北省武汉市硚口区宝丰街道解放大道634-1号新世界中 …",
+        "url": "https://aiqicha.baidu.com/company_detail_29775352758742",
+        "source": "aiqicha.baidu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
+    "其他行业": [
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -82,75 +231,6 @@
         "fetched_at": "2026-08-23",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "5 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "湖北华阳汽车变速系统股份有限公司官网",
-        "summary": "2026年7月22日 · 湖北华阳汽车变速系统股份有限公司是中国汽车拨叉事业的奠基者和开拓者之一,中国汽车变速箱轻量化的先进者与领 …",
-        "url": "http://www.hybiansu.com/",
-        "source": "www.hybiansu.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "湖北华阳医药有限公司 - 华阳医药 - 爱企查",
-        "summary": "2026年8月11日 · 湖北华阳医药有限公司成立于2002年11月22日，注册地位于湖北省武汉市硚口区宝丰街道解放大道634-1号新世界中 …",
-        "url": "https://aiqicha.baidu.com/company_detail_29775352758742",
-        "source": "aiqicha.baidu.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
       }
     ],
     "新能源": [
@@ -292,17 +372,108 @@
   },
   "items": [
     {
-      "code": "000711-ST京蓝",
-      "company": "000711-ST京蓝",
-      "industry": "其他行业",
-      "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
-      "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
-      "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
-      "source": "www.aijingu.com",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
+      "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
+      "url": "https://www.tht.gov.cn/contents/16930/610355.html",
+      "source": "www.tht.gov.cn",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 4.0,
-      "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
+      "score": 6.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
+      "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
+      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 6.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
+      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
+      "source": "www.thepaper.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "2026人工智能赋能可信数据空间发展研究报告-国家数据发展研究院_智能化_价值_动态化",
+      "summary": "2026 年 1 月编制的这份报告由火山引擎与国家数据发展研究院联合发布,聚焦人工智能对可信数据空间的赋能价值,剖析发展现状、挑战,构建赋能体...",
+      "url": "https://news.sohu.com/a/988800667_121752158",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
+      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
+      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
+      "source": "news.enorth.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.0,
+      "query": "元旭半导体 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "2026年城市可信数据空间发展趋势洞察|赛迪顾问:赋能城市全域数字化转型的数字新基建|元数据_网易订阅",
+      "summary": "2026年,随着数据空间技术体系成型,数据目录管理和区块链技术仍然是城市可信数据空间主流技术。.2026年,随着城市可信数据空间建设范围进一步...",
+      "url": "https://www.163.com/dy/article/KK6L8K0405118SRU.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+      "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+      "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "国家数据发展研究院:人工智能赋能可信数据空间发展研究报告 2026_智能化_模型_价值",
+      "summary": "这份由火山引擎与国家数据发展研究院 2026 年 1 月编制的《人工智能赋能可信数据空间发展研究报告》,聚焦数字经济背景下数据要素流通的核心...",
+      "url": "https://news.sohu.com/a/989043822_468661",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "huayt",
@@ -355,19 +526,6 @@
       "fetched_at": "2026-08-23",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "凯茜",
