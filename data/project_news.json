@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T09:11:37+08:00",
+  "generated_at": "2026-08-22T09:19:01+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 13,
   "by_industry": {
     "高端制造": [
       {
@@ -58,74 +58,22 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "生物医药": [
+    "AI智能": [
       {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
-        "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
-        "url": "https://xueqiu.com/8768643388/175415895",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型-新华网",
-        "summary": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型- 院长数字驾驶舱通过物联网实时获取设备运行数据,并对接院内其他系统,帮助医院领导层...",
-        "url": "https://www.news.cn/health/20250316/a6c2bb1337234794a15acf90500b15ec/c.html",
-        "source": "www.news.cn",
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "业界:医学装备数智化管理极大提升医院装备管理质量效益-中新社上海",
-        "summary": "刚出席第十五届健康中国论坛·公立医院高质量发展主题单元并做主旨发言的上海柯渡医学科技股份有限公司CEO张建29日接受采访时表示: 医学装备数智化管理不仅能通过数字化、智能化手段,精准监控装...",
-        "url": "http://www.sh.chinanews.com.cn/yljk/2024-05-29/124782.shtml",
-        "source": "www.sh.chinanews.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "新能源": [
-      {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.5,
-        "query": "新能源 行业 政策 2026"
-      },
       {
         "code": "hongyuan",
         "company": "宏远创信",
@@ -137,32 +85,6 @@
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "新能源汽车发展态势明确,2026年或实施三大政策",
-        "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
-        "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
-        "source": "ai.so.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
-        "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
-        "url": "https://www.toutiao.com/article/7616707417639813642/",
-        "source": "www.toutiao.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
         "query": "新能源 行业 政策 2026"
       },
       {
@@ -190,21 +112,6 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -292,58 +199,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
-      "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
-      "url": "https://xueqiu.com/8768643388/175415895",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
-      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
-      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型-新华网",
-      "summary": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型- 院长数字驾驶舱通过物联网实时获取设备运行数据,并对接院内其他系统,帮助医院领导层...",
-      "url": "https://www.news.cn/health/20250316/a6c2bb1337234794a15acf90500b15ec/c.html",
-      "source": "www.news.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -422,32 +277,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "新能源汽车发展态势明确,2026年或实施三大政策",
-      "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
-      "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
-      "source": "ai.so.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
-      "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
-      "url": "https://www.toutiao.com/article/7616707417639813642/",
-      "source": "www.toutiao.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.0,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -472,19 +301,6 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "业界:医学装备数智化管理极大提升医院装备管理质量效益-中新社上海",
-      "summary": "刚出席第十五届健康中国论坛·公立医院高质量发展主题单元并做主旨发言的上海柯渡医学科技股份有限公司CEO张建29日接受采访时表示: 医学装备数智化管理不仅能通过数字化、智能化手段,精准监控装...",
-      "url": "http://www.sh.chinanews.com.cn/yljk/2024-05-29/124782.shtml",
-      "source": "www.sh.chinanews.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "乘杜科技",
