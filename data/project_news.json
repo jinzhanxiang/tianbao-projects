@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T10:16:55+08:00",
+  "generated_at": "2026-08-22T10:24:07+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 24,
   "by_industry": {
     "高端制造": [
       {
@@ -56,86 +56,58 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年9月28日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "天威园区直购电供电单位采购项目竞争性磋商结果公告-采招网",
-        "summary": "第三名:北京宏远创信能源管理有限公司;投标报价:0.2515 元/度。.采购人:成都空港科创投资集团有限公司...",
-        "url": "https://www.bidcenter.com.cn/newscontent-92239246-4.html",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "QQ邮箱 - 第一步：选择邮箱账号 - 注册邮箱账号",
+        "summary": "注：邮箱账号注册成功后将不能更改。 您的邮箱账号应该由a～z的英文字母（不区分大小写）开头； 可由英文字母、0～9的数字（但 …",
+        "url": "https://mail.qq.com/cgi-bin/loginpage?t=reg_mailaddress",
+        "source": "mail.qq.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "高端制造 行业 政策 2026"
       },
       {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
-        "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
-        "url": "https://tv.cctv.com/live/cctv13/",
-        "source": "tv.cctv.com",
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "QQ邮箱帮助系统",
+        "summary": "一封邮件能够发送给多少收件人？ 我怎样退出QQ邮箱？ QQ邮箱的可存储邮件数量是多少？ QQ邮件彩色主题是什么？ 我怎样更 …",
+        "url": "https://service.mail.qq.com/",
+        "source": "service.mail.qq.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "QQ邮箱帮助系统",
+        "summary": "重要提示 1、授权码 ≠ 邮箱密码：第三方客户端登录时， 用户名 填您的完整邮箱地址， 密码 栏请填写这串16位的 授权码，而非您 …",
+        "url": "https://help.mail.qq.com/detail/0/1087",
+        "source": "help.mail.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "QQ邮箱帮助系统",
+        "summary": "个性化邮箱地址是QQ邮箱用户将自己的域名作为邮箱后缀添加的邮箱地址，用于收发邮件。 举例：你购买了一个 example.com 域 …",
+        "url": "https://help.mail.qq.com/detail/106/999",
+        "source": "help.mail.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "高端制造 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -218,6 +190,47 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
+        "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
+        "url": "https://tv.cctv.com/live/cctv13/",
+        "source": "tv.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -331,32 +344,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
-      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
-      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年9月28日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -464,19 +451,6 @@
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "天威园区直购电供电单位采购项目竞争性磋商结果公告-采招网",
-      "summary": "第三名:北京宏远创信能源管理有限公司;投标报价:0.2515 元/度。.采购人:成都空港科创投资集团有限公司...",
-      "url": "https://www.bidcenter.com.cn/newscontent-92239246-4.html",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
       "url": "https://news.sina.com.cn/",
@@ -498,6 +472,32 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
+      "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
+      "url": "https://tv.cctv.com/live/cctv13/",
+      "source": "tv.cctv.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -552,30 +552,56 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "新浪网",
-      "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "QQ邮箱 - 第一步：选择邮箱账号 - 注册邮箱账号",
+      "summary": "注：邮箱账号注册成功后将不能更改。 您的邮箱账号应该由a～z的英文字母（不区分大小写）开头； 可由英文字母、0～9的数字（但 …",
+      "url": "https://mail.qq.com/cgi-bin/loginpage?t=reg_mailaddress",
+      "source": "mail.qq.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 1.5,
-      "query": "新能源 行业 政策 2026"
+      "query": "高端制造 行业 政策 2026"
     },
     {
-      "code": "合邦新能源",
-      "company": "合邦新能源",
-      "industry": "新能源",
-      "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
-      "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
-      "url": "https://tv.cctv.com/live/cctv13/",
-      "source": "tv.cctv.com",
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "QQ邮箱帮助系统",
+      "summary": "一封邮件能够发送给多少收件人？ 我怎样退出QQ邮箱？ QQ邮箱的可存储邮件数量是多少？ QQ邮件彩色主题是什么？ 我怎样更 …",
+      "url": "https://service.mail.qq.com/",
+      "source": "service.mail.qq.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 1.5,
-      "query": "新能源 行业 政策 2026"
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "QQ邮箱帮助系统",
+      "summary": "重要提示 1、授权码 ≠ 邮箱密码：第三方客户端登录时， 用户名 填您的完整邮箱地址， 密码 栏请填写这串16位的 授权码，而非您 …",
+      "url": "https://help.mail.qq.com/detail/0/1087",
+      "source": "help.mail.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "QQ邮箱帮助系统",
+      "summary": "个性化邮箱地址是QQ邮箱用户将自己的域名作为邮箱后缀添加的邮箱地址，用于收发邮件。 举例：你购买了一个 example.com 域 …",
+      "url": "https://help.mail.qq.com/detail/106/999",
+      "source": "help.mail.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "联通云山西",
