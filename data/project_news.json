@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T09:48:09+08:00",
+  "generated_at": "2026-08-22T09:55:04+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 23,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,86 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "潍坊兴合邦新能源有限公司【潍坊】EPC总承包中标结果公示",
+        "summary": "2024年9月30日 - 潍坊兴合邦新能源有限公司中标公司:、.查看完整信息三、招标公告发布日期:2024年9月4日.招标人:潍坊兴合邦新能源有限公司...",
+        "url": "https://sd.zhiliaobiaoxun.com/article/37071778",
+        "source": "sd.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.0,
+        "query": "\"合邦新能源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "潍坊兴合邦新能源有限公司最新中标公告|招标网",
+        "summary": "2026年7月27日 - 招标网提供有关潍坊兴合邦新能源有限公司的最新招标结果,每天实时更新中标信息,想了解潍坊兴合邦新能源有限公司更多详细动态,精准匹配供应商需求,尽在...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_67b20238a13f65fc388169ccbc777168_zhongbiao.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.0,
+        "query": "\"合邦新能源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "潍坊兴合邦新能源有限公司招投标信息查询 - 标找找",
+        "summary": "2024年3月21日 - 1 潍柴国际配套产业园(西区)5MW分布式光伏发电及新钢园区二期5.99MW屋面分布式光伏发电项目EPC总承包招标公告 山东省潍坊市奎文区 丛霖 0536-8191277 ...",
+        "url": "https://www.biaozhaozhao.com/owner/df3544743338fff930a1f9d54c28daea",
+        "source": "www.biaozhaozhao.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.0,
+        "query": "\"合邦新能源\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
+        "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
+        "url": "https://tv.cctv.com/live/cctv13/",
+        "source": "tv.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -138,47 +218,6 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
-        "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
-        "url": "https://tv.cctv.com/live/cctv13/",
-        "source": "tv.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -290,6 +329,45 @@
       "fetched_at": "2026-08-22",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "潍坊兴合邦新能源有限公司【潍坊】EPC总承包中标结果公示",
+      "summary": "2024年9月30日 - 潍坊兴合邦新能源有限公司中标公司:、.查看完整信息三、招标公告发布日期:2024年9月4日.招标人:潍坊兴合邦新能源有限公司...",
+      "url": "https://sd.zhiliaobiaoxun.com/article/37071778",
+      "source": "sd.zhiliaobiaoxun.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.0,
+      "query": "\"合邦新能源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "潍坊兴合邦新能源有限公司最新中标公告|招标网",
+      "summary": "2026年7月27日 - 招标网提供有关潍坊兴合邦新能源有限公司的最新招标结果,每天实时更新中标信息,想了解潍坊兴合邦新能源有限公司更多详细动态,精准匹配供应商需求,尽在...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_67b20238a13f65fc388169ccbc777168_zhongbiao.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.0,
+      "query": "\"合邦新能源\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "潍坊兴合邦新能源有限公司招投标信息查询 - 标找找",
+      "summary": "2024年3月21日 - 1 潍柴国际配套产业园(西区)5MW分布式光伏发电及新钢园区二期5.99MW屋面分布式光伏发电项目EPC总承包招标公告 山东省潍坊市奎文区 丛霖 0536-8191277 ...",
+      "url": "https://www.biaozhaozhao.com/owner/df3544743338fff930a1f9d54c28daea",
+      "source": "www.biaozhaozhao.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.0,
+      "query": "\"合邦新能源\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
