@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T14:56:50+08:00",
+  "generated_at": "2026-08-22T15:05:39+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -36,7 +36,7 @@
         "company": "华阳集团",
         "industry": "高端制造",
         "title": "华阳新材料科技集团有限公司 - 华阳材料 - 爱企查",
-        "summary": "6 小时之前 · 2020年10月，正式揭牌，拥有华阳新能源股份公司和华阳新材料股份公司两个上市公司，煤矿10座，核定生产能力2860 …",
+        "summary": "7 小时之前 · 2020年10月，正式揭牌，拥有华阳新能源股份公司和华阳新材料股份公司两个上市公司，煤矿10座，核定生产能力2860 …",
         "url": "https://aiqicha.baidu.com/company_detail_28773310962142",
         "source": "aiqicha.baidu.com",
         "date": "",
@@ -58,22 +58,20 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "其他行业": [
       {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
+        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
+        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
+        "source": "www.chinabidding.cn",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "其他行业": [
+        "query": "乘杜 新闻 2026"
+      },
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -138,6 +136,21 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -324,7 +337,7 @@
       "company": "华阳集团",
       "industry": "高端制造",
       "title": "华阳新材料科技集团有限公司 - 华阳材料 - 爱企查",
-      "summary": "6 小时之前 · 2020年10月，正式揭牌，拥有华阳新能源股份公司和华阳新材料股份公司两个上市公司，煤矿10座，核定生产能力2860 …",
+      "summary": "7 小时之前 · 2020年10月，正式揭牌，拥有华阳新能源股份公司和华阳新材料股份公司两个上市公司，煤矿10座，核定生产能力2860 …",
       "url": "https://aiqicha.baidu.com/company_detail_28773310962142",
       "source": "aiqicha.baidu.com",
       "date": "",
@@ -344,6 +357,19 @@
       "fetched_at": "2026-08-22",
       "score": 3.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "乘杜科技",
+      "company": "乘杜科技",
+      "industry": "其他行业",
+      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
+      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
+      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
+      "source": "www.chinabidding.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "乘杜 新闻 2026"
     },
     {
       "code": "kexin",
