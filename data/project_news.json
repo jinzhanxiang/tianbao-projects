@@ -1,9 +1,102 @@
 {
-  "generated_at": "2026-08-23T04:10:32+08:00",
+  "generated_at": "2026-08-23T04:17:36+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 19,
+  "total": 28,
   "by_industry": {
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
+        "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
+        "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
+        "source": "news.dichan.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 昆钢矿业板块2026年电力市场化采购电量及服务项目本昆钢矿业板块 2026 年电力市场化采购电量及服务项目(标段(包)编号:0721-2566D359-B13-757/01),经评...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司 - 企查查",
+        "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
+        "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
+        "source": "www.qcc.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源管理有限公司新闻资讯_企业动态-企查查",
+        "summary": "2021年10月6日 - 企查查为您提供北京宏远创信能源管理有限公司新闻动态查询,助您了解北京宏远创信能源管理有限公司最新舆情动态,让您全面掌握北京宏远创信能源管理有限...",
+        "url": "https://www.qcc.com/cnews/58608d152e69d9e3b2a66667c759b27d.html",
+        "source": "www.qcc.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 3.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 装载乾崑智驾ADS 5 SE 星海V6量产车下线 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "20 小时之前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "20 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -127,6 +220,32 @@
         "query": "凯茜 新闻 2026"
       },
       {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "解读:2026年 国补 政策",
+        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+        "source": "www.snxingping.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "2026年 国补 政策来了",
+        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+        "source": "znyncj.qiannan.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
         "code": "乘杜科技",
         "company": "乘杜科技",
         "industry": "其他行业",
@@ -140,48 +259,33 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "新能源": [
+    "REITS类资产": [
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 装载乾崑智驾ADS 5 SE 星海V6量产车下线 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-23",
         "score": 2.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "20 小时之前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
       },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "20 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "REITS类资产": [
       {
         "code": "联通云山西",
         "company": "联通云山西",
@@ -199,40 +303,55 @@
         "code": "联通云山西",
         "company": "联通云山西",
         "industry": "REITS类资产",
-        "title": "REITs专栏 | 上海证券交易所",
-        "summary": "2021年7月23日 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过 …",
-        "url": "https://www.sse.com.cn/reits/home/",
-        "source": "www.sse.com.cn",
+        "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
+        "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
+        "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 1.5,
+        "score": 2.5,
         "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
       },
       {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+        "source": "xueqiu.com",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
       },
       {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -265,6 +384,58 @@
     ]
   },
   "items": [
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
+      "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
+      "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
+      "source": "news.dichan.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 昆钢矿业板块2026年电力市场化采购电量及服务项目本昆钢矿业板块 2026 年电力市场化采购电量及服务项目(标段(包)编号:0721-2566D359-B13-757/01),经评...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司 - 企查查",
+      "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
+      "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源管理有限公司新闻资讯_企业动态-企查查",
+      "summary": "2021年10月6日 - 企查查为您提供北京宏远创信能源管理有限公司新闻动态查询,助您了解北京宏远创信能源管理有限公司最新舆情动态,让您全面掌握北京宏远创信能源管理有限...",
+      "url": "https://www.qcc.com/cnews/58608d152e69d9e3b2a66667c759b27d.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 3.0,
+      "query": "宏远创信 新闻 2026"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -383,8 +554,34 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "解读:2026年 国补 政策",
+      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
+      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
+      "source": "www.snxingping.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "2026年 国补 政策来了",
+      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
+      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
+      "source": "znyncj.qiannan.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
       "summary": "2023年10月26日 · 装载乾崑智驾ADS 5 SE 星海V6量产车下线 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴 …",
@@ -394,6 +591,32 @@
       "fetched_at": "2026-08-23",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -409,30 +632,56 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新浪网",
-      "summary": "20 小时之前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "2026年公募REITS年度策略报告:震荡寻微光__新浪财经_新浪网",
+      "summary": "2025年12月19日 - 25年上市的新项目一二级现金分派率差平均为1.34pct,明显高于24年水平;新行业分派率较可比资产高约3pct.供需方面,供给攀升,二级市场解禁是重要的供给来...",
+      "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/819486808749/index.phtml",
+      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "网易新闻",
-      "summary": "20 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
-      "url": "https://news.163.com/",
-      "source": "news.163.com",
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -474,43 +723,30 @@
       "query": "其他行业 行业 政策 2026"
     },
     {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "REITs专栏 | 上海证券交易所",
-      "summary": "2021年7月23日 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过 …",
-      "url": "https://www.sse.com.cn/reits/home/",
-      "source": "www.sse.com.cn",
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "20 小时之前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-23",
       "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
+      "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "网易新闻",
+      "summary": "20 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+      "url": "https://news.163.com/",
+      "source": "news.163.com",
       "date": "",
       "fetched_at": "2026-08-23",
       "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
+      "query": "新能源 行业 政策 2026"
     }
   ]
 }
