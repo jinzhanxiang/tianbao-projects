@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-22T10:02:31+08:00",
+  "generated_at": "2026-08-22T10:09:53+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 29,
+  "total": 25,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-        "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-        "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-        "source": "www.tht.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
-        "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
-        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-        "source": "www.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.0,
-        "query": "元旭半导体 新闻 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -112,72 +58,102 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "其他行业": [
+    "新能源": [
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
-        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
-        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
         "source": "finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 4.5,
-        "query": "奥联电子 新闻 2026"
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-        "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-        "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-        "source": "www.jiansheku.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"凯茜\" 公告 签约 中标 投资"
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
-        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
-        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
-        "source": "app.myzaker.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+        "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+        "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+        "source": "ai.so.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+        "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+        "url": "https://www.toutiao.com/article/7616707417639813642/",
+        "source": "www.toutiao.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
+        "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
+        "url": "https://tv.cctv.com/live/cctv13/",
+        "source": "tv.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 3.0,
-        "query": "奥联电子 新闻 2026"
-      },
-      {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
-        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
-        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "奥联电子 新闻 2026"
-      },
-      {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "奥联电子(截止2026年7月20日)股东人数为12177户 环比减少1.66%",
-        "summary": "2026年7月20日 - 月23日,奥联电子披露公司股东人数最新情况,截止7月20日,公司股东人数为12177人,较上期(2026-07-10)减少205户,环比下降1.66%。从持仓来看,奥联电子人均...",
-        "url": "http://news.10jqka.com.cn/20260723/c678385480.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "奥联电子 新闻 2026"
-      },
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "其他行业": [
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -218,6 +194,19 @@
         "query": "凯茜 新闻 2026"
       },
       {
+        "code": "凯茜",
+        "company": "凯茜",
+        "industry": "其他行业",
+        "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+        "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+        "url": "https://zhuanlan.zhihu.com/p/608603193",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "凯茜 新闻 2026"
+      },
+      {
         "code": "乘杜科技",
         "company": "乘杜科技",
         "industry": "其他行业",
@@ -231,75 +220,71 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "生物医药": [
+    "低空航空": [
       {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-        "url": "https://new.qq.com/rain/a/20221011A07M2700",
-        "source": "new.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.5,
-        "query": "速迈医疗 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+        "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+        "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+        "source": "m.163.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 2.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+        "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+        "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
-        "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
-        "url": "https://tv.cctv.com/live/cctv13/",
-        "source": "tv.cctv.com",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空经济“飞进”新阶段_腾讯新闻",
+        "summary": "2026年8月6日 · 刚刚过去的7月，低空经济行业热度宛若炎炎夏日，7月 1日新修订的《中华人民共和国民用航空法》正式施行，将低空 …",
+        "url": "https://news.qq.com/rain/a/20260806A04O5100",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -355,89 +340,9 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空经济“飞进”新阶段_腾讯新闻",
-        "summary": "2026年8月6日 · 刚刚过去的7月，低空经济行业热度宛若炎炎夏日，7月 1日新修订的《中华人民共和国民用航空法》正式施行，将低空 …",
-        "url": "https://news.qq.com/rain/a/20260806A04O5100",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
     ]
   },
   "items": [
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-      "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-      "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-      "source": "www.tht.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
-      "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
-      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "元旭半导体 新闻 2026"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -452,56 +357,17 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.0,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
-      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
-      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
       "source": "finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 4.5,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
-      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
-      "url": "https://new.qq.com/rain/a/20221011A07M2700",
-      "source": "new.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.5,
-      "query": "速迈医疗 新闻 2026"
-    },
-    {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-      "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-      "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-      "source": "www.jiansheku.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"凯茜\" 公告 签约 中标 投资"
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -541,45 +407,6 @@
       "fetched_at": "2026-08-22",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
-      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
-      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
-      "source": "app.myzaker.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
-      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
-      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "奥联电子 新闻 2026"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子(截止2026年7月20日)股东人数为12177户 环比减少1.66%",
-      "summary": "2026年7月20日 - 月23日,奥联电子披露公司股东人数最新情况,截止7月20日,公司股东人数为12177人,较上期(2026-07-10)减少205户,环比下降1.66%。从持仓来看,奥联电子人均...",
-      "url": "http://news.10jqka.com.cn/20260723/c678385480.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "奥联电子 新闻 2026"
     },
     {
       "code": "kexin",
@@ -634,6 +461,19 @@
       "query": "凯茜 新闻 2026"
     },
     {
+      "code": "凯茜",
+      "company": "凯茜",
+      "industry": "其他行业",
+      "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+      "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+      "url": "https://zhuanlan.zhihu.com/p/608603193",
+      "source": "zhuanlan.zhihu.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
+    },
+    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -645,6 +485,32 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "2026年低空经济政策落地+区域协同,一文读懂产业新规则|无人机|物流|经济总量_手机网易网",
+      "summary": "2月2日,市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南(2025年版)》,以标准体系建设与空域管理改...",
+      "url": "https://m.163.com/dy/article/KOUJ431F0553D9GP.html?clickfrom=subscribe",
+      "source": "m.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "专家解读 | 锚定低空经济,民航工作会议如何定调2026?|适航|空域|航空|飞行|国产大飞机_网易订阅",
+      "summary": "政策规划层面,民航会议强调健全低空民用航空政策体系,衔接 十五五 .值得关注的是,低空经济成为本次会议的一大焦点,其未来发展路径与政策导向...",
+      "url": "https://www.163.com/dy/article/KIPBOS4P051288FS.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "低空航空 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -663,26 +529,26 @@
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "新浪网",
-      "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
+      "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+      "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+      "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+      "source": "ai.so.com",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 1.5,
+      "score": 2.0,
       "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
-      "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
-      "url": "https://tv.cctv.com/live/cctv13/",
-      "source": "tv.cctv.com",
+      "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+      "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+      "url": "https://www.toutiao.com/article/7616707417639813642/",
+      "source": "www.toutiao.com",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 1.5,
+      "score": 2.0,
       "query": "新能源 行业 政策 2026"
     },
     {
@@ -736,6 +602,32 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
+      "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
+      "url": "https://tv.cctv.com/live/cctv13/",
+      "source": "tv.cctv.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
