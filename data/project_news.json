@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:22:48+08:00",
+  "generated_at": "2026-08-22T13:31:13+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 25,
@@ -58,33 +58,115 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "其他行业": [
+    "新能源": [
       {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-        "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-        "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-        "source": "www.jiansheku.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
+        "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
+        "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
+        "source": "news.dichan.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 4.0,
-        "query": "\"凯茜\" 公告 签约 中标 投资"
+        "query": "宏远创信 新闻 2026"
       },
       {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-        "source": "www.chinabidding.cn",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年9月28日 - 昆钢矿业板块2026年电力市场化采购电量及服务项目本昆钢矿业板块 2026 年电力市场化采购电量及服务项目(标段(包)编号:0721-2566D359-B13-757/01),经评...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司 - 企查查",
+        "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
+        "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
+        "source": "www.qcc.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "宏远创信 新闻 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源管理有限公司新闻资讯_企业动态-企查查",
+        "summary": "2021年10月6日 - 企查查为您提供北京宏远创信能源管理有限公司新闻动态查询,助您了解北京宏远创信能源管理有限公司最新舆情动态,让您全面掌握北京宏远创信能源管理有限...",
+        "url": "https://www.qcc.com/cnews/58608d152e69d9e3b2a66667c759b27d.html",
+        "source": "www.qcc.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 3.0,
-        "query": "乘杜 新闻 2026"
+        "query": "宏远创信 新闻 2026"
       },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
+        "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
+        "url": "https://tv.cctv.com/live/cctv13/",
+        "source": "tv.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "其他行业": [
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -125,30 +207,17 @@
         "query": "凯茜 新闻 2026"
       },
       {
-        "code": "鸿翼",
-        "company": "鸿翼",
+        "code": "凯茜",
+        "company": "凯茜",
         "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
+        "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+        "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+        "url": "https://zhuanlan.zhihu.com/p/608603193",
+        "source": "zhuanlan.zhihu.com",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-        "source": "znyncj.qiannan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
+        "score": 3.0,
+        "query": "凯茜 新闻 2026"
       },
       {
         "code": "乘杜科技",
@@ -162,21 +231,6 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
       }
     ],
     "REITS类资产": [
@@ -248,60 +302,6 @@
         "query": "半导体 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "合邦新能源",
-        "company": "合邦新能源",
-        "industry": "新能源",
-        "title": "CCTV-13新闻频道高清直播_CCTV节目官网_央视网",
-        "summary": "提供CCTV新闻频道在线直播及电视节目表预告等服务,中央电视台新闻频道全天24小时播出,以最快的速度向观众提供第一手的国内国 …",
-        "url": "https://tv.cctv.com/live/cctv13/",
-        "source": "tv.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianjings",
@@ -359,17 +359,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-      "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-      "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-      "source": "www.jiansheku.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "建筑体检固本 多元经营增效 —— 物业经营创新专题座谈会探路 第二增长曲线 -新浪地产网",
+      "summary": "2026年7月16日 - 座谈会得到宏远创信、合一住工、朗坤集运的支持,围绕房屋建筑体检能力建设、资产保值增值、多元经营合规增效等核心议题展开,通过平台成果发布、标杆案...",
+      "url": "http://news.dichan.sina.com.cn/news/b125475e-83b3-458a-9501-ef3f9a03bac5",
+      "source": "news.dichan.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "\"凯茜\" 公告 签约 中标 投资"
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年9月28日 - 昆钢矿业板块2026年电力市场化采购电量及服务项目本昆钢矿业板块 2026 年电力市场化采购电量及服务项目(标段(包)编号:0721-2566D359-B13-757/01),经评...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司 - 企查查",
+      "summary": "成立于2015-11-11,法定代表人为孙鹏,注册资本为10000万元,统一社会信用代码为91110108MA001R4P6P,企业注册地址位于北京市通州区... 运营成交结果公告开庭时间:2026-05-15 新增开庭公告,案由:合...",
+      "url": "https://www.qcc.com/firm/58608d152e69d9e3b2a66667c759b27d.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "宏远创信 新闻 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源管理有限公司新闻资讯_企业动态-企查查",
+      "summary": "2021年10月6日 - 企查查为您提供北京宏远创信能源管理有限公司新闻动态查询,助您了解北京宏远创信能源管理有限公司最新舆情动态,让您全面掌握北京宏远创信能源管理有限...",
+      "url": "https://www.qcc.com/cnews/58608d152e69d9e3b2a66667c759b27d.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "宏远创信 新闻 2026"
     },
     {
       "code": "huayt",
@@ -409,19 +448,6 @@
       "fetched_at": "2026-08-22",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
-      "industry": "其他行业",
-      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-      "source": "www.chinabidding.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "乘杜 新闻 2026"
     },
     {
       "code": "kexin",
@@ -476,30 +502,17 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "鸿翼",
-      "company": "鸿翼",
+      "code": "凯茜",
+      "company": "凯茜",
       "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
+      "title": "《蚁人3》凯茜爆红，「凯瑟琳·纽顿」的8件公开秘密：撞脸 ...",
+      "summary": "2023年2月22日 · 事实上，凯瑟琳·纽顿所饰演的「凯茜」原先在漫威的漫画中继承了父亲的能力，成为了一个不用穿上特殊服装也能 …",
+      "url": "https://zhuanlan.zhihu.com/p/608603193",
+      "source": "zhuanlan.zhihu.com",
       "date": "",
       "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-      "source": "znyncj.qiannan.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
+      "score": 3.0,
+      "query": "凯茜 新闻 2026"
     },
     {
       "code": "联通云山西",
@@ -526,45 +539,6 @@
       "fetched_at": "2026-08-22",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新浪网",
-      "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "网易新闻",
-      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-      "url": "https://news.163.com/",
-      "source": "news.163.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hangtianjings",
@@ -617,6 +591,32 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "1 天前 · “绿我涓滴 会它千顷澄碧” 新思想引领新征程 宏观政策发力提效 长江十年行｜十年笃行护青绿 万里长江绘锦绣 深山里的“直播 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [ …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "合邦新能源",
