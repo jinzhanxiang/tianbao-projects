@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:57:10+08:00",
+  "generated_at": "2026-08-22T09:04:38+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 20,
@@ -58,58 +58,86 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "生物医药": [
       {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "5家企业中标!天津电信1.5亿元通信工程施工项目开标_投标_服务_金额",
-        "summary": "可以看到,本次天津电信1.5亿元的通信工程施工服务采购项目,5个标包的投标报价,通信工程施工部分来到了47%,非开挖式通信管道部分来到了96%。...",
-        "url": "https://business.sohu.com/a/782118052_121124362",
-        "source": "business.sohu.com",
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械项目落地嘉定签约仪式成功举行_腾讯新闻",
+        "summary": "11月18日下午,国药器械项目落地嘉定签约仪式成功举办.国药控股股份有限公司党委委员、副总裁、中国医疗器械有限公司董事长李杨,中国医疗器械...",
+        "url": "https://news.qq.com/rain/a/20241119A0962100",
+        "source": "news.qq.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
+        "query": "\"国药器械\" 公告 签约 中标 投资"
       },
       {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "2.4亿!天津电信通信工程施工项目开标,6家企业中标_投标人_折扣_资质",
-        "summary": "今日,天津电信公布了2022-2024年通信工程施工服务采购项目中标候选人,预估规模: 24000万元人民币(不含税), 6个标段,6家企业中标。 该项目为本招标项目...",
-        "url": "https://www.sohu.com/a/545320468_121124362",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信预算5200元的采购项目中标候选人公布 华为中兴拿下|标包|招标|投标人|中兴通讯_网易订阅",
-        "summary": "招标公告发布一个月后,项目中标候选人公布。.先来看一下项目情况,本项目为天津电信2024年-2026年室内分布系统施工服务采购,主要包括天津市市...",
-        "url": "https://www.163.com/dy/article/J6J66NGF0511BBQE.html",
-        "source": "www.163.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信设备中标公告|结果_公示-比地招标网",
-        "summary": "2026年3月23日 - 天津电信设备中标栏目为您提供天津电信设备的中标信息、中标单位、中标价格、天津电信设备项目中标公示,价格走势,重点项目中标等信息。登录比地招标网...",
-        "url": "https://www.bidizhaobiao.com/clsbzb/16_8210_03.html",
-        "source": "www.bidizhaobiao.com",
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告丨光速招标海量免费标讯",
+        "summary": "2026年1月14日 - 国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告..中标公告重庆市合川区2026-01-14微信查看...",
+        "url": "https://www.guangsuzb.com/succeed_v_2011328649925414921.html",
+        "source": "www.guangsuzb.com",
         "date": "",
         "fetched_at": "2026-08-22",
         "score": 4.0,
-        "query": "\"天津电信\" 公告 签约 中标 投资"
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械医药中标信息_知了标讯",
+        "summary": "2026年1月19日 - 知了标讯为您提供国药器械(山东)医药科技有限公司完善的历史中标信息,为您筛选展示包含中标类型,中标产品,项目地区等在内的详细采购信息。随时随地了...",
+        "url": "https://www.zhiliaobiaoxun.com/networkmap/b2/i480854429.html",
+        "source": "www.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械山东医学检验有限公司最新中标公告|招标网",
+        "summary": "2025年11月5日 - 招标网提供有关国药器械山东医学检验有限公司的最新招标结果,每天实时更新中标信息,想了解国药器械山东医学检验有限公司更多详细动态,精准匹配供应商...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_4d8b8efc558109cb68a0599584db6603_zhongbiao.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体ETF国联安 (512480)_股票行情_走势图—东方财富网",
+        "summary": "提供半导体ETF国联安 (512480)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动 …",
+        "url": "https://quote.eastmoney.com/sh512480.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -151,34 +179,6 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "半导体ETF国联安 (512480)_股票行情_走势图—东方财富网",
-        "summary": "提供半导体ETF国联安 (512480)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动 …",
-        "url": "https://quote.eastmoney.com/sh512480.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -235,21 +235,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "其他行业": [
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -277,6 +262,21 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
+    ],
+    "其他行业": [
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -294,56 +294,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "5家企业中标!天津电信1.5亿元通信工程施工项目开标_投标_服务_金额",
-      "summary": "可以看到,本次天津电信1.5亿元的通信工程施工服务采购项目,5个标包的投标报价,通信工程施工部分来到了47%,非开挖式通信管道部分来到了96%。...",
-      "url": "https://business.sohu.com/a/782118052_121124362",
-      "source": "business.sohu.com",
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械项目落地嘉定签约仪式成功举行_腾讯新闻",
+      "summary": "11月18日下午,国药器械项目落地嘉定签约仪式成功举办.国药控股股份有限公司党委委员、副总裁、中国医疗器械有限公司董事长李杨,中国医疗器械...",
+      "url": "https://news.qq.com/rain/a/20241119A0962100",
+      "source": "news.qq.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
+      "query": "\"国药器械\" 公告 签约 中标 投资"
     },
     {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "2.4亿!天津电信通信工程施工项目开标,6家企业中标_投标人_折扣_资质",
-      "summary": "今日,天津电信公布了2022-2024年通信工程施工服务采购项目中标候选人,预估规模: 24000万元人民币(不含税), 6个标段,6家企业中标。 该项目为本招标项目...",
-      "url": "https://www.sohu.com/a/545320468_121124362",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信预算5200元的采购项目中标候选人公布 华为中兴拿下|标包|招标|投标人|中兴通讯_网易订阅",
-      "summary": "招标公告发布一个月后,项目中标候选人公布。.先来看一下项目情况,本项目为天津电信2024年-2026年室内分布系统施工服务采购,主要包括天津市市...",
-      "url": "https://www.163.com/dy/article/J6J66NGF0511BBQE.html",
-      "source": "www.163.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信设备中标公告|结果_公示-比地招标网",
-      "summary": "2026年3月23日 - 天津电信设备中标栏目为您提供天津电信设备的中标信息、中标单位、中标价格、天津电信设备项目中标公示,价格走势,重点项目中标等信息。登录比地招标网...",
-      "url": "https://www.bidizhaobiao.com/clsbzb/16_8210_03.html",
-      "source": "www.bidizhaobiao.com",
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告丨光速招标海量免费标讯",
+      "summary": "2026年1月14日 - 国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告..中标公告重庆市合川区2026-01-14微信查看...",
+      "url": "https://www.guangsuzb.com/succeed_v_2011328649925414921.html",
+      "source": "www.guangsuzb.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "\"天津电信\" 公告 签约 中标 投资"
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械医药中标信息_知了标讯",
+      "summary": "2026年1月19日 - 知了标讯为您提供国药器械(山东)医药科技有限公司完善的历史中标信息,为您筛选展示包含中标类型,中标产品,项目地区等在内的详细采购信息。随时随地了...",
+      "url": "https://www.zhiliaobiaoxun.com/networkmap/b2/i480854429.html",
+      "source": "www.zhiliaobiaoxun.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械山东医学检验有限公司最新中标公告|招标网",
+      "summary": "2025年11月5日 - 招标网提供有关国药器械山东医学检验有限公司的最新招标结果,每天实时更新中标信息,想了解国药器械山东医学检验有限公司更多详细动态,精准匹配供应商...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_4d8b8efc558109cb68a0599584db6603_zhongbiao.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -385,21 +385,8 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "半导体 (BK1036)_行情中心_东方财富网",
       "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -411,8 +398,8 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "半导体ETF国联安 (512480)_股票行情_走势图—东方财富网",
       "summary": "提供半导体ETF国联安 (512480)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动 …",
@@ -422,6 +409,19 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -476,19 +476,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
-      "industry": "其他行业",
-      "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-      "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-      "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 1.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -513,6 +500,19 @@
       "fetched_at": "2026-08-22",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "乘杜科技",
+      "company": "乘杜科技",
+      "industry": "其他行业",
+      "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+      "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+      "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "联通云山西",
