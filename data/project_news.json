@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T11:09:59+08:00",
+  "generated_at": "2026-08-22T11:17:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 28,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -58,126 +58,7 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
-        "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
-        "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
-        "source": "www.chinamae.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
-        "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
-        "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
-        "source": "www.jrzb.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "航天精工股份有限公司电子会计档案项目技术开发中标结果公告_招标网",
-        "summary": "2025年4月11日 - 航天精工股份有限公司电子会计档案项目技术开发中标结果公告是招标网发布的中标公告信息,该中标公告相关中标公示、中标通知、中标公示、成交公告等中...",
-        "url": "https://m.zhaobiao.cn/zb/succeed_v_b6c4f45f81ca9514bc4d80475c97d429.html",
-        "source": "m.zhaobiao.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "天津热转印烫印机招标公告",
-        "summary": "2024年9月9日 - 【产品】生产保障物资采购)基本信息 询价单编号:STC202408-00015 询价单名称:生产保障物资采购 发布时间:2024-09-09 15:20:19 采购企业:航天精工股份...",
-        "url": "https://www.qianlima.com/gjxx/496443_26_0",
-        "source": "www.qianlima.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空经济“飞进”新阶段_腾讯新闻",
-        "summary": "2026年8月6日 · 刚刚过去的7月，低空经济行业热度宛若炎炎夏日，7月 1日新修订的《中华人民共和国民用航空法》正式施行，将低空 …",
-        "url": "https://news.qq.com/rain/a/20260806A04O5100",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
-    ],
     "AI智能": [
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
-        "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
-        "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
-        "source": "www.iccsz.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "天津电信 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
-        "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
-        "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
-        "source": "www.cnr.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "天津电信 新闻 2026"
-      },
       {
         "code": "kexin",
         "company": "可信数据空间",
@@ -190,32 +71,6 @@
         "fetched_at": "2026-08-22",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
-        "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
-        "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "天津电信 新闻 2026"
-      },
-      {
-        "code": "tianjin_telecom",
-        "company": "天津电信",
-        "industry": "AI智能",
-        "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
-        "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
-        "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "天津电信 新闻 2026"
       }
     ],
     "其他行业": [
@@ -379,6 +234,47 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空经济“飞进”新阶段_腾讯新闻",
+        "summary": "2026年8月6日 · 刚刚过去的7月，低空经济行业热度宛若炎炎夏日，7月 1日新修订的《中华人民共和国民用航空法》正式施行，将低空 …",
+        "url": "https://news.qq.com/rain/a/20260806A04O5100",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
     ]
   },
   "items": [
@@ -394,71 +290,6 @@
       "fetched_at": "2026-08-22",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
-      "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
-      "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
-      "source": "www.chinamae.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
-      "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
-      "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
-      "source": "www.jrzb.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "航天精工股份有限公司电子会计档案项目技术开发中标结果公告_招标网",
-      "summary": "2025年4月11日 - 航天精工股份有限公司电子会计档案项目技术开发中标结果公告是招标网发布的中标公告信息,该中标公告相关中标公示、中标通知、中标公示、成交公告等中...",
-      "url": "https://m.zhaobiao.cn/zb/succeed_v_b6c4f45f81ca9514bc4d80475c97d429.html",
-      "source": "m.zhaobiao.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信启动2026年室外光缆集采 预估采购规模7610皮长公里-讯石光通讯网",
-      "summary": "ICC讯 2月15日,中国电信天津分公司启动2026年室外光缆集采项目。公告显示,此次采购产品为室外光缆,包含GYDTA、GYTA等室外光缆产品。预估采购规模为7610皮长公里。 此次集采...",
-      "url": "http://www.iccsz.com/4g/news.Asp?ID=5fbc7648fdb54c01a651aa5e5539f767",
-      "source": "www.iccsz.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "天津电信 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "天津电信与联通公司合力落实提速降费 推广六模全网通_央广网",
-      "summary": "央广网天津6月6日消息(记者陈庆滨)6月6日,中国电信天津分公司与中国联通天津市分公司联合举办了 落实提速降费,推广六模全网通终端行动发布会...",
-      "url": "https://www.cnr.cn/tj/jrtj/20170606/t20170606_523789042.shtml",
-      "source": "www.cnr.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "天津电信 新闻 2026"
     },
     {
       "code": "huayt",
@@ -511,32 +342,6 @@
       "fetched_at": "2026-08-22",
       "score": 3.0,
       "query": "可信数据空间 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "筑牢通信保障线 天津电信多举措护航2026年高考-新闻中心-北方网",
-      "summary": "2026年6月12日 - 结合历年客流及通信数据,天津电信提前摸排全城考点网络情况,逐一排查基站隐患,结合流量预判完成65个基站扇区扩容优化.6月7日至10日高考考试周期内,天...",
-      "url": "http://news.enorth.com.cn/system/2026/06/12/059482583.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "天津电信 新闻 2026"
-    },
-    {
-      "code": "tianjin_telecom",
-      "company": "天津电信",
-      "industry": "AI智能",
-      "title": "畅联盛会!天津电信全力护航2026世界智能产业博览会网络畅通-新闻中心-北方网",
-      "summary": "2026年6月1日 - 2026智能产业博览会天津北方网讯:5月31日,为期四天的2026世界智能产业博览会在国家会展中心(天津)圆满落幕.针对展会高负荷通信保障需求,天津电信全程...",
-      "url": "http://news.enorth.com.cn/system/2026/06/01/059451580.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "天津电信 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -602,19 +407,6 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "天津热转印烫印机招标公告",
-      "summary": "2024年9月9日 - 【产品】生产保障物资采购)基本信息 询价单编号:STC202408-00015 询价单名称:生产保障物资采购 发布时间:2024-09-09 15:20:19 采购企业:航天精工股份...",
-      "url": "https://www.qianlima.com/gjxx/496443_26_0",
-      "source": "www.qianlima.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
     },
     {
       "code": "联通云山西",
