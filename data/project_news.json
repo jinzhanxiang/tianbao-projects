@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-22T14:21:43+08:00",
+  "generated_at": "2026-08-22T14:30:42+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 21,
   "by_industry": {
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+        "url": "https://quote.eastmoney.com/sz002906.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "5 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "安徽省华阳河农场",
+        "summary": "2026年8月5日 · 《安徽科技报》《中国气象报》报道... 《粮油市场报》等多家媒体报道华阳... 《中国气象报》报道华阳河农场油菜... …",
+        "url": "http://hyhfarm.com/",
+        "source": "hyhfarm.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -73,32 +127,6 @@
         "query": "凯茜 新闻 2026"
       },
       {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-        "source": "znyncj.qiannan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
         "code": "乘杜科技",
         "company": "乘杜科技",
         "industry": "其他行业",
@@ -164,6 +192,21 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -251,6 +294,58 @@
   },
   "items": [
     {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
+      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
+      "url": "https://quote.eastmoney.com/sz002906.html",
+      "source": "quote.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "5 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州华阳通用电子有限公司官方网站",
+      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+      "url": "https://www.foryouge.com/",
+      "source": "www.foryouge.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "安徽省华阳河农场",
+      "summary": "2026年8月5日 · 《安徽科技报》《中国气象报》报道... 《粮油市场报》等多家媒体报道华阳... 《中国气象报》报道华阳河农场油菜... …",
+      "url": "http://hyhfarm.com/",
+      "source": "hyhfarm.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -316,32 +411,6 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-      "source": "znyncj.qiannan.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
@@ -366,6 +435,19 @@
       "fetched_at": "2026-08-22",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "jngd",
+      "company": "晶能光电",
+      "industry": "半导体",
+      "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+      "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+      "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+      "source": "www.deloitte.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.0,
+      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "hongyuan",
