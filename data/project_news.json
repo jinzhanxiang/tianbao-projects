@@ -1,89 +1,9 @@
 {
-  "generated_at": "2026-08-22T08:28:00+08:00",
+  "generated_at": "2026-08-22T08:34:57+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 23,
+  "total": 18,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-        "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-        "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-        "source": "www.tht.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
-        "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
-        "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 6.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-        "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-        "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-        "source": "www.thepaper.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-        "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-        "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-        "source": "news.enorth.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.0,
-        "query": "元旭半导体 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -138,73 +58,58 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:2026年半年度营业收入同比增长6.56% _ 东方财富网",
-        "summary": "2天前 - 月20日,海特高新发布2026年半年度报告称,公司2026年半年度实现营业收入751,325,329.04元,同比增长6.56%;归属于上市公司股东的净利润为51,244,270.51元...",
-        "url": "https://finance.eastmoney.com/a/202608203848143992.html",
-        "source": "finance.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-        "source": "fund.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
-        "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
-        "url": "https://xueqiu.com/9057196330/393340560",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "海特高新 新闻 2026"
-      },
-      {
-        "code": "haite",
-        "company": "海特高新",
-        "industry": "低空航空",
-        "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-        "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-        "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-        "source": "finance.sina.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "海特高新 新闻 2026"
-      }
-    ],
     "AI智能": [
       {
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "title": "6250万元!高新区企业中标省外一可信数据空间基础设施项目",
+        "summary": "近日,总部位于贵阳市高新区的中电科大数据研究院有限公司(以下简称中电科大数据院)及联合体成员成功中标《唐山市路南区可信数据空间基础设...",
+        "url": "https://gxq.guiyang.gov.cn/gxqdt/gxqdtmtkgx/202510/t20251028_88735204.html",
+        "source": "gxq.guiyang.gov.cn",
         "date": "",
         "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
+        "score": 5.5,
+        "query": "\"可信数据空间\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "趣链科技近一年在城市可信数据空间赛道已落子长沙、温州、武汉。已落地城市(公开中标_财富号_东方财富网",
+        "summary": "长沙(2026-02):中标长沙市城市可信数据空间建设及运营项目,金额1610万元,与天河国云联合体。.- 2026-02-10:湖北数据集团发布询比采购公告.长...",
+        "url": "https://caifuhao.eastmoney.com/news/20260316231004111432530",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 5.5,
+        "query": "\"可信数据空间\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "神思电子:中标可信数据空间建设项目 | 每经网",
+        "summary": "每经AI快讯,神思电子10月21日晚间发布公告称,近日,济南市公共资源交易中心发布《济南城市可信数据空间建设项目中标候选人公示》,公司作为牵头单位与中...",
+        "url": "https://www.nbd.com.cn/articles/2025-10-21/4099501.html",
+        "source": "www.nbd.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"可信数据空间\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "蚂蚁2162万、京东346万!中标山西可信数据空间建设项目",
+        "summary": "2026年4月4日 - 交付期限:自合同签订之日起,中标方需在6个月内完成可信数据空间的定制化开发、部署、测试及上线工作,确保系统稳定运行.项目名称:山西数据要素流通交易...",
+        "url": "https://www.jianyu360.cn/nologin/content/SEEY1xoYjIOBSs6Emd2ZGIdIzM_QCBgZmh9PB47ICEgXlVzZgFUCXw.html",
+        "source": "www.jianyu360.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 4.0,
+        "query": "\"可信数据空间\" 公告 签约 中标 投资"
       }
     ],
     "新能源": [
@@ -246,6 +151,34 @@
         "fetched_at": "2026-08-22",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "半导体 (BK1036)_行情中心_东方财富网",
+        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
+        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
+        "source": "quote.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -320,45 +253,6 @@
   },
   "items": [
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "重大突破!高新区企业元旭半导体全球首款量产MOG显示屏发布",
-      "summary": "据了解,Micro-LED应用了第三代半导体芯片,具有良好的显示效果,此次元旭半导体发布的采用玻璃基像素级集成封装技术的Micro-LED(Micro-LED ...",
-      "url": "https://www.tht.gov.cn/contents/16930/610355.html",
-      "source": "www.tht.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "海泰发展:元旭半导体天津工厂即将投产,有望提升产能,对海泰发展有正面影响|投产_新浪财经_新浪网",
-      "summary": "您好,元旭半导体股份有限公司天津工厂即将在本年度投产,元旭公司的量产能力将得到显著提升.投资者提问:公司通过之路基金投资的元旭半导体股...",
-      "url": "https://finance.sina.com.cn/stock/relnews/dongmiqa/2025-02-28/doc-inemzuik9864189.shtml",
-      "source": "finance.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 6.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "中国电子院希达工程公司承接的元旭半导体Micro-LED整合智造工厂通线试生产_澎湃号·政务_澎湃新闻-The Paper",
-      "summary": "3月28日,由中国电子院希达工程公司承接的元旭半导体天津超级工厂通线试生产仪式在高新区渤龙湖科技园举行.希达工程公司负责人受邀参加通线...",
-      "url": "https://www.thepaper.cn/newsDetail_forward_30562821",
-      "source": "www.thepaper.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -372,69 +266,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:2026年半年度营业收入同比增长6.56% _ 东方财富网",
-      "summary": "2天前 - 月20日,海特高新发布2026年半年度报告称,公司2026年半年度实现营业收入751,325,329.04元,同比增长6.56%;归属于上市公司股东的净利润为51,244,270.51元...",
-      "url": "https://finance.eastmoney.com/a/202608203848143992.html",
-      "source": "finance.eastmoney.com",
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "6250万元!高新区企业中标省外一可信数据空间基础设施项目",
+      "summary": "近日,总部位于贵阳市高新区的中电科大数据研究院有限公司(以下简称中电科大数据院)及联合体成员成功中标《唐山市路南区可信数据空间基础设...",
+      "url": "https://gxq.guiyang.gov.cn/gxqdt/gxqdtmtkgx/202510/t20251028_88735204.html",
+      "source": "gxq.guiyang.gov.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 5.5,
-      "query": "海特高新 新闻 2026"
+      "query": "\"可信数据空间\" 公告 签约 中标 投资"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
-      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
-      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
-      "source": "fund.eastmoney.com",
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "趣链科技近一年在城市可信数据空间赛道已落子长沙、温州、武汉。已落地城市(公开中标_财富号_东方财富网",
+      "summary": "长沙(2026-02):中标长沙市城市可信数据空间建设及运营项目,金额1610万元,与天河国云联合体。.- 2026-02-10:湖北数据集团发布询比采购公告.长...",
+      "url": "https://caifuhao.eastmoney.com/news/20260316231004111432530",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 5.5,
-      "query": "海特高新 新闻 2026"
+      "query": "\"可信数据空间\" 公告 签约 中标 投资"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "送电 加速度 !国网天津电力为元旭半导体注入发展 新动能 -新闻中心-北方网",
-      "summary": "2月26日,随着调控员一声指令,元旭半导体天津生产基地变压器发出 嗡嗡 电流声,为该基地投产运营注入强劲动能。.元旭半导体天津生产基地是高新...",
-      "url": "http://news.enorth.com.cn/system/2025/02/28/058062785.shtml",
-      "source": "news.enorth.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.0,
-      "query": "元旭半导体 新闻 2026"
-    },
-    {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
-      "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
-      "url": "https://xueqiu.com/9057196330/393340560",
-      "source": "xueqiu.com",
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "神思电子:中标可信数据空间建设项目 | 每经网",
+      "summary": "每经AI快讯,神思电子10月21日晚间发布公告称,近日,济南市公共资源交易中心发布《济南城市可信数据空间建设项目中标候选人公示》,公司作为牵头单位与中...",
+      "url": "https://www.nbd.com.cn/articles/2025-10-21/4099501.html",
+      "source": "www.nbd.com.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "海特高新 新闻 2026"
+      "query": "\"可信数据空间\" 公告 签约 中标 投资"
     },
     {
-      "code": "haite",
-      "company": "海特高新",
-      "industry": "低空航空",
-      "title": "海特高新:将于8月21日披露2026年半年度报告|义乌|投资者|数据|董秘|公开信息_手机新浪网",
-      "summary": "2026年7月20日 - 投资者提问: 公司对于中报业绩预期有指引么?是否可以义乌提前披露 董秘回答(海特高新SZ002023): 尊敬的投资者您好,公司将于8月21日披露2026年半年度报...",
-      "url": "https://finance.sina.cn/stock/relnews/dongmiqa/2026-07-20/detail-iniimeam3048704.d.html?oid=3891604391708604",
-      "source": "finance.sina.cn",
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "蚂蚁2162万、京东346万!中标山西可信数据空间建设项目",
+      "summary": "2026年4月4日 - 交付期限:自合同签订之日起,中标方需在6个月内完成可信数据空间的定制化开发、部署、测试及上线工作,确保系统稳定运行.项目名称:山西数据要素流通交易...",
+      "url": "https://www.jianyu360.cn/nologin/content/SEEY1xoYjIOBSs6Emd2ZGIdIzM_QCBgZmh9PB47ICEgXlVzZgFUCXw.html",
+      "source": "www.jianyu360.cn",
       "date": "",
       "fetched_at": "2026-08-22",
       "score": 4.0,
-      "query": "海特高新 新闻 2026"
+      "query": "\"可信数据空间\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -474,19 +355,6 @@
       "fetched_at": "2026-08-22",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "hongyuan",
