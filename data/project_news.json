@@ -1,62 +1,105 @@
 {
-  "generated_at": "2026-08-22T22:14:56+08:00",
+  "generated_at": "2026-08-22T22:24:02+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 25,
+  "total": 23,
   "by_industry": {
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "5 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "湖北华阳汽车变速系统股份有限公司官网",
+        "summary": "2026年7月22日 · 湖北华阳汽车变速系统股份有限公司是中国汽车拨叉事业的奠基者和开拓者之一,中国汽车变速箱轻量化的先进者与领 …",
+        "url": "http://www.hybiansu.com/",
+        "source": "www.hybiansu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "湖北华阳医药有限公司 - 华阳医药 - 爱企查",
+        "summary": "2026年8月11日 · 湖北华阳医药有限公司成立于2002年11月22日，注册地位于湖北省武汉市硚口区宝丰街道解放大道634-1号新世界中 …",
+        "url": "https://aiqicha.baidu.com/company_detail_29775352758742",
+        "source": "aiqicha.baidu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
+        "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
+        "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
+        "source": "www.zs.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-22",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
     "其他行业": [
-      {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-        "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-        "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-        "source": "cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 5.5,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-        "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-        "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-        "source": "stock.stockstar.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "1月4日晚间沪深上市公司重大事项公告最新快递_财经评论(cjpl)股吧_东方财富网股吧",
-        "summary": "2021年1月4日 - 奥联电子(300585)1月4日晚公告,持股比例18.22%的股东刘军胜,计划自本公告披露之日起15个交易日后的6个月内,以集中竞价方式、大宗交易方式等方式减持公...",
-        "url": "http://guba.eastmoney.com/news,cjpl,992756975.html",
-        "source": "guba.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-        "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-        "url": "https://xueqiu.com/2866092708/292230062",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 4.0,
-        "query": "\"奥联电子\" 公告 签约 中标 投资"
-      },
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -123,79 +166,10 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "5 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "湖北华阳汽车变速系统股份有限公司官网",
-        "summary": "2026年7月22日 · 湖北华阳汽车变速系统股份有限公司是中国汽车拨叉事业的奠基者和开拓者之一,中国汽车变速箱轻量化的先进者与领 …",
-        "url": "http://www.hybiansu.com/",
-        "source": "www.hybiansu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "湖北华阳医药有限公司 - 华阳医药 - 爱企查",
-        "summary": "2026年8月11日 · 湖北华阳医药有限公司成立于2002年11月22日，注册地位于湖北省武汉市硚口区宝丰街道解放大道634-1号新世界中 …",
-        "url": "https://aiqicha.baidu.com/company_detail_29775352758742",
-        "source": "aiqicha.baidu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      }
-    ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-22",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "半导体 (BK1036)_行情中心_东方财富网",
         "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -207,8 +181,8 @@
         "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
         "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -346,58 +320,6 @@
   },
   "items": [
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子最新公告:签署钙钛矿投资合作协议 计划2023年50MW钙钛矿中试线投产__财经头条__新浪财经",
-      "summary": "截至2022年12月9日收盘,奥联电子(300585)报收于13.94元,下跌0.43%,换手率1.89%,成交量3.03万手,成交额4196.73万元.根据近五年财报数据,证券之星...",
-      "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec020012p38",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 5.5,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "奥联电子:公司和洛必德已经展开了正式合作,初步供应部分零部件_股票频道_证券之星",
-      "summary": "奥联电子董秘:尊敬的投资者,您好!公司及子公司经营情况请您关注公司公告.投资者:董秘你好,看见最近新闻报道,公司新能源子公司签约了宁淮智能...",
-      "url": "https://stock.stockstar.com/RB2022082600005626.shtml",
-      "source": "stock.stockstar.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "1月4日晚间沪深上市公司重大事项公告最新快递_财经评论(cjpl)股吧_东方财富网股吧",
-      "summary": "2021年1月4日 - 奥联电子(300585)1月4日晚公告,持股比例18.22%的股东刘军胜,计划自本公告披露之日起15个交易日后的6个月内,以集中竞价方式、大宗交易方式等方式减持公...",
-      "url": "http://guba.eastmoney.com/news,cjpl,992756975.html",
-      "source": "guba.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "奥联电子",
-      "company": "奥联电子",
-      "industry": "其他行业",
-      "title": "产业资讯 | 通威自主研发的THC 210高效组件转换效率达到24.63%;奥联电子拟建设... 企业动态 TCL中环 TCL中环 公告,公司基于全球化战略及深化 新能源 ...",
-      "summary": "2024年6月1日 - 此次协议的签署。 根据《框架协议》,HJT钙钛矿叠层电池研究及生产基地项目将分3期投资建设,项目一期实验室项",
-      "url": "https://xueqiu.com/2866092708/292230062",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-22",
-      "score": 4.0,
-      "query": "\"奥联电子\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -515,8 +437,8 @@
       "query": "凯茜 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "半导体 (BK1036)_行情中心_东方财富网",
       "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -554,8 +476,34 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+      "source": "data.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
+      "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
+      "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
+      "source": "www.zs.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-22",
+      "score": 2.5,
+      "query": "高端制造 行业 政策 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
