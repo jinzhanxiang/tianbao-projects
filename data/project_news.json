@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T01:12:18+08:00",
+  "generated_at": "2026-08-24T01:14:28+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 23,
   "by_industry": {
     "高端制造": [
       {
@@ -58,22 +58,20 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "其他行业": [
       {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "code": "000711-ST京蓝",
+        "company": "000711-ST京蓝",
+        "industry": "其他行业",
+        "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
+        "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
+        "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
+        "source": "www.aijingu.com",
         "date": "",
         "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "其他行业": [
+        "score": 4.0,
+        "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
+      },
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -138,6 +136,47 @@
         "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "四月是你的谎言_高清1080P在线观看平台_腾讯视频",
+        "summary": "腾讯公司 版权所有.",
+        "url": "https://v.qq.com/x/page/l0151btsno1.html",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "四月是你的谎言1_高清1080P在线观看平台_腾讯视频",
+        "summary": "四月是你的谎言1,简介:四月是你的谎言1",
+        "url": "https://v.qq.com/x/page/g094124el6p.html",
+        "source": "v.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "新能源": [
@@ -237,8 +276,8 @@
     ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
         "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -292,6 +331,19 @@
       "fetched_at": "2026-08-24",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "000711-ST京蓝",
+      "company": "000711-ST京蓝",
+      "industry": "其他行业",
+      "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
+      "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
+      "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
+      "source": "www.aijingu.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.0,
+      "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -424,8 +476,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -496,6 +548,32 @@
       "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
       "url": "https://news.qq.com/rain/a/20241213A044ZE00",
       "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "四月是你的谎言_高清1080P在线观看平台_腾讯视频",
+      "summary": "腾讯公司 版权所有.",
+      "url": "https://v.qq.com/x/page/l0151btsno1.html",
+      "source": "v.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "四月是你的谎言1_高清1080P在线观看平台_腾讯视频",
+      "summary": "四月是你的谎言1,简介:四月是你的谎言1",
+      "url": "https://v.qq.com/x/page/g094124el6p.html",
+      "source": "v.qq.com",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 1.5,
