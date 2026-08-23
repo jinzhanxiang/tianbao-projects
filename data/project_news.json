@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T20:56:48+08:00",
+  "generated_at": "2026-08-23T21:02:23+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 23,
   "by_industry": {
     "高端制造": [
       {
@@ -63,13 +63,52 @@
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "title": "2026人工智能赋能可信数据空间发展研究报告-国家数据发展研究院_智能化_价值_动态化",
+        "summary": "2026 年 1 月编制的这份报告由火山引擎与国家数据发展研究院联合发布,聚焦人工智能对可信数据空间的赋能价值,剖析发展现状、挑战,构建赋能体...",
+        "url": "https://news.sohu.com/a/988800667_121752158",
+        "source": "news.sohu.com",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 3.0,
+        "score": 5.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "2026年城市可信数据空间发展趋势洞察|赛迪顾问:赋能城市全域数字化转型的数字新基建|元数据_网易订阅",
+        "summary": "2026年,随着数据空间技术体系成型,数据目录管理和区块链技术仍然是城市可信数据空间主流技术。.2026年,随着城市可信数据空间建设范围进一步...",
+        "url": "https://www.163.com/dy/article/KK6L8K0405118SRU.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+        "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+        "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "国家数据发展研究院:人工智能赋能可信数据空间发展研究报告 2026_智能化_模型_价值",
+        "summary": "这份由火山引擎与国家数据发展研究院 2026 年 1 月编制的《人工智能赋能可信数据空间发展研究报告》,聚焦数字经济背景下数据要素流通的核心...",
+        "url": "https://news.sohu.com/a/989043822_468661",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
         "query": "可信数据空间 新闻 2026"
       }
     ],
@@ -138,6 +177,60 @@
         "fetched_at": "2026-08-23",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "REITS类资产": [
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "“十五五”REITs政策解读与申报指南：哪些资产能报？怎么报 ...",
+        "summary": "2026年5月28日 · 对于已上市REITs的管理人： 上市满6个月后即可启动扩募申报。 积极通过跨区域、跨行业整合存量资产，做大做 …",
+        "url": "https://www.sohu.com/a/1048068692_121227303",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "REITs专栏 | 上海证券交易所",
+        "summary": "2 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "url": "https://www.sse.com.cn/reits/home/",
+        "source": "www.sse.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -238,6 +331,58 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "2026人工智能赋能可信数据空间发展研究报告-国家数据发展研究院_智能化_价值_动态化",
+      "summary": "2026 年 1 月编制的这份报告由火山引擎与国家数据发展研究院联合发布,聚焦人工智能对可信数据空间的赋能价值,剖析发展现状、挑战,构建赋能体...",
+      "url": "https://news.sohu.com/a/988800667_121752158",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "2026年城市可信数据空间发展趋势洞察|赛迪顾问:赋能城市全域数字化转型的数字新基建|元数据_网易订阅",
+      "summary": "2026年,随着数据空间技术体系成型,数据目录管理和区块链技术仍然是城市可信数据空间主流技术。.2026年,随着城市可信数据空间建设范围进一步...",
+      "url": "https://www.163.com/dy/article/KK6L8K0405118SRU.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+      "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+      "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+      "source": "caifuhao.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "国家数据发展研究院:人工智能赋能可信数据空间发展研究报告 2026_智能化_模型_价值",
+      "summary": "这份由火山引擎与国家数据发展研究院 2026 年 1 月编制的《人工智能赋能可信数据空间发展研究报告》,聚焦数字经济背景下数据要素流通的核心...",
+      "url": "https://news.sohu.com/a/989043822_468661",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -275,19 +420,6 @@
       "fetched_at": "2026-08-23",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -340,6 +472,32 @@
       "fetched_at": "2026-08-23",
       "score": 3.0,
       "query": "凯茜 新闻 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+      "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+      "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "“十五五”REITs政策解读与申报指南：哪些资产能报？怎么报 ...",
+      "summary": "2026年5月28日 · 对于已上市REITs的管理人： 上市满6个月后即可启动扩募申报。 积极通过跨区域、跨行业整合存量资产，做大做 …",
+      "url": "https://www.sohu.com/a/1048068692_121227303",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "hongyuan",
@@ -431,6 +589,32 @@
       "fetched_at": "2026-08-23",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITs专栏 | 上海证券交易所",
+      "summary": "2 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "url": "https://www.sse.com.cn/reits/home/",
+      "source": "www.sse.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+      "url": "https://www.sohu.com/a/960605326_121140836",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
