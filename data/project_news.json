@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T00:56:42+08:00",
+  "generated_at": "2026-08-24T01:04:29+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 27,
@@ -58,59 +58,169 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.5,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+        "source": "www.vzkoo.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+        "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+        "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 新能源 宝马全新iX3续航919公里，10分钟补能400公里，26.99万起 奇瑞捷途旅行者7 &旅行者7C-DM开启小订 BMW …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+        "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+        "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+        "source": "ai.so.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+        "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+        "url": "https://www.toutiao.com/article/7616707417639813642/",
+        "source": "www.toutiao.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "17 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻频道_央视网 (cctv.com)",
+        "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
+        "url": "https://news.cctv.com/",
+        "source": "news.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
     "其他行业": [
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "上海鸿翼软件技术股份有限公司 - 企查查",
-        "summary": "八局云智企业AI知识库项目采购2026-04-30 新增中标候选:长江电力大数据平台2026-2027年核心组件技术服务2026-04-09 新增中标候选:新交投(成都)大数据有限责任公司2026年数据规范化管理技术服务...",
-        "url": "https://www.qcc.com/firm/3f42c6d3ee4fd5d5572e4d815ca80818.html",
-        "source": "www.qcc.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 4.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "上海鸿翼医药信息技术有限公司 - 企查查",
-        "summary": "鸿翼医药是一家制药行业质量管理信息化服务商,专注于为用户提供合规咨询、软件系统和CSV验证的全面质量管理服务,整合了文件管理系统(DMS)、培训管理系统(TMS)、质量管理系统(QMS)共同构成综合管...",
-        "url": "https://www.qcc.com/firm/5c4864d6ecb883a403e990ccf94ad3b1.html",
-        "source": "www.qcc.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "上海鸿翼软件技术股份有限公司-电话、地址",
-        "summary": "2026年8月7日 - 最近更新时间:2026-07-30 14:29:00 上海鸿翼软件技术股份有限公司,于2000-07-06在上海市注册成立。在法人龙凌云经营下,目前公司处于存续,属于科学研究...",
-        "url": "http://www.likuso.com/city3/658692.html",
-        "source": "www.likuso.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "鸿翼 新闻 2026"
-      },
-      {
-        "code": "鸿翼",
-        "company": "鸿翼",
-        "industry": "其他行业",
-        "title": "「鸿翼股份怎么样」上海鸿翼软件技术股份有限公司 - 职友集",
-        "summary": "公司总部介绍:上海鸿翼软件技术股份有限公司(edoc2易道)是*的企业大数据管理解决方案提供商,致力于企业内容管理,数据保护,数据挖掘与可视化,数字工作环境构建等前沿技术的研发和产业应用.工资:6...",
-        "url": "https://www.jobui.com/company/12164756/",
-        "source": "www.jobui.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "鸿翼 新闻 2026"
-      },
       {
         "code": "凯茜",
         "company": "凯茜",
@@ -177,62 +287,6 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "AI智能": [
-      {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年8月5日 · 新能源 宝马全新iX3续航919公里，10分钟补能400公里，26.99万起 奇瑞捷途旅行者7 &旅行者7C-DM开启小订 BMW …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "16 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻频道_央视网 (cctv.com)",
-        "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
-        "url": "https://news.cctv.com/",
-        "source": "news.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "REITS类资产": [
       {
         "code": "联通云山西",
@@ -287,62 +341,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -387,17 +385,30 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "上海鸿翼软件技术股份有限公司 - 企查查",
-      "summary": "八局云智企业AI知识库项目采购2026-04-30 新增中标候选:长江电力大数据平台2026-2027年核心组件技术服务2026-04-09 新增中标候选:新交投(成都)大数据有限责任公司2026年数据规范化管理技术服务...",
-      "url": "https://www.qcc.com/firm/3f42c6d3ee4fd5d5572e4d815ca80818.html",
-      "source": "www.qcc.com",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
+      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
+      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+      "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-24",
-      "score": 4.0,
-      "query": "鸿翼 新闻 2026"
+      "score": 3.5,
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -437,45 +448,6 @@
       "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "上海鸿翼医药信息技术有限公司 - 企查查",
-      "summary": "鸿翼医药是一家制药行业质量管理信息化服务商,专注于为用户提供合规咨询、软件系统和CSV验证的全面质量管理服务,整合了文件管理系统(DMS)、培训管理系统(TMS)、质量管理系统(QMS)共同构成综合管...",
-      "url": "https://www.qcc.com/firm/5c4864d6ecb883a403e990ccf94ad3b1.html",
-      "source": "www.qcc.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 3.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "上海鸿翼软件技术股份有限公司-电话、地址",
-      "summary": "2026年8月7日 - 最近更新时间:2026-07-30 14:29:00 上海鸿翼软件技术股份有限公司,于2000-07-06在上海市注册成立。在法人龙凌云经营下,目前公司处于存续,属于科学研究...",
-      "url": "http://www.likuso.com/city3/658692.html",
-      "source": "www.likuso.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 3.0,
-      "query": "鸿翼 新闻 2026"
-    },
-    {
-      "code": "鸿翼",
-      "company": "鸿翼",
-      "industry": "其他行业",
-      "title": "「鸿翼股份怎么样」上海鸿翼软件技术股份有限公司 - 职友集",
-      "summary": "公司总部介绍:上海鸿翼软件技术股份有限公司(edoc2易道)是*的企业大数据管理解决方案提供商,致力于企业内容管理,数据保护,数据挖掘与可视化,数字工作环境构建等前沿技术的研发和产业应用.工资:6...",
-      "url": "https://www.jobui.com/company/12164756/",
-      "source": "www.jobui.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 3.0,
-      "query": "鸿翼 新闻 2026"
     },
     {
       "code": "kexin",
@@ -582,50 +554,76 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
+      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
+      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
       "source": "www.askci.com",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
+      "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-      "source": "xueqiu.com",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
+      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
+      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
+      "source": "www.vzkoo.com",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
+      "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
+      "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
+      "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
+      "source": "max.book118.com",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
+      "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+      "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+      "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+      "source": "ai.so.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+      "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+      "url": "https://www.toutiao.com/article/7616707417639813642/",
+      "source": "www.toutiao.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
       "title": "网易新闻",
-      "summary": "16 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+      "summary": "17 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
       "url": "https://news.163.com/",
       "source": "news.163.com",
       "date": "",
