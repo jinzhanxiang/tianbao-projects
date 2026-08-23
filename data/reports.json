@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T22:49:57+08:00",
+  "generated_at": "2026-08-23T22:58:36+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 26,
   "total_active": 21,
@@ -178,6 +178,19 @@
         "mtime": "2026-08-23T22:42:34+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_股权收购综合研究报告_20260823.html",
+        "_archived": true
+      },
+      {
+        "code": "国药器械",
+        "date": "2026-08-23",
+        "category": "未分类",
+        "title": "天保控股拟投资中国医疗器械有限公司 20% 股权项目建议书 · 2026-08-23",
+        "file": "国药器械_股权项目建议书_v3_中间稿.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_股权项目建议书_v3_中间稿.html",
+        "size": 42298,
+        "mtime": "2026-08-23T22:58:21+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_股权项目建议书_v3_中间稿.html",
         "_archived": true
       }
     ],
@@ -1035,6 +1048,19 @@
         "_archived": true
       },
       {
+        "code": "国药器械",
+        "date": "2026-08-23",
+        "category": "未分类",
+        "title": "天保控股拟投资中国医疗器械有限公司 20% 股权项目建议书 · 2026-08-23",
+        "file": "国药器械_股权项目建议书_v3_中间稿.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_股权项目建议书_v3_中间稿.html",
+        "size": 42298,
+        "mtime": "2026-08-23T22:58:21+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_股权项目建议书_v3_中间稿.html",
+        "_archived": true
+      },
+      {
         "code": "kedu",
         "date": "2026-07-30",
         "category": "商业研究",
@@ -1128,7 +1154,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-23T22:49:57.419047",
+  "_last_cleanup": "2026-08-23T22:58:36.650421",
   "_cleanup_stats": {
     "dup_title_date": 2,
     "superseded": 5,
