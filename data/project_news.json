@@ -1,62 +1,64 @@
 {
-  "generated_at": "2026-08-23T08:38:58+08:00",
+  "generated_at": "2026-08-23T08:46:18+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 19,
   "by_industry": {
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
+        "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
+        "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
+        "source": "cj.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
+        "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
+        "url": "https://finance.eastmoney.com/a/202604153706194839.html",
+        "source": "finance.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团:2026年一季度净利润1.66亿元 同比增长6.61%_天天基金网",
+        "summary": "以4月24日收盘价计算,华阳集团目前市盈率(TTM)约为21.06倍,市净率(LF)约2.33倍,市销率(TTM)约1.22倍。.盈利能力方面, 2026年一季度公司加权平...",
+        "url": "https://fund.eastmoney.com/a/202604253718886956.html",
+        "source": "fund.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团:2026年4月26日公司全资子公司华阳多媒体携手南京平行视界签署战略合作协议,共建光波导技术联合实验室",
+        "summary": "快意电梯公告,公司控股股东东莞市快意股权投资有限公司向实际控制人罗爱文女士协议转让2525.16万股(占公司总股本7.5%)的股份,已于2026年8月7...",
+        "url": "http://news.10jqka.com.cn/20260602/c677164639.shtml",
+        "source": "news.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
     "AI智能": [
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告丨光速招标海量免费标讯",
-        "summary": "2026年3月9日 - 中标公告2026-03-09微信查看.自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告. 公告摘要: 公告摘要: 自采-汇天网络科技有...",
-        "url": "https://www.guangsuzb.com/succeed_v_2030860553833861123.html",
-        "source": "www.guangsuzb.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-        "source": "bj.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告-采招网",
-        "summary": "2023年9月6日 - 受业主委托,中国采招网于2023年09月06日发布【自采】-北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告;项目简介: 点击查看附件 ...",
-        "url": "https://m.bidcenter.com.cn/news-4-245659042.html",
-        "source": "m.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "北京市通州区人民法院发布汇天网络科技有限公司执行公告- DoNews",
-        "summary": "天眼查App显示,2025年1月2日,北京市通州区人民法院正式发布了关于汇天网络科技有限公司(以下简称 汇天网络 )的执行公告。根据案号为(2025)京0112执37号的执行文件,汇天网络因未履行相关法律义务...",
-        "url": "https://www.donews.com/news/detail/4/4672816.html",
-        "source": "www.donews.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
       {
         "code": "kexin",
         "company": "可信数据空间",
@@ -69,88 +71,6 @@
         "fetched_at": "2026-08-23",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "6 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "湖北华阳汽车变速系统股份有限公司官网",
-        "summary": "2026年7月22日 · 湖北华阳汽车变速系统股份有限公司是中国汽车拨叉事业的奠基者和开拓者之一,中国汽车变速箱轻量化的先进者与领 …",
-        "url": "http://www.hybiansu.com/",
-        "source": "www.hybiansu.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "湖北华阳医药有限公司 - 华阳医药 - 爱企查",
-        "summary": "2026年8月11日 · 湖北华阳医药有限公司成立于2002年11月22日，注册地位于湖北省武汉市硚口区宝丰街道解放大道634-1号新世界中 …",
-        "url": "https://aiqicha.baidu.com/company_detail_29775352758742",
-        "source": "aiqicha.baidu.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-        "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-        "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-        "source": "www.chinabidding.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "乘杜 新闻 2026"
-      },
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -192,34 +112,19 @@
         "fetched_at": "2026-08-23",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体 (BK1036)_行情中心_东方财富网",
-        "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-        "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-        "source": "quote.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "半导体ETF国联安 (512480)_股票行情_走势图—东方财富网",
-        "summary": "提供半导体ETF国联安 (512480)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动 …",
-        "url": "https://quote.eastmoney.com/sh512480.html",
-        "source": "quote.eastmoney.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "中华人民共和国国务院新闻办公室",
+        "summary": "2022年9月29日 · 国务院新闻办公室于2026年7月22日（星期三）下午3时举行“新征程上的奋斗者”中外记者见面会，请“七一勋章”获得 …",
+        "url": "http://www.scio.gov.cn/",
+        "source": "www.scio.gov.cn",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -276,6 +181,47 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "生物医药": [
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      }
+    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -303,125 +249,75 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
+    ],
+    "其他行业": [
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
     ]
   },
   "items": [
     {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告丨光速招标海量免费标讯",
-      "summary": "2026年3月9日 - 中标公告2026-03-09微信查看.自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告. 公告摘要: 公告摘要: 自采-汇天网络科技有...",
-      "url": "https://www.guangsuzb.com/succeed_v_2030860553833861123.html",
-      "source": "www.guangsuzb.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-      "source": "bj.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告-采招网",
-      "summary": "2023年9月6日 - 受业主委托,中国采招网于2023年09月06日发布【自采】-北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告;项目简介: 点击查看附件 ...",
-      "url": "https://m.bidcenter.com.cn/news-4-245659042.html",
-      "source": "m.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "北京市通州区人民法院发布汇天网络科技有限公司执行公告- DoNews",
-      "summary": "天眼查App显示,2025年1月2日,北京市通州区人民法院正式发布了关于汇天网络科技有限公司(以下简称 汇天网络 )的执行公告。根据案号为(2025)京0112执37号的执行文件,汇天网络因未履行相关法律义务...",
-      "url": "https://www.donews.com/news/detail/4/4672816.html",
-      "source": "www.donews.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "6 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
+      "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
+      "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
+      "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
+      "source": "cj.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 3.0,
+      "score": 5.5,
       "query": "华阳 新闻 2026"
     },
     {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "惠州华阳通用电子有限公司官方网站",
-      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-      "url": "https://www.foryouge.com/",
-      "source": "www.foryouge.com",
+      "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
+      "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
+      "url": "https://finance.eastmoney.com/a/202604153706194839.html",
+      "source": "finance.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 3.0,
+      "score": 4.5,
       "query": "华阳 新闻 2026"
     },
     {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "湖北华阳汽车变速系统股份有限公司官网",
-      "summary": "2026年7月22日 · 湖北华阳汽车变速系统股份有限公司是中国汽车拨叉事业的奠基者和开拓者之一,中国汽车变速箱轻量化的先进者与领 …",
-      "url": "http://www.hybiansu.com/",
-      "source": "www.hybiansu.com",
+      "title": "华阳集团:2026年一季度净利润1.66亿元 同比增长6.61%_天天基金网",
+      "summary": "以4月24日收盘价计算,华阳集团目前市盈率(TTM)约为21.06倍,市净率(LF)约2.33倍,市销率(TTM)约1.22倍。.盈利能力方面, 2026年一季度公司加权平...",
+      "url": "https://fund.eastmoney.com/a/202604253718886956.html",
+      "source": "fund.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 3.0,
+      "score": 4.5,
       "query": "华阳 新闻 2026"
     },
     {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "湖北华阳医药有限公司 - 华阳医药 - 爱企查",
-      "summary": "2026年8月11日 · 湖北华阳医药有限公司成立于2002年11月22日，注册地位于湖北省武汉市硚口区宝丰街道解放大道634-1号新世界中 …",
-      "url": "https://aiqicha.baidu.com/company_detail_29775352758742",
-      "source": "aiqicha.baidu.com",
+      "title": "华阳集团:2026年4月26日公司全资子公司华阳多媒体携手南京平行视界签署战略合作协议,共建光波导技术联合实验室",
+      "summary": "快意电梯公告,公司控股股东东莞市快意股权投资有限公司向实际控制人罗爱文女士协议转让2525.16万股(占公司总股本7.5%)的股份,已于2026年8月7...",
+      "url": "http://news.10jqka.com.cn/20260602/c677164639.shtml",
+      "source": "news.10jqka.com.cn",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 3.0,
+      "score": 4.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
-      "industry": "其他行业",
-      "title": "乘杜(珠海)科技有限公司工业物理AI引擎研发与产业化项目-采购网(www.chinabidding.cn)",
-      "summary": "2026年6月9日 - 倾力打造中国采购与招标网专业资讯平台.采购与招标网做您的招投标管家。 咨询该项目请拨打:400-006-6655(同时提供标书代写、信用评级、ISO证书办理、...",
-      "url": "https://www.chinabidding.cn/xmxx/nlh22g.html",
-      "source": "www.chinabidding.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 3.0,
-      "query": "乘杜 新闻 2026"
     },
     {
       "code": "kexin",
@@ -450,32 +346,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体 (BK1036)_行情中心_东方财富网",
-      "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
-      "url": "https://quote.eastmoney.com/bk/90.BK1036.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "半导体ETF国联安 (512480)_股票行情_走势图—东方财富网",
-      "summary": "提供半导体ETF国联安 (512480)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动 …",
-      "url": "https://quote.eastmoney.com/sh512480.html",
-      "source": "quote.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
@@ -487,6 +357,45 @@
       "fetched_at": "2026-08-23",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
@@ -509,6 +418,19 @@
       "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
       "url": "https://news.163.com/",
       "source": "news.163.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "中华人民共和国国务院新闻办公室",
+      "summary": "2022年9月29日 · 国务院新闻办公室于2026年7月22日（星期三）下午3时举行“新征程上的奋斗者”中外记者见面会，请“七一勋章”获得 …",
+      "url": "http://www.scio.gov.cn/",
+      "source": "www.scio.gov.cn",
       "date": "",
       "fetched_at": "2026-08-23",
       "score": 1.5,
@@ -541,8 +463,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
+      "code": "奥联电子",
+      "company": "奥联电子",
       "industry": "其他行业",
       "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
       "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
