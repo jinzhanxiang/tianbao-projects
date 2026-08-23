@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-23T11:42:50+08:00",
+  "generated_at": "2026-08-23T11:50:34+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 22,
+  "total": 20,
   "by_industry": {
+    "生物医药": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
+        "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+        "url": "https://www.sohu.com/a/360741883_118792",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.5,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
+        "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
+        "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
+        "source": "www.cbi360.net",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+        "source": "hainan.bidizhaobiao.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "柯渡医学科技(内蒙古)有限公司_最新招标采购公告_采招网",
+        "summary": "2025年5月16日 - 与柯渡医学科技(内蒙古)有限公司有关的项目共7条,分别是64排螺旋CT维保服务采购项目结果公告,多台设备维保服务项目,柯渡医学科技内蒙古有限公司销售医...",
+        "url": "https://www.bidcenter.com.cn/enterprise/kdyxkjnmgyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.0,
+        "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      }
+    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -58,60 +112,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-        "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-        "url": "https://news.qq.com/rain/a/20250526A01GR200",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.5,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
-        "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
-        "url": "https://xueqiu.com/8768643388/175415895",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型-新华网",
-        "summary": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型- 院长数字驾驶舱通过物联网实时获取设备运行数据,并对接院内其他系统,帮助医院领导层...",
-        "url": "https://www.news.cn/health/20250316/a6c2bb1337234794a15acf90500b15ec/c.html",
-        "source": "www.news.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "柯渡医学 新闻 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "业界:医学装备数智化管理极大提升医院装备管理质量效益-中新社上海",
-        "summary": "刚出席第十五届健康中国论坛·公立医院高质量发展主题单元并做主旨发言的上海柯渡医学科技股份有限公司CEO张建29日接受采访时表示: 医学装备数智化管理不仅能通过数字化、智能化手段,精准监控装...",
-        "url": "http://www.sh.chinanews.com.cn/yljk/2024-05-29/124782.shtml",
-        "source": "www.sh.chinanews.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "柯渡医学 新闻 2026"
-      }
-    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -148,7 +148,7 @@
         "company": "宏远创信",
         "industry": "新能源",
         "title": "新闻中心首页_新浪网",
-        "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+        "summary": "2023年8月5日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大全 …",
         "url": "https://news.sina.com.cn/",
         "source": "news.sina.com.cn",
         "date": "",
@@ -237,33 +237,35 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      }
+    ],
     "其他行业": [
-      {
-        "code": "000711-ST京蓝",
-        "company": "000711-ST京蓝",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "000711-ST京蓝",
-        "company": "000711-ST京蓝",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-        "source": "znyncj.qiannan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
       {
         "code": "乘杜科技",
         "company": "乘杜科技",
@@ -277,37 +279,22 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
-    ],
-    "低空航空": [
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      }
     ]
   },
   "items": [
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
+      "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
+      "url": "https://www.sohu.com/a/360741883_118792",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -325,27 +312,40 @@
       "code": "kedu",
       "company": "柯渡医学",
       "industry": "生物医药",
-      "title": "专访柯渡医学董事长倪军:数智化助力中国医疗装备管理扬帆出海_腾讯新闻",
-      "summary": "2025年5月26日 - 这家企业便是上海柯渡医学科技股份有限公司(下文简称柯渡医学),是国内领先的医院医疗装备资产全生命周期管理服务商,通过医疗装备精细化管理助力医院实...",
-      "url": "https://news.qq.com/rain/a/20250526A01GR200",
-      "source": "news.qq.com",
+      "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
+      "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
+      "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
+      "source": "www.cbi360.net",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 4.5,
-      "query": "柯渡医学 新闻 2026"
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
       "code": "kedu",
       "company": "柯渡医学",
       "industry": "生物医药",
-      "title": "中国电信山东公司与上海柯渡医学科技公司 共同打造智慧医疗云平台 3月24日, 中国电信 山东公司与上海柯渡医学科技公司战略合作协议签署仪式在济南成功...",
-      "summary": "2021年3月25日 - 柯渡现服务医院3000多家,管理医学装备70万台,资产达500亿元,并建立了国家标准的CNAS校准实验室以及电子测试、射频测量、医学科技研究院等多个实验室和...",
-      "url": "https://xueqiu.com/8768643388/175415895",
-      "source": "xueqiu.com",
+      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
+      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
+      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
+      "source": "hainan.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-23",
       "score": 4.0,
-      "query": "柯渡医学 新闻 2026"
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "柯渡医学科技(内蒙古)有限公司_最新招标采购公告_采招网",
+      "summary": "2025年5月16日 - 与柯渡医学科技(内蒙古)有限公司有关的项目共7条,分别是64排螺旋CT维保服务采购项目结果公告,多台设备维保服务项目,柯渡医学科技内蒙古有限公司销售医...",
+      "url": "https://www.bidcenter.com.cn/enterprise/kdyxkjnmgyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.0,
+      "query": "\"柯渡医学\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -359,19 +359,6 @@
       "fetched_at": "2026-08-23",
       "score": 4.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型-新华网",
-      "summary": "柯渡医学科技亮相医学装备大会,AI+物联网助力医疗设备数智化转型- 院长数字驾驶舱通过物联网实时获取设备运行数据,并对接院内其他系统,帮助医院领导层...",
-      "url": "https://www.news.cn/health/20250316/a6c2bb1337234794a15acf90500b15ec/c.html",
-      "source": "www.news.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 3.0,
-      "query": "柯渡医学 新闻 2026"
     },
     {
       "code": "huayt",
@@ -430,7 +417,7 @@
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
-      "summary": "2023年10月26日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大 …",
+      "summary": "2023年8月5日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大全 …",
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
       "date": "",
@@ -465,32 +452,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "000711-ST京蓝",
-      "company": "000711-ST京蓝",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "000711-ST京蓝",
-      "company": "000711-ST京蓝",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-      "source": "znyncj.qiannan.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -517,21 +478,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "业界:医学装备数智化管理极大提升医院装备管理质量效益-中新社上海",
-      "summary": "刚出席第十五届健康中国论坛·公立医院高质量发展主题单元并做主旨发言的上海柯渡医学科技股份有限公司CEO张建29日接受采访时表示: 医学装备数智化管理不仅能通过数字化、智能化手段,精准监控装...",
-      "url": "http://www.sh.chinanews.com.cn/yljk/2024-05-29/124782.shtml",
-      "source": "www.sh.chinanews.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 1.5,
-      "query": "柯渡医学 新闻 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -543,8 +491,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
