@@ -1,61 +1,87 @@
 {
-  "generated_at": "2026-08-23T13:37:59+08:00",
+  "generated_at": "2026-08-23T13:46:05+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 15,
   "by_industry": {
-    "高端制造": [
+    "新能源": [
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
-        "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
-        "url": "https://quote.eastmoney.com/sz002906.html",
-        "source": "quote.eastmoney.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+        "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+        "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+        "source": "www.bidizhaobiao.com",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 5.5,
-        "query": "华阳 新闻 2026"
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-        "summary": "6 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
-        "url": "https://www.foryougroup.com/",
-        "source": "www.foryougroup.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+        "summary": "2025年12月29日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
+        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+        "source": "www.bidcenter.com.cn",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 4.0,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州华阳通用电子有限公司官方网站",
-        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-        "url": "https://www.foryouge.com/",
-        "source": "www.foryouge.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "天威园区直购电供电单位采购项目竞争性磋商结果公告-采招网",
+        "summary": "第三名:北京宏远创信能源管理有限公司;投标报价:0.2515 元/度。.采购人:成都空港科创投资集团有限公司...",
+        "url": "https://www.bidcenter.com.cn/newscontent-92239246-4.html",
+        "source": "www.bidcenter.com.cn",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 2.5,
+        "query": "\"宏远创信\" 公告 签约 中标 投资"
       },
       {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "惠州市华阳精机有限公司 | 汽车电装零部件 | 3C及工业零部件 ...",
-        "summary": "2025年1月18日 · 惠州市华阳精机有限公司 | 汽车电装零部件 | 3C及工业零部件|汽车发动机 惠州市华阳精机有限公司主要从事精密锌、 …",
-        "url": "https://www.foryoutech.com.cn/",
-        "source": "www.foryoutech.com.cn",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大全 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "1 天前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 2026 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -75,8 +101,8 @@
     ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "半导体 (BK1036)_行情中心_东方财富网",
         "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -86,47 +112,6 @@
         "fetched_at": "2026-08-23",
         "score": 2.5,
         "query": "半导体 行业 政策 2026"
-      }
-    ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年8月5日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大全 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "1 天前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 2026 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -229,56 +214,30 @@
   },
   "items": [
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团 (002906)_最新价格_行情_走势图—东方财富网",
-      "summary": "提供华阳集团 (002906)股票的行情走势、五档盘口、逐笔交易等实时行情数据，及华阳集团 (002906)的新闻资讯、公司公告、研究报 …",
-      "url": "https://quote.eastmoney.com/sz002906.html",
-      "source": "quote.eastmoney.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源管理有限公司中标数据|供应商版中标报告",
+      "summary": "2024年10月28日 - 北京宏远创信能源管理有限公司供应商版企业报告为您提供北京宏远创信能源管理有限公司的历史中标项目金额、企业中标率、项目下浮率、大项目占比、主要...",
+      "url": "http://www.bidizhaobiao.com/qyfxbg/216433136823652352S.html",
+      "source": "www.bidizhaobiao.com",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 5.5,
-      "query": "华阳 新闻 2026"
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
-      "summary": "6 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
-      "url": "https://www.foryougroup.com/",
-      "source": "www.foryougroup.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
+      "summary": "2025年12月29日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
+      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs/",
+      "source": "www.bidcenter.com.cn",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州华阳通用电子有限公司官方网站",
-      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
-      "url": "https://www.foryouge.com/",
-      "source": "www.foryouge.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "惠州市华阳精机有限公司 | 汽车电装零部件 | 3C及工业零部件 ...",
-      "summary": "2025年1月18日 · 惠州市华阳精机有限公司 | 汽车电装零部件 | 3C及工业零部件|汽车发动机 惠州市华阳精机有限公司主要从事精密锌、 …",
-      "url": "https://www.foryoutech.com.cn/",
-      "source": "www.foryoutech.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
+      "score": 4.0,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
       "code": "kexin",
@@ -294,8 +253,8 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "半导体 (BK1036)_行情中心_东方财富网",
       "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -305,6 +264,19 @@
       "fetched_at": "2026-08-23",
       "score": 2.5,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "天威园区直购电供电单位采购项目竞争性磋商结果公告-采招网",
+      "summary": "第三名:北京宏远创信能源管理有限公司;投标报价:0.2515 元/度。.采购人:成都空港科创投资集团有限公司...",
+      "url": "https://www.bidcenter.com.cn/newscontent-92239246-4.html",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.5,
+      "query": "\"宏远创信\" 公告 签约 中标 投资"
     },
     {
       "code": "hongyuan",
@@ -346,32 +318,6 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新浪网",
-      "summary": "1 天前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 2026 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "网易新闻",
-      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-      "url": "https://news.163.com/",
-      "source": "news.163.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -409,6 +355,32 @@
       "fetched_at": "2026-08-23",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "1 天前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 2026 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "网易新闻",
+      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
+      "url": "https://news.163.com/",
+      "source": "news.163.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
