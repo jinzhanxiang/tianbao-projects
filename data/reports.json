@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:26:30+08:00",
+  "generated_at": "2026-08-23T17:30:33+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 26,
   "total_active": 21,
@@ -163,6 +163,21 @@
         "mtime": "2026-08-15T19:17:13+08:00",
         "summary": "",
         "url": "https://jinzhanxiang.github.io/tianbao-projects/reports/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90/%E5%90%88%E9%82%A6%E6%96%B0%E8%83%BD%E6%BA%90_%E6%8A%95%E8%B5%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_20260815.html",
+        "_archived": true
+      }
+    ],
+    "国药器械": [
+      {
+        "code": "国药器械",
+        "date": "2026-08-23",
+        "category": "商业研究",
+        "title": "国药器械 20% 股权收购可行性研究报告 · 2026-08-23",
+        "file": "国药器械_综合研究报告_20260823.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_综合研究报告_20260823.html",
+        "size": 56089,
+        "mtime": "2026-08-23T17:30:20+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_综合研究报告_20260823.html",
         "_archived": true
       }
     ],
@@ -1007,6 +1022,19 @@
     ],
     "生物医药": [
       {
+        "code": "国药器械",
+        "date": "2026-08-23",
+        "category": "商业研究",
+        "title": "国药器械 20% 股权收购可行性研究报告 · 2026-08-23",
+        "file": "国药器械_综合研究报告_20260823.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_综合研究报告_20260823.html",
+        "size": 56089,
+        "mtime": "2026-08-23T17:30:20+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/国药器械_综合研究报告_20260823.html",
+        "_archived": true
+      },
+      {
         "code": "kedu",
         "date": "2026-07-30",
         "category": "商业研究",
@@ -1100,7 +1128,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-23T17:26:30.186290",
+  "_last_cleanup": "2026-08-23T17:30:33.047596",
   "_cleanup_stats": {
     "dup_title_date": 2,
     "superseded": 5,
