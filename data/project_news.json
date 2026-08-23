@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T22:29:38+08:00",
+  "generated_at": "2026-08-23T22:33:42+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 24,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -58,72 +58,57 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "半导体": [
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
-        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
-        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
-        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
-        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
-        "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
-        "url": "http://www.vzkoo.com/document/4636647692712284160.html",
-        "source": "www.vzkoo.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
-        "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
-        "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      }
-    ],
     "AI智能": [
       {
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "title": "2026人工智能赋能可信数据空间发展研究报告-国家数据发展研究院_智能化_价值_动态化",
+        "summary": "2026 年 1 月编制的这份报告由火山引擎与国家数据发展研究院联合发布,聚焦人工智能对可信数据空间的赋能价值,剖析发展现状、挑战,构建赋能体...",
+        "url": "https://news.sohu.com/a/988800667_121752158",
+        "source": "news.sohu.com",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 3.0,
+        "score": 5.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "2026年城市可信数据空间发展趋势洞察|赛迪顾问:赋能城市全域数字化转型的数字新基建|元数据_网易订阅",
+        "summary": "2026年,随着数据空间技术体系成型,数据目录管理和区块链技术仍然是城市可信数据空间主流技术。.2026年,随着城市可信数据空间建设范围进一步...",
+        "url": "https://www.163.com/dy/article/KK6L8K0405118SRU.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+        "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+        "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
+        "source": "caifuhao.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
+        "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "国家数据发展研究院:人工智能赋能可信数据空间发展研究报告 2026_智能化_模型_价值",
+        "summary": "这份由火山引擎与国家数据发展研究院 2026 年 1 月编制的《人工智能赋能可信数据空间发展研究报告》,聚焦数字经济背景下数据要素流通的核心...",
+        "url": "https://news.sohu.com/a/989043822_468661",
+        "source": "news.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.5,
         "query": "可信数据空间 新闻 2026"
       }
     ],
@@ -194,6 +179,47 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 新能源 宝马全新iX3续航919公里，10分钟补能400公里，26.99万起 奇瑞捷途旅行者7 &旅行者7C-DM开启小订 BMW …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "14 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻频道_央视网 (cctv.com)",
+        "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
+        "url": "https://news.cctv.com/",
+        "source": "news.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      }
+    ],
     "REITS类资产": [
       {
         "code": "联通云山西",
@@ -248,60 +274,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "1 天前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 2026 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 14岁王 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻频道_央视网 (cctv.com)",
-        "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
-        "url": "https://news.cctv.com/",
-        "source": "news.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -346,17 +318,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
-      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
-      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "2026人工智能赋能可信数据空间发展研究报告-国家数据发展研究院_智能化_价值_动态化",
+      "summary": "2026 年 1 月编制的这份报告由火山引擎与国家数据发展研究院联合发布,聚焦人工智能对可信数据空间的赋能价值,剖析发展现状、挑战,构建赋能体...",
+      "url": "https://news.sohu.com/a/988800667_121752158",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "2026年城市可信数据空间发展趋势洞察|赛迪顾问:赋能城市全域数字化转型的数字新基建|元数据_网易订阅",
+      "summary": "2026年,随着数据空间技术体系成型,数据目录管理和区块链技术仍然是城市可信数据空间主流技术。.2026年,随着城市可信数据空间建设范围进一步...",
+      "url": "https://www.163.com/dy/article/KK6L8K0405118SRU.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "厦门可信数据空间正式上线根据2026年2月9日央广网和东南网的报道,厦门城市可信_财富号_东方财富网",
+      "summary": "正式开放时间:2026年2月9日,厦门城市可信数据空间互联网入口开放试运行,成为国家2025年可信数据空间创新发展试点项目的重要里程碑[1][7]。.[...",
+      "url": "https://caifuhao.eastmoney.com/news/20260209191444138093410",
       "source": "caifuhao.eastmoney.com",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 3.5,
-      "query": "半导体 行业 政策 2026"
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "国家数据发展研究院:人工智能赋能可信数据空间发展研究报告 2026_智能化_模型_价值",
+      "summary": "这份由火山引擎与国家数据发展研究院 2026 年 1 月编制的《人工智能赋能可信数据空间发展研究报告》,聚焦数字经济背景下数据要素流通的核心...",
+      "url": "https://news.sohu.com/a/989043822_468661",
+      "source": "news.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 4.5,
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "huayt",
@@ -396,19 +407,6 @@
       "fetched_at": "2026-08-23",
       "score": 3.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "kexin",
-      "company": "可信数据空间",
-      "industry": "AI智能",
-      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-      "source": "zhuanlan.zhihu.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 3.0,
-      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "凯茜",
@@ -463,6 +461,19 @@
       "query": "凯茜 新闻 2026"
     },
     {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年8月5日 · 新能源 宝马全新iX3续航919公里，10分钟补能400公里，26.99万起 奇瑞捷途旅行者7 &旅行者7C-DM开启小订 BMW …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
@@ -476,65 +487,13 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
-      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
-      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体...",
-      "summary": "中国半导体行业展望:预计2026年精准有效的产业支持政策将为半导体行业发展提供支撑,国产替代进程持续加速,行业整体将延续稳健向好发展态势,半导体行业信用。",
-      "url": "http://www.vzkoo.com/document/4636647692712284160.html",
-      "source": "www.vzkoo.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
-      "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
-      "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "新浪网",
-      "summary": "1 天前 · 2026成都车展：新红旗HS5焕新登场 2026成都车展：长城炮Hi4-T生态车型发布 2026成都车展：吉利雷达金刚EV首秀 2026 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 14岁王 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
+      "title": "网易新闻",
+      "summary": "14 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+      "url": "https://news.163.com/",
+      "source": "news.163.com",
       "date": "",
       "fetched_at": "2026-08-23",
       "score": 1.5,
@@ -548,19 +507,6 @@
       "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
       "url": "https://news.cctv.com/",
       "source": "news.cctv.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "网易新闻",
-      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-      "url": "https://news.163.com/",
-      "source": "news.163.com",
       "date": "",
       "fetched_at": "2026-08-23",
       "score": 1.5,
