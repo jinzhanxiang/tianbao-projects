@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T02:43:05+08:00",
+  "generated_at": "2026-08-24T02:50:00+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 21,
   "by_industry": {
     "高端制造": [
       {
@@ -146,12 +146,25 @@
         "company": "宏远创信",
         "industry": "新能源",
         "title": "新闻中心首页_新浪网",
-        "summary": "2023年8月5日 · 新能源 宝马全新iX3续航919公里，10分钟补能400公里，26.99万起 奇瑞捷途旅行者7 &旅行者7C-DM开启小订 BMW …",
+        "summary": "2023年8月5日 · 装载乾崑智驾ADS 5 SE 星海V6量产车下线 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴后10.99 …",
         "url": "https://news.sina.com.cn/",
         "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪首页",
+        "summary": "红色之旅 体验试驾2015款红旗H7 全新昂科拉运动版 动力提升 奔驰发布改进版B/CLA/GLA 新奔驰AMG E63 S假想图 新R8将搭载5.2L …",
+        "url": "https://www.sina.com.cn/temp/",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
         "query": "新能源 行业 政策 2026"
       },
       {
@@ -237,8 +250,8 @@
     ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
         "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -402,7 +415,7 @@
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
-      "summary": "2023年8月5日 · 新能源 宝马全新iX3续航919公里，10分钟补能400公里，26.99万起 奇瑞捷途旅行者7 &旅行者7C-DM开启小订 BMW …",
+      "summary": "2023年8月5日 · 装载乾崑智驾ADS 5 SE 星海V6量产车下线 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴后10.99 …",
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
       "date": "",
@@ -424,8 +437,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -435,6 +448,19 @@
       "fetched_at": "2026-08-24",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新浪首页",
+      "summary": "红色之旅 体验试驾2015款红旗H7 全新昂科拉运动版 动力提升 奔驰发布改进版B/CLA/GLA 新奔驰AMG E63 S假想图 新R8将搭载5.2L …",
+      "url": "https://www.sina.com.cn/temp/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hongyuan",
