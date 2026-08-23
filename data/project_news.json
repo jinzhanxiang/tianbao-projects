@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-23T14:51:31+08:00",
+  "generated_at": "2026-08-23T15:00:05+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 17,
   "by_industry": {
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
-        "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
-        "url": "https://www.sohu.com/a/360741883_118792",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 5.5,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-        "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
-        "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
-        "source": "www.cbi360.net",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
-        "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
-        "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
-        "source": "hainan.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "柯渡医学科技(内蒙古)有限公司_最新招标采购公告_采招网",
-        "summary": "2025年5月16日 - 与柯渡医学科技(内蒙古)有限公司有关的项目共7条,分别是64排螺旋CT维保服务采购项目结果公告,多台设备维保服务项目,柯渡医学科技内蒙古有限公司销售医...",
-        "url": "https://www.bidcenter.com.cn/enterprise/kdyxkjnmgyxgs/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 4.0,
-        "query": "\"柯渡医学\" 公告 签约 中标 投资"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -76,40 +22,55 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳国际(002949):中标深圳市龙华高新技术产业园区开发投资有限公司采购项目,中标金额为662.13万元_财富号_东方财富网",
-        "summary": "2026年8月12日 - 为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。 同壁财经讯,企查查数据显示,根据《深圳市龙华高新技术产业园区开发投资有限公...",
-        "url": "https://caifuhao.eastmoney.com/news/20260812185831501653960",
-        "source": "caifuhao.eastmoney.com",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "6 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
-        "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
-        "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
-        "source": "stock.jrj.com.cn",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
       },
       {
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳国际收到EPC总承包项目《中标通知书》 中标价15.46亿元-股票-金融界",
-        "summary": "中标单位:深圳市华阳国际工程设计股份有限公司、深圳市市政工程总公司;.公告显示,《中标通知书》的主要内容如下:.招标人:深圳市龙华区建筑工...",
-        "url": "https://stock.jrj.com.cn/2020/04/13210629277012.shtml",
-        "source": "stock.jrj.com.cn",
+        "title": "惠州市华阳精机有限公司 | 汽车电装零部件 | 3C及工业零部件 ...",
+        "summary": "2025年1月18日 · 惠州市华阳精机有限公司 | 汽车电装零部件 | 3C及工业零部件|汽车发动机 惠州市华阳精机有限公司主要从事精密锌、 …",
+        "url": "https://www.foryoutech.com.cn/",
+        "source": "www.foryoutech.com.cn",
         "date": "",
         "fetched_at": "2026-08-23",
-        "score": 5.5,
-        "query": "\"华阳\" 公告 签约 中标 投资"
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械2026二季度WMS需求定制研发汇总",
+        "summary": "2026年7月13日 - 招标采购导航网招标公告公示栏目,于2026年07月13日为您发布国药器械2026二季度WMS需求定制研发汇总,内容简介:中国医疗器械有限公司国药器械2026二季度...",
+        "url": "https://www.okcis.cn/20260713-n2-20260713121836314568.html",
+        "source": "www.okcis.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 4.0,
+        "query": "国药器械 新闻 2026"
       }
     ],
     "AI智能": [
@@ -129,8 +90,8 @@
     ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "半导体 (BK1036)_行情中心_东方财富网",
         "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -239,8 +200,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -252,8 +213,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -283,19 +244,6 @@
   },
   "items": [
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "医学装备管理服务提供商柯渡医学科技完成近6000万美元C轮融资,招商局资本领投_投资",
-      "summary": "在招商局资本旗下美元基金招瑞基金与柯渡医学科技的股权认购协议签约现场,其行政总裁郭德宏表示,投资柯渡医学科技,一方面是因为其在医疗方...",
-      "url": "https://www.sohu.com/a/360741883_118792",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 5.5,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -309,82 +257,56 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳国际(002949):中标深圳市龙华高新技术产业园区开发投资有限公司采购项目,中标金额为662.13万元_财富号_东方财富网",
-      "summary": "2026年8月12日 - 为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。 同壁财经讯,企查查数据显示,根据《深圳市龙华高新技术产业园区开发投资有限公...",
-      "url": "https://caifuhao.eastmoney.com/news/20260812185831501653960",
-      "source": "caifuhao.eastmoney.com",
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械2026二季度WMS需求定制研发汇总",
+      "summary": "2026年7月13日 - 招标采购导航网招标公告公示栏目,于2026年07月13日为您发布国药器械2026二季度WMS需求定制研发汇总,内容简介:中国医疗器械有限公司国药器械2026二季度...",
+      "url": "https://www.okcis.cn/20260713-n2-20260713121836314568.html",
+      "source": "www.okcis.cn",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳国际:收到15.46亿元工程总承包项目中标通知书 对公司拓展EPC业务有积极影响-股票-金融界",
-      "summary": "发布易4月13日 - 华阳国际(002949)晚间公告称,公司近日收到观澜中学改扩建、市第二十一高级中学、红山中学高中部工程总承包(EPC)项目的《中标通知书》...",
-      "url": "https://stock.jrj.com.cn/2020/04/13174129275576.shtml",
-      "source": "stock.jrj.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "score": 4.0,
+      "query": "国药器械 新闻 2026"
     },
     {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "华阳国际收到EPC总承包项目《中标通知书》 中标价15.46亿元-股票-金融界",
-      "summary": "中标单位:深圳市华阳国际工程设计股份有限公司、深圳市市政工程总公司;.公告显示,《中标通知书》的主要内容如下:.招标人:深圳市龙华区建筑工...",
-      "url": "https://stock.jrj.com.cn/2020/04/13210629277012.shtml",
-      "source": "stock.jrj.com.cn",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "6 天之前 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业链建 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 5.5,
-      "query": "\"华阳\" 公告 签约 中标 投资"
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "上海柯渡医学科技股份有限公司最新中标项目 - 中标公示信息 - 建设通",
-      "summary": "会员服务数据导出服务人脉服务APP下载上海柯渡医学科技股份有限公司中标业绩上海柯渡医学科技股份有限公司中标业绩.1 上海柯渡医学科技股份有限公司中标湖北省恩施州某医院维保项目...",
-      "url": "https://www.cbi360.net/hhb/sg_1144944/zb/",
-      "source": "www.cbi360.net",
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州华阳通用电子有限公司官方网站",
+      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+      "url": "https://www.foryouge.com/",
+      "source": "www.foryouge.com",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技海南美安产业园项目(中标公告)-海南招标网",
-      "summary": "2025年12月1日 - 您当天剩余次查看公告原文链接,是否消耗一次.中标单位名称:潍坊昌大建设集团有限公司...",
-      "url": "https://hainan.bidizhaobiao.com/info-793193613.html",
-      "source": "hainan.bidizhaobiao.com",
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州市华阳精机有限公司 | 汽车电装零部件 | 3C及工业零部件 ...",
+      "summary": "2025年1月18日 · 惠州市华阳精机有限公司 | 汽车电装零部件 | 3C及工业零部件|汽车发动机 惠州市华阳精机有限公司主要从事精密锌、 …",
+      "url": "https://www.foryoutech.com.cn/",
+      "source": "www.foryoutech.com.cn",
       "date": "",
       "fetched_at": "2026-08-23",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "柯渡医学科技(内蒙古)有限公司_最新招标采购公告_采招网",
-      "summary": "2025年5月16日 - 与柯渡医学科技(内蒙古)有限公司有关的项目共7条,分别是64排螺旋CT维保服务采购项目结果公告,多台设备维保服务项目,柯渡医学科技内蒙古有限公司销售医...",
-      "url": "https://www.bidcenter.com.cn/enterprise/kdyxkjnmgyxgs/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-23",
-      "score": 4.0,
-      "query": "\"柯渡医学\" 公告 签约 中标 投资"
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "kexin",
@@ -400,8 +322,8 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "半导体 (BK1036)_行情中心_东方财富网",
       "summary": "提供半导体 (BK1036)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与半导 …",
@@ -478,8 +400,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -491,8 +413,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
