@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T23:58:41+08:00",
+  "generated_at": "2026-08-24T00:07:33+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 22,
@@ -14,7 +14,7 @@
         "url": "https://quote.eastmoney.com/sz002906.html",
         "source": "quote.eastmoney.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 5.5,
         "query": "华阳 新闻 2026"
       },
@@ -27,7 +27,7 @@
         "url": "https://www.foryougroup.com/",
         "source": "www.foryougroup.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "华阳 新闻 2026"
       },
@@ -40,7 +40,7 @@
         "url": "https://www.foryouge.com/",
         "source": "www.foryouge.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "华阳 新闻 2026"
       },
@@ -53,9 +53,35 @@
         "url": "https://zhaopin.ymjt.com.cn/",
         "source": "zhaopin.ymjt.com.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+        "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+        "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+        "source": "data.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
+      },
+      {
+        "code": "华东数控-资本运作平台",
+        "company": "华东数控-资本运作平台",
+        "industry": "高端制造",
+        "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
+        "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
+        "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
+        "source": "www.zs.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.5,
+        "query": "高端制造 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -68,7 +94,7 @@
         "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
         "source": "zhuanlan.zhihu.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
       }
@@ -83,7 +109,7 @@
         "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
         "source": "mzh.moegirl.org.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "凯茜 新闻 2026"
       },
@@ -96,7 +122,7 @@
         "url": "https://space.bilibili.com/18043692",
         "source": "space.bilibili.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "凯茜 新闻 2026"
       },
@@ -109,7 +135,7 @@
         "url": "https://moegirl.uk/index.php?title=%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0&variant=zh-hans",
         "source": "moegirl.uk",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "凯茜 新闻 2026"
       },
@@ -122,35 +148,9 @@
         "url": "https://www.php.cn/faq/1192652.html",
         "source": "www.php.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "凯茜 新闻 2026"
-      },
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "解读:2026年 国补 政策",
-        "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-        "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-        "source": "www.snxingping.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
-      },
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "2026年 国补 政策来了",
-        "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-        "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-        "source": "znyncj.qiannan.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-23",
-        "score": 2.5,
-        "query": "其他行业 行业 政策 2026"
       },
       {
         "code": "乘杜科技",
@@ -161,7 +161,7 @@
         "url": "https://news.qq.com/rain/a/20241213A044ZE00",
         "source": "news.qq.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
@@ -176,7 +176,7 @@
         "url": "https://news.sina.com.cn/",
         "source": "news.sina.com.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 2.5,
         "query": "新能源 行业 政策 2026"
       },
@@ -185,11 +185,11 @@
         "company": "宏远创信",
         "industry": "新能源",
         "title": "网易新闻",
-        "summary": "15 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+        "summary": "16 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
         "url": "https://news.163.com/",
         "source": "news.163.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
       },
@@ -202,7 +202,7 @@
         "url": "https://news.cctv.com/",
         "source": "news.cctv.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
       }
@@ -217,7 +217,7 @@
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
         "source": "finance.sina.com.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 2.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -230,7 +230,7 @@
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -243,7 +243,7 @@
         "url": "https://www.sohu.com/a/960605326_121140836",
         "source": "www.sohu.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -256,50 +256,50 @@
         "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
         "source": "www.csrc.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
         "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
         "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
         "source": "www.deloitte.com",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 2.0,
         "query": "半导体 行业 政策 2026"
       }
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
         "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
         "source": "www.ndrc.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
         "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
         "source": "www.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-23",
+        "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
@@ -315,7 +315,7 @@
       "url": "https://quote.eastmoney.com/sz002906.html",
       "source": "quote.eastmoney.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 5.5,
       "query": "华阳 新闻 2026"
     },
@@ -328,7 +328,7 @@
       "url": "https://www.foryougroup.com/",
       "source": "www.foryougroup.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "华阳 新闻 2026"
     },
@@ -341,7 +341,7 @@
       "url": "https://www.foryouge.com/",
       "source": "www.foryouge.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "华阳 新闻 2026"
     },
@@ -354,7 +354,7 @@
       "url": "https://zhaopin.ymjt.com.cn/",
       "source": "zhaopin.ymjt.com.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "华阳 新闻 2026"
     },
@@ -367,7 +367,7 @@
       "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
       "source": "zhuanlan.zhihu.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "可信数据空间 新闻 2026"
     },
@@ -380,7 +380,7 @@
       "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
       "source": "mzh.moegirl.org.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "凯茜 新闻 2026"
     },
@@ -393,7 +393,7 @@
       "url": "https://space.bilibili.com/18043692",
       "source": "space.bilibili.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "凯茜 新闻 2026"
     },
@@ -406,7 +406,7 @@
       "url": "https://moegirl.uk/index.php?title=%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0&variant=zh-hans",
       "source": "moegirl.uk",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "凯茜 新闻 2026"
     },
@@ -419,7 +419,7 @@
       "url": "https://www.php.cn/faq/1192652.html",
       "source": "www.php.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 3.0,
       "query": "凯茜 新闻 2026"
     },
@@ -432,35 +432,35 @@
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
-      "industry": "其他行业",
-      "title": "解读:2026年 国补 政策",
-      "summary": "2026年1月20日 - 为认真贯彻落实党中央、国务院关于优化实施 两新 政策的决策部署,经国务院同意,国家发展改革委、财政部印发《关于2026年实施大规模设备更新和消费品以...",
-      "url": "https://www.snxingping.gov.cn/zwgk/fdzdgknr/jdhy/zcjd/202604/t20260416_2078222.html",
-      "source": "www.snxingping.gov.cn",
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "高端装备制造行业2026年两会政府工作报告解读:新质生产力加码,高端装备制造长期向好-研究报告正文 _ 数据中心 _ 东方财富网",
+      "summary": "2026年3月12日 - 政策将高端装备制造作为新质生产力核心载体,通过研发投入、技术攻关、场景开放多维赋能,行业将进入高质量发展快车道。.从细分领域看,高端机床、智能检...",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?encodeUrl=duOKd2B%20lgzBov5ATCbG/%20KyoKIxCF690wFvxKdK9E0%3D",
+      "source": "data.eastmoney.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
+      "query": "高端制造 行业 政策 2026"
     },
     {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
-      "industry": "其他行业",
-      "title": "2026年 国补 政策来了",
-      "summary": "2026年 两新 政策主要做了3个方面优化。.综合不同行业设备平均折旧年限、技术更新周期等因素,分领域细化完善淘汰设备的最低使用年限、技术指...",
-      "url": "http://znyncj.qiannan.gov.cn/ztzl_110/njgzbtzl/202601/t20260104_89115883.html",
-      "source": "znyncj.qiannan.gov.cn",
+      "code": "华东数控-资本运作平台",
+      "company": "华东数控-资本运作平台",
+      "industry": "高端制造",
+      "title": "【文字】中山市推动高端装备制造产业发展行动方案(2024-2026年)政策解读",
+      "summary": "到2026年,通过培育和发展高端装备制造业,引领带动全市装备制造业整体规模进一步扩大,发展水平明显提高,综合实力进一步增强,力争实现以下目标...",
+      "url": "http://www.zs.gov.cn/zsjxj/gkmlpt/content/2/2355/mpost_2355708.html",
+      "source": "www.zs.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 2.5,
-      "query": "其他行业 行业 政策 2026"
+      "query": "高端制造 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -471,20 +471,20 @@
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
       "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
       "source": "www.deloitte.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
     },
@@ -493,11 +493,11 @@
       "company": "宏远创信",
       "industry": "新能源",
       "title": "网易新闻",
-      "summary": "15 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+      "summary": "16 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
       "url": "https://news.163.com/",
       "source": "news.163.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
     },
@@ -510,33 +510,33 @@
       "url": "https://news.cctv.com/",
       "source": "news.cctv.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
       "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
       "source": "www.ndrc.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
       "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
       "source": "www.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
     },
@@ -549,7 +549,7 @@
       "url": "https://news.qq.com/rain/a/20241213A044ZE00",
       "source": "news.qq.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
     },
@@ -562,7 +562,7 @@
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
     },
@@ -575,7 +575,7 @@
       "url": "https://www.sohu.com/a/960605326_121140836",
       "source": "www.sohu.com",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
     },
@@ -588,7 +588,7 @@
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
       "source": "www.csrc.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-23",
+      "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
     }
