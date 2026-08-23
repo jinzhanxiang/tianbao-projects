@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T01:24:38+08:00",
+  "generated_at": "2026-08-24T01:31:57+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 24,
+  "total": 27,
   "by_industry": {
     "高端制造": [
       {
@@ -58,84 +58,138 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "低空航空": [
+    "生物医药": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
-        "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
-        "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
-        "source": "www.chinamae.com",
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
+        "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
+        "url": "https://www.sohu.com/a/607343524_120629259",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 5.5,
+        "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
+        "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
+        "url": "https://36kr.com/p/2843424921541510",
+        "source": "36kr.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 5.5,
+        "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "北京速迈医疗科技有限公司 - 中标信息 - 铁耙云",
+        "summary": "2024年9月5日 - 你好,欢迎来到北京速迈医疗科技有限公司网站首页北京速迈医疗科技有限公司铁耙云登录 | 注册森林消防物资铁耙云 全国供应商列表 北京速迈医疗科技有限...",
+        "url": "https://www.tiepayun.com/sment-2-56324.html",
+        "source": "www.tiepayun.com",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
+        "query": "\"速迈医疗\" 公告 签约 中标 投资"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
-        "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
-        "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
-        "source": "www.jrzb.cn",
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "中日友好医院医疗设备更新项目第三批中标公告第4包超声骨刀",
+        "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 北京鼎海兴和科技有限公司 超声骨刀 北京速迈医疗科技股份有限公司 GM4...",
+        "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241212_23853271.htm",
+        "source": "www.ccgp.gov.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
-      },
+        "query": "\"速迈医疗\" 公告 签约 中标 投资"
+      }
+    ],
+    "新能源": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "航天精工股份有限公司电子会计档案项目技术开发中标结果公告_招标网",
-        "summary": "2025年4月11日 - 航天精工股份有限公司电子会计档案项目技术开发中标结果公告是招标网发布的中标公告信息,该中标公告相关中标公示、中标通知、中标公示、成交公告等中...",
-        "url": "https://m.zhaobiao.cn/zb/succeed_v_b6c4f45f81ca9514bc4d80475c97d429.html",
-        "source": "m.zhaobiao.cn",
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+        "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+        "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+        "source": "finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-24",
-        "score": 4.0,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
+        "score": 3.5,
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "天津热转印烫印机招标公告",
-        "summary": "2024年9月9日 - 【产品】生产保障物资采购)基本信息 询价单编号:STC202408-00015 询价单名称:生产保障物资采购 发布时间:2024-09-09 15:20:19 采购企业:航天精工股份...",
-        "url": "https://www.qianlima.com/gjxx/496443_26_0",
-        "source": "www.qianlima.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 新能源 宝马全新iX3续航919公里，10分钟补能400公里，26.99万起 奇瑞捷途旅行者7 &旅行者7C-DM开启小订 BMW …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 2.5,
-        "query": "\"航天精工\" 公告 签约 中标 投资"
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "低空司-国家发展和改革委员会",
-        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
-        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
-        "source": "www.ndrc.gov.cn",
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+        "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+        "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+        "source": "ai.so.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "合邦新能源",
+        "company": "合邦新能源",
+        "industry": "新能源",
+        "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+        "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+        "url": "https://www.toutiao.com/article/7616707417639813642/",
+        "source": "www.toutiao.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "17 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
-        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
-        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
-        "source": "www.gov.cn",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻频道_央视网 (cctv.com)",
+        "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
+        "url": "https://news.cctv.com/",
+        "source": "news.cctv.com",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -220,47 +274,6 @@
         "query": "其他行业 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年8月5日 · 新能源 宝马全新iX3续航919公里，10分钟补能400公里，26.99万起 奇瑞捷途旅行者7 &旅行者7C-DM开启小订 BMW …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "17 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻频道_央视网 (cctv.com)",
-        "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
-        "url": "https://news.cctv.com/",
-        "source": "news.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "REITS类资产": [
       {
         "code": "联通云山西",
@@ -317,8 +330,8 @@
     ],
     "半导体": [
       {
-        "code": "jngd",
-        "company": "晶能光电",
+        "code": "innoshine",
+        "company": "元旭半导体",
         "industry": "半导体",
         "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
         "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -328,6 +341,34 @@
         "fetched_at": "2026-08-24",
         "score": 2.0,
         "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "低空航空": [
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "低空司-国家发展和改革委员会",
+        "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
+        "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
+        "source": "www.ndrc.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
+      },
+      {
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
+        "industry": "低空航空",
+        "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
+        "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
+        "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
+        "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "低空航空 行业 政策 2026"
       }
     ]
   },
@@ -346,43 +387,69 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "河南航天精工制造有限公司高端紧固件产业化能力提升一期建设项目施工总承包中标候选人公示",
-      "summary": "2025年12月30日 - *有限公司评标资料.pdf无在建承诺书.pdf中标候选人公告.pdf查看项目详细信息.二、招标公告发布媒体及时间: 本项目招标公告于2025年12月3日在《中国招...",
-      "url": "https://www.chinamae.com/purchases/23f08a7bc35139eb6777a7950a8be1a5.html",
-      "source": "www.chinamae.com",
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "招投标 | 2022年10月超声手术设备招采报告:速迈医疗居首 中标额超七百万元_数据_数量",
+      "summary": "根据众成数科(JOINCHAIN)统计的已披露的品牌与金额数据结果,2022年10月中,速迈医疗排名第一,中标总额和中标数量共计770.9万元和7件;史赛克...",
+      "url": "https://www.sohu.com/a/607343524_120629259",
+      "source": "www.sohu.com",
       "date": "",
       "fetched_at": "2026-08-24",
-      "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
+      "score": 5.5,
+      "query": "\"速迈医疗\" 公告 签约 中标 投资"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "航天精工股份有限公司信息化采购中标公告(原标题:信息化采购)-今日招标",
-      "summary": "2025年12月5日 - 招标公告中标查询招标变更招标订阅企业监控联系方式.航天精工股份有限公司2025-12-05发布了信息化采购的中标的公告 原网站注册登录查看! 千万级信息...",
-      "url": "https://www.jrzb.cn/bidDetail/D9E772D392DE4AC5893AC2676FBA79C8.html",
-      "source": "www.jrzb.cn",
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "国内超声外科医疗技术行业 领军企业 速迈医疗与正悦投资达成入股合作-36氪",
+      "summary": "正悦投资设立的厦门正合云帆投资有限公司旗下私募股权投资基金——和合美美基金于2024年5月完成对速迈医疗的大额数千万元投资,是基金在医疗...",
+      "url": "https://36kr.com/p/2843424921541510",
+      "source": "36kr.com",
       "date": "",
       "fetched_at": "2026-08-24",
-      "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
+      "score": 5.5,
+      "query": "\"速迈医疗\" 公告 签约 中标 投资"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "航天精工股份有限公司电子会计档案项目技术开发中标结果公告_招标网",
-      "summary": "2025年4月11日 - 航天精工股份有限公司电子会计档案项目技术开发中标结果公告是招标网发布的中标公告信息,该中标公告相关中标公示、中标通知、中标公示、成交公告等中...",
-      "url": "https://m.zhaobiao.cn/zb/succeed_v_b6c4f45f81ca9514bc4d80475c97d429.html",
-      "source": "m.zhaobiao.cn",
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "北京速迈医疗科技有限公司 - 中标信息 - 铁耙云",
+      "summary": "2024年9月5日 - 你好,欢迎来到北京速迈医疗科技有限公司网站首页北京速迈医疗科技有限公司铁耙云登录 | 注册森林消防物资铁耙云 全国供应商列表 北京速迈医疗科技有限...",
+      "url": "https://www.tiepayun.com/sment-2-56324.html",
+      "source": "www.tiepayun.com",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 4.0,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
+      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "中日友好医院医疗设备更新项目第三批中标公告第4包超声骨刀",
+      "summary": "序号 供应商名称 货物名称 货物品牌 货物型号 货物数量 货物单价(元) 1 北京鼎海兴和科技有限公司 超声骨刀 北京速迈医疗科技股份有限公司 GM4...",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202412/t20241212_23853271.htm",
+      "source": "www.ccgp.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.0,
+      "query": "\"速迈医疗\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "2026年新能源汽车政策调整深度解析_新浪财经_新浪网",
+      "summary": "2026年的新能源汽车政策调整是一次深刻的产业结构优化.行业测算显示,当前市场近40%的现有车型无法达标。.核心变化:2026年1月1日至2027年12月...",
+      "url": "https://finance.sina.com.cn/roll/2026-02-04/doc-inhkrihr6681329.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 3.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -502,19 +569,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "天津热转印烫印机招标公告",
-      "summary": "2024年9月9日 - 【产品】生产保障物资采购)基本信息 询价单编号:STC202408-00015 询价单名称:生产保障物资采购 发布时间:2024-09-09 15:20:19 采购企业:航天精工股份...",
-      "url": "https://www.qianlima.com/gjxx/496443_26_0",
-      "source": "www.qianlima.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 2.5,
-      "query": "\"航天精工\" 公告 签约 中标 投资"
-    },
-    {
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
@@ -528,8 +582,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
+      "code": "innoshine",
+      "company": "元旭半导体",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -539,6 +593,32 @@
       "fetched_at": "2026-08-24",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新能源汽车发展态势明确,2026年或实施三大政策",
+      "summary": "2026年新能源汽车行业将实施三大核心政策,推动产业从政策驱动转向技术驱动的高质量发展阶段: 一、购置税政策:从免征到减半征收 2026年1月1日起,新能源汽车购置税由全...",
+      "url": "https://ai.so.com/search/so8fd54a8f0f2d62486d3fbe8767052d04?search=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF%E6%98%8E%E7%A1%AE%EF%BC%8C2026%E5%B9%B4%E6%88%96%E5%AE%9E%E6%96%BD%E4%B8%89%E5%A4%A7%E6%94%BF%E7%AD%96&src=so_result_natural_news&srcg=so_result_natural_news",
+      "source": "ai.so.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "合邦新能源",
+      "company": "合邦新能源",
+      "industry": "新能源",
+      "title": "新能源汽车大局已定:不出意外的话,2026年将迎来3大政策 - 今日头条",
+      "summary": "2026年3月13日 - 今年1月,工信部等六部门联合发布《新能源汽车废旧动力电池回收和综合利用管理暂行办法》,自2026年4月1日起施行.不管你是正在纠结要不要换电车的普通家...",
+      "url": "https://www.toutiao.com/article/7616707417639813642/",
+      "source": "www.toutiao.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.0,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hongyuan",
