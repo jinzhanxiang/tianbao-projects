@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T12:41:15+08:00",
+  "generated_at": "2026-08-23T12:48:46+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 24,
   "by_industry": {
     "高端制造": [
       {
@@ -84,6 +84,58 @@
         "fetched_at": "2026-08-23",
         "score": 5.5,
         "query": "航天宏图 新闻 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
+        "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
+        "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
+        "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
+        "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
+        "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
+        "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
+        "source": "guba.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新(002023)-公司公告-海特高新:中签结果公告-股票行情中心-搜狐证券",
+        "summary": "2022年7月25日 - 海特高新:中签结果公告2004-07-08 公司首次公开发行股票向二级市场投资者定价配售发行摇号中签号码如下:末四位数:7059 2059 3933末五位数:60220 7272...",
+        "url": "https://q.stock.sohu.com/cn,gg,002023,14444486.shtml",
+        "source": "q.stock.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-23",
+        "score": 5.5,
+        "query": "\"海特高新\" 公告 签约 中标 投资"
       },
       {
         "code": "hangtianhongtu",
@@ -318,6 +370,58 @@
       "fetched_at": "2026-08-23",
       "score": 5.5,
       "query": "航天宏图 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "中标了!海特高新:子公司收到《中标通知书》_腾讯新闻",
+      "summary": "每经AI快讯,海特高新(SZ 002023,收盘价:16.05元)9月25日晚间发布公告称,四川海特高新技术股份有限公司控股子公司安胜(天津)飞行模拟系统有限...",
+      "url": "https://news.qq.com/rain/a/20200925A0HDJ400",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新控股子公司收到《中标通知书》 中标金额2258万元|上海_新浪财经_新浪网",
+      "summary": "挖贝网 9月25日,海特高新发布公告称,公司控股子公司安胜(天津)飞行模拟系统有限公司(以下简称“安胜”)于近日收到中化商务有限公司发来的《中标...",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2020-09-25/doc-iivhvpwy8860898.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:中签结果公告_海特高新(002023)股吧_东方财富网股吧",
+      "summary": "2004年7月8日 - 本页无正文,为四川海特高新技术股份有限公司定价配售摇号中签结果公告之签署页。.根据《四川海特高新技术股份有限公司首次公开发行股票向二级市场投资...",
+      "url": "http://guba.eastmoney.com/news,002023,1019979097.html",
+      "source": "guba.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新(002023)-公司公告-海特高新:中签结果公告-股票行情中心-搜狐证券",
+      "summary": "2022年7月25日 - 海特高新:中签结果公告2004-07-08 公司首次公开发行股票向二级市场投资者定价配售发行摇号中签号码如下:末四位数:7059 2059 3933末五位数:60220 7272...",
+      "url": "https://q.stock.sohu.com/cn,gg,002023,14444486.shtml",
+      "source": "q.stock.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-23",
+      "score": 5.5,
+      "query": "\"海特高新\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
