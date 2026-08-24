@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T11:58:49+08:00",
+  "generated_at": "2026-08-24T12:09:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 15,
   "by_industry": {
     "高端制造": [
       {
@@ -71,19 +71,6 @@
         "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "用科技守护矿山安全！山科大教授刘学生荣获新时代青年先锋奖",
-        "summary": "2026年4月27日 · 记者采访中了解到，刘学生的本科、硕士、博士阶段均就读于 山东科技大学，从山科学子到学校教授、国家级高层次 …",
-        "url": "https://news.qq.com/rain/a/20260427A086ZT00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -105,7 +92,7 @@
         "company": "宏远创信",
         "industry": "新能源",
         "title": "新浪网",
-        "summary": "3 小时之前 · 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下连续第三个EWC冠军俱乐部 …",
+        "summary": "4 小时之前 · 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下连续第三个EWC冠军俱乐部 …",
         "url": "http://sina.com.cn/",
         "source": "sina.com.cn",
         "date": "",
@@ -146,7 +133,7 @@
         "company": "联通云山西",
         "industry": "REITS类资产",
         "title": "REITs专栏 | 上海证券交易所",
-        "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
         "date": "",
@@ -171,68 +158,14 @@
         "code": "联通云山西",
         "company": "联通云山西",
         "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
+        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+        "source": "www.csrc.gov.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "2026年生物制药政策解读报告.docx-原创力文档",
-        "summary": "在2026年的时间节点上,中国生物制药行业正处于一个前所未有的政策密集调整期与制度创新期.从宏观层面来看,国家对于生物医药产业的战略定位已经从单纯的 战略性新...",
-        "url": "https://max.book118.com/html/2026/0214/8105111073010046.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-        "url": "https://xueqiu.com/4903414284/382400737",
-        "source": "xueqiu.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "生物医药 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -372,63 +305,11 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
-      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
-      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
-      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
-      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "2026年生物制药政策解读报告.docx-原创力文档",
-      "summary": "在2026年的时间节点上,中国生物制药行业正处于一个前所未有的政策密集调整期与制度创新期.从宏观层面来看,国家对于生物医药产业的战略定位已经从单纯的 战略性新...",
-      "url": "https://max.book118.com/html/2026/0214/8105111073010046.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
-      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
-      "url": "https://xueqiu.com/4903414284/382400737",
-      "source": "xueqiu.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 2.0,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新浪网",
-      "summary": "3 小时之前 · 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下连续第三个EWC冠军俱乐部 …",
+      "summary": "4 小时之前 · 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下连续第三个EWC冠军俱乐部 …",
       "url": "http://sina.com.cn/",
       "source": "sina.com.cn",
       "date": "",
@@ -493,7 +374,7 @@
       "company": "联通云山西",
       "industry": "REITS类资产",
       "title": "REITs专栏 | 上海证券交易所",
-      "summary": "3 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
@@ -518,27 +399,14 @@
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
+      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
+      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
+      "source": "www.csrc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "用科技守护矿山安全！山科大教授刘学生荣获新时代青年先锋奖",
-      "summary": "2026年4月27日 · 记者采访中了解到，刘学生的本科、硕士、博士阶段均就读于 山东科技大学，从山科学子到学校教授、国家级高层次 …",
-      "url": "https://news.qq.com/rain/a/20260427A086ZT00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
     }
   ]
 }
