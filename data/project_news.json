@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T13:19:43+08:00",
+  "generated_at": "2026-08-24T13:31:22+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 22,
   "by_industry": {
     "高端制造": [
       {
@@ -58,6 +58,88 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "首发 | 清华学霸涌向光电芯片,元旭半导体完成了C轮数亿元融资",
+        "summary": "投资界(ID:pedaily2012)5月24日消息,近日,元旭半导体完成了C轮数亿元融资.「元旭半导体」是一家从事新一代Micro LED集成显示芯片科创领军企业,全资子公司「星璨视觉」致力于打造Micro LED显示芯...",
+        "url": "https://startup.aliyun.com/info/108656.html",
+        "source": "startup.aliyun.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 5.0,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "元旭半导体科技(北京)有限公司_最新招标采购公告_采招网",
+        "summary": "2023年10月23日 - 结果公告滨州市新闻传媒中心融媒体平台建设项目融媒体户外发布系统项目中标(成交)结果公告 一、项目编号:BZGP-2022-0671 二、项目名称:滨州市新闻传媒...",
+        "url": "https://www.bidcenter.com.cn/enterprise/yxbdtkjbjyxgs/",
+        "source": "www.bidcenter.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 5.0,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "元旭总投资10亿元的第三代半导体显示芯片项目签约天津学术资讯- 科技工作者之家",
+        "summary": "2022年4月13日 - 其中,元旭半导体科技股份有限公司(以下简称:元旭半导体)拟在天津高新区设立全资子公司作为项目主体,新建第三代半导体高端显示芯片研发中心和垂直整合...",
+        "url": "https://www.scimall.org.cn/article/detail?id=6096519",
+        "source": "www.scimall.org.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.5,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "innoshine",
+        "company": "元旭半导体",
+        "industry": "半导体",
+        "title": "深圳市平板显示行业协会 - 企查查",
+        "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+        "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+        "source": "www.qcc.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.5,
+        "query": "\"元旭半导体\" 公告 签约 中标 投资"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "000711-ST京蓝",
+        "company": "000711-ST京蓝",
+        "industry": "其他行业",
+        "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
+        "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
+        "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
+        "source": "www.aijingu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 4.0,
+        "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -71,6 +153,32 @@
         "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "南京审计大学好不好？坐拥多个“唯一”，王牌超一众985、211！",
+        "summary": "2025年9月9日 · 该校 由教育部、财政部、审计署和江苏省人民政府四方共建，在全国高校中都属罕见，自带“金字招牌”。 办学多年 …",
+        "url": "https://www.sohu.com/a/933326027_121657678",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "tianjin_telecom",
+        "company": "天津电信",
+        "industry": "AI智能",
+        "title": "南京审计大学怎么样？放弃985，来南审到底值不值？",
+        "summary": "2025年3月26日 · 从学校的特色来看， 南京审计大学作为审计界的黄埔军校，在审计方面的实力的确是不容小觑。 高等教育评价机构“ …",
+        "url": "https://www.163.com/dy/article/JRJHCH02055683JA.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -195,21 +303,6 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -225,6 +318,71 @@
       "fetched_at": "2026-08-24",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "首发 | 清华学霸涌向光电芯片,元旭半导体完成了C轮数亿元融资",
+      "summary": "投资界(ID:pedaily2012)5月24日消息,近日,元旭半导体完成了C轮数亿元融资.「元旭半导体」是一家从事新一代Micro LED集成显示芯片科创领军企业,全资子公司「星璨视觉」致力于打造Micro LED显示芯...",
+      "url": "https://startup.aliyun.com/info/108656.html",
+      "source": "startup.aliyun.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 5.0,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "元旭半导体科技(北京)有限公司_最新招标采购公告_采招网",
+      "summary": "2023年10月23日 - 结果公告滨州市新闻传媒中心融媒体平台建设项目融媒体户外发布系统项目中标(成交)结果公告 一、项目编号:BZGP-2022-0671 二、项目名称:滨州市新闻传媒...",
+      "url": "https://www.bidcenter.com.cn/enterprise/yxbdtkjbjyxgs/",
+      "source": "www.bidcenter.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 5.0,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "000711-ST京蓝",
+      "company": "000711-ST京蓝",
+      "industry": "其他行业",
+      "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
+      "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
+      "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
+      "source": "www.aijingu.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.0,
+      "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "元旭总投资10亿元的第三代半导体显示芯片项目签约天津学术资讯- 科技工作者之家",
+      "summary": "2022年4月13日 - 其中,元旭半导体科技股份有限公司(以下简称:元旭半导体)拟在天津高新区设立全资子公司作为项目主体,新建第三代半导体高端显示芯片研发中心和垂直整合...",
+      "url": "https://www.scimall.org.cn/article/detail?id=6096519",
+      "source": "www.scimall.org.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 3.5,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "innoshine",
+      "company": "元旭半导体",
+      "industry": "半导体",
+      "title": "深圳市平板显示行业协会 - 企查查",
+      "summary": "尽管有新的封锁和限制2022-04-13 总投资10亿,元旭半导体显示芯片项目签约天津2021-01-27 新增中标:天津市滨海新区投资促进中心机关天津市滨海新区投资促进中心第六届中国电子信息博览会场地租赁...",
+      "url": "https://www.qcc.com/firm/s1b894f8d3ec1c367f3bb589ad619f94.html",
+      "source": "www.qcc.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 3.5,
+      "query": "\"元旭半导体\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -368,6 +526,32 @@
       "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "南京审计大学好不好？坐拥多个“唯一”，王牌超一众985、211！",
+      "summary": "2025年9月9日 · 该校 由教育部、财政部、审计署和江苏省人民政府四方共建，在全国高校中都属罕见，自带“金字招牌”。 办学多年 …",
+      "url": "https://www.sohu.com/a/933326027_121657678",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "tianjin_telecom",
+      "company": "天津电信",
+      "industry": "AI智能",
+      "title": "南京审计大学怎么样？放弃985，来南审到底值不值？",
+      "summary": "2025年3月26日 · 从学校的特色来看， 南京审计大学作为审计界的黄埔军校，在审计方面的实力的确是不容小觑。 高等教育评价机构“ …",
+      "url": "https://www.163.com/dy/article/JRJHCH02055683JA.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
     },
     {
       "code": "联通云山西",
