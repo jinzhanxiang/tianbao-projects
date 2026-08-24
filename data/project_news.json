@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T23:50:31+08:00",
+  "generated_at": "2026-08-25T00:05:47+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -14,7 +14,7 @@
         "url": "https://quote.eastmoney.com/sz002906.html",
         "source": "quote.eastmoney.com",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 5.5,
         "query": "华阳 新闻 2026"
       },
@@ -27,7 +27,7 @@
         "url": "https://xueqiu.com/S/SZ002906",
         "source": "xueqiu.com",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 4.0,
         "query": "华阳 新闻 2026"
       },
@@ -40,7 +40,7 @@
         "url": "https://www.foryougroup.com/",
         "source": "www.foryougroup.com",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 3.0,
         "query": "华阳 新闻 2026"
       },
@@ -53,37 +53,9 @@
         "url": "https://www.foryouge.com/",
         "source": "www.foryouge.com",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "其他行业": [
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-        "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-        "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-        "source": "www.jiansheku.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 4.0,
-        "query": "\"凯茜\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -96,7 +68,7 @@
         "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
         "source": "zhuanlan.zhihu.com",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
       }
@@ -111,7 +83,7 @@
         "url": "https://news.sina.com.cn/",
         "source": "news.sina.com.cn",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 2.5,
         "query": "新能源 行业 政策 2026"
       },
@@ -124,7 +96,7 @@
         "url": "https://news.cctv.com/",
         "source": "news.cctv.com",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 2.5,
         "query": "新能源 行业 政策 2026"
       },
@@ -137,7 +109,7 @@
         "url": "http://www.scio.gov.cn/",
         "source": "www.scio.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 1.5,
         "query": "新能源 行业 政策 2026"
       }
@@ -152,7 +124,7 @@
         "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
         "source": "www.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 2.5,
         "query": "低空航空 行业 政策 2026"
       },
@@ -165,7 +137,7 @@
         "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
         "source": "www.ndrc.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       },
@@ -178,7 +150,7 @@
         "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
         "source": "www.gov.cn",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
@@ -193,7 +165,7 @@
         "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
         "source": "finance.sina.com.cn",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 2.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -206,7 +178,7 @@
         "url": "https://www.sohu.com/a/1048068692_121227303",
         "source": "www.sohu.com",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 2.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -219,7 +191,7 @@
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       },
@@ -232,9 +204,78 @@
         "url": "https://www.sohu.com/a/960605326_121140836",
         "source": "www.sohu.com",
         "date": "",
-        "fetched_at": "2026-08-24",
+        "fetched_at": "2026-08-25",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026年生物制药政策解读报告.docx-原创力文档",
+        "summary": "在2026年的时间节点上,中国生物制药行业正处于一个前所未有的政策密集调整期与制度创新期.从宏观层面来看,国家对于生物医药产业的战略定位已经从单纯的 战略性新...",
+        "url": "https://max.book118.com/html/2026/0214/8105111073010046.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ]
   },
@@ -248,7 +289,7 @@
       "url": "https://quote.eastmoney.com/sz002906.html",
       "source": "quote.eastmoney.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 5.5,
       "query": "华阳 新闻 2026"
     },
@@ -261,22 +302,9 @@
       "url": "https://xueqiu.com/S/SZ002906",
       "source": "xueqiu.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 4.0,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "上海凯茜企业管理有限公司_中标公示_四库一平台_水利_公路业绩查询_建设库",
-      "summary": "2023年2月8日 - 上海凯茜企业管理有限公司有哪些业绩?建设库为您提供上海凯茜企业管理有限公司最新全国建筑市场监管公共服务平台、四库一平台、全国公共资源交易网、...",
-      "url": "https://www.jiansheku.com/enterprise/563737564672566344/performance/",
-      "source": "www.jiansheku.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 4.0,
-      "query": "\"凯茜\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -287,7 +315,7 @@
       "url": "https://www.foryougroup.com/",
       "source": "www.foryougroup.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 3.0,
       "query": "华阳 新闻 2026"
     },
@@ -300,7 +328,7 @@
       "url": "https://www.foryouge.com/",
       "source": "www.foryouge.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 3.0,
       "query": "华阳 新闻 2026"
     },
@@ -313,7 +341,7 @@
       "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
       "source": "zhuanlan.zhihu.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 3.0,
       "query": "可信数据空间 新闻 2026"
     },
@@ -326,7 +354,7 @@
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
     },
@@ -339,7 +367,7 @@
       "url": "https://news.cctv.com/",
       "source": "news.cctv.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "新能源 行业 政策 2026"
     },
@@ -352,7 +380,7 @@
       "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
       "source": "www.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
     },
@@ -365,7 +393,7 @@
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
     },
@@ -378,9 +406,61 @@
       "url": "https://www.sohu.com/a/1048068692_121227303",
       "source": "www.sohu.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026年生物制药政策解读报告.docx-原创力文档",
+      "summary": "在2026年的时间节点上,中国生物制药行业正处于一个前所未有的政策密集调整期与制度创新期.从宏观层面来看,国家对于生物医药产业的战略定位已经从单纯的 战略性新...",
+      "url": "https://max.book118.com/html/2026/0214/8105111073010046.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
@@ -391,7 +471,7 @@
       "url": "http://www.scio.gov.cn/",
       "source": "www.scio.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
     },
@@ -404,7 +484,7 @@
       "url": "https://www.ndrc.gov.cn/fzggw/jgsj/dks/",
       "source": "www.ndrc.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
     },
@@ -417,7 +497,7 @@
       "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
       "source": "www.gov.cn",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
     },
@@ -430,7 +510,7 @@
       "url": "https://news.qq.com/rain/a/20241213A044ZE00",
       "source": "news.qq.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
     },
@@ -443,7 +523,7 @@
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
     },
@@ -456,7 +536,7 @@
       "url": "https://www.sohu.com/a/960605326_121140836",
       "source": "www.sohu.com",
       "date": "",
-      "fetched_at": "2026-08-24",
+      "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "REITS类资产 行业 政策 2026"
     }
