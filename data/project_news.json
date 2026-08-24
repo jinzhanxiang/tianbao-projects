@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T18:38:26+08:00",
+  "generated_at": "2026-08-24T18:52:17+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 17,
+  "total": 18,
   "by_industry": {
     "高端制造": [
       {
@@ -56,6 +56,73 @@
         "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "华阳 新闻 2026"
+      }
+    ],
+    "其他行业": [
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+        "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+        "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 4.5,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子明确2026经营方向,深耕主业推进新能源业务发展",
+        "summary": "2026年5月3日 - 2026年4月29日,奥联电子举行2025年度网上业绩说明会。公司表示将深耕汽车电子主业,推进新能源业务,优化业务结构。2025年归母净利润亏损因计提预计负债...",
+        "url": "https://laoyaoba.com/n/1030601",
+        "source": "laoyaoba.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 4.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+        "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+        "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+        "source": "app.myzaker.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+        "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+        "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+        "source": "news.10jqka.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.0,
+        "query": "奥联电子 新闻 2026"
+      },
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -142,47 +209,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "生物医药": [
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "国家法律法规数据库",
-        "summary": "2026年7月29日 · 国家法律法规数据库提供全面的法律法规信息查询和服务。",
-        "url": "https://flk.npc.gov.cn/detail2.html",
-        "source": "flk.npc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "npc.gov.cn",
-        "summary": "",
-        "url": "https://wb.flk.npc.gov.cn/flfg/PDF/bd53dd912c1048f2aecbaa229238334b.pdf",
-        "source": "wb.flk.npc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "国家主席习近平发表二〇二六年新年贺词",
-        "summary": "新华社北京12月31日电 新年前夕，国家主席习近平通过中央广播电视总台和互联网，发表了二〇二六年新年贺词。全文如下：大家 …",
-        "url": "https://www.mofcom.gov.cn/xwfb/ldrhd/art/2025/art_722fea40f9ca44f6865c7cb7ae8f3f70.html",
-        "source": "www.mofcom.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      }
-    ],
     "低空航空": [
       {
         "code": "hangtianhongtu",
@@ -223,21 +249,6 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "奥联电子",
-        "company": "奥联电子",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -253,6 +264,32 @@
       "fetched_at": "2026-08-24",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子2026年一季报解读:净利润亏损扩大210.51% 经营现金流扭正|现金流_新浪财经_新浪网",
+      "summary": "核心盈利指标深度恶化 奥联电子2026年第一季度核心盈利数据出现大幅下滑,亏损规模显著扩大,盈利质量持续承压。 指标 本报告期 上年同期 同比...",
+      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-27/doc-inhvxxwz2295088.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.5,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子明确2026经营方向,深耕主业推进新能源业务发展",
+      "summary": "2026年5月3日 - 2026年4月29日,奥联电子举行2025年度网上业绩说明会。公司表示将深耕汽车电子主业,推进新能源业务,优化业务结构。2025年归母净利润亏损因计提预计负债...",
+      "url": "https://laoyaoba.com/n/1030601",
+      "source": "laoyaoba.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.0,
+      "query": "奥联电子 新闻 2026"
     },
     {
       "code": "huayt",
@@ -294,6 +331,32 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子:截至2026年7月20日,公司股东人数合计12,177户_ZAKER新闻",
+      "summary": "奥联电子董秘:尊敬的投资者您好,截至 2026 年 7 月 20 日,公司股东人数合计 12,177 户,感谢您对公司的关注!.证券之星消息,奥联电子 ( 300585 ) 07...",
+      "url": "http://app.myzaker.com/news/article.php?pk=6a61d9978e9f097d424f1004",
+      "source": "app.myzaker.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "奥联电子(截止2026年7月10日)股东人数为12382户 环比增加1.90%",
+      "summary": "2026年7月10日 - 奥联电子披露公司股东人数最新情况,截止7月10日,公司股东人数为12382人,较上期(2026-06-30)增加231户,环比增长1.90%。从持仓来看,奥联电子人均持仓1.3...",
+      "url": "http://news.10jqka.com.cn/20260715/c678196272.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 3.0,
+      "query": "奥联电子 新闻 2026"
+    },
+    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -331,32 +394,6 @@
       "fetched_at": "2026-08-24",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "国家法律法规数据库",
-      "summary": "2026年7月29日 · 国家法律法规数据库提供全面的法律法规信息查询和服务。",
-      "url": "https://flk.npc.gov.cn/detail2.html",
-      "source": "flk.npc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "npc.gov.cn",
-      "summary": "",
-      "url": "https://wb.flk.npc.gov.cn/flfg/PDF/bd53dd912c1048f2aecbaa229238334b.pdf",
-      "source": "wb.flk.npc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -398,8 +435,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "奥联电子",
-      "company": "奥联电子",
+      "code": "乘杜科技",
+      "company": "乘杜科技",
       "industry": "其他行业",
       "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
       "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
@@ -409,19 +446,6 @@
       "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "速迈医疗",
-      "company": "速迈医疗",
-      "industry": "生物医药",
-      "title": "国家主席习近平发表二〇二六年新年贺词",
-      "summary": "新华社北京12月31日电 新年前夕，国家主席习近平通过中央广播电视总台和互联网，发表了二〇二六年新年贺词。全文如下：大家 …",
-      "url": "https://www.mofcom.gov.cn/xwfb/ldrhd/art/2025/art_722fea40f9ca44f6865c7cb7ae8f3f70.html",
-      "source": "www.mofcom.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "联通云山西",
