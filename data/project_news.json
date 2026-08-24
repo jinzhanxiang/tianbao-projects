@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T18:24:24+08:00",
+  "generated_at": "2026-08-24T18:38:26+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -70,7 +70,7 @@
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 3.0,
-        "query": "\"可信数据空间\" 公告 签约 中标 投资"
+        "query": "可信数据空间 新闻 2026"
       }
     ],
     "新能源": [
@@ -147,10 +147,10 @@
         "code": "kedu",
         "company": "柯渡医学",
         "industry": "生物医药",
-        "title": "Nasdaq – Listings, Market Data & Financial Technology",
-        "summary": "Nasdaq powers global stock exchanges, market data, indexes, and software for trading, risk, compliance and governance to",
-        "url": "https://www.nasdaq.com/",
-        "source": "www.nasdaq.com",
+        "title": "国家法律法规数据库",
+        "summary": "2026年7月29日 · 国家法律法规数据库提供全面的法律法规信息查询和服务。",
+        "url": "https://flk.npc.gov.cn/detail2.html",
+        "source": "flk.npc.gov.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 1.5,
@@ -160,36 +160,23 @@
         "code": "kedu",
         "company": "柯渡医学",
         "industry": "生物医药",
-        "title": "NASDAQ Composite Index (COMP)",
-        "summary": "Find the latest information on NASDAQ Composite Index (COMP), including data, charts, related news, and more from Nasdaq",
-        "url": "https://www.nasdaq.com/market-activity/index/comp",
-        "source": "www.nasdaq.com",
+        "title": "npc.gov.cn",
+        "summary": "",
+        "url": "https://wb.flk.npc.gov.cn/flfg/PDF/bd53dd912c1048f2aecbaa229238334b.pdf",
+        "source": "wb.flk.npc.gov.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "生物医药 行业 政策 2026"
       },
       {
-        "code": "kedu",
-        "company": "柯渡医学",
+        "code": "速迈医疗",
+        "company": "速迈医疗",
         "industry": "生物医药",
-        "title": "Overview for NDX - Nasdaq",
-        "summary": "Index Description The Nasdaq-100 Index® includes 100 of the largest domestic and international non-financial companies l",
-        "url": "https://indexes.nasdaq.com/Index/Overview/NDX",
-        "source": "indexes.nasdaq.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      },
-      {
-        "code": "kedu",
-        "company": "柯渡医学",
-        "industry": "生物医药",
-        "title": "Nasdaq Concludes Public Consultation on Nasdaq-100 Index® …",
-        "summary": "The Nasdaq-100 Index ® — which measures the performance of 100 of the largest Nasdaq-listed non-financial companies — is",
-        "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-concludes-public-consultation-nasdaq-100-indexr",
-        "source": "ir.nasdaq.com",
+        "title": "国家主席习近平发表二〇二六年新年贺词",
+        "summary": "新华社北京12月31日电 新年前夕，国家主席习近平通过中央广播电视总台和互联网，发表了二〇二六年新年贺词。全文如下：大家 …",
+        "url": "https://www.mofcom.gov.cn/xwfb/ldrhd/art/2025/art_722fea40f9ca44f6865c7cb7ae8f3f70.html",
+        "source": "www.mofcom.gov.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 1.5,
@@ -198,8 +185,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -211,8 +198,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -224,8 +211,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空经济“飞进”新阶段_腾讯新闻",
         "summary": "2026年8月6日 · 刚刚过去的7月，低空经济行业热度宛若炎炎夏日，7月 1日新修订的《中华人民共和国民用航空法》正式施行，将低空 …",
@@ -317,7 +304,7 @@
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 3.0,
-      "query": "\"可信数据空间\" 公告 签约 中标 投资"
+      "query": "可信数据空间 新闻 2026"
     },
     {
       "code": "hongyuan",
@@ -349,10 +336,10 @@
       "code": "kedu",
       "company": "柯渡医学",
       "industry": "生物医药",
-      "title": "Nasdaq – Listings, Market Data & Financial Technology",
-      "summary": "Nasdaq powers global stock exchanges, market data, indexes, and software for trading, risk, compliance and governance to",
-      "url": "https://www.nasdaq.com/",
-      "source": "www.nasdaq.com",
+      "title": "国家法律法规数据库",
+      "summary": "2026年7月29日 · 国家法律法规数据库提供全面的法律法规信息查询和服务。",
+      "url": "https://flk.npc.gov.cn/detail2.html",
+      "source": "flk.npc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 1.5,
@@ -362,44 +349,18 @@
       "code": "kedu",
       "company": "柯渡医学",
       "industry": "生物医药",
-      "title": "NASDAQ Composite Index (COMP)",
-      "summary": "Find the latest information on NASDAQ Composite Index (COMP), including data, charts, related news, and more from Nasdaq",
-      "url": "https://www.nasdaq.com/market-activity/index/comp",
-      "source": "www.nasdaq.com",
+      "title": "npc.gov.cn",
+      "summary": "",
+      "url": "https://wb.flk.npc.gov.cn/flfg/PDF/bd53dd912c1048f2aecbaa229238334b.pdf",
+      "source": "wb.flk.npc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "生物医药 行业 政策 2026"
     },
     {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "Overview for NDX - Nasdaq",
-      "summary": "Index Description The Nasdaq-100 Index® includes 100 of the largest domestic and international non-financial companies l",
-      "url": "https://indexes.nasdaq.com/Index/Overview/NDX",
-      "source": "indexes.nasdaq.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "kedu",
-      "company": "柯渡医学",
-      "industry": "生物医药",
-      "title": "Nasdaq Concludes Public Consultation on Nasdaq-100 Index® …",
-      "summary": "The Nasdaq-100 Index ® — which measures the performance of 100 of the largest Nasdaq-listed non-financial companies — is",
-      "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-concludes-public-consultation-nasdaq-100-indexr",
-      "source": "ir.nasdaq.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "生物医药 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -411,8 +372,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -424,8 +385,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空经济“飞进”新阶段_腾讯新闻",
       "summary": "2026年8月6日 · 刚刚过去的7月，低空经济行业热度宛若炎炎夏日，7月 1日新修订的《中华人民共和国民用航空法》正式施行，将低空 …",
@@ -448,6 +409,19 @@
       "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "国家主席习近平发表二〇二六年新年贺词",
+      "summary": "新华社北京12月31日电 新年前夕，国家主席习近平通过中央广播电视总台和互联网，发表了二〇二六年新年贺词。全文如下：大家 …",
+      "url": "https://www.mofcom.gov.cn/xwfb/ldrhd/art/2025/art_722fea40f9ca44f6865c7cb7ae8f3f70.html",
+      "source": "www.mofcom.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "联通云山西",
