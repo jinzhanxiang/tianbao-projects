@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T03:44:27+08:00",
+  "generated_at": "2026-08-25T03:54:19+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 24,
+  "total": 16,
   "by_industry": {
     "高端制造": [
       {
@@ -60,58 +60,6 @@
     ],
     "AI智能": [
       {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告丨光速招标海量免费标讯",
-        "summary": "2026年3月9日 - 中标公告2026-03-09微信查看.自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告. 公告摘要: 公告摘要: 自采-汇天网络科技有...",
-        "url": "https://www.guangsuzb.com/succeed_v_2030860553833861123.html",
-        "source": "www.guangsuzb.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-        "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-        "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-        "source": "bj.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告-采招网",
-        "summary": "2023年9月6日 - 受业主委托,中国采招网于2023年09月06日发布【自采】-北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告;项目简介: 点击查看附件 ...",
-        "url": "https://m.bidcenter.com.cn/news-4-245659042.html",
-        "source": "m.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "北京市通州区人民法院发布汇天网络科技有限公司执行公告- DoNews",
-        "summary": "天眼查App显示,2025年1月2日,北京市通州区人民法院正式发布了关于汇天网络科技有限公司(以下简称 汇天网络 )的执行公告。根据案号为(2025)京0112执37号的执行文件,汇天网络因未履行相关法律义务...",
-        "url": "https://www.donews.com/news/detail/4/4672816.html",
-        "source": "www.donews.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "\"汇天网络\" 公告 签约 中标 投资"
-      },
-      {
         "code": "kexin",
         "company": "可信数据空间",
         "industry": "AI智能",
@@ -168,8 +116,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -181,8 +129,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -194,65 +142,13 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
         "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
         "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "网易UU加速器-不止快，还很稳",
-        "summary": "网易UU加速器，独家自研多项黑科技，提供“不止快，还很稳”的加速服务！为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有 …",
-        "url": "https://uu.163.com/",
-        "source": "uu.163.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "网易UU加速器_最新版下载",
-        "summary": "下载网易UU加速器最新版本，支持Windows、macOS、Android、iOS设备系统。",
-        "url": "http://uu.163.com/download/",
-        "source": "uu.163.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "网易UU加速器-海外加速游戏，用UU就够了，支持免费试用！",
-        "summary": "19 小时之前 · 网易UU加速器，为海外华人提供超低延迟加速服务，提供全球海量加速节点，智能选择最佳节点，可有效解决海外玩国 …",
-        "url": "https://uu.163.com/features/overseas",
-        "source": "uu.163.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "低空航空 行业 政策 2026"
-      },
-      {
-        "code": "hangtianjings",
-        "company": "航天精工",
-        "industry": "低空航空",
-        "title": "steam下载 ——网易UU加速器",
-        "summary": "2026年2月6日 · 三. UU加速器内下载安装 Steam 加速 Steam商店 后，在加速界面下方点击【Steam官方下载】，根据提示把 Steam …",
-        "url": "https://uu.163.com/steam/help/steam-download.html",
-        "source": "uu.163.com",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 1.5,
@@ -357,58 +253,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告丨光速招标海量免费标讯",
-      "summary": "2026年3月9日 - 中标公告2026-03-09微信查看.自采-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告. 公告摘要: 公告摘要: 自采-汇天网络科技有...",
-      "url": "https://www.guangsuzb.com/succeed_v_2030860553833861123.html",
-      "source": "www.guangsuzb.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务(中标公告)-北京招标网",
-      "summary": "2025年12月1日 - 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘服务结果公告 【自采】-汇天网络科技有限公司收购项目抵押物资产评估中介机构选聘...",
-      "url": "https://bj.bidizhaobiao.com/info-746278202.html",
-      "source": "bj.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告-采招网",
-      "summary": "2023年9月6日 - 受业主委托,中国采招网于2023年09月06日发布【自采】-北京通州区汇天网络云端产业园综合能源服务项目可行性研究报告结果公告;项目简介: 点击查看附件 ...",
-      "url": "https://m.bidcenter.com.cn/news-4-245659042.html",
-      "source": "m.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "北京市通州区人民法院发布汇天网络科技有限公司执行公告- DoNews",
-      "summary": "天眼查App显示,2025年1月2日,北京市通州区人民法院正式发布了关于汇天网络科技有限公司(以下简称 汇天网络 )的执行公告。根据案号为(2025)京0112执37号的执行文件,汇天网络因未履行相关法律义务...",
-      "url": "https://www.donews.com/news/detail/4/4672816.html",
-      "source": "www.donews.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "\"汇天网络\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -461,8 +305,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -513,8 +357,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -526,65 +370,13 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
       "url": "https://www.gov.cn/yaowen/liebiao/202404/content_6943071.htm",
       "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "网易UU加速器-不止快，还很稳",
-      "summary": "网易UU加速器，独家自研多项黑科技，提供“不止快，还很稳”的加速服务！为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有 …",
-      "url": "https://uu.163.com/",
-      "source": "uu.163.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "网易UU加速器_最新版下载",
-      "summary": "下载网易UU加速器最新版本，支持Windows、macOS、Android、iOS设备系统。",
-      "url": "http://uu.163.com/download/",
-      "source": "uu.163.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "网易UU加速器-海外加速游戏，用UU就够了，支持免费试用！",
-      "summary": "19 小时之前 · 网易UU加速器，为海外华人提供超低延迟加速服务，提供全球海量加速节点，智能选择最佳节点，可有效解决海外玩国 …",
-      "url": "https://uu.163.com/features/overseas",
-      "source": "uu.163.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "hangtianjings",
-      "company": "航天精工",
-      "industry": "低空航空",
-      "title": "steam下载 ——网易UU加速器",
-      "summary": "2026年2月6日 · 三. UU加速器内下载安装 Steam 加速 Steam商店 后，在加速界面下方点击【Steam官方下载】，根据提示把 Steam …",
-      "url": "https://uu.163.com/steam/help/steam-download.html",
-      "source": "uu.163.com",
       "date": "",
       "fetched_at": "2026-08-25",
       "score": 1.5,
