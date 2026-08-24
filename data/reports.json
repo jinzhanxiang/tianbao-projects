@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:37:28+08:00",
+  "generated_at": "2026-08-24T09:48:06+08:00",
   "source": "research/projects/*/output/*.md (root: /Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects)",
   "total": 26,
   "total_active": 21,
@@ -178,6 +178,19 @@
         "mtime": "2026-08-24T09:37:15+08:00",
         "summary": "",
         "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/可比公司估值分析_20260824.html",
+        "_archived": true
+      },
+      {
+        "code": "国药器械",
+        "date": "2026-08-24",
+        "category": "估值建模",
+        "title": "国药器械股权收购 · 可比公司估值分析 v2 · 2025 年报 + 2026 半年报数据更新",
+        "file": "可比公司估值分析_v2_20260824.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/可比公司估值分析_v2_20260824.html",
+        "size": 48873,
+        "mtime": "2026-08-24T09:47:55+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/可比公司估值分析_v2_20260824.html",
         "_archived": true
       }
     ],
@@ -1035,6 +1048,19 @@
         "_archived": true
       },
       {
+        "code": "国药器械",
+        "date": "2026-08-24",
+        "category": "估值建模",
+        "title": "国药器械股权收购 · 可比公司估值分析 v2 · 2025 年报 + 2026 半年报数据更新",
+        "file": "可比公司估值分析_v2_20260824.html",
+        "path": "/Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/可比公司估值分析_v2_20260824.html",
+        "size": 48873,
+        "mtime": "2026-08-24T09:47:55+08:00",
+        "summary": "",
+        "url": "file:///Users/jinzhanxiang/Documents/OpenClaw-Workspace-research/projects/国药器械/output/可比公司估值分析_v2_20260824.html",
+        "_archived": true
+      },
+      {
         "code": "kedu",
         "date": "2026-07-30",
         "category": "商业研究",
@@ -1128,7 +1154,7 @@
   "quarantine_codes": [
     "未归类"
   ],
-  "_last_cleanup": "2026-08-24T09:37:28.934786",
+  "_last_cleanup": "2026-08-24T09:48:06.241354",
   "_cleanup_stats": {
     "dup_title_date": 3,
     "intermediate:section_synthesis": 3,
