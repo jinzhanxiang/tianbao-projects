@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T02:41:03+08:00",
+  "generated_at": "2026-08-25T02:51:55+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -58,6 +58,34 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "其他行业": [
+      {
+        "code": "000711-ST京蓝",
+        "company": "000711-ST京蓝",
+        "industry": "其他行业",
+        "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
+        "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
+        "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
+        "source": "www.aijingu.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 4.0,
+        "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "乘杜科技",
+        "company": "乘杜科技",
+        "industry": "其他行业",
+        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -91,23 +119,23 @@
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "新能源",
-        "title": "新闻频道_央视网 (cctv.com)",
-        "summary": "从舞台炫技到逐步落地 机器人应用场景持续拓宽 为期五天的2026世界机器人大会23日在北京闭幕。 数据显示，大会共发布具身世界 …",
-        "url": "https://news.cctv.com/",
-        "source": "news.cctv.com",
+        "title": "网易新闻",
+        "summary": "18 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
         "date": "",
         "fetched_at": "2026-08-25",
-        "score": 2.5,
+        "score": 1.5,
         "query": "新能源 行业 政策 2026"
       },
       {
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "新能源",
-        "title": "中华人民共和国国务院新闻办公室",
-        "summary": "2022年9月29日 · 国新办举行“新征程上的奋斗者”中外记者见面会 围绕“守护自然资源，建设美丽中国”与中外记者见面交流 2026-08-21 …",
-        "url": "http://www.scio.gov.cn/",
-        "source": "www.scio.gov.cn",
+        "title": "新闻频道_央视网 (cctv.com)",
+        "summary": "幼儿园改养老院 多地探索闲置园舍新出路 根据教育部公布的数据，2025年全国幼儿园数量相比2024年减少了2.14万所，在园幼儿减 …",
+        "url": "https://news.cctv.com/",
+        "source": "news.cctv.com",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 1.5,
@@ -208,21 +236,6 @@
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
-    ],
-    "其他行业": [
-      {
-        "code": "乘杜科技",
-        "company": "乘杜科技",
-        "industry": "其他行业",
-        "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-        "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-        "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-        "source": "news.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "其他行业 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -251,6 +264,19 @@
       "fetched_at": "2026-08-25",
       "score": 4.0,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "000711-ST京蓝",
+      "company": "000711-ST京蓝",
+      "industry": "其他行业",
+      "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
+      "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
+      "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
+      "source": "www.aijingu.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 4.0,
+      "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -305,19 +331,6 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻频道_央视网 (cctv.com)",
-      "summary": "从舞台炫技到逐步落地 机器人应用场景持续拓宽 为期五天的2026世界机器人大会23日在北京闭幕。 数据显示，大会共发布具身世界 …",
-      "url": "https://news.cctv.com/",
-      "source": "news.cctv.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -347,14 +360,40 @@
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "中华人民共和国国务院新闻办公室",
-      "summary": "2022年9月29日 · 国新办举行“新征程上的奋斗者”中外记者见面会 围绕“守护自然资源，建设美丽中国”与中外记者见面交流 2026-08-21 …",
-      "url": "http://www.scio.gov.cn/",
-      "source": "www.scio.gov.cn",
+      "title": "网易新闻",
+      "summary": "18 小时之前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李 …",
+      "url": "https://news.163.com/",
+      "source": "news.163.com",
       "date": "",
       "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻频道_央视网 (cctv.com)",
+      "summary": "幼儿园改养老院 多地探索闲置园舍新出路 根据教育部公布的数据，2025年全国幼儿园数量相比2024年减少了2.14万所，在园幼儿减 …",
+      "url": "https://news.cctv.com/",
+      "source": "news.cctv.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "乘杜科技",
+      "company": "乘杜科技",
+      "industry": "其他行业",
+      "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
+      "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
+      "url": "https://news.qq.com/rain/a/20241213A044ZE00",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -381,19 +420,6 @@
       "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "低空航空 行业 政策 2026"
-    },
-    {
-      "code": "乘杜科技",
-      "company": "乘杜科技",
-      "industry": "其他行业",
-      "title": "“其他”和“其它”的区别是什么？这篇文章一次性说清楚，别 ...",
-      "summary": "2024年12月13日 · 点击下方关注公众号，了解更多规范表述，告别错别字“其他”和“其它”有什么区别？很多人会写错，也不会区分，这 …",
-      "url": "https://news.qq.com/rain/a/20241213A044ZE00",
-      "source": "news.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "其他行业 行业 政策 2026"
     },
     {
       "code": "联通云山西",
