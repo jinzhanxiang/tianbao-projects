@@ -1,63 +1,9 @@
 {
-  "generated_at": "2026-08-25T02:17:54+08:00",
+  "generated_at": "2026-08-25T02:29:25+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 20,
+  "total": 16,
   "by_industry": {
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-        "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
-        "url": "https://www.elecfans.com/d/8045816.html",
-        "source": "www.elecfans.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
-        "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
-        "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
-        "source": "news.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 5.5,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "晶能光电拟冲刺A股,已进行辅导备案登记",
-        "summary": "月23日,晶能光电股份有限公司(以下简称 晶能光电 )在江西证监局进行辅导备案登记,拟向首次公开发行股票并在A股上市,辅导券商为安信证券。",
-        "url": "https://news.10jqka.com.cn/20230424/c646657165.shtml",
-        "source": "news.10jqka.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "晶能光电 新闻 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "6.7亿元,晶能光电 卖身 南昌光谷集团_行业新闻资讯_大屏幕显示业绩榜",
-        "summary": "12月31日,顺风清洁能源发布公告,其间接非全资附属公司出售LED产品业务晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权。.公...",
-        "url": "http://www.yejibang.com/news-details-33732.html",
-        "source": "www.yejibang.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "晶能光电 新闻 2026"
-      }
-    ],
     "高端制造": [
       {
         "code": "huayt",
@@ -170,8 +116,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -183,8 +129,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -196,8 +142,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -281,32 +227,6 @@
   },
   "items": [
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电闪耀2026长安汽车创新技术与生态合作展-电子发烧友网",
-      "summary": "2026年7月3日 - 活动现场,晶能光电与长安汽车团队进行了深入对接,围绕智能车灯创新应用、国产化配套落地、技术联合迭代等方向细致交流;同时与多家参展企业广泛沟通,探...",
-      "url": "https://www.elecfans.com/d/8045816.html",
-      "source": "www.elecfans.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "南昌和晶能光电获中国高质量发展AAAAA级_产业_全球_Micro",
-      "summary": "晶能光电股份有限公司高质量发展指数30534.44,获评中国高质量发展5A和中国半导体照明创新先锋。.中国高质量发展5A级企业晶能光电,在全球率...",
-      "url": "http://news.sohu.com/a/722002585_120102944?scm=1102.xchannel:1479:110036.0.3.0~9010.68.0.0.0",
-      "source": "news.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 5.5,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -318,32 +238,6 @@
       "fetched_at": "2026-08-25",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "晶能光电拟冲刺A股,已进行辅导备案登记",
-      "summary": "月23日,晶能光电股份有限公司(以下简称 晶能光电 )在江西证监局进行辅导备案登记,拟向首次公开发行股票并在A股上市,辅导券商为安信证券。",
-      "url": "https://news.10jqka.com.cn/20230424/c646657165.shtml",
-      "source": "news.10jqka.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "晶能光电 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "6.7亿元,晶能光电 卖身 南昌光谷集团_行业新闻资讯_大屏幕显示业绩榜",
-      "summary": "12月31日,顺风清洁能源发布公告,其间接非全资附属公司出售LED产品业务晶能光电向南昌光谷集团签订买卖协议,出售晶能光电(江西)100%股权。.公...",
-      "url": "http://www.yejibang.com/news-details-33732.html",
-      "source": "www.yejibang.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "晶能光电 新闻 2026"
     },
     {
       "code": "huayt",
@@ -424,8 +318,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -463,8 +357,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -476,8 +370,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
