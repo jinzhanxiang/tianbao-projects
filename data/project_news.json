@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T10:09:53+08:00",
+  "generated_at": "2026-08-24T10:21:38+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 24,
+  "total": 20,
   "by_industry": {
     "高端制造": [
       {
@@ -56,73 +56,6 @@
         "fetched_at": "2026-08-24",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
-        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
-        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
-        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
-        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
-        "source": "www.deloitte.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
-        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
-        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
-        "source": "www.askci.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年中国半导体设备行业分类、主要政策汇总及产业链分析",
-        "summary": "本文节选自华经产业研究院发布的《2026年中国半导体设备行业现状、竞争格局与未来发展趋势分析,国产化率持续提升「图」》,如需获取全文内容...",
-        "url": "https://www.360kuai.com/pc/92ca4722566e244a5?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
-        "source": "www.360kuai.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
-        "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
-        "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
       }
     ],
     "AI智能": [
@@ -225,10 +158,10 @@
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "新能源",
-        "title": "从两场世界级大会看中国机器人产业新气象",
-        "summary": "从两场世界级大会看中国机器人产业新气象 世界机器人大会成全球观察中国“机”遇窗口 机器人成中国高端制造出口新名片 中国机器人 …",
-        "url": "https://www.xinhuanet.com/",
-        "source": "www.xinhuanet.com",
+        "title": "新闻频道_央视网 (cctv.com)",
+        "summary": "全国多个城市密集出台新政 你的住房公积金有这些新用途 “十五五”规划纲要将“深化住房公积金制度改革”列为完善住房保障体系的重要 …",
+        "url": "https://news.cctv.com/",
+        "source": "news.cctv.com",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 1.5,
@@ -238,10 +171,10 @@
         "code": "hongyuan",
         "company": "宏远创信",
         "industry": "新能源",
-        "title": "新闻频道_央视网 (cctv.com)",
-        "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
-        "url": "https://news.cctv.com/",
-        "source": "news.cctv.com",
+        "title": "中华人民共和国国务院新闻办公室",
+        "summary": "2022年9月29日 · 国务院新闻办公室于2026年7月22日（星期三）下午3时举行“新征程上的奋斗者”中外记者见面会，请“七一勋章”获得 …",
+        "url": "http://www.scio.gov.cn/",
+        "source": "www.scio.gov.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 1.5,
@@ -302,10 +235,25 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
+    "半导体": [
+      {
+        "code": "jngd",
+        "company": "晶能光电",
+        "industry": "半导体",
+        "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
+        "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
+        "url": "https://www.deloitte.com/cn/zh/Industries/telecom-media-entertainment/perspectives/deloitte-2026-global-semiconductor-industry-outlook.html",
+        "source": "www.deloitte.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "半导体 行业 政策 2026"
+      }
+    ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -317,8 +265,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -344,19 +292,6 @@
       "fetched_at": "2026-08-24",
       "score": 5.5,
       "query": "华阳 新闻 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
-      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
-      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
-      "source": "caifuhao.eastmoney.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 3.5,
-      "query": "半导体 行业 政策 2026"
     },
     {
       "code": "huayt",
@@ -489,8 +424,8 @@
       "query": "REITS类资产 行业 政策 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
+      "code": "jngd",
+      "company": "晶能光电",
       "industry": "半导体",
       "title": "《2026全球半导体行业趋势报告》现已发布 | 德勤中国 - Deloitte",
       "summary": "2026年3月26日 · 受人工智能（AI）基础设施建设驱动，2026年全球半导体销售额预计将达9750亿美元，创历史新高。 然而繁荣之下 …",
@@ -502,63 +437,11 @@
       "query": "半导体 行业 政策 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
-      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
-      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年中国半导体设备行业分类、主要政策汇总及产业链分析",
-      "summary": "本文节选自华经产业研究院发布的《2026年中国半导体设备行业现状、竞争格局与未来发展趋势分析,国产化率持续提升「图」》,如需获取全文内容...",
-      "url": "https://www.360kuai.com/pc/92ca4722566e244a5?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
-      "source": "www.360kuai.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
-      "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
-      "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "从两场世界级大会看中国机器人产业新气象",
-      "summary": "从两场世界级大会看中国机器人产业新气象 世界机器人大会成全球观察中国“机”遇窗口 机器人成中国高端制造出口新名片 中国机器人 …",
-      "url": "https://www.xinhuanet.com/",
-      "source": "www.xinhuanet.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新闻频道_央视网 (cctv.com)",
-      "summary": "山海好“丰”景 盐碱滩上新生机 在以往很多人的印象里，盐碱地是“种啥啥不成”的不毛之地。 多年来，各地通过系统综合治理，让越来 …",
+      "summary": "全国多个城市密集出台新政 你的住房公积金有这些新用途 “十五五”规划纲要将“深化住房公积金制度改革”列为完善住房保障体系的重要 …",
       "url": "https://news.cctv.com/",
       "source": "news.cctv.com",
       "date": "",
@@ -567,8 +450,21 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "中华人民共和国国务院新闻办公室",
+      "summary": "2022年9月29日 · 国务院新闻办公室于2026年7月22日（星期三）下午3时举行“新征程上的奋斗者”中外记者见面会，请“七一勋章”获得 …",
+      "url": "http://www.scio.gov.cn/",
+      "source": "www.scio.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -580,8 +476,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
