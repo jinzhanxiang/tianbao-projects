@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T20:42:21+08:00",
+  "generated_at": "2026-08-24T20:56:59+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 18,
+  "total": 23,
   "by_industry": {
     "高端制造": [
       {
@@ -60,56 +60,17 @@
     ],
     "其他行业": [
       {
-        "code": "凯茜",
-        "company": "凯茜",
+        "code": "000711-ST京蓝",
+        "company": "000711-ST京蓝",
         "industry": "其他行业",
-        "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
-        "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
-        "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
-        "source": "mzh.moegirl.org.cn",
+        "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
+        "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
+        "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
+        "source": "www.aijingu.com",
         "date": "",
         "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
-      },
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "凯茜qaq的个人空间-凯茜qaq个人主页-哔哩哔哩视频",
-        "summary": "哔哩哔哩凯茜qaq的个人空间，提供凯茜qaq分享的视频、音频、文章、动态、收藏等内容，关注凯茜qaq账号，第一时间了解UP主动 …",
-        "url": "https://space.bilibili.com/18043692",
-        "source": "space.bilibili.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
-      },
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "清理凯茜！【边狱公司吧】_百度贴吧",
-        "summary": "1 天前 · 清理凯茜！ ..现在有若干凯茜需要清理，小夫和管家打算一块清理。 但铁要把凯茜分成3组，由管家和小夫轮流清理，每人每 …",
-        "url": "https://tieba.baidu.com/p/8950944073",
-        "source": "tieba.baidu.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
-      },
-      {
-        "code": "凯茜",
-        "company": "凯茜",
-        "industry": "其他行业",
-        "title": "凯茜·李·吉福德 | 南方公园中文维基 | Fandom",
-        "summary": "2026年8月17日 · 凯茜·李·吉福德是美国歌手、演员以及电视主持人，在第一季的“要你肥4000”中首次出现。 “要你肥4000”中说明了凯 …",
-        "url": "https://south-park.fandom.com/zh/wiki/%E5%87%AF%E8%8C%9C%C2%B7%E6%9D%8E%C2%B7%E5%90%89%E7%A6%8F%E5%BE%B7",
-        "source": "south-park.fandom.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 3.0,
-        "query": "凯茜 新闻 2026"
+        "score": 4.0,
+        "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
       },
       {
         "code": "乘杜科技",
@@ -123,6 +84,62 @@
         "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴后10.99万起 全新捷途山海L7 PLUS上市 埃安Ray 7 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新华网_让新闻离你更近",
+        "summary": "汽车消费新观察：当“买一台车”成为“选一种生活” 从“看演出”到“聊文化”，城墙夜话带火暑期经济 中国俱乐部获电竞世俱杯总冠军 职场 …",
+        "url": "https://www3.xinhuanet.com/",
+        "source": "www3.xinhuanet.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "人民网_网上的人民日报",
+        "summary": "1997年1月1日 · 人民日报 2026中国品牌论坛6月17日在河北雄安新区举行。 中央和国家机关有关部委负责同志、地方政府主管部门代 …",
+        "url": "https://www.people.com.cn/",
+        "source": "www.people.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "REITS类资产": [
@@ -143,8 +160,21 @@
         "code": "联通云山西",
         "company": "联通云山西",
         "industry": "REITS类资产",
+        "title": "“十五五”REITs政策解读与申报指南：哪些资产能报？怎么报 ...",
+        "summary": "2026年5月28日 · 对于已上市REITs的管理人： 上市满6个月后即可启动扩募申报。 积极通过跨区域、跨行业整合存量资产，做大做 …",
+        "url": "https://www.sohu.com/a/1048068692_121227303",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
         "title": "REITs专栏 | 上海证券交易所",
-        "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "summary": "2023年5月12日 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过 …",
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
         "date": "",
@@ -164,19 +194,6 @@
         "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
-        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
-        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
-        "source": "www.csrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
       }
     ],
     "半导体": [
@@ -192,6 +209,73 @@
         "fetched_at": "2026-08-24",
         "score": 2.0,
         "query": "半导体 行业 政策 2026"
+      }
+    ],
+    "生物医药": [
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "2026年生物制药政策解读报告.docx-原创力文档",
+        "summary": "在2026年的时间节点上,中国生物制药行业正处于一个前所未有的政策密集调整期与制度创新期.从宏观层面来看,国家对于生物医药产业的战略定位已经从单纯的 战略性新...",
+        "url": "https://max.book118.com/html/2026/0214/8105111073010046.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "kedu",
+        "company": "柯渡医学",
+        "industry": "生物医药",
+        "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+        "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+        "url": "https://xueqiu.com/4903414284/382400737",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2025秋人教版八年级生物上册电子课本 (新教材PDF版)",
+        "summary": "2025年6月18日 · 2025年秋季初二学生将迎来新版教材，新教材更加注重跨学科知识灵活运用！ 为了方便初中生在暑假预习新学期的 …",
+        "url": "https://www.sohu.com/a/905505470_121290891",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "生物医药 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -234,21 +318,6 @@
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
       }
-    ],
-    "生物医药": [
-      {
-        "code": "速迈医疗",
-        "company": "速迈医疗",
-        "industry": "生物医药",
-        "title": "2025秋人教版八年级生物上册电子课本 (新教材PDF版)",
-        "summary": "2025年6月18日 · 2025年秋季初二学生将迎来新版教材，新教材更加注重跨学科知识灵活运用！ 为了方便初中生在暑假预习新学期的 …",
-        "url": "https://www.sohu.com/a/905505470_121290891",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "生物医药 行业 政策 2026"
-      }
     ]
   },
   "items": [
@@ -264,6 +333,19 @@
       "fetched_at": "2026-08-24",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "000711-ST京蓝",
+      "company": "000711-ST京蓝",
+      "industry": "其他行业",
+      "title": "ST京蓝000711-ST京蓝:关于投资设立控股子公司暨关联交易的公告-重大事项投资相关详情-爱金股",
+      "summary": "证券代码:000711 证券简称:ST 京蓝 公告编号:2026-006.1、本次关联交易涉及京蓝科技股份有限公司(以下简称 公司 、 京蓝科技 、 上市公司 )与参股企业云南驰和科技合伙企业...",
+      "url": "https://www.aijingu.com/notices/000711/AN202601231818340497.html",
+      "source": "www.aijingu.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.0,
+      "query": "\"000711-ST京蓝\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -305,56 +387,30 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "凯茜娅·克莱因 - 萌娘百科 万物皆可萌的百科全书",
-      "summary": "2026年7月20日 · 日常中的凯茜娅不仅对摇滚十分擅长，对滑雪也颇有天赋 [3]，曾滑雪追赶上了 一辆疾驰的列车。 凯茜娅·克莱 …",
-      "url": "https://mzh.moegirl.org.cn/%E5%87%AF%E8%8C%9C%E5%A8%85%C2%B7%E5%85%8B%E8%8E%B1%E5%9B%A0",
-      "source": "mzh.moegirl.org.cn",
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+      "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+      "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+      "source": "zhuanlan.zhihu.com",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 3.0,
-      "query": "凯茜 新闻 2026"
+      "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "凯茜qaq的个人空间-凯茜qaq个人主页-哔哩哔哩视频",
-      "summary": "哔哩哔哩凯茜qaq的个人空间，提供凯茜qaq分享的视频、音频、文章、动态、收藏等内容，关注凯茜qaq账号，第一时间了解UP主动 …",
-      "url": "https://space.bilibili.com/18043692",
-      "source": "space.bilibili.com",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年8月5日 · 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴后10.99万起 全新捷途山海L7 PLUS上市 埃安Ray 7 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-24",
-      "score": 3.0,
-      "query": "凯茜 新闻 2026"
-    },
-    {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "清理凯茜！【边狱公司吧】_百度贴吧",
-      "summary": "1 天前 · 清理凯茜！ ..现在有若干凯茜需要清理，小夫和管家打算一块清理。 但铁要把凯茜分成3组，由管家和小夫轮流清理，每人每 …",
-      "url": "https://tieba.baidu.com/p/8950944073",
-      "source": "tieba.baidu.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 3.0,
-      "query": "凯茜 新闻 2026"
-    },
-    {
-      "code": "凯茜",
-      "company": "凯茜",
-      "industry": "其他行业",
-      "title": "凯茜·李·吉福德 | 南方公园中文维基 | Fandom",
-      "summary": "2026年8月17日 · 凯茜·李·吉福德是美国歌手、演员以及电视主持人，在第一季的“要你肥4000”中首次出现。 “要你肥4000”中说明了凯 …",
-      "url": "https://south-park.fandom.com/zh/wiki/%E5%87%AF%E8%8C%9C%C2%B7%E6%9D%8E%C2%B7%E5%90%89%E7%A6%8F%E5%BE%B7",
-      "source": "south-park.fandom.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 3.0,
-      "query": "凯茜 新闻 2026"
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -364,6 +420,19 @@
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
       "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "“十五五”REITs政策解读与申报指南：哪些资产能报？怎么报 ...",
+      "summary": "2026年5月28日 · 对于已上市REITs的管理人： 上市满6个月后即可启动扩募申报。 积极通过跨区域、跨行业整合存量资产，做大做 …",
+      "url": "https://www.sohu.com/a/1048068692_121227303",
+      "source": "www.sohu.com",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 2.5,
@@ -381,6 +450,84 @@
       "fetched_at": "2026-08-24",
       "score": 2.0,
       "query": "半导体 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "2026年生物制药政策解读报告.docx-原创力文档",
+      "summary": "在2026年的时间节点上,中国生物制药行业正处于一个前所未有的政策密集调整期与制度创新期.从宏观层面来看,国家对于生物医药产业的战略定位已经从单纯的 战略性新...",
+      "url": "https://max.book118.com/html/2026/0214/8105111073010046.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "kedu",
+      "company": "柯渡医学",
+      "industry": "生物医药",
+      "title": "政策彻底托底,创新药行业迎来历史性拐点2026 年政府工作报告直接把 生物医药 抬成 新兴支柱产业 ,再加上新版医保 ... - 雪球",
+      "summary": "2026年4月2日 - 生物医药抬成 新兴支柱产业 ,再加上新版医保 + 首版商保创新药目录落地,支付端的大问题直接解决了,这不是短期利好,是给整个行业定了长期发展的调子。...",
+      "url": "https://xueqiu.com/4903414284/382400737",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新华网_让新闻离你更近",
+      "summary": "汽车消费新观察：当“买一台车”成为“选一种生活” 从“看演出”到“聊文化”，城墙夜话带火暑期经济 中国俱乐部获电竞世俱杯总冠军 职场 …",
+      "url": "https://www3.xinhuanet.com/",
+      "source": "www3.xinhuanet.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "人民网_网上的人民日报",
+      "summary": "1997年1月1日 · 人民日报 2026中国品牌论坛6月17日在河北雄安新区举行。 中央和国家机关有关部委负责同志、地方政府主管部门代 …",
+      "url": "https://www.people.com.cn/",
+      "source": "www.people.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -452,7 +599,7 @@
       "company": "联通云山西",
       "industry": "REITS类资产",
       "title": "REITs专栏 | 上海证券交易所",
-      "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "summary": "2023年5月12日 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
@@ -468,19 +615,6 @@
       "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
       "url": "https://www.sohu.com/a/960605326_121140836",
       "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
-      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
-      "source": "www.csrc.gov.cn",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 1.5,
