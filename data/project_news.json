@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T14:08:02+08:00",
+  "generated_at": "2026-08-24T14:19:58+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 14,
+  "total": 19,
   "by_industry": {
     "高端制造": [
       {
@@ -58,102 +58,111 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "AI智能": [
+    "低空航空": [
       {
-        "code": "kexin",
-        "company": "可信数据空间",
-        "industry": "AI智能",
-        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
-        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
-        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
-        "source": "zhuanlan.zhihu.com",
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:2026年半年度营业收入同比增长6.56% _ 东方财富网",
+        "summary": "4天前 - 月20日,海特高新发布2026年半年度报告称,公司2026年半年度实现营业收入751,325,329.04元,同比增长6.56%;归属于上市公司股东的净利润为51,244,270.51元...",
+        "url": "https://finance.eastmoney.com/a/202608203848143992.html",
+        "source": "finance.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 5.5,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
+        "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
+        "url": "https://fund.eastmoney.com/a/202601303636581056.html",
+        "source": "fund.eastmoney.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 5.5,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
+        "summary": "2024年9月19日 - 月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
+        "url": "https://new.qq.com/rain/a/20240919A09S0W00",
+        "source": "new.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 4.5,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
+        "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
+        "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
+        "source": "www.thepaper.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 4.5,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
+        "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
+        "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 4.5,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "航天精工本部泛微协同办公平台2026年第一批运维服务项目-今日招标",
+        "summary": "2026年5月21日 - 航天精工股份有限公司2026-05-21发布了航天精工本部泛微协同办公平台2026年第一批运维服务项目的招标的公告 千万级信息查询 实时搜索海量招投标信息 ...",
+        "url": "https://www.jrzb.cn/bidDetail/01D93A75837C43CD91C792631ED3B204.html",
+        "source": "www.jrzb.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 4.0,
+        "query": "航天精工 新闻 2026"
+      },
+      {
+        "code": "haite",
+        "company": "海特高新",
+        "industry": "低空航空",
+        "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
+        "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
+        "url": "https://xueqiu.com/9057196330/393340560",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 4.0,
+        "query": "海特高新 新闻 2026"
+      },
+      {
+        "code": "hangtianjings",
+        "company": "航天精工",
+        "industry": "低空航空",
+        "title": "陈少洋调研航天精工",
+        "summary": "2026年7月8日 - 月7日,中国航天科工集团有限公司党组副书记、总经理陈少洋一行到航天精工调研,集团公司总部相关部门、航天精工负责人等参加调研。",
+        "url": "http://news.10jqka.com.cn/20260708/c678029816.shtml",
+        "source": "news.10jqka.com.cn",
         "date": "",
         "fetched_at": "2026-08-24",
         "score": 3.0,
-        "query": "可信数据空间 新闻 2026"
+        "query": "航天精工 新闻 2026"
       },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "We Were Happy (Taylor’s Version) (From The Vault)- Taylor ...",
-        "summary": "Taylor Swift《We Were Happy (Taylor’s Version) (From The Vault)》MV在线看！ Taylor Swift 海量高清MV在线看，尽在千万正版高 …",
-        "url": "https://y.qq.com/n/ryqq/mv/t00369d08af",
-        "source": "y.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "We Were Happy - Taylor Swift - 单曲 - 网易云音乐",
-        "summary": "歌曲名《We Were Happy》，由 Taylor Swift 演唱，收录于《Unreleased Songs [Bootleg]》专辑中。 《We Were Happy》下载， …",
-        "url": "https://music.163.com/song?id=2001646",
-        "source": "music.163.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      }
-    ],
-    "REITS类资产": [
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
-        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
-        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
-        "source": "finance.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "REITs专栏 | 上海证券交易所",
-        "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
-        "url": "https://www.sse.com.cn/reits/home/",
-        "source": "www.sse.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
-        "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
-        "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
-        "source": "www.csrc.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-24",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      }
-    ],
-    "低空航空": [
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -179,6 +188,62 @@
         "fetched_at": "2026-08-24",
         "score": 1.5,
         "query": "低空航空 行业 政策 2026"
+      }
+    ],
+    "AI智能": [
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "5 点讲透：可信数据空间到底是什么（纯干货） - 知乎",
+        "summary": "2026年3月20日 · 维度一：核心定义——它不只是“空间”，更是“可信”的规则生态 首先，请忘掉“ 数据仓库 ”、“ 数据湖 ”甚至“ 数据中台 ” …",
+        "url": "https://zhuanlan.zhihu.com/p/2017378560248132055",
+        "source": "zhuanlan.zhihu.com",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 3.0,
+        "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴后10.99万起 全新捷途山海L7 PLUS上市 埃安Ray 7 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "6 小时之前 · 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下连续第三个EWC冠军俱乐部 …",
+        "url": "http://sina.com.cn/",
+        "source": "sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "中华人民共和国国务院新闻办公室",
+        "summary": "2022年9月29日 · 国务院新闻办公室于2026年7月22日（星期三）下午3时举行“新征程上的奋斗者”中外记者见面会，请“七一勋章”获得 …",
+        "url": "http://www.scio.gov.cn/",
+        "source": "www.scio.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-24",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "其他行业": [
@@ -210,6 +275,97 @@
       "fetched_at": "2026-08-24",
       "score": 5.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:2026年半年度营业收入同比增长6.56% _ 东方财富网",
+      "summary": "4天前 - 月20日,海特高新发布2026年半年度报告称,公司2026年半年度实现营业收入751,325,329.04元,同比增长6.56%;归属于上市公司股东的净利润为51,244,270.51元...",
+      "url": "https://finance.eastmoney.com/a/202608203848143992.html",
+      "source": "finance.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 5.5,
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:2026年拟计提资产减值准备及预计投资损失合计6.2亿元_天天基金网",
+      "summary": "南方财经1月30日电,海特高新(002023.SZ)公告,公司拟对持有的成都海威华芯科技有限公司股权、飞机资产及投资性房地产计提资产减值准备。其中,...",
+      "url": "https://fund.eastmoney.com/a/202601303636581056.html",
+      "source": "fund.eastmoney.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 5.5,
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "陈锡明出席航天精工领导人员大会_腾讯新闻",
+      "summary": "2024年9月19日 - 月18日,航天精工召开领导人员大会。中国航天科工集团有限公司党组书记、董事长陈锡明出席会议并讲话。集团公司总部有关部门领导、航天精工全体领导班...",
+      "url": "https://new.qq.com/rain/a/20240919A09S0W00",
+      "source": "new.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.5,
+      "query": "航天精工 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "中国航天科工航天精工、二院领导干部调整_媒体_澎湃新闻-The Paper",
+      "summary": "2月1日,中国航天科工集团有限公司航天精工召开领导干部大会,集团公司党组书记、董事长袁洁出席会议并讲话.会议宣布,经集团公司党组研究决定:...",
+      "url": "http://www.thepaper.cn/newsDetail_forward_11145351",
+      "source": "www.thepaper.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.5,
+      "query": "航天精工 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:4月26日召开董事会会议|收盘价|关于公司聘任2026年度审计机构的议案_网易订阅",
+      "summary": "海特高新:4月26日召开董事会会议,李斌,收盘价,海特高新,董事会会议,关于公司聘任2026年度审计机构的议案 每经AI快讯,海特高新(SZ 002023,收盘价:12.75...",
+      "url": "https://www.163.com/dy/article/KRIBHI030512B07B.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.5,
+      "query": "海特高新 新闻 2026"
+    },
+    {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "航天精工本部泛微协同办公平台2026年第一批运维服务项目-今日招标",
+      "summary": "2026年5月21日 - 航天精工股份有限公司2026-05-21发布了航天精工本部泛微协同办公平台2026年第一批运维服务项目的招标的公告 千万级信息查询 实时搜索海量招投标信息 ...",
+      "url": "https://www.jrzb.cn/bidDetail/01D93A75837C43CD91C792631ED3B204.html",
+      "source": "www.jrzb.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.0,
+      "query": "航天精工 新闻 2026"
+    },
+    {
+      "code": "haite",
+      "company": "海特高新",
+      "industry": "低空航空",
+      "title": "海特高新:航空根基叠加半导体硬科技,低空经济开启全新协同时代 前言2026 年国内资本市场与实体产业迎来多重机遇,光通信、化合物半导体、低空经济三大...",
+      "summary": "2026年6月7日 - 海特高新交出了一份亮眼的一季度成绩单,盈利水平实现稳步抬升。.业绩是企业发展最直观的体现,2026 年一季度,.海特高新走出了一条 传统航空 + 高端半导...",
+      "url": "https://xueqiu.com/9057196330/393340560",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 4.0,
+      "query": "海特高新 新闻 2026"
     },
     {
       "code": "huayt",
@@ -251,6 +407,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "hangtianjings",
+      "company": "航天精工",
+      "industry": "低空航空",
+      "title": "陈少洋调研航天精工",
+      "summary": "2026年7月8日 - 月7日,中国航天科工集团有限公司党组副书记、总经理陈少洋一行到航天精工调研,集团公司总部相关部门、航天精工负责人等参加调研。",
+      "url": "http://news.10jqka.com.cn/20260708/c678029816.shtml",
+      "source": "news.10jqka.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 3.0,
+      "query": "航天精工 新闻 2026"
+    },
+    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -264,17 +433,43 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
-      "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
-      "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
-      "source": "finance.sina.com.cn",
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年8月5日 · 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴后10.99万起 全新捷途山海L7 PLUS上市 埃安Ray 7 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-24",
       "score": 2.5,
-      "query": "REITS类资产 行业 政策 2026"
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "6 小时之前 · 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下连续第三个EWC冠军俱乐部 …",
+      "url": "http://sina.com.cn/",
+      "source": "sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "中华人民共和国国务院新闻办公室",
+      "summary": "2022年9月29日 · 国务院新闻办公室于2026年7月22日（星期三）下午3时举行“新征程上的奋斗者”中外记者见面会，请“七一勋章”获得 …",
+      "url": "http://www.scio.gov.cn/",
+      "source": "www.scio.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-24",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -314,71 +509,6 @@
       "fetched_at": "2026-08-24",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "REITs专栏 | 上海证券交易所",
-      "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
-      "url": "https://www.sse.com.cn/reits/home/",
-      "source": "www.sse.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "关于推动不动产投资信托基金（REITs）市场高质量发展有关 ...",
-      "summary": "2025年12月31日 · 着力健全REITs信息披露制度，提升信息披露的透明度、标准化和及时性，强化对重大事件的临时披露要求。 进一 …",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml",
-      "source": "www.csrc.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "We Were Happy (Taylor’s Version) (From The Vault)- Taylor ...",
-      "summary": "Taylor Swift《We Were Happy (Taylor’s Version) (From The Vault)》MV在线看！ Taylor Swift 海量高清MV在线看，尽在千万正版高 …",
-      "url": "https://y.qq.com/n/ryqq/mv/t00369d08af",
-      "source": "y.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "We Were Happy - Taylor Swift - 单曲 - 网易云音乐",
-      "summary": "歌曲名《We Were Happy》，由 Taylor Swift 演唱，收录于《Unreleased Songs [Bootleg]》专辑中。 《We Were Happy》下载， …",
-      "url": "https://music.163.com/song?id=2001646",
-      "source": "music.163.com",
-      "date": "",
-      "fetched_at": "2026-08-24",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
     }
   ]
 }
