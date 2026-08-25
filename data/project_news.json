@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T18:57:13+08:00",
+  "generated_at": "2026-08-25T19:11:41+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 15,
+  "total": 12,
   "by_industry": {
     "高端制造": [
       {
@@ -105,7 +105,7 @@
         "company": "宏远创信",
         "industry": "新能源",
         "title": "新浪网",
-        "summary": "10 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
+        "summary": "11 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
         "url": "https://www.sina.com.cn/",
         "source": "www.sina.com.cn",
         "date": "",
@@ -128,19 +128,6 @@
       }
     ],
     "低空航空": [
-      {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
-        "industry": "低空航空",
-        "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-        "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-        "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-        "source": "www.gov.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 2.5,
-        "query": "低空航空 行业 政策 2026"
-      },
       {
         "code": "hangtianhongtu",
         "company": "航天宏图",
@@ -181,34 +168,6 @@
         "fetched_at": "2026-08-25",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
-      }
-    ],
-    "REITS类资产": [
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "后整理才是面料“灵魂”——8种常见后整理工艺全解析_防水_抗 ...",
-        "summary": "2026年5月28日 · 什么是后整理？ 后整理，是面料生产的最后一道工序。 面料的完整生产流程是：原料→纺纱→织造→染整（染色/漂 …",
-        "url": "https://www.sohu.com/a/1028627920_121124565",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "纺织品的染整工序：前处理(Pretreatment)→染色（Dye）→ ...",
-        "summary": "2024年8月14日 · 纺织品的染整工序分为：前处理 (Pretreatment)→染色（Dye）→印花（Print）→后整 …",
-        "url": "https://www.sohu.com/a/800697545_121124565",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
       }
     ]
   },
@@ -305,24 +264,11 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
-      "industry": "低空航空",
-      "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
-      "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
-      "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056835.htm",
-      "source": "www.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 2.5,
-      "query": "低空航空 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新浪网",
-      "summary": "10 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
+      "summary": "11 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
       "url": "https://www.sina.com.cn/",
       "source": "www.sina.com.cn",
       "date": "",
@@ -381,32 +327,6 @@
       "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "后整理才是面料“灵魂”——8种常见后整理工艺全解析_防水_抗 ...",
-      "summary": "2026年5月28日 · 什么是后整理？ 后整理，是面料生产的最后一道工序。 面料的完整生产流程是：原料→纺纱→织造→染整（染色/漂 …",
-      "url": "https://www.sohu.com/a/1028627920_121124565",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "纺织品的染整工序：前处理(Pretreatment)→染色（Dye）→ ...",
-      "summary": "2024年8月14日 · 纺织品的染整工序分为：前处理 (Pretreatment)→染色（Dye）→印花（Print）→后整 …",
-      "url": "https://www.sohu.com/a/800697545_121124565",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
