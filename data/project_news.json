@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T08:05:07+08:00",
+  "generated_at": "2026-08-25T08:15:00+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
   "total": 22,
@@ -58,60 +58,6 @@
         "query": "华阳 新闻 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-        "summary": "2025年12月29日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
-        "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
-        "source": "www.bidcenter.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司-北京宏远",
-        "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
-        "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
-        "source": "www.bidizhaobiao.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "北京宏远创信能源科技有限公司法律风险- 企查查",
-        "summary": "2021年4月26日 - 2023-12-29 中标结果:丽都饭店有限公司丽都饭店有限公司购售电服务采购项目询价结果公告 2023-08-14 经营范围变更:从“一般项目:技术服务、技术开发、...",
-        "url": "https://www.qcc.com/csusong/58608d152e69d9e3b2a66667c759b27d",
-        "source": "www.qcc.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "深圳宏远创信能源管理有限公司经营信息- 企查查",
-        "summary": "2024年1月23日 - 企查查 广东企业查询 深圳企业查询 深圳宏远创信能源管理有限公司.做出决定日期 - 公告日期 - ...",
-        "url": "https://www.qcc.com/crun/1b02b0024b9d24dcc8cd820af035f829",
-        "source": "www.qcc.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 4.0,
-        "query": "\"宏远创信\" 公告 签约 中标 投资"
-      }
-    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -134,6 +80,19 @@
         "summary": "2025年8月26日 · 国务院关于深入实施“人工智能+”行动的意见 国发〔2025〕11号 各省、自治区、直辖市人民政府，国务院各部委、各 …",
         "url": "https://www.gov.cn/zhengce/content/202508/content_7037861.htm",
         "source": "www.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "kexin",
+        "company": "可信数据空间",
+        "industry": "AI智能",
+        "title": "死神_动漫_高清完整版视频在线观看_腾讯视频",
+        "summary": "黑崎家第三把斩魄刀，卍解天烬断月，改写历史挫败蓝染【死神】 零番队斩魄刀盘点，一步一杀，一文字才是所有死神的克星【死神 …",
+        "url": "https://v.qq.com/x/cover/mzc0031gdmiipgs.html",
+        "source": "v.qq.com",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 1.5,
@@ -205,6 +164,47 @@
         "fetched_at": "2026-08-25",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴后10.99万起 全新捷途山海L7 PLUS上市 埃安Ray 7 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "2026年8月17日 · 新能源 热榜 朱镕基同志遗体18日火化 胖东来被涨租逼走却从不涨商户租 龙餐馆原型说当时做饭很难吃 DeepSeek正 …",
+        "url": "https://www.sina.com.cn/homepage.html",
+        "source": "www.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -318,58 +318,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司_最新招标采购公告_采招网",
-      "summary": "2025年12月29日 - 中标公告中航技国际经贸发展有限公司受中国建设银行股份有限公司四川省分行的委托,于2026年3月2日就中国建设银行四川省分行2026-2027年市场化购电及应...",
-      "url": "https://www.bidcenter.com.cn/enterprise/bjhycxnykjyxgs10274668/",
-      "source": "www.bidcenter.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司-北京宏远",
-      "summary": "2025年12月1日 - 供应商分析报告的作用:1、帮助您分析同行或者自身的中标金额趋势、项目规模和报价下浮率,为企业投标、报价提供参考,让投标决策更合理;.北京宏远创信能...",
-      "url": "https://www.bidizhaobiao.com/company_428948167314419712.html",
-      "source": "www.bidizhaobiao.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "北京宏远创信能源科技有限公司法律风险- 企查查",
-      "summary": "2021年4月26日 - 2023-12-29 中标结果:丽都饭店有限公司丽都饭店有限公司购售电服务采购项目询价结果公告 2023-08-14 经营范围变更:从“一般项目:技术服务、技术开发、...",
-      "url": "https://www.qcc.com/csusong/58608d152e69d9e3b2a66667c759b27d",
-      "source": "www.qcc.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "深圳宏远创信能源管理有限公司经营信息- 企查查",
-      "summary": "2024年1月23日 - 企查查 广东企业查询 深圳企业查询 深圳宏远创信能源管理有限公司.做出决定日期 - 公告日期 - ...",
-      "url": "https://www.qcc.com/crun/1b02b0024b9d24dcc8cd820af035f829",
-      "source": "www.qcc.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 4.0,
-      "query": "\"宏远创信\" 公告 签约 中标 投资"
-    },
-    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -474,6 +422,19 @@
       "query": "凯茜 新闻 2026"
     },
     {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年8月5日 · 新世代BMW iX3 50L极限续航路测创造BMW新纪录 超级置换补贴后10.99万起 全新捷途山海L7 PLUS上市 埃安Ray 7 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -498,6 +459,32 @@
       "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "2026年8月17日 · 新能源 热榜 朱镕基同志遗体18日火化 胖东来被涨租逼走却从不涨商户租 龙餐馆原型说当时做饭很难吃 DeepSeek正 …",
+      "url": "https://www.sina.com.cn/homepage.html",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "网易新闻",
+      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
+      "url": "https://news.163.com/",
+      "source": "news.163.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -546,6 +533,19 @@
       "summary": "2025年8月26日 · 国务院关于深入实施“人工智能+”行动的意见 国发〔2025〕11号 各省、自治区、直辖市人民政府，国务院各部委、各 …",
       "url": "https://www.gov.cn/zhengce/content/202508/content_7037861.htm",
       "source": "www.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "kexin",
+      "company": "可信数据空间",
+      "industry": "AI智能",
+      "title": "死神_动漫_高清完整版视频在线观看_腾讯视频",
+      "summary": "黑崎家第三把斩魄刀，卍解天烬断月，改写历史挫败蓝染【死神】 零番队斩魄刀盘点，一步一杀，一文字才是所有死神的克星【死神 …",
+      "url": "https://v.qq.com/x/cover/mzc0031gdmiipgs.html",
+      "source": "v.qq.com",
       "date": "",
       "fetched_at": "2026-08-25",
       "score": 1.5,
