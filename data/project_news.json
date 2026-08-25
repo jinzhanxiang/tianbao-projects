@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T22:31:18+08:00",
+  "generated_at": "2026-08-25T22:43:59+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -58,6 +58,60 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "生物医药": [
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
+        "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
+        "url": "https://new.qq.com/rain/a/20221011A07M2700",
+        "source": "new.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 4.5,
+        "query": "速迈医疗 新闻 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+        "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+        "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+        "source": "www.askci.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+        "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+        "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+        "source": "xueqiu.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      },
+      {
+        "code": "速迈医疗",
+        "company": "速迈医疗",
+        "industry": "生物医药",
+        "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
+        "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
+        "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
+        "source": "max.book118.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.0,
+        "query": "生物医药 行业 政策 2026"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -74,6 +128,32 @@
       }
     ],
     "REITS类资产": [
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
       {
         "code": "联通云山西",
         "company": "联通云山西",
@@ -95,32 +175,6 @@
         "summary": "5 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "公募REITs信息平台-首页",
-        "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-        "url": "https://reits.szse.cn/",
-        "source": "reits.szse.cn",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 1.5,
@@ -214,6 +268,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "科创中心“核”动力|速迈医疗:超声“刀”尖上的中国创造_腾讯新闻",
+      "summary": "北京速迈医疗科技有限公司.速迈医疗作为中国功率超声手术设备开拓者,坚持科技自主创新路线,深耕功率超声领域...",
+      "url": "https://new.qq.com/rain/a/20221011A07M2700",
+      "source": "new.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 4.5,
+      "query": "速迈医疗 新闻 2026"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -256,6 +323,32 @@
       "code": "联通云山西",
       "company": "联通云山西",
       "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
       "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
       "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
       "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
@@ -264,6 +357,45 @@
       "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026年中国生物医药行业最新政策汇总一览(图)-中商情报网",
+      "summary": "2026年中国生物医药行业最新政策汇总一览(图) 中商情报网讯:生物 医药产业作为发展 新质生产力的重要方向,受到中央及地方政府的高度重视。近...",
+      "url": "https://www.askci.com/news/chanye/20260325/092202277440172138460652.shtml",
+      "source": "www.askci.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026两会定调:生物医药从 新兴产业 到 支柱产业 看了2026年两会政府工作报告,给寒冬中的 生物医药 行业,尤其是创新药,喂下了一颗分量十足的 定心丸 。...",
+      "summary": "生物医药的创新能力形成共振。.政策表述的变化,预示着行业逻辑正在发生根本性转变。.小核酸等新形态药物站上风口:政策鼓励的 创新药 明确包括...",
+      "url": "https://xueqiu.com/5673225518/378281663?_ugc_source=ugcbaiducard",
+      "source": "xueqiu.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
+    },
+    {
+      "code": "速迈医疗",
+      "company": "速迈医疗",
+      "industry": "生物医药",
+      "title": "2026年生物医药行业政策支持方向分析报告.docx-原创力文档",
+      "summary": "二、2026年生物医药行业政策支持重点领域分析.三、2026年生物医药行业政策实施挑战与应对策略.一、2026年生物医药行业政策支持方向分析报告...",
+      "url": "https://max.book118.com/html/2026/0327/6005054211012114.shtm",
+      "source": "max.book118.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.0,
+      "query": "生物医药 行业 政策 2026"
     },
     {
       "code": "hongyuan",
@@ -325,32 +457,6 @@
       "summary": "5 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "公募REITs信息平台-首页",
-      "summary": "业务通知 新闻动态 > 2026-01-23 关于举办2026年第二期债券市场服务经济高质量发展暨商业不动产REITs专场培训的通知 2026-01-07 …",
-      "url": "https://reits.szse.cn/",
-      "source": "reits.szse.cn",
       "date": "",
       "fetched_at": "2026-08-25",
       "score": 1.5,
