@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T16:14:21+08:00",
+  "generated_at": "2026-08-25T16:37:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 21,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -71,58 +71,60 @@
         "fetched_at": "2026-08-25",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大全 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
-        "summary": "腾讯视频官方网站，腾讯视频提供最新热门电视剧、电影、综艺、动漫、纪录片等高清正版视频在线观看。海量独家内容持续更新，涵 …",
-        "url": "https://v.qq.com/",
-        "source": "v.qq.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "央视网_世界就在眼前",
+        "summary": "2026年8月9日 · 天天学习｜创新不问出身 新技术、新方案助力机器人产业加速迈向规模化量产 粮食收购进行时：稳市场兜收益 最低收 …",
+        "url": "https://www.cctv.com/",
+        "source": "www.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新浪网",
+        "summary": "8 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
+        "url": "https://www.sina.com.cn/",
+        "source": "www.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       },
       {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "腾讯视频官方最新版下载",
-        "summary": "2026年8月11日 · 腾讯视频PC客户端、腾讯视频Mac版、手机版、iPad版、TV版官方最新版下载，腾讯视频微信小程序二维码扫一扫 …",
-        "url": "https://v.qq.com/download.html",
-        "source": "v.qq.com",
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看 ...",
-        "summary": "腾讯视频电视剧频道提供最新热门电视剧在线观看，涵盖国产剧、古装剧、都市剧、悬疑剧、爱情剧、谍战剧、军旅剧等多种类型，独 …",
-        "url": "https://v.qq.com/channel/tv",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
-      },
-      {
-        "code": "汇天网络科技",
-        "company": "汇天网络科技",
-        "industry": "AI智能",
-        "title": "电影频道-经典高分电影大全-正版高清电影在线观看-腾讯视频",
-        "summary": "腾讯视频电影频道提供最新热门电影大全，涵盖动作片、爱情片、喜剧片、科幻片等多种类型，院线同步更新，支持高清在线观看，当 …",
-        "url": "https://v.qq.com/channel/movie",
-        "source": "v.qq.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "AI智能 行业 政策 2026"
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -166,61 +168,33 @@
         "query": "低空航空 行业 政策 2026"
       }
     ],
-    "新能源": [
+    "REITS类资产": [
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新华网_让新闻离你更近",
-        "summary": "2026世界机器人大会：还在看机器人拳击赛？ 人工智能开始进入“蚂蚁搭桥”的合作时刻 世界机器人大会现场：看捷昌驱动核心部件如 …",
-        "url": "https://www.xinhuanet.com/",
-        "source": "www.xinhuanet.com",
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+        "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 2.5,
-        "query": "新能源 行业 政策 2026"
+        "query": "REITS类资产 行业 政策 2026"
       },
       {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "8 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+        "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+        "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+        "source": "stock.finance.sina.com.cn",
         "date": "",
         "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
       },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 遭索赔 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
-    "REITS类资产": [
       {
         "code": "联通云山西",
         "company": "联通云山西",
@@ -245,32 +219,6 @@
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 2.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "REITs专栏 | 上海证券交易所",
-        "summary": "5 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
-        "url": "https://www.sse.com.cn/reits/home/",
-        "source": "www.sse.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "REITS类资产 行业 政策 2026"
-      },
-      {
-        "code": "联通云山西",
-        "company": "联通云山西",
-        "industry": "REITS类资产",
-        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-        "url": "https://www.sohu.com/a/960605326_121140836",
-        "source": "www.sohu.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
@@ -357,6 +305,32 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新闻中心首页_新浪网",
+      "summary": "2023年8月5日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大全 …",
+      "url": "https://news.sina.com.cn/",
+      "source": "news.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "央视网_世界就在眼前",
+      "summary": "2026年8月9日 · 天天学习｜创新不问出身 新技术、新方案助力机器人产业加速迈向规模化量产 粮食收购进行时：稳市场兜收益 最低收 …",
+      "url": "https://www.cctv.com/",
+      "source": "www.cctv.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "hangtianhongtu",
       "company": "航天宏图",
       "industry": "低空航空",
@@ -370,17 +344,30 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新华网_让新闻离你更近",
-      "summary": "2026世界机器人大会：还在看机器人拳击赛？ 人工智能开始进入“蚂蚁搭桥”的合作时刻 世界机器人大会现场：看捷昌驱动核心部件如 …",
-      "url": "https://www.xinhuanet.com/",
-      "source": "www.xinhuanet.com",
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "2026年度REITS投资策略:REITS资产债性凸显 关注多元化趋势下板块分化机会__新浪财经_新浪网",
+      "summary": "2025年11月3日 - 继2024年7月31日,国家发展改革委发布《关于全面推动基础设施领域不动产投资信托基金(REITs)项目常态化发行的通知》,首次将REITs的资产行业范围进一步...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/9/rptid/815505469917/index.phtml",
+      "source": "stock.finance.sina.com.cn",
       "date": "",
       "fetched_at": "2026-08-25",
       "score": 2.5,
-      "query": "新能源 行业 政策 2026"
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITS2026年投资策略报告:关注供需格局及政策红利 把握抗周期、提景气、强扩募三条主线__新浪财经_新浪网",
+      "summary": "2025年11月10日 - 展望2026 年,政策红利蓄势待发,考虑到今年政策节奏,预计年底前存在较大逆周期调节空间;具体政策方向包括条件趋于成熟的指数化产品、更加完善的税收政...",
+      "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/816081639470/index.phtml",
+      "source": "stock.finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "联通云山西",
@@ -407,6 +394,32 @@
       "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新浪网",
+      "summary": "8 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
+      "url": "https://www.sina.com.cn/",
+      "source": "www.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "网易新闻",
+      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
+      "url": "https://news.163.com/",
+      "source": "news.163.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "新能源 行业 政策 2026"
     },
     {
       "code": "hangtianhongtu",
@@ -446,123 +459,6 @@
       "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新浪网",
-      "summary": "8 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新闻中心首页_新浪网",
-      "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 遭索赔 …",
-      "url": "https://news.sina.com.cn/",
-      "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "网易新闻",
-      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-      "url": "https://news.163.com/",
-      "source": "news.163.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "REITs专栏 | 上海证券交易所",
-      "summary": "5 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
-      "url": "https://www.sse.com.cn/reits/home/",
-      "source": "www.sse.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "联通云山西",
-      "company": "联通云山西",
-      "industry": "REITS类资产",
-      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
-      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
-      "url": "https://www.sohu.com/a/960605326_121140836",
-      "source": "www.sohu.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "REITS类资产 行业 政策 2026"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "腾讯视频频道 - 热门电影电视剧综艺动漫在线观看 - 腾讯视频",
-      "summary": "腾讯视频官方网站，腾讯视频提供最新热门电视剧、电影、综艺、动漫、纪录片等高清正版视频在线观看。海量独家内容持续更新，涵 …",
-      "url": "https://v.qq.com/",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "腾讯视频官方最新版下载",
-      "summary": "2026年8月11日 · 腾讯视频PC客户端、腾讯视频Mac版、手机版、iPad版、TV版官方最新版下载，腾讯视频微信小程序二维码扫一扫 …",
-      "url": "https://v.qq.com/download.html",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "电视剧频道-好看电视剧大全-热门电视剧排行榜-高清在线观看 ...",
-      "summary": "腾讯视频电视剧频道提供最新热门电视剧在线观看，涵盖国产剧、古装剧、都市剧、悬疑剧、爱情剧、谍战剧、军旅剧等多种类型，独 …",
-      "url": "https://v.qq.com/channel/tv",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
-    },
-    {
-      "code": "汇天网络科技",
-      "company": "汇天网络科技",
-      "industry": "AI智能",
-      "title": "电影频道-经典高分电影大全-正版高清电影在线观看-腾讯视频",
-      "summary": "腾讯视频电影频道提供最新热门电影大全，涵盖动作片、爱情片、喜剧片、科幻片等多种类型，院线同步更新，支持高清在线观看，当 …",
-      "url": "https://v.qq.com/channel/movie",
-      "source": "v.qq.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "AI智能 行业 政策 2026"
     }
   ]
 }
