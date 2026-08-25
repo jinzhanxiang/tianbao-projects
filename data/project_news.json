@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T20:13:42+08:00",
+  "generated_at": "2026-08-25T20:28:05+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 12,
+  "total": 9,
   "by_industry": {
     "高端制造": [
       {
@@ -16,6 +16,19 @@
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳村-青阳县人民政府",
+        "summary": "2026年6月9日 · 华阳村位于庙前镇东北部，坐落在九华山核心景区内，蓉十公路穿村而过，省道S211、S358以及S609贯通村域，区位 …",
+        "url": "https://www.ahqy.gov.cn/OpennessContent/show/645679.html",
+        "source": "www.ahqy.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 4.5,
         "query": "华阳 新闻 2026"
       },
       {
@@ -43,19 +56,6 @@
         "fetched_at": "2026-08-25",
         "score": 3.0,
         "query": "华阳 新闻 2026"
-      },
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "江苏华阳智能装备股份有限公司-华阳智能官网",
-        "summary": "2024年2月2日 · 江苏华阳智能装备股份有限公司, 企业主要以生产微电机，水泵，电子膨胀阀,离心泵,步进电机,同步电机,齿轮组件,PM …",
-        "url": "https://www.cn-huayang.com/",
-        "source": "www.cn-huayang.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 3.0,
-        "query": "华阳 新闻 2026"
       }
     ],
     "AI智能": [
@@ -79,48 +79,9 @@
         "company": "宏远创信",
         "industry": "新能源",
         "title": "新闻中心首页_新浪网",
-        "summary": "2023年8月5日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大全 …",
+        "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 乌兰察 …",
         "url": "https://news.sina.com.cn/",
         "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "央视网_世界就在眼前",
-        "summary": "2026年8月9日 · 天天学习｜创新不问出身 新技术、新方案助力机器人产业加速迈向规模化量产 粮食收购进行时：稳市场兜收益 最低收 …",
-        "url": "https://www.cctv.com/",
-        "source": "www.cctv.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 2.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪网",
-        "summary": "12 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
-        "url": "https://www.sina.com.cn/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 1.5,
@@ -189,6 +150,19 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
+      "title": "华阳村-青阳县人民政府",
+      "summary": "2026年6月9日 · 华阳村位于庙前镇东北部，坐落在九华山核心景区内，蓉十公路穿村而过，省道S211、S358以及S609贯通村域，区位 …",
+      "url": "https://www.ahqy.gov.cn/OpennessContent/show/645679.html",
+      "source": "www.ahqy.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 4.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
       "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
       "summary": "2026年8月17日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
       "url": "https://www.foryougroup.com/",
@@ -212,19 +186,6 @@
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "江苏华阳智能装备股份有限公司-华阳智能官网",
-      "summary": "2024年2月2日 · 江苏华阳智能装备股份有限公司, 企业主要以生产微电机，水泵，电子膨胀阀,离心泵,步进电机,同步电机,齿轮组件,PM …",
-      "url": "https://www.cn-huayang.com/",
-      "source": "www.cn-huayang.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 3.0,
-      "query": "华阳 新闻 2026"
-    },
-    {
       "code": "kexin",
       "company": "可信数据空间",
       "industry": "AI智能",
@@ -242,48 +203,9 @@
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
-      "summary": "2023年8月5日 · 选车 | 热搜 | 新能源 | 新车 | 试车 | 导购 | 图片 | 视频 | 7x24 | 投诉 | 排行榜 | 报价 | 经销商 | 技术 | 用车 更多> 车型大全 …",
+      "summary": "【No.323】图数室丨181款新车首发，北京车展热门车型速览 [详细] 【No.322】图数室丨一图看懂2026年3·15晚会 [详细] 世相 乌兰察 …",
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "央视网_世界就在眼前",
-      "summary": "2026年8月9日 · 天天学习｜创新不问出身 新技术、新方案助力机器人产业加速迈向规模化量产 粮食收购进行时：稳市场兜收益 最低收 …",
-      "url": "https://www.cctv.com/",
-      "source": "www.cctv.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 2.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "新浪网",
-      "summary": "12 小时之前 · DOTA2 TI2026 在上海隆重开幕 官宣：ODDIK正式签约NEKIZ ENC电竞国家杯推迟至2027年11月举行 Falcons有望拿下 …",
-      "url": "https://www.sina.com.cn/",
-      "source": "www.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 1.5,
-      "query": "新能源 行业 政策 2026"
-    },
-    {
-      "code": "hongyuan",
-      "company": "宏远创信",
-      "industry": "新能源",
-      "title": "网易新闻",
-      "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-      "url": "https://news.163.com/",
-      "source": "news.163.com",
       "date": "",
       "fetched_at": "2026-08-25",
       "score": 1.5,
