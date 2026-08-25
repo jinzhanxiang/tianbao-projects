@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-08-25T13:01:11+08:00",
+  "generated_at": "2026-08-25T13:13:47+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 10,
+  "total": 14,
   "by_industry": {
+    "高端制造": [
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳新材料科技集团有限公司2026年校园招聘公告 - 山西省 ...",
+        "summary": "2026年5月28日 · 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企业——阳煤集团整体更 …",
+        "url": "https://www.shanxi.gov.cn/zfxxgk/tzgg/202605/t20260528_10135776.shtml",
+        "source": "www.shanxi.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳新材料科技集团有限公司2026年校园招聘公告",
+        "summary": "2026年5月28日 · 2026年校园招聘公告 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企 …",
+        "url": "https://gzw.shanxi.gov.cn/xwfb/gqzp/202605/t20260528_10135374.shtml",
+        "source": "gzw.shanxi.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 5.5,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "华阳集团人力资源招聘系统",
+        "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+        "url": "https://zhaopin.ymjt.com.cn/",
+        "source": "zhaopin.ymjt.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      },
+      {
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年8月17日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
+      }
+    ],
     "新能源": [
       {
         "code": "hongyuan",
@@ -144,6 +198,58 @@
     ]
   },
   "items": [
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳新材料科技集团有限公司2026年校园招聘公告 - 山西省 ...",
+      "summary": "2026年5月28日 · 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企业——阳煤集团整体更 …",
+      "url": "https://www.shanxi.gov.cn/zfxxgk/tzgg/202605/t20260528_10135776.shtml",
+      "source": "www.shanxi.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳新材料科技集团有限公司2026年校园招聘公告",
+      "summary": "2026年5月28日 · 2026年校园招聘公告 华阳新材料科技集团，是勇担“在转型发展上率先蹚出一条新路来”历史使命，由世界500强企 …",
+      "url": "https://gzw.shanxi.gov.cn/xwfb/gqzp/202605/t20260528_10135374.shtml",
+      "source": "gzw.shanxi.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 5.5,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "华阳集团人力资源招聘系统",
+      "summary": "2026年6月17日 · 华阳集团成立于1950年1月7日，前身为阳泉矿务局，是全国最大的无烟煤生产供应商。 现有总资产2430亿元，二级 …",
+      "url": "https://zhaopin.ymjt.com.cn/",
+      "source": "zhaopin.ymjt.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "2026年8月17日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
+    },
     {
       "code": "hongyuan",
       "company": "宏远创信",
