@@ -1,23 +1,10 @@
 {
-  "generated_at": "2026-08-25T21:11:22+08:00",
+  "generated_at": "2026-08-25T21:25:29+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 12,
   "by_industry": {
     "高端制造": [
-      {
-        "code": "huayt",
-        "company": "华阳集团",
-        "industry": "高端制造",
-        "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
-        "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
-        "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
-        "source": "cj.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 5.5,
-        "query": "华阳 新闻 2026"
-      },
       {
         "code": "huayt",
         "company": "华阳集团",
@@ -35,10 +22,10 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
-        "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
-        "url": "https://finance.eastmoney.com/a/202604153706194839.html",
-        "source": "finance.eastmoney.com",
+        "title": "华阳村-青阳县人民政府",
+        "summary": "2026年6月9日 · 华阳村位于庙前镇东北部，坐落在九华山核心景区内，蓉十公路穿村而过，省道S211、S358以及S609贯通村域，区位 …",
+        "url": "https://www.ahqy.gov.cn/OpennessContent/show/645679.html",
+        "source": "www.ahqy.gov.cn",
         "date": "",
         "fetched_at": "2026-08-25",
         "score": 4.5,
@@ -48,68 +35,27 @@
         "code": "huayt",
         "company": "华阳集团",
         "industry": "高端制造",
-        "title": "华阳集团:2026年一季度净利润1.66亿元 同比增长6.61%_天天基金网",
-        "summary": "以4月24日收盘价计算,华阳集团目前市盈率(TTM)约为21.06倍,市净率(LF)约2.33倍,市销率(TTM)约1.22倍。.盈利能力方面, 2026年一季度公司加权平...",
-        "url": "https://fund.eastmoney.com/a/202604253718886956.html",
-        "source": "fund.eastmoney.com",
+        "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+        "summary": "2026年8月17日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+        "url": "https://www.foryougroup.com/",
+        "source": "www.foryougroup.com",
         "date": "",
         "fetched_at": "2026-08-25",
-        "score": 4.5,
+        "score": 3.0,
         "query": "华阳 新闻 2026"
-      }
-    ],
-    "半导体": [
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
-        "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
-        "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
-        "source": "caifuhao.eastmoney.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 3.5,
-        "query": "半导体 行业 政策 2026"
       },
       {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
-        "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
-        "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
-        "source": "www.askci.com",
+        "code": "huayt",
+        "company": "华阳集团",
+        "industry": "高端制造",
+        "title": "惠州华阳通用电子有限公司官方网站",
+        "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+        "url": "https://www.foryouge.com/",
+        "source": "www.foryouge.com",
         "date": "",
         "fetched_at": "2026-08-25",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年中国半导体设备行业分类、主要政策汇总及产业链分析",
-        "summary": "本文节选自华经产业研究院发布的《2026年中国半导体设备行业现状、竞争格局与未来发展趋势分析,国产化率持续提升「图」》,如需获取全文内容...",
-        "url": "https://www.360kuai.com/pc/92ca4722566e244a5?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
-        "source": "www.360kuai.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
-      },
-      {
-        "code": "jngd",
-        "company": "晶能光电",
-        "industry": "半导体",
-        "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
-        "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
-        "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
-        "source": "max.book118.com",
-        "date": "",
-        "fetched_at": "2026-08-25",
-        "score": 2.0,
-        "query": "半导体 行业 政策 2026"
+        "score": 3.0,
+        "query": "华阳 新闻 2026"
       }
     ],
     "AI智能": [
@@ -144,8 +90,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -157,8 +103,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianjings",
-        "company": "航天精工",
+        "code": "hangtianhongtu",
+        "company": "航天宏图",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -184,22 +130,50 @@
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
       }
+    ],
+    "REITS类资产": [
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "微信网页版FAQ",
+        "summary": "1) 在网页上点了退出登录，或关闭浏览器。 2) 较长时间没有操作时，网页版将会自动退出登录。 3) 在手机上点了退出网页版，或者手 …",
+        "url": "https://wx.qq.com/faq_webwx",
+        "source": "wx.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "WeChat網頁版",
+        "summary": "使用手機微信掃碼登錄 提示：WeChat網頁版要求使用瀏覽器Cookie以協助你登入，使網頁應用程式得以運作。 更多資訊 網頁版微信 …",
+        "url": "https://wx.qq.com/?lang=zh_TW",
+        "source": "wx.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "WeChat/Weixin for Web - 微信网页版",
+        "summary": "Tip: Web WeChat requires the use browser cookies to help you log in to allow the web application to function. More Infor",
+        "url": "https://wx.qq.com/?lang=en",
+        "source": "wx.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      }
     ]
   },
   "items": [
-    {
-      "code": "huayt",
-      "company": "华阳集团",
-      "industry": "高端制造",
-      "title": "华阳集团2026年一季度营收30.96亿元,同比增长24.37%__财经头条__新浪财经",
-      "summary": "时代财经AI快讯,4月24日,华阳集团(002906.SZ)发布公告,2026年一季度营业收入30.96亿元,同比增长24.37%;归属于.. AI快讯,4月24日,华阳集团(...",
-      "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567202001i4de",
-      "source": "cj.sina.com.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 5.5,
-      "query": "华阳 新闻 2026"
-    },
     {
       "code": "huayt",
       "company": "华阳集团",
@@ -217,10 +191,10 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "华阳集团:将于2026年4月25日披露2026年第一季度报告 _ 东方财富网",
-      "summary": "2026年4月15日 - 华阳集团在互动平台回答投资者提问时表示,公司将于2026年4月25日披露2026年第一季度报告,请关注。.原标题:华阳集团:将于2026年4月25日披露2026年第一...",
-      "url": "https://finance.eastmoney.com/a/202604153706194839.html",
-      "source": "finance.eastmoney.com",
+      "title": "华阳村-青阳县人民政府",
+      "summary": "2026年6月9日 · 华阳村位于庙前镇东北部，坐落在九华山核心景区内，蓉十公路穿村而过，省道S211、S358以及S609贯通村域，区位 …",
+      "url": "https://www.ahqy.gov.cn/OpennessContent/show/645679.html",
+      "source": "www.ahqy.gov.cn",
       "date": "",
       "fetched_at": "2026-08-25",
       "score": 4.5,
@@ -230,27 +204,27 @@
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
-      "title": "华阳集团:2026年一季度净利润1.66亿元 同比增长6.61%_天天基金网",
-      "summary": "以4月24日收盘价计算,华阳集团目前市盈率(TTM)约为21.06倍,市净率(LF)约2.33倍,市销率(TTM)约1.22倍。.盈利能力方面, 2026年一季度公司加权平...",
-      "url": "https://fund.eastmoney.com/a/202604253718886956.html",
-      "source": "fund.eastmoney.com",
+      "title": "惠州市华阳集团股份有限公司-汽车电子产品及零部件的系统 ...",
+      "summary": "2026年8月17日 · 其它 Sustainability 可持续发展 华阳集团将可持续发展融入战略核心，通过绿色技术创新、资源高效利用与低碳产业 …",
+      "url": "https://www.foryougroup.com/",
+      "source": "www.foryougroup.com",
       "date": "",
       "fetched_at": "2026-08-25",
-      "score": 4.5,
+      "score": 3.0,
       "query": "华阳 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年中国半导体行业政策梳理及上下游产业链全景分析_财富号_东方财富网",
-      "summary": "2026年7月8日 - 全球半导体贸易协会(WSTS)预测,2026年全球半导体行业市场规模将达到15112亿美元,同比增长89.9%.作为科技新质生产力的底层基座,国内半导体产业在政策支...",
-      "url": "https://caifuhao.eastmoney.com/news/20260708170113159887740",
-      "source": "caifuhao.eastmoney.com",
+      "code": "huayt",
+      "company": "华阳集团",
+      "industry": "高端制造",
+      "title": "惠州华阳通用电子有限公司官方网站",
+      "summary": "2026年7月2日 · 华阳通用致力于为客户提供智能座舱和辅助驾驶领域的产品及服务，主要包括信息娱乐、液晶仪表、屏显示、座舱域 …",
+      "url": "https://www.foryouge.com/",
+      "source": "www.foryouge.com",
       "date": "",
       "fetched_at": "2026-08-25",
-      "score": 3.5,
-      "query": "半导体 行业 政策 2026"
+      "score": 3.0,
+      "query": "华阳 新闻 2026"
     },
     {
       "code": "kexin",
@@ -266,45 +240,6 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年中国半导体材料行业最新政策汇总一览(表)-中商情报网",
-      "summary": "关于推动未来产业创新发展的实施意见》等一系列政策法规,为半导体材料行业企业经营发展营造了良好的政策环境。 资料来源:中商产业研究院整...",
-      "url": "https://www.askci.com/news/chanye/20260424/090948277699298800885657.shtml",
-      "source": "www.askci.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年中国半导体设备行业分类、主要政策汇总及产业链分析",
-      "summary": "本文节选自华经产业研究院发布的《2026年中国半导体设备行业现状、竞争格局与未来发展趋势分析,国产化率持续提升「图」》,如需获取全文内容...",
-      "url": "https://www.360kuai.com/pc/92ca4722566e244a5?cota=3&kuai_so=1&sign=360_57c3bbd1&refer_scene=so_1",
-      "source": "www.360kuai.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
-      "code": "jngd",
-      "company": "晶能光电",
-      "industry": "半导体",
-      "title": "2026年半导体材料行业政策解读报告-20260407094426.docx-原创力文档",
-      "summary": "本报告旨在解读2026年半导体材料行业政策,为相关企业和研究者提供参考。.二、政策对半导体材料行业的影响分析...",
-      "url": "https://max.book118.com/html/2026/0407/8001022024010061.shtm",
-      "source": "max.book118.com",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 2.0,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -318,8 +253,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -331,8 +266,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianjings",
-      "company": "航天精工",
+      "code": "hangtianhongtu",
+      "company": "航天宏图",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -355,6 +290,45 @@
       "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "微信网页版FAQ",
+      "summary": "1) 在网页上点了退出登录，或关闭浏览器。 2) 较长时间没有操作时，网页版将会自动退出登录。 3) 在手机上点了退出网页版，或者手 …",
+      "url": "https://wx.qq.com/faq_webwx",
+      "source": "wx.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "WeChat網頁版",
+      "summary": "使用手機微信掃碼登錄 提示：WeChat網頁版要求使用瀏覽器Cookie以協助你登入，使網頁應用程式得以運作。 更多資訊 網頁版微信 …",
+      "url": "https://wx.qq.com/?lang=zh_TW",
+      "source": "wx.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "WeChat/Weixin for Web - 微信网页版",
+      "summary": "Tip: Web WeChat requires the use browser cookies to help you log in to allow the web application to function. More Infor",
+      "url": "https://wx.qq.com/?lang=en",
+      "source": "wx.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
