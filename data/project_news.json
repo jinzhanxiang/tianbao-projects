@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T15:07:44+08:00",
+  "generated_at": "2026-08-25T15:20:45+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 13,
+  "total": 21,
   "by_industry": {
     "高端制造": [
       {
@@ -129,8 +129,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -142,8 +142,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -155,8 +155,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -170,6 +170,45 @@
     ],
     "其他行业": [
       {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "“国补”第三批资金已下达！以旧换新后续重点在哪？_中华人民 ...",
+        "summary": "2025年7月16日 · 根据国务院发布的《推动大规模设备更新和消费品以旧换新行动方案》，以旧换新主要涉及汽车、家电以及家装厨卫 …",
+        "url": "https://www.mee.gov.cn/zcwj/zclcfh/202507/t20250729_1124506.shtml",
+        "source": "www.mee.gov.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "国补恢复继续！中央1380亿专项资金将拨付，全国政策统一 ...",
+        "summary": "2025年6月23日 · 一、资金重启：1380亿中央补贴分批到位，7月开闸. 1. 剩余资金明确： - 2025年中央安排3000亿元超长期特别国债 …",
+        "url": "https://www.sohu.com/a/906947267_114822",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "国补政策2025恢复最新消息：国补暂停后第三批8月恢复开启 ...",
+        "summary": "2025年8月5日 · 国家发改委、财政部联合宣布：第三批 690 亿元国家消费补贴（俗称“国补”）已下拨，全国申领通道即日起全面重启， …",
+        "url": "https://www.163.com/dy/article/K66HME0K05502LPJ.html",
+        "source": "www.163.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "其他行业 行业 政策 2026"
+      },
+      {
         "code": "乘杜科技",
         "company": "乘杜科技",
         "industry": "其他行业",
@@ -181,6 +220,73 @@
         "fetched_at": "2026-08-25",
         "score": 1.5,
         "query": "其他行业 行业 政策 2026"
+      },
+      {
+        "code": "奥联电子",
+        "company": "奥联电子",
+        "industry": "其他行业",
+        "title": "官宣：国补将继续，1380亿元中央资金将分批下达_消费_家电 ...",
+        "summary": "2025年6月19日 · 商务部数据显示，截至5月31日，2025年消费品以旧换新5大品类合计带动销售额1.1万亿 元，发放直达消费者的补贴 …",
+        "url": "https://www.sohu.com/a/905859165_339916",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "其他行业 行业 政策 2026"
+      }
+    ],
+    "REITS类资产": [
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+        "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+        "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+        "source": "finance.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "“十五五”REITs政策解读与申报指南：哪些资产能报？怎么报 ...",
+        "summary": "2026年5月28日 · 对于已上市REITs的管理人： 上市满6个月后即可启动扩募申报。 积极通过跨区域、跨行业整合存量资产，做大做 …",
+        "url": "https://www.sohu.com/a/1048068692_121227303",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 2.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "REITs专栏 | 上海证券交易所",
+        "summary": "5 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "url": "https://www.sse.com.cn/reits/home/",
+        "source": "www.sse.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
+      },
+      {
+        "code": "联通云山西",
+        "company": "联通云山西",
+        "industry": "REITS类资产",
+        "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+        "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+        "url": "https://www.sohu.com/a/960605326_121140836",
+        "source": "www.sohu.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "REITS类资产 行业 政策 2026"
       }
     ]
   },
@@ -264,8 +370,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -275,6 +381,71 @@
       "fetched_at": "2026-08-25",
       "score": 2.5,
       "query": "低空航空 行业 政策 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "“国补”第三批资金已下达！以旧换新后续重点在哪？_中华人民 ...",
+      "summary": "2025年7月16日 · 根据国务院发布的《推动大规模设备更新和消费品以旧换新行动方案》，以旧换新主要涉及汽车、家电以及家装厨卫 …",
+      "url": "https://www.mee.gov.cn/zcwj/zclcfh/202507/t20250729_1124506.shtml",
+      "source": "www.mee.gov.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "国补恢复继续！中央1380亿专项资金将拨付，全国政策统一 ...",
+      "summary": "2025年6月23日 · 一、资金重启：1380亿中央补贴分批到位，7月开闸. 1. 剩余资金明确： - 2025年中央安排3000亿元超长期特别国债 …",
+      "url": "https://www.sohu.com/a/906947267_114822",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "国补政策2025恢复最新消息：国补暂停后第三批8月恢复开启 ...",
+      "summary": "2025年8月5日 · 国家发改委、财政部联合宣布：第三批 690 亿元国家消费补贴（俗称“国补”）已下拨，全国申领通道即日起全面重启， …",
+      "url": "https://www.163.com/dy/article/K66HME0K05502LPJ.html",
+      "source": "www.163.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "一文读懂公募REITs（概念、产品结构、现状及现行政策梳理 ...",
+      "summary": "2025年9月17日 · REITs，即 不动产投资信托基金 (Real Estate Investment Trusts)，是指向投资者发行收益凭证， 募集资金投资于不 …",
+      "url": "https://finance.sina.com.cn/roll/2025-09-17/doc-infqtywr2991148.shtml",
+      "source": "finance.sina.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "“十五五”REITs政策解读与申报指南：哪些资产能报？怎么报 ...",
+      "summary": "2026年5月28日 · 对于已上市REITs的管理人： 上市满6个月后即可启动扩募申报。 积极通过跨区域、跨行业整合存量资产，做大做 …",
+      "url": "https://www.sohu.com/a/1048068692_121227303",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 2.5,
+      "query": "REITS类资产 行业 政策 2026"
     },
     {
       "code": "hongyuan",
@@ -316,8 +487,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -329,8 +500,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -353,6 +524,45 @@
       "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "奥联电子",
+      "company": "奥联电子",
+      "industry": "其他行业",
+      "title": "官宣：国补将继续，1380亿元中央资金将分批下达_消费_家电 ...",
+      "summary": "2025年6月19日 · 商务部数据显示，截至5月31日，2025年消费品以旧换新5大品类合计带动销售额1.1万亿 元，发放直达消费者的补贴 …",
+      "url": "https://www.sohu.com/a/905859165_339916",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "REITs专栏 | 上海证券交易所",
+      "summary": "5 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "url": "https://www.sse.com.cn/reits/home/",
+      "source": "www.sse.com.cn",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
+    },
+    {
+      "code": "联通云山西",
+      "company": "联通云山西",
+      "industry": "REITS类资产",
+      "title": "一文读懂2025发改 REITs 新政:什么是 REITs？咋操作？有啥好？",
+      "summary": "2025年12月4日 · 很多人第一次听“REITs”会觉得抽象，其实用一句话就能说清：REITs（基础设施领域不动产投资信托基金）就是把收 …",
+      "url": "https://www.sohu.com/a/960605326_121140836",
+      "source": "www.sohu.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "REITS类资产 行业 政策 2026"
     }
   ]
 }
