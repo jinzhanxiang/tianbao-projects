@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T02:02:14+08:00",
+  "generated_at": "2026-08-26T07:17:18+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 16,
+  "total": 21,
   "by_industry": {
     "高端制造": [
       {
@@ -58,6 +58,60 @@
         "query": "华阳 新闻 2026"
       }
     ],
+    "生物医药": [
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械项目落地嘉定签约仪式成功举行_腾讯新闻",
+        "summary": "11月18日下午,国药器械项目落地嘉定签约仪式成功举办.国药控股股份有限公司党委委员、副总裁、中国医疗器械有限公司董事长李杨,中国医疗器械...",
+        "url": "https://news.qq.com/rain/a/20241119A0962100",
+        "source": "news.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-26",
+        "score": 5.5,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告丨光速招标海量免费标讯",
+        "summary": "2026年1月14日 - 国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告..中标公告重庆市合川区2026-01-14微信查看...",
+        "url": "https://www.guangsuzb.com/succeed_v_2011328649925414921.html",
+        "source": "www.guangsuzb.com",
+        "date": "",
+        "fetched_at": "2026-08-26",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械医药中标信息_知了标讯",
+        "summary": "2026年1月19日 - 知了标讯为您提供国药器械(山东)医药科技有限公司完善的历史中标信息,为您筛选展示包含中标类型,中标产品,项目地区等在内的详细采购信息。随时随地了...",
+        "url": "https://www.zhiliaobiaoxun.com/networkmap/b2/i480854429.html",
+        "source": "www.zhiliaobiaoxun.com",
+        "date": "",
+        "fetched_at": "2026-08-26",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      },
+      {
+        "code": "国药器械",
+        "company": "国药器械",
+        "industry": "生物医药",
+        "title": "国药器械安徽省医疗科技有限公司最新中标公告|招标网",
+        "summary": "2026年7月17日 - 招标网提供有关国药器械安徽省医疗科技有限公司的最新招标结果,每天实时更新中标信息,想了解国药器械安徽省医疗科技有限公司更多详细动态,精准匹配供...",
+        "url": "https://qy.zhaobiao.cn/enterprise_v_7607a263f5002598bf1613a43215c730_zhongbiao_1.html",
+        "source": "qy.zhaobiao.cn",
+        "date": "",
+        "fetched_at": "2026-08-26",
+        "score": 4.0,
+        "query": "\"国药器械\" 公告 签约 中标 投资"
+      }
+    ],
     "AI智能": [
       {
         "code": "kexin",
@@ -71,6 +125,60 @@
         "fetched_at": "2026-08-26",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
+      }
+    ],
+    "新能源": [
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新华网_让新闻离你更近",
+        "summary": "2026世界机器人大会：还在看机器人拳击赛？ 人工智能开始进入“蚂蚁搭桥”的合作时刻 世界机器人大会现场：看捷昌驱动核心部件如 …",
+        "url": "https://www.xinhuanet.com/",
+        "source": "www.xinhuanet.com",
+        "date": "",
+        "fetched_at": "2026-08-26",
+        "score": 2.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻中心首页_新浪网",
+        "summary": "2023年8月5日 · 新浪乒乓球： #国乒WTT中国大满贯名单##WTT [超话]# WTT中国大满贯中国队参赛名 新浪NBA： #杨瀚森新赛季主 …",
+        "url": "https://news.sina.com.cn/",
+        "source": "news.sina.com.cn",
+        "date": "",
+        "fetched_at": "2026-08-26",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "新闻频道_央视网 (cctv.com)",
+        "summary": "从生产到研发，外资企业拥抱中国“指数级”机遇 商务部数据显示，今年前7个月，全国新设立外商投资企业37711家，同比增长4.4%， …",
+        "url": "https://news.cctv.com/",
+        "source": "news.cctv.com",
+        "date": "",
+        "fetched_at": "2026-08-26",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
+      },
+      {
+        "code": "hongyuan",
+        "company": "宏远创信",
+        "industry": "新能源",
+        "title": "网易新闻",
+        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
+        "url": "https://news.163.com/",
+        "source": "news.163.com",
+        "date": "",
+        "fetched_at": "2026-08-26",
+        "score": 1.5,
+        "query": "新能源 行业 政策 2026"
       }
     ],
     "低空航空": [
@@ -133,7 +241,7 @@
         "company": "联通云山西",
         "industry": "REITS类资产",
         "title": "REITs专栏 | 上海证券交易所",
-        "summary": "5 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+        "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
         "url": "https://www.sse.com.cn/reits/home/",
         "source": "www.sse.com.cn",
         "date": "",
@@ -168,47 +276,6 @@
         "query": "REITS类资产 行业 政策 2026"
       }
     ],
-    "新能源": [
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新闻中心首页_新浪网",
-        "summary": "2023年8月5日 · [新品] 朝阳奶西新盘 御林湾营销中心正式开放 [追地] 13.54亿元！ 中建方程+中建智地竞得丰 [测评] 北京——京熙润府 …",
-        "url": "https://news.sina.com.cn/",
-        "source": "news.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-26",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "新浪首页",
-        "summary": "红色之旅 体验试驾2015款红旗H7 全新昂科拉运动版 动力提升 奔驰发布改进版B/CLA/GLA 新奔驰AMG E63 S假想图 新R8将搭载5.2L …",
-        "url": "https://www.sina.com.cn/temp/",
-        "source": "www.sina.com.cn",
-        "date": "",
-        "fetched_at": "2026-08-26",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      },
-      {
-        "code": "hongyuan",
-        "company": "宏远创信",
-        "industry": "新能源",
-        "title": "网易新闻",
-        "summary": "1 天前 · 长城H10即将预售 魏建军全网征集发布会举办城市 理想纯电旗舰i9官宣 9系旗舰再添新车 新一代理想L6即将发布 李想:L6将成 …",
-        "url": "https://news.163.com/",
-        "source": "news.163.com",
-        "date": "",
-        "fetched_at": "2026-08-26",
-        "score": 1.5,
-        "query": "新能源 行业 政策 2026"
-      }
-    ],
     "其他行业": [
       {
         "code": "乘杜科技",
@@ -240,6 +307,19 @@
       "query": "华阳 新闻 2026"
     },
     {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械项目落地嘉定签约仪式成功举行_腾讯新闻",
+      "summary": "11月18日下午,国药器械项目落地嘉定签约仪式成功举办.国药控股股份有限公司党委委员、副总裁、中国医疗器械有限公司董事长李杨,中国医疗器械...",
+      "url": "https://news.qq.com/rain/a/20241119A0962100",
+      "source": "news.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-26",
+      "score": 5.5,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
       "code": "huayt",
       "company": "华阳集团",
       "industry": "高端制造",
@@ -251,6 +331,45 @@
       "fetched_at": "2026-08-26",
       "score": 4.5,
       "query": "华阳 新闻 2026"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告丨光速招标海量免费标讯",
+      "summary": "2026年1月14日 - 国药器械(重庆)科技发展有限公司合川区医联(共)体医药物资数字化供应链项目中标结果公告..中标公告重庆市合川区2026-01-14微信查看...",
+      "url": "https://www.guangsuzb.com/succeed_v_2011328649925414921.html",
+      "source": "www.guangsuzb.com",
+      "date": "",
+      "fetched_at": "2026-08-26",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械医药中标信息_知了标讯",
+      "summary": "2026年1月19日 - 知了标讯为您提供国药器械(山东)医药科技有限公司完善的历史中标信息,为您筛选展示包含中标类型,中标产品,项目地区等在内的详细采购信息。随时随地了...",
+      "url": "https://www.zhiliaobiaoxun.com/networkmap/b2/i480854429.html",
+      "source": "www.zhiliaobiaoxun.com",
+      "date": "",
+      "fetched_at": "2026-08-26",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
+    },
+    {
+      "code": "国药器械",
+      "company": "国药器械",
+      "industry": "生物医药",
+      "title": "国药器械安徽省医疗科技有限公司最新中标公告|招标网",
+      "summary": "2026年7月17日 - 招标网提供有关国药器械安徽省医疗科技有限公司的最新招标结果,每天实时更新中标信息,想了解国药器械安徽省医疗科技有限公司更多详细动态,精准匹配供...",
+      "url": "https://qy.zhaobiao.cn/enterprise_v_7607a263f5002598bf1613a43215c730_zhongbiao_1.html",
+      "source": "qy.zhaobiao.cn",
+      "date": "",
+      "fetched_at": "2026-08-26",
+      "score": 4.0,
+      "query": "\"国药器械\" 公告 签约 中标 投资"
     },
     {
       "code": "huayt",
@@ -292,6 +411,19 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
+      "code": "hongyuan",
+      "company": "宏远创信",
+      "industry": "新能源",
+      "title": "新华网_让新闻离你更近",
+      "summary": "2026世界机器人大会：还在看机器人拳击赛？ 人工智能开始进入“蚂蚁搭桥”的合作时刻 世界机器人大会现场：看捷昌驱动核心部件如 …",
+      "url": "https://www.xinhuanet.com/",
+      "source": "www.xinhuanet.com",
+      "date": "",
+      "fetched_at": "2026-08-26",
+      "score": 2.5,
+      "query": "新能源 行业 政策 2026"
+    },
+    {
       "code": "hangtianjings",
       "company": "航天精工",
       "industry": "低空航空",
@@ -322,7 +454,7 @@
       "company": "宏远创信",
       "industry": "新能源",
       "title": "新闻中心首页_新浪网",
-      "summary": "2023年8月5日 · [新品] 朝阳奶西新盘 御林湾营销中心正式开放 [追地] 13.54亿元！ 中建方程+中建智地竞得丰 [测评] 北京——京熙润府 …",
+      "summary": "2023年8月5日 · 新浪乒乓球： #国乒WTT中国大满贯名单##WTT [超话]# WTT中国大满贯中国队参赛名 新浪NBA： #杨瀚森新赛季主 …",
       "url": "https://news.sina.com.cn/",
       "source": "news.sina.com.cn",
       "date": "",
@@ -334,10 +466,10 @@
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
-      "title": "新浪首页",
-      "summary": "红色之旅 体验试驾2015款红旗H7 全新昂科拉运动版 动力提升 奔驰发布改进版B/CLA/GLA 新奔驰AMG E63 S假想图 新R8将搭载5.2L …",
-      "url": "https://www.sina.com.cn/temp/",
-      "source": "www.sina.com.cn",
+      "title": "新闻频道_央视网 (cctv.com)",
+      "summary": "从生产到研发，外资企业拥抱中国“指数级”机遇 商务部数据显示，今年前7个月，全国新设立外商投资企业37711家，同比增长4.4%， …",
+      "url": "https://news.cctv.com/",
+      "source": "news.cctv.com",
       "date": "",
       "fetched_at": "2026-08-26",
       "score": 1.5,
@@ -400,7 +532,7 @@
       "company": "联通云山西",
       "industry": "REITS类资产",
       "title": "REITs专栏 | 上海证券交易所",
-      "summary": "5 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
+      "summary": "4 天之前 · 我国公开募集不动产投资信托基金（以下简称公募REITs）是指依法向社会投资者公开募集资金形成基金财产，通过资产支 …",
       "url": "https://www.sse.com.cn/reits/home/",
       "source": "www.sse.com.cn",
       "date": "",
