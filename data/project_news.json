@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T18:15:19+08:00",
+  "generated_at": "2026-08-25T18:28:35+08:00",
   "source": "SearXNG :8083 · 公司名 + 行业关键词双查询 · 打分去重",
   "note": "每日自动抓取。项目库新增公司后，下次运行自动纳入。数据以官方公告为准。",
-  "total": 14,
+  "total": 17,
   "by_industry": {
     "高端制造": [
       {
@@ -71,21 +71,58 @@
         "fetched_at": "2026-08-25",
         "score": 3.0,
         "query": "可信数据空间 新闻 2026"
-      }
-    ],
-    "半导体": [
+      },
       {
-        "code": "innoshine",
-        "company": "元旭半导体",
-        "industry": "半导体",
-        "title": "半导体产业研究报告 - ssf.gov.cn",
-        "summary": "2018年10月31日 · 早期的半导体行业只有垂直整合模式(Integrated Device Manufacture ,简称IDM),由一家企业独立负责半导体产品的 …",
-        "url": "https://www.ssf.gov.cn/portal/rootfile/P020181031558719418004.pdf",
-        "source": "www.ssf.gov.cn",
+        "code": "汇天网络科技",
+        "company": "汇天网络科技",
+        "industry": "AI智能",
+        "title": "微信开放文档 / 开发",
+        "summary": "4 天之前 · 微信公众平台，是运营者通过 服务号 为微信用户提供资讯和服务的平台。 开发者在微信公众平台中创建服务号账号、在微 …",
+        "url": "https://developers.weixin.qq.com/doc/service/guide/",
+        "source": "developers.weixin.qq.com",
         "date": "",
         "fetched_at": "2026-08-25",
-        "score": 2.5,
-        "query": "半导体 行业 政策 2026"
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "汇天网络科技",
+        "company": "汇天网络科技",
+        "industry": "AI智能",
+        "title": "微信公众平台客服功能网页版 - QQ",
+        "summary": "登录超时 登录态超时，请 重新登录",
+        "url": "https://mpkf.weixin.qq.com/cgi-bin/kfindex",
+        "source": "mpkf.weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "汇天网络科技",
+        "company": "汇天网络科技",
+        "industry": "AI智能",
+        "title": "Weixin Official Accounts Platform - 微信公众平台",
+        "summary": "Provides media and individuals a new way to post stories and information, innovating author-reader interaction and conte",
+        "url": "https://mp.weixin.qq.com/cgi-bin/loginpage?t=wxm2-login&lang=en_US",
+        "source": "mp.weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
+      },
+      {
+        "code": "汇天网络科技",
+        "company": "汇天网络科技",
+        "industry": "AI智能",
+        "title": "微信开发者平台 - 小程序/公众号/微信小店一站式开发管理工作台",
+        "summary": "微信官方开发者一站式工作台，统一管理小程序、公众号、微信小店、开放平台等微信生态账号，提供成员权限、账号绑定、开发配置 …",
+        "url": "https://developers.weixin.qq.com/platform",
+        "source": "developers.weixin.qq.com",
+        "date": "",
+        "fetched_at": "2026-08-25",
+        "score": 1.5,
+        "query": "AI智能 行业 政策 2026"
       }
     ],
     "新能源": [
@@ -144,8 +181,8 @@
     ],
     "低空航空": [
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
         "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -157,8 +194,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "低空司-国家发展和改革委员会",
         "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -170,8 +207,8 @@
         "query": "低空航空 行业 政策 2026"
       },
       {
-        "code": "hangtianhongtu",
-        "company": "航天宏图",
+        "code": "hangtianjings",
+        "company": "航天精工",
         "industry": "低空航空",
         "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
         "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -266,19 +303,6 @@
       "query": "可信数据空间 新闻 2026"
     },
     {
-      "code": "innoshine",
-      "company": "元旭半导体",
-      "industry": "半导体",
-      "title": "半导体产业研究报告 - ssf.gov.cn",
-      "summary": "2018年10月31日 · 早期的半导体行业只有垂直整合模式(Integrated Device Manufacture ,简称IDM),由一家企业独立负责半导体产品的 …",
-      "url": "https://www.ssf.gov.cn/portal/rootfile/P020181031558719418004.pdf",
-      "source": "www.ssf.gov.cn",
-      "date": "",
-      "fetched_at": "2026-08-25",
-      "score": 2.5,
-      "query": "半导体 行业 政策 2026"
-    },
-    {
       "code": "hongyuan",
       "company": "宏远创信",
       "industry": "新能源",
@@ -305,8 +329,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "市场监管总局等部门关于印发《低空经济标准体系建设指南 ...",
       "summary": "2025年12月11日 · 近日市场监管总局会同中央空管办、国家发展改革委等十部门联合发布《低空经济标准体系建设指南（2025年版） …",
@@ -344,8 +368,8 @@
       "query": "新能源 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "低空司-国家发展和改革委员会",
       "summary": "2025年2月19日 · 发展低空经济是以习近平同志为核心的党中央作出的战略部署。 低空经济发展司是负责拟订并组织实施低空经济发展 …",
@@ -357,8 +381,8 @@
       "query": "低空航空 行业 政策 2026"
     },
     {
-      "code": "hangtianhongtu",
-      "company": "航天宏图",
+      "code": "hangtianjings",
+      "company": "航天精工",
       "industry": "低空航空",
       "title": "首次写入政府工作报告——“低空经济”加速起飞__中国政府网",
       "summary": "2024年4月2日 · “低空经济”在今年全国两会首次写入政府工作报告。 近日，工业和信息化部、科学技术部、财政部、中国民用航空局 …",
@@ -381,6 +405,58 @@
       "fetched_at": "2026-08-25",
       "score": 1.5,
       "query": "其他行业 行业 政策 2026"
+    },
+    {
+      "code": "汇天网络科技",
+      "company": "汇天网络科技",
+      "industry": "AI智能",
+      "title": "微信开放文档 / 开发",
+      "summary": "4 天之前 · 微信公众平台，是运营者通过 服务号 为微信用户提供资讯和服务的平台。 开发者在微信公众平台中创建服务号账号、在微 …",
+      "url": "https://developers.weixin.qq.com/doc/service/guide/",
+      "source": "developers.weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "汇天网络科技",
+      "company": "汇天网络科技",
+      "industry": "AI智能",
+      "title": "微信公众平台客服功能网页版 - QQ",
+      "summary": "登录超时 登录态超时，请 重新登录",
+      "url": "https://mpkf.weixin.qq.com/cgi-bin/kfindex",
+      "source": "mpkf.weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "汇天网络科技",
+      "company": "汇天网络科技",
+      "industry": "AI智能",
+      "title": "Weixin Official Accounts Platform - 微信公众平台",
+      "summary": "Provides media and individuals a new way to post stories and information, innovating author-reader interaction and conte",
+      "url": "https://mp.weixin.qq.com/cgi-bin/loginpage?t=wxm2-login&lang=en_US",
+      "source": "mp.weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
+    },
+    {
+      "code": "汇天网络科技",
+      "company": "汇天网络科技",
+      "industry": "AI智能",
+      "title": "微信开发者平台 - 小程序/公众号/微信小店一站式开发管理工作台",
+      "summary": "微信官方开发者一站式工作台，统一管理小程序、公众号、微信小店、开放平台等微信生态账号，提供成员权限、账号绑定、开发配置 …",
+      "url": "https://developers.weixin.qq.com/platform",
+      "source": "developers.weixin.qq.com",
+      "date": "",
+      "fetched_at": "2026-08-25",
+      "score": 1.5,
+      "query": "AI智能 行业 政策 2026"
     }
   ]
 }
